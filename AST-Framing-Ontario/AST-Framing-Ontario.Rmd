@@ -61,6 +61,107 @@ As of 2021, OAST continues its work by providing resources for interested stakeh
 
 ## Procedure
 
+### Approach to collecting data 
+
+There are three folders containing pdf documents from corresponding sources, consortiums, municipalities/regions, and school boards. Docurments are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. Unique criteria was used for each source type to determine eligibility of documents. For all sources, however, it was important that webpages were fairly easy to find as the analysis pretains to how such issues are framed to the public.'Fairly easy' means webpages that are required several steps of search or navigation to find. 
+
+To start a list of all school boards in Ontario and their associated consortium and municipalitiy/region is created. This list is used as a guide and dictate the the search.   
+
+School boards generally will have a single page for transportation so documents were sourced from those pages regardless in mentioned STP or AST. In cases were both AST and STP are mentioned both those pages are included. 
+Municipalities/regions would have often time pages about transportation that involved the service it provided which is not relevent to our analysis. Only pages specifically dicussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municpalities/regions 
+
+Consortiums are deicated transportation pages that primarly focus of providing the school bussing service to families. For this group it was determined that only relevent pages specifically relating to AST or STP would be included. 
+
+**NOTE: Current version of the code converts 1 file containing pdf doccuments at a time**
+
+### Import packages 
+
+```{r}
+library(tm)
+library(readr)
+library(tools)
+```
+
+
+### Searchable pdf files to txt conversion 
+
+```{r}
+# Files must be pdf for this code to properlly detect and convert 
+
+# IMPORTANT: Change the code below based on where the documents are store locally on your computer
+pdfLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Consortium" 
+txtLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Consortium txt" 
+
+# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above 
+fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
+filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
+n <- 1 
+
+for (address in filePath)
+{
+doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
+test <- doc$content
+# "file_path_sans_ext(basename())" from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
+# use of 'sep = ""' argument is important to prevent the addition of spaces, which is the default for the paste function 
+newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
+write(test, file = newFile)
+print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
+assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
+n <- n+1
+}
+```
+
+### Creating data frame of texts 
+
+```{r}
+# This loop creates a vector of the texts
+
+text <- vector()
+doc_id <- c(2:n-1)
+
+for (i in seq(1, n-1, 1))
+{
+text[i] <- eval(parse(text = paste("text", i, sep = "")))
+}
+
+# Turns vector into data frame 
+# doc_id and text are required fields for creation of a corpus, additional fields may be included in data frame ,it will however be treated as metadata by the corpus 
+
+textDF <- data.frame(doc_id, text)
+```
+
+### Conversion of data frame to corpus 
+
+```{r}
+df_source <- DataframeSource(textDF)
+corpus <- VCorpus(df_source)
+# Example 
+content(corpus[[1]])
+```
+
+### Corpus cleaning 
+
+```{r}
+corpus <- tm_map(corpus, stripWhitespace)
+corpus <- tm_map(corpus, content_transformer(tolower))
+corpus <- tm_map(corpus, removePunctuation)
+corpus <- tm_map(corpus, removeWords, stopwords("english"))
+#corpus <- tm_map(corpus, removeNumbers)
+
+# Example
+content(corpus[[1]])
+```
+
+### Term Document Matrix & Document Term Matrix
+
+```{r}
+TDM <- TermDocumentMatrix(corpus)
+DTM <- DocumentTermMatrix(corpus)
+matrix1 <- as.matrix(TDM)
+matrix2 <- as.matrix(DTM)
+```
+
+
 ## Data Analysis
 
 # Results
