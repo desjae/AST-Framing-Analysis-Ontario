@@ -45,7 +45,8 @@ Several recent reviews offer a comprehensive synopsis of the state of active sch
 
 Furthermore, AST is one of the most common opportunities for children to travel without adult supervision on a regular basis. CIM was first described by Hillman et al. [-@hillmanOneFalseMove1990] as the freedom of children to travel and play within their neighborhood and city without the presence of adults. Similar to AST, children's independent mobility (CIM) is much less common than it was for previous generations [@bhosaleIntergenerationalChangeChildren2017], and is influenced by related personal and environmental factors [@marziChildrenIndependentMobility2018]. CIM is particularly important for different domains of children's health and wellbeing [@riaziChildrenIndependentMobility2018]. There is also sufficient evidence in the literature linking the association between AST and CIM [@laroucheRelationshipsChildrenIndependent2020; @mitraIndependentMobilityMode2013], particularly in boys [@schoeppeAssociationsChildrenIndependent2014]. The gender disparity has also been noted in other papers regarding CIM [@marziSocialPhysicalEnvironmental2018; @marziInterventionsAimingPromote2020] with recommendations being made for interventions to specifically target girls to boost their mobility within their neighborhood [@schoeppeSociodemographicFactorsNeighbourhood2015]. CIM offers other benefits to adolescents such as increasing traffic and safety skills, boosting spatial awareness when navigating public spaces, and providing more opportunity for social interaction with peers [@schoeppeAssociationsChildrenIndependent2014]. What is less clear is how CIM plays into the consideration of policymakers when they act on the objective of improving AST. 
 
-In the case of Canada... _review a few prominent Canadian studies on AST and CIM in more detail: Riazi et al., 2019; Mammen et al., 2012 & 2014; Rothman et al., 2021_
+In the case of Canada, Riazi found that location, specifically concentration of population, was the stronger correlate to CIM even after accounting for the influence of gender. However whereas European countries have a positive correlation between population density and impendence level (Masoumi, 2020), Canadian cities saw the inverse effect with more dense cities such as Ottawa and Vancouver rating much lower in CIM than Trois-Rivieres, a small city between Quebec City and Montreal. Riazi's team is quick to note that such differences in the Canadian context could be a results of the multicultural diversity in large Canadian cities and thus are sites of very differing social and cultural norms influence the CIM findings. (Missing Reference.bib citations)
+_review a few prominent Canadian studies on AST and CIM in more detail: Riazi et al., 2019; Mammen et al., 2012 & 2014; Rothman et al., 2021_
 
 The correlates and effective interventions of AST and CIM are important knowledge for policymakers because they identify points of intervention, as well as potential benefits, that ought to be communicated to the public to build support for new planning paradigms. Framing analysis is one method to analyze how particular issues are framed to groups of people, for instance parents or educators who might be inclined to support AST. It attempts to understand how information presented from a "communicator" leads the "receiver" to a desired response [@reynardGrowthResilienceHow2021]. In Reynard et al., [-@reynardGrowthResilienceHow2021] framing analysis was applied to review municipal policies addressing climate change in four western Canadian cities. The authors determined that most issues are framed favoring merely a tinkering of the status quo as opposed to pushing for real change. The way these policy issues are framed is important to understand because it plays a role in either altering or preserving the existing social perceptions. In the case of AST and CIM in Canada, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] state: "it will be vital for interventions to target modifiable factors, including children's and parents' perceptions of their social environment." Parents play the important role of "gatekeeper" by either granting or restricting CIM licenses, meaning whether children can travel alone [@sharminAssociationBuiltEnvironment2017]. Framing is also important because both walking and cycling are often targeted together, whereas evidence shows that distinct interventions should target each separately [see @helbichChildrenSchoolCommuting2017], which has implications for how municipalities and schools aim to address this issue. For these reasons, the framing of active school travel should be explored and considered given its potential to influence and incentivize behaviour change.
 
@@ -144,9 +145,15 @@ content(corpus[[1]])
 ```{r}
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
+
+# Words can also be removed manually by creating a vector of strings 
+#NAwords <- c("school", "transportation", "can", "use", "active")
+#corpus <- tm_map(corpus, removeWords, NAwords)
+#corpus <- tm_map(corpus, removeNumbers)
+
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
-#corpus <- tm_map(corpus, removeNumbers)
+
 
 # Example
 content(corpus[[1]])
