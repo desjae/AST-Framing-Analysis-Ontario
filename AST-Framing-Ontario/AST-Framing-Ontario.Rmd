@@ -1,45 +1,67 @@
 ---
 title: What about children's wellbeing? Framing active school travel in Ontario, Canada
 author:
-  # see ?rjournal_article for more information
-  - name: Elise Desjardins
-    affiliation: School of Earth, Environment & Society, McMaster University
-    address:
-    - 1280 Main Street West, Hamilton, ON L8S 4L8
-    email: desjae@mcmaster.ca
-  - name: Jason Lam
-    email: lamj54@mcmaster.ca
-    affiliation: Affiliation 1
-    address:
-    - line 1 affiliation 1
-  - name: Owen Waygood
-    affiliation: University Polytechnique de Montreal
-    email: owen.waygood@polymtl.ca
-    address:
-    - Montreal, QC
-  - name: Antonio Paez
-    email: paezha@mcmaster.ca
-    affiliation: Affiliation 1
-    address:
-    - line 1 affiliation
-abstract: >
-  An abstract of less than 200 words.
-preamble: |
-  % Any extra LaTeX you need in the preamble
+  - name: Author 1
+    email: author1@example.com
+    affiliation: Some Department
+    footnote: 1
+  - name: Author 2
+    email: author2@example.com
+    affiliation: Some Department
+  - name: Author 3
+    email: author3@example.com
+    affiliation: Another University
+    footnote: 2
+  - name: Author 4
+    email: author4@example.com
+    affiliation: Some Institute
+    footnote: 2
+  - name: Author 5
+    email: author5@example.com
+    affiliation: Some University
+  - name: Author 6
+    email: author6@example.com
+    affiliation: Some Department
+address:
+  - code: Some Department
+    address: Department, Street, City, Province, Postal Code
+  - code: Another University
+    address: Department, Street, City, Province, Postal Code
+  - code: Some Institute
+    address: Street, City, Province, Postal Code
+  - code: Some University
+    address: Department, Street, City, Province, Postal Code
+footnote:
+  - code: 1
+    text: "Corresponding Author"
+  - code: 2
+    text: "Equal contribution"
+abstract: |
+  This is the abstract.
 
-journal: "Journal of School Health"
+  It consists of two paragraphs.
+
+journal: "Journal of Transport & Health"
 date: "`r Sys.Date()`"
-bibliography: References.bib
+bibliography: mybibfile.bib
 #linenumbers: true
 #numbersections: true
-output: rticles::rjournal_article
+csl: elsevier-harvard.csl
+output: rticles::elsevier_article
 ---
 
-# Background 
+```{r, include=FALSE}
+library(tm)
+library(readr)
+library(tools)
+```
 
-Walking and cycling to school, commonly known as active school travel or active school transportation (AST) has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. This trend has prompted an abundance of worlwide research over the past two decades to examine why fewer children are walking and cycling to school, what influences AST, and the associated implications for children's health. Many studies have been specific to Canada [*inter alia*, see: @buliungActiveSchoolTransportation2009; @faulknerSchoolTravelChildren2013; @mammenUnderstandingDriveEscort2012; @mammenSchoolTravelPlanning2014; @rothmanActiveSchoolTransportation2021; @wilsonUnderstandingChildParent2018] which aligns with and informs a growing interest in increasing active school travel levels. Indeed, a diversity of stakeholders responsible for transportation, public health, and education are collaborating and spearheading efforts to get more children walking and cycling. Promoting AST is seen as an affordable, convenient, and environmentally friendly way to enhance the mental, physical, and psychological health of children [@mammenSchoolTravelPlanning2014]. These goals should be clearly articulated and reflected in transportation plans and policies to guide initiatives, but there is research lacking that specifically explores how Canadian municipalities and schools frame and discuss AST with the public. 
+1. Background
+===============
 
-## Literature Review
+Walking and cycling to school, commonly known as active school travel or active school transportation (AST) has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. This trend has prompted an abundance of worlwide research over the past two decades to examine why fewer children are walking and cycling to school, what influences AST, and the associated implications for children's health. Many studies have been specific to Canada [e.g., see: @buliungActiveSchoolTransportation2009; @faulknerSchoolTravelChildren2013; @mammenUnderstandingDriveEscort2012; @mammenSchoolTravelPlanning2014; @rothmanActiveSchoolTransportation2021; @wilsonUnderstandingChildParent2018] which aligns with and informs a growing interest in increasing active school travel levels. Indeed, a diversity of stakeholders responsible for transportation, public health, and education are collaborating and spearheading efforts to get more children walking and cycling. Promoting AST is seen as an affordable, convenient, and environmentally friendly way to enhance the mental, physical, and psychological health of children [@mammenSchoolTravelPlanning2014]. These goals should be clearly articulated and reflected in transportation plans and policies to guide initiatives, but there is research lacking that specifically explores how Canadian municipalities and schools frame and discuss AST with the public. 
+
+## 1.1. Literature Review
 
 Several recent reviews offer a comprehensive synopsis of the state of active school travel [@ikedaAssociationsChildrenActive2018; @rothmanDeclineActiveSchool2018; @schoeppeAssociationsChildrenIndependent2013], while others assess the efficacy of interventions and strategies that have been implemented to encourage and support AST [@buttazzoniActiveSchoolTravel2018; @chillonSystematicReviewInterventions2011; @jonesInterventionsPromotingActive2019; @laroucheEffectivenessActiveSchool2018; @marziInterventionsAimingPromote2020; @schonbachStrategiesEffectsSchoolbased2020]. Many patterns emerge from studies within and between countries with respect to the factors that are positively associated with AST. These factors broadly fall into distinct categories: individual, household, social environment, and physical environment. Among the most influential are age, gender, distance to school, parental perceptions of the environment [@demeesterParentalPerceivedNeighborhood2014] and children's skills [@ghekiereInsightsChildrenIndependent2017], quality of the built environment, and urban infrastructure. The consensus is that these factors are interrelated and that interventions ought to target multiple factors in order to increase walking and cycling levels to school. More recently, researchers have been exploring the link between transportation and children's wellbeing [@waygoodTransportChildrenWellbeing2020], which has relevant applications to the study of school travel and satisfaction [see @vandenbergFactorsAffectingParental2020] among others. 
 
@@ -51,37 +73,27 @@ The correlates and effective interventions of AST and CIM are important knowledg
 
 The aim of this paper is to consider how AST, STP, and CIM are framed in the province of Ontario in Canada by varying stakeholders involved in these initiatives. Specifically, municipal governments, public health units, transportation consortium, and school boards who work together to promote active school travel. _Describe in further detail once procedure for analysis is conceptualized_
 
-## Case Study: Ontario, Canada
+## 1.2. Case Study: Ontario, Canada
 
 In Ontario, active school travel initiatives spread across the province by the 2000s [@ontarioactiveschooltravel] and were attempted by individual schools independent of a coordinated movement. Such one-off efforts, particularly those targeting education or promotional initiatives, may only prove to provide AST in the short term [@chillonSystematicReviewInterventions2011]. At about the same time, a concept called School Travel Planning (STP) was developed in the United Kingdom [@greencommunities2007]. STP offered an opportunity for key local stakeholders such as schools, school boards, and municipalities to make tangible changes to both the social and physical environment to encourage AST among their students that can be sustained in the long term. However, it was not until 2007-2009 that Green Communities Canada (GCC), a non-profit organization, began adapting and delivering a universal STP framework. This initiative followed their publication on the _Review of International School Travel Planning Best Practices_ in 2007, which included the initial pilot in the United Kingdom, and others in New Zealand, Australia, and United States. Under GCC’s framework, a Canadian pilot intervention was trialed at twelve schools across four provinces [@buliungSchoolTravelPlanning2011a]. The results of the pilot convinced the government of the Province of Ontario to issue a grant which culminated in the development of the program _Ontario Active School Travel_ (OAST), formerly known as Active & Safe Routes to School, headed by GCC. 
 
 As of 2021, OAST continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipalities/regions, and regional transportation consortiums. The latter is a unique group of entities sanctioned by the Ontario Ministry of Education in 2006. These entities are a collaboration between regions and school boards whose objective is to deliver more efficient and effective transportation services to its area [@ministryeducation2006].
 
-# Methods
+2. Methods
+===============
 
-## Procedure
+## 2.1. Procedure
 
-### Approach to collecting data 
+There are three folders containing pdf documents from corresponding sources, consortiums, municipalities/regions, and school boards. Documents are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. Unique criteria was used for each source type to determine eligibility of documents. For all sources, however, it was important that web pages were fairly easy to find as the analysis pertains to how such issues are framed to the public.'Fairly easy' means web pages that are required several steps of search or navigation to find. 
 
-There are three folders containing pdf documents from corresponding sources, consortiums, municipalities/regions, and school boards. Docurments are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. Unique criteria was used for each source type to determine eligibility of documents. For all sources, however, it was important that webpages were fairly easy to find as the analysis pretains to how such issues are framed to the public.'Fairly easy' means webpages that are required several steps of search or navigation to find. 
-
-To start a list of all school boards in Ontario and their associated consortium and municipalitiy/region is created. This list is used as a guide and dictate the the search.   
+To start a list of all school boards in Ontario and their associated consortium and municipality/region is created. This list is used as a guide and dictate the the search.   
 
 School boards generally will have a single page for transportation so documents were sourced from those pages regardless in mentioned STP or AST. In cases were both AST and STP are mentioned both those pages are included. 
-Municipalities/regions would have often time pages about transportation that involved the service it provided which is not relevent to our analysis. Only pages specifically dicussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municpalities/regions 
+Municipalities/regions would have often time pages about transportation that involved the service it provided which is not relevant to our analysis. Only pages specifically dicussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municipalities/regions 
 
-Consortiums are deicated transportation pages that primarly focus of providing the school bussing service to families. For this group it was determined that only relevent pages specifically relating to AST or STP would be included. 
+Consortiums are dedicated transportation pages that primarily focus of providing the school busing service to families. For this group it was determined that only relevant pages specifically relating to AST or STP would be included. 
 
 **NOTE: Current version of the code converts 1 file containing pdf doccuments at a time**
-
-### Import packages 
-
-```{r}
-library(tm)
-library(readr)
-library(tools)
-```
-
 
 ### Searchable pdf files to txt conversion 
 
@@ -161,17 +173,22 @@ matrix1 <- as.matrix(TDM)
 matrix2 <- as.matrix(DTM)
 ```
 
+## 2.2. Data Analysis
 
-## Data Analysis
+3. Results
+===============
 
-# Results
+4. Discussion
+===============
 
-# Discussion
+# 4.1. Implications for School Travel Planning
 
-## Limitations
+School boards and educators are an influential contributor to AST and STP efforts in Canada.
 
-## Conclusion
+## 4.2. Limitations
 
-# Implications for School Health
+5. Conclusion
+===============
 
-Schools are an influential contributor to AST and STP efforts in Canada.
+References
+===============
