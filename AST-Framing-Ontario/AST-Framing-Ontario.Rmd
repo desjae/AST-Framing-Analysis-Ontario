@@ -83,27 +83,49 @@ In Ontario, active school travel initiatives spread across the province by the 2
 
 ## 2.1. Procedure
 
-There are three folders containing pdf documents from corresponding sources, consortiums, municipalities/regions, and school boards. Documents are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. Unique criteria was used for each source type to determine eligibility of documents. For all sources, however, it was important that web pages were fairly easy to find as the analysis pertains to how such issues are framed to the public.'Fairly easy' means web pages that are required several steps of search or navigation to find. 
+This section provides methodology for converting searchable portable document formats (PDFs) into a text corpus that can then be used in further natural language processing (NPL) analysis. The text corpus is a collection of structured texts which enables anaylsis for packages such as 'topicmodels' This notebook serves as an introduction on how to convert files and conduct an surface level analysis. 
 
-To start a list of all school boards in Ontario and their associated consortium and municipality/region is created. This list is used as a guide and dictate the search.   
+Below are the folders used and how they have been obtained. 
 
-School boards generally will have a single page for transportation so documents were sourced from those pages regardless in mentioned STP or AST. In cases were both AST and STP are mentioned both those pages are included. 
-Municipalities/regions would have often time pages about transportation that involved the service it provided which is not relevant to our analysis. Only pages specifically discussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municipalities/regions 
+__'Academic Papers'__
 
-Consortia are dedicated transportation pages that primarily focus of providing the school busing service to families. For this group it was determined that only relevant pages specifically relating to AST or STP would be included. 
+[Insert Methodology for obtaining Academic Papers]
+
+
+For these three following folders, docurments are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. The criteria below indicates how eligibility was determined for each grouping. It was important that webpages were easy to find as the analysis pretains to how such issues are framed to the public. Our interpretation of 'easy to find' are webpages that required no more than 2-4 seperate links from the initial browser search. The search was guilded based off a list of all Ontario school boards. Consortiums and Municipalities/Regions were organized based on the school boards. 
+
+__'Consortium'__ 
+
+Consortiums are dedicated transportation bodies that primarly focus of providing the school bussing service to families in their associated region. Pages are determined to be relevent if they specifically relate to AST or STP. 
+9 - Total documents 
+
+__'Municipalities or Regions'__ 
+
+Municipalities/regions had pages about transportation that involved the service it provided which is not relevent to our analysis. Only pages specifically dicussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municpalities/regions.
+29 - Total doucments 
+
+__'School Boards'__
+
+School boards generally will have a single page for transportation so documents were sourced from those pages regardless in mentioned STP or AST. In cases were both AST and STP are mentioned both those pages are included.
+27 - Total doucments
 
 **NOTE: Current version of the code converts 1 file containing pdf documents at a time**
 
 ### Searchable pdf files to txt conversion 
 
+The conversion process in this notebook can only be conducted on one file at a time. Select one of the files provided to use. If you want to run multiple files to create seperate corpora use 'Multiple PDF Files to Corpora.Rmd'.
+
+
+Searchable PDF files to .txt conversion 
+
+PDFs can be brought into the corpus directly however each page of the PDF is read as an invividual document. For our purposes a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory pat to where your PDFs are stored. In addition you will need to manually create a seperate file where you wish to store your .txt files. Re-assign the 'pdfLocation' and 'txtLocation' to those corresponding locations.
+
 ```{r}
-# Files must be pdf for this code to properlly detect and convert 
+pdfLocation <- "E:/Dr. Paez Articles/with References"
+txtLocation <-  "E:/Dr. Paez Articles/txt"
 
-# IMPORTANT: Change the code below based on where the documents are store locally on your computer
-pdfLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Consortium" 
-txtLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Consortium txt" 
+# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
 
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above 
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -117,6 +139,7 @@ test <- doc$content
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 write(test, file = newFile)
 print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
+# Creates uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
 n <- n+1
 }
@@ -124,9 +147,10 @@ n <- n+1
 
 ### Creating data frame of texts 
 
+Creation of a data frame of texts is required prior to conversion to corpus. The data fram must contain 'doc_id' and 'text'. Additional fields may be included in data frame ,it will however be treated as metadata by the corpus. 
+
 ```{r}
 # This loop creates a vector of the texts
-
 text <- vector()
 doc_id <- c(2:n-1)
 
@@ -136,8 +160,6 @@ text[i] <- eval(parse(text = paste("text", i, sep = "")))
 }
 
 # Turns vector into data frame 
-# doc_id and text are required fields for creation of a corpus, additional fields may be included in data frame ,it will however be treated as metadata by the corpus 
-
 textDF <- data.frame(doc_id, text)
 ```
 
@@ -151,7 +173,6 @@ content(corpus[[1]])
 ```
 
 ### Corpus cleaning 
-
 ```{r}
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
@@ -170,7 +191,6 @@ content(corpus[[1]])
 ```
 
 ### Term Document Matrix & Document Term Matrix
-
 ```{r}
 TDM <- TermDocumentMatrix(corpus)
 DTM <- DocumentTermMatrix(corpus)
