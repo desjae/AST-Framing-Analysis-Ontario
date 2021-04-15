@@ -12,7 +12,7 @@ output:
 
 This notebook provides a methodology for converting portable document formats (PDFs) into a text corpus that can be used in natural language processing (NPL) analysis. The text corpus is a collection of structured texts which enables anaylsis using packages such as `topicmodels`. This notebook serves as an introduction on how to convert files and conduct a surface level analysis. 
 
-Instructions are provided below for processing either one folder of PDF documents at a time and multiple folders simultaneously. (*Jason, you can add the content from 'Multiple PDF Files to Corpus.Rmd' to the sections below*)
+Instructions are provided below for processing a single folder of PDF documents, as a walkthough of the processing techniques used. Another set of instructions is provided at the end of this notebook that allows for the processing multiple folders simultaneously. (*Jason, you can add the content from 'Multiple PDF Files to Corpus.Rmd' to the sections below*)
 
 
 # Preliminaries
@@ -238,4 +238,109 @@ set.seed(4321)
 wordcloud(d$word, d$freq, min.freq = 10, max.words = 50, random.order = FALSE, rot.per = 0.5, random.color = TRUE)
 ```
 
+# Multi-Files 
 
+Clear Environment 
+```{r}
+rm(list = ls())
+```
+
+'masterFolder' will be the location of your subfolders, containing your PDFs. Unlike in 'PDF to Corpus.Rmd' you do not need to create .txt folder corresponding to each PDF folder, this is done automatically by the code. 
+
+IMPORTANT: The names of the folders cannot contain the consecutive characters 'txt', the code filters out those folders. 
+NOTE: The order of files below will also be the order the corpus are created, the index will match the corpus number 
+```{r}
+masterFolder <- "C:/Users/Jason/Desktop/Master PDF"
+
+
+subFolders <- list.files(masterFolder, full.names=TRUE)
+# if txt folder already exists from previous execution of code this ensures it is not added to subfolders 
+# The limitation is that your file name, at any point cannot contain the sequence of characters "txt" as it will be flagged as a non-pdf subfolder 
+subFolders <- subFolders[grep(x =list.files(masterFolder, full.names=TRUE), pattern =  "txt", invert = TRUE)]
+subFolders
+```
+
+This code is a is a version of the code in the 'AST-Framing-Ontario.Rmd'. It is compressed into a single block to allow the iterative conversion each subfolder. Corpus' will be cleaned for white spaces, punctuations, English stopwords, and converted to lowercases. Any additional stopwords will need to be removed manually as the user sees fit. 
+```{r}
+# Iterating through each subfolders 
+m <- 1
+for (subFolder in subFolders){
+  
+  pdfLocation <- subFolder
+  if (file.exists(paste(pdfLocation, "txt"))){
+    txtLocation <- paste(pdfLocation, "txt")
+  }else{
+    dir.create(paste(pdfLocation, "txt"))
+    txtLocation <- paste(pdfLocation, "txt")
+  }
+  fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
+  filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
+  n <- 1 
+  
+
+  for (address in filePath)
+{
+doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
+test <- doc$content
+# "file_path_sans_ext(basename())" from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
+# use of 'sep = ""' argument is important to prevent the addition of spaces, which is the default for the paste function 
+newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
+write(test, file = newFile)
+print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
+# Creates uniquely id text store in 'Environment'
+assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
+n <- n+1
+  }
+  
+text <- vector()
+doc_id <- c(2:n-1)
+
+for (i in seq(1, n-1, 1))
+{
+text[i] <- eval(parse(text = paste("text", i, sep = "")))
+}
+
+textDF <- data.frame(doc_id, text)
+
+
+temp_df_source <- DataframeSource(textDF)
+tempCorpus <- VCorpus(temp_df_source)
+tempCorpus <- tm_map(tempCorpus, stripWhitespace)
+tempCorpus <- tm_map(tempCorpus, content_transformer(tolower))
+tempCorpus <- tm_map(tempCorpus, removePunctuation)
+tempCorpus <- tm_map(tempCorpus, removeWords, stopwords("english"))
+
+assign(paste("corpus", m, sep= ""), tempCorpus)
+
+# removed tempory texts for next iteration
+m <- m + 1 
+rm(list=ls(pattern = "^text"))
+
+}
+rm(temp_df_source, tempCorpus, matrix1, matrix2, address, doc_id, fileBaseNames, filePath, i, m, n, newFile, pdfLocation, subFolder, test, txtLocation)
+```
+
+Uncomment and use the code below to further clean you corpuses. Insert stopwords as list of strings in 'NAwords'.  
+```{r}
+#NAwords <- c()
+#corpus <- tm_map(corpus, removeWords, NAwords)
+#corpus <- tm_map(corpus, removeNumbers)
+```
+
+Creating Term-Document Matrix and Document-Term Matrix with the fully cleaned  corpuses 
+```{r}
+# n - number of corpuses
+n <- 3
+for (i in seq(1, n, 1))
+{
+tempCorpus <-  eval(parse(text = paste("corpus", toString(i), sep = "")))
+TDM <- TermDocumentMatrix(tempCorpus)
+DTM <- DocumentTermMatrix(tempCorpus)
+matrix1 <- as.matrix(TDM)
+matrix2 <- as.matrix(DTM)
+
+assign(paste("corpus", i, "TDM", sep= ""), matrix1)
+assign(paste("corpus", i, "DTM", sep= ""), matrix2)
+
+}
+```
