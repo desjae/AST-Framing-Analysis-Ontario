@@ -1,5 +1,5 @@
 ---
-title: "PDF to Corpus"
+title: "Data Pre-Processing"
 author: "Jason Lam"
 date: "11/03/2021"
 output:
@@ -50,24 +50,22 @@ For these three following folders, webpages were sourced directly from stakehold
 
 __Transportation Consortia__ 
 
-Transporation consortia are dedicated transportation bodies that primarly focus on providing the school busing service to families in their associated region. Pages are determined to be relevent if they specifically relate to AST or STP. 
+Transporation consortia are dedicated transportation bodies that primarly focus on providing the school busing service to families in their associated region. 
 
-In total, 9 webpages *Jason: did they mention AST? mention STP?*
-*What proportion of consortia across the province meet the criteria? E.g., 9 out of how many?*
+In total, 9 webpages were pulled from 7 of the 39 consortia examined in Ontario. Webpages are determined to be relevent and specifically pretain/mention AST or STP. 
+
 
 __Municipalities or Regions__ 
 
-Municipalities or regions have general webpages about transportation plans, programs, and services provided, some of which are not relevent to our analysis. Only webpages specifically dicussing active travel, AST, or STP were included. Webpages were also sourced from associated public health units which are overseen by governing bodies at the municipal or regional level.
+Municipalities or regions have general webpages about transportation plans, programs, and services provided, some of which are not relevent to our analysis. Only webpages specifically dicussing active travel, AST, or STP were included. Webpages were also sourced from associated public health units becasues their direct relation to governing bodies at the municipal or regional level.
 
-In total, 29 webpages *Jason: did they mention AST? mention STP?*
-*What proportion of municipalities/regions across the province meet the criteria? E.g., 29 out of how many?*
+In total, 29 webpages were pulled. 
 
 __School Boards__
 
-School boards generally have a single page to discuss transportation options and services for students. Documents were sourced from those webpages regardless if they mentioned STP and/or AST. 
+These bodies use funding provided to them by the province to run a collection of schools. They prepare the annual budget, hire teachers and staff, supervise the education program, and other tasks ensure schools are following all regulations set by the *Education Act* [Ministry of Education]. Only the Englished based public and Catholic school boards were considered.
 
-In total, 27 webpages *Jason: did they mention AST? mention STP?*
-*What proportion of municipalities/regions across the province meet the criteria? E.g., 27 out of how many?*
+Pages mentioning STP and/or AST were prioritized. However, if they did not exist, pages discussing transportation were downloaded instead. In total, 32 webpages were pulled from 31 of the 61 school boards examined in Ontario. Of the remaining the were not included, 22 linked their respective corsortia, 7 did not have pages that meet the criteria, 1 met criteria but could not be downloaded in a processable format. 
 
 
 # Accessing Data: Research Literature
@@ -83,14 +81,20 @@ The conversion process in this notebook can only be conducted on one file at a t
 
 ## Searchable PDF files to .txt conversion 
 
-PDF documents are brought into the corpus directly, however each page of the document is read as an invividual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored. Next, we manually created a seperate file to store the .txt files. Re-assign the 'pdfLocation' and 'txtLocation' to those corresponding locations.
+PDF documents are brought into the corpus directly, however each page of the document is read as an invividual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and Re-assign the 'pdfLocation' to that corresponding location. R uses '/' as the directory seporator. 
 
 ```{r}
-pdfLocation <- "E:/Dr. Paez Articles/with References"
-txtLocation <-  "E:/Dr. Paez Articles/txt"
+pdfLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Consortium"
+
+# Creates folder for .txt files
+if (file.exists(paste(pdfLocation, "txt"))){
+    txtLocation <- paste(pdfLocation, "txt")
+  }else{
+    dir.create(paste(pdfLocation, "txt"))
+    txtLocation <- paste(pdfLocation, "txt")
+  }
 
 # Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
-
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -176,7 +180,8 @@ Latent Dirichlet Allocation (LDA) (*Jason: can you explain what this means*?)
 This algorithm 
 ```{r}
 # k represents the number of topics to be generated by the algorithm 
-lda <- LDA(DTM, k = 4, control = list(seed = 1234))
+k <- 4
+lda <- LDA(DTM, k, control = list(seed = 1234))
 
 topics <- tidy(lda, matrix = "beta")
 
@@ -199,6 +204,54 @@ top_terms %>%
   scale_y_reordered() +
   scale_x_continuous(limits = c(0,0.06))
   
+```
+
+LDA using multiple seeds
+
+This is a more robust approach since LDA has some random compenent on how it begins developing its clusters. By taking the average of multiple iterations with random seeds we  
+
+```{r}
+
+# Generate a random seed to use 
+numIteration <- 10
+r <- 1 
+col <- 4 
+betaList <- c("beta.0")
+seeds <- sample.int(10000, numIteration-1)
+avgtopics <- topics
+
+for (seed1 in seeds){
+  templda <- LDA(DTM, k, control = list(seed = seed1))
+  temptopics <- tidy(templda, matrix = "beta")
+  avgtopics <- left_join(avgtopics, temptopics , by = c("topic", "term"))
+  colnames(avgtopics)[col] <- paste("beta.", r, sep = "")
+  betaList <- append(betaList, paste("beta.", r, sep = ""))
+  r <- r + 1
+  col <- col + 1 
+}
+colnames(avgtopics)[3] <- "beta.0"
+
+avgtopics$beta.mean <- rowMeans(avgtopics[betaList])
+
+# The value below determines the number of top terms
+avg_top_terms <- avgtopics %>% 
+  group_by(topic) %>% 
+  top_n(15, beta.mean) %>% 
+  ungroup() %>% 
+  arrange(topic, -beta.mean)
+avg_top_terms
+
+# Beta represents the probability of 'term' being generated in topic 'n' 
+# Topics are generated by the LDA algorithm, its is up to the user to interpret the context of the topics 
+
+avg_top_terms %>% 
+  mutate(term = reorder_within(term, beta.mean, topic)) %>%
+  ggplot(aes(beta.mean, term, fill = factor(topic))) + 
+  geom_col(show.legend = FALSE) + 
+  facet_wrap(~topic, scales = "free") + 
+  scale_y_reordered() +
+  scale_x_continuous(limits = c(0,0.06))
+
 ```
 
 ## Tokenization by n-gram 
@@ -344,3 +397,5 @@ assign(paste("corpus", i, "DTM", sep= ""), matrix2)
 
 }
 ```
+
+
