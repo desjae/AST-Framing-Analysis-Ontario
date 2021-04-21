@@ -1,0 +1,462 @@
+Built Environment and Walking to School
+Findings from a Student Travel Behavior Survey
+in Massachusetts
+Kate Ito, Timothy G. Reardon, Mariana C. Arcaya, Shomon Shamsuddin,
+David M. Gute, and Sumeeta Srinivasan
+Thousands of communities across America now promote walking and                        Most walking and biking programs in the United States fall under
+biking (active commuting) to school as a mechanism to increase physi-                  the umbrella of Safe Routes to School (SRTS). SRTS seeks to pro-
+cal activity, reduce traffic congestion, and improve air quality. Distance             mote activities that reduce traffic and air pollution around schools
+to school and attributes of the built environment are crucial factors in               and make walking and biking to school an easier, safer choice (7).
+a child’s mode choice, and some of the most difficult determinants to                     The SRTS program faces multiple challenges. SRTS interventions
+influence with programmatic interventions. Further understanding                       can only affect the mode choice for children who live close enough
+the built environment’s role may help in assessing a school’s mode shift               to walk or bike to school. Across most studies, distance to school is a
+potential and more effectively planning and implementing strategies                    crucial factor in a child’s mode choice (2, 8–10), so a school’s mode
+that increase walking and biking to school. Based on a student travel                  shift potential and actual impacts can only be properly understood by
+behavior survey of 18,713 responses from 105 schools in Massachusetts,                 controlling for the distance and attributes of the built environment.
+a multilevel model was used to investigate the effects of route, neighbor-             SRTS programs must work within the context of the school’s built
+hood, and school characteristics on walking to school. The model results               environment—not a factor that can easily be changed by an SRTS
+indicate that the built environment affects the odds of walking to school.             program. Therefore, by further understanding the role of the built
+Specifically, short routes along less-trafficked streets with mixed land               environment, SRTS programs and school administrations may more
+use are associated with the increased odds of children walking to school.              effectively implement strategies that increase walking and biking to
+Investigating these built environment characteristics of the route, neigh-             school, and more accurately evaluate the success of those strategies.
+borhood, and school through a multilevel model, the study created a                    However, less is known about the influences of the built environ-
+framework for examining between-school differences in walk-to-school                   ment on mode choice among children, particularly along the route
+rates, while controlling for built environment factors of the school and               to school (10, 11), compared with evidence on the built environment
+student body. A potential application for this work is to compare walk-                and adult walkability (10).
+to-school rates across heterogeneous schools and contextualize schools’                   This analysis used a Massachusetts student travel behavior survey
+baseline walk share, set appropriate and measurable mode shift goals,                  to investigate the role of the built environment as a determinant of
+and track their progress over time.                                                    walking to school. Specifically, the study investigated route-, neigh-
+                                                                                       borhood-, and school-level characteristics associated with walking
+                                                                                       to school. The study used a data set of 18,713 geocoded student
+The percentage of children who walk or bike (active commute) to                        travel behavior survey responses from 105 schools (an average of
+school in the United States has dropped from 48% in 1969 to only                       ~178 survey responses per school). The results of the model suggest
+13% of students in 2009, while the percent of kindergarten through                     evidence that the built environment affects the prevalence of walk-
+Grade 8 students driven to school increased to 45% (1). At the same                    ing to school. Short routes along less-trafficked streets with mixed
+time, there have been declining levels of physical activity, a rise in                 land use are associated with increased odds of children walking to
+childhood obesity, and growing car dependence across the country                       school. Moreover, the model provides a useful method for com-
+(2–5). Evidence suggests that active school commuters engage in                        paring walk-to-school rates over time and among heterogeneous
+more physical activity than passive commuters do, and are more                         schools, and can provide performance metrics that control for built
+likely to meet the recommendations for daily physical activity (2, 6).                 environment factors beyond the control of the SRTS program.
+K. Ito, Metropolitan Area Planning Council and Tufts University, and T. G. Reardon,    Factors Affecting School Travel
+Metropolitan Area Planning Council, 60 Temple Place, Boston, MA 02111.
+M. C. Arcaya, School of Architecture and Planning, Massachusetts Institute of          Much of the literature on active commuting to school focuses on
+Technology, 77 Massachusetts Avenue, Cambridge, MA 02139. S. Shamsuddin
+and S. Srinivasan, Department of Urban and Environmental Policy and Planning,
+                                                                                       individual and social characteristics. Male, Latino, and black chil-
+Tufts University, 97 Talbot Avenue, Medford, MA 02155. D. M. Gute, Depart-             dren, and those of lower socioeconomic status, are more likely to
+ment of Civil and Environmental Engineering, School of Engineering, Tufts              engage in actively commuting to school (2). Having siblings is also
+University, 113 Anderson Hall, Medford, MA 02155. Corresponding author:                associated with higher rates of walking and biking for high school
+K. Ito, kito@mapc.org.                                                                 students, but there is no significant effect for elementary students
+Transportation Research Record: Journal of the Transportation Research Board,
+                                                                                       (12). Internationally, evidence suggests that car ownership is associ-
+No. 2666, 2017, pp. 78–84.                                                             ated with less walking and more driving to school (13). However,
+http://dx.doi.org/10.3141/2666-09                                                      studies in the United States are less uniform. Some studies have found
+                                                                                    78
+
+Ito, Reardon, Arcaya, Shamsuddin, Gute, and Srinivasan                                                                                     79
+a negative association between car ownership and walking to school      in 2011, which is now administered by MassRIDES, a division of
+(11, 13); others have found no statistically significant relationship   the Massachusetts Department of Transportation (DOT). The sur-
+with household vehicle availability (14, 15). Whether children engage   vey was administered to schools with an SRTS program. Schools
+in active commuting to school is consistently associated with paren-    distributed the survey to parents online, on paper, or both. The online
+tal perceptions. Common parental concerns include neighborhood          version of the survey is available at www.masaferoutessurvey.com.
+safety, traffic, distance to school, and busy schedules (2, 8, 9).      From 2011 to October 2015, there were 24,571 survey responses
+   Children have fewer transportation options and are generally         from 185 pre-kindergarten to Grade 12 schools in Massachusetts.
+more dependent on their parents and household context (10). Con-           The survey collected the following information from parents about
+sequently, the evidence in child-focused studies is more mixed than     each student in the home: grade enrolled in school, nearest street
+in adult studies. Intersection density, a common measure of network     intersection to the home, travel mode to school on most days, and
+connectivity, has been found in some studies to be positively asso-     travel mode from school on most days. If respondents commuted by
+ciated with walking and biking to school (16–18), but negatively        car, they were asked whether the driver continued to (or was return-
+associated with active school commuting in other studies (13).          ing from) work or another destination (a chained trip). Respondents
+Another built environment route measure used in previous studies is     provided information about the number of vehicles in the household
+the directness of the route. Route directness is typically measured as  and the number of licensed drivers. Based on these data, the ratio
+the ratio of the straight-line distance from home to school to the net- of cars to licensed drivers in the household was calculated. Google
+work distance from home to school (17). Three studies have found        drive distances were also provided with these data.
+that more indirect pedestrian routes were associated with walking          The study investigated the built environment characteristics of
+to school (13, 17, 19). Although adult commuting may be strongly        the route, neighborhood, and school that were associated with walk-
+influenced by travel time, children’s travel may be more strongly       ing to school. The analysis was constrained to responses within a
+influenced by traffic safety concerns; therefore, parents and children  2 mi walking distance of the school, which was consistent with past
+may seek less trafficked routes that are less exposed to traffic (13).  research as a typical distance threshold for active commuting. The
+   Children who live in urban areas are more likely to commute          analysis was also constrained to schools that had more than 35 sur-
+actively to school than children living in rural areas (2). However,    vey responses. In addition, the study excluded responses from par-
+there is no clear connection between mixed land use and children’s      ents reporting children in Grades 9–12, due to the low proportion
+commuting to school (10), although increased land use mix—which         of the sample coming from this grade category (164 responses, or
+increases the number of potential destinations accessible by foot—      <1% of the survey responses). Finally, due to a low sample size of
+is commonly associated with higher rates of walking among adults.       bicyclists (148 bicyclists, or ~3% of active commuters), the analysis
+Timperio et al. (13) and Schlossberg et al. (17) excluded land use mix  was limited to only walkers. The final analysis was conducted on
+from their studies due to its weak connection to school commuting.      the remaining sample of 18,713 survey responses obtained from
+McMillan (15) and Frank et al. (18) found that the land use mix         105 schools.
+around the school was a positive predictor of walking, and Larsen
+et al. (10) found that the land use mix along the route to school was
+a negative predictor of walking; however, these studies defined land    School and Neighborhood Data
+use mix in different ways.
+   Real and perceived traffic safety risks are important in shaping     The American Community Survey 2010–2014 five-year block group
+child commuting behavior. Perceived traffic safety is commonly          estimates were used to estimate average population density and
+cited as one of parents’ primary concerns about whether children can    median household income for the school neighborhood. For the route
+take an active form of transportation, especially young children (20).  to school, an area-weighted average population density and median
+Despite this perception, for actual crashes, McDonald et al. found      household income were calculated by estimating the area of the block
+that riding with a teenage driver is the most dangerous mode on a       groups that intersected the 50-m buffer around the route.
+per trip basis (21). Several previous studies have examined the pres-      Massachusetts Department of Elementary and Secondary Educa-
+ence of major roads as a proxy for real and perceived traffic safety    tion school and district profile data were used to find the overall
+(13, 17, 22). In general, crossing or walking along major roadways      school enrollment for the year the survey was administered, pro-
+is negatively associated with walking to school (13, 17, 19). Thus,     portion of low-income students, race or ethnicity of the student
+some previous school commuting route studies have used pedestrian       body, and proportion of English language learners for each school.
+networks comprising on- and off-road facilities (10, 19, 23).           School demographic data were from the academic year 2013–2014,
+   Finally, the relative location of the school, as measured by indica- because this was the most recent year for which data on all variables
+tors such as shorter distances to school and greater population density were available.
+in the immediate area of the school, have been linked with higher
+active commuting rates (2). However, the research on school enroll-
+ment appears to be mixed. Braza et al. (16) found a negative asso-      Methods
+ciation between school size and active commuting; Ewing et al. (11)
+                                                                        Geographic Information Systems Neighborhood
+found no significant relationship.
+                                                                        and Route Delineation
+Data                                                                    There are relatively few route-based SRTS studies. Therefore, the
+                                                                        study drew from methods from Timperio et al. (13) and Schlossberg
+Student Travel Behavior Survey                                          et al. (17), two of the seminal articles on a geographic information
+                                                                        system (GIS) approach to the shortest travel route along the street
+This analysis used data from an SRTS student travel behavior sur-       network in the walk-to-school literature. Both studies used GIS to
+vey developed by the Metropolitan Area Planning Council (MAPC)          map the shortest route via the street network and examine variables
+
+80                                                                                                         Transportation Research Record 2666
+based on these routes, assuming the child took the shortest route.            which may route them more on major roads, while the pedestrian
+However, neither study investigated land use mix along the route.             routes only include off-road facilities, low-traffic-volume streets,
+Larsen et al. (10) built off this methodological foundation and cre-          and streets with pedestrian infrastructure. The ratio was standard-
+ated a 50-m buffer around the routes to calculate an entropy measure          ized so that ratios where the drive distance was greater than the
+of land use mix within this buffer.                                           walk distance (or ratios less than 1) were the same distance from
+   The survey data were geocoded to the nearest intersection to the           1 as ratios where the walk distance was greater than the drive
+home with ArcGIS 10.3. The network analyst extension was then                 distance. In addition, any ratios between 1.1 and 1/1.1 were con-
+used to find the shortest route to school for each survey response.           sidered to be the same distance (pedestrian route distance = drive
+The underlying network used in this study was a pedestrian network            route distance). The majority of data were the same distance (57%
+comprising roadways with sidewalks on one or both sides of the                had the same distance, 32% had shorter pedestrian distance, and
+road, low-volume residential roads (< 1,000 vehicles per day), and            11% had longer pedestrian distance than driving distance). The
+off-road facilities. This network was also used to create half-mile           ratio was restricted to double the ratio in either direction. Approx-
+school walksheds (the walking distance via the network) to define             imately 2% (325 responses) were outside this range (-2 to 2).
+the school environment or neighborhood. These geographic units                Finally, the study calculated the percentage of major route mileage
+(route and school walkshed) were used to calculate neighborhood               to the total route mileage.
+and route characteristics for the analysis.
+                                                                              Data Analysis
+Land Use Measures
+                                                                              A multilevel model was useful in estimating active travel, because
+To explore land use mix, the study used the Massachusetts Land Parcel         the survey responses were socially and spatially grouped within
+Database developed by the MAPC. The Massachusetts Land Parcel                 schools (Figure 1). The null model had a between-school varia-
+Database is a statewide atlas of more than 2.1 million land parcel            tion of approximately 1.401 and a variation partition coefficient
+boundaries and associated tax assessor data (24). The database was            of nearly 30%. Therefore, a single-level model would violate the
+used to calculate an entropy measure of land use mix between four             independence assumption of standard ordinary least-squares regres-
+land uses: residential, commercial, recreational, and institutional           sion models. Multilevel models can handle individual explanatory
+land. Land use mix was calculated along a 50-m buffer corridor along          variables and school-level explanatory variables, by allowing the
+the route with the following equation:                                        residual variance to be partitioned into between-group and within-
+                                                                              group components (25, 26). Therefore, the study used the binomial
+<U+F8EE>     - <U+2211> (<U+03C1>u ln <U+03C1>u ) <U+F8F9>                                                       glmer command to predict walking to school (1) or not (0), to fit
+<U+F8EF>LUM = u              <U+F8FA>
+<U+F8EF><U+F8F0>                    <U+F8FA><U+F8FB>                                                      a two-level random intercept logistic model (individuals within
+           ln n
+                                                                              schools). The study used R to conduct the analyses.
+                                                                                 Partially adjusted models and a fully adjusted model were esti-
+where
+                                                                              mated. The partially adjusted models were used to examine the effects
+  u = land use classification,                                                of the built environment measures separately, while adjusting for the
+  <U+03C1> =	proportion of land area dedicated to the particular land use,          hypothesized confounding effects of grade, year, household cars per
+       and                                                                    driver, and distance to school. Then a fully adjusted model was con-
+  n = total number of land use classifications.                               structed where variables were retained in the model based on a statisti-
+                                                                              cal significance of =0.05 and if the direction of the effect was expected
+   Scores range from zero to one, with zero representing all land in a
+                                                                              and consistent between the partially and fully adjusted models. The
+corridor as a single land use and one representing an even distribu-
+                                                                              study also examined the correlations between the model variables,
+tion of all four land use classifications. In addition to land use mix, the
+                                                                              and all associations were less than 0.55. Two models were created
+percentage of industrial land use was calculated separately along the
+                                                                              for walking to school and walking from school.
+route, to explore land use preferences along the route. Approximately
+                                                                                 After constructing the final fully adjusted model, the authors
+two-thirds (12,562) of the routes did not have industrial land use.
+                                                                              conducted a sensitivity analysis of the fully adjusted model, by
+                                                                              removing the school with the most responses (841 responses), to
+Road Measures                                                                 see whether schools with large survey responses were skewing the
+                                                                              model results.
+Several measures of network connectivity were used. The num-
+ber of intersections and number of intersections with major roads
+along the route were calculated, as well as intersection density                                    4
+                                                                                Residual Ranking
+per kilometer squared of the school neighborhood. Data on road
+                                                                                                    2
+intersections came from the 2013 Massachusetts DOT roads layer.
+Major roads are defined by the Massachusetts DOT as roads with a                                    0
+                                                                                   by School
+functional classification of 1-4 (i.e., highways, major arterials, and
+collector roads).                                                                                  –2
+   The study also used the directness of the pedestrian route as
+another measure of network connectivity. For this analysis, this                                   –4
+measure was defined as the ratio of the pedestrian route distance to
+the Google driving distance. There were some differences between                                             Residual Ranking
+the pedestrian route distance and the Google driving distance.
+Google driving directions provide drivers with the fastest route,                FIGURE 1   Null model caterpillar plot.
+
+Ito, Reardon, Arcaya, Shamsuddin, Gute, and Srinivasan                                                                                81
+  TABLE 1   Descriptive Statistics                                  lar. Approximately 4,835 respondents (26%) walked to school
+                                                                    and 5,032 (27%) walked from school. There were very few bicy-
+                               Number (%)                           clists in the sample. Biking accounted for approximately 1% of
+  Variable                     Walk to School     Walk from School  the sample to and from school. Consequently, children bicycling
+                                                                    to school were not analyzed further. Personal vehicles were the
+  Mode to school                                                    dominant mode share to and from school. Of the 46% of respon-
+    Walk                          4,835 (26)          5,032 (27)    dents who drove to school, 67% were dropped off on the parent’s
+    Bike                            148 (1)             146 (1)
+    Family vehicle                8,692 (46)          7,617 (41)
+                                                                    route to work or at another destination. Of the 41% who drove
+      Drop-off                    5,803 (67)             na         home, 60% were picked up. The average distance to school was
+      Pickup                         na               4,568 (60)    approximately ¾ mi. Finally, approximately 45% of the respon-
+    Carpool                         750 (4)             766 (4)     dents had children in Grades 2 to 4, and 70% owned at least one
+    School bus                    4,043 (22)          4,820 (26)
+    Transit                         173 (1)             196 (1)     car per licensed driver.
+    Other                            72 (0)             136 (1)        Most survey responses came from the Boston metro region, New
+  Grades pre-K–1                  6,148 (33)          6,148 (33)    Bedford, and Worcester areas (Figure 2). Survey responses by school
+  Grades 2–4                      8,359 (45)          8,359 (45)    ranged from 35 to 841 responses, with an average of 178.5 responses
+  Grades 5–8                      4,206 (22)          4,206 (22)    per school. Approximately half of those living within a half-mile
+                                                                    of the school walked. However, those who were driven in personal
+  Carless households              2,513 (13)          2,513 (13)
+                                                                    vehicles made up a large portion of the mode share across all half-
+  More drivers than cars          3,135 (17)          3,135 (17)
+                                                                    mile distance categories. Approximately 82% of the survey responses
+  At least one car per driver    13,065 (70)         13,065 (70)
+                                                                    were paper responses.
+  Note: na = not applicable.
+                                                                    Partially Adjusted Models
+Results
+                                                                    Partially adjusted models were estimated to ascertain the magnitude
+Descriptive Statistics                                              and direction of effect for each indicator individually (Table 2).
+                                                                    All indicators were tested in the partially adjusted models while
+Table 1 shows the descriptive statistics of the survey responses by adjusting for the hypothesized confounding effects of year, grade,
+the travel mode to and from school from 18,713 survey responses     distance, and household cars per driver. Similar to previous research,
+from 105 schools. The mode splits to and from school were simi-     distance and walking along major roads were significantly negatively
+                  Number of Surveys by
+                  School
+                       35–106
+                       107–201
+                       202–388
+                       389–841
+                FIGURE 2   Number of survey responses, by school.
+
+82                                                                                                   Transportation Research Record 2666
+                                                                     associated with walking, and indirect pedestrian routes and inter­
+                                                                     section density around the school were significantly positively asso-
+    TABLE 2   Partially Adjusted Models                              ciated with walking. Land use mix along the route, a less commonly
+    with Odds Ratio and Statistical Significance                     explored indicator, was also significantly associated with walking.
+                                                                     In addition, school enrollment was positively associated with walking.
+    Variable                                    Odds Ratio           The number of intersections along the route; percentage of industrial
+                                                                     land use along the route; population density along the route and in the
+    Route                                                            school neighborhood; and school-level measures of the proportion of
+    Population density                             0.99              low-income students, race or ethnicity of the student body, and the
+    Median household incomea                       1.02              proportion of English learners were not significant predictors.
+    Land use mix                                   2.58**
+    Industrial land use percent                    0.26
+    Number of intersections                        1.00              Fully Adjusted Model
+    Number of major intersections                  1.00
+                                                                     Table 3 summarizes the results of the final, fully adjusted multilevel
+    Proportion of major road miles                 0.66**
+                                                                     model predicting whether children walked to school. With the par-
+    Indirect pedestrian route                      1.12**
+                                                                     tially adjusted model as a guide, measures of interest were added and
+    School
+                                                                     examined for a statistical significance of p = .05 and a consistent
+    Population density                             1.03              direction of the effect between the partially and fully adjusted models.
+    Median household incomea                       1.05              On average, students whose route had greater land use mix and a
+    Intersection density                           1.00              more indirect pedestrian route compared with a driving route had
+    Percent not white                              1.00              greater odds of walking to school, compared with more uniform land
+    Percent English language learners              1.01              use and a more direct driving route, adjusting for all other factors.
+    Percent low income                             1.00              Routes with a greater portion of major roads decreased the odds of
+    Residential land use percent                   1.13              walking to school, adjusting for all other factors.
+    School enrollmentb                             1.20**
+                                                                         The fully adjusted model explained about half of the residual
+                                                                     variance in the propensity to walk to school at the school level,
+    Note: Adjusted for grade, year, distance, and cars               compared with the null model. After adjusting for the covariates, the
+    per driver.                                                      model had a variance partition coefficient of approximately 15%.
+    a
+      In $10,000s.
+    b
+      In 100s of students.                                           Thus, 15% of the residual variation in the propensity to walk to
+    *p < .05; **p < .01.                                             school is attributable to unobserved school characteristics.
+                        TABLE 3   Fully Adjusted Multilevel Model
+                                                                       Odds Ratio (95% CI)
+                        Variable                                       Walk to School           Walk from School
+                        Individual Level
+                        Grades 2–4a                                    1.10 (1.00, 1.21)*       1.15 (1.04, 1.26)**
+                        Grades 5–8a                                    1.59 (1.39, 1.81)**      1.92 (1.69, 2.19)**
+                        Distance (mi)                                  0.04 (0.03, 0.05)**      0.05 (0.04, 0.05)**
+                        More drivers than carsb                        0.2 (0.17, 0.23)**       0.25 (0.22, 0.29)**
+                        At least one car per driverb                   0.17 (0.15, 0.19)**      0.22 (0.19, 0.25)**
+                        Route land use mix                             5.34 (2.92, 9.76)**      4.31 (2.41, 7.72)**
+                        Major road on route                            0.59 (0.49, 0.70)**      0.6 (0.51, 0.71)**
+                        Indirect pedestrian route                      1.15 (1.08, 1.23)**      1.12 (1.05, 1.19)**
+                        School Level
+                        School enrollmentc                             1.13 (1.05, 1.22)**      1.19 (1.10, 1.28)**
+                        School neighborhood intersection density       1.01 (1.01, 1.02)**      1.01 (1.00, 1.01)**
+                        School neighborhood median household incomed   1.15 (1.08, 1.21)**      1.09 (1.03, 1.16)**
+                        Constant                                       0.29 (0.12, 0.71)**      0.44 (0.18, 1.06)
+                        Marginal r 2, conditional r 2                  .47, .55                 .44, .52
+                        Note: All adjusted for year.
+                        a
+                          Reference = Grades pre-K–1.
+                        b
+                          Reference = carless households.
+                        c
+                         In 100s of students.
+                        d
+                          In $10,000s.
+                        *p < 0.05; **p < 0.01.
+
+Ito, Reardon, Arcaya, Shamsuddin, Gute, and Srinivasan                                                                                        83
+Discussion                                                                neighborhood, and school characteristics associated with walking to
+                                                                          school in a school with an SRTS program. Because of the cross-section
+This analysis investigated a unique data source to add to the relatively  design, the study could not infer causality to the observed relation-
+few studies that have simultaneously analyzed route, neighborhood,        ships. The study assessed the usual travel mode to and from school,
+and school characteristics associated with walking to school. The         so the findings do not elucidate any temporal or weather-related
+study found evidence that built environment features of the neighbor-     relationships.
+hood, route, and school affect walking behavior to school. In particu-       The analysis was limited to survey responses within 2 mi of school.
+lar, short routes along less-trafficked streets with mixed land use were  Approximately 20% (4,880) of the survey respondents lived beyond
+associated with increased odds of children walking to school.             that cutoff point. However, the mode shift goal for those who live
+   Consistent with previous research, the study found that older chil-    more than 2 mi from school may be different (i.e., encouraging bus
+dren, especially those in Grades 5 to 8, were more likely to walk to      ridership, carpooling, or remote drop-off zones).
+school (27), and that greater distance to school, vehicle ownership,         The data contained an unknown number of sibling pairs, which
+and higher proportion of major roads on the route were negatively         threatened artificially shrinking confidence intervals around the
+associated with walking to school (10, 13, 17, 19, 23, 27). Moreover,     parameter estimates. To assess the potential for this limitation to
+this analysis demonstrated that busy roads were a barrier to walking      bias the results, the study ran a sensitivity analysis on online survey
+to school even if pedestrian infrastructure was present. This finding     responses, which had the added benefit of capturing whether the child
+suggests that even if pedestrian facilities are present, the parent or    had a sibling. The results were consistent with the main findings.
+child still may prefer to avoid busy roads. Furthermore, the study           School administrators administered the surveys. Therefore, there
+investigated a novel measure of route directness, by examining the        was variability in the survey response rate by school, which affected
+ratio of walking distance to the Google driving directions, to examine
+                                                                          the representativeness of the survey of the school as a whole. Further-
+a network-based measure of directness. This investigation found that
+                                                                          more, the school student body changes from year to year. Although
+less-direct pedestrian routes were positively associated with walking
+                                                                          the study controlled for year in the model, the analysis used all the
+to school. Previous studies reported the same finding (13, 17, 19).
+                                                                          data from 2011 to 2015, and there may have been changes in the
+Combined with the finding of the effect of major roads on odds of
+                                                                          students and schools during that time.
+walking to school, it is possible that children and parents may go out
+                                                                             The routes used in this study were generated from responses from
+of their way to seek out a less-trafficked route to walk to school (13).
+                                                                          the travel behavior survey. These routes were based on the shortest-
+   Although this study had many similarities to previous research,
+                                                                          path algorithm on a pedestrian network comprising roadways with
+the analysis investigated some measures that are unique or seldom
+                                                                          sidewalks on one or both sides of the road, low-volume residential
+looked at in the literature. Contrary to some previous studies, the
+                                                                          roads (< 1,000 vehicles per day), and off-road facilities. Thus, it was
+land use mix along the shortest walking route to school was a positive
+                                                                          assumed that the child’s probable route may have been the shortest
+predictor of walking to school. At first glance, this finding is surpris-
+                                                                          route with some pedestrian infrastructure; however, this may not have
+ing, because the literature on walking to school has found that cor-
+                                                                          been the child’s actual route. This pedestrian network also would not
+relates of adult walking behavior, such as population density and
+land use mix, are unlinked to school travel behavior (11). Therefore,     include all shortcuts, such as routes that cut through properties. Fur-
+few studies have investigated this measure, and they have reported        thermore, the route was based on an intersection near the home, and
+mixed findings (10, 15, 18). Moreover, the entropy measure of land        not the actual home location. In addition, route directness has not
+use mix is a crude measure that depends on the land use categories        been calculated with network-based distances. The drive distance
+used to define it. Nevertheless, land use mix, as defined in this study,  was based on Google driving directions. Because only the Google
+had a modest positive effect on walking to school. This finding could     drive distance was reported in the survey data, the study did not deter-
+be indicative of living in a more walkable environment. The finding       mine what the actual network route was. In future studies, the Google
+provides new evidence and warrants further study.                         drive route could be compared with the pedestrian network route, to
+   Surprisingly, school enrollment was the only significant and influ-    explore what is truly being captured in this measure.
+ential school-level predictor. The study found that larger schools were      There are strong influences on children’s walking-to-school
+associated with walking to school. Larger schools may be sited in         behavior that were not included in this analysis. This was apparent
+urban or densely populated areas of communities, where walking is         in the model, in which approximately 15% of the residual variation
+more feasible. Other studies have found that schools with a greater       in the propensity to walk to school was attributable to unobserved
+percentage of students in the free and reduced price meals program        school characteristics not in the model. Therefore, although it is
+were associated with a greater likelihood of walking to school (28).      important to understand the built environment context, additional
+However, this indicator, along with the proportion of students who        study is required to understand why schools, after one controls for
+were English language learners and the proportion of the student          the built environment context of the school and its survey responses,
+body that was not white, were not significant in the model, even after    have high or low walking rates.
+the study looked specifically at the 2013–2014 school year. This find-
+ing may indicate a lack of heterogeneity in these variables among
+the schools, and represent a common feature of schools that opt into      Next Steps
+the SRTS program in Massachusetts.
+                                                                          This analysis provides evidence that built environment features of
+                                                                          the route, neighborhood, and school affect walking to school. The
+Limitations                                                               study found that short routes along less-trafficked streets with mixed
+                                                                          land use were associated with increased odds of children walking
+The study analyzed a large cross-section sample of survey responses       to school. With a multilevel model, the study was able to parse out
+from a unique student travel behavior survey. The survey is admin-        individual built environment predictors of walking to school, while
+istered to SRTS programs in Massachusetts, to investigate route,          controlling for school differences. Although the study confirmed that
+
+84                                                                                                             Transportation Research Record 2666
+the built environment has a strong effect on walking to school, there         9. Stewart, O., A. Vernez Moudon, and C. Claybrooke. Common Ground:
+are many influences on children’s walking-to-school behavior that                Eight Factors That Influence Walking and Biking to School. Transport
+                                                                                 Policy, Vol. 24, 2012, pp. 240–248. https://doi.org/10.1016/j.tranpol
+were not included in this analysis. Still, it is important to control for        .2012.06.016.
+built environment characteristics, to understand what types of SRTS          10. Larsen, K., J. Gilliland, and P. M. Hess. Route-Based Analysis to Cap-
+interventions may be effective.                                                  ture the Environmental Influences on a Child’s Mode of Travel Between
+   An application of this analysis is to evaluate Massachusetts SRTS             Home and School. Annals of the Association of American Geogra-
+                                                                                 phers, Vol. 102, No. 6, 2012, pp. 1348–1365. https://doi.org/10.1080
+programs. This framework could be used to compare and contextualize
+                                                                                 /00045608.2011.627059.
+schools’ baseline walk share, set appropriate and measurable mode            11. Ewing, R., W. Schroeer, and W. Greene. School Location and Student
+shift goals, and track their progress over time. This is an exciting             Travel Analysis of Factors Affecting Mode Choice. Transportation
+prospect, because there has been little evaluation of SRTS programs              Research Record: Journal of the Transportation Research Board,
+across the country (6). After accounting for route, neighborhood,                No. 1895, 2004, pp. 55–63. https://doi.org/10.3141/1895-08.
+                                                                             12. McDonald, N. C. Household Interactions and Children’s School Travel:
+and school environment variables in a multilevel model, the study                The Effect of Parental Work Patterns on Walking and Biking to School.
+saw a significant improvement in prediction, compared with the null              Journal of Transport Geography, Vol. 16, No. 5, 2008, pp. 324–331.
+model. In other words, accounting for built environment variables                https://doi.org/10.1016/j.jtrangeo.2008.01.002.
+helps make schools more comparable, but there are still other ran-           13. Timperio, A., K. Ball, J. Salmon, R. Roberts, B. Giles-Corti, D. Simmons,
+                                                                                 L. A. Baur, and D. Crawford. Personal, Family, Social, and Environ-
+dom effects (nonbuilt environment factors) that make schools differ-             mental Correlates of Active Commuting to School. American Journal
+ent from one another (e.g., school programs and policies). With this             of Preventive Medicine, Vol. 30, No. 1, 2006, pp. 45–51. https://doi.org
+study as a framework, a potential application of this work would be              /10.1016/j.amepre.2005.08.047.
+to create built environment benchmarks that could be integrated into         14. Carlson, J. A., J. F. Sallis, J. Kerr, T. L. Conway, K. Cain, L. D. Frank,
+                                                                                 and B. E. Saelens. Built Environment Characteristics and Parent Active
+the student travel behavior survey to contextualize and understand               Transportation Are Associated with Active Travel to School in Youth
+why schools, after one controls for the built environment context of             Age 12–15. British Journal of Sports Medicine, 2014, pp. 1634–1639.
+the school and its survey responses, have high or low walking rates.             https://doi.org/10.1136/bjsports-2013-093101.
+   These findings should encourage schools to engage in additional           15. McMillan, T. E. The Relative Influence of Urban Form on a Child’s
+                                                                                 Travel Mode to School. Transportation Research Part A: Policy and
+infrastructure (i.e., traffic calming and complete streets policies) and
+                                                                                 Practice, Vol. 41, No. 1, 2007, pp. 69–79. https://doi.org/10.1016/j.tra
+noninfrastructure strategies (i.e., walking school bus programs). Such           .2006.05.011.
+strategies would aim to improve the real and perceived route environ-        16. Braza, M., W. Shoemaker, and A. Seeley. Neighborhood Design and
+ment, by slowing and reducing traffic and incentivizing more chil-               Rates of Walking and Biking to Elementary School in 34 California
+dren to commute actively. The data source and methods explored in                Communities. American Journal of Health Promotion, Vol. 19, No. 2,
+                                                                                 2004, pp. 128–136. https://doi.org/10.4278/0890-1171-19.2.128.
+this study provide a framework that could be used to compare and             17. Schlossberg, M., J. Greene, P. P. Phillips, B. Johnson, and B. Parker.
+contextualize Massachusetts SRTS schools’ baseline walk share, set               School Trips: Effects of Urban Form and Distance on Travel Mode.
+appropriate and measurable mode shift goals, and track their progress            Journal of the American Planning Association, Vol. 72, No. 3, 2006,
+over time.                                                                       pp. 337–346. https://doi.org/10.1080/01944360608976755.
+                                                                             18. Frank, L., J. Kerr, J. Chapman, and J. Sallis. Urban Form Relation-
+                                                                                 ships with Walk Trip Frequency and Distance Among Youth. Ameri-
+                                                                                 can Journal of Health Promotion, Vol. 21, No. 4s, 2007, pp. 305–311.
+                                                                                 https://doi.org/10.4278/0890-1171-21.4s.305.
+References                                                                   19. Panter, J. R., A. P. Jones, E. M. F. Van Sluijs, and S. J. Griffin. Neigh-
+                                                                                 bourhood, Route and School Environments and Children’s Active
+ 1. McDonald, N. C., A. L. Brown, L. M. Marchetti, and M. S. Pedroso. U.S.       Commuting. American Journal of Preventive Medicine, Vol. 38, No. 3,
+     School Travel, 2009: An Assessment of Trends. American Journal of           2010, pp. 268–278. https://doi.org/10.1016/j.amepre.2009.10.040.
+     Preventive Medicine, Vol. 41, No. 2, 2011, pp. 146–151. https://doi.org 20. Evers, C., S. Boles, D. Johnson-Shelton, M. Schlossberg, and D. Richey.
+     /10.1016/j.amepre.2011.04.006.                                              Parent Safety Perceptions of Child Walking Routes. Journal of Transport
+ 2. Davison, K. K., J. L. Werder, and C. T. Lawson. Children’s Active Com-       and Health, Vol. 1, No. 2, 2014, pp. 108–115. https://doi.org/10.1016
+     muting to School: Current Knowledge and Future Directions. Preventing       /j.jth.2014.03.003.
+     Chronic Disease, Vol. 5, No. 3, 2008, p. A100.                          21. McDonald, N. C., A. B. McGrane, E. A. Rodgman, R. L. Steiner, W. M.
+ 3. Lee, M. C., M. R. Orenstein, and M. J. Richardson. Systematic Review         Palmer, and B. F. Lytle. Assessing Multimodal School Travel Safety in
+     of Active Commuting to School and Children’s Physical Activity and          North Carolina. Accident Analysis and Prevention, Vol. 74, No. 0, 2015,
+     Weight. Journal of Physical Activity & Health, Vol. 5, No. 6, 2008,         pp. 126–132. https://doi.org/10.1016/j.aap.2014.10.006.
+     pp. 930–949. https://doi.org/10.1123/jpah.5.6.930.                      22. Zhou, H., J. Zhao, P. Hsu, and J. Rouse. Identifying Factors Affect-
+ 4. McDonald, N. C. Active Transportation to School: Trends Among                ing the Number of Students Walking or Biking to School. Institute of
+     U.S. Schoolchildren, 1969–2001. American Journal of Preventive              Transportation Engineers, Vol. 79, No. 10, 2009, pp. 40–44.
+     Medicine, Vol. 32, No. 6, 2007, pp. 509–516. https://doi.org/10.1016    23. Easton, S., and E. Ferrari. Children’s Travel to School—the Interaction
+     /j.amepre.2007.02.022.                                                      of Individual, Neighbourhood and School Factors. Transport Policy,
+ 5. McDonald, N. C. Children’s Mode Choice for the School Trip: The              Vol. 44, 2015, pp. 9–18. https://doi.org/10.1016/j.tranpol.2015.05.023.
+     Role of Distance and School Location in Walking to School. Transpor-    24. Metropolitan Area Planning Council. Massachusetts Land Parcel
+     tation, Vol. 35, No. 1, 2007, pp. 23–35. https://doi.org/10.1007/s11116     Database. http://www.mapc.org/parceldatabase. Accessed July 5, 2016.
+     -007-9135-7.                                                            25. Bristol University. What Are Multilevel Models and Why Should I
+ 6. Boarnet, M. G., K. Day, C. Anderson, T. McMillan, and M. Alfonzo.            Use Them? http://www.bristol.ac.uk/cmm/learning/multilevel-models
+     California’s Safe Routes to School Program: Impacts on Walking,             /what-why.html. Accessed Mar. 21, 2016.
+     Bicycling, and Pedestrian Safety. Journal of the American Plan-         26. Goldstein, H. Multilevel Statistical Models. John Wiley & Sons,
+     ning Association, Vol. 71, No. 3, 2005, pp. 301–317. https://doi.org        Hoboken, N.J., 2011.
+     /10.1080/01944360508976700.                                             27. Su, J. G., M. Jerrett, R. McConnell, K. Berhane, G. Dunton, K. Shankar-
+ 7. How Children Get to School: School Travel Patterns from 1969 to 2009.        dass, K. Reynolds, R. Chang, and J. Wolch. Factors Influencing Whether
+     National Center for Safe Routes to School, Chapel Hill, N.C., 2011.         Children Walk to School. Health and Place, Vol. 22, 2013, pp. 153–161.
+ 8. Stewart, O. Findings from Research on Active Transportation to School        https://doi.org/10.1016/j.healthplace.2013.03.011.
+     and Implications for Safe Routes to School Programs. Journal of Plan-
+     ning Literature, Vol. 26, No. 2, 2011, pp. 127–150. https://doi.org     The Standing Committee on Traveler Behavior and Values peer-reviewed this
+     /10.1177/0885412210385911.                                              paper.
+

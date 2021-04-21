@@ -1,0 +1,688 @@
+                                                                 Journal of Transport Geography 72 (2018) 1–12
+                                                                    Contents lists available at ScienceDirect
+                                                        Journal of Transport Geography
+                                                     journal homepage: www.elsevier.com/locate/jtrangeo
+E<U+FB00>ect of distance from home to school and spatial dependence between                                                                                                    T
+homes on mode of commuting to school
+                                <U+204E>
+Jorge Chica-Olmoa, , Carlos Rodríguez-Lópezb, Palma Chillónb
+a
+  Department of Quantitative Methods for Economics and Business, Faculty of Economics and Business Sciences, University of Granada, Granada, Spain.
+b
+  PROFITH “PROmoting FITness and Health through physical activity” research group, Department of Physical Education and Sport, Faculty of Sport Sciences, University of
+Granada, Granada, Spain.
+A R T I C LE I N FO                                       A B S T R A C T
+Keywords:                                                 Active commuting to school (i.e., walking and cycling) has health implications for young people. Therefore, it of
+Distance                                                  interest to determine how the distance students walk to school varies depending on where they live and how
+Active commuting                                          their decision to walk is a<U+FB00>ected by contextual/environmental variables. This study aimed to examine which of
+School                                                    the distances (Euclidean, Manhattan, walking-network and driving-network) is the best predictor of the decision
+Areas of in<U+FB02>uence
+                                                          to walk to school and determine the areas of in<U+FB02>uence of active commuting to school for four high schools in
+Spatial autocorrelation
+Regression-kriging
+                                                          Granada, Spain. To achieve these aims, the regression-kriging method was used. The results indicated that the
+                                                          Euclidean and the walking distances were the best predictors of the decision to walk to school. Spatial depen-
+                                                          dence produced by some locational variables and spatial contagion among students was found to be moderate to
+                                                          strong. In addition, the spatial range of this spatial dependence is approximately 1000 m to 1600 m. Regression-
+                                                          kriging could be implemented in a geographic information system to determine the areas of in<U+FB02>uence of schools
+                                                          and aid urban designers and planners in developing neighborhoods that support active modes of commuting.
+                                                          Identifying the areas of in<U+FB02>uence is important for promoting active modes of transport by local governments.
+1. Introduction                                                                                  predictor of active commuting to school (ACS) in school-age students
+                                                                                                 (Chillón et al., 2015; Davison et al., 2008; McDonald, 2008) and that
+    Most urban models, such as “new urbanism”, aim to minimize car                               shorter distances are associated with higher rates of active travel
+use and its negative impact on the environment while promoting more                              (Mandic et al., 2015; Pont et al., 2009; Rodríguez-López et al., 2017).
+pedestrian-friendly features (Crane and Crepeau, 1998). These models                             Previous evidence is available on the current distance that young
+focus on reducing the distance between locations and increasing the                              people are willing to walk to school. In the United States, 31% of trips
+feasibility of alternative modes of transport, such as walking, cycling or                       from home to school made by walking are under one mile (1.6 km) (US
+public transportation. To this end, policies have been designed to re-                           Department of Health Human Services, 2008). The criterion distance
+duce road congestion, as well as urban pollution and dispersion. These                           for walking to school has been reported to be 1.2 miles (2.0 km) among
+factors are also associated with the location of schools in urban areas.                         Belgian adolescents (Van Dyck et al., 2010) and 1.5 miles (2.4 km)
+Studies that have investigated the e<U+FB00>ects of school location have been                           among Irish adolescents (Nelson et al., 2008). In the UK, the statutory
+based on aggregated (zonal) or detailed (household) data. The latter                             walking distance for English children has been set at 3 miles (4.8 km)
+type are more appropriate when studying the e<U+FB00>ects of distance and                               (Government/DfES, 2005), while for Japanese students it is approxi-
+accessibility on the choice of commuting mode (Handy, 1996).                                     mately 2.5–3.7 miles (4.0–6.0 km), although the actual distance de-
+    The commuting mode children use to go to school has been widely                              pends on the children's age (Mori et al., 2012). Although there is no
+discussed in recent years and has economic, social, health and en-                               universal criteria, some studies have shown that a distance of about
+vironmental e<U+FB00>ects (Faulkner et al., 2013; Li and Zhao, 2015; Mandic                             2.5 miles (4.0 km) is considered reasonable for adolescent walkers
+et al., 2015; Wilson et al., 2010). The e<U+FB00>ect of the distance from                               (Nelson et al., 2008). Therefore, one question of interest is to determine
+household to school on transport mode choice is well known. Several                              the distance that children and adolescents are expected to walk from
+studies have shown that the distance from home to school is a stronger                           home to school. In this study, walking distance is de<U+FB01>ned as the radius
+  <U+204E>
+    Corresponding author at: Faculty of Economics and Business Sciences (Department of Quantitative Methods for Economics and Business), University of Granada,
+Campus de la Cartuja s/n, 18071 Granada, Spain.
+    E-mail addresses: jchica@ugr.es (J. Chica-Olmo), crdguez@ugr.es (C. Rodríguez-López), pchillon@ugr.es (P. Chillón).
+https://doi.org/10.1016/j.jtrangeo.2018.07.013
+Received 1 December 2016; Received in revised form 24 May 2018; Accepted 31 July 2018
+Available online 10 August 2018
+0966-6923/ © 2018 Elsevier Ltd. All rights reserved.
+
+J. Chica-Olmo et al.                                                                                                 Journal of Transport Geography 72 (2018) 1–12
+of in<U+FB02>uence around the school, which may vary depending on the
+particular locational factors of each area of the city, such as crime,
+tra<U+FB03>c, the environment, urban design, socioeconomic characteristics,
+and others.
+    As a result of these factors, the area of in<U+FB02>uence of schools need not
+be necessarily circular but may form irregular polygons within which
+the school is located. To the best of our knowledge, few studies have
+investigated the e<U+FB00>ects of spatial dependence and distance between
+households on travel mode choice and the presence of spatial dis-
+tribution patterns (Mitra et al., 2010). In our study it has been assumed
+that households located close to each other in a given geographic area
+are a<U+FB00>ected by similar locational factors. These locational factors may
+cause young people living in the same area to encourage others located
+nearby to make similar transport mode choices, thus leading to the
+presence of spatial autocorrelation. In addition, these variables are not
+always easy to observe, measure or specify in a speci<U+FB01>c model. More-
+over, since the decision to walk to school may depend on locational
+factors, it could cause a contagion e<U+FB00>ect, which can have a major im-
+pact on urban tra<U+FB03>c, environmental pollution and climate change, but
+also provide substantial health bene<U+FB01>ts (de Hartog et al., 2010).
+    ACS provides an opportunity for increasing daily physical activity
+level (Chillon et al., 2011; Panter et al., 2016; Sun et al., 2015; van Loon
+and Frank, 2011). Indeed, it has been shown that youth who walk to                      Fig. 1. Graphical representation of the four types of distances.
+school are more physically active than those who are driven (Faulkner
+et al., 2009). Because ACS is a complex behavior in<U+FB02>uenced by multiple         and Manhattan distances and the presence of spatial autocorrelation in
+factors at di<U+FB00>erent levels of the person-environment system and has            the model perturbations. Model perturbations are due to the contagion
+several public health bene<U+FB01>ts, it is of interest to conduct research that      e<U+FB00>ect of household, family and unobserved locational factors (crime,
+can aid policymakers in implementing e<U+FB00>ective strategies targeted at           tra<U+FB03>c, the environment, urban design, socioeconomic characteristics,
+promoting ACS.                                                                 etc.).
+    Several methods have been used in the literature to measure dis-               Using a survey conducted in 2012 of 527 students aged 12–18 years
+tance, among them self-reported questionnaires to determine the dis-           old attending four high schools located in the city of Granada, Spain,
+tance of the route from home to school (Burke and Brown, 2007; Panter          the areas of in<U+FB02>uence of active commuting for each school have been
+et al., 2010), geographic information systems (GIS) (Panter et al., 2010;      determined for four types of distances. The study has two aims: (a) to
+Timperio et al., 2006), sketch maps of the route (Schantz and Stigell,         examine which of the four types of distances (i.e., Euclidean,
+2009), Google Maps™ (Mendoza et al., 2011; Voss and Sandercock,                Manhattan, walking-network and driving-network) could be the best
+2010) or global positioning systems (GPS) (Duncan and Mummery,                 predictor of the decision to walk to school and (b) to determine the
+2007; Duncan et al., 2007). Discrete choice models, such as the classic        areas of in<U+FB02>uence of ACS for four high schools in the city of Granada,
+logistic regression model or logit model which are equivalent to log-          Spain, considering the distance from home to school and the spatial
+linear models (Wasserman and Pattison, 1996), have been used to de-            dependence between households.
+termine the probability that an individual will choose a particular                The rest of the paper is structured as follows. In the next section, a
+means of transport based on a set of explanatory variables. The classic        review of the literature on the factors that in<U+FB02>uence children's decision
+logistic regression model has been widely used in the literature on the        to walk to school is presented, focusing on the presence of spatial de-
+mobility of children to schools (Pont et al., 2009). Di<U+FB00>erent types of         pendence. The data and methodology are then described in the fol-
+geometric distances can be measured in di<U+FB00>erent ways. Although the             lowing section. Finally, the results are discussed and analyzed and
+most commonly used measure of distance in the literature on child              conclusions are drawn, highlighting the most important <U+FB01>ndings of the
+mobility is the Euclidean distance (McDonald, 2007a), other measures           research.
+of distance, such as the Manhattan distance, the walking distance and
+the driving distance, are also used in this study (a graphical description
+of each is shown in Fig. 1). In addition, the classic logistic regression      2. Literature review
+model is based on the assumption of independence of perturbations,
+which are considered unobserved random variables. This hypothesis is               ACS behavior is associated with di<U+FB00>erent demographic, personal,
+not satis<U+FB01>ed when the presence of spatial autocorrelation between              school, family, environmental and social factors (Chillón et al., 2014;
+perturbations is suspected due to the presence of locational factors and       Hume et al., 2009; Sirard and Slater, 2008). The main predictive factor
+contagion e<U+FB00>ects. If spatial autocorrelation is present in the model           of ACS is distance from home to school, which is examined here in
+perturbations, a spatial regression model is more suitable (Overmars           relation to spatial dependence.
+et al., 2003). Therefore, to account for the presence of spatial auto-
+correlation in perturbations, the regression-kriging method is used            2.1. Accessibility, distance and proximity
+(Cressie, 1991). In addition to spatial dependence, spatial heterogeneity
+is another aspect to be considered in the regression model (Anselin,               Geographic information systems (GIS) use di<U+FB00>erent methods to
+1988). Geographically weighted regression is a method that has been            measure accessibility. The measure of accessibility between two loca-
+shown to be suitable for modeling spatial heterogeneity in the <U+FB01>eld of         tions includes the concept of time, transport mode and physical dis-
+transportation (Feuillet et al., 2018).                                        tance (Jang and Kang, 2015). Accessibility can be measured as the
+    Although the Euclidean distance is the most commonly used metric           distance, cost or time between two locations. In a study by Apparicio
+in research on child mobility, other types of geographical distances           et al. (2003), the authors examined whether physical distance and time
+have also been analyzed, such as the network and Manhattan distances           are correlated, and concluded that at the metropolitan level using dis-
+(Arafat and Abed Al Musa, 2017). These authors examined the network            tance to estimate the shortest network time does not introduce major
+                                                                             2
+
+J. Chica-Olmo et al.                                                                                              Journal of Transport Geography 72 (2018) 1–12
+error. Geographical proximity can be measured by some type of phy-            (2001) explored a wide variety of concepts related to the land use
+sical distance (i.e., Euclidean, Manhattan, walking-network and               patterns (i.e., density, centrality, contiguity, continuity, etc.) that ex-
+driving-network). Distance is a measure of the proximity between the          plain the level of sprawl, which might be related to the concept of
+household and the school, but is also considered the main barrier to          spatial dependence.
+walking to school (McDonald, 2007b) in addition to other environ-                 However, few studies have addressed the spatial interaction e<U+FB00>ects
+mental variables such as crime and tra<U+FB03>c (Pont et al., 2009). The closer      that in<U+FB02>uence children's transport mode choice. These e<U+FB00>ects may occur
+the household and school are to each other, the greater the probability       because households share common unobserved factors (Sidharthan
+that children will walk to school (Chillón et al., 2014). The Euclidean       et al., 2011) that depend on the location and are di<U+FB03>cult to observe,
+distance and the Manhattan distance are two common and easy to                measure and specify in a model. These factors could be spatially au-
+calculate measures for determining geographical proximity. The Eu-            tocorrelated due to spatial interaction in two ways: across spatial zones,
+clidean distance is the straight-line or “as the crow <U+FB02>ies” distance, while   neighborhoods or blocks and across individual behaviors (Rainham
+the Manhattan distance is the sum of the horizontal and vertical com-         et al., 2012). Another cause of spatial dependence is spatial spread,
+ponents of a right-angled triangle. Another measure of physical distance      since individuals who are close in space are in<U+FB02>uenced by their
+is the shortest network distance on foot or by car (Apparicio et al.,         neighbors' decisions (contagion), thus prompting other children to
+2008). Of the four types of distances addressed here to measure how           choose the same method of transport (Sidharthan et al., 2011).
+users perceive the concept of proximity, the Euclidean distance is the            The most common barriers to ACS are distance and tra<U+FB03>c (Beck and
+shortest, whereas the driving distance is the longest due to the presence     Greenspan, 2008; Chillón et al., 2014). Moreover, Beck and Greenspan
+of one-way roads and pedestrian streets (Fig. 1). Golledge and Hubert         (2008) showed that families' behavior is not homogeneous throughout a
+discussed how the use of a Euclidean metric can be supported for the          geographical area and that their choices may di<U+FB00>er depending on the
+construction of mental maps for interurban analysis (Golledge and             area in which they live. Therefore, besides distance, there are other
+Hubert, 1982). The Euclidean, Manhattan and network distances and             locational factors that cause school travel choices to be dependent on
+time have been used to measure accessibility to health services               location. These locational factors together with the contagion e<U+FB00>ect
+(Apparicio et al., 2017) and green space (Higgs et al., 2012), as well as     may in<U+FB02>uence students' decisions, resulting in a spatial distribution of
+walking to green spaces, cycling to public high schools, driving to           that does not form concentric circles around high schools. Indeed, fa-
+health care services, and walking, cycling and driving to supermarkets        milies' decisions are likely related to the characteristics a<U+FB00>ecting a
+(Logan et al., 2017). In this paper, the Euclidean, Manhattan and             given area, leading to the presence of spatial dependence. Pont et al.
+shortest network distance on foot and by car are used.                        (2009) conducted a review of some of the main factors related to ACS.
+                                                                              The authors investigated the physical, economic, social, cultural and
+2.2. Spatial dependence in mode choice                                        political factors of active transportation among young people. Of these
+                                                                              factors, we are particularly interested in the environmental character-
+    Spatial dependence can be de<U+FB01>ned as the existence of a relationship       istics of the neighborhood as they have a spatial in<U+FB02>uence on the mode
+between what happens at a point of the plane and what happens else-           choice for school transportation (Mitra, 2013). This author (Mitra and
+where (Anselin, 1988). Spatial dependence is also referred to as “spatial     Buliung, 2012) analyzed the presence of scale e<U+FB00>ects on the relation-
+autocorrelation” (Anselin and Rey, 1991), although the notion of spa-         ship between ACS and the built environment, taking into account the
+tial autocorrelation is more limited than that of spatial dependence          modi<U+FB01>able areal unit problem (MAUP).
+(Anselin and Rey, 1991). In practice, both concepts are usually con-              In addition to distance, we address the e<U+FB00>ect of both local, face-to-
+sidered the same (Anselin, 1988; Anselin, 1999). However, in the              face contagion and locational variables that have similar e<U+FB00>ects on
+geostatistics and spatial statistics <U+FB01>elds, Cressie (1991) primarily used     households located in the same area and lead to the presence of spatial
+the term “spatial dependence.” To clarify, in the current study, the term     dependence.
+“spatial autocorrelation” refers to a variable or model perturbations (in         On the other hand, the classic logistic regression model assumes that
+the sense of Anselin and Bera, 1998, “as a moment of the joint dis-           the decisions of individuals living in nearby houses are independent.
+tribution”) and the term “spatial dependence” is used when referring to       However, locational factors such as crime, tra<U+FB03>c, environmental fac-
+the phenomenon under study. The idea of spatial dependence is ex-             tors, among others, may in<U+FB02>uence these decisions, leading to spatial
+pressed in the First Law of Geography, which posits that “everything is       dependence. Sidharthan et al. (2011) estimated a spatial autoregressive
+related to everything else, but near things are more related than distant     model (SAR) to test the e<U+FB00>ect of spatial interdependence on the choice
+things” (Tobler, 1970).                                                       of transport mode. They found that the decision of an individual related
+    In the case of transport mode choice, spatial dependence is expected      to children's school trips can a<U+FB00>ect the decisions of other individuals in
+to occur among individuals who are neighbors, since the locational            their environment. This spread may be due to spatial di<U+FB00>usion, social
+variables, such as crime rates or tra<U+FB03>c, will have a similar e<U+FB00>ect on         spillover and e<U+FB00>ects related to unobserved variables that are spatially
+decisions regarding the mode of ACS. For example, a low crime rate in         autocorrelated (Anselin, 1988; Ripley, 1981). For example, if a person
+an area will positively in<U+FB02>uence the decision to walk in that area. In a      decides to use active transport, this could persuade their neighbors to
+context of this type, a positive face-to-face spatial contagion is also       do the same. Thus, a spatial contagion e<U+FB00>ect occurs by which some
+expected, since neighboring individuals will tend to make similar de-         individuals encourage other individuals in their neighborhood to make
+cisions. Thus, for example, if an individual decides to walk to school,       similar decisions (Boix and Trullén, 2007). This spread e<U+FB00>ect, in addi-
+this can in<U+FB02>uence their neighbors directly (positive contagion), al-          tion to the e<U+FB00>ect of locational variables, which will be similar for all
+though it could also have an additional indirect e<U+FB00>ect (negative con-         families living in the same area, can lead to the presence of spatial
+tagion). However, because both locational variables and contagion are         dependence. In a similar line, Mitra et al. (2010) detected the pre-
+often unobservable, they are omitted in the models.                           valence of walking to and from school for children aged 11–13 years old
+    The concept of spatial dependence has been addressed in di<U+FB00>erent          in Toronto and the global presence of spatial autocorrelation and the
+<U+FB01>elds such as ecology, forestry, geology, medical, urban demography           local clusters of walking trips.
+and land use, among others (Anselin and Bera, 1998). These authors                In this paper, the regression-kriging method (RK) is used to achieve
+also highlight that spatial dependence is due to certain misspeci<U+FB01>ca-         the two main objectives of this work: to determine which of the four
+tions which result in spatial measurement errors and spatial auto-            types of distance best explains ACS and the area of in<U+FB02>uence of each
+correlation between the perturbances. In this line, Dubin (1988) found        school. To achieve the <U+FB01>rst objective, 16 models have been estimated
+that omitted variables will be included in the error term, causing this       (four for each high school) and the results have been compared. To
+term to be spatially autocorrelated. On the other hand, Galster et al.        achieve the second aim, ACS has been predicted taking into account not
+                                                                            3
+
+J. Chica-Olmo et al.                                                                                               Journal of Transport Geography 72 (2018) 1–12
+only the distance from home to school, but also the presence of spatial     (Logan et al., 2017). This software allows selecting the origin (the
+autocorrelation among the perturbations. We assume that the presence        house), the destination (the school) and the transport mode. Each of the
+of spatial correlation is due to the contagion e<U+FB00>ect of neighbors and the   households (origin) of the students attending the four schools (desti-
+locational variables (crime, tra<U+FB03>c, the environment, urban design, so-      nations) was located, and the shortest walking network path and
+cioeconomic characteristics, etc.). These predictions have been used to     shortest driving network path from home to school was chosen. All the
+obtain isoprobability maps that represent the area of in<U+FB02>uence of each      distances were obtained and expressed in meters. The four distances
+school.                                                                     were used as the explanatory variable in the 16 models that were es-
+                                                                            timated using logistic regression as discussed in the results section.
+3. Data description
+                                                                            3.3. Distance from home to school
+3.1. Participants
+                                                                                The objective measure of the commuting distance from home to
+    A cross-sectional study was carried out in November 2012. Students      school for each participant was estimated selecting the shortest walking
+aged 12–18 years old attending four high schools (Alhambra, Ganivet,        network path between the home address and the school using Google
+Soto de Rojas and Zaidín high schools) located in the city of Granada       Maps™ software. Only in case where it failed to recognize the address,
+were invited to participate in the study. All of the high schools were      Via Michelin software was used to locate the address and it was then
+public with a student body of a low to medium socio-economic level          manually extrapolated to Google Maps software. The walking distance
+and were located in residential neighborhoods close to the city center of   from home to school (i.e., distance for those participants who only
+Granada. The schools were recruited using convenience sampling. High        walked) was calculated. The distance was collected and expressed in
+schools in Spain are divided into areas of in<U+FB02>uence to give preferential    meters.
+access to families whose residence or place of work is located within
+each school zone. Although there is a limit on the number of students
+                                                                            4. Methods
+per high school, it is compulsory for all students to be admitted to a
+high school. A total of 527 adolescents accepted to participate and the
+                                                                                Kriging is a method used for spatial prediction in the <U+FB01>eld of
+inclusion criteria was to have provided data on the mode of commuting
+                                                                            geostatistics. Although there are many variants of kriging, we chose
+to school and an accurate household address to calculate the distance
+                                                                            regression-kriging (RK) because it is the most suitable method when
+from home to school. The sample represents 43% of all students at-
+                                                                            there are auxiliary variables and it can be more easily combined with
+tending these schools.
+                                                                            other methods. RK is a spatial interpolation method that combines a
+    The research ethics committee of the University of Granada ap-
+                                                                            multiple-linear regression model (or a variant of generalized linear
+proved the research and the informed consent procedure (case no. 817).
+                                                                            models, generalized additive models, etc.) with kriging of the regres-
+The schools that participated in the study were informed about the
+                                                                            sion residuals (Hengl et al., 2007a; McBratney et al., 2000). This
+purpose of the research and were responsible for informing the students
+                                                                            method has been used in several <U+FB01>elds. Odeh et al. (1995), for instance,
+and parents, as well as obtaining their approval and written consent.
+                                                                            compared di<U+FB00>erent methods and concluded that RK generally per-
+                                                                            formed well. In the housing market, an iterative RK method has been
+3.2. Mode of commuting to/from school                                       used for the spatial prediction of housing prices and locational rents
+                                                                            (Chica-Olmo, 1995). A network RK method was used to estimate the
+    The students completed a self-reported questionnaire which in-          ridership of the new Second Avenue Subway in New York City (Zhang
+cluded questions that have been proposed as the most appropriate            and Wang, 2014), while a mapping methodology was used to analyze
+measure for assessing mode of commuting to school based on a sys-           urban structure characteristics and children's active transport (Broberg
+tematic review of 158 studies (Herrador-Colmenero et al., 2014). The        et al., 2013).
+questions have been recently validated in young Spanish people                  In our speci<U+FB01>c case, the aim is to obtain isoprobability maps in order
+(Chillón et al., 2017). Speci<U+FB01>cally, the students were asked how they       to estimate the likelihood that a child living in any location of the plane
+usually commuted to and from school. The response options were:             will walk to school. These probabilities are represented on the plane
+walk, bike, motorbike, car, bus. A dichotomous variable was obtained:       and permit “drawing” the polygon that determines each school's area of
+walking and cycling were categorized as “active commuting,” and the         in<U+FB02>uence.
+use of car, motorbike or bus as “passive or motorized commuting.”               When the outcome is a binary variable, RK uses a logistic regression.
+Respondents who actively commuted on at least one leg of the trip (to       Other authors (Hengl et al., 2007a) have used RK with logistic regres-
+or from school) were categorized as active or walking, while those who      sion to map the presence/absence of a binary variable and the result
+passively commuted both to and from school were categorized as pas-         was the probability of occurrence of this variable. The predictions can
+sive or motorized. Given that most active commuters were walkers (less      be made using the following expression (Hengl et al., 2007b):
+than 0.3% of participants biked to school), a dichotomous variable
+                                                                                                                   1
+walkers vs. motorized commuters was created using the same process          <U+F0B5>        <U+F0B5> (s0) + e (^ s0) =
+                                                                            z (s0) = m                                           + e ^(s0)
+and omitting those who biked in order to study the criterion distance.                                    1 + exp(-ß<U+F0B5>'x (s0 ))                               (2)
+    Four types of distances were considered to capture proximity ef-
+                                                                            where 0 = <U+F0B5> z (s0) = 1 is the estimated response of the binary variable (in
+fects: the Euclidean distance, the Manhattan distance, the shortest
+                                                                            our case this binary variable is the mode of ACS, as we are interested in
+walking network distance and the shortest driving distance. The <U+FB01>rst
+                                                                            predicting z in any location s0); the binary variable is observed in lo-
+two distances (Euclidean and Manhattan) were obtained automatically
+                                                                            cations s1, s2, …sn (the households) where si = (ui, vi) and ui, vi are the
+once the 527 households had been georeferenced (Fig. 2) according to
+                                                                            spatial coordinates; m   <U+F0B5> (s0) is the trend (this is the classic logistic re-
+the following expression (Arafat and Abed Al Musa, 2017):
+                                                                            gression and allows us to obtain the probability that a student will
+Dij = ((uj - ui ) p + (vj - vi ) p)
+                                   1
+                                     p                                      travel on foot considering the distance from home to school); ß<U+F0B5> is a
+                                                                      (1)
+                                                                            vector kx1 of the estimated regression coe<U+FB03>cients; x(s0) is a vector kx1
+where u and v are geographical coordinates and p = 1 for the Man-           of the explanatory variables (the distance to school) and e (^ s0) is the
+hattan distance and p = 2 for the Euclidean distance.                       estimated kriging residual. The residuals are estimations of the per-
+    The two network distances (walking and driving) were calculated         turbations of the classic logistic regression model.
+using Google Maps™ software, which is considered an accurate method             As indicated in the literature review, ACS behavior is associated
+                                                                          4
+
+J. Chica-Olmo et al.                                                                                                       Journal of Transport Geography 72 (2018) 1–12
+Fig. 2. Location of households (blue and green points) and schools (black points). (For interpretation of the references to colour in this <U+FB01>gure legend, the reader is
+referred to the web version of this article.)
+                                   Fig. 3. Empirical variogram (dots) and spherical (sph) and Gaussian (gau) variogram models.
+                                                                                 5
+
+    Table 1
+    Descriptive statistics of transport mode choice, distance to school and distance between neighbors, in meters.
+     School (n)                      Alhambra (103)                                           Ganivet (127)                                     Soto de Rojas (187)                                 Zaidín (110)
+     Mode choice                     Walking                 Motorized                        Walking                   Motorized               Walking                 Motorized                   Walking                  Motorized
+                                                                                                                                                                                                                                                J. Chica-Olmo et al.
+     Frequency (ni)                  87                      16                               72                        55                      132                     55                          84                       26
+     Percent (%)                     84                      16                               57                        43                      71                      29                          76                       24
+     Distance to school                        Eucl.     Walk.      Manh.           Driv.          Eucl.      Walk.        Manh.      Driv.     Eucl.      Walk.      Manh.       Driv.     Eucl.       Walk.      Manh.       Driv.
+     Min.                                      62.94     120        79              120            4.89       30           5          30        30.32      30         56          30        48.26       66         87          66
+     Max.                                      5636.69   7100       6314            9500           3354.89    5100         3752       9200      5970.9     6600       8194        9200      5804.58     6600       7512        7700
+     Mean                                      815.1     1054.85    1017.77         1460.19        1255.4     1521.91      1595.19    2709.7    660.24     839.63     851.17      1196.47   753.44      989.15     968.25      1274.6
+     SD                                        929.55    1212.37    1078.12         1427.59        739.84     877.75       936.34     1680.27   717.15     822.12     973.9       1073.99   828.88      992.75     1086.03     1194.8
+     t-test of di<U+FB00>erence between means and     Eucl.     Walk.      Manh.           Driv.          Eucl.      Walking      Manh.      Driv.     Eucl.      Walk.      Manh.       Driv.     Eucl.       Walk.      Manh.       Driv.
+          correlation coef.
+     Eucl.                                     –         4.739      10.005          8.733          –          8.916        15.055     11.367    –          4.549      9.800       9.837     –           8.446      8.115       11.400
+                                                         (0.000)    (0.000)         (0.000)                   (0.000)      (0.000)    (0.000)              (0.000)    (0.000)     (0.000)               (0.000)    (0.000)     (0.000)
+                                                         [0.92]     [0.99]          [0.88]                    [0.69]       [0.98]     [0.51]               [0.76]     [0.99]      [0.73]                [0.96]     [0.99]      [0.95]
+     Walk.                                               –          0.794           8.451                     –            1.991      10.040               –          0.238       11.659                –          0.693       9.637
+                                                                    (0.429)         (0.000)                                (0.048)    (0.000)                         (0.811)     (0.000)                          (0.489)     (0.000)
+                                                                    [0.92]          [0.95]                                 [0.67]     [0.72]                          [0.75]      [0.93]                           [0.96]      [0.98]
+     Manh.                                                          –               6.305                                  –          8.803                           –           5.958                            –           7.717
+                                                                                    (0.000)                                           (0.000)                                     (0.000)                                      (0.000)
+                                                                                    [0.88]                                            [0.53]                                      [0.70]                                       [0.94]
+     Driv.                                                                          –                                                 –                                           –                                            –
+6
+     Distance between neighbors                                          Alhambra                                               Ganivet                                         Soto                                          Zaidín
+     Min.                                                                3.16                                                   6.4                                             3.1                                           6.4
+     Max.                                                                6491.97                                                6549.64                                         6461.11                                       6849.99
+     Mean                                                                1136.97                                                1722.4                                          953.33                                        1105.82
+     SD                                                                  1191.52                                                1021.31                                         903.01                                        1087.97
+    Note: t-test of di<U+FB00>erence between means, p-values shown in parenthesis. Correlation coe<U+FB03>cients shown in brackets.
+                                                                                                                                                                                                                                         Journal of Transport Geography 72 (2018) 1–12
+
+J. Chica-Olmo et al.                                                                                                   Journal of Transport Geography 72 (2018) 1–12
+with a range of personal, school, family and social explanatory vari-           Table 2
+ables (age, income, etc.), which can have an in<U+FB02>uence on the fact that          Logistic regression and variogram model estimated by regression-kriging.
+two students who are at the same distance make di<U+FB00>erent transport                 Dependent variable:     School (sample size)
+mode choices. However, these personal factors have not been included              mode of ACS
+in the models presented in this paper because one of the objectives has
+been to obtain isoprobability maps, and to obtain such maps the ex-               1 = walking
+planatory variables must be known at any point of the plane. For ex-              0 = motorized
+ample, the age of the surveyed individuals is known in the households             (passive)
+where they live, but is not known at any point on the map (s0).
+Therefore, we consider an individual with average personal character-             Distance                Alhambra       Ganivet (127)   Soto (187)    Zaidín (110)
+                                                                                                          (103)
+istics, and assume that the decision made by that individual depends
+only on factors related to the location. The isoprobability map shows             Eucl.      Logistic
+how likely that particular individual will be to vary his or her transport                   regression
+mode choice depending on the location.                                                       Const        4.884          2.029           2.766         3.898
+                                                                                             Eucl.        -0.0034        -0.0014         -0.0029       -0.0035
+       Once this individual is selected, the individual's mode of ACS will
+                                                                                             distance
+vary spatially as a function of the relevant explanatory variables, such                     AIC          55.31          150.7           181.03        84.56
+as distance to school, the locational variables and contagion. For var-                      <U+0394>i           0              0.8             0             1.78
+ious reasons, the locational variables and contagion are sometimes not                       R2           0.530          0.249           0.331         0.456
+measured, so they are omitted in the models. We assume that the                              Variogram    Gau            Sph             Sph           Sph
+                                                                                             model
+omitted variables are present in the perturbations and that the presence
+                                                                                             range        1427           1025            1630          1490
+of spatial autocorrelation in them is caused by the omission of these                        p-sill       0.09           0.05            0.08          0.11
+relevant explanatory variables (Dubin, 1988).                                                nugget       0.03           0.16            0.11          0.05
+       In geostatistics, the key instrument to detect the presence of spatial                r-nug        25             76              58            31
+                                                                                  Manh.      Logistic
+dependence is the variogram (Matheron, 1965; Cressie, 1991; Hengl
+                                                                                             regression
+et al., 2007a; Hengl et al., 2007b; Chica-Olmo, 1995). An unbiased                           const        4.795          1.930           2.566         3.714
+estimator of the variogram of residuals is (Matheron, 1965):                                 Manh.        -0.0026        -0.0010         -0.0020       -0.0025
+                                                                                             distance
+                    N (h)                                                                    AIC          57.20          152.7           185.92        85.67
+              1
+<U+03B3>e ^ (h) =           <U+2211>    [e (si + h) - e (si )]2                                            <U+0394>i           1.89           2.8             4.89          2.89
+            2N (h)   i=1                                                 (3)                 R2           0.504          0.231           0.302         0.445
+                                                                                             Variogram    Gau            Sph             Sph           Sph
+where (si + h) and (si) are the locations of two households (one located                     model
+in si the other located at an ‘h’ distance from the household located in si)                 range        1481           1123            1560          1590
+                                                                                             p-sill       0.10           0.05            0.1           0.12
+and N(h) is the number of h distant household-pairs, that is, the number
+                                                                                             nugget       0.03           0.16            0.1           0.05
+of households that are separated by an ‘h’ distance. The value of the                        r-nug        23             76              50            29
+empirical variogram (<U+03B3>e ^ (h) ) is shown in dots for households that are          Walking    Logistic
+separated by an approximate distance of 125 m, 250 m, 375 m and so                           regression
+on (Fig. 3). It can also be observed how the spatial variability between                     const        4.109          2.123           3.819         3.939
+                                                                                             Walking      -0.0019        -0.0012         -0.0036       -0.0023
+the residuals increases as the distance between the households in-
+                                                                                             distance
+creases.                                                                                     AIC          59.83          149.9           186.26        82.78
+       To perform estimations with the kriging method, it is necessary to <U+FB01>t                 <U+0394>i           4.52           0               5.25          0
+a model to the empirical variogram. To do so, we have used the sphe-                         R2           0.475          0.256           0.300         0.473
+                                                                                             Variogram    Gau            Sph             Sph           Sph
+rical and Gaussian variogram models (see Fig. 3).
+                                                                                             model
+       The model <U+FB01>t depends on three parameters: the nugget e<U+FB00>ect (C0),                      range        1550           1065            1140          1310
+the range (a) and the sill (C0 + C), where C is the partial sill. The                        p-sill       0.11           0.03            0.08          0.14
+nugget e<U+FB00>ect is a measure of a random component, the range is de<U+FB01>ned                         nugget       0.03           0.17            0.11          0.02
+by the value of h in which the value of the variogram stabilizes and the                     r-nug        21             85              58            13
+                                                                                  Driving    Logistic
+sill is the value that the variogram model attains at the range. The range
+                                                                                             regression
+in Fig. 3 is 1000 m, meaning that the residuals are spatially auto-                          const        4.578          1.070           3.879         4.077
+correlated up to a distance of approximately 1000 m. The Gaussian and                        Driving      -0.0017        -0.0003         -0.0024       -0.0021
+spherical models are two of the most commonly used models in geos-                           distance
+tatistics and represent continuous phenomena (Armstrong, 1998). Both                         AIC          59.07          171.7           192.73        84.29
+                                                                                             <U+0394>i           3.76           21.8            11.7          1.51
+models show how the distance between houses increases, the variability                       R2           0.485          0.051           0.261         0.458
+between the residuals also increases. This may be due to the fact that                       Variogram    Gau            Sph             Sph           Sph
+students who live in houses proximate in space are a<U+FB00>ected by similar                        model
+locational variables and face-to-face contagion, and logically make si-                      range        1593           1112            1120          1390
+                                                                                             p-sill       0.10           0.05            0.08          0.09
+milar decisions. In contrast, when the distance between the houses in-
+                                                                                             nugget       0.03           0.17            0.11          0.06
+creases, these variables are less similar and the contagion is smaller,                      r-nug        23             77              58            40
+which leads the students to make less similar decisions. Moreover, the
+distances to everything else also increase and the areas may be per-            Note: p-value is 0.000 for all the parameters, const and distances.
+ceived by the students as not very walkable.                                    <U+0394>i = AICi - AICmin.
+       A measure of the intensity of the spatial dependence can be in-          Variogram model: Gau = Gaussian; Sph = spherical; r-nug = ratio of the
+vestigated using the relative nugget e<U+FB00>ect, that is, the ratio of the           nugget e<U+FB00>ect in %; p-sill = partial sill; R2 = Nagelkerke adjusted R-squared.
+                                                                                The bold means the best model (smaller AIC) for each school.
+nugget e<U+FB00>ect and sill. A ratio of less than 25% indicates strong spatial
+dependence, a ratio between 25% and 75% indicates moderate spatial
+                                                                              7
+
+J. Chica-Olmo et al.                                                                                                       Journal of Transport Geography 72 (2018) 1–12
+                       Fig. 4. Experimental variograms and <U+FB01>tted models for the residuals of the estimated spatial logistic regression models.
+dependence, and a ratio greater than 75% indicates weak spatial de-                 always the longest. These results are in line with other studies that show
+pendence (Rouhani, 1996).                                                           that the Euclidean distance is shorter than the Manhattan distance and
+      The kriging estimator of residuals is:                                        the network distance (Arafat and Abed Al Musa, 2017). However, an
+            n                                                                       interesting result of our work is that the mean walking distance and the
+e (^ so) = <U+2211> <U+03BB>i e (si)                                                              mean Manhattan distance are similar. There is not enough evidence to
+           i=1                                                            (4)       reject our null hypothesis that the means of the walking distance and
+                                                                                    the Manhattan distance are equal, since the p-value was greater than
+      This estimator is a weighted average of the known values (e) in the
+                                                                                    0.05 for three schools (Alhambra, Soto de Rojas and Zaidín) and greater
+locations si, and where <U+03BB>i are the kriging weights. These weights are
+                                                                                    than 0.01 for one (Ganivet). By contrast, there is evidence to reject the
+obtained by minimizing the variance of the estimation error and con-
+                                                                                    null hypothesis that the di<U+FB00>erences between the means of the other
+sidering the structure of spatial autocorrelation detected with the var-
+                                                                                    types of distances are equal, since the p-value was always less than 0.01.
+iogram (Matheron, 1965). The advantage to this method is that it
+                                                                                    Therefore, there are no signi<U+FB01>cant di<U+FB00>erences between the mean
+generally provides weights that are greater than the residuals located
+                                                                                    Manhattan distance and the mean walking distance, but there are sig-
+closest to the location s0 and smaller weights for those furthest away
+                                                                                    ni<U+FB01>cant di<U+FB00>erences between the other distances. This has practical
+from the location.
+                                                                                    implications because it is much more cumbersome to obtain walking
+      In our study, expression (2) allows estimating the response of the
+                                      <U+F0B5> (s0) , which depends on the distance        distances than Manhattan distances.
+binary variable ACS by the sum of m
+                                                                                        The location of the students' homes and their mode of commuting to
+between the house and the school, and e (^ s0) , which considers the
+                                                                                    school are shown in Fig. 2. There is a large concentration of households
+spatial autocorrelation structure of the residuals. Hence, we assume
+                                                                                    around the Alhambra, Soto de Rojas and Zaidín high schools, while the
+that unobserved factors are utilized to improve the prediction by con-
+                                                                                    location of the households of students attending Ganivet High School
+sidering the spatial autocorrelation of residuals, instead of assuming (as
+                                                                                    was more dispersed. Actually, the coe<U+FB03>cient of variation is similar to 1
+in classic logistic regression) that they are white noise (Zhang and
+                                                                                    for the three <U+FB01>rst high schools and 0.59 for Ganivet High School, thus
+Wang, 2014). Expression (2) is an estimator which has the advantage of
+                                                                                    showing an almost double dispersion in this school (see Table 1). In
+allowing estimations at any point of the plane.
+                                                                                    addition, this school has the longest average distance between house-
+                                                                                    holds (1722.4 m), which also a<U+FB00>ects the rates of spatial dependence.
+5. Results and discussion
+                                                                                    Hence, the students at Ganivet High School have lower spatial depen-
+                                                                                    dence rates as indicated by the high value of the nugget e<U+FB00>ect (r-nug)
+      The frequency and percentage of students who travel to school on
+                                                                                    for this school (see Table 2).
+foot or by motorized modes of transportation are presented in Table 1.
+                                                                                        As can be seen in Fig. 2, the Alhambra, Soto de Rojas and Zaidín
+Alhambra High School was found to have the highest percentage of
+                                                                                    high schools are located in the southern part of the city. This is a
+students who walk to school (84%), while Ganivet High School had the
+                                                                                    transition zone, with median housing prices and whose inhabitants are
+lowest (57%). The descriptive characteristics of the four types of dis-
+                                                                                    of middle socioeconomic status. However, Ganivel High School is lo-
+tances used to measure the proximity between home and school are also
+                                                                                    cated in the downtown area of the city, where housing prices are high
+shown in Table 1. As can be seen, the mean Euclidean distance is always
+                                                                                    and the socioeconomic status is generally higher, which could be
+the shortest distance for all schools, while the mean driving distance is
+                                                                                8
+
+J. Chica-Olmo et al.                                                                                                       Journal of Transport Geography 72 (2018) 1–12
+                                         Fig. 5. Isoprobability maps of walking to school for the four types of distances.
+related to the more frequent use of motorized vehicles (see Table 1).               the other hand, the distance by car for the Ganivet and Soto high-
+    In this study, 16 logistic regression models were obtained for each of          schools ful<U+FB01>lls this rule of thumb. Therefore, the level of empirical
+the four high schools, and four types of distances were performed                   support of this distance to explain ACS in these schools is basically low
+(Table 2). In all cases, the coe<U+FB03>cients of the models are signi<U+FB01>cant and            or none (Burnham and Anderson, 2003). The low values of <U+0394>i for the
+have a negative sign, thus indicating that as the distance increases, the           Alhambra and Zaidín high schools are due to the strong correlation
+likelihood of ACS to school decreases. This result coincides with most of           between the di<U+FB00>erent types of distances (see Table 1).
+the cases in the study of Pont et al. (2009). In order to compare the                   To detect the presence of the contagion e<U+FB00>ect of neighbors and the
+di<U+FB00>erent kinds of distances (for the same school) we have used the                  locational variables, we have used the experimental variograms of re-
+Nagelkerke adjusted R-squared and the Akaike Information Criterion                  sidual e(si) and its <U+FB01>tted models, which is expressed in Fig. 4. A sphe-
+(AIC), which describe a trade-o<U+FB00> between the goodness-of-<U+FB01>t and its                 rical model was adjusted to all the experimental variograms with the
+complicity (Burnham and Anderson, 2004). According to these statis-                 exception of Alhambra High School, for which a Gaussian model was
+tics, the type of distance that properly explains the transport mode                <U+FB01>tted. The spherical model is linear for small distances, while the
+choice at the Alhambra and Soto de Rojas schools is the Euclidean                   Gaussian model represents an extremely continuous phenomenon
+distance as the statistical value of AIC is lower. However, the walking             (Armstrong, 1998). Therefore, the residuals of Alhambra High School
+distance shows the best results for the Ganivet and Zaidín schools.                 present greater spatial continuity, that is, small changes in the distance
+Therefore, the Euclidean and walking distances best express the concept             between houses (h) cause small changes in the variance of the residuals.
+of proximity between home and school for schools in these types of                  For the other schools, however, small changes in the distance between
+environment.                                                                        houses lead to major changes in variability. In other words, the con-
+    It      is       also   possible      to       calculate     the     AIC        tagion e<U+FB00>ect of the neighbors and the locational variables is less likely
+di<U+FB00>erence = <U+0394>i = AICi - AICmin (where AICmin is the minimum value).                 to vary in space for the students attending Alhambra High School
+A rule of thumb is when <U+0394>i > 10, the model fails to explain some                    compared to the other schools. However, this contagion e<U+FB00>ect and the
+substantial variation in the data and the best model is when <U+0394>i = 0                 locational variables vary substantially in the space for the students at-
+(Burnham and Anderson, 2003). In this study, none of the distances                  tending Ganivet High School.
+considered in the Alhambra and Zaidín high schools meet the stated                      The range of the variogram represents the distance at which the
+rule, so all distances substantially explain the variation in the data. On          residuals are correlated, that is, the range of spatial dependence. This
+                                                                                9
+
+J. Chica-Olmo et al.                                                                                                       Journal of Transport Geography 72 (2018) 1–12
+Fig. 6. (a) Isoprobability map of walking to Zaidín High School, (b) isoprobability map considering only the distance to the school and (c) isovalue map of residuals.
+means that students living within that range are a<U+FB00>ected by similar                  is lower (lower r-nug). Moreover, the variograms of Alhambra High
+locational variables and face-to-face contagion and make similar deci-               School (Fig. 4) showed that students have a low elasticity to distance
+sions. However, the residuals associated to the students living at a                 between households that are close to each other (0–500 m), since there
+further distance from this range are not correlated: when the variogram              is little variability between the residuals of the houses.
+reaches the sill, the covariance is canceled (Cressie, 1991). In the pre-                  In line with the second aim of the study, isoprobability maps were
+sent study the range is between 1025 (Ganivet High School) and                       created to determine the likelihood that a child living anywhere in the
+1630 m (Soto de Rojas High School). Thus, the e<U+FB00>ect of spatial de-                   city will actively commute to school (Fig. 5). These maps represent the
+pendence between households has a radius of in<U+FB02>uence of about                        areas of in<U+FB02>uence of ACS for four high schools in the city of Granada
+1000–1600 m. This radius is quite similar to that obtained in other                  taking into account the structure of variability detected by the vario-
+studies (Broberg et al., 2013). This spatial dependence may be due to                grams. The estimated probabilities re<U+FB02>ect the areas of in<U+FB02>uence of each
+both local or face-to-face contagion e<U+FB00>ects or caused by unobserved                  school for each type of distance and have been obtained with RK (ex-
+locational variables (crime, tra<U+FB03>c, the environment, urban design, so-               pression (2)). The red areas indicate the areas with the highest prob-
+cioeconomic characteristics, etc.) that have similar e<U+FB00>ects on house-                ability that a child will walk to school. These areas have been calculated
+holds located in the same zone.                                                      taking into account the distance from home to school and the spatial
+    The ratio of the nugget e<U+FB00>ect in percentages (%) was also obtained               dependence detected with variograms in the unobservable locational
+to determine the degree of spatial dependence (r-nug, Table 2). Spatial              variables (e(si)). The distances that students in these schools will walk
+dependence was found to be weak for Ganivet High School, moderate                    delimit the areas of in<U+FB02>uence. These areas are not circular in shape
+for Soto de Rojas High School and strong for the Alhambra and Zaidín                 because the students' travel mode choices are not a<U+FB00>ected only by the
+schools.                                                                             distance to school, but by other unobservable locational factors that can
+    It is important to note that a lower percentage of students at Ganivet           be obtained for any point level s0by the kriging method (e (^ s0) ).
+High School walk to school. The school also shows higher average                           To clearly illustrate the results of the RK method, Zaidín High
+distances to school, as well as a lower degree of spatial dependence                 School has been taken as an example. Fig. 6 shows: (a) the map of ACS
+(higher r-nug). In contrast, Alhambra is the high school with the highest            isoprobabilities considering the Euclidean distance and the presence of
+percentage of students who walk. Moreover, although the mean dis-                    autocorrelation between the errors (<U+F0B5>     z (s0) ); (b) the isoprobabilities map
+tance from home to school is not the lowest (due to its high statistical             obtained by classic logistic regression considering only the distance
+dispersion), Alhambra is one of the schools with a greater degree of                 from home to school (m    <U+F0B5> (s0) ) and (c) the map of isovalues of residuals
+spatial dependence because the relationship between the nugget and sill              (e (^ s0) ).
+                                                                                  10
+
+J. Chica-Olmo et al.                                                                                                              Journal of Transport Geography 72 (2018) 1–12
+    As can be observed, the <U+FB01>nal result for ACS (<U+F0B5>       z (s0) ) is a<U+FB00>ected not    planners in developing neighborhoods that support ACS in order to feed
+only by the distance from home to school (m          <U+F0B5> (s0) ), but also by the      into policy decisions.
+contagion e<U+FB00>ect and other locational variables that have not been in-
+cluded in the model (e (^ s0) ). It is clearly observed that if only distance is    Acknowledgements
+considered, the probability of walking to school would have a homo-
+geneous spatial distribution in the form of concentric circles around the                We would like to thank the school o<U+FB03>cials, students and their tea-
+school. However, the presence of autocorrelation among the residuals                chers and parents for their unconditional participation in this study and
+caused by other locational factors deforms these concentric circles,                without whom this project would not have been possible. We also ac-
+resulting in an irregular isoprobabilities map.                                     knowledge all those who helped with the data collection and all the
+                                                                                    members involved in the <U+FB01>eld work for their e<U+FB00>ort, enthusiasm and
+5.1. Study limitations                                                              support.
+    One of the main limitations of this work is that only one locational            Funding
+variable (distance) has been used to explain the ACS model. The in-
+clusion of other locational variables (crime, tra<U+FB03>c, the environment,                    This research did not receive any speci<U+FB01>c grants from funding
+urban design, socioeconomic characteristics, etc.) would have im-                   agencies in the public, commercial or not-for-pro<U+FB01>t sectors.
+proved the overall understanding of the ACS model, but were not
+measured because it was not on the aims of the study. Moreover, these               References
+variables are often unavailable or di<U+FB03>cult or costly to measure.
+However, we consider that the omission of these variables does not                  Anselin, L., 1988. Spatial Econometrics: Methods and Models. Kluwer Academic
+invalidate the results obtained in this work since the global e<U+FB00>ect of                  Publishers, Dordrecht.
+                                                                                    Anselin, L., 1999. Spatial Econometrics. CSISS. Spatially Integrated Social Science. pp.
+these factors on ACS has been considered indirectly by taking into ac-                  1–31.
+count the presence of spatial autocorrelation in the model perturbations            Anselin, L., Bera, A.K., 1998. Spatial dependence in linear regression models with an
+caused by omitting these locational variables. Other limitations include                introduction to spatial econometrics. In: Ullah, A., Giles, D. (Eds.), Handbook of
+                                                                                        Applied Economic Statistics. vol. 155. Marcel Dekker, pp. 237–290.
+the convenience sampling of the participants: the sample is limited to              Anselin, L., Rey, S., 1991. Properties of tests for spatial dependence in linear regression
+Spanish youth from southeastern Spain. Nonetheless, the sample size is                  models. Geogr. Anal. 23 (2), 112–131.
+quite large. The main strengths in the current study was the use of a               Apparicio, P., Shearmur, R., Brochu, M., Dussault, G., 2003. The measure of distance in a
+                                                                                        social science policy context: advantages and costs of using network distances in eight
+valid questionnaire to measure children's commuting to school. An
+                                                                                        Canadian metropolitan areas. J. Geogr. Inf. Decis. Anal. 7, 105–131.
+additional strength of the work was the objective measurement of the                Apparicio, P., Abdelmajid, M., Riva, M., Shearmur, R., 2008. Comparing alternative ap-
+area of in<U+FB02>uence of each school.                                                        proaches to measuring the geographical accessibility of urban health services: dis-
+                                                                                        tance types and aggregation-error issues. Int. J. Health Geogr. 7, 1.
+                                                                                    Apparicio, P., Gelb, J., Dubé, A.-S., Kingham, S., Gauvin, L., Robitaille, É., 2017. The
+6. Conclusions and policy implications                                                  approaches to measuring the potential spatial access to urban health services re-
+                                                                                        visited: distance types and aggregation-error issues. Int. J. Health Geogr. 16 (1), 32.
+    This study has analyzed the spatial distribution of households with             Arafat, A.N., Abed Al Musa, M., 2017. Evaluating sustainable housing locations: com-
+                                                                                        paring the use of network to euclidean proximity in the scoring process. Int. J. Plan.
+students who travel to four high schools located in Granada, Spain. Four                Urban Sustain. Dev. 5 (2), 52–62.
+di<U+FB00>erent distances were examined to explain the e<U+FB00>ect of proximity                  Armstrong, M., 1998. Basic Linear Geostatistics. Springer Science & Business Media.
+between the homes and the schools and measure the e<U+FB00>ect of each                     Beck, L.F., Greenspan, A.I., 2008. Why don't more children walk to school? J. Saf. Res. 39,
+                                                                                        449–452.
+distance and the presence of spatial dependence on the decision to walk             Boix, R., Trullén, J., 2007. Knowledge, networks of cities and growth in regional urban
+to school. The analysis has permitted us to determine the area of in-                   systems*. Pap. Reg. Sci. 86, 551–574.
+<U+FB02>uence of each school.                                                              Broberg, A., Sarjala, S., 2015. School travel mode choice and the characteristics of the
+                                                                                        urban built environment: the case of Helsinki, Finland. Transp. Policy 37, 1–10.
+    The Euclidean distance has traditionally been considered to explain             Broberg, A., Salminen, S., Kyttä, M., 2013. Physical environmental characteristics pro-
+the mode of commuting (Pont et al., 2009). The results we have ob-                      moting independent and active transport to children's meaningful places. Appl.
+tained indicate that the two types of distances that best explain the                   Geogr. 38, 43–52.
+                                                                                    Burke, M., Brown, A.L., 2007. Distances people walk for transport. Road Transp. Res. 16,
+decision to walk to school are the Euclidean distance and the walking                   16–29.
+distance. Moreover, the presence of spatial dependence e<U+FB00>ects arising               Burnham, K.P., Anderson, D.R., 2003. Model Selection and Multimodel Inference: A
+from interactions among geographically close households has also been                   Practical Information-Theoretic Approach. Springer Science & Business Media.
+                                                                                    Burnham, K.P., Anderson, D.R., 2004. Multimodel inference understanding AIC and BIC
+observed. In general, the spatial dependence produced by locational
+                                                                                        in model selection. Sociol. Methods Res. 33, 261–304.
+variables and spatial contagion by the students is moderate to strong,              Chica-Olmo, J., 1995. Spatial estimation of housing prices and locational rents. Urban
+except for Ganivet High School, for which it is weak. In addition, the                  Stud. 32, 1331–1344.
+spatial range of the locational variables and the contagion e<U+FB00>ect is                Chillon, P., Ortega, F.B., Ruiz, J.R., De Bourdeaudhuij, I., Martinez-Gomez, D., Vicente-
+                                                                                        Rodriguez, G., Widhalm, K., Molnar, D., Gottrand, F., Gonzalez-Gross, M., Ward, D.S.,
+approximately 1000 m to 1600 m. These <U+FB01>ndings have policy implica-                      Moreno, L.A., Castillo, M.J., Sjostrom, M., 2011. Active commuting and physical
+tions since the transport mode choice of the students is in<U+FB02>uenced by                   activity in adolescents from Europe: results from the HELENA study. Pediatr. Exerc.
+locational variables and neighbors' decisions. They also highlight the                  Sci. 23, 207–217.
+                                                                                    Chillón, P., Hales, D., Vaughn, A., Gizlice, Z., Ni, A., Ward, D.S., 2014. A cross-sectional
+need for public institutions to improve the surrounding environment of                  study of demographic, environmental and parental barriers to active school travel
+the schools in order to increase their walkable area of in<U+FB02>uence to                     among children in the United States. Int. J. Behav. Nutr. Phys. Act. 11, 1.
+promote active commuting to school reiterating its social bene<U+FB01>ts and               Chillón, P., Panter, J., Corder, K., Jones, A., Van Sluijs, E.M., 2015. A longitudinal study of
+                                                                                        the distance that young people walk to school. Health Place 31, 133–137.
+promote a “domino e<U+FB00>ect” regarding individuals' decisions. These in-                Chillón, P., Herrador-Colmenero, P., Hidalgo-Migueles, J., Cabanas-Sánchez, V.,
+terventions would decrease negative behavoir patterns (i.e., passive                    Fernández-Santos Jorge, R., Veiga, O.L., Castro-Piñero, J., 2017. Scandinavian. J.
+commuting to school). In addiction, identifying these walkable areas                    Public Health 45 (6), 612–620.
+                                                                                    Crane, R., Crepeau, R., 1998. Does neighborhood design in<U+FB02>uence travel?: a behavioral
+may be of interest for local services such as restaurants, supermarkets,                analysis of travel diary and GIS data. Transp. Res. Part D: Transp. Environ. 3,
+shops, etc. It is our hope that this study will provide some interesting                225–238.
+insights.                                                                           Cressie, N., 1991. Statistics for Spatial Data. John Wiley & Sons, USA.
+                                                                                    Davison, K.K., Werder, J.L., Lawson, C.T., 2008. Children's active commuting to school:
+    Recent developments in GIS have opened up new opportunities for
+                                                                                        current knowledge and future directions. Prev. Chronic Dis. 5, A100.
+the use of spatial methodologies (Broberg and Sarjala, 2015). RK could              de Hartog, J.J., Boogaard, H., Nijland, H., Hoek, G., 2010. Do the health bene<U+FB01>ts of cy-
+be implemented in a GIS to allow state agencies and municipalities to                   cling outweigh the risks? Environ. Health Perspect. 118, 1109–1116.
+determine the areas of in<U+FB02>uence of schools and aid urban designers and              Dubin, R.A., 1988. Estimation of regression coe<U+FB03>cients in the presence of spatially
+                                                                                 11
+
+J. Chica-Olmo et al.                                                                                                                         Journal of Transport Geography 72 (2018) 1–12
+     autocorrelated error terms. Rev. Econ. Stat. 70 (3), 466–474.                              Mitra, R., Buliung, R.N., 2012. Built environment correlates of active school transporta-
+Duncan, M.J., Mummery, W.K., 2007. GIS or GPS? A comparison of two methods for                      tion: neighborhood and the modi<U+FB01>able areal unit problem. J. Transp. Geogr. 20 (1),
+     assessing route taken during active transport. Am. J. Prev. Med. 33, 51–53.                    51–61.
+Duncan, M.J., Mummery, W.K., Dascombe, B.J., 2007. Utility of global positioning system         Mitra, R., Buliung, R.N., Faulkner, G.E., 2010. Spatial clustering and the temporal mo-
+     to measure active transport in urban areas. Med. Sci. Sports Exerc. 39, 1851–1857.             bility of walking school trips in the Greater Toronto Area, Canada. Health Place 16,
+Faulkner, G.E.J., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active school transport,             646–655.
+     physical activity levels and body weight of children and youth: a systematic review.       Mori, N., Armada, F., Willcox, D.C., 2012. Walking to school in Japan and childhood
+     Prev. Med. 48, 3–8.                                                                            obesity prevention: new lessons from an old policy. Am. J. Public Health 102,
+Faulkner, G., Stone, M., Buliung, R., Wong, B., Mitra, R., 2013. School travel and chil-            2068–2073.
+     dren's physical activity: a cross-sectional study examining the in<U+FB02>uence of distance.      Nelson, N.M., Foley, E., O'Gorman, D.J., Moyna, N.M., Woods, C.B., 2008. Active com-
+     BMC Public Health 13, 1166.                                                                    muting to school: how far is too far? Int. J. Behav. Nutr. Phys. Act. 5, 1.
+Feuillet, T., Commenges, H., Menai, M., Salze, P., Perchoux, C., Reuillon, R., ... Hercberg,    Odeh, I.O., McBratney, A., Chittleborough, D., 1995. Further results on prediction of soil
+     S., 2018. A massive geographically weighted regression model of walking-environ-               properties from terrain attributes: heterotopic cokriging and regression-kriging.
+     ment relationships. J. Transp. Geogr. 68, 118–129.                                             Geoderma 67, 215–226.
+Galster, G., Hanson, R., Ratcli<U+FB00>e, M.R., Wolman, H., Coleman, S., Freihage, J., 2001.           Overmars, K., De Koning, G., Veldkamp, A., 2003. Spatial autocorrelation in multi-scale
+     Wrestling sprawl to the ground: de<U+FB01>ning and measuring an elusive concept. Housing              land use models. Ecol. Model. 164, 257–270.
+     Policy Debate 12 (4), 681–717.                                                             Panter, J.R., Jones, A.P., Van Sluijs, E.M., Gri<U+FB03>n, S.J., 2010. Neighborhood, route, and
+Golledge, R., Hubert, L., 1982. Some comments on non-Euclidean mental maps. Environ.                school environments and children's active commuting. Am. J. Prev. Med. 38,
+     Plan. A 14, 107–118.                                                                           268–278.
+Government/DfES, H, 2005. Guidance on the Children and Young People's Plan.                     Panter, J., Heinen, E., Mackett, R., Ogilvie, D., 2016. Impact of new transport infra-
+Handy, S., 1996. Methodologies for exploring the link between urban form and travel                 structure on walking, cycling, and physical activity. Am. J. Prev. Med. 50, E45–E53.
+     behavior. Transp. Res. Part D: Transp. Environ. 1, 151–165.                                Pont, K., Ziviani, J., Wadley, D., Bennett, S., Abbott, R., 2009. Environmental correlates of
+Hengl, T., Heuvelink, G., Rossiter, D.G., 2007a. About regression-kriging: from equations           children's active transportation: a systematic literature review. Health Place 15,
+     to case studies. Comput. Geosci. 33, 1301–1315.                                                849–862.
+Hengl, T., Toomanian, N., Reuter, H.I., Malakouti, M.J., 2007b. Methods to interpolate          Rainham, D.G., Bates, C.J., Blanchard, C.M., Dummer, T.J., Kirk, S.F., Shearer, C.L., 2012.
+     soil categorical variables from pro<U+FB01>le observations: lessons from Iran. Geoderma 140,          Spatial classi<U+FB01>cation of youth physical activity patterns. Am. J. Prev. Med. 42,
+     417–427.                                                                                       E87–E96.
+Herrador-Colmenero, M., Perez-Garcia, M., Ruiz, J., Chillon, P., 2014. Assessing modes          Ripley, B.D., 1981. Spatial Statistics. John Wiley & Sons.
+     and frequency of commuting to school in youngsters: a systematic review. Pediatr.          Rodríguez-López, C., Salas-Fariña, Z.M., Villa-González, E., Borges-Cosic, M., Herrador-
+     Exerc. Sci. 26, 291–341.                                                                       Colmenero, M., Medina-Casaubón, J., Ortega, F.B., Chillón, P., 2017. The threshold
+Higgs, G., Fry, R., Langford, M., 2012. Investigating the implications of using alternative         distance associated with walking from home to school. Health Educ. Behav. 44 (6),
+     GIS-based techniques to measure accessibility to green space. Environ. Plan. B Plan.           857–866.
+     Design 39 (2), 326–343.                                                                    Rouhani, S., 1996. Geostatistics for Environmental and Geotechnical Applications. ASTM
+Hume, C., Timperio, A., Salmon, J., Carver, A., Giles-Corti, B., Crawford, D., 2009.                International.
+     Walking and cycling to school predictors of increases among children and adoles-           Schantz, P., Stigell, E., 2009. A criterion method for measuring route distance in physi-
+     cents. Am. J. Prev. Med. 36, 195–200.                                                          cally active commuting. Med. Sci. Sports Exerc. 41, 472–478.
+Jang, M., Kang, C.-D., 2015. Retail accessibility and proximity e<U+FB00>ects on housing prices in     Sidharthan, R., Bhat, C.R., Pendyala, R.M., Goulias, K.G., 2011. Model for children's
+     Seoul, Korea: a retail type and housing submarket approach. Habitat Int.l 49,                  school travel mode choice. Transp. Res. Rec. J. Transp. Res. Board 2213, 78–86.
+     516–528.                                                                                   Sirard, J.R., Slater, M.E., 2008. Walking and bicycling to school: a review. AJLM
+Li, S., Zhao, P., 2015. The determinants of commuting mode choice among school chil-                1559827608320127.
+     dren in Beijing. J. Transp. Geogr. 46, 112–121.                                            Sun, Y., Liu, Y., Tao, F.-B., 2015. Associations between active commuting to school, body
+Logan, T., Williams, T., Nisbet, A., Liberman, K., Zuo, C., Guikema, S., 2017. Evaluating           fat, and mental well-being: population-based, cross-sectional study in China. J.
+     urban accessibility: leveraging open-source data and analytics to overcome existing            Adolesc. Health 57, 679–685.
+     limitations. Environ. Plan. B Urban Anal. City Sci. 1–17.                                  Timperio, A., Ball, K., Salmon, J., Roberts, R., Giles-Corti, B., Simmons, D., Baur, L.A.,
+Mandic, S., de la Barra, S.L., Bengoechea, E.G., Stevens, E., Flaherty, C., Moore, A.,              Crawford, D., 2006. Personal, family, social, and environmental correlates of active
+     Middlemiss, M., Williams, J., Skidmore, P., 2015. Personal, social and environmental           commuting to school. Am. J. Prev. Med. 30, 45–51.
+     correlates of active transport to school among adolescents in Otago, New Zealand. J.       Tobler, W., 1970. A computer model simulation of urban growth in the Detroit region.
+     Sci. Med. Sport 18, 432–437.                                                                   Econ. Geogr. 46 (2), 234–240.
+Matheron, G., 1965. Les variables regionalisées et leur estimation. Masson y Cie, Paris.        US Department of Health Human Services, 2008. Kids walk-to-school: a guide to promote
+McBratney, A.B., Odeh, I.O., Bishop, T.F., Dunbar, M.S., Shatar, T.M., 2000. An overview            walking to school. 1–70.
+     of pedometric techniques for use in soil survey. Geoderma 97, 293–327.                     Van Dyck, D., De Bourdeaudhuij, I., Cardon, G., Deforche, B., 2010. Criterion distances
+McDonald, N.C., 2007a. Active transportation to school – Trends among US school-                    and correlates of active transportation to school in Belgian older adolescents. Int. J.
+     children, 1969–2001. Am. J. Prev. Med. 32, 509–516.                                            Behav. Nutr. Phys. Activity 7.
+McDonald, N.C., 2007b. Children's mode choice for the school trip: the role of distance         van Loon, J., Frank, L., 2011. Urban form relationships with youth physical activity:
+     and school location in walking to school. Transportation 35, 23–35.                            implications for research and practice. J. Plan. Lit. 26, 280–308.
+McDonald, N.C., 2008. Household interactions and children's school travel: the e<U+FB00>ect of         Voss, C., Sandercock, G., 2010. Aerobic <U+FB01>tness and mode of travel to school in English
+     parental work patterns on walking and biking to school. J. Transp. Geogr. 16,                  schoolchildren. Med. Sci. Sports Exerc. 42, 281–287.
+     324–331.                                                                                   Wasserman, S., Pattison, P., 1996. Logit models and logistic regressions for social net-
+Mendoza, J.A., Watson, K., Baranowski, T., Nicklas, T.A., Uscanga, D.K., Han<U+FB02>ing, M.J.,             works: I. An introduction to Markov graphs andp. Psychometrika 61 (3), 401–425.
+     2011. The walking school bus and children's physical activity: a pilot cluster ran-        Wilson, E.J., Marshall, J., Wilson, R., Krizek, K.J., 2010. By foot, bus or car: children's
+     domized controlled trial. Pediatrics 128, E537–E544.                                           school travel and school choice policy. Environ. Plan. A 42, 2168–2185.
+Mitra, R., 2013. Independent mobility and mode choice for school transportation: a re-          Zhang, D., Wang, X.C., 2014. Transit ridership estimation with network Kriging: a case
+     view and framework for future research. Transp. Rev. 33, 21–43.                                study of Second Avenue Subway, NYC. J. Transp. Geogr. 41, 107–115.
+                                                                                             12
+

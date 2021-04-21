@@ -1,0 +1,643 @@
+                                                                Travel Behaviour and Society 21 (2020) 79–89
+                                                                  Contents lists available at ScienceDirect
+                                                           Travel Behaviour and Society
+                                                        journal homepage: www.elsevier.com/locate/tbs
+Determinants of children’s active travel to school: A case study in Hong Kong                                                                               T
+                            <U+204E>
+Kevin Y.K. Leung , Becky P.Y. Loo
+Department of Geography, The University of Hong Kong, Hong Kong
+A R T I C LE I N FO                                      A B S T R A C T
+Keywords:                                                This paper examines the prevalence of active travel to school and the associated determinants for Hong Kong
+Active travel                                            schoolchildren aged 5–12. Data were collected through questionnaire surveys, which provided information re-
+Schoolchildren                                           lating to children’s travel characteristics for their journeys to school and personal/household socio-demographic
+Questionnaire surveys                                    characteristics. Secondary data of the geography around children’s residences were also obtained, to better
+Hong Kong
+                                                         understand surrounding street environment, public transit, open and green space and recreational facilities. The
+Neighbourhood environment
+                                                         geographical features within their residence neighbourhoods were mapped and enumerated. Binary logistic
+                                                         regression modelling was conducted to understand the association between the status of children’s active travel
+                                                         to school (binary dependent variable of ‘active travel’ versus ‘not active travel’) with socio-demographic and
+                                                         geographical factors (independent variables). The results show that network distance from school and other
+                                                         neighbourhood environment variables, such as street block size, public transit facilities and sport/ leisure ve-
+                                                         nues, are highly signi<U+FB01>cant factors associated with active travel to school. A case study was conducted on one
+                                                         selected primary school, where one third of participating children walked to school, with the majority of walkers
+                                                         living within the neighbourhood of the school. Their most direct routes to school were 10–15 min walks in-
+                                                         volving 1–2 at-grade crossings. Other pedestrian facilities in the area were also qualitatively examined on-site to
+                                                         better understand the local geographical context of the case study area. The <U+FB01>ndings inform policy direction on
+                                                         what needs to change for children to lead a healthier and more physically active lifestyle, including improve-
+                                                         ments in the neighbourhood environment.
+1. Background and review                                                                    2009; Centers for Disease Control and Prevention, 2004). In England,
+                                                                                            where the rate of primary schoolchildren walking to school have re-
+    In recent years, children’s active school travel (AST) has been                         mained relatively high at over 60% in 2010, this still marks a con-
+widely studied in the context of Europe (Pojani and Boussauw, 2014;                         siderable decrease from the <U+FB01>gure of 81% recorded in 1971 (Shaw
+van Goeverden and de Boer, 2013; Shaw et al., 2013), North America                          et al., 2013). In an increasingly urbanised and motorised world, with
+(Rothman et al., 2017; McDonald, 2007; Centers for Disease Control                          built surroundings “designed to prioritize cars”, the car culture is
+and Prevention, 2004) and the Asia-Paci<U+FB01>c region (Wen et al., 2008;                         deeply ingrained into all aspects of daily life, which explains AST’s
+Booth et al., 2007; Irawan and Sumi, 2011; Garrard, 2009). AST is well-                     continuing decline (Rothman et al., 2017, p. 320).
+known to be an important contributor to physical health, with a mul-                            Parents, as role models, and their attitudes to travel and road safety
+titude of favourable <U+FB01>tness and activity outcomes (Armstrong, 1993;                         together have considerable in<U+FB02>uence over their children activities and
+Santos et al., 2009; Cooper et al., 2003; Lubans et al., 2011; van Sluijs                   travel behaviour (Lee et al., 2013; Muir et al., 2017). In cities, perceived
+et al., 2009), and has been shown to be positively associated with                          danger from heavy tra<U+FB03>c has led some parents to drive their children to
+psychological wellbeing and development (Leung and Loo, 2017;                               and from school, to be more assured of their children’s safety by re-
+Romero, 2015; Ramanathan et al., 2014). Despite the many advantages                         ducing tra<U+FB03>c exposure (Hillman et al., 1990). However, this has been
+of active travel, however, AST has been on the decline around the world                     shown to lead to more congestion especially near residential areas and
+over the years. In Australia, Sydney’s percentage of children aged 5–9                      schools, and completes the vicious cycle of further reducing children’s
+walking to school fell from 58% in 1971 to 26% at the turn of the                           AST due to increased tra<U+FB03>c (Tsai et al., 2004). The root of this con<U+FB02>ict
+century, while the national American rate of AST for school-aged                            appears to stem from the heightened expectations on a modern-day,
+children fell from around 50% in 1969 to under 15% in 2004 (Garrard,                        ‘good’ parent, where on the one hand, children need to be protected
+  <U+204E>
+    Corresponding author at: 10/F, Department of Geography, The Jockey Club Tower, Centennial Campus, The University of Hong Kong, Pokfulam Road, Hong
+Kong.
+    E-mail address: k.leungyk@connect.hku.hk (K.Y.K. Leung).
+https://doi.org/10.1016/j.tbs.2020.05.009
+Received 1 March 2019; Received in revised form 28 May 2020; Accepted 28 May 2020
+Available online 12 June 2020
+2214-367X/ © 2020 Hong Kong Society for Transportation Studies. Published by Elsevier Ltd. All rights reserved.
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                          Travel Behaviour and Society 21 (2020) 79–89
+from dangerous people or situations, i.e. automobiles, strangers, etc.,                  schools, the quality of the education is perceived to be better than
+but at the same time need to be allowed the freedom to learn to navi-                    public schools (Bray and Kwok, 2003). Around one <U+FB01>fth of all Hong
+gate their neighbourhood and become independent (Valentine, 1997a).                      Kong primary schools are part of the private sector (Education Bureau,
+On addressing this balance, the likeliest outcome has so far been more                   2013).
+in favour of safety <U+FB01>rst, which would translate to the current predica-                       With this backdrop in mind, it is important to include both public
+ment of parents chau<U+FB00>euring their children to and from school and                        and private schools for a more comprehensive overview of the status of
+other activities, or children being accompanied to and from school and                   AST in Hong Kong. In this part of the world, AST has only been dis-
+other activities by domestic helpers. This situation is common in Hong                   cussed as a side note in the investigation of children’s independent
+Kong, the location of this present study, and in other Asian cities as well              mobility, via secondary data from a territory-wide travel-diary style
+(Karsten, 2014; Douglass, 2006).                                                         survey (Lam and Loo, 2014). The study showed a rate of just over 50%
+    At the city-level, studies have discussed AST’s associations with                    for primary school children walking to school in their sample, based on
+socio-demographic characteristics, and separately with neighbourhood                     a snapshot of the travel characteristics of a section of Hong Kong’s
+environment attributes. Various studies have focused on AST’s re-                        population, including primary school-age children, in 2002. With more
+lationship with gender, where boys were generally more likely to make                    than a decade gone by, there is an imperative need to more compre-
+active journeys to school than girls (Leslie et al., 2010; McMillan et al.,              hensively understand the status of, and factors associated with, AST for
+2006). Other factors that have been discussed in the literature on                       Hong Kong primary school children in the present day, inclusive of
+children’s travel and physical activity literature include age and adult                 those in public and private schools. This study aims to provide an ex-
+accompaniment (Rissotto and Tonucci, 2002; Karsten, 2014; Hillman                        tensive scope of study in the Hong Kong context, to better understand,
+et al., 1990; Rothman et al., 2017), household car ownership (Sener                      visualise and analyse the association of AST with the relevant personal
+et al., 2008; Panter et al., 2008) and presence of siblings (Leung et al.,               and household socio-demographic characteristics, as well as neigh-
+2019; Allbaugh et al., 2016; Price et al., 2017). Children seem more                     bourhood environment attributes around their residences. This study is
+likely to be physically active in travel and other activities if they are                well-positioned to inform international readers about children’s AST in
+older and require less accompaniment, come from non-car-available                        the context of Hong Kong in East Asia, with its dense and compact
+households and have siblings. Regarding neighbourhood environment,                       urban form that shapes AST in di<U+FB00>erent ways and draws conclusions
+shorter journey distances, more interconnected streets and higher ac-                    di<U+FB00>erent from studies from other locales. Findings complement pre-
+cessibility to local facilities, like sport and recreation facilities, parks,            vious children’s mobility literature along individual, household and
+playgrounds, etc., were associated with a higher likelihood of walking                   neighbourhood lines (Lam and Loo, 2014). Three research questions are
+to school (Kerr et al., 2006; Dalton et al., 2011; Panter et al., 2008;                  proposed, as follows:
+Larsen et al., 2009). Parents’ perceptions of the quality and safety of the
+surrounding neighbourhood environment also in<U+FB02>uence whether a                             1) What is the level of AST in Hong Kong children, by age and gender?
+child travels to school actively. A neighbourhood that is perceived to be                 2) How does the neighbourhood environment a<U+FB00>ect rates of AST?
+dangerous and devoid of child-friendly facilities like parks and play-                    3) What personal and household socio-demographic characteristics are
+grounds would not likely encourage AST (Timperio et al., 2006; Lee                            associated with more AST?
+et al., 2013). Few studies in the literature comprehensively include all
+the above perspectives together in their analysis (perhaps with the                           This study seeks to provide answers to the above questions and
+exception of Pojani and Boussauw, 2014).                                                 move toward a broader perspective in understanding children’s AST in
+    In Hong Kong, education policy broadly encourages attendance of                      dense and highly motorised cities like Hong Kong. Through the <U+FB01>nd-
+schools situated within children’s own residential neighbourhoods                        ings, policymakers may better plan for and maintain neighbourhoods
+through the allocation of public school places according to children’s                   that are more walking-friendly, especially for vulnerable groups such as
+home locations (Loo and Lam, 2015). Attending school closer to home                      children and the elderly, and also formulate active travel policies that
+within the neighbourhood catchment area seems to be a straightfor-                       target relevant groups of children and other transport-disadvantaged
+ward and bene<U+FB01>cial decision. It is less of a burden for children because                 groups.
+they do not need to travel as far to go to school, and it is also easier for
+their family members where supervision, if necessary, becomes less
+time-consuming and more convenient. More a<U+FB04>uent families may even                        2. Methodology
+move to di<U+FB00>erent neighbourhoods where parents perceive there to be
+better school quality and provision of facilities and amenities (Lam and                      The study incorporated questionnaire survey, GIS and on-site <U+FB01>eld
+Loo, 2014, 2015), although school quality is just one of many possible                   observation data to provide a comprehensive basis for approaching and
+reasons for moving home to another location (Yu and Zhu, 2015). Al-                      answering the research questions. The <U+FB02>ow of the data collection and
+ternatively, some parents choose the option of sending their children to                 analysis process is shown in Table 1. The following sub-sections will
+private schools, which have larger region-wide and even Hong Kong-                       detail and elaborate upon each step of the methodology, from data
+wide catchment areas. Despite the high school tuition fees of private                    collection to data analysis methods.
+Table 1
+Flow of data collection and analysis process.
+  Step    Target                                                                      Action
+  1       Invite primary schools across Hong Kong to participate in school survey     Invitation letters sent by batches and four schools agreed to participate
+  2       Collect travel behaviour and socio-demographic data of child participants   Data obtained from parent questionnaires (valid N = 585)
+  3       Collect neighbourhood environment data around child participants’           Data obtained from government and other sources
+          residences
+  4       Visualise and enumerate neighbourhood environment variables                 Transformed neighbourhood environment data into shape<U+FB01>les and conducted bu<U+FB00>er
+                                                                                      analysis using ESRI ArcMap 10.5
+  5       Analyse determinant variables of children’s active travel to school         Conducted binary logistic regression modelling on IBM SPSS Statistics 25
+  6       Conduct case study to further investigate school neighbourhood environment  Selected one typical neighbourhood school and closely examined neighbourhood
+          based on analysis <U+FB01>ndings                                                   environment via <U+FB01>eld observations on-site
+                                                                                     80
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                         Travel Behaviour and Society 21 (2020) 79–89
+2.1. Data collection                                                           created around each road centreline, to approximate the area covered
+                                                                               by a standard two-lane road and pavement as a road area polygon, in
+    In the <U+FB01>rst step, invitation letters for survey participation were sent    accordance with the Hong Kong Planning Standards and Guidelines
+in randomly selected batches of primary schools in Hong Kong                   (Planning Department, 2018) (motorways and trunk roads are not part
+(Education Bureau, 2013). Four schools replied positively, three public        of the walkable street network and were not considered in the analysis).
+and one private, corresponding relatively well with the public–private         Next, the area covered by the road polygon was erased from the Hong
+ratio of primary schools in Hong Kong. This ensures that children              Kong base map, and each individual parcel of land that remained, en-
+studying in private schools have not been left out of the picture. Parents     closed by streets on all sides, was considered as a street block. Block
+of all students across the four selected schools were noti<U+FB01>ed and given        section length, de<U+FB01>ned as the “maximum distance between any two
+the opportunity to provide consent for participation. Upon obtaining           points on the perimeter of a block” (Stangl, 2015, p. 4) was generated
+parental consent, school surveys were conducted across 9 school days           for all street blocks. The median block section length was calculated for
+between November 2015 and June 2016 (Step 2). Primary school stu-              all street blocks partially or fully within each child neighbourhood,
+dents, aged 5 to 12, were administered a questionnaire and also brought        serving as the street block size indicator in this study. The median was
+home a separate questionnaire for their parents to <U+FB01>ll in. The detailed        used to prevent irregularly large street blocks from skewing the street
+rationale, selection and administration procedure for the school ques-         block size indicator away from a truthful representation of the reality
+tionnaire surveys can be found elsewhere and are not repeated here (see        on the ground.
+Leung and Loo, 2017). This study uses the parent questionnaires with               In Step 5, to understand the children’s socio-demographic char-
+valid data for the variables of interest (N = 585), as explained in            acteristics and neighbourhood environment in which they lived, de-
+Section 1, namely place of residence (to calculate network distance)           scriptive statistics were generated. Next, binary logistic regression
+and socio-demographic variables of the child and his/her household             modelling was conducted on IBM SPSS Statistics 25 to better under-
+(age and gender and number of children, domestic helpers and cars in           stand the factors associated with AST, using a binary dependent vari-
+the household).                                                                able of whether the child’s journey to school was undertaken by active
+    To complement the school survey, Step 3 involved the collection of         transport (i.e. walking or cycling) or not, with the independent vari-
+available secondary data of the neighbourhood environment, collected           ables including 1) network distance from school, 2) neighbourhood
+from a variety of sources. Data from 2015 to 2016, when the primary            environment characteristics and 3) personal and household socio-de-
+data were collected, were not available and hence data from the closest        mographic characteristics. For 1), the network distance was treated as a
+year (i.e. 2018) were selected instead. None of the students’ residences       continuous variable and not grouped. For 2), public transport facilities
+were in Hong Kong’s most recent new development areas (see Task                were merged together into one single variable consisting the sum of
+Force on Land Supply, 2018). Students primarily resided in urban and           bus, tram and Light Rail stops and metro station entrances/ exits, to
+established new town areas of Hong Kong, where the neighbourhood               serve as a composite measure of public transportation access in the
+facilities and streetscapes are settled and without major developments         area. For the street connectivity indicator, block section length was
+in terms of new transit stops or new leisure facilities. Di<U+FB00>erences in the     treated as a continuous variable. Block size-based measures have been
+neighbourhood environment between 2015 to 2016 and 2018, if any,               gaining in popularity in the literature in recent years (see Berrigan
+would be negligible. From the Lands Department (2018) of the Hong              et al., 2010), and smaller block sizes are indicative of more <U+FB01>ne-grained
+Kong SAR Government, sport and leisure facility locations and public           and inter-connected neighbourhood streets (US Green Building Council,
+transit data, including bus routes and locations of bus stops and tram         2009). Sport and leisure facility data, also treated as a continuous
+stops, were collected. Road network and land use type data were ex-            variable, were used to represent the recreational opportunities in the
+tracted from OpenStreetMap (2018). Government data are a reliable              neighbourhood area. The open and green space variable, measured as a
+and authoritative source, and open source data are also quickly be-            percentage of neighbourhood area, included only such areas that can
+coming increasingly accessible and popular in transportation studies           easily be accessed (i.e. OpenStreetMap land use data marked as ‘park’,
+around the world, either as the primary data resource or to complement         ‘garden’ or ‘playground’, and excluding dense woodland, shrubbed
+other sources of data (e.g. Boeing, 2018; also see discussion in de Kadt       slopes, etc.) It is a comprehensive measure of the amount of open-air
+et al., 2014). Also, metro station entrance/ exit locations were obtained      recreational space where children can travel by, play and socialise in.
+from location maps produced by the metro operator (MTR, 2018). The             For 3), apart from age and number of cars in household, which were
+wealth of data in this study provides a high level of detail not easily        modelled as continuous variables, the gender, domestic helper and
+available in other study locations.                                            number of children measures were all dummy coded as binary vari-
+                                                                               ables, with reference values being ‘female’, ‘does not have a domestic
+2.2. Methods of analysis                                                       helper’ and ‘is not an only child’. These speci<U+FB01>cations are straightfor-
+                                                                               ward to interpret and understand. Better knowledge of the various
+    Moving onto the fourth step, these data were downloaded in their           determinants of AST would be of considerable interest especially for
+respective point, line and polygon formats. Using information about the        policymakers who intend to target active travel-friendly policies toward
+child participants’ residences, as provided in the parent questionnaires,      di<U+FB00>erent groups of children of di<U+FB00>erent socio-demographic attributes
+XY coordinates were obtained, and network distance from school was             and in a variety of geographical contexts.
+calculated as a travel characteristics variable. After loading these data          Finally, moving onto the case study in Step 6, the authors conducted
+onto ESRI ArcMap 10.5, 500-metre bu<U+FB00>ers were created around each               on-site <U+FB01>eld observations of the neighbourhood environment around
+residence point, indicative of a distance reachable within a ten-minute        one school, chosen with reference to the <U+FB01>ndings from the binary lo-
+walk, to represent the children’s surrounding neighbourhood area (Loo          gistic regression analysis. The purpose of this on-site examination was
+and du Verle, 2017; Loo et al., 2017a). Bu<U+FB00>er analysis was conducted to        to gain a deeper understanding of the variety of walking facilities and
+enumerate the sum of points, length of lines and percentage of polygons        recreational space provision within a typical Hong Kong school neigh-
+within the neighbourhood areas and overlaid on the Hong Kong base              bourhood. Results were presented in the form of maps, descriptive
+map to represent the neighbourhood environment characteristics                 statistics and photographs of the area. This case study enables readers
+around children’s residences. To measure street connectivity within the        to visualise the geographical distribution of children with AST and also
+neighbourhood, further transformation was required on the road net-            to recognise that neighbourhood environment attributes should be
+work data. Street block size, as a measure of street interconnectivity,        comprehensively considered at a micro-scale as well, beyond the ana-
+was generated in accordance with the block section measurement                 lysis of territory-wide data from government and other sources.
+method suggested by Stangl (2015). Firstly, a 5-metre bu<U+FB00>er was
+                                                                            81
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                        Travel Behaviour and Society 21 (2020) 79–89
+Table 2                                                                                     primary school students in Hong Kong. The mean travel time for the
+Descriptive statistics of the child participants.                                           journey to school was around 20 min with a network distance of
+  Characteristics                 Description                      Mean/%      SD           4.6 km. 10% went to school independently (i.e. without adult accom-
+                                                                                            paniment), and 37% travelled actively to school. These <U+FB01>gures serve as
+  Personal                        Age                              8.7         1.74         an important reference of the characteristics representative of the
+                                  Male                             58.6^       /
+                                                                                            children in this study. In particular, the <U+FB01>gures for travel to school are
+  Household                       Has car(s)                       29.6^       /
+                                  Has domestic helper(s)           40.7^       /
+                                                                                            considerably lower than the 29% (independent travel) and 51% (active
+                                  Is the only child                28.0^       /            travel) recorded in Lam and Loo (2014). This is a clear indication of an
+  Travel to school                Independent*                     10.1^       /            apparent decrease in children’s independent and active mobility, in line
+                                  Active*                          37.1^       /            with similar declining trends around the world (Shaw et al., 2013; Fyhri
+                                  Travel time (minutes)            19.5        12.5
+                                                                                            and Hjorthol, 2009).
+                                  Network distance (kilometres)    4.56        5.97
+  Neighbourhood environment       Bus routes                       47.2        33.7             Regarding children’s neighbourhoods in the study, there were a
+                                  Bus stops                        22.2        12.3         mean of 47 bus routes, 22 bus stops, 4 metro exits and 3 tram stops. The
+                                  Metro station entrances/ exits   4.10        3.34         street connectivity indicator, represented by street block size, had a
+                                  Tram/ Light Rail stops           3.46        4.09
+                                                                                            mean of 219 m. Sport and leisure facilities averaged at 5, while open
+                                  Street block size (metres)       219         257
+                                  Sport/ leisure facilities        5.03        3.60
+                                                                                            and green space percentage stood at around 6%. These <U+FB01>gures provide
+                                  Open and green space (%)         5.97        4.31         useful context to understand what residential environments are typical
+                                                                                            of Hong Kong. In this part of the world, high-rise, high-density and
+^ = % of child participants (N = 585).                                                      high-intensity developments are common and increasingly more so,
+* Note: Child participants can travel to school actively, independently or both             with open and green space at a premium (Chiu, 2007; Lau et al., 2005;
+actively and independently.                                                                 Barter, 2012).
+3. Findings and discussion
+                                                                                            3.2. Travel characteristics to school
+    This section provides an overview of the child participants in the
+                                                                                                Child participants’ travel characteristics to school are shown in
+study, including their travel behaviour to school, as well as their per-
+                                                                                            Table 3. All active travellers (37%) travelled to school on foot, and none
+sonal, household and neighbourhood environment characteristics. The
+                                                                                            by bicycle. In Hong Kong, cycling is still mainly for recreation, and is
+estimation results of the binary logistic regression model in establishing
+                                                                                            not seen as a viable option for commuting to and from work and school
+the determinants of children’s AST are also described and discussed in
+                                                                                            (Loo et al., 2019; Loo and Tsui, 2010). Safety concerns and topo-
+detail.
+                                                                                            graphical realities are the main barriers preventing cycling as a travel
+                                                                                            mode for children and adults alike to become more popular, as are the
+3.1. Descriptive statistics                                                                 lack of safety-in-number bene<U+FB01>ts that are common in European coun-
+                                                                                            tries such as Denmark or the Netherlands (Yao and Loo, 2016). The next
+    Descriptive statistics of the child participants are shown in Table 2,                  largest proportion of travel modes was school bus at 35%, followed by
+with respect to their personal, household, travel to school and neigh-                      rail (including metro and tram) at 10% and other public transport at
+bourhood environment characteristics. The child participants had a                          9%. Those who travelled to school by private car or taxi accounted for
+mean age of 8.7 years, and 59% were boys. 41% had one or more do-                           around 8% of the sample. From Table 3, the percentage share of
+mestic helper at home, 28% were the only child in the household and                         walking and public transport was higher for boys and older children
+30% of the children came from car-available households. Hong Kong’s                         than girls and younger children. The reverse was true for school bus and
+general population studying in primary schools had a mean age of                            other private transportation. These descriptions are in line with societal
+8.1 years and was 52% male (Education Bureau, 2016). For households                         norms that appear to be more protective of and place more restrictions
+in Hong Kong with children, 30–44% employ a domestic helper                                 on mobility upon girls and younger children than boys and older chil-
+(Legislative Council Secretariat, 2017) and 63% are single-child                            dren (Fyhri and Hjorthol, 2009; Leung et al., 2019).
+households (Census and Statistics Department, 2018). Private vehicles
+were available for 15–28% of three-, four- and <U+FB01>ve-person households                        3.3. Binary logistic regression modelling
+(here inclusive of childless households in the absence of a more so-
+phisticated classi<U+FB01>cation for this indicator) (Transport Department,                            A binary logistic regression model was constructed to understand
+2014). While there seems to be an overrepresentation of children with                       the predictors of children’s AST, shown in Table 4, with three groups of
+siblings in the study data, which may be attributed to siblings attending                   variables entered, namely 1) network distance from school, 2) neigh-
+the same school (Hui, 2015), the sample of child participants in this                       bourhood environment characteristics and 3) personal and household
+study is a satisfactory representation of the whole population of                           socio-demographic characteristics. Network distance from school was
+Table 3
+Child participants’ travel characteristics to school.
+  Description                 Walk                    Rail               Other public transport            School bus             Car and taxi                Overall
+                              f           r%          f       r%         f                r%               f          r%          f            r%             N         col %
+  Age            5–6          21          30.4        3       4.3        6                8.7              31         44.9        8            11.6           69        11.8
+                 7            31          30.7        10      9.9        8                7.9              42         41.6        10           9.9            101       17.3
+                 8            47          43.1        8       7.3        6                5.5              38         34.9        10           9.2            109       18.6
+                 9            35          31.0        9       8.0        15               13.3             47         41.6        7            6.2            113       19.3
+                 10           37          39.8        10      10.8       9                9.7              28         30.1        9            9.7            93        15.9
+                 11–12        46          46.0        20      20.0       10               10.0             19         19.0        5            5.0            100       17.1
+  Gender         Male         132         38.5        36      10.5       34               9.9              116        33.8        25           7.3            343       58.6
+                 Female       85          35.1        24      9.9        20               8.3              89         36.8        24           9.9            242       41.4
+  Overall                     217         37.1        60      10.3       54               9.2              205        35.0        49           8.4            585       100.0
+                                                                                        82
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                Travel Behaviour and Society 21 (2020) 79–89
+Table 4
+Final binary logistic regression model showing the determinants of children’s AST.
+  Description                                                                                                                     Sig.                         Exp(B)
+  Travel to school                                                     Network distance from school (kilometres)                  0.000***                     0.329
+  Neighbourhood environment                                            No. of public transit facilities                           0.000***                     1.042
+                                                                       Street block size (metres)                                 0.035*                       0.997
+                                                                       No. of sport and leisure locations                         0.000***                     1.363
+                                                                       Open and green space area (%)                              0.002**                      0.857
+  Personal and household socio-demographic characteristics             Child age (years)                                          0.035*                       1.169
+                                                                       Male child                                                 0.489                        1.191
+                                                                       Only child in household                                    0.698                        0.902
+                                                                       Household has helper                                       0.049*                       0.562
+                                                                       No. of cars in household                                   0.926                        0.977
+  Constant                                                                                                                        0.518                        0.585
+  Cox & Snell R Square                                                                                                            0.456
+  Nagelkerke R Square                                                                                                             0.623
+*** = p < 0.001; ** = p < 0.01; * = p < 0.05.
+entered <U+FB01>rst. Next, the variables consisting the neighbourhood en-                   number of facilities. This means that children can easily visit these play
+vironment characteristics were entered, namely public transit facilities,            areas on the way to and from school, illustrating the importance of
+street block size, sport and leisure locations and percentage of open and            having these places and facilities that enable children to have fun and
+green space. Finally, personal and household socio-demographic char-                 socialise with their friends. This <U+FB01>nding echoes that of Timperio et al.
+acteristics were entered, consisting of age, gender, single child in                 (2004), which reported an association between parental perceptions of
+household, presence of helper in household and number of cars in                     limited sporting venues in neighbourhoods with reduced AST, and
+household.                                                                           Panter et al. (2008), which <U+FB01>nds that children are more likely to travel
+     The results of the <U+FB01>nal model showed the network distance variable              actively to destinations if there are recreational facilities for them to
+to be highly signi<U+FB01>cant and negatively associated with AST at the                    visit and play in along the way.
+p < 0.001 level, with every kilometre increase in network distance                        Percentage of open and green space was negatively associated with
+from school associated with a 67.1% reduction in likelihood of children              AST, signi<U+FB01>cant to p < 0.01, indicative of a 14.3% reduction in like-
+travelling actively. For larger distances, especially residences in excess           lihood of active travel with every percentage increase of open and green
+of 2 km away from school, walking becomes an increasingly unrealistic                space. This result must be interpreted with care, as there are reasonable
+option, and this is congruent with the current literature (Panter et al.,            contextual explanations for this seemingly unexpected result. One
+2008; Dalton et al., 2011; Larsen et al., 2009; Lubans et al., 2011).                consideration is that the presence of open and green spaces (e.g. large
+     For neighbourhood environment variables, there was a highly sig-                parks) may in some situations be an impediment to active travel, par-
+ni<U+FB01>cant positive association between the presence of public transit fa-              ticularly in commutes (Wang and Wen, 2017; Fan et al., 2014; Fan
+cilities with AST at the p < 0.001 level. Each unit increase in public               et al., 2017). Indeed, a recent Finnish study revealed that an increased
+transit facilities was associated with a 4.2% increase in likelihood of              proportion of open and green space was associated with a lower like-
+active travel to school for children. This <U+FB01>nding is in line with most               lihood of active travel to work (Mäki-Opas et al., 2016). Perhaps better
+studies in the literature (see Wang and Wen, 2017), which indicate that              access to green spaces like urban parks only encourages physical ac-
+areas with good access to public transportation are compact, urban and               tivity heading to and from, and within, these spaces, rather than in
+highly amenable for active travel behaviour as well, in contrast to                  commutes. Future studies that comprehensively consider physical ac-
+poorly connected and car-oriented suburban or rural areas. With that                 tivity purposes including AST and beyond, such as travel to other ac-
+being said, some studies have also shown there to be an association                  tivities, doing sports, etc., would be well-positioned to further in-
+between better perceived public transport access with more active                    vestigate the relationship of active travel behaviour with open and
+travel behaviour (e.g. Timperio et al., 2004; Handy et al., 2006). In                green spaces.
+other words, neighbourhoods may not necessarily need to have a great                      Regarding personal and household socio-demographic character-
+quantity of public transit facilities to be seen to have ‘good’ public               istics, older children were more likely to be walkers to school, sig-
+transport. Future research may move beyond quantity and further                      ni<U+FB01>cant to the p < 0.05 level, indicative of a 16.9% increase in like-
+consider the quality and convenience of access to public transit, and                lihood of children travelling actively to school for every unit increase in
+their relationship with sustainable travel modes.                                    age (in years). This is in line with discussions in Rothman et al. (2017).
+     To represent neighbourhood street connectivity, the street block                As children grow older, they become more mature and are more cap-
+size indicator was signi<U+FB01>cant and negatively associated with AST at the              able to navigate their way on foot compared with younger children.
+p < 0.05 level, indicative of a 0.3% reduction in likelihood of tra-                 Households with domestic helpers were negatively associated with
+velling actively to school with every metre increase in block section                children’s AST, signi<U+FB01>cant to the p < 0.05 level, and the likelihood of
+length. Larger street block sizes are often accompanied by wider roads               children in these households to be active travellers to school was 43.8%
+and larger tra<U+FB03>c volumes (Tao et al., 2010), which means it would be                 less than households with no domestic helpers. Employment of a do-
+more di<U+FB03>cult for children to explore their neighbourhood and com-                    mestic helper can be seen as a proxy measure for household income,
+munity by walking to and from school. The neighbourhood would be                     since only families that are wealthier and of a higher socioeconomic
+less walkable as a whole, with fewer route choices. This <U+FB01>nding is in                status can a<U+FB00>ord a domestic helper. These <U+FB01>ndings are in line with
+agreement with past literature investigating street connectivity with                research that shows an inverse relationship between family-level so-
+respect to children’s AST (e.g. Dalton et al., 2011; Kerr et al., 2006), and         cioeconomic status (inclusive of household income measures) and the
+has also been echoed in studies about work commutes and other trips                  likelihood of active travel to school (Chillón et al., 2009; Carlin et al.,
+(e.g. Fan et al., 2014, 2017).                                                       1997). Drilling deeper into the issue, the negative relationship between
+     Sport and leisure facilities were also positively associated with AST           domestic helper employment and children’s AST appears to be a re-
+and highly signi<U+FB01>cant to p < 0.001, with an increase of 36.3% in                     <U+FB02>ection of the culture of supervision and protectiveness in Hong Kong,
+likelihood of children to travel actively with a unit increase in the                especially among wealthier households. Working-class families are
+                                                                                 83
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                         Travel Behaviour and Society 21 (2020) 79–89
+often struggling to make ends meet and cannot a<U+FB00>ord a domestic                part of the pedestrian network are discussed in detail in the following
+helper. Having their child(ren) walk to school (with or without adult         paragraphs.
+supervision) would be the most straightforward and inexpensive op-                With over 8000 m in road distance within the selected school’s
+tion. More well-o<U+FB00> families, on the other hand, can a<U+FB00>ord a domestic          neighbourhood area, roadside pavements and at-grade signalised/ non-
+helper. The domestic helper would be expected to escort the child on          signalised crossings that traverse these roads are a common sight here,
+journeys that children are perceived to be unable to make alone, even         and also an important part of every school journey. The majority of the
+relatively short journeys to school (Lam and Loo, 2014; Karsten, 2014).       pavements in the neighbourhood area are 3 to 4 m wide, in line with
+These journeys would more conveniently be undertaken by motorised             the Hong Kong Planning Standards and Guidelines (Planning Department,
+travel (e.g. by bus, school bus or metro), which is quicker than walking      2018), which notes that footpaths need to be a minimum of 2 m in
+and would allow the domestic helper more time to complete other er-           width to cater for basic pedestrian access and <U+FB02>ow, and preferably at
+rands. In Hong Kong and increasingly in other Asian societies, it is          least 3.5 m wide for those that provide access to residential areas.
+common for middle-class families to employ domestic helpers to take           Fig. 2a shows a pavement in the case study area. Typically, pavements
+care of children as a result of more and more households becoming             in the area are situated between the road on one side and a concrete
+dual-earner ones (The Hong Kong Council of Social Service, 2013).             wall or slope (which may be greened) on the other. In this particular
+Future research should continue to address the e<U+FB00>ect of having a do-          location, the pavement is partially covered overhead by an overhanging
+mestic helper, as well as interactions between di<U+FB00>erent members of the        building façade and mostly in the shade. It appears to be a rather
+household, on children’s active and independent mobility for school           claustrophobic environment, being situated adjacent to a high-walled
+travel and beyond.                                                            car park and its 30- to 40-storey residential block complex above. In the
+    Child gender was not signi<U+FB01>cant to the p < 0.05 threshold, and            case study area, pavements serve as access passageways and locations
+neither were single-child households nor the number of cars in the            for public transit stops, with little street furniture, barring tra<U+FB03>c bar-
+household. This was unexpected, given common associations between             riers and road signs. These routes, with a lack of shops, seating area or
+gender (McMillan et al., 2006) and car ownership (Panter et al., 2008)        greenery and accompanied by a large street block, are rather undesir-
+with AST. The more signi<U+FB01>cant explanations of variance by network             able for pedestrians (Giles-Corti et al., 2009; Loo and Lam, 2012),
+distance from school and neighbourhood environment characteristics            especially for children, who usually prefer there to be more natural
+together may mean that the personal and household socio-demographic           elements and/ or retail facilities in <U+FB01>ner-grained areas for them to enjoy
+variables, while requiring attention, are relatively less important. The      walking to and from school (Romero, 2015).
+Nagelkerke R-squared value was 0.623, which indicates that 62.3% of               Footbridges and escalators are important components of the ele-
+the variance in the <U+FB01>nal model can be attributed to network distance,         vated pedestrian network in the study area, as connectors between
+neighbourhood environment characteristics and personal and house-             destinations separated by elevation di<U+FB00>erences, busy roads, or both
+hold socio-demographic characteristics variables together.                    (Tan and Xue, 2014; Lau et al., 2005). Fig. 2b shows a footbridge,
+                                                                              arching over a main road, that connects a housing estate with the main
+4. Case study of one selected school                                          shopping centre in the study area. This particular footbridge is outdoors
+                                                                              and high-ceilinged, enabling natural light and wind to easily reach
+    With reference to the binary logistic regression model result that        pedestrians using it. It is also well-equipped with ceiling lighting for
+shorter distances are associated with more walking to school, one             pedestrians moving about in the evening and also has tactile strips for
+school in Kwun Tong District was selected for a detailed on-site <U+FB01>eld         the blind. There are also indoor and air-conditioned footbridges con-
+observation and qualitative examination of the surrounding environ-           necting between other shopping centres and housing estates in the area.
+ment. Children at this school had relatively lower travel distance and        Footbridges provide safe ways to cross main roads especially for travel-
+duration to school in comparison with the other three schools surveyed,       disadvantaged groups like children, disabled people and the elderly
+and serves as a prime example of a neighbourhood school (see Bosetti,         (Loo and Lam, 2012). Fig. 2c shows a system of escalators connecting
+2004), where the school is situated within the neighbourhood of a             the ground level near the metro station to a housing estate, podium and
+majority of the children’s residences.                                        shopping centre that are on higher elevation. Pedestrians are able to
+    Two maps have been produced in Figs. 1a and b, which illustrate           move between destinations more easily, and for children attending this
+children’s residential locations (N = 152) relative to their school lo-       school who need to use or pass by the metro station, escalator con-
+cation, the neighbourhood environment and also the distribution of            nections provide the option of making the journey by walking, instead
+children who do and do not walk to school. As seen from Fig. 1a, the          of taking a connecting bus or minibus to reach the school. While the
+children live relatively close to the school with those living outside and    escalator systems in this district are more piecemeal and on a smaller
+inside the neighbourhood of the school being a roughly half-half split        scale compared to the well-known Central to Mid-Levels escalator and
+(52% outside vs 48% inside). In Fig. 1b, the vast majority of children        walkway system at the heart of Hong Kong’s central business district
+walking to school resided within the school neighbourhood, in gov-            (CBD), escalator connectors can help to reduce transport costs for both
+ernment-sponsored housing estates, with residential locations of chil-        the user and the authorities (Zacharias, 2011). As long as they are used
+dren not walking to school removed for better visualisation in the map.       safely, escalators provide an e<U+FB03>cient and comfortable alternative for
+The most direct routes would typically be 10–15 min walks, via 1–2            short-distance travel between locations that di<U+FB00>er in elevation without
+road crossings and primarily along roadside pavements. From Table 5,          needing to use a stairway or motorised transportation.
+more than two thirds of children at the selected school did not walk to           Finally, the case study area also has a multitude of elevated estate
+school, and of those who did, a larger percentage were male and of            podiums with open areas, covered walkways and seating on the side, as
+older age, in line with the previous discussion about age, gender and         well as shopping centres that, in e<U+FB00>ect, are also providers of indoor
+AST in Sections 3.2 and 3.3. Fig. 2a–f are photographs of some walking        passageways connecting di<U+FB00>erent destinations, as shown in Fig. 2d, e
+facilities in the area surrounding the selected school. Apart from facil-     and f respectively. These communal spaces are places where children
+ities more typically associated with walking, like pavements and sig-         can play, socialise and explore their own neighbourhood (Valentine,
+nalised road crossings, which can be accounted for by the street block        1997b), with a variety of destinations like shops, playgrounds, leisure
+size indicator in this study, there are also footbridges, escalators,         facilities and podium gardens on the way to and from school. The
+housing estate podiums, covered walkways and indoor walkways in the           elevated estate podiums in the case study area also serve as connectors
+area. These facilities are beyond traditional street connectivity mea-        between di<U+FB00>erent housing blocks, and pedestrians who are in a hurry or
+sures, necessitating a further assessment of the neighbourhood en-            only need to pass through the area can easily use the covered walkways
+vironment and walking facilities at a micro-scale. Their importance as        on the podium, providing shelter against the elements. Shopping
+                                                                           84
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                Travel Behaviour and Society 21 (2020) 79–89
+Fig. 1. (a) (top): Residence location of children who walk to school and do not walk to school for one school in Kwun Tong District, public transit variables excluded
+for better clarity. (b) (bottom): Residence location of children who walk to school for one school in Kwun Tong District, all built environment variables available
+included.
+                                                                                 85
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                  Travel Behaviour and Society 21 (2020) 79–89
+Table 5                                                                                 connect between housing estates, the metro station and the public
+Descriptive statistics of the child participants’ AST status at one selected school.    transport interchange, and in e<U+FB00>ect are also pedestrian links (Lau et al.,
+  Description               Walk               Not walk            Overall              2005). The important caveat, of course, is that these privately-owned
+                                                                                        communal spaces need to be properly managed and still provide for the
+                            f        r%        f         r%        N         col%       social needs of local people in the area – children, adults and the elderly
+                                                                                        alike (Luk, 2009; Tan and Xue, 2014) – for the neighbourhood en-
+  Age          5–8          18       26.5      50        73.5      68        44.7
+               9–12         31       36.9      53        63.1      84        55.3       vironment to be desirable and convenient.
+  Gender       Male         30       33.7      59        66.3      89        58.6
+               Female       19       30.2      44        69.8      63        41.4       5. Conclusion and recommendations
+  Overall                   49       32.2      103       67.8      152       100.0
+                                                                                            This study has provided a timely overview of children’s AST in Hong
+                                                                                        Kong and its associated factors through descriptive statistics and binary
+centres can be understood as another form of communal space in the
+                                                                                        logistic regression modelling. The rate of AST in Hong Kong at 37%, as
+case study area, providing retail and entertainment opportunities for
+                                                                                        revealed by this study, is considerably lower than in other East Asian
+children and their parents alike. The indoor passageways of shopping
+                                                                                        contexts, such as Beijing (60–70%) and the urban areas of Japan (nearly
+centres, like the one shown in Fig. 2f, are also important parts of the
+                                                                                        100%) (Li and Zhao, 2015; Zhang et al., 2017; Mori et al., 2012). There
+pedestrian network that must not be neglected, because they also
+                                                                                        are many context-dependent reasons setting Hong Kong apart that may
+                                  (a) Pavement                                 (b) Footbridge                           (c) Escalator
+                          (d) Open-air estate podium                       (e) Covered walkway                      (f) Indoor walkway
+Fig. 2. An overview of di<U+FB00>erent types of walking facilities in the pedestrian network in and around the neighbourhood area of one school in Kwun Tong District.
+                                                                                     86
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                        Travel Behaviour and Society 21 (2020) 79–89
+help to explain these di<U+FB00>erences. Hilly topography makes active travel,       school with better reputation) (Ettema and Nieuwenhuis, 2017; Leung
+especially cycling, less amenable (Loo et al., 2019). In contrast, Beij-      et al., 2019). Ultimately, the key message is that attending a neigh-
+ing’s <U+FB02>at topography seems to be one reason why a substantial pro-            bourhood school has the advantage of most necessities being nearby,
+portion of students are able to cycle to school. Furthermore, policy          and young children would not need to travel too far to go to school,
+factors also come into play. Japan’s extensive public education policy        attend extra-curricular activities and to play with their friends (Leung
+that comes with strong encouragement of walk-to-school practices              et al., 2019). Active travel, as a result, becomes much more amenable.
+(Mori et al., 2012) di<U+FB00>ers quite signi<U+FB01>cantly with Hong Kong’s policy of          Policymakers should also consider improvements to the neigh-
+developing a strong private school sector (Choi, 2005). This appears to       bourhood environment and move toward compact, mixed-use and pe-
+be an important contributor to the further travel distances in Hong           destrian-friendly designs that have a variety of destinations for re-
+Kong as a whole, which leads to active travel being less feasible when        sidents to go to, which has been shown to increase walking behaviour
+compared with other East Asian societies. Clearly, even within the East       (Giles-Corti et al., 2009; Loo et al., 2017b). The association between
+Asian context, there are many di<U+FB00>erences despite cities being similarly       AST and more sport and leisure venues and public transit facilities
+high-density, compact and busy in tra<U+FB03>c. Future studies may consider          shows that the provision of greater activity opportunities and destina-
+cross-city and cross-regional comparisons that would help researchers         tions is related with increased physical activity in children, whether
+to further understand how location-speci<U+FB01>c factors – including but not        with more active travel, increased sport activities or both (Leung et al.,
+limited to neighbourhood environment, topography, local policy, etc. –        2019). On a related note, given the understandably protective mindset
+may in<U+FB02>uence AST rates and whether lessons can be learnt from the             of parents, policymakers may also consider working with schools to
+di<U+FB00>erences between locations.                                                 make provisions for implementing programmes that encourage walking
+     This study also visualised a typical school neighbourhood area and       to and from school (Walking School Bus, 2018; Lee et al., 2017), as an
+its environmental attributes through maps and a presentation of on-site       alternative option for short journeys that are currently undertaken via
+<U+FB01>eld observations. In the case study neighbourhood area, despite the          public transportation or operated by school bus services. Parents would
+roadside pedestrian environment being rather perfunctory and nonde-           be aware that their children are being safely supervised home or to their
+script, and some street blocks being relatively large, other pedestrian       after-school activities, while the children are able to obtain the physical
+facilities (many of them elevated) have compensated for this de<U+FB01>ciency        activity that they need for healthy physical development.
+and enabled pedestrian networks to stay interconnected, which illus-              In conclusion, this study has provided a quantitative and qualitative
+trates the importance of micro-scale considerations of pedestrian net-        examination of AST and its associated factors of the neighbourhood
+work connectivity. This study exempli<U+FB01>es the advantages of using both         environment and socio-demographic attributes for Hong Kong children.
+quantitative and qualitative methods to conduct research. Future stu-         Future research should focus on investigating children’s and parents’
+dies may further consider children’s and their parents’ perceptions of        perceptions on the neighbourhood environment, concerns for safety,
+the neighbourhood environment, stranger danger, road safety and their         lifestyle decisions and personal capabilities. Researchers should also
+(children’s) own abilities in navigating the road environment and daily       look beyond streets alone to examine the e<U+FB00>ects of the whole pedestrian
+activities. Academics should also begin to pay more attention to the          network (elevated, at-grade and underground) on travel behaviour, in a
+di<U+FB00>erent types of open and green spaces aside of parks, gardens and           world where cities are becoming increasingly vertically oriented and
+playgrounds, and how they in<U+FB02>uence travel behaviour. For example,             developing not only laterally, but also upwards and downwards. This
+there are spaces that are privately owned and/ or have not been               needs to be accompanied by the appropriate changes in education
+properly documented, such as estate podiums, rooftop gardens, indoor/         policy and improvements in the neighbourhood environment, making
+covered areas within shopping centres, and these may have important           use of lessons to be learnt from future cross-city and cross-regional
+in<U+FB02>uences on whether active travel occurs (Valentine, 1997b; Lau et al.,      comparison studies, in order for children to be able to walk on their
+2005). Research into these aspects of children’s mobility and road            journeys to and from school safely and happily.
+safety would be highly useful for researchers and policymakers in East
+Asia and beyond to develop and implement policies that can improve
+rates of active travel.                                                       CRediT authorship contribution statement
+     There is an opportunity for the education authorities to better al-
+locate children to schools that are closer to their residences, as shorter        Kevin Y.K. Leung: Software, Validation, Formal analysis,
+route distances make active travel far more likely. In many cities,           Investigation, Data curation, Writing - original draft, Writing - review &
+children’s residence locations are taken into account when public             editing, Visualization. Becky P.Y. Loo: Conceptualization,
+schools are allocated to them as they prepare to enter primary school,        Methodology, Validation, Formal analysis, Investigation, Resources,
+and a similar policy exists in Hong Kong (Loo and Lam, 2015). How-            Writing - review & editing, Supervision, Project administration,
+ever, parents may also have numerous other rationales and considera-          Funding acquisition.
+tions when selecting a ‘good’ primary school for their child, especially
+those who can a<U+FB00>ord to educate their children in private schools, such
+as school reputation, teaching quality, smaller class size, etc., and the     Declaration of Competing Interest
+so-called ‘good’ schools may not always be within their neighbourhood
+of residence (Bosetti, 2004). To resolve this, there would need to be             The authors declare that they have no known competing <U+FB01>nancial
+further incentives for parents to select schools in closer proximity, such    interests or personal relationships that could have appeared to in<U+FB02>u-
+as improvement in the quality of teaching and school reputation at            ence the work reported in this paper.
+neighbourhood schools at the longer term, given the trade-o<U+FB00> in school
+choice observed between academic quality and distance to school
+(Burgess et al., 2015). At this juncture, the deliberate decision to move     Acknowledgments
+to certain neighbourhoods with better schools and better neighbour-
+hood quality, i.e. residential self-selection, also needs to be mentioned.        Funding: This work was supported by the General Research Fund of
+Although residential self-selection has not been considered in this           the Hong Kong University Grants Committee Research Grants Council
+study’s model, future researchers may need to consider parental atti-         on ‘Understanding Children’s Independent Mobility and Their Road-
+tudinal factors relevant to residence location, especially to do with         crossing Ability: Challenges and Opportunities in Hong Kong’ (HKU
+lifestyle choices (e.g. preference of a greener and more active lifestyle)    17406314).
+and the choices they make for their children (e.g. enrolment into a
+                                                                           87
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                                         Travel Behaviour and Society 21 (2020) 79–89
+References                                                                                                case from Yogyakarta (Indonesia). J. Sustain. Develop. 4 (1), 45–52.
+                                                                                                     Karsten, L., 2014. Middle-class childhood and parenting culture in high-rise Hong Kong:
+                                                                                                          on scheduled lives, the school trap and a new urban idyll. Children’s Geogr. 13,
+Allbaugh, C.N., Bolter, N.D., Shimon, J.M., 2016. In<U+FB02>uence on physical activity and sport                 556–570.
+    participation: considerations for coaches. Strategies 29 (4), 24–28.                             Kerr, J., Rosenberg, D., Sallis, J.F., Saelens, B.E., Frank, L.D., Conway, T.L., 2006. Active
+Armstrong, N., 1993. Independent mobility and children’s physical development. In:                        commuting to school: associations with environment and parental concerns. Med. Sci.
+    Hillman, M. (Ed.), Children, Transport and the Quality of Life. Policy Studies                        Sports Exerc. 38, 787–793.
+    Institute, London, pp. 35–43.                                                                    Lam, W.W.Y., Loo, B.P.Y., 2014. Determinants of children’s independent mobility in Hong
+Barter, P.A., 2012. O<U+FB00>-street parking policy surprises in Asian cities. Cities 29 (1), 23–31.             Kong. Asian Transp. Stud. 3, 250–268.
+Berrigan, D., Pickle, L.W., Dill, J., 2010. Associations between street connectivity and             Lands Department, 2018. GeoInfo Map. Government of the Hong Kong Special
+    active transportation. Int. J. Health Geogr. 9, 20.                                                   Administrative Region. Retrieved 30 April 2018 from http://www2.map.gov.hk/
+Boeing, G., 2018. A multi-scale analysis of 27,000 urban street networks: every US City,                  gih3/index.jsp.
+    Town, Urbanized Area, and Zillow Neighborhood. Environ. Plann. B, advance online                 Larsen, K., Gilliland, J., Hess, P., Tucker, P., Irwin, J., He, M., 2009. The in<U+FB02>uence of the
+    publication.                                                                                          physical environment and sociodemographic characteristics on children’s mode of
+Booth, M.L., Okeley, A.D., Denney-Wilson, E., Hardy, L.L., Dobbins, T., Wen, L.-M., Rissel,               travel to and from school. Am. J. Prev. Med. 99, 520–526.
+    C., 2007. Characteristics of travel to and from school among adolescents in NSW,                 Lau, S.S.Y., Giridharan, R., Ganesan, S., 2005. Multiple and intensive land use: case
+    Australia. J. Paediatr. Child Health 43, 755–761.                                                     studies in Hong Kong. Habitat Int. 29, 527–546.
+Bosetti, L., 2004. Determinants of school choice: understanding how parents choose                   Lee, C., Yoon, J., Zhu, X., 2017. From sedentary to active school commute: multi-level
+    elementary schools in Alberta. J. Educ. Policy 19 (4), 387–405.                                       factors associated with travel mode shifts. Prev. Med. 95, S26–S38.
+Bray, M., Kwok, P., 2003. Demand for private supplementary tutoring: conceptual con-                 Lee, C., Zhu, X., Yoon, J., Varni, J.W., 2013. Beyond distance: children's school travel
+    siderations, and socio-economic patterns in Hong Kong. Econ. Educ. Rev. 22,                           mode choice. Ann. Behav. Med. 45 (Suppl. 1), S55–S67.
+    611–620.                                                                                         Legislative Council Secretariat, 2017. Research Brief: Foreign domestic helpers and
+Burgess, S., Greaves, E., Vignoles, A., Wilson, D., 2015. What parents want: school pre-                  evolving care duties in Hong Kong (Issue No. 4). Hong Kong SAR Legislative Council,
+    ferences and school choice. Econ. J. 125, 1262–1289.                                                  Hong Kong. Retrieved 11 May 2020 from: https://www.legco.gov.hk/research-
+Census and Statistics Department, 2018. 2016 Population By-census. Government of the                      publications/english/1617rb04-foreign-domestic-helpers-and-evolving-care-duties-
+    Hong Kong Special Administrative Region. Retrieved 27 February 2018 from https://                     in-hong-kong-20170720-e.pdf.
+    www.bycensus2016.gov.hk/en/index.html.                                                           Leslie, E., Kremer, P., Toumbouroua, J.W., Williams, J.W., 2010. Gender di<U+FB00>erences in
+Centers for Disease Control and Prevention, 2004. Barriers to children walking to or from                 personal, social and environmental in<U+FB02>uences on active travel to and from school for
+    school — United States, 2004. Morbid. Mortal. Weekly Rep. 54(38): 949–952.                            Australian adolescents. J. Sci. Med. Sport 13, 597–601.
+    Retrieved 31 January 2018 from https://www.cdc.gov/mmwr/preview/mmwrhtml/                        Leung, K.Y.K., Astroza, S., Loo, B.P.Y., Bhat, C.R., 2019. An environment-people inter-
+    mm5438a2.htm.                                                                                         actions framework for analysing children’s extra-curricular activities and active
+Carlin, J.B., Stevenson, M.R., Roberts, I., Bennett, C.M., Gelman, A., Nolan, T., 1997.                   transport. J. Transp. Geogr. 74, 341–358.
+    Walking to school and tra<U+FB03>c exposure in Australian children. Aust. N. Z. J. Public               Leung, K.Y.K., Loo, B.P.Y., 2017. Association of children’s mobility and wellbeing: a case
+    Health 21 (3), 286–292.                                                                               study in Hong Kong. Travel Behav. Soc. 9, 95–104.
+Chillón, P., Ortega, F.B., Ruiz, J.R., Pórez, I.J., Martín-Matillas, M., Valtueña, J., AVENA         Li, S., Zhao, P., 2015. The determinants of commuting mode choice among school chil-
+    Study Group, 2009. Socio-economic factors and active commuting to school in urban                     dren in Beijing. J. Transp. Geogr. 46, 112–121.
+    Spanish adolescents: the AVENA study. Eur. J. Pub. Health 19 (5), 470–476.                       Loo, B.P.Y., du Verle, F., 2017. Transit-oriented development in future cities: towards a
+Chiu, R.L.H., 2007. Planning, land and a<U+FB00>ordable housing in Hong Kong. Hous. Stud. 22                     two-level sustainable mobility strategy. Int. J. Urban Sci. 21 (supp 1), 54–67.
+    (1), 63–81.                                                                                      Loo, B.P.Y., Cheng, A.H.T., Nichols, S.L., 2017a. Transit-oriented development on
+Choi, P.-K., 2005. A critical evaluation of education reforms in Hong Kong: counting our                  green<U+FB01>eld versus in<U+FB01>ll sites: some lessons from Hong Kong. Landscape Urban Plann.
+    losses to economic globalization. Int. Stud. Sociol. Educ. 15 (3), 237–256.                           167, 37–48.
+Cooper, A.R., Page, A.S., Foster, L.J., Qahwaji, D., 2003. Commuting to school: are                  Loo, B.P.Y., Lam, W.W.Y., Mahendran, R., Katagiri, K., 2017b. How is the neighbourhood
+    children who walk more physically active? Am. J. Prev. Med. 25, 273–276.                              environment related to the health of seniors in Hong Kong, Singapore and Tokyo?
+Dalton, M.A., Longacre, M.R., Drake, K.M., Gibson, L., Adachi-Mejia, A.M., Swain, K., Xie,                Some insights for promoting ageing-in-place. Ann. Am. Assoc. Geogr. 107 (4),
+    H., Owens, P.M., 2011. Built environment predictors of active travel to school among                  812–828.
+    rural adolescents. Am. J. Prev. Med. 40, 312–319.                                                Loo, B.P.Y., Lam, W.W.Y., 2012. Geographic accessibility around health care facilities for
+De Kadt, J., Norris, S.A., Fleisch, B., Richter, L., Alvanides, S., 2014. Children's daily travel         elderly residents in Hong Kong: a microscale walkability assessment. Environ. Plann.
+    to school in Johannesburg-Soweto, South Africa: geography and school choice in the                    B 39, 629–646.
+    Birth to Twenty cohort study. Children's Geogr. 12, 170–188.                                     Loo, B.P.Y., Lam, W.W.Y., 2015. Does neighbourhood count in a<U+FB00>ecting children's jour-
+Douglass, M., 2006. Global householding in Paci<U+FB01>c Asia. Int. Develop. Plann. Rev. 28 (4),                 neys to schools? Child. Geogr. 13 (1), 89–113.
+    421–446.                                                                                         Loo, B.P.Y., Leung, K.Y.K., Chan, F.C.H., 2019. How short-term cycling training promotes
+Education Bureau, 2013. School Lists by District. Government of the Hong Kong Special                     cycling among schoolchildren in high-density cities. Int. J. Sustain. Transp. advance
+    Administrative Region. Retrieved 12 January 2017 from http://www.edb.gov.hk/en/                       online publication.
+    student-parents/sch-info/sch-search/schlist-by-district/.                                        Loo, B.P.Y., Tsui, K.L., 2010. Bicycle crash casualties in a highly motorized city. Accid.
+Education Bureau, 2016. Student Enrolment Statistics, 2015/16. Government of the Hong                     Anal. Prev. 42, 1902–1907.
+    Kong Special Administrative Region. Retrieved 13 May 2020 from https://www.edb.                  Lubans, D.R., Boreham, C.A., Kelly, P., Foster, C.E., 2011. The relationship between active
+    gov.hk/attachment/en/about-edb/publications-stat/<U+FB01>gures/Enrol_2015.pdf.                               travel to school and health-related <U+FB01>tness in children and adolescents: a systematic
+Ettema, D., Nieuwenhuis, R., 2017. Residential self-selection and travel behaviour: what                  review. Int. J. Behav. Nutr. Phys. Activity 8, 5.
+    are the e<U+FB00>ects of attitudes, reasons for location choice and the built environment? J.           Luk, W.L., 2009. Privately owned public space in Hong Kong and New York: the urban
+    Transp. Geogr. 59, 146–155.                                                                           and spatial in<U+FB02>uence of the policy. In: Paper presented at the 4th International
+Fan, J.X., Wen, M., Kowaleski-Jones, L., 2014. An ecological analysis of environmental                    Conference of the International Forum on Urbanism (IFoU), Amsterdam, The
+    correlates of active commuting in urban U.S. Health Place 30, 242–250.                                Netherlands.
+Fan, J.X., Wen, M., Wan, N., 2017. Built environment and active commuting: Rural-urban               Mäki-Opas, T.E., Borodulin, K., Valkeinen, H., Stenholm, S., Kunst, A.E., Abel, T.,
+    di<U+FB00>erences in the U.S. SSM - Population Health 3, 435–441.                                            Härkänen, T., Kopperoinen, L., Itkonen, P., Prättälä, R., Karvonen, S., Koskinen, S.,
+Fyhri, A., Hjorthol, R., 2009. Children’s independent mobility to school, friends and lei-                2016. The contribution of travel-related urban zones, cycling and pedestrian net-
+    sure activities. J. Transp. Geogr. 17 (5), 377–384.                                                   works and green space to commuting physical activity among adults – a cross-sec-
+Garrard, J., 2009. Active Transport: Children and Young People - An Overview of Recent                    tional population-based study using geographical information systems. BMC Public
+    Evidence, VicHealth, Melbourne, Australia. Retrieved 31 January 2018 from https://                    Health 16, 760.
+    www.vichealth.vic.gov.au/~/media/resourcecentre/publicationsandresources/                        McDonald, N.C., 2007. Active transportation to school: trends among U.S. Schoolchildren,
+    active%20travel/active_transport_children_and_young_people_<U+FB01>nal.ashx.                                 1969–2001. Am. J. Prev. Med. 32, 509–516.
+Giles-Corti, B., Kelty, S.F., Zubrick, S.R., Villanueva, K.P., 2009. Encouraging walking for         McMillan, T., Day, K., Boarnet, M., Alfonzo, M., Anderson, C., 2006. Johnny walks to
+    transport and physical activity in children and adolescents: how important is the built               school—does Jane? Sex di<U+FB00>erences in children's active travel to school. Children,
+    environment? Sports Med. 39 (12), 995–1009.                                                           Youth Environ. 16, 75–89.
+Handy, S., Cao, X., Mokhtarian, P.L., 2006. Self-selection in the relationship between the           Mori, N., Armada, F., Wilcox, D.C., 2012. Walking to school in Japan and childhood
+    built environment and walking: empirical evidence from Northern California. J. Am.                    obesity prevention: new lessons from an old policy. Am. J. Public Health 102,
+    Plann. Assoc. 72 (1), 55–74.                                                                          2068–2073.
+Hillman, M., Adams, J., Whitelegg, J., 1990. One False Move: A Study of Children's                   MTR Corporation, 2018. System Map. Retrieved 20 February 2018 from. http://www.
+    Independent Mobility. Policy Studies Institute, London.                                               mtr.com.hk/en/customer/services/system_map.html.
+Hui, W.T., 2015. Xiong di zi mei tong xiao [Siblings in the same school]. Ta Kung Pao, pp.           Muir, C., O’Hern, S., Oxley, J., Devlin, A., Koppel, S., Charlton, J.L., 2017. Parental role in
+    B21. Retrieved 28 February 2018 from http://paper.takungpao.com/res<U+FB01>le/PDF/                           children’s road safety experiences. Transp. Res. Part F 46, 195–204.
+    20151112/PDF/b21_screen.pdf.                                                                     OpenStreetMap, 2018. OpenStreetMap. Retrieved 20 February 2018 from https://www.
+The Hong Kong Council of Social Service, 2013. She hui fa zhan zhuan ti zi liao: xiang                    openstreetmap.org/.
+    gang er tong gai kuang [Theme of societal development: Overview of Hong Kong                     Panter, J.R., Jones, A.P., van Sluijs, E.M.F., 2008. Environmental determinants of active
+    children]. Retrieved 14 June 2018 from. http://c4e.hkcss.org.hk/user/child201307.                     travel in youth: a review and framework for future research. Int. J. Behav. Nutr. Phys.
+    pdf.                                                                                                  Activity 5, 34.
+Irawan, M.Z., Sumi, T., 2011. Promoting active transport in students’ travel behavior: a             Planning Department, 2018. Hong Kong Planning Standards and Guidelines. Government
+                                                                                                  88
+
+K.Y.K. Leung and B.P.Y. Loo                                                                                                                   Travel Behaviour and Society 21 (2020) 79–89
+    of the Hong Kong Special Administrative Region. Retrieved 4 January 2019 from                  commuting to school. Am. J. Prev. Med. 30, 45–51.
+    https://www.pland.gov.hk/pland_en/tech_doc/hkpsg/full/index.htm.                           Transport Department, 2014. Travel Characteristics Survey 2011: Final Report.
+Pojani, D., Boussauw, K., 2014. Keep the children walking: active school travel in Tirana,         Government of the Hong Kong Special Administrative Region. Retrieved 20
+    Albania. J. Transp. Geogr. 38, 55–65.                                                          September, 2016 from http://www.td.gov.hk/<U+FB01>lemanager/en/content_4652/
+Price, C.D., Simpkins, S.D., Menjívar, C., 2017. Sibling behaviors and mexican-origin              tcs2011_eng.pdf.
+    adolescents’ after-school activities. J. Adolesc. Res. 32 (2), 127–154.                    Tsai, J., Cranford, J., Lee, J.-J., 2004. Best practices in managing school campus tra<U+FB03>c
+Ramanathan, S., O’Brien, C., Faulkner, G., Stone, M., 2014. Happiness in motion: emo-              circulation. Transp. Res. Rec.: J. Transp. Res. Board 1865, 41–47.
+    tions, well-being, and active school travel. J. Sch. Health 84, 516–523.                   US Green Building Council, 2009. LEED 2009 for Neighbourhood Development.
+Rissotto, A., Tonucci, F., 2002. Freedom of movement and environmental knowledge in                Retrieved 20 February 2019 from. https://www.usgbc.org/sites/default/<U+FB01>les/LEED
+    elementary school children. J. Environ. Psychol. 22 (1–2), 65–77.                              %202009%20RS_ND_07.01.14_current%20version.pdf.
+Romero, V., 2015. Children's experiences: enjoyment and fun as additional encourage-           Valentine, G., 1997a. ‘My son's a bit dizzy. My wife's a bit soft’: gender, children and
+    ment for walking to school. J. Transp. Health 2, 230–237.                                      cultures of parenting. Gender, Place Cult. 4, 37–62.
+Rothman, L., Macpherson, A.K., Ross, T., Buliung, R.N., 2017. The decline in active school     Valentine, G., 1997b. “Oh Yes I Can”. “Oh No You Can't”: children and parents' under-
+    transportation (AST): a systematic review of the factors related to AST and changes in         standings of kids' competence to negotiate public space safely. Antipode 29 (1),
+    school transport over time in North America. Prev. Med., advance online publication.           65–89.
+Santos, M.P., Oliveira, J., Ribeiro, J.C., Mota, J., 2009. Active travel to school, BMI and    Van Goeverden, C.D., de Boer, E., 2013. School travel behaviour in the Netherlands and
+    participation in organised and non-organised physical activity among Portuguese                Flanders. Transp. Policy 26, 73–84.
+    adolescents. Prev. Med. 49, 497–499.                                                       Van Sluijs, E.M.F., Fearne, V.A., Mattocks, C., Riddoch, C., Gri<U+FB03>n, S.J., Ness, A., 2009.
+Sener, I.N., Copperman, R.B., Pendyala, R.M., Bhat, C.R., 2008. An analysis of children’s          The contribution of active travel to children’s physical activity levels: cross-sectional
+    leisure activity engagement: examining the day of week, location, physical activity            results from the ALSPAC study. Prev. Med. 48, 519–524.
+    level, and <U+FB01>xity dimensions. Transportation 35, 673–696.                                   Walking School Bus, 2018. Retrieved 30 March 2018 from http://www.
+Shaw, B., Watson, B., Frauendienst, B., Redecker, A., Jones, T., Hillman, M., 2013.                walkingschoolbus.org/.
+    Children’s Independent Mobility: A Comparative Study in England and Germany                Wang, L., Wen, C., 2017. The relationship between the neighborhood built environment
+    (1971–2010). Policy Studies Institute, London.                                                 and active transportation among adults: a systematic literature review. Urban Sci.
+Stangl, P., 2015. Block size-based measures of street connectivity: a critical assessment          1, 29.
+    and new approach. URBAN DESIGN Int. 20 (1), 44–55.                                         Wen, L.M., Fry, D., Merom, D., Rissel, C., Dirkis, H., Balafas, A., 2008. Increasing active
+Tan, Z., Xue, C.Q.L., 2014. Walking as a planned activity: elevated pedestrian network             travel to school: are we on the right track? A cluster randomised. Prev. Med. 47,
+    and urban design regulation in Hong Kong. J. Urban Design 14 (5), 722–744.                     612–618.
+Tao, W., Mehndiratta, S., Deakin, E., 2010. Compulsory convenience? How large arterials        Yao, S., Loo, B.P.Y., 2016. Safety in numbers for cyclists beyond national-level and city-
+    and land use a<U+FB00>ect midblock crossing in Fushun, China. J. Transp. Land Use 3 (3),              level data: a study on the non-linearity of risk within the city of Hong Kong. Injury
+    61–82.                                                                                         Prev. 22 (6), 379–385.
+Task Force on Land Supply, 2018. Land for Hong Kong. Government of the Hong Kong               Yu, C.Y., Zhu, X., 2015. Impacts of residential self-selection and built environments on
+    Special Administrative Region. Retrieved 29 April 2019 from https://www.                       children's walking-to-school behaviors. Environ. Behav. 47 (3), 268–287.
+    landforhongkong.hk/en/index.php.                                                           Zacharias, J., 2011. The dynamics of people movement systems in central areas.
+Timperio, A., Crawford, D., Telford, A., Salmon, J., 2004. Perceptions about the local             Challenges 2, 94–108.
+    neighborhood and walking and cycling among children. Prev. Med. 38, 39–47.                 Zhang, R., Yao, E., Liu, Z., 2017. School travel mode choice in Beijing, China. J. Transp.
+Timperio, A., Ball, K., Salmon, J., Roberts, R., Giles-Corti, B., Simmons, D., Baur, L.A.,         Geogr. 62, 98–110.
+    Crawford, D., 2006. Personal, family, social, and environmental correlates of active
+                                                                                            89
+

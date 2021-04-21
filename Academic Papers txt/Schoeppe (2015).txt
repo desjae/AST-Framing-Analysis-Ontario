@@ -1,0 +1,454 @@
+                                                                 Journal of Transport & Health 2 (2015) 336–342
+                                                              Contents lists available at ScienceDirect
+                                                       Journal of Transport & Health
+                                                      journal homepage: www.elsevier.com/locate/jth
+Associations between children's active travel and levels of physical
+activity and sedentary behavior
+Stephanie Schoeppe a,n, Mitch J Duncan b,1, Hannah M Badland c,2, Melody Oliver d,3,
+Matthew Browne e,4
+a
+  Central Queensland University, School of Human, Health and Social Sciences, Physical Activity Research Group, Rockhampton, Australia
+b
+  The University of Newcastle, School of Medicine and Public Health, Priority Research Centre in Physical Activity and Nutrition, Newcastle, Australia
+c
+  The University of Melbourne, McCaughey VicHealth Community Wellbeing Unit, Melbourne, Australia
+d
+  Auckland University of Technology, Human Potential Centre, Auckland, New Zealand
+e
+  Central Queensland University, School of Human, Health and Social Sciences, Bundaberg, Australia
+art ic l e i nf o                                       a b s t r a c t
+Article history:                                        Objectives: To investigate associations of children's active travel (i.e. walking, cycling) to school and non-
+Received 4 February 2015                                school destinations with time spent in sedentary behavior and physical activity at different intensities,
+Received in revised form                                and associations strati<U+FB01>ed by sex.
+13 May 2015
+                                                        Methods: Between 2011 and 2012, 375 Australian school children aged 8–13 years (61% female) were
+Accepted 15 May 2015
+Available online 3 June 2015
+                                                        recruited into a cross-sectional study. Children's travel modes to school and non-school destinations, and
+                                                        socio-demographic information were assessed through child and parent surveys. Daily time spent in
+Keywords:                                               sedentary behavior and physical activity intensities was measured objectively through accelerometer
+Relationship                                            counts from an Actiheart monitor worn on four consecutive days. Associations of active travel with
+Accelerometer
+                                                        sedentary behavior and physical activity variables were determined using linear mixed models while
+Active transport
+                                                        accounting for clustered sampling and covariates (age, sex, socio-economic factors, Actiheart wear time).
+Movement
+Sedentariness                                           Multiple imputation (MissForest method) was used to handle missing at random survey and accel-
+Young people                                            erometer data in 104 (28%) children.
+                                                        Results: Active travel modes to non-school destinations were positively associated with children's
+                                                        moderate-to-vigorous physical activity (b¼ 0.18, p¼ 0.01) but not with their sedentary behavior, light
+                                                        or total physical activity. Active travel modes to school were not associated with children's sedentary
+                                                        behavior or physical activity across intensities. No statistically signi<U+FB01>cant differences by sex were
+                                                        detected in the observed associations. However, the positive association between active travel modes to
+                                                        non-school destinations and moderate-to-vigorous physical activity neared statistical signi<U+FB01>cance in
+                                                        boys (b ¼0.15, p¼ 0.07) but not in girls.
+                                                        Conclusions: Active travel was positively associated with children's physical activity but not their
+                                                        sedentary behavior levels. Active travel to non-school destinations may have more potential to increase
+                                                        children's moderate-to-vigorous physical activity levels, than active travel to school.
+                                                                                                                                    & 2015 Elsevier Ltd. All rights reserved.
+1. Introduction
+     In Australia, 60% of children aged 9–13 years do not meet current national physical activity guidelines, which recommend children
+should accumulate at least 60 min of moderate-to-vigorous physical activity every day (Australian National Children's Nutrition and
+   n
+     Correspondence to: Central Queensland University, School of Human, Health and Social Sciences, Physical Activity Research Group, Building 18, Bruce Highway,
+Rockhampton, Australia. Tel.: þ61 7 4923 2271; fax: þ 61 7 4930 6402.
+     E-mail addresses: s.schoeppe@cqu.edu.au (S. Schoeppe), Mitch.Duncan@newcastle.edu.au (M. Duncan), hannah.badland@unimelb.edu.au (H. Badland),
+melody.oliver@aut.ac.nz (M. Oliver), m.browne@cqu.edu.au (M. Browne).
+     1
+       The University of Newcastle, School of Medicine and Public Health, Priority Research Centre in Physical Activity and Nutrition, Advanced Technology Centre, ATC315,
+University Drive, Callaghan, NSW 2308, Australia. Tel.: þ 61 2 4921 5215.
+     2
+       The University of Melbourne, McCaughey VicHealth Community Wellbeing Unit, 207 Bouverie Street Carlton, VIC 3010, Australia. Tel.: þ 61 3 8344 0943.
+     3
+       Auckland University of Technology, Human Potential Centre, #P1, Private Bag 92006, Auckland 1020, New Zealand. Tel.: þ64 9 921 9999.
+     4
+       Central Queensland University, School of Human, Health and Social Sciences, University Drive, Branyan, Bundaberg, QLD 4670, Australia. Tel.: þ61 7 4150 7002.
+http://dx.doi.org/10.1016/j.jth.2015.05.001
+2214-1405/& 2015 Elsevier Ltd. All rights reserved.
+
+                                               S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342                             337
+Physical Activity Survey, 2007). Moderate-to-vigorous physical activity is important for children's bone health, motor skills, physical
+<U+FB01>tness, healthy weight and protection against chronic diseases later in life (Dencker and Andersen, 2008; Hallal et al., 2006; Janz et al.,
+2010). Light intensity physical activity is also bene<U+FB01>cial for children's health; it improves blood pressure and HDL-cholesterol levels
+which is particularly important in overweight children who are at risk of developing the metabolic syndrome (Ekelund et al., 2012; Cliff
+et al., 2013).
+     Besides physical inactivity (i.e. very low levels of physical activity), a high prevalence of sedentary behavior (i.e. sitting or lying down
+during waking hours) has been observed in Australian children. For example, children aged 9–16 years currently spend around 9–10 h per
+day in sedentary activities, during school hours, leisure-time and motorized transport (Olds et al., 2010). Prolonged sedentary behavior is
+an emerging health risk factor in children, which in combination with obesity can lead to metabolic syndrome, type 2 diabetes and other
+chronic diseases later in life (Stamatakis et al., 2013; Short et al., 2009; Hale, 2004). Recent recommendations suggest increasing outdoor
+activities and active travel (walking, cycling for transport) are important strategies for reducing daily sedentary time in children
+(Department of Health, 2014a; Department of Health, 2014b).
+     Instilling physical activity and limiting sedentary habits at an early age is crucial as these behaviors tend to track from childhood to
+adolescence and into adulthood (Jones et al., 2013; Biddle et al., 2010; Telama et al., 2005). Active travel is one strategy to achieve this by
+providing children with habitual physical activity opportunities throughout the day (Loprinzi et al., 2012). In addition, active travel may
+reduce children's daily sedentary time, by replacing motorized travel and stimulating outdoor activities, which tend to be more active
+(King et al., 2011). However, in recent decades, children's walking and cycling for transport has dramatically declined in developed
+countries, such as the United States of America, Canada, England, Denmark, Norway and Finland (Fyhri et al., 2011; McDonald, 2007;
+Australian National Children's Nutrition and Physical Activity Survey 2007; Buliung et al., 2009). In Australia, trend data show that
+between 1971 and 2003 children's walking to school decreased from 58% to 35%, whilst the prevalence of being driven to school by car
+increased from 23% to 67% (Van der Ploeg et al., 2008). The declines in active travel may be a contributor to the low levels of physical
+activity and the high levels of sedentary behavior currently being observed in children.
+     Although associations between children's active travel and activity behaviors have been frequently examined (Schoeppe et al., 2012)
+many issues remain unexplored. Previous studies (Lee et al., 2008; Faulkner et al., 2009; Schoeppe et al., 2012) have mainly focused on
+associations between school-related active travel modes and physical activity, and mostly show positive associations. However, school
+travel alone may not fully capture children's active travel behaviors. School is only one of several destinations children travel to, and often,
+it is too far away from home to be suitable for active travel (McDonald, 2007; Australian National Children's Nutrition and Physical Activity
+Survey 2007; Mackett, 2012). For example, Timperio et al. (2004) found that 10–12 year olds engaged in between 8–10 walking and
+cycling trips on average per week; but only three of these trips related to the school journey. Therefore, focusing on active travel to school
+as well as non-school destinations may be more appropriate when investigating associations between children's active travel and levels of
+physical activity. Moreover, few studies have examined associations between children's active travel and sedentary behaviors, and in those
+studies that have, <U+FB01>ndings remain inconsistent (King et al., 2011; Heelan et al., 2005; Owen et al., 2012; Nilsson et al., 2009; Landsberg
+et al., 2008). A reason could be that only school-related active travel modes were measured in these studies. Furthermore, examination of
+differences in associations by sex is important as previous studies have shown that compared with girls, boys tend to have higher levels of
+active travel, physical activity and sedentary behavior (Davison et al., 2008; Klitsie et al., 2013; Australian National Children's Nutrition and
+Physical Activity Survey, 2007).
+     To address these research gaps, this study aimed to investigate associations of children's self-reported active travel to school and non-
+school destinations with objectively measured sedentary behavior, light, moderate-to-vigorous and total physical activity, including
+differences in the observed associations by sex.
+2. Methods
+2.1. Study design
+     This study used cross-sectional data collected from two Australian projects: Children's Activity, Travel, Connectedness and Health
+(CATCH) and Independent Mobility, Active Travel and Children's Health (iMATCH). The interrelated CATCH/iMATCH projects were
+designed to examine the role of policy, social and built environments in in<U+FB02>uencing children's independent mobility, active travel, and
+related health outcomes (CATCH/iMATCH, 2015). Ethical approval for the CATCH/iMATCH projects was obtained from Central Queensland
+University, The University of Melbourne, Curtin University, Grif<U+FB01>th University, and State Departments of Education and Training in
+Queensland (QLD), Victoria (VIC) and Western Australia (WA).
+2.2. Participants
+     A convenience sample with a clustered sampling design was used in the CATCH/iMATCH projects. In total, 375 children aged 8–13 years
+were recruited from nine public primary schools in Rockhampton (QLD), Brisbane (QLD), Melbourne (VIC) and Perth (WA). The schools in
+each location represented various levels of neighborhood urbanization (inner suburb, middle suburb, outer suburb and regional city areas)
+but the student population of all schools had similar socio-economic status (SES) characteristics. The selection of schools was informed by
+SES information published on Australia's My School website (www.myschool.edu.au); broad SES pro<U+FB01>les were determined from various
+socio-demographic factors such as parents' level of education and occupation. Schools with student populations in the middle SES quartile
+were eligible to be invited to participate in the study. School principals, teachers, parents and students (Years 3–7) were introduced to the
+study through information materials and sessions held at the schools. Written consent to study participation was obtained from school
+principals, parents and children.
+
+338                                          S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342
+2.3. Data collection
+    Data collection occurred between June 2011 and November 2012 including the Australian winter and summer. With researchers'
+assistance, students completed a paper-based questionnaire at school, either in class or during lunch recess. Another paper-based survey
+was administered to parents via mail. Students wore an Actiheart, a combined heart rate and accelerometer monitor (CamNtech Actiheart,
+Cambridge, UK) for four consecutive days, except when engaging in contact sports and water-based activities (e.g. showering, swimming).
+The Actiheart monitoring period captured weekdays and weekend days, either consecutively from Thursday until Monday morning, or
+from Friday until Tuesday morning. The Actiheart monitor was attached directly on the lower left side of the chest using two
+electrocardiograph (ECG) electrodes (model Red Dot 2238 soft cloth, 3M). One electrode was placed at the base of the child's sternum and
+the other electrode was put horizontally to the left so the wire of the Actiheart was straight with tension, but comfortable. Initially, the
+researchers briefed the students on how the Actiheart should be worn. Then the students attached the monitors themselves and the
+researchers checked the positioning.
+2.4. Measures
+2.4.1. Socio-demographics
+    Child sex and age were assessed through the student surveys. Socio-economic covariates (parental education attainment, number of
+registered motor vehicles in the household) were measured via the parent surveys. Neighborhood urbanization in state capital city
+locations (Brisbane, Melbourne, Perth) was de<U+FB01>ned based on neighborhood proximity to the central business district (CBD) with the
+general post of<U+FB01>ce being a marker of the CBD center. Inner urban, middle suburban, and outer suburban neighborhoods were de<U+FB01>ned as
+being located r5 km, 11–20 km, and Z20 km from the CBD, respectively. A regional city area was de<U+FB01>ned as a regional town that is not a
+major state capital city of Australia.
+2.4.2. Active travel
+    Active travel was measured via the student surveys. In the absence of standardized, validated measures of active travel, questions about
+mode of travel were developed based on child self-report surveys used in similar studies (Hillman et al., 1990; Villanueva et al., 2013).
+Items were phrased ‘How do you usually travel to: (1) school, (2) local shops, (3) local friend's houses, (4) local parks and playgrounds, and
+(5) organized activities (e.g. at a local sports club, church or recreational center)?’ Children selected the response option that best
+represented their ‘usual' travel mode (walk, bicycle, take the scooter, take public transport or be driven). Questions relating to non-school
+destinations also included the option ‘Don't go there’. Two variables were created to assess active travel: ‘usual mode of travel to school’
+and ‘usual mode of travel to non-school destinations’. Response options for the ‘usual mode of travel to school’ variable were categorized
+as active travel (i.e. walk/bicycle/take non-motorized scooter) and car travel. Using the same classi<U+FB01>cation of travel modes, the response
+options of the variable ‘usual mode of travel to non-school destinations’ were initially calculated as a ratio of active travel trips out of all
+trips a child undertook to non-school destinations. Based on the median distribution this variable was then dichotomized into ‘higher
+levels of active travel’ (i.e. 33–100% of all trips occur actively) and ‘lower levels of active travel’ (i.e. o 33% of all trips occur actively).
+Children who used public transport during the measurement period (n¼ 33) were not considered in the travel measures and excluded
+from analyses. The rationale for excluding children using public transport was that public transport involves both active and sedentary
+travel, which may dilute associations of active travel with physical activity and sedentary behavior.
+2.4.3. Sedentary behavior and physical activity
+    Sedentary behavior, and light, moderate-to-vigorous and total physical activity were measured using accelerometer counts generated
+by the Actiheart monitor. The Actiheart has shown good validity when tested in 13-year old children walking and running on a treadmill in
+a laboratory. Validity was determined by comparing physical activity energy expenditure measured through the Actiheart with that of
+other accelerometers (MTI Actigraph, Actical); the Actiheart accelerometer explained 69% (r2 ¼ 0.69) of the variance in physical activity
+energy expenditure (Corder et al., 2005). Data processing: At the completion of the Actiheart monitoring period, data from the Actiheart
+monitors were downloaded using the CamNtech Actiheart software. Subsequently, the Actiheart data were transferred into Microsoft
+Excel and data reduction was conducted to extract daily minutes spent in sedentary behavior, and light, moderate and vigorous physical
+activity using custom software (National Instruments Labview). The extracted data were imported into SPSS to create variables of average
+number of minutes per day spent in sedentary behavior, light physical activity, moderate-to-vigorous physical activity (i.e. moderate and
+vigorous physical activity combined), and total physical activity. Wear time and non-wear time: The CamNtech Actiheart software classi<U+FB01>es
+Actiheart recordings as ‘OK’, ‘recovered’, ‘interpolated’, ‘lost’ or ‘not worn’. Only accelerometer counts recorded in the categories ‘OK’,
+‘recovered’ or ‘interpolated’ were used for calculating time spent in sedentary behavior and physical activity. ‘Recovered’ and ‘interpolated’
+relate to the heart rate component of the Actiheart; these classi<U+FB01>cations mean that the device was unable to detect a heart rate signal for a
+short period (a few seconds to less than <U+FB01>ve minutes). In these instances, the heart rate data were calculated based on previous valid heart
+rate recordings, and then interpolated/imputed. Whilst the device brie<U+FB02>y failed to detect a heart rate signal, accelerometer counts were
+still recorded. Actiheart recordings under the classi<U+FB01>cations ‘recovered’, ‘interpolated’ and ‘OK’ suggest wear time. Recordings under the
+classi<U+FB01>cations ‘lost’ and ‘not worn’ indicate non-wear time or that the device did not detect a heart rate signal for longer than <U+FB01>ve minutes;
+hence these recordings were excluded from analyses. Epoch length: The epoch length represents the amount of time (i.e., seconds) over
+which movement data (i.e., activity counts) are summed and stored in the accelerometer memory. In this study, the epoch length was
+aggregated to 60 seconds to overcome differences in epoch length settings across study sites. Sixty second epochs allow for comparison
+with similar studies (Cooper et al., 2005; Van Sluijs et al., 2009; Cooper et al., 2003). Cut points: Child-speci<U+FB01>c ActiGraph cut points
+developed by Evenson et al. (2008) were adopted for classifying sedentary behavior, light physical activity, moderate physical activity, and
+vigorous physical activity (being r100, 101–2295, 2296–4011 and Z4012 counts per minute, respectively). These thresholds demon-
+strated acceptable to excellent classi<U+FB01>cation accuracy for sedentary behavior, and light, moderate, and vigorous physical activity with ROC-
+AUC (area under the receiver operating characteristic curve) curve values ranging between 0.70–0.90 (Evenson et al., 2008; Trost et al.,
+
+                                              S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342                            339
+2011). Additionally, a conversion factor of <U+FB01>ve (i.e. ActiGraph accelerometer counts ¼Actiheart accelerometer counts  5) developed by
+Ridgway et al.( 2011) was used to generate comparable cut points for Actiheart-derived accelerometer data. This resulted in <U+FB01>nal cut points
+for sedentary behavior, and light, moderate, and vigorous physical activity of r20, 21–459, 460–802 and Z803 counts per minute,
+respectively.
+2.5. Statistical analyses
+    Chi-square tests and independent t-tests were used to explore differences in socio-demographics, active travel, and time spent in
+sedentary behavior and physical activity between boys and girls, and children included and excluded from analyses. Linear mixed models
+were used to investigate associations between children's active travel (predictor variables) and time spent in sedentary behavior, light and
+moderate-to-vigorous physical activity, and total physical activity (outcome variables). The analyses were adjusted for age, sex, parental
+education attainment, number of motor vehicles in the household, level of neighborhood urbanization and Actiheart wear time
+(covariates). Clustering by school was accounted by including a random intercept for the variable ‘school’ in the model. The linear mixed
+model analyses were repeated with an interaction term by sex in the model to examine differences in the observed associations between
+boys and girls. Associations are presented using unstandardized beta coef<U+FB01>cients, con<U+FB01>dence intervals and p-values. The signi<U+FB01>cance level
+was set at 0.05.
+    Missing data existed in this study across all measured variables. In 104 (28%) of the 375 recruited children, missing data were
+considered missing at random. The data from these children were imputed and included in analyses. In 117 (31%) children, the missing
+data were not considered missing at random as children withdrew from the study (n¼ 13) or had less than 30 min of accelerometer data
+on each of the four monitoring days (n ¼71).These children were excluded from analyses. The MissForest method (Stekhoven and
+Bühlmann, 2012) was used to carry out multiple imputation of randomly missing data. This included <U+FB01>ve steps: (1) testing the required
+assumption that data were missing at random, (2) log-transformation of the non-normally distributed variable moderate-to-vigorous
+physical activity, (3) creating 100 copies of the dataset including observed and imputed values for missing variables with consideration of
+all variables included in analyses, (4) running analyses in all datasets and (5) calculating averages from each data output. Missing
+accelerometer data were imputed adopting imputation techniques used in previous studies (Catellier et al., 2005; Lee, 2013). This involved
+three steps: (1) applying a threshold of at least 480 min per day of accelerometer counts recorded between 6.00 am–11.00 pm to
+determine a valid day (this threshold was decided upon available accelerometer data), (2) setting data with invalid days as missing and
+(3) imputing the missing values via 100-fold imputation using information from both observed and imputed data. All analyses were
+performed in R (version 3.01).
+3. Results
+    For this study, 1534 eligible students were invited across all participating schools. Of these, 375 (24%) students provided written
+parental consent and child assent to study participation. Overall, 258 (67%) out of 375 recruited children were included in analyses and
+their descriptive characteristics are presented in Table 1. Children's mean age was 10.63 years (SD: 0.89), 61% were girls, 70% had parents
+with post-high school education, 76% lived in urban and suburban areas and 68% had two or more motor vehicles in the household.
+Children's average daily time spent in sedentary behavior was 383 min (SD: 114 min), and average daily time spent in light, moderate-to-
+vigorous and total physical activity was 371 min (SD: 64 min), 58 min (SD: 37 min) and 428 min (SD: 85 min), respectively. There were no
+signi<U+FB01>cant differences in socio-demographic factors and active travel between children included and excluded in analyses (data not
+reported). Moreover, socio-demographics, active travel to school, sedentary behavior, light and total physical activity did not differ
+signi<U+FB01>cantly by sex (Table 1). However, signi<U+FB01>cantly more boys than girls engaged in active travel to non-school destinations (64% versus
+46%, p¼ 0.01), and boys accumulated signi<U+FB01>cantly more moderate-to-vigorous physical activity per day than girls (65 mean minutes versus
+53 mean minutes, p ¼0.01). Overall, 37% of children usually commuted to school by active modes and 53% traveled to non-school
+destinations by active modes.
+    Associations between children's active travel and daily time spent sedentary, and in light, moderate-to-vigorous and total physical
+activity are presented in Table 2. Children with higher levels of active travel to non-school destinations showed a signi<U+FB01>cant positive
+association with daily moderate-to-vigorous physical activity (b ¼0.18, p¼ 0.01), but no signi<U+FB01>cant associations with sedentary behavior,
+light and total physical activity. Of note, the beta coef<U+FB01>cient of 0.18 is based on a log-transformed moderate-to-vigorous physical activity
+variable, and as such, does not re<U+FB02>ect minutes. For illustration purposes, we re-ran analyses without log-transforming moderate-to-
+vigorous physical activity resulting in b¼11.88. This represents a signi<U+FB01>cant gain of nearly 12 min of moderate-to-vigorous physical
+activity per day when engaged in active travel modes to non-school destinations. In contrast, active travel to school was not signi<U+FB01>cantly
+associated with daily time spent in sedentary behavior and physical activity across intensities.
+    No statistically signi<U+FB01>cant sex differences were detected in the associations between active travel and daily time spent sedentary, and
+in light, moderate-to-vigorous and total physical activity. However, analyses indicated that a positive association between active travel to
+non-school destinations and moderate-to-vigorous physical activity existed for boys (b¼ 0.15, p ¼0.07) but not girls.
+4. Discussion
+    This study investigated associations between children's active travel and time spent sedentary and in light, moderate-to-vigorous, and
+total physical activity. Compared to car travelers, those who traveled by active modes to non-school destinations accumulated signi<U+FB01>cantly
+more daily moderate-to-vigorous physical activity. This <U+FB01>nding is consistent with the results from a few other studies investigating
+associations between children’s active travel to non-school destinations and physical activity (Smith et al., 2012; Carver et al., 2011; Chillón
+et al., 2011). For example, Smith et al. (2012) found that active travel to non-school destinations can contribute up to 17 min of moderate-to-
+vigorous physical activity to a child's day; our study showed that it can yield up to 12 min of moderate-to-vigorous physical activity a day.
+
+340                                                   S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342
+Table 1
+Descriptive characteristics of children included in analyses.
+                                                                              All                           Boys                    Girls                        p-value
+  N (%)                                                                       258                           101 (39.1)              157 (60.9)
+  Age in years, mean (SD)                                                     10.64 (0.89)                  10.74 (0.93)            10.57 (0.85)                 0.15
+  Level of urbanization, n (%)                                                                                                                                   0.27
+    Inner urban                                                               74 (28.7)                     32 (31.7)               42 (26.8)
+    Middle suburban                                                           48 (18.6)                     22 (21.8)               26 (16.6)
+    Outer suburban                                                            73 (28.3)                     22 (21.78)              51 (32.5)
+    Regional city area                                                        63 (24.4)                     25 (24.7)               38 (24.2)
+  Parental educationa, n (%)                                                                                                                                     0.35
+    High school                                                               76 (29.5)                     27 (26.7)               50 (31.8)
+    Trade/apprenticeship/certi<U+FB01>cate/diploma                                   85 (32.9)                     38 (37.6)               47 (29.9)
+    University degree                                                         96 (37.20)                    36 (35.3)               60 (38.2)
+  Motor vehicles in household, n (%)                                                                                                                             0.17
+    0                                                                         3 (1.2)                       0 (0)                   3 (1.9)
+    1                                                                         79 (30.6)                     38 (37.6)               41 (26.3)
+    2                                                                         151 (58.5)                    52 (51.5)               99 (62.8)
+     Z3                                                                       25 (9.7)                      11 (10.9)               14 (8.9)
+  Usual mode of travel to school, n (%)                                                                                                                          0.11
+    Active travel                                                             95 (36.8)                     44 (43.4)               51 (32.5)
+    Car travel                                                                163 (63.2)                    57 (56.6)               106 (67.5)
+  Usual mode of travel to non-school destinations, n (%)                                                                                                         0.01
+    Higher active travel levels                                               137 (53.1)                    64 (63.7)               73 (46.2)
+    Lower active travel levels                                                121 (46.9)                    37 (36.3)               85 (53.8)
+  Average daily minutes in sedentary behavior Mean (SD)                       382.91 (113.84)               382.45 (118.65)         383.33 (111.14)              0.97
+  Average daily minutes in light PA Mean (SD)                                 370.56 (64.00)                364.62 (57.01)          374.35 (68.09)               0.21
+  Average daily minutes in MVPA Mean (SD)                                     57.53 (36.69)                 64.81 (39.09)           52.91 (34.29)                0.01
+  Median (IQR)b                                                               46.36 (36.30)                 54.66 (39.14)           43.12 (32.39)
+  Average daily minutes in total PA Mean (SD)                                 428.08 (84.59)                429.32 (79.86)          427.23 (87.69)               0.86
+Abbreviations: PA ¼physical activity, MVPA ¼ moderate-to-vigorous physical activity, SD ¼standard deviation, IQR¼interquartile range.
+    a
+      Highest education attainment was reported by one parent completing a survey.
+    b
+      The distribution of MVPA was positively skewed; hence <U+FB01>rstly means and SD, and secondly medians and IQR are presented.
+Table 2
+Associations between active travel and mean daily minutes spent sedentary, and in light, moderate-to-vigorous and total physical activity.
+                  Sedentary behavior                        Light PA                                 MVPA                            Total PA
+                  b       95% CI                 p-value    b          95% CI              p-value   b          95% CI      p-value  b      95% CI         p-value
+  Usual travel to school
+  Active travel   11.56           9.55–32.68    0.28         3.63     19.97–12.70       0.66       0.07      0.22–0.07 0.32      11.52       32.45–9.41       0.28
+  Car travel      –             –                –          –          –                   –         –          –           –        –            –                  –
+  Usual travel to non-school    destinations
+  Higher AT         12.77        33.06–7.52    0.22       1.26        13.99–16.51       0.87      0.18a      0.04–0.31   0.01     12.82         7.21–32.84       0.21
+  Lower AT        –             –                –          –          –                   –         –          –           –        –            –                  –
+Abbreviations: b¼ unstandardized beta coef<U+FB01>cient, 95% CI ¼ 95% con<U+FB01>dence interval, PA ¼physical activity, MVPA ¼moderate-to-vigorous physical activity, AT ¼active travel.
+Adjusted for school clustering, age, sex, parental education attainment, number of motor vehicles in the household, level of neighborhood urbanization and Actiheart
+wear time.
+    a
+      The distribution of MVPA was positively skewed; hence the variable MVPA was log-transformed prior to conducting multiple imputation and linear mixed models.
+Consequently, this beta coef<U+FB01>cient does not present minutes in MVPA.
+    Contrary to previous studies (Lee et al., 2008; Faulkner et al., 2009; Schoeppe et al., 2012), this study detected no association between
+children's active travel to school and physical activity engagement. A reason may be that the distances Australian children walk or cycle to
+school are too short to yield increases in daily physical activity that are detectable using the methods employed in this and many other
+studies. Unfortunately, the in<U+FB02>uence of travel distance could not be investigated in this study as an appropriate measure of distance could
+not be extracted from the CATCH/iMATCH dataset. However, another Australian study (Carver et al., 2013) showed that median distances
+Australian primary school children traveled by all modes between home and school were 1.32 (0.05–18.21) km in urban areas and 2.65
+(0.32–44.29) km in rural areas. As such, for many children the distance to school is likely too far from home to be suitable for walking.
+Children who walk or cycle to school tend to do so from proximal home locations. For example, Harten and Olds (2004) reported that the
+median distance Australian 11–12 year-olds travel actively to school was just over 600 m. Travel distances below 800 m can make it
+dif<U+FB01>cult to detect associations between active travel and average daily minutes of physical activity when active travel involves solely a
+short walking or cycling trip to school (Van Sluijs et al., 2009). Instead, multiple active travel trips to various destinations (school, non-
+school) may be needed to detect associations with physical activity using current methods.
+    Car travel (a sedentary behavior) was believed to be a major contributor to children's sedentary time. Hence, we hypothesized that
+children who walk or cycle to school and non-school destinations would spend signi<U+FB01>cantly less time sedentary than those who are being
+driven to destinations. However, this study showed no association between active travel and daily total time spent sedentary. A possible
+explanation is that car travel constitutes only a small proportion of children's total sedentary time (Olds et al., 2010). For example,
+Australian data (Olds et al., 2010) showed that motorized travel constitutes only 9% of children's total sedentary time; most sedentary time
+
+                                                          S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342                                                    341
+is spent in other behaviors, such as screen-time (40%), school hours/studies (25%) and socializing (12%). Hence, replacing car travel with
+active travel may not substantially reduce children's daily sedentary time.
+     Analyses by sex showed no signi<U+FB01>cant differences in the associations between active travel and sedentary behavior and physical
+activity. However, our data indicate that active travel to non-school destinations has a greater impact on moderate-to-vigorous physical
+activity in boys than girls. This was also found in other studies (Carver et al., 2011; Chillón et al., 2011), and concurs with our descriptive
+data showing that levels of active travel to non-school destinations and moderate-to-vigorous physical activity were signi<U+FB01>cantly higher in
+boys than in girls. It may re<U+FB02>ect the tendency of less independent active travel in girls in this age group (Brown et al., 2008), and suggests
+that <U+FB01>nding more effective ways of promoting physical activity through active transport is particularly important in girls, especially if they
+are not attracted to participation in exercise and organized sports.
+     Strengths of this study include objective measurement of daily sedentary time (not simply screen-time) and physical activity at various
+intensities, and examination of children's mode of travel to school and non-school destinations. The latter has received little attention in
+previous research (Schoeppe et al., 2012). Other methodological strengths include the use of multiple imputation techniques to account
+for randomly missing data, adjustment for a range of potential confounders and examination of differences by sex. Limitations of this
+study include the cross-sectional study design, reliance on children's self-reports for assessing active travel and the use of a small
+convenience sample with a low response rate and low adherence to wearing an Actiheart monitor. Although 60 s epoch length has shown
+to be appropriate for measuring moderate-to-vigorous physical activity (Edwardson and Gorely, 2010), a lower epoch length may have
+better captured children's spontaneous and intermittent physical activity patterns (Loprinzi and Cardinal, 2011). Moreover, social and built
+environmental determinants such as perceptions of neighborhood safety, distances to travel destinations, weather, street connectivity,
+availability of cycling and walking trails were not considered in this study. However, neighborhood urbanization was accounted for in
+order to capture broad differences in built environments between these areas. In future research, active travel to non-school destinations
+should receive more attention as this study showed that active travel to non-school destinations is more common in children than active
+travel to school (53% versus 37%), hence, it may have more potential to increase children's physical activity levels than active school travel.
+The low response rate and substantial missing data in this study shows the common challenge of recruiting and retaining children in
+behavioral studies (Schoeppe et al., 2013). More guidance is needed on successful recruitment and retention strategies applied in child
+populations (Schoeppe et al., 2013).
+5. Conclusions
+     Active travel to non-school destinations was positively associated with children's daily moderate-to-vigorous physical activity. In
+contrast, active travel to school was not associated with children's physical activity across all intensities. Both active travel to school and
+non-school destinations were not associated with children's daily sedentary time. These observations suggest that active travel has the
+potential to increase physical activity levels in children but it is likely insuf<U+FB01>cient to reduce their sedentary behavior levels.
+Acknowledgments
+     This research was supported through the Australian Research Council funded projects Independent Mobility and Active Travel in
+Children (iMATCH, Linkage Project LP100100344) and Children's Active Travel, Connectedness and Health (CATCH, Discovery Project
+DP1094495). The iMATCH project includes <U+FB01>nancial support from the Merri Community Health Services Victoria, the Moreland City
+Council, Queensland Health and Queensland Transport which is gratefully acknowledged. Stephanie Schoeppe was supported by an
+Australian Postgraduate Award (Industry) funded through the iMATCH project.
+     Hannah M Badland is in part supported by VicHealth, the National Health and Medical Research Council (NHMRC) Center of Excellence
+in Healthy Liveable Communities (#1061404), and The Australian Prevention Partnership Center (#9100001) with funding provided by the
+NHMRC, ACT Health, NSW Health, the Australian National Preventive Health Agency, the Hospitals Contribution Fund of Australia and the
+HCF Research Foundation. Mitch J Duncan is supported by a Future Leader Fellowship (ID 100029) from the National Heart Foundation of
+Australia. The authors wish to thank the children, parents and schools who participated in the study.
+References
+Australian National Children's Nutrition and Physical Activity Survey. 2007 <http://www.health.gov.au/internet/main/publishing.nsf/Content/phd-nutrition-childrens-survey>
+     (accessed 03.02.15).
+Biddle, S.J.H., Pearson, N., Ross, G.M., Braithwaite, R., 2010. Tracking of sedentary behaviours of young people: a systematic review. Prev. Med. 51 (5), 345–351.
+Brown, B., Mackett, R., Gong, Y., Kitazawa, K., Paskins, J., 2008. Gender differences in children's pathways to independent mobility. Child. Geogr. 6 (4), 385–401.
+Buliung, R.N., Mitra, R., Faulkner, G., 2009. Active school transportation in the Greater Toronto Area, Canada: an exploration of trends in space and time (1986–2006). Prev.
+     Med. 48 (6), 507–512.
+Carver, A., Timperio, A.F., Hesketh, K.D., Ridgers, N.D., Salmon, J.L., Crawford, D.A., 2011. How is active transport associated with children's and adolescents' physical activity
+     over time? Int. J. Behav. Nutr. Phys. Act 8, http://dx.doi.org/10.1186/1479-5868-8-126.
+Carver, A., Watson, B., Shaw, B., Hillman, M., 2013. A comparison study of children's independent mobility in England and Australia. Child. Geogr. 11 (4), 461–475. http://dx.
+     doi.org/10.1080/14733285.2013.812303.
+CATCH/iMATCH, 2015. The Children's Active Travel, Connectedness, and Health (CATCH) and Independent Mobility, Active Travel and Children’s Health (iMATCH) projects.
+     <http://research.humanities.curtin.edu.au/projects/catch/> (accessed 03.02.15.).
+Catellier, D.J., Hannan, P.J., Murray, D.M., Addy, C.L., Conway, T.L., Yang, S., Rice, J.C., 2005. Imputation of missing data when measuring physical activity by accelerometry.
+     Med. Sci. Sports Exerc. 37 (11 SUPPL.), S555–S562.
+Chillón, P., Gottrand, F., Ortega, F.B., González-Gross, M., Ruiz, J.R., Ward, D.S., Molnar, D., 2011. Active commuting and physical activity in adolescents from Europe: results
+     from the HELENA study. Pediatr. Exerc. Sci. 23 (2), 207–217.
+Cliff, D.P., Okely, A.D., Burrows, T.L., Jones, R.A., Morgan, P.J., Collins, C.E., Baur, L.A., 2013. Objectively measured sedentary behavior, physical activity, and plasma lipids in
+     overweight and obese children. Obesity 21 (2), 382–385.
+Cooper, A.R., Andersen, L.B., Wedderkopp, N., Page, A.S., Froberg, K., 2005. Physical activity levels of children who walk, cycle, or are driven to school. Am. J. Prev. Med. 29 (3),
+     179–184. http://dx.doi.org/10.1016/j.amepre.2005.05.009.
+Cooper, A.R., Page, A.S., Foster, L.J., Qahwaji, D., 2003. Commuting to school: are children who walk more physically active? Am. J. Prev. Med 25 (4), 273–276.
+
+342                                                          S. Schoeppe et al. / Journal of Transport & Health 2 (2015) 336–342
+Corder, K., Brage, S., Wareham, N.J., Ekelund, U., 2005. Comparison of PAEE from combined and separate heart rate and movement models in children. Med. Sci. Sports Exerc.
+     37 (10), 1761–1767.
+Davison, K.K., Werder, J.L., Lawson, C.T., 2008. Children's active commuting to school: current knowledge and future directions. Prev. Chronic Dis. 5 (3), A100, doi: A100 [pii].
+Dencker, M., Andersen, L.B., 2008. Health-related aspects of objectively measured daily physical activity in children. Clin. Physiol. Funct. Imaging 28 (3), 133–144, doi: CPF788
+     [pii].
+Department of Health, 2014a. Australia's physical activity and sedentary behavior guidelines 5–12 years. Department of Health, Canberra.
+Department of Health, 2014b. Australia's physical activity and sedentary behavior guidelines 13–17 years. Department of Health, Canberra.
+Edwardson, C.L., Gorely, T., 2010. Epoch length and its effect on physical activity intensity. Med. Sci. Sports. Exerc. 42 (5), 928–934.
+Ekelund, U., Luan, J., Sherar, L.B., Esliger, D.W., Griew, P., Cooper, A., 2012. Moderate to vigorous physical activity and sedentary time and cardiometabolic risk factors in
+     children and adolescents. J. Am. Med. Assoc. 307 (7), 704–712.
+Evenson, K.R., Catellier, D.J., Gill, K., Ondrak, K.S., McMurray, R.G., 2008. Calibration of two objective measures of physical activity for children. J. Sports Sci. 26 (14),
+     1557–1565.
+Faulkner, G.E., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active school transport, physical activity levels and body weight of children and youth: A systematic review. Prev.
+     Med. 48 (1), 3–8. http://dx.doi.org/10.1016/j.ypmed.2008.10.017.
+Fyhri, A., Hjorthol, R., Mackett, R.L., Fotel, T.N., Kyttä, M., 2011. Children's active travel and independent mobility in four countries: development, social contributing trends
+     and measures. Transp. Policy 18 (5), 703–710.
+Hale, D.E., 2004. Type 2 diabetes and diabetes risk factors in children and adolescents. Clin. Cornerstone 6 (2), 17–30.
+Hallal, P.C., Victora, C.G., Azevedo, M.R., Wells, J.C., 2006. Adolescent physical activity and health: a systematic review. Sports Med. 36 (12), 1019–1030, doi: 36123 [pii].
+Harten, N., Olds, T., 2004. Patterns of active transport in 11-12 year old Australian children. Aust. N. Z. J. Public Health 28 (2), 167–172.
+Heelan, K.A., Donnelly, J.E., Jacobsen, D.J., Mayo, M.S., Washburn, R., Greene, L., 2005. Active commuting to and from school and BMI in elementary school children—
+     preliminary data. Child Care Health Dev. 31 (3), 341–349.
+Hillman, M., Adams, J., Whitelegg, J., 1990. One False Move...A Study of Children's Independent Mobility. Policy Studies Institute, London.
+Janz, K.F., Letuchy, E.M., Eichenberger Gilmore, J.M., Burns, T.L., Torner, J.C., Willing, M.C., Levy, S.M., 2010. Early physical activity provides sustained bone health bene<U+FB01>ts later
+     in childhood. Med. Sci. Sports Exerc. 42 (6), 1072–1078.
+Jones, R.A., Hinkley, T., Okely, A.D., Salmon, J., 2013. Tracking physical activity and sedentary behavior in childhood: a systematic review. Am. J. Prev. Med. 44 (6), 651–658.
+King, A.C., Parkinson, K.N., Adamson, A.J., Murray, L., Besson, H., Reilly, J.J., Baster<U+FB01>eld, L., 2011. Correlates of objectively measured physical activity and sedentary behavior in
+     English children. Eur. J. Public Health 21 (4), 424–431.
+Klitsie, T., Corder, K., Visscher, T.L., Atkin, A.J., Jones, A.P., Van Sluijs, E.M., 2013. Children's sedentary behavior: descriptive epidemiology and associations with objectively-
+     measured sedentary time. BMC Public Health 13 (1), 1092. http://dx.doi.org/10.1186/1471-2458-13-1092.
+Landsberg, B., Plachta-Danielzik, S., Much, D., Johannsen, M., Lange, D., Müller, M.J., 2008. Associations between active commuting to school, fat mass and lifestyle factors in
+     adolescents: the Kiel obesity prevention study (KOPS). Eur. J. Clin. Nutr. 62 (6), 739–747.
+Lee, M.C., Orenstein, M.R., Richardson, M.J., 2008. Systematic review of active commuting to school and children's physical activity and weight. J. Phys. Act. Health 5 (6),
+     930–949.
+Lee, P.H., 2013. Data imputation for accelerometer-measured physical activity: the combined approach. Am. J. Clin. Nutr. 97 (5), 965–971.
+Loprinzi, P.D., Cardinal, B.J., 2011. Measuring children's physical activity and sedentary behaviors. J. Exerc. Sci. Fit. 9 (1), 15–23.
+Loprinzi, P.D., Cardinal, B.J., Loprinzi, K.L., Lee, H., 2012. Bene<U+FB01>ts and environmental determinants of physical activity in children and adolescents. Obes. Facts 5 (4), 597–610.
+Mackett, R.L., 2012. Children's travel behavior and its health implications. Transp. Policy. 26, 66–72. http://dx.doi.org/10.1016/j.tranpol.2012.01.002.
+McDonald, N.C., 2007. Active transportation to school. Trends Among U.S. Schoolchildren, 1969–2001. Am. J. Prev. Med. 32 (6), 509–516.
+Nilsson, A., Bo Andersen, L., Ommundsen, Y., Froberg, K., Sardinha, L.B., Piehl-Aulin, K., Ekelund, U., 2009. Correlates of objectively assessed physical activity and sedentary
+     time in children: a cross-sectional study (The European youth heart study). BMC Public Health 9, 322. http://dx.doi.org/10.1186/1471-2458-9-322.
+Olds, T.S., Maher, C.A., Ridley, K., Kittel, D.M., 2010. Descriptive epidemiology of screen and non-screen sedentary time in adolescents: a cross sectional study. Int. J. Behav.
+     Nutr. Phys. Act 7, 92. http://dx.doi.org/10.1186/1479-5868-7-92.
+Owen, C.G., Nightingale, C.M., Rudnicka, A.R., Van Sluijs, E.M.F., Ekelund, U., Cook, D.G., Whincup, P.H., 2012. Travel to school and physical activity levels in 9–10 year-old UK
+     children of different ethnic origin; child heart and health study in England (CHASE). PLoS ONE 7 (2), e30932. http://dx.doi.org/10.1371/journal.pone.0030932.
+Ridgway, C.L., Brage, S., Sharp, S.J., Corder, K., Westgate, K.L., Van Sluijs, E.M., Ekelund, U., 2011. Does birth weight in<U+FB02>uence physical activity in youth? A combined analysis of
+     four studies using objectively measured physical activity. PLoS ONE 6 (1), e16125. http://dx.doi.org/10.1371/journal.pone.0016125.
+Schoeppe, S., Duncan, M.J., Badland, H., Oliver, M., Curtis, C., 2012. Associations of children's independent mobility and active travel with physical activity, sedentary behavior
+     and weight status: a systematic review. J. Sci. Med. Sport. 16 (4), 312–319.
+Schoeppe, S., Oliver, M., Badland, H.M., Burke, M., Duncan, M.J., 2013. Recruitment and retention of children in behavioral health risk factor studies: REACH strategies. Int. J.
+     Behav. Med. 21 (5), 794–803.
+Short, K.R., Blackett, P.R., Gardner, A.W., Copeland, K.C., 2009. Vascular health in children and adolescents: effects of obesity and diabetes. Vasc. Health Risk Manag. 5,
+     973–990.
+Smith, L., Sahlqvist, S., Ogilvie, D., Jones, A., Grif<U+FB01>n, S.J., Van Sluijs, E., 2012. Is active travel to non-school destinations associated with physical activity in primary school
+     children? Prev. Med. 54 (3–4), 224–228.
+Stamatakis, E., Coombs, N., Jago, R., Gama, A., Mourão, I., Nogueira, H., Padez, C., 2013. Type-speci<U+FB01>c screen time associations with cardiovascular risk markers in children. Am.
+     J. Prev. Med. 44 (5), 481–488.
+Stekhoven, D.J., Bühlmann, P., 2012. Missforest-Non-parametric missing value imputation for mixed-type data. Bioinformatics 28 (1), 112–118.
+Telama, R., Yang, X., Viikari, J., Välimäki, I., Wanne, O., Raitakari, O., 2005. Physical activity from childhood to adulthood: a 21-year tracking study. Am. J. Prev. Med. 28 (3),
+     267–273.
+Timperio, A., Crawford, D., Telford, A., Salmon, J., 2004. Perceptions about the local neighborhood and walking and cycling among children. Prev. Med. 38 (1), 39–47.
+Trost, S.G., Loprinzi, P.D., Moore, R., Pfeiffer, K.A., 2011. Comparison of accelerometer cut points for predicting activity intensity in youth. Med. Sci. Sport. Exerc. 43 (7),
+     1360–1368.
+Van der Ploeg, H.P., Merom, D., Corpuz, G., Bauman, A.E., 2008. Trends in Australian children traveling to school 1971–2003: burning petrol or carbohydrates? Prev. Med. 46
+     (1), 60–62.
+Van Sluijs, E.M.F., Fearne, V.A., Mattocks, C., Riddoch, C., Grif<U+FB01>n, S.J., Ness, A., 2009. The contribution of active travel to children's physical activity levels: cross-sectional results
+     from the ALSPAC study. Prev. Med. 48 (6), 519–524.
+Villanueva, K., Giles-Corti, B., Bulsara, M., Timperio, A., McCormack, G., Beesley, B., Middleton, N., 2013. Where do children travel to and what local opportunities are
+     available? the relationship between neighborhood destinations and children's independent mobility. Environ. Behav. 45 (6), 679–705.
+

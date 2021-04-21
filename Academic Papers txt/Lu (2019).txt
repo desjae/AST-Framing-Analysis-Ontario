@@ -1,0 +1,605 @@
+                                                          Journal of Transport & Health 14 (2019) 100616
+                                                            Contents lists available at ScienceDirect
+                                                    Journal of Transport & Health
+                                                   journal homepage: www.elsevier.com/locate/jth
+A dose–response e<U+FB00>ect between built environment characteristics
+                                                                                                                                               T
+and transport walking for youths
+Yi Lua,b,*, Guibo Sunc, Zhonghua Goud, Ye Liue, Xiaoling Zhangf
+a
+  Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong
+b
+  City University of Hong Kong Shenzhen Research Institute, Shenzhen, China
+c
+  Faculty of Architecture, The University of Hong Kong, Hong Kong
+d
+  School of Engineering and Built Environment, Gri<U+FB03>th University, Australia
+e
+  School of Geography and Planning, Sun Yat-Sen University, Guangzhou, China
+f
+  Department of Public Policy, City University of Hong Kong, Hong Kong
+A R T IC LE I N F O                                        ABS TRA CT
+Keywords:                                                  Background: A lack of physical activity can lead to long-term health problems for youths (aged
+Transport walking                                          5–18) worldwide. Built environment characteristics are increasingly being recognized as im-
+Population density                                         portant factors a<U+FB00>ecting transport walking, a reliable source of overall physical activity for
+Urban density                                              youths. However, the relationship between built environment characteristics, especially re-
+Dose-response e<U+FB00>ect
+                                                           sidential density, and youths’ walking for transport purposes (transport walking) remain largely
+Youths
+                                                           inconclusive, due to limited variation in built environment variables and an assumption of linear
+Built environment
+                                                           association.
+                                                           Methods: In this study, we explore the dose-response relationship between built environment
+                                                           characteristics and transport walking for youths in Hong Kong, a city with large variations in
+                                                           residential density. Detailed transport walking behaviors, such as the number of trips and
+                                                           walking duration, were extracted from the 2011 Hong Kong Travel Characteristics Survey
+                                                           (N = 13,287; aged 5–18). Neighborhood socioeconomic status, age, gender, household income,
+                                                           and household vehicle ownership were controlled in the generalized additive mixed models
+                                                           (GAMMs) of the built environment-transport walking associations.
+                                                           Results: We found inverted U-shaped associations between population density and both the odds
+                                                           and total minutes of transport walking. Population density within 30,000–60,000 persons/km2 is
+                                                           optimal to promote transport walking for youths. In addition, the number of recreational facil-
+                                                           ities and retail shops were positively associated with likelihood of engaging in transport walking,
+                                                           and number of bus stops was negatively associated with transport walking.
+                                                           Conclusion: We add new empirical evidence on the signi<U+FB01>cant and non-linear relationship be-
+                                                           tween urban density and transport walking. Although increasing urban density in already densely
+                                                           developed cities may not be an e<U+FB00>ective intervention strategy to increase transport walking in
+                                                           youths, such strategy may still be e<U+FB00>ective in other less dense areas.
+   *
+     Corresponding author. Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong.
+     E-mail addresses: yilu24@cityu.edu.hk (Y. Lu), gbsun@hku.hk (G. Sun), z.gou@gri<U+FB03>th.edu.au (Z. Gou), liuye25@mail.sysu.edu.cn (Y. Liu),
+xiaoling.zhang@cityu.edu.hk (X. Zhang).
+https://doi.org/10.1016/j.jth.2019.100616
+Received 30 January 2019; Received in revised form 26 July 2019; Accepted 17 August 2019
+Available online 23 August 2019
+2214-1405/ © 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+
+Y. Lu, et al.                                                                                      Journal of Transport & Health 14 (2019) 100616
+1. Introduction
+    Being su<U+FB03>ciently physically active is important for youths (children and adolescents 5–18 years old), as it is associated with a
+wide range of health bene<U+FB01>ts, such as reduced cardiovascular risk factors, enhanced bone mineral density, and improved physical and
+psychological well-being (Janssen and Leblanc, 2010; Strong et al., 2005). The World Health Organization recommends that children
+and adolescents should be physically active at a moderate or vigorous level for at least 60 min a day. However, more than 80% of the
+world's adolescent population is insu<U+FB03>ciently physically active (World Health Organization, 2018). Consequently, stimulating
+youths' physical activity is a crucial part of health strategies of many governments.
+    Walking for transport purposes (i.e. transport walking) is a reliable source of overall physical activity: there is consistent evidence
+that youths who walk or cycle to school or other destinations report signi<U+FB01>cantly higher levels of physical activity than those who
+travel by motorized vehicles (Faulkner et al., 2009; Lubans et al., 2011; van Sluijs et al., 2009). Walking can o<U+FB00>er additional
+environmental bene<U+FB01>ts, such as improved air quality and decreased tra<U+FB03>c congestion and carbon emissions if more people use
+walking and cycling instead of cars (Nieuwenhuijsen, 2016; Xiao et al., 2017). Walking is the most common form of physical activity,
+and it can be conveniently done alone or with others. Increasing brisk walking is one of the most reliable and feasible interventions to
+help children and adolescents to achieve their recommended levels of physical activity (Carlin et al., 2016; Mitra, 2013; Saelens and
+Handy, 2008). Transport walking has thus recently attracted huge attention from policymakers and researchers.
+    Built environment is increasingly being recognized as an essential factor that can promote or hinder transport walking.
+Understanding the built environment–transport walking associations is vital for children and adolescents who have fewer choices of
+transportation mode and hence are more likely to be a<U+FB00>ected by the environment (D'Haese et al., 2015; Ding et al., 2011). Empirical
+<U+FB01>ndings regarding built environment and transport walking reveal complex patterns, with inconsistent associations for some built
+environment characteristics.
+    There is strong evidence for positive associations between recreational facility accessibility and transport walking for youths. In a
+neighborhood with nearby parks, recreational or sports facilities, and commercial stores, youths are likely to travel to these desti-
+nations by foot and tend to make more transport walking trips. Three reviews examining transport walking or cycling for children and
+adolescents concurred that the provision of parks or other recreational facilities had positive e<U+FB00>ects on transport walking rates and
+overall level of physical activity (Ding et al., 2011; J. Panter, Jones and van Sluijs, 2008; Pont et al., 2009). For example, in a survey
+of 678 children (ages 6–12) in two American cities (Kurka et al., 2015), children living in areas with less access to recreational
+facilities or parks reported 13 fewer minutes of accelerometer-measured moderate to vigorous physical activity per day (MVPA) than
+those living in areas with higher access. Children who were aware of more sport and recreational facilities were more likely to walk to
+school or to other destinations than those who were less aware (Evenson et al., 2006). Similar results were reported in a longitudinal
+study in Hong Kong: adolescents’ MVPA levels were positively associated with perceived availability of sports facilities in neigh-
+borhoods after a 16-month follow-up (Wong et al., 2014). Alternatively, those <U+FB01>ndings might be interpreted that the youths become
+aware of more facilities because walking to school increase their exposure to those facilities.
+    There are mixed results about the association between land-use mix and transport walking for youths (D'Haese et al., 2015; Ding
+et al., 2011; J. Panter et al., 2008; Pont et al., 2009). Urban areas with higher levels of land use diversity may increase the proximity
+to and accessibility of di<U+FB00>erent types of destinations and make transport walking more feasible. However, some studies have reported
+insigni<U+FB01>cant associations between land-use mix and transport walking (Mitra et al., 2010; J. R. Panter, Jones, Van Sluijs and Gri<U+FB03>n,
+2010; Yarlagadda and Srinivasan, 2008).
+    Residential density is important for planning purposes because it is easy to measure from census and other data, and it is regulated
+by many governments (Forsyth et al., 2007). Residential density may have direct e<U+FB00>ects on transport walking and indirect e<U+FB00>ects as a
+proxy for other variables such as socioeconomic status (SES) (Forsyth et al., 2007). It has been suggested that areas with higher
+residential density have more destinations such as shops, services, and public transport stops nearby and that they therefore promote
+transport walking (Forsyth et al., 2007; C. Lee and Moudon, 2006). Some have argued that density is a proxy variable for other
+dimensions such as low-income populations, land-use mix, and transit use (Cervero and Kockelman, 1997; Handy et al., 2002; C. Lee
+and Moudon, 2004).
+    However, <U+FB01>ndings on the associations between residential density and transport walking or overall physical activity for youths
+remain largely inconclusive. Reviews based on studies conducted in low density cities, especially the United States and Australia,
+found mostly positive associations between residential density and transport walking (Ding et al., 2011; J. Panter et al., 2008; Pont
+et al., 2009). A recent study conducted in Nanjing, a high-density city in China, reported that residential density was negatively
+associated with self-reported recreational physical activity time for 2375 high school students (Xu et al., 2010). Another study found
+that children living in rural neighborhoods engaged in more physical activity than those living in urban neighborhoods (Sandercock
+et al., 2010). However, these two studies focused on the outcomes of overall physical activity rather than transport walking, and the
+two may have di<U+FB00>erent associations with built environment factors (Ding et al., 2011; Saelens and Handy, 2008).
+    Furthermore, social environment and safety are other factors a<U+FB00>ecting youth's transport walking. Children who reported higher
+perceived safety were more likely to use alternate routes to and from school, which suggests that perceived safety of the environment
+may encourage children to actively explore their environment (Sun et al., 2018a,b). General safety and tra<U+FB03>c safety were associated
+with transport working in North America and Australia, but not in Europe (D'Haese et al., 2015). This might be due to the increased
+dangers of walking and cycling to school in the US and Australia, because of substantial urban sprawl (Rothman et al., 2015).
+Children who walked or cycled to school also tended to explore spaces when they traveled independently (Sun et al., 2018a,b).
+Studies on independent mobility suggested that children who had the freedom to play outdoors and traveled actively without adult
+supervision accumulated more physical activity than others (Schoeppe et al., 2013).
+                                                                      2
+
+Y. Lu, et al.                                                                                            Journal of Transport & Health 14 (2019) 100616
+Fig. 1. There are great variations in urban density in Hong Kong. Up: Four quartiles of population density of administrative unit—Tertiary Planning
+Units (TPUs) in Hong Kong. Below: Examples of low—quartile 1 (a), medium-low—quartile 2 (b), medium-high—quartile 3 (c), and high—quartile
+4 (d) density developments in Hong Kong. Source: Google Inc.
+    A major challenge to determining built environment–transport walking associations is the limited variation in built environment
+factors, especially urban density. Most transport walking studies focusing on youths have been conducted in North America,
+Australia, and Europe, all of which feature relatively low urban density compared with some cities in Asia. The lack of adequate
+variation in urban density prevents these <U+FB01>ndings from being generalized to densely developed cities. Hong Kong, for example, has a
+gross population density of 6000 persons/km2. The population density in built-up areas is four times as high as gross density, because
+more than 75% of the land has been preserved as country parks or other natural areas. Hong Kong thus has considerable variation in
+urban density, ranging from areas with single-family houses to those with clusters of high-rises (Fig. 1). The quartile cut-o<U+FB00> points
+(930, 8650, 35744 persons/km2) for population density of administrative units in Hong Kong—Tertiary Planning Units (TPUs)—also
+supported great variation.
+    There is another caveat in the literature. Most empirical studies have used various linear models to estimate the built en-
+vironment–physical activity associations. Recent studies have called for the estimation of complex dose-response relationships to
+identify the minimum, maximum, and optimal doses of built environment variables for promoting physical activity (Cerin et al.,
+2018; Christiansen et al., 2016; Kerr et al., 2016). One international study compared 12,181 adults in 10 countries and found a
+signi<U+FB01>cant non-linear relationship between resident density and transport walking for adults (Christiansen et al., 2016). The authors
+of that study found that the relationship had an inverted U-shape with a threshold of 12,000 dwellings/km2 for the maximum
+likelihood of transport walking. A further increase in residential density was associated with a decreased likelihood of transport
+walking. However, the dose-response relationship between the built environment and physical activity for youths is still unknown.
+                                                                         3
+
+Y. Lu, et al.                                                                                      Journal of Transport & Health 14 (2019) 100616
+    To address these research gaps, in this study we explore the dose-response relationship between the built environment and
+transport walking using a large sample of youths in Hong Kong.
+2. Methods
+2.1. Participants and walking data
+    Hong Kong is in the southeast coastal area of China. It has a total population of 7.3 million people and a land area of 1104 km2,
+making it one of most densely populated cities in the world.
+    The walking data were obtained from the 2011 Hong Kong Travel Characteristics Survey (TCS). TCS was conducted by Transport
+Department to determine the overall travel behaviors in Hong Kong. TCS used a random sampling method to select participating
+households from a list of permanent dwelling addresses maintained by the Census & Statistics Department. The survey included a
+total of 101,385 participants of 35,401 households. The survey response rate was 71%. The present study comprised a geocoded
+sample of 13,287 youths between the ages of 5 and 18 randomly distributed throughout Hong Kong. The general trip information for
+a 24-h period for the participants was collected via face-to-face interviews. The participants needed to report in chronological order
+the places they have visited during the reference 24-h period as well as detailed transport modes, address of trip origin and desti-
+nation, departure time and arrival time for all trips. Residence location, household income, household vehicle ownership and in-
+dividual information (e.g. age, and sex, whether a full-time student) were also collected during the interviews.
+    Personal, household, trip data were combined via unique household and household member IDs. The total walking time in mins of
+a youth participant was calculated by summing up all walk components from trip data. Ethical approval for this study was granted by
+the Research Committee of City University of Hong Kong (H000691).
+2.2. Environmental variables
+    Each participant's dwelling address was geocoded with ArcGIS 10.5 (Esri, U.S.A.). Two street network bu<U+FB00>ers (500 m and 1 km)
+were created around a dwelling location, consistent with a dose-response study for adults (Christiansen et al., 2016). Some potential
+walking-in<U+FB02>uencing built environment factors within the bu<U+FB00>ers were objectively calculated in GIS because of their relevance to
+walking behaviors and data availability: population density (Li et al., 2005); street connectivity (Adkins et al., 2012; Chin et al., 2008;
+Li et al., 2005); land-use mix; number of bus stops (Yang et al., 2019a), retail shops and recreational facilities; and distance to the
+closest Mass Transit Rail (MTR) station (Hajna et al., 2015; I. M. Lee et al., 2012). All built environment data were obtained from the
+Lands Department and Census & Statistics Department of Hong Kong.
+    Population density was de<U+FB01>ned as the residential population per unit of land area in Tertiary Planning Units (TPUs) in Hong Kong.
+Street connectivity was assessed by street intersection density, de<U+FB01>ned as the number of intersections (three or more streets) per unit
+of land area in bu<U+FB00>ers.
+    Land-use mix entropy score was calculated using the entropy score to measure the level of diversity of land use types. We
+measured destination or service diversity from number of residents and jobs in di<U+FB00>erent categories; those data were maintained by
+Census & Statistics Department. It is di<U+FB00>erent from previous land-use mix measures with land use categories (e.g. residential,
+commercial, or industrial levels) at the parcel level (Frank et al., 2005). The abstract land use at the parcel level is unable to capture
+the variations in high-density environments with intense and dominant mixed-use developments. The number of residents and the
+jobs belonging to di<U+FB00>erent sectors (retail, accommodation, and all other jobs) were used to calculate the entropy score as a proxy for
+land-use mix in TPUs. Land-use mix = (-1) × [(b1/a) × ln(b1/a) + (b2/a) × ln(b2/a) + (b3/a) × ln(b3/a) + (b4/a) × ln(b4/
+a)]/ln (n4), where b1 = number of residents, b2 = number of retail jobs, b3 = number of accommodation jobs, b4 = number of
+other jobs, a = sum of residents and jobs, and n4 = between 0 and 4 depending on the number of land-use types present.
+2.3. Covariates
+    The survey also collected some personal-level data, which were used as covariates in this study: age, gender, household income,
+and household vehicle ownership. The monthly household income data were originally coded into 16 bands but were converted to 4
+bands (< HKD10,000, HKD10,000–20,000, HKD20,000–30,000, and > HKD30,000). Age was converted to a 4-band variable (5–8,
+9–11, 12–14, and 15–18 years).
+    The median household income (in HKD/month) in a participant's administrative planning unit (TPU) were used to assess
+neighborhood-level SES.
+2.4. Data analysis
+    Descriptive statistics for the two walking outcome variables, namely any walking and total minutes of walking during the 24-h
+reference period, were computed for the whole group and the subgroups, respectively. The associations of built environment vari-
+ables with walking outcomes were estimated using generalized additive mixed models (GAMMs) (Wood, 2017). GAMMs have been
+used in emerging public health studies (Cerin et al., 2018; Christiansen et al., 2016; Kerr et al., 2016). It can explain the clustering
+pattern of the walking behaviors for participants from the same administrative planning unit. Random intercepts were speci<U+FB01>ed to
+account for within-administrative-unit clustering e<U+FB00>ects. More importantly, GAMMs can estimate complex dose-response
+                                                                      4
+
+Y. Lu, et al.                                                                                           Journal of Transport & Health 14 (2019) 100616
+Table 1
+Characteristics of participants responding to the main survey in analysis 1. The outcome variable was whether a participant engaged in any walking
+during the 24-h reference period (N = 13,287).
+  Individual characteristics                    Number of participants                   Percentage (%)                       Engaged in walking (%)
+  All participants                              13,287                                   100                                  45.3
+  Age (y)
+    5-8                                         2867                                     21.6                                 54.2
+    9-11                                        2604                                     19.6                                 51
+    12-14                                       2992                                     22.5                                 40.5
+    15-18                                       4824                                     36.3                                 39.9
+  Gender
+    Male                                        6909                                     52.0                                 45.9
+    Female                                      6378                                     48.0                                 44.7
+  Household income (HKD)
+    Low(< 10 k)                                 1560                                     11.7                                 50.5
+    Medium-low (10–20 k)                        4301                                     32.4                                 52.6
+    Medium-high (20–30 k)                       2988                                     22.5                                 47.2
+    High (> 50 k)                               4438                                     33.4                                 35.1
+  Vehicle ownership
+    No                                          10,692                                   80.5                                 48.0
+    Yes                                         2595                                     19.5                                 34.1
+relationships. The shape of the relationship was estimated with thin-plate splines. The criterion for the determination of a linear or
+non-linear relationship was whether the change in the Akaike information criterion (AIC) value was greater than 10.
+    A two-step data analysis was conducted for the walking variables: 1) GAMMs with binomial variance and a logit link function
+were used to model the likelihood of walking (versus not walking) for the 13,287 youths who responded to the main survey. The odds
+ratios of walking and 95% con<U+FB01>dence intervals (CIs) were reported in the model. 2) GAMMs with negative binomial variance and
+logarithmic link function were used to model the total walking time for the subset of 6019 participants who walked at least once
+during the reference 24-h period. The regression coe<U+FB03>cient ß and 95% CIs estimated proportional increases in minutes of walking
+associated with changes in the environment variables.
+    The GAMM analysis was conducted in R with the “mgcv” package (Wood, 2017). Before implementing the GAMMs, Variance
+In<U+FB02>ation Factors (VIFs) were checked with the “usdm” package (Naimi et al., 2014), and all of the built environment variables with
+VIF = 2 were removed to ensure no multicollinearity.
+3. Results
+3.1. Descriptive results
+    Table 1 describes the demographic and walking behaviors characteristics of a total number of 13,287 youths aged 5–18 years from
+the TCS. Overall, 45.3% of youths engaged in walking at least once during the 24-h period. Adolescents (12–14 and 15–18 years)
+were less likely to engage in walking than children (5–8 and 9–11 years). Male participants slightly outnumbered female participants
+and were slightly more likely to walk than females (45.9% vs 44.7%). Participants with high household income (> HKD50,000/
+month) were less likely to engage in walking than participants with lower income. Overall, 19.5% of participants living in households
+with private vehicles, and they were less likely to walk than those living in households without vehicles (34.1% vs 48%).
+    Table 2 describes the demographic and walking behaviors characteristics of 6019 youths walking at least once during the 24-h
+period. On average, the participants walked for 18.5 min (SD = 12.2). The adolescents (12–14 and 15–18 years) walked longer than
+children (5–8 and 9–11 years). There were slightly more male participants than female (51.4% vs 48.6%); male and female parti-
+cipants had similar walking time (18.6 vs 18.4 min). The participants with high household income (> HKD50,000) walked for shorter
+durations than other income groups. Youths living in households with vehicles also walked for shorter durations than those living in
+households without vehicles (15.3 vs 19.5 min).
+3.2. Analysis 1: e<U+FB00>ects on odds of walking
+    In the <U+FB01>rst step analysis, the GAMM models were used to predict the likelihood of engaging in any walking for 13,287 youths.
+Street intersection density was removed from the GAMM models because it had a VIF > 2.
+    There are signi<U+FB01>cant but non-linear associations between population density and the likelihood of walking in both 500-m and 1-
+km bu<U+FB00>ers (Fig. 2). The associations have a reverse U-shape that is positive up to a population density of 30,000 persons/km2; it then
+becomes negative for higher population densities. The number of recreational facilities and the number of retail shops were positively
+and linearly associated with the odds of walking in both bu<U+FB00>ers, while land-use mix and distance to an MTR station were not
+signi<U+FB01>cantly associated with this outcome (see Table 3). The number of bus stops was not associated with the likelihood of walking in
+the 500 m bu<U+FB00>er, but it shows a negative association in the 1 km bu<U+FB00>er.
+    Regarding the covariates, age, household income, and vehicle ownership were negatively associated with the likelihood of
+                                                                           5
+
+Y. Lu, et al.                                                                                            Journal of Transport & Health 14 (2019) 100616
+Table 2
+Characteristics of participants responding to the supplementary walking survey in analysis 2. The outcome variable was total walking time during
+the 24-h reference period (N = 6019).
+  Individual characteristics                 Number of participants                 Percentage (%)                    Mean walking time in mins (SD)
+  All participants                           6019                                   100.0                             18.5 (11.2)
+  Age (y)
+    5-8                                      1037                                   17.2                              12.9 (9.4)
+    9-11                                     1026                                   17.0                              14.6 (9.9)
+    12-14                                    1481                                   24.6                              19.9 (11.1)
+    15-18                                    2475                                   41.1                              21.6 (11.1)
+  Gender
+    Male                                     3096                                   51.4                              18.6 (11.2)
+    Female                                   2923                                   48.6                              18.4 (11.2)
+  Household income (HKD)
+    Low(< 10 k)                              650                                    10.8                              20.1 (11.3)
+    Medium-low (10–20 k)                     1722                                   28.6                              19.5 (11.3)
+    Medium-high (20–30 k)                    1280                                   21.3                              19.0 (10.6)
+    High (> 50 k)                            2367                                   39.3                              17.0 (11.2)
+  Vehicle ownership
+    No                                       4601                                   76.4                              19.5 (11.2)
+    Yes                                      1418                                   23.6                              15.3 (10.4)
+Fig. 2. The shape of the signi<U+FB01>cant nonlinear associations between population density in the 500 m and 1 km street network bu<U+FB00>ers and the
+likelihood of walking during last 24-h reference period. The shaded area represents 95% con<U+FB01>dence intervals. The tick marks above the x-axis
+represent the number of participants living in administrative planning units at this level of population density.
+walking. Older children (9–11 years) and adolescents (12–14, 15–18 years) had lower likelihoods of walking compared with younger
+children (5–8 years). Youth from the highest income group (> HKD50, 000/month) had a lower likelihood of walking compared with
+those from the lowest income group (< HKD10, 000/month). Youth with a vehicle in their household had lower odds than those
+without. Male and female participants had no signi<U+FB01>cant di<U+FB00>erence in their likelihood of walking.
+3.3. Analysis 2: e<U+FB00>ects on total walking time
+    In the second step analysis, the GAMM models were used to predict total minutes of walking for those who walked at least once
+during 24-h period (N = 6019). Street intersection density was removed from the GAMM models because it had a VIF > 2.
+    Similar to the results of analysis 1, the association between population density and total walking time is signi<U+FB01>cant but non-linear
+in both 500-m and 1-km bu<U+FB00>ers (Fig. 3). The associations have a reverse U-shape that is positive up to a population density of 60,000
+persons/km2, it then becomes negative for higher population densities. The number of retail shops was positively and linearly
+associated with total walking time in both bu<U+FB00>ers (see Table 4). The number of bus stops was negatively associated with total walking
+time. Land-use mix, the number of recreational facilities, distance to MTR were not signi<U+FB01>cantly associated with total walking time.
+    Medium household income in neighborhood was negatively associated with total walking time. Compared with the age group of
+5–8 years, the other three age groups walked for a signi<U+FB01>cantly longer duration. There is no signi<U+FB01>cant di<U+FB00>erence for male and female
+participants, or participants of di<U+FB00>erent household income groups. Youth with a vehicle in their household walked signi<U+FB01>cantly
+shorter duration than those without.
+                                                                        6
+
+Y. Lu, et al.                                                                                            Journal of Transport & Health 14 (2019) 100616
+Table 3
+The associations between built environment variables, neighborhood SES, and individual factors and likelihood of walking in analysis 1b.
+  Model predictors                               500 m bu<U+FB00>er                                              1 km bu<U+FB00>er
+                                                 OR (95% CI)                    p-value                   OR (95% CI)                        p-value
+  Built environment
+    Population density                           NAa                                                      NAa
+    Land-use mix                                 0.98 (0.91, 1.05)              0.49                      0.97 (0.91, 1.04)                  0.45
+    Number of recreational facilities            1.16 (1.09, 1.24)               < 0.01**                 1.19 (1.09, 1.29)                  < 0.01**
+    Number of retail shops                       1.22 (1.12, 1.33)               < 0.01**                 1.38 (1.24, 1.53)                  < 0.01**
+    Distance to MTR                              1.02 (0.96, 1.09)              0.48                      1.04 (0.98, 1.12)                  0.20
+    Number of bus stops                          1.04 (0.95, 1.13)              0.42                      0.88 (0.78, 0.99)                  0.03*
+  Neighborhood SES
+    Medium household income                      0.95 (0.89, 1.01)              0.10                      0.95 (0.89, 1.01)                  0.08
+  Individual factors
+    Age (y)
+       5-8—Reference
+       9-11                                      0.82 (0.72, 0.92)               < 0.01**                 0.82 (0.72, 0.92)                  < 0.01**
+       12-14                                     0.47 (0.42, 0.53)               < 0.01**                 0.47 (0.42, 0.53)                  < 0.01**
+       15-18                                     0.43 (0.39, 0.48)               < 0.01**                 0.43 (0.39, 0.48)                  < 0.01**
+  Gender
+       Male—Reference
+       Female                                    0.94 (0.87, 1.01)              0.10                      0.94 (0.87, 1.01)                  0.10
+  Household income (HKD/month)
+       Low(< 10 k)—Reference
+       Medium-low (10–20 k)                      1.10 (0.96, 1.25)              0.17                      1.10 (0.97, 1.25)                  0.15
+       Medium-high (20–30 k)                     0.90 (0.78, 1.04)              0.15                      0.91 (0.79, 1.05)                  0.18
+       High (> 50 k)                             0.63 (0.54, 0.73)               < 0.01**                 0.63 (0.54, 0.73)                  < 0.01**
+  Vehicle ownership
+       No–Reference
+       Yes                                       0.77 (0.68, 0.86)               < 0.01**                 0.76 (0.68, 0.86)                  < 0.01**
+  a
+     The association between population density and likelihood of walking was signi<U+FB01>cant but not linear.
+  b
+     All of the model predictors were entered into GAMM simultaneously. **p < 0.01.
+Fig. 3. The shape of the signi<U+FB01>cant nonlinear associations between population density in the 500 m and 1 km street network bu<U+FB00>ers and the total
+minutes of walking during last 24-h reference period. The shaded area represents 95% con<U+FB01>dence intervals. The tick marks above the x-axis
+represent the number of participants living in administrative planning units at this level of population density.
+4. Discussion
+    In this study, we investigated the dose-response relationship between built environment characteristics and transport walking in a
+high-density city. We found signi<U+FB01>cant but non-linear associations between population density and the odds and total minutes of
+transport walking. In addition, land-use mix was not associated with transport walking. The number of recreational facilities and
+retail shops was positively associated with the odds of engaging in transport walking; the latter was also positively associated with
+total minutes of walking. The number of bus stops was negatively associated with either the odds or total minutes of transport
+walking.
+    The travel characteristic data showed that 45.3% of youths engaged in walking at least once during the 24-h period. The walking
+rate is lower than that in a recent study in Hong Kong, which found 58% of its 1299 adolescents reported a weekly engagement in
+active commuting to school (Barnett et al., 2019). The measuring time scales (daily versus weekly) and behavior outcomes (walking
+                                                                        7
+
+Y. Lu, et al.                                                                                         Journal of Transport & Health 14 (2019) 100616
+Table 4
+The associations between built environment variables, neighborhood SES, and individual factors and total walking time for the participants in
+Analysis 2b.
+  Model predictors                           500 m bu<U+FB00>er                                           1 km bu<U+FB00>er
+                                             ß (95% CI)                       p-value              ß (95% CI)                             p-value
+  Built environment
+    Population density                       NAa                                                   NAa
+    Land-use mix                             -0.01, (-0.04, 0.02)             0.55                 -0.01, (-0.04, 0.02)                   0.44
+    Number of recreational facilities        0.01, (-0.02, 0.04)              0.25                 0.01, (-0.02, 0.03)                    0.10
+    Number of retail shops                   0.04, (0.01, 0.08)               0.01*                0.05, (0.01, 0.09)                     0.01*
+    Distance to MTR                          -0.01, (-0.03, 0.02)             0.59                 -0.01, (-0.03, 0.02)                   0.50
+    Number of bus stops                      -0.07, (-0.10, -0.03)            < 0.01**             -0.06, (-0.10, -0.01)                  0.01**
+  Neighborhood SES
+    Medium household income                  -0.05, (-0.07, -0.03)            < 0.01**             -0.05, (-0.07, -0.02)                  < 0.01**
+  Individual factors
+  Age (y)
+       5-8—Reference
+       9-11                                  0.11, (0.06, 0.16)               < 0.01**             0.11, (0.06, 0.16)                     < 0.01**
+       12-14                                 0.43, (0.39, 0.48)               < 0.01**             0.43, (0.39, 0.48)                     < 0.01**
+       15-18                                 0.55, (0.50, 0.59)               < 0.01**             0.55, (0.50, 0.59)                     < 0.01**
+  Gender
+       Male—Reference
+       Female                                0.01, (-0.02, 0.04)              0.65                 0.01, (-0.02, 0.04)                    0.63
+  Household income (HKD)
+       Low(< 10 k)—Reference
+       Medium-low (10–20 k)                  -0.03, (-0.09, 0.02)             0.21                 -0.03, (-0.09, 0.02)                   0.22
+       Medium-high (20–30 k)                 0.01, (-0.05, 0.07)              0.74                 0.01, (-0.05, 0.07)                    0.73
+       High (> 50 k)                         -0.01, (-0.07, 0.06)             0.85                 0.00, (-0.07, 0.06)                    0.90
+  Vehicle ownership
+       No—Reference
+       Yes                                   -0.19, (-0.24, -0.14)            < 0.01**             -0.19, (-0.24, -0.14)                  < 0.01**
+  a
+     The association between population density and likelihood of walking was signi<U+FB01>cant but not linear.
+  b
+     All of the model predictors were entered into GAMM simultaneously. *p < 0.05, **p < 0.01.
+versus active commuting) limit a further meaning comparison. Nevertheless, our results may have a higher degree of generalizability
+for the whole youth population in Hong Kong than those in the previous study, because this study have a larger sample size. The
+proportion of youths engaging in walking in Hong Kong is lower than that in Finland (Kallio et al., 2016), but are much higher than
+that in Canada (Gray et al., 2014) and in UK (Townsend et al., 2015).
+4.1. Urban density
+    Urban density is a key planning parameter that heavily in<U+FB02>uences urban form and social and economic activities in cities. In this
+study, we revealed an inverted U-shaped dose-response e<U+FB00>ect between population density and odds of transport walking for 13,287
+youths in 500 m and 1 km bu<U+FB00>ers after adjusting for other built environment factors. The population density was positively associated
+with the odds of transport walking up to a threshold of approximately 30,000 persons/km2, after which the association became <U+FB02>at
+and then negative. Similarly, for 6019 youths walking at least once during 24-h period, the population density was positively
+associated with total minutes of transport walk up to a threshold of approximately 60,000 persons/km2, after which the association
+rapidly became negative. The <U+FB01>nding demonstrates the complex relationship between population density and transport walking. Our
+<U+FB01>ndings contrast with those in three reviews (Ding et al., 2011; J. Panter et al., 2008; Pont et al., 2009), which found a positive
+relationship between urban density and transport walking for youths. These three reviews mainly summarized <U+FB01>ndings from low
+density developed cities. In one empirical study, for example, children living in the neighborhoods in the top density tertile were
+three times more likely to walk or cycle compared to those living in lower density neighborhoods (Kerr et al., 2006). It is worth noting
+that in these study areas, the variation in population density was often limited, and the threshold level (30,000–60,000 persons/m2)
+was typically not reached. Our <U+FB01>nding that the negative association between urban density and transport walking time is in line with
+a study conducted in Nanjing, another densely developed city in China (Xu et al., 2010). Xu and his colleagues found that high school
+students living in areas in the higher tertile of residential density engaged in less recreational physical activity than those in areas in
+the lower tertile. One possible explanation is that both Hong Kong and Nanjing have great variation in urban density, although the
+two studies measured di<U+FB00>erent domains of physical activity (transport walking vs recreational physical activity).
+    The inverted U-shaped dose-e<U+FB00>ect relationship between urban density and transport walking behaviors for youths identi<U+FB01>ed in
+this study, is similar to a study for adults (Christiansen et al., 2016). However, for adults, dwelling density was positively associated
+with the likelihood of transport walking for adults up to 12,000 dwellings/km2, beyond which further increases in dwelling density
+had little or negative in<U+FB02>uence (Christiansen et al., 2016). The threshold levels of urban density to increase the likelihood of transport
+walking for youths (30,000 persons/km2, or 10,700 dwellings/km2 given average household size of 2.8 in Hong Kong) and for adults
+                                                                       8
+
+Y. Lu, et al.                                                                                           Journal of Transport & Health 14 (2019) 100616
+Fig. 4. The gross population density of administrative planning units—Tertiary Planning Units (TPUs) in Hong Kong. 84 out of 289 TPUs (or 29.0%)
+have a population density exceeding 30,000 persons/km2 and 38 TPUs (13.1%) have one exceeding 60,000 persons/km2. The extreme high-density
+developments in those areas may hinder youths' transport walking.
+(12,000 dwellings/km2) were close to each other. In addition, the present study provides new evidence of population density
+threshold of approximately 60,000 persons/km2 to increase total minutes of walking for youths. Further studies are needed to <U+FB01>nd
+out whether these <U+FB01>ndings are sheer coincidence or generalizable. If the latter is true, our <U+FB01>ndings, together with others, should have
+signi<U+FB01>cant planning implications. The threshold of approximately 30,000–60,000 persons/km2 may become the maximum urban
+density level for urban development for the promotion of transport walking. Given that many urban areas in Hong Kong (Fig. 4) have
+exceeded this threshold, any future urban redevelopment may consider reducing urban density.
+4.2. Land-use mix
+    In this study, we found that land-use mix was not associated with the likelihood of either transport walking or total transport
+walking time. This result contrasts with those in previous reviews (D'Haese et al., 2015; Ding et al., 2011; J. Panter et al., 2008; Pont
+et al., 2009) but is in line with previously reported insigni<U+FB01>cant associations for children (Mitra et al., 2010; J. R. Panter et al., 2010;
+Yarlagadda and Srinivasan, 2008) and adults in Hong Kong (Lu et al., 2017). The mixed results may derive from how land-use mix
+was measured. In the current study, we measured land-use mix with number of residents and jobs, rather than land use types (Frank
+et al., 2005). In densely developed cities, land use mixture in parcel level cannot capture the level of mix of di<U+FB00>erent destinations and
+functions because most buildings have mixed uses, such as having retail shops on ground level and residential <U+FB02>ats on upper levels.
+Some researchers have proposed to use jobs or points of interest to measure land-use mix for high-density cities (Lu et al., 2017; Sun
+et al., 2018a,b; Yang et al., 2019b; Wang et al., 2019). Future methodological development in assessing land-use mix, especially in
+high-density cities, is warranted to identify the optimal level of land-use mix to promote transport walking.
+4.3. Accessibility of facilities
+    We also found that the number of recreational facilities in the bu<U+FB00>ers was positively associated with the likelihood of engagement
+in transport walking. The number of retail shops was positively associated with both the odds and total minutes of transport walking.
+The result concurs with previous reviews (D'Haese et al., 2015; Ding et al., 2011; J. Panter et al., 2008; Pont et al., 2009). Parks,
+sports and recreational facilities, and retail shops in neighborhoods are common destinations that are typically within walking
+distance. The accessibility of facilities makes transport walking feasible. The positive associations are relatively robust because they
+were reported in many studies across di<U+FB00>erent locations. It is worth noting that the number of bus stop was negatively associated with
+transport walking in this study. More bus stops probably indicate heavier tra<U+FB03>c <U+FB02>ow, which may lead to concerns about tra<U+FB03>c safety
+                                                                        9
+
+Y. Lu, et al.                                                                                                              Journal of Transport & Health 14 (2019) 100616
+and reduce the likelihood of transport walking.
+4.4. Strengths and limitations
+    This current study used a large sample size at the population level; hence, our results can be safely generalized to all youths in
+Hong Kong. The large variation in urban density in Hong Kong, in conjunction with the use of advanced statistic models, enables us to
+detect complex dose-response associations between built environment variables and transport walking. This study provides evidence
+that can be used to develop targeted interventions and planning policy for Hong Kong and for other densely populated urban areas in
+Asia, which are understudied in the public health literature. The tentative threshold level of population density (approximately
+30,000 persons/km2) for youths is close to that for adults (Christiansen et al., 2016); hence, the threshold level may be incorporated
+into international strategies to improve transport walking and public health upon veri<U+FB01>cation by future studies.
+    This study has several limitations. This cross-sectional research design may prevent the identi<U+FB01>cation of any causal relationship
+between built environment characteristics and transport walking. Future studies could use a quasi-experimental design, such as
+comparing behavioral changes before and after an environmental intervention (Carver et al., 2014; Hearst et al., 2012) or residential
+relocation (Boone-Heinonen et al., 2011; Mokhtarian and Cao, 2008), or comparing behaviors in large-scale public housing schemes
+in which residential relocation is largely determined by government agency rather than self-selection (Lu, 2018; Lu et al., 2018).
+Although the built environment was objectively measured in this study, transport walking behaviors were self-reported and thus
+subject to recall bias. To address this issue, walking data can be objectively assessed by accelerometers. It would be worth to explore
+the built environment-walking associations during school days and non-school days separately. However, we cannot conduct separate
+analyses due to limited information in the dataset. Lastly, this study was conducted in a single city, the ultra-high population density
+may in<U+FB02>uence the generalizability of the <U+FB01>ndings, and evidence from other high-density cities are needed to verify the robustness of
+our results.
+5. Conclusion
+    Based on transport walking data from 13,287 youths aged 5–18 years old in Hong Kong, a high-density city but still with great
+variations in population density, the current study highlights the importance of accessibility to recreational facilities, such as parks,
+sports facilities and retail shops. More importantly, this study underscores the threshold e<U+FB00>ect of urban density on youths' likelihood
+of engaging in transport walking. Population density above 30,000–60,000 persons/km2 has little or even negative e<U+FB00>ects on
+transport walking. Our <U+FB01>ndings suggest that neighborhoods with appropriate population density and easy access to pedestrian
+destinations have a positive e<U+FB00>ect on youths’ transport walking, which is an important component of overall physical activity. In
+addition, although increasing density in high-density cities may not be an e<U+FB00>ective intervention strategy to increase transport walking
+for youths, such strategy may still be e<U+FB00>ective in other less dense areas.
+Funding
+    The work described in this paper was fully supported by grants from the National Natural Science Foundation of China (Project
+No.51578474, 51778552 &41871140) and the Research Grants Council of the Hong Kong Special Administrative Region, China
+(Project No. City U11666716).
+References
+Adkins, A., Dill, J., Luhr, G., Neal, M., 2012. Unpacking walkability: testing the in<U+FB02>uence of urban design features on perceptions of walking environment attrac-
+    tiveness. J. Urban Des. 17 (4), 499–510. https://doi.org/10.1080/13574809.2012.706365.
+Barnett, A., Sit, C.H.P., Mellecker, R.R., Cerin, E., 2019. Associations of socio-demographic, perceived environmental, social and psychological factors with active
+    travel in Hong Kong adolescents: the iHealt(H) cross-sectional study. J. Transp. Health 12, 336–348. https://doi.org/10.1016/j.jth.2018.08.002.
+Boone-Heinonen, J., Gordon-Larsen, P., Guilkey, D.K., Jacobs, D.R., Popkin, B.M., 2011. Environment and physical activity dynamics: the role of residential self-
+    selection. Psychol. Sport Exerc. 12 (1), 54–60.
+Carlin, A., Murphy, M.H., Gallagher, A.M., 2016. Do interventions to increase walking work? A systematic review of interventions in children and adolescents. Sport.
+    Med. 46 (4), 515–530. https://doi.org/10.1007/s40279-015-0432-6.
+Carver, A., Panter, J.R., Jones, A.P., van Sluijs, E.M.F., 2014. Independent mobility on the journey to school: a joint cross-sectional and prospective exploration of
+    social and physical environmental in<U+FB02>uences. J. Transp. Health 1 (1), 25–32. https://doi.org/10.1016/j.jth.2013.12.003.
+Cerin, E., Conway, T.L., Adams, M.A., Barnett, A., Cain, K.L., Owen, N., ... Sallis, J.F., 2018. Objectively-assessed neighbourhood destination accessibility and physical
+    activity in adults from 10 countries: an analysis of moderators and perceptions as mediators. Soc. Sci. Med. 211, 282–293. https://doi.org/10.1016/j.socscimed.
+    2018.06.034.
+Cervero, R., Kockelman, K., 1997. Travel demand and the 3Ds: density, diversity, and design. Transp. Res. D Transp. Environ. 2 (3), 199–219. https://doi.org/10.
+    1016/S1361-9209(97)00009-6.
+Chin, G.K.W., Van Niel, K.P., Giles-Corti, B., Knuiman, M., 2008. Accessibility and connectivity in physical activity studies: the impact of missing pedestrian data. Prev.
+    Med. 46 (1), 41–45. https://doi.org/10.1016/j.ypmed.2007.08.004.
+Christiansen, L.B., Cerin, E., Badland, H., Kerr, J., Davey, R., Troelsen, J., ... Sallis, J.F., 2016. International comparisons of the associations between objective
+    measures of the built environment and transport-related walking and cycling: IPEN Adult Study. J. Transp. Health 3 (4), 467–478. https://doi.org/10.1016/j.jth.
+    2016.02.010.
+D'Haese, S., Vanwolleghem, G., Hinckson, E., De Bourdeaudhuij, I., Deforche, B., Van Dyck, D., Cardon, G., 2015. Cross-continental comparison of the association
+    between the physical environment and active transportation in children: a systematic review. Int. J. Behav. Nutr. Phys. Act. 12 (1). https://doi.org/10.1186/
+    s12966-015-0308-z.
+Ding, D., Sallis, J.F., Kerr, J., Lee, S., Rosenberg, D.E., 2011. Neighborhood environment and physical activity among youth: a review. Am. J. Prev. Med. 41 (4),
+                                                                                       10
+
+Y. Lu, et al.                                                                                                                Journal of Transport & Health 14 (2019) 100616
+     442–455. https://doi.org/10.1016/j.amepre.2011.06.036.
+Evenson, K.R., Birnbaum, A.S., Bedimo-Rung, A.L., Sallis, J.F., Voorhees, C.C., Ring, K., Elder, J.P., 2006. Girls' perception of physical environmental factors and
+     transportation: reliability and association with physical activity and active transport to school. Int. J. Behav. Nutr. Phys. Act. 3, 28. https://doi.org/10.1186/1479-
+     5868-3-28.
+Faulkner, G.E.J., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active school transport, physical activity levels and body weight of children and youth: a systematic
+     review. Prev. Med. 48 (1), 3–8. https://doi.org/10.1016/j.ypmed.2008.10.017.
+Forsyth, A., Oakes, J.M., Schmitz, K.H., Hearst, M., 2007. Does residential density increase walking and other physical activity? Urban Stud. 44 (4), 679–697. https://
+     doi.org/10.1080/00420980601184729.
+Frank, L.D., Schmid, T.L., Sallis, J.F., Chapman, J., Saelens, B.E., 2005. Linking objectively measured physical activity with objectively measured urban form: <U+FB01>ndings
+     from SMARTRAQ. Am. J. Prev. Med. 28, 117–125. 2, Supplement 2. https://doi.org/10.1016/j.amepre.2004.11.001.
+Gray, C.E., Larouche, R., Barnes, J.D., Colley, R.C., Bonne, J.C., Arthur, M., et al., 2014. Are we driving our kids to unhealthy habits? Results of the active healthy kids
+     Canada 2013 report card on physical activity for children and youth. Int. J. Environ. Res. Public Health 11 (6), 6009–6020. https://doi.org/10.3390/
+     ijerph110606009.
+Hajna, S., Ross, N.A., Brazeau, A.-S., Bélisle, P., Joseph, L., Dasgupta, K., 2015. Associations between neighbourhood walkability and daily steps in adults: a systematic
+     review and meta-analysis. BMC Public Health 15 (1), 1–8. https://doi.org/10.1186/s12889-015-2082-x.
+Handy, S.L., Boarnet, M.G., Ewing, R., Killingsworth, R.E., 2002. How the built environment a<U+FB00>ects physical activity: views from urban planning. Am. J. Prev. Med. 23
+     (2), 64–73.
+Hearst, M.O., Patnode, C.D., Sirard, J.R., Farbakhsh, K., Lytle, L.A., 2012. Multilevel predictors of adolescent physical activity: a longitudinal analysis. Int. J. Behav.
+     Nutr. Phys. Act. 9. https://doi.org/10.1186/1479-5868-9-8.
+Janssen, I., Leblanc, A.G., 2010. Systematic review of the health bene<U+FB01>ts of physical activity and <U+FB01>tness in school-aged children and youth. Int. J. Behav. Nutr. Phys.
+     Act. 7, 40. https://doi.org/10.1186/1479-5868-7-40.
+Kallio, J., Turpeinen, S., Hakonen, H., Tammelin, T., 2016. Active commuting to school in Finland, the potential for physical activity increase in di<U+FB00>erent seasons. Int.
+     J. Circumpolar Health 75 ARTN 33319 10.3402/ijch.v75.33319.
+Kerr, J., Emond, J.A., Badland, H., Reis, R., Sarmiento, O., Carlson, J., et al., 2016. Perceived neighborhood environmental attributes associated with walking and
+     cycling for transport among adult residents of 17 cities in 12 countries: the IPEN study. Environ. Health Perspect. 124 (3), 290–298. https://doi.org/10.1289/ehp.
+     1409466.
+Kerr, J., Rosenberg, D., Sallis, J.F., Saelens, B.E., Frank, L.D., Conway, T.L., 2006. Active commuting to school: associations with environment and parental concerns.
+     Med. Sci. Sport. Exerc. 38 (4), 787–794. https://doi.org/10.1249/01.mss.0000210208.63565.73.
+Kurka, J.M., Adams, M.A., Todd, M., Colburn, T., Sallis, J.F., Cain, K.L., et al., 2015. Patterns of neighborhood environment attributes in relation to children's physical
+     activity. Health Place 34, 164–170. https://doi.org/10.1016/j.healthplace.2015.05.006.
+Lee, C., Moudon, A.V., 2004. Physical activity and environment research in the health <U+FB01>eld: implications for urban and transportation planning practice and research.
+     J. Plan. Lit. 19 (2), 147–181. https://doi.org/10.1177/0885412204267680.
+Lee, C., Moudon, A.V., 2006. Correlates of walking for transportation or recreation purposes. J. Phys. Act. Health 3, S77–S98.
+Lee, I.M., Shiroma, E.J., Lobelo, F., Puska, P., Blair, S.N., Katzmarzyk, P.T., 2012. Impact of physical inactivity on the world's major non-communicable diseases.
+     Lancet 380 (9838), 219–229. https://doi.org/10.1016/s0140-6736(12)61031-9.
+Li, F.Z., Fisher, K.J., Brownson, R.C., Bosworth, M., 2005. Multilevel modelling of built environment characteristics related to neighbourhood walking activity in older
+     adults. J. Epidemiol. Community Health 59 (7), 558–564. https://doi.org/10.1136/jech.2004.028399.
+Lu, Y., 2018. The association of urban greenness and walking behavior: using Google street view and deep learning techniques to estimate residents' exposure to urban
+     greenness. Int. J. Environ. Res. Public Health 15 (8), 1576. https://doi.org/10.3390/ijerph15081576.
+Lu, Y., Chen, L., Yang, Y., Gou, Z., 2018. The association of built environment and physical activity in older adults: using a citywide public housing scheme to reduce
+     residential self-selection bias. Int. J. Environ. Res. Public Health 15 (9), 1973. https://doi.org/10.3390/ijerph15091973.
+Lu, Y., Xiao, Y., Ye, Y., 2017. Urban density, diversity and design: is more always better for walking? A study from Hong Kong. Prev. Med. 103, S99–S103. https://doi.
+     org/10.1016/j.ypmed.2016.08.042.
+Lubans, D.R., Boreham, C.A., Kelly, P., Foster, C.E., 2011. The relationship between active travel to school and health-related <U+FB01>tness in children and adolescents: a
+     systematic review. Int. J. Behav. Nutr. Phys. Act. 8. https://doi.org/10.1186/1479-5868-8-5.
+Mitra, R., 2013. Independent mobility and mode choice for school transportation: a review and framework for future research. Transp. Rev. 33 (1), 21–43. https://doi.
+     org/10.1080/01441647.2012.743490.
+Mitra, R., Buliung, R.N., Faulkner, G.E.J., 2010. Spatial clustering and the temporal mobility of walking school trips in the Greater Toronto Area, Canada. Health Place
+     16 (4), 646–655. https://doi.org/10.1016/j.healthplace.2010.01.009.
+Mokhtarian, P.L., Cao, X., 2008. Examining the impacts of residential self-selection on travel behavior: a focus on methodologies. Transp. Res. Part B Methodol. 42 (3),
+     204–228. https://doi.org/10.1016/j.trb.2007.07.006.
+Naimi, B., Hamm, N.A.S., Groen, T.A., Skidmore, A.K., Toxopeus, A.G., 2014. Where is positional uncertainty a problem for species distribution modelling? Ecography
+     37 (2), 191–203. https://doi.org/10.1111/j.1600-0587.2013.00205.x.
+Nieuwenhuijsen, M.J., 2016. Urban and transport planning, environmental exposures and health-new concepts, methods and tools to improve health in cities. Environ.
+     Health: Glob. Access Sci. Source 15. https://doi.org/10.1186/s12940-016-0108-1.
+Panter, J., Jones, A., van Sluijs, E., 2008. Environmental determinants of active travel in youth: a review and framework for future research. Int. J. Behav. Nutr. Phys.
+     Act. 5 (1), 34.
+Panter, J.R., Jones, A.P., Van Sluijs, E.M.F., Gri<U+FB03>n, S.J., 2010. Neighborhood, route, and school environments and children's active commuting. Am. J. Prev. Med. 38
+     (3), 268–278. https://doi.org/10.1016/j.amepre.2009.10.040.
+Pont, K., Ziviani, J., Wadley, D., Bennett, S., Abbott, R., 2009. Environmental correlates of children's active transportation: a systematic literature review. Health Place
+     15 (3), 827–840. https://doi.org/10.1016/j.healthplace.2009.02.002.
+Rothman, L., Buliung, R., To, T., Macarthur, C., Macpherson, A., Howard, A., 2015. Associations between parents perception of tra<U+FB03>c danger, the built environment
+     and walking to school. J. Transp. Health 2 (3), 327–335. https://doi.org/10.1016/j.jth.2015.05.004.
+Saelens, B.E., Handy, S.L., 2008. Built environment correlates of walking: a review. Med. Sci. Sport. Exerc. 40 (7 Suppl. l), S550–S566.
+Sandercock, G., Angus, C., Barton, J., 2010. Physical activity levels of children living in di<U+FB00>erent built environments. Prev. Med. 50 (4), 193–198. https://doi.org/10.
+     1016/j.ypmed.2010.01.005.
+Schoeppe, S., Duncan, M.J., Badland, H., Oliver, M., Curtis, C., 2013. Associations of children's independent mobility and active travel with physical activity, sedentary
+     behaviour and weight status: a systematic review. J. Sci. Med. Sport 16 (4), 312–319. https://doi.org/10.1016/j.jsams.2012.11.001.
+Strong, W.B., Malina, R.M., Blimkie, C.J., Daniels, S.R., Dishman, R.K., Gutin, B., et al., 2005. Evidence based physical activity for school-age youth. J. Pediatr. 146 (6),
+     732–737. https://doi.org/10.1016/j.jpeds.2005.01.055.
+Sun, G.B., Han, X.L., Sun, S.H., Oreskovic, N., 2018a. Living in school catchment neighborhoods: perceived built environments and active commuting behaviors of
+     children in China. J. Transp. Health 8, 251–261. https://doi.org/10.1016/j.jth.2017.12.009.
+Sun, G.B., Webster, C., Ni, M.Y., Zhang, X.H., 2018b. Measuring high-density built environment for public health research: uncertainty with respect to data, indicator
+     design and spatial scale. Geospatial Health 13 (1), 35–47 ARTN 653 10.4081/gh.2018.653.
+Townsend, N., Wickramasinghe, K., Williams, J., Bhatnagar, P., Rayner, M., 2015. Physical Activity Statistics 2015. British Heart Foundation, London.
+van Sluijs, E.M., Fearne, V.A., Mattocks, C., Riddoch, C., Gri<U+FB03>n, S.J., Ness, A., 2009. The contribution of active travel to children's physical activity levels: cross-
+     sectional results from the ALSPAC study. Prev. Med. 48 (6), 519–524. https://doi.org/10.1016/j.ypmed.2009.03.002.
+Wang, R., Yuan, Y., Liu, Y., Zhang, J., Liu, P., Lu, Y., Yao, Y., 2019. Using street view data and machine learning to assess how perception of neighborhood safety
+     in<U+FB02>uences urban residents’ mental health. Health Place 59, 102186.
+                                                                                       11
+
+Y. Lu, et al.                                                                                                                Journal of Transport & Health 14 (2019) 100616
+Wong, B.Y.M., Ho, S.Y., Lo, W.S., Cerin, E., Mak, K.K., Lam, T.H., 2014. Longitudinal relations of perceived availability of neighborhood sport facilities with physical
+    activity in adolescents: an analysis of potential moderators. J. Phys. Act. Health 11 (3), 581–587. https://doi.org/10.1123/jpah.2012-0077.
+Wood, S.N., 2017. Generalized Additive Models: an Introduction with R, second ed. Chapman and Hall/CRC.
+World Health Organization, 2018. Physical activity for adolescent in 2018. Retrieved from. https://www.who.int/news-room/fact-sheets/detail/physical-activity.
+Xiao, Y., Sarkar, C., Webster, C., Chiaradia, A., Lu, Y., 2017. Street network accessibility-based methodology for appraisal of land use master plans: an empirical case
+    study of Wuhan, China. Land Use Policy 69, 193–203. https://doi.org/10.1016/j.landusepol.2017.09.013.
+Xu, F., Li, J., Liang, Y., Wang, Z., Hong, X., Ware, R.S., et al., 2010. Associations of residential density with adolescents' physical activity in a rapidly urbanizing area of
+    mainland China. J. Urban Health : Bull. N. Y. Acad. Med. 87 (1), 44–53. https://doi.org/10.1007/s11524-009-9409-9.
+Yang, L., Zhou, J., Shyr, O.F., Huo, D., 2019a. Does bus accessibility a<U+FB00>ect property prices? Cities 84, 56–65.
+Yang, Y., He, D., Gou, Z., Wang, R., Liu, Y., Lu, Y., 2019b. Association between Street Greenery and Walking Behavior in Older Adults in Hong Kong. Sustain. Cities Soc
+    101747.
+Yarlagadda, A.K., Srinivasan, S., 2008. Modeling children's school travel mode and parental escort decisions. Transportation 35 (2), 201–218. https://doi.org/10.
+    1007/s11116-007-9144-6.
+                                                                                        12
+

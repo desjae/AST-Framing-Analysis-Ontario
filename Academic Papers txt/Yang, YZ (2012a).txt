@@ -1,0 +1,899 @@
+Environment and Planning A 2012, volume 44, pages 1856 – 1874
+doi:10.1068/a44549
+The influence of school choice policy on active school
+commuting: a case study of a middle-sized school
+district in Oregon
+Yizhao Yang, Steve Abbott, Marc Schlossberg
+Department of Planning, Public Policy and Management, 1209 University of Oregon,
+Eugene, OR 97403, USA; e-mail: yizhao@uoregon.edu, sma@uoregon.edu,
+schlossb@uoregon.edu
+Received 16 October 2011; in revised form 5 January 2012
+Abstract. School choice policy has implications for school travel as it allows students to
+attend schools farther from their residence than their neighborhood schools. This paper
+uses a case study from Oregon to investigate how school choice affects parents’ school
+travel decision making and the degree to which school choice affects children’s walking
+or biking to school. The research shows that school choice is associated with lengthened
+school travel distance and parents’ greater willingness to drive their children to school
+even within a short distance. The research suggests that school choice could hinder the
+effectiveness of such programs as Safe Routes to School.
+Keywords: active school travel, school choice policy, Safe Routes to School Program
+1 Introduction
+Active school commuting (ASC) refers to children walking or biking to school. Over
+forty years, the US has witnessed a precipitous decline in ASC rates among all student age
+groups (Booth et al, 2003; McDonald, 2007; McDonald et al, 2011). Increased reliance on
+automobiles for school travel has led to concerns over such environmental consequences
+as greenhouse gas emission, air and water pollution, and traffic congestion (Dubay, 2003;
+EPA, 2003; Ewing et al, 2004). There are also likely adverse health impacts on children
+from a reduction in physical activities and limiting effects on children’s social and cognitive
+development from car travel (Mackett et al, 2005; O’Brien and Gilbert, 2003; Sallis and
+Owen, 1999; Strauss and Pollack, 2001). These concerns have prompted calls for public
+interventions to increase rates of ASC and investigations of factors contributing to the
+observed school travel behavioral change.
+     While school travel research has revealed many environmental factors that help explain
+the decline in children’s rates of ASC, studies show that some of these environmental
+conditions (eg, long distance school travel and poor neighborhood walkability) exist partly
+as an outcome of policy decisions. For example, many local-level and/or state-level policies
+guiding school siting, sizing, and design promote construction of large schools at the urban
+fringe, making school trips longer and areas surrounding school sites unsupportive of walking
+or biking (McDonald, 2010).
+     School choice, a policy that allows students to attend schools not nearest to their residence,
+is widely adopted in many countries. This policy may have implications for ASC. Discussion
+of the relationship between school choice and school travel has focused on the obvious
+observation that school choice allows students to attend schools farther from their residence than
+neighborhood schools, resulting in longer travel distances and greater demand for automobile
+travel (Steiner et al, 2006). The available empirical research, although limited, suggests that
+
+School choice policy on ASC                                                                  1857
+the connection between school choice and school travel cannot be completely explained by the
+long travel distance typically associated with school choice (Wilson et al, 2010).
+     There is a need for systematic research investigating how school choice affects parents’
+school travel-mode decision and the degree to which school choice affects active school travel.
+Our study aims at filling these gaps. We report on a case study; a school district in Oregon
+that implemented a school choice policy but that does not provide transportation for students
+who avail themselves of that choice. Analyses using GIS and survey data were enriched by
+qualitative information collected from parent focus groups, school board members, and local
+planners. Our study contributes to the literature by connecting school choice with important
+aspects of parents’ decision-making process. By examining school travel in the context of
+school choice, this study also illuminates the challenges facing public interventions, such as
+the Safe Routes to School programs, in achieving the goal of increasing the rates of ASC.
+     This paper is organized in eight parts. Following the introduction, we briefly describe
+the background of school choice policy, and summarize evidence from existing school travel
+research. We discuss a conceptual framework that integrates this policy with other factors
+in predicting children’s walking or biking to school before presenting our case study. We
+conclude with a discussion of research findings and policy implications.
+2 Policy background
+School choice refers broadly to various policies and programs related to enrolment and
+funding of schools, both public and private. Choice, in this context, refers to policies that
+allow students to attend schools other than the school in the neighborhood in which they
+reside. In the US this policy has historical associations with various social agendas, from
+racial desegregation to school funding and bureaucratic reform (Ryan and Heise, 2002).
+With the ascendance of conservative government in the 1980s, in both the US and the UK,
+school choice justification expanded to include ‘free market’ economic theories introduced
+by Milton Friedman in 1955 (The Economist 2007). The goal, broadly stated, is to increase
+parents’ control over their child’s education, increasing ‘school quality’ by employing a ‘free
+market’ competition between schools (Forman, 2005; Teelken, 1999). Parents’ right to choose
+an education type for their children is recognized by several international treaties(1) and exists
+in countries around the world (Teelken, 1999), though policy mechanisms vary widely. Since
+the 1970s public funds have increasingly supported private schools in Australia (Cahill and
+Gray, 2010); Chile adopted a national voucher plan in 1980 (McEwan and Carnoy, 2000); the
+Education Reform Act of 1988 altered school funding and structure throughout the UK (West
+and Pennell, 1997), to cite just a few examples.
+     Federal legislation has increasingly defined policies for US schools for decades,
+beginning with Ronald Reagan’s Educational Reform, later codified by the “G.I. Bill for
+Children” (Cookson, 1994; Maddaus, 1990; Scott, 2005). The No Child Left Behind Act of
+2001 (NCLB, 2003) allows choice of alternative schools when neighborhood schools do not
+meet defined performance metrics (McDonald, 2010). By 2007, 15% of US school children
+attended public schools of choice and nearly every state had some form of school choice
+option.(2)
+(1) The UN adopted Universal Declaration of Human Rights for example (Article 26, paragraph 3,
+1948).
+(2) Obtained from http://nces.ed.gov/programs/digest/d09/tables/dt09_039.asp
+
+1858                                                                  Y Yang, S Abbott, M Schlossberg
+     Generally, school choice programs include three types of choices: alternative public
+schools such as charter (3) and/or magnet (4) schools, neighborhood schools outside one’s
+neighborhood (intradistrict), or public schools outside the school district (interdistrict). Some
+students attend private schools that are publicly funded, or for which some financial support
+exists such as vouchers or tax credits. (McEwan and Carnoy, 2000; Scott, 2005; Teelken,
+1999; Tice et al, 2006; Young and Clinchy, 1992).
+     Debate over school choice policy implementation has evolved around several themes,
+ranging from its effectiveness in reducing segregation (Allen, 2007, Frankenberg et al, 2010;
+Garcia, 2008; Renzulli and Evans, 2005), encouraging ‘market mechanisms’ and educational
+innovation (Ledwith, 2010; Miller-Kahn and Smith, 2001; Teelken, 1999), and improving
+student performance (McEwan and Carnoy, 2000). Equitable access, however, has emerged
+as an unintended policy consequence. Critics see school choice as favoring those with time,
+money, and information resources, and as widening the divide between privileged and
+disadvantaged families (Burgess and Briggs, 2010). School transportation, in particular, can
+be a barrier to school choice among low-income families (Teske et al, 2009).
+     Related to equity concerns, and extending to environmental and health issues, are effects
+of school choice on transportation. Such effects are evidenced where school choice exists
+without school bussing, making parents who exercise choice responsible for their children’s
+transportation. Increased travel distance can make walking or biking to school impractical.
+School choice, with its possible influences on redefining the social functions of school and
+the meaning of school travel, encourages the use of personal automobiles for school trips.
+This transportation theme has received inadequate attention and is understudied both in the
+school choice debate and in the school travel literature.
+3 Research on active school commuting—a brief summary
+3.1 Environmental-level and individual-level determinants
+Studies of factors potentially affecting parents’ use of ASC have informed the development
+of strategies to increase rates of ASC. Environmental-level and individual-level determinants
+have been identified, and can be summarized as related to built environment conditions
+(eg, distance to school, walkability, and land-use mix), social context (eg, safety, sense of
+community, and socioeconomic status), parental/family characteristics (eg, car ownership,
+family income, and employment status), and children’s characteristics (eg, gender and age).
+An extensive literature review of active school travel can be found in Sirard and Slater (2008),
+McMillan (2005), and Wilson et al (2010).
+      Sirard and Slater (2008) noted that prominent psychological constructs such as attitudes,
+expectancies, beliefs, and social norms have been insufficiently explored in school travel
+research. Few studies have addressed the important role played by parents’ preferences and
+attitudes in predicting their decision to allow children to walk or bike to school. These studies
+show that parents’ environmental attitudes (Black et al, 2001), their beliefs regarding health
+and environmental benefits associated with ASC (Yang and Markowitz, forthcoming), and
+the perceived value of their children’s socialization with others (McMillan, 2007) increase
+parents’ incentives to use active school travel. Rodriguez and Vogt (2009) explored children’s
+attitudes, measured as semantic differential scales (ie, fun/boring, safe/not safe), in their
+decision to walk or bike to school.
+(3) Charter schools are a form of alternative public school. They are publicly funded but are organized
+to achieve a unique set of accountabilities and are thus exempt from some of the statutes that apply to
+other schools.
+(4) Magnet schools, which began in the late 1960s in the US as counter to segregation, have continued
+as alternative public schools offering a technical or specialized curriculum.
+
+School choice policy on ASC                                                                 1859
+3.2 School-level characteristics affecting school travel
+Recent studies have also examined school-level characteristics, such as school age, size, and
+location. Most school-level conditions are considered to impact on school travel via their
+connection with environmental characteristics. Thus when environmental characteristics
+such as home–school distance or walkability are taken into consideration, the direct impacts
+of school-level characteristics do not appear discernible. For example, Ewing et al (2004)
+suggest no direct effects of school size on ASC after school environmental characteristics
+have been controlled for.
+    School policies, such as start/end time, parking, school choice, and policies against/
+encouraging walking/biking, also affect school travel. Some impacts are obvious—policies
+that prohibit or discourage children from walking or biking to school lead fewer children
+to do so. The National Center for Safe Routes to School (no date) has launched an effort to
+identify and overcome those ‘barrier’ policies. School choice policy effects are most likely
+explained through many aforementioned environmental conditions or characteristics.
+    We are aware of only one research project in the US that has studied the impacts of
+school choice on school travel. Using data collected from schools in St Paul and Roseville,
+MN, multiple publications based on this research project suggest that school choice increased
+travel distance and reduced ASC by encouraging bus or auto transport (Wilson et al, 2008);
+transportation costs were significantly higher and rates of active school travel lower when
+the school choice scenario was modeled versus a scenario in which all students attended their
+neighborhood school (Marshall et al, 2010); and school choice could significantly reduce the
+impact that Safe Routes to School programs might otherwise have on increasing levels of
+active school travel (Marshall et al, 2010).
+    Findings from the Minnesota study, however, suggest that school choice may affect travel-
+mode choice independent of school travel distance. Regression models indicate that, after
+controlling for variables such as school-trip distance, car ownership, and other environmental
+conditions, discouraging impacts on children walking or biking to school are still discernible
+(Wilson et al, 2010). The authors stopped short of providing an explanation. School choice
+policy may possibly be associated with other factors relevant to active school travel. Our
+goal is to fill the research gap by examining the role of school choice in parents’ school travel
+decision-making process.
+4 Studying the effects of school choice policy on ASC
+4.1 A conceptual framework
+We start by developing a conceptual framework that comprehensively outlines possible
+pathways from school choice to school travel behavior. We build our framework on the
+basis of the Ecological and Cognitive Active Commuting Framework (ECAC) developed by
+Sirard and Slater (2008). According to the ECAC model, policies operate at the first level;
+their impacts on the frequency of ASC are mitigated via their influences both on physical
+conditions and on social contexts encompassing school and residential environments
+(neighborhood level), which then influence parental perceptions and school travel decision-
+making processes (parent/family level). Family sociodemographic characteristics, such
+as income and education level, not only can affect the use of ASC directly but also may
+moderate relationships between school policies and physical and social environmental
+characteristics.
+    We summarize the effects of school choice policy on school travel behavior via two
+paths—first, the policy affects school travel via its connection with such environmental
+factors as home–school distance, social qualities (eg, safety and sense of community), and
+neighborhood walkability; second, school choice could affect parents’ school travel decision-
+making process, and may even influence parents’ internal desire to use active school travel
+
+1860                                                               Y Yang, S Abbott, M Schlossberg
+such as their attitudes or preferences. The first pathway appears intuitive, and has been the
+only pathway considered in the current research. The second pathway is subtle, and has not
+been elaborated and empirically examined.
+     We hypothesize that school choice could affect the more subtle, psychological factors
+(such as preferences, attitudes, and intentions) in parents’ decision-making dynamics. School
+choice was “designed to put parents in the role of educational consumers, shopping for
+the best ‘product’ from among a variety of public schooling options” (Dodenhoff, 2007).
+It may encourage parents to treat school as a place for education consumption and school
+travel as a means only to reach the educational goal. This potentially reduces the perceived
+local interaction, health, and environmental values associated with school travel. Findings
+from several empirical studies suggest that parents’ perceived value of school travel as a
+mechanism for local social interactions and getting to know their neighborhoods motivates
+them to allow their children to walk or bike to school (eg, McMillan, 2007; Yang and
+Markowitz, forthcoming). We thus contend that school choice may reduce parents’ desire to
+use ASC. Some researchers call for a ‘community school’ that focuses on local service as a
+strategy for increasing active school travel (McDonald, 2010).
+4.2 Research questions
+In the following section, we present a case study to improve our understanding of how school
+choice affects ASC—especially to detect psychologically related effects. We use the case
+study to answer the following questions:
+(1) To what degree does school choice contribute to an increase in school travel distance?
+(2) How is school choice policy associated with parents’ consideration of ASC upon their
+housing location choice and attitude toward ASC?
+(3) How are the effects of school choice policy on ASC indirectly caused by the environmental
+(external) and attitudinal (internal) factors?
+5 Research design
+5.1 A case-study approach
+Given the complexity of the issue in question and the fact that our conceptual framework
+attempts to integrate multiple evidence sources in its conceptualization of school choice
+policy effects on ASC, we adopt a case-study approach, making our research illustrative and
+exploratory. While single case studies may present problems of generalizability, they do offer
+several advantages over research design involving multiple research sites. These advantages
+include easy access to research subjects, use of multiple data sources, and opportunities to
+develop a good understanding of the context (Campbell, 2003).
+     We used the 4J School District, a mid-sized district in Eugene, OR, as our study area.
+We limited our study population to those families living in the city of Eugene, focusing on
+parents of young children attending elementary schools.(5) This decision was based on our
+belief that the process of moving ‘for schools’ is likely to start when a family chooses an
+elementary school and that environmental conditions impose greater impacts on children’s
+ability to use ASC at younger ages. These conditions together provide an opportunity to
+investigate the effects of school choice policy on ASC through its impact on school travel
+distance and parents’ attitude.
+(5) Elementary school (also known as primary school) in the US generally refers to kindergarten (a year
+of schooling that precedes compulsory grades) through grades 5 (roughly ages 5 to 10 years).
+
+School choice policy on ASC                                                                           1861
+Table 1. Elementary school types in city of Eugene, OR.
+Type of school         Number of           Attendance        Attendance method School transportation
+                       schools (2007–      boundary
+                       08 enrollment)
+Neighborhood           18                  yes               assigned based on     available for students
+school by              (3526)                                residence             living 1 mile and
+residence                                                                          beyond from school
+Choice school
+    Neighborhood       18                  outside one’s     school-districtwide   no school bus
+    school by          (840)               neighborhod       lottery process,      provided (exceptions
+    choice                                                   limited by space      can be made)
+                                                             availability
+    Alternative        8                   no                school-districtwide   no school bus
+    school             (1231)                                lottery process,      provided (exceptions
+                                                             limited by space      can be made)
+                                                             availability
+      There are twenty-six public elementary schools in the District; eighteen neighborhood
+schools with assignment/attendance boundaries, and eight alternative (magnets, language
+immersion, charter)(6) schools without defined attendance boundaries. A lottery-based school
+choice program began in the early 1970s (Lawson, 1985).(7) Students may attend any of
+the eight alternative schools, or any neighborhood school not associated with the student’s
+neighborhood, by choice, if space is available.
+      Approximately 6000 students enrolled in the twenty-six elementary schools for the 2007–
+08 school year. Of our study population, 2071 students (37%) exercised school choice. The
+majority (22%) attended alternative schools. The rest (15%) attended neighborhood schools
+not connected to their geographic residence. Only students who attend their neighborhood
+school, and live more than 1.6 km from school, are eligible for the bus service.(8) Students
+attending schools through the choice program must provide their own transportation. Table 1
+describes the school types available in the study area, and figure 1 displays the geographic
+distribution of all twenty-six schools in our study.
+(6) Language immersion school refers to schools where students learn a second language in an ‘immersion’
+environment, namely the target language is used as a teaching tool, surrounding or ‘immersing’ students
+in their learning experience.
+(7) Should transfer requests exceed openings at a school then student transfer requests are pooled for a
+‘lottery drawing’. Students that live in a school’s zoned attendance area have a higher priority to attend
+a school than those living outside the area. Other factors are considered as well for establishing priority.
+These may include the fact that a student’s sibling(s) already attend the school of choice, the proximity
+of parents’ workplace, childcare arrangements, or special or bilingual educational needs of the student.
+(8) The School district transportation policy has some nuance. In general, elementary students are
+eligible to use the school bus only if they live within the neighborhood boundary of the school they
+attend, and live more than 1.6 km from the school. The actual written policy reads that “parents will be
+responsible for transportation to and from school unless space is available on a district bus traveling
+to that school", so it seems that there is flexibility. Exceptions can also be made to the 1.6 km rule if
+it is deemed unsafe to walk, or if the child has special needs. The special needs exception also applies
+to special needs students who attend schools outside of their neighborhood boundary. These students
+may ride the bus to their school of choice, and a sibling of an IEP (Individualized Education Program)
+student who rides the bus to a school of choice is also eligible to ride the bus to the same school,
+subject to space availability.
+
+1862                                                              Y Yang, S Abbott, M Schlossberg
+            Elementary school catchment area
+            Eugene boundary
+            4J Neighborhood of elementary schools
+            4J Alternative elementary schools
+Figure 1. Location of elementary schools in 4J District, Eugene, OR.
+5.2 Data sources
+We utilize two data sources in our quantitative analysis. One is a GIS database that maps the
+location of each of 5597 students in city of Eugene, the student’s school of actual attendance,
+and the student’s residence-based neighborhood school. The other data were collected from
+a survey sample of 1123 families of elementary school students, sent to all 5597 families
+in 2008. The eight-page survey includes questions about school travel/commuting patterns,
+about location choice in the context of school choice program availability, important factors
+that parents consider in their location choice, and a series of questions aimed at assessing
+parents’ attitude toward ASC. Parents returned 1197 surveys. Discounting 126 nondeliverable
+surveys, the response rate was 21%. While not high, this return rate is comparable with other
+school travel studies (eg, Wilson et al, 2010). Of the returned surveys, 1123 cases have valid
+information for most variables or measures for this study.
+    Additionally, before and after conducting our survey, we carried out formal and informal
+interviews with parents, school officials, and local real estate agents that helped us design and
+interpret our survey. We collected rich qualitative information from three focus groups with
+parents regarding school travel habits, parents’ reasoning behind such habits, and residential
+location decisions. We also conducted separate interviews with thirteen key informants
+knowledgeable about schools, residential location decisions, and transportation, including
+real estate professionals, planners, school administrators, and community members. Text,
+comprising 20 000 words transcribed from comments to an open-ended survey question,
+afforded us content analysis. This information enriched our interpretation of analysis findings
+and enlightened our policy-related discussion.
+5.3 Analysis plan
+As described earlier, this research explores the mechanism by which school choice may
+influence parents’ decisions to use ASC. We analyzed the two datasets in three steps to answer
+our research questions.
+    First, for the entire school district, and using the GIS dataset, we investigated the degree
+to which an increase in commute distance is attributable to school choice. We compared two
+
+School choice policy on ASC                                                                        1863
+types of distances computed for each of the students in the study population. One distance
+is between a student’s home and attended school. The other is between a student’s home and
+‘neighborhood’ school. Both distances were computed, using GIS, along the street network.
+In the absence of a school choice option these two distances should be the same. We expect to
+see that school choice has, for some students, resulted in lengthened home–school distance.
+     Second, using the survey data, we conducted analyses examining parents’ consideration
+of school location and school travel in relation to their knowledge and use of a school
+choice option. We examined correlations between school choice and parents’ school travel
+considerations and attitudes. The construction of attitudinal measures is described below,
+with the analysis results.
+     Finally, we ran a series of logistic regression models to assess the direct effects of school
+choice policy on ASC after controlling for important environmental and attitudinal factors.
+6 Findings
+To gauge the representativeness of our survey sample, we compare the sample with our study
+population along several dimensions (see table 2). This comparison suggests that our sample
+was reasonably representative of our study population. However, students from the alternative
+schools were overrepresented. Alternative school students are 30% of the sample, compared
+with 23% in the population.(9) Families with children attending choice schools have higher
+family income and higher educational attainment levels. Median family income for the
+three school types is US $60 000 for neighborhood school, US $69 065 for neighborhood
+choice schools, and US $78 399 for alternative schools. The percentage of families with
+postgraduate education is 32% for neighborhood school, 48% for neighborhood choice
+school, and 46.8% for alternative school.
+Table 2. Demographic comparison between population and sample.
+Demographic                        GIS data      Survey sample
+                                   (N = 5597)    (N = 1123)
+Type of school (%)
+    Neighborhood                        63            55
+    Neighborhood by choice              15            15
+    Alternative                         23            30
+Family income: median (US $)    $$  60 157       62 500
+Race/ethnicity: white (%)               71            78
+Housing type: own (%)                   74            75
+6.1 Active school commuting by school types
+Sample rates of walking or biking to school are as follows (see table 3): about 33% of students
+(32.9%) walked or biked to school at least one day a week, and nearly 14% (13.5%) did so
+at least three days a week. Children walked or biked when leaving school, at least one day
+a week, more frequently than for trips to school, consistent with other studies (Wilson et al,
+2007). ASC use as the primary travel means (ie, walking or biking to school more than three
+days a week) showed similar frequency for trips arriving and leaving schools.
+     A closer look at ASC rates by school type reveals interschool discrepancies in travel
+modes. ASC use as the primary mode is 17.3% for neighborhood residence schools, compared
+with 6.4% for neighborhood choice schools, and 8.0% for alternative schools. The dominance
+(9) To correct the oversampling of the alternative school families, we constructed a weight variable and
+applied it to analysis with the sample data. The analysis findings reported in the subsequent tables,
+unless otherwise noted, are computed based on weighted values.
+
+1864                                                                   Y Yang, S Abbott, M Schlossberg
+Table 3. School travel mode and frequency by school type.
+School travel model and frequency, %        Overall       School type
+                                                          neighborhood neighborhood by alternative
+                                                                          choice
+Arriving school
+Walk/bike at least 1 day a week             32.9          39.2            21.4                 23.9
+Walk/bike > 3 days a week                   13.5          17.3             6.4                  8.0
+Ride bus > 3 days a week                    25.6          37.7            12.1                  2.3
+Ride car > 3 days a week                    57.2          42.5            77.5                 83.3
+Leaving school
+Walk/bike at least 1 day a week             43.9          49.4            35.8                 34.8
+Walk/bike > 3 days a week                   13.0          16.5             5.8                  8.3
+Ride bus > 3 days a week                    28.2          40.3            18.5                  2.6
+Ride car > 3 days a week                    49.2          36.9            60.1                 74.4
+of driving as the primary travel mode to and leaving school is apparent for the two types of
+choice schools. More than 80% of alternative school students and more than 77% of children
+attending neighborhood school by choice were driven to school more than three days a week.
+This number was only 42% for neighborhood school students.
+6.2 Effects of school choice on school travel distance
+The average home–school distance for the 5597 elementary students in our study population
+is about 2.8 km. Slightly more than 60% of students live beyond 1.6 km from school. But
+home–school distance varies greatly by school types. The average home-school distance
+for students attending their own neighborhood schools is 1.9 km. The numbers for choice
+schools are much higher—4.15 km for alternative school students and 4.49 km for students
+attending other neighborhood schools of choice.(10)
+      Figure 2 shows that, while the proportions of students living very close to their schools (eg,
+< 0.40 km) did not vary dramatically among the three school types, substantial interschool-
+type disparities exist in the proportions of students living far from schools (eg, > 1.6 km).
+Nine out of ten students who opted to attend neighborhood schools other than their own lived
+beyond 1.6 km from their schools. Alternative school students fared slightly better, with eight
+of ten students living beyond 1.6 km from their schools. The majority (52.9%) of students
+attending their own neighborhood school lived within 1.6 km.
+      These distance estimates suggest that parents who used the school choice option for their
+children traveled substantially farther than those who sent their children to neighborhood
+schools. If every family drove to school, the choice-school families would drive 25% more
+in total distance than all those neighborhood-school families, even though the choice-school
+families only account for a third of the population. We calculated school travel distance for
+a scenario in which all students attended neighborhood schools associated with their current
+(10) It should be noted that school choice policy potentially enables school trips of shorter distances as
+well. This is because school boundary delineation sometimes assigns students to schools that are not
+the one closest to their home. In delineating school service zones, school districts often face the need
+to balance facility capacity, student body diversity, feeder pattern, school bus route effectiveness, and
+proximity. It should be noted that not every student who exercised school choice went to a school that
+was farther from his or her residence than his or her assigned neighborhood school. Slightly less than
+13% (12.8%) of alternative students and about 20% (20.7%) of students would have traveled a longer
+distance if they had to attend their assigned neighborhood schools. In fact, in some places, attending a
+closer school is a driving force for some parents’ use of the school choice option, and ‘shorter distance’
+is one of criteria determining school choice admissions (eg, some school districts in State of Montana).
+
+School choice policy on ASC                                                                         1865
+                 100   Neighborhood   Neighborhood                  Alternative
+                       schools        schools by choice             schools
+                 80
+Percentage (%)
+                 60
+                 40
+                 20
+                  0
+                           G 0.4              0.4–0.8                     0.8–1.6      >1.6
+                                                          Distance (km)
+ Figure 2. School travel distance by school types.
+ residence. Our analysis shows that, for the whole district, average school travel distance
+ would be 1.9 km under this scenario. In other words, without the school choice option total
+ school travel distance would be reduced by nearly 32%.(11)
+ 6.3 Effects of school choice on travel mode consideration and parent attitudes
+ Parents’ initial consideration of active school travel and their attitude toward this travel means
+ both have important influence on their choice of ASC (Yang et al, 2011, Yang and Markowitz,
+ forthcoming). These are subtle psychological effects that are difficult to detect and verify.
+ We explored these effects through a series of analyses. First, we examined how parents
+ considered different school travel means upon their residence choice in relation to school
+ types. Second, we investigated whether parents using different schools assigned differing
+ weights to aspects concerning ASC in their housing location choice. Third, we compared
+ parents’ attitude toward ASC vis-à-vis school types directly. Since information used in the
+ first and second analyses mainly came from retrospective answers, we included in these
+ analyses only those families who had moved to their current residence in the past two years
+ (ie, recent movers).
+      Of 346 recent mover families, 75% indicated that they were aware of the school choice
+ option when making their location decision, 40% indicated that school choice had influenced
+ their decision-making process, and 27% answered that they would not have chosen their
+ current residence had the choice policy not been in effect.
+      Our survey asked parents to report any school travel means they had considered when
+ choosing their current residence, regardless of what travel mode they later adopted. Compared
+ among the three types of schools, the difference in percentages of parents who considered
+ ASC is not distinctive—35.1% for neighborhood schools, 33.3% for neighborhood schools
+ by choice, and 33.3% for alternative schools. Parents of alternative school students were far
+ more likely to consider using car travel alone for school trips (40.0%), compared with parents
+ of own-neighborhood school students (15.2%).
+      Recognizing that consideration of travel means may be made after a housing location
+ decision, and may be affected strongly by parents’ perceived school travel distance and also
+ various kinds of resources available to them (eg, number of cars owned), we computed partial
+ correlations between school travel means considered and different school types, controlling
+ for school travel distance and number of cars owned. Table 4 reports the partial correlation
+ coefficients. There is no statistically significant correlation between the consideration of ASC
+ and school type. Parents using alternative schools were clearly more likely to consider car
+ (11) Ofcourse, this estimation does not consider the possibility of residential relocation as a result of
+ policy change. Our survey indicated that a sizeable portion of parents would not have chosen their
+ current location had the school choice option not been available. More research in this area is needed.
+
+1866                                                                          Y Yang, S Abbott, M Schlossberg
+travel (r = 0.203, p < 0.001), compared with those opting for their own neighborhood schools
+(r = <U+2012>0.234, p < 0.001) in the context of comparable travel distance and number of cars
+owned by a family.
+     Our survey asked parents to assess the importance level of twenty-one factors related to
+housing, neighborhood, and accessibility to various services that they were likely to consider
+in their housing choice. Four of these factors are environment/neighborhood elements closely
+related to ASC—proximity to school, walkability of the neighborhood, pedestrian and biking
+safety of the environment, and suitability for a child to walk or bike to school. We compared
+parents’ answers and the ranking of these elements among all factors by school type. Figure 3
+shows the mean importance scores for the four elements by school type. And again, the
+analysis focuses on recently moved families (ie, moved within the past two years).
+     No statistically significant difference exists among the mean importance scores for
+two elements—neighborhood walkability and safety for walking and biking. For all three
+school types, the mean importance scores are close to or above 3, meaning parents on
+average considered these environmental conditions as being important when choosing their
+residence. What distinguishes these three types of schools was parents’ assessment of the
+importance of the element “proximity to school”. Parents of neighborhood-residence school
+students assigned much higher importance level to this element (mean = 3.24) than parents
+of neighborhood-choice school students (mean = 2.70) and of alternative school students
+(mean = 2.61). Similarly, the neighborhood quality captured in “ability for my child to walk/
+Table 4. Partial correlation (controlling for school travel distance and number of cars owned by house-
+hold) between school type and school travel means considered (N = 338).
+School type                                    School travel means considered when choosing current
+                                               residence
+                                               walk/bike        bus             car               did not think
+Neighborhood schools                           -0.023            0.351***        -0.234***        -0.092**
+Choice school
+   Neighborhood schools by choice              -0.053           -0.077            0.060             0.011
+   Alternative schools                           0.069          -0.316***         0.203***          0.091*
+*p <0.1; **p <0.05; ***p < 0.01.
+                                      Alternative      Neighborhood school         Neighborhood
+                                      school           by choice                   school
+                                                                  2.27
+Ability for my child to walk/bike                                  2.29
+                        to school                                          2.58
+                                                                           2.61
+             Proximity to school                                              2.70
+                                                                                             3.24
+                                                                                                    3.47
+     Pedestrian and biking safety                                                                     3.51
+                                                                                                       3.57
+                                                                                        3.05
+          Ease of walking/biking                                                2.81
+                                                                                        3.05
+                                  1.0      1.5          2.0           2.5           3.0           3.5         4.0
+                                                               Importance score
+Figure 3. Average importance scores for factors related to active school commuting in residential
+location choice.
+
+School choice policy on ASC                                                                  1867
+Table 5. Mean comparison of attitudinal factor across school types.
+                                                School type
+                                                neighborhood school   neighborhood    alternative
+                                                (reference)           choice school
+Mean answers to questions assessing attitude
+toward active school commuting
+N                                               618                   168             337
+Walk/bike demonstrates commitment to               3.99                  4.25*           4.16*
+   protect environment
+Kids walking or biking is good way to              4.35                  4.58*           4.43*
+   increase physical activity
+Children may develop autodependent habit           3.58                  3.69            3.70
+Children walk/bike good way to know                3.83                  3.91            3.77
+   neighborhood
+Driving to school contributes to environmental     3.94                  4.25            4.04
+   pollution
+Mean factor score                                -0.08                   0.17*           0.05
+Mean answers to questions assessing attitude
+car use
+N                                               618                   168             337
+Driving is more comfortable than walk/bike         3.84                  3.53*           3.58*
+Prefer driving whenever I need to go places in     3.65                  3.49            3.39*
+   this area
+Owning a car contributes to a comfortable          4.01                  4.02            4.01
+   lifestyle
+I drive my car as much as others                   3.11                  3.21            3.12
+Traffic congestion does not bother me              2.84                  2.91            2.92
+Mean factor score                                  0.07                -0.06           -0.09*
+*p < 0.1; **p <0.05; ***p <0.01.
+bike to school” was on average considered to be of higher importance level by neighborhood
+residence school parents. But the mean score for this element was below 3 for all three school
+types.
+     We examined whether parents’ attitudes toward travel modes were associated with school
+types. Informed by previous studies investigating attitudinal factor in travel behavior (Black
+et al, 2001), we developed five questions to assess ASC attitudes and five questions to assess
+car-use attitudes. We asked respondents their level of agreement with a series of Likert-
+scale questions, whose answers ranged from 1 (strongly disagree) to 5 (strongly agree).
+We derived from these answers a factor scale to measure ASC attitude and car-use attitude,
+respectively. 5 reports the mean comparison among three types of schools for the attitude
+component questions and the factors.
+     Our analysis shows a lack of statistically significant differences in the answers to attitude
+questions across the three school types. There are only four component questions for which
+statistically significant mean differences were observed. The mean differences appear to
+suggest that parents of choice school students had a more positive attitude toward ASC and
+a weaker car-use attitude than those of neighborhood schools. This apparently contradicts
+our expectation. We think this is probably related to the fact that parents who decided to
+use school choice in our sample also tended to have higher education levels, and that these
+family characteristics were positively correlated with greater awareness of the health and
+
+1868                                                               Y Yang, S Abbott, M Schlossberg
+environmental benefits associated with ASC [correlation coefficients not reported here, but
+see Yang and Markowitz (forthcoming)].
+6.4 Effects of school choice on ASC behavior
+To examine the direct effects of school choice on ASC, we ran three logistic regression models.
+First, we examined how school type indicators would directly predict ASC as the primary
+school travel means while controlling for household background characteristics. Second, we
+examined how environmental characteristics, particularly the home–school distance, would
+help explain the effects of school choice policy. Finally, we looked for any still independent
+effects of school type on ASC after controlling for the effects from attitudinal factors.
+     The first model contains only school type indicators and household background
+variables; the second model includes environmental variables; and the third model
+attitudinal variables. In all models, the dependent variable was a dummy variable indicating
+whether a child walked or biked to school at least three days a week. We focused on whether a
+family’s primary school travel mode is ASC in our regression analyses as we believe this was
+a better indicator of a family’s school travel pattern and likely to have a more distinguishable
+relationship with the policy, and with environmental and attitudinal factors we wanted
+to examine. We had 986 valid cases after excluding missing-value cases for any of the
+variables included in the model.
+     Results from the three logistic regression models are reported in table 6. Output from the
+first model shows that, after controlling for household background characteristics, school
+type indicators still registered statistically significant impacts on the likelihood of using ASC.
+Compared with students attending their own neighborhood schools, those who attended the
+neighborhood choice school were less likely to use ASC as a primary travel means by a factor
+of 0.33 [B = <U+2012>1.1, p < 0.01, exp(B) = 0.33]. Attending an alternative school had a similar
+effect of reducing the odds of using ASC.
+     Some family characteristics register as statistically significant predictors in the model. A
+child being of older age and parents with postgraduate education level increase the odds of
+using ASC, while a household having more cars was associated with lowered odds of using
+ASC. These findings are consistent with previous studies (eg, Ewing et al, 2004; McMillan,
+2007). Compared with other income groups, the $60 000–$99 999 income group stood out
+as the most likely to use ASC as a primary means, suggesting a lack of a simple relationship
+between income and ASC.
+     Results from the second model suggest that adding the environmental variable improves
+model fit significantly as indicated by the increase in the Nagelkerke R2. While school type
+variable effects remain statistically significant (p < 0.05), their magnitude becomes weaker in
+the second model, which contains several environmental measures including a travel distance
+variable. These findings support the hypothesis that the effect of school choice on ASC is
+explained partially by environmental conditions (especially longer home–school distance).
+That school type variables remain a statistically significant predictor of the use of ASC,
+suggests that other factors could help explain the effects of school choice policy on ASC.
+     Results from the third model indicate an even better model fit after including attitudinal
+variables in the model. The Nagelkerke R2 increased from 0.313 in model 2 to 0.498 in
+model 3. Both the attitudinal variables and the variables indicating school travel means
+intention were statistically significant predictors of ASC. The school type variables became
+either statistically insignificant (neighborhood choice school) or marginally significant
+(alternative school). The size of school type variable impacts (ie, the alternative school) also
+became smaller in the full model, compared with the second model. This suggests that effects
+of school choice on ASC are further explained by the attitudinal variables.
+
+School choice policy on ASC                                                                    1869
+Table 6. Predicting children walking or biking to school at least three days a week.
+Variable                          Model 1                Model 2                  Model 3
+                                  B           exp(B)     B              exp(B)    B          exp(B)
+Constant                          -1.982***     0.138    -3.974***        0.017   -3.974***   0.019
+School type
+Neighborhood school by choice     -1.115***     0.328    -0.836*          0.434   -0.765      0.47
+Alternative school (reference:    -1.111***     0.329    -0.587**         0.556   -0.725*     0.48
+   own neighborhood school)
+Family characteristics
+Child’s age                         0.199***    1.221      0.238***       1.268     0.197*    1.22
+Household income less than        -0.672**      0.511    -0.640*          0.527   -0.796*     0.45
+   $30 000
+Household income $30 000 to       -0.529*       0.589    -0.517*          0.596   -0.579*     0.56
+   $59 999
+Household income above            -0.690**      0.501    -0.626**         0.535   -0.933***   0.39
+   $100 000
+(reference: income above
+   $60 000–$99 999
+Number of cars owned              -0.612***     0.542    -0.494***        0.610   -0.381**    0.68
+Race/ethnicity (1 = white)        -0.37         0.964    -0.073           0.930     0.153     1.16
+Highest education is                0.803***    2.233      0.655***       1.925     0.655***  1.92
+   postgraduate
+Environmental conditions
+Travel distance                                          -0.988***        0.372   -0.988***   0.37
+Perceived neighborhood                                     0.323***       1.381     0.172     1.19
+   walkability (1~5)
+Total street length within 0.4 km                          2.426***      11.314     1.706**   5.51
+   of school
+Percentage of residential land                             0.340          1.404     0.433     1.54
+   within 0.4 km of school
+Average lot size within 0.4 km                             2.181          8.856     1.929     6.88
+   of school
+Attitudinal factor
+Car attitude factor                                                               -0.326**    0.72
+ASC attitude factor                                                                 0.391***  1.48
+Car travel in mind                                                                -1.874***   0.15
+ASC in mind                                                                         1.929***  6.88
+N                                 986                    986                      986
+-2 log likelihood (constant-only  760.33
+   mode)
+-2 log likelihood                 682.68                 573.068                  448.51
+Model improvement test ( \2 )                 (model     109.609        (model    124.56
+                                              A, B)                     B, C)
+Nagelkerke R2                     0.130                  0.313                    0.498
+Note: ASC=active school commuting.
+*p < 0.1; **p <0.05; ***p <0.01.
+
+1870                                                                    Y Yang, S Abbott, M Schlossberg
+6.5 Summary of findings
+Our study findings are summarized into three main points. First, we identified substantial
+increase in home–school distance for our study case as a result of the school choice option.
+This increase can be attributed to school transfers allowed by school choice options, and is
+also helped by the fact that school choice affects where parents choose to live in relation to
+the school they choose for their children.
+     Second, in addition to distance increase, school choice also appears to affect parents’
+consideration of school travel mode. We found that, compared with parents who send their
+children to neighborhood schools, parents of choice school students tended to give less
+consideration to travel mode in their housing choice; they also were more likely to consider
+using car travel for school commuting despite having more positive attitudes toward ASC.
+This suggests that, in the context of school choice without provision of school bussing, the
+positive ASC attitude had a weaker impact on parents’ intention to pursue ASC behavior.
+     Finally, effects of school choice policy on ASC behavior appear to be mostly explained
+by its connection with travel distance and by parents’ consideration of (or attitude toward)
+ASC. The regression models provide support for the two pathways of influences that school
+choice can impose on the use of ASC presented in our conceptual framework.
+7 Discussion
+While fully embracing important social and educational goals of school choice policies,
+our study illustrates that those goals may involve other unforeseen costs, including the cost
+associated with school transportation. Our Oregon case may not fully represent other contexts
+and the generalization of our research findings may be limited. The connection between
+school choice and school travel merits future research and further case studies to provide
+additional evidence.
+     Several main points can be summarized from these findings. First, while they confirm
+the perception that school choice is associated with increased travel demand, our study
+provides some behavioral explanation for such outcome by illuminating the weight of school
+transportation in parents’ decisions about their children’s school choice/selection and in their
+housing choice. The discouraging findings are that school transportation was not among
+the important factors, and school choice in fact aggravated that tendency. In the context of
+school choice, when choosing where to live, parents assigned diminishing importance to
+environmental qualities considered important for ASC and exhibited a greater willingness
+to consider car use for school travel.(12)
+     Indeed, what frequently surfaced in the interviews with parents and in the comments
+offered in survey returns is a theme indicative of choice-school parents’ belief that “getting
+the right school or education for my child” is worth driving for. In a way, school choice
+motivated by parents’ desire for better ‘educational quality’ appears to reinforce the notion
+that school travel is just a means to achieving an explicit goal of obtaining education. While
+parents are rightly entitled to this view, this reasoning could constrain the formation of a more
+complete view of school travel incorporating all environmental and health implications.
+     Second, we had suspected that school choice may affect parents’ attitude toward ASC.
+Our findings did not appear to suggest choice-school parents had lower or weaker attitudes.
+Instead, as the choice-school families had relatively higher education achievements, parents
+tended to be more aware of the environmental consequences of driving and likely possessed
+(12) Note that in the 4J district, entry to a choice school is determined mainly through a lottery process
+because of space limitation. A family is not guaranteed success for its school choice application. It is
+interesting to discover that, for parents whose children did attend choice schools through the lottery
+process, important aspects related to ASC (eg, proximity to school, school travel means) were given
+inadequate consideration in their housing decision.
+
+School choice policy on ASC                                                                  1871
+more positive attitudes toward ASC. Our findings point to an awkward choice some parents
+face in their school choice decision; that of choosing the right education for their children
+while performing behavior inconsistent with their environmental attitude. In focus groups,
+some parents expressed ‘feeling bad’ about driving to alternative schools and frustration that
+the school district does not provide transportation for students attending schools by choice.
+    These findings appear to support, albeit indirectly, the suggestion made by Wilson et al
+(2008), that school choice could hinder the effectiveness of Safe Routes to School Programs.
+Yang and Markowitz (forthcoming) suggests that parents who possess positive attitudes
+toward ASC are likely to respond to environmental interventions intended to change behavior.
+Yet, in the context of school choice, this very group of parents is given the opportunity to
+send their children to schools based on desirability unconstrained by proximity. The likely
+result is a school so distant from the residence that many environment-based interventions
+(eg, sidewalk and street crossing improvements) become ineffective for these parents.
+8 Policy implications
+This study broadens the debate about school choice policy by connecting unintended impacts
+on school travel with the intended educational benefits and addressing such connections from
+an equity perspective. We do not argue for limiting school choice for the sake of reducing
+travel demand. Rather, our hope is that an improved understanding of the connection between
+school choice and school transportation will guide policy debates.
+    Increasing ASC in the context of school choice requires more systematic and districtwide
+approaches to school improvement, as the emergence of school choice is rooted in the spatial
+inequality of schools, which is itself linked with many other issues such as inequality in
+resource distribution and the socioeconomic fabric embedding the schools. A helpful policy
+response would be a reduction in the quality gap between schools, reducing the incentive for
+parents to choose alternative schools over neighborhood schools.
+    While we acknowledge the societal benefits of school choice, it is important to evaluate
+these benefits in a full accounting of the societal costs incurred as a whole and through
+a fairness lens. Our research highlights added environmental costs associated with school
+choice, and also suggests a lack of accountability mechanism for sharing those costs in
+current school choice programs. Many well-to-do parents who use the school choice option
+and choose to drive their children to school over long distances and more frequently, have not
+been required to pay a fair price for the environmental impacts associated with this behavior.
+A policy response that assures people fairly pay for the environmental costs (eg, paying
+driving-distance-based fees for using school choice) appears socially just, and may reduce
+the demand for school choice that is to a certain degree inflated by the ‘free’ use.
+    It also should be noted that the relationship between school choice and transportation
+goes another way. For some parents, especially those of lower income, school transportation
+costs create an affordability barrier to school choice. For all families to have equal access to
+the benefits of school choice, public policy solutions may be needed to reduce that barrier
+by providing assistance to those families (eg, transportation vouchers). Other policies that
+encourage ride-sharing and use of public transportation will be beneficial to all families
+exercising school choice.
+    While the above policy discussion focuses on inducing changes in individual- or family-
+level decision-making processes, institutional-level policy solutions could significantly
+affect school travel outcomes by changing the context in which travel decisions are made.
+Our research shows that many families who would like to live close to a school, so that ASC
+can be an option, expressed frustration with the lack of housing opportunities close to the
+school of their desire. This confirms the notion that the spatial structure of schools in relation
+
+1872                                                                Y Yang, S Abbott, M Schlossberg
+to land uses has direct impacts on the demand for school travel. Yet in many US communities,
+including our study-area city, school planning and land-use planning remain disconnected.
+     Ultimately, promoting active school travel requires coordinating efforts among institutions
+in the context of competing social goals and a fragmented institutional landscape. In the
+city of Eugene, for example, while land-use planning has responded to the state’s call to
+reduce vehicle miles travelled and greenhouse gas emissions by promoting infill and compact
+and mixed-use urban development, schools have not been given any references in the city’s
+plan for such development. On the other hand, school board decisions on school siting and
+planning, often justified on fiscal concerns and economic reasons, give little consideration
+to transportation outcomes. Facing the common challenge of climate change, to which
+transportation-related greenhouse gas emission is a major contributor, coordinated decision
+making between school planning and city planning is necessary to achieve a spatial outcome
+that better balances various goals.
+Acknowledgements. The authors wish to thank Dr Ed Ferrari and the anonymous reviewers for their
+thoughtful and constructive comments. This paper is based on a research project funded by the Oregon
+Transportation Research and Education Consortium. The authors also wish to thank Bethany Steiner,
+Bob Parker, and the Community Planning Workshop at the Community Service Center, University of
+Oregon, for their help with carrying out the research project.
+References
+Allen R, 2007, “Allocating pupils to their nearest secondary school: the consequences for social and
+     ability stratification Urban Studies 44 751–770
+Black C, Collins A, Snell M, 2001, “Encouraging walking: the case of journey-to-school trips in
+     compact urban areas” Urban Studies 38 1121–1141
+Booth M L, Chey T, Wake M, Norton K, Hesketh K, Dollman J, Robertson I, 2003, “Change in the
+     prevalence of overweight and obesity among young Australians, 1969–1997” The American
+     Journal of Clinical Nutrition 77 29–36
+Burgess S, Briggs A, 2010, “School assignment, school choice and social mobility” Economics of
+     Education Review 29 639–649
+Cahill R, Gray J, 2010, “Funding and secondary school choice in Australia: a historical
+     consideration” Australian Journal of Teacher Education 35 121–138
+Campbell S, 2003, “Case studies in planning: comparative advantages and the problem of
+     generalization”, Taubman College of Architecture and Urban Planning, University of Michigan,
+     http://sitemaker.umich.edu/urrcworkingpapers
+Cookson P W, 1994. School Choice: The Struggle for the Soul of American Education (Yale
+     University Press, New Haven, CT)
+Dodenhoff D, 2007, “Fixing the Milwaukee public schools: the limits of parent-driven reform”,
+     Wisconsin Policy Research Institute, http://www.wpri.org/Reports/Volume%2020/Vol20no8/
+     Vol20no8p1.html
+Dubay A, 2003, “See Dick and Jane sit in traffic” The Press Democrat 7 September
+EPA, 2003, “Travel and environmental implications of school siting”, US Environmental Protection
+     Agency, Washington, DC
+Ewing R, Schroeer W, Greene W, 2004, “School location and student travel: analysis of factors
+     affecting mode choice” Transportation Research Record: Journal of the Transportation
+     Research Board number 1895, 55–63
+Forman J J, 2005, “The secret history of school choice: how progressives got there first” The
+     Georgetown Law Journal 93 1287–1319
+Frankenberg E, Siegel-Hawley G, Wang J, 2010 Choice without Equity: Charter School Segregation
+     and the Need for Civil Rights Standards (The Civil Rights Project/Proyecto Derechos Civiles at
+     UCLA, Los Angeles, CA)
+Garcia D R, 2008, “The impact of school choice on racial segregation in charter schools” Educational
+     Policy 22 805–829
+
+School choice policy on ASC                                                                        1873
+Lawson H, 1985 A System of Uncommon Schools : The History of Eugene School District 4J,
+     1854–1985 School District 4J Lane County, Eugene Public Schools, Eugene, OR
+Ledwith V, 2010, “The influence of open enrollment on scholastic achievement among public school
+     students in Los Angeles” American Journal of Education 116 243–262
+McDonald N C, 2007, “Active transportation to school—trends among US schoolchildren, 1969–
+     2001” American Journal of Preventive Medicine 32 509–516
+McDonald N C, 2010, “School siting: contested visions of the community school” Journal of the
+     American Planning Association 76 184–198
+McDonald N C, Brown A L, Marchetti L M, Pedroso M S, 2011, “U.S. school travel, 2009: an
+     assessment of trends” American Journal of Preventive Medicine 41 146–151
+McEwan P J, Carnoy M, 2000, “The effectiveness and efficiency of private schools in Chile’s
+     voucher system” Educational Evaluation and Policy Analysis 22 213–239
+Mackett R L, Lucas L, Paskins J, Turbin J, 2005, “The therapeutic value of children’s everyday
+     travel” Transportation Research Part A: Policy and Practice 39 205–219
+McMillan T E, 2005, “Urban form and a child’s trip to school: the current literature and a
+     framework for future research” Journal of Planning Literature 19 440–456
+McMillan T E, 2007, “The relative influence of urban form on a child’s travel mode to school”
+     Transportation Research Part A: Policy and Practice 41 69–79
+Maddaus J, 1990, “Parental choice of school: what parents think and do” Review of Research in
+     Education 16 267–295
+Marshall J D, Wilson R D, Meyer K L, Rajangam S K, McDonald N C, Wilson E J, 2010, “Vehicle
+     emissions during children’s school commuting: impacts of education policy” Environmental
+     Science and Technology 44 1537–1543
+Miller-Kahn L S, Smith M, 2001, “School choice policies in the political spectacle” Education
+     Policy Analysis Archives volume 9
+National Center for Safe Routes to School, no date, “School bicycling and walking policies:
+     addressing policies that hinder and implementing policies that help”, http://can.org.nz/system/
+     <U+FB01>les/barrier_policy_tip_sheet.pdf
+NCLB, 2003, No Child Left Behind Act of 2001, 20 USCA §6301 et seq 2003
+O’Brien C, Gilbert R, 2003, “Kids on the move in Halton and Peel”, Centre for Sustainable
+     Transportation, Ontario Trillium Foundation, Ontario
+Renzulli L A, Evans L, 2005, “School choice, charter schools, and white flight” Social Problems 52
+     398–418
+Rodriguez A, Vogt C A, 2009, “Demographic, environmental, access, and attitude factors that
+     influence walking to school by elementary school-aged children” Journal of School Health 79
+     255–261
+Ryan J E, Heise M, 2002, “The political economy of school choice” Yale Law Journal 111 2043–2136
+Sallis J F, Owen N, 1999 Physical Activity & Behavioral Medicine (Sage, Thousand Oaks, CA)
+Scott J T, 2005 School Choice and Diversity: What the Evidence Says (Teachers College Press, New
+     York)
+Sirard J R, Slater M E, 2008, “Walking and bicycling to school: a review” American Journal of
+     Lifestyle Medicine 2 372–396
+Steiner R L, Crider L B, Betancourt M, Hall A, Perrotta T, 2006 Safe Ways to School—The Role in
+     Multimodal Planning Florida Department of Transportation Systems Planning Office, Florida
+Strauss R S, Pollack H A, 2001, “Epidemic increase in childhood overweight, 1986–1998” JAMA:
+     The Journal of the American Medical Association 286 2845–2848
+Teelken C, 1999, “Market mechanisms in education: school choice in The Netherlands, England and
+     Scotland in a comparative perspective” Comparative Education 35 283–302
+Teske P, Fitzpatrick J, O’Brien T, 2009 Drivers of Choice:Parents, Transportation, and School
+     Choice Center on Reinventing Public Education: School of Public Affairs, University of
+     Colorado Denver, Seattle, WA
+The Economist 2007, “Free to choose, and learn: new research shows that parental choice raises
+     standards—including for those who stay in public schools” 3rd May
+
+1874                                                                Y Yang, S Abbott, M Schlossberg
+Tice P, Princiotta D, Chapman C, Bielick S, 2006, “Trends in the use of school choice 1993 to 2003”,
+    Statistical Analysis Report, National Center for Education Statistics, Washington, DC
+West A, Pennell H, 1997, “Educational reform and school choice in England and Wales” Education
+    Economics 5 285–305
+Wilson E, Marshall J, Krizek K J, Wilson R, Polak E, 2008, “School choice and children’s school
+    commuting” Transportation Research Board Annual Meeting 2008 paper 08-2912
+Wilson E J, Marshall J, Wilson R, Krizek K J, 2010, “By foot, bus or car: children’s school travel
+    and school choice policy” Environment and Planning A 42 2168–2185
+Wilson E J, Wilson R, Krizek K J, 2007, “The implications of school choice on travel behavior and
+    environmental emissions” Transportation Research Part D: Transport and Environment 12
+    506–518
+Yang Y, Markowitz E, forthcoming, “Parent attitude as predictor and moderator in studying
+    children’s active school commuting: evidence from a community school travel survey”
+    Transportation and Research Record
+Yang Y J, Johnson B, Fukahori S, Parker B, Schlossberg M, 2011, “Where to live and how to get to
+    school: connecting residential location choice and school travel mode choice”, in School Siting
+    and Healthy Communities: Why Where We Invest in School Facilities Matters Eds E Miles,
+    M Gibson (Michigan State University Press, East Lansing, MI) pp 165–184
+Young T W, Clinchy E, 1992 Choice in Public Education (Teachers College Press, New York)
+                                                                        © 2012 Pion and its Licensors
+
