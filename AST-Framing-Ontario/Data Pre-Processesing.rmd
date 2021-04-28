@@ -10,9 +10,9 @@ output:
 
 # Introduction 
 
-This notebook provides a methodology for converting portable document formats (PDFs) into a text corpus that can be used in natural language processing (NPL) analysis. The text corpus is a collection of structured texts which enables anaylsis using packages such as `topicmodels`. This notebook serves as an introduction on how to convert files and conduct a surface level analysis. 
+This notebook provides a methodology for converting portable document formats (PDFs) into a text corpus that can be used in natural language processing (NPL) analysis. The text corpus is a collection of structured texts which enables analysis using packages such as `topicmodels`. This notebook serves as an introduction on how to convert files and conduct a surface level analysis. 
 
-Instructions are provided below for processing a single folder of PDF documents, as a walkthough of the processing techniques used. Another set of instructions is provided at the end of this notebook that allows for the processing multiple folders simultaneously. 
+Instructions are provided below for processing a single folder of PDF documents, as a step-by-step guide of the processing techniques used. Another set of instructions is provided at the end of this notebook for the processing multiple folders simultaneously. 
 
 # Preliminaries
 
@@ -32,66 +32,67 @@ library(topicmodels)
 library(ggplot2)
 library(wordcloud)
 library(word2vec)
+library(pdftools)
+library(reshape2)
 ```
+
+*Parametrize the document to run different corpus*
 
 # Accessing Data: Grey Literature
 
-Activel school travel (AST) and school travel planning (STP) initiatives typically bring together a group of stakeholders from the planning, transportation, public health, and education sectors. These stakeholders may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents. 
+Active school travel (AST) and school travel planning (STP) initiatives typically bring together a group of stakeholders from the planning, transportation, public health, and education sectors. These stakeholders may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents. 
 
-First, we do a preliminary scan of current AST and/or STP projects funded by the Ontario Active School Travel fund to determine which stakeholders are involved in such initiatives. We find that AST projects in are often led by a school board in collaboration with transportation planners, public health professionals, and regional transportation consortia. Non-profit organizations, police services, and advocacy groups are other common stakeholders who play a role in support AST and STP. 
+First, we do a preliminary scan of current AST and/or STP projects funded by the Ontario Active School Travel fund to determine which stakeholders are involved in such initiatives. We find that AST projects are often led by a school board in collaboration with transportation planners, public health professionals, and regional transportation consortia. Non-profit organizations, police services, and advocacy groups are other common stakeholders who play a role in support AST and STP. 
 
-Next, we create one folder for each of the stakeholder groups involved in AST and/or STP efforts. The folders below were used in the framing analysis; they are provided in this notebook as an example to recreate, modify, or extend our analysis. 
+Next, we create one folder for each stakeholder group involved in AST and/or STP efforts. The folders below were used in the framing analysis; they are provided in this notebook as an example to recreate, modify, or extend our analysis. 
 
-For these three following folders, webpages were sourced directly from stakeholder websites from three main groups: transportation consortias, municipalities or regions, and school boards. These webpages were saved as PDF documents via the web browser. Inclusion of webpages was determined based on the following considerations:
+For these three following folders, webpages were sourced directly from stakeholder websites from three main groups: transportation consortia, municipalities or regions, and school boards. These webpages were saved as PDF documents via the web browser. 
 
-1) It was important that webpages were easy to find as the analysis pretains to how such issues are framed to the public. Our interpretation of 'easy to find' are webpages that required no more than 2-4 seperate links from the initial browser search. 
-2) The analysis focuses on the province of Ontario, not a single municipality or region. For this reason, the search was based off a list of all school boards across this province. The websites of each school board were searched to determine whether they discussed AST and/or STP, which . 
-3) Consortia and municipalities/regions were organized based on the school boards. 
+Inclusion of webpages was determined based on the following considerations:
+1) It was important that webpages were easy to find as the analysis pertains to how such issues are framed to the public. Our interpretation of 'easy to find' are webpages that required no more than 2-4 separate links from the initial browser search. 
+2) The analysis focuses on the province of Ontario, not a single municipality or region. For this reason, the search was guided by a list of all school boards across the province. The websites of each school board were manually searched to determine whether they discussed AST and/or STP. 
+3) Consortia and municipalities/regions were organized based on geographic area (i.e., proximity to the school boards). 
+
 
 __Transportation Consortia__ 
 
-Transporation consortia are dedicated transportation bodies that primarly focus on providing the school busing service to families in their associated region. 
+Transportation consortia are dedicated transportation bodies that primarily focus on providing the school busing service to families in their associated region. 
 
-In total, 9 webpages were pulled from 7 of the 39 consortia examined in Ontario. Webpages are determined to be relevent and specifically pretain/mention AST or STP. 
+In total, 9 webpages were pulled from 7 of the 39 consortia examined in Ontario. Webpages are determined to be relevant if they specifically pertain and/or mention AST or STP. 
 
 
 __Municipalities or Regions__ 
 
-Municipalities or regions have webpages about transportation plans, programs, and services provided, some of which are not relevent to our analysis. Only webpages specifically dicussing active travel, AST, or STP were included. Webpages were also sourced from associated public health units becasues their direct relation to governing bodies at the municipal or regional level.
+Municipalities or regions have webpages about transportation plans, programs, and services provided, some of which are not relevant to our analysis. Only webpages specifically discussing active travel, AST, or STP were included. Webpages were also sourced from associated public health units because they have a direct relation to governing bodies at the municipal or regional level.
 
 In total, 29 webpages were pulled. 
 
 __School Boards__
 
-These bodies use funding provided to them by the province to run a collection of schools. They prepare the annual budget, hire teachers and staff, supervise the education program, and other tasks ensure schools are following all regulations set by the *Education Act* [Ministry of Education]. Only the Englished based public and Catholic school boards were considered.
+These bodies use funding provided to them by the province to run a collection of schools. They prepare the annual budget, hire teachers and staff, supervise the education program, and other tasks to ensure schools are following all regulations set by the Province of Ontario's *Education Act*. Only English speaking public and Catholic school boards were considered.
 
-Pages mentioning STP and/or AST were prioritized. However, if they did not exist, pages discussing transportation were downloaded instead. In total, 32 webpages were pulled from 31 of the 61 school boards examined in Ontario. Of the remaining the were not included, 22 linked their respective corsortia, 7 did not have pages that meet the criteria, 1 met criteria but could not be downloaded in a processable format. 
+Pages mentioning STP and/or AST were prioritized. However, if they did not exist, pages discussing transportation were downloaded instead. In total, 32 webpages were pulled from 31 of the 61 school boards examined in Ontario. Of the remaining the were not included, 22 linked their respective transportation consortia, 7 did not have pages that meet the criteria, 1 met the criteria but could not be downloaded in a PDF format. 
 
 
 # Accessing Data: Research Literature
 
 __Academic Papers__
 
-[Insert Methodology for obtaining Academic Papers]
+A literature search was conducted in _Web of Science_ using "active", "travel", "school" as keywords, and then further narrowed down by discipline "geography", "transportation, "planning".
+
+In total, _X_ articles were accessed.
 
 
 # Conversion Process 
 
-The conversion process in this notebook can only be conducted on one file at a time. We select one of the files provided to use in this package as an example of the process. Alternatively, you can use a file relevant to your municipality/region. To run multiple files to create seperate corpora, refer to the section below.
+The conversion process for this section can only be conducted on one file at a time. We select one of the files provided to use in this package as an example of the process. Alternatively, you can use a file relevant to your municipality/region. To run multiple files or to create separate corpora, refer to the section below.
 
 ## Searchable PDF files to .txt conversion 
 
-PDF documents are brought into the corpus directly, however each page of the document is read as an invividual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and Re-assign the 'pdfLocation' to that corresponding location. R uses '/' as the directory seporator. 
-
-Location:
-
-"E:/Github/AST-Framing-Analysis-Ontario/Texts/Academic Papers"
-"E:/Github/AST-Framing-Analysis-Ontario/Texts/Consortia"
-"E:/Github/AST-Framing-Analysis-Ontario/Texts/Municipalities or Regions"
-"E:/Github/AST-Framing-Analysis-Ontario/Texts/School Boards"
+PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
 
 ```{r}
-pdfLocation <- "E:/Github/AST-Framing-Analysis-Ontario/Texts/School Boards"
+pdfLocation <- "Texts/School Boards"
 
 # Creates folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
@@ -110,11 +111,14 @@ for (address in filePath)
 {
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
-# "file_path_sans_ext(basename())" from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
-# use of 'sep = ""' argument is important to prevent the addition of spaces, which is the default for the paste function 
+
+# `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
+
+# use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 write(test, file = newFile)
 print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
+
 # Creates uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
 n <- n+1
@@ -156,7 +160,7 @@ Many words should be removed while cleaning the corpus to ensure that the analys
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
 
-NAwords <- c("contact", "cancellations", "catholic", "waterloo", "board", "east", "transportation", "students", "student", "website", "tri", "can", "district", "will", "please", "may", "school", "https")
+NAwords <- c("contact", "cancellations", "catholic", "waterloo", "board", "east", "transportation", "students", "student", "website", "tri", "can", "district", "will", "please", "may", "school", "https", "school", "schools", "walking", "cycling", "gta", "login", "and", "or", "the", "active", "asst", "stp")
 corpus <- tm_map(corpus, removeWords, NAwords)
 corpus <- tm_map(corpus, removeNumbers)
 
@@ -164,7 +168,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
 
 # Example
-content(corpus[[5]])
+content(corpus[[1]])
 ```
 
 ## Term Document Matrix & Document Term Matrix
@@ -183,9 +187,10 @@ matrix2 <- as.matrix(DTM)
 
 NLP is a way to correlate words across a collection of texts or corpus. 
 
-Topic Modelling with Latent Dirichlet Allocation (LDA) 
+### Topic Modelling with Latent Dirichlet Allocation (LDA) 
 
-The goal of topic modelling is to identify the re-occurring themes in our corpus quantitatively with code. The code below utilizes LDA, an algorithm that when provided a number of desrete topics, 'k', will calculate the likelyhood of any given term being generated in a given topic. This algorithm runs under the 'bag of words' assumptions with means grammatic structre (adjective, noun, verb) is not considered. Words are rather considered 
+The goal of topic modelling is to identify the re-occurring themes in our corpus quantitatively with code. The code below utilizes LDA, an algorithm that when provided a number of discrete topics, `k`, will calculate the likelihood of any given term being generated in a given topic. This algorithm runs under the 'bag of words' assumptions with means grammatical structure is not considered. Only words are rather considered.
+
 ```{r}
 # k represents the number of topics to be generated by the algorithm 
 k <- 4
@@ -213,9 +218,10 @@ top_terms %>%
   scale_x_continuous(limits = c(0,0.06))
   
 ```
-LDA using multiple seeds
 
-This is a more robust approach since LDA has some random compenent on how it begins developing its clusters. By taking the average of multiple iterations with random seeds we  
+### LDA using multiple seeds
+
+This is a more robust approach since LDA has some random components on how it begins developing its clusters. By taking the average of multiple iterations with random seeds, we .... [_finish sentence_]  
 
 ```{r}
 
@@ -249,7 +255,7 @@ avg_top_terms <- avgtopics %>%
 avg_top_terms
 
 # Beta represents the probability of 'term' being generated in topic 'n' 
-# Topics are generated by the LDA algorithm, its is up to the user to interpret the context of the topics 
+# Topics are generated by the LDA algorithm, it's up to the user to interpret the context of the topics 
 
 avg_top_terms %>% 
   mutate(term = reorder_within(term, beta.mean, topic)) %>%
@@ -263,7 +269,7 @@ avg_top_terms %>%
 
 ## Tokenization by n-gram 
 
-Here we examine texts based on the structural relationship of a sequence of words. We can tokenize n-grams, where 'n' represents the number of consecutive words, to chart what group of words most frequently occur in our corpus.  
+Here we examine texts based on the structural relationship of a sequence of words. We can "tokenize" n-grams, where `n` represents the number of consecutive words, to chart what group of words most frequently occur in our corpus.  
 
 ```{r}
 # Converting corpus to tidytext data type 
@@ -297,18 +303,21 @@ d <- data.frame(word = names(v), freq=v)
 set.seed(4321)
 wordcloud(d$word, d$freq, min.freq = 10, max.words = 50, random.order = FALSE, rot.per = 0.5, random.color = TRUE)
 ```
+
 # Word to Vector Test
+
 https://m-clark.github.io/text-analysis-with-R/word-embeddings.html 
+
 ```{r}
 library(text2vec)
 
-# Need to create new data frame with the cleaned corpus 
+# Create new data frame with the cleaned corpus 
 cleanTextDF <- data.frame(text = sapply(corpus, as.character), stringsAsFactors = FALSE)
 
 it_train = itoken(cleanTextDF$text, progressbar = FALSE)
 vocab = create_vocabulary(it_train)
 
-# Cuts out terms that have a minimum count of 5 
+# Cut out terms that have a minimum count of 5 
 vocab <- prune_vocabulary(vocab, term_count_min = 5)
 vocab
 
@@ -322,15 +331,11 @@ context = glove$components
 
 word_vectors = main + t(context)
 
-safe = word_vectors["mental", , drop = FALSE] 
-
+safe = word_vectors["wellbeing", , drop = FALSE] - word_vectors["physical", , drop = FALSE] + word_vectors["mental", , drop = FALSE]
+ 
 cos_sim = sim2(x = word_vectors, y = safe, method = "cosine")
 
 head(sort(cos_sim[,1], decreasing = TRUE), 10)
-
-
-
-
 ```
 
 
@@ -341,22 +346,23 @@ Clear Environment
 rm(list = ls())
 ```
 
-'masterFolder' will be the location of your subfolders, containing your PDFs. Unlike in 'PDF to Corpus.Rmd' you do not need to create .txt folder corresponding to each PDF folder, this is done automatically by the code. 
+`masterFolder` will be the location of your sub-folders, containing your PDFs. Unlike in 'PDF to Corpus.Rmd' you do not need to create .txt folder corresponding to each PDF folder, this is done automatically by the code. 
 
-IMPORTANT: The names of the folders cannot contain the consecutive characters 'txt', the code filters out those folders. 
+IMPORTANT: The names of the folders cannot contain the consecutive characters `txt`, the code filters out those folders. 
 NOTE: The order of files below will also be the order the corpus are created, the index will match the corpus number 
 ```{r}
-masterFolder <- "C:/Users/Jason/Desktop/Master PDF"
+masterFolder <- "Texts"
 
 
 subFolders <- list.files(masterFolder, full.names=TRUE)
 # if txt folder already exists from previous execution of code this ensures it is not added to subfolders 
-# The limitation is that your file name, at any point cannot contain the sequence of characters "txt" as it will be flagged as a non-pdf subfolder 
+# The limitation is that your file name, at any point cannot contain the sequence of characters "txt" as it will be flagged as a non-pdf subfolder
+
 subFolders <- subFolders[grep(x =list.files(masterFolder, full.names=TRUE), pattern =  "txt", invert = TRUE)]
 subFolders
 ```
 
-Corpora will be cleaned for white spaces, punctuations, English stopwords, and converted to lowercases. Any additional stopwords will need to be removed manually as the user sees fit. 
+Corpora will be cleaned for white spaces, punctuation, English stop words, and converted to lowercase. Any additional stop words will need to be removed manually as the user sees fit. 
 ```{r}
 # Iterating through each subfolders 
 m <- 1
