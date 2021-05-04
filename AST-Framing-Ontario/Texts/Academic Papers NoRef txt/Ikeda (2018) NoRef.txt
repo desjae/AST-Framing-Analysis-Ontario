@@ -1,0 +1,600 @@
+                                                              Journal of Transport & Health 9 (2018) 117–131
+                                                             Contents lists available at ScienceDirect
+                                                     Journal of Transport & Health
+                                                   journal homepage: www.elsevier.com/locate/jth
+Built environment associates of active school travel in New Zealand
+                                                                                                                                                T
+children and youth: A systematic meta-analysis using individual
+participant data
+                       <U+204E>
+Erika Ikedaa, , Tom Stewarta, Nicholas Garrettb, Victoria Eglia, Sandra Mandicc,
+Jamie Hoskingd, Karen Wittene, Greer Hawleyf, El Shadan Tautolog, Judy Roddah,
+Antoni Mooreh, Melody Smithi
+a
+  School of Sport and Recreation, Faculty of Health and Environmental Sciences, Auckland University of Technology, Auckland, New Zealand
+b
+  Department of Biostatistics and Epidemiology, Faculty of Health and Environmental Sciences, Auckland University of Technology, Auckland, New
+Zealand
+c
+  Active Living Laboratory, School of Physical Education, Sport and Exercise Sciences, University of Otago, Dunedin, New Zealand
+d
+  Section of Epidemiology and Biostatistics, Faculty of Medical and Health Sciences, The University of Auckland, Auckland, New Zealand
+e
+  SHORE and Whariki Research Centre, Massey University, Auckland, New Zealand
+f
+  Mackie Research, Auckland, New Zealand
+g
+  Centre for Paci<U+FB01>c Health and Development Research, Faculty of Health and Environmental Sciences, Auckland University of Technology, Auckland,
+New Zealand
+h
+   School of Surveying, University of Otago, Dunedin, New Zealand
+i
+  School of Nursing, The University of Auckland, Auckland, New Zealand
+A R T IC LE I N F O                                         ABS TRA CT
+Keywords:                                                   This systematic review and meta-analysis examined the associations between active travel to
+Active travel to school                                     school and the neighbourhood built environment in children and youth by systematically iden-
+Built environment                                           tifying and collating data from New Zealand studies. Data from <U+FB01>ve studies involving 2844
+Geographic information systems                              children and youth aged 6–19 years were included in the meta-analysis. Data on participant
+Meta-analysis
+                                                            demographics and school characteristics were obtained from each study, and built environment
+Children
+Systematic review
+                                                            features within 400 m and 1 km bu<U+FB00>ers around home were calculated in a consistent manner
+                                                            using geographic information systems. A one-step individual participant data meta-analysis was
+                                                            performed in SAS. Using stepwise logistic regression, age, school socioeconomic status, distance
+                                                            to school, dwelling density and intersection density (400 m and 1 km bu<U+FB00>ers) were taken forward
+                                                            from bivariate analyses into a multiple variable model. Active travel to school was positively
+                                                            associated with intersection density (p < 0.001) (1 km bu<U+FB00>er) and negatively associated with
+                                                            school socioeconomic status (p = 0.001), dwelling density (p = 0.004) (1 km bu<U+FB00>er), and dis-
+                                                            tance to school (p < 0.001), including age, sex, ethnicity and number of siblings as <U+FB01>xed e<U+FB00>ects
+                                                            in the <U+FB01>nal model. The <U+FB01>ndings of this meta-analysis can be used to guide and support the
+                                                            development of policies on school location and catchment, and pedestrian and cycling infra-
+                                                            structure for children and youth to actively and safely travel to school.
+   <U+204E>
+     Corresponding author.
+     E-mail address: erika.ikeda@aut.ac.nz (E. Ikeda).
+https://doi.org/10.1016/j.jth.2018.04.007
+Received 7 February 2018; Received in revised form 12 April 2018; Accepted 19 April 2018
+Available online 01 May 2018
+2214-1405/ © 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+
+E. Ikeda et al.                                                                                    Journal of Transport & Health 9 (2018) 117–131
+1. Introduction
+     The bene<U+FB01>ts of physical activity in childhood are signi<U+FB01>cant and widely accepted (World Health Organization, 2010). Regular
+physical activity is associated with improved cognitive (Donnelly et al., 2016), cardiometabolic (Janssen and LeBlanc, 2010) and
+musculoskeletal health (Tan et al., 2014), as well as reduced symptoms of depression and anxiety (Biddle and Asare, 2011). In-
+su<U+FB03>cient physical activity is linked to the signi<U+FB01>cant rise in childhood obesity and comorbidities worldwide (Janssen and LeBlanc,
+2010; Lee et al., 2012; Molnár and Livingstone, 2000). It is recommended that all children and young people achieve at least 60 min
+of moderate-to-vigorous intensity physical activity each day (Canadian Society for Exercise Physiology, 2016; Ministry of Health,
+2017). Globally, New Zealand fares relatively well in terms of child and youth participation in su<U+FB03>cient levels of physical activity
+(Tremblay et al., 2016). Despite that a third of New Zealand children and young people remain insu<U+FB03>ciently active for health
+(Maddison et al., 2016), and New Zealand has one of the highest rates of child obesity worldwide (Organisation for Ecnomic Co-
+operation and Development, 2017).
+     Several systematic reviews show that children and young people who commute actively (e.g., walk or cycle) to school are more
+likely to attain recommended levels of physical activity than those who travel by motorised vehicle (e.g., public transport, car or
+motorcycle) (Faulkner et al., 2009; Larouche et al., 2014). Uptake of active travel in childhood also increases the likelihood of active
+commuting in later life (Telama et al., 2005). Active travel to school (ATS) permits children to develop navigational and tra<U+FB03>c safety
+skills, identify and manage risks (Mammen et al., 2012), and gain experience in decision making and social interaction (Pooley et al.,
+2010; Schoeppe et al., 2014). Unsupervised active travel—or independent mobility—can facilitate additional bene<U+FB01>ts, such as de-
+veloping and re<U+FB01>ning resilience and life skills for the adult world, particularly in the context of risk taking (Gill, 2007; Mackett et al.,
+2007).
+     The positive implications of active travel go beyond the physical activity and health of individuals. Wider bene<U+FB01>ts include less
+noise and air pollution, climate change mitigation, urban vitality, and reduced tra<U+FB03>c congestion. The annual economic cost of tra<U+FB03>c
+congestion is estimated to be up to NZ$1.9 billion in Auckland alone (New Zealand Institute of Economic Research, 2017). Data from
+2015 show that New Zealand's gross greenhouse gas emissions have increased 24% since 1990, and road transportation is one of the
+main contributors to this increase (77.9% increase) (Ministry for the Environment, 2017). Increased uptake of ATS has the potential
+to reduce overall tra<U+FB03>c volume and air pollution, particularly in urban areas around schools at peak commute times (Collins and
+Kearns, 2010).
+     Despite these bene<U+FB01>ts, the prevalence of children's ATS is declining worldwide. New Zealand has one of the lowest rates of ATS
+internationally, with 28–29% of children aged 5–17 years walking and 2–3% cycling to school (Ministry of Transport, 2015;
+Tremblay et al., 2016). Understanding the reasons for the low, and declining prevalence of ATS has become a priority for govern-
+ments, urban planners, public health practitioners, and school and community groups. An interaction of multiple factors operating at
+several levels a<U+FB00>ect ATS behaviour. Within a socio-ecological framework, these factors are broadly de<U+FB01>ned as individual (e.g.,
+demographics, perceptions, skills), interpersonal (e.g., family and cultural norms) and broader environmental factors (e.g., built
+environment and policy) (Timperio et al., 2006). A collective understanding of these in<U+FB02>uences is crucial to enhance uptake of ATS
+among children and youth (Lambiase et al., 2010; Martínez-Gómez et al., 2011).
+     Both age and sex are key associates of ATS. The 2014/15 New Zealand Health Survey illustrates that in youth aged 10–14 years, a
+higher proportion of boys travel actively to school compared to girls (46.9% versus 40.6%) (Ministry of Health, 2015). No meaningful
+di<U+FB00>erence by sex was observed for younger children. In New Zealand, more children aged 10–14 years utilised ATS (43.8%),
+compared to those aged 5–9 years (38.4%) (Ministry of Health, 2015). The relationship between age and ATS is likely to be cur-
+vilinear, with an initial age-related increase in ATS among children due to higher degrees of independent mobility, parental al-
+lowances, and public transport use. ATS occurs to a small degree; followed by a decrease due to longer distances to secondary (high)
+schools compared with localised primary (elementary) schools (Gordon-Larsen et al., 2005; Mandic et al., 2017a; Mandic et al.,
+2015). There is some evidence of ethnic di<U+FB00>erences in ATS in New Zealand – with children of Maori, Paci<U+FB01>c Island, and “other”
+ethnicities more likely to walk to primary school in Dunedin than New Zealand European children (Yelavich et al., 2008). Household
+factors such as larger household sizes and having older siblings may also increase the likelihood of ATS (Lin et al., 2017; Mandic et al.,
+2015). There is a trend towards increased ATS in children and youth residing in more socio-economically deprived neighbourhoods
+(Ministry of Health, 2015). Boys residing in areas with the highest levels of socio-economic deprivation are signi<U+FB01>cantly more likely
+to use ATS than their male peers living in areas with the lowest levels of socioeconomic deprivation (Ministry of Health, 2015).
+     A key principle of socio-ecological theory is that motivating individuals to change behaviour cannot be e<U+FB00>ective if environments
+make it di<U+FB03>cult or impossible to choose healthy behaviours (Sallis et al., 2008). Rather, creating environments that make it con-
+venient, attractive, safe and economical to make healthy choices (and then motivating and educating people about those choices) will
+likely be most e<U+FB00>ective. Built environments comprise all physical surroundings that are constructed through human activity, in-
+cluding buildings, roads, open spaces and infrastructure (Srinivasan et al., 2003). A number of built environment factors have been
+associated with ATS, which are discussed brie<U+FB02>y below.
+     A convincing body of research in New Zealand as well as worldwide has demonstrated that network distance to school is the most
+consistent built environmental factor associated with the likelihood of ATS (Davison et al., 2008; Huertas-Delgado et al., 2017;
+Mandic et al., 2015; Oliver et al., 2014; Oliver et al., 2015; Pont et al., 2009; Schlossberg et al., 2006; Wong et al., 2011). For
+example, children living within one mile (1.6 km) of school in the US were at least three times more likely to walk or cycle to school
+than those living outside the one mile radius (McDonald et al., 2011; McMillan, 2007; McMillan et al., 2006). Similarly, McDonald
+(2008) showed that travel time had the greatest e<U+FB00>ect on ATS, where a 10% increase in walking time was associated with a 7.5%
+decline in probability of walking to school in the US. In a sample of 595 New Zealand children and youth aged 8–14 years, a distance
+                                                                    118
+
+E. Ikeda et al.                                                                                    Journal of Transport & Health 9 (2018) 117–131
+of 1.4 km or less best predicted likelihood of ATS (Duncan et al., 2016). However, threshold distances are likely much further for
+cycling, with some studies from the US and Spain reporting threshold distances of up to 5 km (Chillón et al., 2016; Nelson et al., 2008;
+Schlossberg et al., 2006).
+     Connectivity refers to the directness and availability of travel routes between an origin and a destination (Thornton et al., 2011).
+Street connectivity o<U+FB00>ers the potential of increased ways to discover direct and shorter travel routes (Schlossberg et al., 2006).
+Connectivity is generally measured or assessed using the spacing between streets, the number of three-way or four-way intersections
+within an area, or the di<U+FB00>erence between the street and pedestrian network distance and the Euclidean (i.e. ‘as the crow <U+FB02>ies’)
+distance (Thornton et al., 2011; Wong et al., 2011). For adults, grid-design urban environments are associated with signi<U+FB01>cantly
+greater physical activity levels (Badland et al., 2008; Hirsch et al., 2014; Sugiyama et al., 2012). Among the few studies investigating
+associations between street connectivity and physical activity in children, <U+FB01>ndings showed both positive (Oliver et al., 2015;
+Schlossberg et al., 2006) and no association (Braza et al., 2004). One study has shown positive associations between street con-
+nectivity and active travel to all destinations in children (Oliver et al., 2015).
+     Population or residential density refers to the number of individuals or dwellings in a particular area. Density is in turn associated
+with accessibility and increased rates of active travel because housing is closer to a range of destinations (Thornton et al., 2011).
+Active travel among children living in urban areas (with high population density) in the US was found to be more common than in
+their rural or suburban counterparts (with sparse population density) (McDonald, 2008). Adolescents living in urban areas have been
+shown to accumulate most of their physical activity during school travel (Stewart et al., 2017a), whereas those in more rural areas
+achieve the majority of their activity during school hours (Rainham et al., 2012). However, these <U+FB01>ndings are not consistent in all
+geographic regions. In the Otago region of New Zealand youth living in rural areas reported higher rates of ATS compared to their
+urban counterparts (Mandic et al., 2015).
+     The diversity of land use within a region (e.g., residential, educational, commercial, industrial, and recreational) can have im-
+plications for children and young people's active travel. Mixed land uses within a localised area can reduce the distance to desti-
+nations, thereby providing more active travel opportunities (Thornton et al., 2011). Higher land use mix has been associated with
+ATS (D'Haese et al., 2014; Larsen et al., 2009) as well as overall physical activity and total walking trips in youth (Kerr et al., 2007;
+Kligerman et al., 2007). These studies allude to the importance of destination accessibility and diversity for active travel in children
+and youth.
+     In the New Zealand context, di<U+FB00>erences in geographic information systems (GIS) approaches across studies have hindered an
+ability to provide a clear and consistent understanding of the built environment associates of ATS in children and youth nationally.
+Therefore, the aims of this study were: (1) to systematically identify New Zealand research that had measured ATS, distance to school,
+and the neighbourhood built environment in children and youth, (2) to collate data from identi<U+FB01>ed studies and combine them in a
+consistent manner, and (3) to identify associations between ATS and built environment features across the combined dataset. In doing
+so, this study provides new, robust evidence that has greater statistical power and is more generalisable than the contributing
+standalone studies.
+2. Methods
+2.1. Research context
+     The total population in New Zealand was estimated at 4.8 million in 2017, and a <U+FB01>fth of the population was children and youth
+aged 5–19 years (Statistics New Zealand, 2017d). New Zealand is also characterised as a highly suburbanised nation. By the end of
+20th century, there are 20 main urban areas with a minimum population of 30,000 identi<U+FB01>ed in New Zealand – 16 out of 20 are
+located in the North Island (e.g., Aucklnad, Wellington) and the others in the South Island (e.g., Christchurch, Dunedin) (Statistics
+New Zealand, 2017a). Due to changes in urban form, the population has been shifted towards car-oriented, low density neigh-
+bourhoods over the last few decades (Witten et al., 2017) which has resulted in greater urban sprawl and a change in children's mode
+of school travel and mobility.
+     In New Zealand, there are more than 180 di<U+FB00>erent ethnic groups including indigenous Maori and migrants from Europe, Paci<U+FB01>c
+Islands and Asian countries. The distribution of the ethnic groups with the majority of European, Maori and Asian varies across
+regions and cities (Statistics New Zealand, 2017b). In New Zealand, ethnicity is a self-perceived and cultural concept which is
+considered as a key social factor along with the other demographic characteristics describing the population (Statistics New Zealand,
+2017b).
+2.2. Eligibility criteria
+     Experimental studies or interventions (i.e., randomised controlled trials, quasi-experimental studies), longitudinal/cohort studies,
+and cross-sectional studies were eligible for inclusion. Participants in the included studies were school-aged children between <U+FB01>ve
+and 19 years living in New Zealand. In order to be eligible, studies needed to have reported participants’ mode of travel to school, and
+collected objective measures of the neighbourhood built environment using GIS. Travel mode could be self-reported by children, their
+parents, or obtained by observation.
+                                                                     119
+
+E. Ikeda et al.                                                                                          Journal of Transport & Health 9 (2018) 117–131
+Fig. 1. Flow chart of article identi<U+FB01>cation. N = number. Note. Active travel includes walk, bicycle, scooter and skateboard. Passive travel includes
+car, bus and motorbike.
+2.3. Information sources and search strategy
+     Scholarly published journal articles were searched in the following seven academic databases: SPORTDiscus (via EBSCO Host),
+ABI/Inform (via ProQuest), Web of Science, Scopus, NZResearch.org.nz (New Zealand theses), NewzText (New Zealand newspapers
+and commentary sources), and Australian/New Zealand Reference Centre (via EBSCO Host) (New Zealand newspapers and com-
+mentary from local sources). Unpublished research (i.e., New Zealand Master's and Doctoral theses) were sought through New
+Zealand Educational Theses Database (via New Zealand Council for Educational Research), Aotearoa New Zealand International
+Development Studies Network, and Scholarly Commons/Institutional Repository (i.e. Auckland University of Technology, Massey
+University, University of Auckland, University of Canterbury, University of Otago, University of Waikato, Victoria University of
+Wellington). Government and local council related reports were sought through major Government agency websites (i.e., Ministry of
+Health, Ministry of Transport, New Zealand Transport Agency/Land Transport New Zealand) and generally through Google.
+Combinations of the following search terms and terms were used: “active travel/transport”, “mode* travel/transport”, “school”,
+“Zealand”, “walk*”, “bik*”, “trip*”, “car*”. For a full list of search <U+FB01>elds refer to Supplementary information. The search was limited
+to English language and year from January 1990 to June 2016. Searches were conducted between May and July 2016.
+2.4. Selection of studies
+     Fig. 1 shows a <U+FB02>ow chart for article identi<U+FB01>cation and selection. The initial search strategy produced nearly 24,000 articles. An
+initial screening of titles and abstracts was undertaken to remove those which were outside the scope of the review based on the
+eligibility criteria. The full text were obtained for articles and reports that passed this initial abstract screening process – 49 were
+considered potentially eligible and were assessed at the full text stage. Full texts of 12 articles and reports met the inclusion criteria.
+Finally, multiple publications and reports on the same study were linked together (n = 4), yielding a total of eight studies identi<U+FB01>ed
+as eligible. The raw data of primary and secondary outcomes were acquired by contacting the original authors of the included studies.
+Three authors failed or declined to send raw data and these studies were thus excluded, leaving <U+FB01>ve studies for inclusion in the meta-
+analysis.
+2.5. Data preparation and synthesis
+     The following variables were obtained (at the individual participant level) from each study author: participant demographics
+                                                                        120
+
+E. Ikeda et al.                                                                                    Journal of Transport & Health 9 (2018) 117–131
+(age, sex, number of siblings, household size, body measurements), mode of travel ‘to’ school (excluding ‘from’ school), and GIS-
+derived distance to school, intersection density, dwelling density, and land use mix using a 400 m and a 1 km street network bu<U+FB00>er
+around each participant's place of residence. Bu<U+FB00>ers are boundaries placed around areas or points using a prede<U+FB01>ned scale, and
+delineated using straight-line (Euclidean) or street network distance (Thornton et al., 2011). In addition, general information about
+neighbourhood and participant selection, inclusion and exclusion criteria, individual study analyses, and published results and study
+protocols were requested. TS liaised with all study authors to ensure consistent approaches to generating neighbourhood bu<U+FB00>ers and
+built environment variables were undertaken.
+2.5.1. Individual characteristics
+     Participant age was classi<U+FB01>ed into six groups ( < 13, 13, 14, 15, 16, = 17 years): less than 13 years, by age in years between 13
+and 16, and more than 17 years in order to detect any possible curvilinearity in relationships, and to ensure su<U+FB03>cient numbers in
+each age group.
+     Body mass index (BMI) was calculated from weight and height, and categorised into weight classes (normal, overweight, obese)
+using growth curve data from the World Health Organization (de Onis et al., 2007). Age was missing for 19 participants, in which
+case age was imputed using the mean age for the participants from the same school year level.
+2.5.2. School characteristics
+     Data from the Ministry of Education were used to classify each school into contributing (children aged 5–10 years), full primary
+(5–12 years), intermediate (11–12 years), or secondary (13–17 years), and to identify school decile values. School decile indicates the
+socio-economic status of households in a school's catchment area. Deciles ranging from 1 (being the 10% of schools with the highest
+proportion of pupils residing in low socio-economic areas), to 10 (being the 10% of schools with the lowest proportion of these
+students) (Ministry of Education, 2017).
+2.5.3. School travel mode
+     Three studies (Hinckson et al., 2014; Oliver et al., 2014; Rush et al., 2016) collected travel mode data across each of the <U+FB01>ve
+school days, and one (Mandic et al., 2016) had a 5-scale response for each travel mode (“never”, “rarely”, “sometimes”, “most of the
+time”, “all of the time”). The only school travel information available from the <U+FB01>nal study (Oliver et al., 2011) pertained to ‘usual’
+travel mode (e.g., “car”, “walk”, “bike” etc.). For this reason, travel mode data across all studies were dichotomised as 0 or 1, where 0
+referred to individuals who used passive modes of travel (i.e., car, bus, motorbike) and 1 represented individuals who used active
+forms of travel (i.e., walk, bicycle, scooter, skateboard) on three or more school days per week (Ross et al., 2017; Veitch et al., 2017),
+or “most of the time”. As ATS was a binary response variable, logistic regression (SAS proc logistic) was performed to test whether
+each variable was associated with (the odds of) active travel to school. Individuals living further than 10 km from school were
+excluded from analyses. The rationale for this was two-fold: (1) based on visual inspection of the distance to school data, those living
+further than 10 km from school were considered outliers, and (2) previous New Zealand research suggests this threshold would be
+su<U+FB03>ciently sensitive to capture most ATS (Duncan et al., 2016; Oliver et al., 2014).
+2.5.4. Built environment variables
+     Dwelling density was calculated as the number of private occupied dwellings per square kilometer. The number of dwellings per
+meshblock were obtained from the 2013 Census (Statistics New Zealand, 2014), and an area weighted average was used to estimate
+the number of dwellings within each bu<U+FB00>er. Parcel-level zoning data were used to calculate land use mix, which is an indicator of the
+variety of local destinations close to home. Land use was categorised as residential, commercial, public open space, industrial,
+recreation, or other. An entropy score was used to calculate the extent of land use mix inside each bu<U+FB00>er using the equation (Forsyth
+et al., 2012) for four studies (Hinckson et al., 2014; Oliver et al., 2014; Oliver et al., 2011; Rush et al., 2016):
+                              n
+                           <U+239B>              <U+239E>
+         Land use mix = -<U+239C> <U+2211> Pi * ln(Pi ) <U+239F> / ln(n)
+                           <U+239D> i=1          <U+23A0>
+where n is the number of di<U+FB00>erent land use categories and Pi is the proportion of land use category i in the region. Entropy scores
+range from 0, which indicates no mix or homogeneous land use, to 1 which represents heterogeneous land use, or a perfect mix. One
+study (Mandic et al., 2016) calculated land use mix using a di<U+FB00>erent equation (Cervero and Kockelman, 1997):
+                         <U+23A7>
+         Land use mix =    <U+2211> <U+23A1><U+2211>j Pjk ln (pjk ) <U+23A4><U+23A5>/ln(J ) <U+23AB><U+23AC>/K
+                         <U+23A8> k <U+23A2>
+                         <U+23A9>      <U+23A3>                <U+23A6>        <U+23AD>
+where Pjk is the proportion of land use category j within a half-mile radius of the developed area surrounding grid-cell k, and K is
+number of actively developed hectares in each tract. The parcel level land use data used to calculate land use mix was compiled from
+a variety of sources: territorial authority zoning data, territorial authority points of interest data sourced in 2013/2014 (e.g., parks,
+libraries), and Zenbu online business directory data extracted in 2014. Lastly, intersection density was calculated as the number of 3
+or more-way intersections per square kilometer, using road centerline data obtained from Land Information New Zealand (LINZ;
+www.linz.govt.nz). The calculation of these variables was consistent with previous work in New Zealand (Badland et al., 2009;
+Hinckson et al., 2014).
+                                                                     121
+
+E. Ikeda et al.                                                                                    Journal of Transport & Health 9 (2018) 117–131
+     In the <U+FB01>rst instance, frequency distributions of categorical data were checked and recategorized if necessary (i.e., if a dis-
+proportionately low number of responses was observed in one or more categories). Due to logistic regression assuming an exponential
+relationship for continuous variables and because non-linear and plateauing e<U+FB00>ects can exist when examining built environment
+variables, these variables (dwelling density, intersection density, and land use mix) were organised into quartiles.
+2.6. Statistical analysis
+     A one-step individual participant data (IPD) meta-analysis approach was taken. This di<U+FB00>ers from more traditional meta-analyses
+where aggregate data (e.g., e<U+FB00>ect size estimates) are extracted from individual studies and synthesised. In a one-step approach, the
+original IPD from all studies is modelled simultaneously. All analyses were performed in SAS (v9.4, SAS Institute, North Carolina,
+NC).
+     Using stepwise logistic regression, an initial feature selection step was performed to determine what variables were suitable for
+inclusion in the <U+FB01>nal model. A criterion of p < 0.10 was set for inclusion in the model, and age, sex, ethnicity and number of siblings,
+were included as <U+FB01>xed e<U+FB00>ects, being known correlates of ATS behaviour (Chillón et al., 2014; Christiansen et al., 2014; Mandic et al.,
+2015; Yu and Zhu, 2016). The clustering of observations within studies was accounted for by stratifying the analysis by study (i.e., by
+estimating a separate intercept for each study) using the STRATA statement (SAS Institute Inc., 2011). Individual study results for the
+full model were also calculated and presented for each outcome variable using forest plots.
+3. Results
+     Overall, <U+FB01>ve studies involving 2844 children and youth aged 6–19 years were included in this meta-analysis (Fig. 1, Table 1)
+(Hinckson et al., 2014; Mandic et al., 2016; Oliver et al., 2014; Oliver et al., 2011; Rush et al., 2016). In total, there were 988 active
+travellers, and 1856 passive travellers. Studies were conducted in three of the largest cities in New Zealand, namely Auckland (urban
+population of 1.495 million, comprising 32% of the total New Zealand population), Wellington (population 405,000), and
+Christchurch (389,700) (Statistics New Zealand, 2016). Additionally, one study was conducted in Dunedin, New Zealand's seventh
+largest city, with a population of 118,500. Detailed information about each study is summarised in the Supplementary information 2.
+     Participant demographic characteristics, rates of ATS, and the results of the bivariate analyses are presented in Table 2. De-
+scriptive information for the built environment characteristics and results of the bivariate analyses for these variables are presented in
+Table 3. Age, school decile, dwelling density, intersection density (400 m and 1 km bu<U+FB00>er), and distance to school were related to ATS
+at p < 0.10 in the bivariate analyses and were taken forward into the multiple variable modelling, along with the aforementioned
+<U+FB01>xed e<U+FB00>ects (age, sex, ethnicity and number of siblings).
+     Table 4 presents the logistic regression results for the <U+FB01>nal multiple variable model. Accounting for the <U+FB01>xed e<U+FB00>ects (age, sex,
+ethnicity, number of siblings) and after removal of non-signi<U+FB01>cant variables at p > 0.05, remaining factors in the model were number
+of siblings, school decile, distance to school, and intersection density and dwelling density within 1 km bu<U+FB00>ers only. Compared with
+children who had no siblings, those with one sibling were 30% less likely to use ATS (95% CI 0.48, 0.96, p < 0.02). Children and
+youth attending higher decile (higher socio-economic status) schools were less likely to travel actively compared to those attending
+lower decile schools (OR 1.18, 95% CI 0.78, 1.79, p = 0.001). The greatest odds for ATS were found for distance to school, with the
+odds of ATS near zero for those living more than 2.3 km from school. Using the 1 km neighbourhood bu<U+FB00>er, a linear increase in odds
+of ATS was observed for intersection density, with those living in neighbourhoods with the highest intersection density almost three
+times more likely to use ATS than those living in neighbourhoods with the lowest intersection density (OR 2.86, 95% CI 1.95, 4.17,
+p < 0.001). Conversely (and somewhat counterintuitively), a negative relationship was observed between ATS and dwelling density.
+We conducted exploratory work to examine these perplexing results. These examinations suggested a possible level of interaction
+between dwelling density and distance to school, with a combination of lower housing density and shorter distance to schools linked
+with ATS (data available on request).
+     We further examined distance to school, intersection density and dwelling density as associates of ATS for each individual study.
+Fig. 2 shows the forest plot for individual study results, comparing quartiles 1 with quartiles 2, 3, and 4 for each variable. Distance to
+school showed signi<U+FB01>cantly negative associations with ATS with all except one comparison from the Understanding the Relationship
+between Activity and Neighbourhoods (URBAN) study (Oliver et al., 2014). Within many of the individual studies there were no
+Table 1
+Frequency of observations in each study.
+  Study                                  N               Active Travellers          Age Range              City
+                                                         N (%)                      (years)
+  BEANZ (Hinckson et al., 2014)          571             254 (44.5)                 13–19                  Auckland & Wellington
+  BEATS (Mandic et al., 2016)            1181            384 (32.5)                 12–19                  Dunedin
+  KITC (Oliver et al., 2011)             226             120 (53.1)                 9–13                   Auckland
+  PIF (Rush et al., 2016)                657             198 (30.1)                 13–15                  Auckland
+  URBAN (Oliver et al., 2014)            209             32 (15.3)                  6–19                   Auckland, Wellington & Christchurch
+BEANZ = Built Environment and Adolescent New Zealanders, BEATS = Built Environment and Active Transport to School, KITC = Kids in the City,
+N = number, PIF = Paci<U+FB01>c Islands Families, URBAN = Understanding the Relationship between Activity and Neighbourhoods.
+                                                                     122
+
+E. Ikeda et al.                                                                                           Journal of Transport & Health 9 (2018) 117–131
+Table 2
+Participant demographic characteristics and results of the bivariate analyses for odds of actively travelling to school for each variable.
+  Variable                                 Category                       N            ATS                 OR            95% CI               p-value
+                                                                                       N (%)
+  Sex                                      Male                           1440         509 (35.4)          1.00                               0.44
+                                           Female                         1471         494 (33.6)          0.94          (0.80, 1.09)
+  Age (years)                              5–12                           363          147 (40.5)          1.00                               0.05
+                                           13                             258          76 (29.5)           0.68          (0.33, 1.37)
+                                           14                             1026         327 (31.9)          0.78          (0.39, 1.56)
+                                           15                             581          208 (35.8)          0.92          (0.45, 1.82)
+                                           16                             313          126 (40.3)          1.03          (0.51, 2.08)
+                                           17+                            370          118 (31.9)          0.68          (0.33, 1.38)
+  Ethnicity                                New Zealand European           1438         499 (34.7)          1.00                               0.19
+                                           Maori                          240          88 (36.7)           1.17          (0.86, 1.58)
+                                           Paci<U+FB01>c                         786          238 (30.3)          0.76          (0.55, 1.03)
+                                           Asian                          207          82 (39.6)           0.98          (0.70, 1.35)
+                                           Other                          226          86 (38.1)           1.15          (0.85, 1.54)
+  Body mass index (kg/m2)                  Underweight                    78           20 (25.6)           1.00                               0.61
+                                           Normal                         1595         571 (35.8)          1.19          (0.69, 2.02)
+                                           Overweight                     583          193 (33.1)          1.04          (0.59, 1.81)
+                                           Obese                          547          188 (34.4)          1.16          (0.65, 2.05)
+  Number of people in a household (n)      <4                             611          239 (39.1)          1.00                               0.18
+                                           4                              873          289 (33.1)          0.82          (0.65, 1.01)
+                                           5–6                            908          294 (32.4)          0.82          (0.65, 1.02)
+                                           7+                             181          65 (35.9)           1.00          (0.69, 1.45)
+  Number of siblings (n)                   0                              308          133 (43.2)          1.00                               0.11
+                                           1                              894          300 (33.6)          0.80          (0.60, 1.04)
+                                           2                              778          267 (34.3)          0.98          (0.74, 1.30)
+                                           3                              449          133 (29.6)          0.88          (0.63, 1.20)
+                                           4+                             487          171 (35.1)          1.07          (0.78, 1.45)
+  School decile                            1–3 (lower SES)                715          247 (34.6)          1.00                                < 0.001
+                                           4–7                            997          388 (38.9)          0.86          (0.62, 1.17)
+                                           8–10 (higher SES)              1143         357 (31.2)          0.62          (0.44, 0.85)
+  School type                              Primary/Intermediate           443          161 (36.3)          1.00                               0.72
+                                           Secondary                      2428         840 (34.6)          0.77          (0.18, 3.22)
+Note. All modelling adjusted for study e<U+FB00>ects. ATS = active travel to school, CI = con<U+FB01>dence interval, N = number, OR = odds ratio, SES =
+socioeconomic status.
+signi<U+FB01>cant <U+FB01>ndings for dwelling and intersection density. However, studies did show homogeneity in results, which resulted in
+signi<U+FB01>cant <U+FB01>ndings overall. With the exception of the Kids in the City (KITC) study (Oliver et al., 2011), individual study <U+FB01>ndings
+were relatively consistent with null or negative correlates for dwelling density. For intersection density, greater odds ratios and
+con<U+FB01>dence intervals were observed for the KITC study, and the URBAN study (Oliver et al., 2014).
+4. Discussion
+     The aims of this study were: (1) to systematically identify New Zealand research that had measured ATS, distance to school, and
+the neighbourhood built environment in children and youth, (2) to collate data from identi<U+FB01>ed studies and combine them in a
+consistent manner, and (3) to identify associations between ATS and built environment features across the combined dataset. In doing
+so, this study provides new, robust evidence and greater statistical power that is more generalisable than the previous contributing
+smaller studies. In total, data from 2844 children and young people were obtained from <U+FB01>ve studies representing four major cities
+across New Zealand. Approximately a third of the participants used ATS “usually” or “most of the time”. For the most part, asso-
+ciations between environmental variables and ATS were consistent with previous research (Broberg and Sarjala, 2015; Carlson et al.,
+2014; Larsen et al., 2016; Pont et al., 2009; Wong et al., 2011) and the individual studies themselves.
+4.1. Distance to school
+     Overall, the relationship between distance to school and odds of ATS had the greatest magnitude of all ATS associations observed
+even after accounting for all other factors in the <U+FB01>nal model.This <U+FB01>nding is not surprising given the body of existing evidence
+demonstrating this relationship (Duncan et al., 2016; Ermagun and Samimi, 2017; Larsen et al., 2016; Lee et al., 2013; Mandic et al.,
+                                                                        123
+
+E. Ikeda et al.                                                                                           Journal of Transport & Health 9 (2018) 117–131
+Table 3
+Built environment variable characteristics and results of the bivariate analyses for odds of actively travelling to school for each variable.
+  Variable                           Quartile                    N              ATS                  OR               95% CI                  p-value
+                                                                                N (%)
+  1 km bu<U+FB00>er:
+  Dwellings density (km2)            Q1 (Low density)            755            185 (24.5)           1.00                                      < 0.001
+                                     Q2                          716            233 (32.5)           1.54             (1.21, 1.93)
+                                     Q3                          718            272 (37.9)           2.04             (1.61, 2.56)
+                                     Q4 (High Density)           727            314 (43.2)           2.14             (1.7, 2.68)
+  Intersection density (km2)         Q1 (Low density)            743            198 (26.7)           1.00                                      < 0.001
+                                     Q2                          719            222 (30.9)           1.26             (0.99, 1.60)
+                                     Q3                          718            249 (34.7)           1.67             (1.31, 2.11)
+                                     Q4 (High Density)           736            335 (45.5)           2.97             (2.33, 3.78)
+  Land use mix                       Q1 (Low Mix)                764            255 (33.4)           1.00                                     0.61
+                                     Q2                          667            230 (34.5)           0.93             (0.72, 1.18)
+                                     Q3                          738            241 (32.7)           0.84             (0.65, 1.08)
+                                     Q4 (High Mix)               747            278 (37.2)           0.91             (0.70, 1.17)
+  400 m bu<U+FB00>er:
+  Dwelling density (km2)             Q1 (Low density)            744            199 (26.8)           1.00                                      < 0.001
+                                     Q2                          727            231 (31.8)           1.32             (1.04, 1.66)
+                                     Q3                          716            276 (38.6)           1.73             (1.37, 2.16)
+                                     Q4 (High Density)           729            298 (40.9)           1.78             (1.42, 2.22)
+  Intersection density (km2)         Q1 (Low density)            751            200 (26.6)           1.00                                      < 0.001
+                                     Q2                          715            237 (33.2)           1.43             (1.13, 1.79)
+                                     Q3                          716            247 (34.5)           1.63             (1.29, 2.05)
+                                     Q4 (High Density)           734            320 (43.6)           2.37             (1.88, 2.97)
+  Land use mix                       Q1 (Low Mix)                760            256 (33.7)           1.00                                     0.29
+                                     Q2                          728            245 (33.7)           0.90             (0.71, 1.14)
+                                     Q3                          720            234 (32.0)           0.80             (0.62, 1.02)
+                                     Q4 (High Mix)               708            269 (38.0)           0.95             (0.73, 1.22)
+  Distance to school (km)            Q1 ( < 1.3)                 767            482 (62.8)           1.00                                      < 0.001
+                                     Q2 (1.3 to < 2.3)           710            341 (48.0)           0.34             (0.26, 0.43)
+                                     Q3 (2.3 to < 4.2)           719            152 (21.1)           0.09             (0.06, 0.11)
+                                     Q4 (= 4.2)                  720            29 (4.0)             0.01             (0.00, 0.02)
+Note. All modelling adjusted for study e<U+FB00>ects. ATS = active travel to school, CI = con<U+FB01>dence interval, N = number, OR = odds ratio.
+2015; McDonald et al., 2011; Schlossberg et al., 2006). Compared to children living within 1.3 km of school, the odds of ATS were
+reduced by a third among those residing between 1.3 and 2.3 km from school. Beyond 2.3 km, the odds of ATS in this combined
+dataset reduced to near zero. This distance threshold is in line with earlier research indicating signi<U+FB01>cant and substantial reductions
+in ATS for distances of 1.4–2.0 km (Mandic et al., 2017b; McDonald et al., 2011; McMillan, 2007; McMillan et al., 2006; Oliver et al.,
+2014). The results of the individual studies were similar, with the exception of comparing quartile 1 and quartile 2 for the URBAN
+study whereby the 95% con<U+FB01>dence intervals crossed over one, indicating a non-signi<U+FB01>cant association for this comparison only. To
+some extent, the wider con<U+FB01>dence interval may have been a function of the smaller sample size in the URBAN study compared to
+other included studies (Oliver et al., 2014). Collectively, the evidence shows that shorter school travel distances are signi<U+FB01>cantly
+associated with increased walking and cycling to school (Wong et al., 2011). Schools located centrally within communities are likely
+to facilitate children's ATS. Therefore, location of schools and zoning restrictions are important considerations to optimise travel
+distances and the likelihood for ATS (Mandic et al., 2017b; Oliver et al., 2014).
+4.2. Street connectivity
+     In line with previous research (Schlossberg et al., 2006), a clear positive relationship between street connectivity and ATS was
+observed when using the 1 km neighbourhood bu<U+FB00>er. Children and youth living in neighbourhoods with the highest intersection
+density were almost three times more likely to use ATS than those living in neighbourhoods with the lowest intersection density. This
+<U+FB01>nding was, however, in con<U+FB02>ict with other studies from Australia (Timperio et al., 2006), the US (Carlson et al., 2014) and Canada
+(Mitra and Buliung, 2012) which reported negative associations between intersection density and ATS. Highly connected streets may
+be more utilised by motorised vehicles. Consequently, children and youth living in those areas, compared to those living in areas with
+low street connectivity, could be more exposed to high tra<U+FB03>c speed and volume and less likely to use ATS (Sirard and Slater, 2008).
+Use of pedestrian or walkable networks to calculate intersection density may increase the speci<U+FB01>city and sensitivity of results and
+provide more precise information for active travellers.
+                                                                         124
+
+E. Ikeda et al.                                                                                   Journal of Transport & Health 9 (2018) 117–131
+Table 4
+Final multiple variable model for odds of using active travel to school.
+  Variable                                           Category                        OR                 95% CI                        p-value
+  Age (years)                                        5–12                            1.00                                             0.26
+                                                     13                              0.89               (0.39,  2.02)
+                                                     14                              0.99               (0.44,  2.19)
+                                                     15                              1.20               (0.54,  2.63)
+                                                     16                              1.16               (0.51,  2.59)
+                                                     17+                             0.81               (0.35,  1.84)
+  Sex                                                Male                            1.00                                             0.01
+                                                     Female                          0.79               (0.64, 0.95)
+  Ethnicity                                          New Zealand European            1.00                                             0.15
+                                                     Maori                           1.04               (0.71,  1.52)
+                                                     Paci<U+FB01>c                          0.68               (0.46,  1.00)
+                                                     Asian                           0.73               (0.49,  1.07)
+                                                     Other                           1.05               (0.73,  1.51)
+  Number of siblings (n)                             0                               1.00                                             0.02
+                                                     1                               0.69               (0.48,  0.96)
+                                                     2                               0.90               (0.62,  1.27)
+                                                     3                               0.76               (0.51,  1.13)
+                                                     4+                              1.08               (0.72,  1.61)
+  School decile                                      1–3 (lower SES)                 1.18               (0.78, 1.79)                  0.001
+                                                     4–7                             1.54               (1.22, 1.95)
+                                                     8–10 (higher SES)               1.00
+  Distance to school (km)                            Q1  ( < 1.3)                    1.00                                              < 0.001
+                                                     Q2  (1.3 to < 2.3)              0.29               (0.22, 0.37)
+                                                     Q3  (2.3 to < 4.2)              0.07               (0.05, 0.09)
+                                                     Q4  (=4.2)                      0.01               (0.00, 0.01)
+  Intersection density (km2; 1 km bu<U+FB00>er)             Q1 (Low density)                1.00                                              < 0.001
+                                                     Q2                              1.74               (1.27, 2.38)
+                                                     Q3                              2.18               (1.57, 3.02)
+                                                     Q4 (High density)               2.86               (1.95, 4.17)
+  Dwelling density (km2; 1 km bu<U+FB00>er)                 Q1 (Low density)                1.00                                             0.004
+                                                     Q2                              0.59               (0.42, 0.81)
+                                                     Q3                              0.58               (0.41, 0.80)
+                                                     Q4 (High density)               0.56               (0.39, 0.80)
+Note. All modelling adjusted for study e<U+FB00>ects. CI = con<U+FB01>dence interval, N = number, OR = odds ratio, SES = socioeconomic status.
+4.3. Dwelling density
+     A somewhat counterintuitive <U+FB01>nding emerged in relation to dwelling density, whereby increased dwelling density (using a 1 km
+bu<U+FB00>er only) was associated with reduced rates of ATS in children and youth. With the exception of the KITC study, all studies showed
+a trend towards reduced ATS with increasing dwelling density. It is possible the di<U+FB00>erences observed for the KITC study were due to
+the comparatively smaller sample size (compared to other included studies), and the focus on medium-to-high density neighbour-
+hoods in this project (Oliver et al., 2011). Overall, the <U+FB01>ndings for dwelling density are in contrast with earlier research showing
+positive relationships with ATS (Carlson et al., 2014; Kerr et al., 2006; Larsen et al., 2009). To investigate this further, inter-
+relationships between the built environment variables were considered in modelling associations with ATS (data available on re-
+quest). An interesting pattern was observed, whereby there was some evidence for an interaction e<U+FB00>ect for dwelling density and
+distance to school. In particular, <U+FB01>ndings indicated that a combination of low dwelling density and low distance to school may be
+positively related to ATS. It is likely that the short distance to school overrode the impact of dwelling density on this relationship, so
+these <U+FB01>ndings must be interpreted with caution. Further investigation into the links between neighbourhood density, tra<U+FB03>c volumes,
+road safety and ATS is warranted. It is possible that the relationship for dwelling density is curvilinear, with neighbourhoods of
+extremely low dwelling density (e.g., in rural areas, also characterised as having low walkability overall (Hansen et al., 2015)) and
+extremely high dwelling density (e.g., apartment blocks in central city areas) o<U+FB00>ering little in the way of supporting ATS.
+4.4. School characteristics
+     Neighbourhood-level socio-economic status was associated with ATS, with individuals attending higher decile (higher socio-
+economic status) schools being signi<U+FB01>cantly less likely to travel actively compared to those attending lower decile schools. Economic
+                                                                         125
+
+E. Ikeda et al.                                                                                          Journal of Transport & Health 9 (2018) 117–131
+Fig. 2. Forest plot comparing quartile 1 with quartiles 2, 3, and 4 for distance to school, dwelling density (1 km bu<U+FB00>er), and intersection density
+(1 km bu<U+FB00>er) associations with active travel to school. BEANZ = Built Environment and Adolescent New Zealanders, BEATS = Built Environment
+and Active Transport to School, KITC = Kids in the City, PIF = Paci<U+FB01>c Islands Families, URBAN = Understanding the Relationship between Activity
+and Neighbourhoods.
+factors contributing to ATS can include car ownership (Mandic et al., 2015) and access, and employment status of parents/caregivers
+(Lin et al., 2017). It is possible these factors contributed to higher ATS in children and youth residing in lower socio-economic
+neighbourhoods. However, it was not possible to include these factors in modelling due to di<U+FB00>erences in measures taken across
+studies.
+4.5. Individual characteristics
+     Age, sex, ethnicity and number of siblings were retained in the <U+FB01>nal model as <U+FB01>xed e<U+FB00>ects, irrespective of statistical signi<U+FB01>cance.
+Consistent with previous research (Larsen et al., 2016; Yu and Zhu, 2016), females were less likely to use ATS than their male peers.
+In contrast to our expectations, no signi<U+FB01>cant relationships were observed for the other <U+FB01>xed e<U+FB00>ects. In the New Zealand context,
+children of Maori, Paci<U+FB01>c Island, and “other” ethnicities have reported higher ATS than their New Zealand European counterparts
+(Yelavich et al., 2008). This was not the case in the current research. It is hypothesised that socio-economic deprivation (as observed
+with the school decile being one of the signi<U+FB01>cant associations of ATS) may have a greater impact on ATS than ethnicity. Meaning
+that when socio-economic factors are taken into account, the e<U+FB00>ect of ethnicity could be negligible. Compared with participants with
+no siblings, those with one sibling were less likely to use ATS, and the relationship was not statistically signi<U+FB01>cant for those with two
+or more siblings. Earlier New Zealand research has shown a positive impact of having older siblings in the household on children's
+independent mobility (Lin et al., 2017). It is likely that a similar pattern existed in the research included here, but it was not possible
+to account for age of siblings in this analysis as those data were not measured across all studies.
+4.6. Limitations and other considerations for active school travel in children and youth
+     The heterogeneity in study designs and variables measured across included studies limited our ability to consider a range of
+factors that may have been important in modelling the relationship between ATS and the neighbourhood built environment. Firstly,
+due to di<U+FB00>erent measures used for mode of travel to school across the studies, only a dichotomous category of active versus passive
+travel was employed in the meta-analysis, preventing the examination of individual travel modes such as walking versus cycling
+(Mandic et al., 2017a; Trapp et al., 2011). In terms of the objective built environment, pedestrian and cyclist infrastructure and
+destination accessibility were not able to be examined in the current study. Pedestrian infrastructure and tra<U+FB03>c calming along routes
+to school, such as constructing sidewalks and cycle lanes have shown promise for increasing children's ATS (Boarnet et al., 2005; Kim
+and Heinrich, 2016). However, con<U+FB02>icting associations exist—particularly for increasing the uptake of cycling (Pucher et al., 2010).
+Crossing streets can be perceived as a dangerous activity for children, especially when crossing main or busy streets, and particularly
+for young children. Indeed, an Australian survey showed that parents viewed road crossings to school and tra<U+FB03>c calming around the
+school entrance as major factors in<U+FB02>uencing their decision about their child's mode of travel to school (Cole et al., 2007). Children
+who had to cross a main street on the route to school were more likely to be driven to school than to walk or cycle (Bringolf-Isler
+et al., 2008). A recent systematic review found strong evidence for the impact of multiple streetscape components (including two or
+more of: crosswalk/sidewalk improvements, improved/covered bike parking, tra<U+FB03>c calming features and safe places to walk) on
+children's active travel (to school and other destinations) (Smith et al., 2017). Other features such as topography may also impact
+                                                                        126
+
+E. Ikeda et al.                                                                                    Journal of Transport & Health 9 (2018) 117–131
+decision-making around school travel modes and routes, but little is known in this area (Stewart et al., 2017b; Timperio et al., 2006).
+In the New Zealand context, cycling to secondary school is less common than walking, is perceived as less safe, and receives less
+infrastructure and social support compared to walking (Mandic et al., 2017a). However, regional di<U+FB00>erences exists within New
+Zealand (Frater et al., 2017). Further work in this area is needed to identify speci<U+FB01>c environmental factors that generate the greatest
+impact on children's walking and cycling to school behaviours and active travel in general.
+     Collectively, population density, street connectivity, pedestrian and cycling infrastructure, and destination diversity a<U+FB00>ect overall
+accessibility to destinations, or how easily a range of destinations can be reached on foot or by bicycle (Vale et al., 2016). There are a
+number of objective (e.g., a spatially-derived indices) or subjective (e.g., questionnaires) measures that have been developed and
+used to assess the walking potential of an area, such as the Walkability Index and Walk Score (Vale et al., 2016). However, measuring
+how conducive an environment is for children's walking or cycling is less developed. Most recently a child-speci<U+FB01>c neighbourhood
+destination accessibility index (NDAI-C) was developed in New Zealand (Badland et al., 2015) which has been associated with active
+travel modes on weekdays (Oliver et al., 2015). To some extent, the measure of land use mix used in the current study provides an
+indicator of diversity of destination types in the neighbourhood, but this does not capture information about destinations of speci<U+FB01>c
+importance to children, or the number of destinations within a region. Future research examining destination accessibility in relation
+to children's and adolescents’ travel behaviours is needed.
+     A number of social and perceived variables such as encouragement and supports for ATS were not included in this study, but may
+be important in understanding associations between the built environment and ATS. Firstly, neighbourhood self-selection may impact
+travel behaviours (Cao et al., 2009), but was not measured in the current study. In New Zealand, school choice decisions are
+in<U+FB02>uenced by social factors and school programmes/facilities rather than proximity to home (Mandic et al., 2017c) and have im-
+portant implications for ATS to secondary schools, particularly in higher socioeconomic status areas. One New Zealand study showed
+that adolescents who enrolled in the closest school to home had <U+FB01>ve times higher rates of ATS and lower rates of motorised travel to
+school compared to their counterparts (Mandic et al., 2017b). Thus choice of neighbourhood, and choice of school, assuming families
+are able to make these choices, can have substantial impacts on the likelihood of ATS in children and young people.
+     One of the most commonly reported barriers to ATS for children and young people is parental perceptions of neighbourhood
+safety (Egli et al., in press; Hinckson, 2016; Yeung et al., 2008). Research from the US shows parental perceptions of neighbourhood
+safety and attitudes towards ATS had a greater in<U+FB02>uence on children's ATS behaviours than physical environment (i.e., presence of
+sidewalks) (McMillan, 2007). Speci<U+FB01>c barriers to uptake of ATS, combining the social and physical environment, include high tra<U+FB03>c
+volume and speed, poor visibility, unsafe or inadequate road crossings, dangerous driving and parking, stranger-danger, and fear of
+crime (Giles-Corti et al., 2009; Kerr et al., 2006; McMillan, 2007). In addition, cycling is perceived to be a less safe mode of travel to
+school compared to walking by New Zealand adolescents (Mandic et al., 2017a). Giles-Corti et al. (2009) viewed the integral role of
+parents as ‘gatekeepers’ of children's travel mode choice and travel behaviours. While crime and stranger-danger in New Zealand
+have not increased over time (New Zealand Police, 2015), parental concerns about tra<U+FB03>c safety are justi<U+FB01>ed, with a substantially
+increased risk of tra<U+FB03>c-related injuries and deaths for child pedestrians and cyclists (Sonkin et al., 2006; Statistics New Zealand,
+2017c).
+4.7. Strengths and implications
+     A strength of the current study was the use of consistent approaches to neighbourhood bu<U+FB00>er development and subsequent
+generation of objective built environment measures across studies. The choice of bu<U+FB00>ers depends on the type of environmental
+exposures being measured, and the level of spatial interactions (i.e., potential or actual) to capture (Chaix et al., 2012; Thornton et al.,
+2011). When examining the e<U+FB00>ects of contextual in<U+FB02>uences on ATS, fundamental methodological issues arise, namely the modi<U+FB01>able
+area unit problem (MAUP) and the uncertain geographic context problem (UGCoP). The MAUP and UGCoP refer to the e<U+FB00>ects of
+spatial scale and zoning versus spatial and temporal uncertainty of the contextual in<U+FB02>uences (Clark and Scott, 2014; Kwan, 2012;
+Openshaw, 1979; Vale et al., 2016). Discrepancies in spatial units across studies may hinder comparisons between research <U+FB01>ndings
+because the e<U+FB00>ects of the contextual variables may change depending on the geographic areas de<U+FB01>ned in the studies.
+     Another strength of this study was the systematic approach to identifying studies for inclusion in this meta-analysis. Data could
+not be retrieved for three of the eight eligible studies, resulting in the potential for bias in terms of geographic and demographic
+representation. However, we believe the potential for bias was small, with the <U+FB01>nal dataset for this study including 2844 participants
+residing in four major cities across New Zealand. Ultimately, this research has enabled greater statistical power than with individual
+studies, and greater con<U+FB01>dence in the representativeness of the <U+FB01>ndings for children and youth residing in New Zealand cities.
+Reporting bias of individual studies was negligible, with all included studies having published protocols. Opportunities exist for
+future research to explore the impact of the built environment on di<U+FB00>erent travel modes such as walking vs. cycling and car vs. public
+transport (e.g., mixed travel modes (Stewart et al., 2017b): buses, trains, ferries) to pro<U+FB01>le and understand these associates and
+behaviours. For example, information on cycling to school may highlight a need for new cycling infrastructure and safety strategies
+for children and younger people, and develop policy and programmes for this population (Mandic et al., 2018a, 2018b).
+5. Conclusion
+     In this large study of New Zealand children and youth, signi<U+FB01>cant negative relationships were observed between the likelihood of
+ATS and distance to school, dwelling density and school scioeconomic status. Odds of ATS were positively associated with inter-
+section density. The <U+FB01>ndings of this meta-analysis suggest that factors that in<U+FB02>uence distance to school such as school location and
+                                                                     127
+

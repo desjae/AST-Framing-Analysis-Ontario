@@ -1,0 +1,586 @@
+Built Environment and School Travel
+Mode Choice in Toronto, Canada
+Raktim Mitra, Ron N. Buliung, and Matthew J. Roorda
+Walking to or from school may provide a regular source of physical                  (7, 9). Public health and planning interventions tailored to promote
+activity for children and youth. To improve walking practices among this            the use of active transportation at an earlier stage of childhood devel-
+younger population, urban planners emphasize the importance of built                opment could provide a mechanism to encourage lifelong patterns
+environment interventions. Empirical understanding of the potential                 of active mobility, acting as a preventive force against the rising tide
+relationship between the built environment and active school transporta-            of overweight and obesity in children and youth.
+tion (e.g., walking) is therefore essential to the development of effective            Urban land use and transport planners have responded to this policy
+planning interventions. In the nexus of empiricism and policy, place-based          debate by occasionally questioning, and in some cases accepting as
+differences in school transport policy and urbanization processes, which            conventional wisdom, that the built environment directly influences
+may associate with mode choice, provide the rationale for conducting                travel decisions. In the United States, for example, the Safe Routes
+local research to support local policy development. This study examines             to School (SR2S) program advocates improving the built environ-
+the association between the built environment and the likelihood of                 ment along school routes and enhancing pedestrian and bicycle
+walking or being driven to or from school. The research also addresses              facilities (10). More recently, the draft Leadership in Energy and
+differences in mode choice behavior across morning and afternoon school             Environmental Design for Neighborhood Development rating sys-
+trips. Binomial logit models were specified to study the school travel              tem requires that compact and mixed-use neighborhoods be located
+outcomes of children aged 11 to 13 years in the city of Toronto, Canada.            close to schools to promote walking among children (11). In Canada,
+Distance between the residence and school had the strongest correlation             the Ontario Professional Planners Institute has argued that the prac-
+with mode choice; other built environment measures had moderate asso-               tice of transport and land use planning should place the needs of
+ciations with walking. Importantly, the built environment around a child’s          children on a par with the needs of other demographic cohorts and
+residence had a stronger association with mode choice than did the built            businesses (2, 12). This emerging child- and youth-friendly turn in
+environment around the school. Furthermore, the effect of the built                 planning practice has arguably occurred in advance of conclusive
+environment was more apparent for home-to-school trips. This research               and generalizable knowledge about the relationship between children,
+provides evidence that the built environment may influence school travel            youth, the built environment, and travel demand (13).
+mode choice, but planners and community-based organizations should                     The research described here explores school transportation in the
+exercise caution when the nature of interventions required to encourage             city of Toronto, Canada, and contributes to the emerging school
+walking among children is determined.                                               transport literature by examining two research questions:
+                                                                                       • What is the association between the built environment and a
+Attending school is the most common reason children and youth travel                child’s likelihood of walking or being driven to or from school?
+during weekdays in the school year (1, 2). For these young people,                     • Are there any differences in what and how built environment
+the use of active transportation modes, such as walking or cycling,                 characteristics correlate with school travel mode choice across
+for school travel may provide a consistent source of physical activ-                morning (home-to-school) and afternoon (school-to-home) trips?
+ity. As childhood obesity rates rise across North America (3, 4),
+researchers, governments, and practitioners have acknowledged the                      The majority of school travel studies examine trips to school
+importance of walking and cycling in preventing excessive weight                    (13–16). Drawing a distinction between morning and afternoon
+gain (2, 5–8). Perhaps what is more important is that lifelong patterns             school travel (i.e., trips to and from school) and attempting to expose
+of physical activity be established in childhood; and speculatively,                the differential effects of school travel correlates across the two time
+children who are regularly driven to and from school could be less                  periods are important, given consistent reports of more walking from
+likely to appreciate the benefits of an active lifestyle into adulthood             school to home in the afternoon (17–19). The diagnosis of differential
+                                                                                    effects across time suggests that planning interventions could produce
+R. Mitra, Program in Planning, Department of Geography and Planning, Univer-        unintended results at different points in time.
+sity of Toronto, 100 Saint George Street, Toronto, Ontario M5S 3G3, Canada.            This research will advance the understanding of the relationship
+R. N. Buliung, Department of Geography, University of Toronto, Mississauga,
+                                                                                    between the built environment and school travel mode choice and
+3359 Mississauga Road North, South Building, Mississauga, Ontario L5L 1C6,
+Canada. M. J. Roorda, Department of Civil Engineering, University of Toronto,       will also provide critically important, policy-relevant data on school
+35 Saint George Street, Toronto, Ontario M5S 1A4, Canada. Corresponding author:     travel in the Canadian context. This last issue is important on two
+R. Mitra, raktim.mitra@utoronto.ca.                                                 fronts: first, the work represents the beginning of a process aimed at
+                                                                                    looking at school travel through a comparative lens, with a view to
+Transportation Research Record: Journal of the Transportation Research Board,
+No. 2156, Transportation Research Board of the National Academies, Washington,
+                                                                                    assessing the generalizability of findings from school travel studies
+D.C., 2010, pp. 150–159.                                                            conducted in the United States; and second, this research begins to
+DOI: 10.3141/2156-17                                                                develop domestic knowledge on the subject of school travel to inform
+                                                                                150
+
+Mitra, Buliung, and Roorda                                                                                                                                       151
+policy development in the city of Toronto. Findings from this study                    few links between the built environment and children’s mobility
+could assist urban planners, health practitioners, and community-based                 (15, 18, 24). It is conceivable that dense, mixed-use, pedestrian-
+organizations who are interested in developing and understanding                       friendly environments influence adult walking for discretionary
+the efficacy of built environment interventions intended to encourage                  trips by providing more destinations close by (i.e., an increase in
+active school travel.                                                                  accessibility), reduce overall travel distance, and make the pedestrian
+                                                                                       trip psychologically more attractive. But given that both the school
+                                                                                       location and school travel routes are relatively fixed, it remains less
+SCHOOL TRAVEL AND THE BUILT ENVIRONMENT                                                clear how the built environment may enable school-related walking.
+                                                                                       School transportation research requires the development of a theo-
+School location has played a central role in the conceptualization of                  retical foundation that is not entirely bound up in what is known
+planned neighborhoods in the United States since the 1920s and in                      about the travel behavior of adults. On the basis of current empiri-
+Canada beginning with the neighborhood plans of the World War II                       cal evidence and informed somewhat by theoretical research on both
+years, which would later be followed by the corporate suburbs of the                   adults’ and children’s travel (13, 26), five conceptual domains were
+postwar era (20, 21). Close proximity between the school and resi-                     identified to articulate the ways in which the built environment may
+dential locations and safety from motorized traffic are two conceptual                 moderate the decision to take an active mode (i.e., walking) to and
+properties of the planned neighborhood that may have implications for                  from school (Table 1).
+a child’s mobility and mode choice within a neighborhood. Empirical
+studies of school travel mode choice have often reported distance and
+travel cost to be the most important correlates of a child’s mode for                  STUDY DESIGN
+school transportation (14–16, 19, 22–24). Findings appear to be mixed
+about the influence of street connectivity and traffic safety on mode                  The purpose of this research is to explore the association between
+choice. Some researchers have reported walking to be positively                        the built environment and a child’s likelihood of walking or being
+associated with the availability of sidewalks (15, 25), intersection                   driven to or from school. The general hypothesis is that after house-
+density (19), and parental attitudes toward safety (13, 23, 25), whereas               hold and personal characteristics are controlled for, the built envi-
+others have found evidence to the contrary (13, 18).                                   ronment remains an important contributing factor in determining
+   With regard to other built environment characteristics, some                        whether a child is walking or being driven on the way to school or
+studies indicated that walking is more likely among children living                    on his or her way home. Failure to reject this hypothesis could provide
+in dense (16, 24), mixed-use (13, 18) and street-oriented neighbor-                    some evidence that planning interventions into the built environment
+hoods (i.e., houses with street-facing windows) (13); others found                     may increase walking among children and youth.
+TABLE 1     Built Environment and Active School Travel: Hypothetical Domains
+Conceptual Domain                 Description
+Cost                              Distance between home and school appears to influence school travel mode choice. The odds of walking decrease with
+                                     travel distance.
+Connectivity                      Better connectivity between home and the school may provide a more direct route to school and reduce travel distance. For
+                                     example, smaller residential blocks, an interconnected street network (e.g., four-way intersections), and the availability
+                                     of sidewalks may present households with an enabling environment, one that encourages more walking among children.
+                                     Mixed land use provides connectivity between destinations, and increases the options for trip chaining, which may be
+                                     particularly important in determining mode choice when a child is traveling with parents or caregivers.
+Traffic and pedestrian safety     Traffic and personal safety concerns are often reported as major barriers to a child’s walking to and from school. Sidewalks
+                                     may enhance the perception of traffic safety, while busy streets and (busy) intersections could discourage walking.
+                                     Personal safety is relatively difficult to measure objectively and is often indirectly manifested through social qualities
+                                     of the neighborhood environment. For example, a child (or the parents or caregivers) may walk more if other people are
+                                     walking on neighborhood streets. Although North American research is scarce, Waygood and Kitamura’s (27) study
+                                     of children in Osaka, Japan, found that the likelihood of independent mobility increased with the odds of coming across
+                                     known persons on streets. The quantity and quality of the land use mix (e.g., number and urban design aspects) may
+                                     also influence a child’s walking. The presence of street-level retail in the neighborhood places “eyes on street” and may
+                                     increase pedestrian comfort. Larger retail centers or employment districts, on the contrary, may discourage walking
+                                     school trips, particularly when a child is not accompanied by an adult, due to both traffic (e.g., too busy, too many vehicles)
+                                     and personal safety (e.g., “stranger danger”) concerns.
+Comfort and enjoyment             Travel route aesthetics may encourage walking (escorted or otherwise) over automobile use (25). Presence of open space or
+                                     parks along routes to and from school, tree-lined streets, smaller neighborhood blocks, and pedestrian-oriented buildings
+                                     and houses, for example, may enhance the enjoyment of walking or make it easier to navigate the built environment
+                                     between the home and school.
+Social capital                    Since the 1920s, planners have argued in favor of walking in local streets to encourage social interaction (20). The opportu-
+                                     nity to produce social capital may be an important yet poorly understood motivation for walking among adults and
+                                     children. While the social capital motive seems to have resonated through time in planning discourse, empirical research
+                                     in transportation that has explored the social capital dimension has been relatively scarce (26, 28). Some research sug-
+                                     gests that a household’s intention to develop social capital may be lower within suburban neighborhoods (26). With
+                                     regard to children’s travel, Waygood and Kitamura (27) argued that land use mix, and more people on streets may
+                                     increase the level of community cohesion (i.e., perhaps a latent indicator of social capital), which may in turn positively
+                                     influence a child’s independent mobility, and, conceivably, walking.
+
+152                                                                                                          Transportation Research Record 2156
+   The city of Toronto was chosen as the study area because of the         TABLE 2 Hypothesized Relationship Between
+variability it offers in terms of neighborhoods, which are often           Independent Variables and Walking
+identified in both the popular and academic literature as offering
+built environments that either enable or restrict the use of active                                                                          Hypothesized
+                                                                                                                                             Direction of
+transportation for school or other activities. Toronto’s urban, inner-     Variable                                                          Relationship
+suburban, and suburban places have developed alongside the rise of
+professional planning in Canada and capture some of the nation’s           Sociodemographics
+earliest experiments with the planned built form (21). The pre-1998        AGE: age of a child (11–13 years)                                        +
+city limits include what are typically considered traditional neighbor-    SEX: sex of a child (1 if male, 0 if female)                             +
+hoods with retail and employment-related land uses located along
+                                                                           CHILD: number of school-age children below driving                       +
+main streets. A series of near and complete political amalgamations           age (4–15 years) in the household
+since 1998 brought a mix of modernist suburban neighborhoods into
+                                                                           VEH_LIC: number of vehicles in the household per                         -
+expanded city limits. As a result, residential communities in Toronto         licensed driver
+now range from compact mixed-use neighborhoods, to single-use              FUL_EMP: number of full-time employees per adult                         -
+high-rise communities, to postwar suburban-style developments.                household member (ages 18 to 65 years)
+   Within Toronto’s diverse built environment, the major school            UNEMP: unemployed adult household members (1 if                          +
+boards (Toronto District School Board and Toronto Catholic Dis-               there are any, 0 otherwise)
+trict School Board) maintain small school catchment areas; 80% of          Built Environment
+children 11 to 13 years of age travel less than 3 km (1.86 mi) for school
+(each way, straight-line distance) (29). Since most students live within   DISTANCE: straight-line trip distance between the                        -
+                                                                              home and school (km)
+walking distance of their schools, the diversity of Toronto’s resi-
+                                                                           POP_DSTY: population density of the TAZ of a child’s                     +
+dential environment offers an excellent opportunity to explore the            residence or school
+influence of the built environment on children’s school travel.
+                                                                           MAJOR: number of major road intersections (3 susp. or                    -
+                                                                              4-way) within a 400-m radius of a child’s residence or
+                                                                              school location. Major roads include primary highway,
+Data                                                                          secondary highway, and major and arterial roads
+                                                                           LOCAL: number of 4-way local street intersections                        +
+School travel data were taken from the 2001 Transportation Tomorrow           within a 400-m radius of a child’s residence
+Survey (TTS), which is a repeated cross-sectional survey of travel            or school location. Local streets include local
+                                                                              neighborhood roads
+behavior conducted in Southern Ontario, Canada, and includes data
+for the city of Toronto. The 2001 TTS surveyed 5% of the households        BLOCK: number of street-blocks within a 400-m                            +
+                                                                              radius of a child’s residence or school location
+in the study area. A computer-assisted telephone interview procedure
+                                                                           DIST_CBD: distance between the Toronto CBD and                           -
+was applied to collect household travel data (e.g., origin and desti-
+                                                                              the TAZ of a child’s residence or school
+nation of trips, trip start time, purpose, primary mode of transportation)
+                                                                           RET_BAL: ratio of sales and service employment to                       +/-
+for a randomly selected weekday in the fall or spring of the year             the population, in the TAZ of a child’s residence
+(29, 30). All trips by household members aged 11 years and older              or school
+associated with the day before the interview were proxy-reported by        JOB_BAL: ratio of manufacturing/trade/office/                            -
+an adult household member. The survey did not ask for self-reported           professional employment to the population, in the
+trip distances. Rather, straight-line distance between each origin and        TAZ of a child’s residence or school
+destination was calculated and is reported in kilometers.                  MEDHHINC: median household income of the DA of                           -
+   The existing literature on children’s school travel patterns in the        a child’s residence or school
+Greater Toronto Area showed that when compared with older youth,           WALK_DSTY: walking density-total work and school                         +
+11- to 13-year-olds tend to walk more for school trips. As a result, this     related walking trips produced by residents of a
+study explored mode choice for children aged 11 to 13 years (17).             child’s home or school TAZ, normalized by per
+                                                                              square kilometer of area
+With respect to school travel, the home-to-school trips (the time
+interval 0600 to 0929 h included 99.5% of the morning trips) and           NOTE: “Residence or school” indicates that the variable has been estimated
+school-to-home trips (the time interval 1400 to 0629 h included            separately for the home and the school location. TAZ = traffic analysis zone,
+96.5% of the afternoon trips) were extracted from the 2001 TTS             CBD = central business district, and DA = dissemination area.
+data separately, with information on the school travel modes, trip
+distance, and sociodemographic descriptors for children and their
+households. The initial data set included 4,009 home-to-school             economic status on school travel modes is indirect, through employ-
+trips and 4,000 school-to-home trips by 3,767 households. Fewer            ment composition of the household and access to vehicles, which
+trips were reported in the afternoon period; possible reasons for this     were explored in this research. In addition, the overall income com-
+discrepancy can include reporting error, the absence of trips during       position of the census dissemination area (DA) of a child’s residence
+the sampled time interval, or trips made by children elsewhere after       and school location was included in the analysis. Beyond the expected
+school rather than returning directly home.                                demographic effects, empirical studies of school travel suggest that
+   The 2001 TTS provided some demographic information on the               the built environment near the household (18, 25), near the school
+households producing the school trips; variables such as age, sex,         (13, 18), and along the travel route (19) associate with walking mode
+number of children in the household, vehicles per licensed driver,         choice. In this research, and similar to that by Ewing et al. (15) and
+and employment status were available (Table 2). Household income           Larsen et al. (18), built environment characteristics were explored
+data are not included as part of the survey (31). Although this limi-      at the residence and school ends of the trip (Table 2). Each built
+tation is acknowledged, perhaps the potential effect of a household’s      environment variable can be linked with one or more of the five
+
+Mitra, Buliung, and Roorda                                                                                                                    153
+conceptual domains of the built environment described in Table 1.        where
+Although the social capital concept was not measured directly, the
+                                                                                  aj = alternative-specific constant for mode j,
+variables DIST_CBD and WALK_DSTY represent the availability
+                                                                                  Xn = distance between residence and school for child n taking
+(or absence) of environments that may enable the production or
+                                                                                         mode j,
+maintenance of social capital.
+                                                                                  Yn = built environment characteristics around home or school
+   Land use mix around the residence and school was derived by using
+                                                                                         location,
+TTS data on the number of work-trip ends in each traffic analysis
+                                                                                  Zn = sociodemographic characteristics of child n and his or her
+zone (TAZ). Within the city of Toronto, the mean size of a TAZ is
+                                                                                         household,
+1.31 km2 (0.51 mi2) with a standard deviation of 0.94 km2 (0.36 mi2).
+                                                                            ß, d, <U+03B3> = vectors of parameter estimates corresponding with each
+The TAZs are typically smaller than the city’s designated neighbor-
+hood boundaries. Each neighborhood, on average, includes three                           variable category (e.g., distance, the built environment,
+                                     –                                                   and sociodemographics), and
+TAZs, with some variation (X = 3.44 zones, SD = 2.33 zones). TTS
+trip data were used to calculate the total number of daily work- and              <U+2440>nj = extreme-value error vector specific to child n and mode j.
+school-related trips taken by all residents living in a TAZ. For each       Vnj, then, is the observed utility of mode j to a child n, which is
+TAZ, distance to Toronto’s central business district (CBD) was           specified here as the sum of components related to distance, the built
+calculated by using Toronto’s street network file, obtained from the     environment, and the sociodemographic characteristics. Assuming
+DMTI Spatial, Inc. CanMap Route Logistics Subset 6.2 (2002).             that the error term <U+2440>nj is independently and identically distributed (iid)
+   In acknowledgment of Toronto’s diverse socioeconomic landscape,       across choice alternatives and households, the probability that a
+aggregated household income was studied at a smaller geographic          child n chooses mode j from an observed set of alternatives can be
+scale than the TAZ; median household income at the scale of census       expressed by the following equation:
+DA was obtained from the 2001 population census of Canada. Street
+network characteristics (i.e., intersection density, number of street                  exp ( Vnj )
+blocks) were measured within a 400-m (0.25-mi) straight-line radius      Pn ( j ) =
+                                                                                    <U+2211>        exp ( Vnl )
+around a child’s home and school location. Assuming an average                          l <U+2208>J
+walking speed of 5 km/h (3 mph) (15, 32), the 400-m radius is equiv-
+alent to a 5-min walking distance around a child’s residence or the      where J is the known choice set for, in this case, a school trip and
+school. To calculate intersection density, the DMTI CanMap               includes only two alternatives l, walking or being driven in a
+Route Logistics file was used. Using data for urban blocks taken from    private automobile (by household adults or in a neighborhood
+the 2001 population census of Canada, block density was estimated        carpool). In future work, the choice set will be broadened to consider
+within a 400-m radial distance of each child’s home and school           multioccupant modes such as the school bus and public transit.
+location.
+                                                                         Model Estimation
+Model Specification
+                                                                         Informed by the school transport literature (15,16), this research
+A binomial logit modeling approach was used to comparatively             assumed that beyond a distance of 5 km (i.e., a 1-h walk for a
+explore the correlates of walking versus driving from home to school     child), the choice set becomes restricted to motorized transport
+in the morning (0600 to 0929 h) and then walking versus driving          only. Therefore, only children living within 5 km (3 mi) from their
+from school to home in the afternoon (1400 to 1829 h). Although          school were considered for modeling purposes. The same set of
+the unobserved effects of walking and cycling modes could be cor-        households was included for both morning and afternoon school
+related, cycling constitutes only 1.3% of all school trips in Toronto    travel to explore potential temporal differences in the association
+by 11- to 13-year-old children (17), and therefore excluding cycling     between mode choice and its correlates. After adjustment for missing
+is expected to have little impact on the model results. Furthermore,     data and outliers, the final data set included 2,729 home-to-school
+the purpose of this research is to draw a comparison across trans-       trips (nwalk = 1,922 and ncar = 807) and 2,712 school-to-home trips
+portation modes that are typically the focus of the debate on children’s (nwalk = 1,901 and ncar = 811).
+active commuting to school and physical activity. This study did not        As discussed earlier, 6 sociodemographic variables and 10 built
+examine other modes available to children and youth, such as the         environment characteristics around each home and school location
+school bus and public transit. Like other empirical research (13),       were initially measured for every school trip (Table 2). Following
+the intention here is to begin in an exploratory rather than predictive  Lee and Moudon (35), the variables were filtered by using a two-
+mode of inquiry, with a view to exposing the differential effects of     stage screening process before multivariate logit estimation. In the
+the built environment on walking or driving for school travel at         first stage, the degree of correlation between each of these potential
+different times of day.                                                  explanatory variables and the likelihood of walking was tested with
+   Within the adopted econometric modeling framework, a house-           bivariate logistic regression (Table 3); only those variables holding
+hold is assumed to select the mode that maximizes net benefits to        a statistical significance of p = .1 and showing the expected sign
+themselves when faced with a known set of alternative modes for          were included in the next step of the modeling process.
+school transportation (33, 34). Given a choice between different            Three out of six sociodemographic variables and most built envi-
+feasible modes, the utility function Unj for a particular mode j and     ronment variables had some correlation with mode choice. However,
+child n takes the following form:                                        the directions of the observed relationships were, in some cases,
+                                                                         contrary to initial expectations. For example, the number of children
+U nj = a j + ß j X n + d jYn + <U+03B3> j Z n + <U+2440> nj                            in the household (i.e., presence of siblings) was initially expected to
+                                                                         positively associate with walking school trips, since this situation
+     = Vnj + <U+2440> nj                                                        likely enables siblings to walk to and from school together. But the
+
+154                                                                                                                      Transportation Research Record 2156
+                                TABLE 3 Bivariate Correlation: Sociodemographics, the Built Environment,
+                                and Walking
+                                                                    Home-to-School Trips                 School-to-Home Trips
+                                                                                   Direction of                        Direction of
+                                Variable                            p-Value        Relationship         p-Value        Relationship
+                                AGE (reference: 11 year)
+                                  12 year                              .1                +                 .05                +
+                                  13 year                             >.1                                 >.1
+                                SEX (reference: female)
+                                  Male                                >.1                                 >.1
+                                CHILD                                  .05               -                 .05                -
+                                VEH_LIC                                .001              -                 .001               -
+                                FUL_EMP                               >.1                                 >.1
+                                UNEMP (reference: 0)
+                                  >0                                  >.1                                 >.1
+                                DISTANCE                               .001              -                 .001               -
+                                Built Environment at Residence
+                                POP_DSTY                               .001              +                 .001               +
+                                MAJOR                                  .001              +                 .001               +
+                                LOCAL                                  .05               -                 .05                -
+                                BLOCK                                  .001              +                 .001               +
+                                DIST_CBD                               .01               -                 .05                -
+                                RET_BAL (reference: <0.1)
+                                  >0.1                                 .01               -                 .01                -
+                                JOB_BAL (reference: <0.5)              .001              -                 .001               -
+                                  Between 0.5 and 1.5
+                                  >1.5                                >.1                                 >.1
+                                MEDHHINC                               .001              -                 .001               -
+                                WALK_DSTY                              .001              +                 .001               +
+                                Built Environment at School
+                                POP_DSTY                               .001              +                 .001               +
+                                MAJOR                                  .1                +                 .1                 +
+                                LOCAL                                 >.1                                 >.1
+                                BLOCK                                  .001              +                 .001               +
+                                DIST_CBD                               .05               -                 .05                -
+                                RET_BAL (reference: <0.1)
+                                  >0.1                                 .001              -                 .001               -
+                                JOB_BAL (reference: <0.5)              .001              -                 .001               -
+                                  Between 0.5 and 1.5
+                                  >1.5                                >.1                                 >.1
+                                MEDHHINC                               .001              -                 .001               -
+                                WALK_DSTY                              .001              +                 .001               +
+                                NOTE: Variables in italics were excluded in the multivariate logistic regression specification.
+bivariate regression demonstrated the opposite result. Although                       could suggest that the reduced traffic safety imposed by more street
+unexpected, this finding is not surprising, and at least one other North              crossings is more important in the mode choice decision than the
+American study has found similar results (22). Perhaps the finding                    improvements in connectivity that they offer. In contrast, intersection
+reflects the contemporary Western culture of idealized motherhood,                    density of major streets (MAJOR) was positively associated with
+in which there is less recognition and trust for the capability of siblings           the likelihood of walking, contrary to the initial expectation of a
+as caregivers (e.g., travel companions) to their younger brothers and                 negative correlation. Many of the larger intersections (i.e., four-way
+sisters (36). In a household with more than one child, driving instead                intersections of major streets) are likely signalized, offering a sense
+of walking to and from school may also be the preferred option for                    of safety that may encourage walking. Although such a hypothesis
+parents from the perspective of value of time and convenience,                        may partly explain the observed correlation, overall, this positive
+particularly when children attend different schools.                                  bivariate association was counterintuitive, and for this reason, the
+   With respect to street design, although the density of four-way                    variable MAJOR was removed from further analysis.
+local street intersections (LOCAL) was initially expected to associate                   The second stage of the filtering process involved an examination
+with more walking, a negative correlation was observed. This result                   of multicollinearity across variables. Since most of the sampled
+
+Mitra, Buliung, and Roorda                                                                                                                                         155
+students live close to their schools, the built environment variables                      pendent variables (Table 2). As a result, POP_DSTY was excluded
+around the residence and near the school were highly correlated                            in the final model specification.
+(r = 0.70 in most cases). To date, the spatial correlation of the built                       In the end, two sets of binomial logit models were estimated to
+environment variables between the school and home trip ends has                            explore the effects of the built environment on the choice between
+received little attention in the literature. Ewing et al. (15) considered                  walking and being driven. The first set of models examined a child’s
+the average built environment across the school and home locations.                        morning period (0600 to 0929 h) home-to-school trips, and the second
+Lee and Moudon (35) dealt with the issue more explicitly, but in the                       set explored mode choice for the afternoon period (1400 to 1829 h)
+context of adult walking. In this study, to overcome the collinearity                      school-to-home trips. Within each time period, models were also esti-
+problem, separate models were specified and estimated, one for the                         mated separately to examine home and school-end effects. The private
+built environment variables around the residence and the other for                         automobile was used as the reference mode, and the unconfounded
+the school. The correlation between built environment variables at                         influence of each of the sociodemographic and built environment
+the home or school end was weaker than was the case when no                                variables on the odds of walking over driving is reported.
+variable distinction was made by location. The only exception was
+the TAZ population density (POP_DSTY), which, for both the res-
+idence and school, was strongly associated (r > 0.85) with walking                         RESULTS AND DISCUSSION
+density (WALK_DSTY). Population density is often used in urban
+form–transportation research as an omnibus indicator of the com-                           The logistic regression results are summarized in Tables 4 and 5. The
+bined effect of access and land use mix; these more specific built                         convergence of the models was satisfactory; adding built environment
+environment characteristics were included in this analysis as inde-                        variables to an initially specified model with only sociodemographic
+   TABLE 4      Binomial Logistic Regression for Walking: Home-to-School Trips
+                                 Home Model                                                             School Model
+                                               Standard                        Odds Ratio for                        Standard                      Odds Ratio for
+   Variable                      Coeff.        Error           p-Value         Walking (95% CI)         Coeff.       Error          p-Value        Walking (95% CI)
+   AGE (ref.: 11 year)
+      12 year                      0.28           0.12            .02           1.32 (1.05–1.67)          0.29         0.12            .01         1.33 (1.06–1.68)
+      13 year                      0.22           0.12            .08           1.24 (0.98–1.58)          0.21         0.12            .09         1.23 (0.97–1.56)
+   CHILD                         -0.09            0.06            .16           0.92 (0.81–1.03)        -0.09          0.06            .15         0.91 (0.81–1.03)
+   VEH_LIC                       -0.92            0.12            .00           0.40 (0.31–0.51)        -1.01          0.12            .00         0.36 (0.29–0.46)
+   DISTANCE                      -1.26            0.07            .00           0.29 (0.25–0.33)        -1.26          0.07            .00         0.28 (0.25–0.32)
+   Built Environment at Residence
+   LOCAL                         -0.03            0.02            .13           0.97 (0.94–1.01)
+   BLOCK                           0.05           0.02            .03           1.05 (1.00–1.09)
+   DIST_CBD                        0.00           0.00            .26           1.00 (0.99–1.00)
+   BLOCK*DIST_CBD                -0.00            0.00            .02           0.99 (0.99–0.99)
+   RET_BAL (ref.: <.1)
+      >0.1                         0.29           0.32            .36           1.34 (0.72–2.49)
+   JOB_BAL (ref.: <0.5)
+      0.5<job/pop<1.5            -0.81            0.34            .02           0.44 (0.23–0.87)
+      >1.5                       -0.06            0.64            .93           0.96 (0.27-3.30)
+   MEDHHINC                      -0.00            0.00            .00           0.99 (0.99–0.99)
+   WALK_DSTY                       0.00           0.00            .04           1.00 (1.00–1.00)
+   Built Environment at School
+   BLOCK                                                                                                  0.01         0.02            .59         1.01 (0.97–1.05)
+   DIST_CBD                                                                                               0.00         0.00            .69         1.00 (0.99–1.00)
+   BLOCK*DIST_CBD                                                                                       -0.00          0.00            .26         0.99 (0.99–1.00)
+   RET_BAL (ref.: <.1)
+      >0.1                                                                                              -0.25          0.21            .25         0.78 (0.51–1.19)
+   JOB_BAL (ref.: <0.5)
+      0.5<job/pop<1.5                                                                                   -0.51          0.21            .01         0.60 (0.40–0.90)
+      >1.5                                                                                                0.26         0.45            .57         1.29 (0.53–3.13)
+   MEDHHINC                                                                                             -0.00          0.00            .02         0.99 (0.99–0.99)
+   WALK_DSTY                                                                                              0.00         0.00            .00         1.00 (1.00–1.00)
+   Intercept                       2.85           0.40            .00        17.32 (7.85–38.18)           2.99         0.42            .00        19.84 (8.63–45.6)
+   NOTE: Coefficients in bold are significant at p = .05. Coeff. = coefficient and CI = confidence interval. Home model: n, 2,729; null deviance: -2L[0], 3,314.0
+   (degrees of freedom = 2,728); residual deviance: -2L[B], 2,569.8 (degrees of freedom = 2,714); -2(L[0] - L[B]), 744.2 (p <.001);
+   McFadden <U+03C1>2, 0.225 (0.220 adjusted). School model: n, 2,729; null deviance: -2L[0], 3,314.0 (degrees of freedom = 2,728); residual deviance:
+   -2L[B], 2,590.3 (degrees of freedom = 2,715); -2(L[0] - L[B]), 723.7 (p <.001); McFadden <U+03C1>2, 0.218 (0.214 adjusted).
+
+156                                                                                                                       Transportation Research Record 2156
+   TABLE 5      Binomial Logistic Regression for Walking: School-to-Home Trips
+                                 Home Model                                                           School Model
+                                               Standard                     Odds Ratio for                          Standard                      Odds Ratio for
+   Variable                      Coeff.        Error          p-Value       Walking (95% CI)          Coeff.        Error         p-Value         Walking (95% CI)
+   AGE (ref.: 11 year)
+      12 year                      0.36           0.12          .003         1.44 (1.13–1.83)           0.36          0.12          .003          1.44 (1.13–1.83)
+      13 year                      0.32           0.12          .009         1.38 (1.08–1.76)           0.31          0.12          .01           1.36 (1.07–1.73)
+   CHILD                         -0.11            0.01          .09          0.90 (0.80–1.01)         -0.10           0.06          .15           0.91 (0.80–1.02)
+   VEH_LIC                       -0.94            0.13          .00          0.39 (0.30–0.50)         -1.03           0.12          .000          0.36 (0.28–0.45)
+   DISTANCE                      -1.26            0.07          .00          0.28 (0.25–0.32)         -1.27           0.07          .000          0.28 (0.25–0.32)
+   Built Environment at Residence
+   LOCAL                         -0.02            0.02          .21          0.99 (0.94–1.01)
+   BLOCK                           0.04           0.02          .053         1.04 (0.99–1.09)
+   DIST_CBD                        0.00           0.00          .20          1.00 (0.99–1.00)
+   BLOCK*DIST_CBD                -0.00            0.00          .02          0.99 (0.99–0.99)
+   RET_BAL (ref.: <.1)
+      >0.1                         0.23           0.32          .45          1.27 (0.68–2.37)
+   JOB_BAL (ref.: <0.5)
+      0.5<job/pop<1.5            -0.79            0.35          .02          0.46 (0.23–0.90)
+      >1.5                       -0.02            0.64          .98          0.98 (0.28–3.45)
+   MEDHHINC                      -0.00            0.00          .00          0.99 (0.99–0.99)
+   WALK_DSTY                       0.00           0.00          .03          1.00 (1.00–1.00)
+   Built Environment at School
+   BLOCK                                                                                              -0.01           0.02          .75           1.01 (0.97–1.05)
+   DIST_CBD                                                                                             0.00          0.00          .69           1.00 (0.99–1.00)
+   BLOCK*DIST_CBD                                                                                     -0.00           0.00          .31           0.99 (0.99–1.00)
+   RET_BAL (ref.: <.1)
+      >0.1                                                                                            -0.36           0.29          .21           0.70 (0.40–1.27)
+   JOB_BAL (ref.: <0.5)
+      0.5<job/pop<1.5                                                                                 -0.14           0.30          .64           0.87 (0.49–1.55)
+      >1.5                                                                                              0.61          0.59          .31           1.84 (0.57–5.88)
+   MEDHHINC                                                                                           -0.00           0.00          .007          0.99 (0.99–0.99)
+   WALK_DSTY                                                                                            0.00          0.00          .00           1.00 (1.00–1.00)
+   Intercept                       2.87           0.41          .00       17.64 (7.95–39.17)            3.01          0.43          .00        20.18 (8.71–46.73)
+   NOTE: Coefficients in bold are significant at p = .05. Home model: n, 2,712; null deviance: -2L[0], 3,308.9 (degrees of freedom = 2,711); residual deviance:
+   -2L[B], 2,548.0 (degrees of freedom = 2,697); -2(L[0] - L[B]), 760.9 (p <.001); McFadden <U+03C1>2, 0.230 (0.226 adjusted). School model: n, 2,712;
+   null deviance: -2L[0], 3,308.9 (degrees of freedom = 2,711); residual deviance: -2L[B], 2,578.0 (degrees of freedom = 2,698); -2(L[0] - L[B]),
+   730.9 (p <.001); McFadden <U+03C1>2, 0.221 (0.217 adjusted).
+variables and distance to school (not reported) improved the overall                     in the near term (37 ). In the United States, a similar trend has been
+model fit. The results indicated some association between the built                      observed during the past decades (19). Fewer in number, elementary
+environment around both home and school and a child’s likelihood                         schools now draw students from larger areas, reducing the proximity
+of walking to and from school; the built environment near the location                   between a child’s home and school location and likely discouraging
+of residence was more strongly correlated with mode choice than the                      walking. The potential impact of the economic rationalization of the
+built environment around the school. The association between the                         school system on mode choice and children’s physical activity levels
+built environment and mode choice also appeared to be stronger for                       should be the focus of some debate when governments and school
+morning trips; fewer built environment variables were associated                         boards contemplate school closures.
+with walking in the afternoon period.                                                       Some have argued that the neighborhoods around schools (partic-
+   As expected, the distance between the residence and school                            ularly new schools) should be planned with connected streets and an
+location emerged as the most important factor to explain walking as                      adequate supply of local roads (19). The data from this study suggest
+a mode choice for school transportation; a 1-km (0.62-mi) decrease in                    that some caution should be exercised before the wholesale wide-
+travel distance increased the odds of walking by 0.71 to 0.72 times                      spread adoption of such planning and engineering practices. The
+(Tables 4 and 5). This observation is particularly important given                       model results indicated that beyond proximity, the independent
+that since 1999, more than 200 schools were closed in the province                       effects of other built environment variables—those related to street
+of Ontario, Canada (37). In the city of Toronto, 16 public schools                       connectivity—on mode choice were at best moderate. Density of local
+were affected by this provincewide restructuring policy, and there is                    street intersections was uncorrelated with the choice of walking
+strong indication that additional neighborhood schools will be closed                    among children, whereas higher block density (i.e., smaller blocks)
+
+Mitra, Buliung, and Roorda                                                                                                                     157
+around a child’s residence appeared to encourage walking only for         neotraditional elements were de rigueur (e.g., during the 19th century)
+trips to school in the morning.                                           may not produce walking school trips at a rate comparable with
+   At least two previous studies reported a correlation between           the study area’s inner-urban neighborhoods.
+land use mix around the school location and walking among chil-              An important result indicated that the built environment at the home
+dren (13, 18). Findings from this research indicated that sales- and      end of the school trips has a stronger correlation with mode choice,
+service-related land use near the home or around the school location      which implies that built environment interventions at the school end
+was not associated with mode choice for school transportation.            could be less successful in encouraging walking compared with
+Children living in TAZs that were overwhelmed by manufacturing,           interventions closer to home. For example, in Canada, the School
+trade, office, and professional employment (i.e., an employment-to-       Travel Planning project, a community-based initiative funded by the
+population ratio > 1.5) did not have significantly different mode choice  Public Health Agency of Canada, advocates built environment inter-
+behavior than those living in TAZs with minimum employment-               ventions primarily at the school end to promote active commuting
+related land use (i.e., an employment-to-population ratio < 0.5). But     to school (39). On the basis of the model results, it appears that pub-
+a moderate balance between manufacturing, trade, office, and profes-      lic capital and tax revenues could perhaps be better spent by improv-
+sional employment and residential population (i.e., an employment-        ing infrastructure more equitably across a neighborhood instead of
+to-population ratio between 0.5 to 1.5) in the TAZ of a child’s           focusing capital improvement on the school end alone.
+residence reduced the likelihood of walking for both morning and             Other than the built environment, sociodemographic characteristics
+afternoon period school trips; having these types of jobs concen-         that describe the household and the child explained some of the
+trated about the school had a negative association with walking for       variation in mode choice. A child’s sex was not associated with mode
+home-to-school trips.                                                     choice, but older children tend to walk more than younger children
+   These findings begin to emphasize the potential differential effects   for both directions of the school trip. Although other studies have
+of land use type on children’s mobility, particularly for school trans-   also reported a correlation between age and school travel (15, 16),
+portation. It appears that manufacturing, trade, office, and professional this research found that age-related effects on mode choice were
+employment-related land uses may have a more pronounced effect            particularly strong in the afternoon compared with the morning period
+on a child’s travel mode than retail- or service-related land uses. The   trips (Tables 4 and 5). With regard to automobile access, as expected,
+observed negative association between land use mix and walking is         the odds of being driven to and from school increased with the ratio
+not surprising either, and it perhaps indicates that, unlike the case for of vehicles to licensed householders. The question remains whether
+adults, for whom land use mix may improve access and pedestrian           this household “automobility” is merely a manifestation of affluence
+comfort, a child’s mode choice for school trips is determined by          in the context of mobility or reflects some broader association between
+concerns about traffic and a child’s personal safety near employment      the culture of auto-centeredness of a household’s daily activity and
+locations. Future empirical research will need to consider the design,    travel practices and the mode used for school travel.
+intensity, or quality of the land use mix (e.g., street orientation,         There remain three broad issues requiring further consideration:
+access, building height, type of employment). This additional work        self-selection, the trip-based approach of this and other studies, and
+may provide a more conclusive explanation for the observed relation-      geographical transferability. First, households become periodically
+ship between the presence and composition of such land uses in the        involved in longer-term decisions such as residential location choice.
+neighborhood and the mode choice for school commuting.                    The decision about where to live enables a household with sufficient
+   As expected, the regression results showed that a child was more       income to select itself into a walkable or drivable neighborhood.
+likely to walk to or from school in places where other people walked      This self-selection may in turn facilitate or discourage active school
+(i.e., the rate of walking per square kilometer area was higher than      travel. Although this research conceptualized the potential causal
+elsewhere in the study area). Walking was also found to be more           relationship between built environment variables and walking, it could
+common among children living in low-income areas (i.e., in DAs with       not, largely because of data limitations, control for self-selection bias.
+low median household income) and among those children attending              Second, this study, and most of the school transport literature,
+schools located in such areas. The result was indicative only of a        adopted a trip-based approach; the school trip is studied in isolation,
+potential negative association between DA-level socioeconomic             extracted from broader patterns of daily activities and travel. Although
+composition and walking to and from school but does not necessarily       there are exceptions to this trend (24,40), and although the trip-based
+imply that walking was less common among children from high-              approach holds value because of how it relates to school travel
+income households. McDonald (38) reported similar results based           planning practices (e.g., SR2S in the United States, Active and Safe
+on an analysis of the 2001 U.S. National Household Travel Survey;         Routes to School in Canada), mode choice for school transportation
+children and youth living in disadvantaged neighborhoods were more        can conceivably be influenced by a household’s broader activity–
+likely to walk to school. The potential causal relationship between       travel interactions. For example, the decision to escort a child to
+neighborhood socioeconomic status and walking among children,             or from school (and perhaps the use of an automobile for the trip)
+however, remains an area to be explored through further research.         may depend on the availability of parents or adult caregivers. This
+   The model results also demonstrated a negative association between     availability problem, one that may reflect the temporal asymmetry
+the variable for block density–distance-to-CBD interaction and            that typically exists between the school day and the work day, may
+walking. This finding suggests that a child living in a neighborhood      be an important aspect of the mode choice process in addition to
+with smaller blocks and located far from the CBD would be less likely     built environment influences.
+to walk than someone living in a place with larger blocks but located        This availability hypothesis is implicitly reflected in the current
+closer to the CBD. Although the marginal effect on mode choice of         estimation results indicating that the built environment does not
+this interaction between urban design and location is relatively small    have a uniform association with mode choice across the morning
+(odds ratio = 0.99), the result suggests, for example, that suburban      and afternoon periods. Adults who remain at work in the afternoon,
+places in the study area that either possess neotraditional design ele-   for example, are potentially unavailable for the school trip to home,
+ments or, alternatively, were developed at a time when the so-called      which may contribute to temporal differences in mode choice. Being
+
+158                                                                                                      Transportation Research Record 2156
+a trip-based survey, the TTS does not provide direct observation on      Centre at the University of Toronto. The authors also thank Paul M.
+caregiver time constraints; the potential influence of such activity–    Hess at the Department of Geography and Planning, University of
+travel constraints on mode choice could not be examined in this          Toronto, and the four anonymous reviewers for their constructive
+research. Broader behavioral insights could emerge through a more        and insightful comments on the previous draft.
+regular nesting of children’s mobility within the activity–travel
+paradigm, which remains the subject of future work.
+   Last, the geographical transferability of these findings to other     REFERENCES
+places in North America requires some careful thought, particularly
+given that more than twice as many children in the current sample         1. Copperman, R. B., and C. R. Bhat. Exploratory Analysis of Children’s
+walked to or from school than were driven. This finding contrasts with       Daily Time-Use and Activity Patterns: Child Development Supplement
+                                                                             to U.S. Panel Study of Income Dynamics. In Transportation Research
+those from several U.S. studies, in which the automobile emerged
+                                                                             Record: Journal of the Transportation Research Board, No. 2021, Trans-
+as the dominant travel mode (13, 15, 19). The Toronto case is                portation Research Board of the National Academies, Washington, D.C.,
+more similar to that of the United Kingdom, where, in 2006, 41%              2007, pp. 36–44.
+of 11- to 16-year-olds walked to school and 20% were driven (41).         2. Plan for the Needs of Children and Youth: A Call to Action. Ontario
+Furthermore, in this study, the ratio of children walking and being          Professional Planners Institute, Toronto, Ontario, Canada, 2009. www.
+                                                                             ontarioplanners.on.ca/content/Publications/innovativepolicypapers.aspx.
+driven was found to be similar between the morning and afternoon             Accessed Oct. 14, 2009.
+periods, which is also atypical of the broader North American con-        3. Ogden, C. L., K. M. Flegal, M. D. Carroll, and C. L. Johnson. Preva-
+text (17–19). This comparative statement could be a sampling effect,         lence and Trends in Overweight Among US Children and Adolescents,
+given that previous research by the authors, which studied all TTS           1999–2000. Journal of the American Medical Association, Vol. 288,
+                                                                             2002, pp. 1728–1732.
+school trips, indicated a 5% increase in walking for 11- to 13-year-olds  4. Shields, M. Overweight Canadian Children and Adolescents. Statis-
+for afternoon period school-to-home trips (17). Either way, walking          tics Canada, Ottawa, Ontario, 2004. www.statcan.gc.ca/pub/82-620-m/
+emerges as the dominant travel mode for school trips in the study            2005001/article/child-enfant/8061-eng.htm. Accessed July 2, 2009.
+area. Transnational and intercity differences in school travel mode       5. Healthy People 2010: Conference Edition. U.S. Department of Health
+                                                                             and Human Services, Washington, D.C., 2000.
+share further validate the need for the development of a local empir-
+                                                                          6. Active 2010: Ontario’s Sport and Physical Activity Strategy. Ministry
+ically constructed knowledge base about the school travel behavior           of Health Promotion, Government of Ontario, Canada, 2005.
+of children and youth.                                                    7. Tudor-Locke, C., B. E. Ainsworth, and B. M. Popkin. Active Commuting
+                                                                             to School: An Overlooked Source of Children’s Physical Activity? Sports
+                                                                             Medicine, Vol. 31, No. 5, 2001, pp. 309–313.
+                                                                          8. Frank, L. D., P. O. Engelke, and T. L. Schmid. Health and Community
+CONCLUSION                                                                   Design: The Impact of the Built Environment on Physical Activity. Island
+                                                                             Press, Washington, D.C., 2003.
+This research explored the effect of the built environment on children’s  9. Faulkner, G. E. J., R. N. Buliung, R. K. Flora, and C. Fusco. Active
+travel mode choice for journeys to and from school. The main findings        School Transport, Physical Activity Levels and Body Weight of Children
+                                                                             and Youth: A Systematic Review. Preventive Medicine, Vol. 48, No. 1,
+indicate that (a) the built environment explains some variation in           2009, pp. 3–8.
+children’s mode choice; (b) other than distance between home and         10. The 2002 Summary of Safe Routes to School Programs in the United
+school, the association between individual built environment vari-           States. Transportation Alternatives, New York, 2002.
+ables and walking or driving is only moderate; (c) the built environ-    11. LEED for Neighborhood Development Rating System. Draft Version.
+                                                                             U.S. Green Building Council, Washington, D.C., 2007. www.usgbc.org/
+ment around the residence is a stronger correlate of mode choice
+                                                                             DisplayPage.aspx?CMSPageID=148. Accessed May 5, 2009.
+than the built environment around school; and (d) the effect of the      12. Gilbert, R., and C. O’Brien. Child and Youth-friendly Land-use and
+built environment on mode choice is subtly weaker for afternoon              Transport Planning Guidelines, Ontario, Version 2. Centre for Sustainable
+(school-to-home) trips than for morning (home-to-school) trips. Also,        Transportation, University of Winnipeg, Manitoba, Canada, 2005.
+findings from this research suggest that differences may exist between   13. McMillan, T. E. The Relative Influence of Urban Form on a Child’s
+                                                                             Travel Mode to School. Transportation Research, Vol. 41A, No. 1, 2007,
+children and adults in terms of how the built environment affects            pp. 69–79.
+mode choice. This study begins to address this research challenge        14. Black, C., A. Collins, and M. Snell. Encouraging Walking: The Case of
+by taking a child-centered approach to understanding the relationship        Journey-to-School Trips in Compact Urban Areas. Urban Studies, Vol. 38,
+between the built environment and school travel. There is potentially        No. 7, 2001, pp. 1121–1141.
+                                                                         15. Ewing, R., W. Schroeer, and W. Greene. School Location and Student
+much to be gained by refining this approach to extend the knowledge          Travel: Analysis of Factors Affecting Mode Choice. In Transporta-
+base on school transportation, childhood mobility, and physical              tion Research Record: Journal of the Transportation Research Board,
+activity. Urban planners and community-based organizations who               No. 1895, Transportation Research Board of the National Academies,
+are interested in improving the built environment to encourage active        Washington, D.C., 2004, pp. 55–63.
+                                                                         16. McDonald, N. C. Children’s Mode Choice for the School Trip: The Role
+mobility (e.g., walking, cycling) among children and youth should
+                                                                             of Distance and School Location in Walking to School. Transportation,
+also systematically address these differences when interventions             Vol. 35, No. 1, 2008, pp. 23–35.
+are designed.                                                            17. Buliung, R. N., R. Mitra, and G. E. J. Faulkner. Active School Trans-
+                                                                             portation in the Greater Toronto Area, Canada: An Exploration of Trends
+                                                                             in Space and Time (1986–2006). Preventive Medicine, Vol. 48, No. 6,
+                                                                             2009, pp. 507–512.
+ACKNOWLEDGMENTS                                                          18. Larsen, K., J. Gilliland, P. Hess, P. Tucker, J. Irwin, and M. He. The
+                                                                             Influence of the Physical Environment and Sociodemographic Charac-
+The Built Environment, Obesity, and Health Strategic Initiative of the       teristics on Children’s Mode of Travel to and from School. American
+Heart and Stroke Foundation in Canada and the Canadian Institutes            Journal of Public Health, Vol. 99, No. 3, 2009, pp. 520–526.
+                                                                         19. Schlossberg, M., J. Greene, P. P. Phillips, B. Johnson, and B. Parker.
+of Health Research provided funding for this research. The authors           School Trips: Effects of Urban Form and Distance on Travel Mode.
+acknowledge contributions of time and data from the Data Manage-             Journal of the American Planning Association, Vol. 72, No. 3, 2006,
+ment Group of the Urban Transportation Research Advancement                  pp. 337–346.
+

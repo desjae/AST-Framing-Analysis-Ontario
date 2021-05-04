@@ -1,0 +1,643 @@
+                                                           Journal of Transport & Health 8 (2018) 220–243
+                                                           Contents lists available at ScienceDirect
+                                                 Journal of Transport & Health
+                                                journal homepage: www.elsevier.com/locate/jth
+Evaluating the e<U+FB00>ects of active morning commutes on students'
+                                                                                                                                            T
+overall daily walking activity in Singapore: Do walkers walk more?
+                                                                                                                     <U+204E>
+Shin Bin Tana, P.Christopher Zegrasa, Erik Wilhelmb, Mariana C. Arcayaa,
+a
+  Department of Urban Studies and Planning, Massachusetts Institute of Technology, Cambridge, MA, USA
+b
+  Engineering Product Development, Singapore University of Technology and Design, Singapore
+AR TI CLE I NF O                                          AB S T R A CT
+Keywords:                                                 Walking has multiple health bene<U+FB01>ts. One way to increase students’ walking activity is by en-
+Active commuting                                          couraging active morning commutes. However, students may compensate for active commutes by
+Physical activity                                         walking less throughout the day, rendering such initiatives ine<U+FB00>ective in increasing overall
+Walking                                                   walking activity. This study aims to assess how morning commuting modes a<U+FB00>ect students’
+Transportation
+                                                          walking levels, hypothesizing that gains in walking from active morning commutes may not be
+Children
+Built environment
+                                                          sustained throughout the day due to compensatory behavior. Our study analyzed objectively
+                                                          measured, sensor-collected data of 5600 children (ages 7 to 18) in Singapore for up to four
+                                                          consecutive weekdays between September and November 2015. Potential confounders of age,
+                                                          socioeconomic status, and built environment characteristics, as well as home-school distance as
+                                                          an e<U+FB00>ect modi<U+FB01>er, were examined. We used linear mixed e<U+FB00>ects models to analyze di<U+FB00>erences in
+                                                          step count between students with di<U+FB00>erent morning modes, as well as to analyze ‘within students’
+                                                          variations when students switched between di<U+FB00>erent modes over di<U+FB00>erent days.
+                                                             Students who walked or took public transport walked more than their driven peers during
+                                                          morning commuting hours, by 96.1 steps per hour (95% CI = 71.5, 120.8) and 54.1 steps per
+                                                          hour (95% CI = 32.2, 75.9) respectively. Students who switched morning commute modes from
+                                                          car to public transport took 47.6 more morning steps per hour (95% CI = 10.3, 84.9) when using
+                                                          public transport, compared to when driven. However, the relationship between morning travel
+                                                          modes and step count per hour across the full day was less clear-cut. Both our ‘between students’
+                                                          and ‘within students’ analyses suggest that taking more active morning modes, after controlling
+                                                          for all possible confounders and modifers, was not associated with higher step counts over the
+                                                          entire day. Encouraging students to walk more through more active morning commutes alone
+                                                          may have limited e<U+FB00>ectiveness in increasing overall daily walking activity.
+1. Introduction
+     Programs such as ‘Safe Routes to Schools’, ‘Walk Safely to School Day’ and ‘Walking School Bus’, which collectively seek to encourage
+students to adopt active commutes, such as walking or cycling to school, have been initiated in di<U+FB00>erent countries in recent years (Chillón
+et al., 2011). Advocates of such initiatives see active commutes as a way to boost children's physical activity, which is associated with
+multiple positive health bene<U+FB01>ts including lowering risk of depression and anxiety, and improving skeletal and cardiovascular health (Janssen
+and LeBlanc, 2010; Strong et al., 2005). Physical activity has also been associated with improved academic performance (Rasberry et al.,
+2011). Active modes, compared to driving, also produce less local and global air pollutants (Rabl and de Nazelle, 2012).
+  <U+204E>
+    Corresponding author.
+    E-mail address: marcaya@mit.edu (M.C. Arcaya).
+https://doi.org/10.1016/j.jth.2018.01.002
+Received 20 July 2017; Received in revised form 2 January 2018; Accepted 3 January 2018
+Available online 02 February 2018
+2214-1405/ © 2018 Elsevier Ltd. All rights reserved.
+
+S.B. Tan et al.                                                                                    Journal of Transport & Health 8 (2018) 220–243
+     Both health and transport literatures, however, suggest that the total amount of walking activity one does may be bounded by a
+set-point. The ‘activitystat’ model posits that when an individual increases physical activity or energy expenditure in one domain,
+there is a compensatory change in another domain to maintain an overall stable level of physical activity or energy expenditure
+(Rowland, 1998; Gomersall et al., 2016). A 2012 meta-review of 30 studies on interventions to boost physical activity found strong
+evidence that physical activity interventions had only small e<U+FB00>ects on children's overall activity levels. One explanation for why
+physical activity interventions proved ine<U+FB00>ective was that children compensated for imposed increased activity (Metcalf et al., 2012).
+Relatively few empirical studies have examined activity compensation in children, and <U+FB01>ndings from these have been mixed. One
+study found that students from one school with extensive sporting facilities and more hours of scheduled physical education a week
+were no more physically active than were students from another with much fewer physical education hours. The study thus con-
+cluded that students compensated for school physical activity when out of school (Mallam et al., 2003). Other studies however found
+no evidence of compensation (Dale et al., 2000; Goodman et al., 2011).
+     In the transport literature, several empirical studies suggest the existence of a ‘walking budget’, whereby individuals trade o<U+FB00>
+leisure walking or other forms of activity with utilitarian walking (Oakes et al., 2007; Rodríguez et al., 2006; Krizek, Handy and
+Forsyth, 2009). Studies of active school commuting initiatives, however, generally do not re<U+FB02>ect evidence of a walking budget or
+compensatory behavior. Literature reviews focused on active school travel and physical activity conclude that a preponderance of
+evidence supports associations between active school transport and more moderate-vigorous physical activity over the course of the
+day (Larouche et al., 2014; Faulkner et al., 2009). However, several studies have also found no gains in physical activity from active
+commutes to school. A recent study of Australian school children found that active travel modes to school were not associated with
+children's physical activity, though active travel to non-school destinations had a positive impact on increasing activity (Schoeppe
+et al., 2015). Research has also examined compensatory behavior in speci<U+FB01>c sub-groups of students. A 2017 study of 700 Canadian
+school-children found that the students who spent most time participating in sports were also the ones who spent the most time taking
+inactive modes of transport, compared to other groups of students, which suggests some degree of trade-o<U+FB00> between travel and
+sporting activities (Mitra et al., 2017).
+1.1. The current study
+     While research on active school travel often focuses on moderate-vigorous physical activity as a study outcome, this study focused
+on students’ walking activity largely because of the data collection method. The organizers who designed and administered the data
+collection (see next section of this paper for details) instructed students not to carry their devices during vigorous activity, such as
+when playing sports. In this case, the data collection method conditioned our particular focus.
+     Past studies on school commutes and physical activity have largely focused on walking or cycling initiatives. However, com-
+muting via public transport can also boost activity levels, as the need to walk or cycle at each end of a trip generates additional steps
+(Rissel et al., 2013; Sener et al., 2016). Our study thus examined the relationship between three modes of morning commuting:
+walking, taking public transport, and being driven – and overall walking activity of school-going children.
+     Furthermore, most of the studies on active school commutes were conducted in North American, Europe, Australia and New
+Zealand, with only few studies based in Asia. Our study sought to increase knowledge in this part of the world, by examining active
+school commutes in Singapore, a high-density Asian city-state.
+     Our analysis focused on morning travel mode, as initiatives encouraging active morning commutes are more straight-forward
+compared to those seeking to in<U+FB02>uence after-school travel, for several reasons. Morning commutes are more constrained, routine and
+predictable, as they happen within a narrower window of time and subset of possible travel routes, compared to after-school travel
+that is less restricted to between school and home. These ‘constraints’ allow schools to more easily organize programs such as
+collective walking from home to school, or even from nearby public transport stops to school, especially for younger students who
+may need adult supervision. Furthermore, compared to after-school commutes, morning commutes are more likely to be by car, as
+working parents are more available to drive their children to school before work than in the afternoon (Wong et al., 2011, Faulkner
+et al., 2010). Encouraging active morning commutes as a policy intervention would thus have a greater scope for change here.
+     While this study's primary focus was on morning school commutes, we also controlled for the e<U+FB00>ect of students’ afternoon travel
+modes, as students who walked to school may have been more likely to walk home after school. Any net positive di<U+FB00>erences in step
+counts observed from those who walked to school in the morning may thus partially result from afternoon mode choices as well.
+     In addition to afternoon mode, we also controlled for other factors that could a<U+FB00>ect students’ choice of morning mode and their
+overall walking activity. Speci<U+FB01>cally, we controlled for age, because older children tend to walk less than younger children (Barreira
+et al., 2015; Tudor-Locke et al., 2011) and are less likely be driven to school (Mitra and Buliung, 2015). Another factor we controlled
+for was socioeconomic status, which has been linked to increased walking (Sugiyama et al., 2015) and mode choice di<U+FB00>erences
+(Rachele et al., 2015) in adults. Research on the association between family income or parental socioeconomic position, and levels of
+physical activity in children and adolescents have been more equivocal, with some studies <U+FB01>nding positive associations (Drenowatz
+et al., 2010), and others <U+FB01>nding no association (Voss et al., 2008; Ball et al., 2009, Sener et al., 2016). As for school travel mode
+choice, in Singapore, where car-ownership is very expensive, students from richer families are more likely to be driven to school than
+those from poorer families (Department of Statistics, Ministry of Trade and Industry, Singapore, 2016)—a pattern observed in studies
+elsewhere, where lower neighborhood incomes are often associated with more active modes of school travel (Larsen et al., 2009).
+     We also controlled for the potential impact of neighborhood built environment, which may a<U+FB00>ect both school mode choice and
+how much walking one does within an area. Some studies focusing on active school travel have found built environment char-
+acteristics such as the density of street intersections, residential densities, and land-use mix to be signi<U+FB01>cantly associated with active
+                                                                     221
+
+S.B. Tan et al.                                                                                    Journal of Transport & Health 8 (2018) 220–243
+school travel (Larsen et al., 2009), while studies focused on overall physical activity found strongest correlations between mixed land
+use, residential density and higher levels of physical activity among both children and adolescents. (Ding et al., 2011) Overall though,
+the associations between di<U+FB00>erent built environment characteristics and youth physical activity have been largely inconsistent over
+di<U+FB00>erent studies (Ding et al., 2011, Smith et al., 2017), particularly for objectively measured physical activity (Ding et al., 2011) and
+between di<U+FB00>erent ages and genders (McGrath et al., 2015), making it di<U+FB03>cult to pinpoint any one environmental variable as an
+unambiguious correlate of physical activity.
+     As those who live further from school are less likely to commute via walking (McDonald, 2008), and may have longer commutes
+which reduce time for activity, or be less likely to use school playground facilities outside of school hours (Hinckson et al., 2014),
+home-school distance could confound the relationship between step count and mode such that those who travel by car or public
+transport appear less active. Alternatively, the relationship between mode and step count may be modi<U+FB01>ed by home-school distance
+instead, since longer distances between home and school would likely generate more steps for those who walk to school than for those
+who take public transport or the car (Faulkner et al., 2013), and may thus emerge as an interaction e<U+FB00>ect between distance and mode
+choice. Our analyses thus tested for these two possible e<U+FB00>ects of home-school distance.
+     The primary hypothesis tested in this study was that students with active morning commuting modes walked more during their
+commutes than those who were driven, net of potential confounders, but that higher step counts would not be sustained over the rest
+of the day.
+     While this study did not evaluate a speci<U+FB01>c program or policy intervention, our observational <U+FB01>ndings about how commuting
+modes relate to overall walking activity could facilitate policy assessments of initiatives to increase overall physical activity through
+active school commutes.
+2. Materials and methods
+2.1. Study setting and data collection
+     Between September to November 2015, Singapore's National Research Foundation (NRF) organized a ‘National Science
+Experiment’, which deployed approximately 43,000 purpose-built lightweight sensor devices, SENSg, among students from primary
+schools (ages 7 to 12), secondary schools (13 to 16), and junior colleges (17 and 18). The SENSg devices, developed by the Singapore
+University of Technology and Design (SUTD), used Wi-Fi signals to identify its user's location, and MEMS accelerometers to compute
+each user's step counts. Details about the sensors can be found in Wilhelm et al., (2016a). For our study, we obtained de-identi<U+FB01>ed
+sensor data from NRF. The Massachusetts Institute of Technology Committee on the Use of Humans as Experimental Subjects exempted this
+study.
+     Given the data collection approach, we used step count as an indicator of each student's amount of walking on a given day. This
+was not necessarily an accurate measure of a student's actual steps nor total physical activity because SENSg's pedometer function
+was occasionally insu<U+FB03>ciently sensitive to capture small periods of walking (Wilhelm et al., 2016b). Furthermore, prior to using the
+sensors, students were briefed by their teachers not to carry their devices during vigorous activity, such as during physical education
+classes, although <U+FB01>eld observations revealed inconsistent compliance with these instructions across schools.
+     While the full dataset included data records of close to 40,000 students and over 136,000 days of data, many of the recorded
+travel patterns were inconsistent with expected movements or location patterns of typical students. For instance, some students
+logged extremely low step counts that may be explained by inappropriate sensor usage, such as them not wearing their sensors for
+long stretches. Our analysis thus excluded students who: logged fewer than 200 steps throughout the day, which is far below a
+reasonable ‘basal’ level of activity (Barreira et al., 2015; Tudor-Locke et al., 2011); logged fewer than 100 steps within 800 m of their
+school or home location; or registered no steps before school or after 1 pm.
+2.2. Measures
+     Our study's main outcome variable was step count. We analyzed students’ steps counts in two overlapping time periods. The <U+FB01>rst
+time period approximated students’ morning commute, which started from 4am to when the student's SENSg registered them as
+reaching school. The second time period captured a full day's worth of walking, and started from 12 midnight to 11.59PM.
+     As school schedules di<U+FB00>ered from school to school, and sometimes from day to day, di<U+FB00>erent students had slightly di<U+FB00>erent
+commuting windows. To standardize our analysis, we used step counts per hour as our primary outcome variable.
+     Some students registered only a day of data, while others logged more days. We took the average step count of the days where
+students adopted the same combination of commuting modes for both morning and afternoon travel. For students who had di<U+FB00>erent
+mode combinations between di<U+FB00>erent days, we picked the most frequently used mode combination. For students without a pre-
+dominant mode combination, we picked the <U+FB01>rst combination they used.
+     The main predictor variable was a student's morning commute mode, as estimated by SUTD's algorithms that compared detailed
+locational data and travel duration against Google Maps Direction API routes, and that also utilized the accelerometer logs and light
+and humidity readings recorded by the SENsg devices (Wilhelm et al., 2016a). Students’ morning commute modes were coded into
+three distinct categories: ‘public transport’, which included travel by public bus, mass rapid transit, or a mix of both; ‘walking only’;
+or ‘car’.
+     Similar algorithms were used to assess students’ modes of travel after school from the SENSg data. However, categorizing stu-
+dents’ after-school travel modes was less straightforward than categorizing morning travel. While students generally took only one
+                                                                    222
+
+S.B. Tan et al.                                                                                               Journal of Transport & Health 8 (2018) 220–243
+Table 1
+Built Environment Measures.
+  Category                               Measure
+  Density                                   • Density of Built Area
+  Diversity (Landuse mix & Places of        • Number of Retail, Food and Beverage Outlets within bu<U+FB00>er
+       Interest)                            • Land Use Diversity Mix, based on proportion of di<U+FB00>erent uses ( Residential, O<U+FB03>ce, Retail, Industrial, Warehouse,
+                                            Parks and Open Space, Others)
+  Access to Public Transit                  • Number of bus-stops within bu<U+FB00>er
+                                            • Number of Mass Rapid Transit (MRT) stations within bu<U+FB00>er
+  Design: Street Network                    • Length of expressways per unit walk-shed area
+                                            • Length of major arterial roads per unit walk-shed area
+                                            • Length of local roads per unit walk-shed area
+                                            • Number of intersections within walk-shed area
+                                            • Percent of four-way intersections within walk-shed
+                                            • Density of four-way intersections
+                                            • Density of three-way intersections
+                                            • Length of footpath per walk-shed area
+                                            • Density of porous walkable space (neighborhood parks and porous grounds of non-gated, public housing estates)
+  Design: Urban Form                        • Average size of building footprint
+                                            • Average building height
+trip from home to school in the morning, they had more <U+FB02>exibility to take multiple trips after school. A student could walk home from
+school, then take a bus from home to the shopping mall, before hitching a car ride back home. Thus, besides ‘public transport’, ‘car’
+and ‘walking only’, we created an additional category ‘mixed’, which covered students using a mix of public transport and car travel.
+     Furthermore, we could not easily di<U+FB00>erentiate between walking trips for transport and for leisure, such as a stroll through the
+park. Thus, we categorized students who had logged trips by public transport or car as traveling primarily by that motorized mode,
+even if the SENSg also registered periods of walking between home and school locations. Students who registered no motorized
+travel, but had logged periods of walking between home and school were then coded as ‘walking only’. Finally, a subset of students
+did not have a clearly identi<U+FB01>able after-school mode that could be discerned from the sensor data. The lack of inferrable modes could
+be because students removed or turned o<U+FB00> their sensors during their travel period.
+     As our data set included very limited student-level information, we used school level to account for student age, and the average
+housing sale prices (adjusted to a common base year-quarter) of units sold between 2012 and 2016 that were located within 400 m of
+students’ homes as a proxy for household wealth.
+     We also hypothesized that local-level built environment characteristics a<U+FB00>ected how much students walked and their mode
+choice. Because students travelled primarily between their home and school neighborhoods (Wilhelm et al., 2016b), our built en-
+vironment covariate was designed to capture the characteristics of the urban environment between each student's home and school.
+We constructed a neighborhood typology that drew upon 16 built environment measures commonly described in the health and
+transport literature (Table 1). Given our focus on walking, we de<U+FB01>ned our areal unit as a 500-meter street network bu<U+FB00>er around
+home or school, which can be interpreted as a ‘neighborhood walk-shed’. We used a network-based bu<U+FB00>er instead of a circular bu<U+FB00>er
+because the former better re<U+FB02>ected the actual spatial area that in<U+FB02>uences walking, whereas the latter could include blocked-o<U+FB00> areas
+inaccessible by foot (James et al., 2014; Oliver et al., 2007). As walking behavior is likely to vary across cities and countries (Jiang
+et al., 2012), we picked a bu<U+FB00>er distance using available estimates of average walking distances in Singapore. According to a survey
+of residents in public housing estates (which represent the bulk of Singapore's housing stock), people were willing to walk a maximum
+distance of 530 m to reach a subway station (HDB 2000). Another survey found that people walked an average of 600 m to subway
+stations in Singapore (Olszewski and Wibowo, 2005). We thus chose 500 m as a rough, conservative estimate of the likely radius of
+walking activity typical to Singaporeans.
+     We calculated all 16 measures using available geospatial land use, building and transport infrastructure data (Le et al., 2016) for
+over 24,000 ‘neighborhood walk-sheds’ generated from a sample of postal codes (essentially equivalent to a building in Singapore)
+that collectively covered all built-up areas of Singapore (Appendix A).
+     Instead of analyzing each built environment measure as an independent variable, which, among other challenges, would in-
+troduce problems of multicollinearity, we used a data reduction technique to derive ‘neighborhood types’ from the 16 measures.
+Speci<U+FB01>cally, we applied a K-means clustering algorithm, which has been used in other physical activity and travel-related studies (Gil
+et al., 2012; Szapocznik et al., 2006), to the 24,000 ‘neighborhood walk-sheds’ and their respective built environment measures.
+Fig. 1 summarizes the spatial distribution and characteristics of these six neighborhood types.
+     Finally, we included the Euclidean distance between students’ home and school locations as a possible e<U+FB00>ect modi<U+FB01>er of mode, as
+hypothesized.
+2.3. Statistical models
+     We used two statistical modeling approaches. First we conducted a ‘between student’ analysis, and estimated a series of nested
+linear mixed e<U+FB00>ects models to assess the relationship between morning mode choice and both morning steps and total daily steps. We
+added the additional control variables progressively to the models, and also tested for interactions between mode and home-school
+                                                                         223
+
+S.B. Tan et al.                                                                                                  Journal of Transport & Health 8 (2018) 220–243
+Fig. 1. Singapore Neighborhood Types generated by K-means clustering. This <U+FB01>gure summarizes the spatial distribution and built environment characteristics of the
+six derived neighborhood types.
+di<U+FB00>erence, students’ school level, as well as neighborhood property prices to ensure that we factored in potential modi<U+FB01>cation e<U+FB00>ects,
+as hypothesized earlier in our introduction section. We also nested the students within their schools as a random e<U+FB00>ect, to account for
+any ‘between school’ di<U+FB00>erences.
+     The second model capitalized on a quasi-experimental, ‘pre-post test’ opportunity that was an artifact of the data collection
+method. Some students, over the days which they carried a SENSg device, were coded as taking di<U+FB00>erent modes for the morning
+journey to school. This allowed us to examine any di<U+FB00>erences in steps taken by such students associated with mode choice. This
+model, which assumed an individual <U+FB01>xed e<U+FB00>ects for each student, sidestepped the need to control for individual-level confounders
+                                                                             224
+
+S.B. Tan et al.                                                                                                    Journal of Transport & Health 8 (2018) 220–243
+                    Primary                                          Secondary                                         Junior College
+                                                       Morning (AM) Mode to School
+                    NSE (n = 2536)                                    NSE (n = 2880)                                         NSE (n = 184)
+                                      64%                                                                                         70%
+                                                                           40%            40%
+           24%                                                 21%
+                                                                                                                   18%
+                        12%                                                                                                                     11%
+           Car         Public Walking                          Car        Public Walking                            Car          Public      Walking
+                     Transport                                          Transport                                             Transport
+                                                   Afternoon (PM) Mode after Schoola
+                   NSE (n = 2143)                                     NSE (n = 2441)                                           NSE (n = 159)
+                             52%                                      64%
+                                                                                                                             81%
+                   34%
+                                                                                23%
+          9%                                                  6%                            7%                                                      11%
+                                        4%                                                                        2%                      7%
+Fig. 2. Students’ Journey to School, and After School Mode Shares (by Grade Level). a857 students did not have an afternoon travel mode picked up by SENSg. This
+<U+FB01>gure shows the mode share of students’ trips, by grade level.
+                Primary                                         Secondary                                         Junior College
+        a
+          Shaded region around lines indicate 95% confidence intervals
+Fig. 3. Average half-hourly step count (by Morning Mode and Grade Level). This <U+FB01>gure shows the mean number of steps taken within each half hour of the day, by
+morning commute type and student grade level.
+that would not have changed for an individual across the di<U+FB00>erent days. As with the ‘between students’ analysis, each student was
+nested within his/her school. We used the full multi-day dataset in this model.
+     While the ‘between student’ models predicted the step counts of groups of students with di<U+FB00>erent commuting modes, the ‘within
+students’ model predicted changes in step counts of each individual in relation to changes in their morning commute mode. Having
+                                                                              225
+
+S.B. Tan et al.                                                                                          Journal of Transport & Health 8 (2018) 220–243
+Table 2
+Mixed E<U+FB00>ects Model of Morning Steps and AM mode (n = 5600).
+                          Model 1a (Student Characteristics)    Model 1b (+Home-School Distance)          Model 1c (+Home-School Distance ×
+                                                                                                          Mode)
+                                              CI (95%)                              CI (95%)                                     CI (95%)
+                          Coef        P       Lower    Upper    Coef       P        Lower      Upper      Coef         P         Lower       Upper
+  Reference               91.48       0.00    76.63    106.34   74.45      0.00     57.64      91.26      102.52       0.00      82.32       122.71
+  AM Mode (Ref:Car)
+     Public Transport     135.36      0.00    121.22   149.51   130.55     0.00     116.26     144.85     96.14        0.00      71.46       120.83
+     Walking              89.65       0.00    76.92    102.38   102.41     0.00     88.38      116.44     54.05        0.00      32.22       75.89
+  School-Level (Ref:
+       Primary)
+     Junior College       -18.83      0.36    -59.44   21.79    -36.17     0.09     -77.43     5.08       -47.94       0.02      -88.79      -7.09
+     Secondary            -6.16       0.47    -22.89   10.57    -9.45      0.27     -26.18     7.27       -16.89       0.05      -33.66      -0.12
+  Home school distance (km)                                     6.66       0.00     3.55       9.78       -1.41        0.57      -6.26       3.43
+  Interaction: Home school distance × Public                                                              11.43        0.00      5.28        17.59
+       Transport
+  Interaction: Home school distance ×                                                                     38.49        0.00      23.63       53.34
+       Walking
+  AIC                                         74173.28          74157.77                                  74129.92
+Table 3
+Mixed E<U+FB00>ects Model of Total Day's Steps and AM mode (n = 5600).
+                   Model 2a(Student Characteristics)    Model 2b (+Home-School Distance)          Model 2c (+Home-School Distance × Mode)
+                   Coef       P     CI (95%)            Coef        P      CI (95%)               Coef          P           CI (95%)
+                                    Lower      Upper                       Lower        Upper                               Lower          Upper
+  Intercept        251.01     0.00  238.87     263.16   244.19      0.00   230.76       257.62    248.19        0.00        232.36         264.02
+  AM Mode
+       (Ref: Car)
+     Public        14.36      0.01  4.06       24.65    12.36       0.02   1.93         22.79     5.45          0.55        -12.57         23.48
+       Transport
+     Walking       11.07      0.02  1.78       20.36    16.10       0.00   5.88         26.33     11.69         0.15        -4.26          27.63
+  School-Level
+       (Ref:
+       Primary)
+     Junior        -119.29    0.00  -153.37    -85.20   -126.24     0.00   -160.75      -91.73    -127.56       0.00        -162.17        -92.94
+       College
+     Secondary     -110.91    0.00  -125.35    -96.47   -112.26     0.00   -126.70      -97.81    -112.46       0.00        -127.10        -97.82
+  Home school distance (km)                             2.69        0.02   0.41         4.98      1.38          0.45        -2.18          4.93
+  Interaction: Home school                                                                        2.14          0.35        -2.36          6.65
+       distance × Public
+       Transport
+  Interaction: Home school                                                                        2.08          0.71        -8.77          12.92
+       distance × Walking
+  AIC                         70610.53                  70607.21                                  70610.32
+both ‘between students’ and ‘within students’ models provided an analytical robustness check, and thus greater con<U+FB01>dence in the
+<U+FB01>ndings.
+     Both models were run in Python version 2.7.11, statistical library scikit.statsmodels 0.8.0, and pandas 0.19.0. All analyses were
+completed in 2016 and 2017.
+3. Results
+3.1. Descriptive statistics
+     Of the 5,600 students studied, 2,536 (45%) were primary school students, 2,880 (51%) secondary school students, and 184 (3%)
+junior college students. These students were from 103 di<U+FB00>erent schools located all across the country. Older students took fewer steps
+than younger ones throughout the day, on average. Primary students took on average of 6,305 steps (95% CI = 6163.0, 6446.7) a
+day, while secondary school students and junior college students took 3,519 (95% CI = 3415.87, 3621.51) and 3,327 (95% CI =
+2893.0, 3761.3) steps a day, respectively.
+                                                                         226
+
+S.B. Tan et al.                                                                                                   Journal of Transport & Health 8 (2018) 220–243
+             Primary                                             Secondary                                       Junior College
+          a
+            Shaded region around lines indicate 95% confidence intervals
+Fig. 4. Average half-hourly step count (by After School Mode and Grade Level). This <U+FB01>gure shows the mean number of steps taken within each half hour of the day, by
+after-school commute type and student grade level.
+     Older students were more likely to take public transport, while younger primary school students tended to walk or be driven to
+school. Similarly, the older students were more likely to rely on public transport for their after-school travels, while primary school
+students relied more on walking. Across all three levels, more students used public transport after school than when commuting to
+school (Fig. 2). Students who walked to school lived closest to school, with an average home-school distance of 0.8 km (95% CI =
+0.75, 0.79), while those who took public transport or were driven lived an average of 3.9 km (95% CI = 3.76, 4.00) and 3.0 km (95%
+CI = 2.85, 3.09) away respectively.
+     There were three ‘peak periods’ in walking activity in a day for primary and secondary school students—one in the morning,
+corresponding to the morning commutes; one in late morning which likely corresponded with students’ recess breaks; and one in the
+afternoon, for post-school commutes (Fig. 3). For secondary school students who typically have more varied school ending times than
+primary school students, their PM peaks were more spread out than their younger peers. JC students had much more variability in
+step count over the course of the day because JC school schedules are usually much more varied, as di<U+FB00>erent course combinations
+have di<U+FB00>erent class schedules. In contrast, primary and secondary students have much more uniform class schedules.
+     Across all three levels, those who walked or took public transport in the morning logged more steps than car users during the <U+FB01>rst
+peak, but this tapered o<U+FB00> after that peak. For primary and secondary school students, car users appeared to take slightly more steps on
+average than other students during the middle recess peak.
+3.2. ‘Between Student’ linear mixed e<U+FB00>ects model results
+3.2.1. Mode of morning travel to school
+     Consistently across all models for morning steps, students who took public transport or walked had higher step counts per hour
+before school than those who were driven. In our model of best <U+FB01>t (Model 1c, Table 2), students who took public transport walked
+96.1 more steps per hour before school (95% CI = 71.5, 120.8) than those who were driven. Walkers took 54.1 more steps per hour
+before school than those who were driven (95% CI = 32.2 75.9).
+     While there was no signi<U+FB01>cant relationship between home-school distance and morning steps for car-takers, a 1 km increase in
+home-school distance was associated with 38.5 more steps per hour before school (95% CI = 23.6, 53.3) for walkers, and 11.4 more
+steps per hour before school for public transport users (95% CI = 5.3, 17.6).
+     For total steps per hour measured across the entire day, our model of best <U+FB01>t (Table 3, Model 2b) indicated that those who took
+public transport had slightly higher step counts per hour (ß = 12.4, 95% CI = 1.9, 22.8) than those who were driven, as did those
+who walked (ß = 16.1, 95% CI = 5.9, 26.3). This model also showed that every 1 km increase in home-school distance was
+associated with 2.7 more (95% CI = 0.4, 5.0) steps per hour.
+     However, our fuller model (Table 3, Model 2c), <U+FB01>tted based on our a priori hypothesis that the relationship between step count
+and morning mode was modi<U+FB01>ed by home-school distance, indicated no signi<U+FB01>cant e<U+FB00>ect of mode on daily walking. After factoring in
+the interaction between mode and home-school distance, the associations between hourly step count, and both home-school distance
+and morning mode were no longer signi<U+FB01>cant.
+     Compared to primary school students, secondary school students and junior college students walked less in the morning and
+throughout the day. None of the other covariates, such as average neighborhood property prices or home or school neighborhood
+typologies were signi<U+FB01>cantly associated with either total daily or morning steps.
+     The full sets of nested models for morning and total day's steps per hour are in Appendices B and C.
+                                                                                227
+
+                                                                                                                                                                                                           S.B. Tan et al.
+      Table 4
+      Mixed E<U+FB00>ects Model of Total Steps, AM and PM mode (n = 5600).
+                                                             Model 3a (Student Characteristics)            Model 3b (+Home-School Distance)            Model 3c (+Home-School Distance × Mode)
+                                                                                  CI (95%)                                     CI (95%)                                       CI (95%)
+                                                             Coef         P       Lower           Upper    Coef        P       Lower          Upper    Coef         P         Lower        Upper
+       Intercept                                             263.15       0.00    245.74          280.56   258.12      0.00    239.99         276.24   270.51       0.00      246.31       294.72
+       AM Mode (Ref: Car)
+         Public Transport                                    16.48        0.00    6.31            26.65    14.83       0.01    4.53           25.13    9.78         0.28      -8.04        27.60
+         Walking                                             11.67        0.02    1.51            21.82    15.16       0.01    4.41           25.92    11.18        0.23      -7.09        29.44
+       PM Mode (Ref: Car)
+         Mixed (Public Transport & Car)                      30.91        0.00    10.21           51.61    28.97       0.01    8.18           49.75    36.35        0.04      1.37         71.32
+         Public Transport                                    -12.48       0.10    -27.15          2.20     -13.56      0.07    -28.27         1.15     -24.27       0.03      -46.39       -2.15
+         Walking Only                                        0.83         0.92    -14.58          16.25    1.25        0.87    -14.16         16.67    -5.80        0.62      -28.63       17.04
+228    School-Level (Ref: Primary)
+         Junior College                                      -119.14      0.00    -153.20         -85.09   -124.60     0.00    -159.01        -90.19   -126.54      0.00      -161.02      -92.06
+         Secondary                                           -109.11      0.00    -123.63         -94.60   -110.00     0.00    -124.49        -95.50   -110.39      0.00      -125.03      -95.76
+       Home school distance (km)                                                                           2.25        0.05    -0.04          4.53     -3.62        0.38      -11.73       4.48
+       Interactions: Home-School distance & AM mode choice                                                                                             1.49         0.51      -2.98        5.95
+         Home school distance × AM PT                                                                                                                  2.08         0.73      -9.77        13.93
+         Home school distance × AM Walking                                                                                                             0.32         0.95      -9.95        10.59
+       Interactions: Home school distance & PM mode choice
+         Home school distance × PM Mixed                                                                                                               0.32         0.95      -9.95        10.59
+         Home school distance × PM PT                                                                                                                  5.42         0.19      -2.71        13.54
+         Home school distance × PM Walking                                                                                                             2.36         0.70      -9.50        14.22
+       No PM mode                                            -64.31       0.00    -80.51          -48.12   -64.38      0.00    -80.57         -48.18   -78.06       0.00      -101.53      -54.59
+         Home school distance × PM None                                                                                                                7.44         0.10      -1.47        16.35
+         AM PT × PM None
+         AM Walking × PM None
+       AIC                                                   70437.72                                      70436.01                                    70442.06
+                                                                                                                                                                                                    Journal of Transport & Health 8 (2018) 220–243
+
+S.B. Tan et al.                                                                                            Journal of Transport & Health 8 (2018) 220–243
+Table 5
+Within-Student Model of Morning Steps per hour, Total Day's steps per hour and AM mode (n = 165).
+                                        Morning Steps Per Hour                                    Total Daily Steps Per Hour
+                                                                      CI (95%)                                                  CI (95%)
+                                        Coef.           P             Lower          Upper        Coef.           P             Lower            Upper
+  Intercept (Ref: AM mode:Car)          127.98          0.00          95.98          159.98       217.07          0.00          182.25           251.90
+  AM Mode: Public Transport             47.56           0.01          10.25          84.87        -9.55           0.54          -39.83           20.73
+  AM Mode: Walking Only                 12.37           0.48          -22.01         46.75        -3.69           0.79          -31.21           23.83
+Table 6
+Within-Student Model of Total Day's Steps per hour per hour, and AM & PMmode (n = 45).
+                                                            Total Daily Steps Per Hour
+                                                                                                                 CI (95%)
+                                                            Coef.                        P                       Lower                           Upper
+  Intercept (Ref:AM & PM mode: Car)                         227.07                       0.00                    172.29                          281.84
+  AM Car to PM Mixed                                        32.73                        0.50                    -61.86                          127.33
+  AM Car to PM PT                                           -9.31                        0.73                    -62.71                          44.09
+  AM Car to PM Walking                                      4.62                         0.95                    -126.94                         136.19
+  AM PT to PM Car                                           116.58                       0.36                    -133.46                         366.61
+  AM PT to PM PT                                            43.08                        0.66                    -147.83                         233.98
+  AM Walking Only to PM Car                                 -94.25                       0.49                    -362.46                         173.96
+  AM Walking Only to PM PT                                  35.36                        0.78                    -208.88                         279.59
+3.2.2. After school travel
+     As a robustness check, we examined whether controlling for students’ afternoon travel modes a<U+FB00>ected the observed relationship
+between morning mode and total daily steps.
+     Primary and secondary students who travelled by a mix of public transport and car (‘Mixed’) appeared to walk more than their
+peers after the third peak in the afternoon, while those travelling only by car in the PM appeared to walk slightly more than their
+peers during the second recess-time peak (Fig. 4). Similar to that observed for AM modes, average step counts over time varied
+considerably for JC students. Unsurprisingly, while primary and secondary students with no PM mode maintained a similar dis-
+tributional pattern of step counts over time as their peers with clear afternoon modes (with three perceptible peaks and a tapering o<U+FB00>
+towards the end of the day), they seemed to walk less on average than their peers in the afternoon.
+     Including afternoon travel modes as an additional control variable in our models of total steps per hour yielded results consistent
+with our earlier models without afternoon travel modes (Table 4). In the model of best <U+FB01>t for total steps (Model 3b, Table 4), those
+who walked or took public transport logged 15 more steps per hour in a day (95% CI = 4.4, 25.9 for walkers, 4.5, 25.1 for public
+transport users) than those driven. However, similar to Model 2c, the fuller Model 3c that included home-school distance and its
+interaction with mode showed no signi<U+FB01>cant di<U+FB00>erence in total steps per hour between students with di<U+FB00>erent morning modes.
+     Across all models, students who travelled by both public transport and car after school walked more steps per hour than those
+driven around after school. In Model 3c, those who travelled by public transport after school took about 24.3 fewer steps per hour
+compared to those driven, over the course of the day (95% CI = -46.4, -2.2).
+     We also tested for the interaction e<U+FB00>ects between morning and afternoon modes, which were largely non-signi<U+FB01>cant. While the
+interaction between morning public transport use and afternoon walking was statistically signi<U+FB01>cant (ß = -57.4, 95% CI =
+-113.4,-1.5), after accounting for the model coe<U+FB03>cients associated with morning public transport modes (ß = 41.3, 95% CI =
+-0.8, 83.3) and afternoon walking modes (ß = 13.3, 95% CI = -30.8, 57.4), the resultant magnitude of the overall association of
+taking public transport in the morning and walking in the afternoon with total daily steps was negligible.
+     As in main models, none of the other covariates, such as average neighborhood property prices or home or school neighborhood
+typologies, were signi<U+FB01>cantly associated with total daily steps per hour.
+     The full set of nested models for total day's steps and both morning and afternoon travel modes is in Appendix D.
+3.2.3. Interactions with school level and property prices
+     To test whether neighborhood wealth modi<U+FB01>ed how mode related to walking activity, we also tested interactions between travel
+modes and property prices. While most of the interactions were not signi<U+FB01>cant, there was a small positive relationship between steps
+per hour and the interaction between neighborhood property prices and afternoon walking mode choice (ß = 3.4, 95% CI = 0.7,
+6.1). The positive relationship here suggested that those who lived in wealthier neighborhoods and who relied on walking only after
+school walked slightly more than their peers.
+     We also tested the interactions between travel modes and school level, to examine whether the relationship between mode and
+                                                                             229
+
+S.B. Tan et al.                                                                                  Journal of Transport & Health 8 (2018) 220–243
+walking activity di<U+FB00>ered by di<U+FB00>erent age groups. While most of the interactions were not signi<U+FB01>cant, the results suggested that
+secondary students in particular walked less than their primary school peers if they took public transport after school (ß = -30.8,
+95% CI = -60.8, -0.8), or a mix of public transport and car (ß = -43.6, 95% CI -87.2, -0.2) (Appendix E).
+3.3. ‘Within Students’ model results
+     The ‘within students’ model examined changes in step counts of students (n = 165) who switched journey-to-school modes across
+the days they wore the SENSg. By comparing di<U+FB00>erent travel days for the same student, this modeling approach bene<U+FB01>tted from a
+stronger quasi-experimental design, by controlling for individual-level characteristics likely to a<U+FB00>ect step count.
+     Our results suggested that on days students were driven to school, they walked fewer morning steps per hour compared to the
+days they took public transport (ß = 47.6, 95% CI = 10.3, 84.9). Students’ total day's steps, however, had no signi<U+FB01>cant relationship
+with school commute mode (Table 5).
+     Similarly, for students who switched from traveling by car in both the morning and after-school periods to any combination of
+modes that included more active ones (either public transport or walking), there was again no signi<U+FB01>cant relationship between modes
+and total daily steps per hour (Table 6).
+3.4. Sensitivity analysis
+     We conducted sensitivity analyses that included students with very low step counts throughout the day and within their school
+and home environments, as a robustness check. Results from the ‘between student’ sensitivity analyses of morning mode and morning
+steps were consistent with the more restricted main model. However, the sensitivity analyses of total day's steps using the larger
+dataset showed that students who walked to school took 22.6 more steps per hour (95% CI = 7.3, 37.9) throughout the day than
+students who were driven(Appendix F), which di<U+FB00>ered from our main models’ results. ‘Within students’ models that relied on both on
+the larger dataset for the sensitivity analyses and <U+FB01>ltered dataset for the main analyses both consistently found that changing to more
+active commute modes did not a<U+FB00>ect students’ total daily step counts (Appendix G).
+4. Discussion
+4.1. Signi<U+FB01>cance of <U+FB01>ndings
+     Our results show that while more active commute modes were clearly associated with more morning steps per hour, this positive
+relationship between morning mode choice and steps became less clear when we considered the full day of walking. These <U+FB01>ndings
+suggest that students with active morning commuting modes may be compensating for their early morning activity by walking less
+the rest of the day, as per our original hypothesis.
+     In our ‘between students’ model of best <U+FB01>t, students who walked or took public transport recorded 54.0 or 96.1 more morning
+steps per hour respectively than those driven, who took about 102.5 steps per hour. Students who walked or took public transport
+thus walked almost 50% to 100% more intensely in the period before school. On average, students in our sample arrived at school
+around 7.30am, which translates into a 3.5 hour window in the morning for when their early morning steps were calculated. Students
+who walked or took public transport thus logged roughly 200 to 300 more steps respectively, before they reached school, compared
+to those who were driven.
+     Whether these additional morning steps carried through the rest of the day was ambiguous. Our model of best <U+FB01>t for total day's
+steps per hour (Model 3b) suggested that those who took public transport or walked to school walked about 15 more steps per hour
+than those driven, which translated to a di<U+FB00>erence of about 360 steps over the course of a full day. However, the model that we <U+FB01>tted
+based on our initial hypothesis that home-school distance modi<U+FB01>ed the relationship between morning mode and steps per hour
+(Model 3c), which we believe is more theoretically sound than our best-<U+FB01>t model, suggested that morning mode choice was not
+associated with di<U+FB00>erences in a day's average hourly step counts.
+     Results from the ‘within student’ model showed that when students took public transport to school, they took about 47.6 more
+morning steps per hour than when they were driven, but not more total daily steps. Furthermore, students who switched from
+travelling solely by car, to any other combination that included at least one walking only or public transport trip throughout the day
+did not log signi<U+FB01>cantly more steps on the days they used more active modes. Collectively, our <U+FB01>ndings from both the ‘between
+student’ and ‘within student’ analyses suggested that there was not a clear, positive relationship between more active travel modes
+and more walking activity throughout the day.
+     Interestingly, students who switched from being driven to walking in the morning did not walk more during the morning
+commute period. One possible explanation is that many of these students lived relatively close to school (25% lived within 600 m of
+school, while 50% lived within 800 m), such that walking to school might not have generated many steps. Another possible ex-
+planation is that on the days students were driven to school, they could have used the time they saved from not having to walk to
+school to participate in other activities.
+     We found that students who travelled by a mix of public transport and car after school walked more steps per hour compared to
+those who were driven. Given that this group of students was taking two or more trips in the afternoon to participate in di<U+FB00>erent
+activities outside of home or school, it was not surprising that they logged signi<U+FB01>cantly more steps than their counterparts. It is
+                                                                    230
+
+S.B. Tan et al.                                                                                  Journal of Transport & Health 8 (2018) 220–243
+reasonable to also attribute their higher hourly step counts to the activities they were travelling to, and not just the modes of these
+trips.
+     In our ‘between students’ analysis Model 3c, we found that those who travelled by public transport after school logged fewer steps
+than those who travelled by other modes. One explanation for this observation may be because students travelling by public transport
+had less time after school for activities that would boost their step counts, compared to their counterparts travelling by car, since
+taking public transit is slower and more time-consuming compared to car-travel.
+     As hypothesized, we found that home-school distance modi<U+FB01>ed the relationship between mode and morning steps: living further
+from school was associated with a greater increase in morning steps among walkers than public transport users. However, the same
+e<U+FB00>ect modi<U+FB01>cation was not observable for total daily steps. Once the interactions between home-school distance and travel modes,
+whether morning or afternoon, were factored into the models, neither home-school distance nor its interaction with mode was
+signi<U+FB01>cantly associated with step count.
+     From our ‘between students’ analysis, we conclude that both average property prices and built environment characteristics had
+little signi<U+FB01>cant association with the amount of walking being done. The only association we found was a positive relationship
+between total day's hourly step count and the interaction between property prices and after-school walking mode, suggesting that
+those who lived in wealthier neighborhood and walked home after school walked more than their peers. While we cannot infer a
+reason for this behavior solely from our data, we speculate that those who travelled by walking only after school spent their after-
+school hours within a limited, walkable radius of their school and home environments, which likely overlapped. Students living in a
+neighborhood with high property prices would thus spend their after-school hours mostly within rich neighborhoods, compared to
+their counterparts spending their time in less wealthy areas. In contrast, those who travelled after school by public transport were
+more likely to experience a greater mix of socioeconomic environments, regardless of whether they lived in a more or less expensive
+neighborhood. One could hypothesize that the unobserved characteristics of a more expensive neighborhood, such as better ame-
+nities, more pleasant streetscapes or more opportunities for activity, may be driving this positive interaction between property prices
+and after-school walking mode. It is also possible that this <U+FB01>nding was due to chance.
+     The lack of signi<U+FB01>cant association between neighborhood property prices and walking levels here supports similar <U+FB01>ndings from
+other studies that found no association between family income and levels of physical activity among the young (Voss et al., 2008; Ball
+et al., 2009, Sherar et al., 2016).
+     As for the lack of association between neighborhood built environment types and levels of walking, we suggest three possible
+reasons as to why our <U+FB01>ndings di<U+FB00>er from other studies. Firstly, our approach to cluster discrete objective built environment measures
+into six di<U+FB00>erent neighborhood types may have masked some of the variation in walking activity that could have been associated with
+each individual measure. Secondly, we speculate that students may have been time-constrained during the regular school week, and
+thus may have had limited leisure time to interact with their immediate neighborhood built environment. A di<U+FB00>erent relationship
+between the built environment and walking activity may have emerged if students were observed over the weekends. Finally, given
+the lack of a clear consensus between other studies on which neighborhood environment characteristics are associated with objec-
+tively measured physical activity among children and adolescents (Ding et al., 2011), our <U+FB01>ndings could very well be an accurate
+re<U+FB02>ection of the lack of any strong relationship between neighborhood characteristics and activity levels of the young.
+     Compared to estimates in published literature, our sample of Singaporean students were more sedentary. International studies
+suggest that the average range of step counts for children range from 10,000 to 16,000 per day, and 8,000 to 9,000 for adolescents
+(Tudor-Locke et. al, 2011). A recently published analysis of physical activity of over 700,000 users of a smartphone application from
+111 countries found that male users aged 15 to 20 logged about 5,600 steps per day, while female users walked about 4,500 steps
+(Altho<U+FB00> et al., 2017). In comparison, our sample of primary school students averaged 6,305 steps daily, while the older secondary and
+JC students took just 3,519 and 3,327 steps daily. However, step counts in our study were likely to be underestimations of actual
+walking activity, given SENSg's occasional insensitivity to small periods of walking. More importantly however, our study's step
+counts excluded steps logged during vigorous exercise, and thus cannot be directly compared to step counts from other studies
+without adjustment. Assuming a 157 step per minute cadence for vigorous activity (Tudor-Locke et. al, 2011), the di<U+FB00>erence in step
+counts between young Singaporean and the averages cited above translates into approximately 20 to 60 min of vigorous activity for
+children, and about 30 to 35 min for adolescents. Taking into consideration Singapore's Ministry of Education's current guideline that
+schools should provide two hours of physical education per school week (MOE, 2017), or 24 minutes per weekday, Singaporean
+students may still be less active than their peers elsewhere even after factoring in physical education classes, especially for those that
+do not participate in additional exercise outside of scheduled classes.
+4.2. Limitations and strengths
+     While this study sought to understand the relationship between active school commutes and walking activity, the observational
+nature of our data precluded any causal inferences. Our study also did not directly examine health outcomes, but rather focused on a
+health-related behavior.
+     Furthermore, although we cannot be sure that the sensors were consistently removed during vigorous activity due to reports of
+non-compliance, given that many students did not wear their sensors during vigorous activity, we were limited in our ability to
+directly study how active commutes a<U+FB00>ected overall physical activity. We could not examine potentially longer set-points that extend
+over a week or more, as we had only up to four days of data per student. Future rounds of data collection where students wear activity
+sensors consistently throughout the day and over a longer period of time would thus help improve understanding of how students’
+active commutes relate to their overall physical activity.
+                                                                   231
+
+S.B. Tan et al.                                                                                  Journal of Transport & Health 8 (2018) 220–243
+     This study also relied on the SUTD researchers’ mode-identi<U+FB01>cation algorithms, which were estimated to have an accuracy of 70
+to 85%, to be accurate and unbiased. Details about these methods, their accuracy and limitations can be found in a previous pub-
+lication (Wilhelm et al., 2016a). Further analysis of these mode identi<U+FB01>cation methods was beyond this study's scope.
+     Finally, our main <U+FB01>ndings may not be generalizable to very sedentary students. Results from our sensitivity analysis of our
+‘between students’ full model, which included students with very low step counts, suggested that those who walked to school in the
+morning walked more throughout the day, unlike results from the <U+FB01>ltered dataset, which excluded low step count students. While we
+treated extremely low step counts as sensor usage errors in this study, they could potentially represent truly sedentary behavior. To
+resolve this uncertainty, further study of how students with low step counts utilize their SENSg devices would be necessary.
+     Despite these limitations, our study had several strengths. We utilized a large sample of students and objective measures of both
+walking activity and built environment characteristics. This study was also situated in a high-density Asian city, which distinguished
+it from most other studies on active commutes and physical activity.
+5. Conclusions
+     Students who travelled to school by public transport or by walking walked signi<U+FB01>cantly more during morning commutes than did
+peers who were driven. However, our data did not unambiguously support a positive association between active morning commutes
+and higher total daily steps. Thus, while encouraging students to walk or take public transport can have multiple bene<U+FB01>ts such as
+reducing emissions and morning tra<U+FB03>c congestion, boosting overall walking activity may not be one such bene<U+FB01>t. More research is
+needed to test if active commuting interventions can indeed lead to increased walking activity in a city like Singapore. Before then,
+policy-makers should be circumspect when considering such initiatives to boost activity.
+Acknowledgements
+     This work was supported by the National Research Foundation (NRF), Prime Minister's O<U+FB03>ce, Singapore, and the SUTD, through
+the National Science Experiment. Additional NRF support came through the Singapore MIT Alliance for Research and Technology's
+Future Urban Mobility research group, which provided access to additional data. The views expressed are those of the authors and not
+necessarily those of the NRF or SUTD. This research did not receive any speci<U+FB01>c grant from funding agencies in the public, com-
+mercial, or not-for-pro<U+FB01>t sectors.
+Con<U+FB02>ict of interest
+     The authors declare there is no con<U+FB02>ict of interest.
+Appendix A. Categorizing Neighborhoods by Built Environment Characteristics
+     To characterize each student's home and school neighborhood environment, we identi<U+FB01>ed the following 16 di<U+FB00>erent built en-
+vironment measures.
+    Density:
+    <U+25CF> Density of Built Area
+    Diversity: (Land use mix & Places of Interest)
+    <U+25CF> Number of Retail, Food and Beverage Outlets within bu<U+FB00>er
+    <U+25CF> Land Use Diversity Mix, based on proportion of di<U+FB00>erent uses ( Residential, O<U+FB03>ce, Retail, Industrial, Warehouse, Parks and
+        Open Space, Others).
+    Access to Public Transit
+    <U+25CF> Number of bus-stops within bu<U+FB00>er
+    <U+25CF> Number of Mass Rapid Transit (MRT) stations within bu<U+FB00>er
+    Design: Street network
+    <U+25CF> Length of expressways per unit walk-shed area
+    <U+25CF> Length of major arterial roads per unit walk-shed area
+    <U+25CF> Length of local roads per unit walk-shed area
+    <U+25CF> Number of intersections within walk-shed area
+    <U+25CF> Percent of four-way intersections within walk-shed
+    <U+25CF> Density of four-way intersections
+    <U+25CF> Density of three-way intersections
+    <U+25CF> Length of footpath per walk-shed area
+    <U+25CF> Density of porous walkable space (neighborhood parks and porous grounds of non-gated, public housing estates)
+    Design: urban form
+    <U+25CF> Average size of building footprint
+    <U+25CF> Average building height
+                                                                  232
+
