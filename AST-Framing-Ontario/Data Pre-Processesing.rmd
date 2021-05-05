@@ -364,6 +364,15 @@ subFolders <- subFolders[grep(x =list.files(masterFolder, full.names=TRUE), patt
 subFolders
 ```
 
+'n' represents the number of subfolders and subsequently corpora that you intent the produce. 'corpusKey' will indicate the numbering convention of the corpora and analysis in subsequent code. 
+```{r}
+# n - number of corpora
+n <- 4
+corpusNum <- seq(1, n, 1)
+corpusKey <- data.frame(corpusNum, subFolders)
+```
+
+
 Corpora will be cleaned for white spaces, punctuation, English stop words, and converted to lowercase. Any additional stop words will need to be removed manually as the user sees fit. 'corpusKey' is a data frame that indicates which file a corpus was derived from. 
 ```{r}
 # Stop words for each of the corpora, or based on how your directory organizes files 
@@ -439,9 +448,6 @@ assign(paste("cleanTextDF", m, sep = ""), data.frame(text = sapply(tempCorpus, a
 
 assign(paste("corpus", m, sep= ""), tempCorpus)
 
-corpusNum <- c(corpusNum, paste(m))
-
-       
 # removed tempory texts for next iteration
 m <- m + 1 
 rm(list=ls(pattern = "^text"))
@@ -456,8 +462,6 @@ rm(temp_df_source, tempCorpus, address, doc_id, fileBaseNames, filePath, i, m, n
 
 Creating Term-Document Matrix and Document-Term Matrix with the fully cleaned corpora.
 ```{r}
-# n - number of corpora
-n <- 4
 for (i in seq(1, n, 1))
 {
 tempCorpus <-  eval(parse(text = paste("corpus", i, sep = "")))
@@ -476,9 +480,6 @@ rm(matrix1, matrix2)
 # Vocabulary 
 
 ```{r}
-# n - number of corpora
-n <- 4
-
 for (i in seq(1, n, 1))
 {
   tempDF <- eval(parse(text = paste("cleanTextDF", i, sep = "")))
