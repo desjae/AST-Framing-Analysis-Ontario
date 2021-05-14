@@ -3,8 +3,22 @@ title: "Data Pre-Processing"
 author: "Jason Lam"
 date: "11/03/2021"
 output:
+  html_document:
+    df_print: paged
   pdf_document: default
   word_document: default
+params:
+  Academic_Papers: "Texts/Academic Papers NoRef"
+  Academic_Papers_DoubCol: "Texts/Academic Papers NoRef DoubleCol"
+  Consortia: "Texts/Consortia"
+  Municipalities_Regions: "Texts/Municipalities or Regions"
+  School Boards: "Texts/School Boards"
+  AP_stopW: c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+  AP_DoubCol_stopW: c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+  Con_stopW: c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
+  Mun_Reg_stopW: c("york", "lane", "school", "transportation", "region", "halton", "can", "use", "guelph", "kingston", "durham", "get", "uf", "ontario", "contact", "also", "covid", "c", "e", "one", "eg", "-", "please", "canada", "n", "page", "canadian", "email", "o", "peel", "fort", "frances", "phone", "r", "ottawa", "barrie", "km", "next", "per", "thunder", "simcoe", "website", "wellington", "andor", "catholic", "k", "m", "middlesex", "oxford", "perth", "po", "provincial", "tollfree", "toronto", "ufc")
+  SB_stopW: c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
+  
 ---
 
 
@@ -23,18 +37,22 @@ rm(list = ls())
 
 Load the following packages:
 ```{r}
-library(tm)
-library(readr)
-library(tools)
 library(dplyr)
-library(tidytext)
-library(topicmodels)
+library(ggraph)
 library(ggplot2)
-library(wordcloud)
-library(word2vec)
+library(igraph)
 library(pdftools)
+library(readr)
 library(reshape2)
+library(stringr)
 library(text2vec)
+library(tidyr)
+library(tidytext)
+library(tm) 
+library(tools)
+library(topicmodels)
+library(word2vec)
+library(wordcloud)
 ```
 
 *Parametrize the document to run different corpus* 
@@ -89,12 +107,36 @@ In total, 233 articles were included from a list of 253. Reasons of exclusions f
 
 The conversion process for this section can only be conducted on one file at a time. We select one of the files provided to use in this package as an example of the process. Alternatively, you can use a file relevant to your municipality/region. To run multiple files or to create separate corpora, refer to the section below.
 
+## Function to clean text of Ligatures
+
+The function below allows you to find and replace certain strings. The main use in this context is to replace encoding errors where specific sequences of character such as "fi" or "fl" are encoded as ligatures in the pdf. During the conversion process those character can be lost and their subsequent words are misintrupted. 
+
+https://stackoverflow.com/questions/17517319/r-replacing-foreign-characters-in-a-string 
+```{r}
+to.plain <- function(s) {
+
+   # 1 character substitutions
+   old1 <- "šžþàáâãäåçèéêëìíîïðñòóôõöùúûüý"
+   new1 <- "szyaaaaaaceeeeiiiidnooooouuuuy"
+   s1 <- chartr(old1, new1, s)
+
+   # 2 character substitutions
+   old2 <- c("<U+FB03>", "<U+FB01>", "<U+FB00>", "<U+FB02>")
+   new2 <- c("ffi", "fi", "ff", "fl")
+   s2 <- s1
+   for(i in seq_along(old2)) s2 <- gsub(old2[i], new2[i], s2, fixed = TRUE)
+
+   s2
+}
+```
+
+
 ## Searchable PDF files to .txt conversion 
 
 PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
 
 ```{r}
-pdfLocation <- "Texts/Academic Papers NoRef"
+pdfLocation <- params$Academic_Papers
 
 # Creates folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
@@ -114,18 +156,22 @@ for (address in filePath)
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
 
+
 # `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
 
 # use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
-write(test, file = newFile)
 print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
+
+write(test, file = newFile)
 
 # Creates uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
+
 n <- n+1
 }
 ```
+
 
 ## Creating data frame of texts 
 
@@ -138,11 +184,13 @@ doc_id <- c(2:n-1)
 
 for (i in seq(1, n-1, 1))
 {
-text[i] <- eval(parse(text = paste("text", i, sep = "")))
+  #
+text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
 # Turns vector into data frame 
 textDF <- data.frame(doc_id, text)
+
 ```
 
 ## Conversion of data frame to corpus 
@@ -152,7 +200,7 @@ Next, convert the data frame to a corpus:
 df_source <- DataframeSource(textDF)
 corpus <- VCorpus(df_source)
 # Example 
-content(corpus[[1]])
+content(corpus[[2]])
 ```
 
 ## Corpus cleaning 
@@ -162,7 +210,7 @@ Many words should be removed while cleaning the corpus to ensure that the analys
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
 
-NAwords <- c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "use", "n", "s", "schools", "also", "p", "b", "used", "number")
+NAwords <- c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
 corpus <- tm_map(corpus, removeWords, NAwords)
 corpus <- tm_map(corpus, removeNumbers)
 
@@ -170,7 +218,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
 
 # Example
-content(corpus[[1]])
+content(corpus[[2]])
 ```
 
 ## Term Document Matrix & Document Term Matrix
@@ -297,6 +345,29 @@ top_bigrams
 top_trigrams
 ```
 
+Bi-gram visualizations 
+```{r}
+bigrams_separated <- test_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+bigram_counts <- bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+bigram_graph <- bigram_counts %>%
+  filter(n > 5) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+ggraph(bigram_graph, layout = "fr") +
+  geom_edge_link() +
+  geom_node_point() +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1)
+
+```
+
 ## Using TDM to make a word cloud 
 
 Word cloud is a nice visual way to view the most common words in your text document matrix 
@@ -333,11 +404,11 @@ context = glove$components
 
 word_vectors = main + t(context)
 
-safe = word_vectors["wellbeing", , drop = FALSE] - word_vectors["physical", , drop = FALSE] + word_vectors["mental", , drop = FALSE]
+#safe = word_vectors["wellbeing", , drop = FALSE] - word_vectors["physical", , drop = FALSE] + word_vectors["mental", , drop = FALSE]
  
-cos_sim = sim2(x = word_vectors, y = safe, method = "cosine")
+#cos_sim = sim2(x = word_vectors, y = safe, method = "cosine")
 
-head(sort(cos_sim[,1], decreasing = TRUE), 10)
+#head(sort(cos_sim[,1], decreasing = TRUE), 10)
 ```
 
 
@@ -364,10 +435,30 @@ subFolders <- subFolders[grep(x =list.files(masterFolder, full.names=TRUE), patt
 subFolders
 ```
 
+## Function to clean text of Ligatures
+```{r}
+to.plain <- function(s) {
+
+   # 1 character substitutions
+   old1 <- "šžþàáâãäåçèéêëìíîïðñòóôõöùúûüý"
+   new1 <- "szyaaaaaaceeeeiiiidnooooouuuuy"
+   s1 <- chartr(old1, new1, s)
+
+   # 2 character substitutions
+   old2 <- c("<U+FB03>", "<U+FB01>", "<U+FB00>", "<U+FB02>")
+   new2 <- c("ffi", "fi", "ff", "fl")
+   s2 <- s1
+   for(i in seq_along(old2)) s2 <- gsub(old2[i], new2[i], s2, fixed = TRUE)
+
+   s2
+}
+```
+
+
 'n' represents the number of subfolders and subsequently corpora that you intent the produce. 'corpusKey' will indicate the numbering convention of the corpora and analysis in subsequent code. 
 ```{r}
 # n - number of corpora
-n <- 4
+n <- 5
 corpusNum <- seq(1, n, 1)
 corpusKey <- data.frame(corpusNum, subFolders)
 ```
@@ -386,8 +477,8 @@ NAwords3 <- c("york", "lane", "school", "transportation", "region", "halton", "c
 
 NAwords4 <- c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
 
+NAwords5 <- c()
 
-corpusNum <- c()
 
 # Iterating through each subfolders 
 m <- 1
@@ -427,7 +518,7 @@ doc_id <- c(2:n-1)
 
 for (i in seq(1, n-1, 1))
 {
-text[i] <- eval(parse(text = paste("text", i, sep = "")))
+text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
 textDF <- data.frame(doc_id, text)
@@ -454,9 +545,7 @@ rm(list=ls(pattern = "^text"))
 
 }
 
-corpusKey <- data.frame(corpusNum, subFolders)
-
-rm(temp_df_source, tempCorpus, address, doc_id, fileBaseNames, filePath, i, m, n, newFile, pdfLocation, subFolder, test, txtLocation)
+rm(temp_df_source, tempCorpus, address, doc_id, fileBaseNames, filePath, i, m, newFile, pdfLocation, subFolder, test, txtLocation)
 ```
 
 
@@ -480,6 +569,7 @@ rm(matrix1, matrix2)
 # Vocabulary 
 
 ```{r}
+n <- 5 
 for (i in seq(1, n, 1))
 {
   tempDF <- eval(parse(text = paste("cleanTextDF", i, sep = "")))
@@ -496,7 +586,77 @@ rm(tempVocab)
 
 ```{r}
 
-paste(sort(NAwords4), collapse = " ")
+paste(sort(c("tm", "readr", "tools", "dplyr", "tidytext", "topicmodels", "ggplot2", "wordcloud", "word2vec", "pdftools", "reshape2", "text2vec", "stringr", "tidyr", "igraph")), collapse = " ")
 
 ```
+
+# Coverts double coloumn documents to single column
+
+The first chuck sets up the function used in the second section.   
+
+https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r 
+```{r}
+
+trim <- function (x) gsub("^\\s+|\\s+$", "", x)
+
+QTD_COLUMNS <- 2
+read_text <- function(text) {
+  result <- ''
+  #Get all index of " " from page.
+  lstops <- gregexpr(pattern =" ",text)
+  #Puts the index of the most frequents ' ' in a vector.
+  stops <- as.integer(names(sort(table(unlist(lstops)),decreasing=TRUE)[1:2]))
+  #Slice based in the specified number of colums (this can be improved)
+  for(i in seq(1, QTD_COLUMNS, by=1))
+  {
+    temp_result <- sapply(text, function(x){
+      start <- 1
+      stop <-stops[i] 
+      if(i > 1)            
+        start <- stops[i-1] + 1
+      if(i == QTD_COLUMNS)#last column, read until end.
+        stop <- nchar(x)+1
+      substr(x, start=start, stop=stop)
+    }, USE.NAMES=FALSE)
+    temp_result <- trim(temp_result)
+    result <- append(result, temp_result)
+  }
+  result
+}
+
+# Create a loop of the code below to run through list of documents
+
+pdfLocation <- "Texts/Academic Papers NoRef DoubleCol"
+  
+ if (file.exists(paste(pdfLocation, "txt"))){
+    txtLocation <- paste(pdfLocation, "txt")
+  }else{
+    dir.create(paste(pdfLocation, "txt"))
+    txtLocation <- paste(pdfLocation, "txt")
+  }
+  fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
+  filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
+  
+for (pdf in filePath)
+  {
+txt <- pdf_text(pdf)
+result <- ''
+for (i in 1:length(txt)) { 
+  page <- txt[i]
+  t1 <- unlist(strsplit(page, "\n"))      
+  maxSize <- max(nchar(t1))
+  t1 <- paste0(t1,strrep(" ", maxSize-nchar(t1)))
+  result = append(result,read_text(t1))
+}
+newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(pdf)), ".txt", sep = "")
+write(result, newFile)
+}
+
+```
+
+```{r}
+rm(list=ls(pattern = "^text"))
+```
+
+
 
