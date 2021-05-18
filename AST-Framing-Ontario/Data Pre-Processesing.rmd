@@ -8,8 +8,8 @@ output:
   pdf_document: default
   word_document: default
 params:
-  Academic_Papers: "Texts/Academic Papers NoRef"
-  Academic_Papers_DoubCol: "Texts/Academic Papers NoRef DoubleCol"
+  Academic_Papers_SinglCol: "Texts/Academic Papers Trimmed Single Col"
+  Academic_Papers_DoubCol: "Texts/Academic Papers Trimmed Double Col"
   Consortia: "Texts/Consortia"
   Municipalities_Regions: "Texts/Municipalities or Regions"
   School Boards: "Texts/School Boards"
@@ -136,7 +136,7 @@ to.plain <- function(s) {
 PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
 
 ```{r}
-pdfLocation <- params$Academic_Papers
+pdfLocation <- params$Academic_Papers_SinglCol
 
 # Creates folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
@@ -626,7 +626,7 @@ read_text <- function(text) {
 
 # Create a loop of the code below to run through list of documents
 
-pdfLocation <- "Texts/Academic Papers NoRef DoubleCol"
+pdfLocation <- "Texts/Academic Papers Trimmed Double Col"
   
  if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
