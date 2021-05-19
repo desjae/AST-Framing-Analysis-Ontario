@@ -1,0 +1,710 @@
+Environment and Planning A 2013, volume 45, pages 2771 – 2788
+doi:10.1068/a45423
+Travel to school and housing markets: a case study of
+Sheffield, England
+Ed Ferrari
+Department of Town and Regional Planning, University of Sheffield, Western Bank,
+Sheffield S10 2TN, England; e-mail: e.t.ferrari@sheffield.ac.uk
+Mark A Green
+Department of Geography, University of Sheffield, Western Bank, Sheffield S10 2TN,
+England; e-mail: mark.green@sheffield.ac.uk
+Received 4 August 2012; in revised form 30 January 2013;
+published online 24 October 2013
+Abstract. How children travel to school is at the centre of a complex set of interrelated
+issues with significant policy implications. This paper reviews the relation of patterns of
+travel to school to concerns about public health, school choice, urban form, and residential
+housing markets. The spatial relations between pupils’ homes and the schools that they
+attend provides the basis of an analytical framework that links local neighbourhood
+characteristics, school performance, and house prices to the distance and mode of travel
+to school and the level of ‘excess commuting’ in the urban system. A unique analysis of
+several integrated micro-datasets from Sheffield, UK, suggests that, while there are high
+levels of excess commuting, there remains a complex interrelationship between housing
+and neighbourhood characteristics, school performance, and commuting patterns. There
+are differences between the pictures for primary schools and secondary schools. Policies
+aimed at promoting transport efficiency and those promoting school choice are likely to
+remain in tension.
+Keywords: school travel, housing markets, excess commuting, urban form, school choice,
+active transport to school
+Introduction
+The journeys that children make to school have come to symbolise and exemplify some of
+the fundamental tensions that exist in urban societies. The ‘journey to learn’ today exists
+at the intersection of a range of contemporary public policy debates, including those related
+to public health; urban transportation; choice within education markets and other public
+services; and the structure and behaviour of residential property markets. While trips to school
+have achieved status as something of a cause célèbre among those concerned with the role
+that increasing levels of car dependence plays in explaining and reproducing public health
+epidemics, especially childhood obesity (see, inter alia, Davison et al, 2008; Panter et al,
+2010a; 2010b; Schlossberg et al, 2006), this concern with public health, though justified,
+belies the complexity of the wider geographical and policy issues at play. How children
+travel to school is also at the heart of broader concerns about the decentralising tendencies
+of urban structure and land use in contemporary capitalist societies (Cervero, 1996; Halcrow
+Group Ltd et al, 2009; Weitz, 2003), associated trends in ‘suburbanised’, auto-dependent
+urban forms (Larsen et al, 2009; McMillan, 2006; Schlossberg et al, 2006), and the limits of
+choice in the delivery of key public services within fragmented social and geographic space
+(Ball, 1993; Reay and Lucey, 2003; West, 2006).
+     The purpose of this paper to explore some of these interconnected issues through the
+lens of children’s travel to school. The methods include a unique GIS analysis of microdata
+
+2772                                                                        E Ferrari, M A Green
+on school commuting and the neighbourhood geography of an English city. The paper is
+motivated by a concern that the spatial and economic inefficiencies suggested by school
+commuting patterns ought to be an important factor within debates about choice within local
+education markets (Wilson et al, 2007). Donegan et al (2007) and Newman and Kenworthy
+(2000), for example, point to the sustainability implications of transport choices and
+infrastructure that result from the many thousands of daily decisions made as part of the
+journey to school. The uneven geography of urban housing markets bears some resemblance
+to educational inequalities, such that house prices may serve to lock in and exacerbate
+patterns of sociospatial segregation (Cheshire and Sheppard, 2004; Gibbons and Machin,
+2003; Leech and Campos, 2001).
+    It is possible to theorise the interconnections between these processes in two mutually
+reinforcing ways. First, the factors implicated in the education choice equation exemplify
+a fundamental dialectic between the liberalisation of access to public services and the
+reduction of social inequalities. Both the access and inequalities dimensions of this
+dialectic comprise an ambiguous relation. On the one hand, increasing access to educational
+opportunities irrespective of home location may be important in breaking down social
+barriers and promoting patterns of social mobility. Yet, on the other hand, this might come
+with increased carbon emissions and congestion, both being potential results of the increased
+levels of ‘excess commuting’ (Horner, 2002; Ma and Banister, 2007) implied by greater
+school choice. The impacts of these economic and environmental costs may be unequal
+across space. Variations in households’ average capacities to absorb transport costs are likely
+to have strong socioeconomic and ethnic dimensions, for example, and these variations in
+may themselves impose profound limits on the social levelling that school choice might
+otherwise bring about. Such limits may be additional to, and reinforcing of, the class and
+ethnic stratification within education markets that themselves can also result from choice
+programmes (Ball, 1993).
+    Second, the prime locus for the implicit ‘trading’ of educational choices against the spatial
+access (see Reay and Lucey, 2003) to those choices is assumed to be the residential housing
+market. Alongside other factors, the housing market works as a structural determinant of
+the reproduction of social inequalities. If key aspects of residential housing markets, both in
+morphological (urban form) and outcome (price) terms, seem to have an impact on school
+commuting patterns then this may offer important insights into how further liberalisation of
+choice in education markets might affect socioeconomic and environmental sustainability
+within cities. The key question addressed here is: does the structure of residential housing
+markets explain school commuting patterns? If it is found that they do, this raises important
+further questions about the role of residential property markets in working against some of
+the putative benefits of educational choice in reducing social inequalities.
+    We explore the above questions empirically, through an initial analysis of school
+commuting and the residential housing market in Sheffield (England), a typical self-contained
+urban education market. Some initial results are presented, and the paper goes on to discuss
+their implications for a range of related policy issues while scoping out an agenda for further
+research in this area.
+Urban structure, choice, and equality within education markets
+The access–space trade-off
+The housing market is assumed to be the basic arena in which access to education and other
+services are traded off against a host of other housing and neighbourhood characteristics.
+The spatial fixity of housing means that house-price arbitrage occurs through the mechanism
+of residential mobility. House prices (and rents) therefore capitalise not only features of
+houses but the bundle of myriad attributes of the (wider) neighbourhood, including urban
+
+Travel to school and housing markets                                                        2773
+form, as well as the aggregate accessibility to schools, jobs, and services implied by that
+location’s urban structure (Olsen, 1969; Orford, 2000; Rosen, 1974). Choices that households
+make involve complex behaviours, and their search activity is conditioned by (though not
+determined absolutely by) the set of locational alternatives generated by their own resources
+and the spatial structure of the city. The interrelations between urban morphology, house
+prices, and school performance can be hypothesised because, over time, the aggregate
+choices that households make—either directly in terms of school choice, or indirectly in
+terms of residential location—will become structurally embedded as observable submarket
+differentials between different neighbourhoods and housing types (Watkins, 2001).
+Urban structure and form
+There is a rich literature, especially from the US, on the impact of urban structure and urban
+design characteristics on transport choices. The intellectual antecedents of this literature can
+be traced back to the classic economic models of land use, such as the access–space trade-
+off models of Alonso (1964) and Muth (1969). In these models, which examine the relation
+between consumption of space and ease of accessibility, the basic determinant of commuting
+behaviour in general terms is distance, itself a function of urban structure. Although developed
+with workplace commuting in mind, increases in the length of journeys to school (linked in
+part to rises in car-borne workplace commuting) suggest that analyses of urban structure
+could be logically extended to include school commuting as well.
+    While such models are theoretically compelling, their practical value is somewhat limited
+given the imposition of myriad other potential factors (Giuliano and Small, 1993). These
+might include complex sociobehavioural determinants of travel, income, discrimination, and
+other constraints on location choice, and variations in urban form (as opposed to structure).
+Hence, despite relatively distinct eras in the historic development of cities, the evidence on
+the impact of urban form on travel behaviour is ambiguous, although some clear factors
+include residential density and the specific configuration of transport infrastructure. Studies
+(for example, Cervero and Murakami, 2010; Giuliano and Narayan, 2003) have shown that
+the density of urban areas can have an impact on the number and distance of trips made
+as well as influencing choice of mode. Chatman (2008) opines, however, that increases in
+density brought about planning policy are unlikely to influence travel behaviour on their own
+without complementary policies serving to disincentivise certain behaviours (for example,
+parking restrictions).
+The role of education
+The relations between school education, residential property markets, urban structures, and
+sociospatial inequalities have been increasingly recognised (Fack and Grenet, 2010; Gibbons
+and Machin, 2003; Leech and Campos, 2001). There has been an increasing evidence, for
+example, of the extent to which educational quality within local ‘education markets’ is
+capitalised into house prices (Cheshire and Sheppard, 2004; Fack and Grenet, 2010). Access
+to good schools is also recognised as a key policy goal in breaking down entrenched social
+problems and income inequalities.
+    The response of residential property markets to school quality can serve to deepen
+residential divisions. A ‘sorting process’ is created (Gibbons and Machin, 2003), shutting
+out mainly those from disadvantaged backgrounds through both geography and the cost of
+accessing neighbourhoods with better schools. The whole process is cyclic and reinforcing,
+as demand to live near good schools both inflates prices and concentrates ‘catchment areas’
+used to govern pupil admissions. Working counter to these trends are school choice policies
+that serve to erode the spatial links between local neighbourhoods and schools and permit the
+emergence of more fluid networks of relations between where pupils live and where they go
+
+2774                                                                          E Ferrari, M A Green
+to school, although schools engaged in ‘cream skimming’ may enforce spatial controls more
+rigidly (West, 2006).
+     There has also been a rise in concern about the impact of suburbanised urban structures
+and associated urban form characteristics on the abilities of school children to access local
+schools, especially using healthy and environmentally sustainable forms of ‘active transport’
+(McMillan, 2006; Panter et al, 2010a; 2010b; Schlossberg et al, 2010; Stewart, 2006). A set
+of basic policy contradictions arises. Attempts to minimise school commuting (for example,
+to lessen its environmental impact or promote active modes of travel) cut across the desire to
+stimulate more fluid markets of choice.
+Choice in education markets
+Burgess and Briggs (2010) describe education markets in England as being highly complex,
+using local administrative procedures to ‘match’ pupils to schools (explicitly and implicitly) on
+the basis of various combinations of pupil ability, pupil and family characteristics (including
+measures of poverty and income), locational characteristics, kinship ties, and geography.
+The precise policies and procedures vary from place to place (and school to school), and the
+extent to which parents are able to make explicit choices also varies.
+     Despite concerns about stratification within local education systems, there is considerable
+fluidity in the nature of the spatial relations between pupil and school. In England only around
+half of secondary school pupils attending a state school actually attend their nearest school
+(Burgess et al, 2006). Allen (2007) shows that, when more students attend their nearest
+school, levels of social and ability segregation are lower. Despite the widespread use of
+spatial determinants in the allocations processes, such as ‘catchment areas’ and locational
+preferences, there are considerable overlaps in the effective zones of influence of schools
+(Harris and Johnston, 2008). A further recent complication in England arises from moves to
+encourage the establishment of ‘free schools’ outside of local authority control (Allen, 2010).
+These schools operate with pedagogic and financial freedoms, with separate admissions
+procedures, and are intended to stimulate more competition in education provision.
+The impact of schools on house prices
+There have been comparatively few UK studies analysing the capitalisation of school quality
+into house prices, unlike in the US, where the empirical literature is far richer. Leech and
+Campos (2001) use a small sample of house sales within the ‘catchment areas’ of two
+schools in Coventry to demonstrate, after controlling for other determinants of price, that
+membership of the school catchment zone increases house prices by between 16% and 20%.
+Gibbons and Machin (2003) recognise that there is a weaker link between home and school
+location in the UK than in other contexts (such as the US) and that this complicates attempts
+to value ‘good’ schools. They also argue that it is primary (generally ages 4–11), rather than
+secondary (11–16), schools that have the greatest local impact on housing markets owing to
+their smaller size and service area. Orford (2000), on the other hand, finds that the spatial
+effect of primary schools on house prices decays much more rapidly than that for secondary
+schools.
+     Cheshire and Sheppard (2004) use a hedonic specification to quantify the impact of
+schools on house prices. Whilst they find that the quality (measured by examination results)
+of both primary and secondary schools is capitalised into house prices, they also point to the
+role of the distribution of quality in the local supply of schools in determining the strength
+of this effect. They found secondary schools were valued more highly than primary schools,
+contrary to the findings of Gibbons and Machin (2003). With the high long-term costs
+involved in buying houses, parents are more likely to look towards the future to maximise
+their investment.
+
+Travel to school and housing markets                                                         2775
+Active commuting to school
+The final strand of literature worth considering is that related to ‘active transportation’. This
+interest has been galvanised around statistics that show that the proportion of schoolchildren
+walking to school has fallen dramatically in recent years, to around 47% in 2010 for primary
+schools (Department for Transport, 2011). Current trends would suggest that, for the first
+time, walking to school may become overtaken by car use, which was recorded at 43%
+and continues to rise. This is, however, not as dramatic for secondary schools (36% walk and
+24% go by car), owing to the bigger role of buses. Trips to schools have also been steadily
+getting longer, increasing by 13% over the decade since 2000. Allen (2007) estimates that in
+aggregate secondary school pupils in England travel over 5 million km further per day than
+they need to as a result of not attending the nearest school, representing an excess commute
+of around 60% . This trend has been replicated globally among rich nations including Europe
+(Fyhri et al, 2011) and North America (Buliung et al, 2009; McDonald, 2007).
+     There has been increasing interest in the potential role that walking and cycling can
+play in improving the health of schoolchildren. There is strong evidence regarding physical
+activity levels and individual health (Bouchard et al, 2012; Hardman and Stensel, 2009). This
+has become more important with the recent growth in obesity levels in England (Stamatakis
+et al, 2010). Active transportation to school acts to establish, supplement, or provide an
+alternative to physical activity. This is supported by Faulkner et al’s (2009) systematic review
+which found that school children who commute using active modes of transport have higher
+levels of physical activity. Nevertheless, Metcalf et al (2004) found that for five year-olds,
+there was no difference in total physical levels between those who were driven to school and
+those who used active forms of transport. There is also potential for increased exposure to air
+pollution as children switch mode of transport.
+     Very few studies explicitly link commuting behaviour to broader sociospatial and urban
+structural contexts. Martínez-Gómez et al (2011), for example, look at adolescents’ lifestyle
+traits to determine correlates with the choice to walk or cycle to school and find little in the
+way of significant explanatory effects. That their study ignores measures of household income
+and characteristics of the neighbourhood or local housing market, however, is potentially
+significant in explaining these weak effects.
+     A US study by Schlossberg et al (2006) found that, taken together, distance and urban
+form factors accounted for around 41% of the variation in whether children walk from school
+[they also found that the trip from school was more frequently made using active transport
+(cf Larsen et al, 2009)]. They found that the density of street junctions and of cul-de-sacs (as
+measure and inverse, respectively, of the walkability of the environment) were significant
+predictors of children walking to school (although not necessarily of cycling).
+     Whilst the urban form is an important driver, it is insufficient to consider it outside
+of socioeconomic factors, including discourses arising from ‘complex social and cultural
+values’ (Jones et al, 2012). Social norms and parental perceptions are as strong influences
+on behaviour as physical urban form characteristics (Davison et al, 2008; McMillan, 2006;
+2006). Areas with greater junction density can limit the ‘walkability’ of an area through
+fear of traffic and safety issues (Barker, 2003). Distance is important in moderating these
+influences: for example, safety concerns become more prevalent when the distance travelled
+is longer (Panter et al, 2010a).
+     Socioeconomic factors are not just important in affecting social views on transport. Many
+studies have shown that children of low socioeconomic status are more likely to walk because
+their parents are unable to afford a car (Davison et al, 2008; McDonald, 2007; Steinbach et al,
+2012). This, however, was contrasted by Panter et al’s (2010b) findings, where an opposite
+pattern was found once distance was controlled for (this was linked to issues surrounding the
+perception of environmental safety). Owen et al (2012) also note ethnic variations in mode
+
+2776                                                                          E Ferrari, M A Green
+of transport to school, with White children more likely to use active forms, Black children to
+use public transport, and Asian children to be driven. Steinbach et al (2012) find similar, but
+weaker associations for ethnicity.
+Conceptual framework and hypotheses
+In summary, there are important connections between perceptions of school performance (as
+underpinning schooling choices), house price, and urban form. Each of these factors is related
+to the journey to school. It is therefore possible to conceptualise these three interconnected
+relations, as depicted in figure 1. These are: the relation between school quality and travel
+to school [1(a) and 1(b)]; the relation between house prices and travel to school [2(a) and
+2(b)]; and the relation between urban form and travel to school [3(a) and 3(b)]. There are also
+relations between school quality and house prices (A); house prices and urban form (B); and
+urban form and school quality (C).
+                             School
+                         performance
+C                      1(a)          1(b)                  A
+                            Travel to
+                             school
+                                               2(a)
+            3(a)
+                   3(b)                   2(b)
+   Urban                                            House
+    form                                            prices
+                                B                              Figure 1. Conceptual framework.
+     This conceptual framework gives rise to an array of interrelated hypotheses in which
+travel to school (ie, the optimality and mode of travel choices) are either predictive of, or
+predicted by, the other factors. So, for example, relation 1(b) might arise where poor local
+school performance encourages ‘excess commuting’ (ie, nonoptimal aggregate travel)
+associated with travel to better, but more distant, schools. Such longer commutes are less
+likely to be undertaken using ‘active’ modes of travel. On the other hand, relation 1(a) might
+explain why resource-poor families, who are unable to exercise choice due to high transport
+costs, are restricted to more poorly performing schools. At the least, we can hypothesise a
+correlative relation between school performance and aspects of travel to school.
+     The housing market is also conceptually linked to travel to school. Good access to
+schools, with a variety of modal choices, might be reflected in house prices [relation 2(a)],
+while the desire to live in high price neighbourhoods, or those strong in market terms, may
+necessitate certain forms of travel to school [relation 2(b)]. So there may also be a hypothetical
+correlation between house prices and travel to school.
+     Finally, we can hypothesise of a correlation between urban form and travel to school.
+Specifically, relation 3(a) might suggest that car-dependent urban forms, which discourage
+walking and cycling, might encourage longer commutes and discourage active forms of
+
+Travel to school and housing markets                                                             2777
+travel to school. Relation 3(b) might result when the choice of neighbourhoods made by
+resource-poor households is constrained because of travel to school considerations.
+     These three general hypotheses are accompanied by a set of exogenous relations (A, B,
+C), which may indirectly condition the relations between school performance, house prices,
+urban form, and travel to school. The capitalisation of measures of school quality into house
+prices would be represented by A; and the tendency for house prices to reflect urban form
+characteristics would be represented by B. There is no immediately relevant direct hypothesis
+linking school quality and urban form (C).
+Methods
+Sheffield is a relatively self-contained education market, with minimal levels of cross-border
+commuting to school. Although self-contained, it is a large city with a population (according
+to the 2011 Census) of approximately 552 700 persons. In 2009 the local education authority,
+Sheffield City Council, controlled 38 secondary schools and 133 primary schools, although
+there has been some reorganisation and consolidation since.
+Data
+The core dataset comprised an extract from a data file collected by Sheffield City Council for
+the purposes of making a return to the School Census (formerly Pupil Level Annual School
+Census, PLASC) maintained by the Department for Education (DfE). This anonymised
+extract covered all primary and secondary school pupils in 2009 and was supplied by officers
+working on a local ‘Safe Routes to Schools’ (SRTS) initiative. The data contained map
+coordinates of the approximate home locations for each pupil and information on what year
+they were in, their usual mode of travel to school, and the school that they attended. The
+dataset contained information on 41 642 primary school pupils and 31 188 secondary school
+pupils.
+     Using the network analyst extension of ArcGIS, an origin–destination cost matrix was
+produced for each pupil to calculate the network distance between each pupil and all possible
+schools. The network distance of the closest relevant school was recorded, as was the network
+distance of the actual school attended. This permitted the calculation of excess commuting.
+The network analysis was based on the Integrated Transport Network (ITN) layer of the
+Ordnance Survey’s Mastermap database as supplied by Edina Digimap. A limitation of this
+method was that it assumes that pedestrians can walk only on roadside pavements (except
+grade-separated dual carriageways and motorways). A future development of the model will
+incorporate pedestrian footpaths but these data were not available as part of the ITN at the
+time of analysis.
+     Data on schools and school performance (taken as a proxy for school ‘quality’) were
+extracted from the publicly available Edubase2 database maintained by the DfE. The specific
+measure used for primary schools was the percentage of eligible pupils achieving level-4
+English and Mathematics at national curriculum Key Stage 2 in the 2008/09 school year. For
+secondary schools the chosen measure was the percentage of pupils achieving five or more
+GCSEs (1) at grades A–C, including English and Mathematics in the 2008/09 school year.
+These were chosen as they represent the expected standard that pupils should achieve at the
+end of primary and secondary education.
+     Two measures of neighbourhood characteristics were gathered. Average mix-adjusted
+house prices were obtained for Middle level Super Output Areas (MSOAs) from the Joseph
+Rowntree Foundation’s Housing and Neighbourhoods Monitor (Wong et al, 2009). Each home
+(1)
+    General Certificate of Secondary Education, a secondary school qualification that has been awarded
+to pupils aged 14–16 in the UK (except Scotland) since 1988. Pupils typically take between eight and
+ten GCSE subjects.
+
+2778                                                                          E Ferrari, M A Green
+postcode in the pupil dataset was assigned a range of absolute and relative price measures
+on the basis of the MSOA it was a member of. Vickers and Rees’s (2006) sociodemographic
+typology of English neighbourhoods was employed to attach a ‘neighbourhood type’ label
+to each home location in the database. This enabled cross-sectional analysis using a broad
+socioeconomic descriptor of areas and provided a proxy for broad housing submarkets.
+    A range of urban form characteristics were created using the Mastermap database. Average
+building density over a 500 m radius was calculated by extracting building polygons from
+the Mastermap topology layer and calculating the density of their centroids using ArcGIS’s
+Spatial Analyst extension (figure 2). The same process was applied to geocoded data on
+residential postal delivery points obtained from the Office for National Statistics Postcode
+Directory (ONSPD) to obtain a measure of residential density (figure 3).
+    Two further urban form characteristics were modelled using network data obtained from
+Mastermap’s ITN layer. Junction density was calculated using a development of Schlossberg
+et al’s (2006) method as follows: a north-facing hectare-cell lattice (grid) was constructed with
+extents equal to the Sheffield city boundary; the number of junctions with three or more paths
+(ignoring directionality) was counted for each cell; this was then smoothed using a simple
+radius of 500 m to represent the generalised junction density across an area approximate to
+the walkable hinterland of each point. The resulting density surface is shown in figure 4. The
+same process was used with ‘junctions’ with only one related edge to calculate the density of
+cul-de-sacs (figure 5).
+    Although more correctly describing ‘permeability’, these latter two measures were taken
+as simple proxies for the inherent ‘walkability’ of the local neighbourhood. Although other
+factors are important in measuring walkability [see Manaugh and El-Geneidy (2011) for a
+recent review], we considered that, in general, a more walkable neighbourhood will have
+a high density of junctions (and hence a higher density of possible routes). More walkable
+neighbourhoods have fewer cul-de-sacs which can lead to unnecessary deviations and
+additional journey lengths. As expected, the city centre is the most ‘walkable’ area of Sheffield,
+Figure 2. Average building density within 500 m.
+
+Travel to school and housing markets                                                       2779
+but it is not the most populated. The areas with the highest residential density are found in
+the older inner suburbs to the west of the city centre and some satellite townships. Other
+‘walkability’ factors, such as perceptions of crime and safety, are clearly difficult to measure
+at this scale. Although point-level crime data are now available, McDonald et al (2010) found
+Figure 3. Average residential density within 500 m.
+Figure 4. Junction density surface.
+
+2780                                                                          E Ferrari, M A Green
+Figure 5. Cul-de-sac density surface.
+a weak relationship between crime and school travel and, while they cite fear of bullying as
+an important factor, such incidents are rarely reported in crime statistics.
+    Testing for correlation between the raster layers representing the measures of urban
+form shows little interrelation between them (table 1). There is a moderately strong positive
+correlation between building and residential density, which would seem appropriate.
+However, the combinations of the other forms show that each is capturing a different pattern.
+Table 1. Correlation matrix (Pearson’s r): urban form measures.
+                        Residential      Junction       Cul-de-sac Building
+                        density          density        density    density
+Residential density     1.000            0.107**        0.183**    0.564**
+Junction density        0.107**          1.000          0.282**    0.344**
+Cul-de-sac density      0.183**          0.282**        1.000      0.367**
+Building density        0.564**          0.344**        0.367**    1.000
+Note: correlations exclude empty cells (ie, 0 = no data).
+** Correlations are significant at the 0.01 level (2-tailed).
+Limitations
+Some important limitations remain as a result of the data and methods employed. No account
+was taken of cross-border flows: that is, pupils originating outside the city but attending school
+within the city, or vice versa. That said, Sheffield is a relatively self-contained education
+‘market’ and the vast majority of pupils in our study travelled from within the city boundary.
+No account was taken of the nature of schools and, in particular, the faith orientation (if
+any) of specific schools. The data related only to state-supported schools under the control
+of the local education authority and, in particular, did not include private schools (although
+Sheffield has comparatively few of these) or the newer quasi-independent ‘academies’.
+
+Travel to school and housing markets                                                             2781
+For analytical simplicity the whole school roll was used, which included pupils at a range of
+levels and whose admissions were made over a number of years. Attribute data on schools
+and neighbourhoods, by contrast, were taken from a single point in time. A more complex
+analytical scheme would have separated students into year groups and used differential school
+and neighbourhood attributes based on (imputed) year of admission to the school.
+     Although mode of travel is often reported by schools in aggregate terms, the Sheffield
+dataset permits analysis at the individual level. That said, ‘usual’ travel mode was self-
+defined by the respondent and does not account for environmental or structural variations
+in children’s normal travel patterns. Most importantly, it assumes that travel to and from
+school are undertaken by the same mode. Wong et al (2011) find important differences in
+morning and afternoon commutes, on the other hand. Despite these limitations, the dataset is
+remarkably complete and permits disaggregate analysis to a high level of spatial resolution,
+making it ideal for this study.
+Results
+Proximity
+Some 18 909 primary school pupils (45%) attended the school that was their nearest in
+network distance terms. More than half of all primary school pupils, therefore, actually
+attended a school which was not their nearest. The average network distance travelled by
+primary school pupils was 1.39 km, while the average network distance to the nearest school
+was 0.73 km. Some 12 832 secondary school pupils (41%) attended their nearest school in
+network distance terms. A slightly higher proportion of secondary pupils than primary pupils,
+therefore, attended a school that was not their nearest. The average network distance travelled
+by secondary school pupils was 3.02 km compared with an average network distance to the
+nearest secondary school of 1.49 km. On average, both primary and secondary pupils travel
+around twice as far as they would in an ‘optimal’ system, suggesting that the option of choice
+is clearly being exerted by pupils on a significant scale.
+Excess commuting
+It is instructive to consider the phenomenon of ‘excess commuting’ in more depth. Simply
+put, excess commuting occurs where aggregate travel is greater than the minimum that might
+be implied by a particular arrangement of homes and workplaces (or schools) (Horner, 2002;
+Ma and Banister, 2007). Across the sample there was an estimated aggregate level of daily
+excess commuting associated with travel to primary schools of approximately 27 500 km in
+each direction (90.5% of the minimal possible commute). Unsurprisingly, the lowest levels of
+excess commuting were associated with cycling (77%) and walking (48%) while the highest
+levels were associated with motorised forms of transport, including taxis (462%), school
+buses (307%), public buses (240%), and light rail (200%). Commutes by private car entailed
+excess commuting of around 126%.
+     Levels of excess commuting also varied according to the neighbourhood types from
+which children started their commute. Children living in ‘city living’ (2) neighbourhoods on
+average had the largest excess aggregate commute (135% of the optimal aggregate commute)
+followed by those living in ‘multicultural’ (116%) and ‘constrained by circumstances’ (109%)
+neighbourhoods. It is possible that these patterns are explained by the paucity of schools, or
+of perceived problems with school quality, in central urban areas, which may encourage
+families to send their children to more distant schools where resources allow.
+(2)
+    The descriptors used here are based on census output areas and are taken from Vickers and Rees
+(2006). The proportion of pupils in Sheffield with each descriptor was: ‘blue collar communities’
+(28.7%); ‘prospering suburbs’ (19.6%); ‘multicultural’ (16.9%); ‘typical traits’ (16.6%); ‘constrained
+by circumstances’ (14.6%); ‘city living’ (2.5%); ‘countryside’ (1.1%).
+
+2782                                                                        E Ferrari, M A Green
+    The lowest levels of excess commuting were associated with ‘countryside’ (54%) and
+‘prospering suburbs’ (64%) neighbourhoods. In the case of countryside communities this
+may be partly explained by the longer distances required to cover to reach any school (the
+average network distance to the nearest primary school for ‘countryside’ residents was,
+at 2 km, more than twice that associated with other neighbourhood types). Being located
+further from services is likely to have translated into less choice. However, the relationship
+for ‘prospering suburbs’ was not the same. Rather, children in these areas were more likely to
+travel to their nearest school. These areas represent better off areas (Vickers and Rees, 2006)
+and hence school quality may be playing an important role in the housing market through
+neighbourhood selection. Actual network distances travelled to primary schools were only
+marginally associated with school quality (r = 0.099, p = 0.000). There was, however, no
+significant correlation between school quality and levels of excess commuting (r = 0.009,
+p = 0.102).
+    Although the distances travelled were generally greater, similar overall patterns were
+found among secondary school pupils. There was an estimated aggregate excess commute of
+around 43 700 km each school day in each direction. This represented a proportional average
+level of excess commuting of 102%. The largest proportional levels of excess occurred among
+those who used taxis (229%), school buses (218%), and public buses (148%). Car trips made
+by secondary school pupils led to 96% excess commuting, surprisingly less than for cyclists
+(123%). In terms of neighbourhood type, it was ‘multicultural’ (132%) and ‘blue collar’
+(112%) communities that were associated with the highest levels of excess commuting.
+These poorer communities (Vickers and Rees, 2006) tend to be more distant from ‘good’
+schools and may be where choice is leading to longer commutes for children.
+Mode
+Fewer than half (46.1%) of secondary school pupils walked to school. Only 0.2% said that
+they cycled (the topography of Sheffield is not as conducive to cycling as in other cities).
+As might be expected, those travelling to their nearest school were far more likely to walk
+than those travelling to a more distant school. Again as expected, given the shorter distances
+involved, more primary school pupils (62.4%) walked to school (either accompanied or
+unaccompanied). Those travelling to their nearest school were much more likely to walk. But
+nearly two fifths of primary school children travelling to the nearest school were taken by car.
+Whilst this may be seen as something policy could easily tackle, it is likely that most of these
+journeys were part of a ‘trip-chain’ with parents dropping their children off before going on
+to work. There were only slight differences by gender within secondary schools; however,
+this was never significantly different.
+Relationship to house prices
+Previous studies (Cheshire and Sheppard, 2004; Leech and Campos, 2001) have demonstrated
+a link between school quality and house prices on the basis of proximity. Table 2 shows
+that there is a moderate but significant (p = 0.01) positive relationship between school
+performance and both actual and nearest school. The relationship is stronger for the actual
+schools that children attend than it is for the nearest school. Given that children from more
+affluent neighbourhood types are more likely to attend their nearest school this is indicative
+of both a house price premium and a close travel relationship associated with ‘better’ schools.
+This effect appears to be even stronger for secondary schools.
+    Table 3 provides a hedonic model of house prices based on the actual school of attendance
+and other factors. For secondary school pupils, a 1 point increase in the percentage of resident
+pupils obtaining five A–C passes including English and Maths increases house prices by
+approx £2330. When the coefficients are standardised to allow for comparisons, this has
+the largest value (ß = 0.561, p = 0.000). Other statistically significant (p = 0.05) predictors
+
+Travel to school and housing markets                                                              2783
+Table 2. Correlations (Pearson’s r) between primary school achievement and average neighbourhood
+house price.
+                               Actual school         Nearest school
+Primary school pupils          0.537**               0.486**
+Secondary school pupils        0.577**               0.412**
+** Significant at the p = 0.01 level (2-tailed).
+Table 3. Hedonic model of house prices (where children attend a secondary school).
+Variable                        Unstandardised coefficients      Standardised t-statistic Significance
+                                                                 coefficients
+                                B                standard error  ß
+Constant                        90 430.458       1 539.856                      58.727    0.000
+School performance               2 330.845          19.807         0.561      117.678     0.000
+Network distance to school          -4.224           0.145       -0.156       -29.060     0.000
+Residential density             -2 522.775          54.920       -0.341       -45.935     0.000
+Building density                 1 375.506          44.808         0.217        30.697    0.000
+Junction density                -43 947.173      1 313.726       -0.242       -33.452     0.000
+Cul-de-sac density              64 022.057       2 028.940         0.201        31.554    0.000
+Excess commuting (%)                  0.022          0.028         0.004         0.784    0.433
+Active mode of travel            6 001.347        923.742          0.045         6.497    0.000
+Public transport mode              625.318        965.187          0.005         0.648    0.517
+Note: R2 = 0.449.
+of price include the network distance travelled to school and whether pupils travelled to
+school using an active mode or by public transport. The higher the average house price of
+a neighbourhood, the more likely that a child going to his or her nearest school will be to
+walk or cycle to school if it is not far. All of the urban form variables are highly significant
+predictors of the average house price of an area. The relationships mainly show that higher
+house prices are found in areas, such as suburban localities, where there are more cul-de-sacs,
+lower residential densities, and sparser road networks.
+    Similar results were found when the analysis was carried out for primary school children
+(table 4). Once again, school ‘quality’ was the strongest predictor of average house prices.
+Interestingly, the standardised ß-coefficient was slightly less than for the equivalent variable
+in the secondary school model, suggesting that secondary schools play a more important
+role in defining house prices (although the models should not be directly compared). In
+contrast to the secondary school model, the use of public transport was found to be negatively
+related to price, which may relate to the distance pattern. It must be further noted that the
+variables entered account for only around 45% of the variability in price in the secondary
+school model and 28% in the primary school model, suggesting that there are a range of other
+unobserved predictors.
+Distance travelled
+Analysing the actual distance travelled for each primary school pupil also produced some
+insightful findings, although the study variables accounted for only around 17% of variability
+(R2 = 0.166). Furthermore, the literature suggests that, while absolute distance is paramount
+in predicting mode, there are complex interactions (such as with socioeconomic factors)
+that were not included in our model specification. That said, three of the urban morphology
+measures were significant (p < 0.05): junction density was positively related [B = 80.433,
+
+2784                                                                          E Ferrari, M A Green
+Table 4. Hedonic model of house prices (where children attend a primary school).
+Model                         Unstandardised coefficients   Standardised t-statistic Significance
+                                                            coefficients
+                              B              standard error ß
+Constant                       64 080.469    1 660.033                      38.602    0.000
+Network distance to school         -0.631        0.199      -0.015          -3.165    0.002
+Residential density            -1 740.117       48.808      -0.252         -35.652    0.000
+Excess commuting (%)               -0.055        0.042      -0.006          -1.323    0.186
+School performance            149 452.892    1 722.151        0.422         86.783    0.000
+Junction density              -26 966.513    1 124.766      -0.170         -23.975    0.000
+Cul-de-sac density             45 042.170    1 718.797        0.161         26.206    0.000
+Active mode of travel           1 690.350     609.218         0.014          2.775    0.006
+Public transport mode          -9 768.093    1 377.038      -0.033          -7.094    0.000
+Note: R2 = 0.285.
+standard error (SE) = 30.101] to distance travelled, as was residential density (B = 3.072,
+SE = 1.319), while building density (B = -18.915, SE = 1.063) were negatively related. This
+suggests that the walkability of an area affects the distance travelled to school: primary school
+pupils living in higher density residential neighbourhoods appeared to travel further to school.
+Pupils walking or cycling travelled around 1 km less to school on average (B = -921.984,
+SE = 15.425).
+    The same model was also applied for secondary school pupils (R2 = 0.326). There were
+similarities to the primary pupil model. In particular, average house price was a significant
+(p = 0.001) inverse predictor of network distance (B = -0.007, SE = 0.000). The performance
+of the school attended was also significant (p = 0.01; B = 44.494; SE = 0.958). The effect of
+‘walkability’ on distance was not evident for secondary pupils, although pupils living in areas
+with a high density of cul-de-sacs had significantly longer commutes to school (a = 0.001,
+B = 655.523, SE = 84.451).
+Modelling ‘active’ commuting
+Finally, the analysis sought to model the characteristics of those children using active
+transport (ie, walking or cycling) to get to school. For primary school children, some obvious
+patterns emerged (table 5). Where children had to travel further, they were less likely to
+use active transport. If there was a good school nearby then children were more likely
+to use active transport, although in general attending a good school reduced the probability
+of using active transport. Earlier findings suggest that very long commutes associated with
+school choice among pupils living in more deprived neighbourhoods may mask the shorter
+commutes of pupils living near good schools. Indeed, higher house prices were associated with
+children being more likely to use active transport to get to school. The notion of walkability
+was once again borne out in the model, with junction density found to increase the likelihood
+of children using an active mode. Higher residential densities also increased the odds of using
+an active mode, while higher cul-de-sac density had the opposite effect. The inclusion of the
+neighbourhood classification indentified three types of areas of importance. Those living in
+areas classified as ‘constrained by circumstances’ were more likely to use active transport.
+These areas are more impoverished (Vickers and Rees, 2006) and hence costs may restrict
+their ability to use other forms of transport. The two other area types which were significant
+were those which are more affluent (‘countryside’ and ‘suburbs’) and each had negative
+relationships (though with the countryside areas, this is likely to be related more to distance).
+    The model for secondary school children shows some similarities to the relationships in
+the primary school children model. However, house price was not a significant predictor and,
+
+Travel to school and housing markets                                                           2785
+Table 5. Logistic regression predicting active transport mode of primary and secondary school pupils.
+Variable                                  Primary school model         Secondary school model
+                                          coefficient   standard error coefficient   standard error
+Network distance to attended school       0.337         0.023***       0.178         0.045***
+Network distance to nearest school        0.768         0.024***       0.649         0.028***
+Average house price                       1.111         0.018***       1.035         0.027
+Residential density                       1.063         0.022*         1.071         0.028*
+Performance of nearest school             1.157         0.019***       1.252         0.020***
+Performance of attended school            0.708         0.018**        0.905         0.025***
+Junction density                          1.105         0.022**        0.666         0.030***
+Cul-de-sac density                        0.928         0.020***       0.950         0.026*
+Building density                          1.005         0.002*         1.364         0.027***
+Excess commuting                          1.000         0.000          0.243         0.773
+Neighbourhood type: reference = blue collar communities
+   city living                            0.876         0.105          1.150         0.097
+   countryside                            0.644         0.155**        0.385         0.224***
+   prospering suburbs                     0.800         0.045***       1.205         0.056***
+   constrained by circumstances           1.117         0.040**        1.194         0.052***
+   typical traits                         0.941         0.043          1.077         0.050
+   multicultural                          0.910         0.045*         0.854         0.064*
+Constant                                  1.511         0.061***       0.551         0.037***
+Nagelkerke pseudo-R2                      0.238                        0.406
+Significance levels: * < 0.05, ** < 0.01, *** < 0.001.
+while more walkable neighbourhoods did not exert as much of an influence on active travel
+choices as in the primary school model, secondary school pupils living in the ‘prospering
+suburbs’ were significantly more likely to walk or cycle to school.
+Discussion
+The results presented in this paper provide some tentative evidence of the hypothetical
+links between housing markets, school performance, urban form and travel to school. While
+the data and methods have some limitations and simplifications, the findings are generally
+supportive of contributions in the separate literatures outlined at the paper’s outset, and can
+be summarised with reference to the conceptual framework outlined earlier. House prices
+appear to be negatively related to distance of travel to school [relation 2(a)], supporting past
+research findings about ‘sorting’ (Gibbons and Machin 2003) and ‘cream skimming’ (West,
+2006). Consistent with this, children from high-price neighbourhoods are more likely to go to
+their nearest school [relation 2(b)]. Furthermore, school performance appears to be a stronger
+predictor of house prices, for both primary and secondary pupils, as does urban form. House
+prices were also shown to be positively related to ‘active’ commuting (for both sets of pupils),
+probably due to house prices being higher where there is less distance to actual school.
+     There was some support of past findings on active transport and urban form, such as
+Cervero and Murakami’s (2010) work on built environment predictors of car use. The
+‘walkability’ of an area appeared to be important in predicting active transport for primary
+school children, although it was insignificant for secondary children. Cul-de-sac density was
+also negatively related to active transport [relation 3(a)]. The relationships for secondary
+school children existed, but appeared more complex. The possibility that school travel
+imperatives might restrict movers to certain neighbourhood types [relation 3(b)] could not be
+tested, though it should be noted that with rising fuel and public transport costs this type of
+
+2786                                                                              E Ferrari, M A Green
+constraint is likely to become more important in the future. In general, urban form variables
+were significantly related to house prices.
+    Finally, school performance seemed to be somewhat important. The role of school
+travel imperatives in constraining school choice [relation (1a)] was beyond the scope of the
+analysis, but, as for relation 3(b), will be an important consideration for policy makers. The
+impact of school performance on active commuting to school [relation 1(b)] was found only
+for primary school pupils. Where there was a good nearby school, pupils were more likely
+to walk.
+    Together, these findings suggest the coexistence of significant, but complex, inter­
+relationships between urban form (itself related to urban structure), school quality, and
+housing markets. These relationships can be analysed through travel to school as the
+prime geographic and dynamic connection between the home and school locations. The
+interconnectedness of the relations highlighted in this paper suggest that educational goals
+aimed at improving school choice, and planning goals aimed at improving urban structural
+and transport efficiency, are doomed to remain in tension. The consequences are nontrivial in
+terms of the sociospatial inequalities bound up in urban housing markets, and also in terms of
+the levels of excess commuting that school travel patterns produce.
+Acknowledgement. The authors acknowledge the support of the British Academy (small grant
+SG1010283) in funding the research on which this paper is based. Any errors of course remain the
+responsibility of the authors.
+References
+Allen R, 2007, “Allocating pupils to their nearest secondary school: the consequences for social and
+    ability stratification” Urban Studies 44 751–770
+Allen R, 2010, “Replicating Swedish ‘free school’ reforms in England” Research in Public Policy
+    issue 10, 4–7
+Alonso W, 1964 Location and Land Use (Harvard University Press, Cambridge, MA)
+Ball S J, 1993, “Education markets, choice and social class: the market as a class strategy in the UK
+    and the USA” British Journal of Sociology of Education 14(1) 3–19
+Barker J, 2003, “Passengers or political actors? Children’s participation in transport policy and the
+    micro political geographies of the family” Space and Polity 7(2) 135–151
+Bouchard C, Blair S N, Haskell W L (Eds), 2012 Physical Activity and Health Human Kinetics,
+    Stanningley, W. Yorks
+Buliung R N, Mitra R, Faulkner G, 2009, “Active school transportation in the Greater Toronto Area,
+    Canada: an exploration of trends in space and time (1986–2006)” Preventive Medicine
+    48 507–512
+Burgess S, Briggs A, 2010, “School assignment, school choice and social mobility” Economic of
+    Education Review 29 639–649
+Burgess S, Briggs A, McConnell B, Slater H, 2006 School Choice in England: Background Facts,
+    CMPO WP 06/159, Institute of Public Affairs, University of Bristol
+Cervero R, 1996, “Jobs–housing balance revisited: trends and impacts in the San Francisco Bay
+    Area” Journal of the American Planning Association, 62 492–511
+Cervero R, Murakami J, 2010 “Effects of built environments on vehicle miles traveled: evidence
+    from 370 US urbanized areas” Environment and Planning A 42 400–418
+Chatman D G, 2008, “Deconstructing development density: quality, quantity and price effects on
+    household non-work travel” Transportation Research Part A 42 1008–1030
+Cheshire P, Sheppard S, 2004, “Capitalising the value of free schools” The Economic Journal
+    114 F397–F424
+Davison K K, Werder J L, Lawson C T, 2008, “Children’s active commuting to school: current
+    knowledge and future directions” Preventing Chronic Disease 5(3) 1–11
+Department for Transport, 2011 National Travel Survey Department for Transport, London
+Donegan K S, Adamson G, Donegan H A, 2007, “Indexing the contribution of household travel
+    behaviour to sustainability” Journal of Transport Geography 15(4) 245–261
+

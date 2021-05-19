@@ -1,0 +1,492 @@
+                                                            Journal of Transport & Health 6 (2017) 313–326
+                                                       Contents lists available at ScienceDirect
+                                                 Journal of Transport & Health
+                                                journal homepage: www.elsevier.com/locate/jth
+Walking time to school, children's active school travel and
+their related factors
+Milad Mehdizadeh a,b,n, AmirReza Mamdoohi b, Trond Nordfjaern c
+a
+  Iran University of Science & Technology, School of Civil Engineering, Transportation Planning Department, Tehran, Iran
+b
+  Tarbiat Modares University, Civil & Environmental Eng. Faculty, Transportation Planning Department, Tehran, Iran
+c
+  St. Olavs University Hospital, Clinic of Substance Use and Addiction Medicine, Department of Research and Development, Box 3250
+Sluppen, 7006 Trondheim, Norway
+a r t i c l e i n f o                                    abstract
+Article history:                                         Active school travel is one of the main opportunities for promotion of physical activity
+Received 20 September 2016                               among children. Low physical activity in this group is associated with potential health
+Received in revised form                                 risks. This research has three aims including two main aims and one intermediate aim.
+30 January 2017
+                                                         The two main aims were to identify variables that explain why the perceived walking time
+Accepted 30 January 2017
+Available online 16 February 2017
+                                                         to school (PWTS) is below or above a threshold and to examine the role of PWTS as well as
+                                                         socioeconomic status, household factors, parental attitudes towards walking and walking
+Keywords:                                                safety on active school travel among children. The intermediate aim was to identify a
+Physical activity                                        threshold for the PWTS. This threshold may provide information about how to plan
+Walking time
+                                                         transport and roads around schools. Data were gathered in Rasht, Iran in 2014. The 1078
+Active school travel
+                                                         questionnaires were distributed among pupils aged 7–9 years in nine schools. The chil-
+Children's active travel
+                                                         dren were instructed to bring the forms to their parents who completed them (n ¼735,
+                                                         return rate¼ 80%). To predict active school travel (0 ¼ inactive modes, 1 ¼ active modes),
+                                                         and PWTS (0 ¼long, 1 ¼ short) two binary logistic regression analyses were carried out.
+                                                         Results showed that a 10 minutes PWTS was the threshold where the proportion of active
+                                                         mode use (walking) starts to decrease compared to the best performing alternative mode.
+                                                         Higher parental age (OR ¼ 1.02) and household income (OR ¼ 1.27), accessibility to public
+                                                         transport (OR ¼0.42), attending public school (OR ¼ 0.36), access to school service
+                                                         (OR ¼ 0.45) and contextual and design preconditions for walking (OR ¼0.81) were asso-
+                                                         ciated with PWTS to eligible schools. PWTS (OR ¼15.24) was a strong negative predictor of
+                                                         active school travel. Mother's driving license (OR ¼0.49), more owned cars (OR ¼ 0.53),
+                                                         higher mother's educational degree (OR ¼ 0.74), accessibility to public transport
+                                                         (OR ¼ 0.26), and access to school service (OR ¼ 0.22) were related to active school travel.
+                                                         This research found that PWTS is the most important barrier for children's active tra-
+                                                         velling while adjusting for a wide-range of demographics, socio-economic variables as
+                                                         well as safety and attitude factors in Iran.
+                                                                                                                 & 2017 Elsevier Ltd All rights reserved.
+   n
+     Correspondence to: Iran University of Science & Technology, School of Civil Engineering, Transportation Planning Department, Tehran, Iran.
+      E-mail addresses: milad_mehdizadeh@ymail.com, milad_mehdizadeh@civileng.iust.ac.ir (M. Mehdizadeh), armamdoohi@modares.ac.ir (A. Mamdoohi),
+nordfjar@gmail.com (T. Nordfjaern).
+http://dx.doi.org/10.1016/j.jth.2017.01.012
+2214-1405/& 2017 Elsevier Ltd All rights reserved.
+
+314                                  M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326
+1. Introduction
+    Active school travel is one of the main opportunities that parents have to promote physical activity among their children.
+Low rates of physical activity are associated with potential health risks among children, such as cardiovascular problems and
+bone health issues (Andersen et al., 2006; Biddle et al., 2004), metabolic syndrome (Bell et al., 2007; Pan and Pratt, 2008),
+high blood pressure (Leary et al., 2008; Sugiyama et al., 2007) and obesity (Hedley et al., 2004). Furthermore, since active
+school travel involves physical activity it could also promote mental health among children (Fotel and Thomsen, 2002; Fyhri
+and Hjorthol, 2009).
+    “Community school” (i.e. easily accessible schools for pupils in all urban regions), “Safe Route to School” (SRTS),”Walking
+School Bus” (i.e. children collectively walk to school in an adult-supervised and timetabled manner), School Travel Plan
+(STP), and Optimal School Siting (e.g. proximity of good quality schools in all regions) have been implemented as pro-
+grammes targeted to promote physical activity in developed contexts such as North America, Europe, New Zealand, and
+Japan (McDonald, 2007; Easton and Ferrari, 2015; Collins and Kearns, 2010; Schoppa, 2012). Meanwhile, research regarding
+children's (pupils at elementary schools) active school travel in middle income or developing countries in Western Asia or
+the Middle East context remains scant (Mehdizadeh et al., 2016). Iran is an interesting case because the above-mentioned
+policies have not been implemented in this country. Furthermore, the overall active travel mode use in Iran is low, both in
+the general population and among children (Esteghamati et al., 2011; Hajian-Tilaki and Heidari, 2007; Kelishadi et al., 2010).
+Active school travel mainly includes walking in Iran and bicycling is rather uncommon. Consequently, active transport is
+here defined as walking and bicycling was excluded in the current study.
+1.1. Aims
+    The core motivation underlying the current study was to add to the empirical knowledge base about predictors of short
+perceived walking time to school and active school travel (walking) in a developing Iranian context. Identifying a threshold
+for walking time to school may yield information about how to plan transport and roads around schools. Easily accessible
+schools for pupils in all urban regions might increase the probability of active school travel among children. In the current
+study, we defined the threshold for perceived walking time to school as the distance where walking starts to decrease
+compared to the best performing alternative mode. The best performing alternative mode refers to the mode which is most
+frequently selected at each perceived walking time to school (PWTS), excluding walking. Further, a walking time threshold
+could be used as a dependent variable for identifying variables that explain why PWTS is below or above the threshold, and
+also as an explanatory variable for identifying variables that explain why pupils walk or use a non-active mode in an Iranian
+setting. To sum up, this study has two main aims and one intermediate aim:
+    1) To identify variables that explain why PWTS was below or above the threshold. This included an investigation of
+factors affecting school choice as an explanatory factor for home-to-school distances in Iran.
+    2) To identify variables that explain why pupils walk. This included an examination of the role of PWTS as well as
+demographic, socio-economic, attitudes, and safety perception for walking.
+    3) An intermediate aim was to identify a walking time threshold using a somewhat similar definition as in previous
+studies in a new context: Iran.
+1.2. Literature review
+    The majority of previous school travel studies have been conducted in high income regions such as North America,
+Western Europe, Australia, New Zealand and Japan. Meanwhile, the research is meagre in developing countries in Eastern
+Europe and, in particular, in less developed low income countries in Asia such as Iran. Table 1 shows important findings and
+methodological approaches in some previous studies related to active school travel in different regions of the world.
+    In North America, several studies have reported important barriers on children's active school travel. For instance, higher
+home-to-school distance (or walking time) has been reported to be the most important explanatory variable on active
+school travel (e.g. McDonald, 2008a, 2008b; McDonald et al., 2011). Household socioeconomic status such as increased car
+ownership (McDonald, 2005; McDonald et al., 2011; McMillan, 2003), higher income (Babey et al., 2009; McDonald, 2008a;
+Vovsha and Petersen, 2005), higher educational degree among mothers (McMillan, 2003), perceived neighborhood safety
+problems (e.g. McMillan, 2007; Rothman et al., 2015), and demographic characteristics (e.g. younger children) (McDonald,
+2008b; McDonald et al., 2011) were also negatively related to active school travel among children. McDonald (2012) re-
+ported that there is a gender gap on school travel in the United States, while Mitra and Buliung, (2015) have found that
+gender exert no influences on mode use on school travel among children in Canada.
+    Furthermore, several studies have been conducted in Western Europe. These studies have examined demographic, socio-
+economic and built-environment characteristics associated with school travel mode use in countries such as the United
+Kingdom (e.g. Easton and Ferrari, 2015), Netherlands (Van Goeverden and De Boer, 2013), Belgium (Zwerts et al., 2010),
+Scotland (Waygood and Susilo, 2015), Ireland (Nelson et al., 2008), and Scandinavian countries (Fyhri and Hjorthol, 2009;
+Johansson et al., 2011). In these high income countries, several of the studies reported that distance (or travel time) had the
+most important role in reducing the probability of active school travel among children (e.g. Cooper et al., 2003; Fyhri and
+Hjorthol, 2009; Waygood and Susilo, 2015). Similarly to the North American context, the studies also reported significant
+
+318                                M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326
+influences of other socio-economic (e.g. car ownership, income), household (e.g. parental educational background) and built
+environment factors on walking/cycling.
+    Meanwhile, in Eastern Europe, a relatively small body of studies has analyzed active school travel (Broberg and Sarjala,
+2015; Loucaides et al., 2010; Pojani and Boussauw, 2014). One study examined the influence of socio-economic and en-
+vironmental characteristics on active school travel in Albania (Pojani and Boussauw, 2014). In a very dense urban Albanian
+setting, walking had the highest share among available school travel alternatives. The findings also showed that higher
+home-to-school distance, car ownership and family income were negatively related to active school travel.
+    In addition to the contexts outlined above, some studies have been conducted in Australia and New Zealand. Some of
+these studies have shown that built-environment factors like distance has the most important impact on active school travel
+(Conlon, 2013; Curtis et al., 2015). In addition, Carver et al. (2013) reported that parental perceptions of traffic safety and
+injury risk were important for mode use among children.
+    As shown in Table 1, it is evident that a rather meagre body of studies has been conducted in the Eastern Asian and
+Middle East context. One study carried out among pupils (aged 13–15 years) found that home-to-school distance had a
+negative role on active school travel among students in China (Li and Zhao, 2015). The authors also recommended an
+examination of associations between travel time, school choice and modal split in future research. Further, Lin and Chang,
+(2010) examined the role of the built environment on children's school travel in Taipei. They reported that a higher shade-
+tree density and sidewalk coverage were positively related to walking to school among children.
+    Recently, some studies have examined factors important for pupils’ (12–17 years) travels in Tehran, Iran (Ermagun and
+Levinson, 2016; Ermagun and Samimi, 2015). These studies analyzed a wide range of policy-sensitive variables and found
+that walking time to school, car ownership and safety concerns had a negative role on active travelling to school. Also, two
+studies have been conducted in a typical city in the northern part of Iran, Rasht (Hatamzadeh et al., 2016; Mehdizadeh et al.,
+2016). Hatamzadeh et al. (2016) found that higher distance, car ownership and age (elementary vs. high school students)
+were negatively related to walking among students. Moreover, Mehdizadeh et al. (2016) reported significant heterogeneity
+around the mean of walking time to school among a wide range of socio-economic, psychological, and built environment
+variables on school travel mode choice. To date, no studies have examined the walking time threshold and factors associated
+with this threshold in the Middle East context. There are also no studies that have investigated active school travel by a wide
+range of socio-economic, attitudinal and safety factors in this context.
+    As mentioned above, distance or time was the most important variable on active school travel in previous work. An
+increase in distance or walking time is strongly associated with the probability of active school travel among children
+(McDonald, 2008a). For instance, McDonald found that a 10 percent increase in walking time (perceived self-reported
+distance)—in essence distance to school—decreased children's walking probability by around 7.5 percent. McDonald and also
+McMillan used a self-reported distance measurement and showed that children who lived within one mile (1.6 km) of their
+school had a stronger probability of walking to school (McDonald, 2008a; McMillan, 2007). Another study used a self-
+reported walking time measure of commuting distance related to use of active modes in school trips (Ermagun and Samimi,
+2015). Their results showed that a 1 percent increase in walking time led to a 2.37 percent decrease in active mode use.
+    Other studies have reported that the perceived distance should be at 3 km or below for an active modal shift to take place
+on school travel (Li and Zhao, 2015; Van Goeverden and De Boer, 2013). However, Timperio et al. (2006) found that 800 m
+could be a cut-off for walking and bicycling among children. They also measured distance to school with a proxy variable
+(shortest possible route from home-to-school). The large difference in identified threshold between 3 km and 800 m might
+be due to different operationalizations and distance measures across studies. However, in Van Goeverden and De Boer
+(2013) (a 3 km threshold), the analyses were based on reported distances from home-to-school by the respondents.
+    Meanwhile, a small body of studies has examined factors affecting school choice as an explanatory factor for perceived or
+actual home-to-school distances (De Boer and Blijie, 2006; Gorard, 1999; Van Goeverden and De Boer, 2013). School choice
+could determine the time and distance that a child has to travel, given its residential location (Van Goeverden and De Boer,
+2013). The distance and time that a child has to travel to school is associated with the school choice from the collection of
+eligible schools (Van Goeverden and De Boer, 2013). For instance, poor accessibility (e.g. by walking), traffic barriers, higher
+age, higher income, car ownership, and parental educational degree could relate to higher home-to-school distances to
+eligible schools (De Boer and Blijie, 2006; Gorard, 1999; Van Goeverden and De Boer, 2013).
+2. Materials and methods
+2.1. Study area context
+    The study area in the current research was in Rasht. Rasht is the largest city in the northern part of Iran with an area of
+180 km2 and a population around 639,951 (Iran National Census, 2011). The urban road network of Rasht is a combination of
+narrow streets that result in limited car flow and a dense traffic on the inner-city main roads. Some public transit modes,
+such as metro and tram systems, are not available in Rasht. Public transport in Rasht includes urban scheduled buses and
+carpooling (public) taxis. The carpooling taxis have dedicated stations across the city. Narrow streets, a lack of well-
+maintained pavements and poor public transport facilities are important characteristics of the transport system in Rasht.
+Also, the bicycling use among youth and the general population is limited. Subject to a fee, some schools also provide
+
+                                          M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326                                            319
+transport services for their pupils. The number of public and private primary schools are 123, and 122, respectively in Rasht.
+Also, the price of gasoline is overall cheaper in Iran (average price of 0.39 $ per liter) than in the rest of the world (average
+price 0.99 $ per liter).
+    The city of Rasht has some interesting characteristics that motivated us to select it as a case in the present study. First, the
+general urban transport patterns, the public transport system and the low proportion of walking/bicycling rates are rather
+similar to most Iranian cities and less developed countries in the Middle East (Hatamzadeh et al., 2016; Mehdizadeh et al.,
+2016). Further, like most other cities in Iran, Rasht has warm summers and cool winters which may influence choices of
+transport on children's school travel.
+2.2. Sample
+    The respondents were parents of elementary pupils (7–9 years). Based on pupils’ demographic proportions (e.g. gender),
+the socio-economic status of different regions of the city and type of school proportions, a random stratified sampling
+procedure was carried out. A total of 1078 questionnaires were distributed among pupils in 9 schools in 2014. The pupils
+were requested to bring the forms home to be completed by their parents. After two days, 80 percent of the questionnaires
+were returned (n ¼858). Uncompleted questionnaires (n ¼123) were not included in further analyses, which left a total of
+735 cases available to analysis. Written consent was obtained from the parents.
+2.3. Measures
+    Different measures that were applied in the study are outlined and explained in this section. Table 2 also shows variables
+that were included in the questionnaire. The parents were asked to report the frequency of how often they chose each mode
+(walking, car, school service, public transport, and other) on their children's school travels in the previous week (the
+maximum was five times). Further, Information was collected about children's and parental demographic and socio-
+economic characteristics. The access to school service (e.g. school bus, carpooling), accessibility to public transport and
+perceived safety of walking facilities in the home-to-school route was recorded. Parental attitudes towards walking were
+measured with a revised version of a validated 23-item instrument (Transport for London, 2011; Mehdizadeh et al., 2016).
+Parents reported their consent to the attitudes items on a five point Likert scale, (1) ‘completely disagree’ to (5) ‘completely
+agree’.
+    The parents also reported their perceived walking time to school (as a proxy to active travel time and distance) in
+minutes. Also, PWTS and the shortest possible path in Google Earth between residential districts-and-school distances were
+strongly related. Several previous studies used a self-reported (or approximate) walking time and physical distance measure
+(Ermagun and Samimi, 2015; McDonald, 2008a; McMillan, 2007; Timperio et al., 2006). Further, Nelson et al. (2008) showed
+Table 2
+Variables used in the questionnaire.
+  Measure                                                                                       Scale or response category
+  School travel modes
+  The frequency of how often parents chose each mode                                            In a week (the maximum was five times)
+  Demographic characteristics
+  Children's gender                                                                             Boy vs girl
+  School grade of the children                                                                  7–9 years old
+  Parent's age                                                                                  Continuous variable
+  Socio-economic and household characteristics
+  Number of children in the household                                                           Continous variable
+  Father's driving license status                                                               Has/has not
+  Mother's driving license status                                                               Has/has not
+  Father's occupational status                                                                  Full time vs part time
+  Mother's occupational status                                                                  Full time vs part time
+  Father's educational status                                                                   High (university degree) vs low
+  Mother's educational status                                                                   High (university degree) vs low
+  Number of private cars owned by households                                                    Continous variable
+  Respondents’ perception about their own income compared with the city average                 5 point Likert scale, much lower to much higher
+  The number of hours of parental exercise in a week                                            0 h, o1 h, 1–2 h, 2–3 h, 43 h
+  Transport system
+  Access to school service                                                                      Yes/no
+  Access to public transport in the home-to-school route                                        Yes/no
+  Perceived safety of walking facilities in the home-to-school route
+  Parental perceived safety of walking facilities in the home-to-school route                   5 point Likert scale, very unsafe to very safe
+  Parental attitudes toward walking
+  Parental attitudes towards walking with a revised version of a validated 23-item instrument   5 point- Likert scale, strongly disagree to strongly agree
+    (TFL, 2011)
+  Walking time to school
+  Parental perceived walking time to school                                                     Continuous variable (in minutes)
+
+320                                   M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326
+that there were no significant differences between self-reported physical distance and actual distances, indicating that
+perceived distance is a valid proxy to actual distance.
+2.4. Statistical analysis
+    Descriptive statistics were applied to detect the PWTS threshold for active mode use on school trips. In this way, the plot
+of the number of children walking versus the PWTS was used to identify the threshold. Pearson's chi-square (<U+03C7>2) tests were
+used to investigate proportion differences in socio-economic status, household factors and modal split across short and long
+PWTS groups. Independent samples t-tests were applied to examine mean differences in walking attitudes between those
+who had short PWTS and those who had long PWTS. Principal component analyses (PCA) with iteration and varimax
+roation were applied to explore walking attitudes dimensional structures. To determine the number of dimensions Kaiser
+criterion and the Scree plot were applied. Cronbach's a coefficients were calculated to test scale reliability and internal
+consistency. To predict active school travel versus inactive modes (0 ¼inactive, 1¼ active modes), and short PWTS versus
+long PWTS (0 ¼long, 1¼short), two binary logistic regression analyses (n¼ 735) were carried out. The predictors were added
+in two models using the enter method in SPSS 21.0 statistical software package. In addition to the variables that are found
+statistically significant in a 95% confidence interval, all non-significant examined variables have been adjusted for and
+reported in the two models.
+3. Results
+3.1. Detecting the PWTS threshold for active modes
+    PWTS ranged from one minute to 120 min. The mean PWTS was 25.00 min (Std. deviation¼ 20.22). About 50% of parents
+perceived a PWTS of more than 15 minutes, while 15 percent perceived more than 40 min. The PWTS threshold has been
+defined as the time where the walking frequency starts to decrease compared to the best performing alternative mode.
+Descriptive analyses (Fig. 1) showed that 10 min PWTS was the threshold in the current sample. Hence, it was assumed that
+a PWTS equal to or less than 10 minutes constituted a short trip where active mode use is more prominent than each of the
+other modes, and more than 10 minutes is a long trip to school where active school travel is low compared to the best
+performing alternative mode. In this time interval (10 min), the frequency of walking and the best performing alternative
+(school service) was 39 and 38 times, respectively. After the 10 minute threshold, the walking frequency was substantially
+reduced to 19 times, and school service was the most frequently chosen mode (Fig. 1). Pearson's chi-square test also showed
+that modal use by short and long PWTS differed significantly ( <U+03C7> 2 (df¼ 4) ¼206.80, p ¼ 0.000).
+                                 Fig. 1. Detecting the threshold for perceived walking time to school (PWTS).
+
+                                       M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326                              321
+Table 3
+Demographic and household characteristics by the two PWTS groups (short and long trips).
+  Characteristics                  Short trips    Long trips    Characteristics                                     Short trips Long trips
+  Gender of child                                               The number of hours of parental exercise in a week”
+  Boy                              106            258           No exercise                                         61          153
+  Girl                             112            259           o 1 h.                                              67          162
+                   nn
+  Type of school                                                1–2 h.                                              39          106
+  Public                           147            432           2-3 h.                                              19          48
+  Private                          71             85            43 h.                                               32          48
+  Child's grade                                                 Monthly income n
+  One                              87             211           o 500,000 toman                                     27          97
+  Two                              65             149           500,000–1 million                                   145         346
+  Three                            66             157           1 million–1.5 million                               37          63
+  Father's driving license                                      41.5 million                                        9           11
+                                                                                   n
+  Yes                              200            486           Respondent's age
+  No                               18             31            18–25 years old                                     10          35
+  Mother's driving license                                      26–30                                               27          85
+  Yes                              154            341           31–39                                               124         275
+  No                               64             176           40–49                                               52          117
+                n
+  Owned cars                                                    450                                                 5           10
+                                                                                     n
+  0                                49             114           Father's education
+  1                                137            357           Illiterate                                          1           3
+  2                                30             42            Under high school                                   34          121
+  2þ                               2              4             High school                                         110         273
+                               n
+  Father's occupational status                                  Bachelor of Science and higher                      74          119
+  Full time job                    134            302           Mother's education n
+  Part time job                    55             145           Illiterate                                          0           1
+  Retired                          4              6             Under high school                                   31          83
+  Unemployed                       4              9             High school                                         114         319
+  Other                            21             55            Bachelor of Science and higher                      73          114
+  Mother's occupational status nn                               Access to public transport  nn
+  Full time job                    27             56            Yes                                                 82          305
+  Part time job                    46             54            No                                                  136         212
+                                                                                         nn
+  Retired                          2              3             Access to school service
+  Housewife                        133            391           Yes                                                 188         478
+  Other                            10             13            No                                                  30          39
+Pearson chi-square.
+Short trips (PWTSo ¼ 10 min); Long trips (PWTS 4 10 min).
+    n
+       Po 0.05.
+    nn
+        p o 0.001.
+3.2. Demographic and household factors among the two PWTS groups (short and long trips)
+    Proportion differences in socio-economic and household factors across short and long PWTS were examined by Pearson's
+chi-square test (Table 3). The share of each variable group: Type of school, monthly income, parental age, car ownership,
+father's education, mother's education, father's job, mother's job, income level, accessibility to public transport, and access
+to school service were significantly different across the two PWTS groups.
+3.3. Walking attitude scores by PWTS (short and long trips)
+    Descriptives for the walking attitude items separated for those who perceived short and long PWTS are reported in
+Table 4. As shown, the item “Good design of streets makes walking more enjoyable'' had the highest score in the short and long
+PWTS groups. Parents who perceived short walking time to school reported more agreement to walking attitudes such as
+“Walking is a convenient way of getting about'',“ Walking is an interesting way to travel",“ I feel more relaxed when I walk to my
+destination",“ I don’t think there is enough pedestrian information and signposts in my local area", and “Walking for 15 minutes is
+something I would happily consider". These parents also reported less agreement to the item “Walking is a method of transport
+that you would want to be seen using".
+
+                                            M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326                                     323
+Table 6
+Logistic regression predicting active school travela.
+  Variables                                                        B (S.E)               Odds Ratio          95% C.I.                         P-value
+                                                                                                             Lower          Upper
+  Constant                                                         .18 (1.29)            –                   –              –                 0.886
+  PWTS_10 ( o ¼ 10 min ¼ 1, 4 10 min ¼0)                           2.72 (.26)            15.24               9.04           25.70             .000
+  Number of children in household                                  .17 (.18)             1.18                .82            1.71              .358
+  Gender (Boy¼1, Girl¼ 0)                                            .04 (.25)          .96                 .57            1.59              .881
+  Type of school (public ¼ 1, private¼0)                           .12 (.37)             1.13                .54            2.34              .740
+  School grade of children (1, 2, 3)                               .03 (.14)             1.04                .77            1.39              .795
+  Father's driving license (has ¼1, has not¼ 0)                      .71 (.44)          .48                 .20            1.17              .111
+  Mother's driving license status (has¼1, has not¼0)                 .69 (.30)          .49                 .27            0.89              .020
+  Number of household's private cars                                 .62 (.25)          .53                 .32            .88               .015
+  Father's occupational status (full time ¼ 1, other¼ 0)           .05 (.10)             1.05                .86            1.28              .610
+  Mother's occupational status (full time ¼1, other ¼ 0)           .01 (.12)             1.01                .80            1.28              .889
+  Father's educational status (high ¼1, low¼ 0)                      .09 (.22)          .90                 .58            1.41              .669
+  Mother's educational status (high¼ 1, low¼0)                       .38 (.20)          .74                 .46            0.99              .048
+  Income                                                           .09 (.19)             1.09                .75            1.60              .630
+  Parental exercise in a week (see Table 2)                        .13 (.09)             1.14                .94            1.37              .158
+  Parental age                                                       .01 (.02)          .99                 .95            1.03              .729
+  Accessibility to public transport (yes ¼1, no¼ 0)                  1.33 (.26)         .26                 .15            .44               .000
+  School service (yes¼ 1, no ¼ 0)                                    1.50 (.35)         .22                 .11            .44               .000
+  perceived safety of walking (see Table 2)                          .07 (.12)          .92                 .72            1.18              .543
+  Comfort and Convenience of walking                               .16 (.12)             1.17                .92            1.49              .190
+  Design feasibility for pedestrians                                 .01 (.12)          .99                 .78            1.26              .956
+  Contextual and design preconditions for walking                    .09 (.12)          .91                 .71            1.16              .473
+-: Bolded figures are significant at po 0.05 or below.
+    a
+      Chi-square¼ 253.62 (df ¼ 21), enter method, sig ¼0.000. R2 ¼ 0.292 (Cox & Snell), 0.470 (Nagelkerke). 86.5% correctly predicted; dependent variable:
+Active mode: 1 versus Inactive: 0.
+(ev) ¼24.17%) included six items (W9, W8, W4, W15, W13, and W3). This dimension included items related to evaluations of
+the convenience and attractiveness of walking. The second dimension was named ‘“Design feasibility for pedestrians’
+(a ¼0.679, aiic¼ 0.54, ev¼ 16.39%) and included three items (W22, W20, and W21) that described evaluations of the street
+designs and pavements. The third dimension labelled ‘Contextual and design preconditions for walking’ (a ¼0.528, aiic¼0.52,
+ev¼13.27%) included three items (W17, W10, and W16) which illustrated that people dislike walking in dirty, vandalized and
+unsafe streets.
+3.5. Predictors of short versus long PWTS
+    Table 5 shows that the model significantly predicted short versus long PWTS ( <U+03C7> 2 ¼78.535, po0.001). Attending to a
+public school, accessibility to public transport, access to school service, and favourable ‘contextual and design preconditions
+for walking’ were negatively related to short PWTS. Increased household income level, and parental age were positively
+related to a short PWTS.
+3.6. Predictors of active mode (walking) versus inactive modes
+    Table 6 shows that the model significantly predicted active school travel versus inactive modes (Model <U+03C7> 2 ¼253.623,
+p o0.001). A short walking time to school was strongly associated with active school travel. Mother's driving license, more
+owned cars, higher mother's educational degree, accessibility to public transport, and access to school service were ne-
+gatively related to active school travel.
+4. Discussion
+    The findings showed that a 10 min perceived walking time to school was the maximum threshold where the proportion
+of active mode use started to decrease compared to the best performing alternative mode. A 10 min PWTS seems to re-
+present a short trip to school that increases the probability of children's physical activity in this Iranian setting. When the
+groups of short and long PWTS were compared, certain demographics such as parental age, household income, accessibility
+to public transport, type of school (public vs private), school service status (De Boer and Blijie, 2006; Gorard, 1999; Van
+Goeverden and De Boer, 2013) and psychological factors (parents’ attitudes towards walking) were also significant pre-
+dictors of a short perceived walking time to eligible schools.
+
+324                                 M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326
+    Older parents perceived a shorter walking time to school than younger parents. This could suggest that older parents
+tend to live closer to their children's school than younger parents. Households that reported a higher monthly income
+tended to have a shorter trip to school. This could reflect that more wealthy parents reside close to schools, were housing
+usually is more expensive. These findings are in contrast with some previous studies in Western Europe (Van Goeverden and
+De Boer, 2013; De Boer and Blijie, 2006). They reported that higher household income and age were related to higher home-
+to-school distances to eligible schools. Intriguingly, parents who had registered their child in public schools perceived a
+longer walking time than those who had children registered in private schools. This supports the idea that private school
+locations are more scattered and more available in diverse neighborhoods than public schools in Iran (Ermagun and Samimi,
+2015; Mehdizadeh et al., 2016). Among psychological factors, considering stronger 'Contextual and design preconditions’ like
+dirty, vandalized and unsafe streets and sidewalks for walking in local areas, may decrease short PWTS to eligible schools in
+neighborhood in Iran.
+    When the groups of active mode (walking) versus inactive school travel modes (i.e. car, school service, public transport,
+and other motorized modes) were compared, perceived walking time to school (as a measure of distance), some char-
+acteristics of mothers (their driving license status and educational background), car ownership, accessibility to school
+service and public transport were important predictors of active school travel in Iran. In line with several previous studies
+(see Table 1) that have been conducted in North America (e.g. McMillan, 2007), Western Europe (e.g. Nelson et al., 2008),
+Australia and New Zealand (e.g. Curtis et al., 2015), perceived walking time to school was the most important predictor of
+active school travel in Iran. Based on findings of the current study and several studies in different regions, it may be that
+distance from home-to-school is the most critical variable for active school travel rather independently of cultural context.
+    When PWTS was short (r10 min) the probability of children walking to school increased 15.24 times more than on long
+walking trips ( 410 min). In order to promote physical activity among children, policymakers could consider the 10 min
+PWTS threshold in policies aimed to promote active school travel. If we assume that the children median walking speed is
+4.3 kph (2.7 mph) (McDonald, 2008a) then, by translating walking time to physical distance, it can be concluded that our
+PWTS threshold is equal to 0.71 km (0.45 mile). One previous study reported 1.6 km (1 mile) distance to school as a
+threshold for increased active travel among pupils in the United States (McMillan, 2007). McDonald (2008a) reported a
+1.6 km (1 mile) threshold that all pupils live in an area of 3 mi2; a 0.8 km (0.5 miles) threshold equates to an area of 0.8 mi2,
+assuming circular neighborhoods in the United States whereas, Timperio et al. (2006) reported a 800 m (0.5 mile) threshold
+in Australia.
+    Regarding the role of gender for mode use, this variable did not have a consistent and definite role on children's active
+school travel in prior studies. In the current study, we did not find any gender differences on active school travel. Although
+some studies have reported that more boys actively travel to school in Western Europe (e.g. Nelson et al., 2008; Easton and
+Ferrari, 2015), some studies did not reveal any gender differences, for instance in Canada (e.g. Mitra and Buliung, 2015) and
+Iran (Mehdizadeh et al., 2016). Studies to come could investigate whether the lack of a gender difference in mode use
+choices on school travels is a general tendency in the Middle East context.
+    In schools that offer carpooling services the probability of children's walking to school was lower than in schools that did
+not offer such services. In Iran, both public and private schools are common and households pay high fees for registering
+their pupils’ in private schools. Those who are able to pay these fees are usually wealthier than parents with children in
+public schools where registration is free of charge. However, the type of school was not found to be a significant factor on
+active school travel in the present study. On the contrary, a study in Toronto concluded that children who attended private
+schools had a stronger tendency to use carpooling and school services (Mitra and Buliung, 2015). The type of school has not
+reflected a consistent role on mode use in different regions of the world (see also Table 1).
+    Regarding the relative role of other socio-economic and household variables for mode use among children, those chil-
+dren with mothers who had a driving license and higher educational degree were less likely to walk to school. Although
+some previous studies reported similar findings (e.g. McMillan, 2003), this variable has also shown inconsistency in relation
+to mode choice across studies. Well-educated mothers might experience more worry regarding traffic safety or security on
+their children's active school trips. Future work could focus on interaction models to obtain more accurate knowledge about
+how, for instance, parental education and worry operate together in influencing active travel mode use among children. Of
+note, parental attitudes dimensions towards walking did not relate to active mode use. This suggests that more active mode
+use on school trips cannot be expected by merely aiming to influence cognitive evaluations of walking through attitude
+interventions among parents.
+    Higher access to car had a strong negative impact on children's active school travel in the current study. In line
+with several studies in high income societies, such as North America (e.g. McDonald et al., 2011) and Western Europe
+(e.g. Van Goeverden and De Boer, 2013), household car ownership had negative impacts on active school travel in Iran. This
+variable has a rather reliable negative role on active school travel in different regions of the world (Table 1). Policymakers
+should manage car use demand in urban roads to prevent the probability of using car on school travel.
+4.1. Limitations
+    Information about urban form and residential density characteristics were not gathered in the survey. These variables
+might be related to school siting, PWTS and active mode choice. Further, this study used a perceived self-reported measure
+of walking time. For spatial planners actual walking time might be more informative than the perceived time, which should
+
+                                                M. Mehdizadeh et al. / Journal of Transport & Health 6 (2017) 313–326                                        325
+be considered as a proxy variable. However, it was complicated to implement a measure of actual walking time in the
+current study because it is difficult for researchers to access Iranian population registries and to obtain adequate information
+about residential addresses. Further, the information in the registers is inaccurate and unreliable. In addition, the data had
+some limitations regarding interpretations of the PWTS threshold. The perceived walking time in minutes above 10 minutes
+were 5-min intervals (e.g. 10, 15, 20 …). For example, although respondents had the opportunity to report values between 10
+and 15 min (i.e. 11, 12, 13, and 14 minutes), most of them still would have rounded off to 10 or 15 minutes. However, the
+possible inaccurateness of the 10-min PWTS threshold value had no large impact on the main results. For instance, the
+sensitivity analysis showed that a 15 min threshold had no substantially different results regarding the main aims.
+    The present study did not examine interaction terms between the predictors of perceived walking time threshold and
+active school travel. For instance, a third variable may be correlated with another factor that has a strong influence on PWTS
+or active school travel. The current study did not incorporate interaction terms in order to avoid too complicated models.
+However, future studies could examine interactions terms with the predictors that we used in the present study. Fur-
+thermore, the present study was based on cross-sectional and self-reported data which impose limitations regarding causal
+inferences and potential socially desirable responses.
+5. Conclusions
+    This study adds to the knowledge base of the active school travel literature. In contrast to many studies that have been
+conducted in developed regions in North America, Australia, and Western Europe, this study was conducted in the Middle
+East context, Iran. The findings showed that similarly to other contexts, home-to-school distance or walking time (where
+bicycling is uncommon) is the most important barrier on children's active school travel. Several previous studies reported a
+cut-off for walking, bicycling use (or active school travel) with somewhat similar definitions in a Western context, but this is
+the first study to do this in an Iranian context. What we defined as a threshold in this study is the cut-off time where the
+walking frequency starts to decrease compared to the other best performing alternative transport mode. To the authors’
+knowledge, the current study is the first that have examined a wide-range of factors (socio-economic, household char-
+acteristics, safety perception about walking facilities and walking attitudes) potentially affecting school choice as an ex-
+planatory factor for perceived home-to-school walking time in a Middle East context. Also, a scant body of research has
+examined socio-economic and urban form characteristics on perceived walking time to school independently of country
+context. In this Iranian setting, active school travel mode choice tended to decrease by a lower time threshold compared to
+other countries in the world. Furthermore, this study found that favourable attitudes towards walking among parents might
+be important for perceived home-to-school walking time.
+Conflict of interest statement
+    The authors have no conflict of interest to report.
+Financial disclosure
+    The authors have no financial disclosures.
+Acknowledgment
+    The authors would like to acknowledge the contributions of Rasht Department of Nurture and Education, school officials,
+teachers, pupils, and all anonymous parents who helped us to obtain a valuable database. Also, we appreciate two anon-
+ymous reviewers for their valuable and constructive suggestions.
+References
+Andersen, L.B., Harro, M., Sardinha, L.B., Froberg, K., Ekelund, U., Brage, S., Anderssen, S.A., 2006. Physical activity and clustered cardiovascular risk in
+    children: a cross-sectional study (The European Youth Heart Study). Lancet 368 (9532), 299–304.
+Babey, S.H., Hastert, T.A., Huang, W., Brown, E.R., 2009. Sociodemographic, family, and environmental factors associated with active commuting to school
+    among US adolescents. J. Public Health Policy 30 (1), S203–S220.
+Bell, L.M., Watts, K., Siafarikas, A., Thompson, A., Ratnam, N., Bulsara, M., Jones, T.W., 2007. Exercise alone reduces insulin resistance in obese children
+    independently of changes in body composition. J. Clin. Endocrinol. Metab. 92 (11), 4230–4235.
+Biddle, S.J., Gorely, T., Stensel, D.J., 2004. Health-enhancing physical activity and sedentary behaviour in children and adolescents. J. Sport. Sci. 22 (8),
+    679–701.
+Broberg, A., Sarjala, S., 2015. School travel mode choice and the characteristics of the urban built environment: the case of Helsinki, Finland. Transp. Policy
+    37, 1–10.
+
