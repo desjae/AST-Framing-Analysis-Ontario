@@ -1,475 +1,944 @@
-                                                                               Transport Policy 64 (2018) 1–9
-                                                                       Contents lists available at ScienceDirect
-                                                                              Transport Policy
-                                                           journal homepage: www.elsevier.com/locate/tranpol
-Evaluation of a walking school bus service as an intervention for a modal
-shift at a primary school in Spain
-P. Perez-Martín, G. Pedro                s, P. Martínez-Jimenez, M. Varo-Martínez *
-Applied Physics Department, Higher Polytechnic School, University of Cordoba, Rabanales Campus, Albert Einstein Building (<U+FB01>rst <U+FB02>oor), Ctra. Madrid km, 398 Cordoba,
-14071, Spain
-A R T I C L E I N F O                                       A B S T R A C T
-Keywords:                                                   In recent decades, the proportion of students using motorized transportation to school has increased while active
-Modal shift                                                 transportation has decreased. The walking school bus is one of the most used interventions aiming to reduce
-Walking school bus                                          problems resulting from this trend. However, no studies have analysed the in<U+FB02>uence of a WSB service provided by
-Mobile app                                                  professional monitors on a shift in modes of transportation.
-ICT                                                             This study investigated a pioneer daily walking school bus service guided by paid staff implemented at a
-Active travel to school
-                                                            primary school in C   ordoba, Spain. A mobile app is used to register the children's participation and to provide the
-Car reduction
-                                                            parents with real-time information on the group's location and arrival at the destination. Collected data, including
-                                                            the families' responses to a questionnaire were used to assess participation and the shift in modes of
-                                                            transportation.
-                                                                During the pilot study, a high recurrence in the children's participation was found and 43.7% of the participants
-                                                            had completely or partially changed transportation modes. The families reported fewer problems in the children's
-                                                            daily school travel organization and an improvement in their pedestrian safety behaviours. Further, 92.1% of the
-                                                            participating families had less concern about their children's autonomous walking.
-                                                                Results indicate that a walking school bus service guided by paid monitors can be an effective way to increase
-                                                            active travel to school, especially for children who live further from it. The use of the mobile app can reduce
-                                                            parents’ concerns and facilitate the management and evaluation of the method. Implications are discussed for
-                                                            future Active Travel to School interventions that focus on changes in modes of transportation.
-1. Introduction                                                                                   However, some studies point out that the low ef<U+FB01>ciency of some of these
-                                                                                                  projects might be because they do not meet families’ needs (McDonald
-    Children's modes of transportation to school have changed signi<U+FB01>-                             and Aalborg, 2009; Stone et al., 2014).
-cantly during the past few decades, with an increase in parents driving                               The problems related to primary school students' mobility must be
-their children to school and a decrease in walking to school (Fyhri et al.,                       understood in the context of household decisions (Faulkner et al., 2010).
-2011; McDonald et al., 2011). As a result, fewer primary school students                          Some of the major factors that in<U+FB02>uence families' modes of transportation
-are now autonomously walking to school. The increase in driving chil-                             are the distance to the school, the parents’ concerns about traf<U+FB01>c or the
-dren to school has caused problems at the urban level (Marique et al.,                            possibility that their children might be hurt, and work-school time re-
-2013), in the daily organization of families (McDonald, 2008; He, 2013),                          strictions (Stewart et al., 2012).
-and related to children's health and psychosocial development (Mackett,                               Among the alternatives of the Active Travel to School projects, the
-2013; Foster et al., 2014).                                                                       walking school bus (WSB) is a promising intervention; however, the
-    In this context, a variety of activities and transportation policies have                     bene<U+FB01>ts and potential to trigger changes in transportation routines have
-been developed to decrease the number of children driven to school and                            yet to be widely studied (Smith et al., 2015). The WSB consists of a group
-to promote active travel to school (ATE, 2007; NCSRTS, 2007; Chill                  on et        of children that walks to school accompanied by one or more adults,
-al., 2011; Green Communities Canada, 2011). Many of these measures                                usually along a previously agreed-on route with possible intermediate
-are based on improvements to infrastructure for pedestrian travel.                                stops. The WSB could be an appropriate way to overcome the major
-  * Corresponding author.
-    E-mail addresses: f72pemap@uco.es (P. Perez-Martín), fa1pepeg@uco.es (G. Pedr     os), fa1majip@uco.es (P. Martínez-Jimenez), fa2vamam@uco.es (M. Varo-Martínez).
-https://doi.org/10.1016/j.tranpol.2018.01.005
-Received 1 December 2016; Received in revised form 12 January 2018; Accepted 12 January 2018
-Available online 3 February 2018
-0967-070X/© 2018 Elsevier Ltd. All rights reserved.
 
-P. Perez-Martín et al.                                                                                                                                 Transport Policy 64 (2018) 1–9
-barriers to active transportation, such as families' fears related to                          suggested paying the WSB coordinators/monitors and using mobile ap-
-autonomous walking, parents’ needs to escort their children, and the                           plications to support WSB management as possible solutions to recruit-
-distances that the children walk (Stone et al., 2014). Although the WSB                        ment and liability problems.
-solution does not offer complete autonomy to the children, it could be a                            Furthermore, although there is evidence that WSB promotes an in-
-valuable tool to reduce fears about children walking unaccompanied by                          crease in the number of children that walk to school, it has been evalu-
-their relatives and to help parents feel comfortable about their children                      ated using self-assessment questionnaires, which can produce social
-walking to school.                                                                             desirability bias (Heelan et al., 2009; Mendoza et al., 2009, 2011). Only
-     Several studies have identi<U+FB01>ed many advantages, challenges, and                           Collins and Kearns (2005, 2010) estimated the savings in car trips ach-
-limitations of WSB (Table 1). The major bene<U+FB01>ts to participants or other                       ieved by the WSB. However, they used indirect methods, such as personal
-people involved in a WSB programme are the time saved by the parents                           estimates provided by WSB coordinators and survey data.
-(Kearns et al., 2003), health bene<U+FB01>ts (Collins and Kearns, 2005; Kearns et                          Moreover, mobile technologies currently have a particularly relevant
-al., 2003; Kingham and Ussher, 2007), increased sense of community                             role in the daily organization of personal transportation. Some activities,
-(Collins and Kearns, 2010; Kingham and Ussher, 2005), children's so-                           such as checking on bus locations in real time (Watkins et al., 2011) or
-cialization (Kearns et al., 2003; Kingham and Ussher, 2005), children's                        identifying a group of individuals for carpooling (Shaheen et al., 2016),
-greater independence (Kingham and Ussher, 2005), and a high level of                           have become increasingly common. Public administrations also are
-participant satisfaction with a healthy and supportive environment that                        beginning to understand that dynamic transportation data allow them to
-promotes social interaction and physical activity (Kong et al., 2009).                         devise more effective plans for transportation infrastructure and services
-     However, the previous studies all refer to WSB as staffed by volunteer                    (Yujuico, 2015). These trends are helping to develop an emerging
-adults. Although this approach could positively in<U+FB02>uence parents’ de-                          discipline known as Computational Transportation Science (Winter et
-cisions to not use their cars, Collins and Kearns (2010) pointed out that                      al., 2011). In this sense, new technologies could be useful (Dickinson et
-taking part as accompanying adults is an additional burden and liability                       al., 2015; Weiser et al., 2016) for promoting the creation of WSB groups
-on the families, which reduces the convenience to the families that are                        at educational centres, management of the daily development of WSB
-relatively willing to use it. Thus, the dif<U+FB01>culty obtaining volunteers be-                     and communication among the participants, and for the collection of
-comes a major barrier to the sustainability of WSBs. Smith et al. (2015)                       real-time operational data.
-Table 1
-Previous studies about Walking School Bus (WSB) programmes.
-  Study                 Study Site           Methods                                                               Results
-  Kearns et al.,        One school in        Evaluation of one school's WSB, survey to participants' parents (16), Although health, social and time-saving bene<U+FB01>ts were reported by
-     2003               Auckland, New        conversations with WSB drivers and children, interviews with          the participants, the authors concluded that WSBs were an
-                        Zealand              people responsible for road safety (7)                                ambivalent response to the hegemony of motorized transport.
-  Collins and           Auckland, New        45 interviews with 23 school representatives (mostly principals)      Participants identi<U+FB01>ed bene<U+FB01>ts from WSBs, e.g., an estimated 429
-     Kearns, 2005       Zealand              and 22 WSB coordinators conducted providing information on 29         saved vehicle journeys each day. However, the authors concluded
-                                             of 34 schools with WSBs in Auckland                                   that WSBs had a limited ability to address public health
-                                                                                                                   challenges in an inequitable and car-dominated urban political
-                                                                                                                   system.
-  Kingham and           Christchurch, New    A combination of interviews (33) and questionnaires with people       The authors concluded that WSBs suffered a signi<U+FB01>cant decline in
-     Ussher, 2005,      Zealand              conducting some WSBs                                                  the long term. Some of the dif<U+FB01>culties identi<U+FB01>ed were: a lack of
-     2007                                                                                                          volunteers, lack of children wanting to make the journey alone,
-                                                                                                                   and insuf<U+FB01>cient ongoing support from the school or council.
-  Heelan et al.,        Nebraska, US         The prevalence of walking to school was evaluated by self-report six  A signi<U+FB01>cantly greater percentage of children actively commuted
-     2009                                    times, and the objective physical activity levels among a sample of   to and from WSB schools compared with control schools at each
-                                             research participants (201 intervention children and 123 control      later time point.
-                                             children) in two WSB intervention schools and one control school
-                                             were compared by having participants wear an accelerometer four
-                                             times.
-  Kong et al., 2009     Albuquerque, New     A feasibility trial used a process evaluation of two WSBs at an       Student and adult participants reported high levels of satisfaction
-                        Mexico, US           elementary school with 29 participants (kindergarten through <U+FB01>fth     with the WSB. The authors concluded that WSB studies in urban,
-                                             grade students living within a one-mile radius of school).            underserved school districts were feasible but required attention
-                                             Qualitative and quantitative data were obtained from <U+FB01>eld notes,      to ensure participants' involvement and safety and stakeholder
-                                             attendance records, student and parent satisfaction surveys, focus    investments.
-                                             groups, and interviews with two lead coordinators.
-  Mendoza et al.,       Seattle, WA, US      This study assessed students' methods of transportation to school in  Although no signi<U+FB01>cant differences between proportions of
-     2009                                    a classroom survey at baseline and a one-year follow-up There was     students walking to school at intervention and control schools at
-                                             an intervention school with a WSB program with volunteer parents      baseline were identi<U+FB01>ed, signi<U+FB01>cantly higher proportions of
-                                             and a part-time coordinator and two control schools.                  students walked to school at the intervention school than control
-                                                                                                                   schools, and this result was maintained over time.
-  Collins and           Auckland, New        This research was a longitudinal assessment of the major WSBs in      The number of WSBs was growing, but most activity remained in
-     Kearns, 2010       Zealand              Auckland primary schools using telephone interviews and               the wealthiest areas. Some of the reported bene<U+FB01>ts of WSBs were
-                                             questionnaires. Slight changes from 2002 to 2006 were found.          sense of community, opportunity for exercise and health
-                                                                                                                   promotion, reduction in car use and local congestion, and
-                                                                                                                   reduced risk of injury for child pedestrians.
-  Mendoza et al.,       Houston, TX, US      Pilot cluster randomized control trial with four intervention and     Intervention schools increased active commuting (AT), whereas
-     2011                                    four control schools. Intervention schools had one to three WSBs      control schools decreased AT. Intervention children increased the
-                                             with trained staff to and from schools <U+FB01>ve days per week. The         daily MVPA from 46 to 48 min, whereas control children
-                                             percentage of trips made by active commuters was assessed using a     decreased MVPA from 46 to 41 min. The WSB children achieved
-                                             questionnaire. Minutes per day of moderate to vigorous physical       7 min/day more MVPA than control children.
-                                             activity (MVPA) were measured using GT1M accelerometers worn
-                                             by students for seven days.
-                                                                                           2
 
-P. Perez-Martín et al.                                                                                                           Transport Policy 64 (2018) 1–9
-     Considering this background, it is necessary and possible to imple-           In the project's framework, a Google Maps-based application was
-ment objective assessments to support the potential of these in-               developed to visualize the participants' family data. Each item was
-terventions as transportation policies. For example, a pilot WSB service       associated with the following variables: (1) home, (2) mode of trans-
-using professional monitors was offered free of charge to the families of a    portation, and (3) willingness to participate in the WSB, using the an-
-primary school in C    ordoba, Spain. A mobile app was used to log the        swers to the following questions: (1) How does your child usually get to
-children's participation in the WSB. This paper presents an analysis of        school? and (2) Would you take part in the walking school buses if they
-that programme along with an analysis of an initial mobility survey and a      suited your needs? On the map shown in Fig. 1, the location of the icon
-<U+FB01>nal assessment questionnaire. Thereby, the study aims to lower                indicates the location of the home. The transportation mode is symbol-
-participation barriers and objectively assess the potential reduction of car   ized by the type of icon, such that a <U+FB01>gure of a pedestrian indicates that a
-trips that might be obtained through this innovative service.                  child walked or biked to school and a car indicates children driven to
-                                                                               school. The willingness to participate is shown via the colour of the icon:
-2. Methodology                                                                 green indicates that they would participate and red indicates that they
-                                                                               would not participate. For each item, the walking distance from the home
-2.1. Characteristics of the school study site                                  to the school was calculated for the shortest route using the Google Maps
-                                                                               function.
-     This study was conducted at a publicly subsidized school in C ordoba,        Using the information in Fig. 1, three WSB routes were designed that
-Spain, with a student body of 450 primary grade children, in 2014–2015.        complied with the following criteria:
-The school also offers Preschool, Compulsory Secondary Education, and
-Non-compulsory Post-Secondary Education modules. The school is in a               First, the proximity of routes to the homes of the families willing to
-middle-class neighbourhood with commercial and residential urban                   participate.
-zoning, and it is near the city centre. The distances from the children's         Second, the proximity of routes to the homes of the families that were
-homes to the school widely range due to its easy access on foot and by             driving the children to school.
-motor vehicle and because of the criteria used to allocate students to            Third, the total length of the routes of about 1500 m, the locations of
-schools in Andalusia. No previous Active Travel to School campaign had             the starting points, and some intermediate stops to pick up and drop
-been tried among these families and the school administration had not              off children to facilitate participation for parents who needed to
-previously considered any problems with the daily transportation of their          continue on to their workplace after dropping off their children at
-pupils.                                                                            school. Later, the lengths of some of the routes were extended in
-                                                                                   response to some parents' requests because they lived beyond the
-2.2. Design characteristics of the pilot study                                     routes' starting points.
-     A cost-free daily WSB pilot programme using professional paid             2.4. Development of the walking school bus service
-monitors to and from school was implemented at the school. The par-
-ticipants’ family members were not required to accompany the children,             After the routes were designed and veri<U+FB01>ed on-site, and before the
-although it was permitted during the <U+FB01>rst few days of the programme for        WSB service was implemented, a comprehensive campaign publicized it
-any family member who deemed it essential to gain suf<U+FB01>cient con<U+FB01>dence          along with trainings and awareness-raising efforts regarding child
-before participating in the WSB programme.                                     mobility and the use of the application. The routes and schedules were
-     The families were provided with a mobile application for the smart-       published on the project's Internet website, through which interested
-phone Trazeo (2014), which allowed them to pinpoint the group's loca-          families could register their children for their preferred route.
-tion, obtain relevant noti<U+FB01>cations, and communicate with the monitors              The WSB operation proceeded as follows. The monitors began
-and other participants in the WSB in real time. The monitors used the          walking at the starting points of each route and collected or delivered the
-same application to collect the children's participation data and provide      children at their pre-determined stops until the destination was reached.
-information on the location of the group. The human resources used in          Whenever a child joined or left the group, the monitor logged the in-
-the programme (excluding the research team) were one WSB monitor for           formation in the available group list of the mobile app (Fig. 2a) and
-each 12 children and one coordinator of all of the WSBs, who managed           ticked or unticked the names of those children. Thus, during a group's
-problem-solving, organizing and supervising routes, and for communi-           progress along a route, the parents of the participants could know in real
-cation and diffusing the project to the educational community. An              time the location of the group (Fig. 2b). In addition, parents could receive
-educational service company recruited the monitors from among young            noti<U+FB01>cations alerting them that the WSB had begun, that their child had
-candidates with previous experience as school monitors or in children's        joined or left the group, and that the WSB had <U+FB01>nished the route.
-recreational activities. The coordinator was a person with training and        Moreover, a group chat (Fig. 2c) was available to all family members
-experience in citizen participation and sustainable mobility. The moni-        registered for a given WSB route, the monitors, and the coordinator to
-tors and the coordinator needed basic technological skills in mobile ap-       inform all interested parties of any problem or incident. The following
-plications. The costs of the WSB staff were covered by the research            data were automatically recorded in the database through the mobile
-project (see Acknowledgments).                                                 application: the participation of each child in a walk; the time, date and
-     Because of the temporary nature of the research project, the pilot        location where he or she was collected or delivered; the number of
-lasted 14 weeks. The <U+FB01>rst stage began at the end of a school year and the      participants in each walk; and the total distance walked.
-reactivation (second) stage began at the beginning of the next school              During the third week of the WSB project, some information on the
-year. Before implementation, the families were informed that the service       development of the project was sent to families and different educational
-would not continue after the study concluded.                                  activities, adapted to each of the educational levels at the school, were
-                                                                               developed in the classrooms, to explain to the children how a WSB
-2.3. Previous collection of information and route design                       operates and how they could join one, with the goal of increasing
-                                                                               participation in the WSB programme.
-     Before the implementation of the WSB service, a voluntary ques-               To compute the churn rate after a lengthy break, such as the summer
-tionnaire was distributed to the family members of all of the primary          holidays, the authors implemented a reactivation (second) stage for the
-school children to collect data on their modes of travel to school on a        groups during the <U+FB01>rst four weeks of the second school year. The coor-
-daily basis, the locations of their homes, their willingness to participate    dinator used the group chat function of the mobile app during the week
-in the WSB service, and to ask for consent to participate in the study.        before the beginning of the reactivation stage to inform the participating
-                                                                             3
+Transport Policy 64 (2018) 1–9
+Contents lists available at ScienceDirect
+Transport Policy
+journal homepage: www.elsevier.com/locate/tranpol
+Evaluation of a walking school bus service as an intervention for a modal
+shift at a primary school in Spain
+P. Perez-Martín, G. Pedro                s, P. Martínez-Jimenez, M. Varo-Martínez *
+Applied Physics Department, Higher Polytechnic School, University of Cordoba, Rabanales Campus, Albert Einstein Building (<U+FB01>rst <U+FB02>oor), Ctra. Madrid km, 398 Cordoba,
+14071, Spain
+A R T I C L E I N F O                                       A B S T R A C T
+Keywords:                                                   In recent decades, the proportion of students using motorized transportation to school has increased while active
+Modal shift                                                 transportation has decreased. The walking school bus is one of the most used interventions aiming to reduce
+Walking school bus                                          problems resulting from this trend. However, no studies have analysed the in<U+FB02>uence of a WSB service provided by
+Mobile app                                                  professional monitors on a shift in modes of transportation.
+ICT                                                             This study investigated a pioneer daily walking school bus service guided by paid staff implemented at a
+Active travel to school
+primary school in C   ordoba, Spain. A mobile app is used to register the children's participation and to provide the
+Car reduction
+parents with real-time information on the group's location and arrival at the destination. Collected data, including
+the families' responses to a questionnaire were used to assess participation and the shift in modes of
+transportation.
+During the pilot study, a high recurrence in the children's participation was found and 43.7% of the participants
+had completely or partially changed transportation modes. The families reported fewer problems in the children's
+daily school travel organization and an improvement in their pedestrian safety behaviours. Further, 92.1% of the
+participating families had less concern about their children's autonomous walking.
+Results indicate that a walking school bus service guided by paid monitors can be an effective way to increase
+active travel to school, especially for children who live further from it. The use of the mobile app can reduce
+parents’ concerns and facilitate the management and evaluation of the method. Implications are discussed for
+future Active Travel to School interventions that focus on changes in modes of transportation.
+1. Introduction                                                                                   However, some studies point out that the low ef<U+FB01>ciency of some of these
+projects might be because they do not meet families’ needs (McDonald
+Children's modes of transportation to school have changed signi<U+FB01>-                             and Aalborg, 2009; Stone et al., 2014).
+cantly during the past few decades, with an increase in parents driving                               The problems related to primary school students' mobility must be
+their children to school and a decrease in walking to school (Fyhri et al.,                       understood in the context of household decisions (Faulkner et al., 2010).
+2011; McDonald et al., 2011). As a result, fewer primary school students                          Some of the major factors that in<U+FB02>uence families' modes of transportation
+are now autonomously walking to school. The increase in driving chil-                             are the distance to the school, the parents’ concerns about traf<U+FB01>c or the
+dren to school has caused problems at the urban level (Marique et al.,                            possibility that their children might be hurt, and work-school time re-
+2013), in the daily organization of families (McDonald, 2008; He, 2013),                          strictions (Stewart et al., 2012).
+and related to children's health and psychosocial development (Mackett,                               Among the alternatives of the Active Travel to School projects, the
+2013; Foster et al., 2014).                                                                       walking school bus (WSB) is a promising intervention; however, the
+In this context, a variety of activities and transportation policies have                     bene<U+FB01>ts and potential to trigger changes in transportation routines have
+been developed to decrease the number of children driven to school and                            yet to be widely studied (Smith et al., 2015). The WSB consists of a group
+to promote active travel to school (ATE, 2007; NCSRTS, 2007; Chill                  on et        of children that walks to school accompanied by one or more adults,
+al., 2011; Green Communities Canada, 2011). Many of these measures                                usually along a previously agreed-on route with possible intermediate
+are based on improvements to infrastructure for pedestrian travel.                                stops. The WSB could be an appropriate way to overcome the major
+* Corresponding author.
+E-mail addresses: f72pemap@uco.es (P. Perez-Martín), fa1pepeg@uco.es (G. Pedr     os), fa1majip@uco.es (P. Martínez-Jimenez), fa2vamam@uco.es (M. Varo-Martínez).
+https://doi.org/10.1016/j.tranpol.2018.01.005
+Received 1 December 2016; Received in revised form 12 January 2018; Accepted 12 January 2018
+Available online 3 February 2018
+0967-070X/© 2018 Elsevier Ltd. All rights reserved.
 
-P. Perez-Martín et al.                                                                                                                        Transport Policy 64 (2018) 1–9
-transportation to school had occurred, whether the mobile app had                   Table 3
-lessened their fears about their children's autonomous walking to school,           Demographic characteristics of the children participating in the program.
-and about the observed bene<U+FB01>ts and disadvantages that they experienced                Variable                          Participants (n ¼ 55)                Percentage (%)
-after participation in the WSB.                                                       Gender
-                                                                                        Male                            32                                   58.2
-3. Results and discussion                                                               Female                          23                                   41.8
-                                                                                      Age
-                                                                                        5                              9                                    16.4
-3.1. Participant characteristics                                                        6                               9                                    16.4
-                                                                                        7                               6                                    10.9
-     From the 304 initial mobility questionnaires collected, 294 reported               8                               9                                    16.4
-their address with which the home-to-school distances could be calcu-                   9                               7                                    12.7
-                                                                                        10                              12                                   21.8
-lated. Although a wide range of distances was found (Table 2), most of
-                                                                                        11                              1                                    1.8
-the students lived between 500 and 2000 m from the school.                              12                              2                                    3.6
-     During the study, the three WSB groups operated daily. The WSB                   Number of participating children per family
-routes began during the last term of school year 2014–2015 (from April                  1                               15                                   27.3
-28, 2015, to June 22, 2015), and these routes were reactivated on the                   2                               30                                   54.5
-                                                                                        3                               6                                    10.9
-<U+FB01>rst day of school of the following school year (2015–2016), running                    4                               4                                    7.3
-from September 10, 2015, to October 9, 2015, totalling 59 days and 354                Distance from home to school (m)
-walks. Altogether, 55 students from 31 families participated in the WSB                 500 < x  1000                  10                                   18.2
-service in both stages. In the <U+FB01>rst stage, 47 students participated, and the            1000 < x  1500                 22                                   40.0
-                                                                                        1500 < x  2000                 15                                   27.3
-second one had 39 participants.
-                                                                                        2000 < x  2500                 6                                    10.9
-     The characteristics of the sample are shown in Table 3, which in-                   2500                          2                                    3.6
-dicates no children living between zero and 500 m from the school took
-part in the project. Although a high potential for participation among
-children living 1500–2000 m from the school (27.3%) was observed,                   education, which also triggered the loss of some of their younger brothers
-most of the participants lived between 1000 and 1500 m from the school.             and/or sisters. Collins and Kearns (2010) found that, in a volunteer WSB,
-The WSB service particularly attracted the interest of families with more           dropouts by older siblings could trigger the loss of the WSB. In this study's
-than one child, possibly because it offered an alternative that inspires            WSB service model, this problem was not as relevant because the younger
-con<U+FB01>dence regarding the youngest children's walk to school while                    children who began traveling to school without depending on their
-enabling the older children to gain responsibility and autonomy.                    parents' escort could replace the older participants who left the service as
-                                                                                    they yearly aged out. Also, some families decided not to use the WSB
-3.2. Evolution and recurrence of participation                                      service in the second stage, despite their high levels of satisfaction with
-                                                                                    the service, because of the temporary nature of the research project. It is
-     Thanks to the systematic collection of data on the children's atten-           possible that maintaining the service would have prevented these
-dance by the mobile app, it was possible to study the temporal evolution            dropouts.
-of new additions to and dropouts from the WSB and to assess the daily                   On the other hand, the recurrence index (IR) was de<U+FB01>ned using the
-participation of the children. Altogether, 1705 daily attendances were              participation data as the sum of a child's effective participation days
-registered. Because the children could walk to school and back home on              divided by the total number of days from his or her <U+FB01>rst to his or her last
-one day, the total number of registered child participations to and from            participation. In this way, a recurrence index of ‘1’ indicates daily
-school was 2.642, and the average of daily walks per child was 1.70                 participation during the stay in the project, regardless of the day in the
-walks per day. This <U+FB01>nding indicates that many of the children used the             stage that they joined the group for the <U+FB01>rst time or the day that they left
-WSB both to and from school. Fig. 3 shows the numbers of active par-                it. Table 4 shows the results of this index calculated for the 55 child
-ticipants, additions, and dropouts for each week, calculated as the dif-            participants and the percentages by quintile.
-ference between the accrued additions and dropouts.                                     Overall, 81.8% of the children participated for more than 80% of the
-     Fig. 3 indicates that the biggest increases in new additions occurred          days during their participation in the project, and 96.4% used the WSB
-during the <U+FB01>rst two weeks and the fourth week of the <U+FB01>rst stage, when the           more than 60% of the days. Therefore, this WSB service could be a
-intense communication campaign took place. At the beginning of the                  popular daily alternative mode of transportation for the children and it
-second stage, the coordinator communicated again about WSB avail-                   could result in rapid and permanent modal shifts if it were designed to
-ability, which led to another increase in participants. However, during             meet the families’ needs, particularly those families that drive their
-the weeks when no intense campaign was made, participation was stable.              children to school. The monitors and many of the families reported that
-This result suggests that appropriate communications before and/or                  the children enjoyed their daily social experiences with other children
-during implementation of a WSB service could enhance the recruitment                while walking to school. In fact, the children often asked their parents to
-of participants.                                                                    continue participating in the project after they tried it out.
-     Regarding dropouts, most of the children who left the WSB did so                   Although the novelty of the WSB might have in<U+FB02>uenced participation,
-during the last weeks of the <U+FB01>rst stage because, among other reasons, the           the qualitative comments, the monitors' and the coordinator's direct
-12-year-olds stopped participating in the project after <U+FB01>nishing Primary            observations, and the participation data indicate that novelty was not a
-                                                                                    decisive factor. On the contrary, the temporary nature of the service
-Table 2
-                                                                                    caused some interested families to postpone their decisions for a few
-Distribution of students by distance from home to school.                           weeks until they heard from participating families. Others decided not to
-                                                                                    join because it was not a long-term activity. It can be inferred from the
-  Distance from home to school (m)                        % of students (n ¼ 294)
-                                                                                    evolution of the participation and the performance of other regulated
-  0 < x  500                                             3.7
-                                                                                    services offered by the school, such as before-school care and the school
-  500 < x  1000                                          21.4
-  1000 < x  1500                                         27.6                      dining room, that a WSB service regularly operating free of charge for all
-  1500 < x  2000                                         25.5                      participants would attract many children in the mid-term.
-  2000 < x  2500                                         7.5                           The automatic data collection was a substantial step forward for this
-  2500                                                   14.3                      type of project. If this type of implementation were conducted on a large
-                                                                                  5
 
-P. Perez-Martín et al.                                                                                                            Transport Policy 64 (2018) 1–9
-                                           Fig. 3. Weekly evolution of additions, dropouts, and active participants.
-        Table 4                                                                   autonomy among those who already were walking to school. The modal
-        Recurrence index.                                                         shift percentages were higher among those living more than 1500 m from
-          IR                                Number of children (n ¼ 55)           the school, particularly among those living between 1500 and 2000 m
-          0.0 < x  0.2                     1                                     away from the school, where many of the FMS children lived. Among
-          0.2 < x  0.4                     0                                     those living between 500 and 1000 m from the school, a large modal shift
-          0.4 < x  0.6                     1                                     also occurred, but all of them were in the PMS category, suggesting that
-          0.6 < x  0.8                     8                                     the WSB could replace car trips for families living quite close to the
-          0.8 < x  1.0                     45
-                                                                                  school and who choose the WSB for personal convenience.
-                                                                                      Fewer changes in transportation mode occurred among those who
-scale, it would be possible to develop a robust statistical analysis, such as     lived 1000–1500 m from the school. On the other hand, by extending the
-assessing the in<U+FB02>uences of the WSB on driving distances or estimating             length of the WSB routes, children living further than 2000 m from the
-relational models on the effects of the adoption of this service on other         school were attracted to the WSB. As expected, the participants living
-travel behaviours. These future studies could provide more precise                farther away changed their transportation modes (MS). In addition, a
-knowledge about children's mobility in cities and support optimization of         Kruskal-Wallis test was performed relating the distance interval (between
-and improvements to the Active Travel to School projects.                         home and school) to the transportation mode change. The values ob-
-                                                                                  tained for 1500–2000 m con<U+FB01>rmed that the intervention was more
-                                                                                  effective for children living that far from the school (Chi-
-3.3. Modal shift
-                                                                                  square ¼ 6.4862; p-value ¼ .03904).
-                                                                                      These <U+FB01>ndings have important implications for designing measures
-     The families of every participating student answered this question
-                                                                                  aimed at increasing the number of children engaged in active trans-
-asked in the <U+FB01>nal assessment questionnaire: ‘Has the participation of your
-                                                                                  portation to school because, based on this study's results, the focus should
-child in the walking school bus meant that he/she has replaced being
-                                                                                  be on providing attractive alternatives to families living close to school
-driven to school by walking to school?’ Table 5 shows the answers,
-                                                                                  that drive the children to school for convenience, those living farther
-grouped according to the distance between home and school, whether a
-                                                                                  than 1500 m away from school and driving to school because of the
-modal shift (MS) had occurred, and whether the participant already
-                                                                                  distance, and, particularly, those living between 1500 and 2000 m from
-walked (AW). Among those who changed their transportation mode,
-                                                                                  the school.
-answers were divided into three categories: (1) ‘Yes, every day, on the
-way to school and back home’, full modal shifters (FMS); (2) ‘Yes, but just
-on the way to school or back home’, partial modal shifters (PMS); and (3)         3.4. Bene<U+FB01>ts and disadvantages for the families
-those who reported a change to their transportation mode on some days,
-occasional modal shifters (OMS).                                                      In the <U+FB01>nal assessment questionnaire, the parents of the participants
-     In Table 5, 56.3% of the participants already were walking to school         were asked to indicate all of the bene<U+FB01>ts they experienced after their
-before the pilot programme, but 43.7% of them partially or totally                participation in the WSB, noting the importance of each of them on a
-changed their transportation mode. Thus, it is reasonable to conclude             scale of 1–5 (where 1 is the most important and 5 is the least important).
-that the WSB provides a desirable transportation alternative for the              Table 6 shows the total accrued results on each item in percentages of
-children in the MS category, simultaneously promoting an increase in              answers and the percentages on importance. In addition, it shows the
-                                                                              6
 
-P. Perez-Martín et al.                                                                                                                                   Transport Policy 64 (2018) 1–9
-Table 5
-Change of transportation mode by distance between home and school.
-  Response/Distance                                     Responses by distance in m (n ¼ 55)                                                                                    Total (%)
-                                                        500–1000               1000–1500               1500–2000                2000–2500                2500
-  Change transportation mode (MS)                       5                      4                       9                        4                        2                     24 (43.7)
-        Every day, in both directions (FMS)             0                      2                       5                        2                        0                     9 (16.5)
-        Every day, one direction (PMS)                  5                      1                       4                        1                        2                     13 (23.6)
-        Some days (OMS)                                 0                      1                       0                        1                        0                     2 (3.6)
-  Already walked (AW)                                   5                      18                      6                        2                        0                     31 (56.3)
-Table 6
-Bene<U+FB01>ts reported by the families.
-  Reported bene<U+FB01>t                                                          Level of importance                                Total (N ¼ 55)         MS (N ¼ 24)            AW (N ¼ 31)
-                                                                           1          2         3         4         5
-  More available time for me                                               26         6         4         2         0         38                     16                     22
-  Fewer complications in the organization of the family                    39         9         2         1         0         51                     20                     31
-  Less use of the car                                                      18         3         4         6         4         35                     20                     15
-  My child shows more responsible pedestrian safety behaviours             30         9         6         0         0         45                     22                     23
-  My child shows a more positive attitude towards school                   16         13        3         1         3         36                     16                     20
-  My child shows a more positive attitude at home                          6          6         13        0         1         26                     11                     15
-  My child shows a more sociable attitude towards other children           14         9         9         1         0         33                     14                     19
-  My child seems to be more active                                         16         9         3         1         0         29                     9                      20
-  Other                                                                    7          3         0         0         0         10                     4                      6
-Level of importance: Number of participants that reported the bene<U+FB01>t, disaggregated by the level of importance marked in the survey.
-Total: Number of participants that reported the bene<U+FB01>t, independently of the importance scale.
-MS: Number of participants that reported the bene<U+FB01>t, independently of the importance scale, among those families with children who changed totally or partially their transportation mode.
-AW: Number of participants that reported the bene<U+FB01>t, independently of the importance scale, among those families with children who already walked before the WSB.
-percentages on the total number of answers obtained on each item be-                           3.5. Reduced fears related to autonomous walking
-tween the MS and the AW groups.
-     The family members who responded to the survey pointed out that                                Regarding the mobile app that was used during the WSB experience,
-fewer complications were in the family organization (51 of the 55 par-                         it is important to mention that 92.1% of the participating families re-
-ticipants and all the AW) and the parents reported more free time (38 of                       ported that using the tool contributed to reducing their concerns about
-the 55 participants). Thus, the tested WSB service frees up family re-                         their children's autonomous walking. The parents' fears were usually
-sources because it does not involve parental participation. It increases                       related to not knowing where and with whom their children were.
-convenience compared to driving children to school, which is a factor                          However, the proposed solution, which works non-intrusively when the
-that motivated parents’ decisions. This factor is argued as important                          monitor marks the group's location, provides suf<U+FB01>cient information and
-(McDonald and Aalborg, 2009), despite the scant attention it has                               control of the situation to meet parents' needs.
-received (Faulkner et al., 2010). Among the bene<U+FB01>ts experienced by the
-parents who had previously driven their children to school, reduced use
-of the car was an important and commonly mentioned bene<U+FB01>t (20 of the                           3.6. Cost assessment of the pilot programme
-24 MS). Hence, WSB seems to have released the parents from a
-self-imposed obligation.                                                                            The cost to the company for each monitor was EUR 13 per hour for 2 h
-     Another important bene<U+FB01>t mentioned by the participants' parents (45                       per day. It was necessary to hire four monitors for the three WSB routes
-of the 55 participants), in particular by the MS group (22 of the 24 MS),                      because one route exceeded the twenty-children threshold. The coordi-
-was improvements in the children's pedestrian safety behaviours after                          nator was paid EUR 25 per hour for 1.5 h per day. The total cost of the
-participation in the WSB, which has previously been found (Mendoza et                          WSB service during the pilot amounted to EUR 8350. Considering the
-al., 2012). This <U+FB01>nding suggests a positive reinforcement in the parents'                      total number of participants, the walks offered, and the cost of the pilot,
-decision-making processes when they are deciding whether their chil-                           the total cost of providing the service to the children during the entire
-dren will walk to school because it also helps parents to be relatively                        project period of 14 weeks was EUR 152 per child. The cost is comparable
-more con<U+FB01>dent regarding safety around vehicular traf<U+FB01>c. Other bene<U+FB01>ts                          to bus service in the same city, which is on average EUR 80 per month per
-mentioned by the family members, although to a lesser extent and of less                       student. Furthermore, although those services are similar in terms of
-importance, were the children's improved positive attitudes towards                            organization, the WSB provides a wide range of social, energetic, psy-
-school (in particular among the MS group) increased sociable attitudes                         chological, health, and environmental advantages not available through
-towards other children, and a more active lifestyle, which was particu-                        bus service. Consequently, although larger implementations are neces-
-larly important to those in the AW group.                                                      sary and its range of action is relatively limited in distance from the
-     In the <U+FB01>nal survey, families were also required to report problems or                     school, this comparison suggests that the WSB service could be cost
-disadvantages of the methodology of WSB implemented. Four families                             competitive under optimal operating conditions. In future applications, if
-reported in the <U+FB01>nal satisfaction survey that they had not been able to                        the cost of the service is covered by the public funds or project sponsors,
-install the app on their smartphones, either because they did not have                         it is reasonable to assume that similar results to those presented in this
-one or because they had an operating system other than Android. The fact                       paper could be expected. Additionally, future studies are needed to assess
-that the app is only available for Android devices is a disadvantage of the                    the effect of transferring the total cost or a part of it to the families.
-app. Although these families could access the group's location on the                               To assess the cost per car trip eliminated as the result of using the
-Internet and receive noti<U+FB01>cations via email, future implementations                            WSB, the questionnaire data were contrasted with the participation data
-should adjust to the technological context of the community in which the                       collected by the mobile app. Two data sets were added to determine the
-WSB service is being implemented and its speci<U+FB01>c needs.                                        number of eliminated car trips: I) the total number of participations
-                                                                                               registered in the database for those children who reported a modal shift
-                                                                                            7
 
-P. Perez-Martín et al.                                                                                                                         Transport Policy 64 (2018) 1–9
-from car to walking every day in both directions (540), and II) the             results offer an interesting perspective on the implementation of WSB
-number of days of participation registered in the database for those            services focused on increasing convenience for families, using profes-
-children who changed their modes of transportation only for one of the          sional monitors, and applying mobile applications to increase the active
-daily trips (368). Altogether, 908 car trips were eliminated. Neither the       transportation of children to and from school.
-data of the children who used the service occasionally nor the possible
-utilization of shared cars were considered in this analysis. Furthermore,       Acknowledgements
-the parents who dropped off children on their way to work could be
-assumed to continue traveling by car. Thus, those trips could not be                We are grateful to the European Regional Development Fund of the
-eliminated entirely, and there might have been an overestimation in the         European Union for the fundings received for this study through Meto-
-reduction of total car trips. According to that, the cost per car trip          dología de Implantacion de Rutas Escolares a Pie Apoyadas en Una Herra-
-eliminated was EUR 9.19, considering the total cost of the pilot. Although      mienta Tecnologica y Su Aplicacion en Centros de Educacion Primaria
-that number seems high, the temporary nature of the pilot experience            (Implementation Methodology of Walking School Routes Supported by a
-and the fact that the intervention did not exclusively focus on students        Technological Tool and its Application in Primary Schools), framed in the
-previously traveling to school by car should be considered. As stated           Programa Operativo FEDER de Andalucía 2007–2013 of the Public Works
-above, the recurrence of participation, once the service had been expe-         Agency and the Department for Housing and Development of the
-rienced, was very high. However, student enrolment was progressive,             Regional Government of Andalusia (GGI3003/IDIC).
-which meant that participation in the <U+FB01>rst few weeks was lower, which
-could have biased this cost upward.                                             References
-                                                                                ATE - Association Transports et Environnement, 2007. Pedibus. A       pied. A l’ecole.
-4. Conclusions
-                                                                                    Accompagne. Retrieved September 30, 2017, from. http://pedibus.ch/.
-                                                                                Collins, D.C., Kearns, R.A., 2005. Geographies of inequality: child pedestrian injury and
-     In this study, a method was developed to implement a walking school            walking school buses in Auckland, New Zealand. Soc. Sci. Med. 60 (1), 61–69.
-bus (WSB) service provided by professional monitors with the support of             https://doi.org/10.1016/j.socscimed.2004.04.015.
-                                                                                Collins, D., Kearns, R.A., 2010. Walking school buses in the Auckland region: a
-a coordinator in a primary school in C   ordoba, Spain. Its possible in<U+FB02>u-         longitudinal assessment. Transport Pol. 17 (1), 1–8. https://doi.org/10.1016/
-ence on shifts in modes of transportation was studied. During the last              j.tranpol.2009.06.003.
-nine weeks of school year 2014–2015 and the <U+FB01>rst four weeks of school                on, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of
-                                                                                Chill
-                                                                                    interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
-year 2015–2016, three WSB routes (to and from school) were developed,               Activ. 8 (1), 10. https://doi.org/10.1186/1479-5868-8-10.
-and a total of 55 children participated. The monitors used mobile app           Dickinson, J.E., Cherrett, T., Hibbert, J.F., Winstanley, C., Shingleton, D., Davies, N.,
-Trazeo to register participation by each child along each route, and the            Norgate, S., Speed, C., 2015. Fundamental challenges in designing a collaborative
-                                                                                    travel app. Transport Pol. 44, 28–36. https://doi.org/10.1016/
-families received real-time information on the locations of the WSB and             j.tranpol.2015.06.013.
-on the arrival/departure status of the group. Objectively measured              Faulkner, G.E., Richichi, V., Buliung, R.N., Fusco, C., Moola, F., 2010. What's “quickest
-participation was combined with responses on an initial mobility diag-              and easiest?”: parental decision making about school trip mode. Int. J. Behav. Nutr.
-                                                                                    Phys. Activ. 7 (1), 1. https://doi.org/10.1286/1479-5868-7-62.
-nostic questionnaire before the intervention, and an assessment ques-
-                                                                                Foster, S., Villanueva, K., Wood, L., Christian, H., Giles-Corti, B., 2014. The impact of
-tionnaire was administered after the WSB ended.                                     parents' fear of strangers and perceptions of informal social control on children's
-     Despite some negative factors, such as the temporary nature of the             independent mobility. Health Place 26, 60–68. https://doi.org/10.1016/
-study, lack of campaigns to raise awareness, and lack of direct involve-            j.healthplace.2013.11.006.
-                                                                                Fyhri, A., Hjorthol, R., Mackett, R.L., Fotel, T.N., Kytt€a, M., 2011. Children's active travel
-ment by the school, changes in the transportation routines of many                  and independent mobility in four countries: development, social contributing trends
-families were found and sustained during the project. The recurrence in             and measures. Transport Pol. 18 (5), 703–710. https://doi.org/10.1016/
-participation was high, with 81.8% of the children participating more               j.tranpol.2011.01.005.
-                                                                                Green Communities Canada, 2011. Active and safe routes to school. Retrieved September
-than 80% of the days. Moreover, participation was successfully reac-                30, 2017, from. http://www.saferoutestoschool.ca/.
-tivated in the groups starting on the <U+FB01>rst day of the second school year in     He, S.Y., 2013. Will you escort your child to school? The effect of spatial and temporal
-the study.                                                                          constraints of parental employment. Appl. Geogr. 42, 116–123. https://doi.org/
-                                                                                    10.1016/j.apgeog.2013.05.003.
-     About 43.7% of the participants completely or partially changed their      Heelan, K.A., Abbey, B.M., Donnelly, J.E., Mayo, M.S., Welk, G.J., 2009. Evaluation of a
-modes of transportation to school from automobile to walking. The                   walking school bus for promoting physical activity in youth. J. Phys. Activ. Health 6
-largest variations in the transportation modes of the children were among           (5), 560. https://doi.org/10.1123/jpah.6.5.560.
-                                                                                Kearns, R.A., Collins, D.C., Neuwelt, P.M., 2003. The walking school bus: extending
-those who lived 1500 m from the school, particularly those in the range             children's geographies? Area 35 (3), 285–292. https://doi.org/10.1111/1475-
-of 1500–2000 m from the school. Thus, the WSB could be an effective                 4762.00177.
-way to increase the distance threshold currently walked by children and         Kingham, S., Ussher, S., 2005. Ticket to a sustainable future: an evaluation of the long-
-                                                                                    term durability of the Walking School Bus programme in Christchurch, New Zealand.
-to reduce car trips undertaken for the parents’ convenience or because of
-                                                                                    Transport Pol. 12 (4), 314–323. https://doi.org/10.1016/j.tranpol.2005.05.002.
-lack of alternatives.                                                           Kingham, S., Ussher, S., 2007. An assessment of the bene<U+FB01>ts of the walking school bus in
-     With this WSB model, the researchers tackled the major barriers to             Christchurch, New Zealand. Transport. Res. Pol. Pract. 41 (6), 502–510. https://
-                                                                                    doi.org/10.1016/j.tra.2006.11.008.
-participation in the WSB, such as parents' lack of free time for escort,
-                                                                                Kong, A.S., Sussman, A.L., Negrete, S., Patterson, N., Mittleman, R., Hough, R., 2009.
-concerns about the risk of accidents, and the safety of the children. All of        Implementation of a walking school bus: lessons learned. J. Sch. Health 79 (7),
-the families that used the mobile app stated that it helped them to reduce          319–325. https://doi.org/10.1111/j.1746-1561.2008.00418.x.
-their fears about their children's autonomous walking. The families             Mackett, R.L., 2013. Children's travel behaviour and its health implications. Transport
-                                                                                    Pol. 26, 66–72. https://doi.org/10.1016/j.tranpol.2012.01.002.
-particularly valued the less complicated family organization, the chil-         Marique, A.F., Dujardin, S., Teller, J., Reiter, S., 2013. School commuting: the
-dren's improved pedestrian safety behaviours, and the additional free               relationship between energy consumption and urban form. J. Transport Geogr. 26,
-time as bene<U+FB01>ts of participation. In addition, many of the parents who              1–11. https://doi.org/10.1016/j.jtrangeo.2012.07.009.
-                                                                                McDonald, N.C., 2008. Household interactions and children's school travel: the effect of
-drove their children to school indicated that the decreased use of their            parental work patterns on walking and biking to school. J. Transport Geogr. 16 (5),
-cars was a bene<U+FB01>t.                                                                  324–331. https://doi.org/10.1016/j.jtrangeo.2008.01.002.
-     Thanks to the mobile app, it was possible to collect data for this study   McDonald, N.C., Aalborg, A.E., 2009. Why parents drive children to school: implications
-                                                                                    for safe routes to school programs. J. Am. Plann. Assoc. 75 (3), 331–342. https://
-and assess the evolution of the use of the WSB in an automatic and easy             doi.org/10.1080/01944360902988794.
-way, which is a substantial step forward for this type of project. Larger       McDonald, N.C., Brown, A.L., Marchetti, L.M., Pedroso, M.S., 2011. US school travel,
-implementations over longer periods are necessary to assess the conti-              2009: an assessment of trends. Am. J. Prev. Med. 41 (2), 146–151. https://doi.org/
-                                                                                    10.1016/j.amepre.2011.04.006.
-nuity of the changes found in this study and the long-term cost bene<U+FB01>ts
-when the service is integrated into regular school activities. This study's
-                                                                              8
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P. Perez-Martín et al.                                                                                                                                 Transport Policy 64 (2018) 1–9
+barriers to active transportation, such as families' fears related to                          suggested paying the WSB coordinators/monitors and using mobile ap-
+autonomous walking, parents’ needs to escort their children, and the                           plications to support WSB management as possible solutions to recruit-
+distances that the children walk (Stone et al., 2014). Although the WSB                        ment and liability problems.
+solution does not offer complete autonomy to the children, it could be a                            Furthermore, although there is evidence that WSB promotes an in-
+valuable tool to reduce fears about children walking unaccompanied by                          crease in the number of children that walk to school, it has been evalu-
+their relatives and to help parents feel comfortable about their children                      ated using self-assessment questionnaires, which can produce social
+walking to school.                                                                             desirability bias (Heelan et al., 2009; Mendoza et al., 2009, 2011). Only
+Several studies have identi<U+FB01>ed many advantages, challenges, and                           Collins and Kearns (2005, 2010) estimated the savings in car trips ach-
+limitations of WSB (Table 1). The major bene<U+FB01>ts to participants or other                       ieved by the WSB. However, they used indirect methods, such as personal
+people involved in a WSB programme are the time saved by the parents                           estimates provided by WSB coordinators and survey data.
+(Kearns et al., 2003), health bene<U+FB01>ts (Collins and Kearns, 2005; Kearns et                          Moreover, mobile technologies currently have a particularly relevant
+al., 2003; Kingham and Ussher, 2007), increased sense of community                             role in the daily organization of personal transportation. Some activities,
+(Collins and Kearns, 2010; Kingham and Ussher, 2005), children's so-                           such as checking on bus locations in real time (Watkins et al., 2011) or
+cialization (Kearns et al., 2003; Kingham and Ussher, 2005), children's                        identifying a group of individuals for carpooling (Shaheen et al., 2016),
+greater independence (Kingham and Ussher, 2005), and a high level of                           have become increasingly common. Public administrations also are
+participant satisfaction with a healthy and supportive environment that                        beginning to understand that dynamic transportation data allow them to
+promotes social interaction and physical activity (Kong et al., 2009).                         devise more effective plans for transportation infrastructure and services
+However, the previous studies all refer to WSB as staffed by volunteer                    (Yujuico, 2015). These trends are helping to develop an emerging
+adults. Although this approach could positively in<U+FB02>uence parents’ de-                          discipline known as Computational Transportation Science (Winter et
+cisions to not use their cars, Collins and Kearns (2010) pointed out that                      al., 2011). In this sense, new technologies could be useful (Dickinson et
+taking part as accompanying adults is an additional burden and liability                       al., 2015; Weiser et al., 2016) for promoting the creation of WSB groups
+on the families, which reduces the convenience to the families that are                        at educational centres, management of the daily development of WSB
+relatively willing to use it. Thus, the dif<U+FB01>culty obtaining volunteers be-                     and communication among the participants, and for the collection of
+comes a major barrier to the sustainability of WSBs. Smith et al. (2015)                       real-time operational data.
+Table 1
+Previous studies about Walking School Bus (WSB) programmes.
+Study                 Study Site           Methods                                                               Results
+Kearns et al.,        One school in        Evaluation of one school's WSB, survey to participants' parents (16), Although health, social and time-saving bene<U+FB01>ts were reported by
+2003               Auckland, New        conversations with WSB drivers and children, interviews with          the participants, the authors concluded that WSBs were an
+Zealand              people responsible for road safety (7)                                ambivalent response to the hegemony of motorized transport.
+Collins and           Auckland, New        45 interviews with 23 school representatives (mostly principals)      Participants identi<U+FB01>ed bene<U+FB01>ts from WSBs, e.g., an estimated 429
+Kearns, 2005       Zealand              and 22 WSB coordinators conducted providing information on 29         saved vehicle journeys each day. However, the authors concluded
+of 34 schools with WSBs in Auckland                                   that WSBs had a limited ability to address public health
+challenges in an inequitable and car-dominated urban political
+system.
+Kingham and           Christchurch, New    A combination of interviews (33) and questionnaires with people       The authors concluded that WSBs suffered a signi<U+FB01>cant decline in
+Ussher, 2005,      Zealand              conducting some WSBs                                                  the long term. Some of the dif<U+FB01>culties identi<U+FB01>ed were: a lack of
+2007                                                                                                          volunteers, lack of children wanting to make the journey alone,
+and insuf<U+FB01>cient ongoing support from the school or council.
+Heelan et al.,        Nebraska, US         The prevalence of walking to school was evaluated by self-report six  A signi<U+FB01>cantly greater percentage of children actively commuted
+2009                                    times, and the objective physical activity levels among a sample of   to and from WSB schools compared with control schools at each
+research participants (201 intervention children and 123 control      later time point.
+children) in two WSB intervention schools and one control school
+were compared by having participants wear an accelerometer four
+times.
+Kong et al., 2009     Albuquerque, New     A feasibility trial used a process evaluation of two WSBs at an       Student and adult participants reported high levels of satisfaction
+Mexico, US           elementary school with 29 participants (kindergarten through <U+FB01>fth     with the WSB. The authors concluded that WSB studies in urban,
+grade students living within a one-mile radius of school).            underserved school districts were feasible but required attention
+Qualitative and quantitative data were obtained from <U+FB01>eld notes,      to ensure participants' involvement and safety and stakeholder
+attendance records, student and parent satisfaction surveys, focus    investments.
+groups, and interviews with two lead coordinators.
+Mendoza et al.,       Seattle, WA, US      This study assessed students' methods of transportation to school in  Although no signi<U+FB01>cant differences between proportions of
+2009                                    a classroom survey at baseline and a one-year follow-up There was     students walking to school at intervention and control schools at
+an intervention school with a WSB program with volunteer parents      baseline were identi<U+FB01>ed, signi<U+FB01>cantly higher proportions of
+and a part-time coordinator and two control schools.                  students walked to school at the intervention school than control
+schools, and this result was maintained over time.
+Collins and           Auckland, New        This research was a longitudinal assessment of the major WSBs in      The number of WSBs was growing, but most activity remained in
+Kearns, 2010       Zealand              Auckland primary schools using telephone interviews and               the wealthiest areas. Some of the reported bene<U+FB01>ts of WSBs were
+questionnaires. Slight changes from 2002 to 2006 were found.          sense of community, opportunity for exercise and health
+promotion, reduction in car use and local congestion, and
+reduced risk of injury for child pedestrians.
+Mendoza et al.,       Houston, TX, US      Pilot cluster randomized control trial with four intervention and     Intervention schools increased active commuting (AT), whereas
+2011                                    four control schools. Intervention schools had one to three WSBs      control schools decreased AT. Intervention children increased the
+with trained staff to and from schools <U+FB01>ve days per week. The         daily MVPA from 46 to 48 min, whereas control children
+percentage of trips made by active commuters was assessed using a     decreased MVPA from 46 to 41 min. The WSB children achieved
+questionnaire. Minutes per day of moderate to vigorous physical       7 min/day more MVPA than control children.
+activity (MVPA) were measured using GT1M accelerometers worn
+by students for seven days.
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P. Perez-Martín et al.
+Considering this background, it is necessary and possible to imple-
+ment objective assessments to support the potential of these in-
+terventions as transportation policies. For example, a pilot WSB service
+using professional monitors was offered free of charge to the families of a
+primary school in C    ordoba, Spain. A mobile app was used to log the
+children's participation in the WSB. This paper presents an analysis of
+that programme along with an analysis of an initial mobility survey and a
+<U+FB01>nal assessment questionnaire. Thereby, the study aims to lower
+participation barriers and objectively assess the potential reduction of car
+trips that might be obtained through this innovative service.
+
+2. Methodology
+
+2.1. Characteristics of the school study site
+
+This study was conducted at a publicly subsidized school in C ordoba,
+Spain, with a student body of 450 primary grade children, in 2014–2015.
+The school also offers Preschool, Compulsory Secondary Education, and
+Non-compulsory Post-Secondary Education modules. The school is in a
+middle-class neighbourhood with commercial and residential urban
+zoning, and it is near the city centre. The distances from the children's
+homes to the school widely range due to its easy access on foot and by
+motor vehicle and because of the criteria used to allocate students to
+schools in Andalusia. No previous Active Travel to School campaign had
+been tried among these families and the school administration had not
+previously considered any problems with the daily transportation of their
+pupils.
+
+2.2. Design characteristics of the pilot study
+A cost-free daily WSB pilot programme using professional paid
+monitors to and from school was implemented at the school. The par-
+ticipants’ family members were not required to accompany the children,
+although it was permitted during the <U+FB01>rst few days of the programme for
+any family member who deemed it essential to gain suf<U+FB01>cient con<U+FB01>dence
+before participating in the WSB programme.
+The families were provided with a mobile application for the smart-
+phone Trazeo (2014), which allowed them to pinpoint the group's loca-
+tion, obtain relevant noti<U+FB01>cations, and communicate with the monitors
+and other participants in the WSB in real time. The monitors used the
+same application to collect the children's participation data and provide
+information on the location of the group. The human resources used in
+the programme (excluding the research team) were one WSB monitor for
+each 12 children and one coordinator of all of the WSBs, who managed
+problem-solving, organizing and supervising routes, and for communi-
+cation and diffusing the project to the educational community. An
+educational service company recruited the monitors from among young
+candidates with previous experience as school monitors or in children's
+recreational activities. The coordinator was a person with training and
+experience in citizen participation and sustainable mobility. The moni-
+tors and the coordinator needed basic technological skills in mobile ap-
+plications. The costs of the WSB staff were covered by the research
+project (see Acknowledgments).
+Because of the temporary nature of the research project, the pilot
+lasted 14 weeks. The <U+FB01>rst stage began at the end of a school year and the
+reactivation (second) stage began at the beginning of the next school
+year. Before implementation, the families were informed that the service
+would not continue after the study concluded.
+
+2.3. Previous collection of information and route design
+
+Before the implementation of the WSB service, a voluntary ques-
+tionnaire was distributed to the family members of all of the primary
+school children to collect data on their modes of travel to school on a
+daily basis, the locations of their homes, their willingness to participate
+in the WSB service, and to ask for consent to participate in the study.
+
+Transport Policy 64 (2018) 1–9
+In the project's framework, a Google Maps-based application was
+developed to visualize the participants' family data. Each item was
+associated with the following variables: (1) home, (2) mode of trans-
+portation, and (3) willingness to participate in the WSB, using the an-
+swers to the following questions: (1) How does your child usually get to
+school? and (2) Would you take part in the walking school buses if they
+suited your needs? On the map shown in Fig. 1, the location of the icon
+indicates the location of the home. The transportation mode is symbol-
+ized by the type of icon, such that a <U+FB01>gure of a pedestrian indicates that a
+child walked or biked to school and a car indicates children driven to
+school. The willingness to participate is shown via the colour of the icon:
+green indicates that they would participate and red indicates that they
+would not participate. For each item, the walking distance from the home
+to the school was calculated for the shortest route using the Google Maps
+function.
+Using the information in Fig. 1, three WSB routes were designed that
+complied with the following criteria:
+
+ First, the proximity of routes to the homes of the families willing to
+participate.
+ Second, the proximity of routes to the homes of the families that were
+driving the children to school.
+ Third, the total length of the routes of about 1500 m, the locations of
+the starting points, and some intermediate stops to pick up and drop
+off children to facilitate participation for parents who needed to
+continue on to their workplace after dropping off their children at
+school. Later, the lengths of some of the routes were extended in
+response to some parents' requests because they lived beyond the
+routes' starting points.
+2.4. Development of the walking school bus service
+
+After the routes were designed and veri<U+FB01>ed on-site, and before the
+WSB service was implemented, a comprehensive campaign publicized it
+along with trainings and awareness-raising efforts regarding child
+mobility and the use of the application. The routes and schedules were
+published on the project's Internet website, through which interested
+families could register their children for their preferred route.
+The WSB operation proceeded as follows. The monitors began
+walking at the starting points of each route and collected or delivered the
+children at their pre-determined stops until the destination was reached.
+Whenever a child joined or left the group, the monitor logged the in-
+formation in the available group list of the mobile app (Fig. 2a) and
+ticked or unticked the names of those children. Thus, during a group's
+progress along a route, the parents of the participants could know in real
+time the location of the group (Fig. 2b). In addition, parents could receive
+noti<U+FB01>cations alerting them that the WSB had begun, that their child had
+joined or left the group, and that the WSB had <U+FB01>nished the route.
+Moreover, a group chat (Fig. 2c) was available to all family members
+registered for a given WSB route, the monitors, and the coordinator to
+inform all interested parties of any problem or incident. The following
+data were automatically recorded in the database through the mobile
+application: the participation of each child in a walk; the time, date and
+location where he or she was collected or delivered; the number of
+participants in each walk; and the total distance walked.
+During the third week of the WSB project, some information on the
+development of the project was sent to families and different educational
+activities, adapted to each of the educational levels at the school, were
+developed in the classrooms, to explain to the children how a WSB
+operates and how they could join one, with the goal of increasing
+participation in the WSB programme.
+To compute the churn rate after a lengthy break, such as the summer
+holidays, the authors implemented a reactivation (second) stage for the
+groups during the <U+FB01>rst four weeks of the second school year. The coor-
+dinator used the group chat function of the mobile app during the week
+before the beginning of the reactivation stage to inform the participating
+3
+
+P. Perez-Martín et al.
+transportation to school had occurred, whether the mobile app had
+lessened their fears about their children's autonomous walking to school,
+and about the observed bene<U+FB01>ts and disadvantages that they experienced
+after participation in the WSB.
+
+3. Results and discussion
+
+
+3.1. Participant characteristics
+
+From the 304 initial mobility questionnaires collected, 294 reported
+their address with which the home-to-school distances could be calcu-
+
+lated. Although a wide range of distances was found (Table 2), most of
+
+the students lived between 500 and 2000 m from the school.
+During the study, the three WSB groups operated daily. The WSB
+routes began during the last term of school year 2014–2015 (from April
+28, 2015, to June 22, 2015), and these routes were reactivated on the
+
+<U+FB01>rst day of school of the following school year (2015–2016), running
+from September 10, 2015, to October 9, 2015, totalling 59 days and 354
+walks. Altogether, 55 students from 31 families participated in the WSB
+service in both stages. In the <U+FB01>rst stage, 47 students participated, and the
+
+second one had 39 participants.
+
+The characteristics of the sample are shown in Table 3, which in-
+dicates no children living between zero and 500 m from the school took
+part in the project. Although a high potential for participation among
+children living 1500–2000 m from the school (27.3%) was observed,
+most of the participants lived between 1000 and 1500 m from the school.
+The WSB service particularly attracted the interest of families with more
+than one child, possibly because it offered an alternative that inspires
+con<U+FB01>dence regarding the youngest children's walk to school while
+enabling the older children to gain responsibility and autonomy.
+
+3.2. Evolution and recurrence of participation
+
+Thanks to the systematic collection of data on the children's atten-
+dance by the mobile app, it was possible to study the temporal evolution
+of new additions to and dropouts from the WSB and to assess the daily
+participation of the children. Altogether, 1705 daily attendances were
+registered. Because the children could walk to school and back home on
+one day, the total number of registered child participations to and from
+school was 2.642, and the average of daily walks per child was 1.70
+walks per day. This <U+FB01>nding indicates that many of the children used the
+WSB both to and from school. Fig. 3 shows the numbers of active par-
+ticipants, additions, and dropouts for each week, calculated as the dif-
+ference between the accrued additions and dropouts.
+Fig. 3 indicates that the biggest increases in new additions occurred
+during the <U+FB01>rst two weeks and the fourth week of the <U+FB01>rst stage, when the
+intense communication campaign took place. At the beginning of the
+second stage, the coordinator communicated again about WSB avail-
+ability, which led to another increase in participants. However, during
+the weeks when no intense campaign was made, participation was stable.
+This result suggests that appropriate communications before and/or
+during implementation of a WSB service could enhance the recruitment
+of participants.
+Regarding dropouts, most of the children who left the WSB did so
+during the last weeks of the <U+FB01>rst stage because, among other reasons, the
+12-year-olds stopped participating in the project after <U+FB01>nishing Primary
+
+Table 2
+
+Distribution of students by distance from home to school.
+
+Distance from home to school (m)                        % of students (n ¼
+
+0 < x  500                                             3.7
+
+500 < x  1000                                          21.4
+1000 < x  1500                                         27.6
+1500 < x  2000                                         25.5
+2000 < x  2500                                         7.5
+2500                                                   14.3
+
+Transport Policy 64 (2018) 1–9
+Table 3
+Demographic characteristics of the children participating in the program.
+Variable                          Participants (n ¼ 55)                Percentage (%)
+Gender
+Male                            32                                   58.2
+Female                          23                                   41.8
+Age
+5                              9                                    16.4
+6                               9                                    16.4
+7                               6                                    10.9
+8                               9                                    16.4
+9                               7                                    12.7
+10                              12                                   21.8
+
+11                              1                                    1.8
+12                              2                                    3.6
+Number of participating children per family
+1                               15                                   27.3
+2                               30                                   54.5
+3                               6                                    10.9
+4                               4                                    7.3
+Distance from home to school (m)
+500 < x  1000                  10                                   18.2
+1000 < x  1500                 22                                   40.0
+1500 < x  2000                 15                                   27.3
+
+2000 < x  2500                 6                                    10.9
+ 2500                          2                                    3.6
+
+
+education, which also triggered the loss of some of their younger brothers
+and/or sisters. Collins and Kearns (2010) found that, in a volunteer WSB,
+dropouts by older siblings could trigger the loss of the WSB. In this study's
+WSB service model, this problem was not as relevant because the younger
+children who began traveling to school without depending on their
+parents' escort could replace the older participants who left the service as
+they yearly aged out. Also, some families decided not to use the WSB
+service in the second stage, despite their high levels of satisfaction with
+the service, because of the temporary nature of the research project. It is
+possible that maintaining the service would have prevented these
+dropouts.
+On the other hand, the recurrence index (IR) was de<U+FB01>ned using the
+participation data as the sum of a child's effective participation days
+divided by the total number of days from his or her <U+FB01>rst to his or her last
+participation. In this way, a recurrence index of ‘1’ indicates daily
+participation during the stay in the project, regardless of the day in the
+stage that they joined the group for the <U+FB01>rst time or the day that they left
+it. Table 4 shows the results of this index calculated for the 55 child
+participants and the percentages by quintile.
+Overall, 81.8% of the children participated for more than 80% of the
+days during their participation in the project, and 96.4% used the WSB
+more than 60% of the days. Therefore, this WSB service could be a
+popular daily alternative mode of transportation for the children and it
+could result in rapid and permanent modal shifts if it were designed to
+meet the families’ needs, particularly those families that drive their
+children to school. The monitors and many of the families reported that
+the children enjoyed their daily social experiences with other children
+while walking to school. In fact, the children often asked their parents to
+continue participating in the project after they tried it out.
+Although the novelty of the WSB might have in<U+FB02>uenced participation,
+the qualitative comments, the monitors' and the coordinator's direct
+observations, and the participation data indicate that novelty was not a
+decisive factor. On the contrary, the temporary nature of the service
+
+caused some interested families to postpone their decisions for a few
+weeks until they heard from participating families. Others decided not to
+join because it was not a long-term activity. It can be inferred from the
+294)
+evolution of the participation and the performance of other regulated
+
+services offered by the school, such as before-school care and the school
+
+dining room, that a WSB service regularly operating free of charge for all
+participants would attract many children in the mid-term.
+The automatic data collection was a substantial step forward for this
+type of project. If this type of implementation were conducted on a large
+5
+
+P. Perez-Martín et al.
+Fig. 3. Weekly evolution of additions,
+Table 4
+Recurrence index.
+IR                                Number of children (n ¼ 55)
+0.0 < x  0.2                     1
+0.2 < x  0.4                     0
+0.4 < x  0.6                     1
+0.6 < x  0.8                     8
+0.8 < x  1.0                     45
+
+
+scale, it would be possible to develop a robust statistical analysis, such as
+assessing the in<U+FB02>uences of the WSB on driving distances or estimating
+relational models on the effects of the adoption of this service on other
+travel behaviours. These future studies could provide more precise
+knowledge about children's mobility in cities and support optimization of
+and improvements to the Active Travel to School projects.
+
+
+3.3. Modal shift
+
+
+The families of every participating student answered this question
+
+asked in the <U+FB01>nal assessment questionnaire: ‘Has the participation of your
+
+child in the walking school bus meant that he/she has replaced being
+
+driven to school by walking to school?’ Table 5 shows the answers,
+
+grouped according to the distance between home and school, whether a
+
+modal shift (MS) had occurred, and whether the participant already
+
+walked (AW). Among those who changed their transportation mode,
+
+answers were divided into three categories: (1) ‘Yes, every day, on the
+way to school and back home’, full modal shifters (FMS); (2) ‘Yes, but just
+on the way to school or back home’, partial modal shifters (PMS); and (3)
+those who reported a change to their transportation mode on some days,
+occasional modal shifters (OMS).
+In Table 5, 56.3% of the participants already were walking to school
+before the pilot programme, but 43.7% of them partially or totally
+changed their transportation mode. Thus, it is reasonable to conclude
+that the WSB provides a desirable transportation alternative for the
+children in the MS category, simultaneously promoting an increase in
+6
+Transport Policy 64 (2018) 1–9
+dropouts, and active participants.
+autonomy among those who already were walking to school. The modal
+shift percentages were higher among those living more than 1500 m from
+the school, particularly among those living between 1500 and 2000 m
+away from the school, where many of the FMS children lived. Among
+those living between 500 and 1000 m from the school, a large modal shift
+also occurred, but all of them were in the PMS category, suggesting that
+the WSB could replace car trips for families living quite close to the
+
+school and who choose the WSB for personal convenience.
+Fewer changes in transportation mode occurred among those who
+lived 1000–1500 m from the school. On the other hand, by extending the
+length of the WSB routes, children living further than 2000 m from the
+school were attracted to the WSB. As expected, the participants living
+farther away changed their transportation modes (MS). In addition, a
+Kruskal-Wallis test was performed relating the distance interval (between
+home and school) to the transportation mode change. The values ob-
+tained for 1500–2000 m con<U+FB01>rmed that the intervention was more
+effective for children living that far from the school (Chi-
+
+square ¼ 6.4862; p-value ¼ .03904).
+These <U+FB01>ndings have important implications for designing measures
+
+aimed at increasing the number of children engaged in active trans-
+
+portation to school because, based on this study's results, the focus should
+
+be on providing attractive alternatives to families living close to school
+
+that drive the children to school for convenience, those living farther
+
+than 1500 m away from school and driving to school because of the
+
+distance, and, particularly, those living between 1500 and 2000 m from
+
+the school.
+
+
+3.4. Bene<U+FB01>ts and disadvantages for the families
+
+In the <U+FB01>nal assessment questionnaire, the parents of the participants
+were asked to indicate all of the bene<U+FB01>ts they experienced after their
+participation in the WSB, noting the importance of each of them on a
+scale of 1–5 (where 1 is the most important and 5 is the least important).
+Table 6 shows the total accrued results on each item in percentages of
+answers and the percentages on importance. In addition, it shows the
+
+
+P. Perez-Martín et al.                                                                                                                                   Transport Policy 64 (2018) 1–9
+Table 5
+Change of transportation mode by distance between home and school.
+Response/Distance                                     Responses by distance in m (n ¼ 55)                                                                                    Total (%)
+500–1000               1000–1500               1500–2000                2000–2500                2500
+Change transportation mode (MS)                       5                      4                       9                        4                        2                     24 (43.7)
+Every day, in both directions (FMS)             0                      2                       5                        2                        0                     9 (16.5)
+Every day, one direction (PMS)                  5                      1                       4                        1                        2                     13 (23.6)
+Some days (OMS)                                 0                      1                       0                        1                        0                     2 (3.6)
+Already walked (AW)                                   5                      18                      6                        2                        0                     31 (56.3)
+Table 6
+Bene<U+FB01>ts reported by the families.
+Reported bene<U+FB01>t                                                          Level of importance                                Total (N ¼ 55)         MS (N ¼ 24)            AW (N ¼ 31)
+1          2         3         4         5
+More available time for me                                               26         6         4         2         0         38                     16                     22
+Fewer complications in the organization of the family                    39         9         2         1         0         51                     20                     31
+Less use of the car                                                      18         3         4         6         4         35                     20                     15
+My child shows more responsible pedestrian safety behaviours             30         9         6         0         0         45                     22                     23
+My child shows a more positive attitude towards school                   16         13        3         1         3         36                     16                     20
+My child shows a more positive attitude at home                          6          6         13        0         1         26                     11                     15
+My child shows a more sociable attitude towards other children           14         9         9         1         0         33                     14                     19
+My child seems to be more active                                         16         9         3         1         0         29                     9                      20
+Other                                                                    7          3         0         0         0         10                     4                      6
+Level of importance: Number of participants that reported the bene<U+FB01>t, disaggregated by the level of importance marked in the survey.
+Total: Number of participants that reported the bene<U+FB01>t, independently of the importance scale.
+MS: Number of participants that reported the bene<U+FB01>t, independently of the importance scale, among those families with children who changed totally or partially their transportation mode.
+AW: Number of participants that reported the bene<U+FB01>t, independently of the importance scale, among those families with children who already walked before the WSB.
+percentages on the total number of answers obtained on each item be-                           3.5. Reduced fears related to autonomous walking
+tween the MS and the AW groups.
+The family members who responded to the survey pointed out that                                Regarding the mobile app that was used during the WSB experience,
+fewer complications were in the family organization (51 of the 55 par-                         it is important to mention that 92.1% of the participating families re-
+ticipants and all the AW) and the parents reported more free time (38 of                       ported that using the tool contributed to reducing their concerns about
+the 55 participants). Thus, the tested WSB service frees up family re-                         their children's autonomous walking. The parents' fears were usually
+sources because it does not involve parental participation. It increases                       related to not knowing where and with whom their children were.
+convenience compared to driving children to school, which is a factor                          However, the proposed solution, which works non-intrusively when the
+that motivated parents’ decisions. This factor is argued as important                          monitor marks the group's location, provides suf<U+FB01>cient information and
+(McDonald and Aalborg, 2009), despite the scant attention it has                               control of the situation to meet parents' needs.
+received (Faulkner et al., 2010). Among the bene<U+FB01>ts experienced by the
+parents who had previously driven their children to school, reduced use
+of the car was an important and commonly mentioned bene<U+FB01>t (20 of the                           3.6. Cost assessment of the pilot programme
+24 MS). Hence, WSB seems to have released the parents from a
+self-imposed obligation.                                                                            The cost to the company for each monitor was EUR 13 per hour for 2 h
+Another important bene<U+FB01>t mentioned by the participants' parents (45                       per day. It was necessary to hire four monitors for the three WSB routes
+of the 55 participants), in particular by the MS group (22 of the 24 MS),                      because one route exceeded the twenty-children threshold. The coordi-
+was improvements in the children's pedestrian safety behaviours after                          nator was paid EUR 25 per hour for 1.5 h per day. The total cost of the
+participation in the WSB, which has previously been found (Mendoza et                          WSB service during the pilot amounted to EUR 8350. Considering the
+al., 2012). This <U+FB01>nding suggests a positive reinforcement in the parents'                      total number of participants, the walks offered, and the cost of the pilot,
+decision-making processes when they are deciding whether their chil-                           the total cost of providing the service to the children during the entire
+dren will walk to school because it also helps parents to be relatively                        project period of 14 weeks was EUR 152 per child. The cost is comparable
+more con<U+FB01>dent regarding safety around vehicular traf<U+FB01>c. Other bene<U+FB01>ts                          to bus service in the same city, which is on average EUR 80 per month per
+mentioned by the family members, although to a lesser extent and of less                       student. Furthermore, although those services are similar in terms of
+importance, were the children's improved positive attitudes towards                            organization, the WSB provides a wide range of social, energetic, psy-
+school (in particular among the MS group) increased sociable attitudes                         chological, health, and environmental advantages not available through
+towards other children, and a more active lifestyle, which was particu-                        bus service. Consequently, although larger implementations are neces-
+larly important to those in the AW group.                                                      sary and its range of action is relatively limited in distance from the
+In the <U+FB01>nal survey, families were also required to report problems or                     school, this comparison suggests that the WSB service could be cost
+disadvantages of the methodology of WSB implemented. Four families                             competitive under optimal operating conditions. In future applications, if
+reported in the <U+FB01>nal satisfaction survey that they had not been able to                        the cost of the service is covered by the public funds or project sponsors,
+install the app on their smartphones, either because they did not have                         it is reasonable to assume that similar results to those presented in this
+one or because they had an operating system other than Android. The fact                       paper could be expected. Additionally, future studies are needed to assess
+that the app is only available for Android devices is a disadvantage of the                    the effect of transferring the total cost or a part of it to the families.
+app. Although these families could access the group's location on the                               To assess the cost per car trip eliminated as the result of using the
+Internet and receive noti<U+FB01>cations via email, future implementations                            WSB, the questionnaire data were contrasted with the participation data
+should adjust to the technological context of the community in which the                       collected by the mobile app. Two data sets were added to determine the
+WSB service is being implemented and its speci<U+FB01>c needs.                                        number of eliminated car trips: I) the total number of participations
+registered in the database for those children who reported a modal shift
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P. Perez-Martín et al.
+from car to walking every day in both directions (540), and II) the
+number of days of participation registered in the database for those
+children who changed their modes of transportation only for one of the
+daily trips (368). Altogether, 908 car trips were eliminated. Neither the
+data of the children who used the service occasionally nor the possible
+utilization of shared cars were considered in this analysis. Furthermore,
+the parents who dropped off children on their way to work could be
+assumed to continue traveling by car. Thus, those trips could not be
+eliminated entirely, and there might have been an overestimation in the
+reduction of total car trips. According to that, the cost per car trip
+eliminated was EUR 9.19, considering the total cost of the pilot. Although
+that number seems high, the temporary nature of the pilot experience
+and the fact that the intervention did not exclusively focus on students
+previously traveling to school by car should be considered. As stated
+above, the recurrence of participation, once the service had been expe-
+rienced, was very high. However, student enrolment was progressive,
+which meant that participation in the <U+FB01>rst few weeks was lower, which
+could have biased this cost upward.
+
+4. Conclusions
+
+
+In this study, a method was developed to implement a walking school
+bus (WSB) service provided by professional monitors with the support of
+
+a coordinator in a primary school in C   ordoba, Spain. Its possible in<U+FB02>u-
+ence on shifts in modes of transportation was studied. During the last
+nine weeks of school year 2014–2015 and the <U+FB01>rst four weeks of school
+
+
+year 2015–2016, three WSB routes (to and from school) were developed,
+and a total of 55 children participated. The monitors used mobile app
+Trazeo to register participation by each child along each route, and the
+
+families received real-time information on the locations of the WSB and
+on the arrival/departure status of the group. Objectively measured
+participation was combined with responses on an initial mobility diag-
+
+nostic questionnaire before the intervention, and an assessment ques-
+
+tionnaire was administered after the WSB ended.
+Despite some negative factors, such as the temporary nature of the
+study, lack of campaigns to raise awareness, and lack of direct involve-
+
+ment by the school, changes in the transportation routines of many
+families were found and sustained during the project. The recurrence in
+participation was high, with 81.8% of the children participating more
+
+than 80% of the days. Moreover, participation was successfully reac-
+tivated in the groups starting on the <U+FB01>rst day of the second school year in
+the study.
+
+About 43.7% of the participants completely or partially changed their
+modes of transportation to school from automobile to walking. The
+largest variations in the transportation modes of the children were among
+
+those who lived 1500 m from the school, particularly those in the range
+of 1500–2000 m from the school. Thus, the WSB could be an effective
+way to increase the distance threshold currently walked by children and
+
+to reduce car trips undertaken for the parents’ convenience or because of
+
+lack of alternatives.
+With this WSB model, the researchers tackled the major barriers to
+
+participation in the WSB, such as parents' lack of free time for escort,
+
+concerns about the risk of accidents, and the safety of the children. All of
+the families that used the mobile app stated that it helped them to reduce
+their fears about their children's autonomous walking. The families
+
+particularly valued the less complicated family organization, the chil-
+dren's improved pedestrian safety behaviours, and the additional free
+time as bene<U+FB01>ts of participation. In addition, many of the parents who
+
+drove their children to school indicated that the decreased use of their
+cars was a bene<U+FB01>t.
+Thanks to the mobile app, it was possible to collect data for this study
+
+and assess the evolution of the use of the WSB in an automatic and easy
+way, which is a substantial step forward for this type of project. Larger
+implementations over longer periods are necessary to assess the conti-
+
+nuity of the changes found in this study and the long-term cost bene<U+FB01>ts
+when the service is integrated into regular school activities. This study's
+
+Transport Policy 64 (2018) 1–9
+results offer an interesting perspective on the implementation of WSB
+services focused on increasing convenience for families, using profes-
+sional monitors, and applying mobile applications to increase the active
+transportation of children to and from school.
+
+Acknowledgements
+
+We are grateful to the European Regional Development Fund of the
+European Union for the fundings received for this study through Meto-
+dología de Implantacion de Rutas Escolares a Pie Apoyadas en Una Herra-
+mienta Tecnologica y Su Aplicacion en Centros de Educacion Primaria
+(Implementation Methodology of Walking School Routes Supported by a
+Technological Tool and its Application in Primary Schools), framed in the
+Programa Operativo FEDER de Andalucía 2007–2013 of the Public Works
+Agency and the Department for Housing and Development of the
+Regional Government of Andalusia (GGI3003/IDIC).
+
+References
+ATE - Association Transports et Environnement, 2007. Pedibus. A       pied. A l’ecole.
+
+Accompagne. Retrieved September 30, 2017, from. http://pedibus.ch/.
+Collins, D.C., Kearns, R.A., 2005. Geographies of inequality: child pedestrian injury and
+walking school buses in Auckland, New Zealand. Soc. Sci. Med. 60 (1), 61–69.
+https://doi.org/10.1016/j.socscimed.2004.04.015.
+Collins, D., Kearns, R.A., 2010. Walking school buses in the Auckland region: a
+longitudinal assessment. Transport Pol. 17 (1), 1–8. https://doi.org/10.1016/
+j.tranpol.2009.06.003.
+on, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of
+Chill
+interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
+Activ. 8 (1), 10. https://doi.org/10.1186/1479-5868-8-10.
+Dickinson, J.E., Cherrett, T., Hibbert, J.F., Winstanley, C., Shingleton, D., Davies, N.,
+Norgate, S., Speed, C., 2015. Fundamental challenges in designing a collaborative
+travel app. Transport Pol. 44, 28–36. https://doi.org/10.1016/
+j.tranpol.2015.06.013.
+Faulkner, G.E., Richichi, V., Buliung, R.N., Fusco, C., Moola, F., 2010. What's “quickest
+and easiest?”: parental decision making about school trip mode. Int. J. Behav. Nutr.
+Phys. Activ. 7 (1), 1. https://doi.org/10.1286/1479-5868-7-62.
+
+Foster, S., Villanueva, K., Wood, L., Christian, H., Giles-Corti, B., 2014. The impact of
+parents' fear of strangers and perceptions of informal social control on children's
+independent mobility. Health Place 26, 60–68. https://doi.org/10.1016/
+j.healthplace.2013.11.006.
+Fyhri, A., Hjorthol, R., Mackett, R.L., Fotel, T.N., Kytt€a, M., 2011. Children's active travel
+and independent mobility in four countries: development, social contributing trends
+and measures. Transport Pol. 18 (5), 703–710. https://doi.org/10.1016/
+j.tranpol.2011.01.005.
+Green Communities Canada, 2011. Active and safe routes to school. Retrieved September
+30, 2017, from. http://www.saferoutestoschool.ca/.
+He, S.Y., 2013. Will you escort your child to school? The effect of spatial and temporal
+constraints of parental employment. Appl. Geogr. 42, 116–123. https://doi.org/
+10.1016/j.apgeog.2013.05.003.
+Heelan, K.A., Abbey, B.M., Donnelly, J.E., Mayo, M.S., Welk, G.J., 2009. Evaluation of a
+walking school bus for promoting physical activity in youth. J. Phys. Activ. Health 6
+(5), 560. https://doi.org/10.1123/jpah.6.5.560.
+Kearns, R.A., Collins, D.C., Neuwelt, P.M., 2003. The walking school bus: extending
+children's geographies? Area 35 (3), 285–292. https://doi.org/10.1111/1475-
+4762.00177.
+Kingham, S., Ussher, S., 2005. Ticket to a sustainable future: an evaluation of the long-
+term durability of the Walking School Bus programme in Christchurch, New Zealand.
+
+Transport Pol. 12 (4), 314–323. https://doi.org/10.1016/j.tranpol.2005.05.002.
+Kingham, S., Ussher, S., 2007. An assessment of the bene<U+FB01>ts of the walking school bus in
+Christchurch, New Zealand. Transport. Res. Pol. Pract. 41 (6), 502–510. https://
+doi.org/10.1016/j.tra.2006.11.008.
+
+Kong, A.S., Sussman, A.L., Negrete, S., Patterson, N., Mittleman, R., Hough, R., 2009.
+Implementation of a walking school bus: lessons learned. J. Sch. Health 79 (7),
+319–325. https://doi.org/10.1111/j.1746-1561.2008.00418.x.
+Mackett, R.L., 2013. Children's travel behaviour and its health implications. Transport
+Pol. 26, 66–72. https://doi.org/10.1016/j.tranpol.2012.01.002.
+Marique, A.F., Dujardin, S., Teller, J., Reiter, S., 2013. School commuting: the
+relationship between energy consumption and urban form. J. Transport Geogr. 26,
+1–11. https://doi.org/10.1016/j.jtrangeo.2012.07.009.
+McDonald, N.C., 2008. Household interactions and children's school travel: the effect of
+parental work patterns on walking and biking to school. J. Transport Geogr. 16 (5),
+324–331. https://doi.org/10.1016/j.jtrangeo.2008.01.002.
+McDonald, N.C., Aalborg, A.E., 2009. Why parents drive children to school: implications
+for safe routes to school programs. J. Am. Plann. Assoc. 75 (3), 331–342. https://
+doi.org/10.1080/01944360902988794.
+McDonald, N.C., Brown, A.L., Marchetti, L.M., Pedroso, M.S., 2011. US school travel,
+2009: an assessment of trends. Am. J. Prev. Med. 41 (2), 146–151. https://doi.org/
+10.1016/j.amepre.2011.04.006.
+
+
+8
