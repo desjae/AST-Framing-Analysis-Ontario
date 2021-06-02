@@ -1,0 +1,902 @@
+
+
+Safety and School Travel
+How Does the Environment Along the Route
+Relate to Safety and Mode Choice?
+Kristian Larsen, Ron N. Buliung, and Guy E. J. Faulkner
+This study examines the relationship between safety, the built environ-
+ment, and the mode of travel to and from school. The paper contributes
+to the literature by analyzing the actual route traveled through the use
+of objective traffic data within school neighborhoods. Parents and children
+completed a survey and mapping exercise to obtain travel routes to and
+from school, a methodological improvement over network shortest-path
+analysis. Manual traffic counts around the sampled schools (n 5 17) were
+conducted. Logistic regression analysis confirmed a priori expectations
+about the effects of distance, gender, and the number of vehicles per
+licensed driver. New insights into safety were produced through inclu-
+sion of objective metrics designed to explore the safety of the pedestrian
+environment. A higher number of vehicles, a higher number of cross-
+ing streets, incomplete sidewalk networks, and the presence of parking
+facilities emerged as potentially important transport supply-, design-,
+and safety-related factors. If children perceived their neighborhood
+to be a safe area in which to walk alone, they were also more likely to
+walk. For parents, the perception that strangers were present and
+the presence of busy streets influenced the mode of travel. Different
+effects were produced across separately estimated home-to-school and
+school-to-home models.
+
+
+Over the past four decades, decreasing rates of active travel to school
+have been accompanied by an increasing prevalence of childhood
+obesity (1–4). The recent decline in physical activity may influence
+the increasing prevalence of childhood obesity (5). Travel between
+home and school presents a potential opportunity to establish daily
+physical activity through active transport to school (ATS) (6). Walking
+to school alone does not allow children to meet their daily physical
+activity needs or meet national guidelines, but it can be one part of a
+daily activity bundle necessary to produce an active, healthy lifestyle.
+The distance between home and school is often reported in the
+literature to be the most common correlate of school travel mode
+choice (7–11): as the distance increases, the odds of walking decrease.
+Distance is important, but other aspects, such as convenience and
+safety, influence rates of ATS. Even for short distances, recent studies
+have found that parents may drive their children to school, as it is
+
+
+K. Larsen, Department of Geography and Planning, University of Toronto, 100 Saint
+George Street, Toronto, Ontario M5S 3G3, Canada. R. N. Buliung, Department of
+Geography, University of Toronto, Mississauga, 3359 Mississauga Road North,
+Mississauga, Ontario L5L 1C6, Canada. G. E. J. Faulkner, Faculty of Kinesiology
+and Physical Education, University of Toronto, 55 Harbord Street, Toronto, Ontario
+M5S 2W6, Canada. Corresponding author: K. Larsen, kristian.larsen@utoronto.ca.
+
+Transportation Research Record: Journal of the Transportation Research Board,
+No. 2327, Transportation Research Board of the National Academies, Washington,
+D.C., 2013, pp. 9–18.
+DOI: 10.3141/2327-02
+
+
+
+
+
+perceived to be more convenient (7, 12, 13). Convenience partially
+relates to parental perception about the time necessary to overcome
+travel distance.
+Concerns about child safety are another reason why parents drive
+children to and from school (8, 14, 15). The concept of child safety
+is twofold; it consists of both personal security, that is, social fears or
+threats to the body or mind perpetrated by others, such as strangers
+or bullies, and safety from traffic. Personal security can involve
+both objective and perceived risks. Common concerns for parents
+are the risk of abduction, interaction with strangers, or fear of crime
+(12, 16). Children, however, are concerned about strangers but may
+have additional sources of fear, such as bullies, stray animals, or older
+kids (14, 16). Objective and perceived measures of vehicle speed,
+traffic volume, fleet characteristics, sidewalks, and street crossings
+are potentially key traffic safety issues (17, 18).
+Street crossings, by type, and the distribution of intersections may
+also affect mode choice, but research to date has produced mixed
+results. For example, higher intersection density may associate with
+walking (19–21) or may not associate with walking at all (22, 23).
+The type of street crossing could also be an important factor, as
+major intersections may be more difficult to cross than local streets.
+One study reported that many children are driven to school because
+of dangerous road crossings (15), although Schlossberg et al. found
+no connection between the presence of major street crossings and
+mode choice (19). Railway crossings may also affect mode choice,
+but little supportive evidence exists (19, 24).
+The presence of a complete sidewalk network affects risk percep-
+tion and has been positively associated with higher rates of ATS in
+some studies (18, 25) but not at all in others (8, 24). Neighborhoods
+may vary widely according to the characteristics that may support
+or hinder ATS. Such differences may intensify along class divides.
+For example, higher-income households commonly report lower ATS
+rates than lower-income households (20, 24, 25). Although ATS rates
+are often higher for lower-income respondents, the risk of pedestrian
+injury has also been shown to be higher in lower-income neighbor-
+hoods; income effects are therefore not limited to mode choice but
+extend to safety as well (26).
+Despite much discussion about safety in the ATS literature and
+public policy domains, few studies have examined how observed
+traffic counts and vehicle fleet characteristics associate with school
+
+travel mode choice (8, 14, 19). The pedestrian safety literature has
+found a link between higher traffic volumes and injury risk (27, 28).
+The existence of such a link suggests that traffic volume may relate
+to safety and mode choice. Fleet characteristics (type, size) may also
+influence adult and child perceptions of safety risk. From an objective
+
+point of view and from the perspective of the risk of injury, larger
+vehicles put pedestrians at a greater risk for more severe injury and
+death (29).
+9
+
+10
+Methods
+
+Study Area and Data
+
+The study described here was set in the city of Toronto, Ontario,
+Canada, which has a population of approximately 2.5 million people.
+Toronto represents an ideal study area, as its neighborhoods present
+contrasting transportation options, land uses, built environments,
+and social characteristics. Although city form can be classified in
+many ways, this study makes use of two broad categories that reflect
+the historical and political context of Toronto’s growth since the
+late 1800s. The central city consists of many older neighborhoods
+surrounding the downtown core, and the inner suburbs include more
+recently constructed neighborhoods politically amalgamated in 1998.
+As part of the larger Built Environment and Active Transport
+project, students in Grades 5 and 6 (n = 1,035) at 17 elementary
+schools completed activity–travel behavior surveys and mapping
+exercises. Student selection began in January 2010, when all ele-
+mentary school principals within the Toronto District School Board
+(n = 469) received an invitation to participate in the project. From
+the pool of interested principals, selective sampling took place to
+TABLE 1   Significance of Correlations in Preliminary An
+To School
+Child
+Variable                                p-Value     +/-
+Age                                       .055       na
+Gender (girls as referent)               <.001       +
+Gender of parent (mother as referent)       na      na
+Distance                                 <.001       -
+Intersections                            <.001       -
+Major crossings                          <.001       -
+Railway crossings                         .467       -
+Proportion missing sidewalks             <.001       -
+Maximum traffic                          <.001       -
+Land use mix                             <.004       +
+Traffic-calming feature density          <.001       -
+Traffic density                           .091       -
+Vehicle fleet index                       .001       +
+Unweighted vehicle mix                    .095       +
+Home DA income                           <.001       -
+Street tree density                       .056       +
+Parking facilities                       <.001       -
+Vehicles per licensed driver                na      na
+Neighborhood: inner suburbs              <.001       -
+Education, father
+Secondary                                 na      na
+College                                   na      na
+University                                na      na
+Graduate                                  na      na
+Education, mother
+Secondary                                 na      na
+College                                   na      na
+University                                na      na
+Graduate                                  na      na
+
+Transportation Research Record 2327
+ensure representation by income and built environment. Nine of the
+sampled schools were within the central city, and eight were in the
+inner suburbs. A dummy variable broadly examined the effects of
+location (central city and inner suburbs).
+The University of Toronto research ethics board and the Toronto
+District School Board ethics review board granted ethics approval in
+advance. Individual schools, parents, and students gave consent to
+participate before data collection. Data collection took place in the
+spring and fall of 2010 and 2011. Grades 5 and 6 teachers recruited
+children and parents. Eligible students obtained a consent form asking
+for the child’s home address. Home addresses and school locations
+were used to produce color maps (aerial photographs) of participant
+neighborhoods on ledger-size paper (279 × 432 mm).
+After in-classroom instruction, children brought home a parental
+survey and a map on which they could draw (with parental super­
+vision) their typical route to and from school. The child and parent
+surveys allowed researchers to examine how perceived characteristics
+of the neighborhood and safety relate to mode choice. All questions
+about safety and environmental perceptions were entered into a
+preliminary univariate analysis to test for associations with mode
+choice (Table 1).
+alysis
+From School
+Parent                Child                Parent
+p-Value      +/-      p-Value      +/-     p-Value       +/-
+.199       -         .152        -         .969        -
+<.001        +        <.001        +       <.001         +
+.151       +           na        na        .311        +
+<.001        -        <.001        -       <.001         -
+<.001        -        <.001        -       <.001         -
+<.001        -        <.001        -       <.001         -
+.419       -         .052        -         .085        -
+<.001        -         .13         -         .142        -
+<.001        -        <.001        -       <.001         -
+<.004        +         .124        -         .124        -
+<.001        -        <.001        -       <.001         -
+.016       -         .003        -         .002        -
+.004       +         .132        -         .076        -
+.295       +         .053        +         .282        +
+<.001        -        <.001        -         .003        -
+.003       +         .984        -         .597        +
+<.001        -        <.001        -       <.001         -
+<.001        -           na        na        .027        -
+<.001        -        <.001        -       <.001         -
+
+.408       +           na        na        .876        +
+.837       -           na        na        .447        -
+.660       +           na        na        .970        +
+.970       -           na        na        .668        -
+
+.026       +           na        na        .998        +
+.123       -           na        na        .939        -
+.037       +           na        na        .253        +
+.034       +           na        na       .515         +
+(continued)
+
+12
+Heads-up digitizing generated geographic information system-
+based separate routes to and from school. Data loss resulted from
+incomplete or illegible maps. The final data set included 978 routes to
+school and 981 routes from school. The digitized routes allowed explo-
+ration of objective environmental characteristics along each child’s
+reported route. Most studies examining school travel use aggregated
+data for either the home or the school neighborhood (8, 9, 20, 21), and
+a few recent studies have examined characteristics along the shortest
+path between home and school (19, 24). Use of a drawn route as the
+unit of analysis is a methodological improvement over previous work
+and produces a more accurate representation of the environment (30).
+The City of Toronto provided data on sidewalks, railways, street
+trees, traffic-calming device location, and the street network. These
+data were used to construct route-based environmental variables.
+Parcel-level land use data from the Municipal Property Assessment
+Corporation were also used to generate land use metrics. Researchers
+verified all of the data sets along the routes in this study with the
+assistance of aerial photography and field visits, when required.
+
+
+Built Environment
+
+This section explains the approaches used to model concepts of the
+
+built environment. Several measures of transport supply and the
+
+density of route features were estimated (i.e., the number of features
+
+per route kilometer). These included crossed intersections, active
+
+railway crossings, major street crossings (major streets were classified
+
+by the City of Toronto), traffic-calming devices, and street trees.
+
+Few studies examine how traffic-calming features influence school
+
+travel. Traffic-calming devices in this study included chicanes, speed
+
+bumps, raised intersections, gateways, raised crosswalks, and traffic
+circles. Street trees may encourage walking for the trip to school (9).
+Calculation of the number of street trees along each route was based
+on the distance traveled, and this calculation produced a variable for
+route street tree density.
+Sidewalk availability is assumed to be necessary for the facilitation
+of ATS. Sidewalk coverage was measured as the proportion of a route
+with missing sidewalks. Sidewalks were considered to be missing
+only if they were not present on either side of the street.
+Land use mix is often measured by use of an entropy index based
+on the area of land dedicated to particular land uses (9, 24). This study
+examined the actual route traveled and not the area surrounding the
+home or school. Thus, a new route-based approach examined the
+mix of land uses along the property frontages for each child’s route.
+This method uses the same approach as previous work but uses it at a
+different spatial scale because of the route-based nature of this study.
+All land parcel polygons within the city of Toronto were classified into
+five land use classes (parks, residential, institutional, industrial, and
+commercial). Land use parcels were then transformed into linear fea-
+tures at the front of each property. The total length of frontage for each
+land use was compiled for every route, and an entropy approach was
+used to represent land use mix (LUM) by use of the follow formula:
+
+LUM = -
+<U+2211> lu [ pu ln ( pu )]
+
+ln ( n )
+
+
+where
+
+lu = land use classification integer,
+pu =	proportion of parcel frontage within a land use category, and
+n = total number of land use classes.
+Transportation Research Record 2327
+The values ranged from 0 to 1, where 0 represents a route populated
+by a single land use and 1 indicates the presence and equal distribution
+of all five land uses.
+Many participants did not provide individual-level data on income
+when completing the survey but did report their level of educational
+attainment. Preliminary analysis included the individual educational
+attainment variable along with a measure of the median household
+income at a scale smaller than the neighborhood (i.e., the Canada
+census dissemination area [DA]).
+
+
+Traffic Environment
+
+Qualitative research examining traffic and school travel has reported
+a relationship between the number of vehicles around the school and
+safety (17). School travel interventions often focus on the traffic
+environment at the school end. Manual traffic counts were taken at
+all access and egress points around each sampled school. These counts
+produced a destination-focused analysis of the role of traffic on mode
+choice. This approach to data collection ensures that traffic data are
+available for at least one intersection for every child. Traffic counts
+were conducted in the morning and afternoon. Data were collected
+
+by methods used by Boarnet et al. and commenced one-half hour
+
+before school started in the morning and continued for another
+
+15 min after school began (18). The same approach was applied for
+
+the journey home from school, in which data collection commenced
+
+15 min before the end of the school day. In agreement with common
+
+practice, data collection took place only on Tuesdays, Wednesdays,
+
+and Thursdays; Mondays and Fridays have atypical traffic patterns
+
+(31). Traffic data were collected only in the spring and fall and were
+
+not collected on days with poor weather. The counters were also
+instructed to record data on vehicle type, and training was given in
+advance to help the counters distinguish different vehicles.
+This study used the observed traffic data in novel ways. Two
+measures of the traffic environment were used. The first measure
+was the traffic volume (observed count) experienced at the school
+end by examination of the maximum volume that a child faced at
+those locations where his or her route intersected with a data col-
+lection point. This approach takes into consideration findings from
+the pedestrian safety literature in which a greater volume correlates
+with perceived safety risk (27, 28). This correlation assumes that
+differences in volume at the high end most likely associate system-
+atically with safety and mode choice. For the second measure, tests
+also examined traffic density at the school end to understand how
+average traffic volume influences mode choice.
+To date, no known study has examined how fleet characteristics
+relate to either mode choice or safety. It is unknown exactly how
+this particular aspect of the traffic environment interacts with safety
+perceptions or mode choice. Perhaps, for example, a disproportionate
+presence of larger vehicles could produce differences in perceived
+safety and mode choice. Passenger car equivalents are a common
+measure used in the transportation demand and forecasting literature
+
+to model the impact of larger vehicles on road systems. No known
+vehicle index or multiplier for linking vehicle fleet characteristics
+
+with pedestrian safety exists. This study involved experimentation
+with a vehicle weight-based multiplier to create a car equivalent for
+
+the pedestrian safety application. The difference between smaller and
+larger motor vehicles in pedestrian safety relates to vehicle mass
+and speed. Fleet size plays a role in vehicle-on-vehicle collisions,
+as a direct inverse relationship between the mass of the vehicle and
+
+Larsen, Buliung, and Faulkner
+risk of fatality exists (32). The following multipliers were applied:
+1.0 for a car, 1.3 for an SUV or minivan, 11.2 for a bus, 6.1 for a
+school bus, and 13.2 for a truck (33, 34). The mass of a bus, school
+bus, and truck can differ substantially on the basis of the number of
+occupants or the load. For these types of vehicles, the multiplier uses
+the average weight between a full and an empty vehicle. The average
+weight thus implies that a bus or a truck is at half of its capacity.
+A weighted vehicle fleet index examines the characteristics of the
+vehicle fleet around each school. Observed fleet data were aggre-
+gated to four vehicle categories: passenger vehicles, transit vehicles,
+school buses, and trucks. Passenger vehicles included cars, minivans,
+and SUVs. A reverse entropy index models the vehicle mix around
+each school:
+
+
+<U+F8F4><U+F8F1> <U+2211> v [ pv ln ( pv )] <U+F8F4><U+F8FC>
+fleet mix = <U+F8F2>                         <U+F8FD>+1
+<U+F8F4><U+F8F3>      ln ( n )      <U+F8F4><U+F8FE>
+
+where
+
+v = vehicle type,
+pv =	proportion of vehicle types at each intersection dedicated to
+a particular category (i.e., passenger vehicle, transit vehicle,
+school bus, or truck), and
+n = total number of categories.
+
+Fleet mix scores ranged from 0 to 1, where 0 is a mix dominated
+
+by trucks, transit, and school buses and a score of 1 represents an
+intersection with only passenger vehicles. To further test for fleet
+effects, in a preliminary analysis an unweighted vehicle mix index
+that applied the same approach but without vehicle type multipliers
+was tested.
+Few studies to date have examined whether parking or drop-off
+facilities at the school relate to mode of travel. It is unknown how
+this feature associates with mode of travel, but it is likely that these
+facilities encourage driving because they make it easier. Site visits
+to each school surveyed parking facilities and drop-off locations.
+Schools were coded as having parking facilities if pickup and drop-
+off zone signage was observable or if a school had a drive-through
+area in front of the school for drop-off and pickup.
+
+
+Empirical Analysis and Modeling
+
+Univariate logistic regression was first used to determine variables
+independently associated with walking (Table 1). Factors such as
+distance and the genders of the child and the parent, along with auto-
+mobile availability, were analyzed to control for these individual
+characteristics of the child and adult. Variables continued into sub-
+sequent analyses by use of a p-value cutoff of <.05. For categorical
+responses, three of the four categories had to meet the criterion of a
+p-value of <.05 and the other category had to approach significance
+with a p-value of <.1. In an ideal situation, a multinomial analysis
+would be completed; but the number of cases for bicycling, transit,
+and school bus (n = 58) did not allow such modeling. Only children
+who were driven in a vehicle or walked to and from school (n = 905)
+were included in the analysis. Although only 22 students rode a
+school bus, all Toronto District School Board students living more
+than 1.6 km from school are eligible to take the school bus. The
+Toronto District School Board measures the distance along the short-
+est public thoroughfare from the child’s residence to the closest school
+access point.
+13
+Multicollinearity analysis of the filtered set of variables followed
+the unadjusted modeling exercise, and Pearson correlations and
+variance inflation factor approaches were used. These tests discov-
+ered multicollinearity for the traffic maximum and density variables
+along with the weighted and unweighted vehicle fleet mix. Because
+preliminary testing revealed greater significance for the maximum
+traffic and weighted vehicle fleet index variables, these variables
+remained in the adjusted models.
+
+
+Model Specification and Structure
+
+Binomial logistic regression modeling examines how charac­
+teristics of the traffic environment relate to mode of travel with
+walking as the dependent variable. The purpose of these models
+is to help explain how perceived and objective measures of traffic
+
+and safety associate with mode choice. Recent studies have shown
+different patterns in the trip to school versus the trip from school
+(10, 24), so separate models were estimated for trips to and from
+school.
+
+
+Results
+
+Descriptive statistics for the cases included (n = 905) are reported in
+Table 2. Nearly 68% of the children (n = 654) walked to school and
+
+26% were driven (n = 251). Although not included in the analysis,
+
+only 22 children (2%) rode the school bus, 19 cycled (2%), and 17 took
+transit (2%) to school. For the trip home, rates varied slightly, with
+76% of children walking (n = 733) and 18% being driven (n = 173).
+Alternative modes remained stable, with 2% of the children in the
+sample biking, taking transit, or riding a school bus home from school.
+The average age of the sampled children was 10.5 years. Fifty-four
+percent of the respondents were girls (n = 482) and 46% were boys
+(n = 516). A total of 456 respondents lived in the central city (50%)
+and 448 (50%) lived in the inner suburbs; 436 (49%) students were
+from high-income neighborhoods, and 468 (51%) were from lower-
+income areas. Nearly 60% of the sample had access to parking
+facilities at the school (n = 533). More than 50% of the fathers and
+46% of the mothers had a university degree.
+The median distance for each of the trips to and from school was
+634 m, and the mean distance varied slightly (895 to 900 m). Any
+difference in trip length to and from school relates to the different
+routes taken for these trips. Most respondents had to cross five streets,
+but few of these streets were classified as major roads. Traffic-calming
+features were present for some of the routes, but many routes did not
+include these devices (n = 638). The values for land use mix were
+quite low. The low value means that single land uses dominated the
+landscape for most routes. The traffic environment was different
+during the trips to and from school. More vehicles were around
+schools in the a.m. period, and most of these vehicles were passen-
+ger vehicles. This likely relates to the higher rates of driving during
+the trip to school, as rates of driving are higher for the trip to school,
+and most children are in passenger vehicles.
+
+
+Regression Models
+
+As expected, distance emerged as one of the strongest correlates of
+school travel mode choice (Table 3). As distance increased, the odds
+that a child would walk decreased. Child gender was also a significant
+
+Larsen, Buliung, and Faulkner
+TABLE 3 (continued)   Logistic Regression Estimation Results with Walk as
+
+Variable                                          Coefficient       SE
+From School
+Gendera                                               0.710         0.240
+Vehicles per licensed driver                        20.470          0.435
+Neighborhood type: inner suburbsb                   20.974          0.347
+Distance to school (km)                             21.270          0.219
+Intersections crossed on route                      20.171          0.045
+Major street crossings on route                       0.059         0.070
+Maximum traffic on routec                           20.010          0.025
+Incomee                                             20.008          0.003
+Land use mix                                        20.973          0.633
+Parking facilities at the schoolf                   20.228          0.308
+Safe area to walk aloneg
+   Do not know                                        0.383         0.377
+  Yes                                                 1.184          .365
+Fear of strangersh
+  Strongly agree                                    21.217          0.545
+  Somewhat agree                                    20.856          0.537
+   Neither agree nor disagree                       20.390          0.603
+  Somewhat disagree                                 20.769          0.606
+Heavy traffic around the schoolh
+  Strongly agree                                    20.042          0.476
+  Somewhat agree                                    20.268          0.444
+   Neither agree nor disagree                       20.580          0.473
+  Somewhat disagree                                 20.124          0.488
+Busy streets to crossh
+  Strongly agree                                    21.346          0.442
+  Somewhat agree                                    20.589          0.383
+   Neither agree nor disagree                       20.636          0.396
+  Somewhat disagree                                 20.278          0.330
+Constant                                              6.048          .914
+Note: Significant variables with a p-value of <.05 are in bold. SE = stand
+a
+Female as referent.
+b
+Central city as referent.
+c
+Maximum traffic in 100-vehicle increments.
+d
+Proportion of route with sidewalk missing on both sides of street.
+e
+Home DA level income ($).
+f
+No as referent.
+g
+No as referent, on the basis of the child survey.
+h
+Strongly disagree as referent, on the basis of the parent survey.
+factor, as boys were more likely to walk. These results were consistent
+for both trips. School neighborhoods also played a role, as living in
+inner suburban areas decreased the likelihood that a child would walk.
+For class, the median household income of the home DA was
+significant only in the model of the trip home from school. House-
+holds in DAs described as having a higher income than other places
+seemed to produce less walking on the trip home. The number of
+vehicles per licensed driver ratio was significant only for the trip to
+school and was inversely related to the odds of walking. The number
+of intersections along the route significantly related to travel mode
+for both trips, but the need to cross major streets produced no effect.
+Children faced with routes with many intersections, irrespective of
+road type, were less likely to walk. The absence of sidewalks was
+also associated with a decreased odds of walking. Route-based
+measurement of street trees, traffic-calming features, and land use mix
+were not statistically associated with the mode choice outcome. It is
+possible, however, that other approaches to measuring these features
+15
+Dependent Variable
+95% CI
+Wald          p-Value        Odds Ratio    Lower       Upper
+
+8.778          .003             2.034    1.272       3.254
+1.167          .280             0.625    0.267       1.466
+7.869          .005             0.378    0.191       0.746
+33.684         <.001              0.281    0.183       0.431
+14.188         <.001              0.843    0.772       0.921
+0.713          .398             1.061    0.925       1.217
+0.150          .698             0.990    0.944       1.039
+7.689          .006             0.992    0.987       0.998
+2.364          .124             0.378    0.109       1.306
+0.546          .460             0.796    0.435       1.457
+
+1.034          .309             1.467    0.701       3.071
+10.492           .001             3.266    1.596       6.685
+
+4.985          .026             0.296    0.102       0.862
+2.543          .111             0.425    0.148       1.217
+0.418          .518             0.677    0.208       2.207
+1.611          .204             0.464    0.141       1.520
+
+0.008          .930             0.959    0.377       2.438
+0.366          .545             0.765    0.321       1.824
+1.506          .220             0.560    0.222       1.414
+0.065          .799             0.883    0.339       2.298
+
+9.258          .002             0.260    0.109       0.619
+2.363          .124             0.555    0.262       1.176
+2.584          .108             0.529    0.244       1.150
+0.711          .399             0.757    0.396       1.446
+43.780         <.001          423.345
+ard error; CI = confidence interval.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in relation to mode choice—or route choice, for that matter—could
+produce a different result.
+For the traffic environment for the trip to school, increased traffic
+volume at the school end appeared to decrease the odds of walking.
+Although this may appear to be an expected result, it was significant
+only for the morning trip. Informed by the preliminary univariate
+analysis, vehicle fleet index was entered only into the model for the
+trip to school and was not significant. The finding suggests that for
+the characteristics at the school end, mode choice may not relate to
+vehicle fleet mix; the greater concern may be traffic volume overall.
+Parking facilities were also important only for the trip to school,
+indicating that the presence of parking facilities may enable driving
+in some way. Overall, the larger number of significant variables in
+the model for the trip to school may suggest that the traffic environ-
+ment around the school has a larger and potentially more diverse set
+of impacts on mode choice for the trip in the morning than for trips
+from school at the end of the day.
+
+16
+Attention to the findings for environmental perceptions showed
+that the odds that children would walk to and from school appeared
+to be higher for children who perceived that they lived in an area
+where it is safe to walk alone. Parents’ heightened risk perception
+about strangers appeared to correlate inversely with the odds that
+their children would walk on both trips. In contrast to findings about
+the objective measurement of the traffic environment, the perception
+of heavy traffic around the school was not significant for either trip.
+Also in contrast to a corresponding objective measure, strong parental
+agreement on child interaction with too many busy street crossings
+inversely related to the odds that the children would walk. An inter-
+esting finding was the incongruence between objective environ-
+mental measurements and the respondent’s perception of the same
+environment.
+
+
+Discussion of Results and Conclusion
+
+Traffic, measured according to the maximum volume at intersections
+where child pedestrian exposure occurs, was a significant factor
+related to mode choice. This finding is important, as few studies
+have examined this variable within the context of travel to and from
+school. Some studies have used aggregated daily counts, but no
+known study has used traffic counts around the school during the
+a.m. and p.m. periods. Findings for this variable were not surprising,
+as a higher traffic volume at an intersection translates to decreases
+in walking. A higher number of vehicles could produce an unpleas-
+ant walking environment. From a safety standpoint, a higher traffic
+volume could also be associated with an increased risk of pedestrian
+injury or death. This finding confirms that a link exists between the
+traffic volume at the school end and ATS.
+Although the maximum traffic around the school was significant for
+the trip to school, it was not for the journey home. This may relate to
+several differences in the trips themselves. Fewer vehicles were found
+around the school on the trip home from school. Two reasons for why
+this may occur exist. The start of the school day begins to overlap
+the start time of work for many parents, so the morning peak hour
+coincides with the commencement of school. This coincidence of
+starting times means that people driving to work will be adding
+vehicles to the roadway in the morning. Additional vehicles around
+the school in the morning may also relate to the difference in the
+rates of driving for the morning and afternoon trips. A nearly 10%
+increase in the rate of people driving to school over the rate of driv-
+ing from school was found. The difference between the two trips
+does not suggest that traffic is not important on the trip home but,
+rather, that it is more significant in the morning, when traffic volumes
+are higher. It appears from this finding that traffic and other envi-
+ronmental features are less important on the trip home from school,
+when more people are walking. This likely relates to parents’ work
+schedules and their inability to pick up their children after school.
+Although unintended, the lack of synchronicity between school and
+adult paid work at the end of the day may limit the transport options
+available to households. This could produce an overall reduction in
+traffic volumes at the school end and a more temporally fragmented
+arrival of those parents, who drive their children home or elsewhere
+at the end of the school day.
+Fleet mix around the school did not appear to associate with
+mode choice. This lack of an association does not mean that fleet
+mix should be universally ignored with regard to the school travel
+problem. It could affect route choice, and fleet mix around the
+home may influence mode of travel. Moreover, and from an injury
+Transportation Research Record 2327
+perspective, vehicle type and size and vehicle speed are of concern.
+To ensure that methods captured this variable effectively, prelimi-
+nary analysis tested two measures of the vehicle fleet mix. Because
+little work on this topic has been performed to date, it was unknown
+what approach would best capture the conceptualization of vehicle
+mix. The weight-based index was entered into the regression analysis
+because it possesses strong conceptual links with the injury problem;
+it was also a stronger correlate in preliminary analysis. The odds ratio
+from the vehicle fleet index suggested that in neighborhoods where
+passenger vehicles dominated the traffic environment, children were
+more likely to walk, but the finding was not significant. The reasons
+for the null finding could relate to the dominance of passenger vehicles
+in the school traffic environment. In general, it seems that a reduction
+in the number of vehicles may be more important than the vehicle
+fleet, but more research is necessary.
+The availability of a designated place to pick up or drop off chil-
+dren in the morning increased the odds that a child would be driven
+to school. Few studies have examined this feature, but this study
+provides some evidence of a link between parking and increased
+driving. This study examined only designated parking facilities.
+Staff parking lots or nearby streets may act as unofficial drop-off
+or pickup zones. The fact that parking matters demonstrates that
+formal parking facilities do encourage driving. An official drop-off
+zone may relate to what parents perceive to be the most convenient.
+From a policy standpoint, it is unlikely that merely removing these
+designated areas would encourage walking in the short term, as
+many parents would merely park in nearby areas, but more research
+on this topic is also needed.
+Missing sidewalks negatively influenced rates of walking to school.
+Many studies have examined how sidewalks associate with ATS,
+with mixed results being obtained to date (18, 21, 24). These mixed
+findings likely relate to complete sidewalk networks around schools.
+Although most neighborhoods in Toronto have a complete network,
+a few areas do not. Findings from the present study suggest that
+when this feature was missing, the odds of walking decreased. This
+finding directly translates into policy applications related to sidewalk
+development; that is, no new development should take place without
+the construction of a complete sidewalk network. School travel alone
+probably provides an insufficient business case for sidewalk devel-
+opment, and so the broader benefits of the infrastructure require
+communication to influential stakeholders.
+Several features, such as major street crossings, the presence of
+traffic-calming features, and land use mix, were not significant
+factors for mode choice; but they may be associated with the route
+that children travel. People likely avoid features of the environment
+that are less pleasing and plan their routes along quiet streets.
+When the route required children to cross major streets, a higher
+density of traffic-calming devices and mixed land uses were not
+related to the mode of travel. This result should not suggest that
+these features are not important to the environment, nor should
+it suggest that they are unrelated to school travel. These environ-
+mental features did not associate with mode choice for several
+reasons. The purpose of this paper was to examine mode choice
+and not route choice. The insignificance of the presence of major
+street crossings likely relates to the fact that many people did
+not have to cross busy intersections. As indicated in Table 2, the
+median number of major streets crossed was 0, suggesting that many
+routes avoided major intersections.
+Children likely intentionally travel along routes on which they
+do not have to cross many busy streets to make the trip more
+enjoyable. A similar story likely exists for traffic-calming devices.
+
+Larsen, Buliung, and Faulkner
+Traffic-calming features are supposed to slow vehicles, improve
+perceptions of safety, and reduce the frequency of collisions for
+walkers (35), although their effectiveness at reducing pedestrian
+injuries is inconclusive (36). These devices are installed on busier
+streets where it is thought that driver behavior could be modified
+through design interventions that produce a potentially more benign
+traffic environment. Little work on school travel has examined this
+variable, but the null finding may relate to the fact that many chil-
+dren are selecting a route along quieter streets, where speed bumps
+or other traffic-calming devices are not necessary or where the
+earlier installation of these devices has produced a desirable walking
+environment. Similar to the reason why major street crossings were
+irrelevant, these features influence the routes traveled but not the
+mode. Future work should examine how children and parents select
+their routes to and from school to obtain a better understanding of
+how environmental features influence these decisions.
+Characteristics of the social environment were also important.
+Children living in lower-income households were more likely to
+walk home from school than those living in high-income households.
+This finding relates to previous work, as many studies have found
+that children from higher-income households have lower rates of
+ATS (10, 24). Because this characteristic was significant only for the
+trip home from school, a connection between income and the parents’
+work schedules likely exists. Higher-income families may have
+only one parent working or a parent or parents with flexible work
+schedules, a household labor scenario that enables more driving.
+The ability to afford an automobile also typically more readily applies
+to higher-income households, which generally have higher rates of
+automobile ownership and use (37).
+Child and parent perceptions also influenced the mode of travel.
+Initial analysis revealed that most of the questions from the child
+and parent surveys pertaining to safety were not significantly asso-
+ciated with school travel (Table 1). Social fears about strangers
+and older kids, along with perceived traffic, were not statistically
+significant for children. This may relate to how children answered
+or understood the survey, or the questions themselves may also not
+
+have represented children’s concerns. It could also be the case that
+because the risk perceptions of adults ultimately determine mode
+choice, the risk perceptions of children did not directly correlate
+with a mode choice process largely controlled by parents. The only
+
+perceived factor from the child respondents that was statistically
+significant was living in an area where it is safe to walk alone. On the
+basis of findings from the objective variables, sidewalks, traffic, and
+intersections may play a role in enhancing children’s risk perception;
+but more work needs to be done to determine the extent to which this
+
+is the case. Irrespective of design features, feeling safe was important
+for children.
+Heightened parental perception of child pedestrian risk of injury
+or death from strangers or busy street crossings appeared to limit
+
+the odds that the child would walk. It appears from the presence
+of contrasting findings on the objective and subjective assessment
+of environmental risk factors that parents’ ideas about the planned
+and engineered environment differ from professional expectations
+of precisely how the built environment affects school travel. This
+
+kind of asymmetry between the language and concepts of planning or
+engineering and everyday life represents an important opportunity
+for education and outreach that probably requires some additional
+attention in the context of school travel planning and policy.
+
+Beyond previously discussed contributions, this study uniquely
+focused on the reported (mapped) routes traveled rather than a
+modeled network shortest path or aggregated buffers. This focus
+17
+enabled a more fine-grained exploration of the characteristics that
+children and parents might actually experience or perceive to be
+enabling or threatening environmental qualities on the trip to and
+from school. Previous work has determined that safety concerns
+are common reasons why children are driven, but few studies have
+examined the actual characteristics and perceptions of safety.
+This study also collected data on the traffic around the school to
+improve the evidence base about the relationship between different
+qualities of the traffic environment at the school end and school
+travel mode choice. Traffic volume related to mode choice for the
+journey to school, and the null finding for traffic mix suggests that,
+overall, volume is potentially more problematic than vehicle type
+in regards to mode choice. That is not to say that vehicle type is not
+important in the context of pedestrian injury or death. Evidence from
+this study supports the reduction of the numbers of vehicles around
+schools. School-based policies should aim to remove designated
+drop-off zones to reduce the number of vehicles around the school
+and encourage ATS.
+
+
+Acknowledgments
+
+This research was funded by the Heart and Stroke Foundation and
+the Canadian Institutes of Health Research (principal investigators,
+G. E. J. Faulkner and R. N. Buliung), along with the Canadian Insti-
+tutes of Health Research, in partnership with the Public Health
+Agency of Canada (doctoral research award to K. Larsen) and a
+Canadian Institutes of Health Research Training Grant in Popula-
+tion Intervention for Chronic Disease Prevention: A Pan-Canadian
+Program. Special thanks go to everyone who helped with the Built
+Environment and Active Transport project.
+
+
+References
+
+1. Shields, M. Overweight and Obesity Among Children and Youth.
+Statistics Canada: Health Reports, Vol. 17, 2006, pp. 27–42.
+2. Buliung, R. N., R. Mitra, and G. Faulkner. Active School Transporta-
+tion in the Greater Toronto Area, Canada: An Exploration of Trends
+in Space and Time (1986–2006). Preventive Medicine, Vol. 48, 2009,
+pp. 507–512.
+3. McDonald, N. C., A. L. Brown, L. M. Marchetti, and M. S. Pedroso.
+U.S. School Travel, 2009: An Assessment of Trends. American Journal
+of Preventive Medicine, Vol. 41, 2011, pp. 146–151.
+4. Wang, Y. Disparities in Pediatric Obesity in the United States. Advances
+in Nutrition, Vol. 2, 2011, pp. 23–31.
+5. Goran, M. I. Energy Expenditure, Body Composition, and Disease Risk
+in Children and Adolescents. Proceedings of the Nutrition Society, Vol. 56,
+2008, pp. 195–209.
+6. Murtagh, E. M., and M. H. Murphy. Active Travel to School and Physical
+Activity Levels of Irish Primary School Children. Pediatric Exercise
+Science, Vol. 23, 2011, pp. 230–236.
+7. Ewing, R., W. Schroeer, and W. Greene. School Location and Student
+Travel: Analysis of Factors Affecting Mode Choice. In Transportation
+Research Record: Journal of the Transportation Research Board,
+No. 1895, Transportation Research Board of the National Academies,
+Washington, D.C., 2004, pp. 55–63.
+8. McMillan, T. E. The Relative Influence of Urban Form on a Child’s
+Travel Mode to School. Transportation Research Part A, Vol. 41, 2007,
+pp. 69–79.
+9. Larsen, K., J. Gilliland, P. Hess, P. Tucker, J. Irwin, and M. He. The
+Influence of the Physical Environment and Sociodemographic Charac-
+teristics on Children’s Mode of Travel to and from School. American
+Journal of Public Health, Vol. 99, 2009, pp. 520–526.
+10. Mitra, R., R. N. Buliung, and M. J. Roorda. Built Environment and
+School Travel Mode Choice in Toronto, Canada. In Transportation
+Research Record: Journal of the Transportation Research Board,

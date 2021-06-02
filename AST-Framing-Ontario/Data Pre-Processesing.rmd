@@ -136,7 +136,7 @@ to.plain <- function(s) {
 PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
 
 ```{r}
-pdfLocation <- params$Academic_Papers_SinglCol
+pdfLocation <- params$Academic_Papers_DoubCol
 
 # Creates folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){

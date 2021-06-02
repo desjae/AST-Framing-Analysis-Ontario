@@ -1,0 +1,1144 @@
+
+
+Journal of Transport Geography 70 (2018) 265–274
+Contents lists available at ScienceDirect
+Journal of Transport Geography
+journal homepage: www.elsevier.com/locate/jtrangeo
+Promoting active student travel: A longitudinal study                                                                                                             T
+a                         b                           c,<U+204E>              d                            b
+Peng Chen , Junfeng Jiao , Mengyuan Xu , Xu Gao , Chris Bischak
+a
+College of Transportation Engineering, Tongji University, Shanghai, China
+b
+Urban Information Lab, The University of Texas at Austin, Austin, TX, USA
+c
+Key Laboratory of Urban Agriculture in Central China, Huazhong Agricultural University, Wuhan, China
+d
+Department of Statistics, Donald Bren School of Information & Computer Sciences, University of California, Irvine, USA
+A R T I C LE I N FO                                           A B S T R A C T
+Keywords:                                                     This study investigates the e<U+FB00>ects of sidewalk modi<U+FB01>cation and bike lane accommodation on students' active
+Active school travel                                          travel to schools. The modeling framework assumes that a student's choice for the mode of travel to school is
+Walking and biking                                            impacted by numerous factors such as neighborhood crime rates, tra<U+FB03>c safety, built environment amenities, and
+Sidewalk and bike lane                                        socio-demographic factors. A generalized linear model is employed to capture longitudinal changes in the mode
+Generalized linear model
+share of students who walk or bike to school based on data collected from 53 schools in the city of Seattle,
+Seattle
+Washington. The modeling results indicate that (1) enhanced sidewalk modi<U+FB01>cations and bike lane accom-
+modations encourage students walking and biking to school; (2) the implementation of Seattle's student as-
+signment plan helps promote students walking to school possibly due to the change from school choice to
+neighborhood-based school assignment; (3) the size of the school attendance area is not signi<U+FB01>cantly correlated
+with students' active travel activities, while the size of school enrollment is negatively associated with walking
+(4) in school areas with high employment density, biking to school may be a more attractive option for students;
+(5) greater crosswalk density may encourage more students to walk to school; (6) the density of bike crashes is
+negatively associated with students biking to school. In terms of policy implications, transport planners should
+continually promote walking and biking supportive environments and implement policies to encourage active
+student travel.
+1. Introduction                                                                                   enforcement. Engineering interventions are infrastructure improvement
+projects that enhance the travel environment that students use to walk
+Existing research suggests that physical activity of all kinds plays an                      and bike to school. These improvements might include sidewalk im-
+important role in promoting the health of school-age children (Pate                               provement, tra<U+FB03>c calming, street crossings, and bike facilities. The
+et al., 2006). Conversely, a lack of physical exercise may increase the                           engineering approach is the focus of this study. Non-infrastructure in-
+risk of chronic diseases, especially obesity-related diseases (Popkin                             terventions include education, encouragement, and enforcement pro-
+et al., 2006), and may increase the likelihood of diabetes and cardio-                            grams, such as students' active commuting skill promotion, public
+vascular diseases later in life (Goran et al., 2003). The United States                           awareness campaigns of active commuting bene<U+FB01>ts, increased police
+(US) Department of Health and Human Services recommends that                                      presence to enforce speed limits in the vicinity of schools (McDonald
+children engage in at least 60 min of physical activity each day (The                             et al., 2014a).
+U.S. Department of Health and Human Services, H, 2008). Walking or                                     To date, SRTS have already played an important role in promoting
+biking to school is an easy way to engage in physical activity and may                            active student travel. From 2005 to 2012, the US Congress created
+promote better focus in the classrooms (Singh et al., 2012).                                      federal SRTS programs to implement necessary improvements to pro-
+The Safe Routes to School (SRTS) program is a national initiative                            mote active school travel (AST). By June 2012, the US Congress passed
+that aims to encourage school-age children to walk or bike to school by                           a bill called MAP-21, which combine SRTS programs with local bicycle/
+making walking and biking safer and more appealing (Safe routes to                                pedestrian master planning actives, namely Transportation Alternatives
+school national partnership, 2016). As part of SRTS programs, com-                                Programs (TAP) (Safe routes to school national partnership, 2016). This
+munity stakeholders facilitate both infrastructure projects and non-in-                           act avoids repeated investment between SRTS programs and bicycle/
+frastructure related projects. Interventions are usually categorized as                           pedestrian master plans. In December 2015, the US Congress passed
+one of the 4Es: engineering, education, encouragement, and                                        another bill called Fixing America's Surface Transportation Act (FAST),
+<U+204E>
+Corresponding author at: 1 Shizishan Road, Huazhong Agricultural University, Wuhan, China.
+E-mail address: mxu@mail.hzau.edu.cn (M. Xu).
+https://doi.org/10.1016/j.jtrangeo.2018.06.015
+Received 12 June 2017; Received in revised form 25 May 2018; Accepted 15 June 2018
+Available online 05 July 2018
+0966-6923/ © 2018 Published by Elsevier Ltd.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P. Chen et al.
+which preserves SRTS programs' funding for the next <U+FB01>ve years (Safe
+routes to school national partnership, 2016). This act further highlights
+the importance of SRTS programs. Understanding the e<U+FB00>ect of com-
+pleted SRTS projects on AST is therefore essential for policymakers to
+e<U+FB00>ectively lead future programs.
+However, SRTS programs have not been entirely successful. Parents
+often still drive their children to school due to concerns about trans-
+portation safety (Evers et al., 2014; Oluyomi et al., 2014; Seraj et al.,
+2012). In addition, walking to school is not attractive for many students
+because schools are located far from student homes and a distance > 1
+mile discourages walking for most school children (Beck and Nguyen,
+2017; Coughenour et al., 2017; Deka, 2013; Gropp et al., 2012;
+Hatamzadeh et al., 2016; Lee et al., 2013; McDonald, 2008a; Müller
+et al., 2008; Rodríguez-López et al., 2017; Schlossberg et al., 2006).
+Moreover, the probability of walking or biking to school is much
+greater if the average travel time is < 15 min (Larouche et al., 2014)
+which is often not the case for students.
+In terms of research that examines AST and SRTS programs directly,
+there are two major lines of research examining school travel. Many
+recently published studies focus on individual or household factors,
+such as parental preferences, the age and/or grade and the gender of
+school children, and the di<U+FB03>culty of walking and biking (Ahern et al.,
+2017; Gropp et al., 2012; Lang et al., 2011; Mammen et al., 2014;
+Mehdizadeh et al., 2017; Trapp et al., 2011), and many have employed
+interview or attitudinal survey for data collection (Ahern et al., 2017;
+Benson and Scriven, 2012; Mammen et al., 2012; McDonald et al.,
+2011; Seraj et al., 2012; Spinney and Millward, 2011). The other set of
+studies focuses on location-based factors, and largely rely on discrete
+choice models to examine contributing factors (Ermagun et al., 2015;
+Kamargianni and Polydoropoulou, 2013; Sidharthan et al., 2011). Ad-
+ditionally, most of these studies are cross-sectional, therefore very few
+studies have examined SRTS/AST in the terms of built environment
+interventions over prolonged periods of time (Gallimore et al., 2011).
+However, a few studies have suggested a positive relationship between
+implementation of SRTS programs and student AST (Atteberry et al.,
+2016; Buckley et al., 2013; Hoelscher et al., 2016; McDonald et al.,
+2013; Mitra and Buliung, 2014; Stewart et al., 2014), but overall robust
+evaluations of SRTS programs remain limited (Boarnet et al., 2005b;
+Cradock et al., 2012; Dumbaugh and Frank, 2007; McDonald et al.,
+2014b; Ragland et al., 2014).
+This study contributes to the SRTS/AST literature in the following
+ways. First, it is a longitudinal study based on twelve-years of student
+travel records, which helps evaluate whether pedestrian and bicycle
+master plans have successfully promoted AST. Second, this study ex-
+plores the e<U+FB00>ect of various features on student mode choice. This study
+begins with a literature review, followed by the research design and
+methodological details, then presents the results, and ends with dis-
+cussion and conclusions. Findings from this study will assist policy-
+makers future pedestrian/bicycle master plans, provide urban planners
+with e<U+FB00>ective ways to gradually alter the built environments, and
+promote a better environment that meets children's AST needs.
+
+2. Literature review
+
+2.1. Modeling frameworks
+
+In response to various negative impacts of automobile-oriented
+development, researchers have produced a large amount of studies
+identifying determinants of travel mode choices: some of which concern
+the promotion of AST and SRTS programs for children. These studies
+analyze a wide variety of factors, including social, cultural, individual/
+household, and physical environmental elements. Several frameworks
+have been proposed to explain decision making in terms of travel mode.
+For instance, McMillan proposed a <U+FB01>ve-level model for the decision-
+making process of primary school students' AST, where urban form is
+identi<U+FB01>ed as the key in parental perceptions of the relevant
+
+Journal of Transport Geography 70 (2018) 265–274
+environment (McMillan, 2007). Building on McMillan's work, Panter
+et al. expanded on the analysis by including location-based neighbor-
+hood characteristics such as origins, destinations, and routes (Panter
+et al., 2008). Stewart et al. (2012) synthesize previous <U+FB01>ndings on AST
+and propose a conceptual framework consisting of eight groups of
+factors related to school children walking or bicycling to school, in-
+cluding distance to school, parental fear of tra<U+FB03>c and crime, schedule
+constraints, value, weather, school characteristics, resources, and cul-
+ture. Mitra (2013) reviewes related literature and proposes a frame-
+work of multiple levels of in<U+FB02>uence on mode choice for school trans-
+portation, including urban environment, household, characteristics of a
+child/youth, and other external factors. However, most studies do
+adopt a simpli<U+FB01>ed framework by jointly focusing on individual/
+household and environmental factors (Atteberry et al., 2016).
+
+2.2. Quantifying the built environment at di<U+FB00>erent scales
+
+Previous studies have examined the impact of built environments on
+school travel at di<U+FB00>erent scales. Most previous research explores the
+relationship at the site-level, referring to areas nearby school or homes,
+but some studies have been implemented at the area-level, such as
+census tracts (Ewing et al., 2004; McDonald, 2008b) and tra<U+FB03>c analysis
+zones (TAZs) (Mitra and Buliung, 2014); while several other studies are
+conducted as a corridor-level analysis, where the analysis unit is de-
+<U+FB01>ned as the area along a home-to-school path. Among site-level studies,
+the bu<U+FB00>er size quantifying the built environment varies, but the most
+commonly used bu<U+FB00>er distances range from 250 m to 1000 m, based on
+the concept of normal walking distance. However, the appropriate
+analytical unit or units may depend on the target population or en-
+vironment and may require empirical evaluation (Brownson et al.,
+2009).
+
+2.3. Built environment factors associated with active school travel
+
+Many studies have examined the e<U+FB00>ects of built environment factors
+on AST. While the results have some noticeable inconsistencies; several
+factors are commonly identi<U+FB01>ed as key to explaining student preference
+for walking and bicycling. Distance to school is the most important
+factor in determining walking or bicycling among students. Even for
+students who live within a walkable or bike-able distance to school,
+distance acts as a strong determinant, in<U+FB02>uencing the likelihood of
+walking and biking (Stewart et al., 2012).The e<U+FB00>ect of density on school
+children AST has also been repeatedly examined. Many studies have
+suggested that either household density or population density is posi-
+tively associated with AST (Broberg and Sarjala, 2015; Deka, 2013;
+Frank et al., 2007; Kerr et al., 2006; Kweon et al., 2006; McDonald,
+2007, 2008b; Mitra et al., 2010). For example, Frank et al. collects AST
+choice data using a two-day travel diary of 3161 students and <U+FB01>nds that
+the odds of walking are 3.7 times greater for students living in high-
+density neighborhoods comparing with those living in low-density ones
+(Frank et al., 2007). While some other studies (Bringolf-Isler et al.,
+2008; Ewing et al., 2004) suggest that household density is unrelated to
+student AST.
+Existing studies show con<U+FB02>icting evidence in regard to the e<U+FB00>ect of
+mixed land use on student AST. Some studies <U+FB01>nd that students living in
+neighborhoods with high degrees of land use mixture are more likely to
+walk or bike to school (Broberg and Sarjala, 2015; Hatamzadeh et al.,
+2016; Lin and Chang, 2010). A few other studies suggest that only the
+land use mixture near schools is positively correlated with AST choices,
+while land use mixture near homes shows no signi<U+FB01>cant e<U+FB00>ect (Larsen
+et al., 2009; McMillan, 2007). Still, other studies suggest there is no
+signi<U+FB01>cant relationship between land use mixture either at home or
+school and student AST (Kerr et al., 2006; Mitra and Buliung, 2014).
+Good street-connectivity contributes to the directness of routes as
+well as the ease of path-<U+FB01>nding, hence encouraging walking and bicy-
+cling. Di<U+FB00>erent methods have been applied to measure street-
+266
+
+P. Chen et al.
+Fig. 1. Survey response frequency (=3) of
+connectivity, including street dead-end density (Kweon et al., 2006;
+Schlossberg et al., 2006), intersection density (Broberg and Sarjala,
+2015; Kerr et al., 2006; Kweon et al., 2006; Mitra et al., 2010; Mota
+et al., 2007; Schlossberg et al., 2006), average block size (Lin and
+Chang, 2010; McDonald, 2007), length of street segments (Bringolf-
+Isler et al., 2008; Yarlagadda and Srinivasan, 2008), and street cen-
+terline density (Ewing et al., 2004). Findings from these studies are also
+con<U+FB02>icting. Some report that AST is positively correlated with inter-
+section density (Kerr et al., 2006; Mitra et al., 2010; Mota et al., 2007;
+Schlossberg et al., 2006) and negatively correlated with street dead-end
+density (Kweon et al., 2006; Schlossberg et al., 2006), while the others
+show no evidence of signi<U+FB01>cant association (Ewing et al., 2004).
+Finally, a few studies have examined the e<U+FB00>ect of non-motorized
+road infrastructures on student AST mode choice. The sidewalk
+
+Journal of Transport Geography 70 (2018) 265–274
+Seattle's 53 selected public schools, 2005–2016.
+coverage of a neighborhood (Ewing et al., 2004) and sidewalk mod-
+i<U+FB01>cations (Boarnet et al., 2005a) are positively associated with student
+AST, while the e<U+FB00>ect of bike infrastructure appeared to be insigni<U+FB01>cant.
+A study conducted in California suggests that the total length of bike
+lanes within a 400-m bu<U+FB00>er near homes is not signi<U+FB01>cantly associated
+with a di<U+FB00>erence in AST (Yarlagadda and Srinivasan, 2008). Similarly,
+another study assesses <U+FB01>ve state SRTS programs and <U+FB01>nds that bike
+infrastructure improvement has no statistically signi<U+FB01>cant e<U+FB00>ect on
+increasing the rate of biking to school (Stewart et al., 2012). Another
+study indicates that route conditions (including the presence of steep
+hills, speed and tra<U+FB03>c, and insu<U+FB03>cient daylight in the morning, etc.)
+have an e<U+FB00>ect on mode choice (Chillón et al., 2014). Lastly, an addi-
+tional study looks at similar variables related to the comfort and at-
+tractiveness of the travel route, such as the presence of parks and
+267
+
+P. Chen et al.
+Table 1
+Seattle's sidewalk and bike lane annual changes in total and near schools.
+Year    Sidewalk modi<U+FB01>cation in mile & Sidewalk modi<U+FB01>cation near schools in mile
+percentage
+¼-mile            ½-mile        1-mile
+2005    0.00            0.00%          0.00              0.00          0.00
+2007    0.00            0.00%          0.00              0.00          0.00
+2008    1.72            0.05%          0.00              0.92          1.72
+2009    8.45            0.27%          2.67              5.43          7.66
+2010    466.07          14.8%          82.88             260.32        421.46
+2011    89.11           2.83%          15.00             46.86         80.68
+2012    32.78           1.04%          7.93              21.11         29.49
+2013    28.28           0.90%          3.89              16.68         25.29
+2014    5.58            0.18%          0.30              1.47          5.06
+2015    35.76           1.14%          4.54              17.48         33.56
+2016    230.63          7.33%          33.12             129.12        221.54
+2017    142.30          4.52%          34.47             101.66        139.21
+Source: Seattle's ‘pedestrian master plan’ and ‘bicycle master plan’.
+sidewalk maintenance, and again <U+FB01>nds that the overall quality of
+walking and biking environments helps promote AST (Larsen et al.,
+2012; Lee et al., 2013).
+
+2.4. Tra<U+FB03>c safety and environment security correlated with active school
+travel
+
+Tra<U+FB03>c calming strategies promote AST, and this positive e<U+FB00>ect has
+been continually con<U+FB01>rmed by many studies (Larouche et al., 2014).
+Tra<U+FB03>c calming improvements include the installment of tra<U+FB03>c signals,
+stop signs, speed bumps, and tra<U+FB03>c circles, the improvement of cross-
+walks, and the isolation of pedestrian/bicycle tra<U+FB03>c from road tra<U+FB03>c
+(Boarnet et al., 2005b; Dumbaugh and Frank, 2007). A high crime rate
+discourages students walking and biking to school (Deka, 2013;
+Larouche et al., 2014; Loukaitou-Sideris, 2006). Fear of strangers is a
+key deterrent discouraging walking to school (Schlossberg et al., 2006).
+
+
+3. Research design
+
+
+3.1. Research objective
+
+
+Though AST mode choices have been examined, existing studies
+
+rarely investigate the longer-term e<U+FB00>ect of implementing pedestrian/
+
+bicycle plans. Some e<U+FB00>ects resulting from non-motorized infrastructure
+
+changes may not be observed in the short term, and previous cross-
+
+sectional studies using short-term observations may have biases in
+
+terms of understanding the intervention of pedestrian/bicycle plans.
+
+Therefore, this study initiates a longitudinal analysis to evaluate the
+
+in<U+FB02>uence of pedestrian and bicycle master plans. The objective of this
+
+study is to identify factors associated with changes in walking and
+
+biking mode share among school-age children.
+
+
+3.2. Study area and data source
+
+Washington's SRTS program was initiated in 2005. Since then, the
+Washington Department of Transportation has awarded almost $71
+million to fund SRTS projects for 271 schools (Washington State
+Department of Transportation, 2017). Preliminary results suggest a
+40% increase in student pedestrians and bicyclists (National Center for
+Safe Routes to School, 2017). The city of Seattle also works to promote
+AST over and above WSDOT e<U+FB00>orts. As an example, the Seattle De-
+partment of Transportation (SDOT) completed 18 SRTS engineering
+projects at priority schools in 2015 (Seattle Department of
+
+Transportation, 2016). In addition to SRTS programs, Seattle has im-
+
+plemented a pedestrian master plan (PMP) and a bicycle master plan
+(BMP) to encourage walking and biking. SRTS programs have been
+
+integrated into the PMP and BMP implementation schedules.
+
+Journal of Transport Geography 70 (2018) 265–274
+
+
+Bike lane accommodation in mile &      Bike lane accommodation near schools in mile
+percentage
+¼-mile          ½-mile        1-mile
+0.00               0.00%               0.00            0.00          0.00
+24.11              5.81%               5.34            15.63         23.99
+31.10              7.09%               3.46            12.38         28.20
+29.71              6.32%               5.02            18.62         27.43
+19.79              3.96%               2.74            11.13         19.28
+14.39              2.77%               2.15            7.67          12.96
+17.56              3.29%               5.17            14.40         24.70
+0.00               0.00%               0.00            0.00          0.00
+4.71               0.85%               0.44            2.19          4.71
+12.52              2.25%               4.16            11.10         12.52
+6.80               1.20%               1.48            3.74          6.57
+8.82               1.53%               1.25            6.57          8.71
+
+In this study, the AST data was obtained from a twelve-year student
+travel survey, where students were asked their primary transportation
+mode for home-to-school travel, collected by the Seattle Department of
+Education and Early Learning (SDEEL) and SDOT. Samples were ran-
+domly drawn from public school children. To date, the data covers
+twelve years, including 2005, 2007, 2008, 2011, 2013, 2014, 2015, and
+2016. However, not all schools continually participated in the survey.
+In total, 75 schools participated, but only 57 of them have responded
+more than three times, and only 53 of them have other student-related
+information documented and available, such as enrollment, race, and
+gender, as shown in Fig. 1. To estimate the longitudinal e<U+FB00>ects, only
+schools with at least three observed moments and with student-related
+information, are included in the <U+FB01>nal models.
+The data used in this analysis was only collected from public
+schools. Furthermore, schools are divided into elementary schools,
+middle schools, high schools, alternative schools (which includes
+schools for special needs students, such as disabled children), and ser-
+vice schools (schools that meet speci<U+FB01>c demands, such as college pre-
+
+paration and personalized interests). The data used in this study was
+collected from elementary schools (K-5) or elementary and middle
+
+school (K-8) students.
+This study considers a large set of variables, including land use, road
+
+network, street elements, tra<U+FB03>c safety, crime rates, and socio-demo-
+
+graphic factors. Since the analytical unit is the school, this study cannot
+
+adjust for individual, household, home-based, or path-based char-
+
+acteristics associated with AST. Built environment variables, including
+
+land use, road network, and street elements, are collected by the Puget
+
+Sound Regional Council (PSRC) and SDOT. Historical crime and colli-
+
+sion data are collected by Seattle Police Department. The socio-demo-
+
+graphic data are based on the State of Washington's OSPI O<U+FB03>ce of
+
+Superintendent of Public Instruction (WS OSPI) and American
+
+Community Survey data (ACS).
+While built environment and socio-demographic factors around each
+school are continually changing, such changes are usually small. Therefore,
+most changes are well controlled across time. However, because of Seattle's
+ambitious implementation of the pedestrian master plan and bicycle master
+plan over the years, noticeable changes have been occurring to sidewalks
+and bike lanes since 2007. Table 1 presents the annual changes in terms of
+sidewalk modi<U+FB01>cation1 and bike lane accommodation2 in Seattle.
+In terms of crimes, threats and assaults that may occur along student
+routes to school are of great parental concern. However, this study only
+
+
+1
+Sidewalk modi<U+FB01>cation refers to improvements made on streets for walking, such as
+
+providing su<U+FB03>cient right-of-way, connecting to the existing sidewalk network, removing
+topographic limitations, promoting pedestrian safety, and replacing pavement.
+2
+Bike lane accommodation refers to improvements made on streets for biking, such as
+adding cycle tracks, separated/bu<U+FB00>ered bike lanes, and markings for bicycle boulevards.
+268
+
+P. Chen et al.
+Table 2
+Mean of crimes and crashes near school over years.
+Year             Pedestrian crashes                                      Bike crashes
+¼-mile             ½-mile            1-mile             ¼-mile
+2005             152.87             192.36            201.91             392.36
+2007             244.59             252.23            251.59             264.97
+2008             219.11             275.16            264.01             305.73
+2011             259.87             258.60            250.96             259.87
+2013             208.92             275.16            278.66             224.20
+2014             270.06             276.43            283.76             371.97
+2015             280.25             345.22            334.08             336.31
+2016             300.64             305.73            296.82             346.50
+Pedestrian crashes: the number of historical pedestrian crashes per year per area, in cou
+Bike crashes: the number of historical bike crashes per year per area, in counts per sq.
+Threats: the number of historical threats per year per area, in 103 per sq. mile.
+Table 3
+Mean of student-related time varying variables: race, gender, enrollment, and free meals.
+Year        White student      Black student      Asian student      Latino student
+2005        45.24%             19.40%             20.84%             12.55%
+2007        46.80%             17.58%             20.83%             12.99%
+2008        47.38%             17.46%             20.55%             12.79%
+2011        46.05%             16.05%             16.17%             13.41%
+2013        45.64%             15.87%             15.02%             13.52%
+2014        45.88%             15.62%             14.37%             13.29%
+2015        45.86%             15.53%             13.74%             13.25%
+2016        43.77%             15.20%             13.31%             13.35%
+controls for threats and excludes assaults due to multicollinearity is-
+sues. To account for tra<U+FB03>c safety, historical crash data has been em-
+ployed to calculate pedestrian and bicycle crash frequency per area.
+Both crashes and crimes are measured as time-varying variables, as
+shown in Table 2.
+Many street element variables were initially considered but ex-
+cluded because of multicollinearity, such as tra<U+FB03>c circle count, stop
+sign count, road signal count, and the presence of cameras, because
+they are mostly installed at intersections. As a convention, density,
+diversity (i.e. land use mixture), and design (i.e. intersection/crosswalk
+density) of the built environment are also included. The percentage of
+steep areas (slope > 40%), the density of street trees, and the percen-
+tage of recreational areas, are further included. Finally, as discussed,
+children living in larger neighborhoods are less likely to walk or bike to
+school due to the increment of travel distance and thus the attendance
+area of each school is included.
+To adjust for socio-demographic factors, data obtained from WS
+OSPI are major inputs into the <U+FB01>nal models. Variables obtained from
+
+WS OSPI are coded as time-varying variables, as shown in Table 3,
+including the percentage of students of di<U+FB00>erent races, the percentage
+of male students, the enrollment of each school, and the percentage of
+students having access to free or reduced-price lunch. Because of mul-
+ticollinearity, only the percentages of white and black students, the
+percentage of male students, and annual enrollment are included. To
+attempt to account for income, the percentage of poverty households3 is
+obtained from American Community Survey data (5-year).
+
+
+3.3. Generalized linear model
+
+
+This study <U+FB01>ts a generalized linear model (GLM) to capture the long-
+
+itudinal changes in the mode share of walking and biking to school.
+
+
+3
+Poverty (US Census): People who live in households with low income are in poverty.
+“Income thresholds by the o<U+FB03>cial poverty measure are established by tripling the in<U+FB02>a-
+
+tion-adjusted cost of a minimum food diet in 1963 and adjusting for family size, com-
+position and the age of the householder.”
+2
+Journal of Transport Geography 70 (2018) 265–274
+
+
+Threats
+½-mile            1-mile            ¼-mile              ½-mile             1-mile
+356.69            355.73            20.45               20.00              18.43
+337.58            346.18            19.26               23.24              21.40
+294.27            316.88            21.18               20.23              18.53
+304.46            298.09            19.06               21.11              19.13
+310.83            306.69            21.77               25.06              22.76
+349.04            346.18            20.71               22.70              21.26
+328.66            358.60            17.60               22.05              21.10
+370.70            372.61            23.89               34.30              32.16
+nts per sq. mile.
+mile.
+
+
+
+Indian student       Male student     Enrollment         Free or reduced-price meals
+1.96%                51.33%           351.11             41.88%
+1.80%                51.54%           366.56             40.68%
+1.76%                51.73%           377.15             41.33%
+0.84%                51.20%           398.61             42.59%
+0.59%                50.86%           403.93             43.03%
+0.55%                50.46%           404.03             42.07%
+0.45%                50.56%           403.28             40.76%
+0.41%                50.39%           406.17             39.74%
+Statistical analysis is implemented with a R package called ‘blme’. The GLM
+is expressed by Equations (Eqs.) (1) to (4). A conditional expectation
+function model can predict changes in the mode share of walking or biking
+at school i and occasion t. The school survey in total has 8 occasions from
+2005 to 2016. This GLM has subject-speci<U+FB01>c intercepts and slopes, which
+allows the walking and biking rate at each school to vary by the initial mode
+share and the rate of change over time. Eq. (1) represents the level-1 model,
+which follows the traditional linear model speci<U+FB01>cation. The level-2 model
+estimates the <U+FB01>xed e<U+FB00>ects and the random e<U+FB00>ects that depart from group-
+speci<U+FB01>c changes with subject-speci<U+FB01>c intercepts and slopes that are esti-
+mated from the level-1 model, as shown in Eqs. (2) and (3). The composite
+model is speci<U+FB01>ed by Eq. (4).
+Yit = ß0i + ß1i Timeit + eit                                                      (1)
+
+ß0i = ß00 + ß0i Xit + <U+03B6> 0i                                                        (2)
+
+ß1i = ß10 + ß1i Xit + <U+03B6>1i                                                         (3)
+
+Yit = ß00 + ß0i Xit + ß10 Timeit + ß1i Xit Timeit + <U+03B6> 0i + <U+03B6>1i Timeit + eit       (4)
+
+where ß0i and ß1i are the estimated parameters that vary across schools i; µit
+is the mean of walking and biking mode share at the 53 schools over the 8
+occasions t; ß00 is the overall intercept; Timeit is a level-1 time variable, with
+the <U+FB01>xed e<U+FB00>ect parameters ß1i. Xi refers to the <U+FB01>xed e<U+FB00>ects; Xi*Timeit is the
+cross-level product for time changes that interact with the <U+FB01>xed e<U+FB00>ect
+parameters ß1i. The composite error is made of <U+03B6>0i + <U+03B6>1iTimeit + eit, where <U+03B6>0i
+and <U+03B6>1i are random e<U+FB00>ects of each subject that depart from group-averaged
+intercept and slope, and eit is the error term. In this study, only time-varying
+variables, cumulative sidewalk modi<U+FB01>cation or bike lane accommodation,
+
+threats, and crashes, are included for modeling the cross-level interaction
+e<U+FB00>ects.
+
+This study estimates elasticity of signi<U+FB01>cant variables. Direct elas-
+
+ticity and arc elasticity formulas for continuous and discrete variables
+for the generalized linear models are as follows (Ewing and Cervero,
+
+2010; Train, 2003):
+
+X
+EDirect = ß <U+F02A>
+Y                                                                   (5)
+69
+
+P. Chen et al.                                                                                                        Journal of Transport Geography 70 (2018)
+Fig. 2. Proportions of student walking and biking to school in Seattle, Washington, 2005–2016.
+PX=1 - PX=0                                                                the percentage of adults walking to workplaces (6.82%), while the
+EArc =
+PX=1 + PX=0                                                       (6)      mode share of students biking to school is like the level of adult com-
+muting by bikes.
+This study considers three bu<U+FB00>er sizes to quantify the built en-
+4. Results
+vironment near schools which are 0.25-mile, 0.5-mile, and 1-mile
+bu<U+FB00>ers. As shown in Table 4, the values of some built environment such
+4.1. Descriptive analysis
+as the density of sidewalk modi<U+FB01>cation and bike lane accommodation,
+intersection/crosswalk density, street tree density, and school bus stop
+91.39% of surveyed schools were either elementary (K-5) schools or
+density decrease from the 0.25-mile bu<U+FB00>er to the 1-mile bu<U+FB00>er. This
+elementary and middle (K-8) schools. As shown in Fig. 2, the mode
+indicates non-motorized infrastructures are generally better provided
+share of student walking and biking to school generally increases over
+near schools. Finally, the values of some density measures increase with
+time. The mean number of students walking to school increased from
+a change of bu<U+FB00>er sizes, such as the percentage of recreational land and
+15.01% in 2005 to 18.82% in 2016, and the mean of students biking to
+land use mixture.
+school increased from 1.33% in 2005 to 2.49% in 2016. The average
+percentage of students walking to school (16.39%) is much higher than
+Built                 ¼-mile           ½-mile          1-mile          Description                                                                 Source Yea
+environment
+variables             Mean S.D.        Mean S.D.       Mean S.D.
+Sidewalk              4.17    9.26     3.96    7.07    3.45    5.32    The annual sidewalk modi<U+FB01>cation since 2005, in mile per sq. mile SDOT
+increment
+Bike lane             6.15    3.69     5.51    2.95    4.91    2.57    The accumulative bike lane accommodations since 2005, in mile SDOT
+accommoda-                                                         per sq. mile
+tion
+Number of school      43.80 30.93 14.78 8.66           10.88 5.90      The number of school bus stops, in counts per sq. mile                      SDOT
+bus stops
+Number of street      1.73    1.23     1.61    0.96    1.40    0.73    The number of street trees, in 103 per sq. mile                             SDOT
+trees
+Number of             66.49 36.75 50.83 33.60 48.40 35.14 The number of marked crosswalks, in counts/sq. mile                                      SDOT
+crosswalks
+Number of             0.22    0.07     0.20    0.06    0.17    0.05    The number of intersections, in 103 per sq. mile                            SDOT
+intersections
+Percent of steep      10.34 11.05 6.36         4.63    6.01    2.88    The percent of steep areas, in % (0–100)                                    SDOT
+areasa
+Recreational land     0.02    0.02     0.08    0.07    0.37    0.23    The proportion of recreational land use near school (0–1)                   PSRC
+use
+Land use mixture      0.40    0.13     0.44    0.13    0.49    0.12    The entropy of four types of land use, including residential,               PSRC
+commercial, recreation, and o<U+FB03>ces (0–1)
+SDOT: Seattle Department of Transportation.
+PSRC: Puget Sound Regional Council.
+a
+Seattle's Design & Planning Department designates slopes greater than or equal to 40% are counted as steep areas.
+270
+265–274
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r
+
+
+2017
+
+2017
+
+
+2016
+
+2016
+
+2016
+
+2016
+
+2016
+
+2010
+
+2010
+
+
+
+
+
+
+
+P. Chen et al.                                                                                                                      Journal of Transport Geography 70 (2018) 265–
+Table 4
+Data summary and variable description.
+Variables                Mean    S.D.   Min.   Max.    Description                                                             Source                      Year
+Walking to school        16.39   7.34   1.49   42.12   The percentage of walking mode share among school children, in % SDEEL                              2016
+(0-100)
+Biking to school         2.79    3.90   0.00 25.50 The percentage of biking mode share among school children, in % SDEEL                                   2016
+(0–100)
+Year                     6.39    3.75   1.00 12.00 The survey has implemented in 2005, 2007, 2008, 2011, 2013, 2014, 2015 and 2016, coded for 1, 3, 4, 7, 9, 10, 11, 12.
+Student assignment plan  0.51    -      0.00 1.00      Seattle Public Schools Board of Directors approved a Student Assignment Plan in 2009, which changed school assignment
+policy from a school choice to a neighborhood-based one as of 2010. The policy states: “unless the school designated by
+student's home address does not have the appropriate services, the student shall be assigned to a school that has the
+appropriate services.” This policy potentially contributes to travel distance reduction of school trips.
+School type              0.09    -      0.00 1.00      If it is an elementary (K-5) 0; else elementary-middle school (K-8), SDEEL                          2016
+1
+Commute by walking       0.06    0.08   0.00 0.33      The proportion of employers walking to workplace (0–1)                  ACS                         2015
+Commute by biking        0.03    0.03   0.00 0.15      The proportion of employers biking to workplace (0–1)                   ACS                         2015
+Poverty proportion       0.13    0.11   0.00 0.59      The proportion of poverty households in the census block group          ACS                         2015
+(0–1)
+Attendance area          1.48    0.69   0.40 3.54      The attendance area of each school, in sq. mile                         SDEEL                       2014
+Household density        3.73    2.30   0.34 12.99 The number of households in the census block group, in 103 per sq. PSRC                                 2015
+mile
+Employment density       4.75    3.77   0.81 18.57 The number of jobs in the census block group, in 103 per sq. mile PSRC                                  2015
+SDEEL: Seattle Department of Education and Early Learning
+PSRC: Puget Sound Regional Council
+ACS: American Community Survey
+4.2. Inferential analysis                                                                     density, students are less likely to bike. The density of historical bike
+collision has a negative e<U+FB00>ect on student biking to school, and such an
+As shown in Table 5, the modeling outcomes of the three models for                        e<U+FB00>ect is only marginally signi<U+FB01>cant when the bu<U+FB00>er increases to 1-mile
+student walking are broadly consistent. Even though the percentage of                         distance. In terms of race, the percentage of white students is positively
+students walking to school is negatively associated with annual side-                         associated with an increased mode share of students biking to school.
+walk modi<U+FB01>cation, it is positively correlated with accumulation of                            As for gender, the greater percentage of male students the greater the
+sidewalk modi<U+FB01>cations over the years. This indicates that despite the                         mode share of students biking to school. Finally, the ICC values of the
+fact that the amount invested in sidewalk improvement declined over                           bike models are 32% to 33%, which suggest that temporal auto-
+the years, it creates a strong accumulative e<U+FB00>ect in terms of promoting                       correlations over years do not create strong e<U+FB00>ects on various <U+FB01>xed
+students walking to school. This re<U+FB02>ects the joint e<U+FB00>ect of SRTS pro-                         e<U+FB00>ects.
+grams and pedestrian master plans on student access to school by                                  Regarding calculated elasticities, a 1% increment in bike lane ac-
+walking. In addition, the policy interventions that occurred during the                       commodation is associated with a 0.38–0.44% increment of students
+research period, noted by the student assignment plan, show a sig-                            biking to school. However, the e<U+FB00>ect of the student assignment plan on
+ni<U+FB01>cant positive relationship with the percentage of students walking to                      students biking to school is not signi<U+FB01>cant.
+school. Another interesting <U+FB01>nding is that the annual enrollment of
+students is negatively correlated with the percentage of students                             5. Discussion
+walking to school. In addition, K-5 school students are more likely to
+walk to school as compared to students from K-8 schools. A greater                                As the above models show, crime, tra<U+FB03>c safety, built environments,
+crosswalk density is associated with a greater percentage of students                         and socio-demographics jointly impact student walking and biking to
+walking to school within ¼ mile from the school. Pedestrian crashes are                       school. Non-motorized infrastructure-related factors and the policy
+less likely to happen near schools. The values of intra-class correlation                     variable are key focuses in this study. Over multiple years, both accu-
+(ICC) for the three models range from 29% to 32%. This indicates that                         mulative sidewalk modi<U+FB01>cation and bike lane accommodation present
+temporal autocorrelations across multiple-year data are not large in this                     positive e<U+FB00>ects in terms of promoting student AST. Such results con<U+FB01>rm
+study.                                                                                        that the e<U+FB00>orts to improve AST are e<U+FB00>ective. In addition, densifying
+None of the estimated elasticities are great than 1.0, indicating that                    crosswalks create positive e<U+FB00>ects on students walking to school.
+the e<U+FB00>ect of abovementioned strategies alone that contribute to the                           Seattle's school assignment plan circa 2009, seems to create a strongly
+growth of students walking to school is minor. However, the joint e<U+FB00>ect                       positive e<U+FB00>ect in terms of encouraging student walking to school. In
+of various strategies cannot be ignored. It is worth noting that a 1%                         sum, the joint e<U+FB00>ort of SRTS program, bicycle/pedestrian master plans,
+increase in sidewalks over time is associated with a 0.10–0.20% in-                           and Seattle's school assignment plan highly conducive in promoting
+crease in the share of students walking to school. The implementation                         students walking to school.
+of the student assignment plan is associated with a 0.1% increment of                             This study also investigated several other time-varying variables,
+students walking to school. Additionally, a 1% increase in crosswalk                          including crimes rates and crashes per year per unit area, and demo-
+density is associated with a 0.18–0.27% increase in students walking to                       graphic-related variables, such as enrollment and gender. The <U+FB01>rst
+school. Comparatively speaking, modifying sidewalks and densifying                            hypothesis was that security and safety concerns may discourage stu-
+crosswalks seems like the most e<U+FB03>cient means of encouraging students                          dents from walking or biking to school. However, the e<U+FB00>ects of his-
+to walking to school.                                                                         torical crimes (threats) are insigni<U+FB01>cant. In terms of collisions, if the
+Table 6 presents the modeling outcome on student biking to school.                        unit of analysis for biking is increased to 1-mile, student bike mode
+First and foremost, bike lane accommodation creates a positive e<U+FB00>ect in                       share is negatively associated with bike collision density. Also, this
+terms of encouraging students to bike to school. However, over the                            study assumes that the rate of students walking and biking to school is
+years, the accumulative e<U+FB00>ect of bike lane accommodation seems not as                         lower in neighborhoods with a larger attendance area or a greater en-
+pronounced. In areas with a higher employment density, students are                           rollment due to an increased travel distance. Such a relationship is
+more likely to bike to school. In school areas with a higher household                        veri<U+FB01>ed for walking but remains unclear for biking. As expected, the
+271
+274
+
+
+
+
+
+
+
+
+
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P. Chen et al.
+Table 5
+Factors correlated with student walking to school.
+Fixed E<U+FB00>ects                       ¼ mile bu<U+FB00>er
+Estimate          T value        Elasticity
+Intercept                          19.155***         3.281
+Year                               -0.205            -0.183
+Sidewalk increment                 -0.448**          -2.319         -0.119
+Pedestrian crashes per area        -0.177*           -1.666         -0.036
+Threats per area                   0.749             0.105
+White Pct.                         -0.451            -0.137
+Black Pct.                         -6.216            -1.301
+Male Pct.                          0.459             0.068
+Enrollment                         -0.020**          -2.369         -0.481
+Student assignment plan            4.194***          2.910          0.006
+School bus stop density            -0.017            -0.642
+Attendance area                    0.825             0.769
+Street tree density                0.578             0.847
+Crosswalk density                  0.065**           2.430          0.273
+Commute by walking                 -0.496            -0.077
+Poverty proportion                 -3.742            -0.702
+Household density                  0.258             0.655
+Employment density                 -0.032            -0.151
+Steep area Pct.                    -0.059            -0.748
+Recreational Pct.                  -1.594            -0.222
+Land use mix                       -3.361            -0.694
+School type                        -7.538***         -3.115         -0.012
+Year*Sidewalk increment            0.063***          2.782          0.107
+Year*Ped. crashes per area         0.019             1.209
+Year*Threats per area              0.832             0.257
+Year*White student Pct.            0.107             0.214
+Year*Black student Pct.            -0.802            -0.726
+Year*Male Pct.                     -0.757            -0.456
+Year*Enrollment                    0.001             0.892
+Level of signi<U+FB01>cance: “****”, 0.1%; “***”, 1%; “**”, “5%”; and “*” for “10%”.
+Random e<U+FB00>ects
+Groups                                                Variance
+School ID                   Intercept                 15.754
+Year                      1.679
+Residual                  8.499
+Intra-class Correlation                               -0.32
+gender di<U+FB00>erence among students is not signi<U+FB01>cant for walking, but
+signi<U+FB01>cant for biking to school.
+Lastly, we <U+FB01>nd that students from schools located in areas with
+greater employment density usually are more likely to bike to school
+(Broberg and Sarjala, 2015). In areas of greater employment density,
+tra<U+FB03>c speed is generally lower, and bike lanes are better planned and
+provided, which contributes to a safer environment for student biking.
+Crosswalk placement is a cogent part of street connectivity, which is
+helpful in promoting student walking to school which this study de-
+monstrates.
+
+6. Limitations and future research
+
+A noticeable limitation of this study is bias in school selection. First,
+the included schools are all public schools, which leaves students of
+private schools undiscussed. Students who attend private schools are
+often from households with higher income and better parental educa-
+tion, and their parents may be more encouraging of healthy activities
+like walking and biking. How walking and biking to school might
+change for private school students remains unanswered. Similar studies
+need to be done if private school student travel data can be obtained.
+Second, the survey assigns a much greater weight to elementary school
+students. The <U+FB01>ndings of student biking to school are therefore some-
+what biased towards younger children. Future surveys should work to
+include more middle school and high school students. Third, as noted in
+Fig. 2 and Table 4, the maximum percentage of students biking to
+
+Journal of Transport Geography 70 (2018) 265–274
+
+
+½ mile bu<U+FB00>er                                    1-mile bu<U+FB00>er
+Estimate          T value     Elasticity        Estimate           T value       Elasticity
+21.298****        3.597                         19.311***          3.202
+-0.050            -0.044                        -0.048             -0.043
+-0.531**          -2.039      -0.127            -1.083***          -2.780        -0.226
+-0.178            -1.014      -0.039            -0.317             -0.867
+-0.915            -0.126                        -0.569             -0.078
+-0.792            -0.225                        2.075              0.559
+-5.793            -1.177                        -4.785             -1.004
+0.655             0.096                         -0.159             -0.024
+-0.020**          -2.258      -0.469            -0.018**           -2.153        -0.435
+4.457***          2.913       0.006             5.909****          3.441         0.009
+0.002             0.019                         -0.163             -1.000
+-0.206            -0.183                        -0.659             -0.623
+1.198             1.278                         0.668              0.416
+0.041             1.385                         0.058*             1.852         0.175
+0.616             0.094                         1.338              0.206
+-1.326            -0.256                        -2.317             -0.450
+-0.007            -0.019                        0.052              0.134
+-0.130            -0.608                        -0.102             -0.471
+0.099             0.559                         0.250              1.015
+-1.012            -0.156                        -0.529             -0.147
+-3.013            -0.570                        2.616              0.438
+-7.659***         -3.031      -0.011            -7.692***          -3.080        -0.007
+0.075***          2.574       0.115             0.119***           2.786         0.203
+0.034             1.540                         0.063              1.334
+-1.119            -0.349                        -4.398             -0.844
+0.063             0.124                         -0.198             -0.388
+-0.815            -0.731                        -0.923             -0.827
+-0.676            -0.410                        -0.609             -0.383
+0.001             0.502                         0.001              0.506
+
+
+S.D.                 Variance               S.D.                   Variance                S.D.
+3.969                16.840                 4.104                  16.758                  4.094
+1.296                1.735                  1.317                  1.739                   1.319
+2.915                8.656                  2.942                  8.507                   2.917
+-0.29                                         -0.30
+school is 25.50% (in 2008), which is roughly ten times the mean. This
+may be due to inconsistencies in data collection or survey administra-
+tion such as di<U+FB00>erent ways of invoking students to respond, the sur-
+veyors' unclear de<U+FB01>nitions, or some students wanting to advocate sus-
+tainable transportation. Yet, there is no clear way to net out inaccurate
+cases which creates bias in the data. In the future, careful instruction of
+surveyors should control these types of errors. Fourth, this paper uses
+area-level averages to infer relationships among various factors for
+speci<U+FB01>c sites. Such a design means that factors and outcomes are
+averaged for the population in each geographical or temporal unit.
+Although this study is valid for hypothesis generation, it is not con-
+sidered valid for hypothesis testing regarding area-level variables be-
+cause of unmeasured and uncontrolled confounding variables (Cohen,
+2005; Freudenheim, 1999). Fifth, the modi<U+FB01>able areal unit problem
+(MAUP) may contribute to the inconsistency between <U+FB01>ndings (Mitra
+and Buliung, 2014). MAUP is de<U+FB01>ned as a source of spatial bias when
+analytical results are sensitive to changes of scale and zoning of units
+that are used to measure the built environment (Mitra and Buliung,
+2014; Parenteau and Sawada, 2011). In such a context, the relationship
+between independent and dependent variables may vary largely across
+space and thus one analytical unit cannot be representative for the
+entire analysis (Swift et al., 2008). Though this study tries to mitigate
+the impact of MAUP through careful research design under di<U+FB00>erent
+spatial units (Parenteau and Sawada, 2011; Swift et al., 2008), it does
+not completely get rid of the risk of biased estimation resulting from
+MAUP.
+272
+
+P. Chen et al.
+Table 6
+Factors correlated with student biking to school.
+Fixed E<U+FB00>ects                             ¼ mile bu<U+FB00>er
+Estimate          T value        Elasticity
+Intercept                                -2.032            -0.46
+Year                                     -1.180            -1.357
+Bike lane accommodation                  0.177*            1.616          0.379
+Bike crashes per area                    -0.063            -0.844
+Threats per area                         -1.027            -0.185
+White Pct.                               4.667*            1.885          0.743
+Black Pct.                               1.783             0.485
+Male Pct.                                2.545             0.482
+Enrollment                               0.003             0.415
+Student assignment plan                  -0.737            -0.670
+School bus stop density                  0.003             0.159
+Attendance area                          0.251             0.316
+Street tree density                      0.384             0.804
+Intersection density                     -4.664            -0.946
+Commute by biking                        -1.848            -0.340
+Poverty proportion                       -1.907            -0.492
+Household density                        -0.432            -1.531
+Employment density                       0.456***          3.015          0.754
+Steep area Pct.                          -0.06             -1.054
+Recreational Pct.                        1.769             0.315
+Land use mix                             -0.666            -0.186
+School type                              -1.52             -0.838
+Year*Bike lane accommodation             -0.003            -0.072
+Year*Bike crashes per area               -0.005            -0.315
+Year*Threats per area                    -0.386            -0.154
+Year*White Pct.                          -0.239            -0.62
+Year*Black Pct.                          -0.611            -0.710
+Year*Male Pct.                           1.832             1.473
+Year*Enrollment                          0.001             1.099
+Level of signi<U+FB01>cance: “****”, 0.1%; “***”, 1%; “**”, “5%”; and “*” for “10%”.
+Random e<U+FB00>ects
+Groups                                                   Variance                  S.D.
+School ID                   Intercept                    8.337                     2.887
+Year                         0.931                     0.965
+Residual                     5.194                     2.279
+Intra-class correlation                                  -0.32
+Finally, as aforementioned, SRTS program are holistic and includes
+elements of engineering, education, encouragement, and enforcement.
+
+This study mostly focuses on engineering but does not discuss the e<U+FB00>ect
+of education and encouragement. Regarding enforcement, despite this
+study initially including several variables to represent the e<U+FB00>orts of
+
+enforcement (such as cameras and signals), these variables were ex-
+cluded from the <U+FB01>nal model as they were insigni<U+FB01>cant. Future research
+should integrate additional surveys to understand the e<U+FB00>ects of edu-
+
+cation and encouragement programs implemented in schools to pro-
+
+mote AST and re<U+FB01>ne the modeling framework. In addition, this study
+only examines destination-based built environment features, while
+
+origin-based characteristics are largely ignored. Studying origin-based
+
+factors would deepen the understanding of student AST.
+Note
+LUM: the degree of mixing land use is measured by
+
+
+LUM = - <U+2211> Pi* ln Pi/ln n
+
+
+where n is the number of di<U+FB00>erent land use types and Pi is the pro-
+portion of land in type i. This index is calculated separately for each
+zone. LUM ranges from 0 (homogeneous land use) to 1 (most mixed
+
+land use).
+
+References
+
+
+Ahern, S.M., Arnott, B., Chatterton, T., de Nazelle, A., Kellar, I., McEachan, R.R.C., 2017.
+Understanding parents' school travel choices: a qualitative study using the
+
+Journal of Transport Geography 70 (2018) 265–274
+
+
+½ mile bu<U+FB00>er                                         1-mile bu<U+FB00>er
+Estimate          T value           Elasticity       Estimate           T value       Elasticity
+-1.78             -0.394                             -1.411             -0.307
+-1.425            -1.598                             -1.550*            -1.769        -3.443
+0.230*            1.754             0.438            0.180              1.213
+-0.026            -0.248                             -0.079             -0.531
+-1.538            -0.272                             -0.071             -0.013
+5.064*            1.939             0.806            5.910**            2.151         0.941
+1.347             0.362                              2.478              0.681
+2.685             0.507                              3.266              0.626
+0.004             0.523                              0.003              0.505
+-0.739            -0.666                             -1.076             -0.985
+-0.061            -0.857                             -0.143             -1.215
+0.115             0.141                              -0.303             -0.397
+0.419             0.62                               0.293              0.266
+-3.778            -0.722                             -1.711             -0.314
+-2.208            -0.404                             -2.251             -0.417
+-2.117            -0.55                              -2.314             -0.607
+-0.521*           -1.921            -0.686           -0.489*            -1.749        -0.645
+0.447***          2.954             0.739            0.494****          3.295         0.818
+-0.045            -0.358                             -0.177             -0.992
+6.454             1.330                              1.966              0.803
+-1.061            -0.285                             0.743              0.169
+-1.417            -0.773                             -1.616             -0.895
+0.008             0.166                              0.057              0.903
+-0.006            -0.312                             -0.056*            -1.777        -0.491
+1.675             0.692                              2.401              0.656
+-0.282            -0.724                             -0.322             -0.823
+-0.608            -0.701                             -0.629             -0.734
+2.059*            1.627             1.987            2.117*             1.740         2.079
+0.001             1.099                              0.001              1.206
+
+
+Variance                     S.D.                   Variance                S.D.
+8.44                         2.905                  8.463                   2.909
+0.947                        0.973                  0.935                   0.967
+5.225                        2.286                  5.063                   2.250
+-0.33                                               -0.33
+Theoretical Domains Framework. J. Transp. Health 4, 278–293.
+Atteberry, H., Dowdy, D., Oluyomi, A., Nichols, D., Ory, M.G., Hoelscher, D.M., 2016. A
+contextual look at safe routes to school implementation in Texas. Environ. Behav. 48,
+192–209.
+Beck, L.F., Nguyen, D.D., 2017. School transportation mode, by distance between home
+and school, United States, ConsumerStyles 2012. J. Saf. Res. 62, 245–251.
+Benson, J., Scriven, A., 2012. Psychological, social and environmental barriers to cycling
+to school. Int. J. Health Promot. Educ. 50, 34–44.
+Boarnet, M.G., Anderson, C.L., Day, K., McMillan, T., Alfonzo, M., 2005a. Evaluation of
+the California Safe Routes to School legislation: urban form changes and children's
+active transportation to school. Am. J. Prev. Med. 28, 134–140.
+
+Boarnet, M.G., Day, K., Anderson, C., McMillan, T., Alfonzo, M., 2005b. California's Safe
+Routes to School program: impacts on walking, bicycling, and pedestrian safety. J.
+Am. Plan. Assoc. 71, 301–317.
+Bringolf-Isler, B., Grize, L., Mäder, U., Ruch, N., Sennhauser, F.H., Braun-Fahrländer, C.,
+
+2008. Personal and environmental factors associated with active commuting to
+school in Switzerland. Prev. Med. 46, 67–73.
+Broberg, A., Sarjala, S., 2015. School travel mode choice and the characteristics of the
+urban built environment: the case of Helsinki, Finland. Transp. Policy 37, 1–10.
+Brownson, R.C., Hoehner, C.M., Day, K., Forsyth, A., Sallis, J.F., 2009. Measuring the
+built environment for physical activity: state of the science. Am. J. Prev. Med. 36,
+
+S99–S123 (e112).
+Buckley, A., Lowry, M.B., Brown, H., Barton, B., 2013. Evaluating safe routes to school
+events that designate days for walking and bicycling. Transp. Policy 30, 294–300.
+Chillón, P., Hales, D., Vaughn, A., Gizlice, Z., Ni, A., Ward, D.S., 2014. A cross-sectional
+study of demographic, environmental and parental barriers to active school travel
+among children in the United States. Int. J. Behav. Nutr. Phys. Act. 11, 61.
+Cohen, H.W., 2005. Limitations of an ecological study: a review. Am. J. Hypertens. 18,
+750.
+Coughenour, C., Clark, S., Singh, A., Huebner, J., 2017. Are single entry communities and
+cul-de-sacs a barrier to active transport to school in 11 elementary schools in Las
+Vegas, NV metropolitan area? Prevent. Med. Rep. 6, 144–148.
+Cradock, A.L., Fields, B., Barrett, J.L., Melly, S., 2012. Program practices and
+
+273

@@ -1,0 +1,1338 @@
+
+
+Journal of Transport Geography 31 (2013) 54–63
+Contents lists available at SciVerse ScienceDirect
+Journal of Transport Geography
+journal homepage: www.elsevier.com/locate/jtrangeo
+An explanation of the relationship between adults’ work trip mode
+and children’s school trip mode through the Heckman approach
+Devajyoti Deka <U+21D1>
+Alan M. Voorhees Transportation Center, Edward J. Bloustein School of Planning and Public Policy, Rutgers, The State University of New Jersey, 33 Livingston Avenue,
+Brunswick, NJ 08901, United States
+a r t i c l e         i n f o                          a b s t r a c t
+Keywords:                                              Most studies on children’s travel hypothesize that the characteristics of children, households, schools,
+Mobility                                               and neighborhoods exogenously affect their travel mode to school. This study makes an additional
+School trips                                           assumption that children’s mode to school and household adults’ travel mode to work are interrelated
+Children’s travel                                      because of a lifestyle choice made by parents and caregivers. With this assumption, Heckman probit
+Mode choice
+models were used with data from the 2009 US National Household Travel Survey to predict household
+Heckman model
+adults’ travel mode to work and children’s travel mode to school jointly. It found strong evidence that
+household adults’ decision to drive to work signi<U+FB01>cantly increases the probability of children being
+dropped off at school and decreases their likelihood of walking and bicycling, but not vice versa. As
+adults’ mode choice is more fundamental in the household decision-making process, the study suggests
+that children’s mode choice studies should not ignore how parents or caregivers travel to work.
+Ó 2013 Elsevier Ltd. All rights
+1. Introduction                                                                            up children from school are two of the most common activities
+performed jointly by adults and children in a household. Together,
+We often observe friends and neighbors dropping off children at                        these studies provide suf<U+FB01>cient information to hypothesize that
+school on their way to work and hear them say that it is more con-                         the travel patterns of children and adults in a household are
+venient than having to wait for the school bus. Yet studies on chil-                       interrelated.
+dren’s travel to school have paid little attention to the travel                               In recent years, geographers have been increasingly favoring the
+characteristics of household adults when predicting travel modes                           ‘new mobilities paradigm’ as a mechanism to connect transporta-
+used by children for school trips. By using statistical models, this                       tion with the social and natural sciences (Cresswell, 2010, 2011).
+study examines how adults’ travel to work in<U+FB02>uences children’s                             This study is relevant in the context of this paradigm because it
+travel mode to school.                                                                     considers the interdependence of travel among household mem-
+Primarily due to the perceived health bene<U+FB01>ts from walking and                         bers. While conventional transportation research almost exclu-
+bicycling, children’s travel mode to school has recently received                          sively focuses on physical movement, the new mobilities
+substantial attention in transportation research. Many studies have                        paradigm focuses on a constellation of mobility involving physical
+used statistical models to predict children’s travel mode to school                        movement, the shared meaning or experience of movement, and
+using characteristics of children, households, schools, and neigh-                         the embodiment of the practice of movement (Cresswell, 2010).
+borhoods as exogenous, or externally determined, independent                               Cresswell (2010) argues that, by focusing almost exclusively on
+variables. As shown in the literature review in Section 2, there is                        physical movement, conventional transportation research often
+growing recognition in recent literature that the characteristics                          ignores the fact that how one person moves or travels affects
+of parents have an in<U+FB02>uence on how children travel to school. A                            how other persons move or travel. Interestingly, Cresswell (2010)
+number of studies on adults’ travel mode choice also recognize that                        makes the argument by suggesting that adults’ school runs affect
+the presence of children in the household has an effect on how                             how children travel to school.
+adults travel to work. Activity-based transportation models have                               This study hypothesizes that the interrelation between chil-
+often been founded on the assumption that certain activities are                           dren’s travel mode to school and adults’ mode to work are interre-
+jointly performed by household adults and children. Studies on                             lated because of households’ lifestyle choices. According to Van
+parents’ escorting behavior show that dropping off and picking                             Acker et al. (2010), long-term decisions made by households and
+individuals are lifestyle choices within which short-term choices
+such as daily trips are made. Weber (1978) de<U+FB01>ned lifestyle as a
+<U+21D1> Tel.: +1 848 932 2875; fax: +1 732 932 3714.                                            status that a group of individuals seeks to achieve and share.
+E-mail address: ddeka@ejb.rutgers.edu
+0966-6923/$ - see front matter Ó 2013 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.jtrangeo.2013.05.005
+
+
+
+
+
+
+
+New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D. Deka / Journal of Transport
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 1. Modes used by children to go to school by work-trip modes of household
+adults. Source: Prepared from pooled data for households with school-going
+children aged 5–15 in the 2009 National Household Travel Survey (USDOT, 2011).
+
+
+
+Although the concept is easily understood, the reasons that drive
+individuals to select a lifestyle cannot be easily discerned,
+let alone quanti<U+FB01>ed.
+A classic example of a lifestyle choice is an individual’s decision
+to be a homemaker. When a person decides to be a homemaker,
+while others with similar characteristics decide to participate in
+the wage-labor market, the reasons for that person’s decision not
+to participate in the labor force cannot be observed in labor-market
+data. It is in this context that the Heckman model was born
+(Heckman, 1974, 1976, 1979). The premise of the Heckman model
+is that, because of the unobservable reasons prompting some
+individuals not to participate in the labor force, the observed
+labor market outcomes are biased due to self-selection. In addition
+to allowing for the correction of this bias, the Heckman model
+enables one to determine the effect of the selection bias on an
+outcome measure.
+This paper uses the Heckman model to examine the interrela-
+tionship between workers’ travel mode to work and children’s
+mode to school. While a logit or probit model can be used to pre-
+dict the travel mode of a child by taking adults’ mode as an exog-
+enous independent variable, or vice versa, the Heckman model
+involves joint prediction of the travel modes of the two groups
+through a system of two equations. By doing so, the model ac-
+counts for the effect of self-selection by the <U+FB01>rst group on the mode
+choice of the second group. Thus, compared to logit or probit mod-
+els, the Heckman model has the advantage of adding an element of
+causality in the prediction of travel modes.
+From the lifestyle choice perspective, it makes more intuitive
+sense to hypothesize that adults’ decisions about travel mode to
+work are more fundamental in the household decision process
+than children’s travel mode to school. To test this hypothesis,
+Heckman probit models were <U+FB01>rst used to examine the effects of
+adults using different travel modes to work on children’s travel
+mode to school. To examine if the factors that in<U+FB02>uence children’s
+mode to school also in<U+FB02>uence adults’ travel mode to work, addi-
+tional modeling efforts were undertaken. While children and
+adults from the same household may have similarities in their
+mode-use patterns because of the similarities in characteristics of
+households and the places where they live, when these character-
+istics are controlled for, the Heckman model can demonstrate if
+there is an additional effect of self-selection by one group on the
+modes used by the other group.
+To demonstrate that the travel modes of adults and children
+may be interrelated, the cross classi<U+FB01>cation of children’s mode to
+school is shown against household adults’ travel mode to work in
+Geography 31 (2013) 54–63                                            55
+Fig. 1 by using pooled data from the 2009 US National Household
+Travel Survey, or NHTS (USDOT, 2011). Since in many households
+one adult walks to work or takes public transit while another adult
+drives to work, it is possible for a non-driving adult worker to have
+children in the household who are driven to school. It is for this
+reason that for each type of commuting mode of adults (see
+Fig. 1), a proportion of children are driven to school. However, de-
+spite the dilution of the data because of pooling, Fig. 1 still shows
+that the proportion of household children being driven to school is
+substantially higher for adults who drive to work (57%) compared
+to adults who walk or bicycle to work (39%) or take public transit
+(34%). Furthermore, the <U+FB01>gure shows that the proportion of house-
+hold children who walk or bicycle to school is only 7% for adults
+who commute to work by automobile, whereas the proportion is
+25% for adults who walk or bicycle to work, and 24% for adults
+who use public transit.
+Data from the 2009 NHTS were used for the statistical models in
+this paper because they provide by far the largest and most recent
+
+
+travel survey data representative of the country. In contrast to past
+surveys, the 2009 edition provides special data on children’s travel
+to school and parents’ concerns about children’s travel to school.
+For modeling purposes, data from the NHTS person <U+FB01>le and trip <U+FB01>le
+were combined. Household adults were pooled for school-going
+children aged 5–15. Therefore, the analysis includes only those
+households that had school-going children aged 5–15. All working
+adults in those households were included in the analysis to ensure
+that, in addition to parents, potential caregivers were also taken
+into consideration.
+The remainder of this paper is divided into four sections. Sec-
+tion 2 provides a review of past studies on children’s travel to
+school and adults’ travel to work by focusing on the types of mod-
+els used for predicting travel modes and variables included in the
+models. Section 3 conceptually describes the Heckman model
+and provides examples of empirical studies in other <U+FB01>elds by focus-
+ing on the use of the model to predict discrete outcomes. Section 4
+describes the data used for analysis and presents the results from
+the statistical models. Before presenting results from the Heckman
+model, results are presented from multinomial logit (MNL) and
+probit models on children’s mode choice so that these results can
+be compared with the Heckman model results. Although Heckman
+models were used to examine the effects of several modes used by
+adults on children’s mode and, conversely, to test the effect of
+modes used by children on adults’ mode, due to space limitations
+detailed results are presented only from the models that examine
+children’s mode-use patterns when adults drive to work. However,
+summary statistics are presented for different mode combinations
+for comparison. Section 5 presents a summary of the <U+FB01>ndings and
+implications for future research.
+
+
+2. Studies on mode choice of adults and children
+
+Mode-choice studies of adults and children typically use statis-
+tical models often broadly referred to as discrete choice models,
+where the likelihood of using a travel mode is predicted by treating
+modes as a binary variable (e.g., car versus other modes) or a cat-
+egorical variable (e.g., car versus rail versus bus). These types of
+models, elaborately described in Ben-Akiva and Lerman (1985)
+and Train (1986), are based on the utility theory.
+Over the past four decades, a large number of empirical mode-
+choice studies have been conducted pertaining to adults’ travel,
+mostly in the context of work trips but sometimes also in the
+context of non-work trips. Many of these used binary logit models
+to compare between two modes (Cervero, 1996; Cervero and
+Kockelman, 1997; Cervero and Radisch, 1996), whereas others
+used MNL models to compare among several modes (Train, 1980;
+
+56                                               D. Deka / Journal of Transport
+Asensio, 2002; Cervero, 2002; Bhat and Sardesai, 2006; Hensher
+and Rose, 2007; Pinjari et al., 2007). In other mode-choice studies
+for adults, nested logit models have been used to examine choices
+within another set of choices (O’Fallon et al., 2004; Zhang, 2004;
+Hensher and Rose, 2007).
+To predict the mode choice of adults, researchers historically
+have considered a variety of independent variables, including tra-
+vel distance, time, and/or monetary cost (Train, 1980; Cervero,
+1996, 2002; Hensher and Rose, 2007), characteristics of speci<U+FB01>c
+modes (Train, 1980; Cervero, 2002; Schwanen and Mokhtarian,
+2005; Hensher and Rose, 2007; Pinjari et al., 2007), household
+characteristics such as income, number of workers in the house-
+hold, presence of children in the household, and vehicle ownership
+(Train, 1980; Cervero, 1996; Srinivasan and Ferreira, 2002; Schwa-
+nen and Mokhtarian, 2005), personal characteristics such as gender
+and occupation (Schwanen and Mokhtarian, 2005; Hensher and
+Rose, 2007), individuals’ perception of travel (Schwanen and
+Mokhtarian, 2005), and place characteristics (Cervero, 1996,
+2002; Pinjari et al., 2007). While the mode choice of adults has
+been studied thoroughly over several decades, children’s mode-
+use patterns attracted the attention of researchers primarily during
+the previous decade. Since the primary focus of the models in a
+majority of these studies is to compare walking or bicycling with
+all other modes, these studies have predominantly used binary lo-
+git models for prediction purposes. Examples of such studies in-
+clude McDonald (2007a, 2007b, 2008a), McMillan et al. (2006),
+Timperio et al. (2006), McMillan (2007), Rodríguez and Vogt
+(2009), Zhu and Lee (2009), and McDonald et al. (2011). Studies
+that compared the likelihood of children using several modes have
+generally used MNL models. Examples include McDonald (2008b),
+Müller et al. (2008), Yarlagadda and Srinivasan (2008), Marshall
+et al. (2010), and Wilson et al. (2010). In some instances, research-
+ers have used other models, including nested logit (Jensen, 2008),
+
+MNL probit (Sidharthan et al., 2011), and covariance heterogeneity
+(Ulfarsson and Shankar, 2008).
+The number and characteristics of the independent variables
+used for modeling children’s mode to school varies from study to
+study. Yet these variables pertain to a few broad categories: spatial
+or locational characteristics of places, distance to school, demo-
+graphic and socio-economic characteristics of children and house-
+holds, school characteristics, and perceptions of adults about
+
+children’s travel. In a review of studies on school travel, Stewart
+(2011) noted a large number of studies worldwide that showed
+children’s likelihood of using non-motorized modes decreasing
+
+with greater distance to school. In addition to distance, empirical
+
+studies on children’s travel mode to school have included the age
+of child, gender, race or ethnicity, household income, household
+vehicle ownership, the number of children in a household, parents’
+work schedule, and parents’ education (McDonald, 2007a, 2007b,
+2008a, 2008c; McMillan, 2007; McDonald et al., 2011). Other areas
+addressed include parents’ concerns about children’s travel to
+school, dwelling type of parents, single-parent status and home-
+maker status of parents, immigrant status of parents, characteris-
+tics of areas, and school type (Kerr et al., 2006; McDonald, 2007a,
+2007b, 2008a, 2008b; McMillan, 2007; Marshall et al., 2010;
+Wilson et al., 2010; McDonald et al., 2011).
+Although many studies on children’s school trips do not address
+the connection between activities by adult household members
+and children, a few studies have explicitly considered this relation-
+ship. For example, McDonald’s (2008b) binary logit model on chil-
+dren’s travel mode included mother’s and father’s work trip time as
+independent variables, Yarlagadda and Srinivasan (2008) consid-
+ered the in<U+FB02>uence of parents’ employment and work <U+FB02>exibility
+on children’s mode use, Copperman and Bhat (2007) studied travel
+activity sharing between children and household adults, whereas
+Vovsha and Petersen (2005), Schlossberg et al. (2006), Wen et al.
+Geography 31 (2013) 54–63
+(2008), and Yoon et al. (2011) studied parents’ escorting of school
+children. All these studies recognize that travel and non-travel
+activities of children and adults in households are often interre-
+lated. Many other studies, especially studies on activity based tra-
+vel, recognize this interrelationship (Gliebe and Koppelman,
+2002;Yagi and Mohammadian, 2008; Timmermans and Zhang,
+2009; Maat and Timmermans, 2009). Yet other studies have recog-
+nized that the presence of children affects household adults’ travel
+patterns (Cervero and Kockelman, 1997; Dieleman et al., 2002;
+Srinivasan and Ferreira, 2002; O’Fallon et al., 2004; Schwanen
+and Mokhtarian, 2005; Giuliano and Dargay, 2006).
+Despite the recognition among many researchers that travel
+decisions of household members are interrelated, children’s
+mode-choice studies by far have refrained from using models that
+jointly predict the travel modes used by adults and children in a
+household. One reason for the scarcity of studies that use this ap-
+proach may be that, until a few years ago, popular software pro-
+grams did not include an option to predict discrete variables
+jointly. However, advances in popular statistical programs such
+as SAS and STATA have made it easier to make joint predictions
+of discrete dependent variables such as travel modes.
+
+3. The Heckman model and its application in empirical studies
+
+The Heckman selection model includes two equations: selection
+and outcome. Using notations in Greene (2012), the selection equa-
+tion and the outcome equation can be described as follows:
+
+Selection equation : zi ¼ wi c þ ui ; zi ¼ 1 if zi > 0 and 0 otherwise
+Probðzi ¼ 1jwi Þ ¼ Uðw0i cÞ and
+Probðzi ¼ 0jwi Þ ¼ 1  Uðw0i cÞ
+
+
+Outcome equation : yi ¼ xi b þ i if zi > 0
+
+where wi is a vector of independent variables determining selection
+into a sample, xi is a vector of independent variables determining an
+outcome, and zi > 0 indicating that some observations of yi are
+missing or censored because of selection. The error terms of the
+two equations, ui and i , are normally distributed and the correla-
+tion between the two is q. Mathematically,
+
+ui  Nð0; 1Þ
+
+
+
+i  Nð0; r2 Þ
+
+corr: ðui ; i Þ ¼ q
+
+The selection and the outcome components of the Heckman
+model can include identical independent variables, but the selec-
+tion component must include at least one variable that is not in-
+cluded in the outcome component. An example of the Heckman
+model is the estimation of wages by the outcome equation, where
+yi is observed only for those who elect to be in the labor force, but
+not for those who choose to be out of the labor force. This problem
+is often referred to as a selection bias, sample-selection bias, or
+self-selection bias. When the bias exists, the estimation of the
+b coef<U+FB01>cients of the outcome equation by the ordinary least
+squares method would be inef<U+FB01>cient and the standard errors
+would be downward biased (Heckman, 1979). Whether and how
+self-selection affects the outcome equation is given by q, the corre-
+lation coef<U+FB01>cient of the residuals in the selection and the outcome
+equations. In the Heckman model, which corrects for selection bias,
+a statistically signi<U+FB01>cant q indicates that selection bias affects the
+estimates of b coef<U+FB01>cients and their standard errors in the outcome
+equation. A positive sign for q indicates that selection affects the
+outcome positively and a negative sign indicates that selection
+affects the outcome negatively. For example, when persons in the
+
+D. Deka / Journal of
+labor force are coded 1 and persons not in the labor force are coded
+0 in the selection equation of a model on wages, a signi<U+FB01>cant and
+positive q would indicate that self-selection into the labor force
+has a signi<U+FB01>cant positive effect on estimated wages.
+During the past decades, many studies in various disciplines
+have used the Heckman model with a continuous outcome variable
+(yi). Transportation studies that used this method to estimate a
+continuous outcome, such as travel distance and time, include
+Cooke and Ross (1999), Deka (2002), and Vance and Iovanna
+(2007). While many studies used the Heckman model to deal with
+missing data due to sample selection, other studies have used it to
+compare between groups on the basis of the signi<U+FB01>cance of q; that
+is, to examine how the selection into one group affects the depen-
+dent variable of the outcome equation. For example, Briggs (2004)
+used the method to compare SAT scores of coached and un-coa-
+ched students, Maury (2006) used it to compare pro<U+FB01>ts of two dif-
+ferent types of <U+FB01>rms, Vance and Iovanna (2007) compared trip
+distance for car users and car non-users, and Leslie and Ghomrawi
+(2008) compared the effects of two different types of drugs on
+treatment duration.
+In more recent years, a number of studies in diverse disciplines
+have used the Heckman model to examine the effect of selection
+on a dichotomous outcome variable. For example, Bratti et al.
+(2004) examined whether the employment outcome of students
+was related to participation in a survey, Bärnighausen et al.
+(2011) examined the likelihood of HIV status reporting on the basis
+of type of interview, Drope and Hansen (2009) examined if partic-
+ipation in industry associations had an effect on the likelihood of
+lobbying, Finney and Yoon (2011) examined the relationship be-
+tween municipalities’ decision to develop a web site to conduct
+<U+FB01>nancial transactions through the internet, and Heise (2010)
+examined if the participation in alternative dispute resolution pro-
+grams had an effect on the likelihood of an appeal settling prior to
+a judicial decision. Other authors have used the method to study
+consumers’ willingness to pay (Petrolia et al., 2010), the effects
+of regional trade agreements (Vicard, 2012), social capital
+(Cornwell and Cornwell, 2008), oncological evaluation (Davidoff
+et al., 2009), anti-depressant treatment (Tiwari et al., 2008), and
+attitudes toward general practitioners (Clerc et al., 2011). Despite
+these and many other studies in diverse <U+FB01>elds, the use of the
+Heckman model to predict dichotomous outcome variables has
+been rare in transportation.
+
+
+4. Data and analysis
+
+4.1. Data
+
+All empirical analysis in this paper is conducted with data from
+the 2009 US National Household Travel Survey (NHTS) (USDOT,
+2011). This is by far the largest travel survey in the country, provid-
+ing household, personal, and travel characteristics for 308,901
+individuals belonging to 150,147 households nationwide. The
+dataset contains information on 1,167,321 trips made by persons
+of all ages for various purposes, including school trips by children
+and work trips by adults. In addition to the sheer size of the dataset
+and its national representation, the 2009 NHTS has the added ben-
+e<U+FB01>t of including a number of questions on children’s school trips
+and parents’ perceptions about children’s travel to school.
+The data used for the analysis were mostly retrieved from the
+NHTS person <U+FB01>le, but complemented by data from the trip <U+FB01>le.
+The dataset was restricted to those households that had at least
+one school-going child aged 5–15 and whose travel mode to school
+was reported. This age group was speci<U+FB01>cally selected to conform
+to the NHTS age range pertinent to the federal Safe Routes to
+School (SRTS) program. For each of the selected children, the
+Transport Geography 31 (2013) 54–63                                             57
+household adult workers were pooled. To exclude adults who
+might be college students but also make occasional work trips, per-
+sons aged 18–24 were eliminated and restricted to ages 25–64.
+Since non-parent household adults can also drop off children at
+school, all working adults in a household were included in the
+dataset. Finally, adult workers who mentioned using a personal
+vehicle to travel to work, but who were identi<U+FB01>ed as a vehicle pas-
+senger in their commute trip in the trip <U+FB01>le, were considered to
+have used other modes instead of being a driver when distributing
+workers by trip mode for commuting. It was assumed that these
+adults would have little or no in<U+FB02>uence in dropping off children
+at school.
+In the pooled dataset used for modeling purposes, 47% of male
+children are driven to school compared to 53% of female children,
+37% of male children take the school bus compared to 36% of fe-
+male children, 13% of male children walk or bicycle to school com-
+pared to 9% of female children, and 3% of male children use some
+other mode compared to 2% of female children. Among the adult
+workers in their household, 91% of men drive to work compared
+to 92% of females, 4% of men use public transit compared to 5%
+of females, 3% of men walk or bicycle to work compared to 2% of
+females, and 2% of men use some other mode compared to 1%
+of females.
+
+4.2. Selection of variables and their expected in<U+FB02>uence on travel mode
+
+As indicated in the literature review, a wide range of variables
+pertaining to children, parents, households, schools, neighbor-
+hoods, and perceptions have been used by researchers to predict
+the travel mode of children. Similarly, a range of variables pertain-
+ing to transportation systems, individuals, households, and places
+have been used as exogenous variables to predict the travel modes
+of adults for work and non-work trips. The independent variables
+for the models on children’s and workers’ mode choice in this pa-
+per were selected on the basis of past empirical studies.
+Distance to school is a critical variable for the model on chil-
+dren’s trips to school, and is expected to decrease the likelihood
+of using non-motorized modes. Based on prior studies, younger
+children are more likely to be driven to school than older children
+and they are expected to walk less. Empirical studies also show
+that female children are less likely to walk or bicycle than male
+children. A variable on schools’ restriction on walking alone has
+been included with the expectation that such policies would deter
+walking and bicycling among children. School type has been in-
+cluded with the expectation that public school students are less
+likely to be dropped off by household vehicles and they would be
+more likely to walk and bicycle than private school students be-
+cause private schools, which are fewer in number, are likely to
+be more geographically dispersed than public schools.
+A dummy variable on single parents was included with the
+expectation that children from single-parent households would
+be more likely to be dropped off at school, because working single
+parents are expected to have greater time constraints and concerns
+about children’s safety. The number of children aged 5–15 was in-
+cluded as a variable with the expectation that having one or more
+school-age siblings would increase the likelihood of walking to
+school. A set of three variables on parents’ safety concerns about
+children’s travel to school were included, with the expectation that
+a greater concern would decrease the likelihood of walking and
+bicycling and increase the likelihood of using motorized modes.
+Although the NHTS provides a variable on parents’ concern about
+distance to school, it was not included because actual distance
+has already been considered. A series of dummy variables repre-
+senting household income has been included, with the expectation
+that children from higher income households would be more likely
+to be driven to school and less likely to take a school bus or walk.
+
+58                                               D. Deka / Journal of Transport
+Variables on dwelling type and dwelling tenure have been included
+to represent suburban living, with the expectation that children
+living in detached and owned homes would be less likely to walk
+or bicycle and more likely to use motorized modes. Race, ethnicity,
+and the foreign-born status of parents have been included, with
+the expectation that minority children would be less likely to be
+driven to school and more likely to use alternative modes. A set
+of dummy variables on metropolitan population size has been in-
+cluded, with the expectation that, due to a relatively urban envi-
+ronment in large metropolitan areas, children would walk more
+and use motorized modes less. Finally, a variable on household
+adults’ travel mode to work has been included as an exogenous
+variable in the MNL and the probit models, with the expectation
+that children from households with workers driving to work would
+be more likely to be driven to school.
+The selection of exogenous variables for the mode-choice mod-
+els for workers’ commute followed a similar logic as the children’s
+mode-choice models. Like the children’s models, it was expected
+that individual characteristics such as age and gender, household
+characteristics such as income and household size, dwelling char-
+acteristics such as dwelling type and tenure, and place characteris-
+tics such as metropolitan population size would in<U+FB02>uence workers’
+mode to work. A few additional variables were included in the
+commute models pertaining to the nature of work: namely, occu-
+pation, <U+FB02>ex time, and part-time/full-time distinction. It was ex-
+pected that manufacturing workers would drive to work more
+because of the location of manufacturing plants in areas with
+low transit service, and sales/service workers would drive more be-
+cause of the need to use personal vehicles for work-related trips.
+Workers with <U+FB02>ex time were expected to drive less because of low-
+er time constraints, and full-time workers were expected to drive
+more because of greater time constraints.
+A variable that has often been included in mode-choice models
+requires further discussion. While a number of studies on chil-
+dren’s mode choice (e.g., McDonald, 2008a, 2008b; McMillan,
+2007; McDonald et al., 2011) include a variable on number of
+household vehicles, other studies do not (e.g., Rodríguez and Vogt,
+2009; Marshall et al., 2010; Wilson et al., 2010). Similarly, some
+studies on adults’ mode choice include a variable on household
+vehicle ownership (e.g., Train, 1980; Cervero, 1996, 2002; Maat
+and Timmermans, 2009), but others do not (e.g., O’Fallon et al.,
+2004; Hensher and Rose, 2007). The assumption in including
+household vehicles as an exogenous variable in a mode-choice
+model is that households decide to own vehicles irrespective of
+how its members need to travel. Based on the number of vehicles
+available and other needs, members decide what mode to choose
+for a trip. However, it can be reasonably argued that households’
+decision to own vehicles is in<U+FB02>uenced by how the members need
+to travel and, therefore, household vehicles should not be consid-
+ered exogenous in a mode-choice model. Based on this assumption,
+models presented in this paper exclude household vehicles as an
+exogenous variable. However, it should be noted that when a var-
+iable on number of vehicles per adult in household is included in
+the MNL, probit, and Heckman models on children’s mode, the var-
+iable is signi<U+FB01>cant, but the signi<U+FB01>cance levels of the other variables
+remain unchanged. The conclusions in this paper, in fact, would be
+stronger when the variable is included but, since those results may
+be spurious, the models presented in this paper exclude the
+variable.
+
+4.3. Probit and MNL models on children’s mode to school
+
+The results from an MNL model and three probit models on
+children’s mode to school are presented in Tables 1 and 2, respec-
+tively. Table 1 shows the coef<U+FB01>cients and other statistical test re-
+sults for two modes, namely household vehicle and walking or
+Geography 31 (2013) 54–63
+bicycling, where school bus and other modes have been combined
+together as the referent category. In contrast, the probit models in
+Table 2 show coef<U+FB01>cients and test results for three modes, namely
+household vehicle, walk or bicycle, and school bus. In these models
+the non-selected modes together constitute the referent category.
+The results of the MNL and probit models are consistent with
+past studies. The direction of a few coef<U+FB01>cients in the MNL model
+and the probit models is different only because the dependent vari-
+ables have different referent categories. The MNL model and the
+probit model on walking or bicycling show that children’s propen-
+sity to walk or bicycle to school decreases with distance to school.
+Both models also show that the propensity to use a household
+vehicle is the highest when the distance between home and school
+is between a half mile and 1 mile. Beyond 1 mile, trips are more
+likely to be made by school bus. Thus parents or caregivers are
+more likely to drop off children at school at a moderate distance
+and less likely to do so when schools are far away.
+The MNL and probit models show that younger children (age 5–
+9) are less likely to walk or bicycle and more likely to be driven to
+school than older children (age 10–15). Similarly, the models show
+that male children are more likely to walk or bicycle and less likely
+to be driven to school than female children. Evidence is found from
+the models that schools’ walk-alone restriction decreases the like-
+lihood of walking or bicycling and increases the use of motorized
+modes. Public school students are more likely to walk, bicycle, or
+take a school bus and less likely to be driven to school than private
+school students. The models show evidence that children from sin-
+gle-parent households are more likely to be driven to school than
+children from other households, but the in<U+FB02>uence of single-parent-
+hood on walking or bicycling is less clear. Evidence is found that
+having other school-age children in a household increases the pro-
+pensity of walking or bicycling and decreases the likelihood of
+being driven to school.
+Among the three variables on parents’ perception of children’s
+travel to school, the effect of a serious concern about traf<U+FB01>c speed
+on children’s mode is the least certain. The models show that a
+serious concern about crime is associated with a higher likelihood
+of being driven, a higher likelihood of walking or cycling, and lower
+likelihood of traveling by school bus. A plausible explanation for
+the positive association between serious concern about crime
+and a higher likelihood of walking and bicycling is that more chil-
+dren walk and bicycle in high-crime urban areas because of habit-
+uation despite parental concerns about crime. The models show
+that serious concern about traf<U+FB01>c volume reduces the propensity
+to walk or bicycle and increases the propensity of school bus use.
+The effect of household income on the likelihood of being dri-
+ven to school and school bus use is clearer than its effect on walk-
+ing or bicycling. As expected, the likelihood of being driven to
+school increases with household income, whereas the likelihood
+of using a school bus decreases with income. Children from the
+lowest-income households walk less, whereas children from the
+highest-income households walk more. Thus the trade-off between
+modes for high-income and low-income households appears to
+take place predominantly between private vehicles and school
+buses, with walking and bicycling being less relevant. At the lowest
+income level, children may walk or bicycle less because of busing,
+whereas at the highest income level children may walk or bicycle
+more because of greater awareness about their health bene<U+FB01>ts or
+better neighborhood quality.
+The only consistent evidence regarding dwelling characteristics
+is that children living in single detached homes are more likely to
+be driven to school, and children living in owned homes are less
+likely to walk or bicycle to school. Together these variables seem
+to indicate that children in low-density neighborhoods are more
+likely to be driven to school than in areas with higher density. Afri-
+can-American children are less likely to be driven to school and
+
+D. Deka
+Table 1
+Multinomial logit model on children’s likelihood of going to school by
+Variables
+
+Intercept
+Distance to school less than 1/4 mi. (1, 0)
+Distance to school 1/4–1/2 mi. (1, 0)
+Distance to school 1/2–1 mi. (1, 0)a
+Distance to school 1–2 mi. (1, 0)
+Distance to school 2 mi. or more (1, 0)
+Child age between 5 and 9 (1, 0)
+Male child (1, 0)
+Walk alone restriction for all or part of K-8 grades (1, 0)
+Child attends public school (1, 0)
+Child belongs to single parent household (1, 0)
+Number of children in age 5–15 in household
+Parent seriously concerned about crime (1, 0)
+Parent seriously concerned about traf<U+FB01>c volume (1, 0)
+Parent seriously concerned about traf<U+FB01>c speed (1, 0)
+Household income less than $25,000 (1, 0)
+Household income $25,000–$50,000 (1, 0)
+Household income $50,000–$75,000 (1, 0)a
+Household income $75,000–$100,000 (1, 0)
+Household income $100,000 or more (1, 0)
+Child lives in detached home (1, 0)
+Child lives in owned home (1, 0)
+Child belongs to African American household (1, 0)
+Child belongs to Hispanic household (1, 0)
+Household has foreign-born adult (1, 0)
+Not in metro or metro population less than 250,000 (1, 0)a
+Metropolitan population between 250,000 and 1 mil. (1, 0)
+Metropolitan population between 1 and 3 mil. (1, 0)
+Metropolitan population more than 3 mil. (1, 0)
+Adult in household drives to work (1, 0)
+N
+2 Log likelihood
+Model v2
+Prob > v2
+Pseudo R2
+Note: Referent category for dependent variable is school bus and other
+a
+Referent category for independent variables.
+*
+Signi<U+FB01>cant at the 10% level.
+**
+Signi<U+FB01>cant at the 5% level.
+***
+Signi<U+FB01>cant at the 1% level.
+more likely to take a school bus, whereas Hispanic children are
+more likely to be driven to school and less likely to take a school
+bus. African-American children and those with foreign-born par-
+ents are less likely to walk or bicycle to school compared to other
+students. Children in large metropolitan areas walk or bicycle more
+often to school compared to rural, non-metropolitan, and small
+metropolitan areas. In contrast, school bus use is less common in
+large metropolitan areas, whereas metropolitan population size
+appears to have little effect on the use of household vehicles.
+Finally, and most importantly, the MNL and the probit models
+show that when adults from a household drive to work, the pro-
+pensity of children being driven to school increases and the pro-
+pensity of children walking, bicycling, or taking the school bus
+decreases. It should be noted that in these models, the travel
+modes used by adults for work trips are assumed to be exoge-
+nously determined, whereas in the Heckman probit models in
+Section 4.4, adults’ modes and children’s modes are jointly
+determined.
+
+4.4. Heckman probit models on children’s mode to school
+
+As indicated in Section 3, the Heckman probit model includes a
+selection equation and an outcome equation. For predicting chil-
+dren’s mode to school conditional upon adults’ mode, the binary
+dependent variable in the selection equation is a travel mode used
+/ Journal of Transport Geography 31 (2013) 54–63                                                 59
+
+household vehicle and walk or bike modes.
+Household vehicle                              Walk or bike
+b                          Std. Err.           b                       Std. Err.
+2.483***                 0.127                 1.847***              0.238
+0.317***                 0.099                 2.221***              0.110
+0.217***                 0.084                 1.063***              0.104
+
+0.451***                  0.057               1.484***               0.100
+1.022***                  0.055               4.480***               0.151
+0.194***                 0.029                0.801***              0.064
+0.149***                  0.028                 0.153**               0.061
+0.429***                  0.049               1.390***               0.086
+1.746***                  0.054                0.793***              0.136
+0.159**                  0.066                 0.083                 0.137
+0.215***                  0.019                0.069*                0.039
+0.173***                 0.045                 0.439***              0.088
+0.148***                  0.040                0.880***              0.102
+0.046                     0.040                 0.119                 0.102
+0.568***                  0.070                0.517***              0.142
+0.163***                  0.046                 0.008                 0.100
+
+0.060                    0.043                0.092                 0.098
+0.149***                 0.040                 0.306***              0.091
+0.238***                 0.046                 0.278***              0.097
+0.022                     0.055                0.586***              0.101
+0.471***                  0.062                0.573***              0.134
+0.305***                 0.054                 0.316***              0.100
+0.041                     0.047                0.220**               0.089
+
+0.027                     0.041                 0.236**               0.099
+0.063                    0.040                 0.279***              0.095
+0.002                    0.039                 0.453***              0.086
+0.560***                 0.066                0.718***              0.103
+26,054
+25,708
+8875
+0.0000
+.347
+modes.
+
+
+
+
+
+
+
+
+by an adult, whereas the binary dependent variable in the outcome
+equation is a travel mode used by a child in the household. In both
+equations, the dependent variable is coded 1 when a mode is used
+and 0 when any other mode is used.
+The results of the Heckman models on children’s mode, condi-
+tional upon adults driving to work, are presented in Tables 3 and
+4. The model results were obtained by the heckprob command
+in STATA as well as the QLIM procedure in SAS to ensure that
+the results are identical. The model in Table 3, predicting the like-
+lihood of driving to work by adults, is the selection model from
+which the results of the outcome models on children’s modes in
+Table 4 were obtained. Although children’s modes were also pre-
+dicted conditional upon adults taking public transit and walking
+or bicycling, the detailed results are not shown because of space
+limitations. Instead only the relevant summary statistics from
+these models are presented in Table 5.
+The results of the selection model in Table 3 are consistent with
+expectations. The model shows that distance to work is positively
+associated with driving, workers from households with low income
+are less likely to drive, workers with the highest level of education
+are less likely to drive (presumably because of their concentration
+in large cities, where transit is more readily available), African-
+American workers are less likely to drive, workers living in de-
+tached and owned homes are more likely to drive, workers with
+a travel-related disability are less likely to drive, manufacturing
+
+60                                                             D. Deka
+Table 2
+Probit models on children’s likelihood of going to school by household
+Variables
+
+Intercept
+Distance to school less than 1/4 mi. (1, 0)
+Distance to school 1/4–1/2 mi. (1, 0)
+Distance to school 1/2–1 mi. (1, 0)a
+Distance to school 1–2 mi. (1, 0)
+Distance to school 2 mi. or more (1, 0)
+Child age between 5 and 9 (1, 0)
+Male child (1, 0)
+Walk alone restriction for all or part of K-8 grades (1, 0)
+Child attends public school (1, 0)
+Child belongs to single parent household (1, 0)
+Number of children in age 5–15 in household
+Parent seriously concerned about crime (1, 0)
+Parent seriously concerned about traf<U+FB01>c volume (1, 0)
+Parent seriously concerned about traf<U+FB01>c speed (1, 0)
+Household income less than $25,000 (1, 0)
+Household income $25,000–$50,000 (1, 0)
+Household income $50,000–$75,000 (1, 0) a
+Household income $75,000–$100,000 (1, 0)
+Household income $100,000 or more (1, 0)
+Child lives in detached home (1, 0)
+Child lives in owned home (1, 0)
+Child belongs to African American household (1, 0)
+Child belongs to Hispanic household (1, 0)
+Household has foreign-born adult (1, 0)
+Not in metro or metro population less than 250,000 (1, 0) a
+Metropolitan population between 250,000 and 1 mil. (1, 0)
+Metropolitan population between 1 and 3 mil. (1, 0)
+Metropolitan population more than 3 mil. (1, 0)
+Adult in household drives to work (1, 0)
+N
+Log likelihood
+Model v2
+Prob > v2
+Pseudo R2
+a
+Referent category for independent variables.
+*
+Signi<U+FB01>cant at the 10% level.
+**
+Signi<U+FB01>cant at the 5% level.
+***
+Signi<U+FB01>cant at the 1% level.
+and sales/service workers are more likely to drive, and workers in
+large metropolitan areas are less likely to drive (once again, pre-
+sumably because of the greater availability of public transit).
+Similar to the selection model in Table 3 on the likelihood of
+adults driving to work, the outcome models on children’s mode
+in Table 4 are consistent with expectations. Since the signs and
+the level of signi<U+FB01>cance of the variables in the three models in Ta-
+ble 4 are almost identical to the probit models on children’s mode
+choice in Table 2, they require no further discussion. However, to
+examine the effect of adults electing to drive, the sign of q and
+the v2 tests on q deserve attention. The v2 tests show that q is sta-
+tistically signi<U+FB01>cant at the 1% level in the children’s household
+vehicle model, at the 5% level in the school bus model, and at the
+10% level in the walk or bicycle model. The signi<U+FB01>cant positive sign
+of q in the model on household vehicles for children indicates that
+the factors that in<U+FB02>uence adults’ self-selection to drive to work in-
+crease the probability of children being driven to work. On the
+other hand, the negative signs of q in the walk or bicycle model
+and the school bus model indicate that the same forces decrease
+the probability of children walking, bicycling, or taking a school
+bus.
+In addition to the outcome models in Table 4, children’s modes
+were also predicted by the Heckman model conditional upon
+adults walking or bicycling and taking transit to work. These
+models showed expected results. The value of q and the v2 tests
+on q from these models are presented in Table 5.
+/ Journal of Transport Geography 31 (2013) 54–63
+
+vehicle, walk or bike, or school bus.
+Household vehicle                  Walk or bike                 School bus
+b                  Std. Err.       b             Std. Err.      b              Std. Err.
+0.865***         0.069           0.503***     0.119          2.097***      0.075
+0.630***          0.040             1.145***    0.045          0.531***      0.052
+0.180***          0.040             0.510***    0.046          0.220***      0.047
+
+0.082***          0.031           0.593***     0.047            0.367***     0.034
+0.264***          0.029           1.703***     0.058            0.776***     0.032
+0.199***         0.017           0.503***     0.033          0.046***      0.018
+0.103***          0.016             0.143***    0.031            0.078***     0.017
+0.024             0.027           0.587***     0.042            0.341***     0.029
+0.984***          0.028             0.368***    0.067            1.092***     0.031
+0.089**          0.038           0.010        0.068          0.131***      0.040
+0.126***          0.011             0.041**     0.020            0.132***     0.011
+0.067***         0.025             0.173***    0.044          0.138***      0.027
+0.020             0.023           0.393***     0.051            0.132***     0.024
+0.043*            0.024             0.036       0.052            0.024        0.024
+0.293***          0.040           0.089        0.072            0.347***     0.042
+0.104***          0.027             0.055       0.051            0.084***     0.028
+
+0.041*           0.025           0.082        0.050          0.050*        0.026
+0.061***         0.023             0.097**     0.046          0.112***      0.024
+0.128***         0.027             0.063       0.050          0.116         0.028
+0.053*           0.031           0.308***     0.051            0.076        0.033
+0.226***          0.036           0.147**      0.070            0.228***     0.037
+0.154***         0.030             0.075       0.049          0.206***      0.032
+0.003             0.026           0.100**      0.045            0.058**      0.028
+
+0.030             0.024             0.148***    0.050            0.003        0.025
+0.020            0.023             0.138***    0.048          0.060**       0.024
+0.042*            0.022             0.238***    0.044          0.057**       0.024
+0.458***         0.036           0.590***     0.051          0.098**       0.038
+26,072                             26,072                       26,072
+16,556                            4141                        14,773
+2634                               6005                         3885
+0.0000                             0.0000                       0.0000
+0.074                              0.420                        0.116
+
+
+
+
+
+
+
+
+The <U+FB01>rst column of Table 5 shows the modes used by adults in
+the selection equation and the subsequent columns show the value
+of q and v2 tests for the outcome models on children’s mode. It is
+evident from the results that adults’ decision to drive affects all
+modes used by children, whereas adults’ decision to take public
+transit to work has no effect on children’s modes. Interestingly,
+adults’ decision to walk or bicycle is positively associated with
+children’s propensity to walk or bicycle, but it has no effect on chil-
+dren using the two other modes. Together, these results indicate
+that household adults’ choice of driving has a greater effect on chil-
+dren’s travel mode to school than any other mode used by adults.
+
+4.5. Does children’s mode to school also affect adults’ mode to work?
+
+The MNL model in Table 1 and the probit models in Table 2
+show that when adult workers travel to work by driving household
+vehicles, children are more likely to be driven to school and less
+likely to walk, bicycle, or take a school bus. Since these models
+treated adults’ mode to work as exogenous, they showed only an
+association between the two. The Heckman models in Table 4
+added an element of causality to this relationship by predicting
+adults’ mode through the selection equation and making children’s
+mode dependent on that selection.
+Although it makes more intuitive sense to hypothesize that
+adults in a household choose a lifestyle within which children
+adapt and, therefore, children’s mode is more likely to depend on
+
+D. Deka / Journal of Transport
+Table 3
+Probit model on workers’ likelihood of driving to work (the selection model).
+Variables                                               b            Std.
+Err.
+Intercept                                                 0.299**    0.122
+Distance to work less than 1 mi. (1, 0)a
+***
+Distance to work 1–5 mi. (1, 0)                           1.176      0.051
+Distance to work 5–10 mi. (1, 0)                          1.533***   0.055
+Distance to work 10–15 mi. (1, 0)                         1.459***   0.057
+
+Distance to work 15 miles or more (1, 0)                  1.287***   0.047
+Full time worker (1, 0)                                   0.035      0.047
+Flex time allowed at work (1, 0)                        0.118***    0.031
+Male worker (1, 0)                                      0.387***    0.035
+
+Worker lives in owned home (1, 0)                         0.347***   0.047
+Worker lives in detached home (1, 0)                      0.265***   0.042
+Number of children under 18 in household                  0.030*     0.017
+Number of adults in household                           0.012       0.023
+Household income less than $25,000 (1, 0)               0.225***    0.065
+Household income $25,000–$50,000 (1, 0)                 0.027       0.051
+
+Household income $50,000–$75,000 (1, 0)a
+Household income $75,000–$100,000 (1, 0)                  0.034      0.048
+Household income $100,000 or more (1, 0)                0.019       0.045
+Worker has less than bachelor’s degree (1, 0)a
+Worker has bachelor’s degree (1, 0)                       0.026      0.040
+
+Worker has graduate or professional degree (1, 0)       0.183***    0.044
+Professional, managerial or technical worker (1, 0)a
+Manufacturing or construction worker (1, 0)               0.096*     0.049
+Administrative or clerical worker (1, 0)                  0.028      0.058
+Sales or service worker (1, 0)                            0.085***   0.042
+Worker has medical condition affecting travel (1, 0)    0.311***    0.099
+
+Worker’s age 25–29 years (1, 0)                           0.046      0.096
+Worker’s age 30–44 years (1, 0)                           0.119**    0.058
+Worker’s age 45–54 years (1, 0)                           0.025      0.058
+Worker’s age 55 years or above (1, 0)a
+Worker is African American (1, 0)                       0.227***    0.057
+
+Worker is Hispanic (1, 0)                                 0.097*     0.052
+Worker is foreign born (1, 0)                           0.051       0.044
+
+Not in metro or metro population less than 250,000a
+Metropolitan population between 250,000 and 1 mil.        0.064      0.050
+(1, 0)
+**
+Metropolitan population between 1 and 3 mil. (1, 0)     0.104       0.044
+
+Metropolitan population more than 3 mil. (1, 0)         0.456***    0.040
+
+N                                                       24,730
+
+Log likelihood                                          4374
+Model v2                                                1808
+Prob > v2                                               0.0000
+Pseudo R2                                               0.171
+a
+Referent category for independent variables.
+*
+Signi<U+FB01>cant at the 10% level.
+**
+Signi<U+FB01>cant at the 5% level.
+***
+Signi<U+FB01>cant at the 1% level.
+
+
+adults’ mode than adults’ mode on children’s mode, to test if cau-
+
+sality runs in both directions, the selection and outcome equations
+
+of the previously described Heckman model were switched to pre-
+
+dict children’s mode by the selection equation and adults’ mode by
+
+the outcome equation. These models showed that children being
+
+driven to school has no effect on the likelihood of adults driving
+
+to work (q = 0.117, Prob > v2 = 0.143) or adults walking or bicy-
+
+cling to work (q = 0.200, Prob > v2 = 0.147). Similarly, children
+
+walking or bicycling to school has no effect on adults driving to
+
+work (q = 0.108, Prob > v2 = 0.148) or adults walking or bicycling
+
+to work (q = 0.171, Prob > v2 = 0.145). These results provide addi-
+
+tional evidence supporting the hypothesis that adults’ commuting
+
+mode selection affects children’s travel modes and this relation-
+
+ship is mostly unidirectional.
+
+
+5. Summary of <U+FB01>ndings
+
+Like many past studies, this paper provided results from probit
+and multinomial logit models on children’s travel mode to school
+by treating distance to school, children’s characteristics, household
+Geography 31 (2013) 54–63                                             61
+characteristics, school characteristics, parents’ perceptions, and
+place characteristics as exogenous. These results are consistent
+with past studies. In addition, the paper provided results from
+Heckman probit models to show the relationship between adults’
+mode to work and children’s mode to school. The variables used
+in the Heckman models also showed consistency with past studies
+
+and the probit and MNL models. Together, these models provide
+
+
+evidence that distance to school, children’s age and gender, school
+type, school policies on walking, household income, type of dwell-
+ing, size of metropolitan area, and certain parental perceptions
+in<U+FB02>uence children’s travel mode to school.
+
+For school of<U+FB01>cials, planners, and researchers concerned about
+
+walking and bicycling to school, the study provides some useful
+evidence. First, it shows that schools’ walk-alone restriction re-
+duces the likelihood of walking and bicycling by children. Second,
+public school students are more likely to walk than private school
+
+students. Third, like many other studies, it shows that the likeli-
+
+hood of walking and bicycling decreases with distance to school.
+However, when schools are more than a mile away, trips are more
+likely to be made by school bus instead of household vehicles.
+
+Fourth, parents’ perceptions need to be studied more carefully in
+
+future research because a serious concern about traf<U+FB01>c speed was
+found to have no effect on walking or bicycling, whereas children
+were found to walk and bicycle to school more when parents have
+a serious concern about crime.
+
+The most signi<U+FB01>cant contribution of this paper is its ability to
+
+demonstrate through a system of equations that children’s travel
+mode to school is in<U+FB02>uenced by parents’ travel mode to work. Be-
+cause of the structure of the Heckman model, these results can be
+
+considered at least quasi-causal instead of being completely
+
+
+associative.
+The effect of adults’ mode on children’s mode was clearly evi-
+dent when household adults drove to work. The results indicate
+that, in lifestyle decisions, adults’ travel mode to work is more fun-
+
+
+damental than children’s mode to school. It can be suggested from
+
+the observed dominance of adults’ mode over children’s mode in
+
+the household decision-making process that future studies should
+
+also consider the travel patterns of household adults when predict-
+ing children’s mode to school so that the effects of other variables
+are not overestimated.
+
+The evidence presented in this study can help to shape the over-
+
+all transportation planning policies and practices of cities, counties,
+
+and states, as well as the efforts by state departments of transpor-
+
+tation under the federal SRTS program and by the schools partici-
+pating in the program. The study’s conclusion that children are less
+likely to walk or bicycle when adults in the household drive to
+
+work indicates that policies and practices that affect driving to
+
+work also affect children’s mode to school. Thus, free or subsidized
+
+parking at work, high capacity of roads relative to traf<U+FB01>c volume,
+
+low employment density, and low gasoline tax can all be expected
+
+to decrease walking and bicycling to school by children, whereas
+
+developing land in a manner that promotes walking by adults to
+
+work could potentially increase walking and bicycling to school
+
+by children. The results suggest that promoting public transit op-
+
+tions for commuting by adults may have no discernible impact
+
+on children’s walking or bicycling to school.
+
+The observed association between adults’ travel mode to work
+
+and children’s mode to school should also make those involved
+
+in promoting walking and bicycling under the SRTS program aware
+
+that improving walking and bicycling environments around
+schools cannot entirely determine whether children will walk or
+bicycle to school. While they may be important to a certain degree,
+ultimately how children travel to school also depends on how the
+adults in their households travel to work. Given the interconnec-
+tion between adults’ travel to work and household children’s travel
+to school, it may be necessary to let parents play a signi<U+FB01>cant role
+
+62                                                             D. Deka / Journal of Transport Geography 31 (2013) 54–63
+Table 4
+Heckman probit models on children’s travel mode to school when adults drive to work (the outcome models).
+Variables                                                               Household vehicle                     Walk or bicycle                    School bus
+b                   Std. Err.         b                  Std. Err.       b                  Std. Err.
+Intercept                                                                 1.408***          0.071             1.030***          0.134           2.161***          0.078
+Distance to school less than 1/4 mi. (1, 0)                             0.652***           0.043               1.199***         0.050            0.509***         0.055
+Distance to school 1/4–1/2 mi. (1, 0)                                   0.193***           0.043               0.542***         0.052            0.210***         0.050
+Distance to school 1/2–1 mi. (1, 0)a
+Distance to school 1–2 mi. (1, 0)                                       0.107***           0.033             0.516***          0.052             0.324***         0.036
+Distance to school 2 mi. or more (1, 0)                                 0.315***           0.031             1.612***          0.065             0.754***         0.034
+Child age between 5 and 9 (1, 0)                                          0.189***          0.018             0.532***          0.037            0.044**          0.018
+Male child (1, 0)                                                       0.107***           0.017               0.139***         0.034             0.091***         0.018
+Walk alone restriction for all or part of K-8 grades (1, 0)             0.040              0.029             0.574***          0.046             0.334***         0.031
+Child attends public school (1, 0)                                      1.030***           0.030               0.365***         0.077             1.133***         0.033
+Child belongs to single parent household (1, 0)                           0.092**           0.040             0.057             0.076            0.101**          0.042
+Number of children in age 5–15 in household                             0.127***           0.011               0.045**          0.022             0.128***         0.012
+Parent seriously concerned about crime (1, 0)                             0.081***          0.027               0.168***         0.049            0.138***         0.029
+Parent seriously concerned about traf<U+FB01>c volume (1, 0)                   0.035              0.025             0.401***          0.056             0.136***         0.025
+Parent seriously concerned about traf<U+FB01>c speed (1, 0)                    0.048*             0.025               0.067            0.056             0.023            0.025
+Household income less than $25,000 (1, 0)                               0.311***           0.044             0.088             0.082             0.363***         0.045
+Household income $25,000–$50,000 (1, 0)                                 0.102***           0.028               0.050            0.055             0.074**          0.030
+Household income $50,000–$75,000 (1, 0)a
+Household income $75,000–$100,000 (1, 0)                                  0.050*            0.026             0.084             0.054            0.058**          0.027
+Household income $100,000 or more (1, 0)                                  0.080***          0.024               0.095*           0.049            0.121***         0.025
+Child lives in detached home (1, 0)                                       0.100***          0.029               0.052            0.056            0.116***         0.030
+Child lives in owned home (1, 0)                                          0.058*            0.034             0.350***          0.057             0.048            0.036
+Child belongs to African American household (1, 0)                      0.199***           0.038             0.100             0.077             0.227***         0.039
+Child belongs to Hispanic household (1, 0)                                0.164***          0.032               0.076            0.054            0.209***         0.035
+Household has foreign-born adult (1, 0)                                   0.006             0.028             0.133***          0.049             0.047            0.030
+Not in metro or metro population less than 250,000 (1, 0)a
+Metropolitan population between 250,000 and 1 mil. (1, 0)               0.031              0.025               0.102*           0.054             0.013            0.026
+Metropolitan population between 1 and 3 mil. (1, 0)                     0.001              0.024               0.139***         0.050            0.043            0.025
+Metropolitan population more than 3 mil. (1, 0)                         0.052**            0.025               0.226***         0.049            0.026            0.026
+q                                                                         0.237***          0.087             0.261*            0.129            0.243**          0.092
+v2(q – 0) on LR test                                                    6.83                                  3.29                               5.91
+Prob > v2(q – 0)                                                        0.009                                 0.070                              0.015
+N                                                                       24,722                                24,722                             24,722
+Log likelihood                                                          19,158                               7759                              17,643
+Model v2                                                                2011                                  2624                               2737
+Prob > v2                                                               0.0000                                0.0000                             0.0000
+a
+Referent category for independent variables.
+*
+Signi<U+FB01>cant at the 10% level.
+**
+Signi<U+FB01>cant at the 5% level.
+***
+Signi<U+FB01>cant at the 1% level.
+Table 5                                                                                         be construed as suggesting that the commuting mode of adults
+Test statistics from Heckman models on children’s mode to school conditional upon               in a household is the only variable that in<U+FB02>uences children’s travel
+adults’ mode to work.
+mode to school. The models in the paper show, in fact, that a num-
+Children’s mode to school                                          ber of additional variables pertaining to the children themselves,
+Driven to school       Walk or bicycle         School bus          their households, distance to school, and certain characteristics
+of the metropolitan areas where they live, also in<U+FB02>uence how they
+Adults’ mode to work
+Driving                                                                                    travel to school.
+q                       0.237                0.261                  0.243
+Prob > v2(q – 0)        0.009                  0.070                   0.015
+References
+Public transit
+q                       0.020                0.035                  0.504
+Asensio, J., 2002. Transport mode choice by commuters to Barcelona’s CBD. Urban
+Prob > v2(q – 0)        0.954                  0.946                   0.100
+Studies 39 (10), 1881–1895.
+Walk or bicycle                                                                            Bärnighausen, T., Bor, J., Wandira-Kazibwe, S., Canning, D., 2011. Correcting HIV
+q                     0.143                   0.358                   0.001                 prevalence estimates for survey nonparticipation using Heckman-type
+Prob > v2(q – 0)        0.180                  0.012                   0.990                 selection models. Epidemiology 22 (1), 27–35.
+Ben-Akiva, M., Lerman, S.R., 1985. Discrete Choice Analysis: Theory and Application
+Note: Values smaller than 0.10 are shown in bold to indicate signi<U+FB01>cance at the 10%                 to Travel Demand. MIT Press, Cambridge, MA.
+level.                                                                                          Bhat, C.R., Sardesai, R., 2006. The impact of stop-making and travel time reliability
+Detailed results from these models are not presented in the paper because of space                  on commute mode choice. Transportation Research Part B 40 (9), 709–730.
+limitations, but they can be obtained from the author by request.                               Bratti, M., McKnight, A., Naylor, R., Smith, J., 2004. Higher education outcomes,
+graduate employment and university performance indicators. Journal of the
+Royal Statistical Society: Series A 167 (3), 475–496.
+Briggs, D.C., 2004. Casual inference and the Heckman model. Journal of Educational
+and Behavioral Statistics 29 (4), 397–420.
+in programs promoting walking and bicycling by children to                                      Cervero, R., 1996. Mixed land-uses and commuting: evidence from the American
+school.                                                                                             Housing Survey. Transportation Research Part A 30 (5), 361–377.
+Finally, although the statistical models in the study clearly                             Cervero, R., 2002. Built environments and mode choice: toward a normative
+framework. Transportation Research Part D 7 (4), 265–284.
+show an association between household adults’ travel mode to                                    Cervero, R., Kockelman, K., 1997. Travel demand and the 3Ds: density, diversity, and
+work and children’s travel mode to school, the results should not                                   design. Transportation Research Part D 2 (3), 199–219.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,998 @@
+
+
+Transport Policy 37 (2015) 203–211
+Contents lists available at ScienceDirect
+Transport Policy
+journal homepage: www.elsevier.com/locate/tranpol
+Promoting active transportation modes in school trips
+Alireza Ermagun a,n, Amir Samimi b
+a
+Humphrey School of Public Affairs, University of Minnesota, 301 19th Avenue, Minneapolis, MN 55455, USA
+b
+Department of Civil Engineering, Sharif University of Technology, Azadi Avenue, Tehran, Iran
+art ic l e i nf o                                        a b s t r a c t
+Article history:                                         Urban and transportation planners have put a special focus on students' health and <U+FB01>tness in the past
+Received 13 March 2014                                   decade, however they struggle to <U+FB01>nd effective policies to promote walking and biking for school trips.
+Received in revised form                                 Commuting to school is an opportunity to embed a regular physical activity in students' daily routines
+22 September 2014
+and prevent many health issues that are stimulated by physical inactivity during childhood. A three level
+Accepted 30 October 2014
+nested logit model is introduced to explain the motives behind school trip modal selection. Four choice
+Available online 25 November 2014
+situations, namely walking, driving, school busing, and taking public transit are considered. This study,
+Keywords:                                                particularly, underscored the signi<U+FB01>cance of model misspeci<U+FB01>cation in terms of policy outcomes, since
+School trip                                              multinomial logit models are typically adopted in the literature and have strong and, in many cases,
+Mode choice
+unrealistic assumptions. Elasticity analysis of the MNL model showed an indirect elasticity of vehicle
+Policy
+ownership of  0.13 for non-automobile modes, while NL model provides different elasticities of  0.12,
+Three level nested logit
+Tehran                                                    0.20 and  0.08, respectively for public, school bus, and walk modes. This misspeci<U+FB01>cation results in
+over estimating the reduction in the share of students who walk to school when vehicle ownership
+increases. Moreover, a wide range of policy-sensitive variables along with their effect magnitude was
+discussed and compared with the previous studies. The results showed that one percent increase in the
+probability of walking to school is expected for every 0.04 percent increase in auto travel time, 0.07
+percent increase in the normalized-to-income cost of driving, 0.08 percent decrease in vehicle owner-
+ship, 0.03 percent increase in distance to public transit, or 2.37 percent decrease in commute distance.
+Safety was also found to be very in<U+FB02>uential on active commuting, such that addressing the safety concern
+of parents is expected to increase propensity of active commuting to school by around 60 percent.
+& 2014 Elsevier Ltd. All rights reserve
+1. Introduction                                                                              Nazelle, 2012; Pedestrian and Bicycle Information Center, 2008).
+Parents, on the other hand, have understandable reservations that
+A global increase in the children obesity rate has triggered                            have led to a signi<U+FB01>cant decline in the share of active modes.
+policy-makers to promote a more active lifestyle among students.                                 It is essential to study the motives behind the mode choice
+Many studies have shown that cardiovascular diseases along with                              decisions in school trips, and implement effective policies to
+several other health issues in adulthood are rooted in a lack of                             promote AMT. Students' mode choice have received a growing
+physical activity during childhood and adolescence (Andersen                                 attention since 1994, when Towner conducted a descriptive ana-
+et al., 2003, 2006). Since walking is the most common form of                                lysis on students' modal selection behaviors in England and
+physical activity for all ages (Saelens et al., 2003), transportation                        measured exposure to injury risk in school trips (Towner et al.,
+1994). Since then a wide range of factors are found to in<U+FB02>uence
+and urban planners struggle to <U+FB01>nd policies that promote active
+students' active travel to school that includes 1) household de-
+modes of transportation (AMT). This is, particularly, deemed as an
+mographic and socio-economic factors, 2) students' character-
+opportunity for children to perform regular physical activity and
+istics, 3) built-environment variables, and 4) socio-economics of
+diminish several diseases throughout their life (Cavill et al., 2008;                        the residential neighborhood. Table 1 provides a summary of ex-
+Tudor-Locke et al., 2002). AMT is also a prospect for city of<U+FB01>cials to                       planatory variables, alternative modes of school travel, and data
+decrease congestion levels in the morning peak hours and thereby                             analysis methods that are applied in some previous studies. Ac-
+mitigate externalities of the transportation system (Rabl and                                cording to this table, very few studies (Larsen et al., 2009;
+McDonald and Aalborg, 2009; Yarlagadda and Srinivasan, 2008)
+n
+Corresponding author.
+had a complete coverage on the alternative modes, while the rest
+E-mail addresses: ermag001@umn.edu (A. Ermagun),                                        focused on a subset of alternatives. Moreover, an overview of the
+asamimi@sharif.edu (A. Samimi).                                                              explanatory variables reveals that commute distance to school,
+http://dx.doi.org/10.1016/j.tranpol.2014.10.013
+0967-070X/& 2014 Elsevier Ltd. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A. Ermagun, A. Samimi
+students' gender, age, and vehicle ownership have been widely
+used, while other important variables such as travel time, cost,
+comfort, and speci<U+FB01>cations of the transit system have received a
+limited attention. There are comprehensive reviews (Panter et al.,
+2008; Pont et al., 2009; Ding et al., 2011; Wong et al., 2011) of the
+past studies that compared in<U+FB02>uential factors of active school
+travel. Furthermore, a review of the analysis method shows that
+descriptive analysis and binary logit models are predominantly
+used to explain school travel modes, while very few studies have
+implemented multinomial logit (MNL) models to explain this be-
+havior. We found very occasional attempts (Ewing et al., 2004)
+that tried to develop more advanced econometric models (e.g. a
+nested logit speci<U+FB01>cation), but the outputs was unsuccessful in
+
+practice.
+
+
+The current literature has certain gaps that have motivated this
+research. First, many previous studies (Mitra et al., 2010; McMillan,
+
+2007) distinguishes between only two alternatives with binary
+
+
+
+choice models. Although this approach simpli<U+FB01>es the modeling
+
+
+methodology, the results provide a vivid picture of school travel
+modal split that limits applicability of the <U+FB01>ndings. Second, a few
+
+studies (Ewing et al., 2004; McDonald, 2008a) that distinguishes
+
+between multiple travel modes, have potential model mis-
+
+speci<U+FB01>cation issues. This is because IIA (independence of irrelevant
+
+alternatives) property of MNL is not intuitively acceptable in
+
+school mode choice decisions, unless a very wide range of ex-
+
+planatory variables reduces the effect of correlated unobserved
+
+factors. IIA property implies that characteristics of a third alter-
+
+native (say school busing) do not change the relative odds be-
+
+tween the two alternatives (say walking and driving). This is an
+inappropriate assumption, since IIA of the MNL model indicates
+that likelihood of taking a school bus and having the kid walk
+
+alone would increase proportionally, if the parents cannot drive
+their kids to school. This is, intuitively, not true, as parents who
+
+take a school bus and those who ride their kids to school could
+
+have similar safety reservations and therefore, taking a school bus
+
+seems more probable when they cannot drive the kids to school.
+
+Lastly, parents have reservations about their kids’ travel method,
+
+including safety, comfort, and reliability, that are expected to in-
+
+<U+FB02>uence students’ mode choice decisions. These variables have re-
+
+ceived very limited attention in previous models that leads to a
+
+form of missing variable model misspeci<U+FB01>cation.
+The rest of the paper is structured as follows. First, the mod-
+eling methodology is brie<U+FB02>y reviewed, followed by a description of
+the empirical data that is collected for this purpose. The estimation
+results of a three level nested logit (NL) model is, then, presented
+and analyzed from a policy perspective. Finally, the paper con-
+cludes with a summary and recommendations for future research.
+
+
+2. Method
+
+A multinomial logit model has a closed form formula and a
+straightforward estimation method. However, assumption of IID
+(independently and identically distributed) extreme value error
+terms induces certain limitations that are discussed in details by
+Train (2009). IIA property of MNL is the primary consequence of
+IID assumption, which is intuitively unacceptable in many cases;
+unless all the unobserved factors that make the error terms de-
+pendent, explicitly enter the model (Train, 2009). The NL model
+speci<U+FB01>cation, an extension of MNL, was introduced by Ben-Akiva
+and Lerman (1985) to capture correlation among alternatives to
+some extents. Although IIA is maintained within each nest, it is
+relaxed to IIN (independence of irrelevant nests) for alternatives in
+different nests. This allows variance of errors to differ across the
+nests, and yet the choice probabilities have a closed-form formula.
+/ Transport Policy 37 (2015) 203–211                                                205
+The utility that student j perceives from travel mode i is the
+sum of a systematic utility (Vji) and an error term. The probability
+of choosing each mode is given by Eq. (1) (Coldren and Koppel-
+man, 2005), assuming a linear-in-parameter function of ex-
+planatory variables for the systematic utility and maximizing the
+likelihood of occurrence for the sampled observations. In this
+equation, subscript n is omitted for ease of representation, Pm is
+the probability of choosing an upper-level nest (limb), Pn|m is the
+conditional probability of choosing a lower-level nest (branch)
+given a limb, Pi|n and is the conditional probability of choosing
+an alternative given a branch. µ is the inverse logsum parameter,
+also known as the coef<U+FB01>cient of inclusive value (IV). tn and
+tm are, respectively, given by tn = ln( <U+2211>i`<U+2208> N exp(µn Vi`)) and
+j
+µ
+tm = ln( <U+2211>i`<U+2208> N exp( µm tn`)).
+m
+n`
+Pi = Pm × Pn | m × Pi | n
+µ
+1
+exp( µ tm)                exp( µm tn)
+m                          n
+exp(µn Vi)
+=                1
+×              µ      ×
+<U+2211>m`<U+2208> M exp( µ tm`)         <U+2211>n`<U+2208> N exp( µm tn`)   <U+2211>i`<U+2208> n exp(µn Vi`)
+m`                          n`                         (1)
+
+NL models may be estimated either sequentially or simulta-
+
+neously. The <U+FB01>rst estimation method is termed limited informa-
+
+tion maximum likelihood (LIML), and the latter is known as full
+
+information maximum likelihood (FIML) estimation. Although
+
+FIML estimation is more challenging and one may encounter
+
+convergence problems, Hensher (1986) showed that LIML provides
+
+statistically inef<U+FB01>cient estimates for a NL model. Therefore, a FIML
+
+estimation method is adopted to obtain consistent, asymptotically
+
+normal, and ef<U+FB01>cient estimates.
+
+
+
+3. Data
+
+
+To study school trip mode choice decisions, three folds of data
+
+were obtained: students’ travel information, household demo-
+
+graphics, and transportation and built-environment character-
+
+istics. The data was obtained for Tehran, with an area of 700 km2, a
+
+population of 7.5 million, and 620 traf<U+FB01>c analysis zones. Around 15
+
+million daily trips are made in Tehran, 27 percent of which are
+
+educational (Municipality of Tehran, 2006). There were 5352
+
+schools and 1,119,571 registered k-12 students in Tehran in 2010
+(Statistics of Minister of Education, 2012). Public schools have a
+dominant share and are mainly funded by the government.
+Therefore, the administrations are relatively more under the in-
+<U+FB02>uence of the government. Private schools, on the other hand,
+have a higher academic quality and very costly in some cases.
+Public schools, as opposed to private schools, are “zoned schools”
+meaning that only those who live in a designated area could be
+registered. We observed a range of 60 m to just about 10 km for
+the commute distance to school in Tehran.
+A paper-based survey was conducted in May 2011, targeting
+4900 middle-school and high-school students throughout Tehran.
+Primary school students were not covered, as the literature (Panter
+et al., 2008; McMillan, 2005) suggests a relatively different mode
+choice decision making process for them. A strati<U+FB01>ed random
+sample was taken based on gender and level of education, since
+schools are gender-segregated in Iran. Further, parents were asked
+to <U+FB01>ll out the questionnaires, because they have more precise in-
+formation about household demographics and in<U+FB02>uence on stu-
+dents’ choice of travel mode (McMillan, 2005). The survey had a
+response rate of 72 percent, and collected information on <U+FB01>ve
+folds: 1) household socio demographics (e.g. household size, in-
+come, education, vehicle ownership, working status of parents), 2)
+student characteristics (e.g. age, gender, grade), 3) built-environ-
+ment attributes (e.g. walk time to school, access to public transit,
+commuting to or from a restricted traf<U+FB01>c zone), 4) school trip
+
+206                                             A. Ermagun, A. Samimi / Transpor
+Fig. 1. Children's mode
+behaviors (e.g. escort pattern, primary mode of travel, travel cost,
+and trip chain), and 5) parental reservations about school trips
+(e.g. safety, reliability, duration, and comfort).
+Four modes of travel are considered in this study: walk, auto
+drive, school bus, and public transportation. Travel time and cost
+of auto and transit is essential for a mode choice study and was
+obtained from Tehran Comprehensive Transportation and Traf<U+FB01>c
+Studies Company (TCTTS) (2012). TCTTS estimated travel cost and
+time from an EMME2 model that was recalibrated in 2010. Travel
+time of the walking mode, on the other hand, was asked in the
+survey and double checked with the commute distance. Bike mode
+was not considered, since less than 1 percent of students reported
+to use bicycles for school trips. Share of each mode, classi<U+FB01>ed by
+gender, school level, and commute distance is illustrated in Fig. 1.
+This <U+FB01>gure also illustrates the relationship between parental con-
+cerns and share of active modes among genders. Fig. 1(a) shows
+that girls are more inclined, in general, toward walking to school.
+However, as per Fig. 1(b), commute distance is negatively
+Fig. 2. Tree structure for
+t Policy 37 (2015) 203–211
+choice descriptive.
+correlated with walking. Further, Fig. 1(c) and (d), respectively,
+shows the share of active travel modes for girls and boys. A de-
+scriptive analysis of parental reservations reveals that 85 percent
+of parents whose kids avoid active modes of travel are primarily
+concerned travel safety.
+
+
+4. Model
+
+A three level NL model was developed in this study to explain
+choice of school travel mode among walk, automobile, school bus,
+and public transportation. Explanatory variables that are used to
+model the choice situation are de<U+FB01>ned in Table 2 and estimation
+results for MNL and NL models are reported in Table 3. The tree of
+the NL model is structured in a way that the upper level has two
+limbs that cleave into active and non-active limbs and the lower
+level of the non-active limb divides into public and private bran-
+ches (Fig. 2). The active limb and public branch have one
+the nested logit model.
+
+A. Ermagun, A. Samimi / Transport Policy 37 (2015) 203–211                                                    207
+alternative in their lower levels, and thus, the IV parameters are                         5. Analysis of results
+<U+FB01>xed to one. The remaining IV parameters, however, are estimated.
+IV parameters have to meet certain conditions in order for a                                   In<U+FB02>uential factors on school trip mode choice decisions are
+nested logit model to be consistent with the global utility max-                           reported in Table 3. Further, elasticities of some explanatory
+imization theory. In a two level NL, the IV parameters should be                           variables are estimated through sample enumeration (Table 4). An
+elasticity value shows the percentage of change in the choice
+positive and less than one, while in a three level NL, the IV para-
+probability as a result of one percent increase in the explanatory
+meter of a lower nest has to be less than that of the upper nest, as
+variable. Estimated elasticities are compared with the <U+FB01>ndings of
+well. The IV parameters of the non-active limb and the private
+McDonald (2008a) and Ewing et al. (2004) in Table 5. One needs to
+branch are, respectively, 0.79 and 0.74, and both are statistically                        consider differences in demographics, socio-economics, culture,
+positive and less than one, according to a Wald test. This implies                         built-environment, and analysis method, when comparing the
+that the MNL logit has misspeci<U+FB01>cation issue and, therefore, NL                            outputs. In<U+FB02>uence of age and gender of the students are discussed,
+estimates should be employed for policy assessment. School bus is                          followed by some household demographics such as income, edu-
+classi<U+FB01>ed under the private branch, given the characteristics of                           cation, and vehicle ownership on the children tendency to walk to
+school bus system in Tehran. School administrations, usually, sign                         school. Then, parental concerns are discussed that include safety,
+an agreement with private taxi service agencies to employ regis-                           comfort, reliability, and duration of trip.
+tered drivers for this purpose. Parents pay the entire cost, directly                          We found a positive relationship between students' age and
+to the taxi company. Recently, the municipality required a short                           their tendency to walk or take transit to school. On the contrary,
+the use of school bus decreased with an increase in age. This could
+training course for school taxi drivers in Tehran. This travel mode
+be attributed to the fact that when children get older they seek a
+is considered private, because a taxi or van drops off 4 to 10 stu-
+more independent lifestyle (Fyhri and Randi, 2009). In fact, high-
+dents to school.
+school students are 11 percent more likely to walk compared to
+Student's t-test is conducted to show a statistically signi<U+FB01>cant
+middle-schoolers. Contrary <U+FB01>ndings about the effect of student’s
+effect of each explanatory variable in Table 3. All the variables are                      gender on AMT utilization are reported in the literature. Although
+of the right sign and signi<U+FB01>cant at a 99 percent con<U+FB01>dence interval                        some studies (McMillan et al., 2006) found a higher propensity for
+in both MNL and NL models, except for school bus travel time                               boys to use AMT, others (Panter et al., 2010) found the opposite.
+(SBUS_TIME), income (INCOME), and population density (POP-                                     Dissimilarities in culture, demographics, built-environmental
+DENS). Although the latter two variables are signi<U+FB01>cant at 99                              factors, and analysis methods are possible reasons for these con-
+percent con<U+FB01>dence interval in the NL model, they have a 95 per-                            tradictory <U+FB01>ndings. A study (Leslie et al., 2010) in Australia, for
+cent con<U+FB01>dence interval in the MNL model. Likelihood ratio test is                         instance, targeted 2961 10 to 14 years old students and argued that
+also conducted to measure the overall goodness of <U+FB01>t of the                                gender of the kids affect their tendency to walk and bike. Although
+models. The NL model has a McFadden pseudo-rho-squared                                     they found girls to be more willing to walk (44.3 percent versus
+37.4 percent), boys were more likely to bike to school (22.4 percent
+(likelihood ratio index) of 38 percent which is slightly higher than
+versus 8.3 percent). We also found boys more reluctant to walk.
+32 percent likelihood ratio index of the MNL model. The NL model
+This could be due to some female students’ willingness to take
+has a better explanatory power and the signi<U+FB01>cant IV parameters
+after school time as an opportunity to socialize with friends and be
+convey a misspeci<U+FB01>cation bias in the MNL model. This would re-                             less constrained for a short while (Samimi and Ermagun, 2012a).
+sults in incorrect interpretations of the results and eventually                               Income, car ownership, and parental education are also re-
+leads to misdirecting policy assessments. Signi<U+FB01>cance of model                             cognized in school trip AMT utilization. A negative relationship
+speci<U+FB01>cation is further elaborated in the next section along with                          that income and vehicle ownership have with AMT propensity is
+an in-depth analysis of the models.                                                        widely recognized (McMillan, 2007; McMillan et al., 2006,
+Table 2
+Description of explanatory variables used in the model.
+Variable       Description                                                                                                                           Average  Std. Dev.
+WALKSCH        1: less than 10/2: 10–20/3: 20–30/4: 30–40/5: 40–50/6:more than 50 min walk time to school                                              2.6392    1.5442
+GENDER         1:Male/0:Female                                                                                                                         0.3908    0.4879
+AGE            Age of children between 12–17 years old                                                                                                14.1064    1.6103
+AUTO           Number of cars in a household                                                                                                           0.9984    0.6828
+NON_AUTO       1: Households with no car/0: Otherwise                                                                                                  0.2077    0.4057
+INCOME         1: less than 5/2: 5–10/3: 10–15/4: 15–20/5: 20–25/6: more than 25 million Iranian Rialsa household income                               2.0988    1.2159
+SAFETY         1: If parents are primarily concerned about their children travel safety/0: Otherwise                                                   0.3165    0.4651
+RELIABLE       1: If parents are primarily concerned about their children travel reliability/0: Otherwise                                              0.1817    0.3856
+COMFORT        1: If parents are primarily concerned about their children travel comfort/0: Otherwise                                                  0.1818    0.3857
+DURATION       1: If parents are primarily concerned about their children travel time/0: Otherwise                                                     0.2347    0.4238
+TRF_LIMIT      1: Students that live or study in a limited traf<U+FB01>c zone/0: Otherwise                                                                    0.1124    0.3159
+AUTO_TIME      Automobile travel time to school (min)                                                                                                  9.9057    8.7472
+SBUS_TIME      School bus travel time to school (min)                                                                                                 13.2309   11.2344
+EDUCATION      Educational level of parents 1: less than a high school diploma/2: high school diploma/3: bachelor of science/4: master of science or   2.0295    0.9735
+equivalent/5: higher degrees
+WALKTRNT       Distance between home and the nearest bus station (m)                                                                                 571.2101 449.7286
+POPDENS        Population density in each zone (person per m2)                                                                                         0.0258    0.0128
+ESCORT         1: If parents accompany their kid to school/0: Otherwise                                                                                0.3597    0.4799
+NORM_COST Out-of-pocket automobile travel cost (10 Rials) divide by INCOME                                                                           212.0423 118.8475
+a
+11800 Iranian Rails was equivalent to 1 USD in May 2011.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+208                                                    A. Ermagun, A. Samimi / Transpor
+Table 3
+Mode choice models.
+Variables                         Alternatives                     Multinomial logit
+Coef<U+FB01>cient
+Constant                          Automobile                            4.91nnn
+COMFORT                                                                   0.47nnn
+DURATION                                                                  1.11nnn
+AUTO_TIME                                                               0.03nnn
+NORM_COST                                                               0.002nnn
+AUTO                                                                      0.49nnn
+Constant                          School Bus                            4.44nnn
+COMFORT                                                                   0.78nnn
+RELIABLE                                                                  0.82nnn
+SBUS_TIME                                                               0.003
+TRF_LIMIT                                                                 0.78nnn
+AGE                                                                     0.114nnn
+INCOME                                                                    0.38nnn
+Constant                          Public                                5.42nnn
+TRAFIC_LIMIT                                                              2.15nnn
+AGE                                                                       0.11nnn
+NON_AUTO                                                                  1.21nnn
+EDUCATION                                                               0.52nnn
+WALKTRNT                                                                0.0006nnn
+INCOME                                                                  0.23nn
+SAFETY                                                                  0.59nnn
+EDUCATION                         Active                                0.28nnn
+SAFETY                                                                  1.72nnn
+POPDENS                                                                 12.10nn
+NON_AUTO                                                                  0.95nnn
+ESCORT                                                                  1.82nnn
+GENDER                                                                  0.51nnn
+WALKSCH                                                                 1.27nnn
+TRAFIC_LIMIT                                                              1.48nnn
+Inclusive value parameters:
+Non-active
+Active
+Private
+Public
+Log-likelihood at zero:                                             3404.45
+Log-likelihood at convergence:                                      2280.40
+McFadden Pseudo-R-squared:                                                0.33
+Bayesian information criterion:                                       4789.41
+Sample size:                                                          2653
+nnn nn n
+Note:     ,  ,  means signi<U+FB01>cance at 1 percent, 5 percent, 10 percent level.
+McDonald, 2008b), although the effect magnitudes are different.
+Moreover, a dummy variable (NON_AUTO) for households with no
+private car indicates students from such families are, under-
+standably, more likely to walk or take transit to school. Table 4
+indicates that one percent increase in the family income reduces
+likelihood of public transit use by 0.46 percent, and increase
+chance of driving, walking, and riding on school bus, respectively,
+by 0.06, 0.03, and 0.06 percent. In accordance with Martin et al.
+(2007), however, a negative association between parental educa-
+tion level and tendency to use AMT and public transportation was
+found. This could be attributed either to the positive correlation
+between income and education, or to the fact that educated par-
+ents are more aware of potential risks that exist in walking and
+taking transit.
+Safety, comfort, reliability, and duration of the school trip,
+along with the school or home being located in a limited traf<U+FB01>c
+zone were found to in<U+FB02>uence students’ modal decisions. The <U+FB01>rst
+two factors had been explored in previous studies (McDonald and
+Aalborg, 2009; McMillan, 2007), while the rest have received very
+little (Samimi and Ermagun, 2012b; Ermagun et al., 2014), if any,
+attention. According to Table 3, parents who are concerned about
+their children’s safety are more reluctant to have their kids walk or
+take transit. Further, parents who are primarily worried about the
+t Policy 37 (2015) 203–211
+
+
+Nested logit
+t-statistic          Coef<U+FB01>cient              t-statistic
+ 15.10              7.60nnn                  5.09
+2.88                 0.83nnn                     2.65
+9.33                 1.28nnn                     8.62
+ 4.16               0.038nnn                 4.16
+ 4.36               0.003nnn                 4.87
+5.01                 0.57nnn                     5.10
+ 7.82               7.27nnn                  4.48
+4.79                 1.16nnn                     3.50
+6.35                 0.90nnn                     5.87
+ 0.63               0.01                     1.32
+3.22                 0.80nnn                     3.12
+ 3.21               0.118nnn                 2.86
+7.29                 0.46nnn                     6.74
+ 7.98               6.54nnn                  5.13
+8.28                 2.06nnn                     8.23
+2.66                 0.12nnn                     2.87
+6.26                 1.28nnn                     6.23
+ 5.42               0.54nnn                  5.70
+ 4.16               0.0006nnn                3.73
+ 2.49               0.28nnn                  2.62
+ 4.01               0.59nnn                  3.82
+ 3.90               0.28nnn                  3.71
+ 12.08              1.68nnn                 11.45
+2.54                 12.69nnn                    2.68
+5.13                 0.94nnn                     4.88
+ 13.04              1.82nnn                12.12
+ 4.08               0.53nnn                  4.20
+ 19.04              1.24nnn                16.52
+5.51                 1.12nnn                     3.96
+
+0.78862nnn                  4.95
+1.0(<U+FB01>xed)
+0.74299nnn                  4.97
+1.0(<U+FB01>xed)
+ 3404.45
+ 2110.75
+0.38
+4465.85
+2653
+
+
+comfort of their kids are more willing to use the school bus or
+personal vehicle. School bus is more appealing to those who seek a
+reliable mode, and traf<U+FB01>c restrictions incline students toward
+public transportation, walking, and school bus. As expected, par-
+ents who are concerned about the duration of their kid's travel are
+more willing to use a personal car.
+
+
+6. Policy implementation
+
+There are some policy sensitive variables in the model that
+allows the city of<U+FB01>cials to understand possible ways of promoting
+active school trips. These variables that include travel time, cost,
+vehicle ownership, access to public transit, commute distance to
+school, and students' safety are discussed in the following.
+Auto travel time has a direct elasticity of  0.27, according to
+Table 4. This indicates one percent increase in auto travel time
+discourages parents from driving their kids to school by a prob-
+ability of 0.27 percent. Further, this would result in a marginal
+increase in the share of other modes. Probability of walking, riding
+a school bus, and public transit, respectively, increases by 0.04, 0.1,
+and 0.06 percent. A higher sensitivity of automobile mode to the
+travel time that is arguably relative to congestion level is
+
+A. Ermagun, A. Samimi / Transport Policy 37 (2015) 203–211                                             209
+Table 4
+Elasticities for multinomial logit (MNL) and nested logit (NL) models.
+Attribute              Primary alternative           Public                        Automobile                      School Bus                Active
+MNL              NL           MNL              NL             MNL         NL            MNL         NL
+AUTO_TIME              Automobile                      0.06             0.06         0.25           0.27           0.06        0.10          0.06         0.04
+0.08             0.07          0.24            0.28           0.08        0.10          0.08         0.05
+AUTO                   Automobile                     0.13            0.12          0.36            0.36          0.13       0.20         0.13        0.08
+0.15             0.13          0.24            0.25           0.15        0.19          0.15         0.10
+NORM_COST              Automobile                      0.10             0.10         0.41           0.46           0.10        0.19          0.10         0.07
+0.10             0.09          0.25            0.31           0.10        0.13          0.10         0.07
+SBUS_TIME              School Bus                      0.01             0.03          0.01            0.05          0.03       0.08          0.01         0.02
+0.02             0.05          0.02            0.07           0.02        0.07          0.02         0.04
+AGE                    Public                          1.39             1.52         0.19           0.28          0.19       0.28         0.19        0.17
+0.25             0.29          0.23            0.28           0.23        0.28          0.23         0.21
+School Bus                      0.37             0.31          0.37            0.52          1.23       1.14          0.37         0.22
+0.36             0.27          0.36            0.33           0.40        0.37          0.36         0.22
+INCOME                 Public                         0.44            0.46          0.04            0.06           0.04        0.06          0.04         0.03
+0.28             0.31          0.05            0.05           0.05        0.05          0.05         0.04
+School Bus                     0.25            0.24         0.25           0.37           0.56        0.60         0.25        0.17
+0.37             0.34          0.37            0.45           0.27        0.30          0.37         0.27
+EDUCATION              Public                         0.97            0.97          0.11            0.14           0.11        0.14          0.11         0.09
+0.52             0.55          0.13            0.14           0.13        0.14          0.13         0.10
+Active                          0.21             0.21          0.21            0.21           0.21        0.21         0.36        0.36
+0.20             0.20          0.20            0.20           0.20        0.20          0.32         0.32
+WALKTRNT               Public                         0.34            0.32          0.04            0.05           0.04        0.05          0.04         0.03
+0.28             0.27          0.06            0.07           0.06        0.07          0.06         0.05
+POPDENS                Active                         0.14            0.15         0.14           0.15          0.14       0.15          0.15         0.15
+0.14             0.15          0.14            0.15           0.14        0.15          0.12         0.12
+WALKSCH                Active                          0.94             0.91          0.94            0.91           0.94        0.91         2.44        2.37
+0.74             0.71          0.74            0.71           0.74        0.71          2.45         2.37
+Note I: standard deviation for each elasticity is reported in the Italic format.
+elasticities of 0.10, 0.19, and 0.07, respectively, for public, school
+Table 5
+A comparison of elasticities.                                                              bus, and walk modes are reported in Table 4. Consequences of
+model misspeci<U+FB01>cation is evident in this table, as indirect elasti-
+Variable             Walk                               Automobile                       cities of public, school bus, and walk modes are all equal to 0.10 in
+the MNL model. Therefore, expected share of students who walk to
+Ewing   McDonald Current           McDonald Current
+study                        study              school will be over-estimated; if a taxation policy on automobile
+usage is assessed by a MNL model.
+Walk time             0.66  0.748       2.372        0.104         0.918                  Vehicle ownership has a direct elasticity of 0.36 in the auto-
+Auto time            –       0.010       0.046            0.078       0.277
+mobile mode. This, arguably, indicates that acquiring a second car
+Income                0.84  0.255      0.03/  0.17   0.211         0.06/  0.37
+Age                  –       0.820        0.17/0.22      0.577       0.28/0.52
+in families with one vehicle, increases propensity of automobile
+Population           –       0.116       0.158            0.017       0.153            use in school trips by 36 percent. As a result, the probabilities of
+density                                                                                walking and using public transportation decrease by almost 8 and
+Vehicle               1.16  –            0.088        –             0.369              12 percent, respectively. This estimate should only be considered
+ownership
+as an approximation, because partial derivatives that are used to
+calculate elasticities are valid in a small vicinity of the observation
+understandable, as many parents (10 percent) drive their kids to                           point. Expecting a growing trend in vehicle possession, city plan-
+school on their way to work. Travel time of the school bus, on the                         ners should be alerted of a potential increase in the use of private
+other hand, has a direct elasticity of  0.08 in the NL models, while                      cars and reducing the share of active transportation modes. An
+this number is about  0.03 in MNL model. This is a direct                                 interesting observation in Table 4 that underscores the con-
+consequence of model misspeci<U+FB01>cation that leads to an under-                               sequences on model misspeci<U+FB01>cation is that indirect elasticities of
+estimation of automobile use when school bus becomes less ap-                              vehicle ownership (AUTO) is  0.13 in the MNL model, while NL
+pealing. The results indicate that school bus is a likely replacement                      model provides different elasticities of  0.12,  0.20, and  0.08,
+for private cars, mainly due to the safety and reliability of service.                     respectively for public, school bus, and walk modes. This mis-
+Therefore, it could be considered as a potential alternative for                           speci<U+FB01>cation results in overestimating the reduction in the share
+parents who drive their kids to school.                                                    of students who walk to school, when vehicle ownership
+Cost of travel is normalized to household income to consider a                         increases.
+systematic taste variation among families. This makes the model                                Access to public transit is a key variable that is recommended
+outputs more realistic, since low-income and high-income families                          in many previous studies to be accounted for in school trip mode
+have different reactions to one dollar increase in their kid’s travel                      choice studies. Distance to the nearest bus station that is located
+cost. In our study, one percent increase in the normalized auto cost                       on the way of each student to school was obtained and turned out
+decreases the likelihood of driving by 0.46 percent and 0.23 per-                          to have a signi<U+FB01>cant negative effect on public transit usage. Table 4
+cent, respectively, for low and high income households. This dis-                          shows that one percent increase in the distance to the nearest bus
+tinction is essential for assessing policies that aim at reducing auto                     station decreases the likelihood of transit usage by 0.32 percent.
+driving through different pricing scenarios. Furthermore, a direct                         This would also increase probabilities of auto, school bus, and
+elasticity of  0.46 for the normalized auto travel cost, and indirect                     walk, respectively, by 0.05, 0.05, and 0.03 percent. Again, the MNL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+210                                             A. Ermagun, A. Samimi
+model predicts a similar indirect elasticity of 0.04 for all the non-
+transit modes. Therefore, a misspeci<U+FB01>cation bias slightly over
+predicts share of students who walk to school instead of taking
+transit, when access to the public transit system is decreased.
+Commute distance to school is, arguably, the most prominent
+factor that in<U+FB02>uence walking and biking to school. This parameter
+has received a central attention in smart development of land-use,
+and has the highest absolute value of elasticity in our model.
+Previous studies (Fyhri et al., 2011; Larsen et al., 2009; Ewing et al
+2004; Merom et al., 2006) have unanimously noted a negative
+correlation between commute distance and use of active modes.
+We also found a direct elasticity of  2.4 for walk time to school
+that indicates every one percent increase in the students’ com-
+mute distance discourages use of active modes by a probability of
+
+2.4 percent. Urban planners argue that “sprawl school siting” can
+
+intensify urban challenges and make the land-use patterns in-
+
+ef<U+FB01>cient (Cole et al., 2010; Passmore, 2002). Some recent guide-
+
+lines, on the other hand, in the United States required a minimum
+
+of 30 acre plus one acre for every 100 high-school students
+(Schlossberg et al., 2005). This type of regulation urges developers
+
+to build schools in urban fringes, to acquire enough land and
+
+minimize their costs. City planners, therefore, need to be aware of
+
+the magnitude of such impacts and must have more contempla-
+
+tion on such policies that discourage active modes of commute to
+
+school. In Iran, on the other hands, public policies encourage
+
+neighborhood schools, although regional private schools are also
+
+growing. Results of the model also indicated a direct elasticity of
+
+0.15 for population density in the active mode, and an indirect
+
+elasticity of 0.15 in the other modes. MNL and NL models,
+
+however, predict fairly similar results for this parameter.
+
+Safety is an important concern of parents that is in<U+FB02>uential on
+
+reducing the use of active travel modes. Our model shows that
+
+addressing the safety concerns of parents could increase pro-
+
+pensity of active commuting to school by around 60 percent. This
+
+increase in the probability of walking is calculated setting the
+
+continuous variables at average and discrete variables at their
+
+mode. Therefore, planers need to study policies that increase
+
+parents' perception about their kids' travel safety to school. Safe
+
+Routes to School (McDonald and Aalborg, 2009; Staunton et al.,
+
+2003) and Walk School Bus (Collins and Kearns, 2010; Staunton
+
+et al., 2003; Engwicht, 1992) are implemented in the United States
+to address parental safety concerns and improve share of active
+modes among students.
+
+7. Conclusion
+
+This study was an effort to develop a three level nested logit
+model to explain the behavioral aspects of school trip modal se-
+lection. Understanding the motives behind such behaviors is es-
+sential for city planners to promote active commuting to school.
+This is deemed an opportunity to prevent many health issues that
+are stimulated by a lack of physical activity during childhood.
+Further, promoting active modes for school trips is an opportunity
+
+to decrease the morning peak congestion and thereby mitigate
+externalities of the transportation system. This study introduced a
+
+three level nested logit, a well-grounded econometric model that
+
+deals with strong assumptions of the multinomial logit speci<U+FB01>ca-
+tion. Although there have been some efforts and recommenda-
+tions (Ewing et al., 2004) for applying such a model speci<U+FB01>cation,
+
+to the best of our knowledge, this is the <U+FB01>rst model that is in-
+troduced to the literature of school trip mode choice. This study
+looked at a wide range of explanatory variables and conducted an
+
+in-depth analysis of the models. Particularly, we underscored the
+
+signi<U+FB01>cance of model misspeci<U+FB01>cation in terms of policy outcomes.
+For instance, elasticity analysis of the MNL model showed an
+/ Transport Policy 37 (2015) 203–211
+indirect elasticity of vehicle ownership of  0.13 in the MNL
+model, while NL model provides different elasticities of 0.12,
+ 0.20, and  0.08, respectively for public, school bus, and walk
+modes. This misspeci<U+FB01>cation results in overestimating the reduc-
+tion in the share of students who walk to school when vehicle
+ownership increases. A wide range of policy-sensitive variables
+along with their effect magnitude was also discussed and com-
+pared with the previous studies. Particularly, we found that one
+.,        percent increase in the probability of walking to school is expected
+by every 0.04 percent increase in auto travel time, 0.07 percent
+increase in the normalized-to-income cost of driving, 0.08 percent
+decrease in vehicle ownership, 0.03 percent increase in distance to
+public transit, or 2.37 percent decrease in commute distance.
+
+Safety was also found to be very in<U+FB02>uential on active commuting,
+
+such that we found addressing the safety concern of parents could
+
+increase propensity of active commuting to school by around 60
+
+percent. Yet, this study has the following limitations that could be
+
+possible avenues for future research.
+
+
+Trips of students who take transit to school should be partially
+
+considered as active (Morency et al., 2011), since they need to
+
+walk to the nearest bus station. This could be addressed by
+
+developing a cross nested logit model, and setting the public
+
+transit option in the active limb as well as the non-active limb.
+
+Built-environment variables such as density of green space,
+
+school, sidewalk and other land-use variables that are expected
+
+to promote walking trips were not utilized, due to unavail-
+
+ability of disaggregate data.
+
+School trips are the focus of this study, although walking could
+
+be promoted in other trips such as shopping and recreational
+
+trips.
+
+A systematic taste variation for cost of travel is considered in
+
+this study, while a mixed nested logit speci<U+FB01>cation allows for
+
+accounting for a random taste variation. This is expected to
+
+provide a more realistic analysis of pricing scenarios.
+
+Evaluating latent variables to investigate travel behavior in
+
+school trips is a useful attitude which is not included in the
+
+current study. To consider latent variables and parental atti-
+
+tudes for each concern more information is needed which were
+
+not included in the dataset.
+
+
+
+Acknowledgment
+
+We would like to thank Professor William Greene for the
+helpful comments. The sole responsibility for the content of this
+paper, however, lies with the authors. We also wish to express our
+deep regards to Shahrbanou Khaniki for her kind assistance in data
+collection.
+
+
+
+References
+
+
+Alemu, D.D., Tsutsumi, J.G., 2011. Determinants and spatial variability of after-
+
+school travel by teenagers. J. Transp. Geogr. 19 (4), 876–881.
+Andersen, L.B., Wedderkopp, N., Hansen, H.S., Cooper, A.R., Froberg, K., 2003. Bio-
+logical cardiovascular risk factors cluster in Danish children and adolescents:
+the European youth heart study. Prev. Med. 37, 363–367.
+Andersen, L.B., Harro, M., Sardinha, L.B., Froberg, K., Ekelund, U., Brage, S., An-
+derssen, S.A., 2006. Physical activity and clustered cardiovascular risk in chil-
+dren: a cross-sectional study (The European Youth Heart Study). Lancet 368,
+299–304.
+Ben-Akiva, M., Lerman, S., 1985. Discrete Choice Analysis. MIT Press, London.
+
+Cavill, N., Kahlmeier, S., Rutter, H., Racioppi, F., Oja, P., 2008. Economic analyses of
+transport infrastructure and policies including health effects related to cycling
+and walking: a systematic review. Transp. Policy 15, 291–304.

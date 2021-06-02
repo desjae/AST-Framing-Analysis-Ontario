@@ -1,0 +1,582 @@
+Exploring differences in school travel mode choice behaviour between
+children and youth
+
+A child's school travel behaviour may change with the transition toward adolescence. However, the topic
+remains understudied in current literature. This paper examines school travel mode choice behaviour of
+11-year-old children and 14–15 year old youth in Toronto, Canada. Morning period school trip data was
+analysed using multinomial logit models. Distance to school was the most important barrier to walking
+for both age groups; neighbourhood built environment characteristics (i.e., major street intersections,
+retail density and block density) had a stronger association with a child's odds of walking; and access to
+transit was correlated with only a youth's travel mode outcome. In addition, a male youth was more
+likely to walk than a female youth; gender of a child was not associated with school travel mode. As
+school travel related programmes are beginning to be adapted to the high-school context, our results
+indicate that a current North American model that is largely designed around capital improvement of
+transport infrastructure may not be very successful. Rather, programmes and initiatives should em-
+phasize education, and perhaps attempt to understand and reshape the culture of youth mobility, in
+order to encourage healthy and sustainable travel practices.
+
+1. Introduction                                                                            
+											
+Researchers, policy makers and community-based organiza-                              
+tions have for some time now recognized the potential importance                           
+of active school transportation (AST: travel to/from school by hu-                         
+man powered modes such as walking and cycling) to the healthy                              
+physical and mental development of children. For example, those                            
+who regularly walk to and from school are more active overall                              
+than those who are driven (Active Healthy Kids Canada, 2014;                               
+Faulkner et al., 2009; Mackett, 2013), have greater and/or different                       											
+knowledge about their neighbourhood environment, and poten-										
+tially a stronger sense of community (Active Healthy Kids Canada,										
+2014; Fusco et al., 2012). In addition, recent research in the US										
+estimated that 10–14% of all private automobiles on the road										
+during morning peak hours are related to school trips (McDonald										
+et al., 2011). Notably, most of these school trips are relatively short,                   
+and can potentially be substituted by other more sustainable op-                           
+tions such as walking, cycling and transit; modes that if used could                       
+reduce vehicular emissions, free up road space during peak hours,                               
+and reduce the risk of pedestrian–motor vehicle collisions                                 
+											
+(Badland and Scho<U+FB01>eld, 2005; McDonald et al., 2013).
+Despite potential bene<U+FB01>ts, current school transportation re-
+search has reported a steady decline in AST and transit use across
+the Western nations over the last <U+FB01>ve decades (Buliung et al.,
+2009; Fyhri et al., 2011; McDonald, 2007; van der Ploeg et al.,
+2008). Most of these walking, cycling and transit trips were re-
+placed by trips in private automobiles. Not surprisingly, then, an
+emerging literature has explored school travel behaviour, in order
+to understand and potentially reverse the current trend. With
+regard to AST correlates, the literature has largely focused on four
+major aspects: (a) distance (e.g., McDonald, 2008a; Schlossberg
+et al., 2006; Yang et al., 2012), (b) neighbourhood built and the
+social environment related to traf<U+FB01>c and personal safety (e.g.,
+Larsen et al., 2013; Lee et al., 2013; Mitra and Buliung, 2014; Panter
+et al., 2010a), (c) neighbourhood walkability (e.g., Lee et al., 2013;
+Yang et al., 2012) and (d) the activity and travel patterns of parents
+or adult caregivers (e.g., McDonald, 2008b; Mitra and Buliung,
+2014; Yarlagadda and Srinivasan, 2008). A detailed discussion of
+this literature can be found elsewhere (Mitra, 2013; Stewart, 2011).
+However, the results from this literature are sometimes at odds
+with each other, particularly with regard to the in<U+FB02>uence of the
+neighbourhood environment. For example, while higher re-
+sidential density (McDonald, 2008a) and mixed land use (McMil-
+lan, 2007; Mitra and Buliung, 2014) were identi<U+FB01>ed by some as
+potential enablers of walking, others have reported negative or no
+												
+association (Larsen et al. 2012; Yang et al., 2012; Yarlagadda and
+Srinivasan, 2008). Similarly, higher street density associated with
+the likelihood of walking in some case studies (Panter et al., 2010b;
+Yang et al., 2012); in others, a negative association was docu-
+mented (Schlossberg et al., 2006). Several external effects such as
+differences in school policy (Yang et al., 2012) and the cultural and
+policy-related contexts around mobility in general (Mitra, 2013)
+may explain the inconclusive and often mixed results, in addition
+to, of course, historically rooted differences in neighbourhood
+design. Part of the problem may also relate to how children’s
+mobility is conceptualized. One such conceptual aspect that re-
+mains relatively less examined in current literature is the poten-
+tially moderating effect of a child’s age on school transportation
+mode choice behaviour.
+Recent theoretical works on children’s mobility, such as the
+ones by Panter et al. (2008) and Mitra (2013), emphasize that
+various in<U+FB02>uences on a child’s/youth’s school travel outcome can
+be moderated by a child’s age. The ecological theories of human
+behaviour (Bandura, 1989; Bronfenbrenner, 1989) posit that a child
+develops and matures through an active interplay with the en-
+vironment (or the psychological construction of the environment).
+Previous research also indicates that parental perception of a
+child’s “maturity” was associated with unsupervised walking and
+cycling (Johansson, 2006; Prezza et al., 2001). Drawing on this
+literature, Mitra (2013) conceptualized that through repeated ex-
+posure to the neighbourhood environment, a child develops phy-
+sical and cognitive capabilities of navigating the neighbourhood
+environment and urban streets. One proxy measure of this de-
+velopment can be his/her age. Conceivably, a household’s attitudes
+or evaluations toward a child’s capability of travelling to/from
+school unsupervised on foot, cycle or by transit may change with a
+child’s perceived maturity with age. Children may also become
+more independent decision makers as they transition into teenage
+years (i.e., 412 years), and their mode choice process may dif-
+ferentiate from that of their parents.
+Many studies have recognized this potential “age effect” on
+school travel decision processes, and in response, have explored
+travel behaviour of speci<U+FB01>c age groups (e.g., Larsen et al., 2013;
+Mitra and Buliung, 2014; Panter et al., 2010a; Schlossberg et al.,
+2006). However, a very limited literature has examined and
+compared the potential in<U+FB02>uences on school travel outcomes
+across multiple age groups, providing deeper insights into how
+school travel behaviour might change with a child’s age and per-
+haps with improved maturity. For example, Timperio et al. (2006)
+explored the correlates of walking between children aged 5–6
+years and 11–12 years in Melbourne, Australia. Their results in-
+dicate that for both age groups, parental perception of the absence
+of other children in the neighbourhood, the absence of street lights
+or crossings, and the presence of major barriers on the way to
+school may reduce the likelihood of walking. However, some dif-
+ferences across the two age groups were also reported. Younger
+children (5–6 years) were less likely to walk or cycle if their travel
+routes to school had steep slopes. In comparison, older children
+(10–12 years) with direct travel routes to school (representing
+well-connected streets, and perhaps with busy traf<U+FB01>c, in compar-
+ison to poorly connected streets) were less likely to travel actively.
+In a study of US school children/youth aged 5–14 years and 15–
+18 years, McDonald (2008b) also reported some important age-
+related differences in school travel behaviour. For the o 15 years
+age cohort, a child’s age was positively associated with the like-
+lihood of walking to school, while for the 15–18 years group, age
+was not associated with the travel mode outcome. Similarly, o15
+year old children were less likely to walk when their mothers
+travelled to work in the morning; an older youth’s travel outcome
+was not associated with his/her parents’ travel patterns. Urban
+residential density was associated with walking across both age
+
+groups.
+This paper takes a similar approach to McDonald (2008b) and
+Timperio et al. (2006) in exploring the differences (or similarities)
+in school travel mode choice behaviour between elementary
+school students aged 11 years (5th/6th grade) and high school
+students aged 14–15 years (9th/10th grade) in Toronto, Canada.
+The paper advances our current understanding of school travel
+behaviour by contributing to a very limited literature that has
+investigated potential changes in the correlates of AST as children
+age. An emphasis on the differences in neighbourhood environ-
+ment-related correlates across the two age groups is particularly
+novel in the North American context.
+In addition, the <U+FB01>ndings from this study has direct implications
+for transportation policy that is centred on children’s mobility and
+well being, particularly in the context of recent community and
+professional interests in Canada around promoting and facilitating
+AST among older youth. The School Travel Planning (STP) pro-
+grammes in Canada, similar to the Federally legislated Safe Routes
+to School (SRTS) programmes in the US, are designed for ele-
+mentary and middles schools (Green Communities Canada, 2014;
+National Center for Safe Routes to School, 2011). At the time when
+school boards across Canada are showing increased commitment
+to active, safe and sustainable transportation of their students
+(e.g., Toronto District School Board, 2014; Waterloo Region District
+School Board, 2011), the STP model is beginning to be adapted to
+the high school context (Stuckless, 2012). Findings from this study
+can inform such adaptations and implementations, and the de-
+velopment of new programmes and interventions in Canada, the
+US and elsewhere focused broadly on the health of children and
+the youth.
+
+
+2. Study design
+
+2.1. Study area
+
+The City of Toronto is the largest city as well as the business/
+<U+FB01>nancial capital of Canada with a population of 2.6 million (Sta-
+tistics Canada, 2012). Steady population growth over the last
+century, and political amalgamation of Toronto’s older neigh-
+bourhoods with the inner ring suburbs in the late 1990s, have
+produced a city with neighbourhoods that are diverse with regard
+to built form, politics, and preferences for housing and transport.
+The downtown and inner-city neighbourhoods have high walk-
+ability, while automobile oriented “planned suburban” design
+dominates the inner-suburban neighbourhoods that became part
+of the City during a political amalgamation in 1998.
+Most children in Toronto attend publicly funded schools; a
+recent study reported that 88% of all 5th/6th grade students were
+travelling to public schools (Mitra and Buliung, 2014). The two
+publicly funded school boards (Toronto District School Board:
+TDSB, and faith based Toronto Catholic District School Board:
+TCDSB) maintain small travel distance thresholds (through school
+districting/catchments), and children/youth are generally expected
+to attend the school that is closest to their residential location.
+
+2.2. Data
+
+School travel data from the 2006 Transportation Tomorrow
+Survey (TTS) was analysed. TTS is a large cross-sectional survey of
+travel behaviour that is conducted every <U+FB01>ve years since 1986
+(Data Management Group, 2009). The 2006 version includes a 5.2%
+random sample of all households in Southern Ontario, including
+the City of Toronto (approximately 150,000 households in total;
+51,500 households in Toronto). The survey includes retrospective
+travel data for all household trips by Z11 year olds (e.g., origin/
+
+
+destination, trip start time, purpose, primary travel mode) for a
+randomly selected weekday in fall or winter (Data Management
+Group, 2009). An adult household member proxy-reported
+household trips for the day prior to interview.
+Within the context of this study, we de<U+FB01>ned a “youth” as a
+student who is 4 13 years old, i.e., who likely attends high school
+(Stuckless, 2012). Home-to-school trips with start times between
+6 am and 9 am, by 11 year-old children (i.e., typically 5th/6th
+Grade) and 14–15 year old youth (i.e., typically 9th/10th grade)
+were analysed. School travel behaviour of o11 year old children
+could not be examined because of data unavailability; youth aged
+415 years were excluded with an expectation that school travel
+behaviour may change signi<U+FB01>cantly once a youth reaches legal
+driving age (i.e., 16 years in Toronto). Only children and youth
+travelling to public and Catholic schools were studied. Those at-
+tending private/special schools were excluded; these schools tend
+to serve households who self-select their children’s school, and as
+a result, a child/youth may often have to travel longer or have
+specialized school transport needs (e.g., more busing and/or
+driving).
+This paper explored four school travel modes (walk, transit,
+school bus and car). Other excluded modes including cycle con-
+stituted less than one percent of all school trips. Also, high schools
+are larger and are located farther apart than the elementary
+schools. As a result, older youth typically travel longer distances
+for school travel. In order to keep the results comparable between
+the two subpopulations of this study, only children and youth
+living within 3.2 km (2 mile) network distance from their schools
+were included in the analysis. We assumed that beyond this dis-
+tance, the feasibility of walking for a child/youth reduces
+signi<U+FB01>cantly.
+Multiple levels of in<U+FB02>uence on school travel mode choice were
+hypothesized based on previous theoretical works on this topic
+(McMillan, 2005; Mitra, 2013; Panter et al., 2008). Information on
+household socio-demographics was obtained from the TTS. Fol-
+lowing Mitra (2013), we also hypothesized that a youth’s travel
+modes will be more independent from travel characteristics of
+other household members, compared to a child. For example, we
+hypothesize that a youth’s school travel outcome will be less de-
+pendent on the presence of other children in the household or the
+availability of adult caregivers at the time of school travel. The TTS
+survey allowed the construction of some variables related to these
+intra-household social and travel interactions (Table 1). However,
+the 2006 TTS does not provide data on the kinship relations
+among household members (e.g., mother, father, sister, brother).
+As a result, parental availability (i.e., a mother’s availability, fa-
+ther’s availability, or the travel supervisory roles within same sex
+households) could not be explored separately.
+Data on actual travel routes were not available. As a result,
+travel distances between home and school locations were esti-
+mated. For walk mode, network distance between home and
+school locations was used; for car mode, network distance with
+driving restrictions was used; for school bus and transit modes,
+straight line distance was used. In particular, two distance cate-
+gories were explored: r400 m (i.e., approximately 5 min walking
+distance for a child or youth) and 41.6 km (i.e., approximately
+20 min walking distance; 1.6 km or 1 mi also represents typical
+catchment areas for TDSB elementary schools). Data on the
+neighbourhood built environment came from several sources,
+which are described in Table 1. Consistent with some previous
+studies on school travel behaviour (Mitra and Buliung, 2014;
+Schlossberg et al., 2006; Yarlagadda and Srinivasan, 2008), built
+environment characteristics were measured within a 400 m
+straight line buffer distance of each student’s home locations,
+which is roughly equivalent to a 5-min walking distance for a
+
+2.3. Statistical analysis
+
+The correlates of school travel modes were explored using
+multinomial (conditional) logit models, which is a widely used
+
+approach in the school transportation literature (McDonald,
+2008a; Mitra and Buliung, 2014; Yarlagadda and Srinivasan, 2008).
+Separate models were estimated to explore school travel beha-
+viour of each of the two age groups. The neighbourhood built
+environment was assumed to primarily in<U+FB02>uence the decision
+between walking and other modes. Prior to multivariate logit es-
+timation, the degree of multi-collinearity among built environ-
+ment variables was also examined. None of the built environment
+characteristics were correlated with each other at r Z 0.50. Ad-
+justing for missing data and outliers, the <U+FB01>nal dataset included 945
+home-to-school trips by 11 year olds and 1269 trips by 14–15 year
+olds.
+The relative importance of various potential in<U+FB02>uences in ex-
+plaining school travel outcome (i.e., the effect on model <U+FB01>t) was
+graphed. Variables related to each aspect shown in this <U+FB01>gure (i.e.,
+one or more variables that represent each aspect, Table 1) were
+added to the multivariate model sequentially, and each aspect’s
+contribution on the improvement of the log likelihood was iden-
+ti<U+FB01>ed. Standardized values (i.e., % contribution to log likelihood
+improvement) were plotted to facilitate comparison between
+children and the youth.
+
+3. Results
+
+Differences and similarities in school travel mode choice be-
+haviour between 11 year old children and 14–15 year old youth,
+for home-to-school trips in the morning, were explored using
+multivariate logit models. Table 2 describes the data that were
+analysed in this paper. Most of the travel data were collected
+during the Fall season (September to mid-December), when the
+typical weather conditions in Toronto are more suitable for walk-
+ing compared to the Winter season (Mitra and Faulkner, 2012). For
+example in 2006, the mean temperature in October was 9.7 °C,
+compared to  2.4 °C in February (Environment Canada, 2011).
+The two samples were comparable with respect to their socio-
+
+demographic characteristics. However, the youth travelled longer
+to get to their schools; 41% of them lived between 1.6 and 3.2 km
+from their schools, compared to only 13% children who lived that
+
+far (Table 2). Approximately 61% of all 11-year old children walked
+
+to school; walk mode share for the older youth was also similar at
+58%. The biggest differences were in the use of transit and school
+bus. More children travelled to schools in school buses, while
+youth used public transit more often.
+Fig. 1 shows the difference in walking rates by distance be-
+tween the two age groups. While the overall walking rates for the
+two age groups were similar, this <U+FB01>gure suggests that within the
+3.2 km cut-off distance, high school students (i.e., 14–15 year olds)
+typically walked longer than elementary school students (i.e., 11
+year olds). For example, almost half (47%) of all high school stu-
+dents walked to school at a distance of 2 km, while only 24% of all
+elementary school students walked at that distance.
+Results from multivariate analyses are summarized in Table 3.
+Distance to school was strongly associated with travel mode
+choice, for both age groups. In addition to distance, both children
+and youth were more likely to walk when the potential school
+routes were more indirect. Other than route indirectness, the
+neighbourhood built environment was largely uncorrelated with a
+youth’s likelihood of walking. By contrast, several built environ-
+ment characteristics, namely the absence of major street crossing
+en-route to school, high density of retail land use and smaller
+street blocks, were associated with a child’s walking trip to school.
+With regard to intra-household travel interactions, parental (or
+adult caregiver living in the same household) unavailability at the
+time of school travel was positively correlated with walk, transit
+and school bus use among both children and youth, while a
+
+household’s driving propensity (i.e., private-automobile mode
+share for daily household trips, excluding the school trips) was
+positively correlated with a driven school trip. The presence of
+other school age children in the household (attending the same or
+different schools) increased the probability of walking and using
+transit for 11-year old children. No such association was observed
+for older youth.
+A household’s automobile ownership was associated with drive
+trips to school, but the relationship was stronger among children
+compared to youth (Table 3). The gender of a 11-year old child did
+not correlate with walking (versus being driven), however a male
+youth aged 14–15 years was 1.57 times (Odds Ratio, OR ¼e0.45)
+more likely to walk to school than a female of that same age.
+A youth living in a low-income neighbourhood with greater
+access to public transit was more likely to use transit as the school
+
+travel mode. Youth were also less likely to walk to school in Winter
+months. These factors were not associated with a child's school 
+travel mode outcome. School type was correlated with travel
+mode choice. Children attending Catholic schools were 13.2 times
+more likley to tkae a school bus to school. A similar association
+was observed among youth though the effect sice was realtively
+smaller (OR = 3.71)
+Fig.2 summerizes the abovementioned similarities and differences
+between children and youth with regards to the correlates of 
+school travelmode outcomes. The figure shows relative effects of
+different types of influences on mode choice behaviour. More 
+specifically, it compares the contribution of each aspect (i.e., one or
+a group of variables, in Table 3) to the % improvement in the log 
+likelihood of the estimate logit models. Distance to school was 
+clearly the most important correlate for both age groups, followed 
+by household-level travel interactions (e.g., parental unvailability).
+School system (i.e., Catholic versus publisc schools) was a 
+potentially larger predictor os a child's travel outcome. The 
+neighbourhood built environment, as whole, also had a relatively 
+stronger effect on a child's mode choice compared to that of a 
+youth
+
+4. Discussion and conclusions
+
+This study examined differences in the correlates of school
+travel mode outcomes between children and youth. We con-
+ceptualized that a child’s actual or perceived maturity with age
+(Bronfenbrenner, 1989; Mitra, 2013) might produce some differ-
+ences between children and youth in how parents or a child/youth
+choose travel mode to school. In exploring these differences,
+multiple levels of in<U+FB02>uence were hypothesized. Particular im-
+portance was placed on the neighbourhood built environment and
+travel dependence on other household members. Findings from
+this study contribute to a very limited literature that examines
+difference in the correlates of travel modes between children and
+youth (McDonald, 2008b; Timperio et al., 2006).
+This study is particularly relevant in the context of signi<U+FB01>cant
+policy interest and investment over the last decade that are aimed
+at improving walking and cycling among school-going children/
+youth. For example in the US, more than $879 million was ap-
+propriated to State DOTs between 2005 and 2012, for the im-
+plementation of SRTS programmes near elementary and middle
+schools (McDonald et al., 2013). The related Federal legislation
+(SAFETEA-LU) earmarked 70–90% of the allocated funds toward
+infrastructure improvement, and as a result, improvements in the
+built environment (particularly those related to traf<U+FB01>c safety such
+as sidewalks and traf<U+FB01>c calming measures) have remained the
+major focus of the SRTS programmes (McDonald et al., 2013; Na-
+tional Center for Safe Routes to School, 2011).
+In contrast, STP programmes in Canada remain largely com-
+munity-driven, without any dedicated government funding, with
+only occasional partnering with and funding from government
+agencies (Green Communities Canada, 2014). As a result, the STP
+interventions have focused more on education and less on physical
+infrastructure. However, recent research has reported at best a
+moderate impact of SRTS and STP interventions on AST rates
+(Boarnet et al., 2005; Mammen et al., 2014), indicating the need
+for systematic research that would improve our current under-
+standing of school travel mode choice behaviour to inform de-
+velopment of future interventions, and to reshape interventions to
+improve their alignment with the particular populations they are
+intended to in<U+FB02>uence.
+In addition, the current focus of SRTS and STP programmes on
+elementary/middle schools can bene<U+FB01>t only a proportion of all
+students who can potentially take up walking and cycling as travel
+
+modes to/from school. In other words, a large number of students
+who attend high schools remain excluded from these interven-
+tions. Not surprisingly, the feasibility of adapting the STP frame-
+work to the high school context has received some recent atten-
+tion. Between 2010 and 2012, Green Communities Canada has
+implemented modi<U+FB01>ed-STP programmes in seven high schools in
+Ottawa (Stuckless, 2012). Two major challenges/opportunities
+were identi<U+FB01>ed based on outcomes from these pilot interventions.
+First, youth are more independent decision makers and travellers,
+compared to younger children who are more dependent on adult
+caregivers. Second, youth may report a negative perception toward
+walking, unlike younger children who typically like to walk to/
+from school and consider AST as “cool” (Stuckless, 2012). Clearly
+there are different cultures of mobility within the child and youth
+populations – these differences need to be adequately exposed and
+understood with a view to developing targeted, successful inter-
+ventions within these disparate populations. The research that is
+presented in this paper begins to provide insights into these dif-
+ferences by means of empirical evidence of the variations in the
+correlates of school travel outcomes. The remainder of this section
+discusses these results and outlines their potential implications.
+Previous research has consistently reported lower AST rates
+among older youth, compared to younger children who attend
+elementary schools (Buliung et al., 2009; McDonald, 2007; van der
+Ploeg et al., 2008). The primary reason for this difference may be
+geographical. Longer travel distances to high schools may make
+walking/cycling a less attractive option for some high-school stu-
+dents. Results from this study also support this hypothesis, in-
+dicating that in general 14–15 year old students live farther away
+from their schools compared to younger students (Table 2).
+However, we also found that high school students (i.e., 14–15
+years) typically walked longer than elementary school students
+(i.e., 11 year olds), indicating that when adapted in the context of a
+high school, programmes similar to STP or SRTS may not ne-
+cessarily have to target only those students who live within close
+proximity of their schools.
+In addition to distance, concern for traf<U+FB01>c and personal safety
+has previously been identi<U+FB01>ed as a major barrier to AST (Fyhri
+et al., 2011; Larsen et al., 2013; Lee et al., 2013; Panter et al., 2010a).
+Our results were similar, suggesting statistical association between
+walking and the neighbourhood environmental characteristics
+that may relate to safety along school travel routes. For example,
+the absence of major road crossings and perhaps major roads (an
+
+aspect that is indirectly captured here by the variable INDIRECT)
+likely improves safety from traf<U+FB01>c (Schlossberg et al., 2006; Mitra
+and Buliung, 2014; Timperio et al., 2006). Mixed land use (e.g.,
+high retail density) and smaller blocks are also characteristics that
+are typically representative of “walkable” neighbourhoods. All of
+these characteristics were positively associated with a child’s odds
+of walking to school. For youth, however, the built environment
+was largely uncorrelated with travel mode (Table 3 and Fig. 2).
+This difference is interesting but not surprising. Recent research
+indicates that while parents (i.e., adult caregivers) are typically
+concerned about a child’s traf<U+FB01>c and personal safety related to the
+neighbourhood environment, children may not necessarily per-
+ceive the neighbourhood environment as a major barrier to
+walking (Fusco et al., 2012). Perhaps as a result, when children
+grow up and become more independent decision makers (with
+regard to school travel) as youth, the characteristics of the built
+environment become a less important consideration in choosing
+transportation mode to school. This <U+FB01>nding is signi<U+FB01>cant from a
+policy perspective because it suggests that typical SRTS-type in-
+terventions that emphasize improved traf<U+FB01>c safety (e.g., sidewalk
+development, traf<U+FB01>c calming) may have limited effect in modifying
+youth travel behaviour.
+Transit ridership was higher (22%) among 14–15 year old youth
+than for children (5%), which is another indication of their per-
+ceived capability of independently navigating the neighbourhood
+environment and urban streets. Better access to transit increased
+the odds of youth transit use. Transit is more environmentally
+sustainable compared to private automobiles (Newman and Ken-
+worthy, 1999), and because most transit trips involve some walk-
+ing, they contribute to overall physical activity accumulation
+(Besser and Dannenberg, 2005; Lachapelle and Frank, 2009). A
+positive correlation between transit access and use is then en-
+couraging, and indicates that improved transit infrastructure, a
+goal that most North American cities including Toronto are striv-
+ing to achieve, may also encourage sustainable and healthy travel
+behaviour among youth, at least when it comes to travelling to and
+from school.
+For children who attended Catholic schools, the average travel
+distance was only 0.12 km higher than those who attended public
+schools. For youth, average travel distance between two school
+systems was not statistically signi<U+FB01>cant at a ¼0.05. However, the
+models revealed a strong correlation between school system and
+school bus use. Children and youth attending Catholic schools
+were more likely to travel to school by school bus, compared to
+those attending public schools. Previous research based in Toronto
+has also reported a similar association (Mitra and Buliung, 2014),
+which can partly be explained by a <U+FB02>exible school transportation
+policy (i.e., eligibility for a school bus) of the Catholic School Board
+(TCDSB). The Catholic schools often provide transportation to
+students who live much closer to 1.5 km, arguably to attract stu-
+dents to schools with declining enrollment (Mitra and Buliung,
+2014). This <U+FB01>nding offers evidence of the power the boards have in
+shaping patterns of school travel.
+With regard to household level in<U+FB02>uences, we found that both
+child and youth school travel modes were associated with parental
+availability at the time of school travel. In other words, parental
+availability was related to a higher likelihood of automobile trips.
+A youth’s school travel was also gendered; our results indicate that
+male students aged 14–15 years were more likely to walk com-
+pared to female students (Table 3). These <U+FB01>ndings are contra-
+dictory to our initial conceptualization of older youth as in-
+dependent travellers, but are not entirely surprising. Previous re-
+search has reported a systematic decline in children’s independent
+mobility over the last decades, and has argued that constant adult
+supervision has become an essential component of modern
+childhood (Timperio et al., 2006; Hillman et al., 1990; Mitra et al.,
+
+2014). While this existing literature primarily focuses on young
+children, our results suggest that the same hypothesis may also
+hold true for older youth, although the overall effect of intra-
+household travel interactions on their school travel may be smaller
+for this age group (Fig. 2). In other words, while the youth may
+enjoy some degree of independence with regard to travel decision
+making, their actual mobility, at least to some extent, remains
+subject to parental supervision. Although unobservable here, there
+is strong qualitative evidence regarding the gendered and gen-
+erational quality of the good parenting model, and the impact of
+the risk and mobility experiences of mothers on household travel
+decisions and the greater supervision of the mobility of girls
+(Murray, 2009).
+The scope of this investigation was somewhat limited because
+of the data used. TTS is a trip-based survey and consequently,
+variables related to intra-household travel interactions are ap-
+proximate and were derived based on some assumptions. In other
+words, the actual extent of travel dependence (i.e., whether a
+child/youth travelled to school alone, with siblings/friends, or with
+parents) could not be completely ascertained. It is also conceivable
+that a youth’s and his/her parents’ perceptions toward the
+neighbourhood environment and attitude toward school travel (or
+travel in general, in particular, preference toward travel mode or
+independence) may in<U+FB02>uence school travel behaviour. In fact, a
+recent Canadian pilot study reported that walking and cycling are
+perceived by high school students as “hard, inconvenient and un-
+cool”, and this negative perception was a major barrier in pro-
+moting AST among youth (Stuckless, 2012). However, the TTS does
+not collect information on neighbourhood perceptions or travel
+attitudes, and as a result, these potential in<U+FB02>uences were left un-
+explored. Lastly, travel behaviour of two groups of students was
+studied here and the correlates of travel modes were compared.
+While the samples were large enough to produce statistically re-
+liable results, the data was not longitudinal. In other words, we did
+not directly explore changes in travel behaviour as children grow
+up.
+Despite some limitations, <U+FB01>ndings from this study have im-
+portant implications for policy and practice. The current model of
+school travel related interventions that are primarily designed
+around transportation infrastructure (e.g., SRTS in the US) may not
+be very successful if and when implemented in the context of high
+schools. Instead, programmes and initiatives focused on high
+school students should emphasize education and promotion of
+AST, and perhaps attempt to understand and reshape the culture
+of youth mobility. Based on the <U+FB01>ndings of this study, it appears
+that educational programmes that encourage youth, particularly
+female youth as well as their parents, to become more in-
+dependent travellers may increase AST rates among this sub-po-
+pulation, and in the long term, potentially improve their physical
+and psychological health and well being.

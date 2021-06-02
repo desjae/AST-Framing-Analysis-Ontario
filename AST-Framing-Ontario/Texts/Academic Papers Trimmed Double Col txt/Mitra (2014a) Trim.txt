@@ -1,0 +1,1111 @@
+
+
+Journal of Transport Geography 36 (2014) 69–78
+Contents lists available at ScienceDirect
+Journal of Transport Geography
+journal homepage: www.elsevier.com/locate/jtrangeo
+The in<U+FB02>uence of neighborhood environment and household travel
+interactions on school travel behavior: an exploration using
+geographically-weighted models
+Raktim Mitra a,<U+21D1>, Ron N. Buliung b
+a
+School of Urban and Regional Planning, Ryerson University, 105 Bond Street, Toronto, Ontario M5B 1Y3, Canada
+b
+Department of Geography & Programs in Environment, University of Toronto Mississauga, 3359 Mississauga Road N, Mississauga, Ontario L5L 1C6, Canada
+a r t i c l e          i n f o                         a b s t r a c t
+Keywords:                                              Professional and popular interest in active school transportation (walking and cycling) is matched by an
+Active school transportation                           emerging literature on this topic. This paper explores school travel behavior of 11-year old children in
+Walking                                                Toronto, Canada. In particular, the effects of the neighborhood environment and caregiver-child travel
+Escort                                                 interactions on travel mode choice were studied. Results indicate that the built environment near both
+Built environment
+home and school locations was associated with the odds of walking. However, predicted built environ-
+Spatial autocorrelation
+Propensity map
+ment effects were less accurate in some neighborhoods. Availability of adults at the time of school travel
+likely encouraged driving. School transportation interventions that broadly consider school and neigh-
+borhood-oriented policies and enable independent mobility may increase walking rates. Presence of spa-
+tial autocorrelation in the prevalence of walking suggests that more research is required to understand
+inter-household similarities in behaviors that are spatially structured.
+Ó 2014 Elsevier Ltd. All rights reser
+1. Background                                                                              Travel Planning (STP) initiatives in Canada emphasize mobilization
+of community and government resources with a view to producing
+Western countries have witnessed a major shift in the way                             school or site-speci<U+FB01>c social and environmental solutions to the
+children and youth travel to and from school. Following decadal                            school travel problem (Buliung et al., 2011; Green Communities
+declines in active school transportation (AST: walking or cycling),                        Canada, 2013; NCSRS, 2007).
+more students are now being driven than ever before (Buliung                                   This study addresses several topics that remain largely unad-
+et al., 2009; McDonald, 2007; van der Ploeg et al., 2008). Physical                        dressed in the current school travel literature. First, household
+activity derived from school travel may have important implica-                            members’ school transportation mode choice behavior may not
+tions for children’s healthy growth (Active Healthy Kids Canada,                           be spatially independent from that of their neighbors; spatial auto-
+2013; TRB, 2005; Tudor-Locke et al., 2001). Hypothetically, those                          correlation in school travel outcomes is expected. Spatial autocor-
+who walk/cycle to school regularly may also appreciate the bene-                           relation may also occur when empirical research fails to capture
+<U+FB01>ts of sustainable travel practices and an active lifestyle as they                        fully the variations/similarities in the built environment across
+age, while attenuating external costs of automobile use (Black                             households. The presence of spatial autocorrelation, and a failure
+et al., 2001).                                                                             to account for it, may limit our understanding of the relationship
+Quantitatively oriented research has explored the environmen-                         between a household’s travel behavior and the surrounding envi-
+tal and psychological correlates of children’s school travel behavior                      ronment. However, spatial autocorrelation remains an under-rec-
+(e.g., McMillan, 2007; Mitra et al., 2010a; Panter et al., 2010; Yang                      ognized and less discussed issue in the school transportation
+et al., 2012). Research emphasis on environmental correlates is                            literature (Mitra et al., 2010b; Sidharthan et al., 2011).
+particularly important in the context of emerging public policy                                Second, the school travel outcome is one of many household
+interest in understanding how to plan and engineer built environ-                          activities that are co-located in space and time. The importance
+ments to enable walking/cycling among children. For example, the                           of interactions among household members in explaining house-
+Safe Routes to School (SRTS) programs in the U.S. and the School                           hold travel behavior is widely recognized in the transportation
+and geography literatures (Gliebe and Koppelman, 2002; Kang
+<U+21D1> Corresponding author. Tel.: +1 416 979 5000x2272.                                      and Scott, 2011; Srinivasan and Bhat, 2008). For example, caregiver
+E-mail address: raktim.mitra@ryerson.ca (R. Mitra).                                   availability at the time of school travel can be an important aspect
+http://dx.doi.org/10.1016/j.jtrangeo.2014.03.002
+0966-6923/Ó 2014 Elsevier Ltd. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+70                                                  R. Mitra, R.N. Buliung / Journal
+of the mode choice decision process; school travel mode may de-
+pend on whether a child travels alone, with friends, or is escorted
+by an adult or other caregiver (Mitra, 2013). The relationship be-
+tween these intra-household travel interactions and mode choice
+for school transportation remains understudied in the current lit-
+erature (McDonald, 2008a; McDonald and Aalborg, 2009; Lin and
+Chang, 2010; Vovsha and Petersen, 2005; Yarlagadda and Sriniva-
+san, 2008).
+Lastly, the emerging child-youth-friendly planning practice in
+Canada (e.g., Metrolinx, 2009; OPPI, 2009) is not supported ade-
+quately by local knowledge on this topic. Evidence suggests that
+planning interventions such as SRTS and STP programs are not nec-
+
+essarily universally successful, a point that supports the need to
+explore local barriers and enabling social and environmental qual-
+
+ities adequately (Buliung et al., 2011). Unfortunately, local evi-
+
+dence of the correlates of school travel outcome that can and
+
+should inform policy development in a Canadian context is limited
+
+(Mitra et al., 2010a; Larsen et al., 2012).
+
+This study examines the potential in<U+FB02>uence of the neighbor-
+
+hood environment and spatial autocorrelation on walking for
+
+school transportation. It also investigates the effect of the care-
+
+giver-child travel interactions on travel outcomes. School travel
+
+behavior of 11-year-old children (5th/6th grade) in Toronto, Can-
+
+ada, was explored. The research advances current knowledge on
+
+school transportation behavior, and provides local evidence to in-
+
+form current policy in the Greater Toronto and Hamilton Area
+
+(GTHA), which is Canada’s largest and most populous urban region.
+
+The <U+FB01>ndings also provide an essential comparative link to other
+
+international case studies, one that facilitates testing of our
+
+hypothesis regarding the importance of local knowledge develop-
+
+ment and use in support of local planning.
+
+
+
+2. Study design
+
+
+The study area is the City of Toronto, Canada’s largest city by
+
+population. Toronto has a vibrant and dense central city (i.e., the
+
+downtown surrounded by inner-city neighborhoods). The inner-
+
+city neighborhoods that comprise the pre-politically amalgamated
+
+Toronto1 are typically dominated by medium-density main street
+
+developments (i.e., residential neighborhoods with commercial and
+
+employment-related land uses along the main streets). Many neigh-
+
+borhoods in the central city have experienced some re-urbanization
+
+(i.e., increased density and land-use diversity) and re-vitalization
+
+(e.g., improvements in the physical conditions of the buildings)
+
+during the last several decades, a trend that has been accelerated
+
+in recent years by favorable public policy and market conditions.
+
+In contrast, modernist conventional neighborhoods dominate subur-
+
+ban areas that were developed after 1945 (i.e., the places that
+
+became part of the city after the political amalgamation in 1998).
+
+The literature on metropolitan growth popularly de<U+FB01>nes this type
+
+of suburban places as the inner-suburbs or inner-ring suburbs within
+the larger regional landscape (Lee and Leigh, 2005). These suburban
+neighborhoods were designed, for the most part, based on the
+neighborhood unit concept with schools at the center (Filion and
+Hammond, 2003; Hess, 2009). The inner-city and suburban neigh-
+borhoods also contain pockets of single-use, high-rise apartment
+buildings built between the 1960s and 1980s (i.e. the tower neigh-
+borhoods). These central-city and suburban places, which have
+
+
+1
+The Amalgamation Bill (Bill 103, the City of Toronto Act) was presented by the
+Province of Ontario, Canada, in 1996 and was implemented from January 1, 1998. This
+municipal amalgamation merged one regional (Metro Toronto) and six municipal
+governments (The former City of Toronto, and <U+FB01>ve other suburban municipalities -
+East York, Etobicoke, North York, Scarborough, York) into a single municipality,
+forming the current boundary of the City of Toronto (Hess and Milroy, 2006; Sewell,
+2009).
+of Transport Geography 36 (2014) 69–78
+developed over the past two centuries, represent a large diversity
+in built-environment characteristics that are often identi<U+FB01>ed both
+in the popular and academic literatures as either enablers or barriers
+to active transportation.
+Previous research has reported that 49% of 11–13 year-old chil-
+dren in Toronto walked or biked to school in 2006; however, AST
+uptake has been declining over the past 25 years (Buliung et al.,
+2009). In addition, the current rate sits well below the target of
+60%, as indicated in the regional transportation plan for the GTHA
+(Metrolinx, 2009).
+
+
+2.1. Data
+
+
+Travel data were taken from the 2006 Transportation Tomorrow
+
+Survey (TTS), which is a repeat cross-sectional survey of travel
+
+behavior in Southern Ontario, Canada, that includes the City of Tor-
+
+onto. The survey has been conducted every <U+FB01>ve years since 1986.
+
+The 2006 version, the latest of the series with available data, in-
+
+cludes a 5.2% random sample of all households in the study area
+
+(150,000 households in total; 51,612 households in Toronto), and
+
+reports travel behavior data (e.g., origin/destination, trip start time,
+
+purpose, primary travel mode) for a randomly selected weekday in
+
+fall or winter (Data Management Group, 2009). Retrospective data
+
+for all trips by household members aged P11 years, associated
+
+with the day prior to the interview, were proxy reported by an
+
+adult household member.
+
+Home-to-school trips taken between the 06h00–09h30 time
+
+interval, by 11-year-old children (i.e., likely 5th/6th Grade) were
+
+analyzed; data on younger children were not available, and older
+
+children/youth were excluded with an expectation that school
+
+travel behavior may change when children make the transition
+to the middle or high school. Only children traveling to public
+and Catholic schools were studied,2 these schools accounted for
+
+88% of sampled school trips. The TTS survey collected household so-
+cio-demographic data, with information on intra-household travel
+
+interactions also available (Table 1). Data were developed from the
+
+survey to examine caregiver availability for escort during the school
+
+travel period. Previous research found an association between
+
+maternal travel patterns and a child’s school travel mode (McDonald,
+
+2008a; Yarlagadda and Srinivasan, 2008); father’s and mother’s
+
+travel could not be examined separately here due to the absence
+
+of kinship ties information in the survey data.
+
+Data on the neighborhood built environment came from public
+
+and private sources; these sources are described in Table 1. Built
+
+environment characteristics were measured within a 400-m
+
+straight line buffer distance of each child’s home and school loca-
+
+tions, a distance that is equivalent to a 5-min walking distance
+
+for a child. This spatial unit of analysis is consistent with what
+
+some other researchers have used to explore school travel behavior
+
+(McMillan, 2007; Mitra et al., 2010a; Schlossberg et al., 2006;
+
+Yarlagadda and Srinivasan, 2008).
+
+
+2.2. Logit models of mode choice
+
+Multinomial (conditional) logit models (MNL) were estimated
+to explore the correlates of four travel modes (walk, transit, school
+bus, and car). Other excluded modes constituted less than 1% of all
+
+2
+Toronto’s faith-based schools (i.e., Roman Catholic) are publicly funded. Until
+
+1998, these Catholic schools were governed by the Metropolitan Separate School
+Board. In 1998, the Toronto Catholic School Board (TCDSB) was established, and it
+now operates 102 schools in the City of Toronto (Toronto Catholic District School
+Board, 2011). Both the public and Catholic school boards in Toronto maintain a small
+distance threshold for each school, and children/youth largely attend schools that are
+closest to their home locations. In contrast, a household’s choice of a private/ special
+school for a child is potentially more prone to selection bias.
+
+R. Mitra, R.N. Buliung / Journal of Transport Geography 36 (2014) 69–78                                          71
+Table 1
+Independent variables.
+Socio-demographics
+MALE: 1 if the child was a male; 0 otherwise
+CHILDREN (<11 YRS): Number of children aged 6 10 years in the household
+SINGLE_ADULT: 1 if there was only one adult household member (>17 yrs); 0 otherwise
+VEH_LIC: Number of vehicles in the household per licensed driver
+Travel distance
+DISTANCEc: For walk mode, network distance between home and school locations was used; for car mode, network distance with driving restrictions was used; for
+school bus and transit modes, straight line distance was used.
+6400 m: 1 if travel distance was less than 400 m; 0 otherwise
+>1.6 km: 1 if travel distance was more than 1 mile (i.e., 1600 m); 0 otherwise
+Household Travel Interactions
+SAMESCHOOL: 1 if two or more children (age P 11 years) from same household went to the same school; 0 otherwise
+DIFFSCHOOL: 1 if children (age P 11 years) from a household went to different schools; 0 otherwise
+NO_ADULT_AVAILABLE: 1 if all adult household members (>17 years) started their work/school/facilitating trips (i.e., trips to out-of-home activities with <U+FB01>xed
+schedule) before the school-trip start time; 0 otherwise
+AVG_WORK_DIST: Average work trip length for household adults (km; straight line distance)
+CAR_PROPENSITY: Automobile mode share for daily household trips by all members, other than the school trips
+Built environmenta
+NO_STREETCROSSc: 1 if a child did not have to cross a major street (primary highway, secondary highway, and major/arterial roads) on the way to school; 0 otherwise
+INDIRECTc: The ratio between network distance and straight line distance between home and school locations. Values start from 1; higher value means lower street
+connectivity
+MIX_RETAILe: Total number of retail, ambulatory health care, personal & laundry services related destinations within a 400 m buffer
+1st Quartile: 1 if belongs to the lowest quartile; 0 otherwise
+4th Quartile: 1 if belongs to the top quartile; 0 otherwise
+MIX_OTHERb,e: Total number of non-residential destinations within a 400 m buffer, except those related to retail, ambulatory health care, personal & laundry services
+1st Quartile: 1 if belongs to the lowest quartile; 0 otherwise
+4th Quartile: 1 if belongs to the top quartile; 0 otherwise
+BLOCK_DENSITYf: Number of street-blocks within a 400 m buffer
+FOURWAY_DENSITYb,c: Proportion of 4-way street intersections- the ratio of 4-way intersections to total number of street intersections
+DEADEND_DENSITYc: Proportion of dead ends and cul-de-sacs. The ratio of dead-ends plus cul-de-sacs to total number of street intersections
+LIGHT_DENSITYc,d: Proportion of intersections that are signalized. The ratio of intersections with traf<U+FB01>c signal lights to total number of street intersections
+LOWINCOME_NHg: 1 if the median household income for all DAs within a 400 m buffer was less than the low income cut off (i.e., economically disadvantaged
+neighborhood)
+Other (Policy/social-political context/natural environment)
+TRANSIT_ACCESSh: Total number of transit routes available within a 400 m buffer
+CATHOLIC: 1 if the child went to a Catholic school; 0 if the child went to public school
+WINTER: 1 if travel data was collected on a winter week-day (i.e., between the weeks ending on 24th December, 2006, and 19th February, 2007); 0 if data was collected
+on a fall weekday (i.e., between the weeks ending on September 10th, 2006, and December 17th, 2006)
+a
+Each built environment variable was estimated separately for the home, and the school location.
+b
+Variables in italics were excluded from the multivariate logit model speci<U+FB01>cations.
+c
+Street network characteristics were computed using the DMTI CanMapÓ RouteLogistics <U+FB01>le (version 2007.3).
+d
+Data on street-lights were collected from City of Toronto’s Transportation Department.
+e
+Obtained from Canadian Business Data (2010.04) provided by Pitney Bowes Software Inc.
+f
+Block density was calculated based on the 2006 census boundary <U+FB01>les by Statistics Canada.
+g
+Data obtained from Statistics Canada (2010). Average household size for the sample was 4.3 (sd = 1.28). In a large metropolitan area such as Toronto (i.e., population
+>500,000), the low income cut-off in 2006, de<U+FB01>ned by Statistics Canada, is CAD 39,399 for a four-member household. The low-income neighborhoods were identi<U+FB01>ed based on
+this cut-off value.
+h
+Data on transit routes came from the Toronto Transit Commission (TTC). Data on transit stops was not available.
+school trips. Only children living within 3.2 km (2 mi) network                                   2.3. Spatial autocorrelation
+distance from their schools were included in the analysis; preli-
+minary analysis of TTS data showed that only 1.6% of all students                                     Spatial autocorrelation occurs when values of an observed out-
+walked to school beyond 3.2 km. Adjusting for missing data and                                    come, sampled at nearby locations, are not independent from each
+outliers, the <U+FB01>nal dataset included 945 home-to-school trips.                                     other (Anselin and Grif<U+FB01>th, 1988; Cliff and Ord, 1970). Within the
+Table 2 provides a description of the sample.                                                     context of this study, households living in close proximity may
+The neighborhood built environment is assumed here primarily                                 demonstrate similar mode-choice behavior; i.e., they may engage
+to in<U+FB02>uence the decision between walking and other modes. Prior                                   in some modeling of one another’s travel practices, compared to
+to multivariate logit estimation, the degree of multi-collinearity                                those living farther apart. In addition, statistical model speci<U+FB01>ca-
+among built environment variables was examined. When two or                                       tions might not include one or more environmental determinants
+more variables were correlated at r P 0.50 (e.g., MIX_RETAIL and                                  of mode choice that are spatially structured (Legendre, 1993). An
+MIX_OTHERS; BLOCK_DENSITY and FOURWAY_DENSITY), they                                              exploration of spatial autocorrelation is warranted in order to
+were entered into the multivariate models one at a time; the one                                  understand the geographical limitations of travel behavior analy-
+having a statistically weaker association (e.g., MIX_OTHERS;                                      sis, yet failing to control for spatial effects can produce unreliable
+FOURWAY_DENSITY) was excluded from analysis. Individual built                                     parameter estimates. For policy and practice, spatial autocorrela-
+environment variables, measured separately around the residence                                   tion in travel outcomes may suggest the presence of an unexplored
+and school, were also highly correlated. To overcome this collinear-                              opportunity for potential intervention(s) that can be implemented
+ity problem, and as previously done in Mitra and Buliung (2012),                                  at the neighborhood level. In order to account for spatial autocor-
+separate home and school end models were speci<U+FB01>ed and                                             relation in the prevalence of walking versus not walking, this study
+estimated.                                                                                        extends a logit model by including an auto-covariate parameter as
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+72                                                    R. Mitra, R.N. Buliung / Journal
+
+Table 2
+Summary statistics, for children living within 3.2 km of their schools.
+
+11 Year-olds (n = 945)
+Freq.                    %
+
+Sex
+Female                                      444                      46.98
+
+Male                                        501                      53.02
+Household composition
+Single-adult household                      119                      12.59
+Multiple adults in household                826                      87.41
+
+Access to personal vehicles
+No vehicle                                  140                      14.81
+One vehicle                                 508                      53.76
+Two or more vehicles                        297                      31.43
+School type
+Catholic                                    237                      25.08
+Public                                      708                      74.92
+
+Period of data collection
+Fall                                        753                      79.68
+Winter                                      192                      20.32
+School travel distance
+6400 m                                      178                      18.83
+401 m to 1.6 km                             642                      67.94
+>1.6 km                                     125                      13.23
+
+Travel mode (trip to school)
+Walk                                        581                      61.48
+Transit                                       44                       4.66
+School bus                                  101                      10.69
+Car                                         219                      23.17
+
+
+an explanatory variable (Augustin et al., 1996; Dormann et al.,
+2007). The auto-covariate variable captures spatial interaction
+among the error terms for each student and his/her neighbors
+(Dormann et al., 2007). The approach for diagnosing the presence
+of spatial effects was as follows: <U+FB01>rst, for each child, the residual
+for walk mode was computed by subtracting the predicted mode
+choice probability from a dummy indicator of the observed mode
+choice (i.e., 1 if a child walked to school, 0 otherwise) (Fosgerau,
+2008). Next, a spatial weight matrix was computed, with a maxi-
+mum number of neighbors kmaximum = 20. The weight matrix re-
+<U+FB02>ects the conceptualization of a distance-related in<U+FB02>uence
+between nearest neighbors on school travel decisions and out-
+comes. An inverse-distance-based conceptualization (i.e., 1d, where
+d = network distance between household locations, 63.2 km) was
+adopted to generate this spatial weight matrix. A global analysis
+of spatial autocorrelation (i.e., global Moran’s I) using this matrix
+produced statistically signi<U+FB01>cant (p < 0.01) results, indicating the
+presence of spatial dependency among the residuals.
+The auto-covariate parameter for an individual student i was
+then calculated as a weighted average of the residual values from
+the nearest neighbors of i’s home location (Augustin et al., 1996):
+Table 3
+Summery of model results- improvements in the goodness of <U+FB01>t.
+
+
+
+
+Constants plus SES plus Others
+
+Constants plus SES plus Others plus Distance
+
+Constants plus SES plus Others plus Distance plus HH travel interactions
+
+Constants plus SES plus Others plus Distance plus HH travel interactions plus Built
+environment
+Constants plus SES plus Others plus Distance plus HH travel interactions plus Built
+environment plus Spatial autocorrelation
+of Transport Geography 36 (2014) 69–78
+P
+j2k wij ej
+AUTO COVi ¼ P i                                                    ð1Þ
+j2ki wij
+
+where ej is the value of the residual for jth neighbor among i’s set of
+ki (620) neighbors; wij is the spatial weight of jth neighbor over i,
+
+
+obtained from the spatial weight matrix formulated earlier. Two
+such parameters were calculated for each child (home and school-
+end). The resulting AUTO_COV variables were then used in the mul-
+tivariate analysis. A statistically signi<U+FB01>cant AUTO_COV coef<U+FB01>cient
+
+represents the un-confounded (i.e., adjusted) correlation between
+
+walk mode choice and any unobservable effects that are spatially
+structured. The intention of this research was to investigate, in an
+exploratory manner, the potential in<U+FB02>uence of spatial autocorrela-
+tion on school travel mode-choice behavior. The proposed method
+
+
+begins to improve our current understanding on this subject, within
+a context where there is no widely acknowledged method for this
+purpose (Dormann et al., 2007; Sidharthan et al., 2011).
+
+
+3. Results and discussion
+
+
+Mode-choice behavior was analyzed for the journey to school of
+
+children who lived within 3.2 km of their schools. The convergence
+of the models was satisfactory. Distance was the most important
+factor that explained mode choice for school transportation, fol-
+lowed by variables related to intra-household travel interactions
+(Table 3). Environmental characteristics, collectively, had a rela-
+tively smaller impact on model <U+FB01>t. The built environment corre-
+lates of school travel modes are introduced <U+FB01>rst here, followed
+by intra-household travel interaction-related <U+FB01>ndings, and then
+other in<U+FB02>uences.
+
+3.1. The built environment
+
+Distance between home and school locations remained an
+important factor after controlling for other variables, con<U+FB01>rming
+<U+FB01>ndings from past research (Ewing et al., 2004; McDonald,
+2008b; Schlossberg et al., 2006) (Table 4). The distance effect sup-
+ports the case for smaller neighborhood schools, particularly in a
+dense urban area such as Toronto, as a means to increase AST rates
+(McDonald, 2008b; Mitra et al., 2010a). Beyond distance, built
+environment near both home and school locations, and the charac-
+teristics of the travel route, were also associated with walking. A
+neighborhood environment that is expected to provide a sense of
+personal and traf<U+FB01>c safety, such as no major streets en-route to
+school, and higher land-use mix (i.e., more retail/service related
+land use and, hence, more ‘‘eyes on street’’), increased the odds
+of walking. These results are comparable to other studies (McMil-
+lan, 2007; Panter et al., 2010). Home and school neighborhoods
+
+
+11-year olds (n = 945)
+Home-model                       School-model
+2 [L(c) –      McFadden’s q2    2 [L(c) –    McFadden’s q2
+L(b)] (p)       (adjusted q2)    L(b)] (p)     (adjusted q2)
+101.32          0.105 (0.100)    101.32        0.105 (0.100)
+(<0.001)                         (<0.001)
+223.72          0.232 (0.226)    223.72        0.232 (0.226)
+(<0.001)                         (<0.001)
+289.00          0.300 (0.291)    289.00        0.300 (0.291)
+(<0.001)                         (<0.001)
+306.96          0.319 (0.308)    304.22        0.316 (0.305)
+(<0.001)                         (<0.001)
+310.89          0.323 (0.312)    308.86        0.321 (0.310)
+(<0.001)                         (<0.001)
+
+R. Mitra, R.N. Buliung / Journal
+Table 4
+Correlates of mode choice for trips-to-school (11-year old children).
+Home model
+Walk Coef.      Transit Coef.      School Bus Coef.
+(SE)            (SE)               (SE)
+Socio-demographics
+MALEa                         0.23 (0.19)     0.04 (0.36)       0.67 (0.29)
+CHILDREN (<11 YRS)            0.19 (0.12)     0.14 (0.27)       0.16 (0.19)
+SINGLE_ADULTa                 0.19 (0.38)    0.59 (0.51)        0.28 (0.50)
+VEH_LIC
+Travel distance
+6400 ma                       1.86 (0.35)     1.99 (1.03)       1.45 (0.55)
+>1.6 km (1 mi)a               2.00 (0.26)    1.07 (0.42)        0.05 (0.39)
+Household activitytravel interactions and behavior
+SAMESCHOOLa                   1.10 (0.33)     1.25 (0.53)        0.71 (0.43)
+DIFFSCHOOLa                   0.73 (0.26)     1.59 (0.43)        0.74 (0.40)
+NO_ADULT_AVAILABLEa           1.56 (0.44)     1.29 (0.63)        1.81 (0.53)
+AVG_WORK_DIST
+
+CAR_PROPENSITY
+Neighbourhood built environment
+NO_STREETCROSSa               0.44 (0.18)
+INDIRECT                      0.67 (0.22)
+MIX_RETAIL (1st               0.04 (0.21)
+quartile)a
+MIX_RETAIL (4th               0.52 (0.23)
+quartile)a
+BLOCK_DENSITY                 0.04 (0.02)
+DEADEND_DENSITY               0.15 (0.99)
+LIGHT_DENSITY                 1.15 (1.20)
+LOWINCOME_NHa                 0.35 (0.33)     0.57 (0.48)        0.45 (0.43)
+Spatial autocorrelation
+AUTO_COV                      1.23 (0.44)
+Other
+TRANSIT_ACCESS                                0.00 (0.05)
+CATHOLICa                                                        2.61 (0.27)
+WINTERa                       0.26 (0.22)    0.15 (0.45)
+Constant                      1.32 (0.61)     0.37 (0.59)        0.03 (0.49)
+Coefs in bold are signi<U+FB01>cant at a = 0.01; coefs in bold italics are signi<U+FB01>cant at a =
+a
+Dummy variables.
+with smaller blocks, which largely represent (at least conceptually)
+urban, safe, attractive, and walkable neighborhoods, also increased
+the likelihood of walking.
+Similar to previous research (Panter et al., 2010; Timperio et al.,
+2006), a positive association was observed between the potential
+indirectness of school travel route and walking. This <U+FB01>nding sug-
+gests that although direct travel routes are expected to encourage
+walking among adults (Ewing and Cervero, 2010), a different real-
+ity may exist for children. Closer scrutiny of the home and school
+locations (using a current digital orthophoto map of Toronto) re-
+vealed that students with low INDIRECT scores largely lived on ma-
+jor streets, and their schools were also located on major streets.
+The model result, then, was not surprising. Perhaps perceived risks
+related to traf<U+FB01>c safety (which would discourage walking) out-
+weigh perceived connectivity (which would encourage walking)
+due to the directness of a school travel route. Some children may
+also enjoy taking quieter and more indirect routes through the
+neighborhoods, where students can contemplate or walk together
+with other children (Buliung et al., 2013; Fusco et al., 2012).
+A propensity map was generated to explore the geography of
+built environment effects (Yoon et al., 2011). To estimate a child’s
+propensity to walk due to the built environment near the home
+location, the values of each statistically signi<U+FB01>cant variable were
+<U+FB01>rst standardized (i.e., the difference from the mean for INDIRECT
+and BLOCK_DENSITY; 0 or 1 for NO_STREETCROSS and MIX_RE-
+TAIL), and then were multiplied by the estimated coef<U+FB01>cient (bi)
+value for that variable. Due to con<U+FB01>dentiality reasons, Fig. 1
+of Transport Geography 36 (2014) 69–78                                           73
+
+
+School model
+Car Coef.      Walk Coef.      Transit Coef. School Bus Coef. Car Coef.
+(SE)           (SE)            (SE)          (SE)             (SE)
+
+0.23 (0.19)     0.03 (0.37)   0.68 (0.29)
+0.20 (0.12)     0.10 (0.27)  0.19 (0.19)
+0.04 (0.38)    0.65 (0.51)   0.10 (0.50)
+0.85 (0.27)                                                   0.83 (0.27)
+
+1.81 (0.35)     2.07 (1.04)  1.48 (0.55)
+1.98 (0.26)    1.02 (0.42)   0.04 (0.39)
+
+1.11 (0.33)     1.18 (0.54)   0.69 (0.43)
+0.75 (0.26)     1.53 (0.43)   0.70 (0.40)
+1.62 (0.44)     1.28 (0.63)   1.80 (0.53)
+0.02                                                         0.02
+(0.01)                                                        (0.01)
+2.93 (0.39)                                                   2.94 (0.38)
+
+0.45 (0.19)
+0.56 (0.21)
+0.03 (0.21)
+
+0.63 (0.26)
+
+0.02 (0.02)
+1.25 (1.06)
+0.06 (1.27)
+0.71 (0.48)     0.56 (0.86)   0.46 (0.74)
+
+1.34 (0.44)
+
+0.07 (0.04)
+2.68 (0.27)
+0.18 (0.21)    0.15 (0.45)
+1.64 (0.61)     0.03 (0.56)  0.02 (0.48)
+0.05; coefs in italics are signi<U+FB01>cant at a = 0.10.
+
+
+displays students’ home locations at the residential block level.
+In cases where multiple students lived within the same block,
+the mean (INDIRECT, BLOCK_DENSITY) or the maximum
+(NO_STREETCROSS, MIX_RETAIL) propensity values for all students
+within a block were used. The four individual propensities were
+then summed to obtain an estimated cumulative propensity to
+walk for each child. In Fig. 1, then, a block with a positive value
+(>0) identi<U+FB01>es a residential location within the City of Toronto
+where the built environment (as measured here) was positively
+associated with walking. Similarly, propensity <0 demonstrates a
+negative correlation.
+The data indicate that the built environment prevalent within
+the central city (i.e., downtown Toronto and the inner-city neigh-
+borhoods) was largely associated with walking. Within neighbor-
+hoods at suburban locations, the effect of the built environment
+remained mixed. Further qualitative inspection of orthophotogra-
+phy revealed noticeable variation in urban design characteristics
+across Toronto’s suburban neighborhoods. The propensity map
+suggests that a suburban place that possesses design qualities
+associated with walking may produce walking school trips, despite
+its suburban locale. Several examples of the relationship between
+neighborhood built environment and walking are presented
+(Fig. 1: inserts 1–4).
+Some differences between the modeled and actual mode-choice
+outcome were observed, which is not surprising in the context of a
+moderate model <U+FB01>t (adjusted q2 = 0.312) (Table 3). However, the
+objectively measured built environment characteristics were
+
+74                                              R. Mitra, R.N. Buliung
+Fig. 1. Children’s propensity to walk to
+particularly weak in predicting the travel behavior of students
+who, for instance, lived within the tower-neighborhoods that are
+commonly found in suburban Toronto. Insert 4 in Fig. 1 demon-
+strates an example. The Tower Neighborhoods were largely built
+during the 1960–80 period; and there are approximately 1200
+apartment towers in the City of Toronto, which represent 48% of
+the city’s rental housing stock. These towers were built as a result
+of urban policies that encouraged the ‘‘tower in the park’’ housing
+model: high-density apartment clusters in the newer suburban
+neighborhoods (E.R.A., 2010). The towers are often clustered to-
+gether within one or more super-blocks, forming neighborhoods
+of their own (hence, the tower neighborhoods).
+The poor match between modeled walking propensity and the
+actual travel outcome in these tower neighborhoods points to a
+broader problem related to the use of objectively measured built
+environment characteristics in understanding mode choice behav-
+ior. Empirical research in urban planning tends to measure neigh-
+borhood design qualities in terms of a combination of individual
+characteristics such as grid versus curvilinear streets, mixed versus
+segregated land use, and small versus large blocks. The range of
+these measures is usually set by traditional central-city (e.g., grid
+streets, mixed land use, small blocks) and conventional suburban
+(e.g., curvilinear streets, segregated land use, large blocks) neigh-
+borhoods. The qualities of other neighborhoods are determined
+based on where they <U+FB01>t along this continuum. This approach was
+/ Journal of Transport Geography 36 (2014) 69–78
+school, related to the built environment near home locations.
+applied in this study, and the built environment measures rela-
+tively accurately predicted walking mode choice for typical cen-
+tral-city or suburban neighborhood types. However, the results
+were less accurate at the intersection of neighborhoods that, as a
+whole, did not <U+FB01>t well to the abovementioned ‘‘typical’’ measures
+of design qualities, but are rather common neighborhood types
+in the context of a large North American city (e.g., the tower/apart-
+ment-neighborhoods). In Toronto, the average household income
+in most tower-neighborhoods is low. Thus, socio-economic factors
+may dictate walking in a less-than-ideal environment (Hess and
+Farrow, 2010). However, it is possible that these neighborhoods
+are indeed walkable due to their social (e.g., everyone walks) and
+physical (e.g., informal pathways) settings, even though some de-
+sign elements (larger blocks, auto-oriented street design, lack of
+land-use mix) are assumed, by convention, to discourage walking.
+In addition to neighborhood characteristics, the auto-covariate
+parameter was positively associated with walking. While the exact
+qualities driving this spatial dependency could not be identi<U+FB01>ed
+conclusively in this research, the result warrants some informed
+speculation with regard to meaning. First, this study examined
+several neighborhood characteristics, but there may be other
+important characteristics (objective or perceived) that remain
+unexplored, that speaks to one of the root causes underlying the
+presence of spatial dependence. The auto-covariate parameter esti-
+mate may describe spatial variation in travel outcome related to
+
+R. Mitra, R.N. Buliung / Journal
+these potentially unexplored characteristics. Second, the
+AUTO_COV coef<U+FB01>cient may capture any form of social norm/mod-
+eling behavior around travel mode that operates at the local neigh-
+borhood level and is adopted by the households living in a
+neighborhood. Lastly, household mode-choice behavior can also
+be in<U+FB02>uenced by household attitudes toward travel or the built
+environment (Boarnet and Crane, 2001; Cao et al., 2009; Kitamura
+et al., 1997; Yang et al., 2012). A household may choose to live in a
+walkable or a drivable neighborhood based on its choice or prefer-
+ence (commonly known as ‘‘self-selection’’ in urban planning liter-
+ature). Collectively, then, similar school-travel outcomes within
+close proximity may re<U+FB02>ect common household attitudes about
+housing, amenities, and transport. The potential relationship be-
+tween neighborhood self-selection, transport norms, and AST has
+yet to be addressed systematically in the literature.
+
+3.2. Intra-household travel interactions
+
+An association was found between a child’s school travel mode
+and the travel characteristics of other household members (Ta-
+ble 4), which is broadly similar to what has been reported in lim-
+ited previous research (McDonald, 2008a; McDonald and Aalborg,
+2009; Lin and Chang, 2010; Vovsha and Petersen, 2005; Yarlagadda
+and Srinivasan, 2008). In particular, our <U+FB01>ndings support the
+‘‘availability’’ hypothesis discussed earlier in this paper, and indi-
+cate that when an adult caregiver was available at home at the
+time of school travel, a child was more likely to be escorted to
+school, increasing the odds of a car trip. In contrast, the absence
+of an adult caregiver, and hence the possibility of independent
+mobility (i.e., travel without an accompanying adult caregiver), in-
+creased the likelihood of walking, taking transit, or riding a school
+bus. Additionally, in a household with two or more children travel-
+ing to school, the odds of taking a non-auto mode was higher, com-
+pared to a single-child household. Perhaps, in many households
+where multiple children are aged P 11 years, the children accom-
+pany each other instead of being escorted by adults. In addition, car
+trips were more common among children from auto-dependent
+households (Table 4). This observation is not surprising in the con-
+text of evidence suggesting that, given a <U+FB01>xed number of daily
+household activities, dependency on one travel mode (in this case,
+private automobile) for some daily activities (e.g., work) may dis-
+courage the use of other modes of travel to other destinations
+(e.g., school) (Cervero and Radisch, 1996).
+
+3.3. Other potential in<U+FB02>uences
+
+A household’s access to private automobiles increased the odds
+of a car trip (Table 4). By contrast, access to transit was not associ-
+ated with transit mode choice. Also at the age of 11 years, there
+
+was no difference in walking between boys and girls, a result that
+
+is similar to what has been reported in some recent studies
+(Johansson et al., 2012; McDonald, 2012; Mitra and Buliung,
+
+2012). Children going to Catholic schools were more likely to take
+
+a school bus compared to those going to public schools. Seasonality
+
+(WINTER) was not associated with mode choice of these elemen-
+
+tary school children, which con<U+FB01>rms the <U+FB01>ndings from previous
+
+research (Mitra and Faulkner, 2012; Sirard et al., 2005).
+
+
+4. Implications for policy and practice
+
+In the U.S., the Federal government has devoted $862 million
+since 2005 to the implementation of Safe Routes to School (SRTS)
+programs (NCSRS, 2010). This centralized (Federal) funding model
+to school transportation planning is not the norm in Canada,
+re<U+FB02>ecting a long-standing, piecemeal, often highly politicized
+of Transport Geography 36 (2014) 69–78                                      75
+approach to Federal investment in transportation infrastructure
+and services in urban Canada. In 2007, a community-based organi-
+zation, Green Communities Canada, began implementing a pilot
+School Travel Planning (STP) framework across Canada, with <U+FB01>nan-
+cial support from the Public Health Agency of Canada (Buliung
+et al., 2011; Green Communities Canada, 2013). Key community
+stakeholders (school boards, urban/transportation planners, public
+health professionals, police, parents, students and teachers) collab-
+orate to identify barriers to active transportation for a school, and
+develop an action plan to address and overcome those barriers. An
+STP may include the implementation of transportation infrastruc-
+ture (e.g., pedestrian crossings, bike-racks), educational programs
+(e.g., safety of pedestrians and cyclists), community mobilization
+programs (e.g., walking school bus), and encouragement programs
+(e.g., event days) (Green Communities Canada, 2013).
+From 2009 to 2011, the provincial transportation authority for
+the GTHA, the Metrolinx (2011), partnered with Green Communi-
+ties Canada in implementing the ‘‘Stepping it Up’’ initiative, which
+introduced the STP model to 30 grade schools across the region.
+This pilot program received funding from Transport Canada. Since
+2011, no longer-term revenue stream has been identi<U+FB01>ed. How-
+ever, Metrolinx continues to support walking, cycling, and transit
+use for school transportation through community mobilization.
+Within this context, a better understanding of the correlates of
+school travel mode choice can be important in identifying loca-
+tional foci for school and community-level interventions, with a
+view to optimizing expenditure from limited program resources.
+Findings from this study may inform development of speci<U+FB01>c inter-
+ventions within the broader scope of STP initiatives. At the munic-
+ipality level, the planning and design of the neighborhoods and
+school policy may also play potentially important roles in enabling
+AST among children. The main lessons from this work are:
+
+4.1. The built environment near both home and school locations is
+important
+
+Canadian STP initiatives emphasize changes to the built envi-
+ronment at and near schools. Results from this study indicated that
+environmental interventions may increase walking school trips,
+but these interventions could be effective if implemented at the
+home and/or school end. In other words, considerations for AST
+should be incorporated in the neighborhood planning practice,
+above and beyond the STP exercise. Neighborhoods with smaller
+blocks, higher land-use mix (retail and residential), and more local
+streets increased the odds of walking in Toronto. Some other trans-
+portation infrastructures (e.g., density of intersections with signal-
+lights, dead-end streets) were not correlated with walking.
+
+
+4.2. Expectation regarding design-based interventions should be
+
+modest
+
+
+The design concerns explored in this study, however, only
+
+explained part of the spatial variation in school travel mode choice
+
+outcomes in Toronto, similar to what has been observed in other
+
+places. Expectations regarding the success of a design-based
+
+intervention, therefore, should be modest. In addition, results from
+
+this research indicate that city-wide modeling of travel behavior,
+and planning practice based on those model results, may perform
+poorly with regard to understanding and changing mode-choice
+outcomes within places that are poorly matched to the conven-
+tional design perspectives concerning ‘‘walkable’’ and ‘‘non-
+walkable’’ neighborhoods. Initiatives such as STP should give
+particular importance to exploring environment-travel interac-
+tions within neighborhoods that do not conform to design-place
+stereotypes (e.g., tower-neighborhoods in the suburbs).
+
+76                                          R. Mitra, R.N. Buliung / Journal
+4.3. Promoting independent travel may increase the rates of walking
+
+Current research has demonstrated that children’s independent
+mobility, or freedom to explore their neighbourhood unsupervised,
+has important implications for their physical, social, and psycho-
+logical development (Carver et al., 2008; Prezza and Pacilli, 2007;
+Tranter and Whitelegg, 1994). The importance of independent
+mobility is beginning to be recognized in Canada (Active Healthy
+Kids Canada, 2013). Independent mobility, at least conceptually,
+can also be linked to AST (Mitra, 2013). Obviously, when children
+are traveling independently, they are likely not being driven. The
+results from this study support this hypothesis by suggesting indi-
+rectly that children who were escorted by adult caregivers were
+more likely to be driven to school. It appears that programs that
+encourage independent or autonomous traveling to school (i.e.,
+not accompanied by adult caregivers) could potentially enable
+AST. For example, community mobilization that encourages school
+travel without direct adult supervision while ensuring adult pres-
+ence (e.g., walking school bus) may increase rates of walking in
+Toronto. These community initiatives may particularly target
+stay-home (or part-time working) caregivers who usually accom-
+pany their children during school travel, and encourage them to
+lead walking groups, act as volunteers, or even as crossing guards.
+
+4.4. School policy has a potentially important role in the promotion of
+AST
+
+A limited existing research has documented an association be-
+tween school types and walking. For example, children attending
+choice schools (i.e., public schools where attendance is not tied
+to the neighborhood of residence) are more likely to be driven
+compared to neighborhood public schools, largely because of the
+differences in typical travel distance and parental attitudes toward
+a child’s mobility (Yang et al., 2012). In the context of Toronto, it
+appears that the governance of school transport may indeed have
+a major role in moderating mode choice at the individual level.
+Students attending Catholic schools were more likely to travel by
+school bus, compared to students in public schools, perhaps due
+to the <U+FB02>exible school transportation policy of the Catholic school
+board. While Toronto’s public schools apply a strictly implemented
+distance threshold to limit service eligibility, Catholic schools are
+more <U+FB02>exible in applying their distance policy for busing. Trans-
+portation is often provided to students living less than 1.5 km from
+school, arguably to encourage students to attend Catholic neigh-
+borhood schools with dwindling attendance.
+
+5. Limitations
+
+This research draws attention to some broader limitations of an
+empirical investigation in understanding the relationship between
+the built environment and travel behavior. First, some spatial
+variation in mode-choice behavior was correlated with unobserv-
+able characteristics likely shared among neighboring households.
+Further research focused on localized variation in perceptions,
+attitudes, and social norms around transportation decisions is
+likely to be a useful direction for additional study. Second, the built
+environment correlates were less accurate for the neighborhoods
+that generally did not <U+FB01>t well with the ‘‘typical’’ qualities of a tra-
+ditional central-city or a conventional suburban neighborhood. In
+addition, with regard to the observable built environment charac-
+teristics, previous research has reported mixed results regarding
+the association between sidewalks and the odds of walking (Ewing
+et al., 2004; McMillan, 2007). However, most streets in Toronto
+have sidewalks. Conceptually, then, sidewalks may not be an
+important factor that explains the difference in walking rates
+of Transport Geography 36 (2014) 69–78
+across space within the Toronto metropolitan area. At the time of
+analysis, data on informal footpaths, shortcuts, or pathways (i.e.,
+those that are not formally planned or managed by the city) were
+also not available. Conceivably, such informal infrastructures
+would offer opportunities for active travel for children in any
+neighborhood (Buliung et al., 2013; Fusco et al., 2012). In the con-
+text of our study, informal shortcuts or pathways may, at least
+partly, explain unexpected walking rates in some inner-suburban
+neighborhoods in Toronto, as discussed in Section 3.1. A closer
+examination of this topic remains subject to future research.
+Findings from this research also begin to provide insights into
+the relationship between travel negotiations among household
+members and school travel-mode choice. However, the behavioral
+processes that determine or moderate such negotiations could not
+be fully investigated here. Broader behavioral understandings may
+emerge through further quantitative and qualitative exploration of
+school travel within the context of a household’s activity-travel de-
+mands and constraints.
+
+
+6. Conclusion
+
+This study adopted a geographically weighted modeling
+approach to investigate school travel-mode choice in Toronto,
+Canada’s largest city by population. Quantitative models were esti-
+mated using data from a large and population-representative
+transportation survey. First, with regard to the neighborhood envi-
+ronment, our results indicate that built environment characteris-
+tics related to safety and neighborhood aesthetics/walkability
+explained mode choice, even when travel distance was controlled.
+Second, with regard to the intra-household travel interactions, the
+results suggest that the availability of caregivers at the time of
+school travel, which perhaps facilitated escorted school trips, was
+associated with driving. The presence of siblings aged P 11 years,
+on the contrary, was associated with walking and the use of transit.
+Lastly, with regard to the universality of the enablers and barriers
+to AST, our results related to the neighborhood environment were
+largely similar to what has been reported previously. However,
+these <U+FB01>ndings were not generalizable to all neighborhoods within
+Toronto. The predicted built environment effects were more accu-
+rate in some types of neighborhood, but relatively less accurate in
+some other types of neighborhoods, a <U+FB01>nding that emphasizes the
+importance of exploring environment-AST interactions at the local
+level. In addition, students going to Catholic schools were more
+likely to take a school bus compared to students in public schools,
+perhaps re<U+FB02>ecting the less spatially rigid busing strategy of Toron-
+to’s Catholic school board.
+Our <U+FB01>ndings improve current knowledge on the correlates of
+AST, challenge the assumptions around the generalizability of ob-
+served built environment effects across all neighborhood types,
+and provide local evidence that may inform school transportation
+planning practice, such as the STP initiative, in Canada. The study
+also advances school transportation research by addressing the
+spatial autocorrelation problem in a quantitative investigation of
+school travel behavior. There are potential bene<U+FB01>ts in extending
+the proposed conceptual and methodological approach in the
+exploration of school travel, childhood mobility, and physical
+activity. An improved knowledge of these potentially modi<U+FB01>able
+human behaviors could bene<U+FB01>t policy that is focused on healthy
+and sustainable urban communities.
+
+
+Con<U+FB02>ict of Interest Statement
+
+The authors declare that there are no con<U+FB02>icts of interest.

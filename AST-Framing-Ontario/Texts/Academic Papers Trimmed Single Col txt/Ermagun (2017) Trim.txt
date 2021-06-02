@@ -1,0 +1,552 @@
+TRANSPORTMETRICA A: TRANSPORT SCIENCE, 2017
+VOL. 13, NO. 1, 24–37
+http://dx.doi.org/10.1080/23249935.2016.1207723
+Public transit, active travel, and the journey to school: a
+cross-nested logit analysis
+Alireza Ermagun and David Levinson
+Department of Civil, Environmental, and Geo-Engineering, University of Minnesota, Minneapolis, MN, USA
+    ABSTRACT                                                                               ARTICLE HISTORY
+    Like walking and biking, public transit presents an opportunity to                     Received 14 September 2015
+    accomplish a portion of the recommended daily physical activ-                          Accepted 27 June 2016
+    ity. Much of the previous research has been limited to descriptive                     KEYWORDS
+    analyses quantifying the active component of public transit using                      Public transit; walking;
+    advanced econometrics models. This paper overcomes this chal-                          school trips; physical activity
+    lenge by applying a two-level cross-nested logit model. We use the
+    school trip information of 3441 middle and high school students in
+    Tehran. We show a 1% increase in home-to-school distance reduces
+    physical activity by 0.91%. Considering public transit a solely non-
+    active mode, this reduction equals 2.21%. Therefore, ignoring the
+    ‘quasi-active’ role of public transit overestimates the physical activ-
+    ity reduction of students by 142%. We also indicate a 1% decrease in
+    access to transit stations diminishes physical activity by 0.04%. This
+    diminution is 0.02% when we apply the nested logit model. This is
+    the direct consequence of ignoring the active component of public
+    transit trips.
+1. Introduction
+The recent epidemic of physical inactivity among children has raised concerns about the
+potential public health consequences. A study in the USA showed that the prevalence of
+obesity had increased around 13% among persons aged 6–19 between 1999 and 2004
+(Ogden et al. 2006). Physical inactivity enhances the risk of common diseases including
+obesity, myocardial infarction, stroke, type II diabetes, cancer, hypertension, depression,
+osteoarthritis, and asthma (Ebbeling, Pawlak, and Ludwig 2002). Studies reveal a significant
+health gain for children who obtain 60 min of moderate daily physical activity (Salmon and
+Timperio 2007). In part, these recommended levels of physical activity may be realized by
+walking or biking to school.
+    Apart from the active travel modes, public transit is an opportunity to accomplish a por-
+tion of the recommended daily physical activity (Bopp, Gayah, and Campbell 2015). Besser
+and Dannenberg (2005) studied 3312 transit users extracted from the 2001 National House-
+hold Travel Survey, and found public transit users spend a median of 19 min daily walking
+to and from transit. They also showed 29% of transit users achieve more than 30 min of
+CONTACT Alireza Ermagun               ermag001@umn.edu, alireza.ermagun@gmail.com        Department of Civil,
+Environmental, and Geo-Engineering, University of Minnesota, 500 Pillsbury Drive SE, Minneapolis, MN 55455, USA
+© 2016 Hong Kong Society for Transportation Studies Limited
+
+                                                     TRANSPORTMETRICA A: TRANSPORT SCIENCE        25
+physical activity each day by walking to and from transit. Edwards (2008) assessed the net
+increase in walking associated with taking public transit by applying a Tobit model on a
+28,771-person sample of 2001 National Household Transport Survey. The results showed
+that taking public transit is associated with 8–10 additional minutes of walking per day. In
+2009, Lachapelle and Frank (2009) employed a multinomial logit (MNL) model to explore
+the interdependency of public transit and physical activity in metropolitan Atlanta, Georgia.
+Controlling for socio-demographics and urban form characteristics, they found a positive
+correlation between taking public transit, walking, and moderate physical activity. MacDon-
+ald et al. (2010) conducted a pre–post analysis to explore the impact of light rail transit (LRT)
+on body mass index (BMI) and physical activity in North Carolina. The final results demon-
+strated that the use of LRT is associated with an average BMI reduction of 1.18 points. A
+more comprehensive review of the literature in regard to the association between public
+transit and physical activity is available in previous research (De Nazelle et al. 2011; Rissel
+et al. 2012; Sallis et al. 2012).
+    The relationship between public transit and physical activity stems from the idea that
+public transit trips consist of active travel modes for users who walk and bike for the access
+and egress portions of their trips. Public transit is neither solely active nor solely non-active.
+Rather, we believe public transit is best described as a ‘quasi-active’ travel mode that has
+both characteristics of active and non-active modes.
+    This is not the first time public transit has been looked at as a combined mode of travel.
+Studies have considered public transit as a combined travel mode, as walking, biking, park
+and ride, and kiss and ride trips are typically part of public transit trips. In 2010, for instance,
+Bekhor and Shiftan (2010) employed a series of models (MNL, nested logit (NL), cross-nested
+logit (CNL), and kernel logit) to study effective factors on changing individuals’ mode from
+private car to combined alternatives such as park and ride and public transportation in work
+trips in Tel Aviv. They found that to avoid the model misspecification issue, park and ride,
+a combined transportation mode, should be investigated in a CNL structure. To the best
+of the authors’ knowledge, this has been the only study where the public transit mode is
+utilized as a combined mode in a CNL framework.
+    Previous studies employed descriptive analysis to understand the portion of walking
+and physical activity in public transit trips. None of the previous studies considered public
+transit as a ‘quasi-active’ mode in their model structures. Instead, public transit is typi-
+cally considered in the category of non-active or motorized travel mode. Understanding
+the quantitative component of public transit in active and non-active categories reveals
+information on how active modes of transport can be promoted in routine trips. This
+paper begins to study this research question by considering public transit in both active
+and non-active nests in a two-level CNL framework. We use the school trip information of
+3272 middle and high school students in Tehran for this analysis. This study extends previ-
+ous research on school trips of students in Tehran (Samimi and Ermagun 2012; Ermagun,
+Rashidi, and Samimi 2015a; Ermagun and Samimi 2015).
+    The remainder of the paper unfolds as follows. We provide information on Tehran in
+the following section. We then discuss the survey method and descriptive analysis. This is
+followed by the modeling methodology section. We explore the influential parameters on
+mode choice for school trips in the results section. We also examine the model misspecifi-
+cation resulting from ignoring the active component of public transit trips in the sensitivity
+
+26         A. ERMAGUN AND D. LEVINSON
+analysis section. Finally, we end the paper with concluding remarks and suggestions for
+future studies.
+2. Study region
+Tehran, with an area of around 700 km2 and a population of over 8 million in 22 municipal-
+ities, is among the most densely populated cities in the world. The modal split for all daily
+trips is: 28% private car, 22% bus, 10% subway, 10% mini-bus, 23% taxi, and 7% walking
+and cycling (Allen 2013). The daily average travel time is 25 min and the daily travel speed
+is 27.2 km/h. On average, trips by public transit take 15.5 min, and the average travel speed
+for public transit is 24 km/h (Mohammad-Beigi, Nouri, and Liaghati 2015).
+    By 2010, 125 km of subway line had been built, serving 70 stations and carrying nearly 3
+million passengers daily. The subway consists of 5 main lines, and the headway fluctuates
+from 3 to 15 min, depending on the line. However, there is not any regular headway for the
+public bus system. The Bus Rapid Transit system has about 83 km dedicated paths. Approx-
+imately 112 km of bike paths had been created by 2011. By 2013, this number had grown
+to 285 km.
+    In Tehran, like many other congested cities around the world, policies such as increasing
+parking cost, increasing fuel cost, odd–even rationing, and cordon pricing are imposed to
+control and reduce the number of private cars in particular regions of the city. There are
+two types of limited traffic zones: (1) restricted zones based on odd and even days between
+6:30 am and 7 pm and (2) central restricted zones between 6:30 am and 5 pm. These zones
+are open for public vehicles such as buses, taxis, and ambulances.
+    Tehran hosts more than 1 million elementary, middle, and high school students (Tehran
+Census 2006). There are fewer than 1200 middle schools, and more than 1000 high schools,
+41% of which are private. Public schools have a standard criterion that students should live
+within a reasonable walking distance to school. This distance varies from zone to zone and
+is determined by the Tehran Department of Education. However, private schools are not
+compelled to abide by this rule. There are 566,331 middle and high school students in the
+city of Tehran (Ministry of Education 2011). According to Islamic Governmental regulations,
+schools are gender segregated. Female students make up 43% of the middle school stu-
+dents and 53% of the high school students (Ministry of Education 2011). A staggering 27%
+of all the 13 million daily trips are educational (Tehran Census 2006).
+    School busing in Tehran is considered by residents to be an expensive mode of travel
+and, unlike in many Western countries, is neither state provided nor free. Rather, it is a
+chartered service using mini-buses, minivans, or private cars that provide door-to-door ser-
+vices. To avoid confusion in the definition, we use ‘school service’ in reference to school
+busing in Tehran. Both private and public schools register this school transport service at
+the request of parents, and parents pay for this service for one school year. The cost of the
+service depends on the distance to the school.
+3. Survey method
+A cross-sectional survey was conducted in May 2011 among 4700 middle and high school
+students in Tehran. To identify problematic questionnaire designs, unclear questions, and
+to obtain an initial estimate of the response rate, response bias, and survey cost, a pilot
+survey was conducted in November 2010. For the pilot survey, 500 students from 2 high
+
+                                                    TRANSPORTMETRICA A: TRANSPORT SCIENCE      27
+schools and 2 middle schools were randomly selected in Tehran, from which 341 com-
+pleted questionnaires were received. Dillman (2000) found this sample size adequate for
+pilot studies. In accordance with recommendations in former studies (McMillan 2007), par-
+ents were asked to fill out the questionnaires and send it back to the school. The pilot survey
+included 12 questions on socioeconomic and transportation information. Many parents
+ignored open-ended questions regarding family income, occupation of the family head,
+and the reasons behind choice of transportation mode. Therefore, such questions were
+altered with close-ended questions, based on the recommendations of Lazarsfeld (1944).
+    The final questionnaire had 19 questions divided into 2 sections. The first section con-
+tained socioeconomic and demographic questions, such as number of children, level of
+education, car ownership, number of driver licenses in the household, occupation, and
+income. The second section included trip information questions such as travel modes to
+and from school, parents’ priorities in choosing a mode, walking time to school, and trans-
+portation cost. One hundred cash prizes, ranging from 15 to 50 US dollars, were offered to
+randomly selected students whose parents completed all the questions. Although financial
+incentives could distort the response behavior, some studies have argued that money gen-
+erally works better than other incentives for students of this age group (Kalfs and Van Evert
+2003).
+    The questionnaires were distributed in May 2011 to avoid any conflict with the students’
+academic breaks and final exams based upon a stratified sampling. The stratified random
+sampling was based on a gender, level of education, and traffic analysis zone among boys
+and girls only schools. Survey envelopes were delivered to each school, and a school official
+was placed in charge of distributing them among students. Parents were asked to com-
+plete the questionnaire and send it back to the school. Out of 4700 envelopes that were
+distributed in 94 schools, 76% were returned. An initial screening excluded 131 envelopes
+from two schools, because evidence was found that parents did not fill them out. Overall,
+the response rate of 73% was obtained, which includes 3441 questionnaires. This rate is
+generally defined as the ratio of the number of completed questionnaires over the total
+number of eligible participants (Richardson and Meyburg 2003). We also calculated the
+minimum response rate (RR1) of 64%, in accordance with American Association of Public
+Opinion Research (2006). This rate of response is deemed satisfactory for this type of study
+(Schutt 2011).
+4. Descriptive analysis
+From the survey analysis, approximately 60% of the collected forms were from the pub-
+lic schools, which is fairly compatible with the actual share of 59% for the public middle
+and high schools in Tehran. All-girls schools have a share of 59.7% and 50.5% in the sam-
+ple and population, respectively. High schools have a share of 40.5%, of which 58% are
+from the all-girls schools. This can, arguably, be attributed to a higher level of responsibility
+among females (Arlow 1991). The lowest rate of response was observed for the occupation
+question, for which 10% of the parents refused to answer. Only 43 individuals refused the
+questions about household income, and 24 refused the question about the number of cars
+in the household.
+    From the travel behavior analysis, 42.3% of students use walking on their way to school.
+For the return trips this number rises to 48.9%. As shown in Table 1, 26.8% of girls walk
+
+28           A. ERMAGUN AND D. LEVINSON
+Table 1. Percentage of each mode of transportation to and from school.
+                                                            From school                         To school
+Category                   Mode of travel        No. boys (%)        No. girls (%) No. boys (%)         No. girls (%)
+Private                    Car                      107 (3.1)           213 (6.2)    251 (7.3)            349 (10.2)
+                           Carpool                   14 (0.4)            34 (1.0)      14 (0.4)             31 (0.9)
+                           Tele taxi                 14 (0.4)            25 (0.7)      21 (0.6)             21 (0.6)
+School service             School service           240 (7.0)         526 (15.3)     247 (7.2)            519 (15.1)
+Public transit             City bus                 264 (7.7)           148 (4.3)    231 (6.7)             152 (4.4)
+                           Subway                    11 (0.3)             7 (0.2)      11 (0.3)              7 (0.2)
+                           Taxi                      90 (2.6)            21 (0.6)      73 (2.1)             31 (0.9)
+Active                     Bicycle                   25 (0.7)             0 (0.0)      21 (0.6)              0 (0.0)
+                           Walk                    625 (18.2)        1055 (30.7)    532 (15.5)            923 (26.8)
+Unknown/missing                                      11 (0.3)            11 (0.3)       0 (0.0)              7 (0.2)
+Total                                            1401 (40.7)         2040 (59.3)   1401 (40.7)          2040 (59.3)
+Note: Italic numbers in the parentheses stand for percentage (%).
+to school and 30.7% of girls walk home from school. This percentage is significantly lower
+for boys. The imbalance might be explained by cultural and behavioral characteristics of
+Iranian families, in which girls are more restricted than boys in outdoor activities. As a result,
+girls find the school trips as an opportunity to socialize with their friends outside of school.
+Almost one-third of parents drive solely to drop off their children at school, while 35% of
+parents form a trip chain on their way to work. For return trips, 38% of parents drive just to
+pick up their children, and 16% of them pick the children up on the way home from work.
+In Tehran, girl students are not permitted to ride bikes and motorbikes in school trips for
+religious and ideological reasons. Hence, the share of biking equals zero for girls in school
+trips. The total share of biking is 1.3% due to the lack of integrated bike lanes when the
+survey was conducted. We excluded biking from the data for further analysis because of
+the low share in the travel modes. Public modes of transportation such as bus, subway, or
+taxi are used by 14.6% of students to school, and 15.7% of students from school.
+5. Modeling methodology
+5.1. CNL model
+The logit family (MNL, NL, CNL, and mixed) has the merit of a closed-form formulation,
+which eases the estimation process (Train 2009). The MNL model is usually criticized for the
+Independence of Irrelevant Alternatives (IIA) property of unobserved random error terms,
+which triggers constraints in some choice situations (Train 2009). As per the IIA property,
+if a private vehicle user is unable to drive for any reason, the probability of choosing other
+available travel modes will increase evenly. While in reality, the reasons that persuade this
+person to drive, say distance to destination, may increase the probability of choosing public
+transit more than walking or biking. Applying an MNL model in this situation causes model
+misspecification.
+    To remedy the IIA assumptions, NL and CNL models were developed, which remove the
+IIA property from alternatives to nests. In the NL models, alternatives with correlated error
+terms are embedded in a nest. A CNL model allows for alternatives located at more than
+one nest when it shares its correlation with alternatives of various nests. This model was
+employed for the first time by Small (1987) to investigate the departure time of travel. Then,
+
+                                                          TRANSPORTMETRICA A: TRANSPORT SCIENCE  29
+Vovsha (1997) named the model CNL and utilized it to scrutinize the park and ride mode of
+travel as both public and private modes.
+   The probability of choosing alternative i from nest n is derived by multiplying the prob-
+ability of selecting the nest (Pn ) by conditional probability of choosing alternative i (Pi|n ) as
+per Equation (1). In this equation, (Vi ) is the utility that perceives from travel mode i, µ rep-
+resents the inverse logsum parameter or inclusive value (IV), a in stands for the portion of
+alternative i, which is assigned to the sub-nest n, and t n is given by Equation (2).
+                                                         
+                                               exp µ1n tn             µ
+                                                                   <U+221D>inn exp(µn Vi )
+                   Pi = Pn × Pi|n =                          ×                              (1)
+                                             
+                                            n <U+2208>N exp 1 t            i <U+2208>n exp(µn Vi )
+                                                       µn n
+                            <U+239B>                          <U+239E>
+                                      µ
+                   tn = ln <U+239D>          <U+221D>inn exp(µn Vi )<U+23A0> .                                      (2)
+                              i <U+2208>N j
+5.2. Model structure and estimation
+To quantify the role of public transit as a ‘quasi-active’ travel mode, we use a two-level CNL
+model. We consider four modes of travel, including private car, school service, public transit,
+and walking. Figure 1 shows the proposed tree structure, which has the better fit among
+other possible structures. As shown, the upper level has two limbs that split into active and
+non-active limbs. To quantify the active portion of the public transit mode, this mode is
+considered in both the active and non-active nests. The IV parameters are determined in
+the estimation procedure. In a two-level CNL, the IV parameters should be positive and less
+than one (Wen and Koppelman 2001).
+   We depicted the definition of explanatory variables used in the models in Table 2. We
+also outlined the estimation results for MNL, NL, and CNL models in Table 3. The IV param-
+eters of the non-active and active limbs in the CNL model are 0.76 and 0.62, respectively.
+Both the IV parameters are statistically positive and less than one, according to a Wald and
+student’s t-test. As the model specification shows, public transit needs to be considered as a
+‘quasi-active’ mode of travel in the modeling framework for two reasons. First, the IV param-
+eters of the active and non-active limbs are statistically between 0 and 1. It indicates that the
+Figure 1. Tree decision for a two-level CNL model.
+
+30          A. ERMAGUN AND D. LEVINSON
+Table 2. Description of explanatory variables used in the study.
+Variable                                               Description                                 Average  Std. Dev.
+GENDER               1: Male/0: Female                                                                0.40       0.47
+AGE                  Age of children between 12–17 years old                                         14.10       1.61
+INCOME               1: less than 5/2: 5–10/3: 10–15/4: 15–20/5: 20–25/6: more than 25 million        2.09       1.21
+                         Iranian Rialsa household income
+PARTTIME             1: If one parent works part time /0: Otherwise                                   0.333      0.47
+EDUCATION            Educational level of parents 1: less than a high school diploma/2:              NA        NA
+                         high school diploma/3: bachelor of science/4: master of science or
+                         equivalent/5: higher degrees
+SS_N_COST            Out-of-pocket school service travel cost (10 Rials) divide by INCOME          2074.84  1068.43
+AUT_N_COST           Out-of-pocket automobile travel cost (10 Rials) divided by INCOME              212.04   118.86
+WALKTRNT             Distance between home and the nearest bus station (meter)                      571.21    449.72
+POPDENS              Population density in each zone (person per m2 )                                 0.02       0.01
+WALKSCH              1: less than 10/2: 10–20/3: 20–30/4: 30–40/5: 40–50/6: more than 50 min          2.63       1.54
+                         walking time to school
+DURATION             1: If parents are primarily concerned about their child travel time/0:           0.23       0.42
+                         Otherwise
+SAFETY               1: If parents are primarily concerned about their child travel safety/0:         0.31       0.46
+                         Otherwise
+RELIABLE             1: If parents are primarily concerned about their child travel reliability/0:    0.18       0.38
+                         Otherwise
+TRF_LIMIT            1: Students that live or study in a limited tra<U+FB03>c zone/0: Otherwise              0.11       0.31
+COMFORT              1: If parents are primarily concerned about their child travel comfort/0:        0.30      0.46
+                         Otherwise
+Note: NA, not applicable.
+a 11,800 Iranian Rails was equivalent to 1 USD in May 2011.
+CNL model, which encompasses public transit mode in both active and non-active nests, is
+a stable structure. Second, the overall fit of the CNL model is better than both MNL and NL
+models by about 26% and 15%, respectively. It implies that the proposed CNL model cap-
+tures more realistic characteristics of the system. All the variables are significant at a more
+than 90% confidence interval, and have the expected sign. Allocation coefficients of public
+transit for the non-active and active nests equal 0.47 and 0.53, respectively. In other words,
+53% of the public transit utility plays a role in the active nest, while 47% is allocated in the
+non-active nest. The following section represents the discussion on impact of parameters
+on mode choice.
+6. Results
+We analyze influential parameters on travel modes, particularly, walking and public transit
+in school trips. The variables are divided into three main categories: (1) household charac-
+teristics, (2) urban and transportation system characteristics, and (3) parental concerns. The
+results are based on the final CNL model.
+6.1. Household characteristics
+Age and gender of the students, household income, parental employment status, and edu-
+cational level of parents are found significant in the final model. In accordance with previous
+studies (Leslie et al. 2010; Ermagun, Rashidi, and Lari 2015b), girls are more likely to walk
+than boys in school trips in Tehran. Boys are more likely to take public transit rather than
+take the school service or private car. The results also show the positive correlation between
+
+                                                           TRANSPORTMETRICA A: TRANSPORT SCIENCE            31
+Table 3. Summary of MNL, NL, and CNL models.
+                                                      MNL                    NL                    CNL
+Variables                       Alternatives  Coe<U+FB03>cient t-Statistic Coe<U+FB03>cient t-Statistic Coe<U+FB03>cient t-Statistic
+Constant                        Automobile       -2.96    -4.93        -2.95     -4.93      -2.70       -4.78
+WALKSCH                                          -0.34    -6.02        -0.32     -4.69      -0.25       -4.02
+PARTTIME                                           0.25     2.45         0.24      2.35       0.20       2.22
+TRF_LIMIT                                        -1.26    -6.07        -1.20     -4.90      -0.97       -4.40
+INCOME                                             0.21     2.59         0.22      2.77       0.22       3.05
+DURATION                                           0.98     8.59         0.94      6.64       0.82       5.97
+AUT_N_COST                                       -0.002   -2.68        -0.002    -2.44      -0.001      -2.48
+COMFORT                                            0.66     4.56         0.63      4.31       0.59       4.40
+SAFETY                                           -0.75    -6.08        -0.72     -4.63      -0.58       -4.19
+Constant                       School service    -2.72    -4.03        -2.73     -3.90      -2.50       -3.86
+COMFORT                                            0.77     4.97         0.74      4.80       0.71       5.06
+RELIABLE                                           0.64     5.00         0.61      4.26       0.52       4.00
+INCOME                                             0.31     3.42         0.31      3.44       0.30       3.65
+AGE                                              -0.11    -3.00        -0.10     -2.75      -0.08       -2.64
+SS_N_COST                                        -0.0003 -3.63         -0.0003 -2.96        -0.0003     -2.97
+Constant                       Public transit    -4.40    -6.52        -4.31     -6.02      -3.01       -4.25
+AGE                                                0.13     3.07         0.13      2.87       0.10       2.95
+WALKTRNT                                         -0.0005  -3.55        -0.0005   -3.16      -0.0004     -3.49
+EDUCATION                                        -0.57    -6.44        -0.54     -4.65      -0.47       -5.42
+GENDER                                             1.06     7.84         1.01      5.56       0.82       5.91
+SAFETY                                           -0.74    -5.05        -0.72     -3.99      -0.79       -4.31
+POPDENS                                           12.18     2.82        12.19      2.82      10.78       2.76
+WALKSCH                                          -0.31    -4.98        -0.29     -3.65      -0.35       -3.70
+EDUCATION                           Walk         -0.32    -4.95        -0.31     -4.89      -0.32       -5.23
+WALKSCH                                          -1.46   -16.48        -1.43    -12.85      -1.29      -11.78
+AGE                                                0.07     2.13         0.07      2.12       0.08       2.45
+SAFETY                                           -2.25   -15.45        -2.22    -13.67      -2.02      -12.24
+POPDENS                                           12.18     2.82        12.19      2.82      10.78       2.76
+GENDER                                           -1.18    -4.13        -1.16     -4.01      -0.93       -3.43
+IV parameters:
+Non-active                                        –         –            0.94      7.15       0.76       5.33
+Active                                            –         –            1       Fixed        0.62       1.92
+Allocation parameters:
+Public transit as non -active                     –         –           –          –          –          0.47
+Public transit as active                          –         –           –          –          –          0.53
+Log-likelihood at zero:                       -3750.01              -3750.01              -3750.01
+Log-likelihood at convergence:                -2615.27              -2512.50              -2325.01
+McFadden pseudo R2 :                               0.30                  0.33                 0.38
+Sample size:                                    3272                  3272                 3272
+age of students and both walking and taking public transit. Families with higher incomes
+are more likely to use private car and school service. Educational level of parents has a neg-
+ative correlation with using public transit and walking modes. To wit, parents with higher
+level of education are less likely to select public transportation and walking for their chil-
+dren. The relationship between income and household level of education is a reason behind
+this preference, as educated parents are more able to either afford the cost of a school
+service or use private car.
+6.2. Transport system and urban characteristics
+We found distance from home to school, access to public transport stations, population
+density, and student’s school location in limited traffic zones significant in the final model.
+
+32         A. ERMAGUN AND D. LEVINSON
+An increase in the home-to-school distance reduces the probability of walking, which is in
+line with Western observations (Woldeamanuel 2016). The results also show the probability
+of choosing public transit mode is reduced by decreasing access to transit stations. Hence,
+long-term urban policies, such as school siting and public transit station locations, affect
+mode choice.
+   We found that with increasing population density, use of walking and public transit
+increases in school trips. This is rooted in three main reasons. First, the increased popula-
+tion density means increased residential units in the area, and increased eyes on the street,
+which reduces parental concerns for safety of their children. Second, high population den-
+sity is a feature of areas with small residential units, and in Tehran such a structure generally
+indicates low-income residents. Third, dense places are usually more walkable because of
+the diversity of land uses and favorable street network characteristics (Saelens and Handy
+2008). Restricted Traffic Zones have a negative correlation with private car use. In Tehran,
+the share of low-income household regions in Restricted Traffic Zones is significantly more
+than high-income households because of the urban structure. Therefore, the low use of
+private cars in these regions is not surprising.
+6.3. Parental concerns
+We assessed the influence of parental attitudes toward safety, comfort, travel reliability,
+and travel duration of various modes of travel on mode choice decision. Confirming with
+previous studies (Deka and Von Hagen 2015; Ermagun and Samimi 2016), our results indi-
+cate parents who are concerned about the safety of their children are less likely to allow
+their children to use public transport or walking to school. Therefore, implementing pro-
+grams like ‘safe routes to school’ and the ‘walking school bus’ may promote active and
+public modes of travel in Tehran. As expected, the results indicate that parents who pre-
+fer to use school service and private car are considering the comfort of their children. Also,
+parents who are concerned about the reliability of the mode of transport prefer to use the
+school service. Considering this, it could be said that the lack of regular schedule for public
+transport in Tehran, particularly buses, discourages its use for school trips.
+7. Sensitivity analysis
+Table 4 shows the elasticity of continuous variables for the MNL, NL, and CNL models. The
+results of the CNL model suggest that for people who choose walking, an increase of 1% in
+home-to-school distance reduces the probability of walking by 3.51%. This reduction was
+found to be significantly lower in the MNL and NL models, which is a direct consequence
+of the model misspecification that misrepresents the effect of distance. A 1% increase in
+the home-to-school distance diminishes the probability of taking public transit by 1.04%
+among public transit users, while it increases the probability of shifting to public transit from
+walking by 1.39%. The elasticity results of the CNL model indicate that with a 1% increase in
+the household income level of school service and private car users, the probability of choos-
+ing public transit diminishes by 0.23% and 0.14%, respectively. Further, a 1% increase in the
+residential population density increases the probability of walking by 0.17%, followed by
+0.17% reduction in using public transit. Access to transit stations is another pivotal variable
+that has a positive correlation with public transit use, and consequently increases the level
+
+                                                          TRANSPORTMETRICA A: TRANSPORT SCIENCE          33
+Table 4. Results of the elasticities for MNL, NL, and CNL models.
+                                  Automobile         School service        Public transit         Walk
+              Primary
+Attribute     alternative     MNL     NL    CNL    MNL    NL      CNL   MNL     NL      CNL  MNL   NL  CNL
+WALKSCH       Automobile     -0.71 -0.57 -0.66     0.2    0.3     0.23 0.2      0.3     0.19 0.2  0.15 0.15
+              Public transit  0.12 0.18 0.18       0.12   0.18    0.18 -0.71 -0.59 -1.04 0.12 0.08 0.42
+              Walk            1.08 1.56 0.96       1.08   1.56    0.96 1.08 1.56 1.39 -2.82 -2.27 -3.51
+WALKTRNT      Public transit  0.03    0.07   0.04  0.03   0.07    0.04 -0.27 -0.22 -0.29     0.03 0.02 0.07
+AGE           School service  0.38 0.5       0.43 -1.24 -1.03 -1.2      0.38 0.5        0.36 0.38 0.32 0.29
+              Public transit -0.24 -0.5 -0.28 -0.24 -0.5 -0.28 1.7              1.37 1.78 -0.24 -0.15 -0.47
+              Walk           -0.49 -0.66 -0.52 -0.49 -0.66 -0.52 -0.49 -0.66 -0.7            0.63 0.45 0.89
+INCOME        Automobile      0.35 0.28 0.45 -0.1 -0.18 -0.17 -0.1 -0.18 -0.14 -0.1 -0.07 -0.1
+              School service -0.2 -0.26 -0.28 0.45 0.39 0.55 -0.2 -0.26 -0.23 -0.2 -0.19 -0.2
+EDU           Public transit  0.12    0.23   0.14  0.12   0.23    0.14 -1.05 -0.88 -1.13 0.12 0.08 0.29
+              Walk            0.24    0.33   0.25  0.24   0.33    0.25 0.24 0.33 0.35 -0.41 -0.31 -0.55
+POPDENS       Public transit -0.14 -0.19 -0.13 -0.14 -0.19 -0.13 -0.14 -0.19 -0.17           0.15 0.1  0.17
+              Walk           -0.14 -0.19 -0.13 -0.14 -0.19 -0.13 -0.14 -0.19 -0.17           0.15 0.1  0.17
+AUT_N_COST Automobile        -0.4 -0.29 -0.4       0.09   0.17    0.13  0.09    0.17    0.11 0.09 0.06 0.08
+SS_N_COST     School service  0.17    0.21   0.2 -0.59 -0.49 -0.59      0.17    0.21    0.16 0.17 0.14 0.13
+of physical activity among children. Although access to transit has been studied in previ-
+ous research, little is known about how much accessibility to transit may affect the utility of
+public transit in school trips. The elasticity of WALKTRNT variable shows the probability of
+taking public transit is reduced by 0.29% when access to transit is diminished by 1%. As a
+result, the probability of private car and school service increases equally by 0.04%. The NL
+model misrepresents this growth twice as much as the CNL model.
+    Among the travel mode specific characteristics, the cost of private car and school ser-
+vice are found significant in the final model. Studies emphasize that taste variations of
+people affects their decision-making behavior (Train 2009). For instance, people with dif-
+ferent income levels behave in a different way toward the changes in cost of transportation
+modes. As a result, considering the same responses for all of them may lead to inappropri-
+ate policies. To accommodate the alternative taste variations, the cost of private cars and
+school service use is normalized by the household income level. A 1% increase in the cost
+of private car travel reduces the probability of choosing private car by 0.40%, and thereby
+people shift to public transit and walking by a probability of 0.11% and 0.08%, respectively.
+However, this reduction varies considerably, depending on level of income. While the rate
+of reduction is 0.40% among low-income families, the probability of selecting private car
+diminishes by only 0.20% among high-income families.
+    One of the main aims of this study is to indicate how much the consideration of public
+transit as a ‘quasi-active’ mode affects describing active modes of travel. Table 5 illustrates
+the elasticity of choosing active and non-active nests in the NL and CNL models for policy
+sensitive variables. Without considering public transit as a ‘quasi-active’ mode, the probabil-
+ity of choosing an active nest decreases by 2.2% following a 1% increase in home-to-school
+distance. With considering public transit as a ‘quasi-active’ mode this reduction is about
+0.91%. This is due to the shifting of a significant proportion of walkers to public transit
+by increasing the home-to-school distance. A 1% increase of the distance to public transit
+decreases the probability of students’ physical activity by approximately 0.04%. The CNL
+model, by considering public transit mode as a ‘quasi-active’ mode, expresses that the
+
+34         A. ERMAGUN AND D. LEVINSON
+Table 5. Elasticity analysis of upper level of the NL and CNL models.
+                                           NL                                  CNL
+Attributes                  Active                 Non-active          Active          Non-active
+WALKSCH                     -2.211                   0.758            -0.918             0.716
+WALKTRNT                      0.026                 -0.027            -0.042            -0.007
+POPDENS                       0.142                 -0.126              0.069           -0.112
+AUT_N_COST                    0.073                 -0.063              0.045           -0.046
+SS_N_COST                     0.139                 -0.048              0.122           -0.059
+AGE                           0.654                 -0.282              0.774           -0.484
+probability of a student being active increases about 0.02%. This difference in not only
+magnitude but in sign is a direct consequence of model misspecification. Ignoring the
+active side of public transit can easily result in wrong policies to be presented by those
+who are seeking to promote walking mode of travel. According to the CNL model, the elas-
+ticity results of AUT_N_COST and SS_N_COST variables show that a 1% increase in the ratio
+of private car and school service cost to household’s income increases the probability of
+being active for students by 0.04% and 0.12%, respectively. Such results not only give more
+awareness to politicians in order to reduce the use of private car, but they also are effective
+in improving physical activity and public health.
+8. Conclusion
+This study quantified the active travel component of the public transit mode for journeys
+to school by applying a two-level CNL model in Tehran. Much of the previous research has
+been limited to descriptive analysis for quantifying the active component of public transit
+by the complexity associated with advanced econometrics models. This paper overcomes
+this challenge by applying a two-level CNL model. To the best of the authors’ knowledge,
+this study is the first attempt to develop such a tree decision structure and scrutinize
+the public transit mode as both active and non-active mode of travel in a simultaneous
+framework.
+    From a substantive viewpoint, the model structure embodies the philosophy that public
+transit is a ‘quasi-active’ mode of travel and, as evidenced by the findings of this research,
+should be modeled in a cross-nest structure for mode choice decisions. Model estima-
+tion results highlight the need to deem public transit as a ‘quasi-active’ mode of travel for
+two main reasons: (1) the better fit than both MNL and NL models and (2) the stability of
+tree structure as per the IV parameters. Developing such a model structure constitutes an
+important step forward in understanding the active side of mode choice decisions.
+    We found public transit provides an opportunity to accomplish part of the daily recom-
+mended physical activity for children. It is typically known that increasing home-to-school
+distance reduces the likelihood of children to walk, and thereby decreases the physical
+activity of children. However, a portion of this reduction shifts to public transit. Acknowl-
+edging the ‘quasi-active’ role of public transit, this shift helps to alleviate the assumed
+reduction in the physical activity of children. Concretely speaking, we showed 1% increase
+in home-to-school distance reduces physical activity by 0.91%. Building on the traditional
+models, which consider public transit a solely non-active mode, this reduction equals
+2.21%. Therefore, ignoring the ‘quasi-active’ role of public transit overestimates the physical
+activity reduction of students by 142%. The model explicitly incorporates a number of
+
+                                                         TRANSPORTMETRICA A: TRANSPORT SCIENCE        35
+influential parameters that affect active modes of travel for a physically active lifestyle.
+These include household characteristics, transport system and urban characteristics, and
+parental concerns. To measure the amount of physical activity in a transportation network
+accurately, it is essential to develop a framework that allows seeing both active and non-
+active sides of travel modes. The findings of the model suggest that the home-to-school
+distance, cost of travel, access distance to transit stations, and safety are more sensitive
+variables in choosing walking and taking public transit. While this research offers some
+insights into the role of public transit in active travel, it yet has room to improve with further
+research:
+• We overlooked the effects of built environment and transit system information in our
+    model, as they were not publicly available for Tehran.
+• We studied the school travel behavior of children older than 12, due to the lack of data.
+    We recommend comparing the travel behavior of children younger than 12 with older
+    than 12 using the proposed modeling framework.
+• As we discussed, ‘school bus’ in Tehran is a door-to-door service, unlike the school bus
+    in Western countries that typically includes walking for the access. We hence recom-
+    mend testing school bus as a quasi-active mode of travel akin to public transit in a CNL
+    framework.
+Disclosure statement
+No potential conflict of interest was reported by the authors.
+References
+Allen, H. 2013. An Integrated Approach to Public Transport. Tehran: Islamic Republic of Iran.
+American Association for Public Opinion Research. 2006. Standard Definitions: Final Dispositions of
+   Case Codes and Outcome Rates for Surveys. Ann Arbor, MI: Author. http://www.aapor.org/pdfs/
+   standarddefs4.pdf.
+Arlow, P. 1991. “Personal Characteristics in College Students’ Evaluations of Business Ethics and
+   Corporate Social Responsibility.” Journal of Business Ethics 10 (1): 63–69.
+Bekhor, S., and Y. Shiftan. 2010. “Specification and Estimation of Mode Choice Model Capturing
+   Similarity between Mixed Auto and Transit Alternatives.” Journal of Choice Modelling 3 (2): 29–49.
+Besser, L. M., and A. L. Dannenberg. 2005. “Walking to Public Transit: Steps to Help Meet Physical
+   Activity Recommendations.” American Journal of Preventive Medicine 29 (4): 273–280.
+Bopp, M., V. V. Gayah, and M. E. Campbell. 2015. “Examining the Link between Public Transit Use
+   and Active Commuting.” International Journal of Environmental Research and Public Health 12 (4):
+   4256–4274.
+Deka, D., and L. A. Von Hagen. 2015. “The Evolution of School Siting and its Implications for Active
+   Transportation in New Jersey.” International Journal of Sustainable Transportation 9 (8): 602–611.
+De Nazelle, A., M. J. Nieuwenhuijsen, J. M. Antó, M. Brauer, D. Briggs, C. Braun-Fahrlander, N. Cavill,
+   et al. 2011. “Improving Health Through Policies that Promote Active Travel: A Review of Evidence
+   to Support Integrated Health Impact Assessment.” Environment International 37 (4): 766–777.
+Dillman, D. A. 2000. Mail and Internet Surveys: The Tailored Design Method (Vol. 2). New York: Wiley.
+Ebbeling, C. B., D. B. Pawlak, and D. S. Ludwig. 2002. “Childhood Obesity: Public-health Crisis, Common
+   Sense Cure.” The Lancet 360 (9331): 473–482.
+Edwards, R. D. 2008. “Public Transit, Obesity, and Medical Costs: Assessing the Magnitudes.” Preventive
+   Medicine 46 (1): 14–21.
+
