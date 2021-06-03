@@ -1,0 +1,1000 @@
+School travel mode choice in Beijing, China                                                                                                         
+
+This study explores school travel mode choice behavior of 7–18 year-old students in Beijing, China, based on the
+data collected in Fifth Travel Survey of Beijing Inhabitants. The integration of tree-based and logit-based models
+is employed to examine the in<U+FB02>uence of key variables on school travel mode choice. In particular, the tree-based
+model is used to preliminarily select the traits which have a statistical e<U+FB00>ect on mode choice, and the logit-based
+model is used to provide deeper understanding of the underlying decision processes and the correlation e<U+FB00>ects of
+the variables. Results show that car ownership, poor walking/cycling environment, and adults' convenience for
+escorting students signi<U+FB01>cantly stimulate the use of cars in school commuting. Students are more inclined to
+choose cars when their departure time is at rush hour compared to the other time. Moreover, the longer distance
+encourages the use of motorized transport, where the households with local hukou (usually related to the car
+ownership and other welfares) are more willing to drive their children to school. A number of recommendations
+on car restraint, sustainable travel environment improvement, di<U+FB00>erent working hour implementing, and educational 
+resources layout for the encouragement and promotion of sustainable travel practices are lastly proposed.
+
+1. Introduction                                                                              
+												
+Active modes of travel and independent mobility among children                          	
+have attracted attention for their bene<U+FB01>ts to personal growth, communal 
+harmony, and sustainable development of the society (Mitra and                         
+Buliung, 2015; Marique et al., 2013). From the personal perspective,                         
+the behavior of children now will build their future behavior (Carlos,                       
+2003). The phase in school is the most important period in students'                         
+growth, during which the world outlook, philosophy and value view                            
+begin to form in their mind. Understanding students' school travel mode                      
+choice behavior is signi<U+FB01>cant to reinforce or reshape their travel pattern                   
+and awareness of active and independent mobility, and further promote                        
+their physical and mental health. For the families, scheduling a child                       
+escort becomes increasingly widespread for many parents around the                           
+world due to the travel safety concerns and the poor walking/cycling                         
+environment. Understanding students' school travel mode choice behavior 
+can help government create a better travel environment for                            
+school commuting, and decrease the share of household escort. At the                         
+household level, the associated travel demand can be reduced and the                         
+travel cost can be saved. From the social perspective, the household                         
+escort, especially the auto-based household escort, results in tra<U+FB03>c                         
+congestion and environment pollution near school. Not only has the                          
+road capacity been degraded, but also the access environment of school                       
+gate is a<U+FB00>ected negatively. Thus, it is necessary to analyze students'                       
+
+school travel mode choice behavior to encourage an active and independent 
+lifestyle, and eventually support the sustainable development of the society.
+The existing research on students' school travel behavior analysis
+has paid disproportional attention to Western countries. In view of the
+situation in China, there are several special aspects need to be mentioned 
+given the di<U+FB00>erent economic and social settings. 1) Household
+structure: Because of the population control e<U+FB00>ort (i.e., one-child policy)
+between 1978 and 2015, most Chinese families have no more than one
+child in recent years. According to the data from United Nations
+Population Division Department of Economic and Social A<U+FB00>airs, the
+total fertility rate in China has fallen to nearly 1.5 by the late 1990s
+from 5.9 births per woman in 1970 and remained at this level since
+(Zeng and Hesketh, 2016). Speci<U+FB01>cally, the one-child policy was strictly
+enforced for urban residents, who accounted for about 20% of the population 
+in 1980, and almost half by 2010. The Beijing Statistical
+Yearbook (2015) also shows that there are 81.7% of households having
+three or less people in Beijing. As the result, the only-child is the
+greatest hope of the whole family and is provided with all the available
+resources from the emotional aspect to the economical aspect. He/she
+may be loved and taken good care of, and get the best possible education 
+within the household <U+FB01>nancial ability. 2) Public school construction 
+mechanism: In China, there are more than 95% of students attending 
+the public school constructed and maintained by the local
+
+government (Lu et al., 2017). In contrast to Western countries, Chinese          
+people have no obligation to pay the property tax and thus have no               
+right to in<U+FB02>uence the public budgeting of local government. During the           
+rapid spatial expansion of monocentric Beijing city, many citizens move          
+to suburb due to the expensive house price and limited land supply in                
+downtown. However, the government funding cannot a<U+FB00>ord to build                  
+more public schools, especially good-quality public schools in the new           
+neighborhoods. There is a serious spatial separation between public              
+schools of high quality and suburbanites. And many students will face            
+to the longer school travel distance between home and school. 3) Admissions 
+policy: In China, especially in a large city like Beijing, hukou        
+and house property are the two indispensable requirements for a child            
+to get the access to public school. It should be noted that hukou institution 
+is a special population policy used to control the movement of             
+the rural population into the city (Li and Zhao, 2015). Moreover, it             
+directly in<U+FB02>uences the distribution of the state's welfare, such as education 
+as well as the purchase quali<U+FB01>cations of house and vehicle. In
+this situation, a child without local urban hukou can be refused to attend 
+the near public school, while a child with local urban hukou can go
+to a good school although he/she does not actually live in the speci<U+FB01>ed     
+school district. For the later one, his/her parents can buy an old or small      
+house in good school district and live in other place with better living         
+conditions. Hukou can provide a child better education, better living            
+conditions, and more travel mode choices, etc. In this context, it is            
+questionable whether the same results concluded in western world can             
+be also found in China.                                                          
+This paper attempts to conduct an empirical study of China, in order        
+to contribute a deeper understanding of students' school travel mode             
+choice, and further help create a better school commuting environment            
+for students' active and independent mobility in developing countries.           
+To identify and quantify the key in<U+FB02>uencing factors, a tree-based regression 
+model and a logit-based regression model are employed.                  
+The remainder of this paper is organized as follows: Section 2 reviews 
+recent relevant literature on students' school travel behavior.            
+Section 3 presents an overview of the region selected. Section 4 describes 
+the data set. The methodology is introduced in Section 5, and                
+the modelling results are analyzed in Section 6. This is followed by a           
+discussion of the implications for transport policy and practice in              
+Section 7. Finally, the conclusions of the present paper are provided in         
+Section 8.                                                                       
+										
+2. Literature review                                                             
+											
+There is a growing literature examining the travel mode choice
+decision (McDonald, 2008a) or accompaniment decision (Ermagun and                
+Levinson, 2016a) of children in school trips. A few studies (Yarlagadda
+and Srinivasan, 2008; Ermagun et al., 2015a; Ermagun et al., 2015b)                  
+have attempted to model the mode choice and accompaniment choice                 
+in a joint framework, as they believe these decisions are made simultaneously. 
+This section discusses the previous studies on travel              
+
+mode choice of children in school trips, which are in line with the
+contribution of the current study. Table 1 summarizes the previous
+studies, which are selected to cover main characteristics of studies including 
+location, year of study, and methodology.
+From the methodology side, studies either use descriptive analysis
+or advanced statistical and machine learning models such as multinomial 
+logit (McDonald, 2008a), nested logit (Ermagun and Samimi,
+2015), cross-nested logit (Ermagun and Levinson, 2016b), and random
+forest (Ermagun et al., 2015b). Descriptive methods are usually used to
+identify in<U+FB02>uencing factors based on statistical descriptions only, while
+analytical methods not only recognize in<U+FB02>uencing factors but measure
+the power of these factors such that the <U+FB01>nal results can be used for
+forecasting (Ermagun et al., 2015b).
+From the in<U+FB02>uential variable side, research has studied four main
+categories of variable: children's characteristics, households' characteristics, 
+built environment, and parental concerns.
+
+2.1. Children's characteristics
+
+Age, gender are the most important variables that are explored
+among children's characteristics. As far as age is concerned, the results
+of studies are mixed. A few studies reported a positive correlation between 
+age and using active modes of travel (McDonald, 2008a;
+Ermagun and Samimi, 2015; Li and Zhao, 2015). Some studies found a
+negative correlation. In a research of Australian students, it is reported
+that students aged 10–12 years were less likely to travel to school actively 
+compared with their younger counterparts aged 5–6 years when
+their travel routes to school are well-connected (Timperio et al., 2006).
+Similarly, the research results of Mitra and Buliung (2015) also indicated 
+the negative e<U+FB00>ect of age related to senior mobility in active
+commuting rates. In some studies, no signi<U+FB01>cant correlation is reported
+(Kerr et al., 2006). This dissimilarity may be rooted in three aspects: 1)
+di<U+FB00>erent sample selections, especially for the age distribution; 2) different 
+minimum driving ages for di<U+FB00>erent countries; 3) di<U+FB00>erent
+methodologies (Samimi and Ermagun, 2012).
+As far as gender is concerned, the results of studies are also mixed.
+Fyhri and Hjorthol's (2009) study of Norwegian children's travel modes
+found that boys were more often independently mobile than girls. A
+contrary <U+FB01>nding was found by Leslie et al. (2010) in Australia. They
+showed that probability of walking is about 44% among girls and 37%
+among boys. Samimi and Ermagun (2012) also reported that the propensity 
+of girls choosing to walk to and from school is more than boys in
+Tehran, Iran.
+
+2.2. Households' characteristics
+
+At a household level, it is generally acknowledged that household
+characteristics play an important role in students' school travel choice,
+the hotly debated of which are household wealth (e.g., household income, 
+vehicle ownership etc.), household structure (number of workers,
+
+adults and children in the household, etc.), and the interaction between
+the household members. The work conducted by Ermagun and Samimi
+(2015) pointed out that both household income and car ownership were
+recognized in school trip active modes of transportation utilization. Li
+and Zhao (2015) found that students from low-income households incline 
+to walk rather than use the bicycle, and students from households
+with private cars are more likely to be driven to school in China. Some
+recent systematic reviews consider the relationship between school
+travel mode and household structure. It was identi<U+FB01>ed that students
+from families with unemployed parents will tend to walk (Kelly and Fu,
+2014), and students having siblings were found to be associated with
+higher rates of walking and biking (McDonald, 2008b). Moreover, Mitra
+and Buliung (2014) put forward that students were more likely to be
+driven to school when their mothers were available at home during the
+school runs, while the absence of an adult caregiver led to the increase
+of probability of walking, taking transit.
+
+2.3. Built environment
+
+Social and environmental level-factors also have been discussed
+more generally, including the travel distance between home and school,
+urban form, transportation infrastructure, social norms. Aiming at the
+students at primary school in Ireland, Kelly and Fu (2014) concluded
+that travel distance to school is the most signi<U+FB01>cant determinant of
+school travel choice, and it is observed that 2 km is a guiding ‘splitting
+line’ between the active travel modes and motorized modes. In another
+study, home distance of 1.5 km from school is identi<U+FB01>ed as the
+threshold for Canadian students to change from driving to alternative
+modes of walking or biking (Mammen et al., 2014). Easton and Ferrari
+(2015) found the small but signi<U+FB01>cant correlations between school
+commuting distance and urban form, and underscored that students
+who lived closer to school with high cul-de-sacs (no-through roads)
+density, were more likely to engage in active commuting when taking
+account of distance and urban form variable together. Moreover, in the
+study of Broberg and Sarjala (2015), it is shown that the increases of
+urban form related variables like the density of major roads, residential
+density, building use mix decreased the likelihood of engaging in
+walking or cycling among students in Finland. As far as transportation
+infrastructure, Kamargianni et al. (2015) stated that transport network
+characteristics like the availability of bicycle paths, bicycle parking
+spaces, sidewalks' width signi<U+FB01>cantly a<U+FB00>ected the school travel mode
+choice of active transport. Lang et al. (2011) mentioned the role of
+social norms in students' school travel behavior. When the majority of
+people act in a certain manner, it may be perceived as a sagacious way
+to proceed. In order to decrease the share of driving to school, it is
+suggested to make a social norm that large numbers of students walk/
+cycle to school. Under the China's context, Li and Zhao (2015) mentioned 
+that students in Beijing of China living near the inner city are
+more likely to cycle to school due to the more diversity of land use and
+better jobs-housing balance.
+
+2.4. Parental concerns
+
+Parental concerns on safety, comfort, reliability and convenience
+have been shown to a<U+FB00>ect their children's mode choice in school trips.
+The study conducted by Ermagun et al. (2015a) provided evidence that
+parents who were concerned about travel safety persisted on escorting
+their children. And such parents preferred private cars and school bus
+service for their children's school travel. Ermagun and Levinson
+(2016b) revealed that parents who were concerned about the comfort
+of their children preferred to use school bus and private car. Parents
+who were concerned about the reliability of the travel mode preferred
+the school bus. Ermagun et al. (2015b) stated that parents who were
+concerned about their child's convenience preferred to drop their
+children o<U+FB00> themselves or use school bus service. Parents who were
+anxious about their children's safety were not willing to let their
+
+children walk or use public transit.
+This study focuses on the school travel mode choice behavior of
+students in Beijing, China, which has not been paid much attention on
+an academic and policy level. The contribution of this paper to the
+current literature lies in two aspects.
+First, the traditional methods usually include descriptive methods
+and parametric regression methods (such as linear regression model,
+logit-based model, etc.), but these methods have their own disadvantage 
+in data analysis. For example, the descriptive methods can
+identify in<U+FB02>uencing factors on the basis of statistical descriptions only,
+while parametric regression methods are employed to determine the
+average e<U+FB00>ect of an independent variable on a dependent variable
+without considering the special requirements of population subgroups
+when interventions are developed from model results (Lemon et al.,
+2003). With regard to the classi<U+FB01>cation for continuous variables, most
+parametric regression models are usually dependent on intuitions or the
+results of descriptive statistics, the impacts of in<U+FB02>uencing factors may
+be exaggerated or downgraded due to the unreasonable classi<U+FB01>cation.
+In comparison, decision tree is a nonparametric statistics method,
+which is usually used to population classi<U+FB01>cation based on the Chisquare 
+signi<U+FB01>cance test. The root node represents the dependent variable, 
+and the parent nodes and child nodes are generated based on their
+Chi-square signi<U+FB01>cances. The higher the Chi-square signi<U+FB01>cance of the
+independent variable is, the earlier the classi<U+FB01>cation variable it will be.
+Given decision tree has the ability to easily segment populations into
+meaningful subgroups, without the need of a speci<U+FB01>ed functional form
+and the assumption of additivity of predictors. Therefore, this paper
+will develop a framework incorporating both tree-based regression
+method and logit-based regression method to formulate more realistic
+and richer behavioral representations of the underlying decision processes.
+Second, there are many di<U+FB00>erences of economic and social settings
+between Western countries and China, such as the level of economic
+development, urban form, admissions policy, hukou institution, and the
+culture context, etc. There has only been one study in China examining
+determinants of commuting mode choice among school children (Li and
+Zhao, 2015), which aims at the school travel of students aged 13–15 in
+Beijing, on the basis of the data collected in 2005. However, only a few
+of factors are taken into consideration. In comparison, this study has
+explored the school travel mode choice of 7–18 year-old students in
+Beijing from primary school to middle school, and to high school. As we
+all known, students in these three stages have di<U+FB00>erent school travel
+patterns. For example, primary school students have a totally di<U+FB00>erent
+travel behavior due to their high level of dependency compared to older
+students (McMillan, 2005). The extending of research objective is
+helpful to capture the characteristics of di<U+FB00>erent age-stage students on
+school travel mode choice, and further help the society comprehensively 
+understand Chinese students' school travel mode choice in
+Beijing. Moreover, the data used in this study are from the Fifth Travel
+Survey of Beijing Inhabitants in 2014, which provides the most recent
+travel survey data representative of the whole city by far. As a matter of
+fact, it is universally recognized that China has achieved extraordinary,
+sustained growth over the past decades in political, economic and
+cultural <U+FB01>elds. With the rapid expansion of Beijing city, as well as the
+fast-growing population, the stale data can no longer re<U+FB02>ect students'
+school travel behavior under the current urban development pattern. In
+order to supplement the understanding of students' school commuting
+behavior in the context of a developing country, especially for China,
+based on the most recent travel survey data representative of Beijing,
+more comprehensive and special factors related to student's characteristics, 
+households' characteristics, built environment and parental concerns 
+will be included in this study framework.
+
+3. Study region
+
+Beijing covers approximately 16,411 km2 and is home to a
+
+population of nearly 22 million as of 2014 (Peng et al., 2016a). As the
+capital city and the political and cultural communication center of
+China, Beijing has experienced the rapid growth of economy and witnessed 
+the fast expansion of urban area in recent years.
+Based on the latest administrate divisions, Beijing can be divided
+into four functional zones: 1) core functional zone, which is char-
+acterized by the political and cultural functions of the whole city, including 
+the districts of Dongcheng and Xicheng; 2) urban function extended 
+zone, which is the representative area of high technology
+industries and educational institutions, including the districts of
+Chaoyang, Fengtai, Shijingshan and Haidian; 3) new urban development 
+zone, which is the carrier of modern manufacturing or agricultural 
+industries, including the districts of Fangshan, Tongzhou,
+Shunyi, Changping and Daxing; (4) ecological conservation zone, which
+is the ecological barrier and plays the key role in sustainable development 
+of Beijing, including the districts of Mentougou, Huairou, Pinggu,
+Miyun and Yanqing (Peng et al., 2016b). As shown in Fig. 1, the population 
+density (Beijing Statistical Yearbook, 2015) decreases dramatically 
+when the physical distance to the inner city increases. This unique 
+urban expansion spatial pattern makes it interesting to discover
+how the social and environmental level-factors in Beijing in<U+FB02>uence
+students' school commuting mode.
+According to the Beijing Statistical Yearbook (2015), the registered
+students in primary school, middle and high schools of Beijing are
+821,000, 474,000 and 178,000 respectively. And the corresponding
+enrollment rates are 99.8%, 103.5% and 86.5%, indicating that the
+coverage of elementary and secondary education in Beijing is relatively
+higher. Given the reality mentioned above, it can be inferred that students' 
+school commuting is an important component of tra<U+FB03>c <U+FB02>ow
+during the rush hour (usually is one period of a day: 7:00–9:00 am) in
+Beijing, and a focus on students' school travel mode choice behavior is
+of obvious signi<U+FB01>cance where the objective is to create a better travel
+environment for students' school commuting in developing countries.
+
+4. Data
+
+The data are collected from the 2014 household travel survey in
+Beijing, the capital of China, which is the perfect re<U+FB02>ection of the institutional 
+and cultural dimensions of China (Li and Zhao, 2015). Due to
+the consideration of unique requirements related to economic and
+cultural di<U+FB00>erences in China, this study could provide deeper insights
+into how school travel mode choice behavior might change with the key
+in<U+FB02>uencing factors for students in developing countries, and help the
+policy-makers put forward the target-oriented proposals to create a
+better school travel environment for local students there.
+The primary data source used in this study comes from the Fifth
+Travel Survey of Beijing Inhabitants (2014), which is conducted by the
+Beijing Municipal Committee of Transport, and provides the most recent 
+travel survey data representative of the whole city by far. The
+dataset includes the activity and travel information of 101,815 members 
+from 40,003 households obtained in Beijing, China during
+September 1st to November 1st of 2014. The total sample of travel
+survey is 0.52% of the population in 16 districts of Beijing. The sample
+distribution is shown in the following table (Table 2). It can be seen that
+the sampling rate of each district is relatively uniform. Since the travel
+survey is conducted randomly in each district, thus it can be regarded
+that the sample from the travel survey is representative of the whole
+population.
+Survey respondents were asked to record their activities for 24 h
+from 3 am on one day to 3 am the next day. The activity participation
+was reported with travel purpose, travel origin and destination, travel
+mode, travel time, departure time, etc. The corresponding background
+information related household wealth, household structure and personal 
+attributes were also documented.
+Considering that the combination of outbound and inbound trips
+may obscure the characteristics of students' school travel mode choice
+behavior, this paper focuses on the home to school trips. The return
+trips are not included in this study for lack of space. Within the context
+of this study, school commuting trips from home to school by
+7–18 year-old students were analyzed (i.e., typically 1th–12th Grades
+
+from primary school to high school). After error-checking, cleaning and
+clearing the data, there are 4580 school commuting trips can be used
+for the case study. The interaction between the household members is
+also taken into consideration in this paper. Information about the
+household's accompaniment can be found from the primary data
+source. School district is an important factor related to built environment. 
+If the addresses of student's school and residence belong to the
+same district, the student can be thought of living within a school
+district. To some extent, living within a school district represents a
+relatively shorter travel distance to school. Distance to the nearest bus/
+subway station is a measurement of public transit accessibility. The
+intersection number along the school travel route, which concerns
+about the travel safety of students, can re<U+FB02>ect the environment for active mode. 
+Four school travel modes including walk, bus/subway, cycle,
+and car are explored in this paper due to the signi<U+FB01>cant proportion of
+96.40% of all school trips. The other mode includes school bus, motorcycle 
+and so on. It is worth noting that di<U+FB00>erent from the some
+Western countries, Chinese citizens are granted the right to driving licenses 
+from the age of 18, compared to the legal driving age of 16 in the
+US. Therefore, high-school students are allowed to drive to school alone
+in the US while the Chinese high-school students are not. In this study,
+the alternative school travel modes for all the students are the same.
+De<U+FB01>nitions of the selected variables and their descriptive statistics
+are displayed in Table 3. In the dataset, the average household annual
+income is nearly the range of 50,000–100,000 CNY; 63% of students are
+living with the parents who both have jobs; 62% of families have at
+least one car, showing that the household wealth is relatively higher as
+for the families have students. 87% of students live within a school
+district; 56% of students live in the core and extended zones. The
+average travel distance between students' home and the nearest bus/
+subway station is 0.71 km, which is an acceptable distance for most of
+students. And the average intersection number is 5.39. More than half
+of the students are boys, the average age of the sample is 12.35 years
+old, and the average school level is 1.66, indicating the distribution of
+gender and age is relatively uniform. 88% of students have a local
+hukou of Beijing, consisting with the educational resources distribution
+and admissions policy in Beijing. Moreover, in the dataset, the average
+travel distance for students' school commuting is 3.89 km, and 87% of
+students leave for school at rush hour. It should be noted that some trips
+conducted in rush hour and other time are from the same individual.
+Due to the tra<U+FB03>c condition di<U+FB00>erence during rush hour and other time,
+the corresponding travel mode choice results may be di<U+FB00>erent. Given
+the sample size limitation for trips conducted in other time, we keep
+both trips and introduce the binary variable “Departure time” to re<U+FB02>ect
+the in<U+FB02>uence of departure time on travel mode choice. 20% of the
+students are escorted to school, which is lower than the share in the US
+
+(47% of male children are driven to school and 53% of female children,
+Deka, 2013). More attentions will be given in the following sections to
+analyze how these factors in<U+FB02>uence students' school travel mode choice.
+Table 4 shows the modal distribution in di<U+FB00>erent distances. It illustrates 
+the mode share of walking decreases with the increase of the
+travel distance, and that of motorized modes (car and public transit) are
+the opposite. The mode share of cycling increases with the increase of
+the travel distance <U+FB01>rst and then decreases. Also, it indicates that nearly
+half (47.5%) of the students live within 2 km of the school in Beijing,
+and their dominating travel mode is walking. For the travel distance of
+2–6 km, cycling is the most important travel mode for the students.
+When the travel distance is greater than 6 km, public transit is preferred
+by the most students. Overall, it can be concluded from the Table 4 that
+active modes are used most within the travel distance of 6 km, while
+motorized modes dominate for the travel distance greater than 6 km.
+The travel characteristics of all the school commuting modes are
+shown in Table 5. It re<U+FB02>ects that the average travel distance for Chinese
+students in Beijing is signi<U+FB01>cantly lower than that for American students 
+in the study of McDonald (2008a). Since over 80% of students live
+more than 1.5 km from their schools, American students' average travel
+distance is 6.4 km. For the sample population, the modes of walking
+and cycling are most suitable for the short-distance school travel, car is
+appropriate for the middle-distance school travel, and the mode of
+public transit is more suitable for the long-distance school travel.
+
+5. Methodology: integration of a tree-based and a logit-based
+regression
+
+In this section, an integration of a tree-based regression model and a
+logit-based regression model is employed to investigate students' school
+travel mode choice behavior. Speci<U+FB01>cally, the tree-based regression
+model graphically describes some preliminary <U+FB01>ndings, which can be
+then used to identify the key in<U+FB02>uencing factors and classify the target
+variables for the logistic regression model e<U+FB03>ciently. The joint application 
+of these two models can provide more comprehensive and accurate 
+results compared to the previous studies. Logistic regression
+model has an advantage in parameter estimation and error estimation
+since the aggregation within the data group has been taken into consideration. 
+However, its outstanding performance relies on the identi<U+FB01>cation 
+and classi<U+FB01>cation of the key in<U+FB02>uencing factors. Decision tree
+method can e<U+FB03>ciently classify the target audiences into subgroups
+whose members have the homogeneous characteristics in<U+FB02>uencing the
+mode choice. The regression results of the decision tree then can be
+used to guide the identi<U+FB01>cation of the important independent variables
+and the classi<U+FB01>cation of the continuous variables in logistic regression
+model. Speci<U+FB01>cally, there are several notable algorithms used to create
+								
+a tress-based classi<U+FB01>cation model, such as classi<U+FB01>cation and regression
+tree (C & RT), Chi-squared automatic interaction detector (CHAID), and
+quick, unbiased, e<U+FB03>cient statistical tree (QUEST). Among these algorithms, 
+QUEST algorithm is chosen for this study due to its advantage
+on algorithm speed, the size and classi<U+FB01>cation accuracy compared to                                     
+other algorithms (Loh and Shih, 1999).                                                             
+
+6. Modelling results analysis
+
+The e<U+FB00>ects of selected variables on students' travel mode choice are
+identi<U+FB01>ed and quanti<U+FB01>ed based on the joint application of tree-based
+and logit-based regression models. Both models were carried out using
+the IBM SPSS Statistics 20 Software. First, the key factors are identi<U+FB01>ed
+and the split thresholds of variables are indicated by the tree-based
+regression model. Then, the results of the tree-based regression model
+are used to inspire the variable inputs in the logit-based regression
+model.
+This section discusses the results of the modelling. We attempt not
+only to present the school travel behavior in China, but also to compare
+this behavior with other countries.
+
+6.1. Tree-based regression model
+
+A tree-based regression model is built to o<U+FB00>er a clear interpretation
+of the results despite only six most important independent variables are
+used: travel distance, intersection number, car ownership, school level,
+accompaniment, and extended zone. In order to include more independent 
+variables in the tree construction, the minimum number of
+
+cases for parent nodes and child nodes are set with the default values as
+100, 50 respectively in the tree-based model, the signi<U+FB01>cance values for
+splitting nodes and merging categories are set as 0.05. Since the larger
+the tree depth is, the more independent variables will be included, and
+more detailed information will be provided, the tree depth is set as 5
+levels, which is the largest tree depth for the QUEST algorithm.
+As shown in Fig. 2, the <U+FB01>rst optimum split in node 0 is according to
+travel distance, which classi<U+FB01>es student travel mode into two subgroups. 
+For travel distance = 6 km, the shares of walk, cycle, bus or
+subway, and car are 34.9%, 33.7%, 16.1% and 12.5% respectively. For
+travel distance > 6 km, the shares of bus or subway, car, cycle and
+walk are 49.4%, 28.5%, 14.7% and 0.2% respectively. Obviously, the
+active travel modes will turn to motorized modes as the travel distance
+increases. Further, the variable of Travel Distance divides the population
+into some speci<U+FB01>c intervals, i.e., = 2 km; 2–6 km; > 6 km. Intersection
+Number divides the population into <U+FB01>ve subgroups, i.e., = 5; 5–6; 6–7;
+7–8; > 8. And School Level distinguishes the population of students in
+primary school and that in high school respectively. Since the high
+correlation between school level and age, the results of the tree-based
+model indicates that the variable of School Level plays more signi<U+FB01>cant
+e<U+FB00>ect on school travel mode choice than the variable of Age.
+Fig. 2 shows the percentage of walk decreases rapidly with the increasing 
+of travel distance; the percentage of motorized modes increases 
+with the increasing of travel distance; the mode choice of cycle
+changes in a nonlinear form. The percentage share of walk is highest
+(60.4%) among the students for travel distance = 2 km, and the intersection 
+number is = 5. The percentage share of cycle is highest (62.5%)
+among the students living in the extended zone for travel distance of
+2–6 km, without available household vehicles, and intersection number
+is = 5. The percentage share of public transit is highest (85.0%) among
+the students without available household vehicles for travel distance 
+> 6 km, and intersection number is > 8. The percentage share of
+car is highest (81.4%) among the students who are dropped o<U+FB00> for
+travel distance > 6 km, and intersection number is > 8.
+Apparently, the tree-based regression model provides an intuitionistic 
+exhibition of students' school travel mode, and gives implications 
+related to classi<U+FB01>cation of key factors. Given few variables
+are taken into consideration within the tree construction, as well as the
+direction and the e<U+FB00>ect of key factors are uncertain, it is necessary to
+investigate the in<U+FB02>uencing factors based on a logit-based regression
+model in the next step.
+
+6.2. Logit-based regression model
+
+The tree-based regression model shows that travel distance with the
+threshold of 6 km is the most important classi<U+FB01>cation factor for students' 
+school travel mode choice. Thus the students are divided into two
+subgroups: students living within 6 km and out of 6 km. The corresponding 
+regression results are described in Tables 6 and 7 according by
+the categories mentioned above, respectively, where the referent group
+for dependent variable is car. The problem of multicollinearity also has
+been tested through the measurement of Variance In<U+FB02>ation Factor
+(VIF).
+
+6.2.1. Children's characteristics factors
+
+For students living within 6 km from school, the coe<U+FB03>cients on sex
+are highly signi<U+FB01>cant for cycle, public transit and walk. The positive
+sign suggests that active modes and public transit are most favored by
+boys. For students living longer than 6 km from school, it shows that sex
+is uncorrelated with students' school travel choice. This <U+FB01>nding reveals
+that there are male-female di<U+FB00>erences in school travel mode only for
+the short travel distance in Beijing. Similar and dissimilar <U+FB01>ndings can
+be found in previous studies conducted in other countries. For example,
+Ermagun et al. (2015a) proposed that the propensity of male students to
+choose public transit or walk is greater than that of female students in
+Iran. Nelson et al. (2008) found that there are approximately one third
+
+of students actively commute to school in Ireland, and the more male
+students commute actively (more travel by bicycle) than females, while
+the others (Leslie et al., 2010) in Australia found the opposite. The
+reasons behind gender di<U+FB00>erence in mode choice have not been well
+illustrated (Ermagun and Samimi, 2015). Under the Chinese context,
+this gender di<U+FB00>erence can be attributed to parental concern and limited
+travel world of female students.
+Regarding the e<U+FB00>ect of local hukou, for students living within 6 km
+from school, the coe<U+FB03>cients on local hukou are highly signi<U+FB01>cant for the
+choice of public transit and walk. The negative sign suggests that school
+trips with local hukou can reduce the propensity of public transit and
+walk for the short travel distance. For students living longer than 6 km
+from school, local hukou is signi<U+FB01>cant between the public transit and
+car. The negative sign shows that students with local hukou are more
+willing to be driven to school (compared to public transit) for the long
+travel distance. As introduced before, hukou institution is a Chinese
+unique population policy used to control the movement of the rural
+population into the city (Li and Zhao, 2015), especially in Beijing. It is
+related to the distribution of state's welfare, such as education as well as
+the purchase quali<U+FB01>cations of house and vehicle. In generally, a student
+
+with a local hukou has the priority to access private car, and therefore
+has higher possibility to be driven to school.
+As for the school level, for students living within 6 km from school,
+school level acts signi<U+FB01>cantly on travel alternatives of public transit and
+cycle. For students at primary school, they don't prefer the modes of
+public transit and cycle, while the students at middle school dislike
+cycling compared with high-school students. For students living longer
+than 6 km from school, the coe<U+FB03>cient of primary school is negative for
+public transit and cycle, indicating car is most preferred by primary school 
+students for the long-distance travel. The negative coe<U+FB03>cient of
+middle school for public transit implies that middle-school students are
+more willing to use cars compared with public transit. The study conducted 
+by Yarlagadda and Srinivasan (2008) stated that children aged
+6–12 years in the US are more likely to use the motorized travel modes,
+while children aged 13–17 years have the highest utility for biking or
+walking independently to school. In Beijing, when the travel distance is
+greater than 6 km, the likelihood of travelling by car is relatively higher
+among the primary-school students, which is similar to what is found in
+the US. And for the short-distance school travel, due to the parental
+concern to their young children, public transit or cycle is not allowed
+for primary-school students. Moreover, in accordance with some previous 
+studies (Nevelsteen et al., 2012; Ermagun and Samimi, 2015;
+Ermagun and Levinson, 2016a), older children are more likely to travel
+autonomously and less willing to be accompanied by either parents or
+siblings, to seek a more independent lifestyle. Therefore, compared
+
+with middle school students, high-school students prefer cycling under
+the short-distance school travel, and most likely to use public transit for
+the long-distance school travel in Beijing.
+
+6.2.2. Households' characteristics factors
+
+Household income is found to be an important factor in<U+FB02>uencing
+students' school travel mode choice. For students living within 6 km
+from school, low-income families are found to be more likely to choose
+public transit mode to school. Moreover, low-income variable also has a
+signi<U+FB01>cant e<U+FB00>ect on the mode choice of cycle. For students living longer
+than 6 km from school, low-income families are fond of public transit
+compared with car. Many studies have addressed a positive correlation
+between the propensity of driving students to school and household
+income (Ermagun et al., 2015a; Ermagun and Levinson, 2016b).
+Ermagun and Samimi (2015) reveal that increased household income
+reduces the likelihood of public transit use while increases the chance
+of driving and walking in Iran. Similar to these countries, students in
+Beijing from low-income families are most likely to use the non-car
+modes, due to the high relationship between household income and car
+ownership. In this study, household income has no e<U+FB00>ect on walking
+under short-distance travel, indicating that the mode choice of walking
+has no correlation to household income. In Beijing, there is no di<U+FB00>erence 
+between students from high-income households and that from
+low-income households when they walk to school. Similar conclusion is
+also obtained from the study of Deka (2013) in the US. For the low income 
+families, students walk to school because of the travel cost,
+while for the high-income families, students walk to school maybe due
+to their parents' awareness about their health bene<U+FB01>ts or the better
+neighborhood quality.
+Car ownership is another major predictor of school travel choice
+with highly signi<U+FB01>cant and large coe<U+FB03>cients. For students living within
+
+6 km from school, the students are more likely to be driven to school
+
+when their families have cars, while the students from households with
+dual-career parents prefer non-car travel modes. For students living
+longer than 6 km from school, the highly signi<U+FB01>cant and negative
+coe<U+FB03>cients on car ownership for other travel modes also suggest the
+
+
+propensity of car for households with cars. Dual-career displays no
+
+
+signi<U+FB01>cant e<U+FB00>ect on the school travel trips. Consistent with foreign
+
+studies (Ermagun et al., 2015a; Ermagun et al., 2015b; Ermagun and
+Levinson, 2016a), the students in Beijing from households with cars
+have a higher likelihood of being driven to school since they have access 
+to private cars. Yarlagadda and Srinivasan (2008) have found the
+strong impacts of parental employment and work <U+FB02>exibility on children's 
+mode choice decisions in the US. Speci<U+FB01>cally, mothers who go to
+work on the school day (and do not have full <U+FB02>exibility in their work
+schedules) are more willing to drive their children to school, while the
+fathers who have full <U+FB02>exibility in their work schedules are more likely
+to drive their children to school. Contradictory results are found in this
+study, dual-career parents choose non-car travel modes for their children 
+in Beijing, maybe because of their great greater time constraints.
+
+6.2.3. Built environment factors
+
+Regarding the e<U+FB00>ect of school district, for students living within
+6 km from school, households living within school district show their
+preference to public transit, cycle and walk, this means shorter travel
+distance is helpful for encourage students' active and independent
+mobility. For students living longer than 6 km from school, school
+district displays a signi<U+FB01>cant e<U+FB00>ect on all the travel modes except for
+walk (the sample size of walk is small when the school travel distance is
+more than 6 km). The results show living within the school district
+increases the propensity of these modes. In conclusion, the likelihood of
+being driven to school is relatively lower for students living within the
+school district in Beijing. Since the variable School District represents a
+relatively shorter travel distance to school to some extent, we will
+discuss the e<U+FB00>ect of distance on students' mode choice afterwards.
+With respect to geographic distribution, for students living within
+
+6 km from school, the signi<U+FB01>cant e<U+FB00>ects on all travel modes con<U+FB01>rm
+that students living within core and development zones are more
+willing to walk, following by are public transit and cycle, while students
+living within extended zone are most likely to use public transit followed 
+by walk. Speci<U+FB01>cally, the positive coe<U+FB03>cients for core zone are
+the largest. This implies that di<U+FB00>erent functional zones have their own
+school travel pattern, and the students living within core zone have the
+maximum probability to choose active modes and public transit. The
+coe<U+FB03>cient on public transportation accessibility only works on the
+mode of public transit, and the result indicates that the likelihood of
+using public transit is particularly large when the travel distance between 
+students' home and the nearest bus/subway station is within
+1 km for the short-distance school travel. For students living longer
+than 6 km from school, no signi<U+FB01>cant di<U+FB00>erence among di<U+FB00>erent school
+travel modes has been found in term of living location and public
+transportation accessibility, indicating these two factors are not the
+determinants in regards to students' school travel mode choice for
+students living far from school. The study conducted by Merom et al.
+(2006) in Australia has discussed the e<U+FB00>ect of geographic distribution
+on students' school travel mode choice. It found that students in rural
+areas are most dependent on bus travel while students in urban communities 
+use cars more frequently. Another study conducted by Deka
+(2013) in the US found that students in large metropolitan areas are
+most likely to walk or cycle to school compared to rural, non-metropolitan, 
+and small metropolitan areas. In Beijing, core zone is regarded 
+as the inner city of Beijing, thus the neighbor quality and travel
+environment are better for students' independent mobility. The extended 
+zone is the representative area of high technology industries and
+educational institutions, therefore the population density is also at a
+high level. Similar to the results of Ermagun and Levinson (2016b), the
+use of walking and public transit increases in school trips with the increase 
+of population density. For development zone, bicycle is also used
+most among the students, mainly because of the imperfect public transit
+system. In addition, a negative relationship between the public transit
+usage and distance to the nearest public transit station is widely recognized 
+although the e<U+FB00>ect magnitudes are di<U+FB00>erent. Ermagun et al.
+(2015b) described that the tendency to use public transit will increase
+for school travel when the home-public transit station distance is less
+than 600 m. While Alemu and Tsutsumi (2011) thought 1.5 km distance
+to public transit station is available to take the public transit. These
+<U+FB01>ndings are all similar to what is found in Beijing with regard to the
+e<U+FB00>ect of public transportation accessibility.
+As for intersection number, for students living within 6 km from
+school, intersection number has signi<U+FB01>cant e<U+FB00>ects on the choice of walk
+and cycle. It indicates that less intersection number encourages children
+to walk or cycle to school. For students living longer than 6 km from
+school, it is found that intersection number has signi<U+FB01>cant e<U+FB00>ects on the
+choice of cycle when intersection number is =2, and works on the
+choice of public transit when intersection number of 2–8, indicating
+that less intersection number increases the propensity of using cycle
+while decreases the propensity of using public transit for the long-distance
+school travel. Some researchers have reported the positive relationship 
+between walking to school and intersection density
+(Schlossberg et al., 2006). And some have found that the choice of
+walking is uncorrelated with the street intersections density (Mitra
+et al., 2010). Contradictory results are found in the study of Lin and
+Chang (2010) that increased intersection numbers discourage children
+from walking to school independently in Taiwan. Similar to the later
+study, the reduced intersection number correlates with increase in the
+use of active modes in Beijing. For long-distance school travel, the increased 
+intersection number reduces the propensity of using the public
+transit for students due to the travel comfort.
+
+6.2.4. Travel characteristics factors
+
+The coe<U+FB03>cients on departure time are highly signi<U+FB01>cant across all
+travel modes for students living both within 6 km and greater than 6 km
+
+from school. And the negative signs suggest that leaving for school at
+rush hour reduces the propensities of using these alternative modes.
+That is, students in Beijing are most likely to be driven to school when
+they are leaving for school at rush hour. In Beijing, the tra<U+FB03>c volume
+will signi<U+FB01>cantly increase during the rush hour. Considering their
+children's travel safety, parents will be more willing to escort their
+children to school. Moreover, it is convenient for parents to drive their
+children to school in the morning on their way to work since the start
+times of schools for students are usually before or approximate the same
+time that parents depart for work in Beijing. Similar <U+FB01>ndings can also be
+found in the study of Lin and Chang (2010), although which is conducted in Taiwan, China.
+With regard to the e<U+FB00>ect of accompaniment, for students living
+within 6 km from school, car is most likely to be used for school trips
+with adults' accompaniment. For students living longer than 6 km from
+school, the coe<U+FB03>cients on accompaniment are highly signi<U+FB01>cant for the
+choice of public transit. The negative sign suggests that school trips
+with adults' accompaniment can reduce the likelihood of using public
+transit. Therefore, in Beijing, when students are escorted by their families, 
+the likelihood of being driven to school is relatively higher. The
+<U+FB01>nding from Ermagun et al. (2015b) also shows that younger students
+had more probability to choose escorted modes of transportation, including 
+school buses and private cars. However, school bus service isn't
+common in China since it is neither state provided nor free like in many
+Western countries (Ermagun and Levinson, 2016a), thus it is reasonable
+for most parents in Beijing to drive their children to school.
+Consistent with many studies worldwide (Yarlagadda and
+Srinivasan, 2008; Deka, 2013; Kelly and Fu, 2014), the likelihood of
+using non-motorized modes decreases with the increased distance to
+school. In this study, distance is also found as a signi<U+FB01>cant reason for a
+decline in shares of active school transport and an increase in shares of
+motorized modes. For students living within 6 km from school, increased 
+travel distance reduces the active modes utilization. For students 
+living longer than 6 km from school, compared to school travel
+longer than 10 km, the school trips made within 6–10 km are more
+likely to use bicycle. Thus increased travel distance can reduces the
+utility of using the bicycle.
+
+7. Discussions
+
+In Western countries, many e<U+FB00>orts have been devoted into the
+policy research and investment evaluation related to the improvement
+of active and independent mobility for students. For example in the US,
+the Safe Routes to School (SRTS) programs have been implemented
+since 2005, and the major focus of these programs is the investments
+toward infrastructure improvement (NCSRS, 2010). In Canada, school
+travel plans (STPs) have been proposed to help the families choose
+green travel modes. In addition to the engineering projects, these
+strategies emphasize the education and encouragement on sustainable
+travel, and the law enforcement about parking and driving near schools
+(ARTA, 2007). Although there are some di<U+FB00>erences on fundamental
+realities between the Western countries and China, their practices still
+suggest a systematic research that would improve our current understanding 
+of students' school travel mode choice and further inform
+development of future interventions to create a better travel environment 
+for students in Beijing, China.
+The results from this study reveal that the planning and layout of
+infrastructures, as well as the travel demand management policies may
+play potentially important roles in enabling the active and independent
+mobility among the students. The speci<U+FB01>c lessons from this are discussed 
+in the following subsections.
+
+7.1. Planning and layout of infrastructures
+
+First, di<U+FB00>erent from the Western countries, the urban form in Beijing
+is divided into four di<U+FB00>erent functional zones. The modelling results
+
+indicate the use of active modes and public transit increases in school
+trips with the increase of population density in Beijing. Therefore, in
+addition to continuing improving the travel environment for active
+modes in high-population density zones, attention on transport and
+education should also be paid to the low-population density zones, like
+ecological conservation zone in Beijing. Since the likelihood of being
+driven to school decreases for students living within the school district
+in Beijing, it is necessary to arrange the schools scienti<U+FB01>cally according
+to the land use, population structure and distribution. Meanwhile, the
+educational resources of high quality should be distributed evenly to
+lead the students choose the school near their home.
+Second, the <U+FB01>ndings from this study reveal that each alternative
+travel mode has its own competitive scope, which is also unlike the
+Western countries. For example, the criterion distance for Irish students
+to walk and cycle to school is less than 2.4 km and less than 4.0 km,
+respectively. For the distance of 4.0–4.8 km, government needs to
+subsidize transport to school for post-primary pupils in Ireland. In
+Denmark, it is required that secondary school students must live a
+distance greater than 8 km from school to avail of free transport (Nelson
+et al., 2008). In Canada, it is regarded that a distance more than 5 km
+will restrict the school travel mode to motorized transport only (Mitra
+et al., 2010). In China, 3 km is deemed as the cut-o<U+FB00> value between
+active modes and motorized modes in 2005 (Li and Zhao, 2015).
+Compared with students in Western countries, Chinese students walk
+shorter but cycle farther. And compared with Chinese students in
+Beijing a decade ago, students now both walk and cycle farther, indicating 
+the school commuting distance continues to grow in recent
+years.
+
+In comparison, the corresponding service supporting facilities
+should be designed appropriately to maximize the function of each
+travel mode in Beijing according to the descriptive and modelling results 
+from this study. As shown in Table 4, the majority of the students
+choose to walk for the distances of 0–2 km. Therefore, the urban
+planners should concentrate on the construction of pedestrian-friendly
+environment to enhance the walkability, and the connection with the
+public transportation. Regarding the safety issue on the young students,
+it is advisable to introduce the travel mode of walking school bus
+(WSB), which is widely practiced in England, New Zealand, and US. The
+WSB programs, i.e., a group of children picked up throughout the
+neighborhood walk to/from school with the accompaniment of parents
+or other adults, have been proved to be a potential option to improve
+children's pedestrian safety (Mendoza et al., 2012). The statistical results 
+also show that the optimal scope for cycling is the distance of
+2–6 km. Thus, the construction of a cycling-friendly road networks
+should be focused on. In Beijing, the characteristics of urban mixed
+tra<U+FB03>c make the motorized vehicle and non-motorized vehicle interfere
+each other seriously. As a result, e<U+FB00>orts should be devoted to the separate 
+bicycle lanes, bicycle parking/storage facilities, and so on. Given
+the e<U+FB03>ciencies of travel modes, it is reasonable for the students using
+public transit when the travel distance is above 6 km. Within the optimal 
+service radius near the school for public transit, the bus or subway
+stations should be set reasonably to ensure a high accessibility for the
+public transit. As the modelling results suggest in this study, the likelihood 
+of using public transit is particularly large when the travel distance 
+between students' home and the nearest bus/subway station is
+within 1 km.
+Third, similar to the foreign countries, students in Beijing from
+households with cars are more willing to be driven to school. For the
+families which are accustomed to drive their children to school, it isn't
+easy to force them change their habits in the short term. Therefore, it is
+important for the urban planners to reserve the parking facilities within
+some distance of the school according to the school scale, students'
+structure and land use.
+
+7.2. Implementing of related policies
+
+It has been reported in recent studies that the integration of infrastructure 
+construction and policy formulation has an excellent impact
+on active school travel rates (Mitra and Buliung, 2015). Based on the
+<U+FB01>ndings from this study, three travel demand management policies are
+proposed according to the institutional and cultural context in Beijing.
+First, the modelling results in this study reveal that students in
+Beijing are most likely to be driven to school when they are leaving for
+school at rush hour. The reason behind this phenomenon may lie in two
+aspects. On the one hand, given large travel demand at peak hours
+deteriorates the travel environment and increases the risk of accidents,
+many parents drive their children to school to ensure a comfortable and
+safe school trip. On the other hand, it is convenient for the parents to
+drive their children to school on their way to work within the time
+constraint. Therefore, it is crucial to implement di<U+FB00>erent working hour
+in Beijing to reduce the travel demand at rush hour, and further increase 
+parents' perception about their children's travel safety to school,
+as well as cause the inconvenience of driving students to school.
+Second, it should be noted that this study cannot analyze students'
+school travel mode choice behavior escorted by friends or relatives due
+to the unavailability of the related data. The modelling results in this
+study explore that when students are escorted to school, the likelihood
+of using cars is relatively higher in Beijing. Therefore, it is important to
+shed light on the education about the sustainable travel modes and
+cultivate an awareness of independent mobility for both students and
+their parents. As for the students requiring the accompaniment of adults
+due to some speci<U+FB01>c reasons, it is advised to walk or use bicycle to
+escort the students for the short distance, while for the longer distance,
+it is advocated to use school bus or public transit. Although car is more
+convenient, the awareness of sustainable travel should root in every
+citizen's mind with the improvement of public transit network and
+school bus service. The <U+FB01>nding of Ermagun et al. (2015b) shows that
+younger students in Tehran are more willing to choose escorted travel
+modes, including school buses and private cars. It should be noted that
+there are some school strips using school bus in the sample data (2.6%
+of the sample population), the average travel distance of school bus
+(7.04 km) is the same as the public transit's, and the school bus can
+reduce the average travel time up to 42.54% compared with public
+transit (the average travel time of school bus is 28.67 min). However,
+school bus service isn't common in China since it is neither state provided 
+nor free like in many Western countries (Ermagun and Levinson,
+2016a), thus it is urgent for the government to take measures to promote 
+the development of school bus service in Beijing, and the focus
+should be concentrated on the problems such as school bus route
+planning and the school bus stop station layout.
+Third, the modelling results in this study indicate that school trips
+with local hukou of Beijing reduce the propensity of public transit and
+active modes, while increase the likelihood of being driven to school.
+Di<U+FB00>erent from the Western countries, hukou institution is a unique
+Chinese policy in Beijing to control the rural population and the related
+welfare distribution. It is also one of the premises of vehicle purchase in
+Beijing. Similar to the students from households with cars, students
+with local hukou also have the priority to access private car, and then
+have higher possibility to be driven to school. Thus, it is necessary to
+keep on implementing the quota control policy for car ownership, and
+further promote and encourage students' active and independent mobility. 
+In addition to the existing quota control for Beijing hukou which
+can impose restrictions on the car ownership in total to some extent,
+e<U+FB00>orts can be made from the following aspects in light of the successful
+experience of foreign countries. 1) Increase the vehicle purchase cost,
+such like the car ownership system in Singapore. It is managed via both
+the requirement to bid for a Certi<U+FB01>cate of Entitlement (COE) and the
+payment of an Additional Registration Fee (ARF), which typically account 
+for more than half the purchase cost of a vehicle. The COE entitles
+the usage of local roads and the ARF is refundable to incentivize the
+
+vehicle deregistration (Chu, 2015). 2) Raise the standards for vehicle
+purchase, such like the vehicle registration law in Japan. Its vehicle
+registration is conditional upon demonstrating access to a long-standing
+parking space near the residence. And the practice proves that this
+policy can e<U+FB00>ectively slow the growth of car ownership, especially in
+the places with high property prices (Barter, 2011).
+
+8. Conclusions
+
+This study is an e<U+FB00>ort to develop a framework incorporating treebased 
+regression method and logit-based regression method to explain
+the behavioral aspects of students' school travel mode choice.
+Understanding the motives behind such behaviors is signi<U+FB01>cant for
+urban planners to create a better travel environment for students' active
+and independent mobility, which is widely recognized as an opportunity 
+to solve the health issues related to individuals, cost issues related
+to households, negative externalities issues related to the transportation
+system.
+Speci<U+FB01>cally, the tree-based regression model is introduced to o<U+FB00>er a
+clear interpretation of the results through identifying the key factors
+and indicating the split thresholds of the variables. The logit-based
+regression model is used to enrich and broaden the preliminary <U+FB01>ndings
+based on the results of decision tree. Both of the two methods provide
+di<U+FB00>erent insights into the behavioral representations of the underlying
+decision processes. In this study, some signi<U+FB01>cant factors that in<U+FB02>uence
+school travel mode choice were examined. Especially, the results show
+that car ownership, poor walking/cycling environment and adults'
+convenience for escorting students signi<U+FB01>cantly stimulate the use of
+cars in school commuting. The students are more inclined to be driven
+to school when their departure time is at rush hour compared to the
+other time. Moreover, the longer distance encourages the use of motorized 
+transport, where the households with local hukou (usually related 
+to the car ownership and other welfares) are more willing to drive
+their children to school. Further, it is found that living within school
+district can reduce the probability of using the car.
+According to the <U+FB01>ndings from this study, recommendations for
+policymakers and advocates on school travel environment planning and
+management are proposed to improve the transportation services for
+students in Beijing from primary to high schools. The strategies about
+layout of educational resources, development of alternative school
+travel options within the optimal distance scope, planning of parking
+facilities near school are introduced speci<U+FB01>cally. In addition, the literature 
+suggests that travel demand management-related policies on
+implementing di<U+FB00>erent working hour, education and propaganda about
+the sustainable travel modes, as well as the quota control for car
+ownership are also should be paid attention to. These <U+FB01>ndings improve
+current knowledge on the correlation of school travel choice and provide 
+local evidence that may inform school transportation planning
+practice in Beijing, China. The study also advances school travel behavior 
+research by addressing the integration of parametric and non-parametric statistics methods.
