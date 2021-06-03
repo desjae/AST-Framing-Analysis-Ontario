@@ -1,0 +1,516 @@
+Is there a gender gap in school travel? An examination of US children
+and adolescents
+
+Previous research on school travel showed an inconsistent relationship between sex and the prevalence
+of walking or biking to school. Some studies found that males were more likely to use active transport
+modes, but other research found no association between sex and school travel. This study used data from
+the 1977, 1983, 1990, 1995, 2001, and 2009 US National Household Travel Surveys to examine sex differences 
+in school travel and how they have changed over time. The analysis showed that males walked to
+and from school more than females, though differences were modest – between 1% and 2% points – and
+were statistically signi<U+FB01>cant only in 1990. In contrast, males biked to school two to three times more than
+females. These modal differences may result from females’ observed lower levels of independent mobility. 
+Policy interventions, such as the Safe Routes to School program, can address gender differences by
+providing programs such as the Walking School Bus that provide adult supervision on the school trip.
+Bicycle interventions should ensure that females are participating in the programs.
+
+1. Introduction                                                                             
+											
+The proportion of US elementary and middle school students                              
+usually walking and biking to school declined from 48% in 1969                              
+to 13% in 2009 (Beschen, 1972; McDonald et al., 2011). Similar                              
+trends have been observed in much of the English-speaking world                             
+(Buliung et al., 2009; Pooley et al., 2005; Van Der Ploeg et al., 2008).                    
+At the same time, youth obesity rates have increased (Ogden et al.,                         
+2006). While causal linkages between the two trends have not                                   
+been established (Faulkner et al., 2009), policymakers have allocated 
+resources to increase active transportation to and from                               
+school. For example, the US federal transportation bill, SAFETEALU, 
+and its extensions have appropriated over $860 million for a                            
+national Safe Routes to Schools program and the White House Task                            
+Force on Childhood Obesity set of goal of increasing the proportion                         
+of students walking or biking to school by <U+FB01>fty percent (National                           
+Center for Safe Routes to School, 2010; White House Task Force                              
+on Childhood Obesity, 2010).                                                                   
+One open question – which has not been addressed by current                             
+policy initiatives – is whether school travel is gendered. Studies of                       
+adult work travel show strong differences in commuting patterns                            
+between men and women (Crane, 2007). These differences have                                 
+persisted despite declining gaps in employment, licensure, and                              
+earnings between the sexes. Research on the gender gap in school                            
+travel is more mixed. Some studies report signi<U+FB01>cant differences in
+rates of walking to school between males and females, while others
+												
+show no gender effect. Theoretical perspectives on gender and the
+mobility of children and teens are also in <U+FB02>ux. Traditionally,
+researchers have believed that girls had less travel independence
+than boys because parents were more protective of girls and girls
+had more household responsibilities (Hart, 1979; Matthews,
+1992). However, Valentine (1997) has suggested that these norms
+may be changing as parents become increasingly concerned about
+the safety of both sexes in public spaces.
+This study looked at gender differences in one particularly
+important trip – the trip to and from school – using data from
+the US Department of Transportation’s National Household Travel
+Surveys (NPTS) conducted between 1977 and 2009. The emphasis
+was on walking and biking to school because it is the focus of
+current policy interventions. The study analyzed sex differences
+in school travel and developed a multinomial logit model to more
+robustly test whether there was a gender gap on the school trip
+even after controlling for individual and household covariates.
+The following section provides background on children and
+teen’s school travel and previous research on gender differences.
+Next, the paper describes rates of walking and biking to school
+by sex at national and regional levels and levels of independent
+mobility. The <U+FB01>nal section describes a multinomial logit model to
+more carefully test for gender differences among elementary and
+middle school students living within two miles of school.
+
+2. Previous research
+
+The literature on school travel, particularly walking and biking
+to school, provides insights into how gender affects school trips.
+                                             						                                           					
+Most studies <U+FB01>nd that males walk and bike to school more than
+females. However, differences are often not statistically signi<U+FB01>cant.
+McMillan et al. (2006) is one of the few studies to focus on gender 
+differences in school travel. The study found that third to <U+FB01>fth
+grade Californian boys were signi<U+FB01>cantly more likely than girls to
+walk and bike to school (27% vs. 19%). This study also found that
+the amount of time the caregiver walks moderated the effect of
+gender on active transportation to school. When caregivers spent
+more time walking, there were fewer sex differences in children’s
+behavior. Several other California studies have found signi<U+FB01>cant
+gender differences. For example, Rosenberg et al. (2006) showed
+that fourth and <U+FB01>fth grade boys from southern California were
+more likely to walk, bike, or skateboard to school at least 2–3 days
+per week than girls. In a study of California teenagers, Babey et al.
+(2009) found that the odds of walking or biking to school for girls
+were two-thirds that of boys.
+International studies have also found signi<U+FB01>cant differences.
+Timperio et al. (2006), in their study of 235 5–6 year olds and
+677 10–12 year olds in Melbourne, Australia, found boys aged
+10–12 biked at signi<U+FB01>cantly higher rates than girls (9.2% vs.
+3.7%), but there were no differences in walk rates. The study found
+no gender differences in walk and bike rates among younger children. 
+A larger Australian study (n = 2961) of 10 and 14 year olds
+found signi<U+FB01>cant differences in school travel by sex. They found
+girls were more likely to walk to school (44.3% vs. 37.4%), but were
+less likely to bike (8.3% vs. 22.4%) leading to lower overall rates of
+active travel among females (Leslie et al., 2010). In a London, Ontario 
+study of similarly aged children (11–13 years old), Larsen
+et al. (2009) found that boys were 1.5 times more likely to walk
+or bike for school travel. Nelson et al. (2008) found that high school
+boys in Ireland were signi<U+FB01>cantly more likely to walk to school
+than girls. Yelavich et al. (2008) found similarly results among elementary 
+school children in New Zealand. In the UK, Panter et al.
+
+(2010) report that boys are more likely to use non-motorized
+modes than girls, but among non-motorized mode users, girls were
+signi<U+FB01>cantly more likely than boys to walk (boys were more likely
+to use bicycles).
+
+There are several examples of studies that found no association
+between gender and school travel. Martin et al. (2007) reported no
+signi<U+FB01>cant difference in rates of active transportation to school
+among a nationally representative sample of 2649 US children
+aged 9–15 living within 1 mile of their school. A study of 315 Georgia 
+children aged 5–15 living within 1 mile of school found that
+boys walked to school more frequently than girls (19.3–17.9) but
+the difference was not statistically signi<U+FB01>cant (Bricker et al.,
+2002). Kerr et al. (2006) reported no gender differences in walking
+and biking to school for children aged 5–18 living in Seattle. Booth
+et al. (2007) examined mode choice to school among sixth graders
+in New South Wales, Australia, and found no signi<U+FB01>cant difference
+in the likelihood of walking (vs. riding in a car or using public
+transport) by gender. Similarly, Page et al. (2010) and Black et al.
+(2001) found no differences in mode choice to school by gender
+for children in the UK and Grize et al. (2010) found no differences
+in school mode choice for Swiss boys and girls.
+
+2.1. Age
+
+This review suggests that gender effects may be most important
+for third through eighth grade (ages 8–13) students. In fact some of
+the variation in results may come from the different age groups
+studied. Existing research on children’s mobility shows that age
+is a critical determinant of children’s travel and play (Matthews,
+1992). In a study of a New England town, Hart (1979) found that
+children, particularly boys, gained much more travel independence
+around age 10. A study in the UK found the same increase in independence 
+occurred around 8 or 9 (Matthews, 1992). This suggests
+
+that studies which do not disaggregate by age may not detect sex
+differences. In other words, children under 8 may not exhibit sex
+differences because most are not allowed to travel independently.
+Data from the UK also suggest that sex differences disappear for
+high school age children (Hillman et al., 1990).
+The documented differences in boys’ and girls’ travel freedom
+may relate to gendered parenting practices. In-depth qualitative
+studies of children’s mobility have found that parental concern
+for the safety of females combined with higher levels of household
+responsibility may cause girls to have smaller home ranges and
+make fewer trips without adults (Hart, 1979; O’Brien et al., 2000;
+Valentine, 1997). However Valentine (1997) found that middle
+class parents were reluctant to assign older children responsibility
+for younger siblings and have strong safety concerns for boys as
+well as girls.
+
+2.2. Location in region
+
+O’Brien et al. (2000) found that children’s freedom of movement
+was higher for both boys and girls in a lower-density New Town as
+compared to London. They concluded that the ‘‘sheer vastness and
+social heterogeneity of global cities, such as London, may make
+them unknowable to children and adults alike’’. Earlier research
+had shown the opposite with sex differences being minimized in
+an urban setting and maximized in suburban and rural environments 
+(Hart, 1979; van Vliet, 1983) Given the vastly different settings 
+these studies used (and differing de<U+FB01>nitions of low density),
+this research may suggest that the effect of density is non-linear
+and that children have the greatest freedom in places that are
+small enough for parents to know their neighbors but large enough
+for children to have walkable destinations.
+
+2.3. Sample size
+
+The inconsistent relationship between school travel mode and
+gender is also a product of varying research designs. The ability
+to detect statistically signi<U+FB01>cant differences, i.e. power, depends
+on the size of the differences and sample size. With a small sample,
+differences must be very large to be judged statistically signi<U+FB01>cant.
+With a very large sample, even quite small differences can often be
+statistically signi<U+FB01>cant. Of the studies that report a signi<U+FB01>cant gender 
+effect, the difference in walk rates between males and females
+ranges from 4% to 8% points. Detecting a difference of this size
+requires a sample of at least 1000–3000 to have adequate power,
+e.g. 0.8. Many of the studies discussed above had smaller sample
+sizes.
+
+3. Data
+
+The NPTS is a population-based survey conducted by the US
+Department of Transportation (DOT) in 1969, 1977, 1983, 1990,
+1995, 2001, and 2009. The survey collects information on all trips
+undertaken by members of selected households on a randomly-assigned 
+survey day. Household members are asked to provide information 
+on all trips including purpose, mode, and travel time. Data
+are collected on the demographic characteristics, e.g. age and sex,
+of all household members. Race and ethnicity are collected for
+the adult respondent, generally a parent or guardian. Individual
+data are available for the 1977–2009 surveys.
+The unit of analysis is the unlinked trip to and from school. Trips
+to school had a trip purpose of Civic/Educational/Religious (1977),
+School/Church (1983, 1990), School (1995), Go to school as student
+(2001, 2009); occurred on weekdays between 5am and 11am from
+September to May; the respondent was between the ages of 5 and
+18; and the respondent began the travel day at home. Trips from
+
+school had a similar de<U+FB01>nition with the exception that the trip had
+to begin between 1 pm and 6 pm. In the limited number of cases
+where a respondent had more than one trip qualifying as a to or
+from school trip, the earlier trip was counted as the school trip.
+To be included in the analysis, respondents had to report travel
+mode and sex. Based on this de<U+FB01>nition, 3297 surveyed individuals
+made trips to school in 1977, 1295 in 1983, 4048 in 1990, 8398 in
+1995, 12,426 in 2001, and 19,363 in 2009. Sample sizes for trips
+home from school were slightly lower in each year with 3120 observed 
+trips home in 1977, 1199 in 1983, 4105 in 1990, 7812 in
+1995, 11,681 in 2001 and 18,100 in 2009. These varying sample
+sizes mean that for similar effect sizes power is lowest in 1983.
+Although the NPTS is the only source of trend data on school
+travel in the United States, there are several important limitations.
+All of the information for youth under fourteen and much of the
+data for <U+FB01>fteen and 16 year olds is proxy-reported by adults in
+the household (US Department of Transportation, 2004a). However, 
+it is likely that parents are accurate reporters for school trips.
+Next, there have been important changes in the administration and
+design of the NPTS. First, the 1977 and 1983 surveys utilized in-person 
+interviews conducted by <U+FB01>eld staff of the Census Bureau;
+subsequent surveys relied on telephone interviews conducted by
+private research <U+FB01>rms (Research Triangle Institute and Federal
+Highway Administration, 1997; US Department of Transportation,
+2004a). Second, prompts were added in the 2001 survey to encourage 
+reporting of non-motorized trips (US Department of Transportation, 
+2004a). Third, the 1977 and 1983 surveys were based on a
+clustered sample design; more recent surveys used a non-clustered
+list-assisted Random Digit Dial sample strati<U+FB01>ed by geographic
+area (US Department of Transportation, 2004a). Finally, response
+rates were signi<U+FB01>cantly lower for the 1995, 2001, and 2009 surveys
+due to the introduction of a travel diary system which required a
+two-stage data collection process (US Department of Transportation, 
+2004a). While it is dif<U+FB01>cult to quantify the effects of these
+changes, analyses by DOT have shown that reporting of school
+and work trips has been relatively unchanged (US Department of
+Transportation, 2004b). Because of that, methodological changes
+should not alter the <U+FB01>ndings of this analysis which focuses on comparing 
+mode split for a primary trip purpose across years.
+Another important consideration with the NHTS is the role of
+place. The literature documents variation in school travel behavior
+in urban and suburban areas and even suggests the potential for
+varying sex effects in different contexts. Analyses looking only at
+national averages might miss this important local variation. The
+large sample size in the 2009 data allows analysis of regional
+and even neighborhood patterns in certain jurisdictions where
+additional samples were collected, thereby allowing study of
+whether the national patterns are repeated at the local level.
+
+4. Results
+
+The following sections present the <U+FB01>ndings from the NHTS series. 
+The <U+FB01>rst section presents national and regional estimates of
+school trip mode shares by sex in aggregate and strati<U+FB01>ed by age.
+The second section focuses on differences in independent mobility
+between boys and girls. The third section develops multinomial
+logit models of the trip to school to test whether behavior varies
+signi<U+FB01>cantly by sex even when accounting for individual and
+household factors. These <U+FB01>ndings are then related to current policy
+interventions for school travel.
+
+4.1. School travel
+
+Table 1 shows the modal distribution for trips to and from
+school by sex from 1977 to 2009. The data highlight some important 
+differences between males and females. Biking rates were two
+to three times higher for males than females in nearly every year
+(Table 1). However, biking accounted for a small proportion,
+approximately one to two percent, of all school travel. The prevalence 
+of walking to or from school did not vary signi<U+FB01>cantly between 
+girls and boys in most years (Table 1). Differences were
+generally one to two percentage points with boys often having
+the higher prevalence of walking. One exception was 1990 where
+signi<U+FB01>cant differences of approximately four percentage points
+were observed in the prevalence of walking between males and females. 
+Given the anomalous nature of this <U+FB01>nding, it is dif<U+FB01>cult to
+interpret. The data con<U+FB01>rmed the <U+FB01>ndings from other studies that
+automobility has increased and walking is more common on the
+trip from school vs. the trip to school (Buliung et al., 2009; Hayghe,
+1996; McDonald et al., 2011; Schlossberg et al., 2006). But patterns
+of difference between males and females were similar in the morning 
+and the afternoon even though walking and biking were more
+common in the afternoon.
+
+4.1.1. Robustness check: regional analyses
+
+The national results could mask important gender differences at
+the local level by ‘‘averaging out’’ gender effects. For example, consider 
+two identical cities. In City A, all girls are driven to school and
+all boys walk to school; in City B, the reverse is true. An overall
+analysis would <U+FB01>nd no gender differences even though substantial
+differences exist at the city level. Oversampling of some regions in
+the 2009 NHTS allowed detailed analyses of sub-regional differences 
+in walk mode share by sex. In <U+FB01>ve metropolitan areas with
+large samples of students, there were no statistically signi<U+FB01>cant
+differences in the proportion of students walking to school by gender 
+in 2009 (Table 2). This was true overall and when disaggregated 
+by residential density. For example, in the New York PMSA
+(which includes New York City and Westchester, Rockland, and
+Putnam counties) 12.9% of boys and 11.1% of girls walked to school
+(p = 0.490). A county by county analysis of the PMSA also shows no
+signi<U+FB01>cant gender differences. For example in the Bronx, 33.3% of
+females walked to school and 34.6% of males walked (p = 0.925).
+In Staten Island, 12.5% of females walked and 10.0% of males
+walked (p = 0.687). In the highest density areas of the NY PMSA
+(de<U+FB01>ned as block groups with densities above 10,000 people per
+square mile), 21.9% of boys and 18.4% of girls walked (p = 0.468).
+These results suggest it is unlikely that there is substantial averaging 
+out of gender differences.
+
+4.2. Independent mobility
+
+Theory suggests females have less travel freedom than males.
+Studies have shown boys traveling further from home and being
+more likely to travel without an adult (Matthews, 1992). These differences 
+might appear not only in how the student traveled to
+school, but also in whom they traveled with. The 1990 through
+2001 travel surveys showed that males were somewhat more
+likely to be traveling by themselves or with friends and siblings
+as they walked to schools; females were more likely to walk with
+a household adult (Table 3).1 Many of the differences are not statistically 
+signi<U+FB01>cant but the pattern is consistent particularly for elementary 
+school students.
+The 2009 survey asked parents whose children lived within 2
+miles of their school when they would allow their child to walk
+or bike to school without an adult. Approximately 6% of parents
+planned to give their <U+FB01>rst-graders permission to walk independently 
+(Fig. 1). By 12th grade, nearly 90% of parents planned to give
+
+
+The in-depth qualitative studies undertaken by geographers offer 
+a basis for explaining these observations. Research done in the
+1970s in the US and UK found that parents were quite concerned
+about sexual molestation of girls and therefore limited their time
+in the public realm (Matthews, 1992). At the same time, boys were
+given substantial independence around age 10 in accordance with
+the idea that ‘‘boys will be boys’’ and are less vulnerable to stranger
+danger than girls (Hart, 1979). While less discussed in the literature, 
+this could also explain why a signi<U+FB01>cant proportion of parents
+expect to restrict travel freedom for high school girls. There is no
+evidence that parents’ intention to limit the travel freedom of high
+school girls comes to fruition as there are few gender differences in
+the travel pattern of high school male and females.
+
+4.3. Multivariate analysis
+
+The simple proportions revealed strong sex differences in biking
+to school and modest to non-existent differences in other modes.
+However, the descriptive analyses highlighted the strong in<U+FB02>uence
+of demographic factors such as age on mode choice. Multinomial
+logit models were developed to better control for this and other
+demographic factors. The models focused on trips of less than
+2 miles – a common cut point where many school districts provide
+school bus service – for students aged 5–14 (McDonald and Howlett, 2007). 
+The travel decisions of older students are complicated
+by the transition to driving and therefore best explored separately.
+Rural areas were also excluded from the analysis because of the
+different conditions in those areas. By simultaneously controlling
+for multiple individual and household factors, the logit models provided 
+the most ef<U+FB01>cient test of whether there are gender differences 
+in school travel.
+For 1977–1995, multinomial logit models analyzed three modal
+options: being driven to school, walking, or taking transit/school
+buses. Biking was excluded from these models because the samples 
+were too small to allow a robust set of covariates. For 2001
+and 2009, biking was included as a fourth travel option. The models 
+controlled for distance to school, age, race, vehicle ownership,
+single parent status, and location in region. From 1977 to 1990, trip
+distance was available as a two categories variable (<1 mile, 1–1.99
+miles); from 1995 to 2009, distance information was continuous
+though users tended to report in common increments (e.g. 1/
+2 mile, 1 mile). Data from these later years was recoded as a categorical 
+variable (<0.5 miles, 0.5 miles, 0.51–0.99 miles, 1 mile,
+1.01–1.99 miles). Density of a household’s block group was available 
+for 1990–2009. For 1977 and 1983, only information on
+
+whether the residence was in the census-designated center city
+area was available.
+The modeling had two goals. The <U+FB01>rst was to test whether males
+and females responded differently to the factors that affect walking. 
+In other words, were the coef<U+FB01>cient vectors equal for males
+and females? This required a Chow-type test. However because logit 
+models are conditioned on the variance of unobserved factors, a
+standard Chow test would fail to account for these scale differences
+(Swait and Louviere, 1993). The Louviere–Swait test is a modi<U+FB01>ed
+Chow test accounting for potential differences in variance between
+males and females by adding a scale parameter based on sex. To
+make the problem identi<U+FB01>able, only the ratio of the male to female
+scale parameters was estimated, i.e. the scale parameter for males
+is arbitrarily set to 1. The likelihood ratio was then used to test
+whether the coef<U+FB01>cient vectors are equal (allowing the alternative
+speci<U+FB01>c constants to vary), i.e. bF = bM. This was done by comparing
+the log likelihood of the joint model to the sum of the log likelihood 
+of the female only and male only models.
+  
+The second goal was to test whether females were less likely to
+walk or bike to school than males even if they had similar
+responses to explanatory factors such as age and trip distance. So
+even if there were no signi<U+FB01>cant differences in the coef<U+FB01>cients on
+explanatory variables between males and females, did the alternative 
+speci<U+FB01>c constant differ between males and females? This is
+simply a test of whether the coef<U+FB01>cient on the female dummy variable 
+is signi<U+FB01>cantly different from zero and is appropriate when
+the Louviere–Swait test shows no differences in coef<U+FB01>cient vectors.
+Borrowing the previous notation, this was a test that b1 = 0 with bF
+constrained to equal bM.
+The Louviere–Swait test showed no evidence that the coef<U+FB01>cients 
+on explanatory variables differed between males and females, 
+i.e. there was no reason to reject the null hypothesis of
+equality between bF and bM (Table 4). This means that variables
+like trip distance and density do not have differential effects on
+the utility of each travel mode for males vs. females. In addition,
+there was no evidence that the variance of unobserved factors,
+i.e. the scale factor k, varied between males and females. Therefore
+<U+FB01>nal models did not include a scale factor. Full model results are
+available from the author upon request.
+While there was no evidence of differing responses to the variables 
+of interest, models estimated jointly for males and females
+suggested that females were less likely to walk or bike to school
+for short trips. Speci<U+FB01>cally the coef<U+FB01>cient on the female dummy
+variable in the walk and bike utilities was always negative with
+one exception (walk utility in 2001). For biking, the multivariate
+models reinforced the descriptive <U+FB01>ndings. Females are signi<U+FB01>cantly 
+less likely to bike to school than males. The story is more
+complex for walking. Females are generally less likely to walk to
+
+school for short trips, but the effect was only signi<U+FB01>cant in 1990
+and 1995. In 2009, the coef<U+FB01>cient was at the edge of statistical signi<U+FB01>cance 
+(p = 0.08).
+To better understand sex differences, it is helpful to translate
+the model coef<U+FB01>cients into estimates of how sex affects the probability 
+of walking or biking to school. This discrete effect was
+estimated as the average over the sample of each individual’s predicted 
+probability of walking if the respondent were female less
+the predicted probability if the individual were male (Train,
+2003). The results showed that the effects of sex on walking to
+school have decreased over time, but being female was always
+associated with a decrease in walking (Table 4). In 1977, being female 
+was associated with a 4.9% point decrease in the probability
+of walking all else being equal. In 2009, being female was associated 
+with a 1.5 percentage point decrease.
+5. Implications for planners and researchers
+The models and simple averages provide evidence that females
+are somewhat less likely to walk to school than males, with the differences 
+narrowing in recent decades. However, the lack of strong
+differences in walking to school does not imply that females have
+begun walking as much as males, but rather that both groups have
+become equally unlikely to walk.
+In contrast to walking, strong sex differences exist in biking to
+school in the US. This is a particular concern because studies of
+adult biking suggest women in the US are less likely to bike than
+men (Garrard et al., 2008). While no studies have looked at the lifecycle 
+effects of bicycling, it is certainly intriguing that gender differences 
+in cycling emerge at such a young age in the US. This
+stands in contrast to countries where biking is more common. A
+study of 9-year olds in Denmark found equal rates of biking
+(38%) to school among boys and girls (Cooper et al., 2006) and in
+Jiangsu Province, China approximately two-thirds of 12–14 year
+old boys and girls cycled to school (Shi et al., 2006).
+For advocates and policymakers interested in increasing walking 
+and biking to school, these <U+FB01>ndings suggest the need for attention 
+to gendered travel behavior. But the <U+FB01>ndings do not fully
+explain the mechanisms causing differences between males and females. 
+The data suggest that parental limits on mobility may be
+stronger for females than males as evidenced by differences in
+when children were allowed to travel without an adult. This argues
+for creating interventions that affect parental behavior. However,
+this approach privileges parental perspectives without recognizing
+children’s agency (Thomsen, 2004). Could gender differences
+emerge from different travel preferences between boys and girls?
+Or do gender differences emerge from complex interactions between 
+parents and children? Even if parents place equal restrictions 
+on males and females and both sexes have similar
+preferences for walking and biking, differences could emerge if
+males are more likely to negotiate with parents about the rules
+
+
+governing travel. Further research is needed to sort out these
+mechanisms and provide a more rigorous explanation for observed
+differences.
+Nevertheless, existing programs can address some of the causes
+of gender differences. If parental concerns limit walking and biking
+for females, then organized parental escorts might overcome those
+fears. These efforts could mimic the existing ‘‘walking school bus’’
+programs where a designated parental escort walks a group of children 
+to school at a set time and route (Collins and Kearns, 2005). If
+youth travel preferences are key factors in gender differences, then
+school or community-based encouragement programs might
+change behavior. For example, the Boltage program offers individualized 
+encouragement to bike to school. Schools adopting this
+program could focus on ensuring that substantial numbers of females 
+enroll in the program.
+
+6. Conclusion
+This study found that males were somewhat more likely to walk
+to and from school than females but the differences were generally
+not statistically signi<U+FB01>cant. In contrast, males were two to three
+times more likely to bike to and from school than females. The observed 
+differences in walking and biking to and from school may
+result from females’ being less likely to have permission to walk
+or bike without an adult than males of the same age. These differences 
+in permission to travel independently emerge around 5th
+grade and continue through high school. These results suggest that
+policymakers and advocates for increasing active transportation to
+school should pay attention to gendered travel behavior by developing 
+interventions that address parental concerns about students
+traveling alone and encourage females to take part in active transport 
+programs. Further research is needed to understand how gender 
+differences in school travel emerge.
