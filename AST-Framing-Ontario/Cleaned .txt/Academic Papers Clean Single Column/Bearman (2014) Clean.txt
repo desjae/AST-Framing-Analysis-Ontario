@@ -1,0 +1,251 @@
+Modelling the potential impact on CO2 emissions of an increased
+uptake of active travel for the home to school commute using
+individual level data
+abstract
+Active travel for the home to school commute is an ideal opportunity to improve pupil's physical activitylevels. Many studies have looked at how pupils travel to school and the motivating factors behind these
+decisions. This paper applies an innovative methodology to model each pupil’s individual route to schooland then evaluates how different policy changes could increase the uptake of active travel. The changes
+are quantified in terms of the proportion using active travel, CO2 emissions and criterion distances:a method of measuring how far pupils are willing to travel using a certain mode of transport. Findings
+suggest that the greatest reduction in CO2 and increase in health benefits can be made by encouraging
+more primary school pupils to use active travel and targeting schools with existing low levels of active travel.
+1. Introduction
+     There are important positive health benefits associated with undertaking physical activity, and active travel (e.g. walking or cycling) has
+been linked in numerous studies to positive outcomes such as increased life expectancy, reduced risk of obesity and lower rates of heart
+disease (Cohen et al., 2014; Faulkner et al., 2009; Harrison et al., 2011). Active travel has the potential to fulfil UK government
+recommended levels of physical activity of 150 min of moderate intensity activity per week for adults (Department of Health, 2011). This
+could be completed during some commutes, for example, walking two 1 mile journeys or cycling two 3 mile journeys daily would satisfy
+the recommended levels of physical activity for adults (Cohenet al., 2014). Higher levels of physical activity are recommended for children
+depending on their age (Department of Health, 2011), but travelling from home to school provides an ideal opportunity to fulfil such daily
+requirements (Harrison et al., 2011).
+     However, in the past 40 years, levels of active travel have decreased across all groups (Faulkner et al., 2009), and this trend has been
+acutely observed in school pupils (McMillan, 2007; Trang et al., 2012). The adoption of less sustainable and more polluting forms of travel
+have impacts over a range of scales on public health, the environment and their interaction. At the local level, this will include direct
+health impacts as a result of lower levels of physical activity (Faulkner et al., 2009), however, the majority of the research studies on
+children in this area are cross-sectional rather than interventional, so it is not possible to show direct health impacts from decreasing
+active travel (Schofield and Badland, 2005). A small number of studies show an increase in the number of kilocalories expended by
+children who actively commute to school, and a decrease in body weight, but the overall evidence is not compelling (Faulkner et al., 2009).
+This is in contrast to adult studies, where the health benefits of physical activity are well understood (Baker et al., 2014). Indirect health
+impacts from lower levels of physical activity are more widely studied, as increased exposure to pollutants including NOx and PM2.5 results
+in further health impacts, including poor metabolic health (Ekelund et al., 2007), skeletal problems (Prentice et al., 2006) and respiratory
+issues (McConnell et al., 2010). Furthermore, increased traffic congestion around school premises concentrates greater emissions within
+these localities (McConnell et al., 2010; Mohai et al., 2011), and additionally increases danger to school children from traffic accidents
+(Collins and Kearns, 2001). Such impacts also cumulate at the global scale, with CO2 and water vapour emissions having impact on climate
+change; the health implications of which already have considerable evidence (McMichael, 2006). CO2e (carbon dioxide equivalent) is
+regularly used as a measure for the impact of all greenhouse gases (IPCC, 2007 Table 2.14) including in figures used by the UK central
+government (DEFRA, 2012). It is estimated that the home to school commute in England contributes 658k tonnes of carbon each year
+(DCFS, 2010), and therefore there are potentially substantial environmental benefits for pupils to adopt more sustainable travel
+behaviours.
+   Due to the regularity with which pupils travel to and from school, their mode of travel has been shown to have a significant impact on
+their total physical activity levels (Harrison et al., 2011). Furthermore, those exercise habits formed during childhood have been shown to
+influence behaviour in later life (D’Haese et al., 2011; Tudor-Locke et al., 2001), and as a result, if exercise through active travel on the
+commute to school is encouraged, this can augment those immediate benefits with potential longer term health impacts related to
+adulthood behaviour change. The importance of active travel within this setting is not new, and a number of initiatives, such as school
+travel plans (STP) and walking buses have been developed in order to encourage more active travel. Walking buses were first established
+in Canada in 1996, and have since spread to a range of countries across the world including New Zealand, Canada, the US, Denmark and
+the UK (Kingham and Ussher, 2007; Mackett et al., 2003; Mendoza et al., 2012). They are designed to encourage more children to walk to
+school by providing a safe, supervised route. In England, a national policy was adopted of developing school travel plans (Department of
+Education, 2010) to provide support for increasing active travel. Given that local authorities are primarily responsible for school education,
+the implementation levels of STPs varied across the country, and the effectiveness of STPs on promoting active travel has been argued as
+limited (Department of Education, 2010; Rowland et al., 2003).
+   Given the prevalence of active travel linked interventions as part of the home to school commute, the environmental and health
+impacts are correspondingly well studied. However, a number of different methodological approaches are taken to estimate, model or
+record pupil routes between the home and school, in order to quantify the relationship. These range from straight-line distance
+measuring, simulated routes within a Geographic Information System (GIS), Global Positional System (GPS) track analysis, self reporting in
+a diary and self reporting on a map (for example, D’Haese et al., 2011; Harrison et al., 2011; Kerr et al., 2006; Panter et al., 2008).
+   This paper implements a measure called criterion distances, which represents the cumulative percentage of pupils using a particular
+mode of transport within a given set of distance bins. The term was initially coined in Ireland by Nelson et al. (2008) and developed in
+Belgium by Van Dyck et al. (2010) and D'Haese et al. (2011). Using a set of transport data it is possible to explore those thresholds of
+distance at which modes are likely to swap, and in combination with traditional measures (mean distance, proportion) give an informative
+overview of travel behaviours. Nelson et al. (2008), Van Dyck et al. (2010) and D’Haese et al. (2011) use the threshold of distance that
+represents where 85% of pupils commute from as the criterion distance, and this is interpreted as the maximum distance that pupils are
+prepared to travel by active travel (Van Dyck et al., 2010). Such distances are typically derived empirically, based on an interpretation of
+distance/mode choice graphs such as those presented in Fig. 1. Along the x-axis, a series of bins distribute pupils travelling to school at
+these distances by their share of transport mode which are plotted as cumulative percentages (y-axis). Fig. 1 uses data for Norfolk primary
+schools (N = 435) and secondary schools (N ¼77), which will be introduced as our case study region later in this paper. The spike/dip in
+primary schools at 11–11.5 km is an outlier as a result of the small N at this distance, and in similar national graphs would be
+smoothed away.
+   Table 1 provides a summary of a number of different studies looking at the home to school commute from a selection of European
+countries, as well as data from the “SPEEDY” studies that relate to primary and secondary school commuting for children in a number of
+schools in Norfolk (Harrison et al., 2014, 2011). The SPEEDY study (Sport, Physical activity and Eating behaviour: Environmental
+Determinants in Young people) was funded by the National Prevention Research Initiative to examine physical activity levels and the
+factors associated with these behaviours in a large population-based sample (N ¼2064) of British 9–10 year old children (Sluijs et al.,
+2008). School commute routes were collected using GPS units and accelerometers for a subset of the sample (N = 184). The data shown in
+Table 1 are a subset of studies that evaluate home to school travel (see Panter et al., 2008 for a detailed review) and were selected because
+they specifically implemented criterion distances, or covered the same study area as this research. The table highlights some substantial
+national differences, starting with much higher passive transport rates in the UK and Ireland than in Belgium. It can be seen that similar
+patterns are seen for walking, whereas the proportion of cycling in Belgium is much higher, and particularly for secondary schools. By
+contrast, the walking rate is much lower in Belgium secondary schools compared with those in the UK or Ireland, however this is
+compensated by a much higher cycling rate. It can however be argued that the attitudes to cycling and available infrastructure are
+different in Belgium compared to the UK (D’Haese et al., 2011), and the reasons for this include perceived road safety, fear of strangers,
+social acceptance, road design and attitude of other road users (Foster et al., 2013; Harrison et al., 2014; Panter et al., 2010; TNS Opinion &
+Social, 2013). Furthermore, such patterns are not necessarily fixed, for example, a recent review by Pucher et al. (2010) showed that a
+significant increase in cycling is possible within areas that currently have a low cycling rate by the adoption of a range of interventions
+including infrastructure, shower and storage facilities at workplaces, integration of cycling with public transport, programmes such as
+‘cycle-to-work’ and cycle hire schemes.
+    The vast majority of the studies in this area are either constrained to a specific geography, for example, as an evaluation of a particular
+intervention, or employ sampling approaches for a national extent (Singleton, 2014). While sampling approaches may enable the study of
+a larger population, it is often difficult to extrapolate findings between different geographical contexts, limiting such results to national or
+regional scales of interpretation. However, the work presented here implements an alternative method of modelling home to school
+commutes that enables the estimation of route choices for larger populations and at flexible scales of calibration and representation
+(Singleton, 2014). Using this model allows us to understand existing school commute patterns much more effectively, and subsequently
+use this data to estimate the impact of changes in policy that might promote greater uptake of active travel.
+    In England, travel mode choice data was collected as a part of the national school census between 2006/7 and 2011/12 as a method of
+evaluating the impact of the Travelling to School Initiative (TSI) for the Department of Education (2010). In aggregate over this period, the
+mode of travel data indicates a small shift to walking and cycling, however, it is difficult to directly attribute this change directly with the
+TSI programme and the school transport plans created as a result. These mode choice data are available as a component of the National
+Pupil Database1 which pertains to individual level information about pupils in schools and colleges in England, and for this research, an
+extract was made available covering the extent of the Norfolk local authority. Norfolk has 435 primary schools and 77 secondary schools in
+a range of rural and urban locations providing education for 54,383 pupils (Fig. 2). The schools serve pupils domiciled in a wide range of
+different areas, which have variable levels of suitability for walking and cycling, with an extensive school bus network serving the rural
+areas. The data used in this paper are limited to those pupils domiciled within Norfolk, and who also are attending a school within Norfolk
+during the 2010–2011 academic year.
+    The overarching purpose of this research is to estimate the impacts of alternate mode choice scenarios on rates of active travel, and the
+likely implications on health and environmental impacts. Although the focus of this work is for a case study of Norfolk, the techniques
+presented could be replicated within other settings or scales.
+2. Methods
+    The methodology used here to calculate the routes of home to school travel have previously been published (Singleton, 2014). Briefly, the school census data provided the
+home postcode, school location and usual mode of travel for every school child in England between 2008 and 2011. Various software including R (a statistical programming
+language) (R Core Team, 2014), Routino (a street network routing library) (Bishop, 2014) and pgRouting (an extension to the PostgreSQL database system that enable custom
+routing applications to be developed—in this instance rail based networks) (pgRouting Community, 2014), are loosely coupled and used to calculate an estimated route and
+distance of each school commute using their typical mode of transport (see Fig. 3 for an example of a route calculation). The routes generated using this method were
+benchmarked against actual routes measured by GPS recordings collected as part of the SPEEDY study (Harrison et al., 2014). In the SPEEDY study, each school pupil had up to
+10 different school commute routes recorded, and the mean distance of these for each pupil was compared with the distance modelled in this work. A Pearson correlation
+coefficient showed that there is a good relationship between the distance of the GPS recorded routes and those modelled in this study (R2 = 0.78).
+    Once distances are calibrated for each pupil journey, the model estimates levels of CO2 attributed to these activities that are calibrated to each location and transport
+mode (for details of CO2 emissions used, see the Supplementary material). A particular innovation in this approach is the accounting of CO2 emission differences between
+vehicles registered within small area geography, using data from the Driver and Vehicle Licensing Agency (DVLA). We argue that this approach enables a more geographically
+sensitive estimation of CO2 emissions than would be obtainable through traditional approaches that typically utilize national average CO2 data (e.g. Marshall et al., 2010; Van
+Ristell et al., 2013; Wilson et al., 2007; also see Singleton, 2014 for more details).
+     An initial evaluation of the data for Norfolk (Table 2) showed that primary schools and secondary schools had a higher walking rate compared to the data from the
+SPEEDY study shown in Table 1 (42% instead of 33%). Such differences are likely to be attributed to the different sampling approaches used in the two studies. Additionally
+secondary pupils tended to travel further than primary pupils, in terms of mean distance.
+     As discussed earlier, criterion distances have been used in a number of previous home to school travel studies, and were calculated in the same manner as used by Van Dyck
+et al. (2010). Cumulative percentages of participants commuting to school by walking or cycling were calculated, in 500 m blocks. Criterion distances were set at a distance
+within which 85% of the active commuters for that mode lived (see Table 3 for an example). Data were split into primary (years 1 to 6, aged 6–11/12) and secondary (years 7 to
+11, aged 11/12–16). Age is known to be an important stratifying factor in mode choice of home to school travel (Davison et al., 2008; Faulkner et al., 2009; Panter
+et al., 2008) and an exploratory analysis of our data showed that pupils in years 1–6 have very similar patterns of both mode and distance travelled, as do years 7–11 (data not
+shown). Therefore it was decided to group the data into primary and secondary, rather than split it into more specific age ranges. Furthermore, no criterion distances were
+available for UK datasets, but some were available for Ireland and Belgium (see Table 1). Rates for Ireland are broadly comparable to those derived empirically for Norfolk,
+although have slightly higher criterion distances with similar proportions of walking and cycling. Belgium primary and secondary schools are generally comparable in terms of
+walking distances to UK primary and secondary schools, but the rate of cycling is much higher, as is the distance, and particularly so for secondary schools. D’Haste et al. (2011)
+do comment that the road infrastructure in Belgium is particularly well suited for cycling, and this is reflected in the criterion distance and proportion of journeys cycled. The
+proportion of Belgium secondary journeys walked are remarkably low (6.6%), however this is probably because of higher rates of cycling. Table 3 shows how the criterion
+distances were calculated for the Norfolk data set used in this paper, with the distance that reached the 85% threshold in bold. For primary schools, the criterion distance for
+walking was 1.5 km and for cycling was 2.0 km. For secondary schools, the distance for walking was 2.5 km and cycling was 3.0 km. The criterion distances for primary school
+are shorter than secondary school and are also shorter for walking compared to cycling. This reflects those patterns observed in the mean distances.
+     As a target to increase the proportion of active travel, three different scenarios were developed where the rate of cycling and walking would be increased. These
+included: an increase across all schools in rates of active travel (increased AT), a specific focus on developing walking buses across all primary schools (walking bus) and
+targeting specific schools to encourage an increase in active travel (targeted AT). For all three scenarios, a weighted increase approach was used, where a certain proportion
+of journeys currently undertaken by car would be replaced by walking or cycling. The highest change in mode choice was observed at shorter distances, with a smaller
+change at larger distances (see Tables 4–6). This was based on the existing distribution of mode travel, and a proposed car-cycle mode shift from Lovelace et al. (2011), based
+on data from Rietveld (2004). It creates a scenario where pupils are much more likely to change from car to walk (or cycle) for shorter distances than for longer distances.
+As noted previously, primary and secondary schools were treated separately because they typically feature different travel characteristics. A caveat to these scenarios is that
+they do not include mode transfers from bus or from walking to cycling, however, they do provide an approximation of the potential impact of a substantial shift to active
+travel. After the change in travel mode was applied for each scenario, the pupil routes to school were re-modelled and the CO2 emissions and criterion distances were
+re-calculated. This was necessary, as paths taken by cars are not necessarily the same (due to restrictions) as those taken by pedestrians or cyclists.
+     The first scenario (increased AT) proposes a large increase in walking and cycling rates (see Table 4). Pucher et al. (2010) showed that such significant increases in cycling were
+possible in those areas that have previously had a low cycling rates (including London, Berlin and Paris). However, there have been few studies that evaluate the impact of active
+travel policies on cycling specifically due to the complexity of evaluation given the interconnectedness of the impacts of active travel policies (De Nazelle et al., 2011). For example,
+in London the introduction of the Barclays Bike Hire scheme (Boris Bikes), the congestion charge and improved cycling infrastructure were temporally clustered, along with an
+approximate doubling of the cycling rate. The driving factor behind such increases are likely to be a composite of these factors, however, it is difficult to disentangle such effects.
+     Walking bus schemes have been successful at increasing active travel rates for primary schools (Mackett et al., 2003; Newson et al., 2010), and there is evidence to
+suggest that this impacts positively on travel mode adoption for the same children when they reach secondary school (Newson et al., 2010). In these examples, the reduction
+in total car use averaged at around 20%, with important factors including support from a range of stakeholders, safety improvements around the local area and increased
+parking restrictions. Furthermore, all walking bus users lived within a distance of 2 km of the school, and 63% of them lived with 1 km (O’Fallon et al., 2002). Therefore the
+second scenario (walking bus, see Table 5) was created with a total targeted reduction in car usage of 20% for all students (Newson et al., 2010). Based on a target of a
+reduction in car use by 20% points overall, a change in car use for pupils less than 2 km from school was calculated. As highlighted by Newson et al., 2010 active travel
+behaviour is carried forward from primary school to secondary school, and is included in this scenario.
+     Active travel rates vary between schools so the final scenario to be developed was to target the 20% of all schools with the lowest active travel rates (targeted AT, see
+Table 6). Selecting the lowest 20% of schools is arbitrary, and an alternative proportion could be used. The majority of active travel plans and initiatives to increase active
+travel rates are usually developed and applied on an individual school basis (Mackett et al., 2003). Therefore, we grouped pupil travel by school to calculate those groupings
+of schools with the lowest active travel rate. Therefore the same scenario as used in the increased AT scenario was applied, however, restricting this to the 20% of schools with
+the lowest active travel rate (N ¼102). It would not be uncommon in practice to make such a segmentation, with the aim of concentrating spend of limited resources where
+greatest positive impact might be felt.
+3. Results
+    The three scenarios show an increase in the proportion of pupils walking and cycling, and there is generally no change in the criterion
+distance for walking (see Tables 7 and 8). This shows that while more pupils are walking, pupils are not being asked to walk further. The
+criterion distance for secondary school walking under the walking bus scenario increases by 1 km. Additionally, and unlike the other
+scenarios tested, the cycling criterion distances increased by 1.5 km for both primary and secondary schools under the targeted AT
+scenario which shows that pupils would have to cycle further in this scenario. All of the scenarios reduce CO2 emissions, with the walking
+bus reducing emissions by the least. It is also interesting to note that while overall the increased AT and the targeted AT scenarios reduce
+CO2 emissions by almost the same amount (11.5% compared to 11.7%), the allocation of these reductions between primary and secondary is
+quite different.
+    Figs. 4 and 5 show the initial CO2 emissions by origin LSOA (Lower layer Super Output Area) and the impact of the proposed scenario.
+Fig. 4 highlights certain LSOAs that have relatively high CO2 emissions and primarily these are rural areas with longer commuting
+distances to the nearest schools. Fig. 5a–c illustrate the changes in CO2 emissions as a result of the proposed scenarios, with the greatest
+savings occurring within in urban areas, where a greater number of pupils are close enough to school to be able to walk or cycle which is
+particularly illustrated by the walking bus scenario. The reduction of CO2 in the other two scenarios is more geographically spread, with
+the reductions around the urban centres of Norwich, Great Yarmouth and King’s Lynn.
+4. Discussion
+    This study explores the impact on CO2 emissions of three different potential active travel scenarios across Norfolk, consisting of major
+increases in walking and cycling for pupils at primary and secondary schools. These scenarios demonstrate how the methods developed in
+this study could be applied across different settings, using a range of transport modes and scenarios appropriate to the local situation.
+    Patterns of CO2 usage (by home location) were compared across Norfolk for the baseline and the increased active travel scenarios. The
+greatest reduction of CO2 was in urban areas, where pupils are most able to use active travel because of the shorter distances to school.
+As well as the direct reduction in levels of CO2, these changes would also reduce levels of other harmful emissions such as NOx and PM2.5
+in high traffic areas, as well as reducing the risk of accidents for all road users during school peak time travel. A change in travel mode
+choices such as those discussed in this paper would make a significant contribution to the governments legally binding commitment to
+
+reduce CO2 emissions to 20% of 1990s emissions level by 2050. This reduction in air borne pollutants would result in a wide range of
+indirect health benefits for both the school pupils and the wider community in the local area of the school, in terms of reduced respiratory
+issues, skeletal problems and increased metabolic health (Ekelund et al., 2007; McConnell et al., 2010; Prentice et al., 2006). The increased
+physical activity of the school children who adopted active travel would also benefit their health (Faulkner et al., 2009) and there may also
+be follow-through impact in terms of increased physical activity in later life, although this has yet to be shown in a longitudinal study
+(Newson et al., 2010).
+    The three different scenarios exhibit different reductions in CO2 emissions between primary and secondary schools. The increased AT
+scenario illustrated a large reduction in CO2 emissions for journeys to primary schools (19.0%) but a smaller reduction for secondary
+schools (7.3%), which relates to longer distances involved in secondary school commuting. The mean distance travelled for walking and
+cycling also increased slightly; but the most significant change is the number of pupils using active travel. The spatial distribution of these
+decreases is observed most prevalently in urban areas of Norfolk, where the average distance to school is lower. The walking bus scenario
+particularly reflects this trend, given the focus on journeys under 2 km. The reduction in CO2 emissions for primary schools is significant
+(13.2%) and the spatial distribution highlights the fact that targeting the walking bus school travel plans to specific schools is crucial,
+alongside engagement with stakeholders (Mackett et al., 2003). The targeted AT scenario shows a larger but more defuse geographical
+impact. Targeting those schools with low rates of active travel resulted in the impact of the change being greater, because of the higher
+number of pupils who travel to school in a car. When comparing the overall CO2 reduction for the increased AT and targeted AT scenarios,
+the reduction is broadly the same (11.5% for increased AT, 11.7% for targeted AT), however, these reductions are distributed differently
+between primary and secondary schools. This would occur because secondary schools generally had lower active travel rates, so they
+would be more likely to feature in the bottom 20% of active travel rates than primary schools. However, the similar reductions indicate that
+a targeted approach (which would likely cost less to implement) is preferable to the increased AT scenario which applies to all schools. The
+criterion distances for walking did not change, indicating that while more pupils are walking in the scenarios, the majority of them are not
+walking further. The criterion distances for cycling did however increased in the targeted AT scenario. This measure was more sensitive
+than for walking because there were relatively fewer pupils cycling originally.
+     This method has a number of limitations which impact how the modelled results can be used. Firstly, the routing element (from
+Singleton, 2014) does not estimate bus journeys particularly well, because data on the bus routes are not available, and this is why only
+mode shifts from cars to cycling and walking were considered. While the car CO2 emissions are more reliable than using an average CO2
+emission value for all cars, there are still limitations discussed by Singleton (2014) which include underestimating the values, as only cars
+registered after March 2001 are included in the data set. The ‘usual mode of travel’ data was collected as a part of the school census,
+however 2011 was the last year that it was collected nationally. Local authorities may still continue to collect such information, but such
+data will be much harder to source and collate for a national comparative analysis. In the future, this analysis could be run at a national
+level which would enable analysis of the impact of tram/light rail systems. These provide other low CO2 modes of transport, and form a
+crucial part of the majority of schemes to reduce CO2 emissions where these are available. Additional provision of multi-modal data (e.g. a
+journey using both car and light rail) would allow this model to be developed. While there is the sizable urban area of Norwich, as well as
+smaller areas such as Great Yarmouth and King’s Lynn, Norfolk is predominately rural which limits the extent that these results can be
+applied to other, more urban, areas. Even within Norfolk, there are also likely to be different patterns between urban and rural schools
+which were not taken into account in this analysis. Such segmentation could be achieved by the use of the ONS urban/rural classification.
+However, the model itself can be applied to any area across the globe where school children have a choice in transport mode, but the
+results will be very variable across such settings. There are a range of factors that will effect this, which include both attitudinal (such as
+convenience of using the car, habit of how they usually take children to school) and environmental (such as concerns about dangerous
+traffic, concerns about children walking alone and the urban infrastructure) (Panter et al., 2010).
+    The three scenarios considered in this work apply the same criteria to a relatively large number of schools. Other scenarios may be
+more appropriate, and could be developed in conjunction with proposed policy changes in a specific local authority. These could either be
+developed and applied to primary schools and secondary schools separately, or developed for each individual school. Applying a more
+specialised policy change to groups of schools or individual schools will have a more significant impact than applying broad brush policy
+changes. Walking buses are targeted at primary schools to encourage active travel. In this model, and as indicated in the literature
+(Newson et al., 2010), we made an assumption that that there would be similar adoption of such transport modes in secondary school. The
+criterion distances approach could also be applied to other modes of transport (e.g. tram/light rail) to work out optimal geographic
+distributions of schools that would encourage more pupils to use sustainable and healthier modes of transport. More detailed analysis of
+the active travel routes currently used (e.g. which routes do the pupils who cycle take) and how these routes might be improved and/or,
+how alternate routes could also be developed are other areas which might be considered in future research.
+5. Conclusions
+    This paper estimated individual level modelled routes of home to school travel for Norfolk to evaluate the impact of a series of potential
+policy changes that might promote active travel. Using individually modelled routes enables greater accuracy in the estimation of the
+changes in CO2 emissions and travel modes than would be possible with sample based or non-geographical methods. Criterion distances
+were shown to provide a useful way for an ‘acceptable’ distance to travel to be calculated, and provide an opportunity for comparison with
+other countries. These measures provide a basis for encouraging more pupils to walk and cycle, and particularly for primary pupils, who
+are more likely to walk given the shorter distances that they typically need to travel to school. Additionally, when combined with
+individual routes, this information could be used to target specific route improvements that might encourage active travel.
+    The three scenarios developed for this paper provide the first step towards developing more specific scenarios, based on previous studies
+and policies in development. The differences between the scenarios show how a targeted policy can have as much impact on CO2 emissions as a
+policy applied to all schools. The methodology developed in this paper allows the potential impact of such policies to be evaluated in a way that
+was not possible before. Increasing active travel among school children is possibly one of the easier ways to improve their health and wellbeing. The use of this data from the school census, and this methodology enables potential policy changes to be evaluated in a relatively low
+cost and simplified way, compared to collecting primary data. There are some limits to the routing methods used, however the techniques
+illustrated here could usefully be applied to many different local authorities and transport policy contexts.

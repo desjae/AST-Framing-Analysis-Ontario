@@ -1,5 +1,5 @@
 ---
-title: Framing active school travel in Ontario, Canada
+title: How do school travel planning stakeholders frame active school travel in Ontario, Canada?
 author:
   - name: Author 1
     email: author1@example.com
@@ -54,12 +54,20 @@ output: rticles::elsevier_article
 library(tm)
 library(readr)
 library(tools)
+library(DiagrammeR)
+library(kableExtra)
 ```
 
 1. Background
 ===============
 
-Walking and cycling to school, commonly known as active school travel or active school transportation (AST), has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. This trend has prompted an abundance of research over the past two decades to examine why fewer children are walking and cycling to school, what influences AST, and the associated implications for children's health. Many studies have been specific to Canada [e.g., see: @buliungActiveSchoolTransportation2009; @faulknerSchoolTravelChildren2013; @mammenUnderstandingDriveEscort2012; @mammenSchoolTravelPlanning2014; @rothmanActiveSchoolTransportation2021; @wilsonUnderstandingChildParent2018] which aligns with and informs a growing interest in school travel planning (STP) across the country. Indeed, a diversity of stakeholders responsible for transportation, public health, and education are collaborating and spearheading efforts to get more children walking and cycling. Promoting AST is seen as an affordable, convenient, and environmentally friendly way to enhance the mental, physical, and psychological health of children [@mammenSchoolTravelPlanning2014]. Therefore, these goals ought to be clearly articulated and reflected in transportation plans and policies to guide initiatives. Presently, however, there is research lacking that specifically explores how Canadian municipalities and schools frame and discuss AST with the public. 
+Walking and cycling to school, commonly known as active school travel or active school transportation (AST), has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. This trend has prompted an abundance of research over the past two decades to examine why fewer children are walking and cycling to school, what influences AST, and what the associated implications are for children's health. Many studies on this topic have been specific to Canada [e.g., see: @buliungActiveSchoolTransportation2009; @faulknerSchoolTravelChildren2013; @mammenUnderstandingDriveEscort2012; @mammenSchoolTravelPlanning2014; @rothmanActiveSchoolTransportation2021; @wilsonUnderstandingChildParent2018] which aligns with and informs a growing interest in school travel planning across the country. 
+
+School travel planning (STP) is a "school-specific" intervention led by a facilitator that brings together a committee of stakeholders from diverse sectors including education, planning, transportation, public health, and safety [@mammenSchoolTravelPlanning2014]. Parents and parent councils also typically have a role in supporting or implementing STP. The intervention encourages "community-wide involvement" and collaboration between participating stakeholders, who contribute their expertise to remove "school-specific" barriers to AST and to identify strategies for promoting and encouraging AST. STP may also involve other stakeholders including local advocacy groups or environmental organizations who are familiar with the state of active travel at the community-level. Buliung et al. [-@buliungSchoolTravelPlanning2011] piloted an STP intervention at 12 schools in 4 Canadian provinces and reported that it increased AST rates and led to a "mobilization of diverse community resources". Since this seminal study, STP interventions have become increasingly popular and common at schools across Canada and have even attracted funding from provincial governments. In 2017, the provincial government of Ontario issued funding to launch the _Ontario Active School Travel_ (OAST) program, which supports stakeholders in municipalities across the province implement STP. 
+
+The ways in which interventions are framed to their target audience can ultimately influence how they are received and whether they result in behaviour change. Framing analysis is a method 
+
+Therefore, these goals ought to be clearly articulated and reflected in transportation plans and policies to guide initiatives. Presently, however, there is research lacking that specifically explores how Canadian municipalities and schools frame and discuss AST with the public. 
 
 ## 1.1. Literature Review
 
@@ -67,60 +75,57 @@ Several recent reviews offer a comprehensive synopsis of the state of active sch
 
 Furthermore, AST is one of the most common opportunities for children to travel without adult supervision on a regular basis. Children's independent mobility (CIM) was first described by Hillman et al. [-@hillmanOneFalseMove1990] as the freedom of children to travel and play within their neighborhood and city without the presence of adults. Similar to AST, children's independent mobility is much less common now than it was for previous generations [@bhosaleIntergenerationalChangeChildren2017], and is influenced by similar personal and environmental factors [@marziChildrenIndependentMobility2018]. CIM is particularly important for different domains of children's health and wellbeing [@riaziChildrenIndependentMobility2018]. There is also sufficient evidence in the literature linking the association between AST and CIM [@laroucheRelationshipsChildrenIndependent2020; @mitraIndependentMobilityMode2013], particularly in boys [@schoeppeAssociationsChildrenIndependent2014]. The gender disparity has been noted in other papers regarding CIM [@marziSocialPhysicalEnvironmental2018; @marziInterventionsAimingPromote2020] with recommendations being made for interventions to specifically target girls to boost their mobility within their neighborhood [@schoeppeSociodemographicFactorsNeighbourhood2015]. CIM offers other benefits such as increasing traffic and safety skills, boosting spatial awareness when navigating public spaces, and providing more opportunity for social interaction with peers [@schoeppeAssociationsChildrenIndependent2014]. What is less clear is how CIM plays into the consideration of policymakers when they act on the objective of improving AST. 
 
-In the case of Canada, Riazi found that location, specifically concentration of population, was the stronger correlate to CIM even after accounting for the influence of gender. Whereas European countries have a positive correlation between population density and impendence level (Masoumi, 2020), Canadian cities saw the inverse effect with more dense cities such as Ottawa and Vancouver rating much lower in CIM than Trois-Rivieres, a small city in Quebec. Riazi et al. [-@riaziChildrenIndependentMobility2018] note, however, that such differences in the Canadian context could be a result of the multicultural diversity in large Canadian cities which leads to very differing social and cultural norms that may influence the findings. 
+In the case of Canada, Riazi found that location, specifically concentration of population, was the stronger correlate to CIM even after accounting for the influence of gender. Whereas European countries have a positive correlation between population density and impedence level (Masoumi, 2020), Canadian cities saw the inverse effect with more dense cities such as Ottawa and Vancouver rating much lower in CIM than Trois-Rivieres, a small city in Quebec. Riazi et al. [-@riaziChildrenIndependentMobility2018] note, however, that such differences in the Canadian context could be a result of the multicultural diversity in large Canadian cities which leads to very differing social and cultural norms that may influence the findings. 
 _review a few prominent Canadian studies on AST and CIM in more detail: Riazi et al., 2019; Mammen et al., 2012 & 2014; Rothman et al., 2021_
 
-The correlates of AST and CIM are important knowledge for policymakers because they identify points of intervention and potential benefits that ought to be communicated to the public to build support for new planning paradigms. Framing analysis is one method to analyze how particular issues are framed to groups of people, for instance parents or educators who might be inclined to support AST. It attempts to understand how information presented from a "communicator" leads the "receiver" to a desired response [@reynardGrowthResilienceHow2021]. In a recent paper [@reynardGrowthResilienceHow2021], framing analysis was applied to review municipal policies addressing climate change in four western Canadian cities. The authors determined that most issues are framed favouring merely a tinkering of the status quo as opposed to pushing for real change. The way these policy issues are framed is important to understand because it plays a role in either altering or preserving the existing social perceptions. In the case of AST and CIM in Canada, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] state: "it will be vital for interventions to target modifiable factors, including children's and parents' perceptions of their social environment." Parents play the important role of "gatekeeper" by either granting or restricting CIM licenses, meaning whether children can travel alone [@sharminAssociationBuiltEnvironment2017]. Framing is also important because both walking and cycling are often targeted together, whereas evidence shows that distinct interventions should target each separately [see @helbichChildrenSchoolCommuting2017], which has implications for how municipalities and schools aim to address this issue. For these reasons, the framing of active school travel should be explored and considered in the school travel literature given its potential to influence and incentivize behaviour change.
+The correlates of AST and CIM are important knowledge for policymakers because they identify points of intervention and potential benefits that ought to be communicated to the public to build support for new planning paradigms. Framing analysis is one method to analyze how particular issues are framed to groups of people, for instance parents or educators who might be inclined to support AST. It attempts to understand how information presented from a "communicator" leads the "receiver" to a desired response [@reynardGrowthResilienceHow2021]. In a recent paper [@reynardGrowthResilienceHow2021], framing analysis was applied to review municipal policies addressing climate change in four western Canadian cities. The authors determined that most issues are framed favouring merely a tinkering of the status quo as opposed to pushing for real change. The way these policy issues are framed is important to understand because it plays a role in either altering or preserving the existing social perceptions. 
 
-The aim of this paper is to consider how AST, STP, and CIM are framed in the province of Ontario, Canada. Using a framing analysis approach, we explore how varying stakeholders involved in these initiatives (for example, municipal governments, public health units, transportation consortium, and school boards) present the benefits, challenges, and solutions for improving active school travel. _Describe in further detail once procedure for analysis is conceptualized_
+In the case of AST and CIM in Canada, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] state: "it will be vital for interventions to target modifiable factors, including children's and parents' perceptions of their social environment." Parents play the important role of "gatekeeper" by either granting or restricting CIM licenses, meaning whether children can travel alone [@sharminAssociationBuiltEnvironment2017]. Framing is also important because both walking and cycling are often targeted together, whereas evidence shows that distinct interventions should target each separately [see @helbichChildrenSchoolCommuting2017], which has implications for how municipalities and schools aim to address this issue. For these reasons, the framing of active school travel should be explored and considered in the school travel literature given its potential to influence and incentivize behaviour change.
+
+The aim of this paper is to analyze how AST and STP are framed in Ontario, Canada. Using a framing analysis approach, we examine how varying stakeholders involved in these initiatives present the benefits, challenges, and solutions for improving active school travel. _Describe in further detail once procedure for analysis is conceptualized_
 
 ## 1.2. Case Study: Ontario, Canada
 
-In Ontario, active school travel initiatives spread across the province by the 2000s and were initially attempted by individual schools without a coordinated movement [@ontarioactiveschooltravel]. Such one-off efforts, particularly those targeting education or promotional initiatives, may only prove to provide AST in the short term [@chillonSystematicReviewInterventions2011]. At about the same time, a concept called school travel planning (STP) was developed in the United Kingdom [@greencommunities2007]. STP offered an opportunity for key local stakeholders such as schools, school boards, and municipalities to make tangible changes to both the social and physical environment to encourage AST among their students that can be sustained in the long term. However, it was not until 2007 that Green Communities Canada (GCC), a non-profit organization, began adapting and delivering a universal STP framework in Canada. This initiative followed their publication on the _Review of International School Travel Planning Best Practices_ in 2007, which included the initial pilot in the United Kingdom, and others in New Zealand, Australia, and United States. Under GCC’s framework, a Canadian pilot intervention was trialed at twelve schools across four provinces [@buliungSchoolTravelPlanning2011a]. The results of the pilot convinced the government of the Province of Ontario to issue a grant which culminated in the development of the program _Ontario Active School Travel_ (OAST), led by GCC, to fund initiatives that promote active school travel. As of 2021, OAST has funded _X_ projects in Ontario. GCC continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipalities/regions, and regional transportation consortiums. The latter is a unique group of entities sanctioned by the Ontario Ministry of Education in 2006. These entities are a collaboration between regions and school boards whose objective is to deliver more efficient and effective transportation services to its area [@ministryeducation2006].
+In Ontario, AST initiatives spread across the province by the early 2000s and were initially attempted by individual schools without a coordinated movement [@ontarioactiveschooltravel]. Such one-off efforts, particularly those targeting education or promotional initiatives, may only prove to provide AST in the short term [@chillonSystematicReviewInterventions2011]. Around the same time, school travel planning was developed in the United Kingdom [@greencommunities2007]. STP offered an opportunity for key local stakeholders such as schools, school boards, and municipalities to make tangible changes to both the social and physical environment to encourage AST among their students that can be sustained in the long term. 
+
+However, it was not until 2007 that Green Communities Canada (GCC), a non-profit organization, began adapting and delivering a universal STP framework in Canada. This initiative followed their publication on the _Review of International School Travel Planning Best Practices_ in 2007, which included the initial pilot in the United Kingdom and others in New Zealand, Australia, and United States. Under GCC’s framework, a Canadian pilot intervention was trialed at twelve schools across four provinces [@buliungSchoolTravelPlanning2011a]. 
+
+In 2017, the provincial government of Ontario issued funding to Green Communities Canada to launch the _Ontario Active School Travel_ (OAST) program. The program provides funding for school and community-based initiatives that promote active school travel in municipalities and regions across Ontario. As of 2021, OAST has funded _X_ projects in Ontario. GCC continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipal or regional governments, and regional transportation consortia. The latter are dedicated transportation bodies that deliver efficient and effective transportation services, which generally focuses on providing the school busing service to families in their associated region.
 
 2. Methods
 ===============
 
-## 2.1. Procedure
+## 2.1. Framing Analysis
 
-This section provides methodology for converting searchable portable document formats (PDFs) into a text corpus that can then be used in further natural language processing (NPL) analysis. The text corpus is a collection of structured texts which enables anaylsis for packages such as 'topicmodels' This notebook serves as an introduction on how to convert files and conduct an surface level analysis. 
+## 2.2. Procedure
 
-Below are the folders used and how they have been obtained. 
+To determine which stakeholder groups are typically involved in AST and/or STP initiatives in Ontario, we first conducted a preliminary scan of current and past projects funded by the _Ontario Active School Travel_. We found that projects are often led in collaboration by a school board, the respective municipality or region (i.e., transportation planners, public health professionals, engineers, etc.), and the regional transportation consortia. Non-profit organizations, police services, and advocacy groups are other stakeholders who may play a role in supporting AST and/or STP. 
 
-__'Academic Papers'__
+We then assembled a collection of publicly available documents that were sourced online from the main stakeholder groups: i) English school boards; ii) municipal government; and iii) transportation consortia. The search was guided first by a list of all English school boards across Ontario. The websites of each school board were searched for pages related to transportation or school travel. These pages were manually downloaded. Next, we collected documents by searching municipal government and transportation consortia websites. The latter were identified based on geographic area (i.e., the municipalities and/or transportation consortia who are in the same geographic area of each school board). Pages related to active transportation or school travel were manually downloaded. Webpages were included in the corpus if they were easy to find. This criteria was important since our analysis pertains to how such issues are framed to the public. Thus, these pages ought to be easy to find, which we defined as requiring no more than 2-4 separate links from the initial Google search.
 
-[Insert Methodology for obtaining Academic Papers]
+The initial corpus included 64 relevant documents (i.e., one webpage or more) from all main stakeholder groups. It is important to note that school boards, municipal governments, and transportation consortia may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents. Search results are summarized in Table \ref{tab:search-results}.
 
+```{r search-results, echo=FALSE}
+data_tbl <- data.frame(
+  Stakeholder = c("English school boards", "Municipal or regional governments", "Transportation Consortia"),
+  Total = c("62", "62", "39"),
+  Included = c("31", "25", "8")
+)
 
-For these three following folders, docurments are sourced from direct affiliate websites from those three groups and are printed to pdf via the web browser if deemed eligible. The criteria below indicates how eligibility was determined for each grouping. It was important that webpages were easy to find as the analysis pretains to how such issues are framed to the public. Our interpretation of 'easy to find' are webpages that required no more than 2-4 seperate links from the initial browser search. The search was guilded based off a list of all Ontario school boards. Consortiums and Municipalities/Regions were organized based on the school boards. 
-
-__'Consortium'__ 
-
-Consortiums are dedicated transportation bodies that primarly focus of providing the school bussing service to families in their associated region. Pages are determined to be relevent if they specifically relate to AST or STP. 
-9 - Total documents 
-
-__'Municipalities or Regions'__ 
-
-Municipalities/regions had pages about transportation that involved the service it provided which is not relevent to our analysis. Only pages specifically dicussing active travel, AST, or STP are included. Page were also sourced from associated local health units which were considered part of municpalities/regions.
-29 - Total doucments 
-
-__'School Boards'__
-
-School boards generally will have a single page for transportation so documents were sourced from those pages regardless in mentioned STP or AST. In cases were both AST and STP are mentioned both those pages are included.
-27 - Total doucments
-
-**NOTE: Current version of the code converts 1 file containing pdf documents at a time**
-
-### Searchable pdf files to txt conversion 
-
-The conversion process in this notebook can only be conducted on one file at a time. Select one of the files provided to use. If you want to run multiple files to create seperate corpora use 'Multiple PDF Files to Corpora.Rmd'.
+kable(data_tbl,
+      "latex",
+      booktabs = TRUE,
+      caption = "\\label{tab:search-results}Search results from the main stakeholder groups.") %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em") %>%
+  column_spec(3, border_left = T) %>%
+  kable_styling(latex_options = c("striped", "scale_down"))
+```
 
 
-Searchable PDF files to .txt conversion 
 
-PDFs can be brought into the corpus directly however each page of the PDF is read as an invividual document. For our purposes a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory pat to where your PDFs are stored. In addition you will need to manually create a seperate file where you wish to store your .txt files. Re-assign the 'pdfLocation' and 'txtLocation' to those corresponding locations.
-
-```{r}
+```{r, include=FALSE}
 pdfLocation <- "E:/Dr. Paez Articles/with References"
 txtLocation <-  "E:/Dr. Paez Articles/txt"
 
@@ -145,11 +150,7 @@ n <- n+1
 }
 ```
 
-### Creating data frame of texts 
-
-Creation of a data frame of texts is required prior to conversion to corpus. The data fram must contain 'doc_id' and 'text'. Additional fields may be included in data frame ,it will however be treated as metadata by the corpus. 
-
-```{r}
+```{r, include=FALSE}
 # This loop creates a vector of the texts
 text <- vector()
 doc_id <- c(2:n-1)
@@ -163,17 +164,14 @@ text[i] <- eval(parse(text = paste("text", i, sep = "")))
 textDF <- data.frame(doc_id, text)
 ```
 
-### Conversion of data frame to corpus 
-
-```{r}
+```{r, include=FALSE}
 df_source <- DataframeSource(textDF)
 corpus <- VCorpus(df_source)
 # Example 
 content(corpus[[1]])
 ```
 
-### Corpus cleaning 
-```{r}
+```{r, include=FALSE}
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
 
@@ -190,8 +188,7 @@ corpus <- tm_map(corpus, removeWords, stopwords("english"))
 content(corpus[[1]])
 ```
 
-### Term Document Matrix & Document Term Matrix
-```{r}
+```{r, include=FALSE}
 TDM <- TermDocumentMatrix(corpus)
 DTM <- DocumentTermMatrix(corpus)
 matrix1 <- as.matrix(TDM)
