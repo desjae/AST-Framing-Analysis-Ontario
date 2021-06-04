@@ -1,0 +1,431 @@
+Walking to school in Scotland: Do perceptions of neighbourhood
+quality matter?
+
+A decrease in active travel has been observed over the past years in many Western countries including Scotland.
+ A large part of this is likely due to the greater travel distances. However, previous research has suggested that perceptions 
+of one's neighbourhood may also affect walking levels. If parents fear crime or traf<U+FB01>c levels, or feel that
+their neighbourhood is of low quality they may not let their child walk. These perceptions are subjective and may
+be interlinked to each other. It is important to understand which perceptions matter more than others, in order to
+design the most suitable policy to promote more active travel behaviour among children. Using the Scottish
+Household Survey, this study investigates how or whether 48 different perceptions of neighbourhood quality
+or 11 reasons for having chosen their house affect children walking to school. A variable attrition method was
+used to reduce the number of variables for modelling. When walking distance, household characteristics, and
+built environment are included in a binary regression model only two perceptions were found to be signi<U+FB01>cant:
+good local shops and slow/safe traf<U+FB01>c. Implications of the <U+FB01>ndings are discussed.
+
+1. Introduction                                                                                   
+												
+Like other Western developed countries [1,2], Scotland experienced                           
+a signi<U+FB01>cant reduction in the number of children walking to school in                             
+the past few decades, from 69% in 1986 to 54% in 2005 [3]. Active travel                          
+(such as walking or cycling) to school is important for various reasons,                              
+including reduced energy consumption, and it has been associated to                               
+greater overall physical activity [4,5]. Further justifying the focus of research 
+on this speci<U+FB01>c aspect of children's travel, trips for education account 
+for the largest segment of trips (30%) by children in Scotland [3].                         
+Like other trips, distance is a major explanatory factor along with available 
+transportation choices. In addition to those hard factors, soft factors                      
+such as parents' opinions and perceptions of different qualities of a                             
+neighbourhood will affect whether or not they allow their child(ren)                              
+to walk. In this paper, we examine how or if such opinions and perceptions 
+affect children's travel to school in Scotland when a reasonable                            
+walking distance is taken into account.                                                           
+One bene<U+FB01>t of walking to school is the intrinsic exercise gained, thus                       
+contributing to physical health (for a review see [6]). Using active                              
+														
+modes such as walking or cycling incorporates low-impact exercise
+into a child's daily life [7]. In addition to that, a number of separate studies 
+found that children who use active travel to get to school are also associated 
+with greater levels of physical activity overall for boys in the
+UK, Denmark, and the USA [4,5,8].
+Recently, research on children's travel has begun to move beyond
+simply the physical health implications of travel mode. Westman et al.
+[9] found that children who were driven to school were more likely to
+be less alert (based on an activation scale between alert and sleepy)
+than other modes. Other authors have discussed the relationship between 
+social interaction and subjective well-being (a global measure
+of well-being) and how children report that social interaction while
+they walk to school makes it fun and enjoyable [10]. Potentially increasing 
+social interaction, children who walked to their destination were the
+most likely to see others that they knew while travelling between their
+origin and destination in contrast to those who rode in cars, where a
+strong negative correlation with seeing anyone was found [11]. Thus,
+walking may provide more than just physical health bene<U+FB01>ts or reductions 
+in energy consumption and congestion.
+A signi<U+FB01>cant amount of research, in particular from the USA, has examined 
+what contributes to or detracts from the likelihood of children
+walking to school (for a review see [12]). Those studies consistently
+found that distance was the strongest explanatory factor. In contrast
+to those <U+FB01>ndings, Waygood and Kitamura [7] showed that in Osaka,
+Japan children aged 10 and 11 years old walked to local schools regardless 
+of distance, though maximum distances were likely under 3 km as 
+the maximum walking time was 40 min. Therefore, though distance
+
+can be a strong explanatory factor, it is necessary to consider other
+in<U+FB02>uences.
+Considering that there is likely some limit to what a reasonable
+walking distance is, some papers have used increments of 0.5 miles
+[13,14], 0.5 km [15], or categories [16]. Other authors have used
+dummy variables based on the average distance deemed walkable by
+parents [17]. Some of that research [13,15,17] on why children are driven 
+to school also found that even children who live less than the
+smallest increments used (0.5 miles or 0.5 km) were chauffeured by
+car. Thus, taking into consideration that this distance might vary between 
+cultures and that 0.5 miles is not equivalent to 0.5 km
+(0.5 miles is roughly 0.8 km), there appears to be a gap in knowledge
+about country-speci<U+FB01>c “reasonable” walking distance. Such a threshold
+is likely an important explanatory factor in children walking to school.
+Thus, though distance is one of the strongest known explanations of
+children walking to school, it is not the complete picture. To understand
+other in<U+FB02>uences on children's travel some authors have examined the
+reasons that parents give as to why their children do or do not walk to
+school. When parents are asked why they drive children to school, frequent 
+answers that do not relate to distance are not only often tied to
+safety concerns such as fear of child abduction or “stranger danger”
+[13,2,18] and traf<U+FB01>c danger [2,19,18], but also the parent's convenience
+[13,15,20]. Related to convenience, a parent's usual means of travel
+might also explain a child's mode as Susilo and Liu [21] found that a
+parent's habit of routinely travelling by non-motorised modes was positively 
+correlated with children's active travel. In contrast to the study
+presented in this paper, those studies were based on transportation surveys 
+examining the problem of children not walking to school, so parents 
+would likely be giving responses to justify why their child is not
+doing the preferred behaviour.
+The propensity of children to walk to school may also depend on the
+quality of the physical environment. Related to traf<U+FB01>c safety, parents in
+Australia were concerned about safe crossings and large roads [22]. A
+UK study on attitudes towards walking and cycling [23] found that car
+culture dominates consideration of mode choice, which was built off
+fear and poor perceptions of the physical environment. For Scotland,
+the perceived quality of walking was found to be related to deprivation
+levels1 of the neighbourhood [24]. That research found that the
+measures that in<U+FB02>uenced walking for adults in deprived areas made
+less difference in non-deprived areas. However, how neighbourhood
+deprivation impacts the propensity of children to travel to school is
+still largely unknown.
+When a wider consideration of the physical environment is taken,
+two relevant studies have been conducted in the UK. The <U+FB01>rst was conducted 
+in Bristol [25] and examined 23 different parental perceptions
+related to aesthetics, nuisance, safety, and access to local destinations.
+In that study, distance was again the strongest explanatory variable
+for active travel (AT) to school, but ease of access to local destinations
+was positively associated for boys' AT, while nuisance (based on three
+components: crime, noise, and bullying) was negatively associated for
+girls.
+The second study was conducted in Norfolk, UK [16]. In this study,
+parental attitudes and safety concerns, as well as the presence of social
+support from parents and friends were associated with AT to school.
+However, that study's measures were mostly limited to those related
+to traf<U+FB01>c or stranger danger, with the exception of the sense of community 
+which was positively associated with walking for trips under 1 km.
+Thus, apart from Page et al. [25], the potential for parental perceptions of
+general neighbourhood quality has not been well studied.
+Other studies have included parental perceptions such as
+neighbourhood safety or risk. Perceptions of neighbourhood safety
+were not signi<U+FB01>cant in explaining children walking to school in
+
+the USA [26], while Wen et al. [15] found that the perceptions of
+neighbourhood and road safety were different between parents of children 
+who themselves walked and those who did not. Also in Australia,
+Carver et al. [27] found that parents' perceptions of risks in their
+neighbourhood were linked to defensive behaviour, which was then
+linked to reduced active travel. However, these studies did not consider
+other aspects of the neighbourhood such as the overall rating of the
+neighbourhood or perceptions of anti-social behaviour that may affect
+the general sense of security.
+As shown by the discussion above, while parents' perceptions might
+in<U+FB02>uence whether children would be allowed to walk to school, it is
+largely unknown which perceptions or preferences matter most. It is
+important to understand which matter the most in order to design the
+most suitable policy intervention.
+Using data from the 2006 Scottish Household Survey, this paper explores 
+whether perceptions of the neighbourhood are related to a child
+walking to school. Unlike the previous studies cited above that examined 
+parent justi<U+FB01>cations for not driving children to school, which primarily 
+focused on traf<U+FB01>c safety and personal security, this research
+uses data from a general household survey that, while it includes questions 
+related to traf<U+FB01>c, children's security, and general safety, it also includes 
+many other questions such as the quality of local shops and
+facilities and community measures such as friendly people, good
+neighbours, and community spirit. Thus, it not only examines the safety
+component, but also removes the “justi<U+FB01>cation” element in responses,
+and expands the research consideration to other qualities of a
+neighbourhood and reasons for their household location choice.
+The next section will discuss the dataset and methods used in this
+paper. The <U+FB01>rst section of the analysis lays down basic <U+FB01>ndings on
+modal share and establishes what the “reasonable” walking distance to
+school is for children in Scotland. Fifty-nine subjective values by the parents 
+are considered, and those that are signi<U+FB01>cantly correlated with children 
+walking to school are then considered in a binary logit model that
+includes parents' commitments, their perceive quality of the built environment 
+and the traditional characteristics of the built environment.
+The paper closes with Section 4 Discussion and Section 5 Conclusions.
+
+2. Material and methods
+
+Data for this research comes from the geographically representative
+2005/2006 Scottish Household Survey2 (SHS). It is a continuous crosssectional 
+survey with roughly 31,000 households participating over a
+two-year period. The survey considers three main policy areas: Housing,
+Social Justice and Transport. The survey was designed to provide information 
+about the characteristics, attitudes and behaviour of Scottish households 
+and individuals on a range of issues including transport. Within the
+survey, a few questions pertain to one child's mode to school.
+For this study, responses from household surveys where the random
+child was between the ages of 10 and 11 years were used. Children aged
+10 and 11 years old were used for two reasons. The <U+FB01>rst is that this corresponds 
+with the age where parents in the UK expect their children to
+be able to travel to school independently [28]. Secondly, a considerable
+amount of the research on children's travel focuses on children aged 10
+and 11, thus this age allows for comparison. The relevant descriptive
+variables for the children, their households, and their neighbourhoods
+can be seen in Table 1. Unfortunately, variables such as the number of
+cars within the household, population density and shop density were
+unavailable. Because of the protection of personal identity, geographical
+identi<U+FB01>cation is not possible, so proxy measures for those are also not
+possible. However, information on car availability, the parent's mode
+to work, and variables related to perceptions of local shops and facilities
+were included, and thus related relevant measures are included.
+
+The urban/rural classi<U+FB01>cation that is used in this study is the Scottish
+6-fold urban/rural classi<U+FB01>cations that are: large urban (N 125,000 people),
+other urban, accessible small town, remote small town, accessible rural,
+and remote rural. In this classi<U+FB01>cation, “accessible” distinguishes rural
+areas or towns that are within a 30-minute drive of a town or an urban
+area respectively. It therefore differentiates between potential commuter
+towns or rural areas and those that are more autonomous (here,
+“remote”).
+The deprivation index that is provided in the dataset is the Scottish
+Index of Multiple Deprivation (SIMD). It is the Scottish Government's
+of<U+FB01>cial measure of area based multiple deprivations. The 2009 indices
+encapsulate 37 different indicators in seven domains including income,
+employment, health, education, skills and training, accessibility, and
+crime. In combination or individually, these indices provide a relative
+measure of deprivation for each data zone [29].
+
+3. Analysis and results
+
+3.1. Mode share and reasonable walking distance
+To begin, the mode shares of children aged 10 and 11 years with respect 
+to gender are presented in Fig. 1. Very little difference can be seen
+with respect to gender, with a larger percentage of girls taking school
+buses and a smaller percentage travelling by cars than for boys.
+
+If distance is considered as a de<U+FB01>ning measure, then clear differences
+in mode use are evident. Taking the 80th percentile of the distance
+walked by those children in the dataset (see [30] for further discussion
+of this threshold concept), it was found that for Scotland the “reasonable” 
+walking distance for children aged 10 to 11 years was 0.78 km.
+The 80th percentile represents an “elbow” in the distribution of distances, 
+after which a few students travelled considerably longer distances 
+(whom may be considered outliers or anomalies). Using this
+criterion, 83.5% of children living within 0.78 km walked to school,
+while only 26.7% of those living beyond that threshold did.
+
+3.2. Analysis of the factors related to a child walking to school
+
+Several steps were taken prior to the <U+FB01>nal models that are presented
+below. The initial steps related to the variable attrition method are summarized 
+before the <U+FB01>nal models are given.
+In the <U+FB01>rst step of the variable attrition method used, correlation
+analyses (chi-square tests for independence for non-parametric and
+bivariate correlation for parametric) were completed between the
+dummy variable child walks to school and measures for: neighbourhood
+perceptions (23 positively framed and 25 negatively); reasons for
+choosing the current residence (11 questions); household characteristics 
+(e.g., family structure, income, education, car availability and use,
+etc.); child's characteristics (e.g., sex, age) and built environment characteristics 
+(e.g., deprivation categories, built environment categories).3
+Of those, 21 variables were found to be signi<U+FB01>cantly correlated at
+a b 0.1. In the second step, those 21 variables were used in an initial expanded 
+binary logit model that did not include the threshold distance.
+Variables that were signi<U+FB01>cant in that step (the 2nd) at a b 0.1 were
+retained for the <U+FB01>nal analyses.
+Two binary (or direct) logistic regression models were tested: one
+with the signi<U+FB01>cant variables from the preliminary (expanded) binary
+analysis; a second that also included the threshold distance dummy variable 
+(Table 2). The coef<U+FB01>cients indicate a propensity to walk to school
+(dependent variables: 1 = walk to school; 0 = otherwise). Binary logistic 
+regression models were used as the research question relates to a binary 
+variable (e.g., either the child walks to school or they do not). With
+consideration to the number of potential variables, a reduction technique 
+such as factor analysis could have been used. However, such a
+method results in indices that cannot be easily interpreted. The variable
+attrition technique used in this study allowed for many variables to be
+considered without limiting the research to only that which the researchers 
+might have considered important. The results shown in
+Table 2 are discussed in the next section.
+
+4. Discussion
+
+A number of important <U+FB01>ndings can be found in Table 2. First, from
+the potential 70 plus different variables, only <U+FB01>ve variables (not including distance) 
+were retained in the <U+FB01>nal models following the attrition
+process. Unlike most previous studies, this research did not pre-select
+the variables to be included, thus any variable (within the limits of the
+survey) that might in<U+FB02>uence walking could have been retained. Further,
+this is possibly the <U+FB01>rst time where parents' general perceptions of their
+neighbourhood and reasons for choosing a house have been used with
+respect to explaining walking to school. Previous studies that have considered 
+parents' attitudes or perceptions have mostly focussed on speci<U+FB01>c transportation considerations.
+Before interpreting the results of the regression analysis, the
+<U+FB01>nding for the threshold distance (a “reasonable” walking distance) is
+discussed. For Scottish children aged 10 and 11 years this was determined 
+to be 0.78 km based on the 80% threshold used in previous
+
+studies [31,30]. This distance is comparable, if slightly shorter, to those
+found by Morency et al. [30] who examined children in Montreal,
+Canada and reported distances of roughly 0.88 km for 9–10 years old
+and 1.09 km for 11–12 years old. Thus, for children in Scotland of this
+age, 0.5 miles (e.g., [13]) might be an appropriate threshold, but it appears 
+that for children in Montreal at least, it is too short and for both
+0.5 km is below the threshold (e.g., [15]).
+The inclusion of the distance threshold variable to the binary logistic
+regression model reduced the number of signi<U+FB01>cant variables, while at
+the same time considerably increasing (at least doubling) the variation
+explained by the model. This con<U+FB01>rms that distance is probably the
+strongest explanatory factor when it comes to walking to school,
+which is in-line with McDonald and Aalborg's [13] <U+FB01>ndings, for example. 
+Their study showed that, in the United States, the number of children 
+walking to school nationally is only about 13%, but when it is
+broken down by 0.5 mile increments, nearly 80% of children who live
+within 0.5 miles walk or cycle [13]. For this sample, roughly 83% of students 
+within the 0.78 km (roughly 0.5 miles) threshold walked to
+school, thus supporting McDonald and Aalborg's [13] <U+FB01>ndings. Lastly,
+in this sample from Scotland about half of all children lived within the
+“reasonable” walking distance, and national averages for walking to
+school are around 50% [3]. This result points towards school location
+policy and housing development policies as being key tools in improving walking to school.
+However, while distance is a strong determinant for children walking 
+to school, it does not explain everything. With respect to perceptions
+of their neighbourhood, three measures were retained in the models
+and two measures were found to be statistically signi<U+FB01>cant. Past research 
+that considered parents' perceptions of their neighbourhood
+had mixed results [15,26,27,32,21]. Here, the measure good local shops
+was positively correlated, while traf<U+FB01>c is slow or safe was negatively
+correlated. The latter result is non-intuitive and both variables are
+discussed next. The third perception variable contained in the model,
+friendly people in the neighbourhood, was not signi<U+FB01>cant once the distance 
+threshold was included. So, although intuitively and corroborated
+by studies in sociology [33] we might expect that a neighbourhood with
+friendly people would support children walking to school by reducing
+parental anxiety, it was not found to be statistically in<U+FB02>uential here.
+The perception of good local shops may indicate an area where there
+is local walking, as people who would consider their local shops to be
+good, would likely do some of their shopping locally. Unfortunately, it
+is not evident how the individuals would interpret this question, as it
+is subjective. We offer that the respondents would likely think of not
+only whether the shops were useful to accomplish daily tasks such as
+buying groceries, but also whether the upkeep of the shops was reasonable 
+(e.g., the shops are visually well-maintained). In Scotland and in
+the United Kingdom in general, high streets with small-scale shops are
+still a regular part of the urban environment. Interaction between
+
+shoppers and shopkeepers is common, which was found to be an important 
+factor in sense of place [34] and may result in the parent feeling
+that there are familiar “eyes on the street” [35]. Such a feeling was mentioned 
+as being a factor in letting children walk alone to places [33,36]. If
+suf<U+FB01>cient people were walking in the neighbourhood, it would also suggest 
+a social norm of walking. Unfortunately, what constitutes ‘good’
+shops is not clear, but should act as a proxy of the likelihood of the parents using them.
+Continuing with parental perceptions, the negative correlation of
+traf<U+FB01>c is slow and safe is at <U+FB01>rst counter-intuitive as one would expect
+that such a perception would be related to a decreased sense of traf<U+FB01>c
+danger, but given second thought there is a possible explanation. Such
+a perception may be associated with neighbourhoods that have low
+congestion, thus making it easier for the parent to drive their child.
+That would relate to the parent's convenience factor [15,20]. Further,
+Babey et al. [26] did not <U+FB01>nd perceived traf<U+FB01>c danger to be a signi<U+FB01>cant
+explanatory variable in children walking to school either. Thus, higher
+levels of traf<U+FB01>c may actually act as a deterrent to the parent's convenience 
+to drive the child. To be clear though, we do not suggest that
+the promotion of traf<U+FB01>c (as opposed to congestion) would be an appropriate 
+means to improve walking rates.
+Moving onto the impact of household cars. As mentioned previously,
+household car ownership was not available, but the variable car availability 
+was negatively associated to children walking to school. Over
+80% of the households reported having access to a car and about 60%
+of those households reported driving to work. However, only 30% of
+the parents of elementary aged children reported that they drove their
+children to school. When those results are considered with the distance
+threshold, less than 12% of children within the “reasonable” walking
+distance were driven to school compared to over 37% above that threshold. 
+Thus, as the analysis demonstrated, distance is a stronger explanatory 
+variable than car availability.
+Lastly, none of the built environment measures were retained in the
+<U+FB01>nal regression models. This does not imply that the built environment
+is not important, as measures such as distance, good local shops, and
+traf<U+FB01>c speed were retained in the model and are linked to built environment. 
+Distance relates to the population or dwelling density and where
+the school is located with respect to the population. The probability of
+local shops (as opposed to large shops that attract people from outside
+the local area) existing relates to the number of people living locally
+(again, population density). The traf<U+FB01>c speed would relate to regulation
+(what speed is legally allowed), street design (e.g., narrow or wide, single 
+lane or multiple lane), and congestion (which would relate to traf<U+FB01>c
+generation and street design). Further, the built environment measures
+were non-precise, distinguishing only between urban, town, or rural
+with the latter two distinguishing between those that are within commuting 
+distance of an urban centre or not, and “urban” using a threshold
+of 125,000 people.
+
+4.1. Potential solutions
+
+Distance was the strongest explanatory variable in this study. Shortterm 
+solutions to distance are likely dif<U+FB01>cult. As demonstrated by the
+difference between the distance threshold for Scottish and Canadian
+children, the “reasonable” distance can vary. One means to potentially
+increase that threshold would be to address parental concerns. Community 
+organized walking school buses led by children, as found in Japan
+[7,36], could reduce parental concerns about stranger danger (not directly 
+included in this study, but signi<U+FB01>cant for children in London
+[14]) and traf<U+FB01>c. In one study [7], all children walked to school, regardless 
+of distance and the walking school bus was given as the reason for
+this success. In a walking school bus, the children walk as a group, thus
+they are more visible to vehicles, thus reducing traf<U+FB01>c danger and as a
+group they are not isolated (e.g., walking alone), which should also reduce 
+parental anxiety about stranger danger.
+
+
+Another short-term solution to overcome the problem of distance
+without resorting to motorised modes, would be to improve cycling
+conditions. Godefroy and Morency [31] demonstrated that for children
+aged 5 to 12 years in Montreal, the threshold distance was 1.99 km for
+boys and 1.27 km for girls. For boys, this is nearly double the threshold
+distance for walking (1.09 km) for children aged 11 and 12 years old.
+Improving children's cycling rates is another challenge, and a detailed
+discussion of how that might be achieved is not possible here.
+Longer-term solutions include addressing built environment aspects
+such as land-use, density, school location, and smaller blocks allowing
+for greater connectivity (e.g., [37]). Developers play the game within
+the rules set by the policy decision makers. It is the responsibility of
+planners (land-use, housing, and transportation) to work together to
+create rules that result in more travel options for parents and environments 
+that support children's active travel. Improvements here could
+reduce distances, better support local shops, and reduce traf<U+FB01>c speed
+through street design and regulation.
+
+5. Conclusions
+
+This paper looked at walking trips to school for children in Scotland
+aged ten and eleven years. It identi<U+FB01>ed a cultural-speci<U+FB01>c “reasonable”
+walking distance, and then used binary logit analysis to consider the
+“reasonable” walking distance, nearly 50 parental perceptions of the
+neighbourhood, 11 different possible reasons for choosing a home,
+household demographics, and built environment variables. Unique aspects 
+of this paper include: a general household survey that did not
+focus on children's travel was used, thus avoiding the potential bias of
+parents “justifying” why their children do not walk to school; the
+breadth of parental perceptions of the neighbourhood; and reasons for
+choosing a home.
+In the binary logit analysis, few parental perceptions were signi<U+FB01>cant. 
+However, the perception of good local shops was associated with
+more walking, while traf<U+FB01>c is slow or safe was negatively correlated.
+Reasons for such <U+FB01>ndings are discussed above. Car availability was the
+largest negatively associated variable.
+Living within the “reasonable” walking distance was by far the
+greatest explanatory factor considered. Solutions that increase the
+“reasonable” walking distance that children will walk such as walking
+in groups and infrastructure that support cycling may help increase
+overall active travel rates, but some attention must be paid to home location 
+choice and development of urban areas.
