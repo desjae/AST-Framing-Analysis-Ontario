@@ -1,11 +1,5 @@
-Transportation (2018) 45:1755–1781
-https://doi.org/10.1007/s11116-017-9794-y
-Mode choice and travel distance joint models in school
-trips
-Alireza Ermagun1 • Amir Samimi2
-Published online: 4 July 2017
- Springer Science+Business Media, LLC 2017
-Abstract We test a copula-based joint discrete–continuous model to unravel mode choice
+Mode choice and travel distance joint models in school trips
+Abstract We test a copula-based joint discrete–continuous model to unravel mode choice
 and travel distance decisions in a joint framework for school trips. This framework
 explicitly accounts for common unobserved factors that may affect both the mode choice
 and travel distance. Joint estimation of the models makes a significant difference in the
@@ -19,21 +13,7 @@ policy-sensitive variables is discussed and compared with previous studies. Part
 we indicate that the probability of walking is reduced by 0.85% due to a 1% increase in
 travel distance; accordingly, it propels parents to select non-active modes, particularly
 school bus. This study also demonstrates how addressing parental concerns about travel
-safety could double the propensity to walk to school.
-Keywords Copula-based model  Mode choice  School siting  School
-trips  Safety
-& Alireza Ermagun
-     alireza.ermagun@northwestern.edu
-     Amir Samimi
-     asamimi@sharif.edu
-1
-     McCormick School of Engineering and Applied Science, Northwestern University, 2145 Sheridan
-     Rd, Evanston, IL 60208, USA
-2
-     Department of Civil Engineering, Sharif University of Technology, Azadi Avenue, Tehran, Iran
-                                                                                          123
-
-1756                                                           Transportation (2018) 45:1755–1781
+safety could double the propensity to walk to school.
 Introduction
 Developed and developing countries have witnessed an increase in the use of private cars
 in school trips, which has resulted in a diminution in the share of active transportation
@@ -45,8 +25,7 @@ from 61% to 32% between 1991 and 2012 (Schoeppe et al. 2015). Such behavioral sh
 have adverse consequences that include: physical inactivity among students (Cooper et al.
 2005), increasing costs of obesity (Sepulveda et al. 2010), traffic jams at peak hours
 (Pedestrian and Bicycle Information Center 2008), and adverse environmental impacts
-(Wilson et al. 2007). Hence, detecting factors that affect this change is crucial for con-
-trolling this trend and promoting active modes of travel.
+(Wilson et al. 2007). Hence, detecting factors that affect this change is crucial for controlling this trend and promoting active modes of travel.
     Among the effective factors, travel distance is found to be very influential, if not the
 most influential, on the choice of school travel mode (Seraj et al. 2012). All the previous
 studies found a negative correlation between home-to-school distance and students’
@@ -60,8 +39,7 @@ different travel options for them. For example, parents who are more worried abo
 safety of their children may choose a school that either has a safe walkway to home or is
 easily accessible by their private car. Therefore, this point of view strongly supports a joint
 formulation for travel distance and mode. Second, home-to-school distance is part of very
-complex choices that could be tightened with residential location choice and other long-
-term decisions as well. This school of thought mentions when parents attempt to enact a
+complex choices that could be tightened with residential location choice and other long-term decisions as well. This school of thought mentions when parents attempt to enact a
 school choice other than their current close school, they might even end up taking on a
 change in residential location to move into the desired school district. Therefore, travel
 distance is not actually a choice, but rather a consequence of school choice. According to
@@ -69,8 +47,7 @@ this viewpoint, travel distance is an exogenous variable in the mode choice mode
 a joint formulation for the modes may be undermined.
     This study argues for the significance of a joint formulation for school travel mode and
 distance, no matter which viewpoint is followed. We test a copula-based joint multinomial
-discrete–continuous model framework to account explicitly for common unobserved fac-
-tors that may affect both the mode choice and travel distance decisions. We also compare a
+discrete–continuous model framework to account explicitly for common unobserved factors that may affect both the mode choice and travel distance decisions. We also compare a
 joint copula model for travel mode and distance with single distance (linear regression) and
 travel mode (multinomial logit) models. This analysis is conducted in Tehran, with more
 than 5300 schools and 1.1 million registered k-12 students (Statistics of Minister of
@@ -81,9 +58,6 @@ literature is provided. Then, the modeling method is explained, followed by a de
 of the empirical data. The estimation results of the joint model is proposed and compared
 to the single models. Finally, the paper ends with policy recommendations and concluding
 remarks.
- 123
-
-Transportation (2018) 45:1755–1781                                                       1757
 Background
 Many studies (Yarlagadda and Srinivasan 2008; McDonald and Aalborg 2009; Ermagun
 et al. 2015a) have analyzed factors that influence travel behavior in school trips. Table 1
@@ -131,13 +105,8 @@ build a greater number of neighborhood schools (Council of Educational Facility 
 International 2004). Hence, recognizing the factors that influence school trip distance and
 the reasons for such decisions by the parents is essential for long-term solutions toward
 promoting active travel modes to school.
-                                                                                   123
-
-Transportation (2018) 45:1755–1781                                                        1761
     This study is an effort to augment the current literature of school trips by developing a
-joint formulation for school travel mode and distance. This model is presented and com-
-pared with the conventional single models to highlight the significance of model specifi-
-cation in terms of policy assessment. Further, lack of school travel behavior studies in the
+joint formulation for school travel mode and distance. This model is presented and compared with the conventional single models to highlight the significance of model specification in terms of policy assessment. Further, lack of school travel behavior studies in the
 Middle East propelled this research to shed light on the cultural impacts of travel decisions.
 We account for parents’ perception of safety, convenience, and reliability when deciding
 on school trip mode and distance. These factors have received little, if any, attention in
@@ -149,13 +118,11 @@ are several studies that jointly modeled decisions that are not made simultaneou
 practice, but, have common unobserved factors. Spissu et al. (2009) developed a joint
 model of vehicle type choice and utilization using the 2000 San Francisco Bay Area Travel
 Survey. They underlined that the introduced joint discrete–continuous model system
-explicitly accounts for common unobserved factors that may affect the choice and uti-
-lization of a certain vehicle type. Habib (2012) also tested a joint trivariate discrete–
+explicitly accounts for common unobserved factors that may affect the choice and utilization of a certain vehicle type. Habib (2012) also tested a joint trivariate discrete–
 continuous–continuous model for commuters’ mode choice, work start time, and work
 duration to capture correlations among random components influencing these decisions. In
 a more recent study, Habib (2015) developed a joint model to investigate not only the
-factors affecting mode choice and travel distance of older people, but also their interre-
-lationship. Likewise, school travel mode and distance could have several common unob-
+factors affecting mode choice and travel distance of older people, but also their interrelationship. Likewise, school travel mode and distance could have several common unob-
 served variables, such as neighborhood walkability, safety and security perceptions,
 cultural preferences, and subject well-being that favor a joint formulation whether or not
 these decisions are made jointly in practice.
@@ -172,31 +139,19 @@ mode and distance in school trips. In the following, the modeling methods of the
 choice and travel distance are discussed, which is followed by a discussion of the joint
 copula method.
 Mode choice model
-A multinomial logit model is used to explain travel mode selection among four alterna-
-tives, namely automobile, school bus, public transit, and walk. Utility of mode i. for
+A multinomial logit model is used to explain travel mode selection among four alternatives, namely automobile, school bus, public transit, and walk. Utility of mode i. for
 household q. is formulated as Eq. 1, where xqi . is an observed attribute and eqi stands for
 the unobserved part of the utility or a random error term (Greene 2003).
-                                                                                   123
-
-1762                                                                           Transportation (2018) 45:1755–1781
-                                                    uqi ¼ bi xqi þ eqi :                                      ð1Þ
     Pursuant to the random utility maximization theory, household q chooses mode i. that
 comes with the highest utility (Eq. 2).
-                                  Vqi ¼ max uqj  eqi and bi xqi [ Vqi :                                      ð2Þ
-                                               j6¼i
     Assuming independent and identical type-1 extreme value distribution for the error, the
 closed form probability for selecting mode i. by household q. (Fqi .) is shown in Eq. 3
 (Greene 2003).
-                                                                       
-                                                             exp bi xqi
-                                              Fqi ¼ P                    :                                  ð3Þ
-                                                               exp bj xqj
 Travel distance model
 A regression model is used to model home-to-school travel distance for each mode of
 transportation. Travel distance is modeled using Eq. 4, where mqi . is travel distance for
 household q. with mode i, ci . is the vector of regression coefficients, zqi is the vector of
 observed attributes sqi is the error term.
-                                                   mqi ¼ ci zqi þ sqi :                                       ð4Þ
 The joint model: a copula-based approach
 The error terms of the logit and regression models are assumed to be type-1 extreme value
 and normal, respectively. Sklar (1959) showed that a joint distribution for two marginal
@@ -206,34 +161,13 @@ joint distribution, and h is the copula parameter. We considered four types of c
 Frank, Clayton, FGM, and Joe; and reported the one with the best fit. Bhat and Eluru
 (2009) suggested estimating Kendall’s parameter instead of h for a better interpretation of
 dependency between the marginal distributions. This is discussed later in more details.
-                                                                                  
-                                 Feqi ;sqi ðy1 ; y2 Þ ¼ Ch Feqi ðy1 Þ; Fsqi ðy2 Þ :                           ð5Þ
 Estimation method
 The overall Maximum Likelihood function is written as in Eq. 6 (Bhat and Eluru 2009),
 where fsi ð:Þ is the probability density function of eqi and ui1 and ui2 are the cumulative
-                                                                                                           
-                                                                                                    m c z
-probability distributions of the two error terms. In other words, ui2 ¼ Fsi qirs i qi and
-                                                                                                         i
-                        bi xqi              ðui1 ;ui2 Þ
-ui1 ¼ FVi bi xqi ¼ Pe ebj xqj ; and oChiou        i2
-                                                          is  the partial derivative of the copula   in respect to
-ui2 . The parameters ci , bi , hi , and rsi are estimated using the maximum likelihood esti-
+probability distributions of the two error terms.
+The parameters ci , bi , hi , and rsi are estimated using the maximum likelihood esti-
 mation (MLE) method, for which a code was developed in R software (R Core Team 2013)
 environment.
- 123
-
-Transportation (2018) 45:1755–1781                                                         1763
-                             Y                                         
-                        L¼       P mqi jbi xqi [ Vqi  P bi xqi [ Vqi
-                              q
-                             Y 1            
-                                              mqi  ci zqi   oChi ðui1 ; ui2 Þ
-                           ¼           fsi                                   :            ð6Þ
-                              q
-                                 r si
-                                                  rsi
-                                                                  oui2
 Data
 Tehran is ranked the 16th most densely populated city in the world (City Mayors 2013),
 with a population of about 8 million. Over 17 million motorized trips are made daily in this
@@ -251,12 +185,9 @@ few classes in Tehran. This has made the school density of Tehran to be about 7.
 schools per squared KM, which is relatively high, compared to an average school density
 of 3.4, 2.9, 2.1, and 1.6, in Chicago, Minneapolis, New York, and Los Angeles,
 respectively.
-   To develop the models, we used four categories of data: (1) students travel infor-
-mation, (2) socio-economic data of the households, (3) built-environment specifications,
+   To develop the models, we used four categories of data: (1) students travel information, (2) socio-economic data of the households, (3) built-environment specifications,
 and (4) transportation characteristics. The last two sets of data were obtained from
-Tehran Comprehensive Traffic and Transportation Study Co. (2013). While, an exten-
-sive survey was conducted in May 2011 in Tehran to collect students’ travel infor-
-mation and socio-economic information of households. More than 4900 questionnaires
+Tehran Comprehensive Traffic and Transportation Study Co. (2013). While, an extensive survey was conducted in May 2011 in Tehran to collect students’ travel information and socio-economic information of households. More than 4900 questionnaires
 were distributed among nearly 100 middle and high schools after a pilot survey. Forms
 were completed by the parents, and a response rate of 72% was obtained. Since schools
 in Tehran are gender-segregated, cluster sampling with respect to gender, level, and
@@ -276,25 +207,6 @@ the walking travel time to commute distance, considering an average walking spee
 4.8 km/h for children. Figure 1 shows the percentage of each mode classified by travel
 distance from home to school. Moreover, Table 3 shows the data used in this study as well
 as some demographics.
-                                                                                   123
-
-1764                                                                     Transportation (2018) 45:1755–1781
-                           100
-                            90
-  Share of each mode (%)
-                            80
-                            70
-                            60                                                                 Public
-                            50                                                                 School Bus
-                            40                                                                 Private
-                            30
-                                                                                               Walk
-                            20
-                            10
-                             0
-                                 <0.8   0.8-1.6   1.6-2.4   2.4-3.2    3.2-4        >4
-                                          Distance from home to school (KM)
-Fig. 1 Share of each mode classified by travel distance
 Model
 We developed a copula–based joint modeling framework for school travel mode and
 distance. Single models are also reported to make out the impact of modeling method on
@@ -321,61 +233,15 @@ as shown in Eqs. 2 and 4. In Frank model, this negative sign indicates that unob
 factors, which increase the probability of choosing a mode, are likely to increase travel
 distance. Conversely, a positive sign indicates that unobserved factors cause a decrease in
 the probability of choosing a special mode in a longer distance. The estimated copula
-dependency parameter for walking and distance is negative, contrary to other transporta-
-tion modes. Possible reasons for this difference could be hypothesized. For example, the
-123
-
-Transportation (2018) 45:1755–1781                                                                1765
-Table 3 Description of explanatory variables used in the modeling
-Variable           Description                                                        Average  SD
-GENDER             1:Male/0:Female                                                       0.39  0.48
-AGE                Age of children between 12–17 years old                              14.10  1.61
-INCOME             1: less than 5/2: 5–10/3: 10–15/4: 15–20/5: 20–25/6: more than        2.09  –
-                     25 million Iranian Rials* household income
-NON_AUTO           1: Households with no car/0: Otherwise                                0.20  0.40
-AUTO_MOR2          1: Households with more than two car/0: Otherwise                     0.18  0.38
-PARTTIME           1: If work of one of parents is part time/0: Otherwise                0.333 0.47
-EDUCATION          Educational level of parents 1: less than a high school diploma/2:    2.03  –
-                     high school diploma/3: bachelor of science/4: master of science
-                     or equivalent/5: higher degrees
-CHILD_7            Number of school children in household (ages7–18)                     1.58  0.67
-NON_WRK            1: If non worker parents are in household/0: Otherwise                0.05  0.21
-LOW_EDU            1: Parents have less than a high school diploma/0: Otherwise          0.33  0.47
-SB_N_COST          Out-of-pocket school bus travel cost (10 Rials) divided by         2074.84  1068.43
-                     INCOME
-WALKTRNT           Distance between home and the nearest bus station (meter)           571.21  449.72
-POPDENS            Population density in each zone (person per m2)                       0.02  0.01
-WALKSCH            1: less than 10/2: 10–20/3: 20–30/4: 30–40/5: 40–50/6:more than       2.63  –
-                     50 min walk time to school
-DISTANCE           Distance from home to school (Meter)                                971.29  576.80
-DURATION           1: If parents are primarily concerned about their children travel     0.23  0.42
-                     time/0: Otherwise
-SAFETY             1: If parents are primarily concerned about their children travel     0.31  0.46
-                     safety/0: Otherwise
-RELIABLE           1: If parents are primarily concerned about their children travel     0.18  0.38
-                     reliability/0: Otherwise
-TRF_LIMIT          1: Students that live or study in a limited traffic zone/0:           0.11  0.31
-                     Otherwise
-ACCESS             1: If parents have acceptable access to modes of transportation/0:    0.18  0.39
-                     Otherwise
-CONVENIENCE        1: If parents are primarily concerned about their children travel     0.30  0.46
-                     convenience/0: Otherwise
-COST               1: If parents are primarily concerned about their children travel     0.30  0.45
-                     cost/0: Otherwise
-D_GENWSCH          1: Influence of WALKSCH variable for boys/0: Otherwise                1.07  1.65
-* 11,800 Iranian Rails was equivalent to 1 USD in May 2011
+dependency parameter for walking and distance is negative, contrary to other transportation modes. Possible reasons for this difference could be hypothesized. For example, the
 preference of some parents that choose active transportation modes due to its health
 benefits is not considered in the systematic part of the utility. The negative sign of the
 dependency parameter implies that such factors that encourage walking are more likely to
 increase travel distance from home to school. Similarly, students who prefer to walk in
 order to socialize are inclined to travel longer distances than other students.
-    Student’s t-test was used to evaluate the effect of variables. Most variables are sig-
-nificant at 90% of confidence interval. The smallest t-value is for GENDER in the
+    Student’s t-test was used to evaluate the effect of variables. Most variables are significant at 90% of confidence interval. The smallest t-value is for GENDER in the
 regression model of walking and DURATION for regression model of public
 transportation.
-                                                                                             123
-
-Transportation (2018) 45:1755–1781                                                       1769
 Single models
 A summary of the single models are outlined in Table 5. A multinomial logit and a linear
 regression model are provided, respectively, for school trip mode and distance. The
@@ -393,8 +259,7 @@ the Public, and Walk models.
 Joint model versus single models
 Differences between the joint and single models’ coefficients are reported in Table 6. Wald
 test is deployed to measure the statistical significance between zero and the estimated
-differences. In the travel mode coefficients, walk time to school, and travel safety per-
-ception in the Walk alternative has a statistically different coefficient, respectively, in a
+differences. In the travel mode coefficients, walk time to school, and travel safety perception in the Walk alternative has a statistically different coefficient, respectively, in a
 95% and 90% confidence. Further, SB_N_COST in Sch. Bus mode, WALKTRNT in Public
 mode, and WALKSCH in Private mode have different coefficients with a 40% confidence.
 The remaining coefficients in the joint and single mode choice models are not statistically
@@ -402,8 +267,7 @@ different. In the distance models, on the other hand, AGE has slightly different
 with a 40% confidence interval.
 Discussion
 This part of the study is devoted to assess the impacts of different variables on school trip
-modes and distance according to the joint model. Variables are examined in four cate-
-gories: student characteristics, household demographics, built environment, and parental
+modes and distance according to the joint model. Variables are examined in four categories: student characteristics, household demographics, built environment, and parental
 reservations.
 Student characteristics
 Gender and age were found significant among student characteristics. The results indicate
@@ -416,9 +280,6 @@ students and a reduction in parents’ travel safety concerns (McDonald and Aalbor
 One may also hypothesize that older students tend to use independent modes such as public
 transportation and walking to socialize and be more independent in Tehran (Samimi and
 Ermagun 2012). Students’ age and travel distance are found to have a positive relation,
-                                                                                  123
-
-1774                                                           Transportation (2018) 45:1755–1781
 meaning that older students tend to travel longer distances. This change in distance is more
 common for students who use public transportation more than other modes.
 Socio-demographic variables
@@ -427,8 +288,7 @@ mode and distance. Among these, income, education, car ownership, and travel cos
 found to be more influential.
     The results showed that students from high-income households are more probable to use
 private cars and school bus. This is justified by the high travel cost of school bus in Tehran.
-As alluded to previously, unlike the Western countries, school bus in Tehran is a door-to-
-door expensive travel mode. Thus, it is not surprising that the prevalence of this mode is
+As alluded to previously, unlike the Western countries, school bus in Tehran is a door-to-door expensive travel mode. Thus, it is not surprising that the prevalence of this mode is
 high among high-income families. High income households who choose school bus, also,
 do not show a significant sensitivity to travel distance. High income households that prefer
 to walk to school, however, preferred shorter distances. We can conclude that high-income
@@ -439,13 +299,11 @@ discussed the impact of car ownership on mode choice. All of them found a positi
 correlation between car ownership and tendency to use personal vehicles for school trips.
 Two dummy variables of NON_AUTO and AUTO_MOR2 were used to investigate this
 influence in households with no car and households with more than two. The first variable
-indicates the probability of using public transportation and walking increases for house-
-holds that have no access to private car. Also, households with more than two private cars
+indicates the probability of using public transportation and walking increases for households that have no access to private car. Also, households with more than two private cars
 are found to be more willing to use their car for dropping off their children at school.
     Parents’ occupation was found to affect both travel mode and distance. This variable is
 more or less overlooked in previous studies (Wen et al. 2008). However, in line with some
-previous studies (Yarlagadda and Srinivasan 2008; Wen et al. 2008), we found non-
-workers are less inclined toward the use of active modes for their children’s school trips.
+previous studies (Yarlagadda and Srinivasan 2008; Wen et al. 2008), we found non-workers are less inclined toward the use of active modes for their children’s school trips.
 Also, unemployed parents that prefer motorized modes for their children’s travel to school
 are not necessarily more inclined toward shorter distances.
     As noted in past studies (Martin et al. 2007), parents’ education affects students’ mode
@@ -463,9 +321,6 @@ of this variable on the probability of choosing different transportation modes. 
 that high-income households are less affected by travel cost fluctuations. Therefore, we
 divided cost of school bus by the household income (SB_N_COST), to identify systematic
 taste variations among households.
- 123
-
-Transportation (2018) 45:1755–1781                                                           1775
 Built environment variables
 Most of the past studies (Wilson et al. 2010; Mitra et al. 2010; Ewing et al. 2004) found
 that the tendency to use public transportation and walking decreases as home-to-school
@@ -480,8 +335,7 @@ section.
 Parental reservation
 Safety, convenience, reliability, travel time, and traffic limits are the parental concerns
 whose effects on school travel mode and distance are examined. Apart from the first two
-variables (safety and convenience), other parental reservations have been hardly consid-
-ered in the previous studies (McDonald and Aalborg 2009; McMillan 2007). We found that
+variables (safety and convenience), other parental reservations have been hardly considered in the previous studies (McDonald and Aalborg 2009; McMillan 2007). We found that
 parents, who are concerned about their children’s safety, discourage public transportation
 or walking as a mode of school travel. Moreover, those who have safety concerns but also
 prefer to walk to school are more probable to live closer to schools.
@@ -508,41 +362,6 @@ variables (e.g. income and home-to-school distance) at the average points. Effec
 dummy variables (e.g. safety perception) are computed as the percentage change in mode
 choice probability, if that concern is eliminated completely. Elasticity of different variables
 was examined on various population clusters such as girls, boys, and low-income
-                                                                                      123
-
-1776                                                                                                        Transportation (2018) 45:1755–1781
- Change in Travel Mode Probability (%)
-                                           1
-                                                private   school Bus     public     walk
-                                          0.8
-                                          0.6
-                                          0.4
-                                          0.2
-                                           0
-                                         -0.2
-                                         -0.4
-                                         -0.6
-                                         -0.8
-                                          -1
-                                                  INCOME            SB_N_COST              WALKSCH            CHILD_7         WALKTRNT
-                                                                                  Explanatory Variable
-                                                                    (a) Elasticity effects of continuous variables
-                                         120
- Change in Travel Mode Probability (%)
-                                                Private   School Bus    Public     Walk
-                                         100
-                                         80
-                                         60
-                                         40
-                                         20
-                                           0
-                                         -20
-                                         -40
-                                                Boys        Girls      High School Middle School H_INCOME   L_INCOME WITH AUTO     WITHOUT
-                                                                                                                                    AUTO
-                                                                             Explanatory Variable
-                                                                         (b) Elasticity effects of   SAFETY
-Fig. 2 Elasticities of policy sensitive variables
 households. Such findings provide useful information for policy makers to better target
 policies for different segments of the society.
    As shown in Fig. 2a, when household income increases by 1%, the probability of using
@@ -550,46 +369,8 @@ school bus and private car, respectively, rises by 0.19% and 0.07%. Further, pro
 of using public transportation and walking decrease by 0.15 and 0.09%, respectively. The
 cost of school bus is normalized by households’ income so one can observe a systematic
 taste variation among families. This variable indicates that a 1% increase in the cost of
-school bus decreases the probability of school bus choice by 0.17% and 0.08%, respec-
-tively, for low and high income families. Such results are useful for policy makers who try
+school bus decreases the probability of school bus choice by 0.17% and 0.08%, respectively, for low and high income families. Such results are useful for policy makers who try
 to decrease the usage of non-active modes by diverse pricing scenarios.
-123
-
-Transportation (2018) 45:1755–1781                                                                                                        1777
-                                             300
-     Change in Travel Mode Probability (%)
-                                                    Private   School Bus     Public   Walk
-                                             250
-                                             200
-                                             150
-                                             100
-                                              50
-                                               0
-                                              -50
-                                             -100
-                                                     Boys        Girls     High School Middle School H_INCOME   L_INCOME WITH AUTO   WITHOUT
-                                                                                                                                      AUTO
-                                                                                 Explanatory Variable
-                                                                           (c) Elasticity effects of TRF_LIMIT
-                                              50
-                                                    Private   School Bus     Public   Walk
- Change in Travel Mode Probability (%)
-                                              40
-                                              30
-                                              20
-                                              10
-                                               0
-                                             -10
-                                             -20
-                                             -30
-                                             -40
-                                             -50
-                                             -60
-                                                    Boys        Girls      High School Middle School H_INCOME   L_INCOME WITH AUTO   WITHOUT
-                                                                                                                                      AUTO
-                                                                                  Explanatory Variable
-                                                                           (d) Elasticity effects of DURATION
-Fig. 2 continued
    As indicated earlier, a paramount variable in school travel mode is distance from home
 to school. If home-to-school distance increases by 1%, probability of walking will reduce
 by 0.85%, and propels parents toward non-active modes, especially the school bus.
@@ -599,9 +380,6 @@ schools.
    Availability of public transportation has not received due attention in previous studies.
 Elasticity of access to transit station (WALKTRNT) showed that a 1% improvement in the
 access increases the students’ propensity to take transit by 0.20%. It should be noted that
-                                                                                                                                     123
-
-1778                                                          Transportation (2018) 45:1755–1781
 public transportation is a hybrid mode that implicitly includes some sort of physical
 activity. Therefore, promoting this mode is an option for policy makers that strive to
 ameliorate society’s health condition.
@@ -625,8 +403,7 @@ travel.
    Regarding travel time concerns, the results indicate that as parental concern for travel
 time declines so does use of private vehicle. Figure 2d shows this decline fluctuates
 between 42.0% and 52.3% among different socio-economic family strata. As a result, the
-probability of school busing and public transit use increases significantly. Another inter-
-pretation of this analysis is that the parents who have concerns for travel time prefer to use
+probability of school busing and public transit use increases significantly. Another interpretation of this analysis is that the parents who have concerns for travel time prefer to use
 private vehicle. In the case that private vehicle is unavailable, they prefer school bus over
 public transit and walking.
 Conclusion
@@ -644,20 +421,14 @@ the travel distance coefficient in the mode choice model increased by 22% when a
 formulation was adopted instead of the conventional single estimations. Further, we found
 a significant decrease of 19% in the coefficient of travel safety perception in the joint mode
 choice model compared to the single model. Thus, single estimation of the models is
-technically a model misspecification that could result in distorted estimates. This depen-
-dency between the errors is more pronounced for the walking mode, according to Kendall’s
+technically a model misspecification that could result in distorted estimates. This dependency between the errors is more pronounced for the walking mode, according to Kendall’s
 dependency parameter.
- 123
-
-Transportation (2018) 45:1755–1781                                                                       1779
    Furthermore, this study evaluated the effect of a range of variables such as distance
 from home to school, travel cost, safety and traffic limits on the school travel mode choice
-behavior among different demographic segments. For example, we evidenced that elimi-
-nating parents’ concern about safety can double the propensity of walking to school. In the
+behavior among different demographic segments. For example, we evidenced that eliminating parents’ concern about safety can double the propensity of walking to school. In the
 final model, the demographic heterogeneity was considered in evaluating the effect of each
 variable. High and low income families, for instance, are expected to respectively show
-106% and 67% increase in the probability of walking, if their safety concerns are elimi-
-nated. Such findings can further provide information to policy makers for devising targeted
+106% and 67% increase in the probability of walking, if their safety concerns are eliminated. Such findings can further provide information to policy makers for devising targeted
 policy measures to increase physically active travel to school among the different segments
 of the society.
    While the results of this research offer some insights into the role of mode choice and
@@ -673,29 +444,4 @@ to the study that could be addressed in the future.
     The school location choice is affected by many explanatory variables such as quality of
     school, registration cost, and quality of the school’s neighborhood. However, these
     variables are not publically available in our case study to take into account in the
-    modeling process.
-Acknowledgements We would like to thank Professor Abdul Pinjari for the helpful comments. He offered
-detailed advices on the modeling procedure and the theme of the paper. We also thank Ali Shamshiripour for
-providing assistance in the code development process, and three anonymous reviewers for their constructive
-comments.
-References
-Alemu, D.D., Tsutsumi, J.I.G.: Determinants and spatial variability of after-school travel by teenagers.
-      J. Transp. Geogr. 19(4), 876–881 (2011)
-Bhat, C.R., Eluru, N.: A copula-based approach to accommodate residential self-selection effects in travel
-      behavior modeling. Transp. Res. Part B Methodol. 43(7), 749–765 (2009)
-Broberg, A., Sarjala, S.: School travel mode choice and the characteristics of the urban built environment:
-      the case of Helsinki, Finland. Transp. Policy 37, 1–10 (2015)
-City Mayors. http://www.citymayors.com. Accessed 29 July 2013
-Cooper, A.R., Andersen, L.B., Wedderkopp, N., Page, A.S., Froberg, K.: Physical activity levels of children
-      who walk, cycle, or are driven to school. Am. J. Prev. Med. 29(3), 179–184 (2005)
-Council of Educational Facility Planners, International. Creating Connections: The CEFPI Guide to Edu-
-      cational Facility Planning. Council of Education Facility Planners International, Scottsdale AZ (2004)
-De Jong, G., Ben-Akiva, M.: A micro-simulation model of shipment size and transport chain choice. Transp.
-      Res. Part B Methodol. 41(9), 950–965 (2007)
-D’Haese, S., De Meester, F., De Bourdeaudhuij, I., Deforche, B., Cardon, G.: Criterion distances and
-      environmental correlates of active commuting to school in children. Int. J. Behav. Nutr. Phys. Act 8, 88
-      (2011)
-Easton, S., Ferrari, E.: Children’s travel to school—the interaction of individual, neighbourhood and school
-      factors. Transp. Policy 44, 9–18 (2015)
-                                                                                                 123
-
+    modeling process.
