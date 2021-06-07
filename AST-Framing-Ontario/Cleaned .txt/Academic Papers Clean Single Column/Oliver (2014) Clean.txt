@@ -1,0 +1,198 @@
+What constitutes a ‘trip’? Examining child journey attributes using GPS and
+self-report
+
+       Active travel is associated with improved health and development outcomes in children.
+       Accurate detection of children’s travel behaviors and routes, however, is problematic. Travel
+       diaries are often used to collect information on children’s travel behaviors, yet no evidence
+       for the accuracy of this methodology exists. This study investigated the validity of
+       children’s self-reported trips (origin, destination) compared with an objective criterion
+       (global positioning systems units; GPS). Children (n = 10, 9–11 y) wore the GPS units for
+       seven consecutive days between March and June 2011 and completed travel diaries daily
+       with researcher assistance. Af<U+FB01>nity group interviews were conducted in December 2011
+       with 30 children from two schools to garner perspectives on trip de<U+FB01>nition, neighborhood
+       perceptions, and to illuminate GPS and travel diary <U+FB01>ndings. GPS journeys were manually
+       compared with travel diary journeys for destination sequencing, start times, and travel
+       mode. Accuracy in trip sequencing was compared by day type, and journey type using
+       percentage differences and the chi-square (<U+03C7> 2) statistic. Of the 380 trips captured, 54.5% of
+       journey sequences were fully or partially matched, 22.4% were GPS only trips and 23.2%
+       travel diary only. Greater accuracy (full/partial match) was observed for weekdays than for
+       weekend days and for the journey to or from school than for other journeys. Travel mode
+       agreement existed for 99% of matched trips. Although children’s travel diaries may confer
+       contextual journey information, they may not provide completely accurate information on
+       journey sequencing. Thematic analysis of af<U+FB01>nity group data revealed that reasons for this
+       are multifaceted, including differing concepts of what constitutes a ‘trip’. A combined
+       approach of GPS and travel diary is recommended to gather a comprehensive understanding
+       of children’s journey characteristics.
+      
+Introduction
+Physical activity is fundamental to health and well-being in children (Strong et al. 2005), and may
+be accumulated via non-curricular and unstructured activities such as independent mobility and
+active transportation to school. Such non-curricular approaches are seen as sustainable, effective
+means by which to encourage physical activity participation in childhood and beyond (Badland
+and Oliver 2011; Faulkner et al. 2009; Jago and Baranowski 2004; White House Task Force on
+Child Obesity 2010). Active travel to school is associated with physical activity accumulation,
+lower body fatness, and improved <U+FB01>tness (Lubans et al. 2011; Mendoza et al. 2011). Independent
+mobility contributes to increased physical activity via active transportation as well as through
+neighbourhood play and exploration, and has been linked with improved spatial and cognitive
+development and community social capital (Badland and Oliver 2011). Despite these bene<U+FB01>ts,
+evidence suggests that child independent mobility and active travel to school have declined in
+recent decades (Hillman, Adams, and Whitelegg 1990; McDonald et al. 2011; Pooley, Turnbull,
+and Adams 2005; van der Ploeg et al. 2008), demonstrating a pressing need for ef<U+FB01>cacious interventions. These are dependent, however, on the ability to accurately quantify mobility behaviours
+in children and to identify factors related to these behaviours. Due to their relatively low
+implementation cost and ease of interpretation, travel diaries have been predominantly used to
+capture proxy (parental) (Prezza et al. 2001) or child (Mackett et al. 2007a) reports of independent
+mobility and active transportation. Given that independent mobility encompasses children ‘free-ranging’ without supervision, proxy reports are unlikely to accurately capture characteristics of
+independently mobile journeys. Limitations of child reports are that they are reliant on participant
+recall and comprehension, may be in<U+FB02>uenced by social desirability bias, and require researcher
+data cleaning (e.g. imputation of missing dates) and manual entry of data into statistical software
+(e.g. Microsoft Excel, SPSS, STATA) (Klesges et al. 2004; Sallis 1991). Little is known of the
+validity of travel diaries to accurately assess children’s travel behaviours. Although global positioning systems (GPS) has been used to assess the accuracy of travel surveys in adults (Stopher,
+FitzGerald, and Xu 2007), to date no comparison with an objective measure has been made for
+child data. We provide the <U+FB01>rst examination of the accuracy of children’s reports of their travel
+to destinations when compared with GPS-derived travel information.
+Research methods
+Data are drawn from a subset of the Kids in the City study for which full methodology is provided
+elsewhere (Oliver et al. 2011). Brie<U+FB02>y, data were collected with children aged 9–11 years in six
+schools in Auckland, New Zealand, between March and June 2011. Children were provided with
+a wristwatch (to record times) and a GPS unit attached to an elastic belt, turned on and set to log
+data every 10 seconds (QStarz BT-Q1000 or BT-Q1000XT; Qstarz International Inc., Taiwan).
+Participants were requested to wear the belt for waking hours over the next seven days except
+when bathing or swimming. Participants were provided with a travel diary for that afternoon
+and the following morning (Figure 1) and given an in-depth explanation of how to record
+journey information in the travel diary. Travel was considered movement from one type of
+location to another (e.g. home to school and family member’s house to playground). For the
+next six weekdays, children were visited at the school, where travel diaries were checked with
+the children including checking the child’s recall of the previous day and sequence of locations
+travelled to. At this time, GPS data were downloaded, and GPS units were recharged. On
+Friday afternoons, children were provided with a GPS charger to charge the units on weekend
+evenings, a weekend diary, and written instructions on completing the weekend diary and charging the units. As well, researchers provided interactive demonstrations with children to ensure
+comprehension of instructions. At the completion of data collection for each school, travel
+diary data were manually entered into a spreadsheet, including date, trip number, trip time, destination, mode, and accompaniment. A broad destination classi<U+FB01>cation system was utilized for
+travel diary and GPS data, whereby groups of destination types were clustered together; for
+example, convenience store, shopping centre, and retail parcel lots were all coded as ‘shops’.
+GPS data were cleaned using a custom R script, and imported into ArcGIS 9.3 (ESRI Inc.,
+Redlands, CA) for conversion into point shape<U+FB01>les (Mavoa and Oliver 2011; Mavoa et al. 2011).
+Land use data were provided by the local council. Destinations in this database were manually
+categorized using the same classi<U+FB01>cation system that was used for the travel diaries, enabling
+the determination of alignment in sequencing of destinations visited.
+     In order to capture potential variability in destinations visited, while recognizing the substantial time required for this examination, data for 10 children from two schools were randomly
+selected for this study. Cleaned GPS <U+FB01>les were opened in ArcGIS alongside land use data and
+manually checked against the travel diary for sequence of destinations visited (e.g. home–shops, shops–school, and school–home), journey start times, and travel mode (for GPS data,
+speeds > 50 km/h indicated motorized travel). Matches in sequence of locations visited
+between travel diary and GPS data were coded as a full match, partial match (matching origin
+or destination only), or no match. Accuracy in trip sequencing was compared by day type and
+trip type using percentage differences and the chi-square (<U+03C7> 2) statistic. Destination sequencing
+was utilized as the measure of accuracy, as we anticipated inaccuracies in children’s reporting
+of trip times and duration based on previous work in this area (Badland et al. 2011). Inconsistencies in journey characteristics were also recorded and descriptive statistics were calculated.
+     To garner information on how children de<U+FB01>ned a ‘trip’ and illuminate GPS and travel diary
+<U+FB01>ndings, af<U+FB01>nity group interviews were conducted with a subsample of 30 Kids in the City participants from two of the schools on 1 December and 12 December 2011. Af<U+FB01>nity groups comprise approximately four to eight people who know each other and/or have similar interests, in
+order to bring about a sense of ease and encourage open discussion about perceptions, feelings,
+and behaviours. This method facilitates ‘the identi<U+FB01>cation of shared and contradicting stories,
+ideas and understandings through clari<U+FB01>cations, negotiations and con<U+FB01>rmations’ (Keddie 2004,
+35). Children who knew each other worked together with a researcher in eight groups (four of
+girls and four of boys). Each group was shown an empty (i.e. uncompleted) copy of the travel
+diary form which had been utilized in the Kids in the City data collection (which some of the children had previous experience in completing seven or eight months earlier, depending on the
+school). Children were then asked what they thought a trip was and asked to give examples of
+trips they had made in the preceding 24 hours. Data were recorded on an Olympus digital
+voice recorder (DS50). Audio <U+FB01>les were transcribed and imported to NVivo 9 for analysis by thematic induction. A detailed coding structure was applied based on emergent themes identi<U+FB01>ed in
+the transcripts.
+Results
+Data for 4 boys and 6 girls aged 9–11 years were included in analyses comparing GPS and travel
+diary data. From these data, 292 GPS journeys and 295 travel diary journeys were derived (total
+380 journeys). Of these, 57.1% of journey sequences were fully or partially matched; 22.4%
+were GPS only trips and 23.2% travel diary only (Table 1). Figure 1 shows an example of the mismatches found in journey sequencing between GPS and travel diary data for one participant.
+Journey types were predominantly trips to or from school, with a wide range of other trip purposes.
+Consequently, a broad ‘other’ category was created to encompass all non-school-related trips.
+Greater accuracy (full or partial match) was observed for weekdays than for weekend days (<U+03C7> 2
+< 0.001), and for the journey to or from school than for other journeys (<U+03C7> 2 < 0.001). For trips
+where time data were available, on average trip start times differed from the GPS times by
+44:55 (range 0:00:08–4:44:41). Travel mode was matched in almost all instances (99% of all trips).
+     Af<U+FB01>nity group data revealed some differences in what the children considered a ‘trip’ in terms
+of <U+FB01>lling in a travel diary, although all except 2 of the 30 felt a trip was where they actually left
+their house and garden and went somewhere else: ‘going somewhere besides your house’; ‘every
+time you go outside the house and outside the neighbourhood’; ‘going places’; ‘like going swimming or something’; ‘the shops, the mall’; and ‘like a long distance’. Perceptions of how far that
+distance needed to be varied from ‘at least a kilometre’ to ‘more than ten metres’. One respondent,
+however, felt that going down the path from his house to the rubbish bin constituted a trip; and
+another that moving about the house – for instance from the kitchen to the sitting room – ‘could be
+a trip, a tiny trip’.
+     When children went to more than one destination after leaving home or school, there was
+some variation in perception as to whether this constituted one, or more than one trip. For
+instance, the boy who ‘walked from home to the shops, shops to school’ saw this as one continuous trip; so did the girl who de<U+FB01>ned a trip as ‘when you go to some place and come back’. Con-
+versely, ‘after school I went to my sister’s place and then I went home’ was seen as an example of
+two trips by another respondent.
+     ‘Trip’ also had a connotation of a longer journey, or going somewhere different or special, for
+some children: ‘going on holiday, to the theme parks and that, like a trip’; ‘travelling for Christmas’; ‘go in an aeroplane’; and ‘a camp trip, like when we went, we went [to] Camp Adair’.
+Discussion
+This is the <U+FB01>rst study to examine the accuracy of children’s self-report of their travel behaviours
+compared to an objective criterion. We found considerable inconsistencies between the GPS and
+travel diary information, predominantly due to missing travel diary trips that were captured by
+GPS. This mostly occurred during trip chaining, where one or more stops between the primary
+origin and destination were missed. This may be due to children’s interpretation of what a
+‘trip’ comprises, perhaps relating this to utilitarian activities and the primary trip purpose. For
+example, while convergence was found for a participant’s return trip from home to church, the
+GPS data showed an additional trip to the shops before returning home. This is an example of
+children’s different perceptions, as noted above, of what constitutes a single trip or multiple
+trips. Many such trips would be considered partial matches, with either the origin or destination
+matched. Even if all partially and fully matched trips are combined, this still only amounts to 57%
+of trips being matched by origin, destination, or both.
+     Concepts of ‘place’ may also in<U+FB02>uence children’s report of their travel behaviours; while concordance was found for a child’s trip to their relative’s house, the GPS data revealed a stop at
+another house on the way, and time spent in locations surrounding the house while there (i.e.
+local streets and the empty lot next door). Likewise, GPS data captured children spending time
+outside residential sites, in culs-de-sac near their house, and in shared driveways; yet these activities were not captured in the travel diaries, presumably because the children did not consider they
+had ‘gone somewhere else’ or were far enough away from home for their mobility to be considered a ‘trip’. Consequently, use of the travel diary information alone is likely to miss potentially important contributors to overall activity levels, such as hanging out, neighbourhood
+play, and short excursions from primary destinations. When examining the effect of environments
+on activity behaviour, omitting this information will hide potentially important in<U+FB02>uences on
+activity, socialization, and health outcomes (Wheeler et al. 2010).
+     There were also some occasions when trips noted in travel diaries were not re<U+FB02>ected in the
+GPS data. This is likely a result of trips occurring within the land parcel lot (e.g. within the
+home boundary) or GPS non-wear, although non-wear was rarely reported in the diary. For
+the most part, the continuity of GPS data points across time suggests that trips were not
+missed due to battery failure or participants turning the units off. It is impossible to unequivocally
+know the cause of either the missing travel diary or GPS trips. Under-reporting in travel diaries is
+likely; however, it is also possible that the travel diary is accurate and the GPS tracks are false, for
+example, due to the unit being left in a car, or a non-participant wearing the unit.
+     The greatest accuracy in travel diary information was found for the journey to school. Previous testing of the Safe Routes to School Travel Survey also showed high convergent validity
+(when compared with parent reports) for the travel mode for the trip to school (Mendoza et al.
+2010). These <U+FB01>ndings are unsurprising, considering the regularity of these trips, the consistency
+in scheduling, and time constraints restricting opportunities for trip chaining in morning travel.
+Beyond school commutes, the current study <U+FB01>ndings indicate that the use of children’s self-reported travel behaviours alone is likely to result in considerable under-reporting. Nonetheless,
+travel diaries remain an important methodology for understanding children’s travel behaviours.
+While advances in technology have enabled the automated calculation of journey purpose
+using GPS and GIS in adults (Wolf, Guensler, and Bachman 2001), to date, diaries remain the
+preferred method for gathering contextual and perceptual journey information, and enabling
+the identi<U+FB01>cation of independently mobile trips. In adults, several approaches have been trialled
+to improve travel diary data quality including GPS data as a prompt to participant recall (Stopher,
+Prasad, and Zhang 2010), and time use surveys (Stopher 1992). However even in this older popu-
+lation group, trip de<U+FB01>nition and journey timing were problematic, demonstrating the considerable
+challenge to researchers working with children and adults alike (Auld et al. 2009).
+     When combined with GIS, GPS provides a useful measure of spatiotemporal exposure to the
+built environment, as effect sizes can be diluted when environmental information is limited to pre-determined areas (Troped et al. 2010). Similar to Mackett et al. (2007b), we noted that some participants took different routes for the trip to school on different days, visited playgrounds and
+settings en route, and spent time outside the school grounds prior to school starting. As such,
+GIS trips derived from travel diary information (e.g. using shortest-route methodology) may
+miss potentially important environments that children encounter.
+     Although this study is limited somewhat by the small speci<U+FB01>c sample, we employed an in-depth
+explanation process, including checking diaries every weekday. Nesting of trips within individuals
+was not considered in this study; however, the consistency in <U+FB01>ndings across the randomly selected
+children indicates a relatively stable pattern in inaccuracies between children with differing journey
+pro<U+FB01>les. For the purposes of this study, GPS was considered the ‘gold standard’; however, this
+method is not without limitations, including potential data loss and spurious data, loss of signal
+in urban jungles, and issues with battery life (Badland et al. 2010; Oliver et al. 2010). To mitigate
+these issues, GPS units with high validity and reliability were used (Duncan, Oliver, and MacRae
+2011), and an intensive data collection process was employed, in particular, visiting the school daily
+to download data, reinforce methods, and charge and test GPS units.
+     Active travel and independent mobility offer important opportunities for children to accumulate physical activity for improved health and development, and for the acquisition of skills and
+behaviours for lifelong health promotion. Despite this, evidence suggests that both behaviours
+have decreased in children in recent decades. Accurate measurement of children’s travel behaviours is fundamental to understanding associates and determinants of active travel and indepen-
+dent mobility. This information is essential to the development and implementation of ef<U+FB01>cacious
+interventions to support and encourage these behaviours. To date, no best practice approach for
+measuring these behaviours exists. Travel diaries are widely used, and the use of GPS monitoring
+is becoming more commonplace. This study provides the <U+FB01>rst objective evidence for the validity
+of children’s self-reported journeys and brings into question the use of travel diaries for this
+purpose. Although children’s travel diaries may confer contextual journey information, they
+may not provide completely accurate information on journey sequencing. Reasons for this are
+likely to be multifaceted, including children’s differing concepts of what constitutes a trip.
+Using less intensive approaches than those employed in the current study is likely to increase
+travel diary inaccuracies. A combined approach of GPS and travel diary is recommended to
+gather a comprehensive understanding of children’s journey characteristics. Future studies may
+also bene<U+FB01>t from considering these issues in larger samples to explore the potential contribution
+of individual factors in<U+FB02>uencing variability in agreement.

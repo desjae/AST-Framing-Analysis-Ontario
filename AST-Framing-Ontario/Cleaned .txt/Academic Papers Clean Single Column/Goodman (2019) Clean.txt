@@ -1,0 +1,418 @@
+Scenarios of cycling to school in England, and associated health
+and carbon impacts: Application of the ‘Propensity to Cycle Tool’
+abstract
+Background: The Propensity to Cycle Tool (PCT) is a freely available, interactive tool helpprioritise cycling initially launched in England in 2017 and based on adult commuting data. This
+paper applies the method to travel to school data, and assesses health and carbon benefits based
+on nationwide scenarios of cycling uptake.
+Methods: The 2011 National School Census provides origin-destination data for all state-funded
+schools in England (N = 7,442,532 children aged 2–18 in 21,443 schools). Using this dataset, we
+modelled propensity to cycle as a function of route distance and hilliness between home and
+school. We generated scenarios, including ‘Go Dutch’ – in which English children were as likely to
+cycle as Dutch children, accounting for trip distance and hilliness. We estimated changes in the
+level of cycling, walking, and driving, and associated impacts on physical activity and carbon
+emissions.
+Results: In 2011, 1.8% of children cycled to school (1.0% in primary school, 2.7% in secondary
+school). If Dutch levels of cycling were reached, under the Go Dutch scenario, this would rise to41.0%, a 22-fold increase. This is larger than the 6-fold increase in Go Dutch for adult com-muting. This would increase physical activity from school travel among pupils by 57%, and
+reduce transport-related carbon emissions by 81 kilotonnes/year. These impacts would be substantially larger in secondary schools than primary schools (a 96% vs. 9% increase in physical
+activity, respectively).
+Conclusion: Cycling to school is uncommon in England compared with other Northern European
+countries. Trip distances and hilliness alone cannot explain the difference, suggesting substantial
+unmet potential. We show that policies resulting in substantial uptake of cycling to school would
+have important health and environmental benefits. At the level of road networks, the results can
+inform local investment in safe routes to school to help realise these potential benefits.
+1. Introduction
+    Successfully increasing cycling has the potential to confer large public health benefits, particularly via increased physical activity
+(Mueller et al., 2015). With respect to children, the journey to school potentially provides a convenient way to incorporate physical
+activity into everyday life (Tudor-Locke et al., 2001), and increasing active school travel has been a focus of policy attention in a
+number of countries (Chillon et al., 2011). Epidemiological studies indicate that children who use active school travel have increased
+total physical activity (Denstel et al., 2015; Larouche et al., 2014), increased cardiovascular fitness (Larouche et al., 2014; Lubans
+et al., 2011) and possibly improved body composition although the latter results are more conflicting (Larouche et al., 2014; Lubans
+et al., 2011). Successfully increasing active school travel could also have positive mental health and cognitive outcomes, based on
+evidence linking these objectives to physical activity (Biddle and Asare, 2011; Larun et al., 2006; Singh et al., 2012). Environmental
+co-benefits of reducing motorised traffic include reducing urban congestion, air pollution, noise and carbon emissions (Banister,
+2008; Van Ristell et al., 2013; Singleton, 2014).
+    Despite these potential benefits, it seems likely that observed levels of active school travel are well below their potential in many
+high-income settings. One indication of this is the decline in active school travel that has been observed in recent decades in a number
+of countries worldwide (van der Ploeg et al., 2008; McDonald, 2007; Buliung et al., 2009; Trang et al., 2012; Chillon et al., 2013;
+Ministry of Transport, 2015; Dygryn et al., 2015; Cui et al., 2011; Grize et al., 2010). In England, for example, National Travel Survey
+data indicates that among children aged 5–15, the proportion of school trips that were walked or cycled fell from 67% in 1975–76
+(63% walking, 4% cycling) to 46% in 2015–16 (44% walking, 2% cycling: see Fig. 1). Moreover, while Fig. 1 indicates that the
+decline may perhaps have stabilised in the past 15 years, active school travel certainly shows no sign of any meaningful increase - in
+this respect the pattern in the UK may mirror that of Australia (Meron et al., 2011). This failure to show any increase is notable given
+the concurrent implementation of national initiatives seeking to increase active school travel (DfE and DfT, 2010). In discussions of
+why these initiatives have not had more success, long travel distances have been highlighted as one important barrier (DfE and DfT,
+2010). For example, only 43% of school children in England attended their nearest school in 2009 and the average distance from a
+child's home to their actual school was more than twice that to their nearest school (Van Ristell et al., 2013). Likewise, National
+Travel Survey indicates that the proportion of school trips longer than 2 miles was 38% in 2015–16 (up from 24% in 1975–76). In this
+context, enabling cycling is potentially a particularly important component of an active travel strategy, since it can cover the mid-length school trip distances (e.g. 3–8 km) currently dominated by motorised modes (Department for Transport, 2015).
+    Levels of active travel, including among children, have been found to be related to many factors, including walking and cycling
+infrastructure and road safety (Panter et al., 2008; Smith et al., 2017; Pont et al., 2009). These factors mirror those conducive to
+physical activity overall, suggesting wider co-benefits of interventions to increase cycling levels. Influential factors can be grouped as
+environmental (urban infrastructure, hilliness, climate), socio-cultural (driver behaviour, cycling cultures in families and neighbourhoods, perceptions towards cycling), economic (access to a good bicycle and associated accessories) and political (support for
+cycling at local, school, regional, and national levels) (Gotschi et al., 2015; Wendel-Vos et al., 2007). Transport policy-makers and
+practitioners have a key role to play in improving active travel and therefore public health. To facilitate the effective delivery of
+interventions, in 2015 the UK Department for Transport commissioned the creation of a national “Propensity to Cycle Tool” (PCT).
+The aims of this tool are twofold: first, the PCT aims to help motivate investment in cycling, by generating alternative scenarios (or
+‘visions’) as to what changes might be possible at an area or route level and quantifying the associated health and environmental
+benefits. Second, the PCT aims to help direct investment in cycling, nationally and locally, down to the route-network level. For
+example, the tool can help identify which areas in a local authority, or which routes in a neighbourhood, have the greatest potential
+to increase. It can estimate what level of usage might one see under different scenarios, and therefore inform decisions about what
+infrastructure capacity to provide. Thus the PCT is not a forecasting tool: it does not seek to predict how levels of cycling will change
+in England, either nationally or in response to specific interventions. Instead it is a scenario-generating tool that answers the question
+‘if we reached a given level of cycling (e.g. one in line with that observed in other countries), what would the spatial distribution of
+the new trips look like, and what would the benefits be?’.
+    The PCT is designed to be accessible to policy makers and interested citizens alike. The underlying code is open-source and the
+associated website (www.pct.bike) provides free access to an interactive map and data downloads. The first version of the PCT was
+created using 2011 Census data for in England and Wales that captured where all working adults lived and worked, together with
+their usual, main commuting mode (Lovelace et al., 2017). We refer to this modelling and presentation of data for one trip type in the
+PCT as one ‘layer’. The PCT commuting layer is used by local authorities and other stakeholders involved in transport planning for a
+range of purposes, including applying for central government funding (e.g. Cornwall Council), informing strategic cycle networks
+(e.g. the four Black Country local authorities and Lancashire County Council) and informing advocacy campaigns (e.g. Bath Cycle
+Campaign).1 The PCT is part of national policy in the Cycling and Walking Infrastructure Strategy (Department for Transport, 2017),
+which highlights how the PCT can inform Local Cycling and Walking Infrastructure Plans. Feedback from multiple stakeholders using
+the PCT have identified its reliance on commute data as a limitation and requested additional trip types to be included.
+    In this paper we present methods used to create travel to school scenarios in the PCT. This new ‘layer’ covers travel to schools in
+England for current cycling levels and two scenarios: one in which cycling doubles nationally, and the other one in which children in
+England have the same propensity to cycle to school as children in the Netherlands, accounting for trip distance and hilliness. For the
+purposes of comparison, we present some equivalent results from the existing PCT commuting layer.
+2. Methods
+    This section summarises the methods we used to build the PCT schools layer, with full details provided in the Appendix A. The
+methods build on the approach used to generate the commuting layer in the PCT (Lovelace et al., 2017), enabling integration of
+evidence-bases on commuting and school travel, in a single, internally consistent tool. Overall, our approach was designed with long-term, strategic cycle network planning in mind (Department for Transport, 2017). To provide an example, Transport for Greater
+Manchester (TfGM) has announced plans for substantial investment in cycling, and a number of strategic cycleways referred to as
+‘beelines’.2 But where, precisely, should these cycleways be placed? The PCT's commute scenarios (Go Dutch in particular) have
+already been used in the development of a strategic cycle network in Manchester (Nicola Kane, Head of Strategic Planning and
+Research TfGM, personal communication). Evidence on where cycling to school could take place, if the region succeeds in increasing
+the proportion of school trips that are cycled, could help optimise the location of these ‘beelines’, to benefit a wider (more residentially-focussed) range of people.
+2.1. Input datasets and study population
+2.1.1. Key input dataset: The 2011 National School Census
+    The core input dataset was 2011 National School Census (NSC) in England (the corresponding dataset for Wales was not available). Each January, all state-funded schools in England have a statutory requirement to submit information on a range of pupil
+characteristics. Until 2011 this included mode split for pupils’ usual, main mode of travel to school. Therefore we used 2011 data for
+the PCT layer. Within this definition, ‘usual’ mode of travel was defined as that used most frequently by the pupil throughout the year,
+and ‘main’ mode was defined as that used for the longest distance (DCSF, 2008) – i.e. equivalent to the question from the household
+Census used to measure commuting to work in the PCT commuting layer (Lovelace et al., 2017).
+    The Department for Education generated origin-destination (OD) pairs linking each Lower Super Output Area (LSOA) of residence
+to their school. LSOAs are administrative regions designed to contain a population of around 1560 individuals (average 360 children
+age =18). An anonymised OD dataset was provided at this level, with mode disaggregated into four categories: bicycle, foot, car/van,
+and bus/train/other. Independent (private) schools, which contain 7.1% of pupils in England (Department for Education, 2011), were
+not present in the OD dataset as they were not required to provide data on travel to school in the NSC.
+    We created the PCT schools layer separately for early years/primary (age 2–10, henceforth ‘primary’) schools and secondary
+schools (age 11–18). Of the 21,649 state-funded schools in England in 2011, we excluded 62 boarding schools plus 144 schools where
+the home address or mode of travel to school was unknown for more than 25% of pupils (as detailed in the Appendix A, the
+proportion of missing data across the remaining schools was =0.3%, and was imputed under an assumption of missing at random).
+The PCT schools layer was created from the remaining 17,515 primary schools (4,188,769 pupils) and 3928 secondary schools
+(3,253,763 pupils). This corresponds to 98.8% of pupils in state-funded schools (99.7% for primary and 97.7% for secondary); and
+91.8% of all pupils in England including independent schools.
+2.1.2. Other input datasets: National Travel Surveys from England and the Netherlands
+    In addition to the NSC dataset, some of our analysis decisions and model parameterisation drew on analyses of the National Travel
+Surveys (NTS) from England (2010–2016) and the Netherlands (2010–2016). Both are nationally representative surveys that include
+a travel diary, of duration 1 week in England and 1 day in the Netherlands.
+2.1.3. Comparison of the NSC and the English NTS
+    We used the English NTS to assess how far the results of the NSC 2011 might be affected by the fact the data was collected in the
+winter term and only covers ‘usual, main mode’, factors that have been raised as sources of concern by previous authors (Easton and
+Ferrari, 2015) (see Appendix A for full details). First, the NTS provided no evidence that the proportion of children reporting cycling
+to school varied across the year (p = 0.95 for heterogeneity by season). Second, at the population level the NSC data on cycling to
+school was fairly highly correlated with NTS data on the proportion of child trips cycled a) to or from school (r = 0.80) and b) for any
+purpose (r = 0.90). This indicates that the single item collected in the NSC is a good proxy for the overall cycle modal share among
+children. In this respect, the NSC measure is similar, or perhaps even superior, to its adult counterpart of ‘usual main mode of travel to
+work’, which has a population-level correlation of 0.77 with the overall adult modal share of cycling (Goodman, 2013).
+2.2. Scenario modelling
+2.2.1. Modelling baseline propensity to cycle to school
+    To generate ‘what if’ scenarios regarding possible future levels of cycling, we first modelled baseline propensity to cycle to school.
+For this, we used an individual-level binary logit model in which the outcome was whether the child cycled to school or not, and the
+predictor variables were the route distance between their home and the school and the route hilliness. Route distance and hilliness
+were estimated using the ‘od2line()’ and ‘line2route()’ functions in the stplanr R package ((Lovelace and Ellison, in press), see also
+https://cran.r-project.org/package=stplanr). CycleStreets (www.CycleStreets.net) provided the routing service from the population-weighted centroids of the home LSOA to the location of the school. We used a single central point within each LSOA, following
+transport modelling conventions ((Ortuzar and Willumsen, 2011); alternative options for multiple start points in each LSOA are
+discussed in Section 4 of this reference). We measured route hilliness as the total change in elevation (either up or down) divided by
+the route distance, i.e. the average gradient along the route. For example, a gradient of 2% indicates that for every 100 m travelled
+horizontally the route involves a total change in vertical distance of 2 m. This change of 2 m could potentially reflect a rise of 2 m or a
+fall of 2 m or, for example, a rise of 1 m followed by a fall of 1 m.
+    In modelling baseline propensity to cycle, separate equations were fitted for primary school and secondary school children. To
+capture the non-linear impact of distance on the likelihood of cycling (Iacono et al., 2008), we included squared or squared root
+terms, choosing between these two modelling possibilities on the basis of what provided best model fit (see Appendix A for details).
+We only included a linear term for hilliness because a) this provided good fit to the data and b) modelling hilliness as a linear term
+substantially facilitated our subsequent incorporation of Go Dutch scaling factors (again, see Appendix A for details). We fitted these
+models only for trips < 5 km for primary school pupils and < 10 km for secondary school pupils, as the analysis of the English NTS
+indicated that very few (=0.3%) cycle trips with the purpose of education were above these distances.
+    The resulting model parameters were used to create the baseline propensity to cycle equations, as shown in Box 1; see the
+Appendix A for further details. Model fit is illustrated in Fig. 2 for primary school children – the Appendix A has an equivalent
+secondary school graph. As expected given the large sample size, all of these model components were highly statistically significant,
+with all T-statistics p < 0.001. As also expected, given that many other factors influence propensity to cycle, only a small proportion
+of the total variance in the cycle mode share was explained by the model: pseudo R2 2.4% for primary schools and 6.3% for secondary
+schools. For comparison, in the existing PCT commuting layer (Lovelace et al., 2017), the model overall fit was 4.9% for commuters
+with a fixed workplace travelling < 30 km.
+2.2.2. Scenarios of cycling uptake
+    We developed two scenarios of potential cycling futures, both of which are equivalent to scenarios developed for the PCT
+commuting layer (Lovelace et al., 2017). The first, ‘Government Target’, modelled a doubling of cycling across the country. This was
+informed by the government's target to double the number of cycle trips by 2025 (Department for Transport, 2015), and could be seen
+as a shorter-term goal. The second scenario, ‘Go Dutch’, modelled the cycling levels that one would expect if English school children
+were as likely as their Dutch counterparts to cycle a trip of a given distance and level of hilliness. This latter scenario was generated
+using evidence from the Netherlands about the potential for a very high proportion of children to cycle to school (58% in the Dutch
+NTS). This could be seen as a longer-term aspiration or ‘vision building’ scenario, in line with the 2040 government aspiration to
+make active travel ‘the natural choice’ for shorter journeys or journey stages (Department for Transport, 2017).
+    One goal of the ‘Go Dutch’ scenario was to estimate the prevalence of cycling to school in England if English children had the same
+propensity to cycle as their Dutch counterparts. (This prevalence estimation was not a goal of the Government Target scenario, since
+in this scenario we pre-specified the prevalence of cycling to double). Additional goals of both scenarios were to model the geographic
+distribution of new cyclists under these scenarios of assumed increased cycling; and to estimate the potential health and emissions
+benefits of the cycling increases.
+    Summaries of the two scenarios are as follows, with a worked example in Box 3 and full details in the Appendix A.
+ • Government Target: this models a doubling of cycling to school across England. This doubling scenario was generated by adding
+     together a) the observed number of cyclists in each OD pair in the 2011 NSC, and b) the modelled number of cyclists, as estimated
+     using the baseline propensity to cycle equations provided in Box 1, and as illustrated in Box 3. The result is that cycling overall
+     doubles at the national level, but at the local level, this growth is not uniform, in absolute or relative terms. For example, areas
+     with many short, flat trips and a below-average current rate of cycling will have fewer observed cyclists than modelled cyclists;
+     therefore, the projected number will be more than double the observed number.
+ •   Go Dutch. This captures what would happen if English school children were as likely as their Dutch counterparts to cycle a trip of
+     a given distance and level of hilliness – i.e. if England had the same infrastructure and cycling culture as the Netherlands but
+     retained its current school travel distances and hilliness. This scenario was generated by taking modelled baseline propensity to
+     cycle (see Box 1) and applying Dutch scaling factors (see additional parameters in Box 2). These scaling factors were calculated
+     through a separate set of analyses of the English and Dutch National Travel Surveys (N = 180,678 trips by 43,406 children), as
+     described in more detail in the Appendix A. A worked example of how scenario levels of cycling were calculated in the Go Dutch
+     scenario is provided in Box 3.
+2.3. Estimation of physical activity and carbon impacts
+    We estimated the impact that each scenario had on children's physical activity energy expenditure from active travel (details in
+the Appendix A). This required us to consider both the scenario increase in cycling, but also the decrease in walking when previous
+pedestrians switched to cycling. We modelled this mode shift from walking to cycling under the assumption that, within a given OD
+pair, all modes were equally likely to be replaced by cycling.
+    To model the increased physical activity energy expenditure for any new cyclist, we estimated the weekly duration of their cycling
+as a function of the route distance (from CycleStreets), the average cycling speed for their age group (from the English NTS), and the
+average number of cycle trips to school per week for their age group (from the English NTS). We then multiplied this weekly duration
+by an age-specific marginal MET value for cycling, as taken from the Youth Compendium of Physical Activities (NCCOR, 2017). A
+worked example is presented in Box 4, with full details given in the Appendix A. A MET or ‘Metabolic Equivalent Task’ is a measure of
+energy expenditure, specifically the ratio of the work metabolic rate to the resting metabolic rate. We converted these MET values
+into marginal METs by subtracting 1, to generate a measure of additional energy expenditure above resting.
+    An equivalent approach was used to estimate the former walking physical activity among children who were modelled as
+switching from walking to cycling to school. The net change in an OD pair was calculated by subtracting the total former walking
+energy expenditure from the total additional cycling energy expenditure. Note that, because cycling uses less energy per kilometre
+than walking, total physical activity energy expenditure could decrease in OD pairs where a very high proportion of children had
+previously walked.
+    For each scenario, we also estimated the reduction in transport carbon emissions from car driving (worked example in Box 4,
+details in the Appendix A). The first step in this was calculating the number of car trips avoided, again assuming that all modes in a
+given OD pair were equally likely to be replaced by cycling. The average number of car driver escort trips per child car trip to school
+was estimated from the English NTS as 1.2. Note that this value is greater than 1 because many parents drive their child to school and
+then make the return trip home, but is less than 2 because some parents drive two or more children to school in the same trip and/or 
+drive to the school and then make a trip for a different purpose. The reduction in carbon emissions was then calculated by multiplying
+each car trip by a) its length and b) by 0.182 kg, the CO2-equivalent emission per kilometre of car driving for an ‘average’ car in 2017
+(DEFRA, 2017).
+2.4. Visualisation and route network generation
+    As for the PCT commuting layer, we generated two forms of output for use by transport academics, policymakers and practitioners. Both are freely available on the PCT website (www.pct.bike). First, we provide data downloads at the national level and
+separately by sub-region. These are available aggregated both by home LSOA and by school, and contain the modelled modal split in
+each scenario plus the physical activity and carbon impacts. These data downloads form the basis for the kind of statistical analyses
+that we present in our Results section.
+    Second, we visualise the results on an online, interactive map. This map summarises the distribution of baseline propensity to
+cycle across a region, while also allowing users to click to see the results for specific zones or schools (illustrated in Fig. 3, left-hand
+side). Users can also select the option to view a route network, which aggregates individual OD pairs to provide an estimate of the
+spatial distribution of cycling to school at the level of the road network (illustrated in Fig. 3, right-hand side: the route network is also
+available as a data download).
+3. Results
+3.1. Modal split in different scenarios at the national level
+    Among children attending English state schools in the National School Census 2011, the median distance travelled to school was
+1.1 km in primary schools and 2.6 km in secondary schools. The proportion of children reporting that cycling was their usual main
+mode of travel to school was 1.8% (1.0% for primary school children, 2.9% for secondary school children). Across other modes, 52%
+of all school children walked to school (60% in primary school, 42% in secondary school) and 25% were driven by car (32% in
+primary school, 16% in secondary school). Table 1 presents these data and also shows the national modal split in our two modelled
+scenarios. For comparison, the equivalent results are also presented for the PCT commuting layer. This commuting layer was based on
+2011 Census in which all working adults in England reported their place of work and their usual, main mode of travel to work – i.e. a
+very similar dataset to the 2011 National Schools Census. The Government Target and Go Dutch scenarios for these PCT commuting
+layer were calculated in an analogous way to their counterparts in the schools layer (Lovelace et al., 2017).
+    Both scenarios show what would happen for each desire line if other modes (walking, driving and other modes) were replaced in
+proportion to their current levels (see Table 1). As in the commuter model (Lovelace et al., 2017), the Government Target scenario
+represents a doubling in the number of trips cycled, reflecting the policy target to double cycling levels nationally (Department for
+Transport, 2017).
+    The Go Dutch scenario, represents what would happen if English school children became as likely to cycle as their Dutch
+counterparts, for a trip of a given distance and hilliness. This would result in a 22-fold increase in the proportion pupils who cycle as
+their usual main mode of travel to school (25-fold increase in primary school, 21-fold increase in secondary school). The equivalent
+Go Dutch scenario for commuting would result in a 6-fold increase. This shows that the disparity in cycling rates between England
+and the Netherlands is considerably larger for travel to school than travel to work.
+    Although Go Dutch is based on Dutch data, it is important to note that the proportion of pupils cycling to school under this
+scenario would not be the same as the proportion who cycle to school in The Netherlands. This is because Go Dutch is based on
+English trip data, in terms of trip distances and hilliness. English trips are considerably hillier. This greater hilliness explains why Go
+Dutch would result in cycling levels of 26% to primary schools and 61% to secondary schools in England (Table 1), lower than Dutch
+levels (45% to primary schools and 77% to secondary schools, respectively).3 On the other hand, the results also indicate that this
+greater hilliness of England is not the main reason why English cycling rates are so far below Dutch rates.
+    In the Go Dutch scenario among secondary school children, the relative decrease in car use is slightly larger than in the
+Government Target scenario or among primary school children. This reflects the fact that the Dutch scaling factors for secondary
+school children included interactions to reflect the fact that the difference in cycling rates between England and the Netherlands is
+larger for longer distances.
+3.2. Health and carbon impacts at the national level
+    Table 2 shows the estimated net change in physical activity energy expenditure from active travel to school across each scenario,
+relative to the baseline situation in the NSC 2011. It also shows the estimated net change in annual car trips and in kilotonnes of CO2-
+equivalent greenhouse gas emissions.
+    In the Government Target scenario, physical activity energy expenditure due to active travel to school would increase relative to
+baseline, but the effect is very small: a 0.3% increase in primary school children, and a 2.8% increase in secondary school children.
+The smaller benefit among primary school children is driven by the facts that:
+ 1. Cycle modal share increased less among primary school children than among secondary school children (1% versus 3% increase:
+    Table 1).
+ 2. A higher proportion of new cyclists previously walked among primary school children than among secondary school children
+    (60% versus 42%: Table 1). As outlined in the methods, children who switch from walking to cycling experience a reduction in
+    active travel physical activity.
+ 3. Trips to primary schools are shorter than trips to secondary schools (median distance 1.1 km vs 2.6 km). This means that less
+    additional physical activity is generated when a child switches from a motorised mode to cycling.
+ 4. The average number of cycling trips per week among children who say that cycling is a usual main mode is lower in primary
+    school than in secondary school (2.3 vs 5.1 trips: see Appendix A).
+    The first, third and fourth of these factors also contribute to the larger total reduction in carbon emissions among secondary
+school children than primary school children (albeit somewhat offset by the higher baseline modal share of driving among primary
+school children). The annual number of car trips avoided each year is likewise larger in secondary school than in primary school
+children.
+    As expected, the gains from the Go Dutch scenario would be substantially larger than the gains in the Government Target
+scenario, by a factor of around 20–25. The active school travel physical activity gains are, however, still relatively modest among
+primary school children (9% increase relative to baseline), albeit more substantial among secondary school children (97% increase
+relative to baseline). To provide further context for the marginal MET values presented, the World Health Organisation recommends
+that children age 5–17 engage in 60 minutes of moderate-to-vigorous physical activity each day (WHO, 2010). This could be estimated as 7*2 = 14 marginal METs (7 days of the week * a value of 2 marginal METs corresponding to the lower threshold for
+moderate physical activity). The average increases presented in Table 2 are only a fraction of this. In the Go Dutch scenario, the
+proportion of children getting at least half their recommended physical activity from active school travel was 6.1% for primary school
+children (increased from 3.6% at baseline) and 40.4% for secondary school children (increased from 13.6% at baseline).
+    Likewise, although the Go Dutch reductions in carbon emissions are substantially higher than in the Government Target scenario,
+they are only around a tenth the size of the corresponding carbon reductions estimated in the PCT commuting layer. To provide
+further context for these changes, overall passenger car transport emissions in England were around 59,100 kilotonnes CO2e in 2016
+(value is taken from, Department for Business Energy & Industrial Strategy, 2018 assuming emissions are proportional to population
+across the countries of the UK). Thus, the Go Dutch schools scenario reduced English transport emissions by around 0.1%, while the
+Go Dutch commuting scenario reduced English transport emissions by around 0.9%.
+3.3. Cycle modal share across scenarios at the local authority level
+    The remainder of this paper focuses on how cycling to school is distributed across different areas. An overview of the geographic
+distribution of the level of cycling to school is illustrated in Fig. 3, which shows the results at the level of Local Authorities (aggregated from the LSOA level data for visualisation) under current (NSC 2011), Government Target and Go Dutch scenarios. (Fig. 4).
+    As described in the methods, modelled baseline propensity to cycle is calculated as a function of route distance and hilliness, and
+is one of the key inputs for both the Government Target and Go Dutch scenarios. Fig. 5 shows the correlation between the observed
+cycle modal share for school travel in the 2011 NSC and the modelled baseline propensity to cycle. For comparison, the equivalent
+figure for commuting is also shown.
+    For school travel, the correlation between observed and modelled cycle modal share is positive and of weak-to-moderate strength
+(Pearson's rho = 0.44, R2 = 0.19, for all schools; rho = 0.32 for primary schools and rho = 0.46 for secondary schools). For
+commuting the pattern is similar but the correlation is somewhat stronger (Pearson's rho = 0.58, R2 = 0.34). This indicates that trip
+distance and hilliness play an important role in determining cycling levels for both types of travel, but this effect is stronger for
+commuting than for school travel.
+    Yet although these results indicate the important contribution of trip distance and hilliness, they also show that there is
+considerable variation in the cycling level achieved with the same modelled propensity. This is indicated by the local authorities that
+lie to the right of the two graphs in Fig. 5, which have an observed level of cycling considerably higher would be expected based on
+what distance and hilliness. In general, those local authorities that have an above-expected observed cycle modal share in the schools
+layer also have an above-expected cycle modal share (rho = 0.75 for the correlation between ‘modelled minus observed’ cycle modal
+share in the school versus commuting layer).
+     Cycle modal share in the Go Dutch scenario positively correlated with observed cycle modal share in the NSC/Census (rho = 0.39
+for the schools layer, rho = 0.66 for the commuting layer), capturing the fact that the scenario continues to expect there to be less
+cycling in those areas where trips are longer and/or hillier than the national average. Importantly, however, the scenario also
+indicates that the absolute levels of cycling have considerable potential to rise in all parts of England. Specifically, as illustrated in
+Fig. 6, in the Go Dutch scenario no local authority has a cycle modal share of less than 16% with respect to school travel, or less than
+7% with respect to commuting. In other words, even the local authorities with the least cycling in a Go Dutch scenario would
+experience a level of cycling that would currently put them in the top 1% of areas for school travel, and the top 7% of areas for
+commuting. Moreover, in both the school and the commuting layer, all local authorities have some potential to increase their cycling
+levels in the Go Dutch scenario. For example, in Cambridge (the English local authority with the highest level of cycling), the cycle
+modal share for travel to school rises from the 30% recorded in the 2011 NSC to 53% in the Go Dutch scenario.
+3.4. Cycle route networks at the local level
+    Finally, it should be noted that the PCT schools layer extends and complements the previous commuting layer by focusing on a
+type of travel with a different spatial distribution. Specifically, the route network for the schools layer typically puts a greater
+emphasis on local trips in residential areas as opposed to arterial routes into city centres (as illustrated for Leeds in Fig. 7). The
+schools layer can therefore help transport planners to consider how best to cater for cycling at the neighbourhood-level, and may
+often provide a more useful proxy than the commuting layer for purposes not currently covered such as adult shopping trips.
+4. Discussion
+    This paper describes the methods used to create a ‘schools layer’ for the Propensity to Cycle Tool (PCT). This included modelling
+different possible future scenarios of cycling uptake, and estimating the associated impacts on active travel physical activity and
+       Fig. 7. Comparison of the Go Dutch scenario route network layer for the PCT schools layer (left) and the commuting layer (right).
+transport-related carbon emissions. We presented results for two scenarios: one in which cycling doubled, and one which children in
+England had the same propensity to cycle to school as children in the Netherlands. We found substantial potential for an increase in
+cycling to school, with a 22-fold difference between the current proportion of children cycling to school (1.8%) and that expected in a
+‘Go Dutch’ scenario (41%). This change is larger than the corresponding 6-fold relative increase estimated for the PCT commuting
+layer, reflecting the fact that cycling to school in England is particularly low relative to its potential. These large changes in cycling to
+school were associated with physical activity and carbon benefits, particularly in secondary school. The magnitude of these benefits
+was reduced, however, by the fact that many English children do currently walk to school, and many trips involved are short.
+4.1. Main study findings
+    Unique features of the PCT are that it is a) a national model that b) provides results down to the small-area and route level via c) a
+freely available, user-friendly online interface with data available to download for the whole country or individual regions (www.pct.
+bike). This makes it well suited to supporting both strategic and local decision-making about cycling investment, including allowing
+scrutiny and input from civil society. This combination of strengths goes beyond what was provided by existing cycling propensity
+models (see Lovelace et al. (2017) for a review) or by previous analyses of travel patterns using the National School Census
+(Singleton, et al., 2014; Easton, et al., 2015). Moreover, previous cycling propensity models have focused either on adults only
+(Parkin et al., 2008; Zhang et al., 2014), or combined individuals of all ages (Larsen et al., 2013; Transport for London, 2017), making
+this the first such model with a specific focus upon children.
+    The PCT advances the evidence available transport planners by showing where children are currently making trips, and where
+they could cycle, down to the desire line level and route segment level. The scenarios provide an easy-to-understand representation of
+what could happen, if cycling grows in a way that accounts for the fundamentals: the number of children along each desire line,
+accounting for the distance and hilliness of the route. At the individual level, distance and hilliness only explain 2–6% of observed
+variance in cycle mode choice for travel to school or work, although this proportion rises at the group level to 19%-34% of variance
+explained at the local authority level. The scenarios are therefore indicative representations of what could happen, rather than
+forecasts.
+    The PCT is primarily designed to provide geographically-detailed information that can inform specific decisions. Nevertheless,
+several of the national-level aggregate results presented in this paper are also of academic and policy interest. As motivators for
+ongoing cycling investment, we have found that every local authority in England has the potential to increase cycling to school and
+cycling to work in a ‘Go Dutch’ scenario, i.e. if local school children and workers became as likely to cycle as their Dutch counterparts.
+Our model also identifies the considerable number of local authorities that currently have cycling levels considerably higher than
+would be expected based on distance and hilliness alone.
+    In terms of the physical activity impacts of increased cycling to school, even in the ambitious ‘Go Dutch’ scenario the modelled
+benefit would only be only moderate in size: average energy expenditure during school travel showed a 9% increase for primary
+school children and a 97% increase for secondary school children. The magnitude of this effect is not larger because, particularly
+during primary school, a) many children who are now cycling in the scenario were previously walking to school (and so actually
+experienced a decrease in total physical activity), and b) many of the motorised trips involved are relatively short. Our results
+therefore indicate that enabling cycling to school would not, for most children, be enough to meet recommended levels of physical
+activity (and in any case, one arguably should not seek to meet the guidelines solely from cycling given that it is also recommended
+that children incorporate some weight-bearing activities to strengthen their bones (WHO, 2010)). Nevertheless, these results do
+suggest cycling to school can form a useful part of a broader multi-faceted approach to achieving that aim (NICE, 2009). Moreover,
+the fact that the physical activity benefits are substantially larger in secondary school children than in primary school children is
+noteworthy, given that children's physical activity declines substantially with age (Cooper et al., 2015; Dumith et al., 2011).
+    The estimated carbon impacts of successfully increasing cycling to school were likewise worthwhile but modest in relation to all
+UK passenger travel. The modelled benefits were also considerably smaller for the school Go Dutch scenario than for the equivalent
+commuting Go Dutch scenario. For school travel, these small effects reflect the facts that a) total emissions from driving to school
+represent well under 1% of all national passenger transport emissions, and b) over 40% the total distance driven to school in the NSC
+comes from trips longer than the maximum distance thresholds we considered plausible for cycling (5 km for primary school children,
+10 km for secondary school children). This final point is relevant in highlighting the way in which education policies promoting
+parental school choice may conflict with sustainable travel policies by increasing the proportion of children travelling by car and the
+distances they travel (Easton and Ferrari, 2015).
+    The comparatively modest physical activity and carbon benefits observed in the schools layer highlight the importance of not
+making active school travel the sole focus of active travel policies or spending. It should also be noted that children are much more
+likely than adults to be perceived as requiring protected cycling facilities (Aldred, 2015). On one hand, this suggests larger investments are needed to enable mass uptake of cycling to school than cycling to work. On the other hand, any infrastructure that does
+successfully increase levels of cycling to school will contribute towards creating an inclusive, all-ability cycling environment. Furthermore, it is possible that there are long-term benefits of ‘starting young’: if children who start cycling to school will tend also to
+cycle the future, as adults, this would increase incentives to invest in safe routes to school, and other interventions that enable cycling
+to school. Such policy considerations suggest future directions of investment.
+4.2. Limitations
+    The paper has demonstrated that, despite concerns about the usefulness of the NSC travel data, ‘usual, main mode of travel to
+school’ measured in the winter term is likely to be a good proxy for travel to school in general. More broadly it has shown that models
+can be developed to show ambitious scenarios of change, rather than the incremental shifts often represented in transport models.
+This approach has a number of limitations, however, outlined in this section.
+    The approach is partly limited by the input dataset: the most recent NSC dataset is from 2011, so omits recent changes in school
+locations and travel patterns. Second, the dataset omits the 7.1% of pupils attending independent schools. Third, and most important,
+travel to school is just one small part of total child travel, accounting for only 35% of children's trips and only 10% of children's car
+kilometres in the NTS 2010–2016. We thus expect estimated physical activity and carbon impacts would be substantially larger if
+policy succeeded in increasing levels of cycling among children across all journey purposes. If cycling to school were promoted as part
+of an overall active transport program, as the evidence suggests it should be, the benefits estimated in the paper are likely to underestimate the benefits of mode shift.
+    There are limitations to our modelling approach, which reflects the PCT's aim of supporting a wide range of stakeholders to
+develop strategic cycle plan. This motivation of the model differs from much previous research into mode shift where achieving a
+good model fit and identifying of causal factors is the aim. Our focus is instead on variables (hilliness and distance) that are relatively
+static in their effects, rather than additional variables such as the quality of the existing road infrastructure that are potentially more
+complex and also more amenable to intervention. We have also focused on modelling scenario impacts in a way that is simple to
+understand, but this means that our assumptions may not be appropriate for all interventions. For example, we have assumed that for
+a given route, children using all modes of transport are equally likely to switch to cycling. The true mode-specific switching probabilities will, however, likely depend on the nature of the intervention in question. Policies enabling cycling while discouraging
+driving, for example, might plausibly have a disproportionately large affect the probability of car trips being replaced by cycling.
+Further work, perhaps using locally-specific data, would be needed to forecast cycling uptake, and ‘replacement ratios’ (the number
+of additional cycle trips that replace a single car trip) resulting from specific interventions (Lovelace et al., 2011).
+    We fully acknowledge that many other variables affect cycling. The route network results provided by the PCT (see Fig. 7) can
+help identify local barriers, many of which (such as road surface quality, attitudes of parents and political capital invested in active
+travel to school) are hard to quantify and model. That is not to say that such factors can never be included, simply that their
+measurement on a national scale down to the desire line level requires further work. In addition, our focus on a ‘back-casting’
+approach highlights the potential benefit of complementing the PCT with other tools and approaches that can provide forecasts of
+cycling uptake resulting from specific interventions (e.g. new cycle paths, restrictions on parking around school entrances, new cycle
+parking facilities and training). Such analyses might often be more robust at the local, as opposed to the national level, and could help
+prioritise investment in cycling interventions. Such a forecasting approach requires a large evidence-base, suggesting post-study
+monitoring to calibrate models of cycling uptake could be a promising avenue of future research.
+    A further limitation to our modelling approach relates to the use of zone centroids. This is standard practice in regional and
+national transport models, but has the limitation of representing all trips in an LSOA as originating in a single start point. This could
+be addressed in future work by adding additional “centroid connectors” to housing estates and other residential areas in each LSOA,
+although that would entail substantial methodological and computational work (Jafari et al., 2015). In addition, when estimating
+carbon emissions per car kilometre travelled, we used the estimated national average. A more sophisticated approach has previously
+been used (Singleton, 2014) in which emissions per car kilometre were estimated at the level of the LSOA, based on a car fleet
+composition dataset to which we did not have access. Using this approach, geographic variation in small-area emissions generally
+ranged from -5% to +15% relative to the national average. Above-average emissions were found in areas surrounding large cities
+such as London, Manchester and Birmingham, and our model may therefore, have underestimated the carbon benefits in these areas.
+    Our impact modelling approach is limited in scope, with notable omissions including potential benefits for local congestion, air
+pollution and noise pollution. We hope to add at least some of these pathways to future versions of the PCT and in the meantime
+recognise that our estimates of the benefits of increased cycling school are likely to be conservative. There are more qualitative
+potential benefits of increasing cycling to school, including an increased opportunity for older children to engage in independent
+mobility and the creation of active travel habits that may feed forward throughout the school years (Falconer et al., 2015) and
+potentially into adult life (Jones et al., 2014). Another limitation of the work is that it does not identify specific interventions to
+encourage cycling to school. This is deliberate: rather than provide prescriptive solutions, the PCT is designed to inform decisions,
+based on the evidence. Scenarios of cycling infrastructure change are are, however, included in a related tool, the Cycling Infrastructure Prioritisation Tool (CyIPT, see http://www.cyipt.bike). A potential avenue of future work that addresses this limitation
+would be to integrate the approaches of the two tools.
+4.3. Conclusion
+     The Propensity to Cycle Tool provides an open-source, freely accessible evidence base that can facilitate planning and prioritisation in cycling investment. The PCT was, however, initially based only on commuter data. The new PCT schools layer provides a
+vision for what may be possible in terms of active school travel, and can inform the details of how strategies such as ‘Safe Routes to
+School’ are implemented. If English children had the same propensity to cycle as Dutch children, the model shows that the increase in
+cycling to school could be substantial, with moderate but worthwhile associated benefits for physical activity and carbon emissions.
+When combined with political will, adequate investment, and expert local judgement, new tools such as the PCT can help schools,
+planners and communities take informed action to realise these benefits.
