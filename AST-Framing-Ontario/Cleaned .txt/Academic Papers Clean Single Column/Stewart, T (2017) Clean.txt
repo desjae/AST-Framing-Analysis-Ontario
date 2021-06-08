@@ -1,0 +1,273 @@
+Adolescent school travel: Is online mapping a practical
+alternative to GPS-assessed travel routes?
+abstract
+Background: Geographically accurate travel routes are necessary to estimate exposure tothe environment and its potential influence on travel behaviour. Although assessing travel
+behaviours with Global Positioning System (GPS) receivers is increasingly common, these protocols place noticeable burden on participants and processing these data is time
+consuming and error-prone. Interactive online mapping surveys allow users to draw their
+own travel routes, and may offer a time and cost-effective alternative; however, these
+routes are still self-reported, and their true accuracy remains unknown.Methods: A total of 196 adolescents drew their usual route to school within an onlinemapping survey and wore a GPS receiver for 7 days. Individual home-to-school routeswere extracted from GPS data. Generalized linear mixed models were used to assessdifferences in distance and spatial agreement between routes, and how these varied bymode of travel and other route characteristics.Results: GPS-assessed routes were longer than the routes participants drew across alltravel modes. Routes travelled actively displayed 12.32% higher agreement compared tothose travelled passively (p o 0.01). Taking multiple routes to school (29.9% of participants) reduced the agreement by 10.76% (p o 0.01). Every additional travel mode transition (e.g., during multimodal trips) was associated with 2.20% lower agreement (p o0.01). In total, 40.7% of participants used more than one travel mode to school over theassessment period.Conclusions: Online mapping surveys are a feasible method for route assessment inadolescents, particularly for active travel routes. With the integration of survey questions,there is considerable potential for understanding the intricacies of travel behaviours.However, the self-reporting error seems more pronounced for longer routes, and whenmultiple travel modes are used. Researchers should consider the advantages (e.g., ease ofcollection) and disadvantages (e.g., lack of temporal information) when deciding if thedata obtainable are sufficient to answer their research questions.
+ 
+1. Introduction
+    Regular physical activity is important for maintaining health and wellbeing (World Health Organization, 2010), and
+engaging in active transportation (commuting via walking or cycling) is an effective means for accumulating physical activity over the course of a day (Faulkner et al., 2009). In young people, active transportation is also important for other
+aspects of health and development, such as improved navigational skills (Tranter and Whitelegg, 1994), the ability to
+evaluate and manage risk (Hillman, 2006), and a higher sense of belonging through interaction with people and their local
+community surroundings (Chaix, 2009; Proshansky and Fabian, 1987). Despite this, the mode share of active travel school
+trips has been steadily declining (McDonald, 2007), and evidence suggests that built environment factors such as pedestrian
+infrastructure, traffic volume, and perceived pedestrian safety may be related to travel decisions (Ewing and Cervero, 2010;
+Giles-Corti et al., 2009). As such, previous research has attempted to link mode of travel with environmental characteristics
+along travel routes (Larsen et al., 2012; Panter et al., 2010; Schlossberg et al., 2006). Quantifying actual travel routes is
+important, as theorised influences on travel behaviour can be misclassified when predicted routes are used (Badland et al.,
+2010; Harrison et al., 2014). These discrepancies could misguide planning or policy interventions by targeting environmental
+factors that have no influence on school travel decisions (Larsen et al., 2015).
+    The use of geographic information system (GIS) software to calculate the shortest possible route has been common in
+previous physical activity and travel studies due to the ease of its computation (Larsen et al., 2012; Panter et al., 2010;
+Schlossberg et al., 2006). However, the use of Global Positioning System (GPS) receivers to assess travel patterns is becoming
+more prominent because of their objectivity and spatial accuracy. Previous research has illustrated that the degree of spatial
+agreement between the shortest route and GPS-derived travel routes can vary substantially, and the deviation from the
+shortest route may be related to the presence or absence of shops and services, traffic volume, and other environmental
+features (Dalton et al., 2014; Duncan and Mummery, 2007; Harrison et al., 2014). Although it is becoming easier to derive
+travel information from GPS data (Ellis et al., 2014; Jankowska et al., 2015; Klinker et al., 2015) there are still practical
+problems associated with GPS data collection; namely cost, participant burden, signal degradation, battery life, non-compliance,and memory limitations (Kerr et al., 2011).
+    Interactive online mapping applications are another emerging method for collecting spatial information. These techniques enable users to report information geographically, and have been designed to allow non-experts to use their local
+knowledge and experiences to inform urban planning and decision-making processes (Kyttä et al., 2013). Internet-delivered
+mapping systems have received increased attention, particularly due to the widespread utilisation and integration of Google
+Maps technology (Tulloch, 2007). Although printed paper maps have been used to collect route information previously
+(Larsen et al., 2015; Schantz and Stigell, 2009; Stigell and Schantz, 2011), online mapping techniques offer several advantages as recall may be stimulated through map interaction (e.g., controlling zoom or overlaying satellite imagery). Both
+children and adults have used online mapping applications to draw their travel routes to destinations (Broberg and Sarjala,
+2015; Chaix et al., 2012).
+    These techniques may provide a cost-effective alternative to GPS-based route assessment, as information can be collected
+in a quick and efficient manner, and researchers can avoid the collection and processing problems associated with GPS data.
+There is also considerable potential for integrating survey questions to capture perceptions or preferences about travel
+routes, which has been recommended to help unravel to the complexities of travel decisions (Papinski et al., 2009). Although routes drawn by participants have a high possibility of being representative of actual routes travelled, they are still
+self-reported, and hence the true accuracy of these routes remains uncertain. The aims of this study were (1) to assess the
+spatial agreement between GPS-assessed routes to school and those drawn by participants within an online mapping
+survey, and (2) to determine if spatial incongruency (if any) is related to mode of travel and other route characteristics.
+2. Methods
+2.1. Participants
+    A total of 196 adolescents (12–18 years old) participated in this study. All participants were part of a larger sample
+recruited for the Built Environment and Adolescent New Zealanders (BEANZ) study: a cross-sectional study exploring the
+links between the built environment and health in New Zealand adolescents. The BEANZ recruitment procedures are described in more detail elsewhere (Hinckson et al., 2014). The subsample used in this study consisted of approximately 30
+participants from each of seven schools situated throughout Auckland and Wellington cities, located on the North Island of
+New Zealand. Ethical approval was granted by the Auckland University of Technology Ethics Committee. Written informed
+consent was obtained from each parent and assent from each student prior to participation.
+2.2. Instruments
+2.2.1. VERITAS
+    The online mapping application used in this study was VERITAS (Visualisation and Evaluation of Route Itineraries, Travel
+destinations and Activity Spaces), a web-based interactive mapping survey which integrates Google Maps with physical
+        Fig. 1. An example route drawn in the VERITAS online mapping interface. Note: These data are fictional to protect participant privacy.
+activity and travel questions. VERITAS-BEANZ was designed specifically for the BEANZ study, and its development is described in detail elsewhere (Stewart et al., 2015). Briefly, VERITAS-BEANZ was conceived by translating VERITAS-RECORD
+(Chaix et al., 2012) from French to English, and modifying it for use with an adolescent sample by incorporating elements of
+the NEWS-Y (Rosenberg et al., 2009) questionnaire. Embedded mapping tools allow participants to plot points, draw lines
+and polygons that represent destinations, travel routes and spaces, respectively. Additional information about each of these
+mapped features can be collected, such as travel companions, mode of travel, or frequency of visits. Routes are created by
+placing a series of points on the map, which are visually connected with a line (see Fig. 1). If a participant makes a mistake,
+there is an undo button which removes the last point that was placed. Routes are editable by clicking a previously placed
+point, and dragging it to a new location. Standard Google Maps functionality enables the user to zoom in or out, make use of
+Google Street View, and set the base map as either a simple road map, satellite imagery, a terrain map, or a hybrid of the
+above.
+2.2.2. GPS receiver
+    Each participant was fitted with a QStarz BT-Q1000XT GPS receiver. This commercially available device is one of the most
+widely used in the field, and has shown high accuracy when assessing several modes of transportation in varying en-
+vironmental conditions (Schipperijn et al., 2014). The device was initialised to record at a 15-s epoch using QTravel (v1.46,
+Taipei, Taiwan). In addition to recording positional information (latitude and longitude), the signal-to-noise ratio (SNR) was
+recorded to assist with the automated data cleaning process (see Section 2.4.2).
+2.3. Procedure
+    Data collection for the BEANZ study took place between June 2013 and September 2014. Trained research assistants
+supervised each participant when completing VERITAS on a laptop computer, and provided assistance if needed. Participants were asked to locate their home, and plot their usual travel route to school. They were then asked who their usual
+travel companions on the school journey were, and whether this was the only route they took to school. Answers and map
+data were saved to a dedicated server during and at the completion of the survey. Participants were then fitted with the GPS
+receiver, which was placed in a small pouch and attached to their waist via an elastic belt. An Actigraph GT3X accelerometer
+(Actigraph, Pensacola, FL) was placed alongside the GPS receiver to calculate device wear time (Oliver et al., 2011). Each
+participant was taught how to wear the equipment and how to charge the GPS receiver before they went to sleep each
+night. Eight days later, the equipment was collected from the school, and each participant received a shopping mall voucher
+to thank them for participating.
+2.4. Data reduction
+2.4.1. VERITAS route
+    VERITAS survey data were downloaded from our server and imported into ArcGIS 10.2.1 (ESRI, Redlands, CA, USA).
+Home-to-school routes were generated using the point-to-line tool, and were visually inspected for errors.
+2.4.2. GPS routes
+2.4.2.1. PALMS. Raw GPS and accelerometer data were processed using the Personal Activity Location Measurement System
+(PALMS; https://ucsd-palms-project.wikispaces.com). PALMS is a web-based application developed by researchers at the
+University of California, San Diego, and is designed to clean and merge multiple timestamped data streams (e.g., GPS,
+accelerometer and heart rate data). Invalid GPS points were identified based on large, rapid changes in speed and elevation,
+and were replaced by imputing coordinates of the last known valid fix. Using a set of classification algorithms, individual
+trips were identified based on a set of user-defined criteria; sequential fixes accumulated over a period of at least 2 min that
+spanned at least 100 m. Pauses of up to 3 min were permitted to account for routine stoppages during the trip (e.g., traffic
+lights, road crossings). Device wear time was calculated by removing all periods where the accelerometer recorded zero
+counts for at least 60 min, as recommended by previous research (Oliver et al., 2011).
+    Each GPS point was categorised as indoors or outdoors based on the signal-to-noise ratio. All points with a SNR of less
+than 225 were considered indoor points, and these were removed from the beginning and end of all trips. Each trip trajectory was assigned the appropriate mode of travel based on speed; minimum speeds were 35 km/h for vehicle, 10 km/h
+for bicycle, and 1 km/h for walking, where the 90th percentile of speeds along the trip were considered. PALMS trip detection and mode of travel estimation has been shown to have reasonably high accuracy when using these parameters
+(Carlson et al., 2014).
+2.4.2.2. PostgreSQL. A custom-designed PostgreSQL (http://www.postgresql.org) database that utilised the PostGIS extension
+(http://postgis.net) was employed to automatically recognise and extract individual home-to-school trips from the cleaned
+GPS data retrieved from PALMS. Firstly, multimodal trips were built from PALMS output data by checking if two sequential
+trips met a spatial and temporal criterion: (1) the start point of the trip was within 200 m of the end point of the previous
+trip, and (2) the start time of the trip was within 10 min of the previous trip's end time. Segments that were identified as
+being part of the same trip were then merged into a new trip trajectory (e.g., a public transit trip could contain walk-vehicle-walk segments). The number of segments that made up a trip was preserved as an attribute. Secondly, a 50 m Euclidean
+buffer of each participant's home point, and a boundary of each schoolyard digitised in ArcGIS were added to the database.
+Lastly, spatial queries were used to extract trips that started inside the home buffer and ended inside the schoolyard
+polygon.
+    All trips that consisted of walking or cycling segments were categorised as active travel trips, whereas those that only
+consisted of vehicle segments were categorised as passive travel trips. All trips that had a mixture of vehicle and walking or
+cycling segments (such as using public transit) were categorised as mixed travel. This approach was taken knowing the
+importance of public transit use on physical activity and body size (Flint et al., 2014), and to allow the detection of school
+trips with pauses longer than the 3 min (i.e., waiting at a bus station). Walking and cycling were not separated as less than
+4% of total trips were by bicycle.
+2.4.3. Calculation of spatial agreement
+    Within the PostgreSQL database, a function was developed to estimate the percentage of spatial agreement between two
+routes. A 50 m buffer was applied to each VERITAS route, and the percentage of each GPS route that fell inside this buffer
+was calculated using a spatial intersection (see Fig. 2). The distance of 50 m was selected to account for road width, GPS
+signal inaccuracies, and to encompass the footpath on both sides of the road. A 50 m buffer has been used successfully in
+previous route comparison studies (Dalton et al., 2014; Harrison et al., 2014).
+2.4.4. Calculation of route characteristics
+    Street centreline data obtained from Land Information New Zealand (LINZ; www.linz.govt.nz) was used to identify road
+hierarchy. Roads were categorised as either residential roads, collector roads, arterial roads, principal or major highways.
+The percentage of each route which fell on residential roads was computed in ArcGIS as a proxy for low traffic volume and
+speed. Route elevation was calculated from topographic isolines using the Path Slope tool, which is part of the ArcGIS
+Military Analyst toolbox. Each route polyline was split into a number of segments and the slope of each segment was
+calculated. A slope of 5% is a common threshold in cycle path planning policy (Nichols and Veith, 2009), and has been used
+in cycling behaviour research (Madsen, 2013; Winters et al., 2010, 2016). In theory, people may be more tolerant to a 5%
+slope while walking compared to cycling, especially in a city such as Auckland, so the percentage of the route which fell on a
+slope of less than 8% (equivalent to a 4.57° incline, or a rise-to-run ratio of 1:12.5) was calculated. Two binary variables were
+created from additional VERITAS route information: if they normally travelled to school with their friends, and if the route
+they drew was the only route they took to school. The proportion of each route that did not fall on a road (i.e., outside a 50 m
+buffer of the street centreline) was also calculated.
+2.5. Statistical analysis
+    Data were initially checked for normality, which revealed all variables were not normally distributed. As such, descriptive
+statistics in the form of the median and interquartile range were computed. Differences between VERITAS and GPS route
+characteristics were tested using Wilcoxon signed-rank tests, and Kruskal–Wallis H tests (with Dunn–Bonferroni post-hoc
+comparisons) were used to assess differences between the three travel modes. A series of three-level generalized linear
+mixed models using the identity link were developed to assess which route characteristics predicted the degree of spatial
+agreement, and the difference in distance, between the VERITAS and GPS routes. This approach was taken to account for the
+clustering of routes within individuals within schools (Cerin, 2011). Routes formed the repeated measure, and school*person
+was added as a 2-way random effect with unstructured covariance. A correlation matrix of all potential predictor variables
+was generated to test multicollinearity before inclusion into the model (Kaplan, 1994). None of the following variables were
+highly correlated, and were therefore taken forward to model building as fixed effects: route distance, mode of travel,
+number of GPS trip segments, percentage of the GPS route that fell off-road, and whether they took multiple routes to
+school. Model fit was assessed using Bayesian Information Criterion. Pairwise comparisons for categorical factors (i.e., mode
+of travel) were assessed using the sequential Bonferroni adjustment while holding the means of continuous data constant.
+Significance was set at p o 0.05, and all analyses were conducted using IBM SPSS Statistics v23 (IBM Cooperation, USA).
+3. Results
+    In total, 191 participants provided GPS data, with 12,083 individual trips (inclusive of multimodal trips) detected over the
+seven-day measurement period. Of these, 167 participants (101 male) had at least one home-to-school trip that was automatically recognised, with 595 individual home-to-school trips recognised in total (an average of 3.56 home-to-school
+trips per person). There were no differences in age, VERITAS route distance or gender between included participants and
+those with no home-to-school trips (assessed via independent-samples t-test or chi-square where appropriate). However,
+the number of weekdays with at least 10 h of device wear time was higher for included participants (3.65, SD ¼ 1.16)
+compared to those who were excluded (2.0, SD ¼ 2.4; p o 0.01). The mean (SD) age of included participants was 14.99
+(1.25) years.
+    Overall, 259 school trips were categorised as active travel, 68 as passive travel, and 242 as mixed travel; 25 home-to-school trips were excluded because they did not occur on weekdays. Interestingly, 99 participants (59.3%) used the same
+mode of travel for all of their school trips, while 58 (34.7%) used two different modes, and 10 (6%) used all three. Similarly,
+50 participants (29.9%) reported they took more than one route to school during the VERITAS survey. The median school
+travel time assessed by the GPS was 22.8 min, and differed significantly by travel mode, with 20.5, 9.3, and 27.5 min for
+active, passive and mixed travel, respectively (all pairwise contrasts p o 0.01).
+    Table 1 presents the differences in route characteristics categorised by route assessment method and travel mode. The
+median GPS route distance was slightly longer than the VERITAS route distance, which persisted for all travel modes. The
+share of the route that fell on a slope of less than 8% also differed between GPS and VERITAS for active travel, but not for
+passive or mixed travel routes. A larger proportion of the GPS routes fell off-road for all travel modes, and overall. The
+median proportion of the GPS routes that fell on residential roads was similar to VERITAS routes for active and passive travel,
+but differed for mixed travel.
+    Table 2 shows the best fit generalized linear mixed model for the predictors of difference in distance between the
+VERITAS and GPS routes. An active travel mode (as opposed to a passive travel mode) was associated with a 16.19% lower
+difference in distance from the GPS route (p ¼ 0.05). For every additional 1% of the GPS route that fell off-road, the difference in distance increased by 0.84% (p o 0.01).
+    Table 3 presents the route characteristics which predicted the degree of spatial agreement between the GPS and VERITAS
+routes. Routes travelled actively displayed 12.32% higher agreement between the GPS and VERITAS routes relative to passive
+travel routes (p o 0.01). Reporting that the route drawn in VERITAS was the only route they took was associated with
+10.76% higher agreement (p o 0.01). Every additional GPS trip segment reduced the agreement by 2.20% (p o 0.01). The
+estimated marginal means and pairwise contrasts from the model in Table 3 were computed (i.e., adjusted for route distance, the number of GPS segments, and taking multiple routes to school). The adjusted percentage of spatial agreement was
+highest for active travel (75.52%; 95% CI ¼ 70.86, 80.17). This was significantly greater than both passive (62.66%; 56.23,
+69.10), and mixed (64.24%; 59.65, 68.83) travel modes (both pairwise contrasts p o 0.01).
+4. Discussion
+    In this study we compared GPS-assessed routes to school with a route participants drew within an online mapping
+survey. To our knowledge, this is the first study which examines the comparability of GPS-assessed school routes with those
+drawn using an interactive online map. Our results demonstrate that GPS-assessed routes were longer than the routes
+participants drew, and the level of spatial agreement between these routes varied by travel mode and other route characteristics. We will discuss the potential reasons for these findings, before addressing the practical considerations of both of
+these route assessment techniques.
+    The accrual of small positional errors during GPS assessment possibly contributed to longer GPS route distances, which
+were more pronounced for mixed and passive travel modes as these routes were generally longer. This is somewhat reinforced by the proportion of each route that fell off-road: 18.3% of the GPS routes fell off-road, which is more than double
+that of the VERITAS routes (7.1%). These figures are much higher than previously reported (Harrison et al., 2014), and may be
+explained by the lower GPS receiver sampling frequency utilised in the present study (15 versus 10 s), our use of multimodal
+trips, or differences in road and path network data (i.e., lack of pedestrian paths in our road dataset).
+    Participants appeared to intuitively follow street centrelines when drawing routes in VERITAS, meaning there was less
+chance of the VERITAS routes falling off-road, but this may have caused additional distance to be ignored (such as when
+crossing roads). Similarly, GPS trips with a higher number of segments (and therefore a higher number of travel mode
+transitions) reduced the agreement between routes. It is likely that more distance was accumulated by the GPS receiver at
+travel mode transition points, such as public transit stations or parking lots, that was not captured when the VERITAS route
+was drawn.
+    Routes travelled actively reduced the difference in distance between the GPS and VERITAS routes by 16.2%, and improved
+the spatial agreement by 12.3% relative to passive travel modes. When people travel actively, they engage with their environment with a higher degree of intimacy, thus increasing their familiarity with local surroundings. It is possible that
+experiential knowledge gained from travelling actively translates into improved recognition of map features, such as
+buildings or groups of trees, which makes it easier to plot routes with a higher level of accuracy (Thorndyke and Hayes-Roth,
+1982). It was apparent that plotting long routes with a high degree of precision could become tedious, as a small number of
+participants who lived far away from school (i.e., 10 þ km) tended to ‘cut corners’ when plotting their route by reducing the
+zoom level on the map. This was most evident on highways where subtle road curvatures are depicted as straighter lines
+when the map is zoomed out.
+    It is of particular interest that 40.7% of participants did not use the same travel mode across all school trips, and 29.9%
+reported taking multiple routes to school. Unsurprisingly, reporting taking only one school route was associated with 10.8%
+higher spatial agreement. In physical activity studies, it has been common to assess ‘usual’ travel mode and use a single
+school route to assess travel patterns and the relationship between mode choice and various environmental features (Larsen
+et al., 2015, 2012; Panter et al., 2011, 2010; Pont et al., 2009; Schlossberg et al., 2006). Our results demonstrate this likely
+trivialises the complex nature of travel behaviours; in fact, participants who have a mixture of active and passive travel days
+are particularly important, because it means they live at a distance where active travel is possible, but they only travel
+actively on occasion. A person's decision to use a different travel mode or take a different route to school can be dictated by
+many factors (e.g., weather, intermediary stops, availability of a parental car or travel companions), and identifying and
+understanding these will help to clarify the intricacies of travel decisions.
+4.1. Practical considerations
+    Online mapping has both advantages and disadvantages over GPS-based route assessment. Online mapping simplifies
+data processing because the raw data are already in the form of individual routes, and they do not need to be extracted from
+a larger dataset; a time consuming and error-prone process even with the correct tools and expertise. Manual trip extraction
+from GPS data has limited participant retention in a previous study (Dalton et al., 2014); however, our automated approach
+also resulted in the loss of some school trips (see Section 4.2). While our trip recognition algorithms could be improved, this
+does demonstrate the difficulties of extracting precise route information from GPS data. Participant burden may also be
+reduced, as spending 30 s drawing a route is much less arduous than wearing and charging a GPS receiver, and has a lower
+chance of data loss.
+    Nonetheless, an inherent limitation of online mapping is the lack of temporal information. This means it is not possible to
+objectively assess travel time, or match other timestamped data (such as accelerometer or heart rate data) to extract
+physical activity information along the route. Besides route assessment, GPS receivers allow researchers to evaluate health
+behaviours across time and place, and answer more specific research questions, such as how time spent in greenspace
+affects health (Ward et al., 2016). Although these data offer detailed information about where and when, they provide less
+information about why particular behaviours occur (Chaix et al., 2013). Conversely, interactive mapping protocols help to
+stimulate recall, and encourage participants to provide detailed personal-level information about their interaction with their
+environment, such as their likes, dislikes, perceptions and preferences (Kahila and Kyttä, 2009). This type of ‘geocoded
+knowledge’ can be useful for urban planners when creating safe and user-friendly environments (Kyttä et al., 2013).
+    Considering that online mapping techniques are designed for people who may not be familiar with web-based mapping
+services, the design of the software is important to aid ease of use and information transfer. While VERITAS-BEANZ was
+developed for use in adolescents, previous online mapping surveys have been designed specifically for younger children
+(Kyttä et al., 2012). During the BEANZ study, we noted the ability to control zoom and overlay satellite imagery assisted
+participants with identifying locations as they were able to recognise familiar landmarks (Stewart et al., 2015). The ease of
+editing routes is important to save participants time and maximise the accuracy of reported information, especially for those
+who may not be accustomed to reading maps. We found the presence of the undo button useful in cases where participants
+accidently overshot a road or path they intended to turn down, as they were able to easily remove and replace the last point
+in the path. One feature not implemented in the current version of VERITAS is the ‘snap to roads’ feature present in the
+Google Maps API (see http://developers.google.com/maps/documentation/roads/snap). As alluded to previously, there is
+more room for error when longer routes are drawn, but the snap to roads feature could potentially overcome this issue,
+especially if bicycle and pedestrian path data are available. Although the ability to toggle this feature is necessary as not all
+travel routes follow roads.
+4.2. Limitations
+    Firstly, a total of 595 trips to school were extracted using our automated approach, much less than the possible 955
+school trips from 191 participants over five school days. There are a number of reasons why home-to-school trips did not get
+recognised. If the trip did not start within 50 m of the home (due to GPS problems or otherwise), or the trip contained
+intermediary stops longer than 10 min (the threshold set for combining trip segments), the trip would have been omitted.
+Compliance with monitor-wear protocols is a known issue in field-based research (Howie and Straker, 2016) and our wear
+time results demonstrate that some participants did not wear the GPS receiver for all days in the assessment period.
+    Secondly, our classification of mixed travel did not take into account the number of ‘active’ and ‘passive’ segments, and
+the length and duration of these segments. It is possible that the majority of a trip was passive, but was classed as mixed
+travel (e.g., getting dropped off 100 m from the school boundary after a 5 km vehicle trip) or vice versa, and may be a reason
+our models showed non-significant differences between mixed and passive travel modes. The classification of multimodal
+trips is an area which has received relatively little attention. Perhaps a stricter set of criteria are needed to determine if a trip
+should be classified as multimodal.
+    Finally, GPS is sometimes referred to as the gold standard for route assessment, but its accuracy is still subject to environmental conditions (Duncan et al., 2013; Schipperijn et al., 2014). These positional errors, however slight, may have
+affected the agreement between routes.
+5. Conclusions
+    This study evaluated the comparability of two different techniques for assessing school travel routes in adolescents. We
+demonstrated that school routes assessed via portable GPS receiver were longer than routes drawn within an online  
+mapping survey, and the spatial agreement between these routes was significantly higher when active travel modes were
+utilised. While cumulative GPS positional error may have contributed to some of these discrepancies (particularly for longer
+routes), we found that travel mode transitions (such as during public transit) and taking multiple routes to school also
+explained some of the variation between routes.
+     Although GPS receivers provide valuable information about time and place, these data cannot be used to determine why
+certain behaviours occur; information that interactive online mapping surveys are able to capture. If researchers are interested in the full spatiotemporal patterns of travel behaviours, then the use of GPS receivers is warranted. However, online
+mapping surveys may be more useful for understanding the intricate reasons behind travel decisions, or exploring travel in a
+localised area. Researchers will have to weigh up the advantages and disadvantages of each approach, and decide if the data
+obtainable are suitable for their study design and sufficient to answer their research questions.

@@ -1,0 +1,325 @@
+An examination of children’s school travel: A focus on active travel
+and parental e<U+FB00>ects
+ABSTRACT
+Concerns regarding children’s health and physical activity levels have prompted a growing interest in understanding the school mode choice decision. Walking and biking to school can help
+school-age children achieve recommended daily physical activity levels. The growing literature
+in this area has provided valuable insights but has often failed to adequately consider the in<U+FB02>uence of parents on children’s decision making. This study aims to provide additional insights
+by examining the school mode choice with a focus on active travel and the role of parentale<U+FB00>ects. A multinomial logit model was estimated for children’s school mode choice using the2009 National Household Travel Survey with the add-on sample for Texas. A comprehensive setof variables, including individual and household characteristics, built and travel environmentmeasures, and parental characteristics and attitudes, were found to be in<U+FB02>uential on the decisionof active travel to school. Although the focus of this study is on children’s school mode, a modelexamining parent’s active travel was also estimated to provide a picture of parents and their ownactive travel decisions through a Poisson count regression model for the parents’ non-motorizedtravel frequency (weekly). Findings strongly suggested that mothers’ concerns regarding tra<U+FB03>cconditions in the neighborhood can discourage children’s active mode use. In contrast, fathers’work <U+FB02>exibility seemed to facilitate more non-motorized school travel. Similarly, many factorswere important in determining non-motorized trip frequency. A <U+FB02>exible work environment,particularly for the mothers, was observed to increase the overall trip frequency of parents. Theresults from this study corroborate the <U+FB01>ndings from several earlier studies while also indicatingnew factors not previously identi<U+FB01>ed. The work done in this study can be extended in severaldirections. One particularly interesting avenue of future research is to model the two decisions ina joint model to identify the causal direction while accounting for unobserved factors.
+1. Introduction
+     Between 2003 and 2004, fewer than half of U.S. children aged 6–11, and just 8 percent between the ages of 12 and 15, met
+recommended physical activity guidelines (Troiano et al., 2008). These <U+FB01>gures are especially worrisome given that nearly one-third
+of children living in the United States are either overweight or obese (Ogden et al., 2014).
+     Concerns regarding children’s health and physical activity levels have prompted a growing interest in understanding the school
+mode choice decision. Most research has found that children who walk or bike to school tend to be more physically active overall
+(Alexander et al., 2005; Cooper et al., 2005; Faulkner et al., 2009), even when discounting the school commute itself (Roth et al.,
+2012). While it is unclear whether or not the relationship between active travel to school and physical activity is causal, encouraging
+walking or bicycling to school may help children reach recommended levels of daily physical activity. Shifting vehicle trips to active
+modes could additionally ease congestion and create a safer, more walkable environment. During the morning weekday peak period,
+trips to school by private vehicles account for over 10 percent of all vehicle trips made in the United States (National Center for Safe
+Routes to School, 1969).
+     Active travel to school was once a common occurrence but has become rarer over time. In 1969, nearly half of K–8 students
+primarily walked or biked to school in the United States, but by 2009, this share had fallen to 13 percent (National Center for Safe
+Routes to School, 1969). This decline in active travel to school can only partially be explained by rising commute distances, suggesting that other factors are at play. Understanding what these factors are and how they in<U+FB02>uence the school travel decision will
+ultimately allow for the implementation of more informed policy measures encouraging active travel modes and reducing vehicle
+trips to school.
+     While a number of studies have examined children’s active travel, it is important to identify the determinants of active modes
+speci<U+FB01>cally for the school commute because they may di<U+FB00>er from those in<U+FB02>uencing active travel for other purposes (Steinbach et al.,
+2012). The growing literature in this area has provided valuable insights into the school mode choice decision but has often failed to
+adequately consider the in<U+FB02>uence of parents, whose travel decisions are typically intertwined with those of their children. The same
+e<U+FB00>ect might also exist for parents’ travel regarding the in<U+FB02>uence of children (Vovsha and Petersen, 1921). In addition, attitudes and
+lifestyle-related factors are typically not captured by analysts in household surveys but may nevertheless be critical to both the school
+and work commute mode choice decisions. Motivated by this discussion, the researchers of this study focused on examining children’s
+school mode choice decision, with an emphasis on active travel, using 2009 National Household Travel Survey (NHTS) add-on sample
+data for Texas.
+2. Literature review
+2.1. Determinants of active travel to school
+2.1.1. Distance to school
+     Most school mode choice research has found that a short commute distance is the strongest predictor of active school travel
+(Babey et al., 2009; Dessing et al., 2004; Ewing et al., 1895; Larsen et al., 2009; Mcmillan et al., 2006; Mitra et al., 2010; Schlossberg
+et al., 2006; Easton and Ferrari, 2015; Rodríguez-López et al., 2017). In 2011, Stewart (Stewart, 2011) conducted a comprehensive
+review [of 42 studies] to identify the variables associated with active school travel. Among the reviewed studies, distance to school
+was found to have the clearest correlation with active travel to school. In their 2015 study, Easton and Ferrari (Easton and Ferrari,
+2015) used data on children aged 11–16 years who attended schools in the UK, and found distance between home and school as the
+most signi<U+FB01>cant individual-level factor by far. The <U+FB01>ndings of Mitra et al. (Mitra et al., 2010) also supported this notion by their
+<U+FB01>ndings for children aged 11–13 years in the city of Toronto, Canada. The distance between residence and school locations was found
+to be the most signi<U+FB01>cant factor and “a 1-km (0.62-mi) decrease in travel distance increased the odds of walking by 0.71–0.72 times”.
+More recently, Rodríguez-López et al. (2017) studied the threshold distance associated with walking to school for students aged
+7–18 years from Spain. The study found the threshold distance for walking to school as 875 m (0.54 miles) for children and 1350 m
+(0.84 miles) for adolescents.
+     The e<U+FB00>ect is apparent for both walking and bicycling trips, but more prevalent for walking given its greater sensitivity to travel
+distance. Surveys of high school students in Ireland indicated that walking rates to school declined sharply for distances beyond 1.5
+miles, while most bicycling trips were within 2.5 miles of school (Nelson et al., 2008). Similarly, Schlossberg et al. (Schlossberg et al.,
+2006) reported an approximate 1.5-mile active school mode travelshed for middle school students in Oregon, within which the large
+majority of walking and bicycling trips occurred. With school commute distances rising (Center, 1969) and education trending more
+toward private schools and large consolidated public schools (Fyhri et al., 2011), trip distances will continue to contribute to declining active travel rates.
+2.1.2. Sociodemographic traits
+     Boys have been found to actively travel to or from school at a higher frequency than girls across all levels, including elementary
+school (Mcmillan et al., 2006), middle school (Larsen et al., 2009), and high school (Robertson-Wilson et al., 2008), although the
+disparity may become less pronounced as children age. Analysis of 2001 NHTS data revealed similar rates of active school travel for
+high school students (McDonald, 2008), while Martin et al. (Martin et al., 2007) found no di<U+FB00>erence in active travel rates to school
+between genders among a nationally representative sample of 9- to 15-year-old students. Boys are especially more likely to bicycle to
+school, with studies in Australia, England, Ireland, and the United States all reporting bicycling rates approximately three times
+greater for boys than for girls (Nelson et al., 2008; Leslie et al., 2010; Merom et al., 2006; Sidharthan et al., 2011; Van Sluijs et al.,
+2009). The active school travel gender gap mirrors the overall higher prevalence of physical activity among boys (Van Sluijs et al.,
+2009; Loucaides and Jago, 2008; Santos et al., 2009), and could partially be explained by di<U+FB00>ering levels of independent mobility.
+Due to cultural factors, some parents are likely to be more protective of girls and place greater restrictions on their independent
+travel.
+     Findings on the e<U+FB00>ects of age on school mode choice are more varied. Several studies have reported that after controlling for other
+factors, younger students are more likely to actively travel than older students across a range of ages (Babey et al., 2009; Mcmillan
+et al., 2006; Buliung et al., 2009; Wong et al., 2011), yet other studies have discovered the opposite relationship (Martin et al., 2007;
+Sidharthan et al., 2011; Deka, 2013; Timperio et al., 2006). As would be expected with the addition of a new travel choice, walking
+and biking rates decline when children reach driving age (McDonald, 2008), but overall, age e<U+FB00>ects do not appear to be consistent.
+Older students tend to walk further to school than younger students (Steinbach et al., 2012) and have longer average travel distances.
+Because elementary school students often attend nearby neighborhood schools, commute distances typically rise as they transition to
+more distant middle schools and secondary schools. Wong et al. (Wong et al., 2011), for example, found that middle school students
+had higher rates of active school travel than high school students, but shorter average travel distances.
+     Socioeconomic status has also been linked to the school mode choice decision. Most research has linked children from higher-income households to a lower likelihood of active school travel and to higher rates of being driven to school (Babey et al., 2009;
+Larsen et al., 2009; Mitra et al., 2010; Sidharthan et al., 2011), although 2009 NHTS data indicate that higher-income students had a
+higher prevalence of walking (Deka, 2013).
+2.1.3. Built environment
+     Researchers have examined several aspects of the built environment in relation to active school travel, with di<U+FB00>ering results.
+Students in urban areas appear to be more likely to actively travel to school (Babey et al., 2009; Merom et al., 2006), as do those in
+more walkable neighborhoods (Giles-Corti et al., 2011). Low residential density and land-use mix have also been associated with
+active school travel for middle school children in London, Ontario (Larsen et al., 2009), but were not signi<U+FB01>cant for studies in Toronto
+(Mitra et al., 2010) or Gainesville, Florida (Ewing et al., 1895). The same study conducted in Gainesville found that sidewalk density
+was positively related to the likelihood of walking to school, but no signi<U+FB01>cant e<U+FB00>ects were found for the proportion of sidewalks
+along the school route on children’s independent mobility in Norway (Fyhri and Hjorthol, 2009). Intersection density and lower dead-end density were positive predictors of walking to or from school for middle school students in Bend and Spring<U+FB01>eld, Oregon, but not
+bicycling (Schlossberg et al., 2006). In contrast, Mitra et al. (2010) reported a negative correlation between intersection density and
+walking to school for middle school students in the more urban setting of Toronto. It is also possible that intersection density is
+moderated by tra<U+FB03>c volume; Giles-Corti et al. (2011) found that students were less likely to walk in areas with high connectivity if
+tra<U+FB03>c volume was high but more likely to walk when tra<U+FB03>c was low. Other built environment factors associated with an increased
+likelihood of actively commuting to school include perceptions of neighborhood safety and the presence of neighborhood recreational
+facilities (Leslie et al., 2010). On the other hand, the lack of tra<U+FB03>c signals or crossings and the need to traverse a freeway, highway, or
+arterial to get to school can present signi<U+FB01>cant barriers to the active school commute (Timperio et al., 2006).
+2.1.4. School characteristics
+     School-level indicators can also be used to predict school mode choice decisions. Public school students, for example, are more
+likely to actively travel to school than private school students (Babey et al., 2009; Deka, 2013) or those attending magnet schools
+(Wilson et al., 2010), and larger schools demonstrate lower levels of active travel than smaller schools. These results are not necessarily surprising since larger schools, like private schools, tend to draw from a more diverse geographic pool of students, but
+e<U+FB00>ects are still evident even after controlling for di<U+FB00>erences in travel time (Ewing et al., 1895).
+2.1.5. Trips to and from school
+     Active school travel tends to be more prevalent for the afternoon trip, suggesting that there is greater potential for increased
+active mode share for the journey to school in the morning. Studies measuring both segments of the school trip have typically
+reported that active travel rates rise by approximately 3–10 percentage points for the journey home, roughly matching an equivalent
+decline in vehicle trips (Larsen et al., 2009; Schlossberg et al., 2006; Merom et al., 2006; Buliung et al., 2009; Wong et al., 2011;
+Ridgewell et al., 2009). Because work and school start times are typically more closely aligned than <U+FB01>nish times, it is generally easier
+for parents to drop their children o<U+FB00> at school in the morning than it is to pick them up afterwards. The determinants of active school
+travel may also di<U+FB00>er depending on the direction of the journey. Larsen et al. (Larsen et al., 2009), for example, noted that a lower
+income was associated with greater active travel for the trip home, but not the trip to school, possibly because lower-income parents
+had less <U+FB02>exibility in their work schedules.
+2.2. In<U+FB02>uence of parents
+     In addition to the aforementioned student, school, and trip-related factors, it is necessary to consider the in<U+FB02>uence of parents on
+school mode choice. Studies looking at the interdependence of parents’ commute mode and children’s school mode choice (Panter
+et al., 2010; Wen et al., 2008), have indicated that the travel decisions of parents are often directly tied to children’s travel mode
+choices. Younger students requiring accompaniment or who are unable to travel independently will be especially reliant on parental
+decision-making.
+2.2.1. Parental factors
+     Parental support for active travel has been linked by some to a greater likelihood of children walking or biking to school. Chaufan
+et al. (2012) found that students in California were three times more likely to walk or bike to school if parents considered the act fun
+or healthy. Children in England were similarly more likely to actively travel to school if they reported that their parents encouraged
+the act (Panter et al., 2010), though this e<U+FB00>ect may weaken for older students. Robertson-Wilson et al. (2008) found that perceived
+parental support for active commuting had no in<U+FB02>uence on active travel rates for high school students. Researchers have also
+attempted to relate parents’ physical activity levels to active school travel under the assumption that children with active parents are
+more likely to be active themselves. Studies conducted in California and in the United States at the national level indicate that there is
+a relationship between parents’ physical activity and children’s active school travel (Mcmillan et al., 2006; Martin et al., 2007),
+though another study in Southern California did not <U+FB01>nd a relationship (Sidharthan et al., 2011). In regards to general physical
+activity levels, Jago et al. (Jago et al., 2010) attempted to relate overall physical activity between children and parents using
+accelerometer data, but no signi<U+FB01>cant associations were found.
+     Along with parental attitudes toward active travel, perceptions of convenience and safety may also factor into the school mode
+choice decision. For parents of children driven to school, convenience plays a strong role, especially because school trips can often be
+combined with the work commute (Schlossberg et al., 2006; Fyhri and Hjorthol, 2009; McDonald and Aalborg, 2009). As far as
+barriers to active school travel, for many parents, concerns over tra<U+FB03>c safety and crime cause them to favor vehicle trips over active
+travel modes (Fyhri and Hjorthol, 2009; Ridgewell et al., 2009; Panter et al., 2010; Cole et al., 2007). Contradicting these <U+FB01>ndings,
+other studies have reported that parental perceptions of safety do not signi<U+FB01>cantly impact the school mode choice decision (Babey
+et al., 2009; Mcmillan et al., 2006). Interestingly, distance may not be a strong deterrent of active travel for some. Ridgewell et al.
+(Ridgewell et al., 2009) reported that just 3 percent of middle school parents in Brisbane, Australia, who drove their children to
+school did so because of the length of the trip.
+2.2.2. The escort decision
+     In the United States, nearly 90 percent of school trips are escorted, primarily by parents or school bus drivers (McDonald, 2008),
+while Queensland, Australia, has a parental school escort rate of 65 percent for children below Grade 8 (Cole et al., 2007). Understanding these decisions can be especially important when considering overall travel impact since unchained escort trips often
+represent an additional trip home, thus doubling travel costs (Cooper et al., 2005). According to 2009 NHTS data, 40 percent of
+parents who drove their children to school returned home immediately afterwards (National Center for Safe Routes to School, 1969).
+     A few studies have speci<U+FB01>cally analyzed the factors in<U+FB02>uencing the decision to escort children to school. He (2013) modeled the
+probability of a joint school trip between the child and parent. While active travel modes were not considered, results indicated that
+the closer a mother’s workplace is to the child’s school, the more likely it is that she will escort the child. In general, studies have
+found that mothers are approximately three to four times more likely to escort children to school than fathers (Mcmillan et al., 2006;
+McDonald, 2008; He, 2013). Longer working hours tend to decrease the likelihood of a parent making an escorted school trip, but this
+could be o<U+FB00>set by having a <U+FB02>exible work schedule (He, 2013). Vovsha and Peterson (Vovsha and Petersen, 1921) determined that
+parents working part-time were more likely to escort their child to school. They also measured the impact of route deviation on the
+escort decision. Schools that were further out of the way from the workplace only resulted in a lower likelihood of escorting for the
+trip to school, not for the trip home.
+     Yarlagadda and Srinivasan (2008) developed an econometric model to simultaneously model school mode choice and the decision
+to escort. Working mothers were more likely to escort children by car to school but less likely to escort on the way back, likely due to
+it being more di<U+FB03>cult to coordinate work and school <U+FB01>nish times. Longer commute times were negatively associated with driving a
+child to school but had no e<U+FB00>ect on driving children home, and land-use and built environment variables had little impact on mode
+choice. Younger children and girls were more likely to be escorted by mothers, while boys and older children were more likely to
+actively travel or drive independently.
+     Deka (2013) developed another joint model that allowed for bidirectional in<U+FB02>uences between children’s school mode choice and
+parents’ commute mode choice. Results indicated that parents’ commute mode signi<U+FB01>cantly impacted the mode choice to school, but
+children’s school mode choice had no e<U+FB00>ect on the mode choice to work.
+     The review conducted by Stewart (2011) identi<U+FB01>ed 480 variables that are associated with active travel with most in<U+FB02>uential
+factors being distance, income, tra<U+FB03>c and crime fears, and parental attitudes and schedules. The literature review presented in this
+paper supports this assertion, and clearly indicates a wide variety of factors in<U+FB02>uencing the school mode choice decisions. While there
+are di<U+FB00>erences across studies, several factors were common. For example, distance to school was one of the most in<U+FB02>uential factor,
+especially for walking behavior. Gender di<U+FB00>erences were observed, with males being more likely to actively travel to/from school
+though this e<U+FB00>ect was more pronounced for younger children. The built and travel environment and when the trip has been made
+signi<U+FB01>cantly a<U+FB00>ected the active travel decision. In addition to the infrastructure that might encourage walking or biking, perceptions
+of the built or travel environment was also found to be important in decision making process. Finally, parents have always been noted
+to play a signi<U+FB01>cant role in children’s active travel to school. However, the results of the studies were not as consistent or strong as the
+other variables like distance to school. In an e<U+FB00>ort to contribute to the growing body of the literature on school travel, this study aims
+to provide additional insights by examining the school mode choice with a comprehensive set of variables, including individual and
+household characteristics, built and travel environment measures, and parental characteristics and attitudes, all in a single model.
+3. Data and methods
+     The main data for this project were drawn from the 2009 NHTS and the 2009 NHTS add-on sample for the state of Texas. The
+single-day travel diaries provided detailed information on over 20,000 Texas households. Among these households, this study focused
+speci<U+FB01>cally on those with children between the ages of 5 and 15, resulting in a <U+FB01>nal sample comprising 2783 children and 4886
+parents. Personal, travel-related, and work-related variables were developed at the individual and household levels, as well as
+variables characterizing parental attitudes toward travel. The details of all NHTS variables can be found in the 2009 NHTS documentation and codebook.
+     In particular to attitudinal questions, individuals were asked to indicate their level of concern for general travel-related issues: “Of
+the following issues, please tell me which one is the most important to you?” with the following issues listed: “highway congestion,
+access to or availability of public transit, lack of walkways or sidewalks, the price of travel including things like transit fees, tolls and
+the cost of gasoline, aggressive or distracted drivers, and safety concerns like worrying about being in a tra<U+FB03>c accident”. In addition
+to asking for these general travel-related issues, parents were asked for issues pertaining speci<U+FB01>cally to their child’s school commute:
+“Please tell me how much each of the following a<U+FB00>ects your decision to allow {child’s name/age/sex} to walk or bike to or from
+school” with the following issues listed: “the distance between home and school, the amount of tra<U+FB03>c along the route, the speed of
+tra<U+FB03>c along route, violence or crime along route, poor weather or climate in their area”. Parents were asked to provide a rating on a
+scale of 1–5 (ranging from ‘not an issue’ to ‘a serious issue’) for each of these issues. Interested readers are referred to actual NHTS
+2009 questionnaire for additional details on questions: https://nhts.ornl.gov/2009/pub/QuestionnaireFieldDocuments2009.pdf.
+     To go along with the NHTS data, several supplementary data sources were acquired in order to characterize the neighborhood
+environment around respondents’ residences. U.S. Census American Community Survey data from 2005 to 2009 were used to create
+neighborhood demographic measures at the block group level, and retail employment (tract level) was used as a proxy for the
+availability of nearby retail opportunities. Spatial datasets representing Texas roadways and land cover [2006 National Land Cover
+Database) were also used in the development of measures of accessibility and developed land use. In addition, school locations were
+geocoded with the aid of the Texas Education Agency’s School Database, which allowed for the development of the same set of spatial
+and built environment measures around children’s schools.
+     The analyses started with a descriptive analysis emphasizing some important points of active travel to school decision. Following
+the descriptive statistics, a multinomial logit (MNL) model was estimated to study determinants of children’s school travel mode
+decision with children’s school mode as the dependent variable. School mode consisted of <U+FB01>ve categories: private vehicle to and from
+school, walk/bike to and from school, school bus to and from school, combination private vehicle and walk/bike, and combination
+private vehicle and school bus. Private vehicle to and from school was the most frequently observed alternative and was used as the
+reference category in the MNL model. Although the focus of this study is on children’s school mode, a model examining parent’s
+active travel was also developed to provide a picture of parents and their own active travel decisions. Parents’ active travel trips were
+then modeled at the household level using a Poisson count regression model. The count dependent variable used was the number of
+walk and bike trips (including for exercise) taken by parents in the last week, aggregated at the household level. The <U+FB01>nal model
+results indicated a good model <U+FB01>t and a statistically signi<U+FB01>cant chi-square statistic (p < 0.05). Signi<U+FB01>cant improvements were
+obtained with the <U+FB01>nal models compared to their corresponding intercept-only models. The data compilation was conducted in SPSS
+statistical package, and the model estimation was completed using GAUSS, a matrix programming language.
+4. Results
+4.1. Descriptive statistics
+     Overall, levels of active school travel in Texas were lower than national rates. Over half of the children traveled both to and from
+school using a private vehicle, while approximately one-third traveled by school bus for at least one leg of the journey. Moreover, 7.4
+percent of children traveled to and from school using an active mode. The active mode share rose to 11 percent when those who
+walked or biked in only one direction were included. There were some di<U+FB00>erences in the trip to school in the morning and the trip
+home in the afternoon (Fig. 1).
+     Additionally, more active modes were observed for the trip home after school when it is often more di<U+FB03>cult for parents to
+accommodate their work schedules in order to drive their children. While this <U+FB01>nding was consistent with previous research, the
+magnitude of the disparity was smaller than what other research had reported. Vehicle mode share declined by 7.6 percentage points
+after school, but the consequent increase in walking rate (+2.4 percentage points) was somewhat lower than has been reported by
+previous studies. Instead, a greater proportion of morning vehicle trips shifted to school bus travel. This may be indicative of the auto-oriented cities typically found within the Texas setting. Bicycle mode share was low—at just 1.7 percent—and remained unchanged
+between the journeys to and from school, as expected.
+     Children’s active travel mode share also di<U+FB00>ered depending upon age and distance. The youngest students had the lowest levels of
+walking and biking, which is presumably indicative of lower levels of independent mobility. Active mode share peaked between the
+ages of 9 and 10, after which walking and biking rates trended downwards (Fig. 2). This can be partially accounted for by a
+corresponding increase in average trip distances to school. As children progress to middle school and beyond, trip distances tend to
+increase as the typically larger schools draw from a wider geographic region. Unsurprisingly, students living closer to school were
+more likely to actively travel. In fact, 57 percent living within 0.25 mile of their school walked or biked, but that proportion declined
+steeply with increasing distance. About one-third of children living between 0.25 and 0.5 mile from school walked or biked, and only
+16.2 percent of those living within 0.5 mile to 1 mile walked or biked.
+     Much like children, parents walked much more frequently than they biked. A higher proportion of women had walked for
+transportation in the previous week (67 percent to 63 percent), but bicycling was much more prevalent among men (13.5 percent to
+7.7 percent). At the household level, parents averaged 6.9 combined walk and bike trips in the previous week (median 5.0), with
+single-parent households averaging 4.4 (median 2.0) and multi-parent households averaging 7.6 (median 5.0). Moreover, 81.2
+percent of households totaled <U+FB01>ve or fewer walk trips in a week, and just 5.2 percent of households had more than one bike trip in the
+previous week.
+     Looking at the issues related active travel to school, the two most important issues identi<U+FB01>ed by parents were the amount and
+speed of tra<U+FB03>c along the school route. Almost half of the parents indicated these as serious issues preventing them to allow their kids
+use active travel to school. Indeed, only around 10–15 percent of parents did not consider tra<U+FB03>c congestion or speed as an issue for
+walking and biking to/from school. The next important factor was the distance between home and school. More than 40 percent of
+parents thought distance as a serious issue a<U+FB00>ecting their decision to allow their children to walk or bike to/from school.
+4.2. What are the factors in<U+FB02>uencing active travel to school? School mode choice model
+     Table 1 presents the <U+FB01>ndings from the school mode choice model, which revealed that several factors increased the likelihood of
+walking, biking, or taking a school bus to or from school compared to being driven.
+     As discussed in the literature review, distance to school is frequently cited as one of the most signi<U+FB01>cant factors in<U+FB02>uencing the
+active mode choice decision (Babey et al., 2009; Dessing et al., 2004; Ewing et al., 1895; Larsen et al., 2009; Mcmillan et al., 2006;
+Mitra et al., 2010; Schlossberg et al., 2006; Easton and Ferrari, 2015; Rodríguez-López et al., 2017; Stewart, 2011). Broadly consistent
+with the school travel literature, in the current study, active travel rates were also found to be most prevalent in travel distances
+under 2 miles. Because of the relatively slow speeds for walking and bicycling, these modes are particularly sensitive to travel
+distance. In the rural United States, where destinations are widely spaced and the underlying infrastructure is vehicle-supportive,
+driving maintains a high utility for the vast majority of trips (Fan et al., 2015). In more urbanized areas, as trip distances shorten and
+roads become more congested, active modes become much more competitive. Children from lower income households and children
+attending a public school were also had a higher likelihood of using active travel to school. Another consistent <U+FB01>nding with the
+literature was observed with the gender impact. As noted in many studies [e.g. 13–14, 20, 22, 25–28], boys were also more likely to
+actively travel than girls, potentially indicating their higher levels of independent mobility. The average grade that children were
+allowed to walk or bike to school unaccompanied was no di<U+FB00>erent between boys and girls, but a signi<U+FB01>cantly higher proportion of
+girls had parents who would never allow their child to walk or bike to school alone. Upon controlling for other factors, age did not
+signi<U+FB01>cantly impact the school mode choice decision; previous studies have shown inconsistent <U+FB01>ndings with respect to age.
+     Parental characteristics and attitudes also strongly in<U+FB02>uenced children’s school mode. As discussed earlier, studies found that for
+many parents tra<U+FB03>c safety was an important barrier to active travel to school (e.g. Ridgewell et al., 2009; Panter et al., 2010), which
+was supported with the current study’s <U+FB01>ndings. Greater parental concern for tra<U+FB03>c congestion on the school route reduced the
+likelihood of active travel, but concern for weather on the school route had the opposite e<U+FB00>ect. The positive association between
+concern for weather and active travel likely re<U+FB02>ects the negligible impact weather has on vehicle trips. On the other hand, the
+increased degree of exposure for walkers and bicyclists make them far more sensitive to, and cognizant of, weather-related threats
+(which in Texas primarily consist of thunderstorms and intense heat). Apparently, even though the parents cited weather as an issue
+of concern in their children’s active school mode use, it did not discourage them from allowing the children to use an active mode.
+Other signi<U+FB01>cant parental factors were speci<U+FB01>c to either mothers or fathers. Children were more likely to be driven if they had a
+mother who expressed a greater concern for unsafe drivers or a father with a <U+FB02>exible work schedule. On the other hand, children with
+fathers’ self-employed were more likely to walk or bike to/from school. While similar to some previous studies, the gender-speci<U+FB01>c
+nature of these <U+FB01>ndings further suggests that work-related characteristics are more in<U+FB02>uential for fathers than mothers and that the
+attitudes of mothers are more dominant in the school mode choice decision.
+     Several of the determinants of active school travel decision were common to the school bus travel decision, perhaps re<U+FB02>ecting the
+absence of parents’ participation in both walking/biking and in school busing, though some factors have opposing e<U+FB00>ects. Unlike
+active school travelers, children who lived within 2 miles of their school were less likely to commute by school bus. Likewise, parental
+concern for tra<U+FB03>c congestion on the school route decreased the likelihood of walking or biking but was positively related to school
+bus travel. Built environment e<U+FB00>ects also di<U+FB00>ered between active and bus modes. Whereas walking and biking were more prevalent
+for children living in neighborhoods with a higher population density and retail employment, school bus travel occurred with greater
+frequency in rural areas. Children attending after-school programs demonstrated a higher propensity for a combination of school bus
+and vehicle travel, but were less likely to travel by school bus in both directions. Since school bus pickups tend to occur immediately
+at the conclusion of the school day, students in after-school programs need to be picked up by parents or <U+FB01>nd an alternative travel
+mode home.
+4.3. Who are the parents?: Parents’ active travel model
+     While the main focus of this study is on active travel to school, we have also developed a Poisson Count model to provide
+additional insights on who are the parents of these children and what are the factors in<U+FB02>uencing their general active travel decision.
+The decision for parents to walk or bike at the household level was governed by a combination of household, demographic, work-related, attitudinal, travel-related, and built environment characteristics (Table 2). Lower rates of active travel were associated with
+households having immigrant parents, older mothers, fathers with low levels of education, and low-income households. Transit use
+and living in a rural or small urban area were also associated with more walking and biking trips, while availability of nearby retail
+opportunities decreased walking and biking trips.
+     Similar to the determinants of active travel to school for children, parents’ walk and bike trips were positively associated with
+concerns for tra<U+FB03>c on the school route. General travel-related concerns, particularly for fathers, were signi<U+FB01>cantly related to increased rates of parental walking and bicycling. Much like the e<U+FB00>ect of weather-related concerns on children’s active school travel,
+this <U+FB01>nding indicates that active travelers are more acutely aware of a number of tra<U+FB03>c-related concerns. Walkers and bicyclists are
+forced to deal more directly with travel-related issues such as congestion, a lack of public transit or pedestrian facilities, and tra<U+FB03>c
+safety. Some researchers have made a similar argument (e.g. Zuniga, 2012) contending that regular active travel appears to diminish
+parents' perceptions of barriers so that negotiation becomes second nature.
+     Along with attitudes, parents’ work-related characteristics played a prominent role in the active travel decision. Mothers with
+more accommodating jobs in terms of location and start time were associated with higher household active travel rates, yet the
+opposite e<U+FB00>ect was found for fathers. It is not immediately clear why this divergent e<U+FB00>ect was split along gender lines, but it
+underscores the need to consider the independent e<U+FB00>ects of parents when evaluating household travel. Notably, children’s variables
+did not impact parents’ active travel, in contrast to the children’s school mode choice model, which was strongly in<U+FB02>uenced by
+parental factors.
+5. Conclusion
+     This study examined children’s school mode choice and parents’ active travel trips. Two distinct models were estimated for each
+decision. Overall, an opportunity appears to be present for increased active school travel among children in Texas. Rates of walking
+and biking to school were lower in Texas than the national average. Additionally, the lower rate of walking in the morning indicates
+that there are children able and willing to walk to school who do so only in one direction.
+     Findings from this research highlight the importance of parental attitudes and characteristics on the school mode choice decision,
+with notable di<U+FB00>erences between mothers and fathers. The travel-related concerns of mothers, in particular, acted as a deterrent to
+children’s active school travel. Improvements to neighborhood safety and walkability would not only make it physically easier to
+reach destinations by active modes but also perhaps alleviate parental barriers to independent mobility. Work-related factors also
+in<U+FB02>uenced the way children traveled to school. Although <U+FB02>exible employment is often conceived as a way to ease the travel burden of
+parents, paradoxically, it can also make it easier for them to drive their children to school. While prior research has independently
+looked at the travel impacts of employment <U+FB02>exibility on the work commute and the school commute, it would be bene<U+FB01>cial for
+future researchers to simultaneously assess their net e<U+FB00>ects. This study additionally shed light on the determinants of school bus
+travel. While it is a less frequently studied area of the literature, school bus travel often provides walking-related bene<U+FB01>ts, while its
+substantially higher mode share dictates that it can potentially be more impactful in substituting for private vehicle travel.
+     Distance to school was found to be one of the primary factors in<U+FB02>uencing the likelihood of active travel and partially explains the
+decline in walking and bicycling over the years. The movement away from neighborhood public schools toward more specialized
+charter and magnet schools and private schools is only serving to increase the average distance students must travel. School policy
+makers should keep in mind the travel implications of school district boundaries and alternative schooling opportunities. Rates of
+walking and bicycling to school have declined considerably over the last 50 years, but a better understanding of the many forces
+driving these decisions can help planners and policy makers combat this worrisome trend.
+     A limitation of this study is that the data used in this study is limited to Cities in the state of Texas and the results obtained here
+may not be applicable to cities in other parts of the country. The di<U+FB00>erences could occur due to di<U+FB00>erences in both the urban density
+and the climate. Modeling school mode choice using a comprehensive and rich list of variables provides valuable insights to the
+literature, and performing a similar study to other urban areas in the United States would add much value to the <U+FB01>eld. As a next step
+to the insights obtained from this study, it would be important to examine the interdependency between the two distinct choices,
+which will help identify the causal directionality of the two choice decisions. Understanding the primary causal direction of one
+choice on the other as well as the magnitude of the e<U+FB00>ect (relative to other factors) is essential in order to understand the policy
+implications of measures encouraging non-auto-dependent mode choices.
