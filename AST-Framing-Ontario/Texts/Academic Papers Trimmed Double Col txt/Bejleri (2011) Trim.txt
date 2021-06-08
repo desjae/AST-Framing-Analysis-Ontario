@@ -1,1166 +1,588 @@
+Original Article
+Using GIS to analyze the role of barriers and facilitators
+to walking in children’s travel to school
+Ilir Bejleri*, Ruth L. Steiner, Allison Fischman and Jeffrey M. Schmucker
+Department of Urban and Regional Planning, University of Florida, PO Box 115706, Gainesville,
+Florida 32611-5706, USA.
+E-mails: ilir@ufl.edu, rsteiner@dcp.ufl.edu; fischman@dcp.ufl.edu; jms2004@ufl.edu
+*Corresponding author.
+Abstract Extensive research in response to the decline of walkability in the past 30 years has identified a
+multitude of factors that affect children’s ability to work or bicycle to school. Among others, urban form – the layout
+and configurations of urban blocks and street networks - can constraint or facilitate pedestrian travel to a destination
+such as a school. Although contemporary research uses approximate measures of walkability such as straight-line
+distance between origin and destination, or even measures of distances along roadway networks, the presence of
+physical barriers and facilitators to walking calls for a more accurate method for assessing walkability as a function
+of distance dictated by constraints of urban form. Modern technologies like Geographic Information Systems (GIS)
+offer capabilities to enable calculation of such measures. This article presents a GIS methodology that analyzes
+children travel to school as a function of distance along the network and the role of barriers and facilitators that
+impact the path and the accessibility to school. The study is conducted in 32 randomly selected elementary schools
+in four Florida counties. Three pedestrian sheds of 1/2 mile (10 minutes walk) are generated around each school
+based respectively on (a) straight-line distance, (b) roadway network distance and (c) pedestrian network distance
+adjusted for barriers such as major roads, and lack of sidewalks and facilitators such as pedestrian paths, crossing
+guards and rear entrances to school. The pedestrian sheds are compared based on two measures: (1) pedestrian
+route directness (PRD) – an index that measures urban form permeability and connectivity and (2) the student count
+in each shed – a measure that indicates how effectively the pedestrian shed captures potential students along these
+networks. Results show that the pedestrian shed decreases in size upon considering network distance over straight-
+line distance, and readjusts upon consideration of barriers and facilitators. PRD values decrease as the pedestrian
+shed is adjusted which indicates shorter, more direct paths to schools are available. Findings suggest that inclusion
+of barriers and facilitators when measuring distance along the network offers a more realistic version of the true
+distance a child could potentially walk to school. The study found that barriers and facilitators play critical roles in
+how the urban landscape can be traversed and, in turn, greatly affect walkability and accessibility to school. Barriers
+can reduce walkability and accessibility to school whereas facilitators can increase the permeability and connectivity
+of pedestrian networks. In addition to improving walkability measurement methods by enhancing the GIS network
+analysis to include barriers and facilitators, this research has broader implications for the study of walkability as it
+relates to urban form. The findings can be used by local governments to develop better policies to promote close
+coordination of school siting with residential development and transportation. These findings can also inform the
+urban design of the layout and configuration of street networks, urban blocks and placement of buildings to support
+safe pedestrian circulation with good permeability connectivity and accessibility throughout the neighborhood.
+Especially, findings from this study emphasize the importance of designing for connected pedestrian paths that
+minimize barriers and maximize facilitators.
+URBAN DESIGN International (2011) 16, 51–62. doi:10.1057/udi.2010.18; published online 18 August 2010
+Keywords: active travel; walkability; urban form; GIS; network distance
+Introduction                                                        of company, commerce and mutual defense
+                                                                    (Frumkin et al, 2004). With the advent of the
+Cities have historically been recognized as places                  automobile, however, the focus on connecting
+for people to come together to enjoy the benefits                   people with places has progressively diminished.
+                     r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
+                                                  www.palgrave-journals.com/udi/
+
+      Bejleri et al
+Places that once provided safe and equitable                      in turn are dictated by urban form. The config-
+travel by foot are now dominated by disconnected                  uration and layout of urban landscape – consist-
+land uses and hazardous travel conditions. The                    ing mainly of urban blocks, and the street
+urban landscape is threatened by ever-encroaching                 network – does constraint accessibility to a desti-
+suburbia, an environment well-suited to the                       nation such as a school. Permeability of urban
+automobile. For the pedestrian, the typical sub-                  form and street layout and connectivity can
+urban environment severely limits accessibility,                  reduce or increase the opportunities for pedes-
+making it difficult to get from place to place                    trian travel to such destinations. Therefore, for a
+on foot.                                                          more accurate assessment of walkability, it is
+   One manifestation of such difficulty is an                     important to measure the more accurate distance
+increasingly overweight American population,                      traveled along the network while accounting for
+including children and adolescents. Overweight                    barriers and facilitators of pedestrian travel.
+and obesity are particularly risky for children and               Modern technologies like geographic information
+adolescents as they may experience immediate                      systems (GIS) offer capabilities to enable calcula-
+health consequences with a greater risk for                       tion of such measures.
+weight-related health problems later in adulthood                    This article presents a GIS methodology that
+(Serdula et al, 1993), including cardiovascular                   analyzes children travel to school as a function
+disease, diabetes (Fagot-Campagna et al, 2000;                    of the distance along the network and the role of
+Hannon et al, 2005), psychosocial illnesses (Dietz,               barriers and facilitators that impact the distance
+1998; Strauss et al, 2001) and a host of other                    and the accessibility to school. Although the study
+chronic disorders. One solution is to increase the                is focused on travel to school, the methodology
+amount of physical activity in which children                     and the findings have broader implications for
+participate. Walking to school represents an                      walkability research as it relates to urban form.
+opportunity for children to engage in physical                    It is recognized that the distance is not the only
+activity, an opportunity fewer and fewer children                 factor that affect walkability. A review of addi-
+have participated in over the past half-century. In               tional factors is presented below; however,
+2003, the US Environmental Protection Agency                      they are not implemented in the scope of this
+reported a decline in the number of students who                  particular study.
+walked and bicycled to school from 48 per cent in
+1969 to 15 per cent in 2001 (Ewing and Greene,
+2003). This trend was also projected in a ‘Home-                  Background
+to-School Transportation’ study conducted by the
+Florida Department of Transportation in 1992 that                 Physical inactivity has been found to have
+estimated that only one out of six children in                    deleterious effects on the health of children and
+Florida walk or bicycle to school while the rest are              adolescents (Slater et al, 2008). Many children do
+transported by bus or private motor vehicle                       not engage in enough physical activity to meet
+(Starnes et al, 1992).                                            the recommendations required to maintain a
+   The decline in walkability generally, and in                   healthy weight that supports healthy lifestyles
+children’s travel to school specifically, has prom-               (Dellinger and Staunton, 2002). Understanding
+pted extensive research around the world to                       physical activity behaviors among children and
+understand and address it. Such research has                      adolescents is complex. Sallis et al (2000) reveal
+indentified a multitude of factors that affect                    that there are a multitude of factors that can
+children’s ability to walk to school, including                   influence physical activity behaviors among
+physical characteristics of urban built environ-                  children and adolescents such as sex differences
+ment. One of the many factors affecting walk-                     (male or female), parental overweight status,
+ability that is related to the physical built                     previous physical activity and perceived activity
+environment is the travel distance. The travel                    competence to name a few. Additionally, some
+distance is commonly measured by using                            children lack physical activity because of parental
+straight-line distance between origin and destina-                perceptions concerning safety of the outdoor
+tions. Although this measurement method has                       environment (Valentine and McKendrick, 1997).
+its applicability, there is a need to use proper                  Children are spending more time indoors, parti-
+measures of walking distance that reflect physical                cipating in less-physically active alternatives,
+arrangements of built environment. In reality,                    such as watching television and playing video-
+travel distance is a function of travel paths which               games (Robinson, 1999). Furthermore, studies
+52                  r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
+
+                                                                                 The role of barriers and facilitators to walking
+show that more and more children are being                        to walk or bicycle to school. Interestingly, children
+driven to school than ever before, negating the                   sometimes garner a different perception of the
+opportunities for them to be physically active                    environment between home and school and if
+(Freeman and Quigg, 2009). One of many recom-                     given the opportunity would rather walk or
+mended solutions to help reduce the prevalence                    bicycle to school (Mitchell et al, 2007).
+of childhood obesity is to increase opportunities                    Although the literature conveys the psycholo-
+for children to walk or bicycle to school. Walking                gical influences to walking (Ziviani et al, 2006),
+and bicycling to school are utilitarian travel                    it also identifies methods of encouraging children
+opportunities that provide underlying physical                    to actively travel to school, through programs
+activity for children (Ziviani et al, 2004).                      like Federal Safe Routes to Schools (FHWA, 2010),
+   Because streets accommodate most forms of                      CDC’s KidsWalk-to-School,1 and walking school
+travel, their importance serves as a central focus                buses2 (Collins and Kearns, 2005). These pro-
+in understanding patterns of walkability. Tradi-                  grams are designed to encourage children to
+tionally, in the United States, streets were laid in              engage in active travel to school and can help
+gridiron patterns. However, over time the grid                    develop environments that are safer for children
+pattern became more chaotic consisting of ‘loops                  while building a stronger sense of community
+and lollipops’, subsequently converting straight-                 (Tranter and Pawson, 2001). However, many pro-
+line distances into journeys of considerable length               grams and initiatives focus only on safety rather
+(Southworth and Owens, 1993; Southworth and                       than distance as a primary barrier to walking to
+Ben-Joseph, 2003). The circuitous nature of loop-                 school (McDonald, 2007). Distance between the
+ing roadways was strategically aimed at reducing                  school and residence is one of the important
+the number of automobile thorough-fares,                          factors for a child who either walks him/herself
+focused on making residential streets safer for                   to school or is escorted by a parent.
+the pedestrian. Conventional street designs have
+had adverse affects resulting in reduced connec-
+tivity, an increase in vehicle miles traveled,                    Measures of urban form impacting walkability
+increased traffic conditions, and a host of other
+public nuisances and health-related issues                        One determinant of travel through urban space is
+(Frumkin et al, 2004). For many of these reasons,                 physical proximity. The literature shows that on
+walking and bicycling to school are not always                    average, an acceptable distance for pedestrian
+feasible or attractive options for many families.                 and transit-friendly travel can be distinguished
+   Decisions concerning children’s travel to school               by a 5- to (maximum) 10-min walk, which is
+are contingent upon many factors. Physical-                       approximately one-quarter to one-half of a mile
+environmental factors influencing decisions in-                   (Ewing, 1999). Understanding distance as one of
+clude proximity (or distance between home and                     the determinants in travel behaviors is vitally
+school) and presence and condition of sidewalks                   important, especially in addressing opportunities
+and pathways. Additional factors that also play                   for children to actively travel to school. Schlossberg
+critical roles include neighborhood and traffic                   et al (2006) conducted a study to understand
+safety, socio-demographics, household transpor-                   urban form and children’s travel to school and
+tation options, social/cultural norms, policies,                  found that the farther a child lived from a school,
+and parental attitudes and personal choice                        the less likely he or she was to walk or bicycle
+(McMillan, 2006; Kerr et al, 2006; Ridgewell et al,               there. However, the findings also revealed there
+2009). Safety concerns or the lack of sense of                    are circumstances that students are willing to
+security play substantial roles in the decision                   walk at distances greater than the expected
+process. These include social-environmental                       (Schlossberg et al, 2006). Another study found
+influences, such as real and perceived crime and                  similar results of increased numbers of students
+other undesirable activities like the presence of                 walking or bicycling from school to home, with
+drug dealers, bullies, and of recent the perception               positive associations linked to several environ-
+of pedophiles (Tewksbury and Mustaine, 2006).                     mental factors including higher land use mix, the
+Gender differences may also play a role. One                      presence of street trees and shorter trip length
+study shows that boys are more likely to be                       (Larsen et al, 2009). Although distance – as a
+allowed to walk or bicycle to school than are girls               surrogate in understanding the impacts of urban
+(McMillan et al, 2006). Ultimately parents make                   form on walkability – is a primary focus in this
+the decision on whether or not a child is allowed                 article, it is recognized that it is not the sole factor
+                    r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International     Vol. 16, 1, 51–62                   53
+
+       Bejleri et al
+influencing children’s mode choice in travelling                       route directness (PRD) (Dill, 2004). PRD is the
+to school.                                                             ratio of the network distance to the straight line.
+   There are two groups of measures of pedestrian                      A ratio approaching a value of one signifies that
+travel in the context of the physical environment:                     the distance travelled along the roadway network
+general walkability and origin-destination walk-                       approximates the straight-line distance, indicating
+ability. General walkability measures are used to                      a more direct route. A ratio of 1.2 indicates that
+characterize urban form of neighborhoods by a set                      the distance travelled along the roadway network
+of indices computed based on physical character-                       is 20 per cent longer than the straight-line distance
+istics such as for instance urban block length and                     from origin to destination.
+size. Smaller block sizes or shorter block lengths                        Another measure related to the origin-destination
+indicate better connectivity or greater potential                      walkability is residential density. Concentrations
+for movement through space (Dill, 2004). Another                       of residential dwellings in proximity to desired
+measure is street and intersection density. A                          locations provide an indication of the potential
+greater number of streets or intersections within                      for individuals to travel between home and a
+an area would mean greater connectivity yielding                       destination. This is particularly useful in evaluat-
+a higher rate of walkability (Frank et al, 2005).                      ing home-to-school connections (City of Raleigh,
+One of the limitations of calculating walkability                      North Carolina, 2008). See Table 1 for a summary
+using these types of measures is that they are                         of the common measures of walkability presented
+not destination driven. They provide generalized                       here. For more detail description of these and
+approximations of walkability and are used to                          additional measures of walkability, see Dill (2004).
+rank geographic areas (neighborhoods or com-                              In origin-destination measures of walkability,
+munities) on the walkability potential.                                such as children’s travel between home and
+   The second group of measures concentrates on                        school, careful consideration should be given to
+origin-destination walkability. They focus on                          the components of the urban form that can further
+measuring the walkable distance in a straight                          reduce or enhance opportunities for safe pedes-
+line between the origin and destination or along                       trian travel. Common barriers that may reduce
+the walkable network. Measuring the distance                           walkability between home and school could
+between two points along a network provides                            include hazardous walking conditions like in-
+a more accurate assessment of walkability.                             adequate sidewalks, high speed and volume of
+A common measure in this category is pedestrian                        traffic, fences or walls, and the absence of crossing
+Table 1: Common measures of walkability
+Measure                    Description                                                     Ideal values
+Block length               Blocks are the land area carved out by the street               300 to 600 feet (Dill, 2004)
+                              network. It is presumed that shorter the block, the
+                              greater amount of connectivity
+Block size                 Measured by the length and the width, blocks that are           Fort Collins, Colorado requires block
+                              smaller in total size presumably infer better                   sizes to be between 7 and 12 acres
+                              connectivity                                                    (Steiner et al, 2006)
+Street density             The total linear miles (or kilometers) of streets per unit      Not identified
+                              of area (usually in square miles or kilometers)
+Intersection density       The number of intersections per unit of area (usually           Over 78 intersections per square mile
+                              in square miles or kilometers). It is presumed that             (Frank et al, 2005)
+                              higher density equates to higher connectivity
+Pedestrian route           The ratio of network distance to straight-line distance         Values between 1.2 and 1.5 have been
+   directness (PRD)           for two selected points. Numbers closer to one may              recommended as acceptable
+                              represent better connectivity                                   standards (Dill, 2004)
+Residential density        The total number of dwelling units (or parcels) per             Schools located in neighborhoods
+                              unit of area (usually in square miles or kilometers)            containing 5 dwelling units per acre
+                                                                                              (City of Raleigh, NC, 2008)
+54                   r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International     Vol. 16, 1, 51–62
+
+                                                                               The role of barriers and facilitators to walking
+guards3 to facilitate the safe crossing of the                    Method
+street (Dellinger and Staunton, 2002). In contrast,
+facilitators that can enhance opportunities for                   The intent of this study is to examine the role that
+walking could include trails and other informal                   barriers and facilitators play in children’s travel to
+pathways, rear entrances to school grounds and                    school. The study takes a cross-sectional research
+the employment of crossing guards at hazardous                    approach and uses case studies of elementary
+street intersections.                                             schools in four central Florida school districts4
+   In summary, there are many measures that can                   in the Tampa Bay and Orlando areas. These
+be used to analyze walking environments. To this                  school districts – Orange, Seminole, Pasco and
+end, it is important to note that there is no single,             Hillsborough – were chosen because they have
+all-purpose measure that can tell the entire story.               large populations (4400 000 in 2006), high rates
+                                                                  of enrollment (430 000 in 2005–2006 with 420
+                                                                  per cent student enrollment growth from 2000 to
+                                                                  2005), and contain at least 30 elementary schools
+Using GIS to measure walkability                                  representing a range of time periods in which
+                                                                  schools were constructed.
+GIS is essential in better understanding the                         Thirty-two randomly selected elementary
+complexities of the pedestrian travel environ-                    schools were chosen. The general study boundary
+ment. Although a straight-line distance between                   around each of these schools used for data
+two points can be measured easily, the measure-                   collection was determined by a combination of a
+ment of distances along a network is much more                    two-miles buffer area around each school and the
+complex. GIS has the capability to assist in                      School Attendance Zones (SAZs). The areas out-
+development of such measures using a tool called                  side the two-mile buffer are excluded from the
+network analysis. Given an origin (for example,                   study because the State of Florida provides
+location of a student residence) and a destination                funding for school districts to bus children who
+(for example, location of a school), GIS can                      live more than two miles from the school. The
+determine the shortest path between these two                     two-mile general area is further constraints by
+points along the street network and it can                        SAZs which are legislative boundaries established
+compute the distance of that path. In addition,                   to determine which children are assigned to a
+using network analysis tools, GIS can determine a                 specific school. The SAZs vary in size and shape
+catchment area that includes all the residential                  across the school district depending upon the
+parcels that are within a certain network distance                density of children in the residential neighbor-
+from the school. Both the shortest path and the                   hood surrounding each school. For schools that
+catchment areas are spatial complex calculations                  are located outside of the center of their SAZ,
+that can be easily computed in GIS.                               this boundary may present a barrier to children
+   A critical factor in measuring walkability when                walking because children may go to a school that
+considering distances along a network is the role                 is a greater distance from their home to which
+of barriers and facilitators. Network distance can                they may not be willing to walk or bicycle.
+be calculated along the street network; however,
+children may take a shorter distance to school if
+they can take an informal path or they can cross a                Data compilation
+major roadway with the assistance of a crossing
+guard. The school can reduce the distance that                    Data were collected, compiled and analyzed
+some children travel to school by allowing access                 using GIS, interviews with school principals or
+to the school in locations closer to residences. By               their designees and field work.
+taking into account these factors, GIS can modify                    GIS data layers assembled for this study
+the shortest paths and the catchment areas,                       include high resolution aerial photographs, school
+provided that the GIS street network is adjusted                  attendance boundaries, school point locations,
+to reflect the presence or absence of these barriers              roadway network, property parcels and de-
+and facilitators.                                                 identified5 student residential locations. These
+   This research makes extensive use of GIS                       data were obtained from various sources includ-
+network analysis to develop measures of chil-                     ing the Florida Geographic Data Library, Florida
+dren’s travel to school in the presence of barriers               county property appraiser’s offices, the Florida
+and facilitators.                                                 Department of Revenue and four school districts.
+                    r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International   Vol. 16, 1, 51–62                   55
+
+       Bejleri et al
+The location of hazardous walking conditions was                    distance corresponds to a maximum 10-min walk
+mapped in GIS using a list provided by the                          based on the literature referenced previously in
+Florida Department of Education. The student                        this article. This distance represents a reasonable
+residential location was originally mapped using                    trip-length for most students to walk to elemen-
+GIS geocoding that converts home addresses to                       tary schools.
+GIS point locations.                                                   Using this distance, the neighborhoods around
+   Interviews were conducted at all of the selected                 each school were analyzed based on three
+schools. Each principal, or their designee were                     potential walkability areas generated using GIS.
+asked about how students traveled to and from                       These areas hereafter are referred to as ‘pedestrian
+school, safety risks for students who choose to                     sheds’ and are labeled by numerals 1, 2 and 3
+walk or bicycle to school, locations of crossing                    (Figure 1). The first shed, referred as ‘potential
+guards, and access control points around the school                 walkability’, was generated by creating one-half
+site. School officials also identified both formal and              mile buffers around each elementary school using
+informal access points onto school grounds.                         a straight-line distance. This area of walkability
+   Field audit was performed on the school site                     provides only a generalized approximation for
+and in the neighborhood. Using the aerial photo-                    potential walkability, while ignoring all other
+graphy and the information gathered in the                          factors. The buffers were created using GIS
+interviews, the locations of access points to the                   standard buffering tools. The second shed,
+school site were mapped. Formal and informal                        ‘potential walkability adjusted to network dis-
+off-road paths to school connected to the access                    tance’, depicts the one-half mile pedestrian shed
+points were also mapped. These paths were                           as measured along the roadway network. The
+followed until they entered a neighborhood or                       third shed, ‘potential walkability adjusted for
+were at least one-mile walking distance from the                    barriers and facilitators’, depicts the one-half
+school’s access points. Additional data collected                   mile pedestrian shed distance as measured along
+through field audits included locations of crossing                 the network and adjusted based on the presence
+guards and sidewalks. A pedestrian network                          of barriers and facilitators to walking in the
+including location of barriers and facilitators                     32 randomly selected elementary schools. Both
+was created and the GIS base layer was updated                      sheds 2 and 3 were generated using GIS network
+based on the field observations. All field data                     analysis tools that have capabilities to create
+were mapped digitally and were added to the                         catchment or ‘service’ areas for a given destina-
+GIS database for further analyses.                                  tion (the school) based on the desired distance
+                                                                    from the destination along a linear network.
+Focus analysis areas and measures                                   Finally, all three sheds were further adjusted by
+                                                                    the SAZ boundaries that would reduce the size
+The analysis was focused within areas located                       of each shed for those schools located close to the
+one-half mile around each school site. This                         edges of the zone.
+Figure 1: Generation of pedestrian sheds.
+56                    r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
+
+                                                                                         The role of barriers and facilitators to walking
+    In Figure 1, which conceptually illustrates the                      Tampa Bay area counties – Hillsborough and
+generation of the pedestrian sheds, it may be                            Pasco Counties have lower student counts. In all
+noted that the shed in image 2 is smaller than                           but Hillsborough County, the student count
+the shed in image 3. This is because of poor                             increases upon adjusting the network pedestrian
+connectivity of the roadway network that has not                         shed to account for barriers and facilitators to
+been adjusted by any facilitators. In image 3, the                       walking. The increased student count suggests
+dashed line inside the dark area shows the                               that for schools in these counties, facilitators are
+pedestrian pathways (facilitators) which expand                          in place to enhance the pedestrian environment.
+the connected pedestrian network. The case of                            This is particularly true of Seminole County,
+shed adjustment (potential reduction) from bar-                          which shows the highest rate of increase and
+riers to walkability is not illustrated in this figure;                  has back entrances to schools that connect to
+however, one of the cases in the article illustrates                     the surrounding cul-de-sac neighborhoods. In
+this situation.                                                          contrast, in Hillsborough County, the drop of
+    Two measures – PRD and student count – are                           student counts in the pedestrian shed, which
+the focus of the analysis within these pedestrian                        includes barriers and facilitators (shed #3), com-
+sheds. An examination of PRD for a pedestrian                            pared to the network distance shed (shed #2)
+shed can shed light on the configuration and                             indicates that the pedestrian network shed has
+characteristics of the roadway network and other                         more barriers and hazardous walking conditions
+formal and informal pathways. Student count,                             than the other three counties.
+a measure of the number of students residing                                Overall, the data summarized in Table 2
+within the pedestrian shed, indicates how effec-                         indicate that using GIS to account for distance
+tively the pedestrian shed captures potential                            along the roadway network and barriers and
+pedestrians, or students along these networks.                           facilitators to walking results in a more refined
+                                                                         representation of walkability than does simply
+                                                                         measuring walking distance along a straight-line
+Results                                                                  or even along the roadway network. To further
+                                                                         understand this difference and illustrate the
+Table 2 summarizes the results. For all school                           findings, it is helpful to examine three selected
+districts, PRD values decrease as the pedestrian                         schools – Bear Lake Elementary in Seminole
+shed is adjusted. Decreasing values indicate that                        County, Pineloch Elementary in Orange County
+as the pedestrian shed is adjusted to the roadway                        and Seven Springs Elementary in Pasco County.
+network and to barriers and facilitators, PRD                            Table 3 lists the pedestrian shed size, the PRD
+increases, that is, shorter, more direct paths to                        value and the student count for the three
+schools are available. Orange and Seminole                               pedestrian sheds corresponding to each school.
+Counties, which have had policies to coordinate                          Figure 2 illustrates these pedestrian sheds for each
+school siting with residential development,                              school.
+have the highest number of children in close                                Bear Lake Elementary is situated in a neighbor-
+proximity to schools overall. In contrast, the                           hood with an eroding grid street pattern. Upon
+Table 2: Average pedestrian route directness and student count for schools in sample of four counties in Tampa Bay and Orlando
+areas
+Corresponding pedestrian sheda,b                 Pedestrian route directness (avg.)                               Student count (avg.)
+                                             1                     2                 3                    1                 2               3
+Orange County schools                      2.08                  1.82               1.63               216.27             44.09           66.73
+Seminole County schools                    2.30                  1.79               1.44               232.50             57.25           98.5
+Pasco County schools                       2.06                  1.96               1.45               147.34             30.67           62.5
+Hillsborough County schools                2.24                  1.68               1.37               156                68.07           59.07
+a
+  Pedestrian shed numbering corresponds to methodological steps: (1) Calculated using straight-line distance; (2) Adjusted based on
+distance along the roadway network and school attendance zone boundaries; (3) Adjusted based on barriers and facilitators to
+walking.
+b
+  This table takes into account a sample of 32 schools randomly selected across the four counties, as determining the location of
+barriers and facilitators to walking required field-work and interviews.
+                        r 2011 Macmillan Publishers Ltd. 1357-5317   URBAN DESIGN International       Vol. 16, 1, 51–62                       57
+
+       Bejleri et al
+Table 3: Examination of three selected schools
+Corresponding pedestrian sheda       Pedestrian shed size (sq. miles)          Pedestrian route directness            Student count
+                                     1              2               3         1             2             3         1       2       3
+Bear Lake Elementary                0.50           0.08           0.36       3.32         1.94          1.39       203     21      122
+Pineloch Elementary                 0.50           0.24           0.18       1.51         1.35          1.36       221     34       27
+Seven Springs Elementary            0.50           0.10           0.18       2.03         1.79          1.66       190     15       39
+a
+  Pedestrian shed numbering corresponds to methodological steps: (1) Calculated using straight-line distance; (2) Adjusted based on
+distance along the roadway network and school attendance zone boundaries; (3) Adjusted based on barriers and facilitators to
+walking.
+Figure 2: Pedestrian sheds for three selected schools.
+adjusting the straight-line pedestrian shed (shed                      for these facilitators the shed size rebounds to
+#1 shown in circular white dashed line) to account                     0.36 square miles (shed #3 shown in solid thick
+for network distance, several disconnected cul-de-                     black line). The pedestrian paths contribute to
+sacs cause a drop in the shed’s size from 0.5                          decreased PRD values (reflecting more direct
+square miles for shed #1 to less than one-tenth of a                   routes) and the capture of an additional 100
+square mile for shed #2 shown in solid white line.                     students within the shed.
+Two formalized pedestrian paths connect these                             Pineloch Elementary represents an opposing
+cul-de-sacs to rear school entrances. After adjusting                  scenario. A major high speed limited access
+58                     r 2011 Macmillan Publishers Ltd. 1357-5317  URBAN DESIGN International    Vol. 16, 1, 51–62
+
+                                                                               The role of barriers and facilitators to walking
+freeway (Interstate 4) running diagonally in the                     along the major road, negating the barrier as
+north-east to south west side of the school bisects                  students living across the road are zoned to
+the SAZ. However an underpass to the northeast                       another school. A crossing guard may also
+of the school allows access for some students                        negate a major road’s impact on accessibility,
+living on the north side past the interstate road                    as in the case of Seven Springs where a crossing
+which explains the expansion of sheds #2 and #3                      guard is positioned at the intersection of a
+past the interstate on the north side. The interstate                major road just east of the school.
+generates substantial traffic on a major north-                   K  Formal and informal pedestrian pathways may
+south roadway intersecting the neighborhood                          increase the size of the pedestrian shed, capturing
+south of the school. Although the underpass                          more students. The travel can be shortened by
+facilitates walking accessibility, the north-south                   creating a more direct path from a disconnected
+arterial acts as a barrier to walking. Unlike the                    street grid or by creating additional entrances to
+case of Bear Lake in which the pedestrian shed                       the school. Pedestrian pathways present at both
+size increases upon accounting for barriers and                      Bear Lake and Seven Springs allow walking
+facilitators to walking, the proximity of the                        access to school for increased numbers of
+major arterial in the case of Pineloch causes a                      students. This finding is also illustrated in the
+decrease in pedestrian shed size from 0.24 square                    pocket of students living on cul-de-sacs dis-
+miles to 0.18 square miles, capturing seven fewer                    connected from Seven Springs’ rear entrance
+students.                                                            who do not fall within the pedestrian shed.
+   Seven Springs Elementary is located adjacent to                K  SAZ boundary placement may affect the presence
+a neighborhood with a curvilinear street pattern                     and role of barriers and facilitators within the
+and several cul-de-sacs. Only 15 students are                        pedestrian shed. The boundary placement may also
+captured within the pedestrian shed as measured                      affect how effectively the pedestrian shed captures
+along the roadway network (shed #2 shown in                          student residential density. Pineloch’s SAZ
+solid white line) without accounting for barriers                    boundary in combination with the major
+and facilitators. As in the case of Bear Lake,                       north-south arterial limit the amount of resi-
+however, pedestrian paths exist, linking cul-de-                     dential density captured within the pedestrian
+sacs to a rear school entrance. Unlike Bear Lake’s                   shed. In the case of Bear Lake and Seven
+formal pathways, the pathways near Seven                             Springs, accounting for facilitators to walking
+Springs are informal, yet they produce similar                       results in increased capture of student residen-
+results. Upon accounting for the pathways, the                       tial density.
+pedestrian shed size increases from 0.10 square
+miles (shed #2) to 0.18 (shed #3), and an
+additional 24 students fall within the pedestrian
+shed. The importance of direct routes is illustrated              Discussion and Conclusions
+by the small island of students living directly to
+the northwest of Seven Springs (small donut hole                  Understanding the complexities of the built
+shown in black solid line). These students live in                environment and the experience a child entails
+close proximity to the school, but no direct route                between home and school is important. Much of
+exists between their cul-de-sacs and the school,                  the analysis on urban form of neighborhoods in
+resulting in a lack of accessibility.                             the current literature use simplified surrogates
+                                                                  of the distance that pedestrians need to travel,
+                                                                  such as straight-line distance, block length or
+Summary of Findings                                               size, street or intersection density to name a few.
+                                                                  Although these measures provide a good indica-
+Findings emerging from this detailed analysis                     tion of the overall characteristics of a street
+include:                                                          network in a neighborhood, they do not always
+                                                                  accurately account for the conditions that face
+K  Major roadways can be common barriers to walking;              pedestrians in their daily travels. When people
+   however, the barrier may be mitigated by careful               walk toward a specific destination they will seek
+   placement of SAZ boundaries and/or the presence of             the shortest path – whether formal or informal –
+   a school crossing guard. A major roadway bisects               that will get them safely there. For children
+   the pedestrian sheds of all three schools. In the              walking to school, the distance can be measured
+   case of Bear Lake, the SAZ boundary runs                       more accurately along the paths that include
+                    r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International   Vol. 16, 1, 51–62                   59
+
+       Bejleri et al
+barriers that lengthen or facilitators that shorten                to or inhibit the ability to walk between places.
+the distance. Barriers can include school atten-                   Additional research is needed to investigate these
+dance boundaries, major highways, hazardous                        interactions in coupling such findings with what
+walking conditions and fences. Facilitators include                we know and continue to discover about the
+school crossing guards, informal paths and back                    impacts of our built environments on walkability.
+entrances to school sites that connect to cul-de-sac               For instance, the GIS methodology of this study
+neighborhoods.                                                     could be expanded to include assessment of
+   This study examines the potential for children                  some of the other important variables affecting
+to walk to school by using GIS to analyze the role                 walkability such as safety from crime and safety
+of barriers and facilitators along a pathway                       from traffic. GIS layers of crime incidences,
+network. Accounting for changes to the roadway                     pedestrian crashes, graffiti and other signs of
+network caused by barriers and facilitators offers                 social disorder can be spatially overlaid on the
+a more realistic version of the true distance a child              pedestrian network and each segment of the
+could potentially walk and more closely aligns                     network could be ranked and weighted based
+with the actual way that pedestrians walk in and                   on these factors. This analysis could be useful to
+around a neighborhood. The method used here                        inform and target education, law enforcement
+indicates that, different from common measure                      and policies to enhance the walkability for
+of walkability that uses straight-line distance or                 children. Equipped with this information and
+network distance, GIS can assist in providing                      the tools to conduct studies like this one is
+a more accurate assessment of the walkability by                   encouraging for future research on this and
+factoring in barriers and facilitators in the                      related topics.
+calculation of the pedestrian network distance.                       It is important to emphasize that the accuracy
+The study found that barriers and facilitators                     of the results developed by the GIS computations
+play critical roles in how the urban landscape                     depends on the quality of the input data. Typical
+can be traversed and, in turn, greatly affect                      GIS roadway networks do not include a complete
+walkability and accessibility to school.                           inventory of formal pedestrian walking paths,
+   This research has implications beyond chil-                     greenways, sidewalks and informal paths. Field
+dren’s travel to school. The GIS methodology                       observations will generally be needed to adjust
+presented here can be generalized for broader                      the GIS roadway network to account for
+applicability to the analysis of pedestrian travel                 pedestrian travel paths and to understand the
+as a function of physical urban form. For instance,                broader physical conditions impacting the walk-
+network analysis that includes barriers and                        ing paths.
+facilitators could be used to assess walkability to                   In addition to the contribution on the GIS
+a variety of neighborhood locations, such as                       methodology, this study provides findings that
+shopping centers, restaurants, churches or transit                 have broader importance to the walkability as
+stops. Barriers to such destinations include free-                 it relates to the physical environment. The
+ways and wide streets with long distances                          elements of urban form, such as the layout and
+between crossing walks. Conversely, pedestrians                    configurations of urban blocks and street net-
+may use facilitators that shorten their walking                    works, permeability and connectivity do affect
+distance, such as informal and formal pathways                     our opportunities to walk. Planning and design of
+connecting cul-de-sacs and pedestrian over-                        physical urban environments that are conducive
+passes.                                                            to walking are affected by policy and implemen-
+   The GIS automation of network distance calcu-                   tation of the policy through urban design.
+lations enables flexibility in replicating the same                   From the policy viewpoint, these findings can
+methodology for a variety of pedestrian sheds,                     be used to develop better policies and regulations
+either smaller or larger than the half mile distance               to enhance walkability for children. School Boards
+used in this study. Once the pedestrian network                    (decision makers for school locations) and Plan-
+is adjusted to include barriers and facilitators,                  ning Departments (decision makers on urban
+GIS can easily recalculate the pedestrian shed                     development) should coordinate their efforts to
+boundaries, network paths, residential dwelling                    promote policies that support location of schools
+count or other variables used in the study for                     in close proximity to high density developments
+different shed sizes.                                              served by a well-connected and safe pedestrian
+   It is recognized that in addition to the distance,              circulation network. Delineation of SAZs should
+social concerns and personal decisions contribute                  include criteria that increase walkability to school
+60                   r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
+
+                                                                                      The role of barriers and facilitators to walking
+by maximizing the number of students that go to                       Collins, D. and Kearns, R. (2005) Geographies of inequality:
+the nearest school considering the pedestrian                            Child pedestrian injury and walking school buses in
+network adjusted for barriers and facilitators.                          Auckland, New Zealand. Social Science and Medicine 60(1):
+                                                                         61–69.
+Related to this, these decision makers must                           Dellinger, A. and Staunton, C. (2002) Barriers to children
+strategically locate entrances to school to max-                         walking and biking to school in the United States. 1999.
+imize access without jeopardizing safety. Addi-                          Morbidity and Mortality Weekly Report 51(32): 701–704.
+tionally the use of bicycles should be encouraged                     Dietz, W.H. (1998) Health consequences of obesity in youth:
+                                                                         Childhood predictors of adult disease. Pediatrics 101(3 Pt 2):
+to potentially increase active travel.
+                                                                         518–525.
+   At the urban design level, considerations                          Dill, J. (2004) Measuring network connectivity for bicycling
+should be given to the layout of street network                          and walking. Presented at the Annual Transportation
+blocks and buildings to support safe pedestrian                          Research Board meeting, Washington DC.
+circulation with good permeability connectivity                       Ewing, R. (1999) Pedestrian- and transit-friendly design:
+and accessibility throughout the neighborhood. In                        A primer for smart growth. EPA Smart Growth Network,
+                                                                         http://www.lcd.state.or.us/LCD/TGM/docs/ReidEwing
+particular, findings from this study emphasize the                       Primer_primer.pdf, accessed 16 March 2010.
+importance of designing for connected pedestrian                      Ewing, R. and Greene, W. (2003) Travel and Environmental
+paths that minimize barriers and maximize                                Implications of School Siting. U.S. Environmental Protection
+facilitators. Suitable sidewalks that shelter pedes-                     Agency (EPA). EPA231-R-03-004.
+trian well from vehicle traffic, well-designed                        Fagot-Campagna, A. et al (2000) Type 2 diabetes among
+                                                                         North American children and adolescents: An epidemio-
+intersection crossing that are pedestrian friendly,                      logic health perspective. Journal of Pediatrics 136(5):
+inclusion of pedestrian-only designated paths that                       664–672.
+connect residencies to other paths to school and                      Federal Highway Administration (FHWA). (2010) Safe routes
+well-designed and strategically placed pedestrian                        to school program, http://safety.fhwa.dot.gov/saferoutes/,
+overpasses or underpasses. The design of the                             accessed 15 March 2010.
+                                                                      Frank, L.D., Schmid, T.L., Sallis, J.F., Chapman, J. and Saelens,
+well-connected safe paths should be extended                             B.E. (2005) Linking objectively measured physical activity
+to the use of bicycles which students can use to                         with objectively measured urban form: findings from
+travel longer distances.                                                 SMARTRAQ. American Journal of Preventive Medicine
+                                                                         28(2S2): 117–125.
+                                                                      Freeman, C. and Quigg, R. (2009) Commuting lives: Children’s
+                                                                         mobility and energy use. Journal of Environmental Planning
+Notes                                                                    and Management 52(3): 393–412.
+                                                                      Frumkin, H., Frank, L. and Jackson, R. (2004) Urban Sprawl and
+                                                                         Public Health: Designing, Planning, and Building for Healthy
+1 Community-based program to increase opportunities for
+                                                                         Communities. Washington DC: Island Press.
+  children to walk to and from school (www.cdc.gov/
+                                                                      Hannon, T.S., Rao, G. and Arslanian, S.A. (2005) Childhood
+  nccdphp/dnpa/kidswalk/).
+                                                                         obesity and type 2 diabetes mellitus. Pediatrics 116(2):
+2 A walking school bus is a group of children who walk to
+                                                                         473–480.
+  school with one or more adults. It can be as informal as
+                                                                      Kerr, J., Rosenberg, D., Sallis, J.F., Saelens, B.E., Frank, L.D. and
+  two families taking turns walking their children to school to
+                                                                         Conway, T.L. (2006) Active commuting to school: Associa-
+  as structured as a route with meeting points (www
+                                                                         tions with environment and parental concerns. Medicine &
+  .walkingschoolbus.org).
+                                                                         Science in Sports & Exercise 38(4): 787–793.
+3 An auxiliary police officer, community-volunteer, or other
+                                                                      Larsen, K., Gilliand, J., Hess, P., Tucker, P., Irwin, J. and He, M.
+  official who directs traffic for the purpose of assisting
+                                                                         (2009) The influence of the physical environment and
+  children in crossing streets near a school. Crossing guards
+                                                                         sociodemographic characteristics on children’s mode of
+  are typically employed by local governments.
+                                                                         travel to and from school. American Journal of Public Health
+4 School districts in the state of Florida are coterminous with
+                                                                         99(3): 520–526.
+  Florida’s county boundaries.
+                                                                      McDonald, N.C. (2007) Children’s mode choice for the school
+5 De-identified data refer to a data set in which sensitive
+                                                                         trip: The role of distance and school location in walking to
+  information has been removed to protect the identity of
+                                                                         school. Transportation 35: 23–35.
+  students.
+                                                                      McMillan, T. (2006) The relative influence of urban form on a
+                                                                         child’s travel mode to school. Transportation Research, Part A
+                                                                         41(1): 69–79.
+                                                                      McMillan, T., Day, K., Boarnet, M., Alfonzo, M. and Anderson,
+References                                                               C. (2006) Johnny walks to school – Does Jane? Sex dif-
+                                                                         ferences in children’s travel to school. Children’s Youth and
+City of Raleigh, North Carolina. (2008) Design guidelines for            Environments 16(1): 71–89.
+   pedestrian-friendly neighborhood schools, http://www               Mitchell, H., Kearns, R. and Collins, D. (2007) Nuances of
+   .raleighnc.gov/publications/Planning/Guides,_Handbooks_               neighborhood: Children’s perceptions of the space between
+   and_Manuals/School_Design_Guidelines.pdf, accessed 16                 home and school in Auckland, New Zealand. Geoforum 38:
+   June 2008.                                                            614–627.
+                        r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International      Vol. 16, 1, 51–62                      61
 
-
-Original Article
-Using GIS to analyze the role of barriers and facilitators
-to walking in children’s travel to school
-Ilir Bejleri*, Ruth L. Steiner, Allison Fischman and Jeffrey M. Schmucker
-Department of Urban and Regional Planning, University of Florida, PO Box 115706, Gainesville,
-Florida 32611-5706, USA.
-E-mails: ilir@ufl.edu, rsteiner@dcp.ufl.edu; fischman@dcp.ufl.edu; jms2004@ufl.edu
-*Corresponding author.
-Abstract Extensive research in response to the decline of walkability in the past 30 years has identified a
-multitude of factors that affect children’s ability to work or bicycle to school. Among others, urban form – the layout
-and configurations of urban blocks and street networks - can constraint or facilitate pedestrian travel to a destination
-such as a school. Although contemporary research uses approximate measures of walkability such as straight-line
-distance between origin and destination, or even measures of distances along roadway networks, the presence of
-physical barriers and facilitators to walking calls for a more accurate method for assessing walkability as a function
-of distance dictated by constraints of urban form. Modern technologies like Geographic Information Systems (GIS)
-offer capabilities to enable calculation of such measures. This article presents a GIS methodology that analyzes
-children travel to school as a function of distance along the network and the role of barriers and facilitators that
-impact the path and the accessibility to school. The study is conducted in 32 randomly selected elementary schools
-in four Florida counties. Three pedestrian sheds of 1/2 mile (10 minutes walk) are generated around each school
-based respectively on (a) straight-line distance, (b) roadway network distance and (c) pedestrian network distance
-adjusted for barriers such as major roads, and lack of sidewalks and facilitators such as pedestrian paths, crossing
-guards and rear entrances to school. The pedestrian sheds are compared based on two measures: (1) pedestrian
-route directness (PRD) – an index that measures urban form permeability and connectivity and (2) the student count
-in each shed – a measure that indicates how effectively the pedestrian shed captures potential students along these
-networks. Results show that the pedestrian shed decreases in size upon considering network distance over straight-
-line distance, and readjusts upon consideration of barriers and facilitators. PRD values decrease as the pedestrian
-shed is adjusted which indicates shorter, more direct paths to schools are available. Findings suggest that inclusion
-of barriers and facilitators when measuring distance along the network offers a more realistic version of the true
-distance a child could potentially walk to school. The study found that barriers and facilitators play critical roles in
-how the urban landscape can be traversed and, in turn, greatly affect walkability and accessibility to school. Barriers
-can reduce walkability and accessibility to school whereas facilitators can increase the permeability and connectivity
-of pedestrian networks. In addition to improving walkability measurement methods by enhancing the GIS network
-analysis to include barriers and facilitators, this research has broader implications for the study of walkability as it
-relates to urban form. The findings can be used by local governments to develop better policies to promote close
-coordination of school siting with residential development and transportation. These findings can also inform the
-urban design of the layout and configuration of street networks, urban blocks and placement of buildings to support
-safe pedestrian circulation with good permeability connectivity and accessibility throughout the neighborhood.
-Especially, findings from this study emphasize the importance of designing for connected pedestrian paths that
-minimize barriers and maximize facilitators.
-URBAN DESIGN International (2011) 16, 51–62. doi:10.1057/udi.2010.18; published online 18 August 2010
-Keywords: active travel; walkability; urban form; GIS; network distance
-Introduction                                                        of company, commerce and mutual defense
-(Frumkin et al, 2004). With the advent of the
-Cities have historically been recognized as places                  automobile, however, the focus on connecting
-for people to come together to enjoy the benefits                   people with places has progressively diminished.
-r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
-www.palgrave-journals.com/udi/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bejleri et al
-Places that once provided safe and equitable
-travel by foot are now dominated by disconnected
-land uses and hazardous travel conditions. The
-urban landscape is threatened by ever-encroaching
-suburbia, an environment well-suited to the
-automobile. For the pedestrian, the typical sub-
-urban environment severely limits accessibility,
-making it difficult to get from place to place
-on foot.
-One manifestation of such difficulty is an
-increasingly overweight American population,
-including children and adolescents. Overweight
-and obesity are particularly risky for children and
-adolescents as they may experience immediate
-health consequences with a greater risk for
-weight-related health problems later in adulthood
-(Serdula et al, 1993), including cardiovascular
-disease, diabetes (Fagot-Campagna et al, 2000;
-Hannon et al, 2005), psychosocial illnesses (Dietz,
-1998; Strauss et al, 2001) and a host of other
-chronic disorders. One solution is to increase the
-amount of physical activity in which children
-participate. Walking to school represents an
-opportunity for children to engage in physical
-activity, an opportunity fewer and fewer children
-have participated in over the past half-century. In
-2003, the US Environmental Protection Agency
-reported a decline in the number of students who
-walked and bicycled to school from 48 per cent in
-1969 to 15 per cent in 2001 (Ewing and Greene,
-2003). This trend was also projected in a ‘Home-
-to-School Transportation’ study conducted by the
-Florida Department of Transportation in 1992 that
-estimated that only one out of six children in
-Florida walk or bicycle to school while the rest are
-transported by bus or private motor vehicle
-(Starnes et al, 1992).
-The decline in walkability generally, and in
-children’s travel to school specifically, has prom-
-pted extensive research around the world to
-understand and address it. Such research has
-indentified a multitude of factors that affect
-children’s ability to walk to school, including
-physical characteristics of urban built environ-
-ment. One of the many factors affecting walk-
-ability that is related to the physical built
-environment is the travel distance. The travel
-distance is commonly measured by using
-straight-line distance between origin and destina-
-tions. Although this measurement method has
-its applicability, there is a need to use proper
-measures of walking distance that reflect physical
-arrangements of built environment. In reality,
-travel distance is a function of travel paths which
-52                  r 2011 Macmillan Publishers Ltd.
-
-in turn are dictated by urban form. The config-
-uration and layout of urban landscape – consist-
-ing mainly of urban blocks, and the street
-network – does constraint accessibility to a desti-
-nation such as a school. Permeability of urban
-form and street layout and connectivity can
-reduce or increase the opportunities for pedes-
-trian travel to such destinations. Therefore, for a
-more accurate assessment of walkability, it is
-important to measure the more accurate distance
-traveled along the network while accounting for
-barriers and facilitators of pedestrian travel.
-Modern technologies like geographic information
-systems (GIS) offer capabilities to enable calcula-
-tion of such measures.
-This article presents a GIS methodology that
-analyzes children travel to school as a function
-of the distance along the network and the role of
-barriers and facilitators that impact the distance
-and the accessibility to school. Although the study
-is focused on travel to school, the methodology
-and the findings have broader implications for
-walkability research as it relates to urban form.
-It is recognized that the distance is not the only
-factor that affect walkability. A review of addi-
-tional factors is presented below; however,
-they are not implemented in the scope of this
-particular study.
-
-
-Background
-
-Physical inactivity has been found to have
-deleterious effects on the health of children and
-adolescents (Slater et al, 2008). Many children do
-not engage in enough physical activity to meet
-the recommendations required to maintain a
-healthy weight that supports healthy lifestyles
-(Dellinger and Staunton, 2002). Understanding
-physical activity behaviors among children and
-adolescents is complex. Sallis et al (2000) reveal
-that there are a multitude of factors that can
-influence physical activity behaviors among
-children and adolescents such as sex differences
-(male or female), parental overweight status,
-previous physical activity and perceived activity
-competence to name a few. Additionally, some
-children lack physical activity because of parental
-perceptions concerning safety of the outdoor
-environment (Valentine and McKendrick, 1997).
-Children are spending more time indoors, parti-
-cipating in less-physically active alternatives,
-such as watching television and playing video-
-games (Robinson, 1999). Furthermore, studies
-1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
-
-
-show that more and more children are being
-driven to school than ever before, negating the
-opportunities for them to be physically active
-(Freeman and Quigg, 2009). One of many recom-
-mended solutions to help reduce the prevalence
-of childhood obesity is to increase opportunities
-for children to walk or bicycle to school. Walking
-and bicycling to school are utilitarian travel
-opportunities that provide underlying physical
-activity for children (Ziviani et al, 2004).
-Because streets accommodate most forms of
-travel, their importance serves as a central focus
-in understanding patterns of walkability. Tradi-
-tionally, in the United States, streets were laid in
-gridiron patterns. However, over time the grid
-pattern became more chaotic consisting of ‘loops
-and lollipops’, subsequently converting straight-
-line distances into journeys of considerable length
-(Southworth and Owens, 1993; Southworth and
-Ben-Joseph, 2003). The circuitous nature of loop-
-ing roadways was strategically aimed at reducing
-the number of automobile thorough-fares,
-focused on making residential streets safer for
-the pedestrian. Conventional street designs have
-had adverse affects resulting in reduced connec-
-tivity, an increase in vehicle miles traveled,
-increased traffic conditions, and a host of other
-public nuisances and health-related issues
-(Frumkin et al, 2004). For many of these reasons,
-walking and bicycling to school are not always
-feasible or attractive options for many families.
-Decisions concerning children’s travel to school
-are contingent upon many factors. Physical-
-environmental factors influencing decisions in-
-clude proximity (or distance between home and
-school) and presence and condition of sidewalks
-and pathways. Additional factors that also play
-critical roles include neighborhood and traffic
-safety, socio-demographics, household transpor-
-tation options, social/cultural norms, policies,
-and parental attitudes and personal choice
-(McMillan, 2006; Kerr et al, 2006; Ridgewell et al,
-2009). Safety concerns or the lack of sense of
-security play substantial roles in the decision
-process. These include social-environmental
-influences, such as real and perceived crime and
-other undesirable activities like the presence of
-drug dealers, bullies, and of recent the perception
-of pedophiles (Tewksbury and Mustaine, 2006).
-Gender differences may also play a role. One
-study shows that boys are more likely to be
-allowed to walk or bicycle to school than are girls
-(McMillan et al, 2006). Ultimately parents make
-the decision on whether or not a child is allowed
-r 2011 Macmillan Publishers Ltd.
-The role of barriers and facilitators to walking
-to walk or bicycle to school. Interestingly, children
-sometimes garner a different perception of the
-environment between home and school and if
-given the opportunity would rather walk or
-bicycle to school (Mitchell et al, 2007).
-Although the literature conveys the psycholo-
-gical influences to walking (Ziviani et al, 2006),
-it also identifies methods of encouraging children
-to actively travel to school, through programs
-like Federal Safe Routes to Schools (FHWA, 2010),
-CDC’s KidsWalk-to-School,1 and walking school
-buses2 (Collins and Kearns, 2005). These pro-
-grams are designed to encourage children to
-engage in active travel to school and can help
-develop environments that are safer for children
-while building a stronger sense of community
-(Tranter and Pawson, 2001). However, many pro-
-grams and initiatives focus only on safety rather
-than distance as a primary barrier to walking to
-school (McDonald, 2007). Distance between the
-school and residence is one of the important
-factors for a child who either walks him/herself
-to school or is escorted by a parent.
-
-
-Measures of urban form impacting walkability
-
-One determinant of travel through urban space is
-physical proximity. The literature shows that on
-average, an acceptable distance for pedestrian
-and transit-friendly travel can be distinguished
-by a 5- to (maximum) 10-min walk, which is
-approximately one-quarter to one-half of a mile
-(Ewing, 1999). Understanding distance as one of
-the determinants in travel behaviors is vitally
-important, especially in addressing opportunities
-for children to actively travel to school. Schlossberg
-et al (2006) conducted a study to understand
-urban form and children’s travel to school and
-found that the farther a child lived from a school,
-the less likely he or she was to walk or bicycle
-there. However, the findings also revealed there
-are circumstances that students are willing to
-walk at distances greater than the expected
-(Schlossberg et al, 2006). Another study found
-similar results of increased numbers of students
-walking or bicycling from school to home, with
-positive associations linked to several environ-
-mental factors including higher land use mix, the
-presence of street trees and shorter trip length
-(Larsen et al, 2009). Although distance – as a
-surrogate in understanding the impacts of urban
-form on walkability – is a primary focus in this
-article, it is recognized that it is not the sole factor
-1357-5317 URBAN DESIGN International     Vol. 16, 1, 51–62                   53
-
-Bejleri et al
-influencing children’s mode choice in travelling                       route directness (PRD) (Dill, 2004). PRD is the
-to school.                                                             ratio of the network distance to the straight line.
-There are two groups of measures of pedestrian                      A ratio approaching a value of one signifies that
-travel in the context of the physical environment:                     the distance travelled along the roadway network
-general walkability and origin-destination walk-                       approximates the straight-line distance, indicating
-ability. General walkability measures are used to                      a more direct route. A ratio of 1.2 indicates that
-characterize urban form of neighborhoods by a set                      the distance travelled along the roadway network
-of indices computed based on physical character-                       is 20 per cent longer than the straight-line distance
-istics such as for instance urban block length and                     from origin to destination.
-size. Smaller block sizes or shorter block lengths                        Another measure related to the origin-destination
-indicate better connectivity or greater potential                      walkability is residential density. Concentrations
-for movement through space (Dill, 2004). Another                       of residential dwellings in proximity to desired
-measure is street and intersection density. A                          locations provide an indication of the potential
-greater number of streets or intersections within                      for individuals to travel between home and a
-an area would mean greater connectivity yielding                       destination. This is particularly useful in evaluat-
-a higher rate of walkability (Frank et al, 2005).                      ing home-to-school connections (City of Raleigh,
-One of the limitations of calculating walkability                      North Carolina, 2008). See Table 1 for a summary
-using these types of measures is that they are                         of the common measures of walkability presented
-not destination driven. They provide generalized                       here. For more detail description of these and
-approximations of walkability and are used to                          additional measures of walkability, see Dill (2004).
-rank geographic areas (neighborhoods or com-                              In origin-destination measures of walkability,
-munities) on the walkability potential.                                such as children’s travel between home and
-The second group of measures concentrates on                        school, careful consideration should be given to
-origin-destination walkability. They focus on                          the components of the urban form that can further
-measuring the walkable distance in a straight                          reduce or enhance opportunities for safe pedes-
-line between the origin and destination or along                       trian travel. Common barriers that may reduce
-the walkable network. Measuring the distance                           walkability between home and school could
-between two points along a network provides                            include hazardous walking conditions like in-
-a more accurate assessment of walkability.                             adequate sidewalks, high speed and volume of
-A common measure in this category is pedestrian                        traffic, fences or walls, and the absence of crossing
-Table 1: Common measures of walkability
-Measure                    Description                                                     Ideal values
-Block length               Blocks are the land area carved out by the street               300 to 600 feet (Dill, 2004)
-network. It is presumed that shorter the block, the
-greater amount of connectivity
-Block size                 Measured by the length and the width, blocks that are           Fort Collins, Colorado requires block
-smaller in total size presumably infer better                   sizes to be between 7 and 12 acres
-connectivity                                                    (Steiner et al, 2006)
-Street density             The total linear miles (or kilometers) of streets per unit      Not identified
-of area (usually in square miles or kilometers)
-Intersection density       The number of intersections per unit of area (usually           Over 78 intersections per square mile
-in square miles or kilometers). It is presumed that             (Frank et al, 2005)
-higher density equates to higher connectivity
-Pedestrian route           The ratio of network distance to straight-line distance         Values between 1.2 and 1.5 have been
-directness (PRD)           for two selected points. Numbers closer to one may              recommended as acceptable
-represent better connectivity                                   standards (Dill, 2004)
-Residential density        The total number of dwelling units (or parcels) per             Schools located in neighborhoods
-unit of area (usually in square miles or kilometers)            containing 5 dwelling units per acre
-(City of Raleigh, NC, 2008)
-54                   r 2011 Macmillan Publishers Ltd. 1357-5317 URBAN DESIGN International     Vol. 16, 1, 51–62
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-guards3 to facilitate the safe crossing of the
-street (Dellinger and Staunton, 2002). In contrast,
-facilitators that can enhance opportunities for
-walking could include trails and other informal
-pathways, rear entrances to school grounds and
-the employment of crossing guards at hazardous
-street intersections.
-In summary, there are many measures that can
-be used to analyze walking environments. To this
-end, it is important to note that there is no single,
-all-purpose measure that can tell the entire story.
-
-
-
-Using GIS to measure walkability
-
-GIS is essential in better understanding the
-complexities of the pedestrian travel environ-
-ment. Although a straight-line distance between
-two points can be measured easily, the measure-
-ment of distances along a network is much more
-complex. GIS has the capability to assist in
-development of such measures using a tool called
-network analysis. Given an origin (for example,
-location of a student residence) and a destination
-(for example, location of a school), GIS can
-determine the shortest path between these two
-points along the street network and it can
-compute the distance of that path. In addition,
-using network analysis tools, GIS can determine a
-catchment area that includes all the residential
-parcels that are within a certain network distance
-from the school. Both the shortest path and the
-catchment areas are spatial complex calculations
-that can be easily computed in GIS.
-A critical factor in measuring walkability when
-considering distances along a network is the role
-of barriers and facilitators. Network distance can
-be calculated along the street network; however,
-children may take a shorter distance to school if
-they can take an informal path or they can cross a
-major roadway with the assistance of a crossing
-guard. The school can reduce the distance that
-some children travel to school by allowing access
-to the school in locations closer to residences. By
-taking into account these factors, GIS can modify
-the shortest paths and the catchment areas,
-provided that the GIS street network is adjusted
-to reflect the presence or absence of these barriers
-and facilitators.
-This research makes extensive use of GIS
-network analysis to develop measures of chil-
-dren’s travel to school in the presence of barriers
-and facilitators.
-r 2011 Macmillan Publishers Ltd. 1357-5317
-The role of barriers and facilitators to walking
-Method
-
-The intent of this study is to examine the role that
-barriers and facilitators play in children’s travel to
-school. The study takes a cross-sectional research
-approach and uses case studies of elementary
-schools in four central Florida school districts4
-in the Tampa Bay and Orlando areas. These
-school districts – Orange, Seminole, Pasco and
-Hillsborough – were chosen because they have
-large populations (4400 000 in 2006), high rates
-of enrollment (430 000 in 2005–2006 with 420
-per cent student enrollment growth from 2000 to
-2005), and contain at least 30 elementary schools
-representing a range of time periods in which
-schools were constructed.
-Thirty-two randomly selected elementary
-schools were chosen. The general study boundary
-around each of these schools used for data
-collection was determined by a combination of a
-two-miles buffer area around each school and the
-School Attendance Zones (SAZs). The areas out-
-side the two-mile buffer are excluded from the
-study because the State of Florida provides
-funding for school districts to bus children who
-live more than two miles from the school. The
-two-mile general area is further constraints by
-SAZs which are legislative boundaries established
-to determine which children are assigned to a
-specific school. The SAZs vary in size and shape
-across the school district depending upon the
-density of children in the residential neighbor-
-hood surrounding each school. For schools that
-are located outside of the center of their SAZ,
-this boundary may present a barrier to children
-walking because children may go to a school that
-is a greater distance from their home to which
-they may not be willing to walk or bicycle.
-
-
-Data compilation
-
-Data were collected, compiled and analyzed
-using GIS, interviews with school principals or
-their designees and field work.
-GIS data layers assembled for this study
-include high resolution aerial photographs, school
-attendance boundaries, school point locations,
-roadway network, property parcels and de-
-identified5 student residential locations. These
-data were obtained from various sources includ-
-ing the Florida Geographic Data Library, Florida
-county property appraiser’s offices, the Florida
-Department of Revenue and four school districts.
-URBAN DESIGN International   Vol. 16, 1, 51–62                   55
-
-Bejleri et al
-The location of hazardous walking conditions was
-mapped in GIS using a list provided by the
-Florida Department of Education. The student
-residential location was originally mapped using
-GIS geocoding that converts home addresses to
-GIS point locations.
-Interviews were conducted at all of the selected
-schools. Each principal, or their designee were
-asked about how students traveled to and from
-school, safety risks for students who choose to
-walk or bicycle to school, locations of crossing
-guards, and access control points around the school
-site. School officials also identified both formal and
-informal access points onto school grounds.
-Field audit was performed on the school site
-and in the neighborhood. Using the aerial photo-
-graphy and the information gathered in the
-interviews, the locations of access points to the
-school site were mapped. Formal and informal
-off-road paths to school connected to the access
-points were also mapped. These paths were
-followed until they entered a neighborhood or
-were at least one-mile walking distance from the
-school’s access points. Additional data collected
-through field audits included locations of crossing
-guards and sidewalks. A pedestrian network
-including location of barriers and facilitators
-was created and the GIS base layer was updated
-based on the field observations. All field data
-were mapped digitally and were added to the
-GIS database for further analyses.
-
-Focus analysis areas and measures
-
-The analysis was focused within areas located
-one-half mile around each school site. This
-Figure 1: Generation of pedestrian sheds.
-56                    r 2011 Macmillan Publishers Ltd.
-
-distance corresponds to a maximum 10-min walk
-based on the literature referenced previously in
-this article. This distance represents a reasonable
-trip-length for most students to walk to elemen-
-tary schools.
-Using this distance, the neighborhoods around
-each school were analyzed based on three
-potential walkability areas generated using GIS.
-These areas hereafter are referred to as ‘pedestrian
-sheds’ and are labeled by numerals 1, 2 and 3
-(Figure 1). The first shed, referred as ‘potential
-walkability’, was generated by creating one-half
-mile buffers around each elementary school using
-a straight-line distance. This area of walkability
-provides only a generalized approximation for
-potential walkability, while ignoring all other
-factors. The buffers were created using GIS
-standard buffering tools. The second shed,
-‘potential walkability adjusted to network dis-
-tance’, depicts the one-half mile pedestrian shed
-as measured along the roadway network. The
-third shed, ‘potential walkability adjusted for
-barriers and facilitators’, depicts the one-half
-mile pedestrian shed distance as measured along
-the network and adjusted based on the presence
-of barriers and facilitators to walking in the
-32 randomly selected elementary schools. Both
-sheds 2 and 3 were generated using GIS network
-analysis tools that have capabilities to create
-catchment or ‘service’ areas for a given destina-
-tion (the school) based on the desired distance
-from the destination along a linear network.
-Finally, all three sheds were further adjusted by
-the SAZ boundaries that would reduce the size
-of each shed for those schools located close to the
-edges of the zone.
-
-1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
-
-The role of barriers and facilitators to walkin
-In Figure 1, which conceptually illustrates the                      Tampa Bay area counties – Hillsborough and
-generation of the pedestrian sheds, it may be                            Pasco Counties have lower student counts. In all
-noted that the shed in image 2 is smaller than                           but Hillsborough County, the student count
-the shed in image 3. This is because of poor                             increases upon adjusting the network pedestrian
-connectivity of the roadway network that has not                         shed to account for barriers and facilitators to
-been adjusted by any facilitators. In image 3, the                       walking. The increased student count suggests
-dashed line inside the dark area shows the                               that for schools in these counties, facilitators are
-pedestrian pathways (facilitators) which expand                          in place to enhance the pedestrian environment.
-the connected pedestrian network. The case of                            This is particularly true of Seminole County,
-shed adjustment (potential reduction) from bar-                          which shows the highest rate of increase and
-riers to walkability is not illustrated in this figure;                  has back entrances to schools that connect to
-however, one of the cases in the article illustrates                     the surrounding cul-de-sac neighborhoods. In
-this situation.                                                          contrast, in Hillsborough County, the drop of
-Two measures – PRD and student count – are                           student counts in the pedestrian shed, which
-the focus of the analysis within these pedestrian                        includes barriers and facilitators (shed #3), com-
-sheds. An examination of PRD for a pedestrian                            pared to the network distance shed (shed #2)
-shed can shed light on the configuration and                             indicates that the pedestrian network shed has
-characteristics of the roadway network and other                         more barriers and hazardous walking conditions
-formal and informal pathways. Student count,                             than the other three counties.
-a measure of the number of students residing                                Overall, the data summarized in Table 2
-within the pedestrian shed, indicates how effec-                         indicate that using GIS to account for distance
-tively the pedestrian shed captures potential                            along the roadway network and barriers and
-pedestrians, or students along these networks.                           facilitators to walking results in a more refined
-representation of walkability than does simply
-measuring walking distance along a straight-line
-Results                                                                  or even along the roadway network. To further
-understand this difference and illustrate the
-Table 2 summarizes the results. For all school                           findings, it is helpful to examine three selected
-districts, PRD values decrease as the pedestrian                         schools – Bear Lake Elementary in Seminole
-shed is adjusted. Decreasing values indicate that                        County, Pineloch Elementary in Orange County
-as the pedestrian shed is adjusted to the roadway                        and Seven Springs Elementary in Pasco County.
-network and to barriers and facilitators, PRD                            Table 3 lists the pedestrian shed size, the PRD
-increases, that is, shorter, more direct paths to                        value and the student count for the three
-schools are available. Orange and Seminole                               pedestrian sheds corresponding to each school.
-Counties, which have had policies to coordinate                          Figure 2 illustrates these pedestrian sheds for each
-school siting with residential development,                              school.
-have the highest number of children in close                                Bear Lake Elementary is situated in a neighbor-
-proximity to schools overall. In contrast, the                           hood with an eroding grid street pattern. Upon
-Table 2: Average pedestrian route directness and student count for schools in sample of four counties in Tampa Bay and Orlando
-areas
-Corresponding pedestrian sheda,b                 Pedestrian route directness (avg.)                               Student count (avg.)
-1                     2                 3                    1                 2
-Orange County schools                      2.08                  1.82               1.63               216.27             44.09
-Seminole County schools                    2.30                  1.79               1.44               232.50             57.25
-Pasco County schools                       2.06                  1.96               1.45               147.34             30.67
-Hillsborough County schools                2.24                  1.68               1.37               156                68.07
-a
-Pedestrian shed numbering corresponds to methodological steps: (1) Calculated using straight-line distance; (2) Adjusted based on
-distance along the roadway network and school attendance zone boundaries; (3) Adjusted based on barriers and facilitators to
-walking.
-b
-This table takes into account a sample of 32 schools randomly selected across the four counties, as determining the location of
-barriers and facilitators to walking required field-work and interviews.
-r 2011 Macmillan Publishers Ltd. 1357-5317   URBAN DESIGN International       Vol. 16, 1, 51–62
-g
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3
-66.73
-98.5
-62.5
-59.07
-
-
-
-
-
-
-
-57
-
-Bejleri et al
-Table 3: Examination of three selected schools
-Corresponding pedestrian sheda       Pedestrian shed size (sq. miles)          Pedestrian route directness            Student
-1              2               3         1             2             3         1       2
-Bear Lake Elementary                0.50           0.08           0.36       3.32         1.94          1.39       203     21
-Pineloch Elementary                 0.50           0.24           0.18       1.51         1.35          1.36       221     34
-Seven Springs Elementary            0.50           0.10           0.18       2.03         1.79          1.66       190     15
-a
-Pedestrian shed numbering corresponds to methodological steps: (1) Calculated using straight-line distance; (2) Adjusted bas
-distance along the roadway network and school attendance zone boundaries; (3) Adjusted based on barriers and facilitators to
-walking.
-Figure 2: Pedestrian sheds for three selected schools.
-adjusting the straight-line pedestrian shed (shed                      for these facilitators the shed size rebounds to
-#1 shown in circular white dashed line) to account                     0.36 square miles (shed #3 shown in solid thick
-for network distance, several disconnected cul-de-                     black line). The pedestrian paths contribute to
-sacs cause a drop in the shed’s size from 0.5                          decreased PRD values (reflecting more direct
-square miles for shed #1 to less than one-tenth of a                   routes) and the capture of an additional 100
-square mile for shed #2 shown in solid white line.                     students within the shed.
-Two formalized pedestrian paths connect these                             Pineloch Elementary represents an opposing
-cul-de-sacs to rear school entrances. After adjusting                  scenario. A major high speed limited access
-58                     r 2011 Macmillan Publishers Ltd. 1357-5317  URBAN DESIGN International    Vol. 16, 1, 51–62
-
-
-count
-3
-122
-27
-39
-
-ed on
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-freeway (Interstate 4) running diagonally in the
-north-east to south west side of the school bisects
-the SAZ. However an underpass to the northeast
-of the school allows access for some students
-living on the north side past the interstate road
-which explains the expansion of sheds #2 and #3
-past the interstate on the north side. The interstate
-generates substantial traffic on a major north-
-south roadway intersecting the neighborhood
-south of the school. Although the underpass
-facilitates walking accessibility, the north-south
-arterial acts as a barrier to walking. Unlike the
-case of Bear Lake in which the pedestrian shed
-size increases upon accounting for barriers and
-facilitators to walking, the proximity of the
-major arterial in the case of Pineloch causes a
-decrease in pedestrian shed size from 0.24 square
-miles to 0.18 square miles, capturing seven fewer
-students.
-Seven Springs Elementary is located adjacent to
-a neighborhood with a curvilinear street pattern
-and several cul-de-sacs. Only 15 students are
-captured within the pedestrian shed as measured
-along the roadway network (shed #2 shown in
-solid white line) without accounting for barriers
-and facilitators. As in the case of Bear Lake,
-however, pedestrian paths exist, linking cul-de-
-sacs to a rear school entrance. Unlike Bear Lake’s
-formal pathways, the pathways near Seven
-Springs are informal, yet they produce similar
-results. Upon accounting for the pathways, the
-pedestrian shed size increases from 0.10 square
-miles (shed #2) to 0.18 (shed #3), and an
-additional 24 students fall within the pedestrian
-shed. The importance of direct routes is illustrated
-by the small island of students living directly to
-the northwest of Seven Springs (small donut hole
-shown in black solid line). These students live in
-close proximity to the school, but no direct route
-exists between their cul-de-sacs and the school,
-resulting in a lack of accessibility.
-
-
-Summary of Findings
-
-Findings emerging from this detailed analysis
-include:
-
-K  Major roadways can be common barriers to walking;
-however, the barrier may be mitigated by careful
-placement of SAZ boundaries and/or the presence of
-a school crossing guard. A major roadway bisects
-the pedestrian sheds of all three schools. In the
-case of Bear Lake, the SAZ boundary runs
-r 2011 Macmillan Publishers Ltd. 1357-5317
-The role of barriers and facilitators to walking
-along the major road, negating the barrier as
-students living across the road are zoned to
-another school. A crossing guard may also
-negate a major road’s impact on accessibility,
-as in the case of Seven Springs where a crossing
-guard is positioned at the intersection of a
-major road just east of the school.
-K  Formal and informal pedestrian pathways may
-increase the size of the pedestrian shed, capturing
-more students. The travel can be shortened by
-creating a more direct path from a disconnected
-street grid or by creating additional entrances to
-the school. Pedestrian pathways present at both
-Bear Lake and Seven Springs allow walking
-access to school for increased numbers of
-students. This finding is also illustrated in the
-pocket of students living on cul-de-sacs dis-
-connected from Seven Springs’ rear entrance
-who do not fall within the pedestrian shed.
-K  SAZ boundary placement may affect the presence
-and role of barriers and facilitators within the
-pedestrian shed. The boundary placement may also
-affect how effectively the pedestrian shed captures
-student residential density. Pineloch’s SAZ
-boundary in combination with the major
-north-south arterial limit the amount of resi-
-dential density captured within the pedestrian
-shed. In the case of Bear Lake and Seven
-Springs, accounting for facilitators to walking
-results in increased capture of student residen-
-tial density.
-
-
-
-Discussion and Conclusions
-
-Understanding the complexities of the built
-environment and the experience a child entails
-between home and school is important. Much of
-the analysis on urban form of neighborhoods in
-the current literature use simplified surrogates
-of the distance that pedestrians need to travel,
-such as straight-line distance, block length or
-size, street or intersection density to name a few.
-Although these measures provide a good indica-
-tion of the overall characteristics of a street
-network in a neighborhood, they do not always
-accurately account for the conditions that face
-pedestrians in their daily travels. When people
-walk toward a specific destination they will seek
-the shortest path – whether formal or informal –
-that will get them safely there. For children
-walking to school, the distance can be measured
-more accurately along the paths that include
-URBAN DESIGN International   Vol. 16, 1, 51–62                   59
-
-Bejleri et al
-barriers that lengthen or facilitators that shorten
-the distance. Barriers can include school atten-
-dance boundaries, major highways, hazardous
-walking conditions and fences. Facilitators include
-school crossing guards, informal paths and back
-entrances to school sites that connect to cul-de-sac
-neighborhoods.
-This study examines the potential for children
-to walk to school by using GIS to analyze the role
-of barriers and facilitators along a pathway
-network. Accounting for changes to the roadway
-network caused by barriers and facilitators offers
-a more realistic version of the true distance a child
-could potentially walk and more closely aligns
-with the actual way that pedestrians walk in and
-around a neighborhood. The method used here
-indicates that, different from common measure
-of walkability that uses straight-line distance or
-network distance, GIS can assist in providing
-a more accurate assessment of the walkability by
-factoring in barriers and facilitators in the
-calculation of the pedestrian network distance.
-The study found that barriers and facilitators
-play critical roles in how the urban landscape
-can be traversed and, in turn, greatly affect
-walkability and accessibility to school.
-This research has implications beyond chil-
-dren’s travel to school. The GIS methodology
-presented here can be generalized for broader
-applicability to the analysis of pedestrian travel
-as a function of physical urban form. For instance,
-network analysis that includes barriers and
-facilitators could be used to assess walkability to
-a variety of neighborhood locations, such as
-shopping centers, restaurants, churches or transit
-stops. Barriers to such destinations include free-
-ways and wide streets with long distances
-between crossing walks. Conversely, pedestrians
-may use facilitators that shorten their walking
-distance, such as informal and formal pathways
-connecting cul-de-sacs and pedestrian over-
-passes.
-The GIS automation of network distance calcu-
-lations enables flexibility in replicating the same
-methodology for a variety of pedestrian sheds,
-either smaller or larger than the half mile distance
-used in this study. Once the pedestrian network
-is adjusted to include barriers and facilitators,
-GIS can easily recalculate the pedestrian shed
-boundaries, network paths, residential dwelling
-count or other variables used in the study for
-different shed sizes.
-It is recognized that in addition to the distance,
-social concerns and personal decisions contribute
-60                   r 2011 Macmillan Publishers Ltd.
-
-to or inhibit the ability to walk between places.
-Additional research is needed to investigate these
-interactions in coupling such findings with what
-we know and continue to discover about the
-impacts of our built environments on walkability.
-For instance, the GIS methodology of this study
-could be expanded to include assessment of
-some of the other important variables affecting
-walkability such as safety from crime and safety
-from traffic. GIS layers of crime incidences,
-pedestrian crashes, graffiti and other signs of
-social disorder can be spatially overlaid on the
-pedestrian network and each segment of the
-network could be ranked and weighted based
-on these factors. This analysis could be useful to
-inform and target education, law enforcement
-and policies to enhance the walkability for
-children. Equipped with this information and
-the tools to conduct studies like this one is
-encouraging for future research on this and
-related topics.
-It is important to emphasize that the accuracy
-of the results developed by the GIS computations
-depends on the quality of the input data. Typical
-GIS roadway networks do not include a complete
-inventory of formal pedestrian walking paths,
-greenways, sidewalks and informal paths. Field
-observations will generally be needed to adjust
-the GIS roadway network to account for
-pedestrian travel paths and to understand the
-broader physical conditions impacting the walk-
-ing paths.
-In addition to the contribution on the GIS
-methodology, this study provides findings that
-have broader importance to the walkability as
-it relates to the physical environment. The
-elements of urban form, such as the layout and
-configurations of urban blocks and street net-
-works, permeability and connectivity do affect
-our opportunities to walk. Planning and design of
-physical urban environments that are conducive
-to walking are affected by policy and implemen-
-tation of the policy through urban design.
-From the policy viewpoint, these findings can
-be used to develop better policies and regulations
-to enhance walkability for children. School Boards
-(decision makers for school locations) and Plan-
-ning Departments (decision makers on urban
-development) should coordinate their efforts to
-promote policies that support location of schools
-in close proximity to high density developments
-served by a well-connected and safe pedestrian
-circulation network. Delineation of SAZs should
-include criteria that increase walkability to school
-1357-5317 URBAN DESIGN International Vol. 16, 1, 51–62
-
-
-by maximizing the number of students that go to
-the nearest school considering the pedestrian
-network adjusted for barriers and facilitators.
-
-Related to this, these decision makers must
-strategically locate entrances to school to max-
-imize access without jeopardizing safety. Addi-
-tionally the use of bicycles should be encouraged
-
-to potentially increase active travel.
-
-At the urban design level, considerations
-should be given to the layout of street network
-blocks and buildings to support safe pedestrian
-circulation with good permeability connectivity
-and accessibility throughout the neighborhood. In
-
-particular, findings from this study emphasize the
-importance of designing for connected pedestrian
-paths that minimize barriers and maximize
-facilitators. Suitable sidewalks that shelter pedes-
-trian well from vehicle traffic, well-designed
-
-intersection crossing that are pedestrian friendly,
-inclusion of pedestrian-only designated paths that
-connect residencies to other paths to school and
-well-designed and strategically placed pedestrian
-overpasses or underpasses. The design of the
-
-well-connected safe paths should be extended
-to the use of bicycles which students can use to
-travel longer distances.
-
-
-
-Notes
-
-
-1 Community-based program to increase opportunities for
-
-children to walk to and from school (www.cdc.gov/
-
-nccdphp/dnpa/kidswalk/).
-
-2 A walking school bus is a group of children who walk to
-
-school with one or more adults. It can be as informal as
-
-two families taking turns walking their children to school to
-
-as structured as a route with meeting points (www
-
-.walkingschoolbus.org).
-
-3 An auxiliary police officer, community-volunteer, or other
-
-official who directs traffic for the purpose of assisting
-
-children in crossing streets near a school. Crossing guards
-
-are typically employed by local governments.
-
-4 School districts in the state of Florida are coterminous with
-
-Florida’s county boundaries.
-
-5 De-identified data refer to a data set in which sensitive
-
-information has been removed to protect the identity of
-
-students.
-
-
-
-
-References
-
-City of Raleigh, North Carolina. (2008) Design guidelines for
-pedestrian-friendly neighborhood schools, http://www
-.raleighnc.gov/publications/Planning/Guides,_Handbooks_
-and_Manuals/School_Design_Guidelines.pdf, accessed 16
-June 2008.
-r 2011 Macmillan Publishers Ltd. 1357-5317
-The role of barriers and facilitators to walking
-Collins, D. and Kearns, R. (2005) Geographies of inequality:
-Child pedestrian injury and walking school buses in
-Auckland, New Zealand. Social Science and Medicine 60(1):
-61–69.
-Dellinger, A. and Staunton, C. (2002) Barriers to children
-walking and biking to school in the United States. 1999.
-Morbidity and Mortality Weekly Report 51(32): 701–704.
-Dietz, W.H. (1998) Health consequences of obesity in youth:
-Childhood predictors of adult disease. Pediatrics 101(3 Pt 2):
-
-518–525.
-Dill, J. (2004) Measuring network connectivity for bicycling
-and walking. Presented at the Annual Transportation
-Research Board meeting, Washington DC.
-Ewing, R. (1999) Pedestrian- and transit-friendly design:
-A primer for smart growth. EPA Smart Growth Network,
-http://www.lcd.state.or.us/LCD/TGM/docs/ReidEwing
-Primer_primer.pdf, accessed 16 March 2010.
-Ewing, R. and Greene, W. (2003) Travel and Environmental
-Implications of School Siting. U.S. Environmental Protection
-Agency (EPA). EPA231-R-03-004.
-Fagot-Campagna, A. et al (2000) Type 2 diabetes among
-North American children and adolescents: An epidemio-
-logic health perspective. Journal of Pediatrics 136(5):
-664–672.
-Federal Highway Administration (FHWA). (2010) Safe routes
-to school program, http://safety.fhwa.dot.gov/saferoutes/,
-accessed 15 March 2010.
-Frank, L.D., Schmid, T.L., Sallis, J.F., Chapman, J. and Saelens,
-B.E. (2005) Linking objectively measured physical activity
-with objectively measured urban form: findings from
-SMARTRAQ. American Journal of Preventive Medicine
-28(2S2): 117–125.
-Freeman, C. and Quigg, R. (2009) Commuting lives: Children’s
-mobility and energy use. Journal of Environmental Planning
-and Management 52(3): 393–412.
-Frumkin, H., Frank, L. and Jackson, R. (2004) Urban Sprawl and
-Public Health: Designing, Planning, and Building for Healthy
-
-Communities. Washington DC: Island Press.
-
-Hannon, T.S., Rao, G. and Arslanian, S.A. (2005) Childhood
-
-obesity and type 2 diabetes mellitus. Pediatrics 116(2):
-
-473–480.
-
-Kerr, J., Rosenberg, D., Sallis, J.F., Saelens, B.E., Frank, L.D. and
-
-Conway, T.L. (2006) Active commuting to school: Associa-
-
-tions with environment and parental concerns. Medicine &
-
-Science in Sports & Exercise 38(4): 787–793.
-
-Larsen, K., Gilliand, J., Hess, P., Tucker, P., Irwin, J. and He, M.
-
-(2009) The influence of the physical environment and
-
-sociodemographic characteristics on children’s mode of
-
-travel to and from school. American Journal of Public Health
-
-99(3): 520–526.
-
-McDonald, N.C. (2007) Children’s mode choice for the school
-
-trip: The role of distance and school location in walking to
-
-school. Transportation 35: 23–35.
-
-McMillan, T. (2006) The relative influence of urban form on a
-child’s travel mode to school. Transportation Research, Part A
-41(1): 69–79.
-McMillan, T., Day, K., Boarnet, M., Alfonzo, M. and Anderson,
-C. (2006) Johnny walks to school – Does Jane? Sex dif-
-ferences in children’s travel to school. Children’s Youth and
-Environments 16(1): 71–89.
-Mitchell, H., Kearns, R. and Collins, D. (2007) Nuances of
-neighborhood: Children’s perceptions of the space between
-home and school in Auckland, New Zealand. Geoforum 38:
-614–627.
-URBAN DESIGN International      Vol. 16, 1, 51–62                      61

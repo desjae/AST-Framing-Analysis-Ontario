@@ -1,0 +1,545 @@
+Parental Attitudes Toward Children
+Walking and Bicycling to School
+Multivariate Ordered Response Analysis
+Saamiya Seraj, Raghuprasad Sidharthan, Chandra R. Bhat,
+Ram M. Pendyala, and Konstadinos G. Goulias
+Recent research suggests that, besides traditional sociodemographic and              school, these modes have experienced a dramatic decline in modal
+built environment attributes, the attitudes and perceptions of parents               share over the past 40 years. Whereas in 1969 nearly one-half of all
+toward walking and bicycling play a crucial role in deciding which travel            school trips were made by walking or bicycling, by 2009 that share
+modes children take to school. However, little is known about the factors            had dropped to under 15% (6).
+that shape these parental attitudes. The current study aims to investi-                 There is a vast body of literature that identifies and quantifies the
+gate this unexplored avenue of research and to identify the influences               influence of demographic, built environment, and socioeconomic
+on parental attitudes toward children walking and bicycling to school                characteristics on the mode of travel to school. Of the demographic
+as part of a larger nationwide effort to make children more physically               variables, the child’s age, gender, and ethnicity or race have been
+active and combat rising trends of childhood obesity in the United States.           found to significantly impact the modal choice for school travel
+Through the use of a multivariate ordered response model (a model                    (7–12). In general, older children and boys are more likely to walk
+structure that allows different attitudes to be correlated), the current study       or bicycle to school than other children. On the issue of race, papers
+analyzes five parental attitudes toward children walking and bicycling to            present conflicting results, with some studies attributing this difference
+school on the basis of data drawn from the California add-on sample of               to underlying factors, such as household socioeconomic status and
+the 2009 National Household Travel Survey. In particular, the subsample              residential location (11). Other papers suggest that these differences
+from the Los Angeles–Riverside–Orange County area is used in this                    could be the result of cultural variations in attitudes and perceptions
+study to take advantage of a rich set of microaccessibility measures that            among parents of different ethnicities (9). Finally, built environment
+are available for this region. It is found that school accessibility, work           attributes and accessibility variables are also important determinants
+patterns, current mode use in the household, and sociodemographic                    of children’s modes of travel to school. The distance to school is
+characteristics shape parental attitudes toward children walking and                 one of the most notable variables that influence the choice to use
+bicycling to school. The study findings provide insights on policies, strat-         nonmotorized modes of transportation (13, 14). There is a growing
+egies, and campaigns that may help shift parental attitudes to be more               body of evidence that parental attitudes and opinions are also criti-
+favorable toward children walking and bicycling to school.                           cal determinants of children’s school travel mode. In a study based
+                                                                                     in Southern California, McMillan found that the attitudes and per-
+                                                                                     ceptions of parents regarding the safety and traffic situation of the
+In recent years, there has been an alarming increase in the rate of                  neighborhood, as well as certain social norms, were more important
+obesity among children in the United States. The latest statistics                   in influencing the choice of school travel mode than built environ-
+suggest that nearly one in five school-aged children is obese, a rate                ment attributes (9). Children with parents who had greater concerns
+that has tripled from just 30 years ago (1, 2). Because obesity rates                about traffic conditions or neighborhood safety were less likely to
+are being tied to sedentary lifestyles, there is a vast body of literature           walk or cycle to school. Timperio et al. found that parental percep-
+at the interface of transportation and public health that identifies and             tions of the neighborhood were more strongly related to the choice
+quantifies the influence of various factors on levels of physical activ-             of children’s travel mode than the child’s own perceptions of the
+ity and the use of active modes of transportation, namely, walking                   neighborhood (7). Zhu and Lee reported similar findings and noted
+and bicycling (3–5). Despite the potential benefits associated with                  that parents’ perceptions of barriers were greater deterrents to walking
+using nonmotorized modes of transportation for travel to and from                    and bicycling than children’s perceptions of barriers (15). Zhu and
+                                                                                     Lee found that a child was four times more likely to walk if the
+                                                                                     parent perceived the distance to be close enough for the child to walk.
+S. Seraj, R. Sidharthan, and C. R. Bhat, Department of Civil, Architectural, and     The Zhu and Lee (15) study, as well as the study of Wen et al. (16),
+Environmental Engineering, University of Texas at Austin, 1 University Station       showed that actual experience with the nonmotorized modes of
+C1761, Austin, TX 78712-0278. R. M. Pendyala, School of Sustainable Engineer-
+ing and the Built Environment, Arizona State University, Room ECG252, Tempe,
+                                                                                     transportation influenced parental attitudes and perceptions of the
+AZ 85287-5306. K. G. Goulias, Department of Geography, 1832 Ellison Hall, Univer-    built environment and neighborhood safety. Parents of children
+sity of California, Santa Barbara, Santa Barbara, CA 93106-4060. Corresponding       who walked regularly to school perceived the built environment
+author: C. R. Bhat, bhat@mail.utexas.edu.                                            and neighborhood to be less dangerous than parents whose children
+                                                                                     did not walk or bicycle to school.
+Transportation Research Record: Journal of the Transportation Research Board,
+No. 2323, Transportation Research Board of the National Academies, Washington,
+                                                                                        Despite studies that show the clear importance of parental attitudes
+D.C., 2012, pp. 46–55.                                                               and perceptions toward bicycling and walking in the choice of mode
+DOI: 10.3141/2323-06                                                                 for school travel, there is a dearth of research on identifying and
+                                                                                  46
+
+Seraj, Sidharthan, Bhat, Pendyala, and Goulias                                                                                                    47
+quantifying the influence of various factors on these attitudes and      The third section describes the data used in this study and presents
+perceptions. In the case of school-going children, parents are likely    descriptive statistics of the sample. The fourth section presents model
+to play a strong decision-making role when it comes to modal choice      estimation results. The final section offers conclusions and a discussion
+for school-related travel. Thus, insights into the factors that shape    of the policy implications of the results.
+parental attitudes and perceptions toward their children walking and
+bicycling to school would greatly aid professionals in designing poli-
+cies, campaigns, and built environments that would help promote the      Modeling Methodology
+use of these modes. A few studies provide initial indications of the
+factors that are likely to influence parental attitudes and perceptions. A multivariate ordered response modeling structure is used for the
+Timperio et al. noted that the age of the child and the household’s      current study. The modeling framework assumes the presence of
+socioeconomic status influenced parental attitudes and perceptions       an underlying set of multivariate continuous latent variables whose
+(7). Johansson, who looked broadly at children’s leisure travel, found   horizontal partitioning maps into the observed set of ordered outcomes
+that parents of older children adopted a more positive attitude toward   (in the current empirical context this would be the degree to which
+independent travel than parents of younger children (17). Parents        a parent considers a certain factor to be an issue in children walking
+in households with higher levels of car ownership were found to          or bicycling to school). Such an ordered response system allows the
+be more inclined toward chauffeuring their children by car and less      use of a general covariance matrix for the underlying latent vari-
+inclined toward supporting independent travel by the child.              ables, which translates to a flexible correlation pattern between the
+   This paper is motivated by previous work that suggests the pres-      observed ordered outcomes. Although there have been numerous
+ence of strong associations between attitudes and travel behavior        applications of the univariate ordered response model in previous
+[see van Acker et al. (18)]. Theoretical frameworks that describe the    transportation literature, the application of multivariate ordered
+underlying reasons for and the nature of the associations between        response models, especially for more than three ordered outcome
+attitudes and behavior are offered by Ajzen and Fishbein (19). Van       variables, is extremely rare. Bhat et al. provide a summary of the
+Acker et al. developed a model, based on frameworks presented by         literature in this area and propose the use of the composite marginal
+Ajzen and Fishbein, that included a spatial component and a socio-       likelihood approach to estimate a multivariate ordered response model
+economic component from the theories of transport geography and a        (20). Because the composite marginal likelihood approach uses a
+personality component from the theories of social psychology (18).       simple estimation technique and requires no simulation machinery,
+In this context, this paper aims to shed additional light on parental    yet produces consistent and unbiased results, the composite mar-
+attitudes and perceptions toward bicycling and walking as modes          ginal likelihood approach is used in this study to estimate model
+of transportation for children’s school travel. The paper provides a     parameters. The remainder of this section presents a brief overview
+more comprehensive examination of the factors that shape parental        of the formulation.
+attitudes and perceptions toward these modes by simultaneously               Let q be an index for individuals (q = 1, 2, . . . , Q), and let i be
+considering five attitudinal variables in a joint model system. Each     the index for attitudinal variables (i = 1, 2, . . . , I), where I denotes
+attitudinal variable is an ordered response variable; the response       the total number of attitudinal variables for each individual (in the
+indicates the extent to which the factor is considered by the parent to  current study, I = 5). Let the number of response values for attitudi-
+be an issue in their children walking or bicycling to school. A multi­   nal variable i be Ki (i.e., the discrete levels indexed by k belong
+variate ordered response model is formulated and applied in this         in {1, 2, . . . , Ki} for variable i). In the usual ordered response
+paper to account for the presence of possible correlations between       framework notation, the latent propensity (y*qi) for each attitudinal
+unobserved attributes that simultaneously affect different attitudinal   category is written as a function of the relevant covariates and
+variables. The model system is estimated on a subsample of the           related to the observed ordered outcome (yqi) through threshold
+California add-on of the 2009 National Household Travel Survey,          bounds (21, 22):
+which included a series of questions on parental attitudes toward
+children bicycling and walking to and from school. In particular,
+the subsample from the Southern California region covered by the         y*qi = ß'i x qi + e qi , yqi = k if <U+03B8>ik -1 < y*qi < <U+03B8>ik                   (1)
+Los Angeles–Riverside–Orange County consolidated metropolitan
+statistical area is chosen because of the availability of a rich set     where
+of microaccessibility measures that can be included in the model
+specification.                                                               xqi =	(L × 1) vector of exogenous variables (not including a
+   One of the key hypotheses that motivated this study was that par-                constant),
+ents of children who regularly walked or cycled were less likely to           ßi = corresponding (L × 1) vector of coefficients to be estimated,
+be concerned about the various factors that served as deterrents to          eqi = standard normal error term, and
+the use of nonmotorized modes of transportation. It was postulated           <U+03B8> ik =	upper bound threshold for ordered response level k of
+that such parents are likely to be more aware of the built environ-                 attitudinal category i (<U+03B8>i0 < <U+03B8>1i < <U+03B8>i2 < . . . < <U+03B8>iKi; <U+03B8>i0 = -8,
+ment and their children’s navigational abilities than parents whose                 <U+03B8>iKi = +8 for each category i).
+children did not walk or bicycle as much. In the absence of infor-           The threshold bounds define a range of the underlying latent
+mation, parents in the latter group are more likely to develop an        continuous variable that corresponds to each observed discrete
+exaggerated sense of danger associated with the use of nonmotorized      outcome. The eqi terms are assumed to be independent and identical
+modes and, thus, are less likely to permit their children to walk or     across individuals (for each and all i). For identification reasons, the
+bicycle to school.                                                       variance of each eqi term is normalized to one. However, the model
+   The remainder of this paper is organized as follows. The second       allows correlation in the eqi terms across attitudinal variables i for each
+section presents the modeling methodology adopted in this paper.         individual q. If eq = (eq1, eq2, eq3, . . . , eqI)', then eq is multivariate
+
+48                                                                                                                                                        Transportation Research Record 2323
+normally distributed (N) with a mean vector of zeros and a correlation                                                         I -1    I
+matrix (S) as follows:                                                                                        LCML,q ( d ) = <U+220F> <U+220F> Pr ( yqi = mqi , yqg = mqg )
+                                                                                                                               i =1 g = i +1
+          <U+F8EE><U+F8EB> 0<U+F8F6> <U+F8EB> 1                    <U+03C1>12 <U+03C1>13  <U+03C1>1I <U+F8F6> <U+F8F9>
+                                                                                                                                             <U+F8EF>
+                                                                                                                                                  (
+                                                                                                                                             <U+F8EE> F 2 <U+03B8>imqi +1 - ß'i x qi , <U+03B8>mg qg +1 - ß'g x qg , <U+03C1>ig  ) <U+F8F9><U+F8FA>
+          <U+F8EF><U+F8EC> <U+F8F7> <U+F8EC>
+          <U+F8EF><U+F8EC> 0 <U+F8F7> <U+F8EC> <U+03C1>21                   1 <U+03C1>23  <U+03C1>2 I <U+F8F7> <U+F8FA>
+                                                                          <U+F8F7><U+F8FA>                                                   I -1
+                                                                                                                           = <U+220F><U+220F><U+F8EF>
+                                                                                                                                       I
+                                                                                                                                                      (  mqi +1                mqg
+                                                                                                                                             <U+F8EF> - F 2 <U+03B8>i - ß'i x qi , <U+03B8> g - ß'g x qg , <U+03C1>ig             )<U+F8FA>  (4)
+e q ~ N <U+F8EF><U+F8EC> <U+F8F7> , <U+F8EC>
+          <U+F8EF><U+F8EC>  <U+F8F7> <U+F8EC>                                     <U+F8F7><U+F8FA>
+                                                                          <U+F8F7><U+F8FA>                                                                          (  mqi
+                                                                                                                               i =1 g = i +1 <U+F8EF> - F 2 <U+03B8> i - ß'i x qi , <U+03B8> g
+                                                                                                                                                                            mqg +1
+                                                                                                                                                                                   - ß'g x qg , <U+03C1>ig  ) <U+F8FA><U+F8FA>
+          <U+F8EF><U+F8EC> <U+F8F7> <U+F8EC>
+          <U+F8EF><U+F8F0><U+F8ED> 0 <U+F8F8> <U+F8ED> <U+03C1>I 1               <U+03C1>I 2 <U+03C1>I 3  1 <U+F8F8> <U+F8FA><U+F8FB>
+                                                                          <U+F8F7><U+F8FA>                                                                          (
+                                                                                                                                             <U+F8EF> + F <U+03B8>mqi - ß'x , <U+03B8>mqg - ß' x , <U+03C1>
+                                                                                                                                             <U+F8F0>      2    i       i qi       g        g qg       ig )    <U+F8FA>
+                                                                                                                                                                                                        <U+F8FB>
+                                                                                                              and
+or
+                                                                                                              LCML( d ) = <U+220F> LCML,q ( d )
+e q ~ N [ 0, S ]                                                                                          (2)                q
+    The off-diagonal terms of S capture the error covariance across                                           where CML denotes composite marginal likelihood and F2 () is
+the underlying latent continuous variables of the different attitudinal                                       the cumulative distribution function of a standard bivariate normal
+variables. In other words, the off-diagonal terms of S capture the                                            distribution.
+effects of common unobserved factors that influence the propensity                                               The pairwise likelihood function above is easily maximized,
+of ordered response levels for each attitudinal variable. Thus, if <U+03C1>12                                        and the effort involved is no more difficult than in a usual bivariate
+is positive, it implies that individuals with a higher than average                                           ordered probit model. The pairwise estimator d^ CML, obtained by
+propensity to cite the first attitudinal variable as an issue are also likely                                 maximizing the logarithm of the function in Equation 4 with respect
+to have a higher than average propensity to cite the second attitudinal                                       to the vector d, is consistent and asymptotically normally distributed.
+variable as an issue. As a special case, if all the correlation parameters                                    Additional inference details of the pairwise estimator are provided
+(i.e., the off-diagonal elements of S stacked into a vertical vector O)                                       in Bhat et al. (20).
+are zero, the model system in Equation 1 collapses to a set of
+independent ordered response probit models.
+    The parameter vector of the multivariate ordered probit model is                                          Data Description
+d = (ß1' , ß'2 , . . . , ß'I ; <U+03B8>1' , <U+03B8>'2 , . . . , <U+03B8>'I ; <U+2126>' )'                                                In this study, the Southern California portion of the California
+                                                                                                              add-on sample from the 2009 National Household Travel Survey
+                                                                                                              was used. This particular sample was used because the California
+where <U+03B8>i = (<U+03B8>1i, <U+03B8>i2, . . . , <U+03B8>iKi-1)' for i = 1, 2, . . . , I. Let the actual                                add-on survey included a series of questions on the attitudes of adults
+observed ordered response level for individual q and attitudinal                                              toward their own bicycling and walking patterns, as well as a series
+variable i be mqi. Then, the likelihood function (L) for individual q                                         of questions on the attitudes of parents toward their children walking
+may be written as follows:                                                                                    and bicycling to school. The subsample from the Southern California
+                                                                                                              region was from the Los Angeles–Riverside–Orange County con-
+ Lq ( d ) = Pr ( yq1 = mq1 , yq 2 = mq 2 , . . . yqI = mqI )                                                  solidated metropolitan statistical area and was selected for analysis
+                                                                                                              because a rich set of microaccessibility measures that describe the
+In other words                                                                                                built environment was available for this geographical area.
+                                                                                                                 Descriptive statistics for the sample used in the analysis of this
+                <U+03B8>1
+                  mq1 - ß1' xq 1          m - ß 2' xq 2
+                                        <U+03B8>2 q2                      <U+03B8>I
+                                                                     mqI - ß I' xqI                           paper are presented in Tables 1 to 4. After extensive data clean-
+Lq ( d ) =            <U+222B>                       <U+222B>            ...           <U+222B>                                    ing and filtering, the final sample available for analysis included
+                  mq1 -1
+            v1 = <U+03B8>1
+                                          m -1
+                          -ß1' x q1 v2 = <U+03B8>2 q2 -ß '2 x q 2
+                                                                     mqI -1
+                                                               vI = <U+03B8>I        -ß 'I x qI
+                                                                                                              1,000 respondents. Only one parent in each household answered these
+                                                                                                              attitudinal questions for one randomly chosen school-aged child.
+                                                    f I ( v1 , v2 , . . . , vI <U+2126> )dv1 , dv2 , . . . , dvI (3) The availability of automobiles was high, with only 2% of households
+                                                                                                              indicating zero-car ownership. Nearly one-half of the households
+where Pr denotes probability and <U+03D5>I is a probability density function                                         fell into the highest income category (of the three categories used in
+of an I-dimensional multivariate normal distribution.                                                         this paper) of $80,000 and above, thereby suggesting that the sample
+    The likelihood function above requires the computation of an                                              used for the analysis in this paper was relatively affluent. As expected,
+I-dimensional rectangular integral. The evaluation of such multi-                                             household size distribution was skewed toward larger households, as
+dimensional normal integrals can be problematic in terms of com-                                              the sample chosen for analysis included only those households that
+putational effort, even for moderate sizes of I. Furthermore, such                                            had at least one child. A vast majority of the households were located
+simulation methods become imprecise as the number of dimensions                                               in an urban area (as defined by the urban–rural classifications in the
+increases, leading to convergence problems during estimation. For                                             2000 census). A majority of children were found to travel to and
+these reasons, this paper employs a pairwise marginal likelihood esti-                                        from school by car. However, the percentage of children bicycling or
+mation approach that corresponds to a composite marginal approach                                             walking to school was about 21%, which was higher than the national
+based on bivariate margins [see Apanasovich et al. (23) and Bhat                                              average of 13% (24). About 38% of the children resided less than
+et al. (20) for the use of the pairwise likelihood approach]. The pair-                                       1 mi from the school location; about an equal percentage resided
+wise marginal likelihood function (L) for individual q may be written                                         more than 2 mi from school. The former group was a candidate for
+as follows:                                                                                                   walking and bicycling to school; the use of such modes was likely to
+
+Seraj, Sidharthan, Bhat, Pendyala, and Goulias                                                                                                  49
+           TABLE 1   Sample Data for Parental Attitudes                  TABLE 3   Sample Data for School Characteristics
+           Characteristic                Number of Responses             Characteristic          Percentage       Characteristic         Percentage
+           Crime                                                         Mode to school                           Distance to school
+              Not an issue                         437                     Car                      68.7            <1 mi                   38.4
+              Little bit of an issue               178                     Bus                        9.4           1–2 mi                  22.9
+              Somewhat of an issue                 154                      Walk or bike            20.7            >2 mi                   38.7
+              Very much an issue                     87                    Other                      1.2         Type
+              A serious issue                      144                   Mode from school                           Public school           85
+           Weather                                                         Car                      63.2            Private school          15
+              Not an issue                         592                     Bus                      11
+              Little bit of an issue               183                      Walk or bike            24.9
+              Somewhat of an issue                 141                     Other                      0.9
+              Very much an issue                     43
+              A serious issue                        41                  Note: Sample size = 1,000.
+           Speed of traffic
+              Not an issue                         180
+              Little bit of an issue               115
+              Somewhat of an issue                 223
+                                                                         ticular, face time–space constraints associated with work schedules
+              Very much an issue                   179                   and locations that affect their children’s activity-travel patterns and
+              A serious issue                      303                   mode choices.
+           Volume of traffic                                                The parents were asked to describe the level of concern they had
+              Not an issue                         175                   about the dangers and difficulties their children might face while
+              Little bit of an issue               125                   walking or bicycling to school. Responses to these questions consti-
+              Somewhat of an issue                 199
+              Very much an issue                   188                   tuted the dependent variables in this study. More specifically, the five
+              A serious issue                      313                   interrelated dependent variables in this study were the responses that
+           Distance to school                                            parents gave when they were asked to indicate the extent to which
+              Not an issue                         285                   each of the following items was an issue in the context of their children
+              Little bit of an issue               126                   bicycling or walking to school:
+              Somewhat of an issue                 135
+              Very much an issue                   156
+              A serious issue                      298                      •  Distance between home and school,
+                                                                            •  Violence or crime along the route to school,
+           Note: Sample size = 1,000.                                       •  Speed of traffic along the route to school,
+                                                                            •  Amount of traffic along the route to school, and
+                                                                            •  Poor weather or climate in the area.
+be a challenge for the latter group (13). About 15% of the children
+attended private school, which is another indicator that the sample was     The response scale ranged from one to five, with a response of one
+relatively affluent. The parents in the sample were rather well edu-     indicating that the item was not considered an issue and a response of
+cated, with about 70% indicating their education level as “some col-     five indicating that the item was considered to be a serious issue or
+lege or above.” Of the fathers, 87% were workers; the corresponding      deterrent to the parent allowing the child to bicycle or walk to and
+percentage for mothers was lower, at just under 60%. In households       from school. Table 1 presents the distribution of responses provided
+with both a father and a mother, 54% indicated that both parents were    by parents to these five attitudinal variables. Of the five attitudinal
+workers. Thirty percent of these households listed both parents as       factors considered in this paper, the three factors that were most
+working full time. It is likely that these latter households, in par-    cited as being serious issues were the volume of traffic, the speed
+                                                                         of traffic, and the distance to school (in that order). About 30% of
+                                                                         the parents considered these three items to be serious issues that
+TABLE 2   Sample Data for Household Characteristics                      acted as deterrents to their children walking and bicycling to school.
+                                                                         About 60% of the parents considered weather not to be an issue,
+Characteristic        Percentage      Characteristic          Percentage
+Household size                        Race
+  2                        2.3          Caucasian                59.9               TABLE 4   Sample Data for Parental Characteristics
+  3                       19.9          Hispanic                 19.7
+  4                       43            Asian                     9.6               Characteristic                             Percentage
+   5 and above            34.8          African-American          4.6
+Vehicles                                Other                     6.2               Father
+  0                        2.1        Location                                        Worker                                      87.3
+  1                       14            Urban area               95                    Education: some college or above           73
+  2                       47.7          Nonurban area             5                 Mother
+  =3                      36.2                                                        Worker                                      58.7
+Income                                                                                 Education: some college or above           69.7
+  Low                     22.8                                                      Both parents
+  Medium                  29                                                           Both parents are workers                   54.5
+  High                    48.2                                                         Both parents are full-time workers         30
+Note: Sample size = 1,000.                                                          Note: Sample size = 1,000.
+
+50                                                                                                        Transportation Research Record 2323
+generally reflecting the favorable weather conditions in the Southern     attributes on parental attitudes. Most of the model coefficients were
+California region. About 44% of the parents considered crime not          statistically significant at the .05 level (these are the estimates in
+to be an issue. This statistic may be reflective of the larger share of   Table 5 with no superscript identifiers). A few variables were, how-
+high-income households (recall that nearly one in two households          ever, not statistically significant even at the .1 level; these variables
+fell into the highest income category used in this study) that are likely were retained in the model specification for their intuitively appealing
+to be located in safer and more affluent neighborhoods. However,          behavioral interpretation.
+perceptions of personal safety were important, as evidenced by the
+nearly 20% of parents who considered crime to be very much an issue
+or a serious issue when it came to their children walking or bicycling    Effect of School Attributes on Parental Attitudes
+to school.
+   The analysis for this paper considered a host of explanatory vari-     The first set of variables presented in Table 5 pertains to school
+ables that might affect parental attitudes toward children bicycling      attributes, namely, the distance to school and whether the school is a
+and walking to and from school. The explanatory variables could be        public or private school. As expected, when the distance to school was
+broadly classified into five categories: school attributes, children’s    less than a quarter-mile, parents were less likely to consider weather or
+attributes, parent’s attributes, household attributes, and built envi-    distance to be impediments to walking or bicycling to school. As the
+ronment attributes. Built environment attributes included a host of       distance increased, the coefficients showed an increasing trend for
+accessibility variables that measured transportation access and desti-    the variable that represented distance to school, thereby signifying
+nation opportunities. Accessibility measures included, for example,       that parents considered the distance to school to be an increasingly
+the total network length that a household could access within 10 min      serious issue as the actual distance of the school from their homes
+of the residential location by driving a car at 30 mph. Destination       increased. When the distance was over 2 mi, parents also considered
+opportunity–based measures captured the number of employees in            the speed and the volume of traffic to be major issues (as evidenced
+the types of industry that could be accessed within various travel        by the positive coefficients of 0.303 and 0.390 in Table 5). The
+time buffers (10 min, 20 min, and 50 min). Accessibility measures         findings here were quite consistent with those reported in the litera-
+were developed for 15 types of industry. Additional details on the        ture concerning the adverse effect of distance on the modal shares
+formulation and development of these measures may be found in             of bicycling or walking to school (13, 15). However, crime was
+Chen et al. (25).                                                         considered less of an issue in the context of the distance to school
+                                                                          being greater than 2 mi. This counterintuitive result merits further
+                                                                          investigation, but it is possible that when the distance is greater than
+Model Estimation Results                                                  2 mi, other considerations (such as traffic) become more serious
+                                                                          issues than crime, thus resulting in the negative coefficient for this
+This section presents a detailed discussion of the model estimation       variable. It was found that parents of children who attended private
+results. One of the key hypotheses that motivated this study was that     schools were quite sensitive to crime and to the speed and volume
+as children walked or bicycled more, parents were less likely to be       of traffic. It is possible that private schools are located farther away
+concerned about the perceived deterrents to the use of nonmotorized       from the home location, which raises concerns about these factors.
+modes of transportation. It was postulated that such parents would        As private school children tend to be more car dependent (26, 27), it is
+be more likely to be aware of the actual walking and bicycling con-       also possible that the lack of first-hand knowledge of the walking and
+ditions and confident about their children’s ability to safely navigate   bicycling environment may result in parents being more concerned
+the built environment than parents whose children did not walk or         about these factors than parents whose children have experienced the
+bicycle as much. The latter group, in the absence of information about    built environment for themselves. The greater level of car dependence
+the actual walking and bicycling environment and their children’s         among private school children (and the resulting absence of expo-
+navigation abilities, would be more likely to have an exaggerated         sure to weather) may explain why parents of private school children
+sense of danger associated with bicycling and walking. This exagger-      were less concerned about the weather.
+ated sense of danger would, in turn, make them less likely to permit
+their children to walk or bicycle to school. The model estimation
+results (as will be discussed in this section) generally confirmed that   Effect of Children’s Attributes
+this hypothesis could not be rejected. Therefore, understanding the       on Parental Attitudes
+influences behind these parental attitudes is very important because
+such an understanding would be crucial in the design of policies,         As expected, children’s ages and genders, as well as the children’s
+campaigns, and built environments that would help make attitudes          current levels of bicycling and walking activities, influenced their
+toward bicycling and walking more positive.                               parents’ attitudes toward walking or bicycling to school. As the age
+   The remainder of this section provides a discussion of the results,    of the child increased, parents were less likely to consider the speed
+organized according to the set of explanatory variables under con-        of traffic and the distance to school to be serious issues associated
+sideration. The multivariate ordered response model system estimated      with walking or bicycling. This is intuitive because parents are
+in this paper included a set of five equations, one for each attitudinal  likely to consider older children to be more independent and mature
+variable. The complete model estimation results are presented in          and, thus, capable of navigating the path to and from school safely.
+Table 5. As the focus of the analysis was exclusively on the extraction   These findings were consistent with those reported by Timperio
+of behavioral relationships (as opposed to forecasting applications),     et al. (7), Alton et al. (8), and Johansson (17), all of whom noted
+it was considered sufficient to perform model estimation on the           that age was a significant variable associated with the choice of
+un­weighted survey sample. Given the nature of the model form             children’s travel mode and independent travel.
+and specification, the relationships found in this analysis may be           Parents of boys were less likely to be concerned about crime,
+considered representative of the nature of the influences of various      the speed of traffic, and the distance to school. It appears that parents
+
+52                                                                                                      Transportation Research Record 2323
+consider boys to be less vulnerable to crime and better able to handle   to other underlying reasons, and the race variables themselves are
+longer distances and higher-speed traffic environments. In general,      simply proxies in capturing such effects (11).
+this finding is consistent with expectation, and there is evidence in       As the number of workers in a household increased, parents tended
+the literature to support these results. Studies by Prezza et al. (10),  to be more sensitive to crime, although the coefficient was statistically
+McMillan (9), and McDonald (28) indicated that boys were generally       insignificant. It is not clear why this may be the case, but there may
+allowed to travel more independently than girls. However, a few          be a heightened sense of concern for the safety of children among
+studies [e.g., Alton et al. (8) and Johansson (17)] found no significant parents in households in which the adults all work outside the home.
+gender differences in independent travel to and from school. The         Parents in households of larger size and who are renting their residence
+results in this paper appear to suggest that gender does play a role in  are more prone to considering the distance to school to be an issue that
+how parents view the ability of the child to travel independently to and deters walking and bicycling, perhaps because these households are
+from school. This viewpoint, in turn, is likely to impact modal choice,  farther from the school location.
+as evidenced in a review by Sirard and Slater that found parental
+evaluation of a child’s navigational abilities to be a big influence on
+modal choices (29).                                                      Effect of Parents’ Attributes
+   Parents of children who bicycled and walked regularly were less       on Their Own Attitudes
+concerned about crime and the distance to school. As these children
+                                                                         This section offers a discussion of how the characteristics of the
+have already shown that they can safely navigate the built environ-
+                                                                         parents impact their attitudes toward walking and bicycling. If the
+ment and travel independently by bicycling and walking, it is not
+                                                                         father used public transit, then the parents were less likely to be con-
+surprising that parents of these children consider issues of crime
+                                                                         cerned about crime, the volume of traffic, and the distance to school.
+and distance to be less serious than other parents do. Moreover, these
+                                                                         The greater level of awareness and knowledge of the environment
+parents are likely to be more aware of the actual walking and bicycling
+                                                                         that comes from public transit use potentially contributed to this
+conditions, and the greater level of awareness may help ameliorate
+                                                                         lower level of concern. However, when the mother used public transit,
+concerns about crime, safety, and the abilities of their children. These
+                                                                         there was a heightened sensitivity to crime (though this variable was
+findings are consistent with the results reported by Cooper et al.,
+                                                                         statistically insignificant). When at least one parent used public transit,
+which suggested that children who walked or cycled to school were        the results showed a greater concern for weather. Similarly, as the time
+more physically active overall than their counterparts who traveled to   spent by the father or mother walking or bicycling increased, there was
+school by motorized transport (30, 31). Information campaigns aimed      a greater level of concern related to the speed of traffic. In other words,
+at providing better information about crime and safety in neighbor-      it appeared that the level of awareness and experience in using the
+hoods may help shift parental attitudes positively toward their children built environment for walking and bicycling might work both ways.
+bicycling and walking to and from school.                                In the case of crime, the volume of traffic, and the distance to school,
+                                                                         the sensitivity was reduced, but in the case of weather and the speed
+                                                                         of traffic, the sensitivity was heightened. These findings were quite
+Effect of Household Attributes                                           intuitive and consistent with expectations. The frequency of walking
+on Parental Attitudes                                                    and bicycle trips on the part of the mother lowered concerns regard-
+                                                                         ing the distance to school, once again suggesting that familiarity and
+With respect to the role of household attributes in shaping parental     knowledge of the built environment may lower concerns related to
+attitudes, parents in higher-income households generally had lower       distance. The use of alternative modes of transportation for work
+levels of concern about crime and weather. It is possible that these     travel on the part of the parents specifically lowered concerns related
+households are in safer, more affluent neighborhoods in which crime      to the volume of traffic. If a father or mother takes transit, bicycles,
+is not an overriding concern in the context of bicycling or walking      or walks to work, then it is likely that he or she has a greater level
+to school. In addition, these households are likely to be more auto-     of knowledge and awareness of the actual traffic conditions and this
+mobile oriented (suburban, higher–car ownership households); hence,      knowledge, in turn, lowers the level of sensitivity associated with
+there may be a lower level of sensitivity to weather from parents in     traffic volumes.
+these households. Car ownership itself did not prove to be signifi-         With respect to the educational attainment of the parents, higher
+cant in explaining parental attitudes toward bicycling and walking.      levels of education for the mother were associated with greater levels
+One reason for this may be that virtually all the households had at      of sensitivity and concern for virtually all attitudinal variables except
+least one car, thus making car ownership a nonissue in terms of its      weather. It appears that parents in such households tend to amplify
+influence on parental attitudes toward bicycling and walking. In a       the level of concern associated with various deterrents to walking and
+region such as Southern California, where car ownership is quite         bicycling to school, although it is not exactly clear why that might
+universal, it is reasonable to expect car ownership to play virtually    be the case.
+no role in shaping attitudes about walking and bicycling. Perhaps an        The work arrangements of the parents play a key role in shaping
+effect would have been observed had there been a sizable number          their attitudes toward bicycling and walking as modes of transporta-
+of households with no cars.                                              tion to and from school. In general, greater levels of flexibility asso-
+   A variety of race and ethnicity variables affected parental attitudes ciated with work arrangements and schedules lowered the level of
+toward walking and bicycling. There was no discernible pattern, but      concern or sensitivity with respect to various attitudinal measures
+the fact that several race variables entered the model specification     including crime, weather, distance, and traffic volume. It is likely
+and were statistically significant suggests that there are potential     that parents who have flexible work arrangements and schedules feel
+sociodemographic and cultural differences across racial groups that      more confident that they can be available for the child and respond
+affect parental attitudes toward bicycling and walking. As noted by      to emergency situations in a timely manner. In addition, parents who
+McDonald, it is possible that the racial differences are attributable    have flexible work arrangements and schedules are more likely to be
+
+Seraj, Sidharthan, Bhat, Pendyala, and Goulias                                                                                                53
+able to walk or cycle with their children to and from school, thus low-   measure might have an impact on other attitudinal measures. The
+ering concerns about personal safety, distance, and traffic conditions.   estimated error correlations are shown in Table 5.
+However, parents who have rigid work schedules are more likely to            As expected, the unobserved error terms associated with attitudes
+chauffer their children to and from school because of schedule con-       toward the volume of traffic and attitudes toward the speed of traffic
+straints. This finding is consistent with those reported by Yarlagadda    were highly positively correlated. This finding suggests that measures
+and Srinivasan, who found that mothers with fixed work schedules          to reduce speed, such as the implementation of traffic calming devices,
+were more likely to drive their children to school than mothers with      would not only lessen parents’ anxieties about the speed of traffic,
+flexible work schedules (32). Similarly, Zhu and Lee found that chil-     it would also make parents less worried about the volume of traffic
+dren of parents who thought that “walking their kids to school required   that their children have to encounter. This correlation of attitudes is
+too much planning” were less likely to walk or bicycle to school,         natural given that both of these attitudes measure perspectives on
+presumably because these parents were just too time constrained to        traffic conditions.
+undertake such planning (15). This observation is further supported          The error term associated with distance was found to be positively
+by the finding in this paper that a father’s need to arrive at work in    correlated with the volume and speed of traffic. Again, this finding
+the morning (rigidity in the work schedule) heightened the level of       is consistent with expectations because concerns about distance are
+concern associated with the distance to school. From a policy stand-      likely to be related to concerns about exposure to traffic because the
+point, it appears that providing parents with flexible work arrangements  likelihood of coming across bad traffic conditions increases with
+could have a positive impact on their attitudes regarding children        distance. In other words, it appears important to have good schools in
+bicycling or walking to and from school. It is not entirely clear why     close proximity to residential neighborhoods. Reducing the distance
+parents in households in which both parents work full time consider       between home and school not only reduces concerns about distance
+the speed of traffic and the volume of traffic to be of less concern than but also reduces concerns about the volume and speed of traffic to
+other parents. This finding merits further investigation; it may be that  which children would be exposed. Other unobserved error components
+these parents consider crime and distance to be greater deterrents        showed moderate positive correlations.
+than traffic conditions to walking and bicycling.                            The estimated multivariate model was evaluated by comparing
+                                                                          the model with a restricted model that corresponded to independent
+                                                                          ordered response estimations for each of the five attitudinal variables.
+Effect of Built Environment Attributes                                    The two models were compared through the adjusted composite
+on Parental Attitudes                                                     likelihood ratio test [see Pace et al. (35) and Bhat (36) for details].
+                                                                          This statistic had a chi-squared asymptotic distribution with 10 degrees
+The final set of variables included in the model system represents        of freedom. The statistic was 368.9, which was higher than the cor-
+the built environment. A host of variables were considered, but only      responding critical chi-squared value with 10 degrees of freedom at
+a few eventually made their way into the final model. As the length       any reasonable level of significance. This finding indicated the clear
+of primary arterials accessible to the household increased, the parents   data fit superiority of the multivariate model estimated here and
+tended to be more sensitive to crime. Because areas with greater street   indicated that unobserved factors had the same direction of effect on
+access and density are perceived to have higher crime rates, as evi-      the different parental attitude variables regarding children walking
+denced in studies by Harries (33) and Foster and Giles-Corti (34),        or bicycling to school.
+it is reasonable to expect parents in such areas to be more worried
+about personal safety for their children. Parents in households that
+had greater levels of access to freeways were found to be less sensitive  Conclusions
+to weather and traffic speed considerations. As expected, parents in
+households in a nonurban location considered the volume of traffic to     This paper aims to examine the factors that influence parental attitudes
+be less of an issue than parents in households in an urban location. This toward children walking or bicycling to school in the context of a
+observation is presumably attributable to the lower levels of traffic     larger effort to make children more physically active and combat
+volumes in nonurban locations that naturally lead to lower levels of      rising trends in childhood obesity. As parents tend to be the primary
+concern for this measure. None of the built environment measures          decision makers with respect to children’s modes of travel, it is
+affected parental attitudes related to the distance to school. For        critical to understand the factors that shape parental attitudes. On the
+example, it could be hypothesized that higher levels of access and        basis of data from the California add-on sample of the 2009 National
+street connectivity could potentially lead to lower levels of concern     Household Travel Survey, a multivariate ordered response model
+about distance. However, no such effects were found in this study.        was estimated through the composite marginal likelihood approach.
+Further research is needed to explore how microaccessibility measures     The data set included information on five attitudinal variables that
+formulated at different spatial scales affect parental attitudes toward   represented the extent to which parents considered different factors
+their children’s mode of travel to school.                                to be deterrents or issues in the context of their children walking
+                                                                          or bicycling to school. The five attitudinal measures were related to
+                                                                          crime, weather, the volume of traffic, the speed of traffic, and the
+Error Correlation Matrix and Data Fit                                     distance to school. The multivariate ordered response model formula-
+                                                                          tion accommodated error correlations across equations in the model
+The use of the multivariate ordered response model formulation            system. Model estimation results showed that there were significant
+allowed the estimation of correlations between the unobserved error       error correlations and that the goodness of fit of the joint model was
+components of the five attitudinal dependent variables considered         statistically superior to that of the independent model system that
+in this paper. Information about correlations across error terms          ignores error correlations. These findings illustrate the importance of
+provides valuable insights on how different attitudinal variables are     using a multivariate model system in the empirical context considered
+related to one another and how policies that address one attitudinal      in this paper.
+
+54                                                                                                         Transportation Research Record 2323
+   It was found that a host of variables affect parental attitudes toward  tion of relationships between attitudes, contextual attributes, and
+children walking or bicycling to school. These results have impor-         choices. Future efforts should also attempt to control for the effects of
+tant policy implications. First, proximity of schools to residential       self-selection that may be at play because people are inclined to locate
+neighborhoods is critical to shaping favorable parental attitudes          themselves in environments consistent with their modal preferences.
+toward walking and bicycling. Cities, counties, and school districts       Another potential issue that might warrant attention is the explora-
+should consider how best to size and position a school relative to         tion of the extent to which responses to the attitudinal questions in
+the surrounding residential neighborhoods so that it is feasible for       the survey were conditioned by behavioral choices. For example, a
+children to bicycle and walk to school. Second, schools and com-           parent whose child walks to school might have been inclined to say
+munities should institute programs that help bring about awareness         that it was a safe neighborhood to justify the choice of letting his
+and knowledge of the walking and bicycling environment among               or her child walk to school (regardless of the true safety record of
+parents and children. Organizing “walk to school” days could help          the neighborhood). Finally, data about children’s attitudes toward
+bring about this awareness because parents and children would feel         bicycling and walking should be collected and analyzed to see how
+obligated to walk to school on such days and experience the envi-          children’s own attitudes are shaped by various factors, and how these
+ronment first hand. To motivate children even more, schools could          attitudes, in turn, influence choices.
+set up an incentive-based program, through which, at the end of a
+specific time period, the child who has walked or bicycled the most
+could win some small token prize (37). Schools should also hold            Acknowledgments
+regular safety demonstrations that would help children become safe
+                                                                           The authors are grateful to five anonymous reviewers for their
+pedestrians or cyclists. These demonstrations could help to quell
+                                                                           valuable comments on an earlier version of the paper. The authors
+some parental concerns about the dangers of active commuting and
+                                                                           acknowledge support from the Southern California Association of
+promote more independent travel by children. Another way of alle-
+                                                                           Governments for facilitating this research. The authors are grateful
+viating parental fears is by instituting special programs such as the
+                                                                           to Lisa Macias for her help in formatting this document. Finally, the
+“walking bus,” through which a group of children from a neighbor-          authors acknowledge support from the Sustainable Cities Doctoral
+hood walk or bicycle to school together with an adult escort (37, 38).     Research Initiative at the Center for Sustainable Development at the
+The adult escorts are usually the parents of the children, and the walk-   University of Texas at Austin.
+ing buses are set up on a rotating routine. By taking turns to escort the
+children, the parents get to save time, yet still ensure that their child
+is accompanied by an adult on the way to school. Third, there should       References
+be a concerted effort to enhance flexibility in the workplace for parents.
+It was found that parents with greater levels of work flexibility were       1. Division of Adolescent and School Health. The Obesity Epidemic and
+less concerned about various issues related to their children bicycling         United States Students. Centers for Disease Control and Prevention,
+or walking to school. Those parents are likely to be more favorable             2011. http://www.cdc.gov/healthyyouth/yrbs/pdf/us_obesity_combo.pdf.
+                                                                                Accessed July 25, 2011.
+to the use of nonmotorized modes of transportation because the parents       2. Ogden, C., and M. Carroll. Prevalence of Obesity Among Children
+are, presumably, less time constrained—therefore, they have time to             and Adolescents: United States, Trends 1963–1965 through 2007–2008.
+walk or bicycle with their child to school—and are more confident that          National Center for Health Statistics, Centers for Disease Control and
+they can respond to any emergency situation.                                    Prevention, 2010. http://www.cdc.gov/nchs/data/hestat/obesity_child_
+                                                                                07_08/obesity_child_07_08.pdf. Accessed July 25, 2011.
+   A key finding of this paper was that error terms associated with          3. Handy, S. L., M. G. Boarnet, R. Ewing, and R. E. Killingsworth. How
+different attitudinal variables were correlated with one another. Cor-          the Built Environment Affects Physical Activity: Views from Urban
+relations were strongest between the speed and volume of traffic,               Planning. American Journal of Preventive Medicine, Vol. 23, No. 2, 2002,
+between distance and traffic variables, and between crime and traf-             pp. 64–73.
+                                                                             4. Frank, L. D., M. A. Andresen, and T. L. Schmid. Obesity Relationships
+fic variables. In general, these findings suggest that transportation           with Community Design, Physical Activity, and Time Spent in Cars.
+engineers could design built environments that simultaneously ease              American Journal of Preventive Medicine, Vol. 27, No. 2, 2004,
+multiple parental concerns about children walking or bicycling to               pp. 87–96.
+school. For example, traffic calming measures might help to alleviate        5. Badland, H., and G. Schofield. Transport, Urban Design, and Physical
+                                                                                Activity: An Evidence-Based Update. Transportation Research Part D,
+concerns related to the speed and volume of traffic. Grid street pat-           Vol. 10, No. 3, 2005, pp. 177–196.
+terns that reduce travel distances by providing direct connectivity          6. National Safe Routes to School Task Force. Safe Routes to School:
+between home and school and eliminating the need for the child to               A Transportation Legacy. A National Strategy to Increase Safety and
+walk along busy arterials may ease concerns about the distance to               Physical Activity Among American Youth. July 2008. http://www.safe
+                                                                                routesinfo.org/sites/default/files/task_force_report.web_.pdf. Accessed
+school and the volume and speed of traffic. In turn, these designs
+                                                                                July 25, 2011.
+would also reduce concerns about crime. Thus, a series of urban              7. Timperio, A., D. Crawford, A. Telford, and J. Salmon. Perceptions About
+design strategies could help shift parental attitudes favorably toward          the Local Neighborhood and Walking and Cycling Among Children.
+their children walking and bicycling.                                           Preventive Medicine, Vol. 38, No. 1, 2004, pp. 39–47.
+   Future efforts in this arena should be aimed at further enhancing the     8. Alton, D., P. Adab, L. Roberts, and T. Barrett. Relationship Between
+                                                                                Walking Levels and Perceptions of the Local Neighborhood Environment.
+measurement of built environment attributes (accessibility measures)            Archives of Disease in Childhood, Vol. 92, No. 1, 2007, pp. 29–33.
+and modeling their impact on parental attitudes toward bicycling and         9. McMillan, T. E. The Relative Influence of Urban Form on a Child’s Travel
+walking. In this study, only a very limited influence of accessibility          Mode to School. Transportation Research Part A, Vol. 41, No. 1, 2007,
+measures was found. Additional secondary variables on crime sta-                pp. 69–79.
+                                                                           10. Prezza, M., S. Pilloni, C. Morabito, C. Sersante, F. M. Alparone, and
+tistics, traffic patterns, and street connectivity would prove useful in        M. V. Giuliani. Factors on Children’s Independent Mobility and Rela-
+better understanding how these factors affect attitudes. In addition,           tionship to Peer Frequentation. Journal of Community Applications in
+further research needs to be conducted to understand better the direc-          Social Psychology, Vol. 11, No. 6, 2001, pp. 435–450.
+

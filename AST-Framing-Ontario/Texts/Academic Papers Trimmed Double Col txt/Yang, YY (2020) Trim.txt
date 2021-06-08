@@ -1,902 +1,454 @@
+                                                                    Travel Behaviour and Society 20 (2020) 104–113
+                                                                       Contents lists available at ScienceDirect
+                                                                Travel Behaviour and Society
+                                                            journal homepage: www.elsevier.com/locate/tbs
+Urban greenery, active school transport, and body weight among Hong Kong                                                                                        T
+children
+Yiyang Yanga, Yi Lua,b, , Linchuan Yangc, Zhonghua Goud, Xiaoling Zhange
+                                          <U+204E>
+a
+  Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong
+b
+  City University of Hong Kong Shenzhen Research Institute, Shenzhen, China
+c
+  Department of Urban and Rural Planning, School of Architecture and Design, Southwest Jiaotong University, Chengdu, China
+d
+  Cities Research Institute, School of Environment, Gold Coast Campus, Griffith University, QLD 4222, Australia
+e
+  Department of Public Policy, City University of Hong Kong, Hong Kong
+ARTICLE INFO                                                  ABSTRACT
+Keywords:                                                     Children who are overweight or obese are at a higher risk of several diseases and are more likely to be over-
+Urban greenery                                                weight or obese in adulthood. Physical inactivity among children and adolescents is one of the major causes of
+Physical activity                                             the prevalence of overweight and obesity problems, and hence promoting physical activity, especially active
+Active transport                                              school transport (AST), is a public health priority. Previous studies have provided evidence that urban greenery
+BMI
+                                                              may promote physical activity and improve body weight outcomes among children. However, the relationships
+Childhood obesity
+                                                              reported between these factors are inconsistent, partly due to the use of different measures of urban greenery. In
+School environment
+                                                              the present study, we assessed different dimensions of urban greenery using three measures: number of parks;
+                                                              the Normalized Difference Vegetation Index (NDVI) based on satellite imagery; and street greenness based on
+                                                              Google Street View images. Multilevel regression analysis and structural equation modeling were conducted to
+                                                              investigate the complex relationships among urban greenery, AST, and body weight for 1,148 primary school
+                                                              students in Hong Kong. Overall, children attending schools with greener surrounding areas were more likely to
+                                                              engage in AST and had lower body mass index (BMI). In addition, AST partially mediated the impact of urban
+                                                              greenery on BMI. The findings demonstrate the importance of greenery around schools for children’s body
+                                                              weight status. They also offer public health and planning guidance on how to address overweight and obesity
+                                                              problems among children.
+1. Introduction                                                                                    2017; Wong et al., 2005).
+                                                                                                       Physical inactivity among children is one of the major causes of the
+      The prevalence of childhood overweight and obesity has increased                             prevalence of childhood overweight and obesity (Goran et al., 1999).
+over the last four decades, making this a worldwide public health                                  The World Health Organization recommends that school-aged children
+problem (Hruby and Hu, 2015). Children with overweight and obesity                                 engage in 60 min of moderately intense to vigorous physical activity a
+problems are at a higher risk of developing many chronic health con-                               day. The results of experimental studies have indicated that modest
+ditions and diseases that injure mental and physical health, including                             amounts of physical activity can provide health benefits and that vig-
+asthma, sleep disorder, bone and joint problems, type II diabetes, and                             orous activities may provide even greater benefits (Janssen and
+heart disease (Kumar and Kelly, 2017; Ranjani et al., 2016). In the long                           LeBlanc, 2010). The recommended physical activity guidelines en-
+term, a child who is overweight or obese is more likely to be obese as an                          courage various combinations of play, recreation, physical education
+adult, which is associated with a higher risk of developing heart dis-                             activities, sport, and active transport. However, in Hong Kong, less than
+ease, type II diabetes, metabolic syndrome, and many types of cancer as                            50% of young people meet these guidelines (CUHK, 2018).
+well (Arroyo-Johnson and Mincey, 2016; Phillips, 2017). In Hong Kong,                                  The transportation modes between home and school typically in-
+the rate of overweight and obesity among primary school students in-                               clude passive modes, such as busing or riding in a private vehicle, and
+creased from 16.1% in 1996 to 20.0% in 2014, making childhood                                      active modes, such as walking or cycling. Active school transport (AST)
+overweight and obesity a serious public health concern (Wang et al.,                               is a major source of children and adolescent's physical activity (Tudor-
+   <U+204E>
+     Corresponding author at: Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong.
+     E-mail addresses: yiyayang-c@cityu.edu.hk (Y. Yang), yilu24@cityu.edu.hk (Y. Lu), yanglc0125@swjtu.edu.cn (L. Yang), z.gou@griffith.edu.au (Z. Gou),
+xiaoling.zhang@cityu.edu.hk (X. Zhang).
+https://doi.org/10.1016/j.tbs.2020.03.001
+Received 22 October 2019; Received in revised form 21 February 2020; Accepted 2 March 2020
+Available online 12 March 2020
+2214-367X/ © 2020 Hong Kong Society for Transportation Studies. Published by Elsevier Ltd. All rights reserved.
+
+Y. Yang, et al.                                                                                                     Travel Behaviour and Society 20 (2020) 104–113
+Locke et al., 2001). A review focused on the relationship between AST           schools close to their housing estates, which may facilitate AST (Census
+and physical activity and body weight has shown that children walking           & Statistics Department of Hong Kong, 2011).
+or cycling to school had higher level of overall physical activity com-             Among the relevant built environment factors, the relationship be-
+pared with those who travel to school in passive modes (Faulkner et al.,        tween urban greenery and physical activity has received increasing
+2009). Empirical studies found the proportions of children meeting              research attention because rapid urbanization is reducing people’s op-
+physical activity guidelines significantly differed by school transporta-       portunities to contact with nature (Gubbels et al., 2016; Hunter et al.,
+tion modes. Measured by accelerometers, active school commuters ex-             2015; Lu, 2018a; Mårtensson et al., 2014). A study conducted in the
+hibited higher overall physical activity levels per hour (Cooper et al.,        United States found that children living in areas with more street trees
+2003; Sirard et al., 2005), or more minutes of moderate-to-vigorous             were more physically active (Lovasi et al., 2011). In another study of
+physical activity per day, than passive commuters (Alexander et al.,            208 children, which used the normalized difference vegetation index
+2005; Faulkner et al., 2009; Kek et al., 2019; Sirard et al., 2005). In         (NDVI) as an objective measure of urban greenery from satellite ima-
+Ireland, Cyprus and Canada, children who walked to school sig-                  gery, researchers found that greenness exposure was positively asso-
+nificantly exhibited higher step counts during the before school period,        ciated with the odds of engaging in moderate to vigorous physical ac-
+the after school period and the whole day compared to children who              tivity (Almanza et al., 2012). Another study demonstrated that
+used motorized transportation mode (Elaine and Marie, 2011;                     children’s green space exposure was positively linked to their physical
+Loucaides and Jago, 2008; Pabayo et al., 2012). Researchers also found          activity (James et al., 2015). Specifically, researchers also found a
+evidence that primary school boys who walked or cycled to school were           significantly positive association between the likelihood of conducting
+significantly more physically active than those traveling by car, while         AST and the presence of street trees and parks, good maintenance of
+girls who walked but not cycled to school were significantly associated         green spaces, and absence of litter (Larsen et al., 2009; Van Kann et al.,
+with higher daily physical activity levels (Cooper et al., 2005). AST is        2014).
+also well placed to address inequalities in physical activity participation         Yet, findings regarding the association between urban greenery and
+in terms of age, gender, and socioeconomic status (Brainard et al.,             body weight status for children are mixed. A systematic review focusing
+2019; Mandic et al., 2015; Stark et al., 2018). Thus, AST has the po-           on urban greenness, physical activity, and body weight found fairly
+tential to make a substantial contribution to children’s daily overall          strong evidence of a positive association between greenness and phy-
+physical activity (Pate et al., 2016). However, AST has declined dra-           sical activity and a less consistent negative association between
+matically in various contexts, including Australia, the United States, the      greenness and body weight (James et al., 2015). One group of re-
+United Kingdom, and Hong Kong. In the United States, nearly half                searchers found that greenness was significantly associated with a de-
+(49%) of children aged 5 to 14 actively traveled to school in 1969 but in       creased risk of overweight among children in high-density areas, but
+2009, the rate had dropped to 13% (McDonald et al., 2011). In Hong              not in low-density counterparts (Liu et al., 2007). Another study found
+Kong, the rate of AST also dropped from 40% to 29% over the last                that street tree density, but not park area, was associated with a lower
+several decades (Census & Statistics Department of Hong Kong, 2016).            obesity prevalence level among children (Lovasi et al., 2013). Some
+    Children’s levels of physical activity are highly volatile and may be       researchers have argued that these inconsistent results are due to the
+influenced by a multitude of factors, including physiological, psycho-          use of different measures of urban greenery (de Vries et al., 2013; Fan
+logical, sociocultural, and environmental determinants (Almanza et al.,         et al., 2011; Picavet et al., 2016). Recent studies have indicated that
+2012; Duncan et al., 2014; Goran et al., 1999; Lovasi et al., 2011). Their      perceived greenness plays a more significant role than overall objec-
+level of physical activity is associated with numerous built environment        tively measured greenness in daily physical activity and body weight
+factors (Saelens et al., 2003), such as land use mix (Aytur et al., 2008;       status (Bai et al., 2013; de Jong et al., 2012; Hipp et al., 2016). To this
+Frank et al., 2004; Saelens et al., 2003), urban density (Saelens et al.,       end, in this study, we used three methods to measure urban greenery
+2003; Schlossberg et al., 2006), and street connectivity (Larsen et al.,        near children’s home and school: the number of parks, the NDVI, and
+2009; Saelens et al., 2003). However, evidence for the built environ-           street greenness (extracted from Google Street View (GSV) images). The
+ment determinants of AST remains mixed. In a recent study conducted             measure of eye-level street greenery can effectively capture residents’
+in New Zealand with 2,840 participants, AST was positively associated           daily exposure to greenness and has been applied in recent public
+with intersection density (1 km buffer) and negatively related to               health studies (Lu, 2018b).
+dwelling density (1 km buffer) and distance to school (Ikeda et al.,
+2018). Distance between home and school is regarded as one of the               1.1. Conceptual model and hypotheses
+most consistent correlates of AST, with long distance as one of the
+greatest barriers (Chica-Olmo et al., 2018; Mandic et al., 2017;                    To address this research gap, we constructed a conceptual frame-
+Rothman et al., 2018). In the ultra-dense metropolis of Hong Kong,              work for modeling the effects of urban greenery on body weight status
+most districts are highly self-contained and children usually attend            (Fig. 1). As supported by strong evidence, the exposure to urban
+                                                                                                              Fig. 1. The concept framework among built en-
+                                                                                                              vironment, physical activity and health. For ex-
+                                                                                                              ample, urban greenery can affect body weight
+                                                                                                              status via promoting physical activity, or other
+                                                                                                              pathways, such as promoting social contacts and
+                                                                                                              reducing air pollution and stress. Dark arrows
+                                                                                                              represent the strong evidence of direct impact
+                                                                                                              while the light arrow represents the weak evi-
+                                                                                                              dence of potential direct and indirect impact.
+                                                                            105
+
+Y. Yang, et al.                                                                                                      Travel Behaviour and Society 20 (2020) 104–113
+greenery can increase physical activity, and increased physical activity            Interviews were conducted by trained interviewers to collect data
+can achieve better body weight outcomes. However, few researchers               about participants’ demographic information, household information,
+have used a single comprehensive framework to explore the mediating             and active school transport record. Participants were asked about “how
+effects of physical activity on the relationship between urban greenery         many days did you walk or bike to/from school during the last 7 days?”
+and body weight among children. Although it is intuitive to develop             Hence, we identified participants who had done active school transport
+urban greenery interventions to increase children’s physical activity           and those who had not done so. The participants and their parents were
+and hence improve their body weight outcomes, there is little rigorous          also required to provide a dwelling address, which was used to assess
+scientific evidence to support such a policy. Based upon previous stu-          the built environment factors. Besides, participants were required to
+dies, we proposed that urban greenery may affect children's body                provide their body weight and height, which were then used to calcu-
+weight outcomes via the mechanism of increasing physical activity               late body mass index (BMI), namely, the ratio between the weight in
+(Mitchell, 2013; Richardson et al., 2013; Zhang et al., 2018).                  kilograms to the square of height in meters. BMI is a widely used
+    In the present study, we used structural equation modeling (SEM) to         screening tool for measuring overweight and obesity. Researchers have
+examine the degree to which AST mediates the relationship between               found that BMI is similar to other measurements in being highly related
+urban greenery and body weight outcomes. As a powerful method of                to disease risks for children and adolescents (Lawlor et al., 2010;
+examining the complex relationships among a set of variables, SEM has           Steinberger et al., 2005), and measuring height and weight is easier and
+been widely used in the health literature (Mohamadian et al., 2011;             less expensive than other methods of assessing weight status.
+Weden, Carpiano, & Robert, 2008; Zhang et al., 2018). It can be used to
+estimate abstract concepts (such as individual health outcomes) using           2.2. Urban greenery
+measured variables, to examine the complex mediating relationships
+among variables, and to improve the accuracy and credibility of model               In this study, urban greenery was measured using three objective
+results by considering the influence of measurement error. Using SEM, a         methods: the number of parks, the NDVI, and street greenness. The
+recent study found that daily greenspace exposure directly influenced           number of parks was defined as the total number of parks within two
+adults’ health and indirectly affected health status through physical           buffer zones of a participant’s dwelling and school address. The data on
+activity (Zhang et al., 2018), which may help researchers to understand         the urban parks were obtained from the Land Department of Hong Kong
+the role of physical activity in mediating the relationship between             SAR. Two buffer zones commonly used in walking/cycling built en-
+urban greenery and health status among adults. Nevertheless, few                vironment studies were adopted in this study: 400 m and 800 m. Using
+studies have focused on the mediating mechanism of AST between                  multiple buffer zones can also mitigate the modifiable areal unit pro-
+urban greenery and the weight status among children.                            blem, which indicates that built environment–active travel associations
+    Fig. 2 shows the potential relationships among urban greenery, AST,         are influenced by the scale of the aggregation unit (Houston, 2014;
+and body weight status. We hypothesized that urban greenery has a               Wong, 2009).
+significant effect on body weight status; and that it promotes daily                The NDVI was used to assess the gross urban greenness of a whole
+physical activity and thus indirectly improves body weight status. Our          area from a multispectral imagery dataset, based on the contrast be-
+five specific hypotheses are listed in Table 1.                                 tween two bands: the chlorophyll pigment absorptions of plants in the
+                                                                                red band (Red) and the high reflectivity in the near-infrared band (NIR).
+                                                                                The NDVI equation is expressed as
+2. Method
+                                                                                NDVI = (NIR        Red ) / (NIR + Red ).
+2.1. Participants                                                                   NDVI values range between -1.0 and 1.0, with higher values re-
+                                                                                presenting higher levels of vegetation. The average NDVI value within a
+    We conducted a face-to-face survey in March 2018 with 1,148 Hong            buffer zone for a dwelling and school location was used to measure the
+Kong primary school students, comprised of 559 girls and 589 boys               overall urban greenness.
+from the fifth and sixth grades of 40 primary schools in Hong Kong, of              The street greenness extracted from GSV images was used to esti-
+which 11 were located in Kowloon, 13 in Hong Kong Island, and the               mate the level of greenness perceived by students on streets. GSV-
+other 16 in New Territories. The 40 primary schools were selected by            generating points were created along all streets at a spacing of 50 m.
+stratified random sampling, aimed at selecting schools in neighbor-             The coordinates of the GSV-generating points were input into a Python
+hoods with different socio-economic and built environment contexts.             script, and four GSV images were downloaded for each point, with a 90°
+The list of participating schools is given in Appendix A.                       field of view and headings of north, east, south, and west.
+                           Fig. 2. Conceptual model and the interaction among urban greenery, physical activity, and weight status.
+                                                                            106
+
+Y. Yang, et al.                                                                                                               Travel Behaviour and Society 20 (2020) 104–113
+                   Table 1
+                   The five hypotheses.
+                     Hypotheses
+                     H1                                Urban greenery surrounding residence has a significant positive effect on AST
+                     H2                                Urban greenery surrounding residence has a significant positive effect on body weight status
+                     H3                                Urban greenery surrounding school has a significant positive effect on AST
+                     H4                                Urban greenery surrounding school has a significant positive effect on body weight status
+                     H5                                AST has a significant positive effect on body weight status
+    A separate script was developed to determine the level of greenness              to be a measure of scale reliability (Bland and Altman, 1997; Raykov,
+in each GSV image using an automated machine-learning vegetation                     1997). The fit index CMIN/DF is the minimum discrepancy divided by
+extraction method (Houston, 2014). The ratio of greenery pixels to total             its degrees of freedom, and the ratio should be close to 1 for correct
+pixels in four images from a GSV-generating point was used to assess                 models. The goodness of fit index (GFI) was devised by (Joreskog and
+the level of street greenness for the point, as shown in the following               Sorbom, 1984) for maximum likelihood and unweighted least squares)
+equation:                                                                            estimation. The adjusted GFI (AGFI) takes into account the degrees of
+                      4                                                              freedom available for testing the model. The population root mean
+                      i=1
+                          Greenerypixelsi                                            square error of approximation (RMSEA) was also calculated (Joreskog
+Street greenness =      4
+                        i=1
+                            Totalpixelsi.                                            and Sorbom, 1984).
+                                                                                          In the present study, we mainly focused on the direct impact of
+    Street greenness values range between 0.0 and 1.0, with higher                   urban greenery on individual BMI and the indirect impact of urban
+values representing higher levels of street greenness. The average value             greenery on individual BMI via AST. Personal characteristics and other
+for all GSV-generating points within the buffer zone of a dwelling or                built environment variables were treated as confounders in the models.
+school location was used to assess the level of street greenness. The
+automated vegetation extraction was validated using manual extrac-
+tion. In our pilot study, 30 GSV images were randomly selected, and                  4. Results
+their vegetation was manually extracted by a researcher using Adobe
+Photoshop. The values of the GSV greenness extraction were highly                    4.1. Results of Multilevel regression model
+correlated with those of the manual extraction (r = 0.91; p < 0.01).
+                                                                                          Table 2 and 3 shows the characteristics of the participants and built
+2.3. Other built environment variables                                               environment respectively. Of the total 1,148 primary school students
+                                                                                     from the fifth and sixth grades, 813 provided an accurate household
+    We also calculated other built environment variables within the two              address. There were slightly more sixth graders than fifth graders
+buffer zones and adjusted the analysis models to incorporate them.                   (53.4% vs. 46.6%). In terms of AST, 37.11% of the students walked or
+These variables were as follows: distance between school and dwelling                rode a bicycle to school four or five days a week (426 of 1148), while
+location, population density, street intersection density, number of                 31.7% of the participants never walked or rode a bicycle to school. Boys
+shops, number of bus stops, number of schools, distance between                      slightly outnumbered girls, but girls were more likely to walk or ride a
+dwelling location and bus stops, and distance between dwelling loca-                 bicycle to schools than boys (51.3% vs. 48.7%).
+tion and Mass Transit Railway (MTR) stations. Population density was                      The results of the regression model analysis for predicting the odds
+calculated by the residential population per unit of land area in a pupil’s          of engaging AST are shown in Table 4. Street greenness and the number
+residential neighborhood. Street intersection density was measured by                of parks surrounding school were both positively associated with the
+the number of street intersections involving three or more ways per unit             odds of engaging in AST with the 400 m buffer (OR [95% CI]: 1.32
+of land area. The age and gender of the participants were also included              [1.18, 1.51] and 1.21 [1.13, 1.32] respectively). The overall greenness
+in the analysis as potential confounding variables.                                  surrounding school was also positively associated with the odds of
+                                                                                     Table 2
+3. Data analysis
+                                                                                     Demographics and AST characteristics of the sample (n = 1148).
+3.1. Multilevel modeling                                                               Individual                Number of            Percentage (%)     Engaged in active
+                                                                                       characteristics           participants                            school transport
+                                                                                                                                                         (%)
+    A two-step analysis strategy was implemented corresponding to the
+data we collected from participants: 1) logistic regression to examine                 Grade (y)
+the association between urban greenness and the odds of engaging in                    5 (11–12 years old)       535                  46.6               62.6
+                                                                                       6 (12–13 years old)       613                  53.4               66.2
+AST; 2) linear regression to examine the association between urban
+greenness and BMI. Multilevel modeling was used for the analysis after                 Gender
+controlling for other built environment and individual confounding                     Male                      589                  51.3               62.1
+                                                                                       Female                    559                  48.7               67.0
+variables. Individual participants were clustered within street blocks,
+which are census defined and aggregated in Hong Kong as urban                          Height (cm)
+                                                                                        < 120                    6                    0.5                33.3
+planning units. Models 1 and 2 were used for the 400-m and 800-m
+                                                                                       120–140                   275                  24.0               50.2
+buffers, respectively. All of the analyses were performed using the                    140–160                   773                  67.3               67.9
+statistical software STATA 13.0 (StataCorp LLC).                                        > 160                    94                   8.2                80.9
+                                                                                       Weight (kg)
+3.2. Structural equation modeling                                                       < 30                     64                   5.6                62.5
+                                                                                       30–40                     463                  40.3               57.4
+                                                                                       40–50                     485                  42.2               66.4
+    Before conducting the SEM, the reliability and validity of the vari-
+                                                                                       50–60                     124                  10.8               84.7
+ables were verified using Cronbach’s alpha and factor analysis.                         > 60                     12                   1.0                66.7
+Cronbach’s alpha is a measure of internal consistency. It is considered
+                                                                               107
+
+Y. Yang, et al.                                                                                                              Travel Behaviour and Society 20 (2020) 104–113
+Table 3                                                                                parks). Other built environment factors were not significantly asso-
+Descriptive statistics of urban greenness and built environment factors.               ciated with BMI.
+  Variable                       400 m buffer               800 m buffer
+                                                                                       4.2. Results of structural equation modeling
+                                 Mean         SD            Mean         SD
+  Urban Greenness                                                                           The results of the fitting test suggest that the SEM established in the
+  H-Street greenness (GSV)       0.137        0.0417        0.1375       0.0344        present study (presented in Fig. 2) was an ideal research model, with
+  H-Overall greenness (NDVI)     0.1686       0.1256        0.1798       0.1297        high agreement and stability through the matching degree analysis.
+  H-Number of parks              5.3247       3.709         16.22        9.0326             The model was constructed and analyzed using the statistical soft-
+  S-Street greenness (GSV)       0.1495       0.047         0.1459       0.0452
+  S-Overall greenness (NDVI)     0.2024       0.1405        0.2139       0.1505
+                                                                                       ware package AMOS 21.0 (IBM, USA). It had a high degree of model
+  S-Number of parks              4.4          3.7608        13.625       9.4345        fitness, as indicated in Table 6 and Fig. 3.
+                                                                                            The results of the SEM path analysis suggest that three hypotheses
+  Built environment
+  H-Population density           43,720       21,783        38,529       16,449        (H3, H4, and H5) were verified (C.R. > 1.96, p < 0.05). Urban
+  H-Street intersection density  78.659       39.455        63.588       29.079        greenery surrounding school had a significant effect on both AST and
+  H-Number of bus stops          20.31734     10.60963      60.967       30.76         BMI, confirming H3 and H4. AST also had a significant effect on body
+  H-Number of schools            11.049       5.4603        31.82        13.969
+                                                                                       weight, confirming H5. However, urban greenery surrounding re-
+  H-Distance to MTR station      660.2021     787.2687      660.2021     787.2687
+  H-Distance to bus stop         82.27403     49.81983      82.27403     49.81983
+                                                                                       sidence has no significant effect on AST or body weight (p > 0.05),
+  S-Street intersection density  72.837       38.914        59.046       30.959        refuting H1 and H2. The direct effect of urban greenery surrounding
+  S-Number of bus stops          17.4         11.247        53.4         31.596        school on body weight was 0.43, while the indirect effect with the
+  S-Distance to MTR station      920.45       1155.8        920.45       1155.8        mediation of AST was 0.08 (Fig. 4 and Table 7). The total effect of
+  S-Distance to bus stop         105.91       76.091        105.91       76.091
+                                                                                       urban greenery surrounding school on body weight (direct effect + in-
+  HK-Distance                    1783         4030.6        1783         4030.6
+                                                                                       direct effect) was 0.51.
+Note: “H-” stands for home-based measures; “S-” stands for school-based mea-
+sures.                                                                                 5. Discussion
+engaging in AST with the 800 m buffer (OR [95% CI]: 1.09 [1.02,                             In this study, we examined the associations between urban built
+1.17]).                                                                                environment factors, AST, and body weight for 1,148 primary school
+    Among other built environment factors, the street connectivity of                  students in Hong Kong. As suggested in the literature, uncertainty about
+the school, which was defined as the density of street intersections                   the effects of urban greenery on physical activity and health stems
+within the school’s surrounding area, was positively associated with the               partially from the use of different measures of urban greenery. Hence,
+odds of engaging in AST with both buffers (OR [95% CI]: 1.08 [1.01,                    we assessed different dimensions of urban greenery using three mea-
+1.15] with the 400 m buffer and 1.03 [0.97, 1.12] with the 800 m                       sures: the number of parks, the NDVI (by satellite imagery), and street
+buffer). The number of bus stops in the neighborhood was negatively                    greenness (by GSV images). Street greenness represents the eye-level
+associated with the odds of engaging in AST with the 400 m buffer.                     greenness perceived by school commuters on streets and therefore can
+Other built environment factors were not significantly associated with                 objectively estimate the daily greenery exposure of urban residents. We
+engagement in AST.                                                                     further applied SEM to examine the mediation effects of AST between
+    The results of linear regression models for predicting BMI and built               urban greenery and weight status.
+environment factors are shown in Table 5. Street greenness and the
+number of parks surrounding schools were significantly positively as-
+                                                                                       5.1. Major findings
+sociated with BMI with the 400 m buffer (ß [95% CI]: 0.132 [0.019,
+0.257] for street greenness and 0.118 [0.006, 0.204] for number of
+                                                                                            We found significant associations between street greenness in the
+Table 4
+Logistic regression models for predicting the odds of engaging in active transport to school.
+  Model predictor                                 Model 1 (buffer = 400 m)                                            Model 2 (buffer = 800 m)
+                                                  OR (95% CI)                         p-value                         OR (95% CI)                              p-value
+  Urban greenness
+  H-Street greenness (GSV)                        1.10 (0.99, 1.24)                   0.102                           1.08 (1.01, 1.16)                        0.450
+  H-Overall greenness (NDVI)                      1.13 (1.04, 1.25)                   0.913                           1.19 (1.09, 1.30)                        0.125
+  H-Number of parks                               1.04 (0.98, 1.12)                   0.281                           1.03 (0.97, 1.11)                        0.159
+  S-Street greenness (GSV)                        1.32 (1.18, 1.51)                   < 0.001***                      1.42 (1.23, 1.59)                        0.844
+  S-Overall greenness (NDVI)                      0.96 (0.90, 1.02)                   0.979                           1.09 (1.02, 1.17)                        < 0.001***
+  S-Number of parks                               1.21 (1.13, 1.32)                   < 0.001***                      0.97 (0.90, 1.07)                        0.129
+  Built environment
+  H-Population density                            0.99 (0.91, 1.10)                   0.201                           0.99 (0.91, 1.10)                        0.303
+  H-Street intersection density                   0.97 (0.90, 1.06)                   0.430                           0.98 (0.91, 1.09)                        0.108
+  H-Number of bus stops                           0.96 (0.89, 1.06)                   0.002**                         1.00 (0.93, 1.11)                        0.580
+  H-Number of schools                             1.12 (1.04, 1.23)                   0.060                           1.01 (0.94, 1.13)                        0.342
+  H-Distance to MTR station                       1.00 (0.91, 1.09)                   0.401                           1.00 (0.91, 1.09)                        0.087
+  H-Distance to bus stop                          1.003 (0.92, 1.10)                  0.111                           1.003 (0.92, 1.10)                       0.469
+  S-Street intersection density                   1.08 (1.01, 1.15)                   < 0.001***                      1.03 (0.97, 1.12)                        < 0.001***
+  S-Number of bus stops                           1.01 (0.94, 1.13)                   0.495                           1.01 (0.94, 1.13)                        0.465
+  S-Distance to MTR station                       0.91 (0.85, 0.96)                   0.667                           1.004 (0.92, 1.10)                       0.102
+  S-Distance to bus stop                          1.005 (0.92, 1.11)                  0.197                           1.006 (0.92, 1.11)                       0.196
+  HS-Distance                                     1.001 (0.91, 1.09)                  0.172                           1.00 (0.91, 1.08)                        0.098
+Note: “H” stands for home-based measures; “S” stands for school-based measures.
+                                                                                  108
+
+Y. Yang, et al.                                                                                                            Travel Behaviour and Society 20 (2020) 104–113
+Table 5
+Multilevel linear regression models for predicting BMI.
+  Model predictor                             Model 1 (buffer = 400 m)                                                Model 2 (buffer = 800 m)
+                                              ß (95% CI)                                p-value                       ß (95% CI)                                 p-value
+  Urban greenness
+  H-Street greenness (GSV)                    0.097, (-0.022, 0.189)                    0.238                         0.089 (-0.037, 0.173)                      0.928
+  H-Overall greenness (NDVI)                  0.122, (0.027, 0.213)                     0.493                         0.126 (0.032, 0.236)                       0.527
+  H-Number of parks                           0.043, (-0.031, 0.128)                    0.167                         0.033 (-0.028, 0.109)                      0.629
+  S-Street greenness (GSV)                    -0.132, (0.019, 0.257)                    < 0.001***                    0.142 (0.023, 0.274)                       0.481
+  S-Overall greenness (NDVI)                  -0.041, (-0.126, 0.039)                   0.197                         0.109 (-0.004, 0.198)                      0.167
+  S-Number of parks                           -0.118, (0.006, 0.204)                    < 0.001***                    0.107 (0.002, 0.187)                       0.290
+  Built environment
+  H-Population density                        -0.001 (-0.067, 0.042)                    0.720                         0.009 (-0.076, 0.100)                      0.092
+  H-Street intersection density               0.007 (-0.082, 0.089)                     0.098                         0.008 (-0.081, 0.099)                      0.681
+  H-Number of bus stops                       0.006 (-0.083, 0.098)                     0.349                         0.001 (-0.095, 0.087)                      0.012
+  H-Number of schools                         0.114 (0.020, 0.217)                      0.682                         0.102 (0.019, 0.202)                       0.375
+  H-Distance to MTR station                   0.001 (-0.093, 0.090)                     0.574                         0.001 (-0.093, 0.091)                      0.762
+  H-Distance to bus stop                      0.003 (-0.087, 0.094)                     0.132                         0.003 (-0.089, 0.094)                      0.849
+  S-Street intersection density               0.074 (-0.016, 0.178)                     0.806                         0.077 (-0.014, 0.178)                      0.447
+  S-Number of bus stops                       0.011 (-0.072, 0.101)                     0.975                         0.012 (-0.072, 0.103)                      0.542
+  S-Distance to MTR station                   0.005 (-0.062, 0.078)                     0.728                         0.004 (-0.057, 0.081)                      0.103
+  S-Distance to bus stop                      -0.001 (-0.074, 0.066)                    0.110                         0.006 (-0.049, 0.112)                      0.124
+  HS-Distance                                 0.002 (-0.113, 0.135)                     0.437                         0.001 (-0.087, 0.095)                      0.098
+Note: “H-” stands for home-based measures; “S-” stands for school-based measures.
+Table 6
+Analysis of the structural equation model’s fitting test.
+  Measure                                         Result         Suggested value
+  Cronbach’s Alpha (Bland & Altman, 1997)         0.718          =0.70
+  KMO (Dziuban and Shirkey, 1974)                 0.784          =0.70
+  Sig                                             0.000          < 0.05
+  CMIN/DF (Hirotsu, 1986)                         1.352          =5
+  GFI (Cheung & Rensvold, 2002)                   0.972          > 0.90
+  RMSEA (Steiger, 1998)                           0.055          < 0.08
+  AGFI (Cheung & Rensvold, 2002)                  0.916          > 0.90                   Fig. 4. Effects of urban greenery surrounding school on weight status.
+  NFI (Hu and Bentler, 1999)                      0.947          =0.95
+  CFI (Hu and Bentler, 1999)                      0.969          =0.95
+                                                                                     and have a lower BMI. Furthermore, we supplement previous studies by
+                                                                                     providing strong and positive evidence of the association of urban
+                                                                                     greenery and the BMI of children (Lovasi et al., 2013). Our results
+                                                                                     emphasize the role of urban greenery surrounding a school on AST and
+                                                                                     BMI, whereas other studies have typically emphasized the role of urban
+                                                                                     greenery near residential neighborhoods. This difference may stem
+                                                                                     from our sampling methods and research design. We carefully selected
+                                                                                     participants from primary schools with different built environment
+                                                                                     characteristics, while other studies have selected participants based on
+                                                                                     their dwelling locations. Hence, we observed greater variation in urban
+                                                                                     greenery surrounding a school than in other studies.
+                                                                                          Understanding how AST mediates the effect of urban greenery on
+                                                                                     health is of paramount importance to develop effective interventions to
+                                                                                     improve children’s body weight outcomes. Previous studies have pro-
+                                                                                     vided strong evidence of the direct effect of urban greenery on body
+                                                                                     weight and BMI (Bell et al., 2008; Duncan et al., 2014). However, the
+                                                                                     indirect effect of urban greenery on body weight and BMI via AST has
+                                                                                     not been explored. We conducted SEM to understand the complex re-
+                                                                                     lationships among urban greenery, AST, and BMI. Our findings suggest
+                                                                                     that urban greenery directly affects body weight and also indirectly
+                                                                                     affects body weight via AST. The findings of this study echo others
+Fig. 3. Confirmatory Factor Analysis for latent variable of urban greenery           (Almanza et al., 2012; Bell et al., 2008) in stressing the importance of
+surrounding residence and school.                                                    urban greenness for promoting AST and preventing childhood over-
+                                                                                     weight and obesity. Our findings are analogous to those of a previous
+school buffer area and both the pupils’ odds of engaging in AST and                  study among adults, which reported that urban greenery directly in-
+their body weight status. The findings of our study concur with previous             fluences physical health and also indirectly affects it through physical
+findings regarding the relationship between urban greenery and chil-                 activity (Zhang et al., 2018). Hence, the direct effect of urban greenery
+dren’s engagement in physical activity (Almanza et al., 2012; Bell et al.,           on health and its indirect effect via physical activity can be regarded as
+2008). Children attending a school with a greener surrounding en-                    reasonably robust and may be applicable across age groups.
+vironment are more likely to commute to school on foot or by bicycle                      From a methodological perspective, street greenness measured by
+                                                                                 109
+
+Y. Yang, et al.                                                                                                         Travel Behaviour and Society 20 (2020) 104–113
+Table 7
+Effect relationship between urban greenery surrounding school, AST and BMI in SEM.
+  Total effect                                           Direct effect                                            Indirect effect
+  Urban greenery surrounding school <U+2192> BMI                Urban greenery surrounding school <U+2192> BMI                  Urban greenery surrounding school <U+2192> AST <U+2192> BMI
+  0.51                                                   0.43                                                     0.08 (=0.58 × 0.13)
+GSV images, but not by the NDVI, was found to have a positive effect on            of urban greenery on body weight status and the indirect effect via AST.
+AST and BMI. As we mentioned in Section 1, inconsistent results of                 This advanced statistical technique helped us to understand the re-
+studies on the association between urban greenness and body weight                 lationships between urban greenery, AST, and body weight. However,
+status may be due to the different measures of urban greenery, and the             we could not infer any causal relationships because of the cross-sec-
+results of our study also support this argument. It is plausible that street       tional research design. Future studies could use natural experiments to
+greenness and the NDVI capture different dimensions of urban                       deliver more robust scientific evidence. We also used questionnaires to
+greenery, given that the former focuses on eye-level greenness and the             assess AST, which may be subject to recall bias or social desirability
+latter focuses on the overall greenery in an area. Street greenness may            bias. In future studies, school travel behaviors could be collected by
+better estimate daily greenery exposure because it better represents               portable GPS and/or accelerometer equipment for more objective
+what a resident perceives and streets are used more than other areas               measures (Li et al., 2019).
+(Lu, 2018b). The superior performance of street greenness over the
+NDVI is also consistent with the previous finding that perceived                   6. Conclusion
+greenness has a stronger impact on people’s health and physical activity
+than overall greenness, as measured by the NDVI (Leslie et al., 2010;                   Using three urban greenery measures (number of parks, NDVI, and
+Sugiyama et al., 2008).                                                            street greenery with GSV images), we found that street greenery in the
+    Previous studies have reported correlations between AST and body               area surrounding a school was significantly associated with children’s
+weight and other built environment factors, such as urban density,                 AST behaviors and body weight status. AST was also found to play a
+street connectivity, and distance between school and residence (Duncan             mediating role in the relationship between urban greenery and the body
+et al., 2014; Faulkner et al., 2009; Mitchell, 2013). In contrast, we              weight status of children. The findings of this study join others in
+found only one such association (between AST and body weight and                   highlighting the importance of greenery exposure around schools in
+street connectivity). This difference may be accounted for by differ-              promoting AST and improving body weight status among children.
+ences in urban contexts (Lu et al., 2019). For example, Hong Kong has a            Future planning and design practice should consider the visibility of
+much higher urban density than the Western cities in which most                    greenspaces as well as more traditional planning parameters such as the
+previous studies were conducted. Understanding the different contexts              size or number of greenspaces.
+of the social and built environments could aid in developing localized
+public health and planning policy for children.                                    7. Ethics approval and consent to participate
+5.2. Policy implications                                                                Ethical approval for the study was obtained prior to this study from
+                                                                                   the Research Committee of City University of Hong Kong (No.
+    The findings of our study demonstrate the importance of urban                  H000691). All participants provided written informed consent.
+greenery, especially around schools, in promoting children’s AST be-
+havior and improving their body weight status. These findings have                 Funding
+important implications for policymakers, health promoters, and urban
+planners and designers. Government agencies should consider estab-                      The work described in this paper was fully supported by grants from
+lishing targeted policy plans to promote children’s health by creating             the National Natural Science Foundation of China (Project
+new greenspaces or improving existing greenspaces around schools.                  No.51778552) and the Research Grants Council of the Hong Kong
+More specifically, future planning and design of urban greenspaces                 Special Administrative Region, China (Project No. CityU11666716).
+should shift from an exclusive focus on the size or the number of
+greenspaces to the practice considering the accessibility and visibility of        CRediT authorship contribution statement
+those greenspaces, so they can be easily perceived by children in their
+daily lives. This is particularly critical for high-density cities, such as             Yiyang Yang: Conceptualization, Methodology, Formal analysis,
+Hong Kong, where land supply is limited and greenspaces in built-up                Investigation, Writing - original draft. Yi Lu: Conceptualization,
+areas are scarce.                                                                  Methodology, Supervision, Writing - review & editing. Linchuan Yang:
+                                                                                   Writing - review & editing. Zhonghua Gou: Writing - review & editing.
+5.3. Strengths and limitations                                                     Xiaoling Zhang: Writing - review & editing.
+    One strength of this study is that we assessed urban greenery using            Declaration of Competing Interest
+three methods. The simultaneous use of three urban greenery methods
+may help us to distinguish which aspects of urban greenery are of                       The authors declare that they have no known competing financial
+particular importance for children’s AST behaviors and body weight                 interests or personal relationships that could have appeared to influ-
+status. The other strength is the use of SEM to explore the direct effect          ence the work reported in this paper.
+                                                                               110
 
-
-Travel Behaviour and Society 20 (2020) 104–113
-Contents lists available at ScienceDirect
-Travel Behaviour and Society
-journal homepage: www.elsevier.com/locate/tbs
-Urban greenery, active school transport, and body weight among Hong Kong                                                                                        T
-children
-Yiyang Yanga, Yi Lua,b, , Linchuan Yangc, Zhonghua Goud, Xiaoling Zhange
-<U+204E>
-a
-Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong
-b
-City University of Hong Kong Shenzhen Research Institute, Shenzhen, China
-c
-Department of Urban and Rural Planning, School of Architecture and Design, Southwest Jiaotong University, Chengdu, China
-d
-Cities Research Institute, School of Environment, Gold Coast Campus, Griffith University, QLD 4222, Australia
-e
-Department of Public Policy, City University of Hong Kong, Hong Kong
-ARTICLE INFO                                                  ABSTRACT
-Keywords:                                                     Children who are overweight or obese are at a higher risk of several diseases and are more likely to be over-
-Urban greenery                                                weight or obese in adulthood. Physical inactivity among children and adolescents is one of the major causes of
-Physical activity                                             the prevalence of overweight and obesity problems, and hence promoting physical activity, especially active
-Active transport                                              school transport (AST), is a public health priority. Previous studies have provided evidence that urban greenery
-BMI
-may promote physical activity and improve body weight outcomes among children. However, the relationships
-Childhood obesity
-reported between these factors are inconsistent, partly due to the use of different measures of urban greenery.
-School environment
-the present study, we assessed different dimensions of urban greenery using three measures: number of parks;
-the Normalized Difference Vegetation Index (NDVI) based on satellite imagery; and street greenness based on
-Google Street View images. Multilevel regression analysis and structural equation modeling were conducted to
-investigate the complex relationships among urban greenery, AST, and body weight for 1,148 primary school
-students in Hong Kong. Overall, children attending schools with greener surrounding areas were more likely to
-engage in AST and had lower body mass index (BMI). In addition, AST partially mediated the impact of urban
-greenery on BMI. The findings demonstrate the importance of greenery around schools for children’s body
-weight status. They also offer public health and planning guidance on how to address overweight and obesity
-problems among children.
-1. Introduction                                                                                    2017; Wong et al., 2005).
-Physical inactivity among children is one of the major causes of the
-The prevalence of childhood overweight and obesity has increased                             prevalence of childhood overweight and obesity (Goran et al., 1999).
-over the last four decades, making this a worldwide public health                                  The World Health Organization recommends that school-aged children
-problem (Hruby and Hu, 2015). Children with overweight and obesity                                 engage in 60 min of moderately intense to vigorous physical activity a
-problems are at a higher risk of developing many chronic health con-                               day. The results of experimental studies have indicated that modest
-ditions and diseases that injure mental and physical health, including                             amounts of physical activity can provide health benefits and that vig-
-asthma, sleep disorder, bone and joint problems, type II diabetes, and                             orous activities may provide even greater benefits (Janssen and
-heart disease (Kumar and Kelly, 2017; Ranjani et al., 2016). In the long                           LeBlanc, 2010). The recommended physical activity guidelines en-
-term, a child who is overweight or obese is more likely to be obese as an                          courage various combinations of play, recreation, physical education
-adult, which is associated with a higher risk of developing heart dis-                             activities, sport, and active transport. However, in Hong Kong, less than
-ease, type II diabetes, metabolic syndrome, and many types of cancer as                            50% of young people meet these guidelines (CUHK, 2018).
-well (Arroyo-Johnson and Mincey, 2016; Phillips, 2017). In Hong Kong,                                  The transportation modes between home and school typically in-
-the rate of overweight and obesity among primary school students in-                               clude passive modes, such as busing or riding in a private vehicle, and
-creased from 16.1% in 1996 to 20.0% in 2014, making childhood                                      active modes, such as walking or cycling. Active school transport (AST)
-overweight and obesity a serious public health concern (Wang et al.,                               is a major source of children and adolescent's physical activity (Tudor-
-<U+204E>
-Corresponding author at: Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong.
-E-mail addresses: yiyayang-c@cityu.edu.hk (Y. Yang), yilu24@cityu.edu.hk (Y. Lu), yanglc0125@swjtu.edu.cn (L. Yang), z.gou@griffith.edu.au (Z. Gou),
-xiaoling.zhang@cityu.edu.hk (X. Zhang).
-https://doi.org/10.1016/j.tbs.2020.03.001
-Received 22 October 2019; Received in revised form 21 February 2020; Accepted 2 March 2020
-Available online 12 March 2020
-2214-367X/ © 2020 Hong Kong Society for Transportation Studies. Published by Elsevier Ltd. All rights reserved.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Y. Yang, et al.
-Locke et al., 2001). A review focused on the relationship between AST
-and physical activity and body weight has shown that children walking
-or cycling to school had higher level of overall physical activity com-
-pared with those who travel to school in passive modes (Faulkner et al.,
-2009). Empirical studies found the proportions of children meeting
-physical activity guidelines significantly differed by school transporta-
-tion modes. Measured by accelerometers, active school commuters ex-
-hibited higher overall physical activity levels per hour (Cooper et al.,
-2003; Sirard et al., 2005), or more minutes of moderate-to-vigorous
-physical activity per day, than passive commuters (Alexander et al.,
-2005; Faulkner et al., 2009; Kek et al., 2019; Sirard et al., 2005). In
-Ireland, Cyprus and Canada, children who walked to school sig-
-nificantly exhibited higher step counts during the before school period,
-the after school period and the whole day compared to children who
-used motorized transportation mode (Elaine and Marie, 2011;
-Loucaides and Jago, 2008; Pabayo et al., 2012). Researchers also found
-evidence that primary school boys who walked or cycled to school were
-significantly more physically active than those traveling by car, while
-girls who walked but not cycled to school were significantly associated
-with higher daily physical activity levels (Cooper et al., 2005). AST is
-also well placed to address inequalities in physical activity participation
-in terms of age, gender, and socioeconomic status (Brainard et al.,
-2019; Mandic et al., 2015; Stark et al., 2018). Thus, AST has the po-
-tential to make a substantial contribution to children’s daily overall
-physical activity (Pate et al., 2016). However, AST has declined dra-
-matically in various contexts, including Australia, the United States, the
-United Kingdom, and Hong Kong. In the United States, nearly half
-(49%) of children aged 5 to 14 actively traveled to school in 1969 but in
-2009, the rate had dropped to 13% (McDonald et al., 2011). In Hong
-Kong, the rate of AST also dropped from 40% to 29% over the last
-several decades (Census & Statistics Department of Hong Kong, 2016).
-Children’s levels of physical activity are highly volatile and may be
-influenced by a multitude of factors, including physiological, psycho-
-logical, sociocultural, and environmental determinants (Almanza et al.,
-2012; Duncan et al., 2014; Goran et al., 1999; Lovasi et al., 2011). Their
-level of physical activity is associated with numerous built environment
-factors (Saelens et al., 2003), such as land use mix (Aytur et al., 2008;
-Frank et al., 2004; Saelens et al., 2003), urban density (Saelens et al.,
-2003; Schlossberg et al., 2006), and street connectivity (Larsen et al.,
-2009; Saelens et al., 2003). However, evidence for the built environ-
-ment determinants of AST remains mixed. In a recent study conducted
-in New Zealand with 2,840 participants, AST was positively associated
-with intersection density (1 km buffer) and negatively related to
-dwelling density (1 km buffer) and distance to school (Ikeda et al.,
-2018). Distance between home and school is regarded as one of the
-most consistent correlates of AST, with long distance as one of the
-greatest barriers (Chica-Olmo et al., 2018; Mandic et al., 2017;
-Rothman et al., 2018). In the ultra-dense metropolis of Hong Kong,
-most districts are highly self-contained and children usually attend
-
-
-
-
-
-
-
-
-
-
-Travel Behaviour and Society 20 (2020) 104–113
-schools close to their housing estates, which may facilitate AST (Census
-& Statistics Department of Hong Kong, 2011).
-Among the relevant built environment factors, the relationship be-
-tween urban greenery and physical activity has received increasing
-research attention because rapid urbanization is reducing people’s op-
-portunities to contact with nature (Gubbels et al., 2016; Hunter et al.,
-2015; Lu, 2018a; Mårtensson et al., 2014). A study conducted in the
-United States found that children living in areas with more street trees
-were more physically active (Lovasi et al., 2011). In another study of
-208 children, which used the normalized difference vegetation index
-(NDVI) as an objective measure of urban greenery from satellite ima-
-gery, researchers found that greenness exposure was positively asso-
-ciated with the odds of engaging in moderate to vigorous physical ac-
-tivity (Almanza et al., 2012). Another study demonstrated that
-children’s green space exposure was positively linked to their physical
-activity (James et al., 2015). Specifically, researchers also found a
-significantly positive association between the likelihood of conducting
-AST and the presence of street trees and parks, good maintenance of
-green spaces, and absence of litter (Larsen et al., 2009; Van Kann et al.,
-2014).
-Yet, findings regarding the association between urban greenery and
-body weight status for children are mixed. A systematic review focusing
-on urban greenness, physical activity, and body weight found fairly
-strong evidence of a positive association between greenness and phy-
-sical activity and a less consistent negative association between
-greenness and body weight (James et al., 2015). One group of re-
-searchers found that greenness was significantly associated with a de-
-creased risk of overweight among children in high-density areas, but
-not in low-density counterparts (Liu et al., 2007). Another study found
-that street tree density, but not park area, was associated with a lower
-obesity prevalence level among children (Lovasi et al., 2013). Some
-researchers have argued that these inconsistent results are due to the
-use of different measures of urban greenery (de Vries et al., 2013; Fan
-et al., 2011; Picavet et al., 2016). Recent studies have indicated that
-perceived greenness plays a more significant role than overall objec-
-tively measured greenness in daily physical activity and body weight
-status (Bai et al., 2013; de Jong et al., 2012; Hipp et al., 2016). To this
-end, in this study, we used three methods to measure urban greenery
-near children’s home and school: the number of parks, the NDVI, and
-street greenness (extracted from Google Street View (GSV) images). The
-measure of eye-level street greenery can effectively capture residents’
-daily exposure to greenness and has been applied in recent public
-health studies (Lu, 2018b).
-
-1.1. Conceptual model and hypotheses
-
-To address this research gap, we constructed a conceptual frame-
-work for modeling the effects of urban greenery on body weight status
-(Fig. 1). As supported by strong evidence, the exposure to urban
-Fig. 1. The concept framework among built en-
-vironment, physical activity and health. For ex-
-ample, urban greenery can affect body weight
-status via promoting physical activity, or other
-pathways, such as promoting social contacts and
-reducing air pollution and stress. Dark arrows
-represent the strong evidence of direct impact
-while the light arrow represents the weak evi-
-dence of potential direct and indirect impact.
-105
-
-Y. Yang, et al.                                                                                                      Travel Behaviour and Society 20 (2020)
-greenery can increase physical activity, and increased physical activity            Interviews were conducted by trained interviewers to collect data
-can achieve better body weight outcomes. However, few researchers               about participants’ demographic information, household information,
-have used a single comprehensive framework to explore the mediating             and active school transport record. Participants were asked about “how
-effects of physical activity on the relationship between urban greenery         many days did you walk or bike to/from school during the last 7 days?”
-and body weight among children. Although it is intuitive to develop             Hence, we identified participants who had done active school transport
-urban greenery interventions to increase children’s physical activity           and those who had not done so. The participants and their parents were
-and hence improve their body weight outcomes, there is little rigorous          also required to provide a dwelling address, which was used to assess
-scientific evidence to support such a policy. Based upon previous stu-          the built environment factors. Besides, participants were required to
-dies, we proposed that urban greenery may affect children's body                provide their body weight and height, which were then used to calcu-
-weight outcomes via the mechanism of increasing physical activity               late body mass index (BMI), namely, the ratio between the weight in
-(Mitchell, 2013; Richardson et al., 2013; Zhang et al., 2018).                  kilograms to the square of height in meters. BMI is a widely used
-In the present study, we used structural equation modeling (SEM) to         screening tool for measuring overweight and obesity. Researchers have
-examine the degree to which AST mediates the relationship between               found that BMI is similar to other measurements in being highly related
-urban greenery and body weight outcomes. As a powerful method of                to disease risks for children and adolescents (Lawlor et al., 2010;
-examining the complex relationships among a set of variables, SEM has           Steinberger et al., 2005), and measuring height and weight is easier and
-been widely used in the health literature (Mohamadian et al., 2011;             less expensive than other methods of assessing weight status.
-Weden, Carpiano, & Robert, 2008; Zhang et al., 2018). It can be used to
-estimate abstract concepts (such as individual health outcomes) using           2.2. Urban greenery
-measured variables, to examine the complex mediating relationships
-among variables, and to improve the accuracy and credibility of model               In this study, urban greenery was measured using three objective
-results by considering the influence of measurement error. Using SEM, a         methods: the number of parks, the NDVI, and street greenness. The
-recent study found that daily greenspace exposure directly influenced           number of parks was defined as the total number of parks within two
-adults’ health and indirectly affected health status through physical           buffer zones of a participant’s dwelling and school address. The data on
-activity (Zhang et al., 2018), which may help researchers to understand         the urban parks were obtained from the Land Department of Hong Kong
-the role of physical activity in mediating the relationship between             SAR. Two buffer zones commonly used in walking/cycling built en-
-urban greenery and health status among adults. Nevertheless, few                vironment studies were adopted in this study: 400 m and 800 m. Using
-studies have focused on the mediating mechanism of AST between                  multiple buffer zones can also mitigate the modifiable areal unit pro-
-urban greenery and the weight status among children.                            blem, which indicates that built environment–active travel associations
-Fig. 2 shows the potential relationships among urban greenery, AST,         are influenced by the scale of the aggregation unit (Houston, 2014;
-and body weight status. We hypothesized that urban greenery has a               Wong, 2009).
-significant effect on body weight status; and that it promotes daily                The NDVI was used to assess the gross urban greenness of a whole
-physical activity and thus indirectly improves body weight status. Our          area from a multispectral imagery dataset, based on the contrast be-
-five specific hypotheses are listed in Table 1.                                 tween two bands: the chlorophyll pigment absorptions of plants in the
-red band (Red) and the high reflectivity in the near-infrared band (NIR).
-The NDVI equation is expressed as
-2. Method
-NDVI = (NIR        Red ) / (NIR + Red ).
-2.1. Participants                                                                   NDVI values range between -1.0 and 1.0, with higher values re-
-presenting higher levels of vegetation. The average NDVI value within a
-We conducted a face-to-face survey in March 2018 with 1,148 Hong            buffer zone for a dwelling and school location was used to measure the
-Kong primary school students, comprised of 559 girls and 589 boys               overall urban greenness.
-from the fifth and sixth grades of 40 primary schools in Hong Kong, of              The street greenness extracted from GSV images was used to esti-
-which 11 were located in Kowloon, 13 in Hong Kong Island, and the               mate the level of greenness perceived by students on streets. GSV-
-other 16 in New Territories. The 40 primary schools were selected by            generating points were created along all streets at a spacing of 50 m.
-stratified random sampling, aimed at selecting schools in neighbor-             The coordinates of the GSV-generating points were input into a Python
-hoods with different socio-economic and built environment contexts.             script, and four GSV images were downloaded for each point, with a 90°
-The list of participating schools is given in Appendix A.                       field of view and headings of north, east, south, and west.
-Fig. 2. Conceptual model and the interaction among urban greenery, physical activity, and weight status.
-106
-104–113
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Y. Yang, et al.                                                                                                               Travel Behaviour and Society 20 (2020) 104–113
-Table 1
-The five hypotheses.
-Hypotheses
-H1                                Urban greenery surrounding residence has a significant positive effect on AST
-H2                                Urban greenery surrounding residence has a significant positive effect on body weight status
-H3                                Urban greenery surrounding school has a significant positive effect on AST
-H4                                Urban greenery surrounding school has a significant positive effect on body weight status
-H5                                AST has a significant positive effect on body weight status
-A separate script was developed to determine the level of greenness              to be a measure of scale reliability (Bland and Altman, 1997; Raykov,
-in each GSV image using an automated machine-learning vegetation                     1997). The fit index CMIN/DF is the minimum discrepancy divided by
-extraction method (Houston, 2014). The ratio of greenery pixels to total             its degrees of freedom, and the ratio should be close to 1 for correct
-pixels in four images from a GSV-generating point was used to assess                 models. The goodness of fit index (GFI) was devised by (Joreskog and
-the level of street greenness for the point, as shown in the following               Sorbom, 1984) for maximum likelihood and unweighted least squares)
-equation:                                                                            estimation. The adjusted GFI (AGFI) takes into account the degrees of
-4                                                              freedom available for testing the model. The population root mean
-i=1
-Greenerypixelsi                                            square error of approximation (RMSEA) was also calculated (Joreskog
-Street greenness =      4
-i=1
-Totalpixelsi.                                            and Sorbom, 1984).
-In the present study, we mainly focused on the direct impact of
-Street greenness values range between 0.0 and 1.0, with higher                   urban greenery on individual BMI and the indirect impact of urban
-values representing higher levels of street greenness. The average value             greenery on individual BMI via AST. Personal characteristics and other
-for all GSV-generating points within the buffer zone of a dwelling or                built environment variables were treated as confounders in the models.
-school location was used to assess the level of street greenness. The
-automated vegetation extraction was validated using manual extrac-
-tion. In our pilot study, 30 GSV images were randomly selected, and                  4. Results
-their vegetation was manually extracted by a researcher using Adobe
-Photoshop. The values of the GSV greenness extraction were highly                    4.1. Results of Multilevel regression model
-correlated with those of the manual extraction (r = 0.91; p < 0.01).
-Table 2 and 3 shows the characteristics of the participants and built
-2.3. Other built environment variables                                               environment respectively. Of the total 1,148 primary school students
-from the fifth and sixth grades, 813 provided an accurate household
-We also calculated other built environment variables within the two              address. There were slightly more sixth graders than fifth graders
-buffer zones and adjusted the analysis models to incorporate them.                   (53.4% vs. 46.6%). In terms of AST, 37.11% of the students walked or
-These variables were as follows: distance between school and dwelling                rode a bicycle to school four or five days a week (426 of 1148), while
-location, population density, street intersection density, number of                 31.7% of the participants never walked or rode a bicycle to school. Boys
-shops, number of bus stops, number of schools, distance between                      slightly outnumbered girls, but girls were more likely to walk or ride a
-dwelling location and bus stops, and distance between dwelling loca-                 bicycle to schools than boys (51.3% vs. 48.7%).
-tion and Mass Transit Railway (MTR) stations. Population density was                      The results of the regression model analysis for predicting the odds
-calculated by the residential population per unit of land area in a pupil’s          of engaging AST are shown in Table 4. Street greenness and the number
-residential neighborhood. Street intersection density was measured by                of parks surrounding school were both positively associated with the
-the number of street intersections involving three or more ways per unit             odds of engaging in AST with the 400 m buffer (OR [95% CI]: 1.32
-of land area. The age and gender of the participants were also included              [1.18, 1.51] and 1.21 [1.13, 1.32] respectively). The overall greenness
-in the analysis as potential confounding variables.                                  surrounding school was also positively associated with the odds of
-Table 2
-3. Data analysis
-Demographics and AST characteristics of the sample (n = 1148).
-3.1. Multilevel modeling                                                               Individual                Number of            Percentage (%)     Engaged in active
-characteristics           participants                            school transport
-(%)
-A two-step analysis strategy was implemented corresponding to the
-data we collected from participants: 1) logistic regression to examine                 Grade (y)
-the association between urban greenness and the odds of engaging in                    5 (11–12 years old)       535                  46.6               62.6
-6 (12–13 years old)       613                  53.4               66.2
-AST; 2) linear regression to examine the association between urban
-greenness and BMI. Multilevel modeling was used for the analysis after                 Gender
-controlling for other built environment and individual confounding                     Male                      589                  51.3               62.1
-Female                    559                  48.7               67.0
-variables. Individual participants were clustered within street blocks,
-which are census defined and aggregated in Hong Kong as urban                          Height (cm)
-< 120                    6                    0.5                33.3
-planning units. Models 1 and 2 were used for the 400-m and 800-m
-120–140                   275                  24.0               50.2
-buffers, respectively. All of the analyses were performed using the                    140–160                   773                  67.3               67.9
-statistical software STATA 13.0 (StataCorp LLC).                                        > 160                    94                   8.2                80.9
-Weight (kg)
-3.2. Structural equation modeling                                                       < 30                     64                   5.6                62.5
-30–40                     463                  40.3               57.4
-40–50                     485                  42.2               66.4
-Before conducting the SEM, the reliability and validity of the vari-
-50–60                     124                  10.8               84.7
-ables were verified using Cronbach’s alpha and factor analysis.                         > 60                     12                   1.0                66.7
-Cronbach’s alpha is a measure of internal consistency. It is considered
-107
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Y. Yang, et al.
-Table 3
-Descriptive statistics of urban greenness and built environment factors.
-Variable                       400 m buffer               800 m buffer
-
-Mean         SD            Mean         SD
-Urban Greenness
-H-Street greenness (GSV)       0.137        0.0417        0.1375       0.0344
-H-Overall greenness (NDVI)     0.1686       0.1256        0.1798       0.1297
-H-Number of parks              5.3247       3.709         16.22        9.0326
-S-Street greenness (GSV)       0.1495       0.047         0.1459       0.0452
-S-Overall greenness (NDVI)     0.2024       0.1405        0.2139       0.1505
-
-S-Number of parks              4.4          3.7608        13.625       9.4345
-
-Built environment
-H-Population density           43,720       21,783        38,529       16,449
-H-Street intersection density  78.659       39.455        63.588       29.079
-H-Number of bus stops          20.31734     10.60963      60.967       30.76
-H-Number of schools            11.049       5.4603        31.82        13.969
-
-H-Distance to MTR station      660.2021     787.2687      660.2021     787.2687
-H-Distance to bus stop         82.27403     49.81983      82.27403     49.81983
-
-S-Street intersection density  72.837       38.914        59.046       30.959
-S-Number of bus stops          17.4         11.247        53.4         31.596
-S-Distance to MTR station      920.45       1155.8        920.45       1155.8
-S-Distance to bus stop         105.91       76.091        105.91       76.091
-
-HK-Distance                    1783         4030.6        1783         4030.6
-
-Note: “H-” stands for home-based measures; “S-” stands for school-based mea-
-sures.
-engaging in AST with the 800 m buffer (OR [95% CI]: 1.09 [1.02,
-1.17]).
-Among other built environment factors, the street connectivity of
-the school, which was defined as the density of street intersections
-within the school’s surrounding area, was positively associated with the
-odds of engaging in AST with both buffers (OR [95% CI]: 1.08 [1.01,
-1.15] with the 400 m buffer and 1.03 [0.97, 1.12] with the 800 m
-buffer). The number of bus stops in the neighborhood was negatively
-associated with the odds of engaging in AST with the 400 m buffer.
-Other built environment factors were not significantly associated with
-engagement in AST.
-The results of linear regression models for predicting BMI and built
-environment factors are shown in Table 5. Street greenness and the
-number of parks surrounding schools were significantly positively as-
-
-sociated with BMI with the 400 m buffer (ß [95% CI]: 0.132 [0.019,
-0.257] for street greenness and 0.118 [0.006, 0.204] for number of
-
-Table 4
-Logistic regression models for predicting the odds of engaging in active transport
-Model predictor                                 Model 1 (buffer = 400 m)
-OR (95% CI)
-Urban greenness
-H-Street greenness (GSV)                        1.10 (0.99, 1.24)
-H-Overall greenness (NDVI)                      1.13 (1.04, 1.25)
-H-Number of parks                               1.04 (0.98, 1.12)
-S-Street greenness (GSV)                        1.32 (1.18, 1.51)
-S-Overall greenness (NDVI)                      0.96 (0.90, 1.02)
-S-Number of parks                               1.21 (1.13, 1.32)
-Built environment
-H-Population density                            0.99 (0.91, 1.10)
-H-Street intersection density                   0.97 (0.90, 1.06)
-H-Number of bus stops                           0.96 (0.89, 1.06)
-H-Number of schools                             1.12 (1.04, 1.23)
-H-Distance to MTR station                       1.00 (0.91, 1.09)
-H-Distance to bus stop                          1.003 (0.92, 1.10)
-S-Street intersection density                   1.08 (1.01, 1.15)
-S-Number of bus stops                           1.01 (0.94, 1.13)
-S-Distance to MTR station                       0.91 (0.85, 0.96)
-S-Distance to bus stop                          1.005 (0.92, 1.11)
-HS-Distance                                     1.001 (0.91, 1.09)
-Note: “H” stands for home-based measures; “S” stands for school-based measures.
-1
-Travel Behaviour and Society 20 (2020) 104–113
-parks). Other built environment factors were not significantly asso-
-ciated with BMI.
-
-4.2. Results of structural equation modeling
-
-The results of the fitting test suggest that the SEM established in the
-present study (presented in Fig. 2) was an ideal research model, with
-high agreement and stability through the matching degree analysis.
-The model was constructed and analyzed using the statistical soft-
-
-
-ware package AMOS 21.0 (IBM, USA). It had a high degree of model
-fitness, as indicated in Table 6 and Fig. 3.
-The results of the SEM path analysis suggest that three hypotheses
-
-(H3, H4, and H5) were verified (C.R. > 1.96, p < 0.05). Urban
-greenery surrounding school had a significant effect on both AST and
-BMI, confirming H3 and H4. AST also had a significant effect on body
-
-weight, confirming H5. However, urban greenery surrounding re-
-
-
-sidence has no significant effect on AST or body weight (p > 0.05),
-refuting H1 and H2. The direct effect of urban greenery surrounding
-school on body weight was 0.43, while the indirect effect with the
-mediation of AST was 0.08 (Fig. 4 and Table 7). The total effect of
-
-urban greenery surrounding school on body weight (direct effect + in-
-
-direct effect) was 0.51.
-
-5. Discussion
-In this study, we examined the associations between urban built
-environment factors, AST, and body weight for 1,148 primary school
-students in Hong Kong. As suggested in the literature, uncertainty about
-the effects of urban greenery on physical activity and health stems
-partially from the use of different measures of urban greenery. Hence,
-we assessed different dimensions of urban greenery using three mea-
-sures: the number of parks, the NDVI (by satellite imagery), and street
-greenness (by GSV images). Street greenness represents the eye-level
-greenness perceived by school commuters on streets and therefore can
-objectively estimate the daily greenery exposure of urban residents. We
-further applied SEM to examine the mediation effects of AST between
-urban greenery and weight status.
-
-
-5.1. Major findings
-
-
-We found significant associations between street greenness in the
-
-to school.
-Model 2 (buffer = 800 m)
-p-value                         OR (95% CI)                              p-value
-
-0.102                           1.08 (1.01, 1.16)                        0.450
-0.913                           1.19 (1.09, 1.30)                        0.125
-0.281                           1.03 (0.97, 1.11)                        0.159
-< 0.001***                      1.42 (1.23, 1.59)                        0.844
-0.979                           1.09 (1.02, 1.17)                        < 0.001***
-< 0.001***                      0.97 (0.90, 1.07)                        0.129
-
-0.201                           0.99 (0.91, 1.10)                        0.303
-0.430                           0.98 (0.91, 1.09)                        0.108
-0.002**                         1.00 (0.93, 1.11)                        0.580
-0.060                           1.01 (0.94, 1.13)                        0.342
-0.401                           1.00 (0.91, 1.09)                        0.087
-0.111                           1.003 (0.92, 1.10)                       0.469
-< 0.001***                      1.03 (0.97, 1.12)                        < 0.001***
-0.495                           1.01 (0.94, 1.13)                        0.465
-0.667                           1.004 (0.92, 1.10)                       0.102
-0.197                           1.006 (0.92, 1.11)                       0.196
-0.172                           1.00 (0.91, 1.08)                        0.098
-
-08
-
-Y. Yang, et al.
-Table 5
-Multilevel linear regression models for predicting BMI.
-Model predictor                             Model 1 (buffer = 400 m)
-ß (95% CI)
-Urban greenness
-H-Street greenness (GSV)                    0.097, (-0.022, 0.189)
-H-Overall greenness (NDVI)                  0.122, (0.027, 0.213)
-H-Number of parks                           0.043, (-0.031, 0.128)
-S-Street greenness (GSV)                    -0.132, (0.019, 0.257)
-S-Overall greenness (NDVI)                  -0.041, (-0.126, 0.039)
-S-Number of parks                           -0.118, (0.006, 0.204)
-Built environment
-H-Population density                        -0.001 (-0.067, 0.042)
-H-Street intersection density               0.007 (-0.082, 0.089)
-H-Number of bus stops                       0.006 (-0.083, 0.098)
-H-Number of schools                         0.114 (0.020, 0.217)
-H-Distance to MTR station                   0.001 (-0.093, 0.090)
-H-Distance to bus stop                      0.003 (-0.087, 0.094)
-S-Street intersection density               0.074 (-0.016, 0.178)
-S-Number of bus stops                       0.011 (-0.072, 0.101)
-S-Distance to MTR station                   0.005 (-0.062, 0.078)
-S-Distance to bus stop                      -0.001 (-0.074, 0.066)
-HS-Distance                                 0.002 (-0.113, 0.135)
-Note: “H-” stands for home-based measures; “S-” stands for school-based mea
-Table 6
-Analysis of the structural equation model’s fitting test.
-Measure                                         Result         Suggested
-Cronbach’s Alpha (Bland & Altman, 1997)         0.718          =0.70
-KMO (Dziuban and Shirkey, 1974)                 0.784          =0.70
-Sig                                             0.000          < 0.05
-CMIN/DF (Hirotsu, 1986)                         1.352          =5
-GFI (Cheung & Rensvold, 2002)                   0.972          > 0.90
-RMSEA (Steiger, 1998)                           0.055          < 0.08
-AGFI (Cheung & Rensvold, 2002)                  0.916          > 0.90
-NFI (Hu and Bentler, 1999)                      0.947          =0.95
-CFI (Hu and Bentler, 1999)                      0.969          =0.95
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fig. 3. Confirmatory Factor Analysis for latent variable of urban greenery
-surrounding residence and school.
-
-school buffer area and both the pupils’ odds of engaging in AST and
-their body weight status. The findings of our study concur with previous
-findings regarding the relationship between urban greenery and chil-
-dren’s engagement in physical activity (Almanza et al., 2012; Bell et al.,
-2008). Children attending a school with a greener surrounding en-
-vironment are more likely to commute to school on foot or by bicycle
-
-Travel Behaviour and Society 20 (2020) 104–113
-
-
-Model 2 (buffer = 800 m)
-p-value                       ß (95% CI)                                 p-value
-
-0.238                         0.089 (-0.037, 0.173)                      0.928
-0.493                         0.126 (0.032, 0.236)                       0.527
-0.167                         0.033 (-0.028, 0.109)                      0.629
-< 0.001***                    0.142 (0.023, 0.274)                       0.481
-0.197                         0.109 (-0.004, 0.198)                      0.167
-< 0.001***                    0.107 (0.002, 0.187)                       0.290
-
-0.720                         0.009 (-0.076, 0.100)                      0.092
-0.098                         0.008 (-0.081, 0.099)                      0.681
-0.349                         0.001 (-0.095, 0.087)                      0.012
-0.682                         0.102 (0.019, 0.202)                       0.375
-0.574                         0.001 (-0.093, 0.091)                      0.762
-0.132                         0.003 (-0.089, 0.094)                      0.849
-0.806                         0.077 (-0.014, 0.178)                      0.447
-0.975                         0.012 (-0.072, 0.103)                      0.542
-0.728                         0.004 (-0.057, 0.081)                      0.103
-0.110                         0.006 (-0.049, 0.112)                      0.124
-0.437                         0.001 (-0.087, 0.095)                      0.098
-sures.
-
-
-value
-
-
-
-
-
-
-Fig. 4. Effects of urban greenery surrounding school on weight status.
-
-
-and have a lower BMI. Furthermore, we supplement previous studies by
-providing strong and positive evidence of the association of urban
-greenery and the BMI of children (Lovasi et al., 2013). Our results
-emphasize the role of urban greenery surrounding a school on AST and
-BMI, whereas other studies have typically emphasized the role of urban
-greenery near residential neighborhoods. This difference may stem
-from our sampling methods and research design. We carefully selected
-participants from primary schools with different built environment
-characteristics, while other studies have selected participants based on
-their dwelling locations. Hence, we observed greater variation in urban
-greenery surrounding a school than in other studies.
-Understanding how AST mediates the effect of urban greenery on
-health is of paramount importance to develop effective interventions to
-improve children’s body weight outcomes. Previous studies have pro-
-vided strong evidence of the direct effect of urban greenery on body
-weight and BMI (Bell et al., 2008; Duncan et al., 2014). However, the
-indirect effect of urban greenery on body weight and BMI via AST has
-not been explored. We conducted SEM to understand the complex re-
-lationships among urban greenery, AST, and BMI. Our findings suggest
-that urban greenery directly affects body weight and also indirectly
-affects body weight via AST. The findings of this study echo others
-(Almanza et al., 2012; Bell et al., 2008) in stressing the importance of
-urban greenness for promoting AST and preventing childhood over-
-weight and obesity. Our findings are analogous to those of a previous
-study among adults, which reported that urban greenery directly in-
-fluences physical health and also indirectly affects it through physical
-activity (Zhang et al., 2018). Hence, the direct effect of urban greenery
-on health and its indirect effect via physical activity can be regarded as
-reasonably robust and may be applicable across age groups.
-From a methodological perspective, street greenness measured by
-109
-
-Y. Yang, et al.
-Table 7
-Effect relationship between urban greenery surrounding school, AST and BMI in
-Total effect                                           Direct effect
-Urban greenery surrounding school <U+2192> BMI                Urban greenery surrou
-0.51                                                   0.43
-GSV images, but not by the NDVI, was found to have a positive effect on
-AST and BMI. As we mentioned in Section 1, inconsistent results of
-studies on the association between urban greenness and body weight
-status may be due to the different measures of urban greenery, and the
-results of our study also support this argument. It is plausible that street
-greenness and the NDVI capture different dimensions of urban
-greenery, given that the former focuses on eye-level greenness and the
-latter focuses on the overall greenery in an area. Street greenness may
-better estimate daily greenery exposure because it better represents
-what a resident perceives and streets are used more than other areas
-(Lu, 2018b). The superior performance of street greenness over the
-NDVI is also consistent with the previous finding that perceived
-greenness has a stronger impact on people’s health and physical activity
-than overall greenness, as measured by the NDVI (Leslie et al., 2010;
-Sugiyama et al., 2008).
-Previous studies have reported correlations between AST and body
-weight and other built environment factors, such as urban density,
-street connectivity, and distance between school and residence (Duncan
-et al., 2014; Faulkner et al., 2009; Mitchell, 2013). In contrast, we
-found only one such association (between AST and body weight and
-street connectivity). This difference may be accounted for by differ-
-ences in urban contexts (Lu et al., 2019). For example, Hong Kong has a
-much higher urban density than the Western cities in which most
-previous studies were conducted. Understanding the different contexts
-of the social and built environments could aid in developing localized
-public health and planning policy for children.
-5.2. Policy implications
-
-The findings of our study demonstrate the importance of urban
-greenery, especially around schools, in promoting children’s AST be-
-havior and improving their body weight status. These findings have
-important implications for policymakers, health promoters, and urban
-planners and designers. Government agencies should consider estab-
-lishing targeted policy plans to promote children’s health by creating
-new greenspaces or improving existing greenspaces around schools.
-More specifically, future planning and design of urban greenspaces
-should shift from an exclusive focus on the size or the number of
-greenspaces to the practice considering the accessibility and visibility of
-those greenspaces, so they can be easily perceived by children in their
-daily lives. This is particularly critical for high-density cities, such as
-Hong Kong, where land supply is limited and greenspaces in built-up
-areas are scarce.
-
-5.3. Strengths and limitations
-One strength of this study is that we assessed urban greenery using
-three methods. The simultaneous use of three urban greenery methods
-may help us to distinguish which aspects of urban greenery are of
-particular importance for children’s AST behaviors and body weight
-status. The other strength is the use of SEM to explore the direct effect
-
-Travel Behaviour and Society 20 (2020) 104–113
-
-SEM.
-Indirect effect
-nding school <U+2192> BMI                  Urban greenery surrounding school <U+2192> AST <U+2192> BMI
-0.08 (=0.58 × 0.13)
-of urban greenery on body weight status and the indirect effect via AST.
-This advanced statistical technique helped us to understand the re-
-lationships between urban greenery, AST, and body weight. However,
-we could not infer any causal relationships because of the cross-sec-
-tional research design. Future studies could use natural experiments to
-deliver more robust scientific evidence. We also used questionnaires to
-assess AST, which may be subject to recall bias or social desirability
-bias. In future studies, school travel behaviors could be collected by
-portable GPS and/or accelerometer equipment for more objective
-measures (Li et al., 2019).
-
-6. Conclusion
-
-Using three urban greenery measures (number of parks, NDVI, and
-street greenery with GSV images), we found that street greenery in the
-area surrounding a school was significantly associated with children’s
-AST behaviors and body weight status. AST was also found to play a
-mediating role in the relationship between urban greenery and the body
-weight status of children. The findings of this study join others in
-highlighting the importance of greenery exposure around schools in
-promoting AST and improving body weight status among children.
-Future planning and design practice should consider the visibility of
-greenspaces as well as more traditional planning parameters such as the
-size or number of greenspaces.
-
-7. Ethics approval and consent to participate
-Ethical approval for the study was obtained prior to this study from
-the Research Committee of City University of Hong Kong (No.
-H000691). All participants provided written informed consent.
-
-Funding
-
-The work described in this paper was fully supported by grants from
-the National Natural Science Foundation of China (Project
-No.51778552) and the Research Grants Council of the Hong Kong
-Special Administrative Region, China (Project No. CityU11666716).
-
-CRediT authorship contribution statement
-
-Yiyang Yang: Conceptualization, Methodology, Formal analysis,
-Investigation, Writing - original draft. Yi Lu: Conceptualization,
-Methodology, Supervision, Writing - review & editing. Linchuan Yang:
-Writing - review & editing. Zhonghua Gou: Writing - review & editing.
-Xiaoling Zhang: Writing - review & editing.
-Declaration of Competing Interest
-
-The authors declare that they have no known competing financial
-interests or personal relationships that could have appeared to influ-
-ence the work reported in this paper.
-110

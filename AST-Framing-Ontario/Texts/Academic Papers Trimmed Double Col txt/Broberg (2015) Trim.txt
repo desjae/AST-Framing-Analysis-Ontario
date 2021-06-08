@@ -1,1312 +1,660 @@
+                                                                           Transport Policy 37 (2015) 1–10
+                                                                Contents lists available at ScienceDirect
+                                                                       Transport Policy
+                                                   journal homepage: www.elsevier.com/locate/tranpol
+School travel mode choice and the characteristics of the urban built
+environment: The case of Helsinki, Finland
+Anna Broberg a,n, Satu Sarjala b
+a
+  Department of Real Estate, Planning and Geoinformatics, Aalto University P.O. Box 12200, FI- 00076 Aalto, Finland
+b
+  School of Architecture, Tampere University of Technology, P.O. Box 600, FI- 33101 Tampere, Finland
+art ic l e i nf o                                       a b s t r a c t
+Article history:                                        As observed in several previous studies, the nature of the urban structure can affect children's mode of
+Received 8 October 2013                                 transportation to school. In this paper, we identify and investigate, in the Finnish context, the elements of
+Received in revised form                                the urban structure around homes and en route to school that promote children's ability to walk or cycle
+25 August 2014
+                                                        to school, using the conceptual domains proposed by Mitra (2013) to frame the work.
+Accepted 25 October 2014
+                                                             The associations discovered can, to a large extent however, be viewed as contrasting signi<U+FB01>cantly
+Available online 11 November 2014
+                                                        with those identi<U+FB01>ed in previous research, as an increase in the variables, essentially indicating urbanity,
+Keywords:                                               decreased the likelihood of the children walking or cycling to school. This is due to the existence of a
+Children                                                well-functioning public transportation network in the Helsinki region. The associations were more sig-
+Youth
+                                                        ni<U+FB01>cantly associated with the environment en route to school than with the environment around homes.
+Active transport
+                                                        This research improves our understanding of active school transportation behaviour in an environment
+Independent mobility
+GIS                                                     that is already relatively supportive of active transportation and independent mobility by offering a well-
+                                                        functioning public transportation system.
+                                                                                                                            & 2014 Elsevier Ltd. All rights reserved.
+1. Introduction                                                                             provided by McMillan (2005). In her framework the urban form
+                                                                                            was seen as having an indirect link to children's active transport,
+     Because of the growing obesity epidemic, the possibility that                          through the prism of parental perception and decision-making.
+different environments could promote greater physical activity in                           The urban form clearly had an effect on parental perceptions of the
+children is a subject that has attracted increasing research interest                       neighbourhood through which the children had to travel and on
+(Ding and Gebel, 2012; van Loon and Frank, 2011; Ding et al., 2011;                         parents' perceptions of traf<U+FB01>c safety as well as on the transport
+Pont et al. 2009). As such, activity on school journeys has become                          options available to the household. Based on their perceptions,
+the focus of an increasing research effort (see reviews by Stewart                          parents then decided whether their children could walk or cycle to
+et al., 2012; Stewart 2011; Wong et al., 2011; Davison et al., 2008;                        school. Panter et al. (2008), however, were subsequently to criti-
+Sirard and Slater, 2008), as the journey to school is something that                        cise McMillan's framework for not incorporating the varied com-
+children need to cover on most days, and active school journeys                             ponents of the environment that had been shown to in<U+FB02>uence
+can thus promote a signi<U+FB01>cant opportunity for physical activity. To                         parental decision making. In its place they suggested a conceptual
+better understand the linkages between the environment and                                  framework composed of four domains of in<U+FB02>uence on children's
+children's active school transportation (AST), a number of con-                             active travel behaviour. These domains were the individual factors
+ceptual frameworks have been proposed (McMillan, 2005; Panter                               concerning the child, the physical environment, external factors
+et al., 2008; Mitra, 2013; Sirard and Slater, 2008; Pont et al., 2011).                     (such as climate or policy), and the main moderating factors (age,
+We discuss a few of these in more detail below and suggest a way                            gender, and distance). In this context, the diverse elements of the
+to empirically analyse the school journey travel mode choices of                            urban form were highlighted, focusing on relevant issues in rela-
+children and young people living within 1–3 km of their school,                             tion to the creation of perceptions among both children and par-
+using the model proposed by Mitra (2013).                                                   ents and their joint decision making processes, such as facilities,
+     The earliest attempt to build a comprehensive child-speci<U+FB01>c                            environmental factors related to personal and traf<U+FB01>c safety, and
+framework of the built environment's impact on transport was                                route directness etc.
+                                                                                                A further conceptual framework has been suggested by Mitra
+   n
+     Corresponding author.                                                                  (2013). His critique of the framework proposed by Panter et al. is
+     E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                     that the framework is not clear in explaining the behavioural
+http://dx.doi.org/10.1016/j.tranpol.2014.10.011
+0967-070X/& 2014 Elsevier Ltd. All rights reserved.
+
+2                                                 A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
+processes that link the factors on these different levels of the                  recommended that the built environment relating to the neigh-
+ecological model to the choice of active transport modes. Trying to               bourhood, destination, and route environment should be con-
+overcome this shortcoming, Mitra's framework is informed by                       sidered. Research that has empirically studied the destination (i.e.
+research from three different research <U+FB01>elds and multiple theo-                   school) environment and facilities has however shown no sig-
+retical backgrounds where children's transportation has been in                   ni<U+FB01>cant associations with children's active travel behaviour (Pan-
+focus, namely, in transportation and urban planning studies, public               ter et al., 2010; Mitra et al., 2010). Thus we concentrate instead on
+health, and environmental psychology. Based on his review, Mitra                  analysing the urban environments of homes and school journeys
+builds a behavioural model of school transport (BMST) that is at its              in correlation with the transport modes of children and young
+core a socio-ecological model, which looks at the associations                    people and leave the destination environment out of our analysis.
+between built environment and behaviour across multiple nested                        Finally, this study adds to the discussion on the associations
+layers. In addition, the model also contextualises the intra-                     between the built environment and AST by exploring this general
+household interactions within the household activity-travel fra-                  theme in the Finnish context. Thus far, this <U+FB01>eld of research has
+mework, and considers the perceived importance of an escorted                     largely been dominated by research from the US, Canada, Australia
+trip, the mobility options available and the activity constraints on              and the UK with occasional examples from other European
+the family.                                                                       countries such as Netherlands (e.g. Aarts et al., 2012; Kemperman
+    On the urban environment level, Mitra (2013) identi<U+FB01>es <U+FB01>ve                    and Timmermans, 2014).
+conceptual domains of relationship between the neighbourhood
+environment and school travel outcomes. These domains include
+the proximity to school, traf<U+FB01>c and personal safety concerns,
+connectivity, comfort and attractiveness, and the possibility to                  2. Material and methods
+maintain social capital on the school journey. Previously dis-
+covered evidence in respect of the environmental attributes as-                       Recent developments in GIS (Geographic Information Systems)
+sociated with children's transport choices is then placed under                   and especially in public participation GIS (PPGIS) have created new
+these conceptual domains and discussed in detail by Mitra.                        opportunities for the use of location-based methodologies. The
+    Of the frameworks described above, we <U+FB01>nd Mitra's (2013)                      softGIS methodology is one example of a PPGIS method that en-
+framework the most thorough in its reasoning and portrayal of the                 ables the collection of large datasets of residents' experiential
+hypothesised links between urban environment and transport                        knowledge concerning various environments (Kyttä and Kahila,
+options in respect of children's journeys to school. In this paper,               2011). The main bene<U+FB01>t of utilising location-based surveys in data
+we seek to highlight the elements of the urban structure that                     collection concerning daily mobility and environmental experi-
+promote children's transport to school by foot or by bike, using the              ences is the geographical dimension the data maintains. Based on
+conceptual domains proposed by Mitra to frame the work. We also                   the coordinates, the experiential knowledge gathered from re-
+ask whether the correlates of walking and cycling differ. It has                  sidents can be simultaneously analysed with register-based GIS
+been suggested that the correlates for walking and cycling in                     data, which provides new, location-based research possibilities
+terms of school journeys may be different (Kemperman and Tim-                     (Kahila and Kyttä, 2009).
+mermans, 2014; De Vries et al., 2010) and hence we treat walking                      The data relating to this study was collected via a softGIS sur-
+and cycling to school as two distinct outcome variables rather than               vey for children, where the respondents used the Internet inter-
+looking at active versus passive travel modes.                                    face to mark their home and daily routes to school, and to answer
+    Somewhat unusually, we only include subjects living within                    questionnaires concerning school journeys, perceived health and
+distances between one and three kilometres from their school.                     wellbeing as well as background details. The method has been
+Increasing distance has consistently been shown to decrease the                   tested in previous research among both children (Kyttä et al.,
+propensity of journeys taken actively (e.g. Su et al., 2013; Pont                 2012; Broberg et al., 2013) and adults. The user interface included
+et al., 2009; Yeung et al., 2008). In the pupils studied from the                 a set of questionnaire pages where conventional survey question
+Helsinki region, inactive modes of transport were almost non-                     and mapping pages alternated (see Fig. 1)1. Additionally, the re-
+existent (2.8% modal share) on journeys shorter than one kilo-                    spondents were asked to mark places that were functionally,
+metre, while previous research shows notably lower shares of                      emotionally or socially meaningful, and to describe how accessible
+active transport in students living close to school. In the US, the               these places were, in terms of independent mobility and active
+share of walking was 48% for those living within 1 mile of their                  transport. This article concentrates on children's school journeys,
+school (McDonald, 2008); while another study reported 32%                         while the data relating to meaningful places will be reported
+walking, 14% cycling, and 54% using car or bus as their primary                   elsewhere.
+transport mode within the same distance (Schlossberg et al.,
+2006). In Australia, 23% of students living within 0.75 km of their
+school had no active commuting trips in a week (Merom et al.,                     2.1. Subjects and communities
+2006). Meanwhile, a Dutch study found the share of inactive trips
+within 1 km of school to be 10% (Aarts et al., 2012). With regres-                    This article studies the school journeys of two select age groups
+sion analysis, the point is to explain the variance in the outcome                in a small but rapidly growing metropolitan area, the capital re-
+variable (i.e. using inactive modes vs. walking or cycling) by the                gion of Finland. The research data was collected in 16 compre-
+variance of the independent variables (i.e. the structure of the built            hensive schools (in total 22 5th grade classes and 38 8th grade
+environment). To be able to explain the variance in school journey                classes) during the autumn and early winter of 2011. The schools
+transport modes, we need to concentrate on those trips where it is                and their surrounding residential areas included represent differ-
+not only distance but also the environment that affects the mode                  ent urban structures ranging from the inner city urban core to
+chosen.                                                                           surrounding suburbs, and fringe areas dominated by single-family
+    This article is, we believe, the <U+FB01>rst to operationalise Mitra's               housing.
+framework. We use, where available, variables related to the urban
+environment already utilised in earlier research and create new                       1
+                                                                                         See http://www.softgis.<U+FB01>/children. Similar datasets were gathered in Finland,
+ways of operationalising the domains that have not previously                     Australia and Japan. For ease of understanding, in Fig. 1 the Australian version of
+been studied in detail. In their framework, Panter et al. (2008)                  the questionnaire is depicted instead of the one in Finnish.
+
+                                                    A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10                                                       3
+                                             Fig. 1. Interfaces for mapping and ordinary questionnaire pages.
+    In Finland, every pupil is assigned to the nearest school, or the               percentage was 35.4. This is due to the secondary school network
+nearest school where the chosen <U+FB01>rst foreign language is being                      being sparser and thus producing longer school journeys for the
+taught. Pupils are also free to choose other schools, but going to                  older age group. The school trip distances were fairly similar
+the nearest school available is still fairly common: 70% of the                     throughout the study region, although longer distances were a
+primary school pupils go to their nearest school, the respective                    little more prominent in the more sparsely populated fringe areas.
+<U+FB01>gure for lower secondary schools being 60% (Bernelius, 2011).                      Nevertheless, the children selected for the study represent the 16
+    In the Helsinki region, the school network is still relatively                  schools where the initial dataset was gathered. The percentages
+dense, though smaller schools have been closed and education                        for girls were 53.7% and 51.8%, respectively, and regarding gender
+centralised into bigger units. The density of the network is visible                the modelling dataset is representative.
+in the relatively short school trips of the studied pupils (mean                        Subjects typically lived with both parents (72.6%), had their
+1.8 km, SD 2.2 km, and maximum 14.2 km). Finnish law requires                       own room (86.1%), a bicycle (96.5%), and spoke Finnish at home
+the municipalities to grant free school transportation for pupils                   (93.5%). Of the families of the respondents 43.1% lived in single
+whose school journey to the nearest designated school is over                       family housing, while the proportions living in apartment build-
+5 km. The municipalities of Espoo and Vantaa offer a free public                    ings or semi-detached houses were roughly the same. Owning two
+transportation ticket that is valid on school days for these pupils.                or more cars was typical (55.4%), with only 6.9% of the families not
+Helsinki city offers these tickets, but the journey length limits are               having a car.
+2 km for 5th-graders and 3 km for 8th-graders.
+    Data collection was organised in computer equipped class-                       2.2. Measures
+rooms and led by a research assistant. The ethics board from the
+Education Board of the Cities of Helsinki and Vantaa approved the                   2.2.1. Outcome variables
+research, and informed consent was gathered from the re-                                The mode of school travel was studied by asking how the re-
+spondents and their parents. The total number of pupils in the                      spondent had most often travelled to and from school during the
+classes that participated in the study was 980, although 80 pupils                  current week: on foot, by bicycle, by public transportation, by
+were absent for various reasons. In some schools problems were                      school bus or taxi, by car, or other mode. There was little difference
+encountered with the Internet connection, but in these cases the                    between the transport modes to and from school, and as it has
+pupils were instructed to <U+FB01>ll in the questionnaire at home. After                   been shown that the urban environment plays a more signi<U+FB01>cant
+incomplete answers were excluded, the <U+FB01>nal dataset included the                     role on journeys to school than from school (Mitra et al., 2010), the
+answers of 828 pupils, of whom 35% were from the 5th grade                          stated mode on the journey to school was used in the analysis.
+(approximately 11 years old), and 65% from 8th grade (approxi-                      Walking (17%), cycling (43%), and public transport (34%) were the
+mately 14 years old).                                                               main modes in the <U+FB01>nal sample, while private car was used on the
+    In this article, only a subsample of these 828 respondents is                   remaining 6% of the trips2. There were no signi<U+FB01>cant differences in
+included. Based on the transport mode shares of the respondents                     modal shares between genders or age groups.
+in different distance bands from schools (see Table 1), we nar-                         The level of independence in respect of mobility in relation to
+rowed our <U+FB01>nal dataset down to children who lived between one                       school journeys was studied by asking with whom the respondent
+and three kilometres from school. Nelson et al. (2008) have sug-                    normally travels to school: alone, with other children, or with
+gested applying a 2.5-mile criterion within which active com-                       adults. Journeys were predominantly taken with other children
+muting to school is achievable, while others have used 2 mile cut-                  (53%) or alone (47%), with only one respondent reporting that they
+off based on the low levels of AST beyond that limit (McDonald,                     travelled with an adult. There was a slight difference between age
+2008; Mitra and Buliung, 2014). Including only children living in                   groups in terms of the proportions of trips taken alone and with
+the range 1–3 km from school thus allows for variance in the                        other children, but these differences were not statistically sig-
+transport modes chosen and makes modelling the correlates of the                    ni<U+FB01>cant. The studied children enjoyed high levels of independence
+environment meaningful.                                                             in their mobility relating to school journeys, and thus this variable
+    In all, 224 children lived within the speci<U+FB01>ed range, and 202 of                was not used as an outcome variable, as suggested by Mitra (2013),
+them provided their actual school journey taken. These 202 chil-
+dren will constitute the <U+FB01>nal subjects of this article. Of these                        2
+                                                                                           In modelling, transport mode was recoded as (1) walking, (2) cycling, and
+children, 18.3% were 5th graders, while for the data as a whole the                 (3) other modes.
+
+4                                                         A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
+Table 1                                                                                   Table 1 (continued )
+Mode shares on school journeys in different distance bands from school, and de-
+scriptive statistics for the independent variables                                            POP_DTY_H: number of residents per sq km        2.39        2.47
+                                                                                              POP_DTY_SJ: number of residents per sq km       3.63        3.60
+                        Walking       Cycling      Motorised        N                         HOUSING_DTY_H: number of housing units          12.85       17.08
+                                                   modes                                      per hectare
+                                                                                              HOUSING_DTY_SJ: number of housing units         20.62       25.69
+  Within 1 km           74.4%         22.8%        2.8%          430                          per hectare
+    from school
+                                                                                            Household
+  From 1 to 3 km        18.8%         40.2%        41.1%         224
+                                                                                              MOB_LICENCE_COUNT: count of items re-           5.64        1.87
+    from school
+                                                                                              spondent is allowed to do independently
+  Beyond 3 km           0.6%          2.3%         97.1%          174
+    from school                                                                               a
+                                                                                                The built environment was estimated separately for 500-metre buffer around
+                               a                                                          home (variable_name_H) and 100-metre buffer around drawn school journey
+  INDEPENDENT VARIABLES                            Mean          Std. deviation
+                                                                                          (variable_name_SJ).
+                                                                                              b
+                                                                                                Expressways, arterials and collector roads; length in km.
+  Traf<U+FB01>c or personal safety                                                                   c
+                                                                                                The evenness between proportions of <U+FB02>oor area for residential, commercial,
+    LIGHT_DTY_H: number of street lights di-       0.38          0.71
+                                                                                          of<U+FB01>ce and institutional uses.
+    vided by total road length in buffer
+    LIGHT_DTY_SJ: number of street lights          2.58          5.55
+    within 100 m of route divided by route
+    length
+    LIGHT_PROP_H: ratio of signalised intersec-    5.45          9.18
+    tions to total number of street intersections                                         but as an independent variable operationalising the conceptual
+    LIGHT_PROP_SJ: ratio of signalised intersec-   8.04          14.65                    domain of maintaining social capital3.
+    tions to total number of street intersections
+    MAJOR_RD_PROP_H: length of primary             27.69         19.97
+    roads divided by total road length                                                    2.2.2. Physical environmental variables
+    MAJOR_RD_DTY_H: length of major roadsb         3.01          2.78                         GIS-based measures t of the built environment were calculated
+    normalised by sq km of area
+                                                                                          for 500 m buffers around each respondent's home (Kyttä et al.,
+    MAJOR_RD_DTY_SJ: length of major roadsb        1.07          0.77
+    normalised by sq km of area                                                           2012) and within 100 m of the drawn school journeys (Panter
+    MAJOR_RAIL_INT_SJ: 1 if major road or rail-    0.47          0.50                     et al., 2010). Detailed descriptions of the variables and their
+    road intersects the school journey
+                                                                                          summary statistics are provided in Table 1.
+    BUILD_DTY_H: summed <U+FB02>oor space in all the      0.18          0.24
+    buildings divided by buffer area
+    BUILD_DTY_SJ: summed <U+FB02>oor space in all the     0.27          0.31                     2.2.2.1. Proximity-related variables. The distance, as the crow <U+FB02>ies
+    buildings divided by buffer area                                                      (DIST_CROW), from home to school was calculated and used in
+    PUBLIC_BUILD_PROP_H: proportion of land        4.94          5.47
+    covered by public buildings                                                           adjusted models4. Rather than treating distance as a measure of
+    BUILD_USE_MIX_H: mix in the main uses of       0.67          0.50                     environment in itself, we included it in the partly adjusted models,
+    buildingsc                                                                            for densities of different measured urban structures and distance
+    BUILD_USE_MIX_SJ: mix in the main uses of      0.96          0.35
+    buildingsc                                                                            are closely interlinked. Wong et al. (2011) have outlined how
+                                                                                          distance can be viewed as an operational measure of the concept
+  Connectivity
+    FOURWAY_PROP_H: ratio of 4-way intersec-       16.25         12.59                    of ‘density’.
+    tions to total number of street intersections
+    FOURWAY_PROP_SJ: ratio of 4-way inter-         19.60         15.96
+                                                                                          2.2.2.2. Variables related to traf<U+FB01>c safety and personal safety.
+    sections to total number of street
+    intersections
+                                                                                          Numerous variables concerning the traf<U+FB01>c environment have been
+    ROAD_DTY_H: total road lengths divided by      9.26          3.68                     used in previous research on children's transportation. In this
+    buffer area                                                                           study, streetlight density (Panter et al., 2010) and proportion of
+    ROAD_DTY_SJ: total road lengths divided by     2.56          0.74
+    the drawn school journey length
+                                                                                          intersections with street lights were used (Mitra and Buliung,
+    INTERSECT_DTY_H: number of all intersec-       40.22         23.19                    2012).
+    tion divided by buffer area                                                               The presence of primary roads was operationalised as their
+    INTERSECT_DTY_SJ: number of all intersec-      57.58         26.46                    proportion of total roads (Panter et al., 2010) and as the length of
+    tion divided by buffer area
+    PUBL_TRANS_DTY_H: number of transpor-          14.21         10.38
+                                                                                          major roads by area near home and along school journey (Mitra
+    tation stops near home divided by buffer                                              and Buliung, 2012). We also analysed whether or not a major road
+    area                                                                                  or railroad intersects the school journey (Schlossberg et al., 2006).
+    PUBL_TRANS_DTY_SJ: number of transpor-         6.21          3.68                         Mitra (2013) hypothesizes that large retail centres or employ-
+    tation stops near home divided by route
+                                                                                          ment districts may discourage AST. Previous research in relation to
+    length
+                                                                                          Helsinki has shown that environments dominated by high build-
+  Comfort and attractiveness                                                              ing densities discourage active and independent mobility (Broberg
+    RECR_PROP_H: proportion of parks and re-       4.73          7.00
+    creation areas
+                                                                                          et al., 2013). Building density was calculated as the summed <U+FB02>oor
+    RECR_PROP_SJ: proportion of parks and re-      4.16          7.06                     space in all the buildings within a buffer divided by the area (Lin
+    creation areas                                                                        and Yu, 2011). The proportion of land covered by public buildings
+    FOREST_PROP_H: proportion of forests           22.89         15.48                    near home (Su et al. 2013) was also calculated.
+    FOREST_PROP_SJ: proportion of forests          18.30         12.62
+    SINGLE_FAM_PROP_H: proportion of land          14.89         13.59
+    covered by single family housing                                                          3
+                                                                                                 We dichotomised the accompaniment on school journey to a new variable
+    SEPAR_WALK_SJ: summed length of separate       1.71          0.81                     SJ_WITH_FRIENDS (alone (0), with friends (1), recoding one respondent taking the
+    walk or bikeways divided by route length                                              journeys in adult company as a missing value.
+                                                                                              4
+  Maintaining social capital                                                                     Also the distance of the drawn journey (DIST_DRAWN) was calculated, but as
+    SJ_WITH_FRIENDS: 1 if school journey is        1.99          0.83                     these measures were highly correlated (r¼ .84), the <U+FB01>rst was used, it being more
+    travelled in company of friends                                                       objective and less sensitive to differences between respondents in the meticu-
+                                                                                          lousness of drawing the route.
+
+                                                        A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10                                                           5
+    It has been suggested (Mitra, 2013; Ding et al., 2011) that a                       greater level of independence were more likely walk or bike to
+mixed design and associated presence of street-level retail and                         school in an Australian study (Merom et al., 2006). We oper-
+‘eyes on the street’ could encourage AST. We calculated the mix in                      ationalised the licences with a set of questions concerning those
+the main uses of buildings (as de<U+FB01>ned for land use mix by Frank                         things the child is allowed to do independently (Hillman et al.,
+et al., 2004).                                                                          1990), revising some of the items to better re<U+FB02>ect the Finnish
+                                                                                        context. The children answered whether they were allowed to do a
+2.2.2.3. Connectivity-related variables. Previous research highlights                   list of seven things alone (MOB_LICENCE_COUNT): go to leisure
+the existence of contrasting evidence in relation to the associa-                       activities, go to parks or sports facilities, use public transportation,
+tions between pedestrian connectivity or intersection densities                         ride their bike, be outside after dark, go to the city centre or
+and children's active transportation (e.g. Wong et al., 2011).                          shopping malls, and walk or ride to their friends' places.
+Nevertheless, we calculated the ratio of 4-way intersections to                             Finally, age group and gender were included in all the models,
+total number of street intersections (Mitra and Buliung, 2012). Two                     as they have been shown to be closely associated with both in-
+variables concerning the overall availability of roads to walk or                       dependence and the mode choice of children's travel (see e.g.
+cycle and the connectivity of these roads were calculated. Road                         Mitra et al., 2014; Fyhri and Hjorthol, 2009; Johansson et al., 2010).
+density (Panter et al., 2010) and intersection density (Schlossberg
+et al., 2006) were calculated for both home and route                                   2.3. Analysis
+environments.5
+    Connectivity relates not only to the transport network, but also                        The environmental variables were extracted from register-
+to the functional connectivity of the urban environment. We                             based geographical datasets using ESRI ArcMap 10.1 and MapInfo
+analysed the availability of public transportation by calculating the
+                                                                                        Professional 11.5. The main geoprocessing techniques used were
+number of transportation stops in proximity to home and along
+                                                                                        buffering the homes and the school journeys, overlaying and in-
+the school journey.
+                                                                                        tersecting different layers of analysis with each other, and calcu-
+                                                                                        lating statistics concerning the individual buffers from these in-
+2.2.2.4. Variables related to comfort and attractiveness. The pre-
+                                                                                        tersections as well as the building points within buffers. Different
+sence of open space or parks (Ding et al., 2011; Mitra, 2013) and
+                                                                                        raster calculation and focal statistical methods were used to cal-
+smaller neighbourhood blocks (Mitra, 2013) could enhance the
+                                                                                        culate variables concerning land use.
+comfort of walking and cycling. The greenness of the environment
+                                                                                            Three geographical datasets were used in the analysis. The land
+was analysed as the proportion of parks and recreation areas as
+                                                                                        use –related variables were calculated from the SLICES dataset6.
+well as that of forests near home and along the route. The presence
+of small neighbourhood blocks was operationalised as the pro-                           Population and building density-related variables were drawn
+portion of land covered by single family housing.                                       from a building centroid dataset7, and the Digiroad8 dataset was
+    Sidewalks are nearly omnipresent in the Helsinki area and are,                      used to build the traf<U+FB01>c-related variables.
+probably for this reason, not included in any of the geographical                           The statistical analyses were performed with IBM SPSS Statis-
+datasets available. In reality, there is little to be gained from ana-                  tics 21. The signi<U+FB01>cances in the differences of means between
+lysing sidewalks in relation to mobility statistically, as there would                  genders and age groups were studied with T-tests and the differ-
+be no variance between subjects. Nevertheless, taking into con-                         ences of frequencies across groups with the chi-squared test. The
+sideration the notion of comfort in respect of pedestrian and bi-                       connections between the urban environment and the transport
+cycle mobility, we analysed the summed length of separate walk                          mode were studied with multinomial regression analysis. Multi-
+or bikeways along the school journey divided by route length.                           nomial outcomes were speci<U+FB01>ed in the models with a three ca-
+                                                                                        tegory outcome of walking, cycling, or motorised travel (used as
+2.2.2.5. Variables related to maintaining social capital. As Mitra                      the reference category).
+(2013) notes, little research has been done on the connections                              A set of partially adjusted regressions (all adjusted for the
+between the social environment and AST. Thus, in order to analyse                       confounding effects of age, gender, household car-ownership, and
+the possibility of meeting others on the school journey, we in-                         distance from home to school) were run to <U+FB01>lter the initial set of
+cluded variables concerning population size and residential den-                        variables down to those that showed correlation with the trans-
+sities near home and along the route of the school journey. In-                         port mode choice on a con<U+FB01>dence level of 95% (p o0.05). Another
+creasing population density has also been hypothesized as having                        set of multivariate fully adjusted regressions were estimated se-
+a positive association with transport-related physical activity                         parately for the environment surrounding the home and school
+(Ding et al., 2011).                                                                    journey. When variables showed strong correlations (r 40.75),
+    Moreover, accompaniment on the school journey SJ_WITH_-                             these were entered into the multivariate fully adjusted model one
+FRIENDS (as described above) was used as an independent vari-                           at a time and only the variable that was most strongly associated
+able operationalising the conceptual domain of maintaining social
+capital.
+                                                                                            6
+                                                                                               SLICES (Separated land use & cover information system) is a raster dataset
+                                                                                        produced by the Finnish National Land Survey. The dataset combines geographical
+2.2.2.6. Variables related to household and child. Household access                     datasets on land use from different organisations, such as the Ministry of Agri-
+to private automobiles was interrogated by asking if the re-                            culture and Forestry, the Ministry of the Environment, the National Land Survey,
+spondent's family owned one, two or more cars, or no car at all                         the Finnish Forest Research Institute, Finland's environmental administration and
+(OWN_CAR). Car-ownership was included in all the partially ad-                          the Population Register Centre. The dataset offers a hierarchical classi<U+FB01>cation of
+                                                                                        land use, land cover, soil types and special use and restricted areas, and covers
+justed regressions.
+                                                                                        Finland with a resolution of 10 m.
+    Parents' general attitude towards their child's mobility options                        7
+                                                                                               The building centroid dataset for each building in the Helsinki region, con-
+can be seen in the mobility licences, i.e. permission to move                           taining the information on housing units, <U+FB02>oor areas and population demographics
+around independently granted to the child. Children granted a                           for the building, was obtained from the city administration.
+                                                                                            8
+                                                                                               Digiroad is a national database which contains precise and accurate data on
+                                                                                        the locations of all roads and streets in Finland, and their most important physical
+                                                                                        features. The dataset also includes other transport system-related objects, such as
+    5
+      The roads not available for walking and cycling such as motorways were            public transport stops or traf<U+FB01>c lights, stored as dynamically segmented events. The
+omitted from these analyses.                                                            Finnish Transport Agency maintains and updates the dataset.
+
+6                                                            A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
+with the transport mode choice was included in the <U+FB01>nal model.                               increasing density decreased the propensity of AST. The variables
+(see also Mitra, Buliung 2012; Panter et al. 2010).                                          used to study personal safety were partly in expected association
+                                                                                             and partly in unexpected association with the transport mode.
+                                                                                             Increasing building densities in the school journey and home en-
+3. Results                                                                                   vironment decreased the propensity to walk or cycle. The higher
+                                                                                             the prevalence of public buildings in the home environment, the
+3.1. Partially adjusted models of transport mode choice on school                            less likely the respondent was to walk and cycle. The increasing
+journeys                                                                                     mix in building uses in both the home and school journey en-
+                                                                                             vironment decreased the probability of choosing one of the active
+    Table 2 presents the direction and signi<U+FB01>cance of associations                           transport modes.
+from the partially adjusted models for walking and cycling on the                                The variables related to connectivity showed signi<U+FB01>cant asso-
+school journey. Of the variables concerning traf<U+FB01>c and personal                              ciation with transport mode choice in particular with road and
+safety, most were in signi<U+FB01>cant association with the transport                               intersection densities along the school journey route. Moreover,
+mode choice. Increasing street light densities as well as increasing                         the proportion of four-way intersections, as a percentage of all
+proportions of intersections with street lights decreased the                                intersections, was in signi<U+FB01>cant inverse association with activity
+probability of choosing active transport modes rather than taking                            on the school journey. Each of these associations supports the
+the bus or being driven in a car. These associations were in con-                            view that a denser environment decreases the probability that an
+trast to the hypothesised increased feelings of safety and con-                              active mode will be chosen. Not surprisingly, the density of public
+sequential increase in walking or cycling. Targeting further the                             transport options around the home and school journey decreased
+issue of traf<U+FB01>c safety, the density of major roads on the school                             the probability of walking or cycling.
+journey was signi<U+FB01>cantly associated with walking and cycling: the                                Comfort and attractiveness were studied with a set of variables
+                                                                                             concerning land uses in the home and school journey environment
+Table 2
+                                                                                             and the availability of separate walk or bikeways. The proportion
+Partially adjusted multinomial regression models between neighbourhood and                   of forests in the environment was not associated with the trans-
+route environments and school journey transport mode.                                        port mode choice, but the more recreation areas there were
+                                                                                             around the home or school journey, the less likely the respondents
+  Environmental charasteristic      OR (CL 95%)
+                                                                                             were to walk or cycle. This <U+FB01>nding contrasts with the supposed
+                                    Walk to school             Cycle to school               association. The increasing proportion of land covered by single-
+                                                                                             family housing increased the likelihood of walking and cycling to
+  Traf<U+FB01>c or personal safety                                                                  school signi<U+FB01>cantly, as was hypothesised. Then again, the avail-
+    LIGHT_DTY_H                     0.382 (0.177, 0.827)       0.183 (0.082, 0.409)
+                                                                                             ability of separate routes for walking and cycling was not asso-
+    LIGHT_DTY_SJ                    0.816 (0.716, 0.929)       0.735 (0.632, 0.853)
+    LIGHT_PROP_H                    0.95 (0.897, 1.006)        0.918 (0.87, 0.968)
+                                                                                             ciated with choosing these modes of transport.
+    LIGHT_PROP_SJ                   0.942 (0.906, 0.98)        0.912 (0.877, 0.949)              Finally, concerning the conceptual domain of maintaining so-
+    MAJOR_RD_PROP_H                 0.999 (0.972, 1.026)       0.99 (0.971, 1.008)           cial capital, the urban environmental variables showed signi<U+FB01>cant
+    MAJOR_RD_DTY_H                  0.936 (0.772, 1.135)       0.868 (0.753, 1.001)          associations with the choice of cycling to school. Increasing po-
+    MAJOR_RD_DTY_SJ                 0.226 (0.108, 0.472)       0.126 (0.062, 0.254)
+                                                                                             pulation and housing densities in both the school journey and
+    MAJOR_RAIL_INT_SJ               0.361 (0.121, 1.081)       0.524 (0.249, 1.104)
+    BUILD_DTY_H                     0.018 (0.001, 0.229)       0.001 (0.000, 0.028)          home environments decreased the likelihood of cycling. The as-
+    BUILD_DTY_SJ                    0.031 (0.003, 0.293)       0.01 (0.001, 0.087)           sociations with walking were weaker, but still signi<U+FB01>cant at
+    PUBLIC_BUILD_PROP_H             0.852 (0.764, 0.95)        0.838 (0.765, 0.918)          po 0.05 level. Making the school journey in the company of
+    BUILD_USE_MIX_H                 0.271 (0.094, 0.78)        0.246 (0.111, 0.546)
+                                                                                             friends was not associated with the mode choice.
+    BUILD_USE_MIX_SJ                0.059 (0.01, 0.355)        0.085 (0.026, 0.284)
+                                                                                                 In general, all the associations studied, apart from the propor-
+  Connectivity                                                                               tion of single family housing around the home environment,
+    FOURWAY_PROP_H                  0.961 (0.919, 1.005)       0.966 (0.936, 0.997)
+                                                                                             showed a similar tendency: the denser the measured variable, the
+    FOURWAY_PROP_SJ                 0.958 (0.927, 0.99)        0.962 (0.938, 0.986)
+    ROAD_DTY_H                      0.895 (0.767, 1.044)       0.858 (0.768, 0.959)          less likely the respondent was to walk or cycle. This has to do with
+    ROAD_DTY_SJ                     0.2 (0.089, 0.451)         0.171 (0.087, 0.337)          the respondents choosing between active transport modes and
+    INTERSECT_DTY_H                 0.977 (0.952, 1.001)       0.971 (0.952, 0.99)           using public transportation rather than being driven in a car.
+    INTERSECT_DTY_SJ                0.961 (0.939, 0.983)       0.967 (0.951, 0.984)
+                                                                                                 In addition, the associations between the variables describing
+    PUBL_TRANS_DTY_H                0.942 (0.893, 0.995)       0.924 (0.884, 0.966)
+    PUBL_TRANS_DTY_SJ               0.67 (0.551, 0.815)        0.595 (0.499, 0.71)
+                                                                                             the school journey environment had more signi<U+FB01>cant associations
+                                                                                             with the mode choice than with the same variables describing the
+  Comfort and attractiveness
+                                                                                             home environment. We suggest that this is so because the school
+    RECR_PROP_H                     0.923 (0.853, 1.000)       0.934 (0.874, 0.999)
+    RECR_PROP_SJ                    0.903 (0.821, 0.993)       0.842 (0.766, 0.926)          journey environment depicts rather closely the environment that
+    FOREST_PROP_H                   1.008 (0.975, 1.042)       1.005 (0.986, 1.024)          might have some effect on the mode choice, whereas the en-
+    FOREST_PROP_SJ                  1.032 (0.982, 1.085)       1.022 (0.993, 1.052)          vironment surrounding the respondent's home potentially gives
+    SINGLE_FAM_PROP_H               1.06 (1.014, 1.107)        1.059 (1.023, 1.096)
+                                                                                             too generalised a de<U+FB01>nition of the environment to matter.
+    SEPAR_WALK_SJ                   1.389 (0.77, 2.507)        1.019 (0.642, 1.618)
+  Maintaining social capital                                                                 3.2. Fully adjusted models for the home and school journey
+    SJ_WITH_FRIENDS                 1.017 (0.352, 2.939)       1.672 (0.782, 3.575)
+                                                                                             environment
+    POP_DTY_H                       0.753 (0.597, 0.951)       0.64 (0.516, 0.795)
+    POP_DTY_SJ                      0.822 (0.692, 0.977)       0.739 (0.632, 0.863)
+    HOUSING_DTY_H                   0.956 (0.923, 0.991)       0.926 (0.892, 0.961)              After investigating the initial associations between the vari-
+    HOUSING_DTY_SJ                  0.969 (0.945, 0.993)       0.952 (0.929, 0.975)          ables selected to depict the conceptual domains of Mitra's model,
+  Household                                                                                  we ran fully adjusted models separately for the home and school
+    MOB_LICENCE_COUNT               0.854 (0.631, 1.157)       0.887 (0.697, 1.13)           journey environments. These are presented in Table 3.
+                                                                                                 In the <U+FB01>nal model concerning the home environment, sig-
+Note: All associations are adjusted for respondent age group, gender, household
+car-ownership, and distance between home and school.
+                                                                                             ni<U+FB01>cant associations persisted for the domains of proximity and
+Odds ratios in bold are signi<U+FB01>cant at p o0.01, odds ratios in italics are signi<U+FB01>cant at      personal safety. The longer the distance between home and school,
+p o0.05.                                                                                     the less likely children and young people were to walk or cycle to
+
+                                                           A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10                                            7
+Table 3                                                                                        In Fig. 2, the environmental variables signi<U+FB01>cant in the fully
+Fully adjusted multinomial regression models between neighbourhood and route               adjusted models are depicted on a series of maps. The <U+FB01>rst map
+environments and school journey transport mode
+                                                                                           shows the transport modes and the actual school journeys drawn
+  Model                       OR (CL 95%)                                                  by the respondents as well as the building densities in their home
+                                                                                           environments. The three remaining maps depict the urban char-
+                              Walk to school              Cycle to school                  acteristics of the school journey environment that were associated
+                                                                                           with walking and cycling. The lowest rates of walking and cycling
+  Neighbourhood environment
+    DIST_CROW                 0.993 (0.990, 0.995)        0.997 (0.996, 0.998)
+                                                                                           to school can be seen in Helsinki city centre and the surrounding
+    GENDER                    1.681 (0.564, 5.007)        2.889 (1.289, 6.475)             urban core areas (the south-eastern part of the region) as well as
+    AGE_GROUP                 2.603 (0.539, 12.574)       6.512 (2.019, 21.006)            in the area where the main north-bound motorway and the ring
+    BUILD_DTY_H               0.019 (0.002, 0.226)        0.001 (0.000, 0.017)             road meet (central north area on the map). These areas and the
+  School journey environment                                                               pattern between transportation modes and the environmental
+    DIST_CROW                 0.993 (0.991, 0.995)        0.998 (0.996, 0.999)             variables is clearly visible on the map depicting the major road
+    GENDER                    1.380 (0.413, 4.607)        3.281 (1.282, 8.396)             densities around school journeys, but also the other maps illus-
+    AGE_GROUP                 3.932 (0.622, 24.865)       12.370 (2.792, 54.806)
+    OWN_CAR                   1.085 (0.372, 3.168)        3.910 (1.715, 8.914)
+                                                                                           trate similar patterning.
+    MAJOR_RD_DTY_SJ           0.500 (0.188, 1.334)        0.192 (0.070, 0.528)
+    INTERSECT_DTY_SJ          0.990 (0.956, 1.024)        1.027 (1.000, 1.056)
+    PUBL_TRANS_DTY_SJ         0.774 (0.607, 0.986)        0.659 (0.528, 0.824)             4. Discussion and conclusions
+Note: Odds ratios in bold are signi<U+FB01>cant at p o 0.01, odds ratios in italics are sig-
+ni<U+FB01>cant at po 0.05.                                                                            In this article, we studied the ways in which the surrounding
+Referent groups for age and gender are 8th graders and girls.                              environment could impact or promote different types of physical
+                                                                                           activity on school journeys, using the conceptual model proposed
+                                                                                           by Mitra (2013). Of the domains proposed in the model, proximity,
+school. Interestingly only the density of the built environment was                        connectivity and traf<U+FB01>c safety seemed to be the most relevant in
+signi<U+FB01>cant in the <U+FB01>nal model in spite of the large number of po-                           the Finnish context. The associations were more signi<U+FB01>cant when
+tential variables related to the urban environment. Increasing                             the environment of the school journey was studied than in the
+                                                                                           case of the home environment. Interestingly, many of the asso-
+building density around the home decreased the likelihood of
+                                                                                           ciations present in the partially adjusted models were in contrast
+walking and cycling. In addition, the speci<U+FB01>c qualities of each
+                                                                                           to what had been suggested in the context of previous research.
+child, namely, its gender and age, were closely associated with
+                                                                                               As such, the question thus arises, can the results presented in
+cycling in particular.
+                                                                                           this article be compared to those generated previously, particularly
+    The <U+FB01>nal model for the school journey environment showed
+                                                                                           when we have dropped those subjects living closest to school and
+more signi<U+FB01>cant associations, for proximity, traf<U+FB01>c safety, and
+                                                                                           those using predominantly active modes from our analysis. While
+connectivity-related variables. Longer distances between home
+                                                                                           not presented in this article, we also ran the partially adjusted
+and school decreased the likelihood of choosing active transport
+                                                                                           multinomial regressions for all the respondents living within 3 km
+modes. The effect of growing distance does not seem very sig-
+                                                                                           of their school. These analyses showed no change in the directions
+ni<U+FB01>cant based on the odds ratios, but it must be noted that only
+                                                                                           of the associations but substantially fewer signi<U+FB01>cant associations.
+the respondents with distances from one to three kilometres were
+                                                                                           This is understandable, for within 1 km of the school, nearly all the
+included, and thus an increase of one unit (km) cannot produce
+                                                                                           subjects walked or cycled, and hence we would not expect to <U+FB01>nd
+very large odds ratios.
+                                                                                           an association between the different environmental factors based
+    As expected, the greater the incidence of major roads near the
+                                                                                           on those few who had opted for inactive modes.
+route, the less likely the respondents were to cycle to school. The
+                                                                                               In their review, Ding et al. (2011) found residential density and
+association with walking to school here was not however sig-                               land-use mix to be consistently associated with transport physical
+ni<U+FB01>cant. Intersection density was signi<U+FB01>cant for the model in                              activity among both children and young people. Our <U+FB01>ndings
+general, but could not differentiate between the active transport                          however contrasted somewhat with this general conclusion:
+modes. The odds ratio for the variable concerning the density of                           where increasing residential density and building use mix de-
+public transportation stops along the school journey was 0.659 in                          creased the likelihood of engaging in AST. Subsequent to the car-
+relation to cycling, which implies that for each unit increase in the                      rying out of our own research, others have found a greater land
+number of bus stops per kilometre of the route, the odds that                              use mix to be negatively associated with children's walking to
+cycling was the mode chosen decreased by 34%.                                              school. Su et al., (2013) suggest this might be due to the diverse
+    Gender and age group were associated with cycling. The                                 landscape resulting in more people on the streets and a more
+younger age group was 12 times more likely to cycle to school                              disorganised built environment. It is, moreover, possible that the
+compared to the older one, and boys more likely to cycle than girls.                       uses selected for the analysis are simply not relevant in respect of
+Also car-ownership in respect of the household was signi<U+FB01>cantly                            children's mobility; and that rather than looking at residential,
+associated with the transport mode. Interestingly, the more cars                           commercial, of<U+FB01>ce and institutional land uses, an even mix of
+there were in the family, the more likely the respondents were to                          which has been shown to promote activity in the adult population,
+cycle or walk to school.                                                                   we should instead examine other types of land use. This is further
+    The fully adjusted model for the school journey environment                            emphasised through the notion that dense built environments,
+predicted the transport mode choice correctly in 72% of cases. It                          often associated with commercial, institutional and of<U+FB01>ce land
+succeeded particularly well in predicting cycling and non-active                           uses, decreased the likelihood of walking and cycling in this study.
+travel behaviour, whereas walking was less likely to be predicted                              All the partially adjusted models with signi<U+FB01>cant associations
+correctly. The fully adjusted model for the home environment was                           to the transport mode showed associations in the same direction,
+less successful in making the correct predictions (62%), but not-                          the increase in the variables decreasing the likelihood of walking
+withstanding this, the model's prediction rate was better than the                         or cycling being chosen. The only exception was the proportion of
+proportional by chance accuracy rate of 35%, speci<U+FB01>ed for the data                         single family housing. We reason that actually all of the physical
+at hand.                                                                                   environmental variables used measure at some level the same
+
+8                                                           A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
+  Fig. 2. The higher overall densities of the physical environmental variables signi<U+FB01>cant in the fully adjusted models are re<U+FB02>ected in less AST near Helsinki city centre.
+thing, urbanity, which in the Helsinki region comes with a well-                            have used public transportation rather than walked or cycled have
+functioning public transportation network. While the proportion                             a smaller propensity to become drivers as they grow up into
+of single housing is associated with smaller blocks and thus pos-                           adulthood. In addition, the amount of physical activity undertaken
+sibly a more agreeable walking and cycling environment, the                                 by those students using public transport also constitutes a po-
+public transport options available are also fewer in number. In                             tentially interesting area for future research.
+addition, the share of longer distance school journeys was slightly                             Referring back to Mitra's conceptual framework, the strongest
+larger in the more remote areas of the study regions, but not-                              support there was for the domain of proximity i.e. the distance to
+withstanding this engagement in active transport is more com-                               school. Longer distances between home and school decreased the
+mon. Thus it seems that public transportation options are the key                           likelihood that active transport modes would be chosen. On dis-
+to understanding the mode choices of the students. To further this                          tances shorter than one kilometre nearly everyone engaged in AST.
+reasoning, our <U+FB01>nding about more cars in the household pro-                                 In this light, much could be done to increase the perceptions of
+moting a greater number of school journeys by cycling contrasts                             traf<U+FB01>c and personal safety or comfort in respect of walking and
+signi<U+FB01>cantly with the conclusions of previous research and what it                          cycling by means of planning, but maintaining the neighbourhood
+says in general about the mobility options of the household and                             school network, despite the economic pressures to centralise
+the actual mobility. This again may simply be a re<U+FB02>ection of the                            educational provision, might be the most effective urban planning
+reduced number of public transport options available in the more                            strategy to support AST (see also Su et al., 2013) in urban contexts
+remote areas of the region which is, in turn, re<U+FB02>ected in greater car                       that are already relatively supportive of AST.
+density.                                                                                        We operationalised the suggested domain of personal safety
+    Finnish children and young people are, in terms of interna-                             with building volumes, based on the assumption that big buildings
+tional comparisons, very independent in their mobility (Kyttä                               related to large retail centres or employment districts may dis-
+et al., 2014), and indeed the use of non-active transport did not                           courage AST. Indeed, the bigger the building densities around the
+necessarily mean being driven in a car, but included also in-                               home, the less likely the respondents were to take part in AST. We
+dependent use of the public transportation system. When con-                                suggest that rather than relating to a reduced sense of personal
+sidering the physical activity that can be generated on school                              safety due to big building volumes, the negative relationship be-
+journeys, high modal shares for public transportation might seem                            tween building density and AST relates to better public transpor-
+to be an issue, though some physical activity occurs when walking                           tation availability in these densely built areas.
+to the transportation stops. Thinking of the mobility issues in more                            Building density was, interestingly, the only physical environ-
+general terms, learning to use public transportation from an early                          mental variable, apart from distance, persisting in the fully ad-
+age could see this become a habit thus reducing the need for                                justed model for the home environment. In general, the home
+private car usage. Indeed, it would be interesting to conduct fur-                          environment showed signi<U+FB01>cantly less associations with transport
+ther research on whether those children and young people who                                mode choice than the environment en route to school.
+
+                                                 A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10                                                                   9
+Generalising the environment affecting people's mobility and                     including wider groups of children, the potential impact of age
+transportation choices into buffers surrounding the home may not                 differences should be taken into account.
+however be a suitable way to grasp the elements of the environ-
+ment meaningful for an individual. Indeed, most children were
+found to use only 25% of the area buffered along the road network                Acknowledgements
+within 800 and 1600 m of their home (Villanueva et al., 2012), or
+only a narrow section of the circular buffer around their home (Yin                   We wish to thank the schools that participated, the head-
+et al., 2013). Rather than using assumed neighbourhoods then,                    masters, teachers and pupils there, as well as research assistant
+future research should instead concentrate on the actual en-                     Tiina Laatikainen, who organised the data collection at the schools.
+vironments the respondents use, and explore the associations of                  Dr. Frans Sijtsma from the University of Groningen provided the
+these environments with mobility behaviours.                                     initial idea of restricting the analysis to respondents within a
+    The domain of maintaining social capital was somewhat awk-                   certain distance of the school. Two anonymous reviewers provided
+wardly operationalised as the population density near the home                   valuable insights which in<U+FB02>uenced the <U+FB01>nal version of the article.
+and en route to school, due to the limited nature of the data                    The overall project was led by Professor Ari Hynynen from Tam-
+available on the social attributes of the environment. It should                 pere University of Technology and Professor Marketta Kyttä from
+however be questioned whether population density is a good re-                   Aalto University. The project was funded by the Finnish Ministry of
+presentation of the ability to maintain social capital, as the re-               Education and Culture.
+lationships involved here could be diverse and not linear. Never-
+theless, previous research in Finland has shown that population
+density around children's meaningful places increases both the                   References
+odds for active transport to be used while also stating a positive
+emotional assessment of the place (Broberg et al., 2013), perhaps                Aarts, M., Mathijssen, J.P., Oers, J.M., Schuit, A., 2012. Associations between en-
+supporting the use of population density. Concentrating more on                       vironmental characteristics and active commuting to school among children: a
+the actual environments where this mobility is enacted, be it on                      cross-sectional study. Int. J. Behav. Med., 1–18.
+                                                                                 Bernelius, V., 2011. Osoitteenmukaisia oppimistuloksia? Kaupunkikoulujen eriyty-
+school journeys or to other meaningful places, might also help to                     misen vaikutus peruskoululaisten oppimistuloksiin Helsingissä. Yhteiskunta-
+tackle this problematic domain. Panter et al., (2008) have also                       politiikka 76 (5), 479–493.
+discussed how possible motivational elements on the school                       Broberg, A., Kyttä, M., Fagerholm, N., 2013. Child-friendly urban structures: Bullerby
+                                                                                      revisited. J. Environ. Psychol. 35, 110–120.
+journey, such as a friend's house or shops to visit en route or parks
+                                                                                 Broberg, A., Salminen, S., Kyttä, M., 2013. Physical environmental characteristics
+to play in, might in<U+FB02>uence the travel mode. Indeed, empirical                         promoting independent and active transport to children's meaningful places.
+evidence from a small study using mobile phones and GPS devices                       Appl. Geogr. 38, 43–52.
+                                                                                 Davison, K.K., Werder, J.L., Lawson, C.T., 2008. Children's active commuting to
+to understand children's perceptions of their school journey
+                                                                                      school: current knowledge and future directions. Prev. Chronic Dis. 5 (3), 1–11.
+(Pooley et al., 2010) supports this view of the importance of the                De Vries, S.I., Hopman-Rock, M., Bakker, I., Hirasing, R.A., Van Mechelen, W., 2010.
+child's own motivation to move in the environment, as it was                          Built environmental correlates of walking and cycling in Dutch urban children:
+found that pupils who travelled independently were most likely to                     results from the SPACE study. Int. J. Environ. Res. Public Health 7 (5),
+                                                                                      2309–2324.
+engage with their immediate environment.                                         Ding, D., Gebel, K., 2012. Built environment, physical activity, and obesity: what
+    Methodologically we tried to tackle head on the challenges                        have we learned from reviewing the literature? Health Place 18 (1), 100–105.
+posed by AST research outlined by Wong et al. (2011). Such issues                Ding, D., Sallis, J.F., Kerr, J., Lee, S., Rosenberg, D.E., 2011. Neighborhood environ-
+                                                                                      ment and physical activity among youth: a review. Am. J. Prev. Med. 41 (4),
+here include the need for accuracy when geocoding the subject's                       442–455.
+home location and estimating the school journey route based on                   Frank, L.D., Andresen, M.A., Schmid, T.L., 2004. Obesity relationships with com-
+road network data. We have tried to overcome these problems by                        munity design, physical activity, and time spent in cars. Am. J. Prev. Med. 27 (2),
+                                                                                      87–96.
+letting the subjects pinpoint their home and draw the route taken.               Fyhri, A., Hjorthol, R., 2009. Children's independent mobility to school, friends and
+The accuracy of the geographical data produced by children and                        leisure activities. J. Transp. Geogr. 17 (5), 377–384.
+young people can of course be questioned, but generally there                    Hillman, M., Adams, J., Whitelegg, J., 1990. One false move… A Study Of Children's
+                                                                                      Independent Mobility. Policy Studies Institute, London.
+have been no real problems in geographical accuracy in our da-
+                                                                                 Johansson, K., Hasselberg, M., La<U+FB02>amme, L., 2010. Young adolescents' independent
+tasets concerning children, possibly due to orienteering being part                   mobility, related factors and association with transport to school. A cross-sec-
+of the school curriculum. The mapping application also helped                         tional study. BMC Public Health 10, 635.
+                                                                                 Kahila, M., Kyttä, M., 2009. “SoftGIS as a Bridge-Builder in Collaborative Urban
+children to orientate on the map by automatically panning the
+                                                                                      Planning”. In: Geertman, S., Stillwell, J. (Eds.), Planning Support Systems Best
+map to the school selected from a drop-down list. In addition,                        Practice and New Methods. Springer, Netherlands, Dordrecht, pp. 389–411.
+Wong et al. (2011) raise the issue of inconsistency in applying the              Kemperman, A., Timmermans, H., 2014. Environmental correlates of active travel
+measures of the built environment, which we have tried to mini-                       behavior of children. Environ. Behav. 46 (5), 583–608.
+                                                                                 Kyttä, M., Hirvonen, J., Pirjola, I., Laatikainen, T., Rudner, J., 2014. The last free-range
+mise by using the measures developed in previous research. Si-                        children? Children's independent mobility in Finland in 1990's and 2010's, In
+milarly, we also identi<U+FB01>ed the problem of overlapping buffers                         review in Journal of Transport Geography..
+creating high correlation in the built environment data between                  Kyttä, A.M., Broberg, A.K., Kahila, M.H., 2012. Urban environment and children's
+                                                                                      active lifestyle: softGIS revealing children's behavioral patterns and meaningful
+subjects. By only including the subjects with school journeys in a                    places. Am. J. Health Promot. 26 (5), e137–e148.
+certain range, the data became signi<U+FB01>cantly more dispersed. Fi-                  Kyttä, M., Kahila, M., 2011. SoftGIS methodology-building bridges in urban plan-
+nally, again as suggested by them, we have used as spatially dis-                     ning. GIM Int. 25 (3), 37–41.
+                                                                                 Lin, J., Yu, T., 2011. Built environment effects on leisure travel for children: trip
+aggregated data as possible, which in the Finnish setting is quite                    generation and travel mode. Transp. Policy 18 (1), 246–258.
+easy, as there are spatial datasets concerning for example each                  McDonald, N., 2008. Children's mode choice for the school trip: the role of distance
+building instead of statistical unit aggregates.                                      and school location in walking to school. Transportation 35 (1), 23–35.
+                                                                                 McMillan, T.E., 2005. Urban form and a child's trip to school: the current literature
+    It might be argued that the two age groups included should
+                                                                                      and a framework for future research. J. Plan. Lit. 19 (4), 440–456.
+have been studied separately, as it is hypothesised that the travel              Merom, D., Tudor-Locke, C., Bauman, A., Rissel, C., 2006. Active commuting to
+behaviours of children and young people are different (Mitra,                         school among NSW primary school children: implications for public health.
+2013). However, as Finnish children are notably independent in                        Health Place 12 (4), 678–687.
+                                                                                 Mitra, R., Buliung, R.N., 2012. Built environment correlates of active school trans-
+mobility terms from their early years, we found it reasonable to                      portation: neighborhood and the modi<U+FB01>able areal unit problem. J. Transp.
+analyse the age groups jointly. Nevertheless, in future research                      Geogr. 20 (1), 51–61.
 
-
-Transport Policy 37 (2015) 1–10
-Contents lists available at ScienceDirect
-Transport Policy
-journal homepage: www.elsevier.com/locate/tranpol
-School travel mode choice and the characteristics of the urban built
-environment: The case of Helsinki, Finland
-Anna Broberg a,n, Satu Sarjala b
-a
-Department of Real Estate, Planning and Geoinformatics, Aalto University P.O. Box 12200, FI- 00076 Aalto, Finland
-b
-School of Architecture, Tampere University of Technology, P.O. Box 600, FI- 33101 Tampere, Finland
-art ic l e i nf o                                       a b s t r a c t
-Article history:                                        As observed in several previous studies, the nature of the urban structure can affect children's mode of
-Received 8 October 2013                                 transportation to school. In this paper, we identify and investigate, in the Finnish context, the elements of
-Received in revised form                                the urban structure around homes and en route to school that promote children's ability to walk or cycle
-25 August 2014
-to school, using the conceptual domains proposed by Mitra (2013) to frame the work.
-Accepted 25 October 2014
-The associations discovered can, to a large extent however, be viewed as contrasting signi<U+FB01>cantly
-Available online 11 November 2014
-with those identi<U+FB01>ed in previous research, as an increase in the variables, essentially indicating urbanity,
-Keywords:                                               decreased the likelihood of the children walking or cycling to school. This is due to the existence of a
-Children                                                well-functioning public transportation network in the Helsinki region. The associations were more sig-
-Youth
-ni<U+FB01>cantly associated with the environment en route to school than with the environment around homes.
-Active transport
-This research improves our understanding of active school transportation behaviour in an environment
-Independent mobility
-GIS                                                     that is already relatively supportive of active transportation and independent mobility by offering a well-
-functioning public transportation system.
-& 2014 Elsevier Ltd. All rights reserved.
-1. Introduction                                                                             provided by McMillan (2005). In her framework the urban form
-was seen as having an indirect link to children's active transport,
-Because of the growing obesity epidemic, the possibility that                          through the prism of parental perception and decision-making.
-different environments could promote greater physical activity in                           The urban form clearly had an effect on parental perceptions of the
-children is a subject that has attracted increasing research interest                       neighbourhood through which the children had to travel and on
-(Ding and Gebel, 2012; van Loon and Frank, 2011; Ding et al., 2011;                         parents' perceptions of traf<U+FB01>c safety as well as on the transport
-Pont et al. 2009). As such, activity on school journeys has become                          options available to the household. Based on their perceptions,
-the focus of an increasing research effort (see reviews by Stewart                          parents then decided whether their children could walk or cycle to
-et al., 2012; Stewart 2011; Wong et al., 2011; Davison et al., 2008;                        school. Panter et al. (2008), however, were subsequently to criti-
-Sirard and Slater, 2008), as the journey to school is something that                        cise McMillan's framework for not incorporating the varied com-
-children need to cover on most days, and active school journeys                             ponents of the environment that had been shown to in<U+FB02>uence
-can thus promote a signi<U+FB01>cant opportunity for physical activity. To                         parental decision making. In its place they suggested a conceptual
-better understand the linkages between the environment and                                  framework composed of four domains of in<U+FB02>uence on children's
-children's active school transportation (AST), a number of con-                             active travel behaviour. These domains were the individual factors
-ceptual frameworks have been proposed (McMillan, 2005; Panter                               concerning the child, the physical environment, external factors
-et al., 2008; Mitra, 2013; Sirard and Slater, 2008; Pont et al., 2011).                     (such as climate or policy), and the main moderating factors (age,
-We discuss a few of these in more detail below and suggest a way                            gender, and distance). In this context, the diverse elements of the
-to empirically analyse the school journey travel mode choices of                            urban form were highlighted, focusing on relevant issues in rela-
-children and young people living within 1–3 km of their school,                             tion to the creation of perceptions among both children and par-
-using the model proposed by Mitra (2013).                                                   ents and their joint decision making processes, such as facilities,
-The earliest attempt to build a comprehensive child-speci<U+FB01>c                            environmental factors related to personal and traf<U+FB01>c safety, and
-framework of the built environment's impact on transport was                                route directness etc.
-A further conceptual framework has been suggested by Mitra
-n
-Corresponding author.                                                                  (2013). His critique of the framework proposed by Panter et al. is
-E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                     that the framework is not clear in explaining the behavioural
-http://dx.doi.org/10.1016/j.tranpol.2014.10.011
-0967-070X/& 2014 Elsevier Ltd. All rights reserved.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2                                                 A. Broberg, S. Sarjala
-processes that link the factors on these different levels of the
-ecological model to the choice of active transport modes. Trying to
-overcome this shortcoming, Mitra's framework is informed by
-research from three different research <U+FB01>elds and multiple theo-
-retical backgrounds where children's transportation has been in
-focus, namely, in transportation and urban planning studies, public
-health, and environmental psychology. Based on his review, Mitra
-builds a behavioural model of school transport (BMST) that is at its
-core a socio-ecological model, which looks at the associations
-between built environment and behaviour across multiple nested
-layers. In addition, the model also contextualises the intra-
-household interactions within the household activity-travel fra-
-mework, and considers the perceived importance of an escorted
-trip, the mobility options available and the activity constraints on
-the family.
-On the urban environment level, Mitra (2013) identi<U+FB01>es <U+FB01>ve
-conceptual domains of relationship between the neighbourhood
-environment and school travel outcomes. These domains include
-the proximity to school, traf<U+FB01>c and personal safety concerns,
-connectivity, comfort and attractiveness, and the possibility to
-maintain social capital on the school journey. Previously dis-
-covered evidence in respect of the environmental attributes as-
-sociated with children's transport choices is then placed under
-these conceptual domains and discussed in detail by Mitra.
-Of the frameworks described above, we <U+FB01>nd Mitra's (2013)
-framework the most thorough in its reasoning and portrayal of the
-hypothesised links between urban environment and transport
-options in respect of children's journeys to school. In this paper,
-we seek to highlight the elements of the urban structure that
-promote children's transport to school by foot or by bike, using the
-conceptual domains proposed by Mitra to frame the work. We also
-ask whether the correlates of walking and cycling differ. It has
-been suggested that the correlates for walking and cycling in
-terms of school journeys may be different (Kemperman and Tim-
-mermans, 2014; De Vries et al., 2010) and hence we treat walking
-and cycling to school as two distinct outcome variables rather than
-looking at active versus passive travel modes.
-Somewhat unusually, we only include subjects living within
-distances between one and three kilometres from their school.
-Increasing distance has consistently been shown to decrease the
-propensity of journeys taken actively (e.g. Su et al., 2013; Pont
-et al., 2009; Yeung et al., 2008). In the pupils studied from the
-Helsinki region, inactive modes of transport were almost non-
-existent (2.8% modal share) on journeys shorter than one kilo-
-metre, while previous research shows notably lower shares of
-active transport in students living close to school. In the US, the
-share of walking was 48% for those living within 1 mile of their
-school (McDonald, 2008); while another study reported 32%
-walking, 14% cycling, and 54% using car or bus as their primary
-transport mode within the same distance (Schlossberg et al.,
-2006). In Australia, 23% of students living within 0.75 km of their
-school had no active commuting trips in a week (Merom et al.,
-2006). Meanwhile, a Dutch study found the share of inactive trips
-within 1 km of school to be 10% (Aarts et al., 2012). With regres-
-sion analysis, the point is to explain the variance in the outcome
-variable (i.e. using inactive modes vs. walking or cycling) by the
-variance of the independent variables (i.e. the structure of the built
-environment). To be able to explain the variance in school journey
-transport modes, we need to concentrate on those trips where it is
-not only distance but also the environment that affects the mode
-chosen.
-This article is, we believe, the <U+FB01>rst to operationalise Mitra's
-framework. We use, where available, variables related to the urban
-environment already utilised in earlier research and create new
-
-ways of operationalising the domains that have not previously
-been studied in detail. In their framework, Panter et al. (2008)
-/ Transport Policy 37 (2015) 1–10
-recommended that the built environment relating to the neigh-
-bourhood, destination, and route environment should be con-
-sidered. Research that has empirically studied the destination (i.e.
-school) environment and facilities has however shown no sig-
-ni<U+FB01>cant associations with children's active travel behaviour (Pan-
-ter et al., 2010; Mitra et al., 2010). Thus we concentrate instead on
-analysing the urban environments of homes and school journeys
-in correlation with the transport modes of children and young
-people and leave the destination environment out of our analysis.
-Finally, this study adds to the discussion on the associations
-between the built environment and AST by exploring this general
-theme in the Finnish context. Thus far, this <U+FB01>eld of research has
-largely been dominated by research from the US, Canada, Australia
-and the UK with occasional examples from other European
-countries such as Netherlands (e.g. Aarts et al., 2012; Kemperman
-and Timmermans, 2014).
-
-
-
-2. Material and methods
-
-Recent developments in GIS (Geographic Information Systems)
-and especially in public participation GIS (PPGIS) have created new
-opportunities for the use of location-based methodologies. The
-softGIS methodology is one example of a PPGIS method that en-
-ables the collection of large datasets of residents' experiential
-knowledge concerning various environments (Kyttä and Kahila,
-2011). The main bene<U+FB01>t of utilising location-based surveys in data
-collection concerning daily mobility and environmental experi-
-ences is the geographical dimension the data maintains. Based on
-the coordinates, the experiential knowledge gathered from re-
-sidents can be simultaneously analysed with register-based GIS
-data, which provides new, location-based research possibilities
-(Kahila and Kyttä, 2009).
-The data relating to this study was collected via a softGIS sur-
-vey for children, where the respondents used the Internet inter-
-face to mark their home and daily routes to school, and to answer
-questionnaires concerning school journeys, perceived health and
-wellbeing as well as background details. The method has been
-tested in previous research among both children (Kyttä et al.,
-2012; Broberg et al., 2013) and adults. The user interface included
-a set of questionnaire pages where conventional survey question
-and mapping pages alternated (see Fig. 1)1. Additionally, the re-
-spondents were asked to mark places that were functionally,
-emotionally or socially meaningful, and to describe how accessible
-these places were, in terms of independent mobility and active
-transport. This article concentrates on children's school journeys,
-while the data relating to meaningful places will be reported
-elsewhere.
-
-
-2.1. Subjects and communities
-
-This article studies the school journeys of two select age groups
-in a small but rapidly growing metropolitan area, the capital re-
-gion of Finland. The research data was collected in 16 compre-
-hensive schools (in total 22 5th grade classes and 38 8th grade
-classes) during the autumn and early winter of 2011. The schools
-and their surrounding residential areas included represent differ-
-ent urban structures ranging from the inner city urban core to
-surrounding suburbs, and fringe areas dominated by single-family
-housing.
-
-1
-See http://www.softgis.<U+FB01>/children. Similar datasets were gathered in Finland,
-Australia and Japan. For ease of understanding, in Fig. 1 the Australian version of
-the questionnaire is depicted instead of the one in Finnish.
-
-A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
-Fig. 1. Interfaces for mapping and ordinary questionnaire pages.
-In Finland, every pupil is assigned to the nearest school, or the               percentage was 35.4. This is due to the secondary school network
-nearest school where the chosen <U+FB01>rst foreign language is being                      being sparser and thus producing longer school journeys for the
-taught. Pupils are also free to choose other schools, but going to                  older age group. The school trip distances were fairly similar
-the nearest school available is still fairly common: 70% of the                     throughout the study region, although longer distances were a
-primary school pupils go to their nearest school, the respective                    little more prominent in the more sparsely populated fringe areas.
-<U+FB01>gure for lower secondary schools being 60% (Bernelius, 2011).                      Nevertheless, the children selected for the study represent the 16
-In the Helsinki region, the school network is still relatively                  schools where the initial dataset was gathered. The percentages
-dense, though smaller schools have been closed and education                        for girls were 53.7% and 51.8%, respectively, and regarding gender
-centralised into bigger units. The density of the network is visible                the modelling dataset is representative.
-in the relatively short school trips of the studied pupils (mean                        Subjects typically lived with both parents (72.6%), had their
-1.8 km, SD 2.2 km, and maximum 14.2 km). Finnish law requires                       own room (86.1%), a bicycle (96.5%), and spoke Finnish at home
-the municipalities to grant free school transportation for pupils                   (93.5%). Of the families of the respondents 43.1% lived in single
-whose school journey to the nearest designated school is over                       family housing, while the proportions living in apartment build-
-5 km. The municipalities of Espoo and Vantaa offer a free public                    ings or semi-detached houses were roughly the same. Owning two
-transportation ticket that is valid on school days for these pupils.                or more cars was typical (55.4%), with only 6.9% of the families not
-Helsinki city offers these tickets, but the journey length limits are               having a car.
-2 km for 5th-graders and 3 km for 8th-graders.
-Data collection was organised in computer equipped class-                       2.2. Measures
-rooms and led by a research assistant. The ethics board from the
-Education Board of the Cities of Helsinki and Vantaa approved the                   2.2.1. Outcome variables
-research, and informed consent was gathered from the re-                                The mode of school travel was studied by asking how the re-
-spondents and their parents. The total number of pupils in the                      spondent had most often travelled to and from school during the
-classes that participated in the study was 980, although 80 pupils                  current week: on foot, by bicycle, by public transportation, by
-were absent for various reasons. In some schools problems were                      school bus or taxi, by car, or other mode. There was little difference
-encountered with the Internet connection, but in these cases the                    between the transport modes to and from school, and as it has
-pupils were instructed to <U+FB01>ll in the questionnaire at home. After                   been shown that the urban environment plays a more signi<U+FB01>cant
-incomplete answers were excluded, the <U+FB01>nal dataset included the                     role on journeys to school than from school (Mitra et al., 2010), the
-answers of 828 pupils, of whom 35% were from the 5th grade                          stated mode on the journey to school was used in the analysis.
-(approximately 11 years old), and 65% from 8th grade (approxi-                      Walking (17%), cycling (43%), and public transport (34%) were the
-mately 14 years old).                                                               main modes in the <U+FB01>nal sample, while private car was used on the
-In this article, only a subsample of these 828 respondents is                   remaining 6% of the trips2. There were no signi<U+FB01>cant differences in
-included. Based on the transport mode shares of the respondents                     modal shares between genders or age groups.
-in different distance bands from schools (see Table 1), we nar-                         The level of independence in respect of mobility in relation to
-rowed our <U+FB01>nal dataset down to children who lived between one                       school journeys was studied by asking with whom the respondent
-and three kilometres from school. Nelson et al. (2008) have sug-                    normally travels to school: alone, with other children, or with
-gested applying a 2.5-mile criterion within which active com-                       adults. Journeys were predominantly taken with other children
-muting to school is achievable, while others have used 2 mile cut-                  (53%) or alone (47%), with only one respondent reporting that they
-off based on the low levels of AST beyond that limit (McDonald,                     travelled with an adult. There was a slight difference between age
-2008; Mitra and Buliung, 2014). Including only children living in                   groups in terms of the proportions of trips taken alone and with
-the range 1–3 km from school thus allows for variance in the                        other children, but these differences were not statistically sig-
-transport modes chosen and makes modelling the correlates of the                    ni<U+FB01>cant. The studied children enjoyed high levels of independence
-environment meaningful.                                                             in their mobility relating to school journeys, and thus this variable
-In all, 224 children lived within the speci<U+FB01>ed range, and 202 of                was not used as an outcome variable, as suggested by Mitra (2013),
-them provided their actual school journey taken. These 202 chil-
-dren will constitute the <U+FB01>nal subjects of this article. Of these                        2
-In modelling, transport mode was recoded as (1) walking, (2) cycling,
-children, 18.3% were 5th graders, while for the data as a whole the                 (3) other modes.
-3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-and
-
-
-4                                                         A. Broberg, S. Sarjala
-Table 1
-Mode shares on school journeys in different distance bands from school, and de-
-scriptive statistics for the independent variables
-
-Walking       Cycling      Motorised        N
-modes
-
-Within 1 km           74.4%         22.8%        2.8%          430
-from school
-
-From 1 to 3 km        18.8%         40.2%        41.1%         224
-
-from school
-
-Beyond 3 km           0.6%          2.3%         97.1%          174
-from school
-
-a
-INDEPENDENT VARIABLES                            Mean          Std. deviation
-
-
-
-Traf<U+FB01>c or personal safety
-
-LIGHT_DTY_H: number of street lights di-       0.38          0.71
-
-vided by total road length in buffer
-LIGHT_DTY_SJ: number of street lights          2.58          5.55
-within 100 m of route divided by route
-length
-LIGHT_PROP_H: ratio of signalised intersec-    5.45          9.18
-tions to total number of street intersections
-LIGHT_PROP_SJ: ratio of signalised intersec-   8.04          14.65
-tions to total number of street intersections
-MAJOR_RD_PROP_H: length of primary             27.69         19.97
-roads divided by total road length
-MAJOR_RD_DTY_H: length of major roadsb         3.01          2.78
-normalised by sq km of area
-
-MAJOR_RD_DTY_SJ: length of major roadsb        1.07          0.77
-normalised by sq km of area
-MAJOR_RAIL_INT_SJ: 1 if major road or rail-    0.47          0.50
-road intersects the school journey
-
-BUILD_DTY_H: summed <U+FB02>oor space in all the      0.18          0.24
-buildings divided by buffer area
-BUILD_DTY_SJ: summed <U+FB02>oor space in all the     0.27          0.31
-buildings divided by buffer area
-PUBLIC_BUILD_PROP_H: proportion of land        4.94          5.47
-covered by public buildings
-BUILD_USE_MIX_H: mix in the main uses of       0.67          0.50
-buildingsc
-BUILD_USE_MIX_SJ: mix in the main uses of      0.96          0.35
-buildingsc
-
-Connectivity
-FOURWAY_PROP_H: ratio of 4-way intersec-       16.25         12.59
-tions to total number of street intersections
-FOURWAY_PROP_SJ: ratio of 4-way inter-         19.60         15.96
-
-sections to total number of street
-intersections
-
-ROAD_DTY_H: total road lengths divided by      9.26          3.68
-buffer area
-ROAD_DTY_SJ: total road lengths divided by     2.56          0.74
-the drawn school journey length
-
-INTERSECT_DTY_H: number of all intersec-       40.22         23.19
-tion divided by buffer area
-INTERSECT_DTY_SJ: number of all intersec-      57.58         26.46
-tion divided by buffer area
-PUBL_TRANS_DTY_H: number of transpor-          14.21         10.38
-
-tation stops near home divided by buffer
-area
-PUBL_TRANS_DTY_SJ: number of transpor-         6.21          3.68
-tation stops near home divided by route
-
-length
-
-Comfort and attractiveness
-RECR_PROP_H: proportion of parks and re-       4.73          7.00
-creation areas
-
-RECR_PROP_SJ: proportion of parks and re-      4.16          7.06
-creation areas
-FOREST_PROP_H: proportion of forests           22.89         15.48
-FOREST_PROP_SJ: proportion of forests          18.30         12.62
-SINGLE_FAM_PROP_H: proportion of land          14.89         13.59
-covered by single family housing
-
-SEPAR_WALK_SJ: summed length of separate       1.71          0.81
-walk or bikeways divided by route length
-
-Maintaining social capital
-SJ_WITH_FRIENDS: 1 if school journey is        1.99          0.83
-travelled in company of friends
-
-/ Transport Policy 37 (2015) 1–10
-Table 1 (continued )
-
-POP_DTY_H: number of residents per sq km        2.39        2.47
-POP_DTY_SJ: number of residents per sq km       3.63        3.60
-HOUSING_DTY_H: number of housing units          12.85       17.08
-per hectare
-HOUSING_DTY_SJ: number of housing units         20.62       25.69
-per hectare
-
-Household
-
-MOB_LICENCE_COUNT: count of items re-           5.64        1.87
-
-spondent is allowed to do independently
-
-a
-The built environment was estimated separately for 500-metre buffer around
-home (variable_name_H) and 100-metre buffer around drawn school journey
-
-(variable_name_SJ).
-b
-Expressways, arterials and collector roads; length in km.
-c
-The evenness between proportions of <U+FB02>oor area for residential, commercial,
-
-of<U+FB01>ce and institutional uses.
-
-
-
-
-
-but as an independent variable operationalising the conceptual
-domain of maintaining social capital3.
-
-
-2.2.2. Physical environmental variables
-GIS-based measures t of the built environment were calculated
-
-for 500 m buffers around each respondent's home (Kyttä et al.,
-
-2012) and within 100 m of the drawn school journeys (Panter
-et al., 2010). Detailed descriptions of the variables and their
-
-summary statistics are provided in Table 1.
-
-
-2.2.2.1. Proximity-related variables. The distance, as the crow <U+FB02>ies
-(DIST_CROW), from home to school was calculated and used in
-
-adjusted models4. Rather than treating distance as a measure of
-environment in itself, we included it in the partly adjusted models,
-for densities of different measured urban structures and distance
-
-are closely interlinked. Wong et al. (2011) have outlined how
-distance can be viewed as an operational measure of the concept
-
-of ‘density’.
-
-
-2.2.2.2. Variables related to traf<U+FB01>c safety and personal safety.
-
-
-Numerous variables concerning the traf<U+FB01>c environment have been
-used in previous research on children's transportation. In this
-study, streetlight density (Panter et al., 2010) and proportion of
-
-
-intersections with street lights were used (Mitra and Buliung,
-2012).
-The presence of primary roads was operationalised as their
-proportion of total roads (Panter et al., 2010) and as the length of
-
-
-major roads by area near home and along school journey (Mitra
-and Buliung, 2012). We also analysed whether or not a major road
-or railroad intersects the school journey (Schlossberg et al., 2006).
-Mitra (2013) hypothesizes that large retail centres or employ-
-
-ment districts may discourage AST. Previous research in relation to
-
-Helsinki has shown that environments dominated by high build-
-ing densities discourage active and independent mobility (Broberg
-
-
-et al., 2013). Building density was calculated as the summed <U+FB02>oor
-space in all the buildings within a buffer divided by the area (Lin
-and Yu, 2011). The proportion of land covered by public buildings
-near home (Su et al. 2013) was also calculated.
-
-
-3
-We dichotomised the accompaniment on school journey to a new variable
-SJ_WITH_FRIENDS (alone (0), with friends (1), recoding one respondent taking the
-journeys in adult company as a missing value.
-4
-Also the distance of the drawn journey (DIST_DRAWN) was calculated, but as
-these measures were highly correlated (r¼ .84), the <U+FB01>rst was used, it being more
-objective and less sensitive to differences between respondents in the meticu-
-lousness of drawing the route.
-
-A. Broberg, S. Sarjala
-It has been suggested (Mitra, 2013; Ding et al., 2011) that a
-mixed design and associated presence of street-level retail and
-‘eyes on the street’ could encourage AST. We calculated the mix in
-the main uses of buildings (as de<U+FB01>ned for land use mix by Frank
-et al., 2004).
-
-2.2.2.3. Connectivity-related variables. Previous research highlights
-the existence of contrasting evidence in relation to the associa-
-tions between pedestrian connectivity or intersection densities
-and children's active transportation (e.g. Wong et al., 2011).
-Nevertheless, we calculated the ratio of 4-way intersections to
-total number of street intersections (Mitra and Buliung, 2012). Two
-variables concerning the overall availability of roads to walk or
-cycle and the connectivity of these roads were calculated. Road
-density (Panter et al., 2010) and intersection density (Schlossberg
-et al., 2006) were calculated for both home and route
-environments.5
-Connectivity relates not only to the transport network, but also
-to the functional connectivity of the urban environment. We
-analysed the availability of public transportation by calculating the
-
-number of transportation stops in proximity to home and along
-
-the school journey.
-
-
-2.2.2.4. Variables related to comfort and attractiveness. The pre-
-
-sence of open space or parks (Ding et al., 2011; Mitra, 2013) and
-
-smaller neighbourhood blocks (Mitra, 2013) could enhance the
-
-comfort of walking and cycling. The greenness of the environment
-
-was analysed as the proportion of parks and recreation areas as
-
-well as that of forests near home and along the route. The presence
-of small neighbourhood blocks was operationalised as the pro-
-portion of land covered by single family housing.
-Sidewalks are nearly omnipresent in the Helsinki area and are,
-probably for this reason, not included in any of the geographical
-datasets available. In reality, there is little to be gained from ana-
-lysing sidewalks in relation to mobility statistically, as there would
-be no variance between subjects. Nevertheless, taking into con-
-sideration the notion of comfort in respect of pedestrian and bi-
-cycle mobility, we analysed the summed length of separate walk
-or bikeways along the school journey divided by route length.
-
-2.2.2.5. Variables related to maintaining social capital. As Mitra
-(2013) notes, little research has been done on the connections
-between the social environment and AST. Thus, in order to analyse
-the possibility of meeting others on the school journey, we in-
-cluded variables concerning population size and residential den-
-sities near home and along the route of the school journey. In-
-creasing population density has also been hypothesized as having
-a positive association with transport-related physical activity
-(Ding et al., 2011).
-Moreover, accompaniment on the school journey SJ_WITH_-
-FRIENDS (as described above) was used as an independent vari-
-able operationalising the conceptual domain of maintaining social
-capital.
-
-
-
-2.2.2.6. Variables related to household and child. Household access
-to private automobiles was interrogated by asking if the re-
-spondent's family owned one, two or more cars, or no car at all
-(OWN_CAR). Car-ownership was included in all the partially ad-
-
-justed regressions.
-
-Parents' general attitude towards their child's mobility options
-
-can be seen in the mobility licences, i.e. permission to move
-around independently granted to the child. Children granted a
-
-
-
-
-5
-The roads not available for walking and cycling such as motorways were
-omitted from these analyses.
-/ Transport Policy 37 (2015) 1–10                                                           5
-greater level of independence were more likely walk or bike to
-school in an Australian study (Merom et al., 2006). We oper-
-ationalised the licences with a set of questions concerning those
-things the child is allowed to do independently (Hillman et al.,
-1990), revising some of the items to better re<U+FB02>ect the Finnish
-context. The children answered whether they were allowed to do a
-list of seven things alone (MOB_LICENCE_COUNT): go to leisure
-activities, go to parks or sports facilities, use public transportation,
-ride their bike, be outside after dark, go to the city centre or
-shopping malls, and walk or ride to their friends' places.
-Finally, age group and gender were included in all the models,
-as they have been shown to be closely associated with both in-
-dependence and the mode choice of children's travel (see e.g.
-Mitra et al., 2014; Fyhri and Hjorthol, 2009; Johansson et al., 2010).
-
-2.3. Analysis
-
-The environmental variables were extracted from register-
-based geographical datasets using ESRI ArcMap 10.1 and MapInfo
-
-Professional 11.5. The main geoprocessing techniques used were
-
-buffering the homes and the school journeys, overlaying and in-
-
-tersecting different layers of analysis with each other, and calcu-
-lating statistics concerning the individual buffers from these in-
-
-tersections as well as the building points within buffers. Different
-
-raster calculation and focal statistical methods were used to cal-
-
-culate variables concerning land use.
-
-Three geographical datasets were used in the analysis. The land
-
-use –related variables were calculated from the SLICES dataset6.
-
-Population and building density-related variables were drawn
-from a building centroid dataset7, and the Digiroad8 dataset was
-used to build the traf<U+FB01>c-related variables.
-The statistical analyses were performed with IBM SPSS Statis-
-tics 21. The signi<U+FB01>cances in the differences of means between
-genders and age groups were studied with T-tests and the differ-
-ences of frequencies across groups with the chi-squared test. The
-connections between the urban environment and the transport
-mode were studied with multinomial regression analysis. Multi-
-nomial outcomes were speci<U+FB01>ed in the models with a three ca-
-tegory outcome of walking, cycling, or motorised travel (used as
-the reference category).
-A set of partially adjusted regressions (all adjusted for the
-confounding effects of age, gender, household car-ownership, and
-distance from home to school) were run to <U+FB01>lter the initial set of
-variables down to those that showed correlation with the trans-
-port mode choice on a con<U+FB01>dence level of 95% (p o0.05). Another
-set of multivariate fully adjusted regressions were estimated se-
-parately for the environment surrounding the home and school
-journey. When variables showed strong correlations (r 40.75),
-these were entered into the multivariate fully adjusted model one
-at a time and only the variable that was most strongly associated
-
-
-6
-SLICES (Separated land use & cover information system) is a raster dataset
-produced by the Finnish National Land Survey. The dataset combines geographical
-datasets on land use from different organisations, such as the Ministry of Agri-
-culture and Forestry, the Ministry of the Environment, the National Land Survey,
-the Finnish Forest Research Institute, Finland's environmental administration and
-the Population Register Centre. The dataset offers a hierarchical classi<U+FB01>cation of
-land use, land cover, soil types and special use and restricted areas, and covers
-
-Finland with a resolution of 10 m.
-7
-The building centroid dataset for each building in the Helsinki region, con-
-taining the information on housing units, <U+FB02>oor areas and population demographics
-for the building, was obtained from the city administration.
-8
-Digiroad is a national database which contains precise and accurate data on
-the locations of all roads and streets in Finland, and their most important physical
-features. The dataset also includes other transport system-related objects, such as
-
-public transport stops or traf<U+FB01>c lights, stored as dynamically segmented events. The
-Finnish Transport Agency maintains and updates the dataset.
-
-6                                                            A. Broberg, S. Sarjala /
-with the transport mode choice was included in the <U+FB01>nal model.
-(see also Mitra, Buliung 2012; Panter et al. 2010).
-
-
-3. Results
-
-3.1. Partially adjusted models of transport mode choice on school
-journeys
-
-Table 2 presents the direction and signi<U+FB01>cance of associations
-from the partially adjusted models for walking and cycling on the
-school journey. Of the variables concerning traf<U+FB01>c and personal
-safety, most were in signi<U+FB01>cant association with the transport
-mode choice. Increasing street light densities as well as increasing
-proportions of intersections with street lights decreased the
-probability of choosing active transport modes rather than taking
-the bus or being driven in a car. These associations were in con-
-trast to the hypothesised increased feelings of safety and con-
-sequential increase in walking or cycling. Targeting further the
-issue of traf<U+FB01>c safety, the density of major roads on the school
-journey was signi<U+FB01>cantly associated with walking and cycling: the
-
-Table 2
-
-Partially adjusted multinomial regression models between neighbourhood and
-route environments and school journey transport mode.
-
-Environmental charasteristic      OR (CL 95%)
-
-Walk to school             Cycle to school
-
-Traf<U+FB01>c or personal safety
-LIGHT_DTY_H                     0.382 (0.177, 0.827)       0.183 (0.082, 0.409)
-
-LIGHT_DTY_SJ                    0.816 (0.716, 0.929)       0.735 (0.632, 0.853)
-LIGHT_PROP_H                    0.95 (0.897, 1.006)        0.918 (0.87, 0.968)
-
-LIGHT_PROP_SJ                   0.942 (0.906, 0.98)        0.912 (0.877, 0.949)
-MAJOR_RD_PROP_H                 0.999 (0.972, 1.026)       0.99 (0.971, 1.008)
-MAJOR_RD_DTY_H                  0.936 (0.772, 1.135)       0.868 (0.753, 1.001)
-MAJOR_RD_DTY_SJ                 0.226 (0.108, 0.472)       0.126 (0.062, 0.254)
-
-MAJOR_RAIL_INT_SJ               0.361 (0.121, 1.081)       0.524 (0.249, 1.104)
-BUILD_DTY_H                     0.018 (0.001, 0.229)       0.001 (0.000, 0.028)
-BUILD_DTY_SJ                    0.031 (0.003, 0.293)       0.01 (0.001, 0.087)
-PUBLIC_BUILD_PROP_H             0.852 (0.764, 0.95)        0.838 (0.765, 0.918)
-BUILD_USE_MIX_H                 0.271 (0.094, 0.78)        0.246 (0.111, 0.546)
-
-BUILD_USE_MIX_SJ                0.059 (0.01, 0.355)        0.085 (0.026, 0.284)
-
-Connectivity
-FOURWAY_PROP_H                  0.961 (0.919, 1.005)       0.966 (0.936, 0.997)
-
-FOURWAY_PROP_SJ                 0.958 (0.927, 0.99)        0.962 (0.938, 0.986)
-ROAD_DTY_H                      0.895 (0.767, 1.044)       0.858 (0.768, 0.959)
-ROAD_DTY_SJ                     0.2 (0.089, 0.451)         0.171 (0.087, 0.337)
-INTERSECT_DTY_H                 0.977 (0.952, 1.001)       0.971 (0.952, 0.99)
-INTERSECT_DTY_SJ                0.961 (0.939, 0.983)       0.967 (0.951, 0.984)
-
-PUBL_TRANS_DTY_H                0.942 (0.893, 0.995)       0.924 (0.884, 0.966)
-PUBL_TRANS_DTY_SJ               0.67 (0.551, 0.815)        0.595 (0.499, 0.71)
-
-
-Comfort and attractiveness
-
-RECR_PROP_H                     0.923 (0.853, 1.000)       0.934 (0.874, 0.999)
-RECR_PROP_SJ                    0.903 (0.821, 0.993)       0.842 (0.766, 0.926)
-FOREST_PROP_H                   1.008 (0.975, 1.042)       1.005 (0.986, 1.024)
-FOREST_PROP_SJ                  1.032 (0.982, 1.085)       1.022 (0.993, 1.052)
-SINGLE_FAM_PROP_H               1.06 (1.014, 1.107)        1.059 (1.023, 1.096)
-
-SEPAR_WALK_SJ                   1.389 (0.77, 2.507)        1.019 (0.642, 1.618)
-Maintaining social capital
-SJ_WITH_FRIENDS                 1.017 (0.352, 2.939)       1.672 (0.782, 3.575)
-
-POP_DTY_H                       0.753 (0.597, 0.951)       0.64 (0.516, 0.795)
-POP_DTY_SJ                      0.822 (0.692, 0.977)       0.739 (0.632, 0.863)
-HOUSING_DTY_H                   0.956 (0.923, 0.991)       0.926 (0.892, 0.961)
-HOUSING_DTY_SJ                  0.969 (0.945, 0.993)       0.952 (0.929, 0.975)
-Household
-MOB_LICENCE_COUNT               0.854 (0.631, 1.157)       0.887 (0.697, 1.13)
-
-Note: All associations are adjusted for respondent age group, gender, household
-car-ownership, and distance between home and school.
-
-Odds ratios in bold are signi<U+FB01>cant at p o0.01, odds ratios in italics are signi<U+FB01>cant
-p o0.05.
-Transport Policy 37 (2015) 1–10
-increasing density decreased the propensity of AST. The variables
-used to study personal safety were partly in expected association
-and partly in unexpected association with the transport mode.
-Increasing building densities in the school journey and home en-
-vironment decreased the propensity to walk or cycle. The higher
-the prevalence of public buildings in the home environment, the
-less likely the respondent was to walk and cycle. The increasing
-mix in building uses in both the home and school journey en-
-vironment decreased the probability of choosing one of the active
-transport modes.
-The variables related to connectivity showed signi<U+FB01>cant asso-
-ciation with transport mode choice in particular with road and
-intersection densities along the school journey route. Moreover,
-the proportion of four-way intersections, as a percentage of all
-intersections, was in signi<U+FB01>cant inverse association with activity
-on the school journey. Each of these associations supports the
-view that a denser environment decreases the probability that an
-active mode will be chosen. Not surprisingly, the density of public
-transport options around the home and school journey decreased
-the probability of walking or cycling.
-Comfort and attractiveness were studied with a set of variables
-concerning land uses in the home and school journey environment
-
-and the availability of separate walk or bikeways. The proportion
-of forests in the environment was not associated with the trans-
-port mode choice, but the more recreation areas there were
-around the home or school journey, the less likely the respondents
-
-were to walk or cycle. This <U+FB01>nding contrasts with the supposed
-association. The increasing proportion of land covered by single-
-family housing increased the likelihood of walking and cycling to
-school signi<U+FB01>cantly, as was hypothesised. Then again, the avail-
-
-ability of separate routes for walking and cycling was not asso-
-
-
-ciated with choosing these modes of transport.
-Finally, concerning the conceptual domain of maintaining so-
-cial capital, the urban environmental variables showed signi<U+FB01>cant
-associations with the choice of cycling to school. Increasing po-
-
-pulation and housing densities in both the school journey and
-
-home environments decreased the likelihood of cycling. The as-
-sociations with walking were weaker, but still signi<U+FB01>cant at
-po 0.05 level. Making the school journey in the company of
-
-friends was not associated with the mode choice.
-
-In general, all the associations studied, apart from the propor-
-tion of single family housing around the home environment,
-
-showed a similar tendency: the denser the measured variable, the
-
-less likely the respondent was to walk or cycle. This has to do with
-the respondents choosing between active transport modes and
-using public transportation rather than being driven in a car.
-
-In addition, the associations between the variables describing
-
-
-the school journey environment had more signi<U+FB01>cant associations
-with the mode choice than with the same variables describing the
-
-home environment. We suggest that this is so because the school
-
-journey environment depicts rather closely the environment that
-might have some effect on the mode choice, whereas the en-
-vironment surrounding the respondent's home potentially gives
-
-too generalised a de<U+FB01>nition of the environment to matter.
-
-3.2. Fully adjusted models for the home and school journey
-
-environment
-
-
-After investigating the initial associations between the vari-
-ables selected to depict the conceptual domains of Mitra's model,
-we ran fully adjusted models separately for the home and school
-journey environments. These are presented in Table 3.
-In the <U+FB01>nal model concerning the home environment, sig-
-
-
-ni<U+FB01>cant associations persisted for the domains of proximity and
-at      personal safety. The longer the distance between home and school,
-the less likely children and young people were to walk or cycle to
-
-A. Broberg, S. Sarjala
-Table 3
-Fully adjusted multinomial regression models between neighbourhood and route
-environments and school journey transport mode
-
-Model                       OR (CL 95%)
-
-Walk to school              Cycle to school
-
-Neighbourhood environment
-DIST_CROW                 0.993 (0.990, 0.995)        0.997 (0.996, 0.998)
-
-GENDER                    1.681 (0.564, 5.007)        2.889 (1.289, 6.475)
-AGE_GROUP                 2.603 (0.539, 12.574)       6.512 (2.019, 21.006)
-BUILD_DTY_H               0.019 (0.002, 0.226)        0.001 (0.000, 0.017)
-School journey environment
-DIST_CROW                 0.993 (0.991, 0.995)        0.998 (0.996, 0.999)
-GENDER                    1.380 (0.413, 4.607)        3.281 (1.282, 8.396)
-AGE_GROUP                 3.932 (0.622, 24.865)       12.370 (2.792, 54.806)
-OWN_CAR                   1.085 (0.372, 3.168)        3.910 (1.715, 8.914)
-
-MAJOR_RD_DTY_SJ           0.500 (0.188, 1.334)        0.192 (0.070, 0.528)
-INTERSECT_DTY_SJ          0.990 (0.956, 1.024)        1.027 (1.000, 1.056)
-PUBL_TRANS_DTY_SJ         0.774 (0.607, 0.986)        0.659 (0.528, 0.824)
-Note: Odds ratios in bold are signi<U+FB01>cant at p o 0.01, odds ratios in italics are s
-ni<U+FB01>cant at po 0.05.
-Referent groups for age and gender are 8th graders and girls.
-
-
-school. Interestingly only the density of the built environment was
-signi<U+FB01>cant in the <U+FB01>nal model in spite of the large number of po-
-tential variables related to the urban environment. Increasing
-
-building density around the home decreased the likelihood of
-
-walking and cycling. In addition, the speci<U+FB01>c qualities of each
-
-child, namely, its gender and age, were closely associated with
-
-cycling in particular.
-
-The <U+FB01>nal model for the school journey environment showed
-
-more signi<U+FB01>cant associations, for proximity, traf<U+FB01>c safety, and
-
-connectivity-related variables. Longer distances between home
-
-and school decreased the likelihood of choosing active transport
-
-modes. The effect of growing distance does not seem very sig-
-
-ni<U+FB01>cant based on the odds ratios, but it must be noted that only
-
-the respondents with distances from one to three kilometres were
-
-included, and thus an increase of one unit (km) cannot produce
-
-very large odds ratios.
-
-As expected, the greater the incidence of major roads near the
-
-route, the less likely the respondents were to cycle to school. The
-
-association with walking to school here was not however sig-
-ni<U+FB01>cant. Intersection density was signi<U+FB01>cant for the model in
-general, but could not differentiate between the active transport
-modes. The odds ratio for the variable concerning the density of
-public transportation stops along the school journey was 0.659 in
-relation to cycling, which implies that for each unit increase in the
-number of bus stops per kilometre of the route, the odds that
-cycling was the mode chosen decreased by 34%.
-Gender and age group were associated with cycling. The
-younger age group was 12 times more likely to cycle to school
-compared to the older one, and boys more likely to cycle than girls.
-Also car-ownership in respect of the household was signi<U+FB01>cantly
-associated with the transport mode. Interestingly, the more cars
-there were in the family, the more likely the respondents were to
-cycle or walk to school.
-The fully adjusted model for the school journey environment
-predicted the transport mode choice correctly in 72% of cases. It
-succeeded particularly well in predicting cycling and non-active
-travel behaviour, whereas walking was less likely to be predicted
-correctly. The fully adjusted model for the home environment was
-less successful in making the correct predictions (62%), but not-
-withstanding this, the model's prediction rate was better than the
-proportional by chance accuracy rate of 35%, speci<U+FB01>ed for the data
-at hand.
-/ Transport Policy 37 (2015) 1–10                                            7
-In Fig. 2, the environmental variables signi<U+FB01>cant in the fully
-adjusted models are depicted on a series of maps. The <U+FB01>rst map
-
-shows the transport modes and the actual school journeys drawn
-by the respondents as well as the building densities in their home
-environments. The three remaining maps depict the urban char-
-acteristics of the school journey environment that were associated
-with walking and cycling. The lowest rates of walking and cycling
-
-
-to school can be seen in Helsinki city centre and the surrounding
-urban core areas (the south-eastern part of the region) as well as
-in the area where the main north-bound motorway and the ring
-road meet (central north area on the map). These areas and the
-pattern between transportation modes and the environmental
-variables is clearly visible on the map depicting the major road
-densities around school journeys, but also the other maps illus-
-
-
-trate similar patterning.
-
-
-4. Discussion and conclusions
-ig-
-In this article, we studied the ways in which the surrounding
-environment could impact or promote different types of physical
-activity on school journeys, using the conceptual model proposed
-by Mitra (2013). Of the domains proposed in the model, proximity,
-connectivity and traf<U+FB01>c safety seemed to be the most relevant in
-the Finnish context. The associations were more signi<U+FB01>cant when
-the environment of the school journey was studied than in the
-case of the home environment. Interestingly, many of the asso-
-
-ciations present in the partially adjusted models were in contrast
-
-to what had been suggested in the context of previous research.
-
-As such, the question thus arises, can the results presented in
-
-this article be compared to those generated previously, particularly
-
-when we have dropped those subjects living closest to school and
-
-those using predominantly active modes from our analysis. While
-
-not presented in this article, we also ran the partially adjusted
-
-multinomial regressions for all the respondents living within 3 km
-
-of their school. These analyses showed no change in the directions
-
-of the associations but substantially fewer signi<U+FB01>cant associations.
-
-This is understandable, for within 1 km of the school, nearly all the
-
-subjects walked or cycled, and hence we would not expect to <U+FB01>nd
-
-an association between the different environmental factors based
-
-on those few who had opted for inactive modes.
-
-In their review, Ding et al. (2011) found residential density and
-land-use mix to be consistently associated with transport physical
-activity among both children and young people. Our <U+FB01>ndings
-however contrasted somewhat with this general conclusion:
-where increasing residential density and building use mix de-
-creased the likelihood of engaging in AST. Subsequent to the car-
-rying out of our own research, others have found a greater land
-use mix to be negatively associated with children's walking to
-school. Su et al., (2013) suggest this might be due to the diverse
-landscape resulting in more people on the streets and a more
-disorganised built environment. It is, moreover, possible that the
-uses selected for the analysis are simply not relevant in respect of
-children's mobility; and that rather than looking at residential,
-commercial, of<U+FB01>ce and institutional land uses, an even mix of
-which has been shown to promote activity in the adult population,
-we should instead examine other types of land use. This is further
-emphasised through the notion that dense built environments,
-often associated with commercial, institutional and of<U+FB01>ce land
-uses, decreased the likelihood of walking and cycling in this study.
-All the partially adjusted models with signi<U+FB01>cant associations
-to the transport mode showed associations in the same direction,
-the increase in the variables decreasing the likelihood of walking
-or cycling being chosen. The only exception was the proportion of
-single family housing. We reason that actually all of the physical
-environmental variables used measure at some level the same
-
-8                                                           A. Broberg, S. Sarjala / Transport Policy 37 (2015) 1–10
-Fig. 2. The higher overall densities of the physical environmental variables signi<U+FB01>cant in the fully adjusted models are re<U+FB02>ected in less AST near Helsinki city
-thing, urbanity, which in the Helsinki region comes with a well-                            have used public transportation rather than walked or cycled have
-functioning public transportation network. While the proportion                             a smaller propensity to become drivers as they grow up into
-of single housing is associated with smaller blocks and thus pos-                           adulthood. In addition, the amount of physical activity undertaken
-sibly a more agreeable walking and cycling environment, the                                 by those students using public transport also constitutes a po-
-public transport options available are also fewer in number. In                             tentially interesting area for future research.
-addition, the share of longer distance school journeys was slightly                             Referring back to Mitra's conceptual framework, the strongest
-larger in the more remote areas of the study regions, but not-                              support there was for the domain of proximity i.e. the distance to
-withstanding this engagement in active transport is more com-                               school. Longer distances between home and school decreased the
-mon. Thus it seems that public transportation options are the key                           likelihood that active transport modes would be chosen. On dis-
-to understanding the mode choices of the students. To further this                          tances shorter than one kilometre nearly everyone engaged in AST.
-reasoning, our <U+FB01>nding about more cars in the household pro-                                 In this light, much could be done to increase the perceptions of
-moting a greater number of school journeys by cycling contrasts                             traf<U+FB01>c and personal safety or comfort in respect of walking and
-signi<U+FB01>cantly with the conclusions of previous research and what it                          cycling by means of planning, but maintaining the neighbourhood
-says in general about the mobility options of the household and                             school network, despite the economic pressures to centralise
-the actual mobility. This again may simply be a re<U+FB02>ection of the                            educational provision, might be the most effective urban planning
-reduced number of public transport options available in the more                            strategy to support AST (see also Su et al., 2013) in urban contexts
-remote areas of the region which is, in turn, re<U+FB02>ected in greater car                       that are already relatively supportive of AST.
-density.                                                                                        We operationalised the suggested domain of personal safety
-Finnish children and young people are, in terms of interna-                             with building volumes, based on the assumption that big buildings
-tional comparisons, very independent in their mobility (Kyttä                               related to large retail centres or employment districts may dis-
-et al., 2014), and indeed the use of non-active transport did not                           courage AST. Indeed, the bigger the building densities around the
-necessarily mean being driven in a car, but included also in-                               home, the less likely the respondents were to take part in AST. We
-dependent use of the public transportation system. When con-                                suggest that rather than relating to a reduced sense of personal
-sidering the physical activity that can be generated on school                              safety due to big building volumes, the negative relationship be-
-journeys, high modal shares for public transportation might seem                            tween building density and AST relates to better public transpor-
-to be an issue, though some physical activity occurs when walking                           tation availability in these densely built areas.
-to the transportation stops. Thinking of the mobility issues in more                            Building density was, interestingly, the only physical environ-
-general terms, learning to use public transportation from an early                          mental variable, apart from distance, persisting in the fully ad-
-age could see this become a habit thus reducing the need for                                justed model for the home environment. In general, the home
-private car usage. Indeed, it would be interesting to conduct fur-                          environment showed signi<U+FB01>cantly less associations with transport
-ther research on whether those children and young people who                                mode choice than the environment en route to school.
-
-centre.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A. Broberg, S. Sarjala
-Generalising the environment affecting people's mobility and
-transportation choices into buffers surrounding the home may not
-however be a suitable way to grasp the elements of the environ-
-ment meaningful for an individual. Indeed, most children were
-found to use only 25% of the area buffered along the road network
-within 800 and 1600 m of their home (Villanueva et al., 2012), or
-only a narrow section of the circular buffer around their home (Yin
-et al., 2013). Rather than using assumed neighbourhoods then,
-future research should instead concentrate on the actual en-
-vironments the respondents use, and explore the associations of
-these environments with mobility behaviours.
-The domain of maintaining social capital was somewhat awk-
-wardly operationalised as the population density near the home
-and en route to school, due to the limited nature of the data
-available on the social attributes of the environment. It should
-however be questioned whether population density is a good re-
-presentation of the ability to maintain social capital, as the re-
-lationships involved here could be diverse and not linear. Never-
-theless, previous research in Finland has shown that population
-density around children's meaningful places increases both the
-odds for active transport to be used while also stating a positive
-emotional assessment of the place (Broberg et al., 2013), perhaps
-supporting the use of population density. Concentrating more on
-the actual environments where this mobility is enacted, be it on
-
-school journeys or to other meaningful places, might also help to
-tackle this problematic domain. Panter et al., (2008) have also
-discussed how possible motivational elements on the school
-
-journey, such as a friend's house or shops to visit en route or parks
-
-to play in, might in<U+FB02>uence the travel mode. Indeed, empirical
-evidence from a small study using mobile phones and GPS devices
-
-to understand children's perceptions of their school journey
-
-(Pooley et al., 2010) supports this view of the importance of the
-child's own motivation to move in the environment, as it was
-found that pupils who travelled independently were most likely to
-
-engage with their immediate environment.
-Methodologically we tried to tackle head on the challenges
-posed by AST research outlined by Wong et al. (2011). Such issues
-
-here include the need for accuracy when geocoding the subject's
-home location and estimating the school journey route based on
-road network data. We have tried to overcome these problems by
-
-letting the subjects pinpoint their home and draw the route taken.
-The accuracy of the geographical data produced by children and
-young people can of course be questioned, but generally there
-
-have been no real problems in geographical accuracy in our da-
-
-tasets concerning children, possibly due to orienteering being part
-of the school curriculum. The mapping application also helped
-
-children to orientate on the map by automatically panning the
-
-map to the school selected from a drop-down list. In addition,
-Wong et al. (2011) raise the issue of inconsistency in applying the
-measures of the built environment, which we have tried to mini-
-
-mise by using the measures developed in previous research. Si-
-milarly, we also identi<U+FB01>ed the problem of overlapping buffers
-creating high correlation in the built environment data between
-
-subjects. By only including the subjects with school journeys in a
-certain range, the data became signi<U+FB01>cantly more dispersed. Fi-
-nally, again as suggested by them, we have used as spatially dis-
-
-aggregated data as possible, which in the Finnish setting is quite
-easy, as there are spatial datasets concerning for example each
-building instead of statistical unit aggregates.
-
-It might be argued that the two age groups included should
-
-have been studied separately, as it is hypothesised that the travel
-behaviours of children and young people are different (Mitra,
-2013). However, as Finnish children are notably independent in
-
-mobility terms from their early years, we found it reasonable to
-analyse the age groups jointly. Nevertheless, in future research
-/ Transport Policy 37 (2015) 1–10                                                                   9
-including wider groups of children, the potential impact of age
-differences should be taken into account.
-
-
-Acknowledgements
-
-We wish to thank the schools that participated, the head-
-masters, teachers and pupils there, as well as research assistant
-Tiina Laatikainen, who organised the data collection at the schools.
-Dr. Frans Sijtsma from the University of Groningen provided the
-initial idea of restricting the analysis to respondents within a
-certain distance of the school. Two anonymous reviewers provided
-valuable insights which in<U+FB02>uenced the <U+FB01>nal version of the article.
-The overall project was led by Professor Ari Hynynen from Tam-
-pere University of Technology and Professor Marketta Kyttä from
-Aalto University. The project was funded by the Finnish Ministry of
-Education and Culture.
-
-
-References
-
-Aarts, M., Mathijssen, J.P., Oers, J.M., Schuit, A., 2012. Associations between en-
-vironmental characteristics and active commuting to school among children: a
-cross-sectional study. Int. J. Behav. Med., 1–18.
-Bernelius, V., 2011. Osoitteenmukaisia oppimistuloksia? Kaupunkikoulujen eriyty-
-misen vaikutus peruskoululaisten oppimistuloksiin Helsingissä. Yhteiskunta-
-politiikka 76 (5), 479–493.
-Broberg, A., Kyttä, M., Fagerholm, N., 2013. Child-friendly urban structures: Bullerby
-revisited. J. Environ. Psychol. 35, 110–120.
-
-Broberg, A., Salminen, S., Kyttä, M., 2013. Physical environmental characteristics
-promoting independent and active transport to children's meaningful places.
-Appl. Geogr. 38, 43–52.
-Davison, K.K., Werder, J.L., Lawson, C.T., 2008. Children's active commuting to
-
-school: current knowledge and future directions. Prev. Chronic Dis. 5 (3), 1–11.
-De Vries, S.I., Hopman-Rock, M., Bakker, I., Hirasing, R.A., Van Mechelen, W., 2010.
-Built environmental correlates of walking and cycling in Dutch urban children:
-results from the SPACE study. Int. J. Environ. Res. Public Health 7 (5),
-2309–2324.
-Ding, D., Gebel, K., 2012. Built environment, physical activity, and obesity: what
-have we learned from reviewing the literature? Health Place 18 (1), 100–105.
-Ding, D., Sallis, J.F., Kerr, J., Lee, S., Rosenberg, D.E., 2011. Neighborhood environ-
-ment and physical activity among youth: a review. Am. J. Prev. Med. 41 (4),
-442–455.
-Frank, L.D., Andresen, M.A., Schmid, T.L., 2004. Obesity relationships with com-
-munity design, physical activity, and time spent in cars. Am. J. Prev. Med. 27 (2),
-87–96.
-Fyhri, A., Hjorthol, R., 2009. Children's independent mobility to school, friends and
-leisure activities. J. Transp. Geogr. 17 (5), 377–384.
-Hillman, M., Adams, J., Whitelegg, J., 1990. One false move… A Study Of Children's
-Independent Mobility. Policy Studies Institute, London.
-
-Johansson, K., Hasselberg, M., La<U+FB02>amme, L., 2010. Young adolescents' independent
-mobility, related factors and association with transport to school. A cross-sec-
-tional study. BMC Public Health 10, 635.
-Kahila, M., Kyttä, M., 2009. “SoftGIS as a Bridge-Builder in Collaborative Urban
-
-Planning”. In: Geertman, S., Stillwell, J. (Eds.), Planning Support Systems Best
-Practice and New Methods. Springer, Netherlands, Dordrecht, pp. 389–411.
-Kemperman, A., Timmermans, H., 2014. Environmental correlates of active travel
-behavior of children. Environ. Behav. 46 (5), 583–608.
-Kyttä, M., Hirvonen, J., Pirjola, I., Laatikainen, T., Rudner, J., 2014. The last free-range
-children? Children's independent mobility in Finland in 1990's and 2010's, In
-review in Journal of Transport Geography..
-Kyttä, A.M., Broberg, A.K., Kahila, M.H., 2012. Urban environment and children's
-active lifestyle: softGIS revealing children's behavioral patterns and meaningful
-places. Am. J. Health Promot. 26 (5), e137–e148.
-Kyttä, M., Kahila, M., 2011. SoftGIS methodology-building bridges in urban plan-
-ning. GIM Int. 25 (3), 37–41.
-Lin, J., Yu, T., 2011. Built environment effects on leisure travel for children: trip
-generation and travel mode. Transp. Policy 18 (1), 246–258.
-McDonald, N., 2008. Children's mode choice for the school trip: the role of distance
-and school location in walking to school. Transportation 35 (1), 23–35.
-McMillan, T.E., 2005. Urban form and a child's trip to school: the current literature
-
-and a framework for future research. J. Plan. Lit. 19 (4), 440–456.
-Merom, D., Tudor-Locke, C., Bauman, A., Rissel, C., 2006. Active commuting to
-school among NSW primary school children: implications for public health.
-Health Place 12 (4), 678–687.
-Mitra, R., Buliung, R.N., 2012. Built environment correlates of active school trans-
-portation: neighborhood and the modi<U+FB01>able areal unit problem. J. Transp.
-Geogr. 20 (1), 51–61.

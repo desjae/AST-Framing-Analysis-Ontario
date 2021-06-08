@@ -1,991 +1,499 @@
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION
+2017, VOL. 11, NO. 7, 507–517
+http://dx.doi.org/10.1080/15568318.2016.1275892
+Children’s school commuting in the Netherlands: Does it matter how urban form is
+incorporated in mode choice models?
+Marco Helbich
+Department of Human Geography and Spatial Planning, Utrecht University, Utrecht, the Netherlands
+     ABSTRACT                                                                                                                                                  ARTICLE HISTORY
+     Walking and cycling to school is environmentally sustainable and increases children’s physical activity.                                                  Received 16 September 2016
+     Although it is known that the built environment in<U+FB02>uences children’s travel behavior, there is scant                                                      Revised 19 December 2016
+     knowledge of how urban form along children’s commuting routes affects walking and cycling separately, or                                                  Accepted 19 December 2016
+     of how to incorporate urban form exposures in transport mode choice models. This research investigated (a)                                                KEYWORDS
+     the associations between children’s transport mode choice and urban form correlates en route, and (b) the                                                 2D and 3D built
+     consequences of different urban form operationalizations (i.e., individual variables, composite measure, and                                              environment; elementary
+     principal components [PCs]). Global Positioning System devices were used to track 623 trips to and from                                                   schoolchildren; Global
+     school made by Dutch children aged 6–11 years. Urban form exposures were derived with geographic                                                          Positioning System; school
+     information systems, and their relationships with mode choice were tested with mixed multinomial logit                                                    commuting; space syntax;
+     models in a cross-sectional research design. Differences between the number of associated urban form                                                      walking and cycling
+     variables, their magnitudes, and their signi<U+FB01>cance levels were found for both walking and cycling,
+     independent of the operationalization. Urban form was most in<U+FB02>uential for walking, whereas distance-related
+     effects were absorbed when modeled as PCs. The highest model <U+FB01>t was achieved through PCs; the
+     composite measure resulted in the lowest <U+FB01>t. To maximize the effectiveness of planning and health
+     interventions, walking and cycling must be targeted separately. Policymakers should avoid “one-<U+FB01>ts-all
+     policies,” which are deemed to be inef<U+FB01>cient. Because urban form affects model interpretation and <U+FB01>t, careful
+     attention should be paid to how urban form is modeled, and sensitivity analyses should be performed.
+1. Introduction
+                                                                                               while chauffeuring is on the rise in the Netherlands and other
+Although children’s physical activity has been declining signi<U+FB01>-                               countries (Fyhri & Hjorthol, 2009; Carver, Timperio, &
+cantly for many years (Sallis et al., 2015), physical activity is a                            Crawford, 2013).
+crucial means to reduce the risk of adverse health conditions in                                    Commuting mode choice is a complex decision-making pro-
+children (Bauman et al., 2012). In the Netherlands, only 18% of                                cess involving both parents and children (Mitra, 2013; Zhou,
+children perform the recommended 60 min of physical activity                                   2016). In addition to children’s individual characteristics
+a day (Hildebrandt et al., 2013). Suf<U+FB01>cient physical activity is                               (e.g., age, gender) (Steinbach, Green, & Edwards, 2012; Kaplan,
+particularly relevant for young age cohorts, since healthy                                     Nielsen, & Prato, 2016), trip-speci<U+FB01>c issues also matter (Pont,
+behaviors during childhood translate into healthier lifestyles in                              Ziviani, Wadley, Bennett, & Abbott, 2009). In particular, the
+adulthood (Janssen & Leblanc, 2010).                                                           commuting distance is inversely associated with mode choice:
+     School commuting provides a vital opportunity to increase                                 Children who live closer to school have a higher likelihood of
+children’s energy expenditure (Faulkner, Buliung, Flora, &                                     walking and cycling there (Ewing, Schroeer, & Greene, 2004;
+Fusco, 2009; Bauman et al., 2012; Larouche, Saunders,                                          Yeung, Wearing, & Hills, 2008; Larson et al., 2009). Literature
+Faulkner, Colley, & Tremblay, 2014; Duncan et al., 2015).                                      also indicates that stranger danger, traf<U+FB01>c safety, and traf<U+FB01>c
+Besides individual health bene<U+FB01>ts, walking and cycling as a util-                              speed in<U+FB02>uence mode choice (Pont et al., 2009; Carver et al.,
+itarian source of transport induce environmental bene<U+FB01>ts (e.g.,                                2013). For example, not having to cross major roads and the
+a carbon-neutral transport mode, reduction of traf<U+FB01>c conges-                                   availability of sidewalk and bike infrastructure are supportive
+tions during peak hours around schools) (Fishman, B€ocker, &                                   for safe walking and cycling (Kerr et al., 2006; Helbich et al.,
+Helbich, 2015; Nieuwenhuijsen, Khreis, Verlinghieri, &                                         2016).
+Rojas-Rueda, 2016; van Wee & Ettema, 2016). Despite these                                           Meta-analysis (Ewing & Cervero, 2010) and reviews on child-
+associated co-bene<U+FB01>ts, the number of children who engage in                                    ren’s travel behavior indicate associations with urban form (Pont
+active school traveling has reduced (Ferrari & Green, 2013),                                   et al., 2009; Van Loon & Frank, 2015). Because urban form
+CONTACT Marco Helbich                m.helbich@uu.nl         Department of Human Geography and Spatial Planning, Utrecht University, Heidelberglaan 2, 3584 CS Utrecht, the
+Netherlands.
+Color versions of one or more of the <U+FB01>gures in the article can be found online at www.tandfonline.com/ujst.
+Published with license by Taylor & Francis Group, LLC © Marco Helbich
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/licenses/by-nc-nd/4.0/),
+which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in any way.
+
+508        M. HELBICH
+encompasses a myriad of components (Cervero & Kockelman,              highlighted by several authors (Giles-Corti, Timperio, Bull, &
+1997; Brownson, Hoehner, Day, Forsyth, & Sallis, 2009), studies       Pikora, 2005; Wong et al., 2011; Lu et al., 2014; Kaplan et al.,
+(Panter, Jones, Van Sluijs, & Grif<U+FB01>n, 2010; Wong, Faulkner, &         2016), walking and cycling refer to dissimilar behaviors that are
+Buliung, 2011) frequently operationalize it through density,          probably affected by different urban form correlates, or by corre-
+diversity, and design indicators (Ewing & Cervero, 2010). In the-     lates that differ in their effect size (De Vries, Hopman-Rock, Bak-
+ory, density reduces distances between places, which stimulates       ker, Hirasing, & Van Mechelen, 2010; Aarts, Mathijssen, Van
+both walking and cycling (Van Loon & Frank, 2015). Land-use           Oers, & Schuit, 2013). Failure to analyze different modes sepa-
+diversity is also grounded on a similar distance-based notion.        rately might result in suboptimal outcomes and less effective inter-
+Saelens and Handy (2008) argue that a pronounced land-use             ventions (Giles-Corti et al., 2005; Panter et al., 2010). There is
+mix brings destinations closer together, and is associated with       therefore a need to break the analyses down beyond a dichotomi-
+less chauffeuring. However, <U+FB01>ndings concerning land-use and           zation into active and passive modes.
+building diversity are con<U+FB02>icting for children’s transport behavior       Finally, there is no consensus on how to incorporate urban
+(Larson et al., 2009). Urban design is represented by means of        form in mode choice models. The common practice is to
+the street layout (Giles-Corti et al., 2011; Koohsari et al., 2016).  model them as individual covariates (Schlossberg et al., 2006;
+Here, the assumption is that dense street patterns characterized      Broberg & Sarjala, 2015). But since these variables tend to be
+by high junction densities or a large number of well-connected        strongly associated, multicollinearity arises, which is a prob-
+streets support walking and cycling by increasing route choice        lem that has thus far been disregarded (Wong et al., 2011;
+and accessibility (Schlossberg, Greene, Phillips, Johnson, &          Lu et al., 2014). Frank et al. (2006, 2010) therefore developed
+Parker, 2006; Helbich et al., 2016). Although well-connected          a composite measure based on intra-related urban form com-
+streets are associated with reduced automobile speeds, children       ponents repeatedly constructed in studies (Kerr et al., 2006;
+need to cross streets more often, increasing the risk of traf<U+FB01>c       Brownson et al., 2009; Manaugh & El-Geneidy, 2011).
+accidents (Sirard & Slater, 2008). Cul-de-sacs, in contrast,          Another alternative is to summarize the core information of
+weaken network connectivity, impeding walkability but not nec-        urban form variables through a few, but uncorrelated, latent
+essarily cyclability (Ferrari & Green, 2013). Because these meas-     variables by means of principal component analysis (PCA)
+ures are limited to the horizontal dimension of urban form,           (Broberg et al., 2013).
+Helbich et al. (2016) extended urban morphology measures to               The present research addressed these three research gaps. To
+the third dimension, where the urban topography is represented        the best of our knowledge, it is the <U+FB01>rst comparative study of
+through laser scanning data (Helbich, Jochem, M€     ucke, & H€o<U+FB02>e,   these three urban form utilizations and how they affect model
+2013). As argued, building height differences might stimulate         interpretation. While several Anglophone studies have been
+active commuting. However, there is still controversy over the        published (e.g., Kerr et al., 2006; McMillan, 2007; Noland,
+associations with and the extent of urban form on children’s          Park, Von Hagen, & Chatman, 2014; Oliver et al., 2014; Mitra,
+mode choice (Sirard & Slater, 2008; Pont et al., 2009; Mitra,         Papaioannou, & Habib, 2016; Woldeamanuel, 2016), European
+2013; Van Loon & Frank, 2015).                                        studies (e.g., M€   uller et al., 2008; Broberg & Sarjala, 2015;
+    There are three reasons why the relationships are not             Kaplan et al., 2016) are underrepresented (Lu et al., 2014). We
+universally found. The <U+FB01>rst reason is methodological, that is,        focused on the Netherlands, a country that is highly attuned to
+the way urban form exposures are modeled. While exposures             walking and cycling (Pucher & Buehler, 2008). Although there
+are primarily restricted to areas either around the home or the       have been a few Dutch studies (e.g., Aarts et al., 2013; Kemper-
+school location, or both (Larsen et al., 2009; Panter et al., 2010),  man & Timmermans, 2014; Van Kann et al., 2015), exposures
+en route exposures appear increasingly as signi<U+FB01>cant determi-         along travel routes were disregarded. Therefore, our objectives
+nants of travel behavior (Badland, Scho<U+FB01>eld, & Garrett, 2008;         were:
+Duncan, Badland, & Mummery, 2009; B€         ocker, Dijst, Farber, &     (1) to determine the urban form correlates along children’s
+Helbich, 2015; Helbich et al., 2016). Straight-line distances                 school commuting routes affecting walking, cycling, and
+(Steinbach et al., 2012; Owen et al., 2012) or shortest path dis-             being chauffeured, separately; and
+tances (M€  uller, Tscharaktschiew, & Haase, 2008) between               (2) to address the methodological issue of how to integrate
+home and school are utilized to mimic the actual path. Both                   urban design variables (i.e., as main effects, composite
+approximations are questionable, however, as the Euclidean                    measures, or latent variables) in transport mode choice
+distance tends to underestimate actual distances (Stigell &                   models for children’s school commuting.
+Schantz, 2011) and the shortest routes are considered insuf<U+FB01>-             Our <U+FB01>rst hypothesis was that differences in urban form
+ciently accurate (Krenn, Oja, & Titze, 2014; Harrison, Burgoine,      correlates beyond active versus passive modes are present. An
+Corder, Van Sluijs, & Jones, 2014). To circumvent this short-         understanding of which, and how, environmental correlates
+coming, the Global Positioning System (GPS) (Kerr, Duncan,            affect each individual mode differently is essential for more tar-
+& Schipperjin, 2011), in combination with geographic informa-         get-oriented and effective urban planning policies and physi-
+tion systems (GIS), is increasingly used to model route-speci<U+FB01>c       cal-activity-based interventions. We assumed, secondly, that
+exposures (Park & Kwan, 2017).                                        different operationalizations of urban form might not yield
+    Second, apart from a few exceptions (Schlossberg et al., 2006;    consistent results. Since previous studies were limited to only
+Steinbach et al., 2012), different modes are not analyzed separately. one approach, this would explain contradictory <U+FB01>ndings and
+It is common practice to combine walking and cycling into a single    have implications for future research.
+category called active modes (Bringolf-Isler et al., 2008; Larson         The rest of this paper is structured as follows. We <U+FB01>rst intro-
+et al., 2009; Broberg, Salminen, & Kytt€a, 2013). However, as         duce the study area and data, and then present the empirical
+
+                                                                        INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                  509
+Figure 1. Locations of the study areas.
+results. Following that, we discuss the key <U+FB01>ndings and how       trips had been determined, a set of decision rules and mode-
+they translate into policy.                                       speci<U+FB01>c threshold values for speed1 were utilized for travel
+                                                                  mode classi<U+FB01>cation (Maas, Sterkenburg, de Vries, & Pierik,
+                                                                  2013). Of the modes, 90% were correctly classi<U+FB01>ed (Sterkenburg
+2. Materials and methods
+                                                                  et al., 2012), distinguishing between walking, cycling, and being
+ 2.1 Study design                                                 chauffeured. Mode choice served as response in subsequent
+                                                                  regressions. Public transport was disregarded, as it is an
+The study sample comprised 97 children aged 6–11 years of six
+                                                                  uncommon travel mode among this age cohort in the Nether-
+elementary schools in <U+FB01>ve cities distributed across the Nether-
+                                                                  lands. In-depth descriptions of GPS processing can be found
+lands (Figure 1). To minimize sociodemographic differences
+                                                                  elsewhere (Sterkenburg et al., 2012).
+between the schools, schools were selected from neighborhoods
+                                                                       A questionnaire completed by the parents or guardians of
+that have a similar pro<U+FB01>le, although they do vary in size and
+                                                                  each participating child provided personal information (e.g., age,
+population density. Each child was GPS-tracked for one regular
+                                                                  gender). Body height and weight were collected to derive a sex-
+school week between December 2008 and April 2009. Due to
+                                                                  and age-speci<U+FB01>c body mass index (BMI), which was recoded to a
+the mild climate and the cycling culture, a bias toward non-
+                                                                  dummy variable referring to normal weight or overweight/obe-
+active commuting can be neglected. The GPS devices (Travel
+                                                                  sity. Personal data were attached to the GPS tracks.
+recorder X, BT-Q1000X, QStarz International Co) were set up
+with a location sampling interval of 5 s (Kerr et al., 2011). The
+device was attached to an elasticated belt around the hip of       2.2.2 Urban form and traf<U+FB01>c safety exposures
+each child from the morning till bedtime. For details about the   Both the urban form and the traf<U+FB01>c safety exposures were repre-
+study design, we referred to De Vries et al. (2010). Parents gave sented through a grid structure. Each city was overlaid with a
+written consent before study inclusion. The study received        regular grid with a cell resolution of 100 m. Comparisons with
+approval from the Ethics Committee of the Leiden University       the actual urban morphology showed that this size was appropri-
+Medical Center.                                                   ate (e.g., retaining building blocks, squares). Because we doubted
+                                                                  the relevance of exposures that are far apart, we limited the spa-
+ 2.2 Data                                                         tial context to the immediate traversed surrounding. In order to
+                                                                  represent urban form exposures en route, GIS-based buffers with
+ 2.2.1 Transport and individual and data                          a width of 100 m on either side of the GPS trips were computed.
+The raw GPS data were preprocessed in two steps. First, we        Other GPS studies have used comparable buffer sizes (Badland
+applied a trip detection algorithm that separates static activity et al., 2008). Furthermore, the in<U+FB02>uence of each cell was
+locations from trips between the residential and school location  weighted according to its overlap with the buffers (e.g., a 50%
+by looping chronologically through the GPS point sequence
+(Sterkenburg, Pierik, & De Vries, 2012). In total, 623 trips from  1
+                                                                     The average speed of a walking trip is <10 km/h, and the maximum speed is
+home to school and from school to home were detected. Trips          <14 km/h. A cycling trip has an average speed of <25 km/h and a top speed of
+with other destinations were excluded. Second, once all school       <35 km/h. Motorized trips have a maximum speed of <150 km/h.
+
+510        M. HELBICH
+overlap resulted in a 50% down-weighing) before the averaged         Zeileis, 2015). The <U+FB01>rst random effect was needed because indi-
+exposures per variable and per trip were determined.                 vidual trips were repeatedly taken by the same child, while the
+    Guided by Brownson et al. (2009) and Wong et al. (2011),         second one was required because the children were nested
+the following objectively measured urban form indices were           within cities. Neglecting such correlations challenges the valid-
+considered. Connectivity was derived fourfold based on the           ity of statistical inference (Gelman & Hill, 2007). In all models,
+street topology: the ratio between the number of cul-de-sacs, 3-     being chauffeured served as baseline (reference group).
+way, 4-way, and >4-way intersections relative to all intersec-           To obtain information about individual effects, univariate
+tions within a cell (Schlossberg et al., 2006). Street density is    models were <U+FB01>tted <U+FB01>rst. Variables signi<U+FB01>cant at the p < 0.1 level
+represented by the total street length per cell (Panter et al.,      were used to develop multivariate models. In total, <U+FB01>ve multi-
+2010). Local accessibility is the key for walking and cycling. In    variate models were estimated. While the base model is without
+congruence with Helbich et al. (2016), two space-syntax-based        urban form variables, models 2–5 include urban form differ-
+measures were employed, namely the closeness and the                 ently (e.g., as main effect, PCs, composite measure). The mod-
+betweenness indices (Cooper, 2015). While the former repre-          els’ goodness-of-<U+FB01>ts were compared with the Akaike
+sents how dif<U+FB01>cult it is to reach all other locations j from a       information criterion (AIC), and a suitable random-effects
+given location i, the latter refers to the business of a street seg- structure was determined. The lower the AIC score, the better
+ment utilizing the shortest path to go from location i to all        the model <U+FB01>ts.
+other network locations j. Diversity is central for urban design
+and considered as a Shannon entropy index for land-use and            2.3.2 Principal component analysis and composite measure
+building usage (Broberg & Sarjala, 2015). Land-use data stem         Modeling urban form variables as main effects makes interpre-
+from the Landelijk Grondgebruiksbestand Nederland 6 (LGN;            tation easier, but correlations arising among these covariates
+Hazeu, Schuiling, Van Dorland, Oldengarm, & Gijsbertse,              make individual effects hardly assignable and challenges statis-
+2010) for the year 2007/08, while the building usage data were       tical inference (Noland et al., 2014; Lu et al., 2014). To over-
+extracted from the cadastre (Basisregistratie Adressen en            come this, either PCA (Jolliffe, 2002) can be performed or an
+Gebouwen; BAG, 2013). Lastly, the vertical shape of the urban        index can be constructed.
+form was depicted through the building roughness, namely                 PCA transforms the original urban form variables into latent
+height differences between adjacent buildings (Helbich et al.,       ones depicting the overall data variability through a linear com-
+2016). This index is based on a surface model derived from           bination of the (scaled) variables represented by a few, uncorre-
+Dutch laser scanning data (Waterschapshuis, 2008).                   lated PCs. The <U+FB01>rst PC accounts for most of the variability in
+    Traf<U+FB01>c safety is an equally important determinant of             the data, while the succeeding PCs capture the remaining but
+mode choice (Wong et al., 2011). Three proxy variables               declining variability. As PCA extracts an equal number of PCs
+were derived. A dummy variable indicated whether a cell              as available input variables, the determination of a suitable
+intersects with a major road as indicated by Navteq street           number of PCs is crucial (Jolliffe, 2002). Screeplots in combina-
+data. We controlled for the cycle path lengths relative to           tion with the Kaiser criterion are useful. The former plots the
+the total street length within a cell (Pont et al., 2009). Cycle     number of components against the eigenvalues, and the
+path data were obtained from OpenStreetMap (Jokar et al.,            “elbow” refers to an appropriate number of PCs, while the latter
+2015). Because sidewalks are omnipresent, they were                  signi<U+FB01>es PCs with eigenvalues greater than 1 as suitable. To ease
+excluded. Finally, awareness of fatal and nonfatal traf<U+FB01>c            the PCA interpretation, the bi-plot is supportive (Jolliffe, 2002).
+accidents is a barrier to walking and cycling (Panter et al.,        The loadings (i.e., arrows) show the direction of each PC,
+2010). Cell-wise accident risk employing 2009 data on traf-          expressing the associations to the original variables, whereas
+<U+FB01>c accidents provided by the Netherlands Ministry of Infra-          the scores are the new data points projected on the new coordi-
+structure and the Environment was calculated by means of             nates for each PC. Once identi<U+FB01>ed, these PCs enter the mode
+a kernel density estimation (i.e., higher values refer to a          choice models.
+higher risk). Traf<U+FB01>c volume data were not available.                     Alternatively, Frank et al. (2006, 2010) proposed a compos-
+                                                                     ite measure of urban form. This index is based on intersection
+                                                                     density, land-use diversity, etc. and sums the z-scores of the
+ 2.3 Methods
+                                                                     involved variables. Despite several construction possibilities
+ 2.3.1 Statistical modeling                                          (Kerr et al., 2006; Clark, Scott, & Yiannakoulias, 2014), a com-
+Descriptive statistics summarize the data. Non-parametric            parison by Manaugh and El-Geneidy (2011) showed only
+Kruskal–Wallis tests were used for continuous variables, and         minor differences for travel behavior modeling, highlighting
+Fisher tests were used for categorical variables to investigate      their good performance in summarizing the dimensions of
+differences across the transport modes statistically. Spearman’s     urban design.
+correlation coef<U+FB01>cients were used to test the associations among
+the urban form variables.
+                                                                     3. Results
+    To test the associations between children’s transport mode
+choice (i.e., walking, cycling, being chauffeured) and the covari-   Of the trips, 64% were done on foot, 27% by bike, and 9% by
+ates, we estimated multinomial logit regression models (Belitz       automobile. Key descriptive statistics for each variable strati<U+FB01>ed
+et al., 2015). The models were set up as structured additive         by transport mode are shown in Table 1. With p < 0.001, both
+regressions with two random effects and <U+FB01>tted through                the Kruskal–Wallis and the Fisher tests refer to signi<U+FB01>cant dif-
+restricted maximum likelihood (Umlauf, Adler, Kneib, Lang, &         ferences across the modes for several variables, including age,
+
+                                                                                               INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION       511
+Table 1. Descriptive statistics.
+                                                                   Walking (n D 400)                Cycling (n D 170)        Motorized (n D 53)    p-Value
+  Personal characteristics
+     Age (median [IQR])                                           10.00 [8.00, 10.00]               9.00 [8.00, 10.00]       7.00 [6.00, 9.00]     <0.001
+     Sex (0 D female, 1 D male) (%)                               262/138 (65.5/34.5)               94/76 (55.3/44.7)         21/32 (39.6/60.4)    <0.001
+     BMI (0 D normal weight, 1 D overweighted) (%)                     132 (33.0)                        41 (24.1)                 6 (11.3)           0.001
+  Trip characteristics
+     Direction (0 D home–school, 1 D school–home                  184/216 (46.0/54.0)               95/75 (55.9/44.1)         28/25 (52.8/47.2)       0.084
+     Distance in meters (logged) (median [IQR])                    5.36 [3.51, 5.90]                5.79 [5.49, 6.45]        6.81 [6.47, 7.06]     <0.001
+  Traf<U+FB01>c safety
+     Major roads (median [IQR])                                    0.00 [0.00, 0.01]                0.00 [0.00, 0.01]        0.00 [0.00, 0.12]        0.001
+     Cycle path (median [IQR])                                     0.76 [0.02, 9.69]                2.33 [0.11, 24.90]       1.06 [0.00, 10.80]       0.005
+     Accident risk (median [IQR])                                  0.09 [0.08, 0.20]                0.12 [0.09, 0.24]        0.23 [0.07, 0.26]     <0.001
+  Urban form
+     Cul-de-sac (median [IQR])                                     2.83 [0.00, 7.01]                5.49 [2.44, 8.36]        7.10 [2.55, 10.20]    <0.001
+     3-way crossings (median [IQR])                               31.05 [20.80, 35.20]             29.55 [22.10, 34.85]     34.00 [26.50, 36.30]      0.128
+     4-way crossings (median [IQR])                                4.79 [3.81, 7.72]                6.65 [3.59, 9.71]        5.25 [2.68, 8.04]        0.032
+     >4-way crossings (median [IQR])                               0.15 [0.00, 1.37]                0.00 [0.00, 0.77]        0.00 [0.00, 0.91]        0.001
+     Land-use diversity (median [IQR])                             0.04 [0.02, 0.13]                0.13 [0.04, 0.19]        0.15 [0.05, 0.18]     <0.001
+     Building diversity (median [IQR])                             0.13 [0.04, 0.20]                0.16 [0.12, 0.25]        0.14 [0.12, 0.17]     <0.001
+     Roughness index (median [IQR])                                0.14 [0.11, 0.19]                0.18 [0.12, 0.26]        0.25 [0.22, 0.32]     <0.001
+     Closeness index (median [IQR])                               60.80 [53.70, 67.88]             67.75 [62.00, 72.00]     74.70 [70.90, 78.40]   <0.001
+     Betweenness index (median [IQR])                             24.20 [16.20, 27.20]             22.15 [13.93, 26.28]     15.40 [13.80, 17.50]   <0.001
+     Street density (median [IQR])                               106.00 [87.90, 120.00]           114.50 [91.25, 127.75]   116.00 [105.00, 125.00]    0.001
+IQR, interquartile range.
+p-values are based on the Kruskal–Wallis test (continuous variables) or the Fisher test (categorical variables).
+gender, and trip distance, and several urban form variables. For                         consistently refer to better model performances using a person-
+example, the median age at which younger children are more                               based and a city-based random effect, instead of employing
+prone to be chauffeured than older ones varies. A motorized                              only a person-based random effect. Summary statistics of these
+mode is more frequently used for longer travel distances com-                            univariate models are given in Table 2. Insigni<U+FB01>cant variables
+pared to walking and cycling. Some of the correlations among                             with p > 0.1 (i.e., BMI, trip direction, bike path, accident risk,
+the urban form covariates are critical. For example, the rough-                          cul-de-sac, 4-way crossings, building diversity) were removed
+ness and closeness indices are, with a value of 0.720                                    from subsequent analyses.
+(p < 0.001), rather strongly associated.                                                     The signi<U+FB01>cant urban form variables of the univariate mod-
+     To analyze individual associations between mode choice and                          els were then used to derive the composite measure and to con-
+the covariates, univariate models were estimated. AIC scores                             duct PCA. The <U+FB01>rst quantile of the composite index is ¡5.639
+                                                                                         and the third is 5.138, with a mean of around 0 (S.D. D 7). The
+                                                                                         Kaiser criterion (eigenvalues >1) shown in Figure 2 (left panel)
+Table 2. Results of the univariate multinomial mixed models.                             suggests that the <U+FB01>rst three PCs explain in total approximately
+                                 Walking               Cycling                           80% of the total variance (PC1: 33%, PC2: 32%, PC3: 15%).
+                                  Coef.     p-Value      Coef.  p-Value       AIC        Collinearity is no longer present among the PCs. The bi-plot
+                                                                                         (Figure 2, right panel) shows both grouping effects of the varia-
+  Personal characteristics
+     Age                           0.408   0.023         0.342 0.076#      798.143      bles and similar loadings. PC1 is mainly characterized by nega-
+     Sex                         ¡0.939    0.062#      ¡0.826   0.115       794.064      tive loadings, while PC2 shows a balance between negative and
+     BMI (n.s.)                    0.876   0.149          0.377 0.553       797.606      positive loadings. PC1 shows the tendency to encompass con-
+  Trip characteristics
+     Direction (n.s.)              0.515   0.134       ¡0.052   0.886       791.707      nectivity, density, and diversity variables, while PC2 comprises
+     Distance (logged)           ¡0.853    0.000    ¡1.017   0.000    780.841      rather more accessibility variables. Still, the interpretation
+  Traf<U+FB01>c safety                                                                          remains demanding. Several urban form input variables are
+     Major roads               ¡10.551     0.001     ¡9.038   0.016      791.059
+     Cycle path (n.s.)           ¡0.008    0.671       ¡0.009   0.620       798.088      highly correlated, as indicated by the angle between two arrows
+     Accident risk (n.s.)          0.365   0.827          0.475 0.784       797.961      (e.g., the closeness and building roughness indices).
+  Urban form                                                                                 Table 3 shows the estimation results of the <U+FB01>ve multivariate
+     Cul-de-sac (n.s.)             0.011   0.811       ¡0.016   0.730       798.183
+     3-way crossings             ¡0.073    0.012      ¡0.062   0.044      794.852      models equipped with two random effects, as suggested by the
+     4-way crossings (n.s.)        0.046   0.497          0.072 0.313       798.702      AIC. With an AIC score of 771, the PCA-based model 4 has the
+     >4-way crossings              0.226   0.241          0.475 0.019      794.067      best <U+FB01>t, followed by model 2 (DAIC D 4.4) and model 3 (DAIC D
+     Land-use diversity        ¡11.604     0.000    ¡8.305   0.009     786.933
+     Building diversity (n.s.)     2.566   0.611          0.314 0.951       797.748      7.4), while model 5 with the composite measure performs poorly
+     Roughness index             ¡8.920    0.000    ¡9.320   0.000    777.661      and is only slightly better (DAIC D 5.8) than the base model.
+     Closeness index             ¡0.121    0.000    ¡0.116   0.000    779.031          Even the input variables are signi<U+FB01>cant in the univariate
+     Betweenness index             0.093   0.035         0.146 0.001     793.299
+     Street density              ¡0.038    0.000    ¡0.029   0.012      792.459      models, whereas gender and major roads turned out to be insig-
+                                                                                         ni<U+FB01>cant in the multivariate base model. Age is signi<U+FB01>cantly pos-
+Being chauffeured served as reference category.                                          itively related to walking (b D 0.441, p < 0.010) and only
+n.s. refers to non-signi<U+FB01>cant variables.
+AIC, Akaike information criterion.                                                       weakly to cycling (b D 0.394, p < 0.100). Trip distance has a
+Signif. codes: <0.001 ‘’, <0.01 ‘’, <0.05 ‘’, <0.1 ‘#’.                            negative effect on walking (b D ¡0.694, p < 0.001) and cycling
+
+                                                                         INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION         513
+(b D ¡0.905, p < 0.001) relative to the automobile. In the best    well-integrated in neighborhoods (Pucher & Buehler, 2008;
+performing model (4), age remains a weakly signi<U+FB01>cant covari-      Helbich, B€ocker, & Dijst, 2014).
+ate for walking (b D 0.321, p < 0.010) but not for cycling. This
+contrasts with model 5, which incorporates the composite
+                                                                    4.2 Principal <U+FB01>ndings concerning the individual effects
+urban form index, where age is signi<U+FB01>cantly positively associ-
+ated with both walking and cycling. No signi<U+FB01>cant effect of        Model 2 showed that a limited number of variables are associ-
+major roads emerged in models 4 and 5. After extending the         ated with children’s mode choice, con<U+FB01>rming the results of
+base model with latent urban form variables (i.e., PC1-3), it      Oliver et al. (2014). Concerning children’s individual character-
+turns out that distance is no longer a discriminating factor for   istics, a persistent <U+FB01>nding across the models was that age is pos-
+mode choice. Moreover, in model 4, PC1 and PC2 are signi<U+FB01>-         itively related to walking and cycling, with a distinct effect for
+cantly related to mode choice, though not PC3. However,            the former. This con<U+FB01>rms the <U+FB01>ndings of Aarts et al. (2013) as
+distance remains strongly signi<U+FB01>cant (bwalking D ¡0.635, p <       well as Goeverden and De Boer (2013) that older children are
+0.002; bcycling D ¡0.882, p < 0.001) when the composite index      more likely to walk or cycle. This behavior can be explained
+is applied (model 5). In both model 4 and model 5, the chal-       through improved cognitive capabilities, which result in more
+lenge concerning the interpretation of the urban form associa-     independent mobility (Mitra, 2013). The literature is inconclu-
+tions persists. Thus, model 2 considers urban forms as an          sive about gender effects on mode choice (Faulkner et al.,
+individual variable. Age is positively related to mode choice      2009). Although univariate models indicated that mode choice
+(bwalking D 0.520, p < 0.005; bcycling D 0.391, p < 0.093), while  varies across sex, analogous to Larsen et al. (2009), no evidence
+gender is related only to a minor extent to walking (b D           was found in multivariate models. While supporting Van Goe-
+¡0.881, p < 0.091). Like in model 4, distance is not signi<U+FB01>cant,   verden and De Boer (2013) for the Netherlands and McDonald
+and the univariate effect of main roads disappears. For walking    (2008) for the United States that gender is not signi<U+FB01>cantly
+only, 3-way intersections (b D ¡0.094, p < 0.064), >4-way          related to walking, this result contradicts the position of
+intersections (b D ¡0.586, p < 0.023), and land-use diversity      Børrestad et al. (2011), who showed that Norwegian girls are
+(b D ¡11.970, p < 0.021) show a negative association. Further-     more likely to walk and less likely to cycle compared to boys.
+more, the two accessibility measures are statistically signi<U+FB01>cant.     In the base model, the trip distance stands out. Without
+While closeness index shows a consistent negative association      adjusting for urban form, distance is, as expected, a strong dis-
+with walking (b D ¡0.102, p < 0.034) and cycling (b D              criminating factor, as is the case in the literature (Bringolf-Isler
+¡0.102, p < 0.071), the betweenness index indicates a positive     et al., 2008; M€ uller et al., 2008; Larsen, Gilliland, & Hess, 2012;
+relationship for walking (b D 0.183, p < 0.001) and cycling        Kemperman & Timmermans, 2014). This is intuitive, since lon-
+(b D 0.128, p < 0.070). Despite being signi<U+FB01>cant in the            ger distances require pronounced physical effort, which makes
+univariate models, neither building roughness nor street           walking and cycling less attractive (Aarts et al., 2013; Panter,
+density shows any signi<U+FB01>cance in the multivariate model.           Corder, Grif<U+FB01>n, Jones, & Van Sluijs, 2013). However, this con-
+                                                                   clusion must be reversed when the model is adjusted for urban
+                                                                   form, modeling the variables either directly or through PCs. It
+4. Discussions
+                                                                   seems that distance-related effects get absorbed by the built
+In the present study, we examined how urban form correlates        environment (Helbich et al., 2016). This does not occur when
+are related to children’s commuting mode choice. By utilizing      the composite measure is considered instead. It could be specu-
+GPS tracking, modeling associations for transport modes sepa-      lated that the index represents urban form less holistically com-
+rately, and comparing how different urban form operationali-       pared to the PCs, as evidenced by the weaker model
+zations (i.e., individual variables, composite measures, latent    performance. Or perhaps the importance of the involved varia-
+variables) alter model interpretation, we have contributed to      bles is not re<U+FB02>ected appropriately (e.g., Frank et al. (2010)
+the existing literature.                                           weighed the involved variables differently). As reviewed by
+                                                                   Pont et al. (2009), others also report insigni<U+FB01>cant distance
+                                                                   effects. Trip direction appeared insigni<U+FB01>cant, which con<U+FB01>rms
+ 4.1 Descriptive statistics
+                                                                   the suggestion by Larsen et al. (2009) that travel decisions are
+Our descriptive statistics showed a large share of walking and     usually made for the entire day.
+cycling, whereas in North America and Australia, chauffeuring          As for transport safety and urban form correlates, only a few
+is pervasive (Carver et al., 2013). In the Netherlands, active     were associated with mode choice, as Panter et al. (2013) found
+commuting (64% walking and 27% cycling trips; total 91%) is        in their study in Norfolk (United Kingdom). Neither walking
+more prevalent than that in, for example, Norway (75%)             nor cycling was signi<U+FB01>cantly related to traf<U+FB01>c safety, as also
+(Børrestad, Andersen, & Bere, 2011) or Belgium (59%) (D’Ha-        found by Schlossberg et al. (2006). This contradicts Van Kann
+ese, De Meester, De Bourdeaudhuij, Deforche, & Cardon,             et al. (2015), who reported that traf<U+FB01>c safety (e.g., cycling infra-
+2011). Our total percentage of active commuting trips than that    structure, crossing major roads) is a major issue for walking
+reported for the hilly Limburg area of the Netherlands (64%)       and cycling, but supports Ewing et al. (2004) and Aart et al.
+(Van Kann et al., 2015). That the Netherlands has an over-         (2013), who showed that bike paths are insigni<U+FB01>cant. However,
+whelming share of active travelers is not surprising, considering  these results infer not that traf<U+FB01>c safety is irrelevant, but that in
+that the population is highly disposed toward walking and          the Netherlands traf<U+FB01>c hazards have been minimized by nearly
+cycling, the country has a mild climate and a high-standard        omnipresent sidewalks, bike lanes, etc. Or perhaps that the
+walking and cycling infrastructure, and school are physically      environment as perceived by the parents represents safety
+
+514        M. HELBICH
+issues more realistically than the utilized GIS measures (Mitra,         As shown, an inappropriate number of PCs deteriorate the
+Faulkner, Buliung, & Stone, 2014).                                   goodness-of-<U+FB01>t (model 3 vs. model 5), which calls for careful
+    Whereas functional building usage seems irrelevant for           selection. Comparing different composite measures, Manaugh
+mode choice, the opposite is true for land-use diversity where       and El-Geneidy (2011) ascribe them, in general, a good perfor-
+lower index scores only foster walking. Although several studies     mance in explaining travel behavior. Our results show other-
+found null associations (Wong et al., 2011), we found a signi<U+FB01>-      wise, as indicated by the model performances. A worse AIC
+cantly negative association for walking. This could be because       score is achieved by model 5 compared to model 4. This might
+the schools in our study are not located in inner cities, which      be interpreted as meaning that the composite measure does not
+have pronounced land-use diversity. Aarts et al. (2013) argued       effectively represent the entire complexity of urban form better
+that building height differences might encourage active modes,       than the representation based on statistical dimension reducing
+but we are not able to support this hypothesis.                      techniques (Broberg et al., 2013). Because the “true” associa-
+    In keeping with previous studies (Schlossberg et al., 2006;      tions are unknown, we cannot recommend one speci<U+FB01>c method
+Panter et al., 2010; Larsen et al., 2012), street connectivity seems as the gold standard but, based on our <U+FB01>ndings, we lean toward
+essential. Model 2 suggests that 3-way and >4-way intersec-          PCA.
+tions are inversely and signi<U+FB01>cantly associated with walking but
+not with cycling. This means, for example, that better-con-
+                                                                      4.4 Strengths and limitations
+nected street networks (i.e., >4-way intersections) decrease
+walking relative to the automobile. At the <U+FB01>rst glance, this rela-   The present study contributes to the limited number of GPS-
+tionship appears counterintuitive, but well-connected streets        based case studies on school commuting. En route urban form
+also increase the risk of traf<U+FB01>c accidents due to crossings.         exposures represent the environmental context more realisti-
+Wong et al. (2011) also found that other intersection (e.g., cul-    cally than Euclidean distances or shortest path analyses, assum-
+de-sac) variables are insigni<U+FB01>cant. Cross-comparisons with           ing that children optimize their routes (Harrison et al., 2014).
+other study sites are not feasible for the space-syntax-based        Besides, the route recall bias introduced by self-administered
+accessibility measures because these have not previously been        travel diaries is eliminated. Whereas the majority of studies
+considered. For walking and cycling, the closeness shows a neg-      look at walking and cycling as a single category (Bringolf-Isler
+ative association, meaning that a less-accessible street network     et al., 2008; Larson et al., 2009; Broberg et al., 2013), we esti-
+reduces the likelihood for both active modes relative to the         mated urban form associations separately for individual trans-
+automobile usage. A reverse interpretation applies to the            port modes. Another key strength is that urban form variables
+betweenness index, where well-accessible streets promote walk-       were operationalized on a spatial micro level, considering the
+ing and cycling (Helbich et al., 2016). These results are rational,  local morphology on both the horizontal and the vertical level.
+since in the Netherlands accessibility is a major locational fac-    This extension toward the third dimension is unique, as is the
+tor in selecting a primary school (Herweijer & Vogels, 2004).        application of space-syntax-based urban form indicators.
+                                                                     Because the Netherlands was the study area, this investigation
+                                                                     advances the literature speci<U+FB01>cally targeting a walking- and
+ 4.3 Principal <U+FB01>ndings concerning urban form
+                                                                     cycling-oriented country (Van Goeverden & de Boer, 2013),
+       operationalizations
+                                                                     which complements the automobile-oriented North America-
+Although intuitive to do, entering the urban form correlates as      centric body of knowledge (Pont et al., 2009). Finally, the pres-
+main effects might create multicollinearity problems (Broberg        ent research was the <U+FB01>rst to compare different urban form
+et al., 2013; Noland et al., 2014; Lu et al., 2014). However, PCA    operationalizations.
+and composite measures present a way to overcome this chal-              Although it breaks new ground, this study has limitations.
+lenge (Manaugh & El-Geneidy, 2011; Clark et al., 2014).              Though useful for hypotheses generation, the research design is
+    While reducing collinearity, both PCA and composite              cross-sectional (Lu et al., 2014; Fishman et al., 2015). We rec-
+measures impede the direct interpretation of how environ-            ommend that future studies be longitudinal and consider
+mental variables are associated with transport behavior. The         changes of the covariates over time (Mitra et al., 2016). Parent’s
+former is also challenged by the selection of a suitable number      attitudes toward their residential location choice were not avail-
+of PCs, even though several criteria (e.g., the Kaiser criterion)    able and self-selection cannot be ruled out (Mokhtarian & Cao,
+alleviate this decision (Jolliffe, 2002). These criteria usually     2008). Yet, carefully following Badland et al. (2008) and Wong
+suggest more than only the <U+FB01>rst PC (e.g., Broberg et al., 2013       et al. (2011), we cannot obviate an ideal context representation,
+extracted <U+FB01>ve PCs). For both PCA and composite measures,             calling for sensitivity studies. We focused on school commuting
+it remains unclear how each individual factor is related to          trips, but Kemperman and Timmermans (2014) showed that
+children’s mode choice (Noland et al., 2014). However, such          other trip purposes are affected differently by urban form. The
+knowledge might be crucial to implement environment-based            sampling was restricted to children living in the school neigh-
+interventions and set up policies that promote physical activ-       borhood. Even though long commuting distances are uncom-
+ity. To make it easier to gain an in-depth understanding of          mon for this age group, it might have an in<U+FB02>uence on mode
+how the derived latent variables are formed, we suggest using        choices, especially public transport. Although the in<U+FB02>uence of
+visualization tools such as the bi-plot. Although Clark et al.       socioeconomics on the household level (e.g., income, automo-
+(2014) argued for the simplicity of composite measures, the          bile ownership) is inconclusive (McDonald, 2008; Van Goever-
+risk that positive and negative values might counteract each         den & de Boer, 2013), our models remained unadjusted due to
+other remains.                                                       missing data and did not acknowledge interdependence among
+
+                                                                                INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                        515
+transport mode alternatives (Ermagun & Levinson, 2017).                   concerning an earlier draft of the manuscript are appreciated. The authors
+Lastly, our dataset solely relied on objective indicators,                acknowledge the anonymous reviewers for their constructive and insightful
+although there is no doubt that parental perceptions in<U+FB02>uence             comments.
+children’s mobility (Yeung et al., 2008; Mitra, 2013). It would
+be informative to enrich our data in that respect, and to con-            Funding
+sider neighborhood cohesion, stranger danger, etc. (Chillon
+                                                                          This research is linked to the SPACE study funded by the Netherlands
+et al., 2014).
+                                                                          Ministry of Health, Welfare and Sport, and that of Housing, Spatial Plan-
+                                                                          ning and the Environment. This study was supported by the interdisciplin-
+ 4.5 Implications for research and policy                                 ary research program Healthy Urban Living of Utrecht University.
+The results are valuable for both academia and policymakers.
+We suggest that conclusions drawn from mode choice models                 References
+depend on how urban form correlates are integrated. Although              Aarts, M. J., Mathijssen, J. J., Van Oers, J. A., & Schuit, A. J. (2013). Associ-
+Adams et al. (2014) introduced common ground to derive such                   ations between environmental characteristics and active commuting to
+measures, integrating these indices in statistical models remains             school among children: A cross-sectional study. International Journal
+a challenge. Careful attention must be paid to correlations                   of Behavioral Medicine, 20(4), 538–555.
+                                                                          Adams, M. A., Frank, L. D., Schipperijn, J., Smith, G., Chapman, J.,
+among urban form proxy variables, and thorough screening for                  Christiansen, L. B., Coffee, N., Salvo, D., Toit, L. d., Dygryn, J., Fer-
+multicollinearity among variables is recommended. We                          reira Hino, A. A., Lai, P.-C., Mavoa, S., Pinz      on, J. D., Van de Weghe,
+encourage researchers to go beyond only one representation,                   N., Cerin, E., Davey, R., Macfarlane, D., Owen, N., & Sallis, J. F.
+since <U+FB01>ndings might change with changes in urban form opera-                  (2014). International variation in neighborhood walkability, transit,
+tionalization. The number of PCs should be based on one of                    and recreation environments using geographic information systems:
+                                                                              The IPEN adult study. International Journal of Health Geographics, 13
+the well-established criteria to avoid oversimpli<U+FB01>cation and to               (1), 1.
+have suf<U+FB01>cient data-inherent information. The research com-               Badland, H. M., Scho<U+FB01>eld, G. M., & Garrett, N. (2008). Travel behavior and
+munity should also recognize the availability of models that are              objectively measured urban design variables: Associations for adults
+robust against multicollinearity (e.g., elastic net; Zou & Hastie,            traveling to work. Health & Place, 14(1), 85–95.
+2005) and start to use them (Helbich et al., 2016).                       BAG. (2013). Kadaster. Retrieved 21 December 2013, from https://www.
+                                                                              kadaster.nl/bag
+    Most policies are broadly designed to increase active school          Bauman, A. E., Reis, R. S., Sallis, J. F., Wells, J. C., Loos, R. J., Martin, B. W.,
+commuting, and they combine walking and cycling into a single                 & Lancet Physical Activity Series Working Group. (2012). Correlates of
+category. Such “one-<U+FB01>ts-all” policies may be inef<U+FB01>cient, or inter-            physical activity: Why are some people physically active and others
+ventions may fail. The present research will help planning authori-           not? The Lancet, 380(9838), 258–271.
+ties and public health strategists to understand the complex way in       Belitz, C., Brezger, A., Klein, N., Kneib, T., Lang, S., & Umlauf, N. (2015).
+                                                                              BayesX—Software for Bayesian inference in structured additive regres-
+which urban environmental correlates in<U+FB02>uence transport behav-                sion models. Retrieved from http://www.bayesx.org
+ior. Our <U+FB01>ndings call for interventions that are targeted at either        ocker, L., Dijst, M., Farber, J, & Helbich, M. (2015). En-route weather and
+                                                                          B€
+walking or cycling, rather than both: Only interventions developed            place valuations for different transport mode users. Journal of Trans-
+for a speci<U+FB01>c transport mode will yield signi<U+FB01>cant and population-            port Geography, 47, 128–138.
+wide health bene<U+FB01>ts.                                                      Børrestad, L. A., Andersen, L. B., & Bere, E. (2011). Seasonal and socio-
+                                                                              demographic determinants of school commuting. Preventive Medicine,
+                                                                              52(2), 133–135.
+                                                                          Broberg, A., Salminen, S., & Kytt€a, M. (2013). Physical environmental
+5. Conclusions                                                                characteristics promoting independent and active transport to child-
+This analysis evidences not only that urban form correlates                   ren’s meaningful places. Applied Geography, 38, 43–52.
+                                                                          Broberg, A., & Sarjala, S. (2015). School travel mode choice and the charac-
+along the commuting routes vary across children’s transport                   teristics of the urban built environment: the case of Helsinki, Finland.
+modes, but also that the magnitudes of the estimated coef<U+FB01>-                   Transport Policy, 37, 1–10.
+cients differ in size. To optimize the effectiveness of planning          Brownson, R. C., Hoehner, C. M., Day, K., Forsyth, A., & Sallis, J. F. (2009).
+and health interventions, it is key for policymakers to develop               Measuring the built environment for physical activity: State of the sci-
+mode-speci<U+FB01>c actions dedicated to either walking or cycling,                  ence. American Journal of Preventive Medicine, 36(4), S99–S123.
+                                                                          Bringolf-Isler, B., Grize, L., M€ader, U., Ruch, N., Sennhauser, F. H., &
+and not both. Secondly, not only were inconsistent results                    Braun-Fahrl€ander, C. (2008). Personal and environmental factors asso-
+found for different urban form representations, but also the                  ciated with active commuting to school in Switzerland. Preventive Med-
+associations among the children’s personal characteristics and                icine, 46(1), 67–73.
+trip distance changed. As the models’ goodness-of-<U+FB01>ts indicate            Carver, A., Timperio, A., & Crawford, D. (2013). Parental chauffeurs:
+distinct differences across urban form operationalizations, a                 What drives their transport choice? Journal of Transport Geography,
+                                                                              26, 72–77.
+well-selected number of PCs, rather than an urban form com-               Cervero, R., & Kockelman, K. (1997). Travel demand and the 3Ds: Density,
+posite measure, should be used. Sensitivity analyses are thus                 diversity, and design. Transportation Research Part D: Transport and
+recommended.                                                                  Environment, 2(3), 199–219.
+                                                                          Chillon, P., Hales, D., Vaughn, A., Gizlice, Z., Ni, A., & Ward, D. S. (2014).
+                                                                              A cross-sectional study of demographic, environmental and parental
+Acknowledgments                                                               barriers to active school travel among children in the United States.
+                                                                              International Journal of Behavioral Nutrition and Physical Activity,
+Marco Helbich thanks Frank Pierik (TNO, the Netherlands) and Sanne de         11(1), 61.
+Vries (The Hague University of Applied Science, the Netherlands) for pro- Clark, A. F., Scott, D. M., & Yiannakoulias, N. (2014). Examining the
+viding the GPS data. The valuable comments that Martin Dijst made             relationship between active travel, weather, and the built environment:
 
-
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION
-2017, VOL. 11, NO. 7, 507–517
-http://dx.doi.org/10.1080/15568318.2016.1275892
-Children’s school commuting in the Netherlands: Does it matter how urban form is
-incorporated in mode choice models?
-Marco Helbich
-Department of Human Geography and Spatial Planning, Utrecht University, Utrecht, the Netherlands
-ABSTRACT                                                                                                                                                  ARTICLE HISTORY
-Walking and cycling to school is environmentally sustainable and increases children’s physical activity.                                                  Received 16 September 2016
-Although it is known that the built environment in<U+FB02>uences children’s travel behavior, there is scant                                                      Revised 19 December 2016
-knowledge of how urban form along children’s commuting routes affects walking and cycling separately, or                                                  Accepted 19 December 2016
-of how to incorporate urban form exposures in transport mode choice models. This research investigated (a)                                                KEYWORDS
-the associations between children’s transport mode choice and urban form correlates en route, and (b) the                                                 2D and 3D built
-consequences of different urban form operationalizations (i.e., individual variables, composite measure, and                                              environment; elementary
-principal components [PCs]). Global Positioning System devices were used to track 623 trips to and from                                                   schoolchildren; Global
-school made by Dutch children aged 6–11 years. Urban form exposures were derived with geographic                                                          Positioning System; school
-information systems, and their relationships with mode choice were tested with mixed multinomial logit                                                    commuting; space syntax;
-models in a cross-sectional research design. Differences between the number of associated urban form                                                      walking and cycling
-variables, their magnitudes, and their signi<U+FB01>cance levels were found for both walking and cycling,
-independent of the operationalization. Urban form was most in<U+FB02>uential for walking, whereas distance-related
-effects were absorbed when modeled as PCs. The highest model <U+FB01>t was achieved through PCs; the
-composite measure resulted in the lowest <U+FB01>t. To maximize the effectiveness of planning and health
-interventions, walking and cycling must be targeted separately. Policymakers should avoid “one-<U+FB01>ts-all
-policies,” which are deemed to be inef<U+FB01>cient. Because urban form affects model interpretation and <U+FB01>t, careful
-attention should be paid to how urban form is modeled, and sensitivity analyses should be performed.
-1. Introduction
-while chauffeuring is on the rise in the Netherlands and other
-Although children’s physical activity has been declining signi<U+FB01>-                               countries (Fyhri & Hjorthol, 2009; Carver, Timperio, &
-cantly for many years (Sallis et al., 2015), physical activity is a                            Crawford, 2013).
-crucial means to reduce the risk of adverse health conditions in                                    Commuting mode choice is a complex decision-making pro-
-children (Bauman et al., 2012). In the Netherlands, only 18% of                                cess involving both parents and children (Mitra, 2013; Zhou,
-children perform the recommended 60 min of physical activity                                   2016). In addition to children’s individual characteristics
-a day (Hildebrandt et al., 2013). Suf<U+FB01>cient physical activity is                               (e.g., age, gender) (Steinbach, Green, & Edwards, 2012; Kaplan,
-particularly relevant for young age cohorts, since healthy                                     Nielsen, & Prato, 2016), trip-speci<U+FB01>c issues also matter (Pont,
-behaviors during childhood translate into healthier lifestyles in                              Ziviani, Wadley, Bennett, & Abbott, 2009). In particular, the
-adulthood (Janssen & Leblanc, 2010).                                                           commuting distance is inversely associated with mode choice:
-School commuting provides a vital opportunity to increase                                 Children who live closer to school have a higher likelihood of
-children’s energy expenditure (Faulkner, Buliung, Flora, &                                     walking and cycling there (Ewing, Schroeer, & Greene, 2004;
-Fusco, 2009; Bauman et al., 2012; Larouche, Saunders,                                          Yeung, Wearing, & Hills, 2008; Larson et al., 2009). Literature
-Faulkner, Colley, & Tremblay, 2014; Duncan et al., 2015).                                      also indicates that stranger danger, traf<U+FB01>c safety, and traf<U+FB01>c
-Besides individual health bene<U+FB01>ts, walking and cycling as a util-                              speed in<U+FB02>uence mode choice (Pont et al., 2009; Carver et al.,
-itarian source of transport induce environmental bene<U+FB01>ts (e.g.,                                2013). For example, not having to cross major roads and the
-a carbon-neutral transport mode, reduction of traf<U+FB01>c conges-                                   availability of sidewalk and bike infrastructure are supportive
-tions during peak hours around schools) (Fishman, B€ocker, &                                   for safe walking and cycling (Kerr et al., 2006; Helbich et al.,
-Helbich, 2015; Nieuwenhuijsen, Khreis, Verlinghieri, &                                         2016).
-Rojas-Rueda, 2016; van Wee & Ettema, 2016). Despite these                                           Meta-analysis (Ewing & Cervero, 2010) and reviews on child-
-associated co-bene<U+FB01>ts, the number of children who engage in                                    ren’s travel behavior indicate associations with urban form (Pont
-active school traveling has reduced (Ferrari & Green, 2013),                                   et al., 2009; Van Loon & Frank, 2015). Because urban form
-CONTACT Marco Helbich                m.helbich@uu.nl         Department of Human Geography and Spatial Planning, Utrecht University, Heidelberglaan 2, 3584 CS Utrecht, the
-Netherlands.
-Color versions of one or more of the <U+FB01>gures in the article can be found online at www.tandfonline.com/ujst.
-Published with license by Taylor & Francis Group, LLC © Marco Helbich
-This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/licenses/by-nc-nd/4.0/),
-which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in any way.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-508        M. HELBICH
-encompasses a myriad of components (Cervero & Kockelman,
-1997; Brownson, Hoehner, Day, Forsyth, & Sallis, 2009), studies
-(Panter, Jones, Van Sluijs, & Grif<U+FB01>n, 2010; Wong, Faulkner, &
-Buliung, 2011) frequently operationalize it through density,
-diversity, and design indicators (Ewing & Cervero, 2010). In the-
-ory, density reduces distances between places, which stimulates
-both walking and cycling (Van Loon & Frank, 2015). Land-use
-diversity is also grounded on a similar distance-based notion.
-Saelens and Handy (2008) argue that a pronounced land-use
-mix brings destinations closer together, and is associated with
-less chauffeuring. However, <U+FB01>ndings concerning land-use and
-building diversity are con<U+FB02>icting for children’s transport behavior
-(Larson et al., 2009). Urban design is represented by means of
-the street layout (Giles-Corti et al., 2011; Koohsari et al., 2016).
-Here, the assumption is that dense street patterns characterized
-by high junction densities or a large number of well-connected
-streets support walking and cycling by increasing route choice
-and accessibility (Schlossberg, Greene, Phillips, Johnson, &
-Parker, 2006; Helbich et al., 2016). Although well-connected
-streets are associated with reduced automobile speeds, children
-need to cross streets more often, increasing the risk of traf<U+FB01>c
-accidents (Sirard & Slater, 2008). Cul-de-sacs, in contrast,
-weaken network connectivity, impeding walkability but not nec-
-essarily cyclability (Ferrari & Green, 2013). Because these meas-
-ures are limited to the horizontal dimension of urban form,
-Helbich et al. (2016) extended urban morphology measures to
-the third dimension, where the urban topography is represented
-through laser scanning data (Helbich, Jochem, M€     ucke, & H€o<U+FB02>e,
-2013). As argued, building height differences might stimulate
-active commuting. However, there is still controversy over the
-associations with and the extent of urban form on children’s
-mode choice (Sirard & Slater, 2008; Pont et al., 2009; Mitra,
-2013; Van Loon & Frank, 2015).
-There are three reasons why the relationships are not
-universally found. The <U+FB01>rst reason is methodological, that is,
-the way urban form exposures are modeled. While exposures
-are primarily restricted to areas either around the home or the
-school location, or both (Larsen et al., 2009; Panter et al., 2010),
-en route exposures appear increasingly as signi<U+FB01>cant determi-
-nants of travel behavior (Badland, Scho<U+FB01>eld, & Garrett, 2008;
-Duncan, Badland, & Mummery, 2009; B€         ocker, Dijst, Farber, &
-Helbich, 2015; Helbich et al., 2016). Straight-line distances
-(Steinbach et al., 2012; Owen et al., 2012) or shortest path dis-
-tances (M€  uller, Tscharaktschiew, & Haase, 2008) between
-home and school are utilized to mimic the actual path. Both
-approximations are questionable, however, as the Euclidean
-distance tends to underestimate actual distances (Stigell &
-Schantz, 2011) and the shortest routes are considered insuf<U+FB01>-
-ciently accurate (Krenn, Oja, & Titze, 2014; Harrison, Burgoine,
-Corder, Van Sluijs, & Jones, 2014). To circumvent this short-
-coming, the Global Positioning System (GPS) (Kerr, Duncan,
-& Schipperjin, 2011), in combination with geographic informa-
-tion systems (GIS), is increasingly used to model route-speci<U+FB01>c
-exposures (Park & Kwan, 2017).
-Second, apart from a few exceptions (Schlossberg et al., 2006;
-Steinbach et al., 2012), different modes are not analyzed separately.
-It is common practice to combine walking and cycling into a single
-category called active modes (Bringolf-Isler et al., 2008; Larson
-et al., 2009; Broberg, Salminen, & Kytt€a, 2013). However, as
-
-highlighted by several authors (Giles-Corti, Timperio, Bull, &
-Pikora, 2005; Wong et al., 2011; Lu et al., 2014; Kaplan et al.,
-2016), walking and cycling refer to dissimilar behaviors that are
-probably affected by different urban form correlates, or by corre-
-lates that differ in their effect size (De Vries, Hopman-Rock, Bak-
-ker, Hirasing, & Van Mechelen, 2010; Aarts, Mathijssen, Van
-Oers, & Schuit, 2013). Failure to analyze different modes sepa-
-rately might result in suboptimal outcomes and less effective inter-
-ventions (Giles-Corti et al., 2005; Panter et al., 2010). There is
-therefore a need to break the analyses down beyond a dichotomi-
-zation into active and passive modes.
-Finally, there is no consensus on how to incorporate urban
-form in mode choice models. The common practice is to
-model them as individual covariates (Schlossberg et al., 2006;
-Broberg & Sarjala, 2015). But since these variables tend to be
-strongly associated, multicollinearity arises, which is a prob-
-lem that has thus far been disregarded (Wong et al., 2011;
-Lu et al., 2014). Frank et al. (2006, 2010) therefore developed
-a composite measure based on intra-related urban form com-
-ponents repeatedly constructed in studies (Kerr et al., 2006;
-Brownson et al., 2009; Manaugh & El-Geneidy, 2011).
-Another alternative is to summarize the core information of
-urban form variables through a few, but uncorrelated, latent
-variables by means of principal component analysis (PCA)
-(Broberg et al., 2013).
-The present research addressed these three research gaps. To
-the best of our knowledge, it is the <U+FB01>rst comparative study of
-these three urban form utilizations and how they affect model
-interpretation. While several Anglophone studies have been
-published (e.g., Kerr et al., 2006; McMillan, 2007; Noland,
-Park, Von Hagen, & Chatman, 2014; Oliver et al., 2014; Mitra,
-Papaioannou, & Habib, 2016; Woldeamanuel, 2016), European
-studies (e.g., M€   uller et al., 2008; Broberg & Sarjala, 2015;
-Kaplan et al., 2016) are underrepresented (Lu et al., 2014). We
-focused on the Netherlands, a country that is highly attuned to
-walking and cycling (Pucher & Buehler, 2008). Although there
-have been a few Dutch studies (e.g., Aarts et al., 2013; Kemper-
-man & Timmermans, 2014; Van Kann et al., 2015), exposures
-along travel routes were disregarded. Therefore, our objectives
-were:
-(1) to determine the urban form correlates along children’s
-school commuting routes affecting walking, cycling, and
-being chauffeured, separately; and
-(2) to address the methodological issue of how to integrate
-urban design variables (i.e., as main effects, composite
-measures, or latent variables) in transport mode choice
-models for children’s school commuting.
-Our <U+FB01>rst hypothesis was that differences in urban form
-correlates beyond active versus passive modes are present. An
-understanding of which, and how, environmental correlates
-affect each individual mode differently is essential for more tar-
-get-oriented and effective urban planning policies and physi-
-cal-activity-based interventions. We assumed, secondly, that
-different operationalizations of urban form might not yield
-consistent results. Since previous studies were limited to only
-one approach, this would explain contradictory <U+FB01>ndings and
-have implications for future research.
-The rest of this paper is structured as follows. We <U+FB01>rst intro-
-duce the study area and data, and then present the empirical
-
-
-Figure 1. Locations of the study areas.
-results. Following that, we discuss the key <U+FB01>ndings and how
-they translate into policy.
-
-
-2. Materials and methods
-
-2.1 Study design
-
-The study sample comprised 97 children aged 6–11 years of six
-
-elementary schools in <U+FB01>ve cities distributed across the Nether-
-
-lands (Figure 1). To minimize sociodemographic differences
-
-between the schools, schools were selected from neighborhoods
-
-that have a similar pro<U+FB01>le, although they do vary in size and
-
-population density. Each child was GPS-tracked for one regular
-
-school week between December 2008 and April 2009. Due to
-
-the mild climate and the cycling culture, a bias toward non-
-
-active commuting can be neglected. The GPS devices (Travel
-
-recorder X, BT-Q1000X, QStarz International Co) were set up
-with a location sampling interval of 5 s (Kerr et al., 2011). The
-device was attached to an elasticated belt around the hip of
-each child from the morning till bedtime. For details about the
-study design, we referred to De Vries et al. (2010). Parents gave
-written consent before study inclusion. The study received
-approval from the Ethics Committee of the Leiden University
-Medical Center.
-
-2.2 Data
-
-2.2.1 Transport and individual and data
-The raw GPS data were preprocessed in two steps. First, we
-applied a trip detection algorithm that separates static activity
-locations from trips between the residential and school location
-by looping chronologically through the GPS point sequence
-(Sterkenburg, Pierik, & De Vries, 2012). In total, 623 trips from
-
-home to school and from school to home were detected. Trips
-with other destinations were excluded. Second, once all school
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                  509
-
-trips had been determined, a set of decision rules and mode-
-speci<U+FB01>c threshold values for speed1 were utilized for travel
-mode classi<U+FB01>cation (Maas, Sterkenburg, de Vries, & Pierik,
-2013). Of the modes, 90% were correctly classi<U+FB01>ed (Sterkenburg
-
-et al., 2012), distinguishing between walking, cycling, and being
-chauffeured. Mode choice served as response in subsequent
-regressions. Public transport was disregarded, as it is an
-
-uncommon travel mode among this age cohort in the Nether-
-
-lands. In-depth descriptions of GPS processing can be found
-
-elsewhere (Sterkenburg et al., 2012).
-
-A questionnaire completed by the parents or guardians of
-
-each participating child provided personal information (e.g., age,
-
-gender). Body height and weight were collected to derive a sex-
-
-and age-speci<U+FB01>c body mass index (BMI), which was recoded to a
-
-dummy variable referring to normal weight or overweight/obe-
-
-sity. Personal data were attached to the GPS tracks.
-
-
-2.2.2 Urban form and traf<U+FB01>c safety exposures
-Both the urban form and the traf<U+FB01>c safety exposures were repre-
-sented through a grid structure. Each city was overlaid with a
-regular grid with a cell resolution of 100 m. Comparisons with
-the actual urban morphology showed that this size was appropri-
-ate (e.g., retaining building blocks, squares). Because we doubted
-the relevance of exposures that are far apart, we limited the spa-
-tial context to the immediate traversed surrounding. In order to
-represent urban form exposures en route, GIS-based buffers with
-a width of 100 m on either side of the GPS trips were computed.
-Other GPS studies have used comparable buffer sizes (Badland
-et al., 2008). Furthermore, the in<U+FB02>uence of each cell was
-weighted according to its overlap with the buffers (e.g., a 50%
-
-1
-The average speed of a walking trip is <10 km/h, and the maximum speed is
-<14 km/h. A cycling trip has an average speed of <25 km/h and a top speed of
-<35 km/h. Motorized trips have a maximum speed of <150 km/h.
-
-510        M. HELBICH
-overlap resulted in a 50% down-weighing) before the averaged
-exposures per variable and per trip were determined.
-Guided by Brownson et al. (2009) and Wong et al. (2011),
-the following objectively measured urban form indices were
-considered. Connectivity was derived fourfold based on the
-street topology: the ratio between the number of cul-de-sacs, 3-
-way, 4-way, and >4-way intersections relative to all intersec-
-tions within a cell (Schlossberg et al., 2006). Street density is
-represented by the total street length per cell (Panter et al.,
-2010). Local accessibility is the key for walking and cycling. In
-congruence with Helbich et al. (2016), two space-syntax-based
-measures were employed, namely the closeness and the
-betweenness indices (Cooper, 2015). While the former repre-
-sents how dif<U+FB01>cult it is to reach all other locations j from a
-given location i, the latter refers to the business of a street seg-
-ment utilizing the shortest path to go from location i to all
-other network locations j. Diversity is central for urban design
-and considered as a Shannon entropy index for land-use and
-building usage (Broberg & Sarjala, 2015). Land-use data stem
-from the Landelijk Grondgebruiksbestand Nederland 6 (LGN;
-Hazeu, Schuiling, Van Dorland, Oldengarm, & Gijsbertse,
-2010) for the year 2007/08, while the building usage data were
-extracted from the cadastre (Basisregistratie Adressen en
-Gebouwen; BAG, 2013). Lastly, the vertical shape of the urban
-form was depicted through the building roughness, namely
-height differences between adjacent buildings (Helbich et al.,
-2016). This index is based on a surface model derived from
-Dutch laser scanning data (Waterschapshuis, 2008).
-Traf<U+FB01>c safety is an equally important determinant of
-mode choice (Wong et al., 2011). Three proxy variables
-were derived. A dummy variable indicated whether a cell
-intersects with a major road as indicated by Navteq street
-data. We controlled for the cycle path lengths relative to
-the total street length within a cell (Pont et al., 2009). Cycle
-path data were obtained from OpenStreetMap (Jokar et al.,
-2015). Because sidewalks are omnipresent, they were
-excluded. Finally, awareness of fatal and nonfatal traf<U+FB01>c
-accidents is a barrier to walking and cycling (Panter et al.,
-2010). Cell-wise accident risk employing 2009 data on traf-
-<U+FB01>c accidents provided by the Netherlands Ministry of Infra-
-structure and the Environment was calculated by means of
-a kernel density estimation (i.e., higher values refer to a
-higher risk). Traf<U+FB01>c volume data were not available.
-
-
-2.3 Methods
-
-2.3.1 Statistical modeling
-Descriptive statistics summarize the data. Non-parametric
-Kruskal–Wallis tests were used for continuous variables, and
-Fisher tests were used for categorical variables to investigate
-differences across the transport modes statistically. Spearman’s
-correlation coef<U+FB01>cients were used to test the associations among
-the urban form variables.
-
-To test the associations between children’s transport mode
-choice (i.e., walking, cycling, being chauffeured) and the covari-
-ates, we estimated multinomial logit regression models (Belitz
-et al., 2015). The models were set up as structured additive
-regressions with two random effects and <U+FB01>tted through
-restricted maximum likelihood (Umlauf, Adler, Kneib, Lang, &
-
-Zeileis, 2015). The <U+FB01>rst random effect was needed because indi-
-vidual trips were repeatedly taken by the same child, while the
-second one was required because the children were nested
-within cities. Neglecting such correlations challenges the valid-
-ity of statistical inference (Gelman & Hill, 2007). In all models,
-being chauffeured served as baseline (reference group).
-To obtain information about individual effects, univariate
-models were <U+FB01>tted <U+FB01>rst. Variables signi<U+FB01>cant at the p < 0.1 level
-were used to develop multivariate models. In total, <U+FB01>ve multi-
-variate models were estimated. While the base model is without
-urban form variables, models 2–5 include urban form differ-
-ently (e.g., as main effect, PCs, composite measure). The mod-
-els’ goodness-of-<U+FB01>ts were compared with the Akaike
-information criterion (AIC), and a suitable random-effects
-structure was determined. The lower the AIC score, the better
-the model <U+FB01>ts.
-
-2.3.2 Principal component analysis and composite measure
-Modeling urban form variables as main effects makes interpre-
-tation easier, but correlations arising among these covariates
-make individual effects hardly assignable and challenges statis-
-tical inference (Noland et al., 2014; Lu et al., 2014). To over-
-come this, either PCA (Jolliffe, 2002) can be performed or an
-index can be constructed.
-PCA transforms the original urban form variables into latent
-ones depicting the overall data variability through a linear com-
-bination of the (scaled) variables represented by a few, uncorre-
-lated PCs. The <U+FB01>rst PC accounts for most of the variability in
-the data, while the succeeding PCs capture the remaining but
-declining variability. As PCA extracts an equal number of PCs
-as available input variables, the determination of a suitable
-number of PCs is crucial (Jolliffe, 2002). Screeplots in combina-
-tion with the Kaiser criterion are useful. The former plots the
-number of components against the eigenvalues, and the
-“elbow” refers to an appropriate number of PCs, while the latter
-signi<U+FB01>es PCs with eigenvalues greater than 1 as suitable. To ease
-the PCA interpretation, the bi-plot is supportive (Jolliffe, 2002).
-The loadings (i.e., arrows) show the direction of each PC,
-expressing the associations to the original variables, whereas
-the scores are the new data points projected on the new coordi-
-nates for each PC. Once identi<U+FB01>ed, these PCs enter the mode
-choice models.
-Alternatively, Frank et al. (2006, 2010) proposed a compos-
-ite measure of urban form. This index is based on intersection
-density, land-use diversity, etc. and sums the z-scores of the
-
-involved variables. Despite several construction possibilities
-(Kerr et al., 2006; Clark, Scott, & Yiannakoulias, 2014), a com-
-parison by Manaugh and El-Geneidy (2011) showed only
-minor differences for travel behavior modeling, highlighting
-their good performance in summarizing the dimensions of
-urban design.
-
-
-3. Results
-
-Of the trips, 64% were done on foot, 27% by bike, and 9% by
-automobile. Key descriptive statistics for each variable strati<U+FB01>ed
-by transport mode are shown in Table 1. With p < 0.001, both
-the Kruskal–Wallis and the Fisher tests refer to signi<U+FB01>cant dif-
-ferences across the modes for several variables, including age,
-
-
-Table 1. Descriptive statistics.
-Walking (n D 400)
-Personal characteristics
-Age (median [IQR])                                           10.00 [8.00, 10.00]
-Sex (0 D female, 1 D male) (%)                               262/138 (65.5/34.5)
-BMI (0 D normal weight, 1 D overweighted) (%)                     132 (33.0)
-Trip characteristics
-Direction (0 D home–school, 1 D school–home                  184/216 (46.0/54.0)
-Distance in meters (logged) (median [IQR])                    5.36 [3.51, 5.90]
-Traf<U+FB01>c safety
-Major roads (median [IQR])                                    0.00 [0.00, 0.01]
-Cycle path (median [IQR])                                     0.76 [0.02, 9.69]
-Accident risk (median [IQR])                                  0.09 [0.08, 0.20]
-Urban form
-Cul-de-sac (median [IQR])                                     2.83 [0.00, 7.01]
-3-way crossings (median [IQR])                               31.05 [20.80, 35.20]
-4-way crossings (median [IQR])                                4.79 [3.81, 7.72]
->4-way crossings (median [IQR])                               0.15 [0.00, 1.37]
-Land-use diversity (median [IQR])                             0.04 [0.02, 0.13]
-Building diversity (median [IQR])                             0.13 [0.04, 0.20]
-Roughness index (median [IQR])                                0.14 [0.11, 0.19]
-Closeness index (median [IQR])                               60.80 [53.70, 67.88]
-Betweenness index (median [IQR])                             24.20 [16.20, 27.20]
-Street density (median [IQR])                               106.00 [87.90, 120.00]
-IQR, interquartile range.
-p-values are based on the Kruskal–Wallis test (continuous variables) or the Fisher test
-gender, and trip distance, and several urban form variables. For
-example, the median age at which younger children are more
-prone to be chauffeured than older ones varies. A motorized
-mode is more frequently used for longer travel distances com-
-pared to walking and cycling. Some of the correlations among
-the urban form covariates are critical. For example, the rough-
-ness and closeness indices are, with a value of 0.720
-(p < 0.001), rather strongly associated.
-To analyze individual associations between mode choice and
-the covariates, univariate models were estimated. AIC scores
-
-
-Table 2. Results of the univariate multinomial mixed models.
-Walking               Cycling
-Coef.     p-Value      Coef.  p-Value       AIC
-
-Personal characteristics
-Age                           0.408   0.023         0.342 0.076#      798.143
-Sex                         ¡0.939    0.062#      ¡0.826   0.115       794.064
-BMI (n.s.)                    0.876   0.149          0.377 0.553       797.606
-Trip characteristics
-Direction (n.s.)              0.515   0.134       ¡0.052   0.886       791.707
-Distance (logged)           ¡0.853    0.000    ¡1.017   0.000    780.841
-Traf<U+FB01>c safety
-Major roads               ¡10.551     0.001     ¡9.038   0.016      791.059
-Cycle path (n.s.)           ¡0.008    0.671       ¡0.009   0.620       798.088
-Accident risk (n.s.)          0.365   0.827          0.475 0.784       797.961
-Urban form
-Cul-de-sac (n.s.)             0.011   0.811       ¡0.016   0.730       798.183
-3-way crossings             ¡0.073    0.012      ¡0.062   0.044      794.852
-4-way crossings (n.s.)        0.046   0.497          0.072 0.313       798.702
->4-way crossings              0.226   0.241          0.475 0.019      794.067
-Land-use diversity        ¡11.604     0.000    ¡8.305   0.009     786.933
-Building diversity (n.s.)     2.566   0.611          0.314 0.951       797.748
-Roughness index             ¡8.920    0.000    ¡9.320   0.000    777.661
-Closeness index             ¡0.121    0.000    ¡0.116   0.000    779.031
-Betweenness index             0.093   0.035         0.146 0.001     793.299
-Street density              ¡0.038    0.000    ¡0.029   0.012      792.459
-
-Being chauffeured served as reference category.
-n.s. refers to non-signi<U+FB01>cant variables.
-AIC, Akaike information criterion.
-Signif. codes: <0.001 ‘’, <0.01 ‘’, <0.05 ‘’, <0.1 ‘#’.
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION       511
-
-Cycling (n D 170)        Motorized (n D 53)    p-Value
-
-9.00 [8.00, 10.00]       7.00 [6.00, 9.00]     <0.001
-94/76 (55.3/44.7)         21/32 (39.6/60.4)    <0.001
-41 (24.1)                 6 (11.3)           0.001
-
-95/75 (55.9/44.1)         28/25 (52.8/47.2)       0.084
-5.79 [5.49, 6.45]        6.81 [6.47, 7.06]     <0.001
-
-0.00 [0.00, 0.01]        0.00 [0.00, 0.12]        0.001
-2.33 [0.11, 24.90]       1.06 [0.00, 10.80]       0.005
-0.12 [0.09, 0.24]        0.23 [0.07, 0.26]     <0.001
-
-5.49 [2.44, 8.36]        7.10 [2.55, 10.20]    <0.001
-29.55 [22.10, 34.85]     34.00 [26.50, 36.30]      0.128
-6.65 [3.59, 9.71]        5.25 [2.68, 8.04]        0.032
-0.00 [0.00, 0.77]        0.00 [0.00, 0.91]        0.001
-0.13 [0.04, 0.19]        0.15 [0.05, 0.18]     <0.001
-0.16 [0.12, 0.25]        0.14 [0.12, 0.17]     <0.001
-0.18 [0.12, 0.26]        0.25 [0.22, 0.32]     <0.001
-67.75 [62.00, 72.00]     74.70 [70.90, 78.40]   <0.001
-22.15 [13.93, 26.28]     15.40 [13.80, 17.50]   <0.001
-114.50 [91.25, 127.75]   116.00 [105.00, 125.00]    0.001
-
-(categorical variables).
-consistently refer to better model performances using a person-
-based and a city-based random effect, instead of employing
-only a person-based random effect. Summary statistics of these
-univariate models are given in Table 2. Insigni<U+FB01>cant variables
-with p > 0.1 (i.e., BMI, trip direction, bike path, accident risk,
-cul-de-sac, 4-way crossings, building diversity) were removed
-from subsequent analyses.
-The signi<U+FB01>cant urban form variables of the univariate mod-
-els were then used to derive the composite measure and to con-
-duct PCA. The <U+FB01>rst quantile of the composite index is ¡5.639
-and the third is 5.138, with a mean of around 0 (S.D. D 7). The
-Kaiser criterion (eigenvalues >1) shown in Figure 2 (left panel)
-suggests that the <U+FB01>rst three PCs explain in total approximately
-80% of the total variance (PC1: 33%, PC2: 32%, PC3: 15%).
-Collinearity is no longer present among the PCs. The bi-plot
-(Figure 2, right panel) shows both grouping effects of the varia-
-
-bles and similar loadings. PC1 is mainly characterized by nega-
-tive loadings, while PC2 shows a balance between negative and
-positive loadings. PC1 shows the tendency to encompass con-
-
-nectivity, density, and diversity variables, while PC2 comprises
-rather more accessibility variables. Still, the interpretation
-remains demanding. Several urban form input variables are
-
-highly correlated, as indicated by the angle between two arrows
-(e.g., the closeness and building roughness indices).
-Table 3 shows the estimation results of the <U+FB01>ve multivariate
-
-models equipped with two random effects, as suggested by the
-AIC. With an AIC score of 771, the PCA-based model 4 has the
-best <U+FB01>t, followed by model 2 (DAIC D 4.4) and model 3 (DAIC D
-
-7.4), while model 5 with the composite measure performs poorly
-and is only slightly better (DAIC D 5.8) than the base model.
-Even the input variables are signi<U+FB01>cant in the univariate
-
-models, whereas gender and major roads turned out to be insig-
-ni<U+FB01>cant in the multivariate base model. Age is signi<U+FB01>cantly pos-
-itively related to walking (b D 0.441, p < 0.010) and only
-
-weakly to cycling (b D 0.394, p < 0.100). Trip distance has a
-negative effect on walking (b D ¡0.694, p < 0.001) and cycling
-
-
-(b D ¡0.905, p < 0.001) relative to the automobile. In the best
-performing model (4), age remains a weakly signi<U+FB01>cant covari-
-ate for walking (b D 0.321, p < 0.010) but not for cycling. This
-contrasts with model 5, which incorporates the composite
-
-urban form index, where age is signi<U+FB01>cantly positively associ-
-ated with both walking and cycling. No signi<U+FB01>cant effect of
-major roads emerged in models 4 and 5. After extending the
-base model with latent urban form variables (i.e., PC1-3), it
-turns out that distance is no longer a discriminating factor for
-mode choice. Moreover, in model 4, PC1 and PC2 are signi<U+FB01>-
-cantly related to mode choice, though not PC3. However,
-distance remains strongly signi<U+FB01>cant (bwalking D ¡0.635, p <
-0.002; bcycling D ¡0.882, p < 0.001) when the composite index
-is applied (model 5). In both model 4 and model 5, the chal-
-lenge concerning the interpretation of the urban form associa-
-tions persists. Thus, model 2 considers urban forms as an
-individual variable. Age is positively related to mode choice
-(bwalking D 0.520, p < 0.005; bcycling D 0.391, p < 0.093), while
-gender is related only to a minor extent to walking (b D
-¡0.881, p < 0.091). Like in model 4, distance is not signi<U+FB01>cant,
-and the univariate effect of main roads disappears. For walking
-only, 3-way intersections (b D ¡0.094, p < 0.064), >4-way
-intersections (b D ¡0.586, p < 0.023), and land-use diversity
-(b D ¡11.970, p < 0.021) show a negative association. Further-
-more, the two accessibility measures are statistically signi<U+FB01>cant.
-While closeness index shows a consistent negative association
-with walking (b D ¡0.102, p < 0.034) and cycling (b D
-¡0.102, p < 0.071), the betweenness index indicates a positive
-relationship for walking (b D 0.183, p < 0.001) and cycling
-(b D 0.128, p < 0.070). Despite being signi<U+FB01>cant in the
-univariate models, neither building roughness nor street
-density shows any signi<U+FB01>cance in the multivariate model.
-
-
-4. Discussions
-
-In the present study, we examined how urban form correlates
-are related to children’s commuting mode choice. By utilizing
-GPS tracking, modeling associations for transport modes sepa-
-rately, and comparing how different urban form operationali-
-zations (i.e., individual variables, composite measures, latent
-variables) alter model interpretation, we have contributed to
-the existing literature.
-
-
-4.1 Descriptive statistics
-
-Our descriptive statistics showed a large share of walking and
-cycling, whereas in North America and Australia, chauffeuring
-is pervasive (Carver et al., 2013). In the Netherlands, active
-commuting (64% walking and 27% cycling trips; total 91%) is
-more prevalent than that in, for example, Norway (75%)
-(Børrestad, Andersen, & Bere, 2011) or Belgium (59%) (D’Ha-
-ese, De Meester, De Bourdeaudhuij, Deforche, & Cardon,
-2011). Our total percentage of active commuting trips than that
-reported for the hilly Limburg area of the Netherlands (64%)
-(Van Kann et al., 2015). That the Netherlands has an over-
-whelming share of active travelers is not surprising, considering
-that the population is highly disposed toward walking and
-cycling, the country has a mild climate and a high-standard
-walking and cycling infrastructure, and school are physically
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION         513
-well-integrated in neighborhoods (Pucher & Buehler, 2008;
-Helbich, B€ocker, & Dijst, 2014).
-
-
-4.2 Principal <U+FB01>ndings concerning the individual effects
-
-Model 2 showed that a limited number of variables are associ-
-ated with children’s mode choice, con<U+FB01>rming the results of
-Oliver et al. (2014). Concerning children’s individual character-
-istics, a persistent <U+FB01>nding across the models was that age is pos-
-itively related to walking and cycling, with a distinct effect for
-the former. This con<U+FB01>rms the <U+FB01>ndings of Aarts et al. (2013) as
-well as Goeverden and De Boer (2013) that older children are
-more likely to walk or cycle. This behavior can be explained
-through improved cognitive capabilities, which result in more
-independent mobility (Mitra, 2013). The literature is inconclu-
-sive about gender effects on mode choice (Faulkner et al.,
-2009). Although univariate models indicated that mode choice
-varies across sex, analogous to Larsen et al. (2009), no evidence
-was found in multivariate models. While supporting Van Goe-
-verden and De Boer (2013) for the Netherlands and McDonald
-(2008) for the United States that gender is not signi<U+FB01>cantly
-related to walking, this result contradicts the position of
-Børrestad et al. (2011), who showed that Norwegian girls are
-more likely to walk and less likely to cycle compared to boys.
-In the base model, the trip distance stands out. Without
-adjusting for urban form, distance is, as expected, a strong dis-
-criminating factor, as is the case in the literature (Bringolf-Isler
-et al., 2008; M€ uller et al., 2008; Larsen, Gilliland, & Hess, 2012;
-Kemperman & Timmermans, 2014). This is intuitive, since lon-
-ger distances require pronounced physical effort, which makes
-walking and cycling less attractive (Aarts et al., 2013; Panter,
-Corder, Grif<U+FB01>n, Jones, & Van Sluijs, 2013). However, this con-
-clusion must be reversed when the model is adjusted for urban
-form, modeling the variables either directly or through PCs. It
-
-seems that distance-related effects get absorbed by the built
-environment (Helbich et al., 2016). This does not occur when
-the composite measure is considered instead. It could be specu-
-lated that the index represents urban form less holistically com-
-pared to the PCs, as evidenced by the weaker model
-performance. Or perhaps the importance of the involved varia-
-bles is not re<U+FB02>ected appropriately (e.g., Frank et al. (2010)
-weighed the involved variables differently). As reviewed by
-Pont et al. (2009), others also report insigni<U+FB01>cant distance
-effects. Trip direction appeared insigni<U+FB01>cant, which con<U+FB01>rms
-
-the suggestion by Larsen et al. (2009) that travel decisions are
-usually made for the entire day.
-As for transport safety and urban form correlates, only a few
-were associated with mode choice, as Panter et al. (2013) found
-in their study in Norfolk (United Kingdom). Neither walking
-nor cycling was signi<U+FB01>cantly related to traf<U+FB01>c safety, as also
-found by Schlossberg et al. (2006). This contradicts Van Kann
-et al. (2015), who reported that traf<U+FB01>c safety (e.g., cycling infra-
-structure, crossing major roads) is a major issue for walking
-and cycling, but supports Ewing et al. (2004) and Aart et al.
-(2013), who showed that bike paths are insigni<U+FB01>cant. However,
-these results infer not that traf<U+FB01>c safety is irrelevant, but that in
-the Netherlands traf<U+FB01>c hazards have been minimized by nearly
-omnipresent sidewalks, bike lanes, etc. Or perhaps that the
-environment as perceived by the parents represents safety
-
-514        M. HELBICH
-issues more realistically than the utilized GIS measures (Mitra,
-Faulkner, Buliung, & Stone, 2014).
-Whereas functional building usage seems irrelevant for
-mode choice, the opposite is true for land-use diversity where
-lower index scores only foster walking. Although several studies
-found null associations (Wong et al., 2011), we found a signi<U+FB01>-
-cantly negative association for walking. This could be because
-the schools in our study are not located in inner cities, which
-have pronounced land-use diversity. Aarts et al. (2013) argued
-that building height differences might encourage active modes,
-but we are not able to support this hypothesis.
-In keeping with previous studies (Schlossberg et al., 2006;
-Panter et al., 2010; Larsen et al., 2012), street connectivity seems
-essential. Model 2 suggests that 3-way and >4-way intersec-
-tions are inversely and signi<U+FB01>cantly associated with walking but
-not with cycling. This means, for example, that better-con-
-
-nected street networks (i.e., >4-way intersections) decrease
-walking relative to the automobile. At the <U+FB01>rst glance, this rela-
-tionship appears counterintuitive, but well-connected streets
-also increase the risk of traf<U+FB01>c accidents due to crossings.
-Wong et al. (2011) also found that other intersection (e.g., cul-
-de-sac) variables are insigni<U+FB01>cant. Cross-comparisons with
-other study sites are not feasible for the space-syntax-based
-accessibility measures because these have not previously been
-considered. For walking and cycling, the closeness shows a neg-
-ative association, meaning that a less-accessible street network
-reduces the likelihood for both active modes relative to the
-automobile usage. A reverse interpretation applies to the
-betweenness index, where well-accessible streets promote walk-
-ing and cycling (Helbich et al., 2016). These results are rational,
-since in the Netherlands accessibility is a major locational fac-
-tor in selecting a primary school (Herweijer & Vogels, 2004).
-
-
-4.3 Principal <U+FB01>ndings concerning urban form
-
-operationalizations
-
-Although intuitive to do, entering the urban form correlates as
-main effects might create multicollinearity problems (Broberg
-et al., 2013; Noland et al., 2014; Lu et al., 2014). However, PCA
-and composite measures present a way to overcome this chal-
-lenge (Manaugh & El-Geneidy, 2011; Clark et al., 2014).
-While reducing collinearity, both PCA and composite
-measures impede the direct interpretation of how environ-
-mental variables are associated with transport behavior. The
-former is also challenged by the selection of a suitable number
-of PCs, even though several criteria (e.g., the Kaiser criterion)
-alleviate this decision (Jolliffe, 2002). These criteria usually
-suggest more than only the <U+FB01>rst PC (e.g., Broberg et al., 2013
-extracted <U+FB01>ve PCs). For both PCA and composite measures,
-it remains unclear how each individual factor is related to
-children’s mode choice (Noland et al., 2014). However, such
-knowledge might be crucial to implement environment-based
-interventions and set up policies that promote physical activ-
-ity. To make it easier to gain an in-depth understanding of
-how the derived latent variables are formed, we suggest using
-visualization tools such as the bi-plot. Although Clark et al.
-(2014) argued for the simplicity of composite measures, the
-risk that positive and negative values might counteract each
-other remains.
-
-As shown, an inappropriate number of PCs deteriorate the
-goodness-of-<U+FB01>t (model 3 vs. model 5), which calls for careful
-selection. Comparing different composite measures, Manaugh
-and El-Geneidy (2011) ascribe them, in general, a good perfor-
-mance in explaining travel behavior. Our results show other-
-wise, as indicated by the model performances. A worse AIC
-score is achieved by model 5 compared to model 4. This might
-be interpreted as meaning that the composite measure does not
-effectively represent the entire complexity of urban form better
-than the representation based on statistical dimension reducing
-techniques (Broberg et al., 2013). Because the “true” associa-
-tions are unknown, we cannot recommend one speci<U+FB01>c method
-as the gold standard but, based on our <U+FB01>ndings, we lean toward
-PCA.
-
-
-4.4 Strengths and limitations
-
-The present study contributes to the limited number of GPS-
-based case studies on school commuting. En route urban form
-exposures represent the environmental context more realisti-
-cally than Euclidean distances or shortest path analyses, assum-
-ing that children optimize their routes (Harrison et al., 2014).
-Besides, the route recall bias introduced by self-administered
-travel diaries is eliminated. Whereas the majority of studies
-look at walking and cycling as a single category (Bringolf-Isler
-et al., 2008; Larson et al., 2009; Broberg et al., 2013), we esti-
-mated urban form associations separately for individual trans-
-port modes. Another key strength is that urban form variables
-were operationalized on a spatial micro level, considering the
-local morphology on both the horizontal and the vertical level.
-This extension toward the third dimension is unique, as is the
-application of space-syntax-based urban form indicators.
-Because the Netherlands was the study area, this investigation
-advances the literature speci<U+FB01>cally targeting a walking- and
-
-cycling-oriented country (Van Goeverden & de Boer, 2013),
-
-which complements the automobile-oriented North America-
-centric body of knowledge (Pont et al., 2009). Finally, the pres-
-ent research was the <U+FB01>rst to compare different urban form
-operationalizations.
-Although it breaks new ground, this study has limitations.
-Though useful for hypotheses generation, the research design is
-cross-sectional (Lu et al., 2014; Fishman et al., 2015). We rec-
-ommend that future studies be longitudinal and consider
-changes of the covariates over time (Mitra et al., 2016). Parent’s
-attitudes toward their residential location choice were not avail-
-able and self-selection cannot be ruled out (Mokhtarian & Cao,
-2008). Yet, carefully following Badland et al. (2008) and Wong
-et al. (2011), we cannot obviate an ideal context representation,
-calling for sensitivity studies. We focused on school commuting
-trips, but Kemperman and Timmermans (2014) showed that
-other trip purposes are affected differently by urban form. The
-sampling was restricted to children living in the school neigh-
-borhood. Even though long commuting distances are uncom-
-mon for this age group, it might have an in<U+FB02>uence on mode
-choices, especially public transport. Although the in<U+FB02>uence of
-socioeconomics on the household level (e.g., income, automo-
-bile ownership) is inconclusive (McDonald, 2008; Van Goever-
-den & de Boer, 2013), our models remained unadjusted due to
-missing data and did not acknowledge interdependence among
-
-
-transport mode alternatives (Ermagun & Levinson, 2017).
-Lastly, our dataset solely relied on objective indicators,
-although there is no doubt that parental perceptions in<U+FB02>uence
-children’s mobility (Yeung et al., 2008; Mitra, 2013). It would
-be informative to enrich our data in that respect, and to con-
-sider neighborhood cohesion, stranger danger, etc. (Chillon
-
-et al., 2014).
-
-
-4.5 Implications for research and policy
-The results are valuable for both academia and policymakers.
-We suggest that conclusions drawn from mode choice models
-depend on how urban form correlates are integrated. Although
-Adams et al. (2014) introduced common ground to derive such
-measures, integrating these indices in statistical models remains
-a challenge. Careful attention must be paid to correlations
-
-among urban form proxy variables, and thorough screening for
-multicollinearity among variables is recommended. We
-encourage researchers to go beyond only one representation,
-since <U+FB01>ndings might change with changes in urban form opera-
-tionalization. The number of PCs should be based on one of
-
-the well-established criteria to avoid oversimpli<U+FB01>cation and to
-have suf<U+FB01>cient data-inherent information. The research com-
-munity should also recognize the availability of models that are
-robust against multicollinearity (e.g., elastic net; Zou & Hastie,
-2005) and start to use them (Helbich et al., 2016).
-
-Most policies are broadly designed to increase active school
-commuting, and they combine walking and cycling into a single
-category. Such “one-<U+FB01>ts-all” policies may be inef<U+FB01>cient, or inter-
-ventions may fail. The present research will help planning authori-
-ties and public health strategists to understand the complex way in
-
-which urban environmental correlates in<U+FB02>uence transport behav-
-ior. Our <U+FB01>ndings call for interventions that are targeted at either
-
-walking or cycling, rather than both: Only interventions developed
-for a speci<U+FB01>c transport mode will yield signi<U+FB01>cant and population-
-wide health bene<U+FB01>ts.
-
-
-
-5. Conclusions
-This analysis evidences not only that urban form correlates
-
-along the commuting routes vary across children’s transport
-modes, but also that the magnitudes of the estimated coef<U+FB01>-
-cients differ in size. To optimize the effectiveness of planning
-and health interventions, it is key for policymakers to develop
-mode-speci<U+FB01>c actions dedicated to either walking or cycling,
-
-and not both. Secondly, not only were inconsistent results
-found for different urban form representations, but also the
-associations among the children’s personal characteristics and
-trip distance changed. As the models’ goodness-of-<U+FB01>ts indicate
-distinct differences across urban form operationalizations, a
-
-well-selected number of PCs, rather than an urban form com-
-posite measure, should be used. Sensitivity analyses are thus
-recommended.
-
-
-Acknowledgments
-
-Marco Helbich thanks Frank Pierik (TNO, the Netherlands) and Sanne de
-Vries (The Hague University of Applied Science, the Netherlands) for pro-
-viding the GPS data. The valuable comments that Martin Dijst made
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                        515
-concerning an earlier draft of the manuscript are appreciated. The authors
-acknowledge the anonymous reviewers for their constructive and insightful
-comments.
-
-Funding
-
-This research is linked to the SPACE study funded by the Netherlands
-
-Ministry of Health, Welfare and Sport, and that of Housing, Spatial Plan-
-ning and the Environment. This study was supported by the interdisciplin-
-ary research program Healthy Urban Living of Utrecht University.
-
-References
-Aarts, M. J., Mathijssen, J. J., Van Oers, J. A., & Schuit, A. J. (2013). Associ-
-ations between environmental characteristics and active commuting to
-school among children: A cross-sectional study. International Journal
-of Behavioral Medicine, 20(4), 538–555.
-Adams, M. A., Frank, L. D., Schipperijn, J., Smith, G., Chapman, J.,
-Christiansen, L. B., Coffee, N., Salvo, D., Toit, L. d., Dygryn, J., Fer-
-reira Hino, A. A., Lai, P.-C., Mavoa, S., Pinz      on, J. D., Van de Weghe,
-N., Cerin, E., Davey, R., Macfarlane, D., Owen, N., & Sallis, J. F.
-(2014). International variation in neighborhood walkability, transit,
-and recreation environments using geographic information systems:
-The IPEN adult study. International Journal of Health Geographics, 13
-(1), 1.
-Badland, H. M., Scho<U+FB01>eld, G. M., & Garrett, N. (2008). Travel behavior and
-objectively measured urban design variables: Associations for adults
-traveling to work. Health & Place, 14(1), 85–95.
-BAG. (2013). Kadaster. Retrieved 21 December 2013, from https://www.
-kadaster.nl/bag
-Bauman, A. E., Reis, R. S., Sallis, J. F., Wells, J. C., Loos, R. J., Martin, B. W.,
-& Lancet Physical Activity Series Working Group. (2012). Correlates of
-physical activity: Why are some people physically active and others
-not? The Lancet, 380(9838), 258–271.
-Belitz, C., Brezger, A., Klein, N., Kneib, T., Lang, S., & Umlauf, N. (2015).
-BayesX—Software for Bayesian inference in structured additive regres-
-sion models. Retrieved from http://www.bayesx.org
-ocker, L., Dijst, M., Farber, J, & Helbich, M. (2015). En-route weather and
-B€
-place valuations for different transport mode users. Journal of Trans-
-port Geography, 47, 128–138.
-Børrestad, L. A., Andersen, L. B., & Bere, E. (2011). Seasonal and socio-
-demographic determinants of school commuting. Preventive Medicine,
-52(2), 133–135.
-Broberg, A., Salminen, S., & Kytt€a, M. (2013). Physical environmental
-characteristics promoting independent and active transport to child-
-ren’s meaningful places. Applied Geography, 38, 43–52.
-Broberg, A., & Sarjala, S. (2015). School travel mode choice and the charac-
-teristics of the urban built environment: the case of Helsinki, Finland.
-Transport Policy, 37, 1–10.
-Brownson, R. C., Hoehner, C. M., Day, K., Forsyth, A., & Sallis, J. F. (2009).
-Measuring the built environment for physical activity: State of the sci-
-ence. American Journal of Preventive Medicine, 36(4), S99–S123.
-Bringolf-Isler, B., Grize, L., M€ader, U., Ruch, N., Sennhauser, F. H., &
-Braun-Fahrl€ander, C. (2008). Personal and environmental factors asso-
-ciated with active commuting to school in Switzerland. Preventive Med-
-icine, 46(1), 67–73.
-Carver, A., Timperio, A., & Crawford, D. (2013). Parental chauffeurs:
-What drives their transport choice? Journal of Transport Geography,
-26, 72–77.
-Cervero, R., & Kockelman, K. (1997). Travel demand and the 3Ds: Density,
-diversity, and design. Transportation Research Part D: Transport and
-Environment, 2(3), 199–219.
-Chillon, P., Hales, D., Vaughn, A., Gizlice, Z., Ni, A., & Ward, D. S. (2014).
-A cross-sectional study of demographic, environmental and parental
-barriers to active school travel among children in the United States.
-International Journal of Behavioral Nutrition and Physical Activity,
-11(1), 61.
-Clark, A. F., Scott, D. M., & Yiannakoulias, N. (2014). Examining the
-relationship between active travel, weather, and the built environment:

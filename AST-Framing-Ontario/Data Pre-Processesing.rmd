@@ -165,10 +165,25 @@ print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep
 
 write(test, file = newFile)
 
-# Creates uniquely id text store in 'Environment'
-assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
-
 n <- n+1
+}
+```
+
+## Creating importing texts to environment 
+
+imports texts that were manually cleaned 
+
+```{r}
+# location of manually cleaned .txt documents
+cleantxtLocation <- "Cleaned .txt/Academic Papers"
+  
+cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
+n <- 1 
+for (txt in cleantxtlist) {
+
+# Creates uniquely id text store in 'Environment'
+assign(paste("text", n, sep = ""), readChar(txt, file.info(txt)$size))
+n <- n + 1 
 }
 ```
 
@@ -200,7 +215,7 @@ Next, convert the data frame to a corpus:
 df_source <- DataframeSource(textDF)
 corpus <- VCorpus(df_source)
 # Example 
-content(corpus[[2]])
+content(corpus[[6]])
 ```
 
 ## Corpus cleaning 
@@ -218,7 +233,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
 
 # Example
-content(corpus[[2]])
+content(corpus[[6]])
 ```
 
 ## Term Document Matrix & Document Term Matrix
