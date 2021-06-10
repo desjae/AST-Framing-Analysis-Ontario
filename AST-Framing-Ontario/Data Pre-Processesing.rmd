@@ -13,14 +13,13 @@ params:
   Consortia: "Texts/Consortia"
   Municipalities_Regions: "Texts/Municipalities or Regions"
   School Boards: "Texts/School Boards"
-  AP_stopW: c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
-  AP_DoubCol_stopW: c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
-  Con_stopW: c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
-  Mun_Reg_stopW: c("york", "lane", "school", "transportation", "region", "halton", "can", "use", "guelph", "kingston", "durham", "get", "uf", "ontario", "contact", "also", "covid", "c", "e", "one", "eg", "-", "please", "canada", "n", "page", "canadian", "email", "o", "peel", "fort", "frances", "phone", "r", "ottawa", "barrie", "km", "next", "per", "thunder", "simcoe", "website", "wellington", "andor", "catholic", "k", "m", "middlesex", "oxford", "perth", "po", "provincial", "tollfree", "toronto", "ufc")
-  SB_stopW: c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
+  AP_stopW: !r c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+  Con_stopW: !r c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
+  Mun_Reg_stopW: !r c("york", "lane", "school", "transportation", "region", "halton", "can", "use", "guelph", "kingston", "durham", "get", "uf", "ontario", "contact", "also", "covid", "c", "e", "one", "eg", "-", "please", "canada", "n", "page", "canadian", "email", "o", "peel", "fort", "frances", "phone", "r", "ottawa", "barrie", "km", "next", "per", "thunder", "simcoe", "website", "wellington", "andor", "catholic", "k", "m", "middlesex", "oxford", "perth", "po", "provincial", "tollfree", "toronto", "ufc")
+  SB_stopW: !r c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
+
   
 ---
-
 
 # Introduction 
 
@@ -215,7 +214,7 @@ Next, convert the data frame to a corpus:
 df_source <- DataframeSource(textDF)
 corpus <- VCorpus(df_source)
 # Example 
-content(corpus[[6]])
+content(corpus[[7]])
 ```
 
 ## Corpus cleaning 
@@ -225,7 +224,7 @@ Many words should be removed while cleaning the corpus to ensure that the analys
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
 
-NAwords <- c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
+NAwords <- params$AP_stopW
 corpus <- tm_map(corpus, removeWords, NAwords)
 corpus <- tm_map(corpus, removeNumbers)
 
@@ -233,7 +232,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
 
 # Example
-content(corpus[[6]])
+content(corpus[[7]])
 ```
 
 ## Term Document Matrix & Document Term Matrix
@@ -672,6 +671,3 @@ write(result, newFile)
 ```{r}
 rm(list=ls(pattern = "^text"))
 ```
-
-
-

@@ -129,26 +129,7 @@ locational data and travel duration against Google Maps Direction API routes, an
 and humidity readings recorded by the SENsg devices (Wilhelm et al., 2016a). Students’ morning commute modes were coded into
 three distinct categories: ‘public transport’, which included travel by public bus, mass rapid transit, or a mix of both; ‘walking only’;
 or ‘car’.
-     Similar algorithms were used to assess students’ modes of travel after school from the SENSg data. However, categorizing students’ after-school travel modes was less straightforward than categorizing morning travel. While students generally took only onetrip from home to school in the morning, they had more flexibility to take multiple trips after school. 
-  Category                               Measure
-  Density                                   • Density of Built Area
-  Diversity (Landuse mix & Places of        • Number of Retail, Food and Beverage Outlets within bu<U+FB00>er
-       Interest)                            • Land Use Diversity Mix, based on proportion of di<U+FB00>erent uses ( Residential, O<U+FB03>ce, Retail, Industrial, Warehouse,
-                                            Parks and Open Space, Others)
-  Access to Public Transit                  • Number of bus-stops within bu<U+FB00>er
-                                            • Number of Mass Rapid Transit (MRT) stations within bu<U+FB00>er
-  Design: Street Network                    • Length of expressways per unit walk-shed area
-                                            • Length of major arterial roads per unit walk-shed area
-                                            • Length of local roads per unit walk-shed area
-                                            • Number of intersections within walk-shed area
-                                            • Percent of four-way intersections within walk-shed
-                                            • Density of four-way intersections
-                                            • Density of three-way intersections
-                                            • Length of footpath per walk-shed area
-                                            • Density of porous walkable space (neighborhood parks and porous grounds of non-gated, public housing estates)
-  Design: Urban Form                        • Average size of building footprint
-                                            • Average building height
-A student could walk home from
+     Similar algorithms were used to assess students’ modes of travel after school from the SENSg data. However, categorizing students’ after-school travel modes was less straightforward than categorizing morning travel. While students generally took only onetrip from home to school in the morning, they had more flexibility to take multiple trips after school. 
 school, then take a bus from home to the shopping mall, before hitching a car ride back home. Thus, besides ‘public transport’, ‘car’
 and ‘walking only’, we created an additional category ‘mixed’, which covered students using a mix of public transport and car travel.
      Furthermore, we could not easily differentiate between walking trips for transport and for leisure, such as a stroll through the
