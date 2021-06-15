@@ -1,0 +1,173 @@
+They go straight home – don’t they? Using global positioning systems
+to assess adolescent school-travel patterns
+abstract
+Background: Active travel to school is a potential source of physical activity for adolescents, but itsassessments often rely on assumptions around travel patterns. Global positioning system (GPS) and
+accelerometry provide an objective assessment of physical activity from school-travel and the context in
+which it occurs (where, when, how long).Purpose: To describe school-travel patterns of adolescents and to compare estimates of physical activityduring the hour before/after school – a commonly used proxy for school-travel time – with physical
+activity accrued during school trips identi<U+FB01>ed through GPS (‘GPS-trips’).Methods: Adolescents (n = 49, 13.3 70.7 years, 37% female) from Downtown Vancouver wore anaccelerometer (GT3Xþ ) and GPS (Qstarz) for 7 days (October 2012). Minutes of moderate-to-vigorousphysical activity (MVPA) during the hour before/after school and during GPS-trips were calculated for then = 130 school-trips made by 43 students. We used multilevel linear regression to assess the associationbetween MVPA during GPS-trips and MVPA during the hour/before school.Results: Only 55% of school-trips were from/to home and within the hour before/after school (‘normal’).Estimates of MVPA during the hour before/after school were higher than during GPS-trips (12.0 vs.8.0 min). On average, MVPA during GPS-trips was linearly associated with MVPA during the hour before/after school, suggesting that physical activity levels during the hour before/after school are broadlyre<U+FB02>ective of physical activity from school-travel.Conclusion: GPS and accelerometry provide context-rich information relating to school-travel. The hourbefore/after school may – on average – provide a simple means to crudely estimate physical activity fromschool-travel when GPS are not available.
+1. Introduction
+     Promoting walking and biking to school are among strategies identi<U+FB01>ed as key to combat the physical inactivity pandemic in youth
+(GAPA, 2011) and one response to the call for global action to address this problem (Kohl et al., 2012). There is a compelling body of
+scienti<U+FB01>c evidence that youth who walk or bike are more physically active (Larouche et al., 2014). Historically, studies that objectively
+assessed physical activity from school-travel did so by <U+FB01>rst obtaining continuous measures of physical activity levels during the school day
+(accelerometry), then de<U+FB01>ning time ‘windows’ post hoc for a time of day when school-travel was assumed, for example the hour before or
+after school (or sometimes two hours after school), (Cooper et al., 2003; van Sluijs et al., 2009) and inferring that physical activity accrued
+during these times was attributable to school-travel. However, physical activity during the hour before/after school may not be exclusively
+from school-travel, which could question the validity as a proxy for physical activity from school-travel.
+     Combining accelerometry with global positioning systems (GPS) provides a great opportunity to improve objective assessments of
+physical activity from school-travel, because through GPS we can identify actual school-travel times. A handful of studies have started to
+employ this method to estimate physical activity from school-travel, (Klinker et al., 2014; Cooper et al., 2010; Southward et al., 2012) but
+none described teenagers' actual school-travel patterns in terms of travel time (i.e. do they travel when we assume they do?) and
+destinations (i.e. do they travel to/from home or elsewhere?). This contextual information is invaluable to planning and implementing
+effective physical activity promotion strategies that speci<U+FB01>cally target school-travel. In addition, it is unclear whether school-travel times
+(i.e. time of day) and destinations directly impact physical activity from school-travel, and whether the hour before/after school is a
+suitable proxy for physical activity from school-travel when no GPS (or travel diaries) are available.
+     Thus, the objectives were two-fold: (1) to describe adolescent school-travel patterns (from GPS) in terms of school-travel times
+(i.e. time of day) and destinations (i.e. home/not home); (2) to compare estimates of physical activity from school-travel during the hour
+before/after school (a commonly used proxy for school-travel time) with actual with physical activity accrued during school trips
+identi<U+FB01>ed directly through GPS.
+2. Methods
+2.1. Participants and protocol
+     With parental consent and student assent, grade 8–10 students (n ¼49, 13.3 7 0.7 years, 37% female) from the only public high school in Downtown Vancouver
+participated in this study. Measurements were conducted in the school setting in October 2012. The institutional ethics committee and school board approved the study.
+2.2. Instruments
+     Physical activity was objectively assessed using accelerometers (GT3X þ , ActiGraph LLC, FL; recording at 30 Hz) and concurrent location using GPS units (Qstarz
+BT-Q1000XT, Qstarz International Co. Ltd., Taiwan; recording at 1s). Participants were <U+FB01>tted with an elastic belt equipped with both monitors (accelerometer over the right
+hip) to be worn continuously for the next 7 days (except for water-based activities). Participants turned on the GPS unit on day one of the measurement period and were
+instructed not to turn them off for the remainder of the study period. We enabled the vibration sensor on the GPS unit so that the unit would go into battery-preserving sleep
+mode after 10 min of no movement.
+2.3. Trip identi<U+FB01>cation
+     School and home addresses (from parent/guardian) were geocoded and mapped in ArcGIS v. 10.1 (Esri Inc., CA), as were aerial images of the area (City of Vancouver Open
+Data) and a local street network shape<U+FB01>le (CanMaps Street<U+FB01>les, DMTI Spatial Inc., Markham, Canada). Using the Tracking Analyst tool, which visualises GPS points in a time
+series, a researcher with local knowledge identi<U+FB01>ed school-trips from GPS points on weekdays that terminated at school before the end of the school day or that originated
+from school. Tracks had to be of Z 30 s duration and Z 100 m distance to be considered a trip. Trip start was identi<U+FB01>ed as the <U+FB01>rst GPS point outside of home or school
+ground (combination of aerial image and geocoded addresses) where speed Z 1 km/h and distance 40 m of movement, and changes from these criteria indicated trip stop
+time, allowing for pauses of o 5 min (e.g. at a stop light, bus stop). Trip mode was assigned based on the overall trip speed trajectory. Trips where speeds were
+predominantly Z 1 km/h and o 10 km/h were considered ‘walking’ trips (hereafter: ‘active’). For the purposes of this analysis, trips where speeds were predominantly
+Z 10 km/h were considered ‘passive’ trips (including car and public transit trips). We are con<U+FB01>dent that no bicycle trips were mistaken for car trips, as only one student self-reported sometimes cycling to school, and the GPS-trips during the measurement period for this student were clearly walking trips. All GPS-trips in this analysis were coded
+by the same researcher; however, with this manual trip identi<U+FB01>cation process in our lab we have found 100% inter-rater agreement for trip mode, and an inter-rater
+difference (bias) for trip-based physical activity of 0.11 min (95% CI 0.01, 0.2) – not a meaningful difference.
+2.4. Data processing and statistical analyses
+     Raw accelerometry data were reintegrated into 1-s epochs using ActiLife v. 6.5.4. (ActiGraph LLC, FL), and merged with GPS-trip data (as.csv) using timestamps in Stata/
+MP 10.1 (StataCorp LP, TX). To visualise school-travel behaviour by time of day, we allocated the proportion of student-travel time into 5-minute time slots and plotted them
+(Fig. 2). GPS-trips were coded according to trip type (home to school, elsewhere to school, school to home, school to elsewhere), and grouped as ‘normal’ if they were to/from
+home and started and ended within the hour before or after school, or ‘not-normal’ if outside these parameters. From accelerometry, axis 1 (vertical) acceleration counts
+were converted into minutes spent in moderate-to-vigorous physical activity (MVPA) (Evenson et al., 2008) during GPS-trips and hour before/after school. Mean MVPA
+during the hour before/after school and during GPS-trips were calculated (Table 1) for all school-trips (n¼ 130), and for ‘normal’ school-trips (n¼ 71). Between trip-type
+comparisons of MVPA (outcome variable) were assessed via multilevel linear regression, using trip type as a categorical explanatory variable (referent: ‘home to school’) and
+with student as a random effect to account for clustering of trips by student (multiple school trips made by the same person are likely similar to each other). We used the
+same method to assess between-mode (referent: ‘active’) differences in MVPA, and we also used multilevel regression to explain how much of the MVPA during the hour
+before/after school (outcome variable) was explained by MVPA from the actual school trip (GPS-trip; explanatory variable, continuous).
+3. Results and discussion
+     Forty-<U+FB01>ve students had GPS data for an average duration of 3 71 days (range: 1–6). From 303 total trips, 130 were school-trips
+(hereafter: GPS-trips) made by 43 students (average GPS-trip rate per student: 3.0 71.9 GPS-trips, range: 1–9).
+3.1. They go straight home, don’t they?
+     Almost all GPS-trips to school (n = 57/60) originated from home, however, only two thirds of GPS-trips from school returned home
+(n = 46/70). The most common ( Z5 trips) after school destinations other than home were a community centre (12 trips by 12 students,
+separately) and a park (5 trips by 5 students, travelling together). Other destinations were other residential address/neighbourhood (n = 2),
+elementary schools (n = 2), restaurants (n = 2), and a church (n = 1).
+     The proportion of school trips that both started and <U+FB01>nished within the hour before or after school is of interest, because this is a key
+assumption for using the hour before/after school as estimates of school travel PA. For trips to school, three-quarters of trips started and
+completed within the hour before school (n = 46/60), whereas only 56% of trips from school did during the hour after school (n = 39/70).
+     Overall, only 55% of the GPS-trips were considered ‘normal’ (i.e. from/to home, completed within the hour before/after school; n = 71/
+130). This may have implications for estimating physical activity from school-travel when solely relying on using these time windows.
+Travel to and from school occurred most often during the hour before (77%) and after (64%) school. Note that the
+smaller cluster of travel time to school between 9–10 am was largely explained by a late school start on one measurement day (adjusted for in analyses). Also note the wider
+distribution of travel time from school across a 4-hour window. While some early trips from school were attributed to school sport competition, most travel times outside
+the hour before/after school remain unexplained. Based on n¼130 school-trips by n¼ 42 students from Vancouver, Canada (Oct 2012).
+Fig. 2. Example of two students' physical activity patterns during the hour before school. Both students walked to school (light blue) and had comparable minutes of MVPA
+during the hour before school, but the relative contribution from actual school-travel and other PA (i.e. arriving at school and school start) differed between the students. (For
+interpretation of the references to color in this <U+FB01>gure legend, the reader is referred to the web version of this article.)
+For example, trips from school to community centres or parks may result in different amounts of physical activity compared with trips
+home, either because of different physical activity from transport (different travel modes, different trip times/distances), or because of
+physical activity at a destination (not during travel to it). Furthermore, 30% of GPS-trips home after school started Z30 min after the <U+FB01>nal
+bell (n¼ 14/46), providing additional opportunities for physical activity at school, which could also have impacted estimates of physical
+activity using the hour before/after school time window. We revisit between-trip type differences in physical activity from school-travel in
+Section 3.2.
+     Fig. 1 provides a visual representation of volume of school-travel time at any given time of day. Overall, school-travel volumes peak
+shortly before school start, and shortly after school ends. Furthermore, most (77%) of the travel-time volume to school occurred within the
+hour before school, and 64% of the volume of travel-time from school occurred within the hour after school.
+3.2. Assessing physical activity from school-travel: what GPS adds to current practice
+     As previously outlined, physical activity from school-travel is commonly inferred from objectively measured physical activity during
+the hour before/ after school, because any physical activity accrued during these time windows is thought to be attributable to physical
+activity from school-travel. However, there is potential for error by this method. Speci<U+FB01>cally, we found that only 55% of the school trips
+were ‘normal’ (i.e. from/to home, completed within the hour before/after school). In some cases, there may be no school-travel at all taking
+place during the hour before/after school, whereas in other cases, trips to locations other than home may yield different transport-related
+physical activity (e.g. different travel modes) or capture physical activity at the destination that may differ from physical activity at home
+(in either direction). Fig. 2 shows examples of two students' physical activity levels during the hour before school. Both walked to school
+and had comparable overall physical activity (20.7 and 22.6 min of MVPA, respectively). In Panel A most of the student's physical activity
+during the hour was explained by the walk to school (85%); the student in Panel B, however, arrived at school more than half an hour
+before the start of instructional time and spent most of this time being physically active. Consequently, less than half of the physical
+activity during the hour before school was explained by school-travel (45%).
+     We estimated physical activity from school-travel during the hour before/after school and during GPS-trips for our whole trip sample
+(Table 1). On average, the hour before/after school yielded greater levels of physical activity than did the GPS-trips, which is intuitive given
+the longer duration. What is of interest, however, is that both methods were able to identify signi<U+FB01>cant between-trip type differences in
+physical activity, with ‘school to elsewhere’ trips having higher physical activity compared with ‘home to school’ trips (referent; ‘all’ trips
+only). Similarly, both methods identi<U+FB01>ed that physical activity was higher in trips by active modes compared with passive modes
+(‘normal’ trips only). The latter especially is an important observation, because assessing between-mode differences is often a focal point
+of studies that investigate physical activity from school-travel.
+     We illustrate the association between the two methods for the whole sample in Fig. 3 (includes the two examples from Fig. 2). We ran
+two models: one with all trips (n¼ 130) and one with only ‘normal’ trips (n ¼71). In both models, trip-based physical activity was
+signi<U+FB01>cantly and positively related to physical activity during the hour before/after school (ß ¼0.63 min of MVPA, 95%CI 0.45–0.80,
+p o0.001 and ß ¼0.75 min of MVPA, 95%CI 0.59–0.91, p o0.001, respectively). It is worth noting that the <U+FB01>rst model had more outliers than
+the second model, i.e. extreme cases that deviated notably from the simple regression line (and in both directions, see Fig. 3). These are
+likely instances where either after-school physical activity took place at school (high physical activity during hour before/after school, but
+low physical activity during GPS-trip), or active travel to/from school occurred outside of the hour before/after school (low physical
+activity during hour before/after school, but high physical activity during GPS-trip). It would appear as if both types of outliers occurred at
+comparable rates, thereby only marginally affecting the overall linear relationship between the two types of school-travel physical activity
+estimates (Fig. 3). In combination with the previously described ability of both methods to detect between trip type and mode differences
+in physical activity, it seems as if physical activity estimates from the hour before/after school hour may serve as crude estimates of school-travel MVPA overall when no GPS is available. However, it is worth noting that physical activity from school-travel was higher during the
+hour before/after school in most cases compared with physical activity during GPS-trips. We would therefore advise to identify (e.g. via
+questionnaire) any physical activity and/or travel patterns that may impact estimates of travel-related physical activity, for example after-school club participation which may lead to higher, non-travel related physical activity during the hour after school.
+3.3. Is GPS the holy grail for school-travel research?
+     Through use of GPS, this study identi<U+FB01>ed that only 55% of school-trips were ‘normal’, indicating that teenagers in our sample frequently
+travelled to destinations other than home or not during the hour before/after school. Although this did not seem to meaningfully impact
+overall estimates of physical activity from school-travel – in this sample at least – it highlights the value of GPS to provide context of travel
+(time, destination, route), in addition to providing objective estimates of physical activity from travel (Duncan et al., 2009). A recent study
+in Danish youth, using GPS and accelerometry, described gender-speci<U+FB01>c differences in physical activity from travel, school and leisure
+using these methods(Klinker et al., 2014); such context-speci<U+FB01>c information is invaluable for planning effective interventions to promote
+physical activity in youth.
+     Nevertheless, GPS has some limitations. The battery life of the GPS units (without a recharge at home) resulted in only 3 days on
+average of GPS data in our study. It is unknown how many days might be needed in order to capture individual student's habitual school-travel patterns, but future studies might incorporate protocols for charging to maximise GPS data acquisition during the typical 7 day
+study period. Signal loss or delay in acquisition is also a challenge for <U+FB01>eld-based GPS data collection. We measured the distance of missing
+trip segments along the street network by extending GPS track trajectories for ‘home to school’ and ‘school to home’ trips (n = 103),
+because only for these trips could we be certain to know the correct trip origins and destinations. We found that on average, GPS-trips
+were missing E14% of the trip distance in GPS points. This was mostly the result of a delayed signal <U+FB01>x at the trip start, which was
+markedly higher for ‘home to school’ trips (E 467 m) than for ‘school to home’ trips (E71 m). This is likely the result of GPS units not
+having suf<U+FB01>cient ‘warm up’ time in the morning, as well as the fact that GPS units typically require a longer time to <U+FB01>rst acquire a signal <U+FB01>x
+when they are in motion compared with when they are stationary (Stopher et al., 2008). We did not instruct participants to wait for a
+signal <U+FB01>x (e.g. a beep) before starting their trip, because we considered this an additional participant burden and consistent compliance to
+be unrealistic. Missing GPS data may result in underestimation of trip metrics like duration, distance and physical activity from travel. We
+repeated our analyses for trips who had o15% or o1% distance missing; although physical activity during GPS-trips was marginally
+higher when smaller proportions of the trips were missing, we found that the association between physical activity during the hour
+before/after school and during GPS-trips remained similar overall (not shown). Thus, we suggest that in this study, signal loss appears to
+have affected school-trips of low and high physical activity equally, on average. Finally, erratic GPS data were observed more frequently in
+urban canyons (clusters of high-rise buildings), and although a known phenomenon, (Schipperijn et al., 2014) this presents a real
+challenge for studies in urban centres.
+3.4. Limitations
+    We acknowledge several additional limitations to this analysis. This study comprised of a convenience sample of grade 8–10 high
+school students from downtown Vancouver. Downtown Vancouver includes some of North America's most walkable neighbourhoods,
+which are also well-served by public transit. Furthermore, no students at this high school travelled by school bus as a result of the
+conservative local school bus eligibility criteria (Z4.8 km from nearest school) (Vancouver School Board, 2014) and the compact
+catchment area of this particular school (4.2 km2; furthest distance to school along street network: 3.0 km). The unique local setting likely
+impacts the transferability of our <U+FB01>ndings to other communities. The current high school had an ‘open gym’ policy, meaning that students
+could autonomously use the school gym facilities between 8:00 am and 8:35 am (school start) on most school days. With no information
+on who made use of this, we cannot further explore the impact of this policy on school-travel patterns (i.e. do they purposely get to school
+earlier) and physical activity from school-travel (higher physical activity during the hour before school, see Fig. 2B). Likewise, provision of
+after school clubs – either at school or a different location, such as community centres – may impact school-travel patterns and related
+physical activity. Future studies should give consideration to these factors in their local contexts.
+3.5. Implications for practice
+    GPS and accelerometry combined provide a context-rich insight into school-travel in terms of travel times (time of day and trip
+duration), destinations and physical activity from school-travel. Using GPS can also provide information on actual routes taken, which
+further enables the study of route characteristics that may in<U+FB02>uence school-travel behaviours. When no GPS is available, our <U+FB01>ndings
+suggest that the hour before/after school may serve as a crude proxy for physical activity from school-travel, on average. However, we
+identi<U+FB01>ed that students frequently travelled outside of the hour before/after school, and that they commonly went to places other than
+home after school, which lead to outliers at the trip-level. Thus, we urge future studies to give consideration to these factors in their local
+contexts (for example via questionnaire), and explore whether they may impact their school-travel analyses.
+4. Conclusion
+    Many environmental (neighbourhood, school) and individual factors (sex, age) likely contribute to complex school-travel behaviours in
+adolescents, particularly after school. GPS and accelerometry provide context-rich information relating to school-travel, but using the hour
+before/after school may provide a simple means to estimate physical activity from school-travel when GPS is not available. Further
+research examining adolescent school-travel behaviours should seek location- and school-speci<U+FB01>c information that likely impacts timing
+of school-travel, such as ‘open door’ policies for school gyms, as well as before- and after-school clubs and activities.
+

@@ -1,0 +1,395 @@
+Impacts of parental gender and attitudes on children’s
+school travel mode and parental chauffeuring behavior:
+results for California based on the 2009 National
+Household Travel Survey
+Abstract Research has shown that parental attitudes are a significant predictor of children’s active commuting (walking or biking) to school. However, the impact of parental
+gender on parental attitudes, and the link between parental attitudes and the gender gap in
+parental chauffeuring behavior have not received much attention. This paper examines
+these questions by applying discrete choice models to California data from the 2009
+National Household Travel Survey while controlling for a wide range of variables characterizing parents, their children, households, schools, and the local built environment. Our
+results, conveyed via odds ratios, show that mothers are more likely to have higher concerns about traffic volume, which in turn reduces the likelihood that their children will
+walk or bike to school. Moreover, even though parental attitudes significantly influence
+parental chauffeuring behavior, their ability to explain the gender chauffeuring gap is
+limited. When holding equal concerns, mothers are still more likely than fathers to
+chauffeur their children to school. Finally, while distance to school and several land use
+measures (e.g., population density, urbanization level, and percentage of renters) are statistically significant, the impact of an objective measure of walkability is quite small.
+These results suggest that interventions targeting an increase in children’s walking and
+biking to school should focus on the concerns of mothers, especially as they relate to traffic
+characteristics.
+Introduction
+Ever since active commuting (walking or biking) to school was proposed as a policy
+intervention to reduce childhood obesity in the U.S., it has attracted much research
+attention. Studies have reported that parental attitudes as well as characteristics of children,
+households, schools, and the local built environment can be significant predictors of
+children’s school travel mode (e.g., Larsen et al. 2009; Leslie et al. 2010; Napier et al.
+2011). However, relatively little is known about how parental attitudes are formed, and to
+our knowledge no research has explicitly discussed the effects of parental gender on
+parental attitudes toward children’s active commuting to school. Since a number of studies
+indicate that women usually exhibit greater concerns about traffic and street safety for
+themselves (e.g., Loukaitou-Sideris 2005; Yavuz and Welch 2010), we hypothesize that
+mothers often have greater concerns about letting their children walk or bike to school,
+which in turn affects their children’s school travel mode.
+    In addition, children’s school travel mode and parental escort behavior are usually
+jointly decided. Some studies show that mothers usually take more household responsibilities to chauffeur or escort their children even after controlling for work status and
+commuting patterns (Vovsha and Petersen, 2005; Liu et al. 2012), which has been
+attributed by some researchers to women’s traditional gender roles in the division of
+household labor (e.g., Schwanen 2007; Giuliano and Schweitzer 2010). However, to our
+knowledge, gender differences regarding concerns about children’s active commuting to
+school have not yet been analyzed quantitatively to explain the within-household chauffeuring or escorting gap.
+    Unlike previous research that focuses on the gender of children to explain how children
+travel to and from school (e.g., McMillan et al. 2006; Leslie et al. 2010; Clifton et al. 2011;
+McDonald 2012), we investigate specifically how the gender of parents affects parental
+attitudes (related to distance to school, traffic characteristics, and crime), children’s school
+travel mode, and parental chauffeuring behavior after controlling for land use as well as
+household, children, and school characteristics; Fig. 1 depicts the relationships we
+examined and how our study contributes to the literature.
+    Understanding how gender interacts with attitudes is essential to craft more effective
+policies to promote walking and biking to school by children. We focus on California
+because it is the largest state by population, it is an add-on state for the 2009 National
+Household Travel Survey (NHTS), and its built environment, ethnic composition, and
+social make-up are quite diverse, which also allows us to examine the impacts of these
+characteristics on parental attitudes, children’s school travel mode, and parental chauffeuring behavior.
+Literature review
+Given the extensive literature reviews by Davison et al. (2008) and Sirard and Slater
+(2008), we focus mainly on studies published after 2007 (see Table 1 for a summary).
+Trends and predictors of children’s school travel mode
+A number of studies show a decrease in children’s active commuting to school over time
+(McDonald 2007a; Buliung et al. 2009; Grize et al. 2010), with the sharpest decline
+occurring in the U.S. (McDonald et al. 2011). There is also consistent evidence that girls
+walk or bike to school less than boys (Yeung et al. 2008; Larsen et al. 2009), but the
+difference in biking is more prominent (Leslie et al. 2010; McDonald 2012). Moreover,
+more children travel by active modes from school to home than from home to school
+(Leslie et al. 2010; McDonald 2012).
+    Parental attitudes play an important role in children’s active commuting to school. Most
+studies indicate that when parents perceive fewer barriers or more potential benefits, their
+children are more likely to walk or bike to school (e.g., Hume et al. 2009; McDonald et al.
+2011). Kerr et al. (2006) report that parental concerns are the strongest predictor of children’s active commuting to school, but school distance was not included in their model.
+    In addition, parental socio-demographic characteristics such as education level, work
+status, and commuting patterns have been found to be associated with their children’s
+travel mode to school (McDonald 2008a; Zhu and Lee 2009; Panter et al. 2010).
+    The effects of parental participation in active or transit transportation have been
+examined only in a few studies, and the evidence is mixed. From McMillan et al. (2006),
+the time parents spend on walking can reduce the gender gap in children’s active commuting to school, but Babey et al. (2009) disagree. According to Zhu and Lee (2009),
+regular walking by parents positively correlates with children’s walking to school, but their
+study relies on indirect measures of walking. Moreover, Martin et al. (2007) found that
+children are more likely to actively commute to school when their parents are physically
+active.
+    Several household characteristics also affect children’s school travel mode. In general,
+African-American and Hispanic students, students from low-income families, and students
+whose households have no access to a car are more likely to walk or bike to school, while
+White and Asian students, students from high-income families, and students whose
+households own more cars are more likely to be driven to school (McDonald 2008b;
+Yarlagadda and Srinivasan 2008; Babey et al. 2009; Rodri´guez and Vogt 2009; Zhu and
+Lee 2009; Clifton et al. 2011).
+    In addition to gender, children’s age is closely related to their school travel mode. While
+most studies report that older children are more likely to walk or bike to school (e.g.,
+Yeung et al. 2008; Rodri´guez and Vogt 2009; He 2011; McDonald et al. 2011), McMillan
+et al. (2006) found an inverse connection. A few studies also investigated the relationship
+between children’s attitudes and their active commuting to school (Martin et al. 2007;
+Rodri´guez and Vogt 2009; Leslie et al. 2010; Napier et al. 2011). Similar to parental
+attitudes, children are more likely to walk or bike to school when they believe the built
+environment is safer and more attractive.
+    Of various school characteristics, distance between home and school has consistently
+been found to be the most significant factor of children’s active commuting to school
+(Yeung et al. 2008; Mitra et al. 2010). Moreover, children who attend public school are
+more likely to walk or bike to school (Babey et al. 2009), but the provision of school bus
+service has the opposite effect (Zhu and Lee 2009). However, while Braza et al. (2004) find
+that students are more likely to actively commute to school in smaller schools, Ewing et al.
+(2004) do not. Also, school quality seems to have no influence on children’s active
+transportation to school (He 2011).
+    A wide range of land use characteristics has been examined to explain children’s school
+travel mode. Some researchers compare areas with different levels of urbanization (Babey
+et al. 2009; Grize et al. 2010), communities with different levels of walkability (Panter
+et al. 2010; Napier et al. 2011), local land use attributes such as density and diversity
+(McMillan 2007; Larsen et al. 2009; Mitra et al. 2010; Clifton et al. 2011), or the presence
+of various neighborhood facilities and amenities (Leslie et al. 2010). Overall, the built
+environment has been found to have significant but small to moderate effects on children’s
+active commuting to school. Although school distance could be seen as a built environment
+attribute, we categorize it as a school characteristic because households in the same
+neighborhood may send their children to different schools (e.g., private schools or some
+magnet schools).
+Factors influencing parental attitudes and escort behavior
+Although parental attitudes are a significant predictor of children’s school travel mode,
+only a few papers discuss how parental attitudes are shaped. Lam (2001, 2005) find that
+fathers, parents of older children, and parents who work full-time, who have experienced
+injuries, or who speak Chinese or Arabic (used as a proxy for culture) tend to perceive
+roads as less dangerous for their children. School location matters: the closer the school is,
+the less likely the parents are to be concerned about children’s active commuting to school
+(Seraj et al. 2012). The built environment also influences parental attitudes: living in
+neighborhoods with less traffic and a higher walkability can reduce parental concerns (Lam
+2001; Kerr et al. 2006; Napier et al. 2011). Parents also express concerns about gangs and
+fights when their children travel to and from school in neighborhoods with high crime and
+violence rates (Meyer and Avi Astor 2002). Moreover, mothers who have a higher fear of
+crime and a lower sense of community are more likely to be concerned about the outdoor
+safety for their children (Prezza et al. 2005), which suggests that parents extend their own
+concerns to their children.
+    Studies of parental escort behavior consistently report that mothers are more likely than
+fathers to perform chauffeuring or escort duties (e.g., Schwanen 2007; Liu et al. 2012), and
+women’s traditional gender roles in the division of household labor is the most common
+explanation. Work status and commuting patterns also significantly affect parental escort
+behavior: parents who do not work or who work part-time, and parents who enjoy more
+flexibility at work and whose workplace is closer to home are more likely to chauffeur or
+escort their children (e.g., Yarlagadda and Srinivasan 2008; Liu et al. 2012). Moreover,
+land use characteristics such as accessibility, population density, and residential location
+are related to parental chauffeuring or escorting (e.g., Schwanen 2007; Yoon et al. 2011).
+    However, while children’s school travel mode and parental escort behavior are believed
+to be jointly decided, we found only one paper (Yarlagadda and Srinivasan 2008) that
+examines them jointly, and no statistical study that explores if parental attitudes explain
+gender differences in escorting children to school (McDonald and Aalborg (2009) relied on
+open-ended interviews to explore why parents drive their children to school). These limitations motivate our work.
+Data
+NHTS data
+The 2009 NHTS provides a unique opportunity to analyze the relationship between
+parental gender, parental attitudes, children’s school travel mode, and parental escort
+behavior. In the California add-on sample, which we analyze in this paper, one parent per
+household was asked to answer a series of questions regarding safe routes to school for one
+of their randomly selected children aged 5–15 years. In addition to children’s usual travel
+mode to and from school, these questions probe parental attitudes about distance to school,
+traffic characteristics (volume and speed), crime, and the weather, as these attitudes may
+motivate parents to allow their children to walk or bike to and from school. We do not
+analyze parental concerns about the weather since it is usually not a restrictor in California.
+    Of the 2,857 respondents who answered these questions, 1,642 live within 2 miles from
+school. We focus on these households since active commuting to school does not seem a
+reasonable option for children living more than 2 miles away from school (according to
+Nelson et al. (2008), 2.5 miles is a barrier beyond which children are unlikely to walk or
+bike to school). 729 respondents who live within 2 miles from school also completed a
+travel diary for their children, thus providing information about children’s school travel
+mode and whether or not the parents surveyed accompanied their children to school on
+their survey day. A child’s earliest trip from home to school as a student on his/her survey
+day was counted as a trip to school when data were extracted from the travel diary.
+Detailed socio-demographics and some land use characteristics are also available in the
+2009 NHTS dataset.
+    From travel diary data, 464 of 729 children were driven to school on their survey day,
+229 walked or biked, and 36 used transit. Moreover, 57 % of children who went to school
+by car on their survey day were chauffeured by their parent who was surveyed; only 4 % of
+children who walked or biked to school were escorted by their parent who was surveyed,
+and no child who used transit to school was accompanied by their parent who was surveyed. These numbers show a very low parental escort rate for non-automobile trips.
+Although children who were not escorted by their parent surveyed might have been
+accompanied to school by other household members, friends, or neighbors, we focus on
+school chauffeuring out of concern for the robustness of our results.
+    For brevity, Table 2 only lists the definition of explanatory variables considered in our
+models; descriptive statistics for all dependent and explanatory variables are available in
+the electronic supplementary material. Of the four issues related to children’s walking and
+biking to school, parents are more worried about traffic characteristics (volume and speed),
+while distance to school and crime are less of a concern. Most children travel to school by
+car, 32 % by active mode, and 5 % by public transit (including school bus). The situation is
+similar for returning home from school, although fewer children are driven home. On their
+survey day, 58 % of children who went to school by car were chauffeured by their parent
+who was surveyed.
+    In our dataset, most households include two adults, live in urban areas, have a higher
+income, and own two or more cars. Moreover, 62 % of the respondents who completed the
+safe routes to school questions for their children are female, which may suggest that
+mothers are the main caregivers for their children.
+Walk score data
+In addition to NHTS data, we collected walk scores from walkscore.com for each respondent’s home location after obtaining home location information from Caltrans. The walk
+score of a residence, which ranges from 0 to 100 (where higher values denote higher walkability), is based on distance to amenities (such as stores, restaurants, schools, and parks) and
+the design of surrounding streets (such as length of street blocks and density of street intersections). For more details, see www2.walkscore.com/pdf/WalkScoreMethodology.pdf. The
+walk scores of home locations in our sample, shown in the electronic supplementary material,
+suggest that we cover communities with a wide range of walkability levels.
+Methodology
+In the following, Xi is a 1 9 k vector of explanatory variables for child ‘‘i’’. Before
+finalizing our results, we performed the relevant specification tests recommended in Long
+and Freese (2006), including checks that multicollinearity is not a problem here.
+Binary logit model
+To explore the factors associated with parental chauffeuring behavior, we relied on a
+binary logit model. Our dependent variable, which is denoted by y, equals 1 if child i was
+chauffeured to school by his/her parent who was surveyed, and 0 otherwise. The proba-
+bility that child ‘‘i’’ was chauffeured to school by the parent surveyed is then given by
+(Greene 2008).
+Multinomial logit model
+To analyze factors associated with children’s school travel mode, we estimated a multi-
+nomial logit model for our dependent variable y, which can take three values: active mode
+(walking or biking; A), car (C), or transit (including school bus; T). With this model, the
+probability of mode m [ {A, C, T} compared to mode n [ {A, C, T}\{m} for child ‘‘i’’ is
+(Long and Freese 2006).
+Generalized ordered model
+We estimated generalized ordered models to analyze factors associated with parental
+attitudes toward children’s walking and biking to school. Parental attitudes originally
+collected via a 5-point Likert scale were recoded into three ordinal outcomes captured by a
+dependent variable y to obtain better balanced categories and to simplify our analysis: ‘‘not
+an issue’’ and ‘‘a little bit of an issue’’ were merged into ‘‘1 = low concern’’; ‘‘somewhat
+of an issue’’ was relabeled ‘‘2 = medium concern’’; and ‘‘very much an issue’’ was merged
+with ‘‘a serious issue’’ into ‘‘3 = high concern’’.
+    The generalized ordered model for choice q [ {1, 2, 3}, can be written (Williams 2006).
+    Following Williams (2006), we explored different link functions for our generalized
+ordered logit models. Based on the AIC and BIC information criteria (Greene 2008), but
+also to simplify the discussion of our results when AIC and BIC differences between
+models were under 3, we selected logit link functions. 
+Results
+Results, estimated using Stata, are presented in Tables 3, 4, 5 and discussed below. For
+brevity, we report and discuss only OR [see the text below Eqs. (3), (6), and (9)] of
+statistically significant explanatory variables (at 10 % of significance or less). Variables
+with OR farther from 1.0 have more sway in changing the probability of an outcome than
+variables with OR closer to 1.0.
+Parental attitudes: effects of parental gender and other factors
+We hypothesized that mothers have greater concerns for their children’s active commuting
+to school; results in Table 3 partially confirm this hypothesis. Of the four issues pertaining
+to children’s walking and biking to school, mothers are statistically more likely than
+fathers to have higher concerns about traffic volume (OR = 1.32), but they do not seem to
+have different attitudes toward distance to school, traffic speed, and crime when living
+within 2 miles from school.
+    Seraj et al. (2012) used the same dataset to analyze these parental attitudes focusing on a
+smaller area of Southern California. Although our attitudinal models might look similar,
+they do not discuss how parental gender affects parental attitudes. In addition, we went
+further to explore how parental gender and attitudes interact to affect children’s school
+travel mode and parental chauffeuring behavior (see ‘‘Children’s school travel mode:
+effects of parental attitudes and other factors’’ and ‘‘Parental chauffeuring behavior:
+interaction of parental gender and attitudes’’ sections).
+    A number of other parental characteristics also matter for explaining parental attitudes
+toward children’s walking and biking to school. Compared with parents aged 30–44, both
+younger and older parents are less concerned about traffic characteristics (OR 0.46–0.79)
+or crime (OR = 0.41). Asian and Hispanic parents, parents who were born in the U.S., and
+parents who were interviewed in English all show higher concerns for at least one of the
+four questions considered (OR 1.42–2.20). Moreover, parents with a high school degree,
+some college, or a bachelor’s degree worry less about distance to school and traffic volume
+than parents with less education or than highly educated ones (OR 0.61–0.69), while
+parents who work full-time worry more about crime (OR = 1.44) and less about traffic
+volume (OR = 0.78) than those who don’t.
+    Parental use of active transportation or transit is statistically associated with parental
+attitudes. Parents who walk or bike more often are less concerned about school distance for
+their children (OR 0.47–0.77), but parents who use transit more often worry more about
+traffic volume (OR = 1.35).
+    A few household characteristics also influence parental attitudes: households with more
+children are less concerned about traffic and crime (OR 0.81–0.89); households with an
+annual income under $10 K worry less about traffic volume (OR = 0.52); and households
+with a low to medium annual income ($10–$50 K) show higher concerns about crime (OR
+1.43–1.73).
+    Somewhat surprisingly, parents show no attitudinal differences when they consider
+letting a daughter or a son walk or bike to school, but parents have greater concerns about
+traffic characteristics (OR 1.31–1.33) for younger children (5–10 years old). However, our
+results suggest, as expected, that the most important factor here is the distance between
+home and school: when it is shorter, parents are less concerned about school distance and
+traffic characteristics (OR 0.31–0.73). This implies that attending a nearby school could
+reduce parental concerns and encourage children to walk or bike to school. We also note
+that parents of children who attend public schools are more concerned about distance to
+school (OR = 1.58).
+    Of the land use variables we considered, parents worry less about crime when the
+population density and the percentage of renter-occupied housing is lower (OR 0.19–0.56).
+A lower percentage of renter-occupied housing also helps reduce parental concerns about
+traffic volume (OR 0.60–0.66), but residing in cities over 1 million with subway or heavy
+rail increases this concern (OR = 1.52).
+    We supplemented the indirect land use measures above with walkability data from
+walkscore.com. Consistent with previous research (e.g., Kerr et al. 2006; Napier et al.
+2011), parents in more walkable communities worry less, but the corresponding practical
+impact is very small and significant only for traffic volume (OR = 0.99). One possible
+explanation is that the walkscore component that account for local amenities does not
+matter here since the destination of a school trip is fixed.
+Children’s school travel mode: effects of parental attitudes and other factors
+Table 4 presents results from two models that explain children’s usual travel mode to and
+from school. As in previous studies (e.g., Hume et al. 2009; Panter et al. 2010; Napier et al.
+2011), parental attitudes significantly influence children’s school travel mode. When
+parents are more concerned with school distance, traffic volume, and crime, their children
+are less likely to walk or bike to and from school (OR 0.38–0.73). Interestingly, children
+whose parents worry more about traffic speed are more likely to use transit than cars
+(OR = 2.25), possibly because these parents’ perceived risk reduces their willingness to
+drive their children from school.
+    As expected, parental gender is not statistically significantly associated with children’s
+school travel mode. This makes sense since only one parent per household was surveyed,
+so the gender of the participating parent should not be correlated with the child’s travel
+mode to school, assuming parents reached a joint agreement on that choice. However, since
+parental attitudes significantly affect children’s school travel mode and since parental
+gender affects parental attitudes, parental gender may still play an indirect role in deciding
+children’s school travel mode, but understanding this link will require surveying both
+parents in the household.
+    Several other parental characteristics matter. Younger parents (18–29 years old) are
+more likely to let their children travel to school actively (OR = 2.03), while Asian parents
+are less likely to do so (OR = 0.57). Moreover, parents who have at most some college
+education are less likely to let their children actively commute to and from school (OR
+0.14–0.69) compared to parents with more education.
+    Parental participation in active or transit transportation impacts children’s school travel
+mode. When parents take more walk or bike trips, their children are more likely to actively
+commute to and from school (OR 1.44–6.03). Likewise, children of parents who use transit
+are more likely to take transit to school (OR = 2.13).
+    Results for household characteristics suggest that children are more likely to walk or
+bike from school when they have more siblings (OR = 1.51) or when their households
+have a lower income ($10–$30 K, OR = 1.91). Moreover, children are less likely to take
+transit to and from school when there are more cars than drivers in the household
+(OR = 0.42), but they are more likely to do so in households with medium to higher
+income ($50–$100 K, OR 2.51–3.59).
+    As expected, child characteristics correlate with their school travel mode. Girls, younger
+children (5–10 years old), and children who attend before and/or after school care are less
+likely to walk, bike, or use transit to and from school (OR 0.13–0.79).
+    Again, the actual distance from home to school seems to have by far the greatest impact
+on children’s school travel mode. The shorter that distance is, the more likely children are
+to walk or bike to and from school (OR C 2.44). We also note that children who attend
+public school are more likely to actively commute or use transit for their school travel (OR
+2.22–6.88).
+    Finally, our models show that living in non-urban areas reduces the likelihood of active
+commuting from school by children (OR = 0.56). In addition, living in neighborhoods
+with a lower population density increases children’s transit use to and from school
+(OR = 5.09–8.27), while living in neighborhoods with a lower percentage of renter-occupied housing reduces such use (OR 0.14–0.43).
+Parental chauffeuring behavior: interaction of parental gender and attitudes
+We also explored the role that attitudinal differences may play in the gender gap for
+chauffeuring children to school; results are presented in Table 5. We estimated a restricted
+model (which does not include parental attitudes) and an unrestricted model (which
+includes parental attitudes) in order to gauge the impacts of parental attitudes on the
+results.
+    Note that the sample of both models contains only respondents whose children went to
+school by car on their survey day because, as explained in the ‘‘NHTS data’’ section, we
+found an extremely low parental escort rate for children who walked, biked, or took transit
+to school. To obtain more robust results, we focused on parental chauffeuring behavior
+instead. In other words, all children in both models were driven to school on their survey
+day by either parents surveyed or by other household or non-household members. Our goal
+here is to compare whether parental gender or attitudes are more important in deciding
+parental chauffeuring behavior.
+    Our results suggest that gender and attitudes are intertwined in influencing parental
+chauffeuring behavior. Parental attitudes significantly affect parental chauffeuring
+behavior: parents are more likely to chauffeur their children to school when they have high
+concerns about traffic volume (OR = 2.15, in the unrestricted model). However, the extent
+to which attitudinal differences can explain the gender chauffeuring gap is limited: the
+odds ratio of mothers chauffeuring their children to school compared with fathers is even
+slightly higher in the unrestricted model (OR = 2.99) than in the restricted model
+(OR = 2.79) after adjusting for parental attitudes. This suggests that, when holding equal
+concerns, mothers are still more likely than fathers to chauffeur their children to school,
+which confirms that the division of household chauffeuring duties is gendered.
+    As expected, parents’ characteristics affect their chauffeuring behavior. Younger parents (18–29 years old, OR = 0.22–0.23) as well as African-American parents (OR = 0.29,
+only in the unrestricted model) are less likely to chauffeur their children to school, and so
+do parents who work full-time (OR 0.35–0.39) compared to those who do not.
+    Few household characteristics were found to be significant. In single parent (OR
+11.69–12.51) and two-adult households (OR 2.21–2.61), the parent surveyed is much more
+likely to be chauffeuring his/her child to school, but this was expected since these families
+are more constrained than families with more adults in sharing chauffeuring duties (recall
+that all children in the sample used to estimate this model were driven to school on the
+survey day). Moreover, income matters: parents in households with an annual income
+between $30 and $50 K are more likely to chauffeur their children to school (OR
+3.52–3.59).
+    Whereas actual distance to school was paramount in explaining parental attitudes and
+children’s school travel mode, it has no impact on parental chauffeuring behavior. One
+explanation is that children’s school travel mode is jointly decided with parental chauffeuring behavior, making the decision to select a parent or an adult household member for
+the chauffeuring task irrelevant to school distance. Likewise, child and land use characteristics do not seem to affect parental chauffeuring behavior.
+Conclusions
+In this paper, we examined whether parental gender affects parental attitudes toward letting
+their children actively commute to school, and how parental gender and attitudes interact to
+influence children’s school travel mode and parental chauffeuring behavior. Our results
+show that mothers usually have higher concerns about traffic volume, which in turn
+reduces the likelihood that their children will walk or bike to school. Moreover, although
+parents are more likely to chauffeur their children to school when they have higher concerns about traffic volume, mothers are still more likely than fathers to do so even when
+mothers and fathers have equal concerns. Based on these results, we conclude that maternal
+attitudes might matter more for children’s active commuting to school.
+    These findings are relevant for two current programs that aim at increasing the number
+of children who actively commute to school: the Safe Routes to School program, and the
+Walking School Bus program. For the former, a national project that focuses on infrastructure improvements such as traffic signals and sidewalks, our results suggest measures
+that can effectively reduce mothers’ perceptions of risk related to traffic volume. For the
+Walking School Bus program, which seeks adults to volunteer walking a group of
+neighborhood children to and from school, our results suggest targeting mothers when
+recruiting volunteers and trying to address their concerns.
+    Fostering active commuting to school by children is equally important to mothers.
+According to a recent OECD report (2012), household chores, childcare, and looking after
+aging parents are the main barriers to gender equality in employment. Our results provide
+support for this viewpoint by showing that mothers bear most of the chauffeuring burden
+not because they worry more but because chauffeuring children still appears to be more a
+woman’s responsibility. The high level of space and time rigidity of such activities partly
+explains why women are more likely to work part-time and work closer to home, which in
+turn reduces their economic opportunities and does not allow them to take full advantage of
+their education (OECD 2012).
+    Lastly, our results have some implications for future research. In this paper, we estimated three sets of models to explain the relationships between parental gender, parental
+attitudes, children’s school travel mode, and parental chauffeuring behavior. These links
+have been ignored in the literature mainly because all current research (including ours)
+relies on surveys that collect information only from one parent in each household (see the
+‘‘Children’s school travel mode: effects of parental attitudes and other factors’’ section for
+more details). As a result, the parental decision-making process regarding how children
+commute to school and who is responsible for chauffeuring them cannot be elicited. To
+advance our understanding of relevant issues, it is important to explore if these decisions
+correlate with within-household gender differences in wages, attitudes, preferences, or
+social norms. Future research could overcome current limitations by surveying both
+parents.

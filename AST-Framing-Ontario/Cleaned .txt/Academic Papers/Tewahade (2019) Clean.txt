@@ -1,0 +1,268 @@
+Association between the built environment and active
+transportation among U.S. adolescents
+ABSTRACT
+Introduction: As a major determinant of obesity and cardiovascular disease in the United States,
+decreasing physical activity (PA) has led researchers to study factors in<U+FB02>uencing daily PA. One
+opportunity for modifying PA is in relation to transportation to and from school and/or work. We
+examined the association between characteristics of the built environment of home neighborhoods and transportation-related PA to school or work among youth and emerging adults.Methods: The data were drawn from Waves 1 and 4 of the NEXT Generation Health Study(n = 2780), a nationally representative, longitudinal cohort study starting with 10th grade(Wave 1) in the 2009–2010 school year. Modes of travel to/from school were categorized intothree groups: those using active transportation (walking/cycling), public transportation, andpassive transportation (being driven or chau<U+FB00>eured/driving). Neighborhood characteristics included land use mix, street connectivity, residence density, park density, recreational density,and walkability. Multinomial logistic regressions and one-way ANOVAs were used to examinemultivariate associations between modes of travel to and from work/school and neighborhoodcharacteristics. Analysis accounted for complex survey features including strati<U+FB01>cation, clustering and sampling weights.Results: After controlling for covariates (i.e., ethnicity, sex, education, and socioeconomic status),more land use diversity, street connectivity, residence density, and walkability were signi<U+FB01>cantlycorrelated with active transportation in both waves and more park and recreational density weresigni<U+FB01>cantly correlated with active transportation in Wave 1, compared with passive transportation.Conclusions: More mixed land use, greater connected streets as well as higher walkability anddensity of residence, parks and recreational facilities were associated with active transportation;suggesting city planning o<U+FB03>cials may consider creating more walkable and liveable communitiesto promote daily transportation-related PA.
+ 
+1. Introduction
+    Physical activity (PA) has been shown to be one of the most preventive behaviors, along with regular medical screenings, to
+protect against cardiovascular diseases, obesity, type-2 diabetes, some types of cancer, and osteoporosis (Nader et al., 2008; Nelson
+et al., 2006; Piercy et al., 2018). The Centers for Disease Control and Prevention recommend that children and adolescents (aged
+6–17) engage in a minimum of 60 min of moderate-to-vigorous PA (MVPA) per day and adults engage in at least 150–300 min/week
+for maintenance of general health (Piercy et al., 2018). The literature suggests a large number of youth fail to meet the PA guidelines,
+engaging in less PA during adolescence and during the transition from adolescence to early adulthood (Nader et al., 2008; Nelson
+et al., 2006).
+    Recommended PA levels can be achieved in many ways including regular sports, exercise in <U+FB01>tness rooms, and daily lifestyle
+behaviors such as active transportation (AT) (Piercy et al., 2018). The health bene<U+FB01>ts of walking and cycling have been well
+documented (Lee and Buchner, 2008) and these are important solutions to the challenge of physical inactivity for people of any age
+(Frank et al., 2003; Frank and Engelke, 2001), making AT an important means of achieving daily MVPA (Sallis et al., 2004). Previous
+research also shows an association between using public transportation (PubT) and increased levels of walking (Lachapelle et al.,
+2011; Wener and Evans, 2007). Whereas children and adolescents who drive or are driven to/from school miss out on the PA
+opportunity to walk or cycle they have also been shown to participate in less PA outside of school related trips (Stewart et al., 2017).
+Therefore, how adolescents travel to and from work and/or school may have a large impact on levels of PA and health outcomes.
+Unfortunately, previous research has shown that PA, including AT to and from school among youth, has been declining in the United
+States (Dollman et al., 2005).
+    The built environment describes human-made aspects of city design, including the distribution of o<U+FB03>ce and residential spaces,
+and transportation infrastructure such as roads, sidewalks, and bike lanes (Handy et al., 2002). Built environment characteristics such
+as street connectivity, residence density, mixed land use, proximity to school, and walkability, facilitate or inhibit use of active
+transportation (Timperio et al., 2018) (Saelens et al., 2003b; Sallis et al., 2004). For example, the evidence shows walkable communities can increase mobility of both healthy people and people with disabilities (Sallis and Glanz, 2006). Additionally, residents
+from communities with higher residence density, greater street connectivity, and more diverse land use mix are more likely to walk
+and ride bikes for utilitarian purposes such as shopping, compared to those in low residence density, poorly connected streets, and
+single land use neighborhoods (Saelens et al., 2003b). Therefore, it is useful to examine associations of the built environment with
+levels of PA in youth and emerging adults. Previous research on the built environment emphasized the amount and quality of
+sidewalks, distance traveled, and parental approval as major determinants of AT to school by children and adolescents (McDonald,
+2007; Timperio et al., 2006). New Zealand researchers found when children have to cross a major street to travel to school, they are
+more likely to be chau<U+FB00>eured to school by an adult, presumably to avoid possible dangers of a busy street (Ikeda et al., 2018).
+Additionally, connectivity of streets, locality (rural or urban environment), and whether or not a trip includes crossing a busy street
+has been found to be correlated with children and youth engaging in AT to school (Timperio et al., 2006).
+    AT levels to and from school have declined in the US over the last 50 years dropping from almost half of children and adolescents
+using AT to and from school in 1969 to 13% in 2009 (Rothman et al., 2018). In the 20th century when suburbs began to <U+FB02>ourish, so
+did policies designed to create environments for automobile transportation; communities began to be built with lower levels of land
+use diversity, less street connectivity, and fewer walkable destinations from homes (Sallis and Glanz, 2006). Consequently, today's
+communities are not as suited to AT as they used to be. Between 1986 and 2011 Toronto experienced so much residential development that there were not su<U+FB03>cient resources at neighborhood schools to accommodate all neighborhood children leading to
+increased busing and driving to and from schools (Rothman et al., 2018). Previous research has shown relationships between walking
+and land use (Davison and Lawson, 2006; Ewing and Cervero, 2010), street connectivity (Panter et al., 2010), residence density
+(Braza et al., 2004; Leck, 2006; McDonald, 2008), walkability (Saelens et al., 2003a), and distance between destinations (Davison and
+Lawson, 2006; McDonald, 2008). The correlates between adult AT and the built environment suggest studying the built environment's possible impact on the AT of adolescents and emerging adults. This could, in turn, help to inform policies and interventions aimed at increasing levels of PA in this population.
+    To the best of our knowledge, few studies have examined the association between AT and the built environment among U.S. youth
+during the transition between adolescence and young adulthood (Cao et al., 2007). Moreover, most previous research was conducted
+in single communities as opposed to nation-wide in the U.S. The aim of this study was to examine the association between built
+environment characteristics and transportation-related PA to school or work (TPA-SW) among a nationally representative U.S. cohort
+of youth and emerging adults.
+2. Methods
+2.1. Study design and sampling
+    Researchers analyzed the data from Wave 1 (W1) and Wave 4 (W4) of the NEXT Generation Health Study (NEXT), a longitudinal
+study that followed a nationally representative sample of U.S. adolescents into emerging adulthood. This study used multistage
+sampling to collect primary sampling units (school districts) from the nine U.S. census divisions. Schools and classrooms were
+randomly sampled from the school districts. Schools with large percentages of African American students were oversampled to obtain
+reliable estimates for this subgroup; su<U+FB03>cient Hispanic students were obtained to provide reliable subgroup estimates without
+oversampling. Within this framework, 145 schools were invited and 81 schools from 54 school districts agreed to participate.
+Therefore, this cohort represented 2785 participants from 81 public, private or parochial schools. Due to the timing of school
+approval, 261 participants (9.4%) were not able to complete the survey in W1, resulting in 78.3% of the full sample (2785 participants) in W1 and W4 included in the NEXT study. Excluding one duplicates and three missing surveys, a total of 2780 cohort
+members was included for analyses. W1 consists of the 10th graders during the 2009–2010 school year and W4 is the same cohort one
+year after high school. The participants in W1 consisted of 753 (29.8%) people from large central cities, 151 (6.0%) from mid-size
+cities, 574 (22.7%) from urban fringes of large cities, 84 (3.3%) from urban fringes of mid-size cities, 34 (1.3%) from large towns, 172
+(6.8%) from small towns, and 762 (30.1%) from rural areas (National Centre for Education Statistics, n.a.). Participants completed
+self-administered surveys annually; W1 data were collected in 2009 and W4 data in 2012.
+    Parental consent and adolescent assent were obtained for participation and participant consent was obtained when participants
+turned 18 years of age [9]. The protocol for the study was approved by the Institutional Review Board of the Eunice Kennedy Shriver
+National Institute of Child Health and Human Development.
+2.2. Measures
+2.2.1. Outcome variable
+    In W1, TPA-SW was measured with separate questions for transportation to and from school. Participants were asked to indicate
+whether, on a typical day, the main mode of transportation for their trip was walking, biking, public transportation (bus, train,
+subway, metro, streetcar or boat), driving (car, moped, or motorized scooter), or some other means. Participant's responses were
+categorized as Active Transportation (AT) if at least one response was walking and/or biking. Responses were categorized as Passive
+Transportation (PT) if at least one response was that they drove/were driven or chau<U+FB00>eured, and neither response was active
+transportation. Responses were categorized as public transportation (PubT) if both responses were that they traveled using public
+transportation. Those who checked “Other” or did not respond on both were excluded from the analysis (n = 298, 10.7%). Those who
+responded to one and were missing on the other transportation question were categorized based on the available information.
+    TPA-SW was measured with one question with 6 response options in W4. The participants were asked to mark how many days
+(0–7) of the week they walked, biked, used PubT, driven or chau<U+FB00>eured, drove, or had some other means of getting themselves to and
+from school or work. Similar to W1, the participants were categorized into three groups: AT, PubT, and PT groups. The participants
+were classi<U+FB01>ed by the mode of transportation they reported using the most days. Participants who reported the same frequency (most
+days) of multiple options as their primary mode of transportation were categorized as follows. Those who reported walking and
+biking on the same number of days, and more days than other modes, were labeled AT. Participants who reported being driven/
+chau<U+FB00>eured and driving on the same number of days, and more days than other modes, were labeled PT. All other responses where
+participants marked two modes of transportation equally as their most used modes or did not respond with any modes of transportation were not included in this study as they no longer allowed us to compare AT and PT (n = 1015, 36.5%). Changes in
+transportation modes between W1 and W4 were not examined due to di<U+FB00>erences in questions between two waves.
+2.2.2. Built environment characteristics
+    Built environment characteristics were generated from geocoded home addresses (neighborhoods) of the NEXT participants using
+Geographic Information System (GIS) (ArcMap Basic version 10.2.1) and spatial analysis. Spatial analysis provides techniques to
+describe the distribution of data in the geographic space and to explore patterns in the geographic data. Six built-environment
+characteristics were generated based on those GIS measures in this study (see Table 1). Except as noted, all W1 neighborhood
+characteristics were assessed in 2009–2010 school year and all W4 were assessed from 2012 to 2013.
+2.2.2.1. Land use mix. Land Use Mix, ranging from 0 to 1, measured the diversity of land use in a 1000 m radius around the
+participant's listed address (Frank et al., 2004). A score of 0 represented the most homogeneous land use and a score of 1 represented
+the most mixed or diverse land use. This variable was created using the 2001 National Land Cover Data produced by the
+Environmental Protection Agency.
+2.2.2.2. Street connectivity. Street connectivity describes how direct or easy it is to travel between two locations based on the street
+design (Saelens et al., 2003b). This variable was quanti<U+FB01>ed as the number of street intersections per square kilometer in a 1000 m
+radius around the participant's listed address from school year 2009–2010 (W1) and 2012–2013 (W4) (U.S. Department of
+Commerce, 2010).
+2.2.2.3. Residence density. Residence Density describes the number of people living in a speci<U+FB01>c land area, in this case per 2010
+Census block (Saelens et al., 2003b). This variable was measured as the 2010 population of the block group per square mile (U.S.
+Department of Commerce, 2010).
+2.2.2.4. Parks and recreational density. The parks and recreational areas available to each participant were measured as the number of
+parks or recreation areas within 1000 m of the participant's given address. Recreation density quanti<U+FB01>es the number of publicly
+funded recreational opportunities (indicating ease of access to suitable recreational facilities in the neighborhood, such as parks and
+recreation centers) per square kilometer around the participant's residence (Gilliland et al., 2006). Recreation density was calculated
+using a spatial join in ArcGIS to count the number of recreation opportunity (Tucker et al., 2009; U.S. Department of Commerce,
+2010).
+2.2.2.5. Walkability. Walkability measures how well a neighborhood environment lends itself to walking for transportation. This
+variable was derived from the walkability index developed by Frank and colleagues (Frank et al., 2010). Four measures (i.e.,
+residence density, street connectivity, retail <U+FB02>oor area ratio and land use mix)(Frank et al., 2010) were converted into deciles with
+one representing the lowest 10%, and 10 representing the highest. Four decile measures were summed to create a composite measure
+of walkability with a score ranging from 4 to 40. Cronbach's alpha between the measures is 0.91 in W1 and 0.85 in W4.
+2.2.3. Sociodemographic variables
+    Participants reported age (W1: mean = 16.27 years; standard error (SE) = 0.03), sex, racial/ethnic background, and family socioeconomic status; one parent provided the highest education levels of both parents when completing the informed consent forms.
+Family socioeconomic status (SES) was estimated using the Family A<U+FB04>uence Scale (Harris et al., 2009), which queries number of cars
+owned, number of computers owned, whether students had their own bedrooms, and the number of family vacations in the last 12
+months. Students were categorized as low, moderate, and high a<U+FB04>uence (Spriggs et al., 2007). Education level was categorized the
+highest education level of both parents as less than high school diploma, high school or general equivalency diploma (GED), some
+college, technical school or associate degree, and bachelor's or graduate degree. Participants were asked if they were attending school
+and if so, at what level. School status was categorized as not attending school, high school, technical school/community college, and
+college/university. Participants were also asked whether or not they were working in W4. Work status was categorized as employed
+and unemployed. Residence in W4 was categorized into four categories: participants living at their parent's home, own place, dorm/
+sorority/fraternity, or other.
+2.3. Statistical analysis
+    Analyses for this paper were conducted using SAS software (Version 9.4©, SAS Institute Inc., Cary, NC, USA). Cronbach's coefficient alpha to estimates the reliability of a scale by determining the internal consistency of the scale and the average correlation of
+items within the scale. After participants were sorted into transportation groups, one-way ANOVAs were conducted comparing
+transportation groups against neighborhood characteristics in W1 and W4, separately. Assessment of the distribution of all outcome
+variables indicated none were normally distributed. Therefore, the nonparametric one-way ANOVA was conducted and Bonferroni
+adjustment was applied for the multiple comparisons of the means and the p = .017 (0.05/3) was set at signi<U+FB01>cance because there
+were three pairs of comparisons.
+    Possible confounding variables were identi<U+FB01>ed through a literature review and con<U+FB01>rmed with an unadjusted logistic regression
+comparing each individual possible confounder to our transportation groups. Variables found to be correlated to the transportation
+groups at p = .10 level were controlled for in the multinomial logistic regression. Based on the unadjusted multinomial logistic
+regression models, all the demographic variables (including race/ethnicity, family a<U+FB04>uence, parental education, and sex) were also
+included in the adjusted multinomial logistic regression models. Separate multivariate logistic regressions were conducted for each
+neighborhood characteristics, adjusted for identi<U+FB01>ed covariates. PT was used as the reference group as it was the largest group and, in
+our opinion, the normative form of travel in the U.S. In addition to conducting multivariate logistic regressions, we also conducted
+those models with each of the standardized independent variables to compare the strength of associations across independent
+variables (see Table 4). Features of complex survey design, including strati<U+FB01>cation, clustering and sampling weights were taken into
+account for all analyses.
+3. Results
+    The percentages of AT, PubT, and PT were 22% (weighted and hereafter), 29%, and 49% in W1 and 35%, 11%, 54% in W4,
+respectively. In W4, 29.86% (N = 555, SE = 2.18) of participants were not attending school, 2.14% (N = 67, SE = 0.75) were
+attending high school, 27.16% (N = 637, SE = 1.95) were attending technical school or community college, and 40.84% (N = 915,
+SE = 2.34) were attending college or university. Of W4 participants, 52.49% (N = 1278, SE = 3.09) were living at their parent's
+home, 16.20% (N = 262, SE = 1.82) were living in their own place, 26.31% (N = 533, SE = 2.31) were living in school dorms or
+Greek life housing, and 5% (N = 60, SE = 1.01) of participants reported “other” for their living situation. The characteristics of the
+sample at W1 and W4 are showed in Table 2.
+    As shown in Table 3, pair-wise comparisons between transportation groups in W1 for land use (AT = 0.50, PT = 0.20,
+PubT = 0.37), street connectivity (Mean AT = 89.92, PT = 43.75, PubT = 53.08), park density (Mean AT = 1.61, PT = 0.61,
+PubT = 0.74) recreational density (Mean AT = 1.34, PT = 0.46, PubT = 0.51), and walkability (Mean AT = 18.39, PT = 10.03,
+PubT = 12.46) were statistically signi<U+FB01>cant (p = .05) such that AT had a higher mean score than both PubT and PT, and PubT had a
+higher mean score than PT. Table 3 also shows statistically signi<U+FB01>cant di<U+FB00>erences between groups on W4 land use (Mean AT = 0.50,
+PT = 0.37, PubT = 0.61), street connectivity (Mean AT = 91.52, PT = 56.55, PubT = 113.77), residence density (Mean AT = 8.27,
+PT = 3.30, PubT = 20.33), park density (Mean AT = 0.96, PT = 0.72, PubT = 1.75), recreational density (Mean AT = 0.67,
+PT = 0.365, PubT = 1.28), and walkability (Mean AT = 17.97, PT = 10.71, PubT = 23.20) (p = .05). AT had signi<U+FB01>cantly higher
+means than PT, and PubT had signi<U+FB01>cantly higher means than AT or PT (p = .05).
+    In W1 (top half of Table 4), built-environment characteristics contributed to increased likelihood of AT compared to PT, but not
+PubT. Speci<U+FB01>cally, each one-unit increase in each built environment variable increased the odds (adjusted ORs) of AT compared to PT
+as follows: land use (13.15; 95%CI: 2.85–60.63), street connectivity (1.01; 95%CI: 1.01–1.02), residence density (1.07; 95%CI:
+1.00–1.14), park density(1.62; 95%CI: 1.12–2.37), recreational density (1.75; 95%CI: 1.10–2.78), and walkability (1.11; 95%CI:
+1.07–1.15).
+    In W4 (bottom half of Table 4), neighborhood characteristics were associated with increased likelihood of AT and PubT compared
+to PT. A one-unit increase in each built environment variable increased the adjusted ORs of AT compared to PT as follows: land use
+(OR = 4.58; 95%CI: 1.24–16.95), street connectivity (OR = 1.01; 95%CI: 1.01–1.02), residence density (OR = 1.14; 95%CI:
+1.03–1.25), and walkability (OR = 1.11; 95%CI: 1.07–1.16). Park and recreational density were not signi<U+FB01>cantly associated with AT
+in W4. Land use (OR = 12.01; 95%CI: 2.84–50.64), street connectivity (OR = 1.02; 95%CI: 1.01–1.03), residence density
+(OR = 1.16; 95%CI: 1.04–1.29), park density (OR = 1.38; 95%CI: 1.10–1.72), recreational density (OR = 1.29; 95%CI: 1.01–1.63),
+and walkability (OR = 1.18; 95%CI: 1.10–1.26) were positively signi<U+FB01>cantly associated with higher likelihood of PubT compared to
+PT.
+    The ORs and 95%CIs (in the parentheses) obtained from the adjusted multinomial logistic regression models with standardized
+independent variables were showed in Table 4. Compared to PT group, residence density (standardized ORs: 3.01 in W1 and 11.46 in
+W4) and walkability (standardized ORs: 2.86 in W1 and 2.75 in W4) show the strongest associations with transportation-related
+physical activity in AT group in both W1 and W4. Similarly, compared to PT group, residence density (standardized OR = 16.91) and
+walkability (standardized OR = 4.72) show the strongest association with transportation-related physical activity in PubT group in
+W4, whereas residence density (standardized OR = 4.72) is the only built-environmental characteristic which is signi<U+FB01>cantly associated with PubT group in W1.
+4. Discussion
+    This study found associations between certain characteristics of the built environment and participants' engagement in AT to work
+or school. Increased levels of land use diversity, more street intersections per square kilometer, and walkable neighborhoods were
+associated with AT as opposed to PT even when controlling for potential confounders. Participants who live in an area with high land
+use diversity were more likely to engage in AT. Previous research has also found land use mix to be positively associated with AT to/
+from school as well as non-school related travel (Carver et al., 2019). This suggests that city planners invested in increasing levels of
+AT may want to look at land use diversity of the residential neighborhoods. Additionally, this advocates for “smart growth” policies in
+future community designs. Smart growth policies advocate for less urban sprawl and emphasizing public transportation, increased
+land use diversity and revitalizing older neighborhoods to create more walkable and healthful spaces (Downs, 2005). As such, smart
+growth tenants incorporated into the community development process, may improve the population's health by building a walkable
+community that provides access to public transportation and is well connected to destinations and other communities nearby. In
+doing this, the built environment of a community could encourage increased AT and, by extension, PA.
+    Land use mix, residence density, street connectivity and walkability in the AT groups were signi<U+FB01>cantly greater than the PT group
+in both 2009–2010 school year (W1) and four years later (2012–2013 school year, W4). Consistent with most literature, our <U+FB01>ndings
+indicate that higher residence density is related to AT which may increase PA engagement (Davison et al., 2008; Kerr et al., 2006).
+    The three transportation categories (AT, PT, and PubT) were created di<U+FB00>erently for each wave and are therefore not directly
+comparable; nonetheless, there were notable di<U+FB00>erences between waves. The results show AT is associated with land use diversity.
+This relationship is stronger in W1 than W4. This could be due to travel distance. Duncan et al. found that land use mix is signi<U+FB01>cantly
+associated with the proximity to destinations (Duncan et al., 2010). A majority of the adolescents in W1 attended public high schools,
+which are typically the closest schools to their homes. Of course, the closeness of the school can easily vary from urban to rural
+environment. When these same individuals have transitioned from high school to work, college, or both, travel can become more
+complicated and destinations are not necessarily as close to individuals' homes as local schools. This increased distance to work/
+college could have made PT and PubT a more realistic mode of transportation over AT for W4 participants. Additionally, because W1
+participants are still in high school and W4 participants are post-high school, a higher proportion of participants in W4 (N = 1376)
+could have a driver's license compared to W1 (N = 401). This could lend W4 to driving to work/school more than W1.
+    Walkability is important for understanding individuals’ likelihood of engaging in AT. Previous research has shown high levels of
+walkability around the area in which a child lives to be associated with AT to and from school (Christiansen et al., 2014; Handy et al.,
+2002; Rothman et al., 2018). Consistent with this literature, the present study found higher levels of walkability in the neighborhoods
+whose residents report using AT to travel to and/from work and school in both W1 (18.39, SE = 2.05) and W4 (17.97, SE = 0.70).
+However, the impact of walkability has been shown to be limited by distance from school. Walkability had no impact on AT within
+0.5 km of a school; however, medium and high walkable school areas showed increased AT up to 2 km (Christiansen et al., 2014). In
+considering the inconsistent <U+FB01>ndings from built environment research, it is important to note the inconsistencies in measuring the
+built environment, including walkability. Walkability is generally measured in a walk index form, as in this study, or using Walk
+Score (Vale et al., 2015). However, both approaches have found that increased walkability is associated with AT regardless of
+whether they used an indexing approach (Christiansen et al., 2014) or walk score approach (Carver et al., 2019). Additionally,
+inconsistent <U+FB01>ndings in this study could derive from the area of built environment assessed (1 km radius around residence), which is
+referred to a modi<U+FB01>able areal unit problem (Fotheringham and Wong, 1991). This could have left out built environment area that is
+critical in the decision whether to engage in TPA-SW.
+    Both AT and PubT groups had higher values than PT group for all built environment categories in both W1 and W4. Notably in
+W1, when AT and PubT were shown to be signi<U+FB01>cantly di<U+FB00>erent, AT had higher mean values than PubT. However, that relationship
+was inverse in W4. Although the categories made to capture similar constructs may not be directly comparable due to di<U+FB00>erent
+original questions between W1 and W4, they were correlated between two waves (data not shown). Therefore, more research should
+be done to understand what causes this apparent switch from AT to PubT in the association found with neighborhood characteristic
+W1 to W4. More research is also needed to understand if these environmental characteristics impact choosing AT or PT.
+    Interestingly, participants living in areas with higher densities of parks and recreation area had signi<U+FB01>cantly higher odds of
+reporting AT, but not PubT, compared to PT at W1. Conversely, a signi<U+FB01>cant association was found between park and recreational
+density and the odds of reporting PubT at W4, but not AT, compared to PT. Previous research has found an association between parks
+and recreational facilities within an area and children/adolescents without driver's licenses using AT to get to the parks and recreational facilities (Grow et al., 2008; Kerr et al., 2007). Additional research has found nearby recreational facilities to be correlated
+with AT in children and adolescents ages 5–18 years old (Pont et al., 2009). Given the <U+FB01>ndings of this study, it seems that having
+recreational facilities nearby could contribute to whether or not adolescence and young adults use AT to get to school/work but more
+research is needed to fully understand if there is an association. In each wave, large di<U+FB00>erences in point estimates were not found for
+both the AT vs PT comparison and PubT vs PT comparison. This could be more of an indicator of circumstance in W4. Since 40% of
+the participants went to college and 48% did not live with their parents in W4, there was likely a fair amount of relocating after high
+school. Limited mobility options due to relocation could have made PubT a more practical option in W4 for getting to school and/or
+work.
+    The additional analyses with standardized independent variables indicate the di<U+FB00>erence in the importance of built-environmental
+characteristics, which implies the priorities in promoting those built-environmental characteristics. This is, residence density and
+walkability may need more attention when blueprinting a community aimed to create more walkable and liveable environment to
+overcome the insu<U+FB03>cient PA and/or promote increased PA.
+    This study's limitations include the lack of an explicit measure of travel distance and how that in<U+FB02>uences AT, PT, and PubT. Across
+literature on this topic, distance to school is a constant predictor of AT to/from school for children with greater distances from the
+school equating to a decreased association with AT to/from school (Oliver et al., 2015). However, inconsistencies in <U+FB01>ndings have
+been reported. Some parents will opt to drive children to school even if families live within reasonable walking distance, as one study
+found with 35% of the students living within 0.75 km from school using PT (Carver et al., 2019). Secondly, all data on participant
+travel behavior were self-reported which might have resulted in social desirability biases. Additionally, this study is limited in its
+measurement of transportation-related PA. The questions in the survey that measure transportation-related PA were di<U+FB00>erent for each
+wave and limited in how well they measured PA. Many of the built environment characteristics used only measured in a 1000 m
+radius around the participant's residence. However, we do not know how far away participant lived from their schools or work.
+Therefore, we cannot capture the built environment of their entire trips to and from school/work, which is consistent with the
+conclusions of previous studies (Duncan and Mummery, 2007; Ikeda et al., 2018).
+    Notably, the current study has a number of strengths. This study bene<U+FB01>ted from the geocoded addresses (neighborhoods) of
+participants that allowed us to identify and evaluate their built environment using GIS and spatial analysis. Furthermore, the study is
+strengthened by having a large, nationally representative cohort. The cohort of this study was spread out across a large and diverse
+geographic area and variable built environments. The variability of the geographic area and built environments studied is increased
+from W1 to W4 as participants relocated for school and/or work. This variability allows for more broadly applicable trends to be
+detected compared to studies with a smaller geographical reach. This study also bene<U+FB01>tted from being able to discern between urban,
+rural, and suburban environments as each have their own barriers to AT. Additionally, this study is unique in its examination of AT
+during the transition from adolescents to young adulthood, two age groups that each need more focus in built environment/AT
+research. While this study only analyzed modes of transportation from school/work and home, more research on how to increase AT
+to recreational areas, eating places once at work/school, and other destinations within a community could help to increase daily AT.
+5. Conclusion
+     There were associations between the built environment and daily travel behavior. More liveable built-environment characteristics
+(e.g., mixed land use, more connected communities and walkable neighborhoods, and increased parks and recreational facilities) are
+associated with AT as opposed to PT among adolescents and young adults, the most notable being land use diversity. Findings suggest
+the need for public health and city planning o<U+FB03>cials to collaborate in addressing built-environment characteristics to create more
+walkable and liveable communities to overcome the insu<U+FB03>cient PA not only to promote increased PA.

@@ -1,0 +1,324 @@
+Walking, cycling and the urban form: A Heckman selection
+model of active travel mode and distance by young adolescents
+abstract
+Physical inactivity of children and adolescents is a major public health challenge of the
+modern era but, when adequately promoted and nurtured, active travel offers immediate
+health benefits and forms future sustainable and healthy travel habits. This study exploresjointly the choice and the extent of active travel of young adolescents while considering
+walking and cycling as distinct travel forms, controlling for objective urban form measures,
+and taking both a ‘‘street-buffer” looking at the immediate home surroundings and a
+‘‘transport-zone” looking at wider neighborhoods. A Heckman selection model representsthe distance covered while cycling (walking) given the mode choice being bicycle (walk)
+for a representative sample of 10–15 year-olds from the Capital Region of Denmark
+extracted from the Danish national travel survey. Results illustrate the necessity of different urban environments for walking and cycling, as the former relates to "street-buffer"
+urban form measures and the latter also to "transport-zone" ones. Results also show that
+lessening the amount and the density of car traffic, diminishing the movement of heavy
+vehicles in local streets, reducing the conflict points with the density of intersections,
+and intervening on crash frequency and severity, would increase the probability and the
+amount of active travel by young adolescents. Last, results indicate that zones in rural areas
+and at a higher percentage of immigrants are likely to have lower probability and amountof active travel by young adolescents.
+Introduction
+    Physical inactivity of children is a major health challenge, and coping with ever growing urban environment is a challenge
+for children due to their physical fragility, required mental strength, autonomy traits, spatial skills, hazard detection and conflict mitigation skills (Mackett, 2013). The challenge is even greater considering the increase in parental chauffeuring to
+school trips in several European countries (Fyhri and Hjorthol, 2009), the development of high car-dependence due to parental chauffeuring (Carver et al., 2013), and the relationship between high car-dependence during childhood and car use
+intentions as future adults (Sigurdardottir et al., 2013, 2014). In contrast to child chauffeuring and car-dependence, active
+travel carries huge advantages in terms of providing health benefits (Lubans et al., 2011; Mackett et al., 2005; Santos
+et al., 2009; Wake and Reeves, 2012) and forming future sustainable travel habits (Sigurdardottir et al., 2013, 2014).
+    The choice of active travel and its amount are joint choices that shape the active travel pattern of children to counter
+their physical inactivity and their intentions to choose non-sustainable travel options as future adults. Understanding the
+relationship of active travel mode and distance with objective measures of urban form is essential for meeting the challenge
+of encouraging children to use non-motorized modes to school and leisure activities. Urban form relates to the active travel
+of children directly through motivators and barriers to non-motorized mobility and accessibility, and indirectly through support of parental perceptions about the children’s ability to maneuver the urban environment given their spatial and cognitive
+skills. Hence, understanding the relationship between active travel and urban form is a necessary pre-requisite for evaluating
+the effectiveness of policy measures such as adding pedestrian pathways and school crossing guards in major roads near
+schools, designing neighborhoods in which residences, retail outlets and sport facilities are located in close proximity,
+and improving parental perceptions regarding the safety of non-motorized modes.
+    In the literature about active travel of children, most studies focused on the probability of choosing active travel while
+using the distance traveled as an exogenous explanatory variable (e.g., Christiansen et al., 2014a). The choice of active travel
+distance has been scarcely investigated (Seraj et al., 2012; Villanueva et al., 2012) and previous studies have not dealt with
+the simultaneity of the choice of active travel and the choice of active travel distance. However, using one choice as an exogenous variable to the other choice leads to potential estimation problems deriving from neglecting the simultaneity in the two
+choices (Bhat, 1997). Moreover, it also impedes understanding the linkage between urban form and the amount of active
+travel.
+    While previous research on the choice of active travel, and also the limited research on active travel distance, has primarily focused on school trips (e.g., Christiansen et al., 2014a,b; Easton and Ferrari, 2015), travel made by children to leisure and
+other non-mandatory activities has attracted much less consideration (Fyhri and Hjorthol, 2009). Due to the growing role of
+such activities in the daily travel patterns of children, and the role of the car in such trips (Fyhri and Hjorthol, 2009; Fyhri
+et al., 2011), including such leisure and non-mandatory travel as an integral part of the analysis of active travel patterns of
+children is increasingly important.
+    While walking was investigated as a sole active travel mode in several studies (e.g., Bejleri et al., 2011; Kerr et al., 2007;
+Lee et al., 2013; Mitra et al., 2010a,b; Pont et al., 2013; Su et al., 2013; Yarlagadda and Srinivasan, 2008), other studies considered jointly walking and cycling as a single active travel mode without differentiation (e.g., Carver et al., 2014; Dalton
+et al., 2011; Johansson, 2006; Leslie et al., 2010; Seraj et al., 2012; Sidharthan et al., 2011), possibly because of the scarcity
+of cycling versus walking in car-oriented countries (e.g., Easton and Ferrari, 2015). Consequently, cycling received very little
+attention (Christiansen et al., 2014a,b) and, while the relationship between walking and urban form is clear, the relationship
+between cycling and urban form needs to be further explored.
+    Several studies addressed a narrow range of urban form variables focusing mainly on a linear effect of home-to-school
+distance and a limited number of infrastructure and land-use characteristics, measured within a distance band from the
+home or the school location, thus neglecting non-linear effects and the possibility of effects of urban form variables at
+different aggregation levels. The most recurrent factors were travel distance (e.g., Christiansen et al., 2014a,b; Lee et al.,
+2013; McMillan, 2007; Pont et al., 2013; Yarlagadda and Srinivasan, 2008), road infrastructure in terms of intersection
+density and road hierarchy (e.g., Bejleri et al., 2011; Kemperman and Timmermans, 2014; Kerr et al., 2007; McMillan,
+2007; Seraj et al., 2012; Su et al., 2013), availability of pedestrian infrastructure (i.e., sidewalks, curbs) and walkability
+(e.g., Bejleri et al., 2011; Carver et al., 2014; Christiansen et al., 2014a,b; Easton and Ferrari, 2015; Villanueva et al., 2012),
+land-use mixture (e.g., Carver et al., 2014; Kemperman and Timmermans, 2014; Mitra et al., 2010b; Pont et al., 2013;
+Seraj et al., 2012; Su et al., 2013), residential and population density (e.g., Dalton et al., 2011; Kemperman and
+Timmermans, 2014), and number of activity opportunities within distance bands (e.g., Dalton et al., 2011; Kerr et al.,
+2007; Sidharthan et al., 2011; Villanueva et al., 2012). Most studies did not base their analysis on detailed GIS databases
+and thus used approximate urban form measures such as home-school aerial distance (e.g., Bejleri et al., 2011).
+    Most studies focused on primary and middle school 8–13 year-old children who are at the early stages of developing their
+travel independence (e.g., Carver et al., 2014; Johansson, 2006; Mitra et al., 2010a,b; Pont et al., 2013; Villanueva et al., 2012)
+or on younger children (e.g., Bejleri et al., 2011; Kerr et al., 2007; Lee et al., 2013; McMillan, 2007; Seraj et al., 2012;
+Yarlagadda and Srinivasan, 2008). The results of these studies cannot be readily extended to older adolescents because, as
+the child age increases, parental attitudes and perceptions change toward viewing active and independent travel more positively (e.g., Johansson, 2006; Seraj et al., 2012).Very little attention has been posed exclusively on adolescents (e.g., Dalton
+et al., 2011; Leslie et al., 2010; Sigurdardottir et al., 2013, 2014), leading to knowledge gaps with respect to their active travel
+patterns.
+    Geographically, most studies analyzed car-oriented countries (e.g., Dalton et al., 2011; Kerr et al., 2007; McMillan, 2007;
+Mitra et al., 2010a,b; Seraj et al., 2012; Sidharthan et al., 2011; Su et al., 2013; Villanueva et al., 2012). Cycling rates of children and the general population are generally low and cycling infrastructure is relatively scarce in these countries, which
+poses severe infrastructure and social barriers for cycling as an active travel mode. The active travel of children in countries
+with a high cycling share among travel modes, such as the Netherlands or Denmark, has received little attention
+(Christiansen et al., 2014a,b; Kemperman and Timmermans, 2014; Sigurdardottir et al., 2013, 2014).
+    This paper explores the relationship between objective ‘‘street-buffer” and ‘‘transport-zone” urban form measures and
+the combination of the odds and the amount of active travel to school and leisure activities by young adolescents between
+the age of 10 and 15, while considering walking and cycling as different modes. Exploring the joint choice of active travel and
+distance enables the accommodation of the simultaneous nature of these two choices by accounting for unobserved individual characteristics that affect both choices and recognizing that urban form may be associated differently with the odds and
+distance of active travel, and that some policy actions may affect the odds of active travel while others may influence the
+amount of active travel, and both are important to encourage active travel.
+    Focusing on cycling is important because cycling accounts for a large part of the active travel of children in countries with
+a high cycling share among travel modes, where it is important to maintain these high shares due to growing car-
+dependency (Sigurdardottir et al., 2013, 2014), and its proportion is likely to increase in emerging cycling regions. This study
+offers a unique perspective by focusing on Copenhagen as a region with high cycling rates of both children and adults, where
+40% of the commuters cycle to work every day and another 17% do so often, and where respectively 38%, 66%, and 58% of the
+children cycle to school at least twice a week in the metropolitan core, the suburbs, and further communities. Treating walking and cycling as two distinct active travel modes is imperative because, as shown by the results of this study, cycling and
+walking are encouraged by different urban form features.
+    This study analyzes active travel of a representative sample of more than two thousand 10–15 years olds in Denmark by
+modeling the distance covered while cycling (walking) given the mode choice being bicycle (walk). The sample, taken from
+the national travel survey (in Danish TransportvaneUndersøgelse, TU), was integrated with the Danish national transport
+model (in Danish LandsTrafikModel, LTM), thus forming a unique dataset containing information on the active travel of children along with the urban form and the location in both the immediate vicinity and the larger zone where the travel
+occurred. A Heckman selection model allowed modeling the distance of cycling (walking) given that the young adolescents
+actually decided to cycle (walk) during their daily trips, while accounting for their socioeconomic characteristics, "street-buffer"variables describing the immediate surroundings where they traveled, and "transport-zone" variables portraying
+the wider zone around. The analysis targeted the relatively less investigated age group of young adolescents, in which parental attitudes and perceptions view active and independent travel more positively than younger children. Moreover, the
+analysis also offers a comparison of urban form measures in two aggregation levels of urban form measures representing
+a "transport-zone" that looks at wider traffic zones, and a "street-buffer" that looks at distance bands from the home
+location.
+    The remainder of the paper is structured as follows. The next section introduces the research methods in terms of collected data and estimated model. Then, results are presented and discussed along with the strengths and limitations and
+further research directions. Last conclusions are drawn.
+Methods
+Data
+    The objective of the paper consisted in modeling the distance cycled and walked by children aged 10–15 given their
+choice of cycling and walking. The dependent and independent variables for modeling purposes were constructed by combining two sources, namely TU and LTM.
+    The TU survey is an on-going collection of travel diaries per month of a representative sample of the Danish population
+between 10 and 84 years old via the administration of about 1000 interviews per month (about 80% by telephone and about
+20% on the internet). The TU survey participants are extracted via a stratified random procedure from the Danish Civil Registration System (in Danish, Det Centrale Personregister) managed by the Danish National Board of Health (in Danish, Sund-
+hedsstyrelsen) with the objective of reaching representativity of the population as listed in the Danish National Register
+managed by the Danish Census Bureau (in Danish, Danmark Statistik). Given that the participation to the TU survey is voluntary (62.5% complete responses), weights are associated to each observation in order to obtain the representative sample
+of the population. For the period between 2006 and 2011 the survey includes travel diaries of 2336 young adolescents
+between the age of 10 and 15 and residing in the Capital Region of Denmark, and this study analyzed their cycling and walking trips for all purposes (i.e., school, leisure, other). The available young adolescent and household characteristics of the data
+sample are presented in Table 1. Notably, only personal income of the respondent is collected in the TU and thus the household income is unavailable for survey respondents who are young adolescents. Distances cycled and walked were retrieved
+from the TU alongside their socioeconomic characteristics, namely gender and age, information about parents and family
+members, number of cars, company cars and shared cars, residential situation and home ownership. Distances cycled and
+walked were computed for each trip chain, although most adolescents performed only one trip by walking or cycling during
+the day. Trips were geocoded as detailed location of home and activity addresses are associated to the TU, and hence the trips
+were matched to a detailed road network that was constructed for planning purposes within the LTM in order to retrieve
+information about urban form and location factors via a GIS analysis.
+    The GIS analysis for measuring urban form and location factors was based on the ‘‘Six Ds” theory (Ewing and Cervero,
+2010) and hence provided information about density, diversity, design, destination accessibility, distance to transit, and
+demand management. The six Ds. are manifested in the choice of explanatory variables in the model, and the GIS analysis
+extends previous analysis (Nielsen et al., 2013) in order to address specific issues with young adolescents’ cycling and
+include effects of cycling provision, traffic environment, and traffic safety. Density around the children’s home addresses
+was measured in terms of population and retail jobs per population unit. Diversity was evaluated in terms of the blend of
+population and retail as well as the provision of green and nature areas per area unit (square km). Design was assessed
+as the density of three-legged intersections (unit per square km) and the share of buildings in the area that were built before
+1950 (i.e., before motorization). Destination accessibility was quantified as the distance (km) to key services such as primary
+schools and supermarkets. Distance to transit was computed as the distance (km) to the closest train station and the number
+of daily departures of public transport lines within walking distance from home (i.e., 500 m). Last, demand management was
+gauged with particular focus on cycling and traffic management in neighborhood, namely amount of cycling lanes and paths
+(km), low speed roads with speed limit lower than 30 km/h (km), high speed roads with speed limit over 60 km/h (km) and
+proportion of road length with cycling lanes or paths.
+    The GIS analysis exploited the integration of several data sources alongside the TU: the Danish register of buildings, the
+Danish register of companies and workplaces, the Danish population in 1 ha grid cells, the land cover datasets of the European Environment Agency, the LTM network for private and public transport, and the bicycle network for the Copenhagen
+Region (Halldórsdóttir et al., 2014). Given the addresses of the children’s homes, the following calculations were implemented to follow the ‘‘Six D’s” theory (Ewing and Cervero, 2010): (i) measures of density, diversity, design and demand management were determined around individualized neighborhoods centered on the children’s home address for two distinct
+neighborhood sizes in airline distances (i.e., 500 m, 1500 m); (ii) measures of destination accessibility and distance to transit
+were evaluated as either distances (e.g., network distance from home to the train station) or as service measures (e.g., number of public transport line departures within 500 m) at the network level and not at the aerial level. The selection of 500 and
+1500 m corresponds to the average distance from home for 10 year olds, in order to satisfy the average needs and physical
+ability of the youngest age group.
+    The TU and the GIS information were integrated with the details provided by the LTM concerning the traffic zones that
+represent homogeneous portions of neighborhoods around the children’s home addresses. The traffic zone layer, the detailed
+road network and the high-definition bicycle network of the Copenhagen Region allowed retrieving detailed information
+about infrastructure characteristics for both vehicles and bicycles as well as safety indicators for bicycles. The information
+included the extension (km) of road network by road type, the extension (km) of cycling facilities such as cycling lanes and
+paths, the amount of traffic both overall (passenger car equivalent km) and by vehicle type (bicycles, cars, vans, heavy vehicles km), the socioeconomic characteristics of the zones (population shares in the zone, immigrant shares in the zone), the
+urban or rural classification of the zone (based on average house distance in the zone), and the number and density (number
+per square km) of collisions between cyclists and motorists in the last 10 years. Moreover, the Danish Rurality Development
+Index (RDI, Danish Ministry of Food Agriculture and Fisheries, 2011) was used for each zone to determine whether they were
+rural zone. Specifically, the RDI differentiates between urban, intermediate, rural and peripheral municipalities on the basis
+of 14 equally weighted criteria (e.g., population density, proportion of rural areas in the jurisdiction, employment supply and
+population share employed in agriculture, share of children and elderly population, share of highly-skilled workers, accessibility to motorways and job supply, and taxation per capita), and the last two categories were defined as rural.
+Model
+    The Heckman selection model (Heckman, 1976) allowed estimating the distance cycled and walked by the children in the
+sample, given that they chose to cycle and walk.
+    The model assumes that there exists an underlying regression relationship expressing the variation of the distance cycled
+(walked):
+    Robust errors are calculated by applying the Huber–White sandwich estimator. A likelihood ratio test allowed comparing
+the likelihood of the Heckman model with the joint likelihood of an independent probit model for the selection equation and
+a regression model for the first equation, and thus justifying the choice of the Heckman model over two independent models
+of distance of cycling (walking) and probability of cycling (walking).
+Results
+    The results are presented for the best model specification of cycling and walking Heckman selection models, in Tables 2
+and 3, respectively. The results were obtained after testing for significance a large number of variables within an iterative
+process. The results present the estimates and their standard errors, as well as the marginal effects of the distance models
+and the probability of cycling (walking). It should be noted that the error terms are negatively correlated in both terms,
+meaning that the unobserved factors that cause someone to walk (cycle) are also the ones causing shorter distances to be
+walked (cycled). It should be also noted that both distance error terms have a large standard deviation that captures the
+heterogeneity across young adolescents in terms of distance cycled or walked. Wald tests revealed that the joint model
+was to be preferred to the independent probit and linear regression models in both bases: the cycling and walking models
+had likelihood values respectively equal to 4575.0 and 4265.1 and Wald test values respectively equal to 5.22 and 3.84
+that both rejected the independence of the equations at the 95% confidence level.
+Model for young adolescents cycling likelihood and distance
+Socio-demographic effects
+    Higher probabilities to cycle as active travel mode and longer cycling distances are related to older young adolescents and
+escorting by the parents, with the latter being the most dominant effect among the socioeconomic characteristics. Mobility
+disability is significantly and negatively related to the likelihood of cycling. The number of siblings in the household is significantly linked to cycling distance, with young adolescents without siblings cycling shorter distances. Young adolescents
+who reside in a flat or a rented dwelling unit are less likely to cycle. The probability of young adolescents cycling being
+positively related to a higher average income in the zone. The likelihood of cycling and the cycling distance drop during
+the winter months from December to February.
+‘‘Street-buffer” effects: distance bands from the home location
+      Street-buffer measures are significantly associated with cycling likelihood more than with cycling distances. Longer
+network-based distances from home to school are related to a greater likelihood of cycling and longer cycling distance. In
+the Copenhagen Region, shorter distances are associated with a higher likelihood of walking, but longer distances are associated with a higher likelihood of cycling.
+      High density of low-speed roads within 1.5 km from the children’s house is positively correlated to higher likelihood of
+cycling. High ratio of retail to population density within 1.5 km from the children’s house is positively linked to a greater
+cycling likelihood, and this effect is by far the dominant one among all the considered ‘‘street-buffer” characteristics. Having
+a train station with 1 km from the children’s house is negatively correlated with the probability of cycling.
+‘‘Transport-zone” effects: zone characteristics
+      Zone level measures are associated with both cycling likelihood and distance, and the most significant measures are
+related mainly to traffic environment and safety.
+     Intersection density is negatively correlated with the probability of cycling, but is positively related to the distance cycled.
+Nevertheless, young adolescents who are not deterred to cycle by the presence of intersections actually cover longer distances in zones with higher intersection density.
+     The differences in the findings show the importance of differentiating between cycling and walking as travel modes
+because, while intersections are positively correlated with walking, they are negatively correlated with cycling. Higher
+car and heavy vehicle traffic densities, as well as higher crash densities, are related negatively to the probability of cycling.
+     The availability of bicycle lanes and paths is not correlated with the likelihood of cycling, but only with the cycling
+distance. Neighborhoods in rural areas or with high share of immigrants are associated with lower probability of young
+adolescents cycling, after controlling for infrastructure, school distances, individual and household socioeconomic characteristics, traffic environment and crash rates.
+Model for young adolescents walking likelihood and distance
+Socio-demographic effects
+     Older young adolescents is positively correlated with higher likelihood of walking and greater walking distance. The number of siblings is positively associated with a greater likelihood of walking.
+     The number of cars per number of driving licenses in the household is related to a lower probability of young adolescents
+walking. Living in a flat is associated with higher likelihood of young adolescents walking. The probability of walking is
+greater in weekends. Winter months are associated with a higher likelihood to walk and shorter walking distance. During
+the spring and fall months the likelihood of walking is lower than in other months.
+"Street-buffer" effects: distance bands from the home location
+    Shorter distance to school is associated with a higher likelihood of walking. Nevertheless, conditional on choosing to walk,
+longer distances to school are naturally associated with longer walking distance.
+    Greater likelihood of walking is associated with lower road density but higher density of low-speed roads. High ratio of
+retail to population density within 0.5 km from the children’s house is positively correlated to a greater walking likelihood,
+and the effect is by far the most dominant among all the considered street-view characteristics. As observed for cycling,
+on-street retail and the related ambience motivate active travel among older young adolescents. Having a transit stop with
+0.5 km walking distance from the household is positively correlated with the likelihood of walking.
+‘‘Transport-zone” effects: zone characteristics
+    Higher traffic density in the zone is negatively correlated with the probability of walking. Higher average income in the
+zone is correlated with lower likelihood of walking and shorter walking distance for 10–15 year olds, while the effect is positive on cycling. Neighborhoods with a higher share of immigrants are related to a greater likelihood of young adolescents
+walking.
+    Intersection density does not significantly relate to the likelihood of walking, but it does to longer walking distances, similarly to cycling.
+Discussion
+    This study provides evidence from the Copenhagen Region about the role of measurable aspects of urban form in promoting cycling and walking of 10–15 year-olds in their daily travel to school, leisure activities and other trips. Findings from this
+study reveal several trends and suggest further research needs, which are relevant for designing policy measures aimed at
+encouraging young adolescents to cycle. The strengths and limitations are discussed at the end of this section.
+Socio-economic characteristics
+    The results show that higher propensity to cycle or walk as active travel modes and longer cycling or walking distances
+are related to older young adolescents. A greater active travel space with increasing age is in line with previous findings
+about parental attitudes and perceptions changing toward viewing active and independent travel more positively with
+the increase of the child age (e.g., Johansson, 2006; Seraj et al., 2012). Nevertheless, while previous results suggest the active
+travel space of children being larger for children who are mobile independently (Villanueva et al., 2012), this study shows
+parental escorting being beneficial for the amount of cycling and that the number of siblings is positively associated with a
+greater likelihood of walking. Notably, this study considers both the child age and parental escorting in the model, thus
+avoiding possible confounding effects not verified in the previous study. Further research into the reasons that cycling
+and walking together with other family members could be useful for the efficient design of cycling campaigns and school
+programs is needed. Relevant questions are whether accompanied cycling or walking mitigate parental concerns regarding
+safety and ability to navigate the urban environment, and whether walking is perceived as beneficial due to its social value
+and not only its utilitarian value, similarly to previous findings for 9–10 year-olds (Carver et al., 2014).
+    The results show that housing type is correlated with cycling and walking. Young adolescents that reside in a flat are less
+likely to cycle and more likely to walk than young adults that reside in a house. Comparing this finding with bicycle ownership, 52.7% of the children residing in apartments own a bike compared to 66.6% in detached or semi-detached houses. It is
+important to explore the explanation for this phenomenon, because it may be relevant for both cycling campaigns and urban
+design. An important question is whether these results are related to income as home ownership and type serves as a proxy
+to income. From the TU survey in fact, the average yearly household income of households with 10–15 year-olds residing in a
+flat versus a detached or semi-detached house is respectively 447,800 DKK versus 637,900 DKK; the average yearly household income of households with 10–15 year-olds owning versus renting a property is respectively 400,400 DKK versus
+649,600 DKK. This hypothesis is supported by the probability of cycling being positively related to a higher average income
+in the zone. Therefore, an important further research question could be whether families with higher economic stability view
+cycling as a status symbol, or they have higher awareness of the importance of children’s physical activity and health.
+‘‘Street-buffer” variables
+    Longer network-based distances from home to school are related to a greater likelihood of cycling and longer cycling distance, in agreement with findings from the Netherlands (Kemperman and Timmermans, 2014). Shorter distance to school is
+associated with a higher likelihood of walking, in line with previous studies from car-oriented countries (e.g., Mitra et al.,
+2010b; Sidharthan et al., 2011; Lee et al., 2013; Pont et al., 2013; Su et al., 2013). The findings from this study show the
+importance of differentiating between walking and cycling, because the bicycle serves as an alternative to walking for longer
+active travel distances.
+    High ratio of retail to population density within 1.5 and 0.5 km from the young adolescents’ home is positively linked to
+a greater cycling and walking likelihood, respectively, and this effect is by far the most dominant one among all the
+"street-buffer" variables. These results are in agreement with previous findings about the positive effect of food outlets on
+high-school youth travel (Dalton et al., 2011), but in disagreement with other findings about the negative effect of utilitarian
+destinations on the active travel of 10–12 year-olds (Villanueva et al., 2012). While a study on the positive experiences of
+adult cyclists revealed a correlation with cycling in green areas within 1.5 km from the residence (Snizek et al., 2013), the
+relationship was not found significant in this study. A research question which is relevant to both urban design and campaigns to encourage active travel among young adolescents is whether these findings indicate that young adolescents engage
+mainly in cycling for utilitarian purposes rather than for pure recreation, or that for young adolescents retail areas are a more
+attractive environment than green areas.
+    Having a train station with 1 km from the children’s house is negatively correlated with the probability of cycling, while
+having a transit stop with 0.5 km walking distance from the household is positively correlated with the likelihood of walking.
+The results indicate that cycling and transit have a substitution effect, while transit and walking have a complementarity
+effect. The results have important implications suggesting the need to compliment transit-oriented environments with a
+parallel and integrated cycling network and facilities.
+"Transport-zone" variables
+    Higher traffic density in the zone is negatively correlated with the probability of walking, while higher car and heavy
+vehicle traffic densities, as well as higher crash densities, are related negatively to the probability of cycling. The results
+are in line with previous findings about highly car-oriented environments discouraging active travel of children (Su et al.,
+2013).
+    Intersection density is negatively correlated with the probability of cycling, but is positively related to the cycling and
+walking distances. Previous studies found positive correlation between the walking likelihood of children and intersection
+density (Carver et al., 2014), but their main shortcoming was that they did not model jointly the probability to walk/cycle
+and the distance. The differences in the findings show the importance of differentiating between cycling and walking as
+travel modes because, as previously found in other studies (e.g., Chataway et al., 2014; Kaplan et al., 2014), intersections
+are relatively safe for pedestrians but they pose a safety challenge for cyclists. A further research question is whether intersection density serves as a barrier for the less cycle-enthusiastic adolescents, so that those choosing to cycle in such environments are more cycle-enthusiastic and thus tend to cycle longer distances.
+    The result that higher crash densities are related negatively to the probability of cycling is interesting because cycling
+crash rates are not publicly available. A further research direction could explore whether the main concern for cycling
+derives from potential and actual conflicts with motorists, whether parents perceive the relevant safety issues concerning
+the zone where they live, and whether they use some proxy variables or follow the occurrences of crashes via media or word
+of mouth.
+    Neighborhoods in rural areas or with high share of immigrants are associated with lower probability of cycling, after controlling for infrastructure, school distances, individual and household socioeconomic characteristics, traffic environment, and
+crash rates. While both walking and cycling are beneficial as active travel providing adolescents residing in rural neighborhoods with higher shares of immigrants with the same cycling opportunities as other adolescents, it is important to widen
+their travel choice portfolio. As the model controlled for individual characteristics and urban form variables at two aggregation levels, a plausible hypothesis is that this result is related to the social climate, namely related to attitudes and social
+norms rather than physical environment. Christiansen et al. (2014a) already showed indeed that the social environment
+is relevant for to encourage walking and cycling, but the issue of social norms among immigrants from car-oriented countries has not been explored for children. Considering that only 19% of the immigrants residing in the Copenhagen Region
+originate from countries with a high cycling share among travel modes, this is an interesting finding, especially when combined to the higher likelihood of walking. These results could indicate the relevance of safety concerns due to cyclists-
+motorists tension in car-oriented countries of origin (e.g., Chataway et al., 2014), social environment traits where cycling role
+models are less common due to lack of cycling knowledge and skills (van der Kloof et al., 2014), and car or transit-oriented
+social norms that imply a higher use of walking as an access mode to transit. It is important to further investigate this
+hypothesis because of its policy implications. While in Denmark there are programs such as ‘‘all kids bike” encouraging children to cycle to school, if indeed the social norms of immigrants are relevant to the travel portfolio of their children and adolescents, policy makers should consider providing them with additional social support possibly targeting their specific needs.
+Programs should be research-based in order to understand motivators and barriers to cycling that might relate to parental
+and child safety concerns, lack of role models for cycling that affects the perceived difficulty to cycle, and car- or transit-oriented social norms that might motivate the use of car or public transport.
+Strengths and limitations
+    The analysis is based on cross-sectional data on the basis of a 24-h activity and travel diary from the national travel survey, as previously recommended by Christiansen et al. (2014b). The major strength of the data set is inherent in being a representative sample of the population of adolescents aged 10–15 in Denmark, and in the large sample size of more than two
+thousand adolescents allowing a stricter level of significance. Nevertheless, the data set has three limitations. The first
+limitation concerns the cross-sectional design, which as in previous studies (e.g., Christiansen et al., 2014a) is intended to
+understand the steady-state relationship between urban form and cycling rather than to reveal casual effects or impact of
+changes in the land use, the urban environment or the bicycle network over time. The second limitation is that a representative sample of the population is less equipped for understanding the active travel patterns of adolescents with mobility
+disabilities or special needs due to their relatively small share in the population. Considering the Danish disability policy
+for equal opportunities through dialogue, published by the Danish Disability Council, and the general interest in equity in
+transport, further research should focus on the barriers and motivators of active travel for children and adolescents with
+mobility disabilities. The third limitation concerns the inability to account for substitution effects between walking and
+cycling because the data set lacks the choice set of travel modes considered by each child. Accounting for substitution effect
+requires a tailor-made survey, which is out of scope for this study but is an interesting theme for further research.
+Conclusions
+    In this study the joint choices of active travel and distance were modeled as a quantity measure while taking into account
+the simultaneity of these two choices. The presented model, to the authors’ knowledge, represents the first attempt in the
+literature on the active travel of children to jointly model the odds and the distance of young adolescents’ active travel. The
+results show that the odds of active travel and the distance are motivated by a different set of urban form variables. Hence,
+encouraging more people to walk or cycle and encouraging people to walk or cycle more are distinct sustainable travel goals,
+each requiring specific urban form policy measures to be achieved.
+    The results show that walking and cycling necessitate different urban environments and cannot be viewed as a single
+active travel option. Previous studies investigated the relationship between urban form and active travel without differentiating between walking and cycling, for example by using a single walkability index, but have identified the need for identifying the determinants of walking compared to cycling (Christiansen et al., 2014b). Our results clearly show the need to
+consider these modes separately because they are associated with different urban-form variable combinations and some
+variables have contradicting effects on cycling and walking. Policy makers should be aware of these differences which imply
+different urban design needs for encouraging walking and cycling.
+    Measurable aspects of the traffic environment related to the actual and perceived cycling safety (Chataway et al., 2014;
+Kaplan et al., 2014) have a significant effect on cycling, including zone traffic densities, traffic speed and reported crashes. It
+is interesting that these measures have a significant effect although statistics are not publicly available and the formal published documents emphasize that cycling is safe in the Copenhagen Region (Gössling, 2013). This suggests that residents are
+highly aware of the traffic environment not only from a "street-buffer" near their homes, but also from a "transport-zone"
+around their neighborhoods, and that they relate to the choice of active travel of young adolescents. In line with existing
+studies (Chataway et al., 2014; Seraj et al., 2012), it is crucial to further explore the relationship between traffic environment
+and infrastructure and parental and young adolescents safety perceptions related to young adolescents active travel. In addition, the causal effect of policy measures combining traffic calming and cycling facilities for an optimal effect of increasing
+both the amount of young adolescents cycling and the amount of cycling per person should be investigated further.

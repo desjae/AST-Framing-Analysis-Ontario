@@ -1,0 +1,335 @@
+Impact of weather conditions on middle school students’ commute
+mode choices: Empirical <U+FB01>ndings from Beijing, ChinaABSTRACT
+Weather conditions have been recognized as important factors a<U+FB00>ecting school commute mode
+choices. This paper aims to explore the modal shift of middle school commutes with respect to the
+variation in weather-related variables, with empirical emphases on the situation in Beijing,
+China. Data from the latest Beijing School Commute Survey (2014–2015) were adopted, and
+multinomial probit (MNP) and multinomial logit (MNL) models were developed. The modeling
+results are in favor of the MNP model because it has better statistical performance. Weather-related variables, including sky condition, wind speed, highest temperature, humidity, air qualityindex (AQI), and some interaction terms, were found to have a signi<U+FB01>cant impact on students'commute mode choices. Based on these models, an empirical sensitivity measure was de<U+FB01>ned asthe expected percentage change in the probability of choosing each mode with respect to anorder of magnitude change in the in<U+FB02>uential factors. Most of the results are in line with those ofprevious studies, and some unique results re<U+FB02>ect features of Beijing. For example, on days withextremely poor air quality, students are more likely to turn to public transport rather than use acar from active transportation modes. This is probably due to the special urban tra<U+FB03>c regulationsthat restrict household car ownership and car travel in Beijing. These <U+FB01>ndings could have implications for promoting active transportation for students and serve as references for policymakers and planners.
+1. Introduction
+     School commutes are integral to urban daily commutes and have an important in<U+FB02>uence on local tra<U+FB03>c conditions (Black et al.,
+2001), vehicle emissions (Singleton, 2014), travel behaviors of adults who escort students (Scheiner, 2016; He and Giuliano, 2017),
+and the physical health of students (Sirard and Slater, 2008; Hellinga, 2016). Understanding travel behaviors, especially school
+commute mode choices, has received considerable attention over the past two decades. Studies have investigated impacts on school
+commute mode choices based on the e<U+FB00>ects of socioeconomic and demographic variables (Kerr et al., 2007; Wati and Tranter, 2015),
+urban environment conditions (Elias and Katoshevski-Cavari, 2014), land use characteristics (Scheiner, 2016), etc. However, the
+impact of weather conditions has been rarely examined (Scheiner, 2016). Although some studies (Hellinga, 2016) have indicated the
+importance of weather conditions on determining student commute modes, there remains a lack of studies speci<U+FB01>cally focusing on
+quantitative mode choice behaviors, and most of the existing literature re<U+FB02>ects weather conditions using only seasonal or weekly
+variations (Scheiner, 2016).
+    Nevertheless, the in<U+FB02>uence of weather conditions on behaviors for general travel purposes has been studied for several decades.
+For example, it has been shown that inclement weather, such as rain, snow, fog, cold, and high winds, impact tra<U+FB03>c safety, roadway
+capacity (Maze, et al., 2006), and travel route choices (Khattak and de Palma, 1997; Böcker et al., 2013). In particular, longer travel
+times for a car trip are required with heavier rain or snow due to reduced travel speeds (Tsapakis et al., 2013).
+    Thus, it seems plausible that school commute mode choices should also be a<U+FB00>ected by weather conditions. For example, sunny
+weather encourages students to walk and ride bicycles (Kamargianni et al., 2015), while students opt to take a bus or car to avoid
+walking on rainy days even when the distance to school is suitable for cycling or walking (Müller et al., 2008). Understanding the
+relationship between weather conditions and school commute characteristics will help policymakers implement appropriate management strategies and create more e<U+FB03>cient and viable policies.
+    In short, the existing literature analyzing the e<U+FB00>ect of weather conditions on school commute mode choices is limited. There are
+few studies that have examined di<U+FB00>erent countries, including Norway (Fyhri and Hjorthol, 2009), Germany (Müller et al., 2008), the
+United States (Sirard et al., 2005; Schlossberg et al., 2006), Canada (Mitra and Faulkner, 2012), the Netherlands (Hellinga, 2016),
+and Australia (Nankervis, 1999). However, these studies have primarily focused on North American and Western European countries
+rather than developing countries. Studies have also suggested that the empirical results of school commute models are likely to vary
+across di<U+FB00>erent regions (Sirard and Slater, 2008; Liu et al., 2015b). Therefore, this study seeks to present an econometrical analysis
+focusing speci<U+FB01>cally on the impact of weather conditions on school commute mode choices using the latest school commute survey
+data for Beijing and to provide references for similar cities in China and other countries.
+    The rest of the paper is organized as follows. Section 2 positions the paper in the context of past literature. In Section 3, we
+describe the adopted dataset and present descriptive results of the included variables. Section 4 presents the econometrical models
+used for analyses. In Sections 5 and 6, we summarize our key <U+FB01>ndings. Section 7 concludes the paper and discusses its limitations and
+directions for future research.
+2. Literature review
+    Previous studies (e.g., Yarlagadda and Srinivasan, 2008; He and Giuliano, 2017) have usually de<U+FB01>ned travel modes for school
+commutes as including walking, bicycle, taking public transport, and car. One of the major concerns in studying the behaviors of
+travel mode choices for school commutes is to understand factors a<U+FB00>ecting the active (walk and bicycle) travel modes (Martin et al.,
+2014), which have been considered a key source of physical activity for adolescents, especially in the present era of excessive screen-watching activities (Lauricella et al., 2015). Walking or cycling to school becomes important opportunities for adolescents to enjoy
+rigorous physical exercise. It has been widely recognized that active commuting is positively associated with psychological well-being
+(Martin et al., 2014; Chan and Ryan, 2009) and has been proposed as a strategy for reducing the prevalence of obesity and related
+diseases (Sirard et al., 2005) as well as enhancing the independence of children (Fyhri and Hjorthol, 2009).
+    Many factors have been investigated to examine their in<U+FB02>uence on school commute mode decisions, including the age, gender,
+and ethnicity of the student (Elias and Katoshevski-Cavari, 2014; Fyhri and Hjorthol, 2009; Hellinga, 2016), household car ownership
+(Larsen et al., 2009; Pojani and Boussauw, 2014; Schlossberg et al., 2006), land-use mix (Ewing et al., 2004; Kerr et al., 2007; Larsen
+et al., 2009), school size (Ewing et al., 2004), travel distance/time (Ewing et al., 2004; Fyhri and Hjorthol, 2009; Müller et al., 2008),
+mother’s working hours (Elias and Katoshevski-Cavari, 2014; He and Giuliano, 2017), number of children in the household (Hellinga,
+2016), and family income (Schlossberg et al., 2006).
+    Some of these factors exhibit consistent in<U+FB02>uential patterns across almost all studies. For example, travel distance has been shown
+to have a signi<U+FB01>cant impact on school commute mode choices; shorter distances promote the use of an active commuting mode
+(Ewing et al., 2004; Elias and Katoshevski-Cavari, 2014; Hellinga, 2016; He and Giuliano, 2017). However, some results have been
+inconsistent across studies due to discrepancies in the overall settings of variables and models, variable categorizations, sample sizes,
+and possibly unobserved heterogeneities relating to variations in student cohorts, regions, cultures, and religions (Singh and
+Vasudevan, 2018). For example, studies (e.g., Sidharthan et al., 2011) have found that an increase in age could result in higher odds
+of walking and bicycling for school commutes, although some studies (Wilson et al., 2010) have been unable to detect a well-de<U+FB01>ned
+relationship between age and school commute mode choices. Readers should consult a few studies (Pojani and Boussauw, 2014;
+Hellinga, 2016; Scheiner, 2016; Singh and Vasudevan, 2018; Li and Zhao, 2015; Cheng et al., 2017) for a more extensive and
+comprehensive review of the factors a<U+FB00>ecting school commute mode choices. In contrast to weather-related variables, these factors
+have been well studied.
+    For general purposes, the impact of weather conditions has been investigated in terms of public transit ridership (Arana et al.,
+2014; Singhal et al., 2014; Guo et al., 2007), pedestrian volume (Aultman-Hall et al. 2009), trip-purpose variation (Cools et al., 2010),
+departure time (De Palma and Rochat, 1999), and route choice (Khattak and de Palma, 1997). Days with adverse weather conditions,
+such as rain, wind, and low temperatures, are generally more likely to reduce propensities for using public transit, walking, and
+bicycling and correspondingly raise the use of passenger cars (Clark et al., 2014). Using regression models, quantitative results have
+also been presented in the literature. For example, younger travels have been found to be more sensitive to low temperatures than
+older age groups, and cyclists are more sensitive to precipitation, low temperatures, and wind than walkers (Flynn et al., 2012;
+Saneinejad et al., 2012).
+    These results and conclusions provide important references for understanding the weather’s impact on school commute behaviors,
+but school commutes have distinct features. Speci<U+FB01>cally, a regular trip could be canceled (Madre et al., 2007) due to poor weather
+conditions, leading to reduced overall demand (Aultman-Hall et al. 2009; Liu et al., 2015a; Bergström and Magnusson, 2003).
+However, the overall demand for school commutes is by nature less sensitive to weather conditions. Moreover, adverse weather
+conditions are associated with a higher rate of tra<U+FB03>c accidents (Koetse and Rietveld, 2009; Changnon, 1996; Edwards, 1999; Yu
+et al., 2015), raising safety concerns for parents making decisions on children’s school commute modes.
+    As mentioned above, the existing literature examining the relationship between weather conditions and school commuting behaviors is limited except for a few studies that consider weather-related variables in modeling school commute mode choices,
+including seasonal variations (Fyhri and Hjorthol, 2009; Müller et al., 2008), temperature characteristics (Sirard et al., 2005),
+precipitation (Mitra and Faulkner, 2012), and wind speed (Hellinga, 2016). Similar to a regular trip, poor weather has also been
+identi<U+FB01>ed as a primary reason for using passenger cars (Schlossberg et al., 2006), while some studies (Nankervis, 1999; Mitra and
+Faulkner, 2012) have reported that weather conditions are not strong barriers for students in choosing an active mode for school
+commutes. Thus, the in<U+FB02>uence of weather conditions on school commute behaviors is not <U+FB01>xed and may depend on di<U+FB00>erences in
+regions, student cohorts, and other variables.
+    Student travel behaviors have begun to raise concerns in Beijing because they are directly related to physical activities and health
+conditions of adolescents, to road tra<U+FB03>c performance, and to transportation planning and policies. Furthermore, Beijing has its own
+urban features and weather characteristics, e.g., poor air quality, and these can lead to special in<U+FB02>uential patterns between weather
+conditions and school commute mode choices. The fact that these characteristics of Beijing have not been considered in previous
+studies motivated the present study.
+    As one of China’s megacities, Beijing’s air quality is sometimes very poor (Li et al., 2015; Chen et al., 2016; Liu et al., 2017) due to
+excessive emissions from vehicles and neighboring industries, especially in winter. This study incorporates the air quality index (AQI)
+as an in<U+FB02>uential factor in the models of school commute mode choices. To our knowledge, this is the <U+FB01>rst time the AQI has been
+considered in travel demand models.
+    Although the weather’s impact on travel mode choices has been considered in research covering over three decades, studies
+speci<U+FB01>cally focusing on school commutes are limited. This study contributes to the literature by providing an empirical analysis of the
+weather’s impact on school commute mode choices using a recent large-scale survey in Beijing, China.
+3. Data
+3.1. Study area and the data source
+    Beijing is the capital city of China, with a population of more than 27 million. Based on the latest education census, the city has a
+school-going population of 1.8 million, creating approximately 1.0 million car-based person commutes every day. Although these car-based school commutes only account for approximately 10% of all car trips, urban tra<U+FB03>c conditions are very sensitive to these
+commutes because the overall tra<U+FB03>c pressure is high. In addition, because these school commutes are temporally and spatially
+concentrated, they could lead to serious tra<U+FB03>c jams on roads near schools and create bottlenecks throughout the overall network.
+    Beijing is implementing two special policies for controlling passenger car demand. First, approximately 80% of private cars are
+allowed traveling on the road, with rotations based on the last digit of license plate numbers. Second, the number of newly purchased
+private cars is controlled for the entire city. Every person wishing to buy a car must participate in a drawing, and the odds of winning
+are very small; hence, some households in Beijing do not own cars. For those households, taxis or ride-sourcing services are always an
+option. Thus, it is valid to have cars as an alternative for all the observations. In the survey, private cars, taxis, and ride-sourcing
+vehicles are not di<U+FB00>erentiated and are all designated as cars.
+    The data adopted in this study originated from the latest Beijing School Commute Survey conducted in December 2014 and
+January 2015. The geographic coverage of the dataset is the central area of Beijing, comprising six inner districts. The survey was
+conducted using an online questionnaire; the sampled students were required to <U+FB01>ll in a form via an internet website. The online
+questionnaire comprised questions about the student’s personal and household attributes and school commute characteristics. For
+commute-related questions, the students had to provide information about their latest school commute made prior to the day the
+questionnaire was completed.
+    The survey collected student and commute characteristics, while weather-related variables were matched from historical weather
+records. These weather-related variables corresponded to the departure time of each trip, although they were averaged across the six
+inner districts in Beijing. Note that the highest temperature was measured on a daily basis. The original survey covered students in
+primary school, middle school, and high school. Middle school students experience a transition period, including a growing independence. Thus, the lower-grade students in middle school might behave similarly to primary school students who require their
+parents’ company for their school commute, whereas the upper-grade students have more frequent opportunities to go to school by
+themselves. Thus, this study only focuses on middle school commutes, with the <U+FB01>nal dataset comprising 97,427 observations.
+3.2. Description of variables
+    There are four alternative transportation modes for school commutes, i.e., walking, bicycle, public transport, and car. Speci<U+FB01>cally,
+the bicycle mode includes regular bicycles and e-bicycles; the car mode includes private cars, taxis, and ride-sourcing vehicles; and
+the public transport mode includes buses, subways, and school buses. In Beijing, very few students take school buses as their daily
+travel mode to school.
+    Weather conditions in the original data include sky condition, wind speed, highest temperature, lowest temperature, AQI, hu-
+midity, and visibility. During the survey period, there were no rainy days. Thus, precipitation was not considered in this study. The
+lowest temperature and visibility were also dropped because they had no evident impact on school commute mode choices at the 95%
+signi<U+FB01>cance level.
+     All adopted continuous and categorical explanatory variables are described in Tables 1 and 2, respectively. Fig. 1 illustrates the
+variations in weather-related variables during the survey period. Each observation in the data represents a school trip and the
+associated information on weather conditions. Table 2 indicates that middle school students preferred public transport as a commuting mode over the other available modes. The proportion of walking to school is 19.0%, which is lower than in some countries.
+For example, a study in Australia indicated that 44.3% of female students and 37.4% of male students walk to school (Leslie et al.,
+2010). In Toronto in 2006, walking was the choice for 42.5% and 30.7% of school commutes for students 11–13 years old and
+14–15 years old, respectively (Buliung et al., 2009). Regarding sky conditions, most observed commutes (73.4%) occurred on days
+with good conditions, while 19.9% of commutes occurred on days with poor conditions. Humidity refers to the amount of water
+vapor in the air and indicates the likelihood of precipitation, dew, or fog. In this paper, relative humidity was adopted, which
+measures the current humidity relative to the maximum humidity at that temperature. AQI is an atmosphere variable of increasing
+interest. In practice, people intuitively perceive AQI as “good,” “poor,” and “terrible” corresponding to the ranges “=100,” “ > 100
+and =200,” and “ > 200,” respectively.
+4. Econometrical models
+    The multinomial logit (MNL) model provides a closed form for evaluating the chosen probability, leading to fewer computation
+pressures and clearer inferences on explanatory variables. However, the MNL model su<U+FB00>ers from the independence of irrelevant
+alternatives (IIA) property due to the assumption of the independently distributed error terms.
+    One way of removing this assumption is to consider a multivariate normal distribution for the error terms of the utilities, which
+leads to the multinomial probit (MNP) model. For individual i , eij for j = 1,2,…,J follows a multivariate normal distribution with mean
+zero and covariance matrix.
+    The covariance matrix for the error term di<U+FB00>erences is usually used in model estimation. More generally, with J alternatives, the
+number of the identi<U+FB01>able parameters of the covariance matrix is J × (J -1)/2-1, and it is almost impossible to interpret these
+parameters. The following analyses were performed with the aid of the “mlogit” package in R.
+5. Estimation results from the MNP and MNL models
+    The MNP and MNL models were used to test the e<U+FB00>ects of sky condition, wind speed, highest temperature, AQI, humidity,
+commute distance, and age of student on school commute mode choices. In addition, we also tested the e<U+FB00>ects of some interaction
+terms, and two important interactions (highest temperature plus humidity and AQI plus distance) were found to have signi<U+FB01>cant
+impacts. Table 3 reports the estimated coe<U+FB03>cients for both the MNP and MNL models. In this study, the dummy coding was adopted
+when specifying these categorical variables (Hensher et al., 2015). The results show that the MNP model is superior to the MNL model
+because the former has smaller AIC and BIC values and a larger McFadden R-squared. These characteristics indicate that the MNP
+model is able to mine more information from the data than the MNL model.
+    In the MNL model, the exponential function of a particular coe<U+FB03>cient of a categorical variable is the odds ratio of the particular
+travel mode relative to the reference level between the status and the reference status of this variable. However, the estimated
+probability depends on the magnitudes or levels of other variables (Ma et al., 2016). If the corresponding status of the variable (for
+the categorical variables) is taken or the magnitude of the variable (for the continuous variables) increases under the MNL specification, the probability of the travel mode with the largest coe<U+FB03>cient will increase, whereas the mode with the smallest coe<U+FB03>cient
+will decrease. For example, with an increase in wind speed, the probability of walking decreases (coe<U+FB03>cient of zero because the walk
+mode is the reference level), whereas the probability of using a car increases (coe<U+FB03>cient of 0.039 is the largest among the four
+modes). However, the direction of probability change of the bicycle and public transport modes cannot be inferred through the
+corresponding coe<U+FB03>cients. Note that such a rule is not valid for variables having interaction terms.
+    For the MNP model, it is further di<U+FB03>cult to interpret these coe<U+FB03>cients because the estimated probability is evaluated through a
+multiple integral involving the coe<U+FB03>cients of all variables. Thus, these coe<U+FB03>cients are more useful in predicting the probability of a
+travel mode for a given observation; they do not provide clear and direct indications for an understanding of the behavioral e<U+FB00>ects of
+variables. Therefore, this study introduces an empirical sensitivity analysis to overcome this issue, as illustrated in the next section.
+6. Sensitivity analyses
+6.1. De<U+FB01>nition of empirical sensitivity
+    In the MNP and MNL models, the estimated coe<U+FB03>cients cannot re<U+FB02>ect the overall impact of a particular variable directly because
+it also depends on the magnitudes of all other variables. Therefore, a “strict impact” for a given variable cannot be determined
+because there are many ways of combining one variable with the other variables. One empirical way for handling this issue is to
+aggregate the impact of a variable with respect to each observed sample, in which the combinations of variables are inherently
+contained. The results are expected to re<U+FB02>ect how the population reacts to hypothetical changes in variables providing a considerable
+sample size. For example, a type of elasticity (Eluru et al., 2012; Ma et al., 2016; Cameron and Trivedi, 2009) was de<U+FB01>ned in previous
+studies as the expected percentage change of the probability given a one-unit increase in the variable. In this study, empirical
+sensitivity was de<U+FB01>ned based on the elasticity with a minor modi<U+FB01>cation. Instead of <U+FB01>xing the change in a variable to be one unit,
+empirical sensitivity can be evaluated with respect to the changes in a variable of any amount. Eqs. (5) and (6) provide the formulas
+de<U+FB01>ning empirical sensitivity.
+6.2. Single-variable sensitivity
+    Table 4 reports the empirical sensitivity for each variable according to the MNP and MNL models. These numbers are the
+percentage changes in the probability of a travel mode with respect to changes in each variable. Positive values of sensitivity indicate
+an increase in the probability, whereas negative values indicate the opposite. The empirical sensitivities in Table 4 exhibit generally
+consistent in<U+FB02>uence patterns across the two models with only minor discrepancies in magnitude.
+6.2.1. Sky conditions
+     According to Table 4, the qualitative impact of sky conditions on school commute mode choices is the same across the MNP and
+MNL models and di<U+FB00>ers only slightly in magnitude. With a change in sky conditions from good to fair, the probabilities of walking,
+cycling, and taking public transport are expected to decrease by 2.3%, 21.5%, and 2.1%, respectively according to the MNP model.
+Moreover, the number of students choosing a car to go to school increases by 18.1%. Such a pattern is in line with previous studies
+(e.g., Bergström and Magnusson, 2003) showing that poor weather promotes the use of cars. In fact, the market shares of walking and
+using public transport change in very slight amounts, although cycling drops substantially, which accounts for the major proportion
+of the students who turn to the car mode. Moreover, when sky conditions continue to change (from fair to poor), the above-discussed
+trend takes the opposite direction, where the car mode share decreases. When sky conditions worsen, tra<U+FB03>c may become congested
+and visibility is reduced, which raises resistant concerns about using cars.
+6.2.2. Wind speed
+     Table 4 presents the modal shift results with respect to two di<U+FB00>erent levels of wind speed increments, namely, 1 m/s and 5 m/s.
+With an increase in wind speed, walking, cycling, and public transport are less likely to be used, resulting in the increased use of cars.
+It is easy to understand the decline in walking and cycling because the wind impacts these unprotected active travel modes directly
+(Saneinejad et al., 2012; Flynn et al., 2012). Speci<U+FB01>cally, the bicycle mode is more sensitive to the in<U+FB02>uence of high wind speeds than
+the walking mode. For a 1 m/s increase in wind speed, the probabilities of walking and cycling are expected to decrease by 0.4% and
+0.8%, respectively, while for a 5 m/s increase in wind speed, the drop is 1.8% and 3.5%, respectively, according to the MNP model.
+Furthermore, public transport is also unwelcome on windy days. Note that students typically walk to bus stops, and they also have to
+wait for the bus, which would directly expose them to the wind. Such a result is consistent with those of previous studies (e.g., Guo
+et al., 2007; Arana et al., 2014). Note that these qualitative results regarding wind speed are consistent between the MNP and MNL
+models.
+6.2.3. Highest temperature
+     The responding modal shifts with respect to the highest temperature increments of 2 °C and 4 °C were investigated. The trend
+remains consistent for the two di<U+FB00>erent settings; with an increase in the highest temperature, walking and public transport become
+less attractive. This <U+FB01>nding is consistent with Liu et al. (2015a), who showed that commuters tend to walk less when the temperature
+rises on a “colder than normal” day. The reason is that when the temperature rises in winter, cycling and driving becomes safer (Zhou
+et al., 2017) because, in cold winter weather, with a temperature below 0 °C (the lowest temperature ranged from -8°C to 0 °C during
+the survey), the pavement may be icy and prone to tra<U+FB03>c accidents.
+     Of all four modes, cycling is the most sensitive to temperature variations; its market share is expected to increase by 14.7% for an
+increase in the highest temperature by 4 °C according to the MNP model. This is in line with the results obtained by Helbich et al.
+(2014), whereas some contrary results (Noland, 1995; Amiri and Sadeghpour, 2014) have also been found. Note that these qualitative
+results regarding the highest temperature are consistent between the MNP and MNL models.
+6.2.4. AQI
+     To our knowledge, no studies have considered the impact of the AQI on school commuting behaviors. One possible reason is that
+the AQI in the study areas of past studies was low and had small variations and hence imposed a negligible in<U+FB02>uence on travel
+behaviors. However, the estimated model indicates that the AQI has a signi<U+FB01>cant impact on school commute mode choices in Beijing.
+According to Table 4, the mode shares vary slightly when the AQI changes from good to poor, with the average probability of
+walking, cycling and taking public transport decreasing by 3.4%, 5.9%, and 6.0%, respectively, whereas choosing to use a car
+increases by 14.7% (MNP model). However, when air pollution changes from poor to terrible, there is a striking shift in the commute
+mode choices.
+     Children are known to be more vulnerable to the adverse e<U+FB00>ects of air pollution than adults. Epidemiological studies have
+reported that the developing lungs of a child are highly susceptible to damage after exposure to air pollution and may show decreased
+growth in lung functions (Kim, 2004). The estimation results indicate that when the AQI deteriorates from poor to terrible, an average
+of 16.4% of walkers and 93.9% of cyclists abandoned the active transport mode to avoid exposure to air pollution. These students
+turned instead to public transport and cars, resulting in a 35.0% increase in the public transport mode and a 16.4% increase in the car
+mode. Interestingly, public transport is more appealing than cars provided that the AQI rises to “terrible,” which is counterintuitive
+because the car mode provides better air quality due to its air conditioning system. One of the reasons is that some households do not
+own a vehicle in Beijing due to the special policy controlling citywide vehicle ownership (see Section 3.1 of this paper). Moreover,
+during days with extremely terrible air quality, only half of the vehicles are allowed to travel, with rotations based on the last digit of
+the license plate numbers in Beijing. To some extent, these special regulations prevent students from choosing cars for their commute
+to school. Note that these qualitative results regarding the AQI are consistent between the MNP and MNL models.
+6.2.5. Humidity
+     As shown in many studies, humidity a<U+FB00>ects travelers’ mode choice behaviors (Aultman-Hall et al., 2009; Amiri and Sadeghpour,
+2014; Nankervis, 1999; Liu et al., 2015a). In this study, empirical sensitivities corresponding to 10% and 20% humidity increases
+were investigated. Among the four modes, walking is the least sensitive to humidity variations, which is in line with Aultman-Hall
+et al. (2009), who found that humidity has a limited e<U+FB00>ect on pedestrians. In contrast, the bicycle mode share drops substantially for
+an increase in humidity. According to the MNP model, the sensitive e<U+FB00>ect indicates that 15.9% of cyclists turn to other modes when
+the humidity increases by 20%. The MNP model also indicates that the public transport and car modes are positively a<U+FB00>ected by an
+increase in humidity. Speci<U+FB01>cally, a 20% increase in humidity is associated with a 3.1% rise in public transport and a 4.3% rise in car
+usage. In the cold season, the perceived temperature is lower than the air temperature under higher humidity, making the public
+transport and car modes more favorable to students than the active modes. According to the MNL model, the public transport mode is
+not sensitive to variations in humidity. Minor reductions (0.1% and 0.4% for humidity increases of 10% and 20%, respectively) of
+public transport use were found. The reduction in the active mode commutes makes students turn to using cars.
+6.2.6. Commute distance
+    Commute distance has long been recognized as an important variable a<U+FB00>ecting mode choice decisions (Ewing et al., 2004; Fyhri
+and Hjorthol, 2009; Müller et al., 2008). However, there are no <U+FB01>xed rules for which modes become more attractive with an increase
+in distance; how these modes shift will depend on the actual increase in that distance. Thus, this study investigates the e<U+FB00>ects of three
+di<U+FB00>erent increments (1 km, 2 km, and 5 km) of distance on school commute mode choices. As the distance increases, the propensity
+for the walking mode is consistently reduced. For a 5 km increment in distance, nearly not students walk to school (a 98.7% drop).
+Meanwhile, the proportion of students using public transport and cars increases dramatically.
+    As for the bicycle mode, its use is not consistently reduced with an increase in distance. According to the MNP model, the number of
+students choosing the bicycle mode for their school commute is reduced by 47.7% when the distance increases by 5 km, while it slightly
+increases (0.8%) for a 1 km increment in distance. However, such a result has rarely been investigated in previous studies focusing on
+school commute mode choices. Note that these qualitative results regarding distance are consistent between the MNP and MNL models.
+6.2.7. Age of student
+    The ages of the studied students range from 12 to 14, corresponding to grades 7 to 9. Older students are more likely to walk to
+school, which is in line with previous studies (e.g., Elias and Katoshevski-Cavari, 2014). However, the market share of bicycle
+commutes decreases substantially when the age increases from 12 to 13, which contradicts some prior studies (e.g., Wati and Tranter,
+2015). In China, many parents use a children’s seat on their bicycles or e-bicycles to transport their children to school. Thus, as the
+students become more independent as they grow older, the market share of bicycle commutes decreases because of the reduction in
+the number of students going to school on a children’s bicycle seat.
+    Regarding the public transport and car modes, their shifts are relatively small in contrast to the walking and bicycle modes. This is
+probably because the age range in this study is too narrow to re<U+FB02>ect a substantial variation. In fact, students have more <U+FB02>exibility when
+making mode choice decisions for their school commutes as they become more independent (e.g., He and Giuliano, 2017). Thus, for older
+students, more frequent car commutes are expected, which is probably because some of them are able to take a taxi or e-hail a car by
+themselves. Slight discrepancies were found between the MNP and MNL models in the shifts for the public transport and car modes for
+students of age 12 to 13. The MNP model indicates a 1.4% decrease and a 2.6% increase in the public transport and car modes, respectively, whereas the MNL model indicates a 3.0% increase and a 2.1% increase in the public transport and car modes, respectively.
+6.3. Two-variable sensitivity
+    The above analyses considered the impact of a single variable on school commute mode choices. It is also interesting to explore
+how the modal split of school commutes reacts to simultaneous changes in two variables. In a linear regression model, the interaction
+e<U+FB00>ects between variables can be investigated directly through the coe<U+FB03>cient associated with the interaction terms. However, in the
+MNP and MNL models, we can understand the interaction e<U+FB00>ects only through the coe<U+FB03>cients associated with the interaction terms.
+The probability function is nonlinearly related to the interaction term and the corresponding marginal terms as well as other variables, making the e<U+FB00>ect from the interaction term confounded by other variables. Speci<U+FB01>cally, the interaction term and the corresponding marginal terms are inherently connected, leading to a more di<U+FB03>cult situation for interpretation. This section presents the
+empirical sensitivities with respect to di<U+FB00>erent combined changes in two variables. Figs. 2 and 3 illustrate the empirical sensitivities
+for the combination of the highest temperature plus humidity and the AQI plus commute distance, respectively. The trend lines of one
+variable for di<U+FB00>erent levels of the other variable are shown. If these lines are parallel to each other, we can assume that the interaction e<U+FB00>ect between these variables is small (in the sense of the de<U+FB01>ned sensitivity).
+6.3.1. Highest temperature plus humidity
+    Along with an increase in the highest temperature, the variation in the sensitivity of the walking mode due to humidity increases.
+However, there is no obvious interaction e<U+FB00>ect between the highest temperature and humidity on the sensitivities for both the bicycle
+and public transport modes. For the public transport and car modes, the sensitivities are substantially di<U+FB00>erent between the MNP and
+MNL models. In the MNP model, the usage of the public transport and car modes is less sensitive to the changes in both the highest
+temperature and humidity, and the interaction e<U+FB00>ects between the highest temperature and humidity are not substantial, which is
+probably because the range of the highest temperature during the survey period is too narrow to re<U+FB02>ect their interaction. In fact, high
+humidity could make the weather feel colder in winter, leading to a larger decrease in bicycle school commutes.
+6.3.2. AQI plus commute distance
+    Fig. 3 illustrates the empirical sensitivities with respect to di<U+FB00>erent combined changes in the AQI and commute distance for both
+the MNP and MNL models. The two models illustrate similar in<U+FB02>uence patterns for the combined changes of the two variables on all
+four school commute modes. For the walking mode, there is no obvious interaction e<U+FB00>ect between the two variables at the low levels
+of distance increases (less than 2 km); as the distance continues to increase, the sensitivity of the walking mode decreases rapidly as
+the AQI changes from good to poor.
+    As the AQI changes from poor to terrible, there are almost no bicycle school commutes, even for a smaller increase in distance (1
+km). Thus, the e<U+FB00>ect of distance is negligible. For a better AQI condition, the commute distance exhibits a large in<U+FB02>uence on the
+probability of the bicycle mode. For the public transport mode, the interaction e<U+FB00>ect is not substantial. For the car mode, given that
+the AQI changes from good to poor, the sensitivity increases along with an increase in the commute distance. However, if the AQI
+continues to deteriorate along with an increase in the commute distance, car usage increases at a lower rate and eventually ceases to
+grow, remaining at a <U+FB01>xed level.
+7. Discussion and conclusions
+7.1. General conclusions and practical implications
+   This paper aims to examine the impact of weather conditions on middle school students' commuting behaviors, speci<U+FB01>cally
+focusing on commute mode choice decisions. One of the intentions of this study is to understand how the students’ decisions shift
+with respect to variations in in<U+FB02>uential factors, with empirical emphases on the situation in Beijing. The latest school commute survey
+data for Beijing was collected and input into the MNP and MNL models. The estimation results present many important <U+FB01>ndings not
+only in terms of identifying speci<U+FB01>c factors that in<U+FB02>uence school commute mode choice behaviors but also in terms of quantifying the
+magnitude of the e<U+FB00>ects and how this magnitude may vary across mode alternatives.
+    This study investigates the e<U+FB00>ects of each factor with respect to multi-level changes, and hence more complicated behaviors are
+revealed, illustrating nonmonotonic in<U+FB02>uential patterns for some variables. Most of the results can be explained by general conclusions from previous studies. There are also contrary <U+FB01>ndings, which re<U+FB02>ect the special situation in Beijing. For example, some
+households do not own a car because car ownership is restricted in Beijing and car travel is also highly restricted during days of
+extremely terrible air quality. Therefore, when air quality attains the “terrible” level, students rely more on public transport than cars.
+    These results could have important implications for future transportation development and may provide references for policymakers
+and planners. First, developing a school bus system is strongly suggested because the regular public transport system would face high
+pressure on days with poor sky conditions or terrible air quality. Equipping school buses with an air <U+FB01>ltering system is also recommended.
+Second, active transportation modes should be encouraged in good weather conditions. As illustrated, the commute distance is the most
+direct and in<U+FB02>uential factor playing a crucial role in the decision-making process of school commute mode choices. A 1 km increase in
+distance results in 34.9% fewer students walking to school according to the MNP model. One strategic suggestion is to consider the
+commute distance when selecting sites for new schools. Because the data were collected during winter, the conclusions are limited to
+winter situations. More general conclusions would require further veri<U+FB01>cation using data collected during other seasons.
+7.2. Limitations and future directions of research
+    The current variable setting is su<U+FB03>cient for an understanding of the macroscopic-level relationships between school commute
+mode choices and weather conditions and hence for proposing strategic policies and planning implications. However, these sensitivity measures will change under di<U+FB00>erent variable settings. Some unobserved variables could play an important role in our understanding of the decision-making process of school commute mode choices. Thus, in future studies, it would be useful to include
+additional explanatory variables, such as household and parents’ attributes, land-use mix, urban forms, and characteristics of
+transportation facilities to enhance the modeling performance and to re<U+FB01>ne the behavioral results. Another avenue for tackling this
+issue is to use more advanced econometrical models, e.g., the random-parameters model and the <U+FB01>nite mixture model, to consider
+potential heterogeneities originating from unobserved variables.
+    Weather conditions comprise many di<U+FB00>erent aspects. Due to the survey duration, which covered only two winter months, seasonal
+variations and precipitation were not observed in the dataset. Hence, the models and corresponding results are necessary to be re-estimated when data for other seasons or on days with rain or snow become available.
+    In addition to the issue of variable setting, the modeling results also rely on di<U+FB00>erent cities and student groups. It would also be
+interesting to compare our current results with other student groups or other cities in China as well as cities in other countries.
