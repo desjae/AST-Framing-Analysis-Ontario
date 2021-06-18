@@ -51,6 +51,7 @@ library(tidytext)
 library(tm) 
 library(tools)
 library(topicmodels)
+library(widyr)
 library(word2vec)
 library(wordcloud)
 ```
@@ -175,7 +176,7 @@ imports texts that were manually cleaned
 
 ```{r}
 # location of manually cleaned .txt documents
-cleantxtLocation <- "Cleaned .txt/Academic Papers"
+cleantxtLocation <- "Cleaned .txt/Policy"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
 n <- 1 
@@ -368,19 +369,21 @@ bigrams_separated <- test_bigrams %>%
 bigram_counts <- bigrams_separated %>% 
   count(word1, word2, sort = TRUE)
 
-a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
 
 # Adjust the parameter below to filter out based on number of occurence
 # Error will occur if n is outide the range of occurences 
 
 bigram_graph <- bigram_counts %>%
-  filter(n > 100) %>%
+  filter(n > 10) %>%
   graph_from_data_frame()
 
 set.seed(2021)
 
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
 ggraph(bigram_graph, layout = "fr") +
-  geom_edge_link() +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
   geom_node_point(color = "lightgreen", size = 4) +
   geom_node_text(aes(label = name), repel = TRUE) + 
   theme_void()
@@ -395,7 +398,7 @@ Word cloud is a nice visual way to view the most common words in your text docum
 v <- sort(rowSums(matrix1), decreasing= TRUE)
 d <- data.frame(word = names(v), freq=v)
 set.seed(4321)
-wordcloud(d$word, d$freq, min.freq = 10, max.words = 50, random.order = FALSE, rot.per = 0.5, random.color = TRUE)
+wordcloud(d$word, d$freq, min.freq = 25, max.words = 50, random.order = FALSE, rot.per = 0.5, random.color = TRUE)
 ```
 
 # GloVe Word Embeddings 
@@ -683,6 +686,91 @@ bing <- get_sentiments(lexicon = "nrc")
 colnames(vocab)[1] <- "word"
 senti <- inner_join(bing, vocab, by= "word")
 
+```
+
+```{r}
+library(widyr)
+
+words <- td_corpus %>%
+  unnest_tokens(word, text, token = "ngrams", n = 1)
+
+# word_count <- words %>%
+#   count(word, sort = TRUE)
+
+word_pairs <- words %>%
+  pairwise_count(word, id, sort = TRUE)
+
+word_pairs %>%
+  filter(item1 == "traffic")
+  
+```
+```{r}
+word_pairs %>%
+  filter(item1 %in% c("traffic", "safety", "urban", "street")) %>%
+  group_by(item1) %>%
+  slice_max(n, n = 10) %>%
+  ungroup() %>%
+  mutate(item2 = reorder(item2, n)) %>%
+  ggplot(aes(item2, n)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~ item1, scales = "free") +
+  coord_flip()
+```
+
+```{r}
+word_cors <- words %>% 
+  group_by(word) %>% 
+  filter(n() >= 10) %>%
+  pairwise_cor(word, id, sort = TRUE)
+
+```
+
+```{r}
+
+word_cors %>%
+  filter(item1 == "traffic")
+
+word_cors %>%
+  filter(item1 == "safety")
+
+word_cors %>%
+  filter(item1 == "urban")
+
+word_cors %>%
+  filter(item1 == "car")
+
+word_cors %>%
+  filter(item1 == "transit")
+
+word_cors %>%
+  filter(item1 == "independent")
+
+word_cors %>%
+  filter(item1 == "transit")
+
+word_cors %>%
+  filter(item1 == "street")
+
+word_cors %>%
+  filter(item1 == "age")
+
+word_cors %>%
+  filter(item1 == "parental")
+
+
+
+```
+```{r}
+word_cors %>%
+  filter(item1 %in% c("traffic", "independent", "safety", "urban", "density", "street")) %>%
+  group_by(item1) %>%
+  slice_max(correlation, n = 7) %>%
+  ungroup() %>%
+  mutate(item2 = reorder(item2, correlation)) %>%
+  ggplot(aes(item2, correlation)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~ item1, scales = "free") +
+  coord_flip()
 ```
 
 
