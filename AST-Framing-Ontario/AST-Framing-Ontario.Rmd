@@ -51,11 +51,26 @@ output: rticles::elsevier_article
 ---
 
 ```{r, include=FALSE}
-library(tm)
-library(readr)
-library(tools)
 library(DiagrammeR)
+library(dplyr)
+library(ggraph)
+library(ggplot2)
+library(igraph)
 library(kableExtra)
+library(pdftools)
+library(readr)
+library(reshape2)
+library(stringr)
+library(text2vec)
+library(textdata)
+library(tidyr)
+library(tidytext)
+library(tm) 
+library(tools)
+library(topicmodels)
+library(widyr)
+library(word2vec)
+library(wordcloud)
 ```
 
 1. Introduction
@@ -362,7 +377,6 @@ ggraph(policy_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-
 Academic Bi-gram visualizations 
 ```{r}
 academic_bigrams_separated <- academic_bigrams %>%
@@ -390,6 +404,19 @@ ggraph(academic_bigram_graph, layout = "fr") +
   geom_node_text(aes(label = name), repel = TRUE) + 
   theme_void()
 
+```
+
+Academic corpus vocabulary 
+```{r}
+# Create new data frame with the cleaned corpus 
+AcademicTextDF <- data.frame(text = sapply(academic_corpus, as.character), stringsAsFactors = FALSE)
+
+it_train = itoken(AcademicTextDF$text, progressbar = FALSE)
+academic_vocab = create_vocabulary(it_train)
+
+# Cut out terms that have a minimum count of 5 
+academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 5)
+academic_vocab
 ```
 
 ### 2.2.1. Academic papers
