@@ -44,13 +44,13 @@ abstract: |
 journal: "Journal of Transport & Health"
 date: "`r Sys.Date()`"
 bibliography: mybibfile.bib
-#linenumbers: true
+linenumbers: false
 #numbersections: true
 csl: elsevier-harvard.csl
 output: rticles::elsevier_article
 ---
 
-```{r, include=FALSE}
+```{r load-packages, include=FALSE}
 library(DiagrammeR)
 library(dplyr)
 library(ggraph)
@@ -72,6 +72,26 @@ library(widyr)
 library(word2vec)
 library(wordcloud)
 ```
+
+```{r load-data, include=FALSE}
+load(file= "Corpus .rda/academic_corpus.rda")
+load(file= "Corpus .rda/municipal_corpus.rda")
+load(file= "Corpus .rda/consortium_corpus.rda")
+load(file= "Corpus .rda/school_corpus.rda")
+load(file= "Corpus .rda/policy_corpus.rda")
+```
+
+```{r package-bib, include=FALSE}
+# This function is used to write a bibliography for the `R` packages used in the paper
+knitr::write_bib(file = 'packages.bib')
+```
+
+  ***Background***:  
+  ***Methods***:  
+  ***Results***: 
+  ***Conclusions***:   
+  
+\newpage
 
 1. Introduction
 ===============
@@ -106,16 +126,12 @@ Any goals for AST, and also CIM, ought to be clearly articulated and reflected i
 
 The aim of this paper is to analyze how AST is framed by STP stakeholders in Ontario, Canada. We used topic modelling and content analysis to examine how the benefits and barriers of AST are presented and which solutions for improving AST are identified in local policy documents from Ontario municipalities and school boards. We compared these documents to a selection of studies on AST and CIM to explore the extent to which research findings have trickled down to inform policy and planning for AST interventions.
 
-2. Methods
+2. Data
 ===============
 
-## 2.1. Case study: Ontario, Canada
+## 2.1. Data retrieval
 
-In 2017, the provincial government of Ontario issued funding to Green Communities Canada (GCC), a non-profit organization, to launch the _Ontario Active School Travel_ (OAST) program. The program provides funding for school and community-based initiatives and supports stakeholders in municipalities across the province to implement STP and other interventions aimed at increasing AST. As of 2021, OAST has funded _X_ projects in Ontario. GCC continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipal or regional governments, and regional transportation consortia. The latter are dedicated transportation bodies that deliver efficient and effective transportation services, which generally focuses on providing the school busing service to families in their associated region.
-
-## 2.2. Data retrieval
-
-### 2.2.1. Policy documents
+### 2.1.1. Policy documents
 
 To determine which stakeholder groups are typically involved in AST and/or STP initiatives in Ontario, we first conducted a preliminary scan of current and past projects funded by the _Ontario Active School Travel_. We found that projects are often led in collaboration by a school board, the respective municipality or region (i.e., transportation planners, public health professionals, engineers, etc.), and the regional transportation consortia. Non-profit organizations, police services, and advocacy groups are other stakeholders who may play a role in supporting AST and/or STP. 
 
@@ -123,9 +139,9 @@ We then assembled a collection of publicly available documents that were sourced
 
 The initial policy corpus included 64 relevant policy documents (i.e., one webpage or more) from all main stakeholder groups. It is important to note that school boards, municipalities, and transportation consortia may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents. Search results are summarized in Table \ref{tab:search-results}.
 
-```{r search-results, echo=FALSE}
+```{r policy-documents, echo=FALSE}
 data_tbl <- data.frame(
-  Stakeholder = c("English school boards", "Municipal or regional governments", "Transportation Consortia"),
+  Stakeholder = c("English school boards", "Municipalities or regions", "Transportation consortia"),
   Total = c("62", "62", "39"),
   Included = c("31", "25", "8")
 )
@@ -133,7 +149,7 @@ data_tbl <- data.frame(
 kable(data_tbl,
       "latex",
       booktabs = TRUE,
-      caption = "\\label{tab:search-results}Search results from the main stakeholder groups.") %>%
+      caption = "\\label{tab:search-results}Search results from the main STP stakeholder groups.") %>%
   kable_paper(full_width = F) %>%
   column_spec(1, bold = T, border_right = T) %>%
   column_spec(2, width = "30em") %>%
@@ -141,17 +157,37 @@ kable(data_tbl,
   kable_styling(latex_options = c("striped", "scale_down"))
 ```
 
-Loading in clean corpus. These are the products of 'Data Pre-Processing.Rmd'
-```{r}
-load(file= "Corpus .rda/academic_corpus.rda")
-load(file= "Corpus .rda/municipal_corpus.rda")
-load(file= "Corpus .rda/consortium_corpus.rda")
-load(file= "Corpus .rda/school_corpus.rda")
-load(file= "Corpus .rda/policy_corpus.rda")
-```
+### 2.2.1. Academic papers
 
-Municipal Bi/Trigrams
-```{r}
+## 2.2. Data cleaning
+
+A multi-step process was conducted to ensure that the analysis captured as much  content as possible from both the policy documents (n = 64) and academic papers (n = 233). We manually removed any extraneous material in the documents that did not pertain to AST specifically. This included footnotes, references, acknowledgments, and conflict of interest statements in the academic papers. We removed all phone numbers, inserted links to other webpages, personal names, and content not to specific to AST from the policy documents that were retrieved from the websites of school boards, municipalities, and transportation consortia.
+
+To begin, the webpages, which were manually downloaded in portable document format (PDF), were trimmed so that pages that only consisted of tables, figures, or references were removed. Many academic papers were in a two-column format, which is not ideal for conversion to `txt`. We adapted a procedure (https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r) to read the two-column PDF documents so that they would be converted correctly. Four academic papers did not join sufficiently and were taken out of the corpus due to the substantial time required to manually correct their inconsistencies.
+
+We then converted the trimmed PDF documents into `txt` files so that they could be imported in `R` for topic modelling. We proceeded to a manual cleaning phase where we removed any remaining tables, figures, references, headers/footings, and captions that could not be trimmed. Manual corrections were also required for certain pages in academic papers that remained in two-column format after the conversion process. This typically occured on pages that had a table or figure which disrupted the text. Finally, we reviewed all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) were fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+
+At this point, the documents were imported into the corpus in `R` and added to a data frame for analysis. In the final step before analysis, we removed all blank spaces, punctuation, capitalization, and numbers. English stop words, which are common words such as _and_ or _the_ as identified in a predetermined list by Lewis et al. [@R-tm] and other frequent terms in the documents like places were removed from the corpus.  
+
+3. Methods
+===============
+
+## 3.1. Case study: Ontario, Canada
+
+In 2017, the provincial government of Ontario issued funding to Green Communities Canada (GCC), a non-profit organization, to launch the _Ontario Active School Travel_ (OAST) program. The program provides funding for school and community-based initiatives and supports stakeholders in municipalities across the province to implement STP and other interventions aimed at increasing AST. As of 2021, OAST has funded _X_ projects in Ontario. GCC continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipal or regional governments, and regional transportation consortia. The latter are dedicated transportation bodies that deliver efficient and effective transportation services, which generally focuses on providing the school busing service to families in their associated region.
+
+## 3.2. Topic modelling
+
+## 3.3. Summative content analysis
+
+## 3.4. Reproducibility
+
+This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download.
+
+4. Results
+===============
+
+```{r city-bigrams, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_municipal_corpus <- tidy(municipal_corpus)
 
@@ -161,8 +197,8 @@ municipal_bigrams <- td_municipal_corpus %>%
 
 municipal_trigrams <- td_municipal_corpus %>%
   unnest_tokens(trigram, text, token = "ngrams", n = 3)
-# Bigrams & Trigrams that are most common 
 
+# Bigrams and trigrams that are most common 
 top_municipal_bigrams <- municipal_bigrams %>%
   count(bigram, sort = TRUE)
 
@@ -173,8 +209,8 @@ top_municipal_bigrams
 top_municipal_trigrams
 ```
 
-Consortium Bi/Trigrams
-```{r}
+```{r consortia-bigrams, echo=FALSE}
+
 # Converting corpus to tidytext data type 
 td_consortium_corpus <- tidy(consortium_corpus)
 
@@ -184,8 +220,8 @@ consortium_bigrams <- td_consortium_corpus %>%
 
 consortium_trigrams <- td_consortium_corpus %>%
   unnest_tokens(trigram, text, token = "ngrams", n = 3)
-# Bigrams & Trigrams that are most common 
 
+# Bigrams and trigrams that are most common 
 top_consortium_bigrams <- consortium_bigrams %>%
   count(bigram, sort = TRUE)
 
@@ -196,8 +232,8 @@ top_consortium_bigrams
 top_consortium_trigrams
 ```
 
-School board Bi/Trigrams
-```{r}
+```{r school-bigrams, echo=FALSE}
+
 # Converting corpus to tidytext data type 
 td_school_corpus <- tidy(school_corpus)
 
@@ -207,8 +243,8 @@ school_bigrams <- td_school_corpus %>%
 
 school_trigrams <- td_school_corpus %>%
   unnest_tokens(trigram, text, token = "ngrams", n = 3)
-# Bigrams & Trigrams that are most common 
 
+# Bigrams and trigrams that are most common 
 top_school_bigrams <- school_bigrams %>%
   count(bigram, sort = TRUE)
 
@@ -219,8 +255,8 @@ top_school_bigrams
 top_school_trigrams
 ```
 
-Policy Bi/Trigrams
-```{r}
+```{r policy-bigrams, echo=FALSE}
+
 # Converting corpus to tidytext data type 
 td_policy_corpus <- tidy(policy_corpus)
 
@@ -230,8 +266,8 @@ policy_bigrams <- td_policy_corpus %>%
 
 policy_trigrams <- td_policy_corpus %>%
   unnest_tokens(trigram, text, token = "ngrams", n = 3)
-# Bigrams & Trigrams that are most common 
 
+# Bigrams and trigrams that are most common 
 top_policy_bigrams <- policy_bigrams %>%
   count(bigram, sort = TRUE)
 
@@ -242,8 +278,8 @@ top_policy_bigrams
 top_policy_trigrams
 ```
 
-Academic Bi/Trigrams
-```{r}
+```{r academic-bigrams, echo=FALSE}
+
 # Converting corpus to tidytext data type 
 td_academic_corpus <- tidy(academic_corpus)
 
@@ -253,8 +289,8 @@ academic_bigrams <- td_academic_corpus %>%
 
 academic_trigrams <- td_academic_corpus %>%
   unnest_tokens(trigram, text, token = "ngrams", n = 3)
-# Bigrams & Trigrams that are most common 
 
+# Bigrams and trigrams that are most common 
 top_academic_bigrams <- academic_bigrams %>%
   count(bigram, sort = TRUE)
 
@@ -265,8 +301,7 @@ top_academic_bigrams
 top_academic_trigrams
 ```
 
-Municipal Bi-gram visualizations 
-```{r}
+```{r city-visual, echo=FALSE}
 municipal_bigrams_separated <- municipal_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -274,8 +309,9 @@ municipal_bigram_counts <- municipal_bigrams_separated %>%
   count(word1, word2, sort = TRUE)
 
 
-# Adjust the parameter below to filter out based on number of occurence
-# Error will occur if n is outide the range of occurences 
+# Adjust the parameter below to filter out based on number of occurrence
+
+# Error will occur if n is outide the range of occurrences 
 
 municipal_bigram_graph <- municipal_bigram_counts %>%
   filter(n > 8) %>%
@@ -293,8 +329,7 @@ ggraph(municipal_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-Consortium Bi-gram visualizations 
-```{r}
+```{r consortia-visual, echo=FALSE}
 consortium_bigrams_separated <- consortium_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -302,8 +337,9 @@ consortium_bigram_counts <- consortium_bigrams_separated %>%
   count(word1, word2, sort = TRUE)
 
 
-# Adjust the parameter below to filter out based on number of occurence
-# Error will occur if n is outide the range of occurences 
+# Adjust the parameter below to filter out based on number of occurrence
+
+# Error will occur if n is outide the range of occurrences 
 
 consortium_bigram_graph <- consortium_bigram_counts %>%
   filter(n > 5) %>%
@@ -320,9 +356,8 @@ ggraph(consortium_bigram_graph, layout = "fr") +
   geom_node_text(aes(label = name), repel = TRUE) + 
   theme_void()
 ```
-
-School Board Bi-gram visualizations 
-```{r}
+ 
+```{r school-visual, echo=FALSE}
 school_bigrams_separated <- school_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -330,8 +365,9 @@ school_bigram_counts <- school_bigrams_separated %>%
   count(word1, word2, sort = TRUE)
 
 
-# Adjust the parameter below to filter out based on number of occurence
-# Error will occur if n is outide the range of occurences 
+# Adjust the parameter below to filter out based on number of occurrence
+
+# Error will occur if n is outide the range of occurrences 
 
 school_bigram_graph <- school_bigram_counts %>%
   filter(n > 8) %>%
@@ -349,8 +385,7 @@ ggraph(school_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-Policy Bi-gram visualizations 
-```{r}
+```{r policy-visual, echo=FALSE}
 policy_bigrams_separated <- policy_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -358,8 +393,9 @@ policy_bigram_counts <- policy_bigrams_separated %>%
   count(word1, word2, sort = TRUE)
 
 
-# Adjust the parameter below to filter out based on number of occurence
-# Error will occur if n is outide the range of occurences 
+# Adjust the parameter below to filter out based on number of occurrence
+
+# Error will occur if n is outide the range of occurrences 
 
 policy_bigram_graph <- policy_bigram_counts %>%
   filter(n > 10) %>%
@@ -377,17 +413,16 @@ ggraph(policy_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-Academic Bi-gram visualizations 
-```{r}
+```{r academic-visual, echo=FALSE}
 academic_bigrams_separated <- academic_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
 academic_bigram_counts <- academic_bigrams_separated %>% 
   count(word1, word2, sort = TRUE)
 
+# Adjust the parameter below to filter out based on number of occurrence
 
-# Adjust the parameter below to filter out based on number of occurence
-# Error will occur if n is outide the range of occurences 
+# Error will occur if n is outside the range of occurrences 
 
 academic_bigram_graph <- academic_bigram_counts %>%
   filter(n > 150) %>%
@@ -406,8 +441,7 @@ ggraph(academic_bigram_graph, layout = "fr") +
 
 ```
 
-Academic corpus vocabulary 
-```{r}
+```{r academic-term-frequency, echo=FALSE}
 # Create new data frame with the cleaned corpus 
 AcademicTextDF <- data.frame(text = sapply(academic_corpus, as.character), stringsAsFactors = FALSE)
 
@@ -419,54 +453,30 @@ academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 5)
 academic_vocab
 ```
 
-### 2.2.1. Academic papers
+## 4.1. Word Frequency
 
-## 2.2. Data cleaning
+## 4.2. Bigrams and Correlations
 
-A multi-step process was conducted to ensure that the analysis captured as much  content as possible from both the policy documents (n = 64) and academic papers (n = 233). We manually removed any extraneous material in the documents that did not pertain to AST specifically. This included footnotes, references, acknowledgments, and conflict of interest statements in the academic papers. We removed all phone numbers, inserted links to other webpages, personal names, and content not to specific to AST from the policy documents that were retrieved from the websites of school boards, municipalities, and transportation consortia.
-
-To begin, the webpages, which were manually downloaded in portable document format (PDF), were trimmed so that pages that only consisted of tables, figures, or references were removed. Many academic papers were in a two-column format, which is not ideal for conversion to `txt`. We adapted a procedure (https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r) to read the two-column PDF documents so that they would be converted correctly. Four academic papers did not join sufficiently and were taken out of the corpus due to the substantial time required to manually correct their inconsistencies.
-
-We then converted the trimmed PDF documents into `txt` files so that they could be imported in `R` for topic modelling. We proceeded to a manual cleaning phase where we removed any remaining tables, figures, references, headers/footings, and captions that could not be trimmed. Manual corrections were also required for certain pages in academic papers that remained in two-column format after the conversion process. This typically occured on pages that had a table or figure which disrupted the text. Finally, we reviewed all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) were fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
-
-At this point, the documents were imported into the corpus in `R` and added to a data frame for analysis. In the final step before analysis, we removed all blank spaces, punctuation, capitalization, and numbers. English stop words, as identified in a predetermined list by Lewis et al. [@R-tm], were removed.  
-
-## 2.3. Topic modelling
-
-## 2.4. Summative content Analysis
-
-## 2.5. Reproducibility
-
-This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download.
+## 4.3. Policy content
 
 
-3. Results
+5. Discussion
 ===============
 
-## 3.1. Word Frequency
+## 5.1. Framing of AST in policy documents
 
-## 3.2. Bigrams and Correlations
+## 5.2. Framing of AST in academic papers
 
-## 3.3. Policy content
-
-
-4. Discussion
-===============
-
-## 4.1. Framing of AST in policy documents
-
-## 4.2. Framing of AST in academic papers
-
-## 4.3. Implications for School Travel Planning
+## 5.3. Implications for School Travel Planning
 
 School boards and educators are an influential contributor to AST and STP efforts in Canada.
 
-## 4.4. Limitations
+## 5.4. Limitations
 
-5. Conclusion
+6.1. Conclusion
 ===============
 
-## 5.1. Future research
+## 6.1. Future research
 
 Acknowledgments
 ===================
