@@ -1,793 +1,1572 @@
-INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION
-2020, VOL. 14, NO. 10, 788–805
-https://doi.org/10.1080/15568318.2019.1628327
-Analyzing the impact of neighborhood safety on active school travels
-Ali Shamshiripoura , Ramin Shabanpoura, Nima Golshania, Abolfazl (Kouros) Mohammadiana, and
-Parisa Shamshiripourb
-a
-  Department of Civil and Materials Engineering, University of Illinois at Chicago, Chicago, Illinois, USA; bDepartment of Medicine, Iran
-University of Medical Sciences, Tehran, Iran
-    ABSTRACT                                                                                                               ARTICLE HISTORY
-    Childhood obesity has become a serious public health challenge during the past few decades, call-                      Received 26 May 2018
-    ing for policies to incorporate physical activity into students’ routines. This study is an effort to                  Accepted 2 June 2019
-    contribute to the current literature of school travels by analyzing how improving safety of differ-
-                                                                                                                           KEYWORDS
-    ent neighborhoods in Chicago, Illinois would encourage students toward shifting to active modes,
-                                                                                                                           Active travel; crime rate;
-    and how this interrelationship is affected by the severe weather conditions during the cold win-                       Latent-class MDCEV;
-    ters of the region. The results are complemented by multiple sensitivity analyses to quantify how                      neighborhood safety; school
-    these shifts would help different students burn extra walking calories (i.e. the extra calories each                   mode choice
-    student burns due to walking more). We estimate multiple discrete continuous extreme value
-    models to understand how flexible a student is in combining his/her most preferred transporta-
-    tion mode with other choices. Various sources of inter-personal heterogeneity are also captured
-    by using a latent-classification framework as well as differentiating the before-school from after-
-    school trip chains to consider the behavioral distinction, explicitly. Several explanatory variables
-    are incorporated into the models, including socio-demographics of students and their household,
-    land-use, crime prevalence, and seasonal/weather conditions. Per the results, improving safety of
-    Chicago from its current condition to the national median, would encourage students to be up to
-    40% more active. This extra active travel demand would provide obese students aged 14–18 with
-    18% of the calorie burn they need to lose weight to the obesity cutoff and 13% of the calorie
-    burn required for losing weight from the obesity cutoff to overweight.
-1. Introduction                                                                 research, agricultural policies, highway design and safety
-                                                                                regulations, state and community grant programs, and
-There is alarming evidence suggesting childhood obesity as a
-                                                                                multidisciplinary surveillance systems are the core critical
-major health priority worldwide. In the United States, per-
-                                                                                elements of this action plan to prevent obesity as a national
-centage of obese children aged 12–19 has doubled since                          priority. Plan of Action for the Prevention of Obesity in
-1980s (Ogden et al., 2016) and percentage of under-12 stu-                      Children and Adolescents (PAHO) also highlights a multi-
-dents with an extreme obesity diagnosis has significantly                       sectoral life-course approach for increasing intake of nutri-
-raised (Ogden et al., 2016). Obesity can result in immediate                    tious foods and improving physical activity (Plan of Action
-physical and psychological damage in children as well as                        for the Prevention of Obesity in Children & Adolescents,
-long-term health conditions by, inter alia, increasing cardio-                  2014). Furthermore, the Safe Routes to School (SRTS) is a
-vascular risks and diabetes in adulthood (Griffiths, Parsons,                   national-level program designed to encourage students to
-& Hill, 2010; Jelalian & McCullough, 2012; Must, Hollander,                     engage in active school travels by enforcement tools, incen-
-& Economos, 2006; Puhl & Luedicke, 2012). Weight gain/                          tives, and/or addressing the barriers of walking/biking for
-loss and energy balance are multi-parametric factors, espe-                     children. A key dimension of SRTS is to promote incorpor-
-cially for children,1 as studied by a profound portion of the                   ation of physical activities into the daily routines of children
-public health literature (Anderson & Butcher, 2006; Davison                     (Hill, Wyatt, & Peters, 2012; Spiegelman & Flier, 2001).
-& Birch, 2001).                                                                     Active school commutes among the various types of
-    Important action plans have been proposed accordingly.                      physical activity have received special recognition in the lit-
-The Institute of Medicine Committee on Prevention of                            erature due to the broad range of children being involved in
-Obesity in Children and Youth has developed a plan empha-                       such activity (Bond Brill, Perry, Parker, Robinson, &
-sizing on prevention as a key strategy to reduce childhood                      Burnett, 2002; Jauregui, Medina, Salvo, Barquera, & Rivera-
-obesity in the United States (Kraak, Liverman, & Koplan,                        Dommarco, 2015; Larouche, Faulkner, Fortier, & Tremblay,
-2005). Nutrition assistance programs, broad areas of                            2014; Services, 2008). According to the Center of Disease
-CONTACT Ali Shamshiripour          ashams5@uic.edu   842 W. Taylor Street, Chicago, IL 60607, USA.Color versions of one or more of the figures in the article
-can be found online at www.tandfonline.com/ujst.
-1
- Many behavioral, socio-economic, genetic, and metabolic aspects, among others, are argued to be of significant effect.
-ß 2019 Taylor & Francis Group, LLC
 
-                                                                      INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION     789
-Control and Prevention (CDC), such commutes provide              the students’ energy balance in the form of extra walking
-equal opportunities, in the sense that even students with        calorie burns (i.e. the extra calories burned due to walking
-limited athletic inclinations and those who cannot afford        more) for each student.
-gyms are encouraged to be physically active (Services, 2008).        Two key terms need especial attention in the above state-
-   The present article focuses on the transportation-behavior    ment: extra walking calorie burn and each student. We limit
-aspects of active school commutes, to further analyze how        the scope of the present research to the extra walking calo-
-the public tendency towards such commutes could be               ries (as compared to the full calorie burn), for the sake of
-manipulated by the city officials. We focus on obesity of        availability of a comprehensive-enough dataset. The full
-children aged 6–12 and 12–18, as two groups of the society       entanglement of the relationship requires a longitudinal
-calling for effective, immediate, and long-term plans to guar-   dataset that contains detailed information on the household-
-antee a healthy future life. Although children are by nature     level transportation behavior of the children and their fami-
-attracted to physical activities such as walking, biking, and    lies, weather conditions and crime records, the socio-demo-
-running, it still remains a challenge to promote active school   graphics like age, gender, income, membership in gyms, and
-trips among them (Services, 2000). Various factors are           not least, genetic factors, weight, height, metabolic factors,
-believed to be influential, among which safety concerns—of       the attitudes towards playing indoor versus outdoor in play
-the children and their parents—stand out. In fact, not only      grounds, etc. Limiting scope of the research helps us legitim-
-would not walking/biking to school be attractive in an           ately assume that putting aside all the individual-specific fac-
-unsafe setting, but also it might not be taken as a feasible     tors mentioned above does not harm the validity of our
-action at all. Following is a brief review of the different      results, since those factors all cancel out when focusing on
-aspects of school travel safety as discussed in the literature.  each student separately and looking merely into the extra
-   The major attention in the literature is focused on the       energy that he/she consumes while having the peace of mind
-safe interactions between students and the conflicting traffic   to walk for longer distances in the neighborhood.
-vehicular flow (Deka & Von Hagen, 2015; Hopkins &                    Remainder of this article is organized as follows. Next
-Mandic, 2017; Kerr et al., 2006; Moniruzzaman & Farber,          section reports on a comprehensive review of the literature
-2018; Rodriguez & Vogt, 2009). Such interactions mostly         conducted to understand the context and to choose proper
-take effect from urban settings (e.g., street connectivity indi- analysis methods. As discussed in that section, we adopt the
-ces) and are well-studied to this point. In addition, a stream   multiple discrete continuous extreme value (MDCEV) (Bhat,
-of research is triggered recently, defining school trip safety   2008) econometrics modeling approach to account for the
-in terms of crime prevalence and supporting the significance     satiation effects (i.e. students loose interest towards, for
-of accounting for it (Kamargianni, Dubey, Polydoropoulou,        example, walking as they walk for longer distances). Next, in
-& Bhat, 2015; Ma, Xiong, Wang, & Xie, 2018;                      Section 3, we discuss the different sources of data we used
-Woldeamanuel, 2016).                                             in this study. The econometrics modeling approach is elabo-
-   Our main focus in the present article is to have a closer     rated in detail in Section 4, and the model specification and
-look into the role of crime prevalence in the context of the     the estimation results are reported in Section 5. Readers
-Chicago metropolitan area, Illinois. Regarding the safety        interested mostly in our results can skip these two sections
-challenges of the region, recent data released by the            and reach Section 6 where we discuss the immediate find-
-Uniform Crime Reporting Program (Federal Bureau of               ings of the study. In Section 7, we take a step forward and
-Investigation) shows that the city of Chicago is among the       simulate the outcome of policies to make Chicago safer, in
-least safe cities nationwide. The city is less safe than 89% of  the forms of: (1) extra active travels before and after school,
-American cities. Furthermore, violent crime rate in the city     and (2) the individual-level extra walking calorie burns dis-
-stands at 9.08 (per 1000 residents), as compared to the          cussed above. The article concludes in Section 8 with sum-
-national median crime rate of 3.8 (“Chicago Crime Rates          marizing findings of the study.
-and Statistics - NeighborhoodScout,” 2017). We also account
-for the safety challenges caused by the drastic weather con-     2. Literature review
-ditions during the winter period. Our empirical evidence
-supports the significant role of the weather conditions,         A comprehensive review of the literature helped us gain
-as well.                                                         insight on the context, find the gaps, and adopt a suitable
-   Adopting advanced statistical modeling approaches, we         analysis method. This section is dedicated to a brief discus-
-explore how critical it could be to accommodate policies to      sion on the take-aways from the previous studies in two
-increase the crime safety in the residence of students. The      fields: (1) transport mode choice behavior and (2)
-main hypothesis is that children living in unsafe neighbor-      Childhood obesity as a major health priority.
-hoods are generally more reluctant towards active travel. In
-more details, we explore how children’s active school travels
-                                                                 2.1. Transport mode choice
-is a function of violent-crime prevalence in the neighbor-
-hood where they reside and how this relationship is affected     Selected studies in the transport mode choice literature are
-by the weather conditions. Using the weight-for-age charts       summarized in Table 1. Studies in this table are chosen to
-proposed by CDC, we also explore how policies for improv-        cover a wide range of analysis features, focusing on the
-ing safety of Chicago to the national median, contributes to     mode choice.
 
-                                                                    INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION      791
-    Regarding the choice set formation, we noted that a         Srinivasan, 2008). These two portions of a student’s daily
-majority of studies on school travels have either developed     travel pattern are argued to be fundamentally different in
-models on a limited subset of modes and studied the rest        nature; commute to school is, by definition, a travel towards
-through descriptive analyses (Helbich, 2017; Johansson,         a mandatory activity with inflexible start time, while getting
-Laflamme, & Hasselberg, 2012; Larsen et al., 2009; Leslie,      back home is a travel towards a more enjoyable activity
-Kremer, Toumbourou, & Williams, 2010; Rodriguez & Vogt,        which probably provides the student with more peace of
-2009; Van Dyck, De Bourdeaudhuij, Cardon, & Deforche,           mind and flexibility.
-2010), or merely focused their attention on active modes as         We incorporate into the models a set of different predic-
-a binary choice (Broberg & Sarjala, 2015; Deka & Von            tors including socio-demographic characteristics of students
-Hagen, 2015; Mitra, Buliung, & Roorda, 2010). Another           and their households, land-use, crime safety, and seasonal/
-dimension of the problem, which often-times is ignored, is      weather conditions. Age, grade, gender, household compos-
-the interrelationships between accompaniment and mode in        ition indices (e.g., presence or number of siblings), vehicle
-a school trip. Parents are expected to have less safety con-    and license ownership, and household income are among
-cerns while escorting their child to school, especially when it the most recognized socio-demographic variables in the con-
-comes to younger students’ travels. Although the limited        text (Kamargianni et al., 2015; Mitra et al., 2010; Sidharthan,
-choice set in most of the studies cited above is an intrinsic   Bhat, Pendyala, & Goulias, 2011; Wen et al., 2008; Zhang,
-challenge of GPS tracking data used by them, we have more       Yao, & Liu, 2017). Furthermore, frequently used land-use
-freedom in the present research, thanks to using travel dia-    variables, can be categorized into home-school distance
-ries. In this sense, the models developed in this art-          (either with respect to the mileage of travel or the travel
-icle recognize:                                                 time), street connectivity measures (e.g., intersection density,
-                                                                road density), population or residential density, and urbanic-
- Three accompaniment styles (i.e., alone, having one           ity (Helbich, 2017; Johansson et al., 2012; Mitra et al., 2010;
-    accompany, and having more than one accompany), as          Woldeamanuel, 2016; Zhang et al., 2017). Safety indices of
-    well as                                                     the student’s pathway to school are also commonly recog-
- Four modes of travel (i.e., active, transit, auto, and school nized as influential variables in their mode choice behavior
-    bus) to form a comprehensive choice set.                    (Johansson et al., 2012; Kamargianni et al., 2015; Rodriguez
-                                                                & Vogt, 2009; Wen et al., 2008).
-    With regards to the statistical modeling approach, we
-used the MDCEV model (Bhat, 2008), despite majority of
-                                                                2.2. Childhood obesity as a major health priority
-school trip studies that stick to single-discreteness choice
-models such as Multinomial Logit (MNL) and Nested logit         Mounting previous evidence, 22 million children under
-(NL). As a principle of the utility theory (Seager, 1917), peo- 5 years of age are overweight internationally (Deckelbaum &
-ple generally get less inclined towards waking, biking, taking  Williams, 2001). Much research has been devoted to assess-
-a bus, etc., as they go farther distances by the mode. This     ing the impacts and comorbidities of childhood obesity.
-principal behavioral concept is also referred to as the sati-   Previous evidence suggests that childhood obesity is a risk
-ation effects and is the main driver behind choosing different  factor of future chronic diseases (e.g., high blood pressure,
-alternatives at the same time. Put differently, in such choice  hyperlipidemia, or elevated insulin levels; Freedman, Dietz,
-situations, a rational decision maker oftentimes chooses a      Srinivasan, & Berenson, 1999). Hence, there is rising con-
-bundle of alternatives instead of sticking to one insatiably.   cern to control childhood obesity by providing easy and
-Conventional choice models like MNL are mainly proposed         accessible strategies in community level (e.g., active school
-to model situations of single-discreteness where only one       trips, nutrition improvement, and physical activities) and
-alternative is being selected. Relaxing this limitation, the    improving social media focusing on the issue.
-novel closed form formulation of MDCEV allows for analyz-           Obesity is a multifactorial health issue affected by genetic
-ing how flexible a student is in combining his/her most-pre-    background, nutrition, age, gender, parents’ lifestyles, and
-ferred mode with other choices.                                 school policies. In this sense, there is no consensus on defin-
-    Also, we used a latent classification framework to          ing childhood obesity. Underwater weighing (densitometry),
-endogenously capture the potential heterogeneity in mode        multi-frequency bioelectrical impedance analysis (BIA), and
-choice behavior of students (Greene & Hensher, 2003). The       magnetic resonance imaging (MRI) are methods to measure
-mode choice decision is generally argued to be subject to       body fat percentage for research applications. In clinical
-considerable degrees of heterogeneity (Shabanpour,              environment, anthropometrics aids gain an indirect estimate
-Golshani, Derrible, Mohammadian, & Miralinaghi, 2017;           of body fat. Reviewing the literature, BMI and weight-for-
-Vij, Carrel, & Walker, 2013). In the context of students’       age are two important anthropometric parameters that could
-mode choice, however, few studies could be found taking         be used in our research. Different studies suggested diverse
-the heterogeneity into account explicitly in a unified model    BMI cutoff points for defining obesity among youth
-structure. Inspiring from literature, also, travels to and from (Flodmark, Lissau, Moreno, Pietrobelli, & Widhalm, 2004;
-school are analyzed separately (Mitra et al., 2010;             Ghosh, 2014; Nawab, Khan, Khan, & Ansari, 2014). Yet,
-Schlossberg, Greene, Phillips, Johnson, & Parker, 2006;         BMI is believed to be an inaccurate estimate of child obesity,
-Wilson, Marshall, Wilson, & Krizek, 2010; Yarlagadda &          due to physiologic changes during the growth period.
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION
+2020, VOL. 14, NO. 10, 788–805
+https://doi.org/10.1080/15568318.2019.1628327
+Analyzing the impact of neighborhood safety on active school travels
+Ali Shamshiripoura , Ramin Shabanpoura, Nima Golshania, Abolfazl (Kouros) Mohammadiana, and
+Parisa Shamshiripourb
+a
+Department of Civil and Materials Engineering, University of Illinois at Chicago, Chicago, Illinois, USA; bDepartment of Medicine, Iran
+University of Medical Sciences, Tehran, Iran
+ABSTRACT                                                                                                               ARTICLE HISTORY
+Childhood obesity has become a serious public health challenge during the past few decades, call-                      Received 26 May 2018
+ing for policies to incorporate physical activity into students’ routines. This study is an effort to                  Accepted 2 June 2019
+contribute to the current literature of school travels by analyzing how improving safety of differ-
+KEYWORDS
+ent neighborhoods in Chicago, Illinois would encourage students toward shifting to active modes,
+Active travel; crime rate;
+and how this interrelationship is affected by the severe weather conditions during the cold win-                       Latent-class MDCEV;
+ters of the region. The results are complemented by multiple sensitivity analyses to quantify how                      neighborhood safety; school
+these shifts would help different students burn extra walking calories (i.e. the extra calories each                   mode choice
+student burns due to walking more). We estimate multiple discrete continuous extreme value
+models to understand how flexible a student is in combining his/her most preferred transporta-
+tion mode with other choices. Various sources of inter-personal heterogeneity are also captured
+by using a latent-classification framework as well as differentiating the before-school from after-
+school trip chains to consider the behavioral distinction, explicitly. Several explanatory variables
+are incorporated into the models, including socio-demographics of students and their household,
+land-use, crime prevalence, and seasonal/weather conditions. Per the results, improving safety of
+Chicago from its current condition to the national median, would encourage students to be up to
+40% more active. This extra active travel demand would provide obese students aged 14–18 with
+18% of the calorie burn they need to lose weight to the obesity cutoff and 13% of the calorie
+burn required for losing weight from the obesity cutoff to overweight.
+1. Introduction                                                                 research, agricultural policies, highway design and safety
+regulations, state and community grant programs, and
+There is alarming evidence suggesting childhood obesity as a
+multidisciplinary surveillance systems are the core critical
+major health priority worldwide. In the United States, per-
+elements of this action plan to prevent obesity as a national
+centage of obese children aged 12–19 has doubled since                          priority. Plan of Action for the Prevention of Obesity in
+1980s (Ogden et al., 2016) and percentage of under-12 stu-                      Children and Adolescents (PAHO) also highlights a multi-
+dents with an extreme obesity diagnosis has significantly                       sectoral life-course approach for increasing intake of nutri-
+raised (Ogden et al., 2016). Obesity can result in immediate                    tious foods and improving physical activity (Plan of Action
+physical and psychological damage in children as well as                        for the Prevention of Obesity in Children & Adolescents,
+long-term health conditions by, inter alia, increasing cardio-                  2014). Furthermore, the Safe Routes to School (SRTS) is a
+vascular risks and diabetes in adulthood (Griffiths, Parsons,                   national-level program designed to encourage students to
+& Hill, 2010; Jelalian & McCullough, 2012; Must, Hollander,                     engage in active school travels by enforcement tools, incen-
+& Economos, 2006; Puhl & Luedicke, 2012). Weight gain/                          tives, and/or addressing the barriers of walking/biking for
+loss and energy balance are multi-parametric factors, espe-                     children. A key dimension of SRTS is to promote incorpor-
+cially for children,1 as studied by a profound portion of the                   ation of physical activities into the daily routines of children
+public health literature (Anderson & Butcher, 2006; Davison                     (Hill, Wyatt, & Peters, 2012; Spiegelman & Flier, 2001).
+& Birch, 2001).                                                                     Active school commutes among the various types of
+Important action plans have been proposed accordingly.                      physical activity have received special recognition in the lit-
+The Institute of Medicine Committee on Prevention of                            erature due to the broad range of children being involved in
+Obesity in Children and Youth has developed a plan empha-                       such activity (Bond Brill, Perry, Parker, Robinson, &
+sizing on prevention as a key strategy to reduce childhood                      Burnett, 2002; Jauregui, Medina, Salvo, Barquera, & Rivera-
+obesity in the United States (Kraak, Liverman, & Koplan,                        Dommarco, 2015; Larouche, Faulkner, Fortier, & Tremblay,
+2005). Nutrition assistance programs, broad areas of                            2014; Services, 2008). According to the Center of Disease
+CONTACT Ali Shamshiripour          ashams5@uic.edu   842 W. Taylor Street, Chicago, IL 60607, USA.Color versions of one or more of the figures in the ar
+can be found online at www.tandfonline.com/ujst.
+1
+Many behavioral, socio-economic, genetic, and metabolic aspects, among others, are argued to be of significant effect.
+ß 2019 Taylor & Francis Group, LLC
 
-792       A. SHAMSHIRIPOUR ET AL.
-Another strategy to gain a more robust view of childhood                    developed a computer code in Python 3 to go over the trip
-obesity is to use weight-for-age charts released by CDC. As                 legs of students in the sample, query each record from the
-reported by previous research, the 90th and 75th percentiles                API, and extract the corresponding travel time and distance.
-are appropriate cutoffs to define children as obese or over-                Using a similar approach, we also extract from the API the
-weight, respectively (Gamliel, Ziv-Baran, Siegel, Fogelman, &               walking distances between students’ home and school loca-
-Dubnov-Raz, 2015). We adopted this metric.                                  tions based. That is, this variable is generated for a hypo-
-    Three prevention strategies can be implemented to lower                 thetical walking travel from home directly to school,
-childhood obesity. Primordial prevention mainly focuses on                  choosing the route suggested by the Google Maps Distance
-maintaining healthy lifestyle (weight-for-age < 75th percent-               Matrix API. Origin and destination of 6.3% of the trip legs
-ile). Primary prevention helps avoiding at risk population to               are reported to be the same in the survey, resulting in zero
-become obese (weight-for-age 75th to 90th percentile) and                   travel distances returned by the API. In such cases, the cor-
-secondary prevention aims to reduce comorbidities of obes-                  responding travel distances are imputed using the method of
-ity (weight-for-age > 90th percentile). The present research                stochastic regression (Little & Rubin, 2014), incorporating
-focuses on the last two categories.                                         other travel- and individual-level information as predictors
-                                                                            of the regression. The variables used for imputation include
-                                                                            time of day, the straight-line distances as reported in the
-3. Data preparation and sample formation                                    raw dataset, and socio-demographics, among others.
-                                                                               The final estimation sample is formed by aggregating dif-
-The main source of data used in this study is the Travel
-                                                                            ferent mode-escort combinations into eight choice alterna-
-Tracker Survey, hosted by Chicago Metropolitan Agency for
-                                                                            tives, namely active but alone, active with one companion,
-Planning. The survey gathers travel information of 23,808
-                                                                            active with more than one companion, drive alone, being
-individuals in 10,552 households, among which around 10%                    the only passenger of a car, being part of a carpool, taking
-are school children aged 6–18. After extensive data cleaning,               transit, or riding school bus. Figure 1 presents the percent
-the final sample used for the analysis contains information                 of students who have chosen each mode-escort alternative in
-of 2703 students in this age range. This sample is, then,                   their travel to/from school. The figure reveals that carpool-
-enriched by adding built-environment data at the census                     ing and school bus constitute more than 50% of the chosen
-tract level to reflect land-use settings in students’ residen-              modes in both before-school and after-school tours. Another
-tial areas.                                                                 insight from this Figure is that students are more likely to
-    Although the survey includes diverse demographic attrib-                walk from school to home than when heading to school. To
-utes and travel information, it does not explicitly collect                 add more perspective, Figure 2 depicts the distribution of
-travel distance information (instead, straight line distances               active transport mileages of traveling to/from school.
-are computed and reported as proxies). To obtain more                       Accordingly, students are also more likely to walk for longer
-accurate proxies, we have employed Google Maps’ Distance                    distances when they are heading back home compared to
-Matrix API (“Distance Matrix API”, 2018). Distance Matrix                   when they are going to school. In Section 2.1, we provided
-API is a service provided by Google Maps that facilitates                   evidence from the literature regarding the distinction
-systematic route choice queries. The API responds to queries                between before- and after-school chains. Figures 1 and 2
-of origin–destination with details of the best route. We                    also provide further insight on the importance of testing the
-Figure 1. Percent of students who have chosen each mode-escort alternative.
 
-                                                                                            INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION     793
-Figure 2. Distribution of active travel mileage in before-school versus after-school travels.
-distinction, specifically, for our dataset. Such tests are con-                        4.2. MDCEV model
-ducted in Section 5. Please refer to that section for
-                                                                                       In some choice situations, the consumer demands for mul-
-more details.
-                                                                                       tiple goods given a limited budget, instead of an insatiable
-                                                                                       desire on selecting one. Choosing among different modes of
-4. Methodology for transport mode                                                      travel is an example—one may imperfectly substitute one
-    choice modelling                                                                   mode for another. A student might be given a ride by his/
-                                                                                       her parent to a safe zone close to school and walk rest of
-This article adopts the latent-class modeling approach
-                                                                                       the way. In this case, total mileage that the student travels
-(Greene & Hensher, 2003; Sobhani, Eluru, & Faghih-Imani,
-                                                                                       from home to school (or vice versa) is the budget, which is
-2013) to control for the potential heterogeneity among stu-
-                                                                                       split among auto and walk.
-dents in their decisions regarding active travels. In this
-                                                                                          One popular method of analyzing such situations is
-framework, students are endogenously assigned to specific
-                                                                                       through applying Kuhn-Tucker (KT) conditions (Bhat, 2008;
-classes, and for each class, a separate MDCEV (Bhat, 2008)
-                                                                                       Wales & Woodland, 1983). This method can be traced back
-model is estimated.
-                                                                                       to the work of Wales and Woodland (1983) where the
-                                                                                       authors proposed a likelihood function of multivariate nor-
-4.1. Latent-Classification model                                                       mal integrals, resulting in computational difficulties that pre-
-                                                                                       vented the model from getting prevailing at the time (Bhat,
-Let His denote the probability distribution function associ-                           2008). Kim, Allenby, and Rossi (2002) advanced this
-ated with individual i being a member of class s: A detailed                           approach by incorporating a translated CES (i.e., Constant
-discussion on different His formulations can be found in                               Elasticity of Substitution) utility function, and employing a
-Greene and Hensher (2003). Following Sobhani et al. (2013),                            simulation approach to approximate the integrals. Few other
-we adopt the multinomial logit form in Equation (1), where                             studies have also applied similar approaches (see, e.g.,
-yi is a vector containing various attributes associated with                           Phaneuf, Kling, & Herriges, 2000; von Haefen, Phaneuf, &
-individual i; and ds is the vector of segment-specific coeffi-                         Parsons, 2004). Bhat (2005) developed a novel closed-form
-cients corresponding to yi :                                                           formulation, MDCEV, which was further enhanced by the
-                                        expðds yi Þ                                    same author in 2008 (Bhat, 2008). Different specifications
-                           His ¼ PS                                            (1)
-                                                                                       have been proposed for each version of the model.
-                                       k¼1 expðdk yi Þ
-                                                                                       Following literature Castro, Eluru, Bhat, and Pendyala
-    Also, let Pij js denote the likelihood that individual i dem-                      (2011), Eluru, Pinjari, Pendyala, and Bhat, (2009), Pinjari
-onstrates choice pattern j; given being a member of class s:                           and Bhat, (2010a), and Rajagopalan, Pinjari, and Bhat,
-Having the class-membership and within-class choice proba-                             (2009), we adopt the c-profile specification of the 2008 ver-
-bilities specified, the overall likelihood of individual i choos-                      sion for the present study.
-ing a choice pattern j can be written as:                                                 Let Ck denote the mileage traveled by mode k, and U ðCÞ
-                                   X S                                                 denote the total utility that a student gains from choosing a
-                            L¼           Hik  Pij js                          (2)     particular chain of modes (e.g., having someone give them a
-                                    k¼1                                                ride, then walking for the last quarter mile). Then, the
 
-794         A. SHAMSHIRIPOUR ET AL.
-c-profile for U ðCÞ is suggested as:                                                 technique has also helped us to impose no restrictions to
-                                 XK                                                any of the b parameters.
-                                                 Ck
-                       U ðC Þ ¼      ck wk ln        þ1                      (3)
-                                 k¼1
-                                                  ck
-                                                                                     5. Transport mode choice model: Specification
-where ck is the translation parameter, which also alters for
-satiation effects. Furthermore, wk is the baseline marginal                          We tested two different approaches for capturing the dis-
-utility (at the point of zero consumption), which by defin-                          tinction between students’ travel behavior before and after
-                                                                                     school. First, a model is developed for the entire home-to-
-ition, needs to be positive for all students. Equation 4 guar-
-                                                                                     home trip chain. In this model, the distinction between
-antees the positivity condition.
-                                                                                     before- and after-school tours is recognized by introducing a
-                             wk ¼ expðbZ þ ek Þ                              (4)     dummy variable into the latent-segmentation component.
-here, Z denotes the vector of explanatory variables, b is the                        The distinction of before- from the after-school trips is con-
-corresponding vector of coefficients, and ek denotes the                             firmed by the t-test conducted for the dummy variable’s
-error term, which is assumed to follow an iid extreme value                          coefficient in the model. This model is then compared
-distribution within each latent class.                                               against separate models for before-school and after-school
-                                                                                     trip chains. The latter approach is found to offer more stable
-                                                                                     and more accurate results; thus, the home-to-home model is
-4.3. Estimation technique                                                            not reported. The distinction between before- and after-
-                                                                                     school trips is also supported by these models, using the
-Expectation maximization (EM) is the technique mostly
-                                                                                     likelihood ratio test.
-used in previous studies to overcome estimation difficulties
-                                                                                         Table 2 summarizes definition of various explanatory var-
-of a discrete choice model with mixed error terms (Train,
-                                                                                     iables incorporated into the models, as well as their average
-2009). EM starts by estimating the original log-likelihood by
-                                                                                     and standard deviation in the final estimation sample.
-a simple-to-optimize function (i.e., the Expectation function)                           Also, number of classes is set to 3 based on the stability
-and continuous to find its maximum in each iteration.                                of the results, and AIC and BIC indices. AIC and BIC values
-Then, the algorithm moves forward to ultimately find a                               are outlined in Tables 4 and 5. Per these values, the model
-point sufficiently close to a stationary point in the log-likeli-                    with three latent classes is superior to the 2-class model for
-hood function. However, this method has two main draw-                               before-school and after-school trip chains. Similarly, the 4-
-backs: First, convergence rate of the method is very slow,                           class model structure is superior to the 3-class structure per
-and second, it increases the chance of trapping in a local                           the AIC results. However, the 4-class structure is not consid-
-optimum (Bhat, 1997; Zhang, Kuwano, Lee, &                                           ered a good model specification as it leads to unstable
-Fujiwara, 2009).                                                                     results, in terms of both magnitude and sign of the
-     To account for these concerns, inspiring from Bhat                              coefficients.
-(1997), we have used a simplified version of the HELPME                                  Table 3 outlines results of the latent-segmentation mod-
-algorithm (Shamshiripour & Samimi, 2017). The algorithm                              els, setting Class 1’s utility function as the base. The seg-
-starts by generating 15 random initial solutions around esti-                        ment-specific models developed for before-school and after-
-mation results of the corresponding basic MDCEV (the sin-                            school trip chains are respectively reported in Table 4 and
-gle-class model), which are allowed to randomly fluctuate in                         Table 5. The last column of these tables outlines average
-the domain of ½2  b to 2  b for the baseline marginal                            parameter estimates calculated using the Bayesian formula
-utility parameters and ½0:4  c to 1:5  c for the translation                      (Greene & Hensher, 2003). The reader may note that the
-parameters. In addition to avoiding local optima, this                               average values are not reported for translation parameters.
-Table 2. Description of the explanatory variables used in this study.
-Variable name                                                                      Variable definition                                    Avg.  St. Dev.
-Student’s age                          Student’s age in years                                                                             11.98   3.63
-Student’s age: 6 to 12                 1: If the student is 6 to 12 years old/ 0: Otherwise                                                0.53   0.49
-Student’s gender: male                 1: If the student is a male/ 0: Otherwise                                                           0.51   0.49
-HH income: $100kþ                      1: If the household’s annual income is more than $100,000/ 0: Otherwise                             0.42   0.48
-HH structure: # students               Number of students in the household                                                                 2.35   1.05
-HH structure: # workers                Number of workers in the household                                                                  1.79   0.79
-HH structure: # not student/worker     Number of individuals in the household who are neither a student nor a worker                       0.15   0.87
-HH mobility: # vehicles per driver     Number of vehicles div. by number of driving license holders in the household                       0.97   0.40
-Urbanicity: Chicago                    1: If the household resides in the city of Chicago/ 0: Otherwise                                    0.24   0.43
-Built Env.: intersection density       Intersection density† of the Census Tract of household’s residence                                  1.57   0.80
-Built Env.: youth population density   Population density†† of 5 to 19 yo people in Census Tract of household’s residence                  0.49   0.54
-Built Env.: crime density              Density of crime††† records in Census Tract of household’s residence, div. by 1000                  0.02   0.05
-Built Env.: walking distance           Natural logarithm of walking distance between student’s home and school assuming the shortest path  3.43   1.18
-Weather: spring                        1: if the student is surveyed during April or May/ 0: Otherwise                                     0.11   0.31
-Weather: winter                        1: if the student is surveyed during December, January, or February/ 0: Otherwise                   0.17   0.38
-†
-  Defined as the number of intersections per the unit area of the Census Tract.
-††
-   Defined as the population per the unit area of the Census Tract.
-†††
-    Defined as the number of criminal activities (homicide, weapon-violation, and theft) per the unit area of the Census Tract.
 
-                                                                                          INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION               795
-           Table 3. Estimation results: latent classification model for before-school and after-school chains.
-                                                                                           Coefficient in Each Latent Class’s Utility Function†
-           Independent Variables Used for Latent-Classification                  Latent Class 1                Latent Class 2                Latent Class 3
-           Home to School
-              Alternative Specific Constant                                    Comparison basis                 0.074                        0.091
-              Student’s Age: 6–12                                                                               0.117                            –
-              HH Income: $100kþ                                                                                      –                        0.112
-              Urbanicity: Chicago                                                                                    –                        1.968
-              Student’s Gender: male                                                                              0.118                          –
-              Weather: spring                                                                                   0.086                           –
-           School to Home                                                      Comparison basis
-              Alternative Specific Constant                                                                       0.664                      0.545
-              Student’s age: 6–12                                                                                 0.258                          –
-              HH Income: $100kþ                                                                                      –                        0.168
-              Urbanicity: Chicago                                                                                    –                        2.013
-              Student’s Gender: male                                                                            0.204                          –
-              Weather: spring                                                                                   0.443                          –
-           † 
-             , , and , respectively, mean 95%, 90%, and 85% level of statistical confidence.
-We avoid reporting the values to underline the fact that                             coefficients to be subject to variations in sign across differ-
-those values are subject to enormous variations among                                ent classes, and in some instances, between before- and
-classes, making an average value lose its meaning.                                   after-school chains. The average Bayesian estimates are pre-
-                                                                                     sented in Tables 4 and 5 to gain a general sense of these
-                                                                                     variables’ influence direction. Per the average results, num-
-6. Transport mode choice model: Discussion
-                                                                                     ber of students in a household positively affects the prob-
-This section is structured to elaborate on the results outlined                      ability of a carpooling trip to school. In case of after-school
-in Tables 3, 4, and 5, with an emphasis on the transporta-                           chains, though, the relationship holds in the opposite direc-
-tion behavior. We first go over our findings regarding the                           tion. Furthermore, students who have more student siblings
-individual preferences in terms of baseline marginal utility                         are found to be more interested in active travels with more
-variables. The findings include the roles of socio-demo-                             than one companion. The reader may note that this effect is
-graphic variables, urban settings, and seasonal effects. After                       consistent across different classes, and before-school versus
-that, we explain the modal satiation effects and marginal                            after-school chains. Although McDonald (2008) reported
-utilities specific to each mode and class. At the end, the dis-                      similar results regarding influence of number of siblings,
-cussions in this section conclude with a simple simulation to                        Mitra et al. (2010) found no significant associations to stu-
-further disentangle the effects of the latent classification var-                    dents’ tendency to walk. Per our results, also, students of
-iables and study how they eventually affect the preferences                          households with more workers are less likely to have some-
-towards active modes of travel.                                                      one give them a ride from home to school, while being
-                                                                                     more likely to do so for getting back home. Number of
-                                                                                     non-students in the household who do not work is another
-6.1. Baseline marginal utility variables                                             indicator of the household structure. The effect of this vari-
-The influence direction of socio-demographics (except                                able is observed to be consistent among before- and after-
-household-structure indicators), urban settings and land-use                         school chains. As number of such individuals increases in a
-variables, and seasonal effects are found to be consistent in                        household, it becomes more probable that a student of the
-sign across different classes as well as for before- and after-                      household takes an active journey to school while being
-school chains. These variables are discussed first, starting                         accompanied by others.
-with the student’s age. In addition to latent segmentation                              Coping with active modes of travel is also found to be
-model, this variable is also found to significantly influence                        under influence of various urban settings, by previous
-the mode choice behavior. Per results, students tend to walk                         research (Johansson et al., 2012; Kamargianni et al., 2015;
-or bike alone to/from school as they age. This effect is spe-                        Nelson, Foley, O’Gorman, Moyna, & Woods, 2008;
-cifically observed for the second and third classes. Older stu-                      Schlossberg et al., 2006) and the current study. Intersection
-dents of the third class are also found to lose interest in                          density is an instance. Neighborhoods with higher intersec-
-accompanied active modes. Notably, students become more                              tion densities provide more safe zones (per unit of area) for
-inclined toward shifting to the drive-alone mode, as they                            students to pass the street and, thereby, have a more flexible
-age. Number of vehicles per licensed driver in a household                           route choice experience and safer journey to/from school
-is also confirmed to be influential. As the results show, stu-                       (Helbich et al., 2016; Schlossberg et al., 2006). In line with
-dents in households owning more vehicles are less likely to                          this expectation, our results indicate that higher intersection
-walk (or bike) alone (observed for first and second classes)                         densities encourage students to have more walking/biking
-or take transit (observed only for the second class).                                school travels, either while they are alone (observed for first
-    Previous studies have concluded different results regard-                        and third classes) or when they are being accompanied by a
-ing structure of the student’s household (McDonald, 2008;                            companion (observed only for the first class). Crime density
-Mitra et al., 2010). We found household-structure                                    is another safety indicator considered in this study. Students
 
-796          A. SHAMSHIRIPOUR ET AL.
-Table 4. Estimation results: class-specific MDCEV models for before-school chains.
-                                                                                                Coefficients Specific to Each Latent Class†
-Coefficients of Independent Variables in Each Dependent
-Variable’s Baseline Marginal Utility Function                         Latent Class 1             Latent Class 2               Latent Class 3 Bayesian Avg.
-Dependent variable: Active (Alone)
-    Alternative Specific Constant                                        2.538                    9.579                     0.880         2.664
-    Student’s Age                                                            –                        1.491                     0.393       0.633
-    HH Mobility: # vehicles per driver                                   0.077                    6.023                        –           2.187
-    Built Env.: intersection density                                       0.834                     –                          0.708       0.504
-    Built Env.: walking distance                                             –                      8.925                    2.615       3.856
-    Built Env.: crime density                                                –                          –                        3.587       3.587
-Dependent variable: Active (1 Accompany)
-    Alternative Specific Constant                                        1.790                  1.311                    4.394       2.276
-    Student’s Age                                                            –                          –                        0.287         0.287
-    HH Structure: # not student/worker                                     0.440                 1.297                      2.183       0.258
-    Built Env.: intersection density                                       0.540                     –                            –            0.540
-Dependent variable: Active (11 Accompany)
-    Alternative Specific Constant                                        2.060                  8.575                    7.615       5.796
-    HH Structure: # students                                               0.377                   2.560                     0.472        1.183
-    Built Env.: youth population density                                     –                          –                          6.719       6.719
-Dependent variable: Auto (Drive Alone)
-    Alternative Specific Constant                                      11.760                  50.679                   46.872      34.563
-    Student’s Age                                                          0.536                   2.600                     2.756       1.836
-Dependent variable: Auto (Sole Passenger)
-    Alternative Specific Constant                                        0.623                    3.155                   2.957        0.140
-    HH Structure: # workers                                                0.224                    0.305                   0.842         0.016
-    Weather: winter                                                        0.756                     –                            –            0.756
-Dependent variable: Auto (11 Passengers)
-    Alternative Specific Constant                                          0.133                      1.615                   5.078       0.652
-    HH Structure: # students                                             0.203                      1.229                     0.588       0.510
-    Weather: winter                                                        1.347                     –                            –            1.347
-Dependent variable: Transit
-    Alternative Specific Constant                                        1.958                    7.510                   10.072        0.617
-    HH Mobility: # vehicles per driver                                       –                     11.907                        –          11.907
-    Weather: winter                                                          –                        2.434                       –            2.434
-    Built Env.: crime density                                              1.614                     –                            –            1.614
-Dependent variable: School Bus                                       Comparison basis
-Translation Parameters
-    Active (Alone)                                                         1.624                   3.155                 6,800.551  –††
-    Active (1 Accompany)                                             57,833.802                    0.245                     0.080  –††
-    Active (1þ Accompany)                                            76,323.453                    0.961                     0.229  –††
-    Auto (Drive Alone)                                                     0.849                   0.002                  2,951.339  –††
-    Auto (Sole Passenger)                                                 31.664                  74.136                     0.671  –††
-    Auto (1þ Passengers)                                                  23.105                  15.176                     0.783  –††
-    Transit                                                             163.319                2,403.223                    19.954  –††
-    School Bus                                                       84,962.36               72,809.124                81,914.325   –††
-Scale Parameter                                                            1.000 f                    1.000 f                      1.000 f
-                                                                                                                                             –††
-    Number of non-missing observations                                                            2,703
-    Log-likelihood at convergence                                                               4771.398
-Bayesian Information Criterion (BIC)
-    Best 2-segment model                                                                      11,801.046
-    Best 3-segment model                                                                      10,151.260
-    Best 4-segment model                                                                      10,194.446
-Akaike Information Criterion (AIC)
-    Best 2-segment model                                                                      11,399.702
-    Best 3-segment model                                                                       9,696.796
-    Best 4-segment model                                                                       9,592.430
-† 
-      , , and , respectively, mean 95%, 90%, and 85% level of statistical confidence; f indicates a fixed parameter.
-††
-   These values are not reported due to their corresponding class-specific values being subject to enormous variations.
-living in neighborhoods with higher crime densities are                              students too) also show more tendencies towards home-
-found to be considerably less likely to go to/from school by                         school active travels with more than one accompanies. We
-walking or biking when they are alone. This finding is con-                          believe this is a significant finding, showing how influential
-sistent with results of previous studies (McDonald &                                 social networks could be in encouraging students to be
-Aalborg, 2009; Schlossberg et al., 2006; Woldeamanuel,                               more active. Per this result, students having more opportu-
-2016). Schlossberg et al. (2006), for instance, report signifi-                      nities to socialize with their neighbor fellows are also of
-cant relationships between parents’ fear of potential dangers                        higher potentials of coping an active lifestyle. The results
-from strangers and their tendencies for allowing the child                           also confirm the intuitive expectation that students get less
-for having an active school travel.                                                  inclined towards walking (or biking) to/from school when
-     Per the results, students living in neighborhoods with                          they live farther from school. Per the results, walking and
-more individuals in their age (who are very likely to be                             biking are also less expected during December, January, or
 
-                                                                                          INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION         797
-Table 5. Estimation results: class-specific MDCEV models for after-school chains.
-                                                                                                Coefficients Specific to Each Latent Class†
-Coefficients of Independent Variables in Each Dependent
-Variable’s Baseline Marginal Utility Function                         Latent Class 1             Latent Class 2               Latent Class 3 Bayesian Avg.
-Dependent variable: Active (Alone)
-    Alternative Specific Constant                                        4.789                    2.565                     7.091       0.846
-    Student’s Age                                                            –                        0.282                     0.563       0.243
-    HH Mobility: # vehicles per driver                                   1.286                  1.826                        –           1.154
-    Built Env.: intersection density                                       1.401                     –                          1.106       0.825
-    Built Env.: walking distance                                             –                      1.236                    5.471       1.825
-    Built Env.: crime density                                                –                          –                        4.655       4.655
-Dependent variable: Active (1 Accompany)
-    Alternative Specific Constant                                        2.162                  2.399                    2.857       2.422
-    Student’s Age                                                            –                          –                        0.228         0.228
-    HH Structure: # not student/worker                                     0.548                 0.572                        1.085       0.283
-    Built Env.: intersection density                                       0.927                     –                            –            0.927
-Dependent variable: Active (11 Accompany)
-    Alternative Specific Constant                                        2.857                  2.887                   68.063      19.348
-    HH Structure: # students                                               0.067                      1.041                    10.832       3.136
-    Built Env.: youth population density                                     –                          –                         28.571      28.571
-Dependent variable: Auto (Drive Alone)
-    Alternative Specific Constant                                       80.768                 26.942                 115.215       70.205
-    Student’s Age                                                          4.471                   1.634                     7.269       4.163
-Dependent variable: Auto (Sole Passenger)
-    Alternative Specific Constant                                        0.079                      0.419                     3.992       0.890
-    HH Structure: # workers                                              0.745                     0.435                     0.651        0.030
-    Weather: winter                                                        0.657                       –                            –            0.657
-Dependent variable: Auto (11 Passengers)
-    Alternative Specific Constant                                          0.901                   0.008                    1.692         0.074
-    HH Structure: # students                                             0.597                    0.799                   1.225         0.256
-    Weather: winter                                                        1.117                     –                            –            1.117
-Dependent variable: Transit
-    Alternative Specific Constant                                        2.052                    2.558                  14.909          3.651
-    HH Mobility: # vehicles per driver                                       –                      5.903                        –           5.903
-    Weather: winter                                                          –                        0.975                        –            0.975
-    Built Env.: crime density                                              2.505                     –                            –            2.505
-Dependent variable: School Bus                                       Comparison basis
-Translation Parameters
-    Active (Alone)                                                         8.732                  13.913               63,923.5     –††
-    Active (1 Accompany)                                                  26.736                   0.932                     0.284  –††
-    Active (1þ Accompany)                                              3,729.412                  16.719               20,360.17    –††
-    Auto (Drive Alone)                                               70,288.517                   39.763                    34.741  –††
-    Auto (Sole Passenger)                                                 19.908                  22.262                    26.560  –††
-    Auto (1þ Passengers)                                                  22.415                  22.901               43,590.46    –††
-    Transit                                                          81,786.5                91,801.217                  4,733.122  –††
-    School Bus                                                           577.498             41,307.267                33,959.320   –††
-Scale Parameter                                                            1.000 f                    1.000 f                      1.000 f   –††
-    Number of non-missing observations                                                            2,703
-    Log-likelihood at convergence                                                               5774.837
-Bayesian Information Criterion (BIC)
-    Best 2-segment model                                                                       14,169.836
-    Best 3-segment model                                                                       12,158.140
-    Best 4-segment model                                                                       12,168.860
-Akaike Information Criterion (AIC)
-    Best 2-segment model                                                                       13,768.492
-    Best 3-segment model                                                                       11,703.674
-    Best 4-segment model                                                                       11,566.844
-† 
-      , , and , respectively, mean 95%, 90%, and 85% level of statistical confidence; f indicates a fixed parameter.
-††
-   These values are not reported due to their corresponding class-specific values being subject to enormous variations.
-February when the weather gets severe. This relationship is                          student of each class, setting his/her baseline marginal utility
-in line with results of Kamargianni et al. (2015) that argued                        to unity. To produce comparable depictions, travel mileage
-that students are more likely to be active in a                                      and total utility axes are shown, respectively, up to 20 miles
-sunny weather.                                                                       and 50 units for all active, and 100 miles and 200 units for
-                                                                                     all non-active modes. As can be seen, most alternatives are
-                                                                                     subject to considerable satiation variations across different
-6.2. Tendency to combine modes                                                       classes. For instance, for active travels with one accompany,
-                                                                                     an almost-linear utility profile is estimated for the first class,
-Students’ tendencies to combine a mode-accompaniment                                 while the third class is assigned with a highly satiated pro-
-option with other options (i.e., Satiation effects) are sum-                         file. Such variations, indeed, underline importance of
-marized in Figure 3, separating before-school from after-                            accounting for the existing heterogeneity in mode choice
-school chains. This figure is drawn for a hypothetical                               behavior of students.
 
-798       A. SHAMSHIRIPOUR ET AL.
-    According to Figure 3, furthermore, school bus and tran-     Dou, 2014). In accordance to the literature, our results also
-sit users are the least probable students to combine their       depict that students who are members of higher-income
-current choices with other modes (that could potentially be      families are potentially less active in their travels between
-walking or biking). This finding is not so surprising for the    home and school (McMillan, 2007). This could be attributed
-school bus, as it can be thought of as a door-to-door mode       to higher rates of automobile ownerships among higher
-which eliminates the potentially active accesses and             income households.
-aggresses. The transit network, on the other hand, has long          The elasticities further reveal that during April and May
-been argued to provide considerable potentials of encourag-      students are slightly more active in home-school travels.
-ing users to adopt an active life style, due to the access/      This distinction is probably attributed to both pleasant wea-
-egress portions which are often conducted by walk or bike        ther conditions and scenery in spring, which provides a suit-
-(Woldeamanuel, 2016). In this sense, this finding is worth       able walking environment. It is argued in the literature that
-underscoring, since it indeed indicates that most student        attractiveness of a walking pathway has a significant poten-
-users of the transit system are those who are not willing to     tial of convincing people to walk instead of drive (Broberg
-combine it with other modes, including walking and biking        & Sarjala, 2015; Kerr et al., 2006).
-(i.e., their origin and destinations are probably close to a         The discussions in Section 6.1 reveal that older students
-station). There are still considerable potentials of shifting    are more inclined towards both active (alone) and drive
-students living not-so-close to the transit stations to use this modes for traveling to/from school. Therefore, the coeffi-
-mode, as well.                                                   cients alone cannot explicitly identify whether older students
-                                                                 are more likely to choose active modes or driving. The sen-
-                                                                 sitivity analyses in this section further add that as younger
-6.3. Latent classification variables                             students (6–12 years old) age they become slightly more
-At the first glance, the results of latent classification varia- active (i.e., about 2% increase in active mode mileage for
-bles indicate that mode choice behavior of students aged         traveling from home to school and 3% increase in traveling
-less than 12 is different from older students. Also, we found    from school to home). This could be either due to the vul-
-gender as a significant predictor of the latent classification   nerability of younger students to safety threats, or their lack
-component. Living in high income households and living in        of tolerance for walking high distances, which diminishes as
-the city of Chicago are also found as sources of significant     they grow older. On the other hand, the trend reverses after
-behavioral variations. The results also confirm that students    the age of 12 (i.e., elasticity values are about 5% and 6%
-behave differently during April and May, compared to other       for before-school and after-school travels) possibly due to
-times of school year.                                            the capability of obtaining a driver’s license. These results in
-    These findings only serve as indications of influence, but   fact underline the importance of promoting active living life-
-they are barely informative on the direction of the influence.   style among younger students to reduce the potential of
-We calculate the pseudo elasticity values to determine how,      shifting to non-active school modes as they reach the legal
-eventually, these variables would influence students’ tenden-    age of obtaining a driver’s license.
-cies towards active travels to/from school. Pseudo elasticity
-of a dummy variable is defined as the percentage change in       7. Policy implication: Enhancing safety in Chicago
-the total active-commute mileage (either alone, or with one
-or more accompany) as a result of changing state of the          In order to enhance the city of Chicago’s safety to reach the
-variable from 0 to 1 (Train, 2004). The pseudo elasticity        national median, the violent crime rate should be reduced
-estimates are calculated numerically using the prediction        by about 60%. This is while, per the results reported in
-algorithm which was originally proposed by Pinjari and           Section 6.1, students who are living in less safe neighbor-
-Bhat (2010b) for a simple MDCEV model and was later              hoods are significantly less likely to go on active school
-expanded by Sobhani et al. (2013) for latent-class MDCEV         commutes. This section of the article is devoted to quantify-
-models. The algorithm is set to iterate 1000 times, each time    ing how the 60% improvement of crime density in the city
-with a different set of simulated IID Extreme Value error        of Chicago would affect active school commute behavior of
-terms, and the results are averaged over the 1000 simula-        its student residents. Also, we derive a linkage between daily
-tions. Then, the elasticity values are calculated for each of    commutes and some health indicators to provide more tan-
-the latent classification variables based on the average pre-    gible takeaways.
-dictions, and the results are depicted in Figure 4.
-    Figure 4 shows elasticity estimates for home to school
-                                                                 7.1. Active travel mileages
-and school to home tours. The results suggest that students
-who live in the city of Chicago are about 16% (10%) more         The prediction algorithm discussed in Section 6.1 is used
-active in their travels to (from) school compared to those       again to predict active travel mileages associated with 13
-living in suburban areas. This finding is in line with the lit-  scenarios: the base condition (i.e., do nothing) and 12
-erature that evidences the higher vehicle ownership by           improvement scenarios. Each improvement scenario assumes
-households living in suburban areas (Alemu & Tsutsumi,           enhancement of the previous state by a 5% reduction in
-2011) and the more sprawl development of the suburban            crime density. That is, the first scenario assumes that the
-areas as compared to urban settings (Kuang, Chi, Lu, &           crime density is reduced to 95% of the base condition, the
 
-                                                                      INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION    799
-Figure 3. Satiation curves associated with each mode.
-second scenario assumes it is reduced to 90% of the base         (i.e., the do-nothing scenario). The base condition’s crime
-condition, and so on. Our analyses show distinct travel pat-     density (i.e., defined as number of criminal activities per the
-terns for residents of different parts of the city, and for dif- unit area) is divided into four groups: extremely low crime
-ferent seasons. These distinctions are taken into account by     density (less than 0.05), low crime density (0.05–0.10), high
-dividing students into eight different groups depending on       crime density (0.10–0.15), and extremely high crime density
-the month of travel and the base condition’s crime density       (0.15 and above). These groups respectively constitute
 
-800        A. SHAMSHIRIPOUR ET AL.
-Figure 4. Sensitivity of active-commute mileage to variables of the latent classification model.
-83.0%, 7.5%, 5.3%, and 4.2% of the whole sample. Also, the                             However, the safety improvements would considerably affect
-school year is divided into two sections as suggested by the                           the other 17% of the student society. It is estimated that by
-model specification: during December, January, or February                             improving safety of the city of Chicago from its current con-
-(the winter period), and rest of the year (non-winter).                                ditions to the national-level median, around 4% of the stu-
-Figure 5 depicts the percentage change in the overall active                           dents (i.e., those who live in areas with extremely high
-travels for each group.                                                                crime density) would become 40% more active in terms of
-    In overall, this figure reveals a growing pattern of                               daily travel distance, while the whole 17% of students would
-increase in the students’ propensities towards active modes                            become at least 14% more active. Equivalently, the change
-as a result of safety improvements. This trend is observed to                          would result in an increase in daily walking times of about
-the point of a 55% improvement of crime densities. Further                             21 minutes for about 4% of the students, and at least
-safety improvements, however, would be associated with                                 8 minutes for the whole 17% of students (assuming an aver-
-lower rates of encouragement towards active travels.                                   age walking speed of 3 miles per hour).
-According to this Figure, furthermore, students’ tendencies
-towards active modes are considerably less sensitive to crime
-density during December to February as compared to                                     7.2. Extra walking calorie burn
-warmer months of the school year. This is understandable
-                                                                                       In the previous section, we presented the policy implication
-given the severe weather conditions during these months.
-                                                                                       results in terms of the extra distances for which each student
-The severe weather conditions during December to February
-would result in such a strong disutility that could overcome                           would walks if Chicago were made safer. In this section, we
-the disutility caused by safety concerns. This pattern is espe-                        transformed those changes into the extra walking calories on
-cially observed in regions of the city that are flagged as                             the individual basis. That is, for each and every student in
-extremely low or low crime density, and understandably                                 our sample, we first simulate the extra walking distance
-diminishes in higher crime-density regions.                                            associated with each safety-improvement scenario (as
-    Per Figure 5(a), moreover, residents of extremely low                              explained in the previous section). Then, we use the weight-
-crime density regions (83% of the society) are more or less                            for-age charts proposed by CDC to transform the extra
-inelastic to making the city safer—especially during the win-                          walking distance into the extra walking calorie, for over-
-ter. Such an inelasticity makes sense given the fact that such                         weight and obese students. In accordance to the literature
-areas of the city are already safe enough to provide neces-                            (Gamliel et al., 2015), we assume the obesity and overweight
-sary peace of mind to their residents. Reducing the crime                              cutoffs to be, respectively, the 75th and 90th weigh-for-age
-density of these neighborhoods would barely increases stu-                             percentiles. Before moving on to more details, it should be
-dents’ active-mode distance traveled by approximately 1.5%.                            kept in mind that the results in this section should not be
 
-                                                                   INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION    801
-Figure 5. Percentage change in the overall active travels.
-interpreted as a representation of the whole pattern of cal-   the safety improvement results in an annual energy con-
-orie burn (which is also a function metabolic and genetic      sumption of 7900 calories (5800 calories), for an obese stu-
-factors, among the many others) of the students. We merely     dent aged 14–18.
-derive a good proxy for how much more calorie each stu-            Health professionals suggest a steady pattern of losing a
-dent burns while walking for the extra distance.               pound (or equivalently 3,500 calories) per week to achieve a
-    The calculations are designed to replicate the annual val- more sustainable lose-weight plan (“Healthy Weight j
-ues. Walking calorie depends on speed and duration of the      CDC.GOV,” 2017). Using this, we can also calculate how
-walk, weight of the student, and the pathway’s grade (Glass,   the extra walking calories depicted in Figure 6 would con-
-Dwyer, Medicine, & Of, 2007; Margaria, Cerretelli, Aghemo,     tribute to a sustainable plan of losing weight. The contribu-
-& Sassi, 1963). We assume all active travels are walking;      tions are outlined in Table 6. As can be seen, the extra
-walking speed of students is on average 3 miles per hour;      walking calorie burn can provide a student who is
-and all sidewalks are level. The calorie burns are calculated  14–18 years old on the 95th weight-for-age percentile, with
-accordingly (Glass et al., 2007) for six classes of students   approximately 18% of the energy he/she needs to sustainably
-(three age categories and three weight categories) living in   lose weight to the obesity cut off. Similarly, the extra walk-
-each of the four neighborhood types discussed in the previ-    ing calorie burn provides the student with approximately
-ous section. The results are depicted in Figure 6.             13% of the energy needed to lose weight from the obesity
-    According to Figure 6a, b, a 60% safety improvement is     cutoff to overweight.
-not expected to be of great calorie burn benefits for resi-
-dents of neighborhoods with low or extremely low crime
-                                                               8. Conclusions
-densities. However, this would not be the case for neighbor-
-hoods with higher rates of crime prevalence. As can be seen,   In this study, we adopt latent-class MDCEV models to
-for neighborhoods with extremely high (high) crime rates,      investigate students’ overall tendencies toward combining
 
-802        A. SHAMSHIRIPOUR ET AL.
-Figure 6. Extra walking calorie burn in a typical school year.
-Table 6. Contribution of extra walking calorie burn (%) to a sustainable lose-weight plan.
-                                                                                                          Current weight
-                                                                                    A: 5–10                  A: 10–14                 A: 14–18
-Contribution of extra walking calorie burn (%)         Target weight        W: 90th         W: 95th   W: 90th        W: 95th   W: 90th        W: 95th
-High crime density neighborhoods                            90th               –               7%        –              8%        –            13%
-                                                            75th               5%              3%       6%              4%        9%             6%
-Extremely high crime density neighborhoods                  90th               –             16%         –            13%         –            18%
-                                                            75th              11%              7%       9%              6%      13%              8%
-their most preferred choice bundle of mode-accompaniment                           environment (e.g., intersection density and youth population
-style with other options, in school commutes. In addition,                         density), and weather conditions among other explanatory
-the models provide opportunity of directly predicting the                          variables to prevent the omitted variable bias.
-daily active-commute mileage of each student, which can                                The results confirm a significant relationship between
-easily be transformed into public health indices such as daily                     students’ tendencies to choose active modes and violent
-calorie burns. The model is sensitive to prevalence of vio-                        crime prevalence. Per the results, making city of Chicago as
-lent-crime in different geographical locations, providing us                       safe as half of American cities would encourage students, for
-with the opportunity to predict health implications of testing                     up to 40%, to shift from non-active modes. The induced
-different safety-improvement policies. The models also                             demand of active-travel would provide obese students aged
-encompass household structure, auto ownership, urbanicity                          14–18 with up to 18% of the calorie burn they need to
-(i.e., living in city of Chicago or somewhere else), built                         achieve a healthy pattern of weight loss to the obesity cutoff
 
-                                                                                 INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                  803
-and 13% of the calorie burn required for losing weight from                Deka, D., & Von Hagen, L. A. (2015). The evolution of school siting
-the obesity cutoff to overweight. The results also show that,                  and its implications for active transportation in New Jersey.
-                                                                               International Journal of Sustainable Transportation, 9(8), 602–611.
-while adopting a safety-improvement strategy, different
-                                                                               doi:10.1080/15568318.2013.847130
-neighborhoods should be prioritized based on the violent-                  Distance Matrix API. (2018). [WWW Document] URL https://develop-
-crime rates and number of students there.                                      ers.google.com/maps/documentation/distance-matrix/intro
-    The current study also has certain limitations that need               Eluru, N., Pinjari, A. R., Pendyala, R. M., & Bhat, C. R. (2009). A uni-
-to be addressed in future studies. First, we only studied the                  fied model system of activity type choice, activity duration, activity
-effects of crime prevalence in the neighborhood where stu-                     timing, mode choice, and destination choice. Working Paper. Texas.
-                                                                               The University of Texas at Austin.
-dents reside. Future research can take a leap to also analyze              Ermagun, A., & Samimi, A. (2015). Promoting active transportation
-the behavior in terms of safety of the school’s environment                    modes in school trips. Transport Policy, 37, 203–211. doi:10.1016/j.
-and, not least, safety of the routes chosen between home                       tranpol.2014.10.013
-and school. Also, an important stream of research for the                  Flodmark, C.-E., Lissau, I., Moreno, L. A., Pietrobelli, A., & Widhalm,
-future would be to scrutinize the policy making aspects of                     K. (2004). New insights into the field of children and adolescents’
-                                                                               obesity: The European perspective. International Journal of Obesity
-the subject, aiming at tailoring proper action plans for mak-
-                                                                               and Related Metabolic Disorders, 28(10), 1189. doi:10.1038/sj.ijo.
-ing Chicago safer, step by step. Future studies might also                     0802787
-assess how short- to mid-term remedies (e.g., providing                    Freedman, D. S., Dietz, W. H., Srinivasan, S. R., & Berenson, G. S.
-patrols to alleviate the safety concerns in certain times of                   (1999). The relation of overweight to cardiovascular risk factors
-day for certain pathways) could encourage students and                         among children and adolescents: The Bogalusa Heart Study.
-their parents to go on active travels. Improving safety of a                   Pediatrics-Springfield, 103(6), 1175–1182. doi:10.1542/peds.103.6.
-                                                                               1175
-neighborhood requires long-term plans to achieve sustain-                  Gamliel, A., Ziv-Baran, T., Siegel, R. M., Fogelman, Y., & Dubnov-Raz,
-able states.                                                                   G. (2015). Using weight-for-age percentiles to screen for overweight
-                                                                               and obese children and adolescents. Preventive Medicine, 81,
-                                                                               174–179. doi:10.1016/j.ypmed.2015.08.017
-ORCID                                                                      Ghosh, A. (2014). Explaining overweight and obesity in children and
-                                                                               adolescents of Asian Indian origin: The Calcutta childhood obesity
-Ali Shamshiripour       http://orcid.org/0000-0002-6358-5144
-                                                                               study. Indian Journal of Public Health, 58(2), 125. doi:10.4103/0019-
-                                                                               557X.132290
-                                                                           Glass, S., Dwyer, G. B., Medicine, A. C., & Of, S. (2007). ACSM’S meta-
-References                                                                     bolic calculations handbook. Baltimore, MD: Lippincott Williams &
-Alemu, D. D., & Tsutsumi, J. G. (2011). Determinants and spatial vari-         Wilkins.
-   ability of after-school travel by teenagers. Journal of Transport       Greene, W. H., & Hensher, D. (2003). A latent class model for discrete
-   Geography, 19(4), 876–881. doi:10.1016/j.jtrangeo.2010.11.003               choice analysis: Contrasts with mixed logit. Transportation Research
-Anderson, P. M., & Butcher, K. F. (2006). Childhood obesity: Trends            Part B: Methodological, 37, 681–698. https://doi.org/10.1016/S0191-
-   and potential causes. The Future of Children, 16(1), 19–45.                 2615(02)00046-2
-Bhat, C. R. (2008). The multiple discrete-continuous extreme value         Griffiths, L. J., Parsons, T. J., & Hill, A. J. (2010). Self-esteem and qual-
-   (MDCEV) model: Role of utility function parameters, identification          ity of life in obese children and adolescents: A systematic review.
-   considerations, and model extensions. Transportation Research Part          International Journal of Pediatric Obesity, 5(4), 282–304. doi:10.
-   B: Methodological, 42(3), 274–303. doi:10.1016/j.trb.2007.06.002            3109/17477160903473697
-Bhat, C. R. (2005). A multiple discrete-continuous extreme value           He, S. Y., & Giuliano, G. (2017). Factors affecting children’s journeys
-   model: Formulation and application to discretionary time-use deci-          to school: A joint escort-mode choice model. Transportation (Amst),
-   sions. Transportation Research Part B: Methodological, 39(8),               44(1), 199–224. doi:10.1007/s11116-015-9634-x
-   679–707. doi:10.1016/j.trb.2004.08.003                                  Healthy Weight j CDC.GOV. (2017). [WWW Document].
-Bhat, C. R. (1997). An endogenous segmentation mode choice model           Helbich, M. (2017). Children’s school commuting in the Netherlands:
-   with an application to intercity travel. Transportation Science, 31(1),     Does it matter how urban form is incorporated in mode choice
-   34–48. doi:10.1287/trsc.31.1.34                                             models?. International Journal of Sustainable Transportation, 11(7),
-Bond Brill, J., Perry, A. C., Parker, L., Robinson, A., & Burnett, K.          507–517. doi:10.1080/15568318.2016.1275892
-   (2002). Dose–response effect of walking exercise on weight loss.        Helbich, M., van Emmichoven, M. J. Z., Dijst, M. J., Kwan, M.-P.,
-   How much is enough? International Journal of Obesity and Related            Pierik, F. H., & de Vries, S. I. (2016). Natural and built environmen-
-   Metabolic Disorders, 26, 1484–1493.                                         tal exposures on children’s active school travel: A Dutch global posi-
-Broberg, A., & Sarjala, S. (2015). School travel mode choice and the           tioning system-based cross-sectional study. Health Place, 39,
-   characteristics of the urban built environment: The case of Helsinki,       101–109. doi:10.1016/j.healthplace.2016.03.003
-   Finland. Transport Policy, 37, 1–10. doi:10.1016/j.tranpol.2014.10.011  Hill, J. O., Wyatt, H. R., & Peters, J. C. (2012). Energy balance and
-Castro, M., Eluru, N., Bhat, C., & Pendyala, R. (2011). Joint model of         obesity.       Circulation,      126(1),       126–132.       doi:10.1161/
-   participation in nonwork activities and time-of-day choice set for-         CIRCULATIONAHA.111.087213
-   mation for workers. Transportation Research Record: Journal of the      Hopkins, D., & Mandic, S. (2017). Perceptions of cycling among high
-   Transportation Research Board, 2254(1), 140–150. doi:10.3141/2254-          school students and their parents. International Journal of
-   15                                                                          Sustainable Transportation, 11(5), 342–356. doi:10.1080/15568318.
-Chicago Crime Rates and Statistics – NeighborhoodScout. (2017).                2016.1253803
-   [WWW Document]                                                          Jauregui, A., Medina, C., Salvo, D., Barquera, S., & Rivera-Dommarco,
-Davison, K. K., & Birch, L. L. (2001). Childhood overweight: A con-            J. A. (2015). Active commuting to school in Mexican adolescents:
-   textual model and recommendations for future research. Obesity              Evidence from the Mexican National Nutrition and Health Survey.
-   Reviews, 2(3), 159–171. doi:10.1046/j.1467-789x.2001.00036.x                Journal of Physical Activity & Health, 12(8), 1088–1095. doi:10.1123/
-Deckelbaum, R. J., & Williams, C. L. (2001). Childhood obesity: The            jpah.2014-0103
-   health issue. Obesity Research, 9(S11), 239S–243S. doi:10.1038/oby.     Jelalian, E., & McCullough, M. B. (2012). Accelerating progress in
-   2001.125                                                                    obesity prevention: solving the weight of the nation. American
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ticle
+
+
+
+
+
+
+Control and Prevention (CDC), such commutes provide
+equal opportunities, in the sense that even students with
+limited athletic inclinations and those who cannot afford
+gyms are encouraged to be physically active (Services, 2008).
+The present article focuses on the transportation-behavior
+aspects of active school commutes, to further analyze how
+the public tendency towards such commutes could be
+manipulated by the city officials. We focus on obesity of
+children aged 6–12 and 12–18, as two groups of the society
+calling for effective, immediate, and long-term plans to guar-
+antee a healthy future life. Although children are by nature
+attracted to physical activities such as walking, biking, and
+running, it still remains a challenge to promote active school
+trips among them (Services, 2000). Various factors are
+believed to be influential, among which safety concerns—of
+the children and their parents—stand out. In fact, not only
+would not walking/biking to school be attractive in an
+unsafe setting, but also it might not be taken as a feasible
+action at all. Following is a brief review of the different
+aspects of school travel safety as discussed in the literature.
+The major attention in the literature is focused on the
+safe interactions between students and the conflicting traffic
+vehicular flow (Deka & Von Hagen, 2015; Hopkins &
+Mandic, 2017; Kerr et al., 2006; Moniruzzaman & Farber,
+2018; Rodriguez & Vogt, 2009). Such interactions mostly
+take effect from urban settings (e.g., street connectivity indi-
+ces) and are well-studied to this point. In addition, a stream
+of research is triggered recently, defining school trip safety
+in terms of crime prevalence and supporting the significance
+of accounting for it (Kamargianni, Dubey, Polydoropoulou,
+& Bhat, 2015; Ma, Xiong, Wang, & Xie, 2018;
+Woldeamanuel, 2016).
+Our main focus in the present article is to have a closer
+look into the role of crime prevalence in the context of the
+Chicago metropolitan area, Illinois. Regarding the safety
+challenges of the region, recent data released by the
+Uniform Crime Reporting Program (Federal Bureau of
+Investigation) shows that the city of Chicago is among the
+least safe cities nationwide. The city is less safe than 89% of
+American cities. Furthermore, violent crime rate in the city
+stands at 9.08 (per 1000 residents), as compared to the
+national median crime rate of 3.8 (“Chicago Crime Rates
+and Statistics - NeighborhoodScout,” 2017). We also account
+for the safety challenges caused by the drastic weather con-
+ditions during the winter period. Our empirical evidence
+supports the significant role of the weather conditions,
+as well.
+Adopting advanced statistical modeling approaches, we
+explore how critical it could be to accommodate policies to
+increase the crime safety in the residence of students. The
+main hypothesis is that children living in unsafe neighbor-
+hoods are generally more reluctant towards active travel. In
+more details, we explore how children’s active school travels
+
+is a function of violent-crime prevalence in the neighbor-
+hood where they reside and how this relationship is affected
+by the weather conditions. Using the weight-for-age charts
+proposed by CDC, we also explore how policies for improv-
+ing safety of Chicago to the national median, contributes to
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION     789
+the students’ energy balance in the form of extra walking
+calorie burns (i.e. the extra calories burned due to walking
+more) for each student.
+Two key terms need especial attention in the above state-
+ment: extra walking calorie burn and each student. We limit
+the scope of the present research to the extra walking calo-
+ries (as compared to the full calorie burn), for the sake of
+availability of a comprehensive-enough dataset. The full
+entanglement of the relationship requires a longitudinal
+dataset that contains detailed information on the household-
+level transportation behavior of the children and their fami-
+lies, weather conditions and crime records, the socio-demo-
+graphics like age, gender, income, membership in gyms, and
+not least, genetic factors, weight, height, metabolic factors,
+the attitudes towards playing indoor versus outdoor in play
+grounds, etc. Limiting scope of the research helps us legitim-
+ately assume that putting aside all the individual-specific fac-
+tors mentioned above does not harm the validity of our
+results, since those factors all cancel out when focusing on
+each student separately and looking merely into the extra
+energy that he/she consumes while having the peace of mind
+to walk for longer distances in the neighborhood.
+Remainder of this article is organized as follows. Next
+section reports on a comprehensive review of the literature
+conducted to understand the context and to choose proper
+analysis methods. As discussed in that section, we adopt the
+multiple discrete continuous extreme value (MDCEV) (Bhat,
+2008) econometrics modeling approach to account for the
+satiation effects (i.e. students loose interest towards, for
+example, walking as they walk for longer distances). Next, in
+Section 3, we discuss the different sources of data we used
+in this study. The econometrics modeling approach is elabo-
+rated in detail in Section 4, and the model specification and
+the estimation results are reported in Section 5. Readers
+interested mostly in our results can skip these two sections
+and reach Section 6 where we discuss the immediate find-
+ings of the study. In Section 7, we take a step forward and
+simulate the outcome of policies to make Chicago safer, in
+the forms of: (1) extra active travels before and after school,
+and (2) the individual-level extra walking calorie burns dis-
+cussed above. The article concludes in Section 8 with sum-
+marizing findings of the study.
+
+2. Literature review
+
+A comprehensive review of the literature helped us gain
+insight on the context, find the gaps, and adopt a suitable
+analysis method. This section is dedicated to a brief discus-
+sion on the take-aways from the previous studies in two
+fields: (1) transport mode choice behavior and (2)
+Childhood obesity as a major health priority.
+
+
+2.1. Transport mode choice
+
+Selected studies in the transport mode choice literature are
+summarized in Table 1. Studies in this table are chosen to
+cover a wide range of analysis features, focusing on the
+mode choice.
+
+
+Regarding the choice set formation, we noted that a
+majority of studies on school travels have either developed
+models on a limited subset of modes and studied the rest
+through descriptive analyses (Helbich, 2017; Johansson,
+Laflamme, & Hasselberg, 2012; Larsen et al., 2009; Leslie,
+Kremer, Toumbourou, & Williams, 2010; Rodriguez & Vogt,
+2009; Van Dyck, De Bourdeaudhuij, Cardon, & Deforche,
+2010), or merely focused their attention on active modes as
+a binary choice (Broberg & Sarjala, 2015; Deka & Von
+Hagen, 2015; Mitra, Buliung, & Roorda, 2010). Another
+dimension of the problem, which often-times is ignored, is
+the interrelationships between accompaniment and mode in
+a school trip. Parents are expected to have less safety con-
+cerns while escorting their child to school, especially when it
+comes to younger students’ travels. Although the limited
+choice set in most of the studies cited above is an intrinsic
+challenge of GPS tracking data used by them, we have more
+freedom in the present research, thanks to using travel dia-
+ries. In this sense, the models developed in this art-
+icle recognize:
+
+ Three accompaniment styles (i.e., alone, having one
+accompany, and having more than one accompany), as
+well as
+ Four modes of travel (i.e., active, transit, auto, and school
+bus) to form a comprehensive choice set.
+
+With regards to the statistical modeling approach, we
+used the MDCEV model (Bhat, 2008), despite majority of
+
+school trip studies that stick to single-discreteness choice
+models such as Multinomial Logit (MNL) and Nested logit
+(NL). As a principle of the utility theory (Seager, 1917), peo-
+ple generally get less inclined towards waking, biking, taking
+a bus, etc., as they go farther distances by the mode. This
+principal behavioral concept is also referred to as the sati-
+ation effects and is the main driver behind choosing different
+alternatives at the same time. Put differently, in such choice
+situations, a rational decision maker oftentimes chooses a
+bundle of alternatives instead of sticking to one insatiably.
+Conventional choice models like MNL are mainly proposed
+to model situations of single-discreteness where only one
+alternative is being selected. Relaxing this limitation, the
+novel closed form formulation of MDCEV allows for analyz-
+ing how flexible a student is in combining his/her most-pre-
+ferred mode with other choices.
+Also, we used a latent classification framework to
+endogenously capture the potential heterogeneity in mode
+choice behavior of students (Greene & Hensher, 2003). The
+mode choice decision is generally argued to be subject to
+considerable degrees of heterogeneity (Shabanpour,
+Golshani, Derrible, Mohammadian, & Miralinaghi, 2017;
+Vij, Carrel, & Walker, 2013). In the context of students’
+mode choice, however, few studies could be found taking
+the heterogeneity into account explicitly in a unified model
+structure. Inspiring from literature, also, travels to and from
+school are analyzed separately (Mitra et al., 2010;
+Schlossberg, Greene, Phillips, Johnson, & Parker, 2006;
+Wilson, Marshall, Wilson, & Krizek, 2010; Yarlagadda &
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION      791
+Srinivasan, 2008). These two portions of a student’s daily
+travel pattern are argued to be fundamentally different in
+nature; commute to school is, by definition, a travel towards
+a mandatory activity with inflexible start time, while getting
+back home is a travel towards a more enjoyable activity
+which probably provides the student with more peace of
+mind and flexibility.
+We incorporate into the models a set of different predic-
+tors including socio-demographic characteristics of students
+and their households, land-use, crime safety, and seasonal/
+weather conditions. Age, grade, gender, household compos-
+ition indices (e.g., presence or number of siblings), vehicle
+and license ownership, and household income are among
+the most recognized socio-demographic variables in the con-
+text (Kamargianni et al., 2015; Mitra et al., 2010; Sidharthan,
+Bhat, Pendyala, & Goulias, 2011; Wen et al., 2008; Zhang,
+Yao, & Liu, 2017). Furthermore, frequently used land-use
+variables, can be categorized into home-school distance
+(either with respect to the mileage of travel or the travel
+time), street connectivity measures (e.g., intersection density,
+road density), population or residential density, and urbanic-
+ity (Helbich, 2017; Johansson et al., 2012; Mitra et al., 2010;
+Woldeamanuel, 2016; Zhang et al., 2017). Safety indices of
+the student’s pathway to school are also commonly recog-
+nized as influential variables in their mode choice behavior
+(Johansson et al., 2012; Kamargianni et al., 2015; Rodriguez
+& Vogt, 2009; Wen et al., 2008).
+
+
+2.2. Childhood obesity as a major health priority
+
+Mounting previous evidence, 22 million children under
+5 years of age are overweight internationally (Deckelbaum &
+Williams, 2001). Much research has been devoted to assess-
+ing the impacts and comorbidities of childhood obesity.
+Previous evidence suggests that childhood obesity is a risk
+factor of future chronic diseases (e.g., high blood pressure,
+hyperlipidemia, or elevated insulin levels; Freedman, Dietz,
+Srinivasan, & Berenson, 1999). Hence, there is rising con-
+cern to control childhood obesity by providing easy and
+accessible strategies in community level (e.g., active school
+trips, nutrition improvement, and physical activities) and
+improving social media focusing on the issue.
+Obesity is a multifactorial health issue affected by genetic
+background, nutrition, age, gender, parents’ lifestyles, and
+school policies. In this sense, there is no consensus on defin-
+ing childhood obesity. Underwater weighing (densitometry),
+multi-frequency bioelectrical impedance analysis (BIA), and
+magnetic resonance imaging (MRI) are methods to measure
+body fat percentage for research applications. In clinical
+environment, anthropometrics aids gain an indirect estimate
+of body fat. Reviewing the literature, BMI and weight-for-
+age are two important anthropometric parameters that could
+be used in our research. Different studies suggested diverse
+BMI cutoff points for defining obesity among youth
+(Flodmark, Lissau, Moreno, Pietrobelli, & Widhalm, 2004;
+Ghosh, 2014; Nawab, Khan, Khan, & Ansari, 2014). Yet,
+BMI is believed to be an inaccurate estimate of child obesity,
+due to physiologic changes during the growth period.
+
+792       A. SHAMSHIRIPOUR ET AL.
+Another strategy to gain a more robust view of childhood
+obesity is to use weight-for-age charts released by CDC. As
+reported by previous research, the 90th and 75th percentiles
+are appropriate cutoffs to define children as obese or over-
+weight, respectively (Gamliel, Ziv-Baran, Siegel, Fogelman, &
+Dubnov-Raz, 2015). We adopted this metric.
+Three prevention strategies can be implemented to lower
+childhood obesity. Primordial prevention mainly focuses on
+maintaining healthy lifestyle (weight-for-age < 75th percent-
+ile). Primary prevention helps avoiding at risk population to
+become obese (weight-for-age 75th to 90th percentile) and
+secondary prevention aims to reduce comorbidities of obes-
+ity (weight-for-age > 90th percentile). The present research
+focuses on the last two categories.
+
+
+3. Data preparation and sample formation
+
+The main source of data used in this study is the Travel
+
+Tracker Survey, hosted by Chicago Metropolitan Agency for
+
+Planning. The survey gathers travel information of 23,808
+
+individuals in 10,552 households, among which around 10%
+are school children aged 6–18. After extensive data cleaning,
+the final sample used for the analysis contains information
+of 2703 students in this age range. This sample is, then,
+enriched by adding built-environment data at the census
+tract level to reflect land-use settings in students’ residen-
+tial areas.
+Although the survey includes diverse demographic attrib-
+utes and travel information, it does not explicitly collect
+travel distance information (instead, straight line distances
+are computed and reported as proxies). To obtain more
+accurate proxies, we have employed Google Maps’ Distance
+Matrix API (“Distance Matrix API”, 2018). Distance Matrix
+API is a service provided by Google Maps that facilitates
+systematic route choice queries. The API responds to queries
+of origin–destination with details of the best route. We
+Figure 1. Percent of students who have chosen each mode-escort
+
+developed a computer code in Python 3 to go over the trip
+legs of students in the sample, query each record from the
+API, and extract the corresponding travel time and distance.
+Using a similar approach, we also extract from the API the
+walking distances between students’ home and school loca-
+tions based. That is, this variable is generated for a hypo-
+thetical walking travel from home directly to school,
+choosing the route suggested by the Google Maps Distance
+Matrix API. Origin and destination of 6.3% of the trip legs
+are reported to be the same in the survey, resulting in zero
+travel distances returned by the API. In such cases, the cor-
+responding travel distances are imputed using the method of
+stochastic regression (Little & Rubin, 2014), incorporating
+other travel- and individual-level information as predictors
+of the regression. The variables used for imputation include
+time of day, the straight-line distances as reported in the
+raw dataset, and socio-demographics, among others.
+The final estimation sample is formed by aggregating dif-
+
+ferent mode-escort combinations into eight choice alterna-
+
+tives, namely active but alone, active with one companion,
+
+active with more than one companion, drive alone, being
+the only passenger of a car, being part of a carpool, taking
+transit, or riding school bus. Figure 1 presents the percent
+of students who have chosen each mode-escort alternative in
+their travel to/from school. The figure reveals that carpool-
+ing and school bus constitute more than 50% of the chosen
+modes in both before-school and after-school tours. Another
+insight from this Figure is that students are more likely to
+walk from school to home than when heading to school. To
+add more perspective, Figure 2 depicts the distribution of
+active transport mileages of traveling to/from school.
+Accordingly, students are also more likely to walk for longer
+distances when they are heading back home compared to
+when they are going to school. In Section 2.1, we provided
+evidence from the literature regarding the distinction
+between before- and after-school chains. Figures 1 and 2
+also provide further insight on the importance of testing the
+alternative.
+
+
+Figure 2. Distribution of active travel mileage in before-school versus
+distinction, specifically, for our dataset. Such tests are con-
+ducted in Section 5. Please refer to that section for
+
+more details.
+
+
+4. Methodology for transport mode
+choice modelling
+
+This article adopts the latent-class modeling approach
+
+(Greene & Hensher, 2003; Sobhani, Eluru, & Faghih-Imani,
+
+2013) to control for the potential heterogeneity among stu-
+
+dents in their decisions regarding active travels. In this
+
+framework, students are endogenously assigned to specific
+
+classes, and for each class, a separate MDCEV (Bhat, 2008)
+
+model is estimated.
+
+
+4.1. Latent-Classification model
+
+Let His denote the probability distribution function associ-
+ated with individual i being a member of class s: A detailed
+discussion on different His formulations can be found in
+Greene and Hensher (2003). Following Sobhani et al. (2013),
+we adopt the multinomial logit form in Equation (1), where
+yi is a vector containing various attributes associated with
+individual i; and ds is the vector of segment-specific coeffi-
+cients corresponding to yi :
+expðds yi Þ
+His ¼ PS
+
+k¼1 expðdk yi Þ
+
+Also, let Pij js denote the likelihood that individual i dem-
+onstrates choice pattern j; given being a member of class s:
+Having the class-membership and within-class choice proba-
+bilities specified, the overall likelihood of individual i choos-
+ing a choice pattern j can be written as:
+X S
+L¼           Hik  Pij js
+k¼1
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION     793
+after-school travels.
+4.2. MDCEV model
+
+In some choice situations, the consumer demands for mul-
+
+tiple goods given a limited budget, instead of an insatiable
+desire on selecting one. Choosing among different modes of
+travel is an example—one may imperfectly substitute one
+mode for another. A student might be given a ride by his/
+her parent to a safe zone close to school and walk rest of
+
+the way. In this case, total mileage that the student travels
+
+from home to school (or vice versa) is the budget, which is
+
+split among auto and walk.
+
+One popular method of analyzing such situations is
+
+through applying Kuhn-Tucker (KT) conditions (Bhat, 2008;
+
+Wales & Woodland, 1983). This method can be traced back
+
+to the work of Wales and Woodland (1983) where the
+authors proposed a likelihood function of multivariate nor-
+mal integrals, resulting in computational difficulties that pre-
+vented the model from getting prevailing at the time (Bhat,
+2008). Kim, Allenby, and Rossi (2002) advanced this
+approach by incorporating a translated CES (i.e., Constant
+Elasticity of Substitution) utility function, and employing a
+simulation approach to approximate the integrals. Few other
+studies have also applied similar approaches (see, e.g.,
+Phaneuf, Kling, & Herriges, 2000; von Haefen, Phaneuf, &
+Parsons, 2004). Bhat (2005) developed a novel closed-form
+formulation, MDCEV, which was further enhanced by the
+same author in 2008 (Bhat, 2008). Different specifications
+(1)
+have been proposed for each version of the model.
+
+Following literature Castro, Eluru, Bhat, and Pendyala
+(2011), Eluru, Pinjari, Pendyala, and Bhat, (2009), Pinjari
+and Bhat, (2010a), and Rajagopalan, Pinjari, and Bhat,
+(2009), we adopt the c-profile specification of the 2008 ver-
+sion for the present study.
+Let Ck denote the mileage traveled by mode k, and U ðCÞ
+denote the total utility that a student gains from choosing a
+(2)     particular chain of modes (e.g., having someone give them a
+ride, then walking for the last quarter mile). Then, the
+
+794         A. SHAMSHIRIPOUR ET AL.
+c-profile for U ðCÞ is suggested as:                                                 technique has also helped us to impose no restrictions to
+XK                                                any of the b parameters.
+Ck
+U ðC Þ ¼      ck wk ln        þ1                      (3)
+k¼1
+ck
+5. Transport mode choice model: Specification
+where ck is the translation parameter, which also alters for
+satiation effects. Furthermore, wk is the baseline marginal                          We tested two different approaches for capturing the dis-
+utility (at the point of zero consumption), which by defin-                          tinction between students’ travel behavior before and after
+school. First, a model is developed for the entire home-to-
+ition, needs to be positive for all students. Equation 4 guar-
+home trip chain. In this model, the distinction between
+antees the positivity condition.
+before- and after-school tours is recognized by introducing a
+wk ¼ expðbZ þ ek Þ                              (4)     dummy variable into the latent-segmentation component.
+here, Z denotes the vector of explanatory variables, b is the                        The distinction of before- from the after-school trips is con-
+corresponding vector of coefficients, and ek denotes the                             firmed by the t-test conducted for the dummy variable’s
+error term, which is assumed to follow an iid extreme value                          coefficient in the model. This model is then compared
+distribution within each latent class.                                               against separate models for before-school and after-school
+trip chains. The latter approach is found to offer more stable
+and more accurate results; thus, the home-to-home model is
+4.3. Estimation technique                                                            not reported. The distinction between before- and after-
+school trips is also supported by these models, using the
+Expectation maximization (EM) is the technique mostly
+likelihood ratio test.
+used in previous studies to overcome estimation difficulties
+Table 2 summarizes definition of various explanatory var-
+of a discrete choice model with mixed error terms (Train,
+iables incorporated into the models, as well as their average
+2009). EM starts by estimating the original log-likelihood by
+and standard deviation in the final estimation sample.
+a simple-to-optimize function (i.e., the Expectation function)                           Also, number of classes is set to 3 based on the stability
+and continuous to find its maximum in each iteration.                                of the results, and AIC and BIC indices. AIC and BIC values
+Then, the algorithm moves forward to ultimately find a                               are outlined in Tables 4 and 5. Per these values, the model
+point sufficiently close to a stationary point in the log-likeli-                    with three latent classes is superior to the 2-class model for
+hood function. However, this method has two main draw-                               before-school and after-school trip chains. Similarly, the 4-
+backs: First, convergence rate of the method is very slow,                           class model structure is superior to the 3-class structure per
+and second, it increases the chance of trapping in a local                           the AIC results. However, the 4-class structure is not consid-
+optimum (Bhat, 1997; Zhang, Kuwano, Lee, &                                           ered a good model specification as it leads to unstable
+Fujiwara, 2009).                                                                     results, in terms of both magnitude and sign of the
+To account for these concerns, inspiring from Bhat                              coefficients.
+(1997), we have used a simplified version of the HELPME                                  Table 3 outlines results of the latent-segmentation mod-
+algorithm (Shamshiripour & Samimi, 2017). The algorithm                              els, setting Class 1’s utility function as the base. The seg-
+starts by generating 15 random initial solutions around esti-                        ment-specific models developed for before-school and after-
+mation results of the corresponding basic MDCEV (the sin-                            school trip chains are respectively reported in Table 4 and
+gle-class model), which are allowed to randomly fluctuate in                         Table 5. The last column of these tables outlines average
+the domain of ½2  b to 2  b for the baseline marginal                            parameter estimates calculated using the Bayesian formula
+utility parameters and ½0:4  c to 1:5  c for the translation                      (Greene & Hensher, 2003). The reader may note that the
+parameters. In addition to avoiding local optima, this                               average values are not reported for translation parameters.
+Table 2. Description of the explanatory variables used in this study.
+Variable name                                                                      Variable definition                                    Avg.  St. Dev.
+Student’s age                          Student’s age in years                                                                             11.98   3.63
+Student’s age: 6 to 12                 1: If the student is 6 to 12 years old/ 0: Otherwise                                                0.53   0.49
+Student’s gender: male                 1: If the student is a male/ 0: Otherwise                                                           0.51   0.49
+HH income: $100kþ                      1: If the household’s annual income is more than $100,000/ 0: Otherwise                             0.42   0.48
+HH structure: # students               Number of students in the household                                                                 2.35   1.05
+HH structure: # workers                Number of workers in the household                                                                  1.79   0.79
+HH structure: # not student/worker     Number of individuals in the household who are neither a student nor a worker                       0.15   0.87
+HH mobility: # vehicles per driver     Number of vehicles div. by number of driving license holders in the household                       0.97   0.40
+Urbanicity: Chicago                    1: If the household resides in the city of Chicago/ 0: Otherwise                                    0.24   0.43
+Built Env.: intersection density       Intersection density† of the Census Tract of household’s residence                                  1.57   0.80
+Built Env.: youth population density   Population density†† of 5 to 19 yo people in Census Tract of household’s residence                  0.49   0.54
+Built Env.: crime density              Density of crime††† records in Census Tract of household’s residence, div. by 1000                  0.02   0.05
+Built Env.: walking distance           Natural logarithm of walking distance between student’s home and school assuming the shortest path  3.43   1.18
+Weather: spring                        1: if the student is surveyed during April or May/ 0: Otherwise                                     0.11   0.31
+Weather: winter                        1: if the student is surveyed during December, January, or February/ 0: Otherwise                   0.17   0.38
+†
+Defined as the number of intersections per the unit area of the Census Tract.
+††
+Defined as the population per the unit area of the Census Tract.
+†††
+Defined as the number of criminal activities (homicide, weapon-violation, and theft) per the unit area of the Census Tract.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION
+Table 3. Estimation results: latent classification model for before-school and after-school chains.
+Coefficient in Each Latent Class’s Utility Function†
+Independent Variables Used for Latent-Classification                  Latent Class 1                Latent Class 2                Latent Class
+Home to School
+Alternative Specific Constant                                    Comparison basis                 0.074                        0.091
+Student’s Age: 6–12                                                                               0.117                            –
+HH Income: $100kþ                                                                                      –                        0.112
+Urbanicity: Chicago                                                                                    –                        1.968
+Student’s Gender: male                                                                              0.118                          –
+Weather: spring                                                                                   0.086                           –
+School to Home                                                      Comparison basis
+Alternative Specific Constant                                                                       0.664                      0.545
+Student’s age: 6–12                                                                                 0.258                          –
+HH Income: $100kþ                                                                                      –                        0.168
+Urbanicity: Chicago                                                                                    –                        2.013
+Student’s Gender: male                                                                            0.204                          –
+Weather: spring                                                                                   0.443                          –
+† 
+, , and , respectively, mean 95%, 90%, and 85% level of statistical confidence.
+We avoid reporting the values to underline the fact that                             coefficients to be subject to variations in sign across differ-
+those values are subject to enormous variations among                                ent classes, and in some instances, between before- and
+classes, making an average value lose its meaning.                                   after-school chains. The average Bayesian estimates are pre-
+sented in Tables 4 and 5 to gain a general sense of these
+variables’ influence direction. Per the average results, num-
+6. Transport mode choice model: Discussion
+ber of students in a household positively affects the prob-
+This section is structured to elaborate on the results outlined                      ability of a carpooling trip to school. In case of after-school
+in Tables 3, 4, and 5, with an emphasis on the transporta-                           chains, though, the relationship holds in the opposite direc-
+tion behavior. We first go over our findings regarding the                           tion. Furthermore, students who have more student siblings
+individual preferences in terms of baseline marginal utility                         are found to be more interested in active travels with more
+variables. The findings include the roles of socio-demo-                             than one companion. The reader may note that this effect is
+graphic variables, urban settings, and seasonal effects. After                       consistent across different classes, and before-school versus
+that, we explain the modal satiation effects and marginal                            after-school chains. Although McDonald (2008) reported
+utilities specific to each mode and class. At the end, the dis-                      similar results regarding influence of number of siblings,
+cussions in this section conclude with a simple simulation to                        Mitra et al. (2010) found no significant associations to stu-
+further disentangle the effects of the latent classification var-                    dents’ tendency to walk. Per our results, also, students of
+iables and study how they eventually affect the preferences                          households with more workers are less likely to have some-
+towards active modes of travel.                                                      one give them a ride from home to school, while being
+more likely to do so for getting back home. Number of
+non-students in the household who do not work is another
+6.1. Baseline marginal utility variables                                             indicator of the household structure. The effect of this vari-
+The influence direction of socio-demographics (except                                able is observed to be consistent among before- and after-
+household-structure indicators), urban settings and land-use                         school chains. As number of such individuals increases in a
+variables, and seasonal effects are found to be consistent in                        household, it becomes more probable that a student of the
+sign across different classes as well as for before- and after-                      household takes an active journey to school while being
+school chains. These variables are discussed first, starting                         accompanied by others.
+with the student’s age. In addition to latent segmentation                              Coping with active modes of travel is also found to be
+model, this variable is also found to significantly influence                        under influence of various urban settings, by previous
+the mode choice behavior. Per results, students tend to walk                         research (Johansson et al., 2012; Kamargianni et al., 2015;
+or bike alone to/from school as they age. This effect is spe-                        Nelson, Foley, O’Gorman, Moyna, & Woods, 2008;
+cifically observed for the second and third classes. Older stu-                      Schlossberg et al., 2006) and the current study. Intersection
+dents of the third class are also found to lose interest in                          density is an instance. Neighborhoods with higher intersec-
+accompanied active modes. Notably, students become more                              tion densities provide more safe zones (per unit of area) for
+inclined toward shifting to the drive-alone mode, as they                            students to pass the street and, thereby, have a more flexible
+age. Number of vehicles per licensed driver in a household                           route choice experience and safer journey to/from school
+is also confirmed to be influential. As the results show, stu-                       (Helbich et al., 2016; Schlossberg et al., 2006). In line with
+dents in households owning more vehicles are less likely to                          this expectation, our results indicate that higher intersection
+walk (or bike) alone (observed for first and second classes)                         densities encourage students to have more walking/biking
+or take transit (observed only for the second class).                                school travels, either while they are alone (observed for first
+Previous studies have concluded different results regard-                        and third classes) or when they are being accompanied by a
+ing structure of the student’s household (McDonald, 2008;                            companion (observed only for the first class). Crime density
+Mitra et al., 2010). We found household-structure                                    is another safety indicator considered in this study. Students
+795
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+796          A. SHAMSHIRIPOUR ET AL.
+Table 4. Estimation results: class-specific MDCEV models for before-school chains.
+Coefficients Specific to Each Latent Class†
+Coefficients of Independent Variables in Each Dependent
+Variable’s Baseline Marginal Utility Function                         Latent Class 1             Latent Class 2               Latent Class 3 Bayesian Avg
+Dependent variable: Active (Alone)
+Alternative Specific Constant                                        2.538                    9.579                     0.880         2.664
+Student’s Age                                                            –                        1.491                     0.393       0.633
+HH Mobility: # vehicles per driver                                   0.077                    6.023                        –           2.187
+Built Env.: intersection density                                       0.834                     –                          0.708       0.504
+Built Env.: walking distance                                             –                      8.925                    2.615       3.856
+Built Env.: crime density                                                –                          –                        3.587       3.587
+Dependent variable: Active (1 Accompany)
+Alternative Specific Constant                                        1.790                  1.311                    4.394       2.276
+Student’s Age                                                            –                          –                        0.287         0.287
+HH Structure: # not student/worker                                     0.440                 1.297                      2.183       0.258
+Built Env.: intersection density                                       0.540                     –                            –            0.540
+Dependent variable: Active (11 Accompany)
+Alternative Specific Constant                                        2.060                  8.575                    7.615       5.796
+HH Structure: # students                                               0.377                   2.560                     0.472        1.183
+Built Env.: youth population density                                     –                          –                          6.719       6.719
+Dependent variable: Auto (Drive Alone)
+Alternative Specific Constant                                      11.760                  50.679                   46.872      34.563
+Student’s Age                                                          0.536                   2.600                     2.756       1.836
+Dependent variable: Auto (Sole Passenger)
+Alternative Specific Constant                                        0.623                    3.155                   2.957        0.140
+HH Structure: # workers                                                0.224                    0.305                   0.842         0.016
+Weather: winter                                                        0.756                     –                            –            0.756
+Dependent variable: Auto (11 Passengers)
+Alternative Specific Constant                                          0.133                      1.615                   5.078       0.652
+HH Structure: # students                                             0.203                      1.229                     0.588       0.510
+Weather: winter                                                        1.347                     –                            –            1.347
+Dependent variable: Transit
+Alternative Specific Constant                                        1.958                    7.510                   10.072        0.617
+HH Mobility: # vehicles per driver                                       –                     11.907                        –          11.907
+Weather: winter                                                          –                        2.434                       –            2.434
+Built Env.: crime density                                              1.614                     –                            –            1.614
+Dependent variable: School Bus                                       Comparison basis
+Translation Parameters
+Active (Alone)                                                         1.624                   3.155                 6,800.551  –††
+Active (1 Accompany)                                             57,833.802                    0.245                     0.080  –††
+Active (1þ Accompany)                                            76,323.453                    0.961                     0.229  –††
+Auto (Drive Alone)                                                     0.849                   0.002                  2,951.339  –††
+Auto (Sole Passenger)                                                 31.664                  74.136                     0.671  –††
+Auto (1þ Passengers)                                                  23.105                  15.176                     0.783  –††
+Transit                                                             163.319                2,403.223                    19.954  –††
+School Bus                                                       84,962.36               72,809.124                81,914.325   –††
+Scale Parameter                                                            1.000 f                    1.000 f                      1.000 f
+–††
+Number of non-missing observations                                                            2,703
+Log-likelihood at convergence                                                               4771.398
+Bayesian Information Criterion (BIC)
+Best 2-segment model                                                                      11,801.046
+Best 3-segment model                                                                      10,151.260
+Best 4-segment model                                                                      10,194.446
+Akaike Information Criterion (AIC)
+Best 2-segment model                                                                      11,399.702
+Best 3-segment model                                                                       9,696.796
+Best 4-segment model                                                                       9,592.430
+† 
+, , and , respectively, mean 95%, 90%, and 85% level of statistical confidence; f indicates a fixed parameter.
+††
+These values are not reported due to their corresponding class-specific values being subject to enormous variations.
+living in neighborhoods with higher crime densities are                              students too) also show more tendencies towards home-
+found to be considerably less likely to go to/from school by                         school active travels with more than one accompanies. We
+walking or biking when they are alone. This finding is con-                          believe this is a significant finding, showing how influential
+sistent with results of previous studies (McDonald &                                 social networks could be in encouraging students to be
+Aalborg, 2009; Schlossberg et al., 2006; Woldeamanuel,                               more active. Per this result, students having more opportu-
+2016). Schlossberg et al. (2006), for instance, report signifi-                      nities to socialize with their neighbor fellows are also of
+cant relationships between parents’ fear of potential dangers                        higher potentials of coping an active lifestyle. The results
+from strangers and their tendencies for allowing the child                           also confirm the intuitive expectation that students get less
+for having an active school travel.                                                  inclined towards walking (or biking) to/from school when
+Per the results, students living in neighborhoods with                          they live farther from school. Per the results, walking and
+more individuals in their age (who are very likely to be                             biking are also less expected during December, January, or
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION         797
+Table 5. Estimation results: class-specific MDCEV models for after-school chains.
+Coefficients Specific to Each Latent Class†
+Coefficients of Independent Variables in Each Dependent
+Variable’s Baseline Marginal Utility Function                         Latent Class 1             Latent Class 2               Latent Class 3 Bayesian Avg.
+Dependent variable: Active (Alone)
+Alternative Specific Constant                                        4.789                    2.565                     7.091       0.846
+Student’s Age                                                            –                        0.282                     0.563       0.243
+HH Mobility: # vehicles per driver                                   1.286                  1.826                        –           1.154
+Built Env.: intersection density                                       1.401                     –                          1.106       0.825
+Built Env.: walking distance                                             –                      1.236                    5.471       1.825
+Built Env.: crime density                                                –                          –                        4.655       4.655
+Dependent variable: Active (1 Accompany)
+Alternative Specific Constant                                        2.162                  2.399                    2.857       2.422
+Student’s Age                                                            –                          –                        0.228         0.228
+HH Structure: # not student/worker                                     0.548                 0.572                        1.085       0.283
+Built Env.: intersection density                                       0.927                     –                            –            0.927
+Dependent variable: Active (11 Accompany)
+Alternative Specific Constant                                        2.857                  2.887                   68.063      19.348
+HH Structure: # students                                               0.067                      1.041                    10.832       3.136
+Built Env.: youth population density                                     –                          –                         28.571      28.571
+Dependent variable: Auto (Drive Alone)
+Alternative Specific Constant                                       80.768                 26.942                 115.215       70.205
+Student’s Age                                                          4.471                   1.634                     7.269       4.163
+Dependent variable: Auto (Sole Passenger)
+Alternative Specific Constant                                        0.079                      0.419                     3.992       0.890
+HH Structure: # workers                                              0.745                     0.435                     0.651        0.030
+Weather: winter                                                        0.657                       –                            –            0.657
+Dependent variable: Auto (11 Passengers)
+Alternative Specific Constant                                          0.901                   0.008                    1.692         0.074
+HH Structure: # students                                             0.597                    0.799                   1.225         0.256
+Weather: winter                                                        1.117                     –                            –            1.117
+Dependent variable: Transit
+Alternative Specific Constant                                        2.052                    2.558                  14.909          3.651
+HH Mobility: # vehicles per driver                                       –                      5.903                        –           5.903
+Weather: winter                                                          –                        0.975                        –            0.975
+Built Env.: crime density                                              2.505                     –                            –            2.505
+Dependent variable: School Bus                                       Comparison basis
+Translation Parameters
+Active (Alone)                                                         8.732                  13.913               63,923.5     –††
+Active (1 Accompany)                                                  26.736                   0.932                     0.284  –††
+Active (1þ Accompany)                                              3,729.412                  16.719               20,360.17    –††
+Auto (Drive Alone)                                               70,288.517                   39.763                    34.741  –††
+Auto (Sole Passenger)                                                 19.908                  22.262                    26.560  –††
+Auto (1þ Passengers)                                                  22.415                  22.901               43,590.46    –††
+Transit                                                          81,786.5                91,801.217                  4,733.122  –††
+School Bus                                                           577.498             41,307.267                33,959.320   –††
+Scale Parameter                                                            1.000 f                    1.000 f                      1.000 f   –††
+Number of non-missing observations                                                            2,703
+Log-likelihood at convergence                                                               5774.837
+Bayesian Information Criterion (BIC)
+Best 2-segment model                                                                       14,169.836
+Best 3-segment model                                                                       12,158.140
+Best 4-segment model                                                                       12,168.860
+Akaike Information Criterion (AIC)
+Best 2-segment model                                                                       13,768.492
+Best 3-segment model                                                                       11,703.674
+Best 4-segment model                                                                       11,566.844
+† 
+, , and , respectively, mean 95%, 90%, and 85% level of statistical confidence; f indicates a fixed parameter.
+††
+These values are not reported due to their corresponding class-specific values being subject to enormous variations.
+February when the weather gets severe. This relationship is                          student of each class, setting his/her baseline marginal utility
+in line with results of Kamargianni et al. (2015) that argued                        to unity. To produce comparable depictions, travel mileage
+that students are more likely to be active in a                                      and total utility axes are shown, respectively, up to 20 miles
+sunny weather.                                                                       and 50 units for all active, and 100 miles and 200 units for
+all non-active modes. As can be seen, most alternatives are
+subject to considerable satiation variations across different
+6.2. Tendency to combine modes                                                       classes. For instance, for active travels with one accompany,
+an almost-linear utility profile is estimated for the first class,
+Students’ tendencies to combine a mode-accompaniment                                 while the third class is assigned with a highly satiated pro-
+option with other options (i.e., Satiation effects) are sum-                         file. Such variations, indeed, underline importance of
+marized in Figure 3, separating before-school from after-                            accounting for the existing heterogeneity in mode choice
+school chains. This figure is drawn for a hypothetical                               behavior of students.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+798       A. SHAMSHIRIPOUR ET AL.
+According to Figure 3, furthermore, school bus and tran-
+sit users are the least probable students to combine their
+current choices with other modes (that could potentially be
+walking or biking). This finding is not so surprising for the
+school bus, as it can be thought of as a door-to-door mode
+which eliminates the potentially active accesses and
+aggresses. The transit network, on the other hand, has long
+been argued to provide considerable potentials of encourag-
+ing users to adopt an active life style, due to the access/
+egress portions which are often conducted by walk or bike
+(Woldeamanuel, 2016). In this sense, this finding is worth
+underscoring, since it indeed indicates that most student
+users of the transit system are those who are not willing to
+combine it with other modes, including walking and biking
+(i.e., their origin and destinations are probably close to a
+station). There are still considerable potentials of shifting
+students living not-so-close to the transit stations to use this
+mode, as well.
+
+
+6.3. Latent classification variables
+At the first glance, the results of latent classification varia-
+bles indicate that mode choice behavior of students aged
+less than 12 is different from older students. Also, we found
+gender as a significant predictor of the latent classification
+component. Living in high income households and living in
+the city of Chicago are also found as sources of significant
+behavioral variations. The results also confirm that students
+behave differently during April and May, compared to other
+times of school year.
+These findings only serve as indications of influence, but
+they are barely informative on the direction of the influence.
+We calculate the pseudo elasticity values to determine how,
+eventually, these variables would influence students’ tenden-
+cies towards active travels to/from school. Pseudo elasticity
+of a dummy variable is defined as the percentage change in
+the total active-commute mileage (either alone, or with one
+or more accompany) as a result of changing state of the
+variable from 0 to 1 (Train, 2004). The pseudo elasticity
+estimates are calculated numerically using the prediction
+algorithm which was originally proposed by Pinjari and
+Bhat (2010b) for a simple MDCEV model and was later
+expanded by Sobhani et al. (2013) for latent-class MDCEV
+models. The algorithm is set to iterate 1000 times, each time
+with a different set of simulated IID Extreme Value error
+terms, and the results are averaged over the 1000 simula-
+tions. Then, the elasticity values are calculated for each of
+the latent classification variables based on the average pre-
+dictions, and the results are depicted in Figure 4.
+Figure 4 shows elasticity estimates for home to school
+
+and school to home tours. The results suggest that students
+who live in the city of Chicago are about 16% (10%) more
+active in their travels to (from) school compared to those
+living in suburban areas. This finding is in line with the lit-
+erature that evidences the higher vehicle ownership by
+households living in suburban areas (Alemu & Tsutsumi,
+2011) and the more sprawl development of the suburban
+areas as compared to urban settings (Kuang, Chi, Lu, &
+
+Dou, 2014). In accordance to the literature, our results also
+depict that students who are members of higher-income
+families are potentially less active in their travels between
+home and school (McMillan, 2007). This could be attributed
+to higher rates of automobile ownerships among higher
+income households.
+The elasticities further reveal that during April and May
+students are slightly more active in home-school travels.
+This distinction is probably attributed to both pleasant wea-
+ther conditions and scenery in spring, which provides a suit-
+able walking environment. It is argued in the literature that
+attractiveness of a walking pathway has a significant poten-
+tial of convincing people to walk instead of drive (Broberg
+& Sarjala, 2015; Kerr et al., 2006).
+The discussions in Section 6.1 reveal that older students
+are more inclined towards both active (alone) and drive
+modes for traveling to/from school. Therefore, the coeffi-
+cients alone cannot explicitly identify whether older students
+are more likely to choose active modes or driving. The sen-
+sitivity analyses in this section further add that as younger
+students (6–12 years old) age they become slightly more
+active (i.e., about 2% increase in active mode mileage for
+traveling from home to school and 3% increase in traveling
+from school to home). This could be either due to the vul-
+nerability of younger students to safety threats, or their lack
+of tolerance for walking high distances, which diminishes as
+they grow older. On the other hand, the trend reverses after
+the age of 12 (i.e., elasticity values are about 5% and 6%
+for before-school and after-school travels) possibly due to
+the capability of obtaining a driver’s license. These results in
+fact underline the importance of promoting active living life-
+style among younger students to reduce the potential of
+shifting to non-active school modes as they reach the legal
+age of obtaining a driver’s license.
+
+7. Policy implication: Enhancing safety in Chicago
+
+In order to enhance the city of Chicago’s safety to reach the
+national median, the violent crime rate should be reduced
+by about 60%. This is while, per the results reported in
+Section 6.1, students who are living in less safe neighbor-
+hoods are significantly less likely to go on active school
+commutes. This section of the article is devoted to quantify-
+ing how the 60% improvement of crime density in the city
+of Chicago would affect active school commute behavior of
+its student residents. Also, we derive a linkage between daily
+commutes and some health indicators to provide more tan-
+gible takeaways.
+
+
+7.1. Active travel mileages
+
+The prediction algorithm discussed in Section 6.1 is used
+again to predict active travel mileages associated with 13
+scenarios: the base condition (i.e., do nothing) and 12
+improvement scenarios. Each improvement scenario assumes
+enhancement of the previous state by a 5% reduction in
+crime density. That is, the first scenario assumes that the
+crime density is reduced to 95% of the base condition, the
+
+
+Figure 3. Satiation curves associated with each mode.
+second scenario assumes it is reduced to 90% of the base
+condition, and so on. Our analyses show distinct travel pat-
+terns for residents of different parts of the city, and for dif-
+ferent seasons. These distinctions are taken into account by
+dividing students into eight different groups depending on
+the month of travel and the base condition’s crime density
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION    799
+
+(i.e., the do-nothing scenario). The base condition’s crime
+density (i.e., defined as number of criminal activities per the
+unit area) is divided into four groups: extremely low crime
+density (less than 0.05), low crime density (0.05–0.10), high
+crime density (0.10–0.15), and extremely high crime density
+(0.15 and above). These groups respectively constitute
+
+800        A. SHAMSHIRIPOUR ET AL.
+Figure 4. Sensitivity of active-commute mileage to variables of
+83.0%, 7.5%, 5.3%, and 4.2% of the whole sample. Also, the
+school year is divided into two sections as suggested by the
+model specification: during December, January, or February
+(the winter period), and rest of the year (non-winter).
+Figure 5 depicts the percentage change in the overall active
+travels for each group.
+In overall, this figure reveals a growing pattern of
+increase in the students’ propensities towards active modes
+as a result of safety improvements. This trend is observed to
+the point of a 55% improvement of crime densities. Further
+safety improvements, however, would be associated with
+lower rates of encouragement towards active travels.
+According to this Figure, furthermore, students’ tendencies
+towards active modes are considerably less sensitive to crime
+density during December to February as compared to
+warmer months of the school year. This is understandable
+
+given the severe weather conditions during these months.
+
+The severe weather conditions during December to February
+would result in such a strong disutility that could overcome
+the disutility caused by safety concerns. This pattern is espe-
+cially observed in regions of the city that are flagged as
+extremely low or low crime density, and understandably
+diminishes in higher crime-density regions.
+Per Figure 5(a), moreover, residents of extremely low
+crime density regions (83% of the society) are more or less
+inelastic to making the city safer—especially during the win-
+ter. Such an inelasticity makes sense given the fact that such
+areas of the city are already safe enough to provide neces-
+sary peace of mind to their residents. Reducing the crime
+density of these neighborhoods would barely increases stu-
+dents’ active-mode distance traveled by approximately 1.5%.
+
+the latent classification model.
+However, the safety improvements would considerably affect
+the other 17% of the student society. It is estimated that by
+improving safety of the city of Chicago from its current con-
+ditions to the national-level median, around 4% of the stu-
+dents (i.e., those who live in areas with extremely high
+crime density) would become 40% more active in terms of
+daily travel distance, while the whole 17% of students would
+become at least 14% more active. Equivalently, the change
+would result in an increase in daily walking times of about
+21 minutes for about 4% of the students, and at least
+8 minutes for the whole 17% of students (assuming an aver-
+age walking speed of 3 miles per hour).
+
+
+7.2. Extra walking calorie burn
+
+In the previous section, we presented the policy implication
+
+results in terms of the extra distances for which each student
+
+would walks if Chicago were made safer. In this section, we
+transformed those changes into the extra walking calories on
+the individual basis. That is, for each and every student in
+our sample, we first simulate the extra walking distance
+associated with each safety-improvement scenario (as
+explained in the previous section). Then, we use the weight-
+for-age charts proposed by CDC to transform the extra
+walking distance into the extra walking calorie, for over-
+weight and obese students. In accordance to the literature
+(Gamliel et al., 2015), we assume the obesity and overweight
+cutoffs to be, respectively, the 75th and 90th weigh-for-age
+percentiles. Before moving on to more details, it should be
+kept in mind that the results in this section should not be
+
+
+Figure 5. Percentage change in the overall active travels.
+interpreted as a representation of the whole pattern of cal-
+orie burn (which is also a function metabolic and genetic
+factors, among the many others) of the students. We merely
+derive a good proxy for how much more calorie each stu-
+dent burns while walking for the extra distance.
+The calculations are designed to replicate the annual val-
+ues. Walking calorie depends on speed and duration of the
+walk, weight of the student, and the pathway’s grade (Glass,
+Dwyer, Medicine, & Of, 2007; Margaria, Cerretelli, Aghemo,
+& Sassi, 1963). We assume all active travels are walking;
+walking speed of students is on average 3 miles per hour;
+and all sidewalks are level. The calorie burns are calculated
+accordingly (Glass et al., 2007) for six classes of students
+(three age categories and three weight categories) living in
+each of the four neighborhood types discussed in the previ-
+ous section. The results are depicted in Figure 6.
+According to Figure 6a, b, a 60% safety improvement is
+not expected to be of great calorie burn benefits for resi-
+dents of neighborhoods with low or extremely low crime
+
+densities. However, this would not be the case for neighbor-
+hoods with higher rates of crime prevalence. As can be seen,
+for neighborhoods with extremely high (high) crime rates,
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION    801
+
+the safety improvement results in an annual energy con-
+sumption of 7900 calories (5800 calories), for an obese stu-
+dent aged 14–18.
+Health professionals suggest a steady pattern of losing a
+pound (or equivalently 3,500 calories) per week to achieve a
+more sustainable lose-weight plan (“Healthy Weight j
+CDC.GOV,” 2017). Using this, we can also calculate how
+the extra walking calories depicted in Figure 6 would con-
+tribute to a sustainable plan of losing weight. The contribu-
+tions are outlined in Table 6. As can be seen, the extra
+walking calorie burn can provide a student who is
+14–18 years old on the 95th weight-for-age percentile, with
+approximately 18% of the energy he/she needs to sustainably
+lose weight to the obesity cut off. Similarly, the extra walk-
+ing calorie burn provides the student with approximately
+13% of the energy needed to lose weight from the obesity
+cutoff to overweight.
+
+
+8. Conclusions
+
+In this study, we adopt latent-class MDCEV models to
+investigate students’ overall tendencies toward combining
+
+802        A. SHAMSHIRIPOUR ET AL.
+Figure 6. Extra walking calorie burn in a typical school year.
+Table 6. Contribution of extra walking calorie burn (%) to a sustainable
+
+
+Contribution of extra walking calorie burn (%)         Target weight
+High crime density neighborhoods                            90th
+75th
+Extremely high crime density neighborhoods                  90th
+75th
+their most preferred choice bundle of mode-accompaniment
+style with other options, in school commutes. In addition,
+the models provide opportunity of directly predicting the
+daily active-commute mileage of each student, which can
+easily be transformed into public health indices such as daily
+calorie burns. The model is sensitive to prevalence of vio-
+lent-crime in different geographical locations, providing us
+with the opportunity to predict health implications of testing
+different safety-improvement policies. The models also
+encompass household structure, auto ownership, urbanicity
+(i.e., living in city of Chicago or somewhere else), built
+
+
+lose-weight plan.
+Current weight
+A: 5–10                  A: 10–14                 A: 14–18
+W: 90th         W: 95th   W: 90th        W: 95th   W: 90th        W: 95th
+–               7%        –              8%        –            13%
+5%              3%       6%              4%        9%             6%
+–             16%         –            13%         –            18%
+11%              7%       9%              6%      13%              8%
+environment (e.g., intersection density and youth population
+density), and weather conditions among other explanatory
+variables to prevent the omitted variable bias.
+The results confirm a significant relationship between
+students’ tendencies to choose active modes and violent
+crime prevalence. Per the results, making city of Chicago as
+safe as half of American cities would encourage students, for
+up to 40%, to shift from non-active modes. The induced
+demand of active-travel would provide obese students aged
+14–18 with up to 18% of the calorie burn they need to
+achieve a healthy pattern of weight loss to the obesity cutoff
+
+
+and 13% of the calorie burn required for losing weight from
+the obesity cutoff to overweight. The results also show that,
+
+while adopting a safety-improvement strategy, different
+
+neighborhoods should be prioritized based on the violent-
+crime rates and number of students there.
+The current study also has certain limitations that need
+to be addressed in future studies. First, we only studied the
+effects of crime prevalence in the neighborhood where stu-
+
+dents reside. Future research can take a leap to also analyze
+the behavior in terms of safety of the school’s environment
+and, not least, safety of the routes chosen between home
+and school. Also, an important stream of research for the
+future would be to scrutinize the policy making aspects of
+
+the subject, aiming at tailoring proper action plans for mak-
+
+ing Chicago safer, step by step. Future studies might also
+assess how short- to mid-term remedies (e.g., providing
+patrols to alleviate the safety concerns in certain times of
+day for certain pathways) could encourage students and
+their parents to go on active travels. Improving safety of a
+
+neighborhood requires long-term plans to achieve sustain-
+able states.
+
+
+ORCID
+
+Ali Shamshiripour       http://orcid.org/0000-0002-6358-5144
+
+
+
+References
+Alemu, D. D., & Tsutsumi, J. G. (2011). Determinants and spatial vari-
+ability of after-school travel by teenagers. Journal of Transport
+Geography, 19(4), 876–881. doi:10.1016/j.jtrangeo.2010.11.003
+Anderson, P. M., & Butcher, K. F. (2006). Childhood obesity: Trends
+and potential causes. The Future of Children, 16(1), 19–45.
+Bhat, C. R. (2008). The multiple discrete-continuous extreme value
+(MDCEV) model: Role of utility function parameters, identification
+considerations, and model extensions. Transportation Research Part
+B: Methodological, 42(3), 274–303. doi:10.1016/j.trb.2007.06.002
+Bhat, C. R. (2005). A multiple discrete-continuous extreme value
+model: Formulation and application to discretionary time-use deci-
+sions. Transportation Research Part B: Methodological, 39(8),
+679–707. doi:10.1016/j.trb.2004.08.003
+Bhat, C. R. (1997). An endogenous segmentation mode choice model
+with an application to intercity travel. Transportation Science, 31(1),
+34–48. doi:10.1287/trsc.31.1.34
+Bond Brill, J., Perry, A. C., Parker, L., Robinson, A., & Burnett, K.
+(2002). Dose–response effect of walking exercise on weight loss.
+How much is enough? International Journal of Obesity and Related
+Metabolic Disorders, 26, 1484–1493.
+Broberg, A., & Sarjala, S. (2015). School travel mode choice and the
+characteristics of the urban built environment: The case of Helsinki,
+Finland. Transport Policy, 37, 1–10. doi:10.1016/j.tranpol.2014.10.011
+Castro, M., Eluru, N., Bhat, C., & Pendyala, R. (2011). Joint model of
+participation in nonwork activities and time-of-day choice set for-
+mation for workers. Transportation Research Record: Journal of the
+Transportation Research Board, 2254(1), 140–150. doi:10.3141/2254-
+15
+Chicago Crime Rates and Statistics – NeighborhoodScout. (2017).
+[WWW Document]
+Davison, K. K., & Birch, L. L. (2001). Childhood overweight: A con-
+textual model and recommendations for future research. Obesity
+Reviews, 2(3), 159–171. doi:10.1046/j.1467-789x.2001.00036.x
+Deckelbaum, R. J., & Williams, C. L. (2001). Childhood obesity: The
+health issue. Obesity Research, 9(S11), 239S–243S. doi:10.1038/oby.
+2001.125
+INTERNATIONAL JOURNAL OF SUSTAINABLE TRANSPORTATION                  803
+Deka, D., & Von Hagen, L. A. (2015). The evolution of school siting
+and its implications for active transportation in New Jersey.
+International Journal of Sustainable Transportation, 9(8), 602–611.
+
+doi:10.1080/15568318.2013.847130
+Distance Matrix API. (2018). [WWW Document] URL https://develop-
+ers.google.com/maps/documentation/distance-matrix/intro
+Eluru, N., Pinjari, A. R., Pendyala, R. M., & Bhat, C. R. (2009). A uni-
+fied model system of activity type choice, activity duration, activity
+timing, mode choice, and destination choice. Working Paper. Texas.
+The University of Texas at Austin.
+Ermagun, A., & Samimi, A. (2015). Promoting active transportation
+modes in school trips. Transport Policy, 37, 203–211. doi:10.1016/j.
+tranpol.2014.10.013
+Flodmark, C.-E., Lissau, I., Moreno, L. A., Pietrobelli, A., & Widhalm,
+K. (2004). New insights into the field of children and adolescents’
+obesity: The European perspective. International Journal of Obesity
+
+and Related Metabolic Disorders, 28(10), 1189. doi:10.1038/sj.ijo.
+0802787
+Freedman, D. S., Dietz, W. H., Srinivasan, S. R., & Berenson, G. S.
+(1999). The relation of overweight to cardiovascular risk factors
+among children and adolescents: The Bogalusa Heart Study.
+Pediatrics-Springfield, 103(6), 1175–1182. doi:10.1542/peds.103.6.
+1175
+Gamliel, A., Ziv-Baran, T., Siegel, R. M., Fogelman, Y., & Dubnov-Raz,
+G. (2015). Using weight-for-age percentiles to screen for overweight
+and obese children and adolescents. Preventive Medicine, 81,
+174–179. doi:10.1016/j.ypmed.2015.08.017
+Ghosh, A. (2014). Explaining overweight and obesity in children and
+adolescents of Asian Indian origin: The Calcutta childhood obesity
+
+study. Indian Journal of Public Health, 58(2), 125. doi:10.4103/0019-
+557X.132290
+Glass, S., Dwyer, G. B., Medicine, A. C., & Of, S. (2007). ACSM’S meta-
+bolic calculations handbook. Baltimore, MD: Lippincott Williams &
+Wilkins.
+Greene, W. H., & Hensher, D. (2003). A latent class model for discrete
+choice analysis: Contrasts with mixed logit. Transportation Research
+Part B: Methodological, 37, 681–698. https://doi.org/10.1016/S0191-
+2615(02)00046-2
+Griffiths, L. J., Parsons, T. J., & Hill, A. J. (2010). Self-esteem and qual-
+ity of life in obese children and adolescents: A systematic review.
+International Journal of Pediatric Obesity, 5(4), 282–304. doi:10.
+3109/17477160903473697
+He, S. Y., & Giuliano, G. (2017). Factors affecting children’s journeys
+to school: A joint escort-mode choice model. Transportation (Amst),
+44(1), 199–224. doi:10.1007/s11116-015-9634-x
+Healthy Weight j CDC.GOV. (2017). [WWW Document].
+Helbich, M. (2017). Children’s school commuting in the Netherlands:
+Does it matter how urban form is incorporated in mode choice
+models?. International Journal of Sustainable Transportation, 11(7),
+507–517. doi:10.1080/15568318.2016.1275892
+Helbich, M., van Emmichoven, M. J. Z., Dijst, M. J., Kwan, M.-P.,
+Pierik, F. H., & de Vries, S. I. (2016). Natural and built environmen-
+tal exposures on children’s active school travel: A Dutch global posi-
+tioning system-based cross-sectional study. Health Place, 39,
+101–109. doi:10.1016/j.healthplace.2016.03.003
+Hill, J. O., Wyatt, H. R., & Peters, J. C. (2012). Energy balance and
+obesity.       Circulation,      126(1),       126–132.       doi:10.1161/
+CIRCULATIONAHA.111.087213
+Hopkins, D., & Mandic, S. (2017). Perceptions of cycling among high
+school students and their parents. International Journal of
+Sustainable Transportation, 11(5), 342–356. doi:10.1080/15568318.
+2016.1253803
+Jauregui, A., Medina, C., Salvo, D., Barquera, S., & Rivera-Dommarco,
+J. A. (2015). Active commuting to school in Mexican adolescents:
+Evidence from the Mexican National Nutrition and Health Survey.
+Journal of Physical Activity & Health, 12(8), 1088–1095. doi:10.1123/
+jpah.2014-0103
+Jelalian, E., & McCullough, M. B. (2012). Accelerating progress in
+obesity prevention: solving the weight of the nation. American

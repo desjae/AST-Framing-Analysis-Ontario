@@ -126,6 +126,272 @@ kable(data_tbl,
   kable_styling(latex_options = c("striped", "scale_down"))
 ```
 
+Loading in clean corpus. These are the products of 'Data Pre-Processing.Rmd'
+```{r}
+load(file= "Corpus .rda/academic_corpus.rda")
+load(file= "Corpus .rda/municipal_corpus.rda")
+load(file= "Corpus .rda/consortium_corpus.rda")
+load(file= "Corpus .rda/school_corpus.rda")
+load(file= "Corpus .rda/policy_corpus.rda")
+```
+
+Municipal Bi/Trigrams
+```{r}
+# Converting corpus to tidytext data type 
+td_municipal_corpus <- tidy(municipal_corpus)
+
+# n can be changed 
+municipal_bigrams <- td_municipal_corpus %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2)
+
+municipal_trigrams <- td_municipal_corpus %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3)
+# Bigrams & Trigrams that are most common 
+
+top_municipal_bigrams <- municipal_bigrams %>%
+  count(bigram, sort = TRUE)
+
+top_municipal_trigrams <- municipal_trigrams %>% 
+  count(trigram, sort = TRUE)
+
+top_municipal_bigrams
+top_municipal_trigrams
+```
+
+Consortium Bi/Trigrams
+```{r}
+# Converting corpus to tidytext data type 
+td_consortium_corpus <- tidy(consortium_corpus)
+
+# n can be changed 
+consortium_bigrams <- td_consortium_corpus %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2)
+
+consortium_trigrams <- td_consortium_corpus %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3)
+# Bigrams & Trigrams that are most common 
+
+top_consortium_bigrams <- consortium_bigrams %>%
+  count(bigram, sort = TRUE)
+
+top_consortium_trigrams <- consortium_trigrams %>% 
+  count(trigram, sort = TRUE)
+
+top_consortium_bigrams
+top_consortium_trigrams
+```
+
+School board Bi/Trigrams
+```{r}
+# Converting corpus to tidytext data type 
+td_school_corpus <- tidy(school_corpus)
+
+# n can be changed 
+school_bigrams <- td_school_corpus %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2)
+
+school_trigrams <- td_school_corpus %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3)
+# Bigrams & Trigrams that are most common 
+
+top_school_bigrams <- school_bigrams %>%
+  count(bigram, sort = TRUE)
+
+top_school_trigrams <- school_trigrams %>% 
+  count(trigram, sort = TRUE)
+
+top_school_bigrams
+top_school_trigrams
+```
+
+Policy Bi/Trigrams
+```{r}
+# Converting corpus to tidytext data type 
+td_policy_corpus <- tidy(policy_corpus)
+
+# n can be changed 
+policy_bigrams <- td_policy_corpus %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2)
+
+policy_trigrams <- td_policy_corpus %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3)
+# Bigrams & Trigrams that are most common 
+
+top_policy_bigrams <- policy_bigrams %>%
+  count(bigram, sort = TRUE)
+
+top_policy_trigrams <- policy_trigrams %>% 
+  count(trigram, sort = TRUE)
+
+top_policy_bigrams
+top_policy_trigrams
+```
+
+Academic Bi/Trigrams
+```{r}
+# Converting corpus to tidytext data type 
+td_academic_corpus <- tidy(academic_corpus)
+
+# n can be changed 
+academic_bigrams <- td_academic_corpus %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2)
+
+academic_trigrams <- td_academic_corpus %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3)
+# Bigrams & Trigrams that are most common 
+
+top_academic_bigrams <- academic_bigrams %>%
+  count(bigram, sort = TRUE)
+
+top_academic_trigrams <- academic_trigrams %>% 
+  count(trigram, sort = TRUE)
+
+top_academic_bigrams
+top_academic_trigrams
+```
+
+Municipal Bi-gram visualizations 
+```{r}
+municipal_bigrams_separated <- municipal_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+municipal_bigram_counts <- municipal_bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+
+municipal_bigram_graph <- municipal_bigram_counts %>%
+  filter(n > 8) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(municipal_bigram_graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "lightblue", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE) + 
+  theme_void()
+```
+
+Consortium Bi-gram visualizations 
+```{r}
+consortium_bigrams_separated <- consortium_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+consortium_bigram_counts <- consortium_bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+
+consortium_bigram_graph <- consortium_bigram_counts %>%
+  filter(n > 5) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(consortium_bigram_graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "red", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE) + 
+  theme_void()
+```
+
+School Board Bi-gram visualizations 
+```{r}
+school_bigrams_separated <- school_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+school_bigram_counts <- school_bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+
+school_bigram_graph <- school_bigram_counts %>%
+  filter(n > 8) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(school_bigram_graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "orange", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE) + 
+  theme_void()
+```
+
+Policy Bi-gram visualizations 
+```{r}
+policy_bigrams_separated <- policy_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+policy_bigram_counts <- policy_bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+
+policy_bigram_graph <- policy_bigram_counts %>%
+  filter(n > 10) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(policy_bigram_graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "purple", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE) + 
+  theme_void()
+```
+
+
+Academic Bi-gram visualizations 
+```{r}
+academic_bigrams_separated <- academic_bigrams %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+academic_bigram_counts <- academic_bigrams_separated %>% 
+  count(word1, word2, sort = TRUE)
+
+
+# Adjust the parameter below to filter out based on number of occurence
+# Error will occur if n is outide the range of occurences 
+
+academic_bigram_graph <- academic_bigram_counts %>%
+  filter(n > 150) %>%
+  graph_from_data_frame()
+
+set.seed(2021)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(academic_bigram_graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "lightgreen", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE) + 
+  theme_void()
+
+```
+
 ### 2.2.1. Academic papers
 
 ## 2.2. Data cleaning
@@ -146,6 +412,7 @@ At this point, the documents were imported into the corpus in `R` and added to a
 
 This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download.
 
+
 3. Results
 ===============
 
@@ -154,77 +421,6 @@ This paper is an example of open and reproducible research that uses only open s
 ## 3.2. Bigrams and Correlations
 
 ## 3.3. Policy content
-
-```{r, include=FALSE}
-pdfLocation <- "E:/Dr. Paez Articles/with References"
-txtLocation <-  "E:/Dr. Paez Articles/txt"
-
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
-
-fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
-filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
-n <- 1 
-
-for (address in filePath)
-{
-doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
-test <- doc$content
-# "file_path_sans_ext(basename())" from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
-# use of 'sep = ""' argument is important to prevent the addition of spaces, which is the default for the paste function 
-newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
-write(test, file = newFile)
-print( paste(file_path_sans_ext(basename(address)), ".txt Has been created", sep = ""))
-# Creates uniquely id text store in 'Environment'
-assign(paste("text", n, sep = ""), readChar(newFile, file.info(newFile)$size))
-n <- n+1
-}
-```
-
-```{r, include=FALSE}
-# This loop creates a vector of the texts
-text <- vector()
-doc_id <- c(2:n-1)
-
-for (i in seq(1, n-1, 1))
-{
-text[i] <- eval(parse(text = paste("text", i, sep = "")))
-}
-
-# Turns vector into data frame 
-textDF <- data.frame(doc_id, text)
-```
-
-```{r, include=FALSE}
-df_source <- DataframeSource(textDF)
-corpus <- VCorpus(df_source)
-# Example 
-content(corpus[[1]])
-```
-
-```{r, include=FALSE}
-corpus <- tm_map(corpus, stripWhitespace)
-corpus <- tm_map(corpus, content_transformer(tolower))
-
-# Words can also be removed manually by creating a vector of strings 
-#NAwords <- c("school", "transportation", "can", "use", "active")
-#corpus <- tm_map(corpus, removeWords, NAwords)
-#corpus <- tm_map(corpus, removeNumbers)
-
-corpus <- tm_map(corpus, removePunctuation)
-corpus <- tm_map(corpus, removeWords, stopwords("english"))
-
-
-# Example
-content(corpus[[1]])
-```
-
-```{r, include=FALSE}
-TDM <- TermDocumentMatrix(corpus)
-DTM <- DocumentTermMatrix(corpus)
-matrix1 <- as.matrix(TDM)
-matrix2 <- as.matrix(DTM)
-```
-
 
 
 4. Discussion

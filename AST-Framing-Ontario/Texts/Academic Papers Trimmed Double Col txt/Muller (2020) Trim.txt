@@ -1,540 +1,1073 @@
-                                                                  Journal of Transport Geography 88 (2020) 102872
-                                                                     Contents lists available at ScienceDirect
-                                                           Journal of Transport Geography
-                                                       journal homepage: www.elsevier.com/locate/jtrangeo
-Analysis of active school transportation in hilly urban environments: A case                                                                                       T
-study of Dresden
-Sven Müllera, Lucia Mejia-Dorantesb, , Elisa Kerstenc
-                                                                <U+204E>
-a
-  Operations Management, Center of Operations Research & Business Analytics, Otto-von-Guericke-University Magdeburg, Universitätsplatz 2, 39106 Magdeburg, Germany
-b
-  Transportation Management Study Program, Faculty of Information Management and Media, Hochschule Karlsruhe – Karlsruhe University of Applied Sciences, Postfach
-24 40, 76012 Karlsruhe, Germany.
-c
-  University of Hamburg, Faculty of Business Administration – Hamburg Business School, Institute of Transport Economics, Moorweidenstraße 18, 20148 Hamburg,
-Germany
-ARTICLE INFO                                                 ABSTRACT
-Keywords:                                                    This paper analyses the way students travel to school and examines the influence of environmental conditions on
-Independent mobility                                         travel patterns. More specifically, it studies how topographic changes affect the likelihood of choosing cycling as
-Active school transportation                                 a transport mode. We use mode choice data on students' home-to-school commuting trips from a previous study
-Topography, hilly urban environment                          by Müller et al. (2008). The results show that models perform better when they account for the topographic
-Child and teenager well-being
-                                                             conditions of the urban environment. We included this information in the model by introducing the “energy
-Students' mobility
-                                                             exerted” variable, which significantly improves the model and the results. The implications of this study are
-Dresden
-                                                             manifold; it guides the consolidation or expansion of school-based transportation network planning in Germany
-                                                             and prompts further analysis of active transportation systems, such as bike, pedelec and e-bike sharing systems.
-                                                             Overall, transportation policy should seek to foster active transportation, as it provides the greatest benefits for
-                                                             society and has a direct impact on people's well-being, while notably reducing the negative environmental and
-                                                             socioeconomic impacts of motorized transport.
-1. Introduction                                                                                    Timmermans, 2014). Topographic conditions also have an impact on
-                                                                                                   walking and cycling choice. Hilly urban environments may dissuade
-     Trips by children and adolescents constitute a large share of travel                          people from commuting by active modes, an effect that can clearly be
-patterns in urban areas, as can clearly be seen during the school holi-                            seen in traditional bike-sharing systems offering bicycle rentals to users
-days especially around school areas, when traffic volumes drop and                                 at docking stations: bicycles accumulate in low-lying areas and need to
-rush hour traffic flows more smoothly. Children, and especially younger                            be redistributed by lorry. Empirically, slope appears to play an im-
-children, have limited possibilities of transportation. Independent mo-                            portant role, although as far as we are aware, few studies account for
-bility is more common in some regions, while in others students are                                topography when estimating transportation mode choices, as is also
-more likely to be escorted to school, usually by car. These patterns                               highlighted by other authors (Meeder et al., 2017; Rodri´guez and Joo,
-largely depend on the availability of schools near their place of re-                              2004). However, the study of the impact of topography in the case of
-sidence, but also on transportation system attributes such as traffic                              children and teenagers is very limited.
-volumes and pollution levels, safety and accessibility to public trans-                                Authors such as Mackett (2013) and Mitra and Buliung (2015) ob-
-port, coupled with a variety of social factors.                                                    serve that children's physical activity levels have declined notably
-     The urban fabric and weather are generally important determinants                             worldwide in recent decades, as has the number of children traveling to
-of active transportation (walking, cycling) mode choice (Curtis et al.,                            school by active modes like walking and cycling (Stark et al., 2018c).
-2015; Martín and Páez, 2019; Miranda-Moreno and Nosal, 2011; van                                   Obesity and related health problems like child diabetes have similarly
-Goeverden and de Boer, 2013). People may prefer to walk or cycle in                                increased. As highlighted by various authors, the World Health Orga-
-transport-oriented urban developments (TOD) and during the warmer                                  nization recommends that children and young people aged 5 to 17
-seasons. Studies show that the same holds for children (Kemperman and                              should take moderate to vigorous exercise for at least 60 min a day
-   <U+204E>
-     Corresponding author.
-     E-mail addresses: sven.mueller@ovgu.de (S. Müller), lucia.mejia_dorantes@hs-karlsruhe.de (L. Mejia-Dorantes),
-elisa.kersten@studium.uni-hamburg.de (E. Kersten).
-https://doi.org/10.1016/j.jtrangeo.2020.102872
-Received 1 February 2019; Received in revised form 25 September 2020; Accepted 30 September 2020
-Available online 06 October 2020
-0966-6923/ © 2020 Elsevier Ltd. All rights reserved.
 
-S. Müller, et al.                                                                                                Journal of Transport Geography 88 (2020) 102872
-(World Health Organization, 2020). Active School Transportation (AST)         behaviour or with any of the other variables in their analysis. Helbich
-contributes to achieving the recommended exercise rates among chil-           et al. (2016) focused on a subsample of 97 children aged 6 to 11 years in
-dren and teenagers.                                                           six elementary schools in mid- to large-sized Dutch cities with GPS
-    AST has been studied intensively due to its manifold positive effects.    available information; they also reported gender to be insignificant, as
-The literature confirms that it contributes to improving children's           did Stark et al. (2018c), who only found out that male children rated
-health, as it impacts their physical, social and mental development and       biking as being “cooler”. The latter authors observe that a larger het-
-overall well-being (Schoeppe et al., 2013; Stark et al., 2018c; Waygood       erogeneous sample would be necessary to get more insights about
-et al., 2020). Independent mobility in children is associated with child      gender.
-health, including good motor skills, cognitive development (Scheiner,             Deka (2013) studies how parents' mode of travel to work is directly
-2016) and a better understanding of their surrounding environment             interrelated with children's trip mode to school in the United States. If
-(Mitra and Buliung, 2015). Waygood et al. (2017) explore the way AST          the parents choose to drive to work, children are likely to be dropped
-promotes social interactions for children during their trip to school in      off at school, hence decreasing the possibilities of AST. The study by
-Canada, Japan and Sweden, and its importance for their personal well-         Stark et al. (2018b) in Austria highlights the importance of parents'
-being. As important spillover effects, AST has direct implications for the    attitudes for an understanding of the mobility patterns of primary
-environment and sustainable transportation, as it reduces accompanied         school children, as they may subsequently influence how their children
-transport and leads to a decrease in congestion and pollution.                will commute alone to their secondary and tertiary education. In the
-    The aim of this paper is to gain a better understanding of mobility       study by Pojani and Boussauw (2014) in Albania, most of the children
-patterns in children and teenagers in regard to their travel choice to        who were driven to school came from higher income families.
-school in a hilly urban environment, and to discuss measures to im-               Studies such as that of Sharmin and Kamruzzaman (2017) show that
-prove sustainable mobility. The case study in this work is the city of        the country and regional context also play a major role. For example,
-Dresden in eastern Germany, whose sustainable transport policy was            Finnish children and young people are traditionally very independent
-recognized by the Civitas initiative in 2005 (Civitas, 2013). This study      in their mobility (Kyttä et al., 2015); in the study by Sarjala et al. (2016)
-focuses on secondary schools (Gymnasium in German), attended by               in two different regions in Finland, children were escorted by parents
-students between 10 and 19 years old, and offers a detailed analysis of       on only 7% of trips. In contrast to children in developed countries,
-the factors that contribute to AST by analysing the height profile of the     children in developing countries may rank choices differently. For ex-
-cycling routes taken to school, thus increasing the reliability of the        ample, in the case study of Kanpur, India (Singh and Vasudevan, 2018),
-outcomes. One limitation of our study is the lack of additional personal      the authors highlight that children rely on motorized modes such as
-information and environmental variables discussed in the literature.          family cars and paratransit modes in detriment from active modes due
-    This paper is divided into seven sections. After the introduction and     to an unbalanced distribution of schools, along with the lack of good-
-background, the third section describes the case study. Section four          quality school bus services, the low standard of the public transport
-focuses on the methodology and data. The fifth section presents the           infrastructure, and the inadequate safety of the pedestrian and cycling
-model specification, and section six reports the results. Finally, section    infrastructure. They also observe that the students' mode choice reflects
-seven contains the conclusions and discusses the main findings and            a gender-biased society.
-implications of this study.                                                       Many authors point to the inextricably intertwined relation between
-                                                                              active transportation and the built environment. Rodri´guez and Joo
-2. Background                                                                 (2004) highlight the positive effects of active transportation on the built
-                                                                              environment, as it fosters the presence of mixed land use and higher
-    As discussed by various authors (Mackett, 2013; Mitra and Buliung,        employment and population density. Sarjala et al. (2016) analyses
-2015), the way children and teenagers commute to school has notably           children and adolescent mobility in Finland by using a Topographic
-evolved in the last few decades. In the past, students would have been        Dataset produced by the National Land Survey of Finland (SLICES da-
-more likely to commute unaccompanied to school. Current worldwide             taset) which includes land use, land cover, soil types and special use
-trends in car ownership and car-oriented urban developments have              and restricted areas. They found that places with large commercial
-directly transformed the way children go to school, as they now tend to       buildings and green environments had the highest proportions of car
-be escorted by motorized transport modes, while the distance to the           use. Scheiner et al. (2019a, 2019b) give a thorough analysis with de-
-nearest school has also increased.                                            tailed information on the built environment and on many other vari-
-    Several studies deal with AST in various developed countries, such        ables that influence AST in Lünen, Germany. The authors found that
-as those by Shaw et al. (2015), Habib and Daisy (2013), Yang and              traffic calming routes are associated with more independent mobility
-Markowitz (2012), Mitra and Buliung (2015) and Curtis et al. (2015).          for children. Helbich et al. (2016) studied commuting patterns of
-Many authors point out that apart from personal socio-demographic             children aged 6–11 years and found that well-connected streets and
-information, family background, socio-cultural and economic char-             cycling lanes are positively associated with AST; the authors describe
-acteristics, along with geographical, spatial, and urban factors, all have    the horizontal dimension with a rich set of built environmental char-
-a major influence on the preference for a certain mode.                       acteristics. The meta-analysis by Sharmin and Kamruzzaman (2017)
-    Gender is a controversial topic in the literature. Some authors report    also suggests that a wide variety of land-use patterns and a convenient
-that it influences AST whereas others find no influence. For example,         street design helps promote policies for children's independent mobi-
-the studies by Scheiner et al. (2019a, 2019b) with information from           lity. Broberg and Sarjala (2015) mention that major roads on the school
-children aged 6 to 10 show that primary school girls are escorted more        journey lower the odds of cycling to school, and that dense school
-often than boys, most notably those aged 6–7 years, and that female           networks support AST. Other authors also mention that school spatial
-children are less likely to choose cycling as model choice, especially on     planning plays an important role in fostering active mobility in
-morning trips. The study by van Goeverden and de Boer (2013) using            schoolchildren; this is the case of Boussauw et al. (2014) for primary
-data from Dutch and Flemish national travel surveys and information           schools in northern Belgium. Similarly, Marique et al. (2013) also
-from children attending primary and secondary education shows that            mention, based on two decennial surveys in Belgium, that well-dis-
-girls may travel less independently than boys because they are exposed        tributed, decentralised nursery and primary school services reduce the
-to higher security risks. This variable is significant in Flanders, whereas   use of private cars and encourage more walking and cycling alter-
-in the Netherlands there is no impact. Conversely, Kemperman and              natives.
-Timmermans (2014) found that in children between 4 and 11 years in                Longer trips clearly hinder walking and cycling alternatives, espe-
-the Netherlands gender has no relation with either active travel              cially for children, as confirmed by Stark et al. (2018a) in their study of
-                                                                            2
 
-S. Müller, et al.                                                                                               Journal of Transport Geography 88 (2020) 102872
-secondary pupils in Austria and Germany. Although some authors re-            found that between 1990 and 2010, students attending secondary
-port that active transportation may increase the risk of injury from          school in Germany transitioned from walking and cycling to taking
-collisions (Vanparijs et al., 2020) and health risks due to exposure to       public transport or school buses.
-motor vehicles and their emissions, this risk declines significantly as the       It should be noted that schoolchildren in Germany take a cycling
-number of people using active modes rises (Reynolds et al., 2010). In         proficiency course and test before entering secondary school. This en-
-overall terms, the benefits of physical activity outweigh the traffic-as-     courages independent mobility while emphasizing safe cycling at an
-sociated disadvantages, as highlighted by Mueller and colleagues              early age.
-(Mueller et al., 2015). Indeed, authors like Lopes et al. (2014) focus on         In the last decades, the mobility patterns of children have also
-the importance of transforming a motorized city through walkable              changed in Germany. Many children are being escorted, leading to a
-policies to foster safe AST.                                                  decrease of AST.The German Ministry of Transport recently presented
-    In order to propose specific measures to foster AST, it is important to   the results of a study on family mobility (Manz et al., 2015). The study
-analyse the factors that promote active school transportation among           by Scheiner (2016) reports that 16% of parental trips in Germany are
-children and young people. As it plays such a key role, the urban en-         for the purpose of escorting children, increasing to 22% for families
-vironment must be studied in greater depth. To our knowledge, there           escorting children aged ten or younger. Although this may be done by
-are limited examples of the use of technology systems or devices to           private car in most cases, 22% of these trips involve active mobility,
-determine and understand more accurately which other factors in the           while escorting children on public transport accounts for only 2% to 7%
-urban environment influence active transportation for children and            of all cases, depending on the city type.
-adolescents; questionnaires and interviews tend to be used, probably              Germany has an established policy for school network planning
-due to legal restrictions. One such study by Verhoeven et al. (2018)          aimed at providing basic social infrastructure, known in German as
-considers cycling trips by secondary school adolescents using global          Daseinsvorsorge (Küpper, 2012), including a minimum access to certain
-positioning systems. However in terms of slope conditions, most studies       public services such as schools and transport (Gawron, 2008). In recent
-focus mainly on adults. For example, Rodri´guez and Joo (2004), Li et al.     years many towns and cities have seen a drop in the number of stu-
-(2012), Broach et al. (2012), Paige Willis et al. (2013) and Milakis and      dents, leading to school closures. When a school closes, it has a direct
-Athanasopoulos (2014) analyse cycling route choice in adults, in most         impact on the way students commute to the other available schools, and
-cases for commuting purposes. Li et al. (2012) use a dummy variable as        on the transport services in the areas of both their former school and
-a proxy for hilly and flat urban environments to inform perception of         their new schools. Various studies show how school closures trigger
-cycling comfort. Broach et al. (2012) take three alternatives (catego-        changes in travel patterns (Haase and Müller, 2013; Müller et al., 2009;
-rical variables) for the part of the route with a certain average upslope     Müller, 2011).
-in order to choose a cycling route. Paige Willis et al. (2013) ask parti-
-cipants about slope satisfaction. Milakis and Athanasopoulos (2014)           4. Methodology and data
-consider the riding difficulty variable as a function of slope in a certain
-section to understand cycling route preferences. Table 1 presents de-             This paper covers secondary schools with a focus on high academic
-tailed information on AST studies and others that take slope into ac-         performance (Gymnasium in German) attended by students between 10
-count in their analysis. In this work, we focus on slope as the main          and 19 years old. Only a certain number of students may attend these
-topographic condition in the city of Dresden, and seek to understand          types of schools. At the time of the survey, around 45% of the students
-how this variable influences transport choice in children and teenagers.      in this age range went to a Gymnasium. Students who normally attend a
-                                                                              Gymnasium have higher grades and a better performance in elementary
-3. Case study                                                                 school, while other students go to secondary schools known as
-                                                                              Mittelschule or Realschule, Hauptschule, Realschule and Gesamtschule. We
-    Dresden is located in the eastern part of Germany, close to the Czech     chose the Gymnasium because students show more variance in mode
-Republic (Fig. 1). It is the capital of the state of Saxony and a very        choice compared to elementary and middle school. Younger students
-important cultural and educational hub in Germany (Dresden, 2018a).           often walk to school or are escorted by car. Few elementary or middle
-Dresden is also acknowledged as one of the greenest cities in Europe          school students choose public transport (Manz et al., 2015). There are
-(Civitas, 2013); woods and green spaces account for 62% of the city's         more middle schools than Gymnasium in Dresden, hence the average
-territory. The city is located in a widening of the Elbe valley, sur-         commuting distances are shorter. Gymnasiums also offer specific
-rounded by the foothills of the Eastern Erzgebirge Mountains, the Lu-         learning areas (school profiles) which impact the students' choice of
-satian Granite Uplands and the Elbe Sandstone Mountains (Dresden,             school (Müller et al., 2012), so longer commuting distances and a more
-2018b). The length of the river within the city is about 30 km, and it is     diverse mode choice pattern can be seen among Gymnasium students.
-crossed by ten bridges at different points. (See Fig. 2.)                         This paper uses the data from Müller et al. (2008) as the base model
-    According to the state's own statistics (Dresden, 2018b), Dresden's       choice. The data is available at GitHub.1 An analysis of the results re-
-population in 2005 was approximately 487,000, and now stands at               veals singularities in the case study that require further exploration.
-557,000 with a density of about 1696 inhabitants/km2. It is the fourth        From the literature review, we know that the built environment plays
-largest city in Germany and has a total area of 328 km2. Built-up areas       an important role in the likelihood of riding a bike. In this study we
-and their associated open-spaces account for 6310 ha, while 3377 ha           follow a comprehensive approach.
-are dedicated to traffic. The highest point (Triebenberg) is 383 m a.s.l.         Different hypotheses are tested to improve the original model. First,
-and the lowest point (Cossebaude) is 101 m a.s.l.                             the predictive quality of the model can be enhanced by choice models
-    The city's geographic location directly influences its particular         that explicitly allow for correlation among transport modes; and
-weather conditions. According to the weather statistics (Climate-Data,        second, the model can also be improved by considering the topography
-2019; WetterKontor, 2018), the average temperatures are -1.8 °C in            of Dresden. We therefore present a methodology that takes account of
-January, and the maximum temperatures occur in July (19.8 °C). An-            the “energy exerted” by cycling in the city of Dresden due to its hilly
-nual precipitation is 667 mm.                                                 profile. Third, we use age and gender as additional control variables.
-    Germany has a longstanding tradition of encouraging active and                The information collected in 2004 covered approximately 4700 of
-independent mobility in children. According to the Children's                 the 14,000 school students at 12 out of the 23 schools in Dresden.
-Independent Mobility Report (Shaw et al., 2015), German children
-come second – after Finnish children – in their freedom to travel in-
-dependently on local buses. An earlier study by Shaw et al. (2013)              1
-                                                                                  https://github.com/svenne0815/DresdenModeChoiceData
-                                                                            3
+Journal of Transport Geography 88 (2020) 102872
+Contents lists available at ScienceDirect
+Journal of Transport Geography
+journal homepage: www.elsevier.com/locate/jtrangeo
+Analysis of active school transportation in hilly urban environments: A case                                                                                       T
+study of Dresden
+Sven Müllera, Lucia Mejia-Dorantesb, , Elisa Kerstenc
+<U+204E>
+a
+Operations Management, Center of Operations Research & Business Analytics, Otto-von-Guericke-University Magdeburg, Universitätsplatz 2, 39106 Magdeburg, Germany
+b
+Transportation Management Study Program, Faculty of Information Management and Media, Hochschule Karlsruhe – Karlsruhe University of Applied Sciences, Postfach
+24 40, 76012 Karlsruhe, Germany.
+c
+University of Hamburg, Faculty of Business Administration – Hamburg Business School, Institute of Transport Economics, Moorweidenstraße 18, 20148 Hamburg,
+Germany
+ARTICLE INFO                                                 ABSTRACT
+Keywords:                                                    This paper analyses the way students travel to school and examines the influence of environmental conditions on
+Independent mobility                                         travel patterns. More specifically, it studies how topographic changes affect the likelihood of choosing cycling as
+Active school transportation                                 a transport mode. We use mode choice data on students' home-to-school commuting trips from a previous study
+Topography, hilly urban environment                          by Müller et al. (2008). The results show that models perform better when they account for the topographic
+Child and teenager well-being
+conditions of the urban environment. We included this information in the model by introducing the “energy
+Students' mobility
+exerted” variable, which significantly improves the model and the results. The implications of this study are
+Dresden
+manifold; it guides the consolidation or expansion of school-based transportation network planning in Germany
+and prompts further analysis of active transportation systems, such as bike, pedelec and e-bike sharing systems.
+Overall, transportation policy should seek to foster active transportation, as it provides the greatest benefits for
+society and has a direct impact on people's well-being, while notably reducing the negative environmental and
+socioeconomic impacts of motorized transport.
+1. Introduction                                                                                    Timmermans, 2014). Topographic conditions also have an impact on
+walking and cycling choice. Hilly urban environments may dissuade
+Trips by children and adolescents constitute a large share of travel                          people from commuting by active modes, an effect that can clearly be
+patterns in urban areas, as can clearly be seen during the school holi-                            seen in traditional bike-sharing systems offering bicycle rentals to users
+days especially around school areas, when traffic volumes drop and                                 at docking stations: bicycles accumulate in low-lying areas and need to
+rush hour traffic flows more smoothly. Children, and especially younger                            be redistributed by lorry. Empirically, slope appears to play an im-
+children, have limited possibilities of transportation. Independent mo-                            portant role, although as far as we are aware, few studies account for
+bility is more common in some regions, while in others students are                                topography when estimating transportation mode choices, as is also
+more likely to be escorted to school, usually by car. These patterns                               highlighted by other authors (Meeder et al., 2017; Rodri´guez and Joo,
+largely depend on the availability of schools near their place of re-                              2004). However, the study of the impact of topography in the case of
+sidence, but also on transportation system attributes such as traffic                              children and teenagers is very limited.
+volumes and pollution levels, safety and accessibility to public trans-                                Authors such as Mackett (2013) and Mitra and Buliung (2015) ob-
+port, coupled with a variety of social factors.                                                    serve that children's physical activity levels have declined notably
+The urban fabric and weather are generally important determinants                             worldwide in recent decades, as has the number of children traveling to
+of active transportation (walking, cycling) mode choice (Curtis et al.,                            school by active modes like walking and cycling (Stark et al., 2018c).
+2015; Martín and Páez, 2019; Miranda-Moreno and Nosal, 2011; van                                   Obesity and related health problems like child diabetes have similarly
+Goeverden and de Boer, 2013). People may prefer to walk or cycle in                                increased. As highlighted by various authors, the World Health Orga-
+transport-oriented urban developments (TOD) and during the warmer                                  nization recommends that children and young people aged 5 to 17
+seasons. Studies show that the same holds for children (Kemperman and                              should take moderate to vigorous exercise for at least 60 min a day
+<U+204E>
+Corresponding author.
+E-mail addresses: sven.mueller@ovgu.de (S. Müller), lucia.mejia_dorantes@hs-karlsruhe.de (L. Mejia-Dorantes),
+elisa.kersten@studium.uni-hamburg.de (E. Kersten).
+https://doi.org/10.1016/j.jtrangeo.2020.102872
+Received 1 February 2019; Received in revised form 25 September 2020; Accepted 30 September 2020
+Available online 06 October 2020
+0966-6923/ © 2020 Elsevier Ltd. All rights reserved.
 
-S. Müller, et al.                                                                                                         Journal of Transport Geography 88 (2020) 102872
-Although the data are over 15 years old, it is reasonable to assume that        information for the area of Dresden (Federal Office of Cartography and
-the basic underlying patterns of mode choice have not changed sig-              Geodesy (BKG) (bkg, 2018)) to obtain a height profile for the commute
-nificantly since then. Most recent studies show the impact of distance          to school on the shortest path for each student in our sample. To cal-
-and weather. According to Manz et al. (2015), the mobility choices seen         culate the expected energy expended by a cycling student, we consider
-in the information on secondary students' travel patterns in Germany            En = Fn· vn.                                                                          (1)
-between 2002 and 2008 did not change noticeably. The same report
-also shows that school closures have affected other secondary schools,                The exogenous variable, power (En), is formed of force Fn and speed
-but not Gymnasiums, whose locations remain similar all over Germany.            vn, according to Gressmann (2005)
-However, the variance in more recent data may differ from our own, so            Fn = F roll Fndrag Fnslope                                                           (2)
-the alternative-specific constants of our model are likely to be biased.
-Since this is only of interest in forecasting scenarios, we can disregard             The rolling friction     Fnroll is derived from the contact of the tyre with
-this issue in this paper. More importantly, the topography and school           the surface. It is calculated as
-locations have not changed since then, and we are therefore convinced                                   m
-                                                                                 F roll = 0.0058 9.81         (15kg + 65kg)
-our data are still valid for the purpose of our study.                                                   s                                                            (3)
-    It should be noted that due to data protection laws, students cannot
-                                                                                      which is the product of a given constant, gravity, and the weight of
-be asked their detailed whereabouts such as their home address, which
-                                                                                the systems (i.e., the sum of the weight of the student and the bike). Due
-made it necessary to design a methodology to obtain a proxy for their
-                                                                                to lack of data, we assume an average student weighs 65 kg and a bike is
-place of residence and route. Other authors mention data protection
-                                                                                about 15 kg. The drag
-laws as a drawback (Stark et al., 2018c), which has also been cir-
-cumvented by using an alternative approach (Scheiner, 2016).                     Fndrag = 0.5 c A       vn2                                                           (4)
-    The students were asked to specify the closest bus stop and the es-
-                                                                                      comprises a drag coefficient c = 1.1, air density <U+03C1> =1.25 kg/m3,
-timated walking time from home to the bus stop. We also had small-
-                                                                                and the squared speed of student n. Due to lack of data, we assume the
-scale demographic data at the block level (smallest administrative
-                                                                                surface area (A) of a student to be 0.42m2. We subdivide the route
-census units in Dresden). Using this information, we built an isochrone
-                                                                                length of student n from home to school into sections kn. Each section kn
-around the bus stop for each student, so each isochrone might be fea-
-                                                                                is distinctly characterized by either positive, negative or zero slope. The
-sible for several students. We then assigned the census blocks inter-
-                                                                                topography is considered in the friction due to slope
-secting an isochrone to that same isochrone. All the students in an
-isochrone were distributed to each block in line with the frequency in                           m                           Hkn     Hk + 1n
-                                                                                 Fnslope = 9.81      (15kg + 65kg)
-the census of individuals aged between 10 and 19. Using a shortest-path                          s                       kn
-                                                                                                                                  D kn                                (5)
-algorithm, we were able to determine the street network distances be-
-tween all the blocks in Dresden. These had to be interpreted as walking               where Hknis the height of knin metres above sea level and Dknis the
-distances in the absence of information about car accessibility around          length of knin metres (see Fig. 3 for some numerical examples of how
-one-way street systems. As this paper considers only the commute to             Fnslopeis computed). Since the topography differs between the route to
-school, cars and motorcycles did not play an important role. Detailed           and from school, we consider Fnslope1for the route to school and Fnslope2
-information on this methodological approach can be found in Müller              for the route back home.
-et al. (2008).                                                                        To determine speed vn, we use the GoogleMaps API (Googlemaps,
-                                                                                2015), which allows us to query the distance travelled on the shortest
-                                                                                path and the expected travel time depending on the topography
-4.1. Topographical analysis and its transformation in energy                    (Fig. 4). We then calculate the expected speed on the shortest path from
-                                                                                student's home n to school vn1and back vn2. So (2) is rewritten as
-    This study considers Dresden's topographic profile. There are major
-                                                                                 Fnl = F roll Fndrag Fnslope l l = 1, 2                                               (6)
-differences in elevation across the city. For example, the Klotzsche
-District is 227 m above sea level, whereas the inner city is only 112 m         and (1) becomes
-above (see Fig. 3). To improve the model, topographical patterns are
-                                                                                En = Fn1 vn1 + Fn2 vn2                                                                (7)
-used to obtain the energy required by students on their individual
-commuting trip to school when they cycle.                                             In addition to the energy variable, we consider further exogenous
-    We use a digital terrain model with the exact topographic                   variables to understand students' mode choice behaviour. Our
-                                                            Fig. 3. Examples of power required.
-                                                                             7
 
-S. Müller, et al.                                                                                                        Journal of Transport Geography 88 (2020) 102872
-                                           Fig. 4. Example of a bike route in Dresden (Googlemaps, 2018) (Kersten, 2015).
-Table 2
-Description of variables and modal share.
-  Variable                Description                                            Unit                         Mean         S.D.                Min             Max
-  Distance                Distance between school and place of residence         Km                           3.40         2.66                0.04            17.80
-  Class                   School class                                           Grade                        8.73         2.11                5.00            12.00
-  Age                     Student's age                                          Years                        14.71        2.50                10.00           39.00
-  Gender                  =1, if female                                          Dummy variable               0.56         0.50                0.00            1.00
-  Availability            =1, if car is always available                         Dummy variable               0.08         0.27                0.00            1.00
-  Season                  =1, if winter season                                   Dummy variable               0.50         0.50                0.00            1.00
-  Energy exerted          Energy spent when cycling (En)                         Watt                         242.45       379.40              0.13            3131.95
-  Seasonal modal share                               Car                            Public transport                          Bike                                Walk
-  Winter                                             10%                            61%                                       8%                                  21%
-  Summer                                             6%                             52%                                       24%                                 18%
-n = 8556.
-dataset also contains information about the distance in kilometres from                    with Vni representing the deterministic part of the derived utility,
-a student's home to school by the shortest path. We use the “season”                   and <U+03F5>ni the stochastic part. The deterministic utility is defined as
-variable to consider the impact of weather conditions on the mode
-                                                                                       Vni =             Xnim
-choice, since many people in Germany alter their travel behaviour de-                               im
-                                                                                                                                                                     (9)
-                                                                                               m
-pending on the season and weather conditions, as in many other cities
-with adverse meteorological conditions (Amiri and Sadeghpour, 2015).                       The exogenous variables Xnim are age, distance, energy En, etc. The
-The survey contains two questions regarding the commute-to-school                      coefficients ßim represent the marginal contribution to utility and are
-mode choice: one for winter and one for summer. As can be clearly seen                 estimated via maximum likelihood. We further assume that student n
-in Table 1, there is a significant difference in bike share between                    chooses the alternative i that maximizes her utility:
-summer and winter, as expected. Our control variables are the students'
-                                                                                       Uni > Vnj        j   i                                                       (10)
-age, class and gender, and whether a car is always available or not. The
-descriptive statistics are shown in Table 2. For further details, see                      Since utility (8) is a stochastic quantity, we can only make prob-
-Müller et al. (2008).                                                                  ability statements about (10); i.e., the probability that n chooses i is:
-                                                                                       Pni = Prob (Uni > Vnj        j i)                                            (11)
-5. Mode choice model specification
-                                                                                           If we now assume that <U+03F5>ni is an identically and independently dis-
-    We assume that student n chooses exactly one main commuting                        tributed (IID) extreme value, then (11) becomes the multinomial logit
-mode i from a given choice set {walk, bike, public transport, car}.                    model (MNL):
-Choosing alternative i yields utility                                                           eVni
-                                                                                       Pni =
-Uni = Vni +       ni                                                         (8)                 j
-                                                                                                   eVnj                                                             (12)
-                                                                                   8
 
-S. Müller, et al.                                                                                                 Journal of Transport Geography 88 (2020) 102872
-    The MNL model (12) exhibits the property known as independence
-from irrelevant alternatives (IIA), which states that every alternative j is
-an equal substitute to i. Technically speaking, by using the MNL we
-assume there is no correlation between the alternative modes, although
-we can easily find situations that violate this assumption. For instance,
-the alternatives “walk” and “bike” might both be sensitive to the
-weather and therefore share some unobserved effects, which could in
-turn cause correlations between “walk” and “bike” that are neglected
-by the MNL. We use the McFadden omitted variables test to verify
-whether the IIA assumption holds or not. If the assumption does not
-hold, we must make different assumptions about the distribution of <U+03F5>ni.
-Here we assume <U+03F5>ni to be a multivariate extreme value distribution.
-Thus from (11) we obtain the nested logit model (NL):
-                                             µ
-Pni =
-           e µs Vni       (  j Bs
-                                  e µs Vnj ) µs
-                                                  µ
-                e µs Vnj
-          j Bs           S
-                         t=1 (  j Bt
-                                       e µt Vni ) µt
-                                                                        (13)
-where (13) is the choice probability of alternative i in nest Bt. We
-partition the choice set into S nonoverlapping subsets denoted B1, B2,
-…, BS and call them nests from hereon. The parameter µs is a measure of
-the degree of independence in unobserved utility among the alter-
-natives in nest s. Scale parameter µ is normalized to 1. The NL exhibits
-the following properties:
- 1. For any two alternatives that are in the same nest, the ratio of
-    probabilities is independent of the attributes or existence of all other
-    alternatives. That is, the IIA property holds within each nest.
- 2. For any two alternatives in different nests, the ratio of probabilities
-    can depend on the attributes of other alternatives in the two nests.
-    IIA does not hold in general for alternatives in different nests.
-    The assignment of alternatives to nests is arbitrary. We test the nest
-specifications shown in Fig. 5. We understand that walk and bike may
-have unobservable sources of correlation (as AST modes) and we
-therefore test different alternatives to improve the model. We also test
-whether car and public transport (PuTr) – as non-active transportation
-–, and the environmentally friendly choice of PuTr, bike and walking,
-share unobserved characteristics. Fig. 5 shows the models tested in this
-study.
-6. Results                                                                                              Fig. 5. Nested models tested.
-    Table 3 contains the respective estimated coefficients im and other
-                                                                               compared to bike and car, showing that students are more willing to
-parameters within the base model and the nested models. For com-
-                                                                               walk longer distances in winter than in summer. We can assume that it
-parison we added a MNL specification. We tested different MNL spe-
-                                                                               is more convenient for students to walk in snow or rain than taking the
-cifications (see Table A1 in the appendix) and decided to maintain the
-                                                                               bike (an umbrella can be used while walking, for instance).
-one in Table 3. As expected, we found a decline in utility with distance
-                                                                                    As expected, the energy consumption on the commute to school by
-between students' home and school. The slope is steeper for non-mo-
-                                                                               bike reduces the bike utility. Specifically, for one unit increase in the
-torized modes than for motorized modes. Car availability increases the
-                                                                               energy variable we expect a exp.(-0.188) = 0.83; i.e., a 17% decrease
-likelihood of commuting by car, and winter particularly decreases the
-                                                                               in the odds of choosing bike assuming MNL.
-utility of walk and bike. These results are in line with the findings of
-                                                                                    The nominal explanatory power of nested models 2 and 3 is very
-Müller et al. (2008).
-                                                                               similar. The nest parameters non-active transportation, and active trans-
-    However, this study adds to these findings by using a gender
-                                                                               portation are not statistically significant for nest structure 1. The nest
-dummy, an age (or rather class) variable, an interaction between dis-
-                                                                               coefficients do not support utility maximization theory as they are
-tance and season, and of course our energy variable. Interestingly, we
-                                                                               larger than one. The ratio of the significant alternative variables com-
-found that female students are less likely than male students to choose
-                                                                               pared to the initial model also decreases from 78% to 46%. Above all,
-bike, while gender has no impact on the other commuting modes.
-                                                                               the significance of the vehicle availability variable drops sharply when
-    The class variable reveals that higher classes are more likely to
-                                                                               using the nest structure compared with the base model.
-choose “parent-independent” commuting modes, and the utility of cy-
-                                                                                    In the nested logit model 2, the nest environmentally friendly is sta-
-cling specifically increases with class. We assume that older students
-                                                                               tistically significant. The distance variable for the public transport al-
-are more likely to be allowed to take “riskier” or more independent
-                                                                               ternative is also significant. Within Nest B, the increased system speed
-modes rather than being driven by their parents, which can be seen as a
-                                                                               of public transport is stronger than non-motorized transport. The IIA
-sign of the students' growing independence. The interaction between
-                                                                               property may be violated because more than two alternatives belong to
-distance and season reveals some interesting insights. The magnitude of
-                                                                               Nest B. For this reason, a McFadden omitted variable test was
-the distance slope for walk and public transport declines in winter
-                                                                             9
 
-S. Müller, et al.                                                                                                             Journal of Transport Geography 88 (2020) 102872
-Table 3
-Results for the base model (MNL) and nested logit models. Alternative Car is the reference alternative.
-                                       MNL                                Nested 1                             Nested 2                        Nested 3
-                                                     Robust t-test                       Robust t-test                     Robust t-test                        Robust t-test
-                                        im                                 im                                   im                               im
-  Alternative-specific constants (ASC)
-  walk                                 11.37<U+204E><U+204E><U+204E>      22.38                14.78<U+204E><U+204E><U+204E>       2.73                  9.59<U+204E><U+204E><U+204E>     13.35               9.84<U+204E><U+204E><U+204E>          12.46
-  bike                                 4.70<U+204E><U+204E><U+204E>       12.38                7.77           1.44                  4.83<U+204E><U+204E><U+204E>     13.54               4.78<U+204E><U+204E><U+204E>          13.25
-  public transport                     4.15<U+204E><U+204E><U+204E>       11.84                7.22           1.36                  4.43<U+204E><U+204E><U+204E>     12.47               4.44<U+204E><U+204E><U+204E>          12.52
-  Distance
-  walk                                 -5.74<U+204E><U+204E><U+204E>      -21.34               -5.97<U+204E><U+204E><U+204E>       -11.67                -4.15<U+204E><U+204E><U+204E>    -7.27               -4.35<U+204E><U+204E><U+204E>         -6.90
-  bike                                 -0.79<U+204E><U+204E><U+204E>      -15.45               -0.76<U+204E><U+204E><U+204E>       -8.27                 -0.62<U+204E><U+204E><U+204E>    -8.99               -0.60<U+204E><U+204E><U+204E>         -8.37
-  public transport                     -0.03         -0.86                -0.01          -0.13                 -0.08<U+204E><U+204E>     -2.18               -0.08<U+204E>           -2.27
-  Distance * Season “Winter”
-  walk                                 2.26<U+204E><U+204E><U+204E>       7.39                 2.48<U+204E><U+204E><U+204E>        2.48                  1.62<U+204E><U+204E><U+204E>     5.27                1.79<U+204E><U+204E><U+204E>          4.91
-  bike                                 -0.02         -0.21                0.07           0.07                  0.03        0.36                0.06             0.82
-  public transport                     0.15<U+204E><U+204E><U+204E>       3.23                 0.22<U+204E>          0.22                  0.16<U+204E><U+204E><U+204E>     3.60                0.16<U+204E><U+204E><U+204E>          3.61
-  Car always available
-  walk                                 -4.84<U+204E><U+204E><U+204E>      -18.94               -7.94          -1.38                 -4.69<U+204E><U+204E><U+204E>    -23.43              -4.70<U+204E><U+204E><U+204E>         -23.05
-  bike                                 -4.56<U+204E><U+204E><U+204E>      -22.79               -7.78          -1.31                 -4.66<U+204E><U+204E><U+204E>    -25.57              -4.67<U+204E><U+204E><U+204E>         -25.45
-  public transport                     -5.35<U+204E><U+204E><U+204E>      -34.88               -10.04         -1.15                 -5.28<U+204E><U+204E><U+204E>    -35.88              -5.28<U+204E><U+204E><U+204E>         -35.90
-  Female students
-  walk                                 -0.18         -1.06                -0.13          -0.47                 -0.18       -1.20               -0.17            -1.10
-  bike                                 -0.88<U+204E><U+204E><U+204E>      -5.75                -0.84<U+204E><U+204E><U+204E>       -3.18                 -0.68<U+204E><U+204E><U+204E>    -4.46               -0.68<U+204E><U+204E><U+204E>         -4.40
-  public transport                     -0.03         -0.23                0.01           0.03                  -0.08       -0.57               -0.08            -0.60
-  Class
-  walk                                 0.11<U+204E><U+204E>        2.82                 0.14           1.48                  0.09<U+204E><U+204E>      2.69                0.09<U+204E><U+204E>           2.47
-  bike                                 0.26<U+204E><U+204E><U+204E>       7.36                 0.30<U+204E><U+204E><U+204E>        3.12                  0.20<U+204E><U+204E><U+204E>     5.41                0.20<U+204E><U+204E><U+204E>          5.37
-  public transport                     0.02          0.62                 0.06           0.60                  0.03        1.03                0.03             1.07
-  Season “Winter”
-  walk                                 -3.72<U+204E><U+204E><U+204E>      -8.21                -4.33<U+204E><U+204E><U+204E>       -5.77                 -3.00<U+204E><U+204E><U+204E>    -7.07               -3.19<U+204E><U+204E><U+204E>         -6.70
-  bike                                 -2.45<U+204E><U+204E><U+204E>      -7.89                -2.97<U+204E><U+204E><U+204E>       -4.75                 -2.14<U+204E><U+204E><U+204E>    -7.41               -2.23<U+204E><U+204E><U+204E>         -7.28
-  public transport                     -1.14<U+204E><U+204E><U+204E>      -4.27                -1.62<U+204E><U+204E>        -2.56                 -1.23<U+204E><U+204E><U+204E>    -4.93               -1.24<U+204E><U+204E><U+204E>         -4.94
-  Energy bike (En)/100                 -0.19<U+204E><U+204E><U+204E>      -7.80                -0.19<U+204E><U+204E><U+204E>       -7.68                 -0.13<U+204E><U+204E><U+204E>    -5.03               -0.13<U+204E><U+204E><U+204E>         -4.75
-  Nest coefficients µs
-  non-active transport +                                                  1.06           0.55
-  active transport +                                                      1.88           0.54                                                  0.77<U+204E>            -1.94
-  environmentally friendly +                                                                                   0.71<U+204E><U+204E>      -2.97               0.69<U+204E><U+204E><U+204E>          -3.12
-  log-likelihood                                     -4469.97                            -4469.12                          -4466.73                             -4466.12
-  adj. <U+03C1> 2¯                                          0.62                                0.62                              0.62                                 0.62
-Notes: test of statistical significance. *p < 0.1;  **
-                                                      p < 0.05;    ***
-                                                                       p < 0.01 (+ test against 1).
-conducted for the alternatives public transport, bicycle, and walking. The                      Table 4 presents different statistical measures, known as the clas-
-inaccuracies in the unobserved characteristics between bicycle and                         sification function. Although these values must be carefully analysed,
-walking and between all three alternatives in the nest increased in re-                    they provide good information on the reliability of the different models.
-lation to the initial model. A third nest structure was therefore eval-                    We analyse two situations, one for summer and one for winter. For the
-uated to determine whether it might be a better alternative.                               basic model, the Nested 3 model presents better explanatory results for
-    The additional sub-nest proposed in nested model 3 minimizes the                       the walking and bike alternatives. The number of students using mo-
-likelihood ratio value compared to the other models. The significance                      torized traffic is 40% lower than in the original model. 95% of this
-values of the variables also change minimally. At a significance level of                  decline comes from the drop in the number of public transport users.
-95%, the network parameter active mobility is not significant. We prefer                   Only 61% of all car and public transport users are correctly assigned in
-the Nested 2 or Nested 3 specification due to their significance, con-                     the nested logit model, while 89% of public transport users and 76% of
-formity with utility theory and complexity.                                                motorists are still correctly calculated in the initial model. The rate of
-Table 4
-Results for base model vs nested logit model 3.
-  Alternative                  Real obs.           Base model               NL3                Alternative              Base model              NL3
-  Walking                                                                                      PuTr
-   Total                       1858                2026                     2310                 Total                  4675                    4930                 3033
-   True positive                                   87.5%                    91.2%                True positive                                  88.6%                61.0%
-   False positive                                  12.5%                    8.8%                 False positive                                 11.4%                39.0%
-   Sensitivity                                     109.0%                   124.3%               Sensitivity                                    105.5%               64.9%
-   Specificity                                     97.5%                    93.3%                Specificity                                    93.4%                142.3%
-  Bike                                                                                         Car
-   Total                       1484                1031                     2791                 Total                  539                     569                  422
-   True positive                                   43.6%                    73.0%                True positive                                  75.9%                61.0%
-   False positive                                  56.4%                    27.0%                False positive                                 24.1%                39.0%
-   Sensitivity                                     69.5%                    188.1%               Sensitivity                                    105.6%               78.3%
-   Specificity                                     106.4%                   81.5%                Specificity                                    99.6%                101.5%
-                                                                                      10
 
-S. Müller, et al.                                                                                                     Journal of Transport Geography 88 (2020) 102872
-correct assignment decreases with each level of the nested logit model.           bike-sharing systems to ensure realistic results. This type of analysis
-At level 1 (car/non-environmentally-friendly vs. environmentally                  could be used to inform city planners about better locations for docking
-friendly), 94% of all allocations are still correct, while only 81% are           stations in hilly urban environments, taking into account the topo-
-correct at level 2 (PuTr/non-active vs. active transport).                        graphic conditions and making the relocation of bicycles more efficient
-    Fig. 6 presents the results, and shows the difference between the             as a result.
-alternatives bicycle and public transport in the base model (left) and                 As highlighted in the literature review, a dense and equitable school
-nested logit 3 (right). The alternative bike has increased the overall            network positively influences AST. In contrast, a school's closing may
-probability values. For both models, the distance is about two kilo-              affect students' modal choice, as they are forced to change their travel
-metres. It is worth noting that the selection probability of the NL model         patterns according to the location of their new school, in many cases by
-remains above zero over a wider distance interval than in the initial             using less environmentally friendly modal choices. This discussion
-model. The alternative public transport is complementary. Assuming that           needs to be part of a fairer social infrastructure planning
-no vehicle is available, the probability of selecting the base model for          (“Daseinsvorsorge”). Disadvantages in transport may increase the like-
-the alternative public transport from a distance of more than five kilo-          lihood of people moving away from sparsely populated areas, thus
-metres is close to 100%. In the case of Nested 3 model, such a high level         further increasing their unattractiveness and leading to higher social
-of probability of choosing public transport is valid only between five            costs.
-and ten kilometres, depending on the energy expenditure. The greater                   It is important for the city to favour transport policies that promote
-influence of the energy variable in the NL model can also be seen in the          environmentally friendly modal choices for students, and particularly
-same figure.                                                                      choices that support active transportation to schools. The models show
-    The energy variable only affects the cycling alternative, so an in-           that environmentally and non-environmentally friendly alternatives are
-crease in the probability of the public transport (PuTr) alternative, with        being considered when making a decision. AST has traditionally en-
-increasing energy consumption, negatively influences the benefits of              joyed positive support in German society, so public authorities should
-the cycling alternative.                                                          increase the measures to promote it. Special attention should be paid to
-    Car availability mainly affects the decision in the first nest level.         policies that support female AST, since this paper shows that gender
-Fig. 6b shows the probability of selecting the two environmentally-               plays a role in the choice of bike for commuting; the reasons for this
-friendly nests at the first decision-making level (top of the figure) and         require further analysis. It is also necessary to provide support for en-
-active transportation at the second level (at the bottom of Fig. 6b), each        vironmentally friendly modes and especially for active transportation,
-without (left) and with (right) individual vehicle availability. Clearly,         even if children are escorted to school.
-when a vehicle is not available, 99-100% choose an alternative in the                  This study also opens up many avenues for further research: for
-environmentally friendly nest, whereas when it is, this figure is between         example, a comparative study of other areas with important topo-
-50 and 100%. The probability depends mainly on the distance. In the               graphic changes, as in this case study; testing other detailed spatial
-lower decision-making level, the choice between the active transporta-            characteristics of the urban environment and school transport policy
-tion nest and the non-active alternative (in other words, public transport),      concepts; the factors underlying gender and AST shares, detailed
-vehicle availability is almost non-existent. These results confirm the            weather information, or a new survey to understand the changes in
-logical correctness of the nested approach.                                       mobility choices in the same city in light of the new mobility alter-
-                                                                                  natives. It would help to include other important information from
-7. Conclusions and final discussion                                               students and their families, such as socio-cultural and economic char-
-                                                                                  acteristics. Finally, Pedelecs (pedal electric cycle) are becoming in-
-    This paper seeks to understand the mobility patterns of children and          creasingly popular among various sectors of the population in
-teenagers on their travel choice to school and to discuss measures to             Germany, and their use is being widely promoted by different autho-
-improve sustainable mobility in a hilly urban environment. It uses a              rities (RadKULTUR BW, 2019). Given the results, and in light of the
-wide variety of models, only three of which are presented here. These             new micro-mobility alternatives and citizens' greater environmental
-models slightly improve the base model, although all offer a very good            concern, the perception and acceptability of e-mobility assistance in
-level of explanation. However, the nested logit structures circumvent             hilly environments could be further explored among different popula-
-the violation of the IIA property in the initial model.                           tion groups such as escorting parents in different areas of Germany.
-    Active transportation is clearly sensitive to different characteristics
-of the urban environment such as changes in topography. This study                Credit Authorship contribution statement
-identifies that the energy exerted in overcoming differences in level is a
-significant parameter. More specifically, the energy variable, which                   Sven Müller: Conceptualization, Methodology, Supervision. Lucia
-describes the effort made by students when cycling to school while                Mejia-Dorantes: Conceptualization, Investigation, Writing - original
-considering the topographic differences during the whole trip, improves           draft, Writing - review & editing. Elisa Kersten: Data curation, Formal
-the results. A failure to take into account the energy expenditure in hilly       analysis.
-environments evidently produces misleading results.
-    In terms of policy implications, this study sheds new light on the            Acknowledgements
-analysis of active transportation. One significant measure for promoting
-AST is the cycling proficiency test for students in Germany, but other                 We are very grateful to the two anonymous referees and the editor
-alternatives such as “walking buses” should be promoted for younger               for their comments, which have helped to greatly improve the paper.
-students. Hilly environments undoubtedly play a role in the choice of a           We would also like to thank the students from the Karlsruhe University
-certain transport mode; a similar analysis is therefore recommended for           of Applied Sciences who supported our research.
-Appendix A. Appendix: Table A1. Comparison of the different discrete choice models tested.
-                                            MNL 1                            MNL 2                             MNL 3                                MNL 4
-  1:(intercept)                             8.868 <U+204E><U+204E><U+204E>
-                                                                             8.832 <U+204E><U+204E><U+204E>
-                                                                                                               9.436 <U+204E><U+204E><U+204E>
-                                                                                                                                                    11.374<U+204E><U+204E><U+204E>
-                                            (0.391)                          (0.392)                           (0.414)                              (0.498)
-                                                                              12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S. Müller, et al.
+(World Health Organization, 2020). Active School Transportation (AST)
+contributes to achieving the recommended exercise rates among chil-
+dren and teenagers.
+AST has been studied intensively due to its manifold positive effects.
+The literature confirms that it contributes to improving children's
+health, as it impacts their physical, social and mental development and
+overall well-being (Schoeppe et al., 2013; Stark et al., 2018c; Waygood
+et al., 2020). Independent mobility in children is associated with child
+health, including good motor skills, cognitive development (Scheiner,
+2016) and a better understanding of their surrounding environment
+(Mitra and Buliung, 2015). Waygood et al. (2017) explore the way AST
+promotes social interactions for children during their trip to school in
+Canada, Japan and Sweden, and its importance for their personal well-
+being. As important spillover effects, AST has direct implications for the
+environment and sustainable transportation, as it reduces accompanied
+transport and leads to a decrease in congestion and pollution.
+The aim of this paper is to gain a better understanding of mobility
+patterns in children and teenagers in regard to their travel choice to
+school in a hilly urban environment, and to discuss measures to im-
+prove sustainable mobility. The case study in this work is the city of
+Dresden in eastern Germany, whose sustainable transport policy was
+recognized by the Civitas initiative in 2005 (Civitas, 2013). This study
+focuses on secondary schools (Gymnasium in German), attended by
+students between 10 and 19 years old, and offers a detailed analysis of
+the factors that contribute to AST by analysing the height profile of the
+cycling routes taken to school, thus increasing the reliability of the
+outcomes. One limitation of our study is the lack of additional personal
+information and environmental variables discussed in the literature.
+This paper is divided into seven sections. After the introduction and
+background, the third section describes the case study. Section four
+focuses on the methodology and data. The fifth section presents the
+model specification, and section six reports the results. Finally, section
+seven contains the conclusions and discusses the main findings and
+implications of this study.
+
+2. Background
+
+As discussed by various authors (Mackett, 2013; Mitra and Buliung,
+2015), the way children and teenagers commute to school has notably
+evolved in the last few decades. In the past, students would have been
+more likely to commute unaccompanied to school. Current worldwide
+trends in car ownership and car-oriented urban developments have
+directly transformed the way children go to school, as they now tend to
+be escorted by motorized transport modes, while the distance to the
+nearest school has also increased.
+Several studies deal with AST in various developed countries, such
+as those by Shaw et al. (2015), Habib and Daisy (2013), Yang and
+Markowitz (2012), Mitra and Buliung (2015) and Curtis et al. (2015).
+Many authors point out that apart from personal socio-demographic
+information, family background, socio-cultural and economic char-
+acteristics, along with geographical, spatial, and urban factors, all have
+a major influence on the preference for a certain mode.
+Gender is a controversial topic in the literature. Some authors report
+that it influences AST whereas others find no influence. For example,
+the studies by Scheiner et al. (2019a, 2019b) with information from
+children aged 6 to 10 show that primary school girls are escorted more
+often than boys, most notably those aged 6–7 years, and that female
+children are less likely to choose cycling as model choice, especially on
+morning trips. The study by van Goeverden and de Boer (2013) using
+data from Dutch and Flemish national travel surveys and information
+from children attending primary and secondary education shows that
+girls may travel less independently than boys because they are exposed
+to higher security risks. This variable is significant in Flanders, whereas
+in the Netherlands there is no impact. Conversely, Kemperman and
+Timmermans (2014) found that in children between 4 and 11 years in
+the Netherlands gender has no relation with either active travel
+
+Journal of Transport Geography 88 (2020) 102872
+behaviour or with any of the other variables in their analysis. Helbich
+et al. (2016) focused on a subsample of 97 children aged 6 to 11 years in
+six elementary schools in mid- to large-sized Dutch cities with GPS
+available information; they also reported gender to be insignificant, as
+did Stark et al. (2018c), who only found out that male children rated
+biking as being “cooler”. The latter authors observe that a larger het-
+erogeneous sample would be necessary to get more insights about
+gender.
+Deka (2013) studies how parents' mode of travel to work is directly
+interrelated with children's trip mode to school in the United States. If
+the parents choose to drive to work, children are likely to be dropped
+off at school, hence decreasing the possibilities of AST. The study by
+Stark et al. (2018b) in Austria highlights the importance of parents'
+attitudes for an understanding of the mobility patterns of primary
+school children, as they may subsequently influence how their children
+will commute alone to their secondary and tertiary education. In the
+study by Pojani and Boussauw (2014) in Albania, most of the children
+who were driven to school came from higher income families.
+Studies such as that of Sharmin and Kamruzzaman (2017) show that
+the country and regional context also play a major role. For example,
+Finnish children and young people are traditionally very independent
+in their mobility (Kyttä et al., 2015); in the study by Sarjala et al. (2016)
+in two different regions in Finland, children were escorted by parents
+on only 7% of trips. In contrast to children in developed countries,
+children in developing countries may rank choices differently. For ex-
+ample, in the case study of Kanpur, India (Singh and Vasudevan, 2018),
+the authors highlight that children rely on motorized modes such as
+family cars and paratransit modes in detriment from active modes due
+to an unbalanced distribution of schools, along with the lack of good-
+quality school bus services, the low standard of the public transport
+infrastructure, and the inadequate safety of the pedestrian and cycling
+infrastructure. They also observe that the students' mode choice reflects
+a gender-biased society.
+Many authors point to the inextricably intertwined relation between
+active transportation and the built environment. Rodri´guez and Joo
+(2004) highlight the positive effects of active transportation on the built
+environment, as it fosters the presence of mixed land use and higher
+employment and population density. Sarjala et al. (2016) analyses
+children and adolescent mobility in Finland by using a Topographic
+Dataset produced by the National Land Survey of Finland (SLICES da-
+taset) which includes land use, land cover, soil types and special use
+and restricted areas. They found that places with large commercial
+buildings and green environments had the highest proportions of car
+use. Scheiner et al. (2019a, 2019b) give a thorough analysis with de-
+tailed information on the built environment and on many other vari-
+ables that influence AST in Lünen, Germany. The authors found that
+traffic calming routes are associated with more independent mobility
+for children. Helbich et al. (2016) studied commuting patterns of
+children aged 6–11 years and found that well-connected streets and
+cycling lanes are positively associated with AST; the authors describe
+the horizontal dimension with a rich set of built environmental char-
+acteristics. The meta-analysis by Sharmin and Kamruzzaman (2017)
+also suggests that a wide variety of land-use patterns and a convenient
+street design helps promote policies for children's independent mobi-
+lity. Broberg and Sarjala (2015) mention that major roads on the school
+journey lower the odds of cycling to school, and that dense school
+networks support AST. Other authors also mention that school spatial
+planning plays an important role in fostering active mobility in
+schoolchildren; this is the case of Boussauw et al. (2014) for primary
+schools in northern Belgium. Similarly, Marique et al. (2013) also
+mention, based on two decennial surveys in Belgium, that well-dis-
+tributed, decentralised nursery and primary school services reduce the
+use of private cars and encourage more walking and cycling alter-
+natives.
+Longer trips clearly hinder walking and cycling alternatives, espe-
+cially for children, as confirmed by Stark et al. (2018a) in their study of
+2
+
+S. Müller, et al.                                                                                               Journal of Transport Geography 88 (2020)
+secondary pupils in Austria and Germany. Although some authors re-            found that between 1990 and 2010, students attending secondary
+port that active transportation may increase the risk of injury from          school in Germany transitioned from walking and cycling to taking
+collisions (Vanparijs et al., 2020) and health risks due to exposure to       public transport or school buses.
+motor vehicles and their emissions, this risk declines significantly as the       It should be noted that schoolchildren in Germany take a cycling
+number of people using active modes rises (Reynolds et al., 2010). In         proficiency course and test before entering secondary school. This en-
+overall terms, the benefits of physical activity outweigh the traffic-as-     courages independent mobility while emphasizing safe cycling at an
+sociated disadvantages, as highlighted by Mueller and colleagues              early age.
+(Mueller et al., 2015). Indeed, authors like Lopes et al. (2014) focus on         In the last decades, the mobility patterns of children have also
+the importance of transforming a motorized city through walkable              changed in Germany. Many children are being escorted, leading to a
+policies to foster safe AST.                                                  decrease of AST.The German Ministry of Transport recently presented
+In order to propose specific measures to foster AST, it is important to   the results of a study on family mobility (Manz et al., 2015). The study
+analyse the factors that promote active school transportation among           by Scheiner (2016) reports that 16% of parental trips in Germany are
+children and young people. As it plays such a key role, the urban en-         for the purpose of escorting children, increasing to 22% for families
+vironment must be studied in greater depth. To our knowledge, there           escorting children aged ten or younger. Although this may be done by
+are limited examples of the use of technology systems or devices to           private car in most cases, 22% of these trips involve active mobility,
+determine and understand more accurately which other factors in the           while escorting children on public transport accounts for only 2% to 7%
+urban environment influence active transportation for children and            of all cases, depending on the city type.
+adolescents; questionnaires and interviews tend to be used, probably              Germany has an established policy for school network planning
+due to legal restrictions. One such study by Verhoeven et al. (2018)          aimed at providing basic social infrastructure, known in German as
+considers cycling trips by secondary school adolescents using global          Daseinsvorsorge (Küpper, 2012), including a minimum access to certain
+positioning systems. However in terms of slope conditions, most studies       public services such as schools and transport (Gawron, 2008). In recent
+focus mainly on adults. For example, Rodri´guez and Joo (2004), Li et al.     years many towns and cities have seen a drop in the number of stu-
+(2012), Broach et al. (2012), Paige Willis et al. (2013) and Milakis and      dents, leading to school closures. When a school closes, it has a direct
+Athanasopoulos (2014) analyse cycling route choice in adults, in most         impact on the way students commute to the other available schools, and
+cases for commuting purposes. Li et al. (2012) use a dummy variable as        on the transport services in the areas of both their former school and
+a proxy for hilly and flat urban environments to inform perception of         their new schools. Various studies show how school closures trigger
+cycling comfort. Broach et al. (2012) take three alternatives (catego-        changes in travel patterns (Haase and Müller, 2013; Müller et al., 2009;
+rical variables) for the part of the route with a certain average upslope     Müller, 2011).
+in order to choose a cycling route. Paige Willis et al. (2013) ask parti-
+cipants about slope satisfaction. Milakis and Athanasopoulos (2014)           4. Methodology and data
+consider the riding difficulty variable as a function of slope in a certain
+section to understand cycling route preferences. Table 1 presents de-             This paper covers secondary schools with a focus on high academic
+tailed information on AST studies and others that take slope into ac-         performance (Gymnasium in German) attended by students between 10
+count in their analysis. In this work, we focus on slope as the main          and 19 years old. Only a certain number of students may attend these
+topographic condition in the city of Dresden, and seek to understand          types of schools. At the time of the survey, around 45% of the students
+how this variable influences transport choice in children and teenagers.      in this age range went to a Gymnasium. Students who normally attend a
+Gymnasium have higher grades and a better performance in elementary
+3. Case study                                                                 school, while other students go to secondary schools known as
+Mittelschule or Realschule, Hauptschule, Realschule and Gesamtschule. We
+Dresden is located in the eastern part of Germany, close to the Czech     chose the Gymnasium because students show more variance in mode
+Republic (Fig. 1). It is the capital of the state of Saxony and a very        choice compared to elementary and middle school. Younger students
+important cultural and educational hub in Germany (Dresden, 2018a).           often walk to school or are escorted by car. Few elementary or middle
+Dresden is also acknowledged as one of the greenest cities in Europe          school students choose public transport (Manz et al., 2015). There are
+(Civitas, 2013); woods and green spaces account for 62% of the city's         more middle schools than Gymnasium in Dresden, hence the average
+territory. The city is located in a widening of the Elbe valley, sur-         commuting distances are shorter. Gymnasiums also offer specific
+rounded by the foothills of the Eastern Erzgebirge Mountains, the Lu-         learning areas (school profiles) which impact the students' choice of
+satian Granite Uplands and the Elbe Sandstone Mountains (Dresden,             school (Müller et al., 2012), so longer commuting distances and a more
+2018b). The length of the river within the city is about 30 km, and it is     diverse mode choice pattern can be seen among Gymnasium students.
+crossed by ten bridges at different points. (See Fig. 2.)                         This paper uses the data from Müller et al. (2008) as the base model
+According to the state's own statistics (Dresden, 2018b), Dresden's       choice. The data is available at GitHub.1 An analysis of the results re-
+population in 2005 was approximately 487,000, and now stands at               veals singularities in the case study that require further exploration.
+557,000 with a density of about 1696 inhabitants/km2. It is the fourth        From the literature review, we know that the built environment plays
+largest city in Germany and has a total area of 328 km2. Built-up areas       an important role in the likelihood of riding a bike. In this study we
+and their associated open-spaces account for 6310 ha, while 3377 ha           follow a comprehensive approach.
+are dedicated to traffic. The highest point (Triebenberg) is 383 m a.s.l.         Different hypotheses are tested to improve the original model. First,
+and the lowest point (Cossebaude) is 101 m a.s.l.                             the predictive quality of the model can be enhanced by choice models
+The city's geographic location directly influences its particular         that explicitly allow for correlation among transport modes; and
+weather conditions. According to the weather statistics (Climate-Data,        second, the model can also be improved by considering the topography
+2019; WetterKontor, 2018), the average temperatures are -1.8 °C in            of Dresden. We therefore present a methodology that takes account of
+January, and the maximum temperatures occur in July (19.8 °C). An-            the “energy exerted” by cycling in the city of Dresden due to its hilly
+nual precipitation is 667 mm.                                                 profile. Third, we use age and gender as additional control variables.
+Germany has a longstanding tradition of encouraging active and                The information collected in 2004 covered approximately 4700 of
+independent mobility in children. According to the Children's                 the 14,000 school students at 12 out of the 23 schools in Dresden.
+Independent Mobility Report (Shaw et al., 2015), German children
+come second – after Finnish children – in their freedom to travel in-
+dependently on local buses. An earlier study by Shaw et al. (2013)              1
+https://github.com/svenne0815/DresdenModeChoiceData
+3
+102872
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S. Müller, et al.
+Although the data are over 15 years old, it is reasonable to assume that
+the basic underlying patterns of mode choice have not changed sig-
+nificantly since then. Most recent studies show the impact of distance
+and weather. According to Manz et al. (2015), the mobility choices seen
+in the information on secondary students' travel patterns in Germany
+between 2002 and 2008 did not change noticeably. The same report
+also shows that school closures have affected other secondary schools,
+but not Gymnasiums, whose locations remain similar all over Germany.
+However, the variance in more recent data may differ from our own, so
+the alternative-specific constants of our model are likely to be biased.
+Since this is only of interest in forecasting scenarios, we can disregard
+this issue in this paper. More importantly, the topography and school
+locations have not changed since then, and we are therefore convinced
+
+our data are still valid for the purpose of our study.
+It should be noted that due to data protection laws, students cannot
+
+be asked their detailed whereabouts such as their home address, which
+
+made it necessary to design a methodology to obtain a proxy for their
+
+place of residence and route. Other authors mention data protection
+
+laws as a drawback (Stark et al., 2018c), which has also been cir-
+cumvented by using an alternative approach (Scheiner, 2016).
+The students were asked to specify the closest bus stop and the es-
+
+timated walking time from home to the bus stop. We also had small-
+
+scale demographic data at the block level (smallest administrative
+
+census units in Dresden). Using this information, we built an isochrone
+
+around the bus stop for each student, so each isochrone might be fea-
+
+sible for several students. We then assigned the census blocks inter-
+
+secting an isochrone to that same isochrone. All the students in an
+isochrone were distributed to each block in line with the frequency in
+
+the census of individuals aged between 10 and 19. Using a shortest-path
+
+algorithm, we were able to determine the street network distances be-
+tween all the blocks in Dresden. These had to be interpreted as walking
+distances in the absence of information about car accessibility around
+one-way street systems. As this paper considers only the commute to
+school, cars and motorcycles did not play an important role. Detailed
+information on this methodological approach can be found in Müller
+et al. (2008).
+
+
+4.1. Topographical analysis and its transformation in energy
+
+This study considers Dresden's topographic profile. There are major
+
+differences in elevation across the city. For example, the Klotzsche
+District is 227 m above sea level, whereas the inner city is only 112 m
+above (see Fig. 3). To improve the model, topographical patterns are
+
+used to obtain the energy required by students on their individual
+commuting trip to school when they cycle.
+We use a digital terrain model with the exact topographic
+Fig. 3. Examples
+
+Journal of Transport Geography 88 (2020) 102872
+information for the area of Dresden (Federal Office of Cartography and
+Geodesy (BKG) (bkg, 2018)) to obtain a height profile for the commute
+to school on the shortest path for each student in our sample. To cal-
+culate the expected energy expended by a cycling student, we consider
+En = Fn· vn.                                                                          (1)
+
+The exogenous variable, power (En), is formed of force Fn and speed
+vn, according to Gressmann (2005)
+Fn = F roll Fndrag Fnslope                                                           (2)
+
+The rolling friction     Fnroll is derived from the contact of the tyre with
+the surface. It is calculated as
+m
+F roll = 0.0058 9.81         (15kg + 65kg)
+s                                                            (3)
+
+which is the product of a given constant, gravity, and the weight of
+
+the systems (i.e., the sum of the weight of the student and the bike). Due
+
+to lack of data, we assume an average student weighs 65 kg and a bike is
+
+about 15 kg. The drag
+
+Fndrag = 0.5 c A       vn2                                                           (4)
+
+comprises a drag coefficient c = 1.1, air density <U+03C1> =1.25 kg/m3,
+
+and the squared speed of student n. Due to lack of data, we assume the
+
+surface area (A) of a student to be 0.42m2. We subdivide the route
+
+length of student n from home to school into sections kn. Each section kn
+
+is distinctly characterized by either positive, negative or zero slope. The
+
+topography is considered in the friction due to slope
+
+m                           Hkn     Hk + 1n
+Fnslope = 9.81      (15kg + 65kg)
+s                       kn
+D kn                                (5)
+
+where Hknis the height of knin metres above sea level and Dknis the
+length of knin metres (see Fig. 3 for some numerical examples of how
+Fnslopeis computed). Since the topography differs between the route to
+and from school, we consider Fnslope1for the route to school and Fnslope2
+for the route back home.
+To determine speed vn, we use the GoogleMaps API (Googlemaps,
+2015), which allows us to query the distance travelled on the shortest
+path and the expected travel time depending on the topography
+(Fig. 4). We then calculate the expected speed on the shortest path from
+student's home n to school vn1and back vn2. So (2) is rewritten as
+
+Fnl = F roll Fndrag Fnslope l l = 1, 2                                               (6)
+
+and (1) becomes
+
+En = Fn1 vn1 + Fn2 vn2                                                                (7)
+
+In addition to the energy variable, we consider further exogenous
+variables to understand students' mode choice behaviour. Our
+of power required.
+7
+
+S. Müller, et al.
+Fig. 4. Example of a bike route
+Table 2
+Description of variables and modal share.
+Variable                Description
+Distance                Distance between school and place of residence
+Class                   School class
+Age                     Student's age
+Gender                  =1, if female
+Availability            =1, if car is always available
+Season                  =1, if winter season
+Energy exerted          Energy spent when cycling (En)
+Seasonal modal share                               Car
+Winter                                             10%
+Summer                                             6%
+n = 8556.
+dataset also contains information about the distance in kilometres from
+a student's home to school by the shortest path. We use the “season”
+variable to consider the impact of weather conditions on the mode
+
+choice, since many people in Germany alter their travel behaviour de-
+
+
+pending on the season and weather conditions, as in many other cities
+with adverse meteorological conditions (Amiri and Sadeghpour, 2015).
+The survey contains two questions regarding the commute-to-school
+mode choice: one for winter and one for summer. As can be clearly seen
+in Table 1, there is a significant difference in bike share between
+summer and winter, as expected. Our control variables are the students'
+
+age, class and gender, and whether a car is always available or not. The
+descriptive statistics are shown in Table 2. For further details, see
+Müller et al. (2008).
+
+5. Mode choice model specification
+
+We assume that student n chooses exactly one main commuting
+mode i from a given choice set {walk, bike, public transport, car}.
+Choosing alternative i yields utility
+
+Uni = Vni +       ni
+
+
+Journal of Transport Geography 88 (2020) 102872
+in Dresden (Googlemaps, 2018) (Kersten, 2015).
+
+
+Unit                         Mean         S.D.                Min             Max
+Km                           3.40         2.66                0.04            17.80
+Grade                        8.73         2.11                5.00            12.00
+Years                        14.71        2.50                10.00           39.00
+Dummy variable               0.56         0.50                0.00            1.00
+Dummy variable               0.08         0.27                0.00            1.00
+Dummy variable               0.50         0.50                0.00            1.00
+Watt                         242.45       379.40              0.13            3131.95
+Public transport                          Bike                                Walk
+61%                                       8%                                  21%
+52%                                       24%                                 18%
+
+with Vni representing the deterministic part of the derived utility,
+and <U+03F5>ni the stochastic part. The deterministic utility is defined as
+
+Vni =             Xnim
+im
+(9)
+m
+
+The exogenous variables Xnim are age, distance, energy En, etc. The
+coefficients ßim represent the marginal contribution to utility and are
+estimated via maximum likelihood. We further assume that student n
+chooses the alternative i that maximizes her utility:
+
+Uni > Vnj        j   i                                                       (10)
+
+Since utility (8) is a stochastic quantity, we can only make prob-
+ability statements about (10); i.e., the probability that n chooses i is:
+Pni = Prob (Uni > Vnj        j i)                                            (11)
+
+If we now assume that <U+03F5>ni is an identically and independently dis-
+tributed (IID) extreme value, then (11) becomes the multinomial logit
+model (MNL):
+eVni
+Pni =
+(8)                 j
+eVnj                                                             (12)
+8
+
+S. Müller, et al.
+The MNL model (12) exhibits the property known as independence
+from irrelevant alternatives (IIA), which states that every alternative j is
+an equal substitute to i. Technically speaking, by using the MNL we
+assume there is no correlation between the alternative modes, although
+we can easily find situations that violate this assumption. For instance,
+the alternatives “walk” and “bike” might both be sensitive to the
+weather and therefore share some unobserved effects, which could in
+turn cause correlations between “walk” and “bike” that are neglected
+by the MNL. We use the McFadden omitted variables test to verify
+whether the IIA assumption holds or not. If the assumption does not
+hold, we must make different assumptions about the distribution of <U+03F5>ni.
+Here we assume <U+03F5>ni to be a multivariate extreme value distribution.
+Thus from (11) we obtain the nested logit model (NL):
+µ
+Pni =
+e µs Vni       (  j Bs
+e µs Vnj ) µs
+µ
+e µs Vnj
+j Bs           S
+t=1 (  j Bt
+e µt Vni ) µt
+(13)
+where (13) is the choice probability of alternative i in nest Bt. We
+partition the choice set into S nonoverlapping subsets denoted B1, B2,
+…, BS and call them nests from hereon. The parameter µs is a measure of
+the degree of independence in unobserved utility among the alter-
+natives in nest s. Scale parameter µ is normalized to 1. The NL exhibits
+the following properties:
+1. For any two alternatives that are in the same nest, the ratio of
+probabilities is independent of the attributes or existence of all other
+alternatives. That is, the IIA property holds within each nest.
+2. For any two alternatives in different nests, the ratio of probabilities
+can depend on the attributes of other alternatives in the two nests.
+IIA does not hold in general for alternatives in different nests.
+The assignment of alternatives to nests is arbitrary. We test the nest
+specifications shown in Fig. 5. We understand that walk and bike may
+have unobservable sources of correlation (as AST modes) and we
+therefore test different alternatives to improve the model. We also test
+whether car and public transport (PuTr) – as non-active transportation
+–, and the environmentally friendly choice of PuTr, bike and walking,
+share unobserved characteristics. Fig. 5 shows the models tested in this
+study.
+6. Results
+Table 3 contains the respective estimated coefficients im and other
+
+parameters within the base model and the nested models. For com-
+
+parison we added a MNL specification. We tested different MNL spe-
+
+cifications (see Table A1 in the appendix) and decided to maintain the
+
+one in Table 3. As expected, we found a decline in utility with distance
+
+between students' home and school. The slope is steeper for non-mo-
+
+torized modes than for motorized modes. Car availability increases the
+
+likelihood of commuting by car, and winter particularly decreases the
+
+utility of walk and bike. These results are in line with the findings of
+
+Müller et al. (2008).
+
+However, this study adds to these findings by using a gender
+
+dummy, an age (or rather class) variable, an interaction between dis-
+
+tance and season, and of course our energy variable. Interestingly, we
+
+found that female students are less likely than male students to choose
+
+bike, while gender has no impact on the other commuting modes.
+
+The class variable reveals that higher classes are more likely to
+
+choose “parent-independent” commuting modes, and the utility of cy-
+
+cling specifically increases with class. We assume that older students
+
+are more likely to be allowed to take “riskier” or more independent
+
+modes rather than being driven by their parents, which can be seen as a
+
+sign of the students' growing independence. The interaction between
+
+distance and season reveals some interesting insights. The magnitude of
+
+the distance slope for walk and public transport declines in winter
+9
+Journal of Transport Geography 88 (2020) 102872
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 5. Nested models tested.
+
+compared to bike and car, showing that students are more willing to
+
+walk longer distances in winter than in summer. We can assume that it
+
+is more convenient for students to walk in snow or rain than taking the
+
+bike (an umbrella can be used while walking, for instance).
+
+As expected, the energy consumption on the commute to school by
+
+bike reduces the bike utility. Specifically, for one unit increase in the
+
+energy variable we expect a exp.(-0.188) = 0.83; i.e., a 17% decrease
+
+in the odds of choosing bike assuming MNL.
+
+The nominal explanatory power of nested models 2 and 3 is very
+
+similar. The nest parameters non-active transportation, and active trans-
+
+portation are not statistically significant for nest structure 1. The nest
+
+coefficients do not support utility maximization theory as they are
+
+larger than one. The ratio of the significant alternative variables com-
+
+pared to the initial model also decreases from 78% to 46%. Above all,
+
+the significance of the vehicle availability variable drops sharply when
+
+using the nest structure compared with the base model.
+
+In the nested logit model 2, the nest environmentally friendly is sta-
+
+tistically significant. The distance variable for the public transport al-
+
+ternative is also significant. Within Nest B, the increased system speed
+
+of public transport is stronger than non-motorized transport. The IIA
+
+property may be violated because more than two alternatives belong to
+
+Nest B. For this reason, a McFadden omitted variable test was
+
+
+
+S. Müller, et al.
+Table 3
+Results for the base model (MNL) and nested logit models. Alternative Car is the re
+MNL                                Nested 1
+Robust t-test
+im                                 im
+Alternative-specific constants (ASC)
+walk                                 11.37<U+204E><U+204E><U+204E>      22.38                14.78<U+204E><U+204E><U+204E>
+bike                                 4.70<U+204E><U+204E><U+204E>       12.38                7.77
+public transport                     4.15<U+204E><U+204E><U+204E>       11.84                7.22
+Distance
+walk                                 -5.74<U+204E><U+204E><U+204E>      -21.34               -5.97<U+204E><U+204E><U+204E>
+bike                                 -0.79<U+204E><U+204E><U+204E>      -15.45               -0.76<U+204E><U+204E><U+204E>
+public transport                     -0.03         -0.86                -0.01
+Distance * Season “Winter”
+walk                                 2.26<U+204E><U+204E><U+204E>       7.39                 2.48<U+204E><U+204E><U+204E>
+bike                                 -0.02         -0.21                0.07
+public transport                     0.15<U+204E><U+204E><U+204E>       3.23                 0.22<U+204E>
+Car always available
+walk                                 -4.84<U+204E><U+204E><U+204E>      -18.94               -7.94
+bike                                 -4.56<U+204E><U+204E><U+204E>      -22.79               -7.78
+public transport                     -5.35<U+204E><U+204E><U+204E>      -34.88               -10.04
+Female students
+walk                                 -0.18         -1.06                -0.13
+bike                                 -0.88<U+204E><U+204E><U+204E>      -5.75                -0.84<U+204E><U+204E><U+204E>
+public transport                     -0.03         -0.23                0.01
+Class
+walk                                 0.11<U+204E><U+204E>        2.82                 0.14
+bike                                 0.26<U+204E><U+204E><U+204E>       7.36                 0.30<U+204E><U+204E><U+204E>
+public transport                     0.02          0.62                 0.06
+Season “Winter”
+walk                                 -3.72<U+204E><U+204E><U+204E>      -8.21                -4.33<U+204E><U+204E><U+204E>
+bike                                 -2.45<U+204E><U+204E><U+204E>      -7.89                -2.97<U+204E><U+204E><U+204E>
+public transport                     -1.14<U+204E><U+204E><U+204E>      -4.27                -1.62<U+204E><U+204E>
+Energy bike (En)/100                 -0.19<U+204E><U+204E><U+204E>      -7.80                -0.19<U+204E><U+204E><U+204E>
+Nest coefficients µs
+non-active transport +                                                  1.06
+active transport +                                                      1.88
+environmentally friendly +
+log-likelihood                                     -4469.97
+adj. <U+03C1> 2¯                                          0.62
+Notes: test of statistical significance. *p < 0.1;  **
+p < 0.05;    ***
+p < 0.01 (+
+conducted for the alternatives public transport, bicycle, and walking. The
+inaccuracies in the unobserved characteristics between bicycle and
+walking and between all three alternatives in the nest increased in re-
+lation to the initial model. A third nest structure was therefore eval-
+uated to determine whether it might be a better alternative.
+The additional sub-nest proposed in nested model 3 minimizes the
+likelihood ratio value compared to the other models. The significance
+values of the variables also change minimally. At a significance level of
+95%, the network parameter active mobility is not significant. We prefer
+the Nested 2 or Nested 3 specification due to their significance, con-
+formity with utility theory and complexity.
+Table 4
+Results for base model vs nested logit model 3.
+Alternative                  Real obs.           Base model               NL3
+Walking
+Total                       1858                2026                     2310
+True positive                                   87.5%                    91.2%
+False positive                                  12.5%                    8.8%
+Sensitivity                                     109.0%                   124.3%
+Specificity                                     97.5%                    93.3%
+Bike
+Total                       1484                1031                     2791
+True positive                                   43.6%                    73.0%
+False positive                                  56.4%                    27.0%
+Sensitivity                                     69.5%                    188.1%
+Specificity                                     106.4%                   81.5%
+
+Journal of Transport Geography 88 (2020) 102872
+
+ference alternative.
+Nested 2                        Nested 3
+Robust t-test                     Robust t-test                        Robust t-test
+im                               im
+
+2.73                  9.59<U+204E><U+204E><U+204E>     13.35               9.84<U+204E><U+204E><U+204E>          12.46
+1.44                  4.83<U+204E><U+204E><U+204E>     13.54               4.78<U+204E><U+204E><U+204E>          13.25
+1.36                  4.43<U+204E><U+204E><U+204E>     12.47               4.44<U+204E><U+204E><U+204E>          12.52
+
+-11.67                -4.15<U+204E><U+204E><U+204E>    -7.27               -4.35<U+204E><U+204E><U+204E>         -6.90
+-8.27                 -0.62<U+204E><U+204E><U+204E>    -8.99               -0.60<U+204E><U+204E><U+204E>         -8.37
+-0.13                 -0.08<U+204E><U+204E>     -2.18               -0.08<U+204E>           -2.27
+
+2.48                  1.62<U+204E><U+204E><U+204E>     5.27                1.79<U+204E><U+204E><U+204E>          4.91
+0.07                  0.03        0.36                0.06             0.82
+0.22                  0.16<U+204E><U+204E><U+204E>     3.60                0.16<U+204E><U+204E><U+204E>          3.61
+
+-1.38                 -4.69<U+204E><U+204E><U+204E>    -23.43              -4.70<U+204E><U+204E><U+204E>         -23.05
+-1.31                 -4.66<U+204E><U+204E><U+204E>    -25.57              -4.67<U+204E><U+204E><U+204E>         -25.45
+-1.15                 -5.28<U+204E><U+204E><U+204E>    -35.88              -5.28<U+204E><U+204E><U+204E>         -35.90
+
+-0.47                 -0.18       -1.20               -0.17            -1.10
+-3.18                 -0.68<U+204E><U+204E><U+204E>    -4.46               -0.68<U+204E><U+204E><U+204E>         -4.40
+0.03                  -0.08       -0.57               -0.08            -0.60
+
+1.48                  0.09<U+204E><U+204E>      2.69                0.09<U+204E><U+204E>           2.47
+3.12                  0.20<U+204E><U+204E><U+204E>     5.41                0.20<U+204E><U+204E><U+204E>          5.37
+0.60                  0.03        1.03                0.03             1.07
+
+-5.77                 -3.00<U+204E><U+204E><U+204E>    -7.07               -3.19<U+204E><U+204E><U+204E>         -6.70
+-4.75                 -2.14<U+204E><U+204E><U+204E>    -7.41               -2.23<U+204E><U+204E><U+204E>         -7.28
+-2.56                 -1.23<U+204E><U+204E><U+204E>    -4.93               -1.24<U+204E><U+204E><U+204E>         -4.94
+-7.68                 -0.13<U+204E><U+204E><U+204E>    -5.03               -0.13<U+204E><U+204E><U+204E>         -4.75
+
+0.55
+0.54                                                  0.77<U+204E>            -1.94
+0.71<U+204E><U+204E>      -2.97               0.69<U+204E><U+204E><U+204E>          -3.12
+-4469.12                          -4466.73                             -4466.12
+0.62                              0.62                                 0.62
+
+
+test against 1).
+Table 4 presents different statistical measures, known as the clas-
+sification function. Although these values must be carefully analysed,
+they provide good information on the reliability of the different models.
+We analyse two situations, one for summer and one for winter. For the
+basic model, the Nested 3 model presents better explanatory results for
+the walking and bike alternatives. The number of students using mo-
+torized traffic is 40% lower than in the original model. 95% of this
+decline comes from the drop in the number of public transport users.
+Only 61% of all car and public transport users are correctly assigned in
+the nested logit model, while 89% of public transport users and 76% of
+motorists are still correctly calculated in the initial model. The rate of
+
+
+Alternative              Base model              NL3
+PuTr
+Total                  4675                    4930                 3033
+True positive                                  88.6%                61.0%
+False positive                                 11.4%                39.0%
+Sensitivity                                    105.5%               64.9%
+Specificity                                    93.4%                142.3%
+Car
+Total                  539                     569                  422
+True positive                                  75.9%                61.0%
+False positive                                 24.1%                39.0%
+Sensitivity                                    105.6%               78.3%
+Specificity                                    99.6%                101.5%
+10
+
+S. Müller, et al.                                                                                                     Journal of Transport Geography 88 (2020)
+correct assignment decreases with each level of the nested logit model.           bike-sharing systems to ensure realistic results. This type of analysis
+At level 1 (car/non-environmentally-friendly vs. environmentally                  could be used to inform city planners about better locations for docking
+friendly), 94% of all allocations are still correct, while only 81% are           stations in hilly urban environments, taking into account the topo-
+correct at level 2 (PuTr/non-active vs. active transport).                        graphic conditions and making the relocation of bicycles more efficient
+Fig. 6 presents the results, and shows the difference between the             as a result.
+alternatives bicycle and public transport in the base model (left) and                 As highlighted in the literature review, a dense and equitable school
+nested logit 3 (right). The alternative bike has increased the overall            network positively influences AST. In contrast, a school's closing may
+probability values. For both models, the distance is about two kilo-              affect students' modal choice, as they are forced to change their travel
+metres. It is worth noting that the selection probability of the NL model         patterns according to the location of their new school, in many cases by
+remains above zero over a wider distance interval than in the initial             using less environmentally friendly modal choices. This discussion
+model. The alternative public transport is complementary. Assuming that           needs to be part of a fairer social infrastructure planning
+no vehicle is available, the probability of selecting the base model for          (“Daseinsvorsorge”). Disadvantages in transport may increase the like-
+the alternative public transport from a distance of more than five kilo-          lihood of people moving away from sparsely populated areas, thus
+metres is close to 100%. In the case of Nested 3 model, such a high level         further increasing their unattractiveness and leading to higher social
+of probability of choosing public transport is valid only between five            costs.
+and ten kilometres, depending on the energy expenditure. The greater                   It is important for the city to favour transport policies that promote
+influence of the energy variable in the NL model can also be seen in the          environmentally friendly modal choices for students, and particularly
+same figure.                                                                      choices that support active transportation to schools. The models show
+The energy variable only affects the cycling alternative, so an in-           that environmentally and non-environmentally friendly alternatives are
+crease in the probability of the public transport (PuTr) alternative, with        being considered when making a decision. AST has traditionally en-
+increasing energy consumption, negatively influences the benefits of              joyed positive support in German society, so public authorities should
+the cycling alternative.                                                          increase the measures to promote it. Special attention should be paid to
+Car availability mainly affects the decision in the first nest level.         policies that support female AST, since this paper shows that gender
+Fig. 6b shows the probability of selecting the two environmentally-               plays a role in the choice of bike for commuting; the reasons for this
+friendly nests at the first decision-making level (top of the figure) and         require further analysis. It is also necessary to provide support for en-
+active transportation at the second level (at the bottom of Fig. 6b), each        vironmentally friendly modes and especially for active transportation,
+without (left) and with (right) individual vehicle availability. Clearly,         even if children are escorted to school.
+when a vehicle is not available, 99-100% choose an alternative in the                  This study also opens up many avenues for further research: for
+environmentally friendly nest, whereas when it is, this figure is between         example, a comparative study of other areas with important topo-
+50 and 100%. The probability depends mainly on the distance. In the               graphic changes, as in this case study; testing other detailed spatial
+lower decision-making level, the choice between the active transporta-            characteristics of the urban environment and school transport policy
+tion nest and the non-active alternative (in other words, public transport),      concepts; the factors underlying gender and AST shares, detailed
+vehicle availability is almost non-existent. These results confirm the            weather information, or a new survey to understand the changes in
+logical correctness of the nested approach.                                       mobility choices in the same city in light of the new mobility alter-
+natives. It would help to include other important information from
+7. Conclusions and final discussion                                               students and their families, such as socio-cultural and economic char-
+acteristics. Finally, Pedelecs (pedal electric cycle) are becoming in-
+This paper seeks to understand the mobility patterns of children and          creasingly popular among various sectors of the population in
+teenagers on their travel choice to school and to discuss measures to             Germany, and their use is being widely promoted by different autho-
+improve sustainable mobility in a hilly urban environment. It uses a              rities (RadKULTUR BW, 2019). Given the results, and in light of the
+wide variety of models, only three of which are presented here. These             new micro-mobility alternatives and citizens' greater environmental
+models slightly improve the base model, although all offer a very good            concern, the perception and acceptability of e-mobility assistance in
+level of explanation. However, the nested logit structures circumvent             hilly environments could be further explored among different popula-
+the violation of the IIA property in the initial model.                           tion groups such as escorting parents in different areas of Germany.
+Active transportation is clearly sensitive to different characteristics
+of the urban environment such as changes in topography. This study                Credit Authorship contribution statement
+identifies that the energy exerted in overcoming differences in level is a
+significant parameter. More specifically, the energy variable, which                   Sven Müller: Conceptualization, Methodology, Supervision. Lucia
+describes the effort made by students when cycling to school while                Mejia-Dorantes: Conceptualization, Investigation, Writing - original
+considering the topographic differences during the whole trip, improves           draft, Writing - review & editing. Elisa Kersten: Data curation, Formal
+the results. A failure to take into account the energy expenditure in hilly       analysis.
+environments evidently produces misleading results.
+In terms of policy implications, this study sheds new light on the            Acknowledgements
+analysis of active transportation. One significant measure for promoting
+AST is the cycling proficiency test for students in Germany, but other                 We are very grateful to the two anonymous referees and the editor
+alternatives such as “walking buses” should be promoted for younger               for their comments, which have helped to greatly improve the paper.
+students. Hilly environments undoubtedly play a role in the choice of a           We would also like to thank the students from the Karlsruhe University
+certain transport mode; a similar analysis is therefore recommended for           of Applied Sciences who supported our research.
+Appendix A. Appendix: Table A1. Comparison of the different discrete choice models tested.
+MNL 1                            MNL 2                             MNL 3                                MNL 4
+1:(intercept)                             8.868 <U+204E><U+204E><U+204E>
+8.832 <U+204E><U+204E><U+204E>
+9.436 <U+204E><U+204E><U+204E>
+11.374<U+204E><U+204E><U+204E>
+(0.391)                          (0.392)                           (0.414)                              (0.498)
+12
+102872
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

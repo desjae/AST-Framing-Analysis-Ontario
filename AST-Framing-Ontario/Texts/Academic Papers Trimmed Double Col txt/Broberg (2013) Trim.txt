@@ -1,508 +1,1008 @@
-                                                                       Applied Geography 38 (2013) 43e52
-                                                        Contents lists available at SciVerse ScienceDirect
-                                                                    Applied Geography
-                                              journal homepage: www.elsevier.com/locate/apgeog
-Physical environmental characteristics promoting independent and active
-transport to children’s meaningful places
-Anna Broberg a, *, Samuli Salminen b, Marketta Kyttä a
-a
-  Department of Surveying and Planning, Aalto University, P.O. Box 12200, FI-00076 Aalto, Finland
-b
-  Department of Mathematics and Statistics, University of Helsinki, P.O. Box 68, FI-00014 University of Helsinki, Finland
-                                                        a b s t r a c t
-Keywords:                                               Research on urban structural characteristics promoting physical activity is often focussing on just few of
-Urban structure                                         the settings where children and youth spend their time. To overcome this, we used mapping method-
-GIS
-                                                        ology where children themselves de<U+FB01>ned their important places. Then, the associations between the
-Principal component analysis
-Independent mobility
-                                                        urban structure and children’s active transport and independent mobility were studied. Principal
-Physical activity                                       component analysis was used to compose multivariate pro<U+FB01>les of physical environment around mean-
-Children                                                ingful places. We found that structure dominated by single family housing promoted both independent
-                                                        mobility and use of active transport modes. Dense urban residential structure allowed for independent
-                                                        mobility but did not promote active transport.
-                                                                                                                              Ó 2012 Elsevier Ltd. All rights reserved.
-Introduction                                                                                    Rather than narrowing the scope of our research to a few
-                                                                                            locations and trips, the focus should be on the multiple environ-
-    Children’s physical activity and active transportation (van Loon                        ments where children and young people spend their time. Indeed,
-& Frank, 2011; Mikkelsen & Christensen, 2009; Pont, Ziviani,                                only a third of the daily trips Finnish children make are to and from
-Wadley, Bennett, & Abbott, 2009) and related obesity (Dunton,                               school, while 52 per cent of the trips are made due to leisure
-Kaplan, Wolch, Jerrett, & Reynolds, 2009) in different physical                             activities and the remaining 15 per cent due to shopping and other
-environments are themes that have been widely researched in                                 errands (Finnish Transport Agency, 2012). Moreover, concentrating
-recent years. Commonly, this body of research hopes to discover                             on some speci<U+FB01>c locations, such as parks, and researching their role
-which elements of the physical environment could promote                                    in promoting physical activity, is problematic. While green envi-
-physical activity in children and young people, who are becoming                            ronments as settings for physical activity are widely studied,
-increasingly overweight and are getting less and less exercise.                             a recent study (Wheeler, Cooper, Page, & Jago, 2010) found that as
-    The research on environments promoting physical activity has                            little as 7e9 per cent of daily physical activity happened in parks.
-often concentrated on some speci<U+FB01>c locations or trips, when in fact                             Physical activity can be measured quantitatively using acceler-
-children’s physical activity takes place in a variety of places (van                        ometers or heart rate monitoring. When a global positioning
-Loon & Frank, 2011). The focus has too often been on the built                              system (GPS) is added to the equipment, information on the loca-
-environment surrounding a child’s home, school or on some                                   tion of the activity becomes available, allowing the physical envi-
-speci<U+FB01>c structures, such as parks. In addition, much of the research                        ronment to be analysed (see e.g. Rainham et al., 2012; Rodríguez
-has concentrated on mobility on trips to school (e.g. Spinney &                             et al., 2012). Technical solutions are not the only way of
-Millward, 2011). In their study on London children, Steinbach,                              measuring physical activity, but the qualitative aspects of children’s
-Green, and Edwards (2012) found no signi<U+FB01>cant environmental                                 physical activity can also be successfully studied. Namely, inde-
-correlates of walking on the school journey, but several that were                          pendent mobility e the possibility to travel to places alone e or
-associated with walking outside the school commute and at                                   activity of transport mode can be used as qualitative proxies for
-weekends or during holidays. The writers hypothesise that the                               physical activity. Page, Cooper, Griew, Davis, and Hillsdon (2009)
-walking environment plays a bigger role in the travel mode choice                           have shown that self-reported independent mobility (to eleven
-for the optional trips.                                                                     queried destinations) is related to objectively measured weekday
-                                                                                            physical activity in children aged 10e11 years. It has also been
-  * Corresponding author. Tel.: þ358 50 512 4554.                                           reliably shown that children who report active commute modes,
-    E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                      walking or cycling on their school journey accumulate signi<U+FB01>cantly
-0143-6228/$ e see front matter Ó 2012 Elsevier Ltd. All rights reserved.
-http://dx.doi.org/10.1016/j.apgeog.2012.11.014
 
-44                                                 A. Broberg et al. / Applied Geography 38 (2013) 43e52
-more objectively measured physical activity (Faulkner, Buliung,                   meaningful places that children have marked on maps. We further
-Flora, & Fusco, 2009).                                                            analyse whether some environments, as de<U+FB01>ned by these multi-
-    Research methods used for studying the physical environment                   variate pro<U+FB01>les, promote children’s active transport and indepen-
-also need some reconsideration. Lately, research reporting indi-                  dent mobility to these places. We de<U+FB01>ne active transport as walking
-vidually de<U+FB01>ned built environment for each subject (known as                      or cycling to the place (Larsen et al., 2009; McDonald, 2007;
-buffer studies) instead of using administrative boundaries has                    McMillan, Day, Boarnet, Alfonzo, & Anderson, 2006; Mota et al.,
-become increasingly common, as the review by Feng, Glass,                         2007). Independent mobility is often de<U+FB01>ned as being able to
-Curriero, Stewart, and Schwartz (2010) shows. While the use of                    move without adult supervision (Hillman, Adams, & Whitelegg,
-geographically de<U+FB01>ned buffers has made the comparison of study                    1990; Page, Cooper, Griew, & Jago, 2010), or more detailed accom-
-<U+FB01>ndings easier, Ding and Gebel (2012) still stress the importance of              paniment can be questioned (Romero, 2010). We de<U+FB01>ne indepen-
-identifying and de<U+FB01>ning the place, and continue by suggesting that                dence as travelling to the location alone. In this study, our aim is to
-environments outside residential neighbourhoods should also be                    <U+FB01>nd relevant co-occurring environmental attributes that promote
-considered while studying the physical environment correlates of                  children’s physical activity, using active transport and independent
-active living. One advance towards the direction of studying                      mobility as proxies of physical activity. To inform the researchers
-multiple physical activity settings with a detailed de<U+FB01>nition of the              and practitioners about the locations of actual environments that
-environment is reported by Cervero and Duncan (2003), who have                    satisfy these activity-promoting attributes, the analysis is also
-studied the physical environment’s effects on cycling and walking,                presented with maps.
-by buffering both the origins and the destinations of trips.
-    Despite these advances, more systematic, representative and                   Method
-location-sensitive research is still needed that takes into account
-the varying environment usage patterns of children. We propose                    Data collection method and procedure
-that emphasis should be placed on the multiple activity settings
-where children spend their time, and on the physical environment                      We suggest that a place-based research strategy is not possible
-of these settings. The children can be given the possibility to inform            without a speci<U+FB01>c methodology. In this study, an Internet-based
-research on their meaningful places, as de<U+FB01>ned by themselves. For                 softGIS survey (Kahila & Kyttä, 2009; Kyttä, 2011) was used to
-example, Wridt (2010) has utilised a qualitative GIS approach in                  study children’s independent mobility and active transport to their
-studying simultaneously children’s own perceptions of their                       meaningful places. The softGIS methodology developed at Aalto
-neighbourhood and the actual activity potentials of speci<U+FB01>c phys-                 University, Finland, is an advanced example of Public Participation
-ical settings. We suggest that the ways in which the multiple places              GIS (PPGIS, see Brown, 2012) that enables the mapping of envi-
-promote physical activity by allowing for active transportation and               ronmental experiences and daily behaviour practices with respect
-independent mobility can be studied using self-reported informa-                  to speci<U+FB01>c locations. The softGIS methodology has been developed
-tion on children’s mobility to these places. The environment around               together with urban planners and other actors in the health
-these places and its associations to the independence and activity                promotion <U+FB01>eld, professionals from social, health, cultural, educa-
-of transport to the places can nevertheless be studied in a quanti-               tion, youth work and other sectors in an attempt to produce
-tative manner.                                                                    applicable knowledge for these multisectoral actors.
-    In many cases, researchers have concentrated on single, objec-                    In the softGIS survey for children (Fig. 1), the respondents used
-tively measured environmental variables and their effect on chil-                 the Internet interface to mark places on a map that were func-
-dren’s physical activity, or they have studied multiple                           tionally, emotionally or socially meaningful. They also described
-environmental variables separately, without commenting on how                     how accessible these places were, in terms of independent mobility
-these variables correlate (Lin & Yu, 2011). The associations between              and active transport. Moreover, the respondents were asked to
-physical activity and multiple, individually studied variables can be             mark their home and daily routes to school, and to answer ques-
-dif<U+FB01>cult to interpret, and the results might sometimes seem inter-                tionnaires concerning school journeys, perceived health and well-
-nally contrasting. To overcome this, some trials have been made to                being. The data was collected in 17 schools from six residential
-bring multiple physical environmental variables together. Maybe                   areas of Helsinki, Finland, during the autumn of 2009. The ethics
-the most widely known composite measure is the walkability index                  board from the Education Board of the City of Helsinki approved the
-(Frank et al., 2006), which incorporates land use mix, street                     research, and informed consent was gathered from both the
-connectivity, net residential density, and retail <U+FB02>oor area ratios.               responding children and their parents. The six residential areas
-Lately, researchers have tried to address the problem of inter-                   represent different urban structures ranging from the inner city
-relationships between built environment variables by using prin-                  urban core to suburbs built in the 1950s, and fringe areas domi-
-ciple component or factor analysis, in order to compress multiple                 nated by single-family housing. The data collection was organised
-GIS-derived variables into fewer dimensions that can then be used                 in computer equipped classrooms, led by a research assistant. A
-in further analysis (Boone-Heinonen, Guilkey, Evenson, & Gordon-                  total of 901 children, of whom 47 per cent were from year 5
-Larsen, 2010; Cervero & Duncan, 2003; Song & Knaap, 2007; Yan,                    (approximately 11 years of age), and 53 per cent from year 8
-Voorhees, Clifton, & Burnier, 2010). Another statistical technique                (approximately 14), participated and marked a total of 5211
-is latent pro<U+FB01>le analysis, which has been used to build multivariate              meaningful places.
-pro<U+FB01>les of the neighbourhood recreation environment in relation to
-adolescent physical activity (Norman et al., 2010). Relying more on               Outcome variables
-geostatistical methods, Buck et al. (2011) used the kernel density
-method to calculate the density of sidewalks, cycle paths, inter-                     With each meaningful place marked on the map, the respon-
-sections, public transport stations, public playgrounds, sports                   dents were asked how they travelled to the location. Independent
-facilities, and parks and green spaces. They also analysed the resi-              mobility was measured with the question “With whom do you
-dential density and land use mix, after which they made these nine                travel to this place?” The selectable options were alone, with
-variables comparable and calculated a moveability index.                          friends, and accompanied by an adult. The answers were recoded
-    In this study, we use principal component analysis to compose                 into a dichotomous variable: coming to the place alone (1) as
-multivariate pro<U+FB01>les of the physical environment around                           opposed to with friends or adults (0).
 
-                                                              A. Broberg et al. / Applied Geography 38 (2013) 43e52                                                               45
-Fig. 1. Respondents were asked to mark different places that were meaningful to them on a map. After each localisation, a set of questions concerning travel to the place were asked.
-     The transport mode to the place was measured with the ques-                             The bigger the buffer size is, the more the environmental charac-
-tion “How do you get to this place?” The selectable options were                             teristics are generalised. A total of 14 GIS-based measures were
-walking or riding a bike, using public transport, and being driven in                        calculated within this buffer and included six land use variables, four
-a car. A dichotomous variable was created: active transport (on foot                         variables of building or residential density, three traf<U+FB01>c environment
-or by bicycle) used to travel to the place (1), and journey made                             variables, and one variable concerning the recreational possibilities.
-inactively, using car or public transportation (0).
-Physical environmental variables                                                                 Land use mix (as de<U+FB01>ned by Frank, Andresen, & Schmid, 2004)
-                                                                                                  was calculated as the evenness between proportions of resi-
-     The physical environment of the localisations was studied by                                 dential, commercial, of<U+FB01>ce and institutional land use. Other
-building a 50-m buffer zone around each meaningful place. This                                    land use-related variables were proportions of <U+FB01>ve different
-buffer size was selected to study the immediate surroundings of the                               land uses within the buffer. The proportions were calculated
-places and to allow enough variance in the environmental variables.                               for green areas (i.e. parks and forests), single-family residential
+Applied Geography 38 (2013) 43e52
+Contents lists available at SciVerse ScienceDirect
+Applied Geography
+journal homepage: www.elsevier.com/locate/apgeog
+Physical environmental characteristics promoting independent and active
+transport to children’s meaningful places
+Anna Broberg a, *, Samuli Salminen b, Marketta Kyttä a
+a
+Department of Surveying and Planning, Aalto University, P.O. Box 12200, FI-00076 Aalto, Finland
+b
+Department of Mathematics and Statistics, University of Helsinki, P.O. Box 68, FI-00014 University of Helsinki, Finland
+a b s t r a c t
+Keywords:                                               Research on urban structural characteristics promoting physical activity is often focussing on just few of
+Urban structure                                         the settings where children and youth spend their time. To overcome this, we used mapping method-
+GIS
+ology where children themselves de<U+FB01>ned their important places. Then, the associations between the
+Principal component analysis
+Independent mobility
+urban structure and children’s active transport and independent mobility were studied. Principal
+Physical activity                                       component analysis was used to compose multivariate pro<U+FB01>les of physical environment around mean-
+Children                                                ingful places. We found that structure dominated by single family housing promoted both independent
+mobility and use of active transport modes. Dense urban residential structure allowed for independent
+mobility but did not promote active transport.
+Ó 2012 Elsevier Ltd. All rights reserv
+Introduction                                                                                    Rather than narrowing the scope of our research to a few
+locations and trips, the focus should be on the multiple environ-
+Children’s physical activity and active transportation (van Loon                        ments where children and young people spend their time. Indeed,
+& Frank, 2011; Mikkelsen & Christensen, 2009; Pont, Ziviani,                                only a third of the daily trips Finnish children make are to and from
+Wadley, Bennett, & Abbott, 2009) and related obesity (Dunton,                               school, while 52 per cent of the trips are made due to leisure
+Kaplan, Wolch, Jerrett, & Reynolds, 2009) in different physical                             activities and the remaining 15 per cent due to shopping and other
+environments are themes that have been widely researched in                                 errands (Finnish Transport Agency, 2012). Moreover, concentrating
+recent years. Commonly, this body of research hopes to discover                             on some speci<U+FB01>c locations, such as parks, and researching their role
+which elements of the physical environment could promote                                    in promoting physical activity, is problematic. While green envi-
+physical activity in children and young people, who are becoming                            ronments as settings for physical activity are widely studied,
+increasingly overweight and are getting less and less exercise.                             a recent study (Wheeler, Cooper, Page, & Jago, 2010) found that as
+The research on environments promoting physical activity has                            little as 7e9 per cent of daily physical activity happened in parks.
+often concentrated on some speci<U+FB01>c locations or trips, when in fact                             Physical activity can be measured quantitatively using acceler-
+children’s physical activity takes place in a variety of places (van                        ometers or heart rate monitoring. When a global positioning
+Loon & Frank, 2011). The focus has too often been on the built                              system (GPS) is added to the equipment, information on the loca-
+environment surrounding a child’s home, school or on some                                   tion of the activity becomes available, allowing the physical envi-
+speci<U+FB01>c structures, such as parks. In addition, much of the research                        ronment to be analysed (see e.g. Rainham et al., 2012; Rodríguez
+has concentrated on mobility on trips to school (e.g. Spinney &                             et al., 2012). Technical solutions are not the only way of
+Millward, 2011). In their study on London children, Steinbach,                              measuring physical activity, but the qualitative aspects of children’s
+Green, and Edwards (2012) found no signi<U+FB01>cant environmental                                 physical activity can also be successfully studied. Namely, inde-
+correlates of walking on the school journey, but several that were                          pendent mobility e the possibility to travel to places alone e or
+associated with walking outside the school commute and at                                   activity of transport mode can be used as qualitative proxies for
+weekends or during holidays. The writers hypothesise that the                               physical activity. Page, Cooper, Griew, Davis, and Hillsdon (2009)
+walking environment plays a bigger role in the travel mode choice                           have shown that self-reported independent mobility (to eleven
+for the optional trips.                                                                     queried destinations) is related to objectively measured weekday
+physical activity in children aged 10e11 years. It has also been
+* Corresponding author. Tel.: þ358 50 512 4554.                                           reliably shown that children who report active commute modes,
+E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                      walking or cycling on their school journey accumulate signi<U+FB01>cantly
+0143-6228/$ e see front matter Ó 2012 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.apgeog.2012.11.014
 
-46                                                  A. Broberg et al. / Applied Geography 38 (2013) 43e52
-     areas, semi-detached housing residential areas, apartment                     Analysis
-     building residential areas, and traf<U+FB01>c areas.
-    The size of the population within the buffer was calculated as                    The urban structural variables were extracted from register-
-     well as the number of housing units per hectare in the same                   based geographical data using ESRI ArcMap version 10. The main
-     area. To further analyse the density of the built environment,                geoprocessing techniques used were buffering the meaningful
-     the number of buildings within the buffer was calculated, and                 places, and calculating statistics from the building points within
-     the <U+FB02>oor area ratio was computed as the gross <U+FB02>oor area within                these buffer polygons. Nearest neighbourhood analysis was used
-     the buffer divided by the whole area of the buffer.                           between the point datasets containing the meaningful places and
-    Traf<U+FB01>c environment was operationalised as the number of                       public transport stops as well as sports facilities. Different raster
-     intersections with three or more road segments (Frank,                        calculation and focal statistical methods were used to calculate
-     Saelens, Powell, & Chapman, 2007; Leslie et al., 2007) within                 variables concerning each meaningful place from the land use
-     the buffer, excluding motorways and other non-walkable roads                  dataset.
-     from the analysis, and as the distance from the place to the                      To reduce the number of urban structural variables, a principle
-     nearest public transport stop and the number of public trans-                 component analysis with Varimax rotation and Kaiser normal-
-     port stops within the buffer.                                                 isation (Cervero & Duncan, 2003; Miles & Song, 2009; Song &
-    Lastly, the distance from the place to the nearest recreational               Knaap, 2007; Yan et al., 2010) was performed using IBM’s SPSS
-     facility was calculated, as the crow <U+FB02>ies.                                    statistical package, version 20. The principal components discov-
-                                                                                   ered were used to compute principal component scores for every
-    These fourteen variables were used in further analysis of the                  meaningful place as if principal components had been observed
-physical environment. In addition to the above-mentioned variables,                themselves. Thus each meaningful place had several new variables
-the distance (as the crow <U+FB02>ies) from home to the important places                  representing the loadings for each principal component. These new
-was calculated, and this distance measure was used in adjusted                     variables were to be used as independent variables in analyses
-models. The distance of the trip is constantly found to be in inverse              explaining the variation of independent access or active transport
-relationship with children’s active transportation (Pont et al., 2009).            to the meaningful places, instead of using the original urban
-Rather than treating distance as a measure of physical environment,                structural variables.
-we think it should be seen as a mediating factor between the envi-                     Simple logistic regression analysis was used to explain travelling
-ronment and children’s active or independent transportation.                       alone as well as using active transport modes to get to the mean-
-                                                                                   ingful places. We controlled for the age group, whether the family
-GIS datasets                                                                       owned a car, and the distance of the place from the respondent’s
-                                                                                   home. Because the observed values of dependent variables were
-    Four different geographical datasets were used to analyse the                  correlated positively (see Fig. 3), simple logistic regression, which is
-physical environment of the meaningful places marked by                            based on the assumption of independent observations, could not
-respondents. The information concerning land use was calculated                    count for all variations that existed in the population, which means
-from the SLICES dataset. Population and building density-related                   there would be overdispersion in the models. In order to verify
-variables were drawn from the building centroid data, and a Digi-                  overdispersion in models based on simple logistic regression,
-road dataset was used to analyse intersection density and public                   residuals from models were saved. If models could not account for
-transportation facilities. Lastly, the distance between a point and its            the mentioned “extra” variation caused by positive correlation of
-nearest recreation facility was measured with the LIPAS dataset.                   observations of dependent variables, there would be also positive
-    SLICES (Separated land use & cover information system) is                      spatial correlation between residuals. In other words, there would
-a raster dataset produced by the Finnish National Land Survey. The                 be unwanted spatial autocorrelation (SAC) between residuals in
-dataset was produced by combining different geographical datasets                  models, which violates the assumption of non-correlated residuals
-on land use from different organisations, such as the Ministry of                  in a regression model.
-Agriculture and Forestry, the Ministry of the Environment, the                         To study the possibly existing SAC, empirical semivario-
-National Land Survey, the Finnish Forest Research Institute, Fin-                  grams were calculated for model residuals using geoR library
-land’s environmental administration and the Population Register                    in statistical program R (Ribeiro & Diggle, 2001). Empirical
-Centre. The dataset offers a hierarchical classi<U+FB01>cation of land use,               semivariograms simply measure how much the values
-land cover, soil types and special use and restricted areas. The SLI-              of residuals resemble each other on average at a certain
-CES dataset covers the whole of Finland with a resolution of 10 m.                 distance.
-    The building centroid dataset for each building in Helsinki,                       Empirical semivariogram (a distance h apart):
-containing the information on housing units, <U+FB02>oor areas and pop-                               1 X            2
-ulation demographics for the building, was obtained from the city
-                                                                                   gðhÞ ¼              yi  yj                                          (1)
-                                                                                              2m
-administration.
-    Digiroad is a national database which contains precise and                     where m is the number of pairs of residuals at a distance h apart.
-accurate data on the location of all roads and streets in Finland as               The empirical semivariogram gðhÞ is estimated for all distances of
-well as their most important physical features. There are also other               same length, i.e. for distances from 0 to 30 m, 30 to 60 m and so on,
-transport system-related objects, such as public transport stops.                  and yi is the value of a measure at the ith location, and yj is that for
-The Finnish Transport Agency maintains and updates the data in                     a point at distance g from yi.
-the Digiroad system.                                                                   As an example, Fig. 2a represents an empirical semivariogram of
-    LIPAS is a nationwide geographic information system on sports                  a model where travelling alone was explained with principal
-facilities, recreation areas and hiking trails. The Department of                  component 4 and the control variables. The <U+FB01>gure clearly shows
-Sport Science at the University of Jyväskylä is responsible for the                how residuals with shorter distances between each other differ less
-system and cooperates with the Ministry of Education and Culture,                  from each other than those with longer distances between them.
-the Finnish municipalities, the Finnish Sports Federation and other                The empirical semivariogram reaches a relatively stable level after
-sports organisations in maintaining the information on recreational                the distance between residuals grows to more than 1000 m, which
-facilities.                                                                        is also the distance after which SAC is near zero.
 
-                                                               A. Broberg et al. / Applied Geography 38 (2013) 43e52                                                                  47
-Fig. 2. Empirical semivariograms of residuals from a simple logistic regression model (a, left), and from a logistic regression model where spatial correlation is included in the model
-as random effects of observations (b, right).
-     The presence of spatial autocorrelation (SAC) between                                          Equations (2) and (3) represent a simple linear model and
-residuals in a regression model violates the assumption of non-                                 a linear mixed model, respectively. In logistic regression there is
-correlated residuals and in<U+FB02>ates type I errors, which may even                                  additionally the logistic link function between dependent variable
-cause bias in regression coef<U+FB01>cient estimates (see e.g. Dormann                                 Y and the model. In our solution to the overdispersion problem, SAC
-et al., 2007; Kühn, 2007). One statistical solution to overcome                                 is simply taken as random effects of the model, here represented by
-the SAC in regression analysis is the geographically weighted                                   u. It has the dimension of a number of observations. A detailed
-regression (Brunsdon, Fotheringham, & Charlton, 1996; Cardozo,                                  explanation of using GLMM in modelling spatial variation is
-García-Palomares, & Gutiérrez, 2012; Chen & Truong, 2012).                                      provided by Littell, Milliken, Stroup, Wol<U+FB01>nger, and Schabenberger
-Another solution to overcome the overdispersion in models is to                                 (2006). In this way, all “extra” correlation in original models can be
-use techniques based on generalised linear mixed models                                         taken into these models, and the independence of residuals is
-(GLMM). The effectiveness of this solution comes from the fact                                  attained, i.e. SAC between residuals will be zero at all distances. In
-that the positive “extra” correlation or variance is included in                                practice, this was done by using the Glimmix procedure in the SAS
-the model observation-wise (or residual-wise) as random                                         statistical program. The Glimmix procedure is especially designed
-effects.                                                                                        to estimate generalised linear mixed models. In addition, it has
-                                                                                                a feature that allows spatial variability to be modelled as explained.
-Y ¼ Xb þ e                                                                           (2)            Empirical semivariograms were calculated for residuals from
-                                                                                                models estimated by the Glimmix procedure. In Fig. 2b, an empir-
-                                                                                                ical semivariogram is represented as an example for a model in
-Y ¼ X b þ Zu þ e                                                                     (3)        which travelling alone was explained with principal component 4.
-                                                     Fig. 3. The independence and activity of transport to meaningful places.
 
-48                                                          A. Broberg et al. / Applied Geography 38 (2013) 43e52
-Here the empirical semivariogram is level at all distances. This                           residential land uses account for roughly one-quarter of the land
-indicates that SAC between residuals is close to zero and that there                       cover, traf<U+FB01>c accounting for one-<U+FB01>fth of the land cover and green
-is no overdispersion. This applied also for the other models rep-                          areas approximately 30 per cent (see Table 1). Generally, the
-resented in the result section, so the estimates of coef<U+FB01>cients and                        distances to public transport stops or recreation facilities are short
-their standard errors from these models could be trusted. It is                            from the meaningful places, on average some 200 m to a bus stop
-worth noting here that models including principal component 5                              and 170 m to a recreation facility.
-did not have any unwanted SAC between residuals, so simple
-logistic regression could be used. This also means that principal                          Reducing the fourteen structural variables to <U+FB01>ve principal
-component 5 effectively explained why residuals near to each other                         components
-resembled each other.
-                                                                                               In the hope of reducing the number of structural variables from
-Results                                                                                    the original fourteen to a smaller amount to help with the analysis
-                                                                                           and interpretation of the results, a principal component analysis
-Descriptive statistics                                                                     was performed. The analysis produced a solution of <U+FB01>ve principal
-                                                                                           components (see Table 2) with Eigen-values of one or more. These
-    The respondents were able to travel to their meaningful places                         components explained 72 per cent of the total variance of the
-fairly independently and actively (see Table 1). With younger chil-                        original variables.
-dren, the proportion of places travelled to in the company of an adult                         High scores in the <U+FB01>rst principal component (PC1) were asso-
-was signi<U+FB01>cantly higher than in the older age group, but in all the                        ciated with large populations and high numbers of housing units as
-proportions of places that were visited with an adult were as low as                       well as a high proportion of land area covered with apartment
-14 per cent and 10 per cent respectively (c2 ¼ 23.3, df ¼ 2, p ¼ .000).                    buildings. Fig. 4 represents the spatial pattern of the meaningful
-Younger children travelled signi<U+FB01>cantly more often to the places on                        places and the loadings for each principal component as derived
-foot or by bicycle, while older children used public transport, with                       from the built environment surrounding these places. Meaningful
-the proportion of places travelled to by car being the same (8 per                         places that have high loadings on the <U+FB01>rst principal component can
-cent) (c2 ¼ 115.7, df ¼ 2, p ¼ .000). The places marked by the older                       mainly be found in the densely built-up residential areas of the
-group were also signi<U+FB01>cantly further away from home, on average                            central Helsinki peninsula. The second principal component (PC2)
-3.5 km from home, than those marked by the younger group, 2.2 km                           was characterised by large numbers of buildings, and high
-respectively (t ¼ 12.5, df ¼ 4771, p ¼ .000). There were no signi<U+FB01>cant                    proportions of single-family or semi-detached housing as land use.
-gender differences in terms of independence or activity in travelling                      On the map representing the second of these components, two
-to the places. Therefore, regression analyses reported later on are                        distinct areas of high loading can be seen on northern single-family
-adjusted for the age group, but gender is not taken into account.                          housing-dominated residential areas. Traf<U+FB01>c-related land uses and
-    The spatial pattern of the meaningful places and with whom                             a large number of intersections were associated with high scores of
-and how respondents travelled to these places is represented in                            the third principal component (PC3). In addition, greater land use
-Fig. 3. The urban structure where these places are located is of                           mix and a smaller proportion of green areas were associated with
-rather low density, even if many of the places are in Helsinki city                        higher scores. The third map in Fig. 4, depicting the spatial pattern
-centre. The residential densities were in some cases as high as 450                        of principal component scores for PC3, shows a less clear pattern of
-housing units per hectare in the densest areas, but still the average                      high loadings, both in Helsinki city centre and along main roads
-density was just a little over 27 units/ha. On average, different                          throughout the study area.
-                                                                                               High scores on the fourth principal component (PC4) were
-                                                                                           associated only with long distances to the nearest bus stop and
-Table 1                                                                                    recreational facility, while the <U+FB01>fth component (PC5) was charac-
-Descriptive statistics of the variables used in analysis.
-                                                                                           terised by high <U+FB02>oor area ratios and the large number of bus stops.
-                                    Year 5s        Year 8s      Girls          Boys        High loadings on the fourth component are mainly concentrated on
-  Independent mobility                                                                     the remote islands and coastal areas, while low loadings are
-    Alone                           28%            30%          29%            30%         concentrated around sports facilities. The high loadings on the <U+FB01>fth
-    With friends                    58%            60%          59%            58%
-                                                                                           component are found especially near big shopping centres in the
-    With adults                     14%            10%          12%            12%
-  Transport mode                                                                           city centre and the malls along the ring roads, and some transport
-    Walking or cycling              75%            61%          66%            68%         hubs can also be distinguished on the map.
-    Public transportation           17%            32%          27%            23%
-    Car                              8%             8%           7%             8%         Associations of the urban structure components on independent
-                                                     Mean               Standard           mobility and active transport
-                                                                        deviation
-  Distance from home (kilometers)                      3.1                3.8                  The principal components of urban structure had highly
-  # Population                                       34.9               64.7               signi<U+FB01>cant associations with the independent mobility to mean-
-  # Housing units/hectare                            27.3               55.0
-  % Land cover apartment build.                      10.1               21.7
-                                                                                           ingful places, as shown in Table 3 (part a). Higher scores on
-  # Buildings                                          2.7                3.1              components PC2 and PC4, signifying single-family housing and
-  % Land cover single fam. housing                     9.7              21.3               long distances from public transport and sports facilities, increased
-  % Land cover semi-detached                           4.9              14.3               the likelihood of travelling to the place alone. In addition, dense
-  % Land cover traf<U+FB01>c areas                          19.2               19.7
-                                                                                           residential structure (PC1) increased the probability of travelling to
-  # Intersections                                       .4                 .7
-  Land use mix                                          .2                 .2              the place alone, but this association was less signi<U+FB01>cant. Compo-
-  % Land cover green                                 30.5               37.9               nent PC5 that had high loadings of <U+FB02>oor area ratio and the number
-  Dist. to nearest recreation facility                  .17                .21             of public transport stops had an inverse association with inde-
-  Dist. to nearest bus stop                             .20                .25             pendent mobility. That is, the higher the loading on PC5, the
-  Floor area ratio                                      .9                2.0
-  # Bus stops                                           .5                1.8
-                                                                                           smaller the probability of travelling to the place alone. The
-                                                                                           component associated with traf<U+FB01>c land use and few green areas
 
-                                                            A. Broberg et al. / Applied Geography 38 (2013) 43e52                                              49
-Table 2
-Loadings for PCA of variables measuring different aspects of the built environment.
-  Variable                                   PC1                        PC2                        PC3                      PC4           PC5
-                                             densely built-up           mainly single              traf<U+FB01>c dominance         remote places big buildings and
-                                             residential areas          family housing                                                    public transport hubs
-  # Population                                 .944                       .100                       .095                   .048           .114
-  # Housing units/hectare                      .928                       .029                       .072                   .057           .219
-  % Land cover apartment build.                .847                     .107                        .112                   .047         .165
-  # Buildings                                  .214                       .907                       .146                   .023         .029
-  % Land cover single fam. housing           .148                        .843                       .041                      .055       .086
-  % Land cover semi-detached                 .030                        .561                      .050                      .073       .050
-  % Land cover traf<U+FB01>c areas                  .017                      .030                        .819                   .036           .220
-  # Intersections                              .050                     .026                        .793                      .010       .106
-  Land use mix                                 .236                       .153                       .557                   .273         .013
-  % Land cover green                         .282                      .462                      L.537                    .002         .334
-  Dist. to nearest recreation facility       .044                        .190                       .036                      .878       .010
-  Dist. to nearest bus stop                  .064                      .044                       .202                      .835       .174
-  Floor area ratio                             .287                     .039                       .073                   .118           .795
-  # Bus stops                                .129                      .119                        .174                   .062           .767
-Extraction method: principal component analysis. Rotation method: varimax with Kaiser normalisation.
-The bold value signi<U+FB01>es the principal component scores with absolute values over .5.
-(PC3) did not have a signi<U+FB01>cant association with the independence                          travelled to actively, while traf<U+FB01>c domination and a dense resi-
-of mobility to the place.                                                                  dential fabric around the place discouraged active transport. The
-    The associations between urban structure and active transport                          probability of travelling to the place using active transport
-to meaningful places were less profound, but still signi<U+FB01>cant in                           decreased as loading of principal component PC5 increased. The
-many cases (Table 3, part b). High loadings on principal compo-                            highest loadings of this component are indeed particularly found in
-nents PC1 and PC3 lessened the likelihood of travelling to the place                       city centre shopping venues and the malls along ring roads, and it is
-on foot or by bicycle, while higher loadings of PC2 increased the                          not surprising that the association with both active transport and
-likelihood. That is, the more single-family dominated the urban                            independent mobility is negative. PC4 did not have statistically
-structure around the place is, the likelier it was that the place was                      signi<U+FB01>cant association with active transportation. Age group was
-                                              Fig. 4. PCA loadings of the <U+FB01>ve components in relation to the meaningful places.
 
-50                                                          A. Broberg et al. / Applied Geography 38 (2013) 43e52
-Table 3                                                                                    are typical. Still, a number of similar <U+FB01>ndings have been made, for
-Place-based analyses on independent access (a) and active transport (b) to the             example Seliske, Pickett, and Janssen (2012) research on Canadian
-meaningful places in relation to the principal components of urban structure. The
-models have been controlled for age group, car ownership, and distance from home.
-                                                                                           young people, where they reported urban sprawl being associated
-                                                                                           with active transportation and moderate to vigorous physical
-                                  Odds   95% Con<U+FB01>dence interval           p Value
-                                                                                           activity. However, this research was conducted on a macro level
-                                  ratio
-                                                                                           and analysed Canadian census metropolitan areas rather than the
-  (a) Place travelled to alone
-                                                                                           individual home environments of the young people in question.
-  PC1 densely built-up            1.156  1.062          1.259                .0009
-     residential areas                                                                         Another signi<U+FB01>cant <U+FB01>nding was that dense urban residential
-  PC2 mainly single family        1.271  1.173          1.378             <.0001           structures allowed for independent mobility but it did not promote
-     housingb                                                                              active transport. Rather than use bicycles or walk, children used
-  PC3 traf<U+FB01>c dominance            1.049    .962         1.144                .2793         public transport in the most densely built-up residential areas. In
-  PC4 remote places               1.174  1.088          1.266             <.0001
-  PC5 big buildings and            .760    .677           .855            <.0001
-                                                                                           earlier research concerning Finnish children’s active transport, the
-     public transport hubs                                                                 residential density of the children’s home environment has been
-  (b) Place travelled to actively                                                          found to be positively associated with an active school travel mode,
-  PC1 densely built-up             .876    .785           .977               .0176         but this setting was less densely built up and offered fewer public
-     residential areasa
-                                                                                           transport options (Kyttä, Broberg, & Kahila, 2012). The places that
-  PC2 mainly single family        1.163  1.038          1.303                .0096
-     housinga                                                                              were characterised by large <U+FB02>oor area ratios and a large number of
-  PC3 traf<U+FB01>c dominancea            .890    .800           .990               .032          public transport stops/stations were less likely to be travelled to
-  PC4 remote placesa              1.066    .965         1.179                .2081         actively and independently. The highest loadings on this principal
-  PC5 big buildings and            .767    .644           .913               .003          component could be found on shopping malls, both in the city
-     public transport hubsa
-                                                                                           centre and on the ring roads. It is no surprise that active transport
-Distance from home signi<U+FB01>cant in all the models.                                           modes are not used when travelling to these places, and it is likely
-  a
-    Age group signi<U+FB01>cant.
-  b                                                                                        that the adult population would choose to drive to these kinds of
-    Car ownership signi<U+FB01>cant.
-                                                                                           places.
-                                                                                               In general, the study revealed that, as a whole, the Finnish
-signi<U+FB01>cant in all the models explaining active transport to the                            children who took part in this study enjoyed widespread possibil-
-meaningful places, but not in the models explaining independent                            ities for active and independent mobility. There were no gender
-mobility. The respondent family’s car ownership status was                                 differences, but the age of the child was signi<U+FB01>cantly associated
-signi<U+FB01>cant only in the model looking at associations between PC2                           with independence and activity. One variable that was signi<U+FB01>cant in
-and independent mobility.                                                                  all the models was the distance from home to the place marked on
-    The most signi<U+FB01>cant urban structural elements promoting                                the map. Pont et al. (2009) have mentioned in their review that
-children’s independent and active mobility seem to be associated                           distance is the most frequently examined physical environmental
-with a residential urban structure dominated by single-family                              determinant of children’s active transport, and that there is
-housing. Structure quali<U+FB01>ed by a denser population structure and                           convincing evidence of increasing distance travelled being
-apartment buildings still allows for independent mobility but does                         inversely associated with active transport. We argue that distance
-not promote active transport. Signi<U+FB01>cant negative effects on the                           should not be seen as a measure of physical environment, but
-probability of moving independently and actively are found for                             rather as an intervening factor between the environment and
-structures characterised by high <U+FB02>oor area ratios and a large                              children’s active or independent transport. We propose that certain
-number of public transport stops/stations. The urban structures                            physical environments might produce trips that are longer than
-determined by remoteness, either to public transport stops/stations                        trips in other environments. Hence the distance should always be
-or recreation facilities, and by intensive traf<U+FB01>c had less clear asso-                     taken into account when associations between different urban
-ciations with children’s physical activity.                                                structural variables and transport mode or independence are
-                                                                                           studied.
-Discussion and conclusions                                                                     It can be argued that these <U+FB01>ndings represent a situation in
-                                                                                           a Nordic city, where the urban structure in general is very suitable
-    While the evidence base on urban structural characteristics                            for active transport, and where parental fears and resulting
-promoting physical activity and independent mobility is rapidly                            mobility restrictions for children are still very scarce (Kyttä, 2004).
-expanding, the focus has often been on the built environment                               Hence, the results might have no applicability to other settings.
-surrounding a child’s home, school or on some speci<U+FB01>c structures,                          Still, some general observations can be made in relation to planning
-such as parks. This study is the <U+FB01>rst to our knowledge to study the                        practice. A rather low density residential structure dominated by
-multiple environments where children and young people spend                                single-family housing seems not to be a bad planning solution e at
-their time, and to assess the associations between the urban                               least in the form realised in Helsinki. However, the settings studied
-structure around these multiple environments and children’s                                in this project represent suburban areas built in the 1950s and
-mobility to these places. We let children themselves de<U+FB01>ne their                           1960s that are part of the wider urban structure. When new resi-
-important places, and created <U+FB01>ve principal components of the                              dential areas are being built, it is important to incorporate the links
-urban structural variables surrounding these places. The associa-                          to the existing urban structure and to secure the public transport
-tions between urban structure and independent mobility and                                 options, <U+FB01>rstly to allow for children’s independent mobility, and
-active transport were multi-faceted. Firstly, we found that struc-                         secondly to <U+FB01>ght the increasing traf<U+FB01>c and the need for traf<U+FB01>c land
-tures dominated by single-family housing promoted both inde-                               use resulting from new residential development. The residential
-pendent mobility and the use of active transport modes, even when                          density question is not straightforward, because different types of
-the distance to places was controlled for. This <U+FB01>nding is in contrast                      urban fabric allow for different types of mobility. In a dense urban
-with most of the existing research, where the common conclusion                            setting, children did not get to move actively but instead travelled
-has been that the suburban structure hinders active transportation.                        by bus, tram, train or metro. The transport mode should not be the
-Of course, the Finnish suburban structure differs from the classic                         only consideration when thinking about the possibilities of
-examples where cul-de-sacs and curved roads without sidewalks                              different urban settings to promote activity e children’s
 
-                                                    A. Broberg et al. / Applied Geography 38 (2013) 43e52                                                                   51
-possibilities for moving independently, be it on foot or by public                 children’s mobility is signi<U+FB01>cantly dictated by their parents, the
-transport, should be considered. Independent mobility in a local                   social environment and the values of society.
-environment is considered to be an essential part of a child’s
-development. By moving independently, children develop an                          Acknowledgements
-understanding of their surrounding environment, build up
-a personal relationship with it and develop mapping and route-                         We wish to thank the schools that participated, the teachers and
-<U+FB01>nding abilities. Finally, children and young people should be                     pupils there, as well as research assistant Sanna Forsell, who
-considered when designing urban cores. These are important pla-                    organised the data collection at the schools. The Ministry of
-ces where children travel to using relatively inactive modes of                    Education and Culture funded the research project.
-transport, and that don’t generally allow for activities that include
-physical activity, whereas for the use of younger children there are
-                                                                                   References
-playgrounds even in the city centre.
-    The strengths of this study included the use of a methodology                  Antipova, A., Wang, F., & Wilmot, C. (2011). Urban land uses, socio-demographic
-that allowed children to de<U+FB01>ne their important places and mobility                     attributes and commuting: a multilevel modeling approach. Applied Geog-
-to these places. This allowed us to widen the focus of research from                   raphy, 31(3), 1010e1018.
-                                                                                   Boone-Heinonen, J., Guilkey, D. K., Evenson, K. R., & Gordon-Larsen, P. (2010).
-the built environment around home or the school journey to the                         Residential self-selection bias in the estimation of built environment effects on
-many settings where children spend their time. Using principal                         physical activity between adolescence and young adulthood. International
-component analysis to build composite indices also proved to be                        Journal of Behavioral Nutrition and Physical Activity, 7, 70.
-                                                                                   Brown, G. (2012). An empirical evaluation of the spatial accuracy of public partic-
-a valuable method for capturing several aspects of the built envi-                     ipation GIS (PPGIS) data. Applied Geography, 34, 289e294.
-ronment at once (as proposed by Feng et al., 2010). However, some                  Brunsdon, C., Fotheringham, A. S., & Charlton, M. E. (1996). Geographically weighted
-limitations arise from the use of the principal component loadings                     regression: a method for exploring spatial nonstationarity. Geographical Anal-
-                                                                                       ysis, 28(4), 281e298.
-as the independent urban structural variables. The range of the                    Buck, C., Pohlabeln, H., Huybrechts, I., De Bourdeaudhuij, I., Pitsiladis, Y., Reisch, L.,
-initial variables measuring the physical environment is often                          et al. (2011). Development and application of a moveability index to quantify
-dictated by the availability of GIS data, which was the case here, too.                possibilities for physical activity in the built environment of children. Health &
-                                                                                       Place, 17(6), 1191e1201.
-One could claim that when studying urban structure associations                    Cardozo, O. D., García-Palomares, J. C., & Gutiérrez, J. (2012). Application of
-with children’s mobility, the urban structural analyses should                         geographically weighted regression to the direct forecasting of transit ridership
-consider the possibilities for light traf<U+FB01>c and functions of the urban                 at station-level. Applied Geography, 34, 548e558.
-                                                                                   Cervero, R., & Duncan, M. (2003). Walking, bicycling, and urban landscapes:
-environment, like shops, restaurants and playgrounds, to name but
-                                                                                       evidence from the San Francisco Bay area. American Journal of Public Health,
-a few. Additionally, the principal components used in the analyses                     93(9), 1478e1483.
-were derived from the initial data concerning the physical envi-                   Chen, D., & Truong, K. (2012). Using multilevel modeling and geographically
-ronment of the places, and other PCA solutions might arise in other                    weighted regression to identify spatial variations in the relationship between
-                                                                                       place-level disadvantages and obesity in Taiwan. Applied Geography, 32(2),
-settings, where the environment is different. These solutions would                    737e745.
-not be comparable with the principal urban structural components                   Ding, D., & Gebel, K. (2012). Built environment, physical activity, and obesity: what
-derived from this dataset. Data on the socio-economic setting of the                   have we learned from reviewing the literature? Health & Place, 18(1), 100e105.
-                                                                                   Dormann, C. F., McPherson, J. M., Araújo, M. B., Bivand, R., Bolliger, J., Carl, G., et al.
-meaningful places was also lacking from our analysis. Children’s                       (2007). Methods to account for spatial autocorrelation in the analysis of species
-physical activity is partly affected by the physical structure, but the                distributional data: a review. Ecography, 30(5), 609e628.
-social structure plays a big role. Ideally, some variables concerning              Dunton, G. F., Kaplan, J., Wolch, J., Jerrett, M., & Reynolds, K. D. (2009). Physical
-                                                                                       environmental correlates of childhood obesity: a systematic review. Obesity
-the settings of the meaningful places would have been analysed                         Reviews, 10(4), 393e402.
-simultaneously, but as these variables are generally available on an               Faulkner, G. E. J., Buliung, R. N., Flora, P. K., & Fusco, C. (2009). Active school
-aggregate level, a multilevel modelling approach (Antipova, Wang,                      transport, physical activity levels and body weight of children and youth:
-                                                                                       a systematic review. Preventive Medicine, 48(1), 3e8.
-& Wilmot, 2011) would have been necessary.
-                                                                                   Feng, J., Glass, T. A., Curriero, F. C., Stewart, W. F., & Schwartz, B. S. (2010). The built
-    De<U+FB01>ning independent mobility as travelling to the place alone                      environment and obesity: a systematic review of the epidemiologic evidence.
-can also be questioned. Mikkelsen and Christensen (2009)                               Health & Place, 16(2), 175e190.
-                                                                                   Finnish Transport Agency. (2012). National Travel Survey 2010e2011. Accessed at.
-observed in Danish children that the independence of mobility
-                                                                                       http://portal.liikennevirasto.<U+FB01>/portal/page/portal/
-was not necessarily moving alone, but moving without adults,                           BBAA5518B6EE0488E040B40A1A01552B (2.5.2012 version).
-among peers. Even though we agree on children’s mobility being                     Frank, L. D., Andresen, M. A., & Schmid, T. L. (2004). Obesity relationships with
-utterly social, in this study we used the narrow de<U+FB01>nition of trav-                    community design, physical activity, and time spent in cars. American Journal of
-                                                                                       Preventive Medicine, 27(2), 87e96.
-elling to the important place alone as a measure of independence.                  Frank, L. D., Saelens, B. E., Powell, K. E., & Chapman, J. E. (2007). Stepping towards
-This is due to the limited parental attendance that the children                       causation: do built environments or neighborhood and travel preferences explain
-reported: less than 15 per cent for both age groups. In other, more                    physical activity, driving, and obesity? Social Science & Medicine, 65(9),1898e1914.
-                                                                                   Frank, L. D., Sallis, J. F., Conway, T. L., Chapman, J. E., Saelens, B. E., & Bachman, W.
-restricting mobility contexts, it would be worthwhile to use the                       (2006). Many pathways from land use to health: associations between neigh-
-broader de<U+FB01>nition of independent mobility. Similarly, it can be                        borhood walkability and active transportation, body mass index, and air quality.
-argued that using public transport is at least partly an active mode                   Journal of the American Planning Association, 72(1), 75e87.
-                                                                                   Hillman, M., Adams, J., & Whitelegg, J. (1990). One false move. A study of children’s
-of transport, considering the need to walk to a stop or a station.                     independent mobility. London: Policy Studies Institute.
-    The way we analysed the collated softGIS data in this study                    Kahila, M., & Kyttä, M. (2009). SoftGIS as a bridge-builder in collaborative urban
-represents a very quantitative way of looking at children’s mean-                      planning. In S. Geertman, & J. Stillwell (Eds.), Planning support systems best
-                                                                                       practice and new methods (pp. 389e411). Netherlands: Springer.
-ingful places and their mobility to these. The spatial character of the            Kühn, I. (2007). Incorporating spatial autocorrelation may invert observed patterns.
-data allows zooming in to the actual locations of the meaningful                       Diversity and Distributions, 13(1), 66e69.
-places and looking at the environment in a more qualitative way. In                Kyttä, M. (2004). The extent of children’s independent mobility and the number of
-                                                                                       actualized affordances as criteria for child-friendly environments. Journal of
-future research, we hope to include children’s perceptions of the
-                                                                                       Environmental Psychology, 24(2), 179e198.
-environment as mediators between the objectively measured                          Kyttä, M. (2011). SoftGIS methods in planning evaluation. In A. D. Hull,
-environment and children’s use of the environment e their phys-                        E. R. Alexander, A. Khakee, & J. Woltjer (Eds.), Evaluation for sustainability and
-ical activity, active transport and independent mobility in the                        participation in planning (pp. 334e354). London: Routledge.
-                                                                                   Kyttä, A. M., Broberg, A. K., & Kahila, M. H. (2012). Urban environment and chil-
-environment (as suggested also by van Loon & Frank, 2011). It                          dren’s active lifestyle: SoftGIS revealing children’s behavioral patterns and
-would also be valuable to include the parents in the studies, as                       meaningful places. American Journal of Health Promotion, 26(5), e137ee148.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44                                                 A. Broberg et al. /
+more objectively measured physical activity (Faulkner, Buliung,
+Flora, & Fusco, 2009).
+Research methods used for studying the physical environment
+also need some reconsideration. Lately, research reporting indi-
+vidually de<U+FB01>ned built environment for each subject (known as
+buffer studies) instead of using administrative boundaries has
+become increasingly common, as the review by Feng, Glass,
+Curriero, Stewart, and Schwartz (2010) shows. While the use of
+geographically de<U+FB01>ned buffers has made the comparison of study
+<U+FB01>ndings easier, Ding and Gebel (2012) still stress the importance of
+identifying and de<U+FB01>ning the place, and continue by suggesting that
+environments outside residential neighbourhoods should also be
+considered while studying the physical environment correlates of
+active living. One advance towards the direction of studying
+multiple physical activity settings with a detailed de<U+FB01>nition of the
+environment is reported by Cervero and Duncan (2003), who have
+studied the physical environment’s effects on cycling and walking,
+by buffering both the origins and the destinations of trips.
+Despite these advances, more systematic, representative and
+location-sensitive research is still needed that takes into account
+the varying environment usage patterns of children. We propose
+that emphasis should be placed on the multiple activity settings
+where children spend their time, and on the physical environment
+of these settings. The children can be given the possibility to inform
+research on their meaningful places, as de<U+FB01>ned by themselves. For
+example, Wridt (2010) has utilised a qualitative GIS approach in
+studying simultaneously children’s own perceptions of their
+neighbourhood and the actual activity potentials of speci<U+FB01>c phys-
+ical settings. We suggest that the ways in which the multiple places
+promote physical activity by allowing for active transportation and
+independent mobility can be studied using self-reported informa-
+tion on children’s mobility to these places. The environment around
+these places and its associations to the independence and activity
+of transport to the places can nevertheless be studied in a quanti-
+tative manner.
+In many cases, researchers have concentrated on single, objec-
+tively measured environmental variables and their effect on chil-
+dren’s physical activity, or they have studied multiple
+environmental variables separately, without commenting on how
+these variables correlate (Lin & Yu, 2011). The associations between
+physical activity and multiple, individually studied variables can be
+dif<U+FB01>cult to interpret, and the results might sometimes seem inter-
+nally contrasting. To overcome this, some trials have been made to
+bring multiple physical environmental variables together. Maybe
+the most widely known composite measure is the walkability index
+(Frank et al., 2006), which incorporates land use mix, street
+connectivity, net residential density, and retail <U+FB02>oor area ratios.
+Lately, researchers have tried to address the problem of inter-
+relationships between built environment variables by using prin-
+ciple component or factor analysis, in order to compress multiple
+GIS-derived variables into fewer dimensions that can then be used
+in further analysis (Boone-Heinonen, Guilkey, Evenson, & Gordon-
+Larsen, 2010; Cervero & Duncan, 2003; Song & Knaap, 2007; Yan,
+Voorhees, Clifton, & Burnier, 2010). Another statistical technique
+is latent pro<U+FB01>le analysis, which has been used to build multivariate
+pro<U+FB01>les of the neighbourhood recreation environment in relation to
+adolescent physical activity (Norman et al., 2010). Relying more on
+geostatistical methods, Buck et al. (2011) used the kernel density
+method to calculate the density of sidewalks, cycle paths, inter-
+sections, public transport stations, public playgrounds, sports
+facilities, and parks and green spaces. They also analysed the resi-
+dential density and land use mix, after which they made these nine
+variables comparable and calculated a moveability index.
+In this study, we use principal component analysis to compose
+multivariate pro<U+FB01>les of the physical environment around
+Applied Geography 38 (2013) 43e52
+meaningful places that children have marked on maps. We further
+analyse whether some environments, as de<U+FB01>ned by these multi-
+variate pro<U+FB01>les, promote children’s active transport and indepen-
+dent mobility to these places. We de<U+FB01>ne active transport as walking
+or cycling to the place (Larsen et al., 2009; McDonald, 2007;
+McMillan, Day, Boarnet, Alfonzo, & Anderson, 2006; Mota et al.,
+2007). Independent mobility is often de<U+FB01>ned as being able to
+move without adult supervision (Hillman, Adams, & Whitelegg,
+1990; Page, Cooper, Griew, & Jago, 2010), or more detailed accom-
+paniment can be questioned (Romero, 2010). We de<U+FB01>ne indepen-
+dence as travelling to the location alone. In this study, our aim is to
+<U+FB01>nd relevant co-occurring environmental attributes that promote
+children’s physical activity, using active transport and independent
+mobility as proxies of physical activity. To inform the researchers
+and practitioners about the locations of actual environments that
+satisfy these activity-promoting attributes, the analysis is also
+presented with maps.
+
+Method
+
+Data collection method and procedure
+
+We suggest that a place-based research strategy is not possible
+without a speci<U+FB01>c methodology. In this study, an Internet-based
+softGIS survey (Kahila & Kyttä, 2009; Kyttä, 2011) was used to
+study children’s independent mobility and active transport to their
+meaningful places. The softGIS methodology developed at Aalto
+University, Finland, is an advanced example of Public Participation
+GIS (PPGIS, see Brown, 2012) that enables the mapping of envi-
+ronmental experiences and daily behaviour practices with respect
+to speci<U+FB01>c locations. The softGIS methodology has been developed
+together with urban planners and other actors in the health
+promotion <U+FB01>eld, professionals from social, health, cultural, educa-
+tion, youth work and other sectors in an attempt to produce
+applicable knowledge for these multisectoral actors.
+In the softGIS survey for children (Fig. 1), the respondents used
+the Internet interface to mark places on a map that were func-
+tionally, emotionally or socially meaningful. They also described
+how accessible these places were, in terms of independent mobility
+and active transport. Moreover, the respondents were asked to
+mark their home and daily routes to school, and to answer ques-
+tionnaires concerning school journeys, perceived health and well-
+being. The data was collected in 17 schools from six residential
+areas of Helsinki, Finland, during the autumn of 2009. The ethics
+board from the Education Board of the City of Helsinki approved the
+research, and informed consent was gathered from both the
+responding children and their parents. The six residential areas
+represent different urban structures ranging from the inner city
+urban core to suburbs built in the 1950s, and fringe areas domi-
+nated by single-family housing. The data collection was organised
+in computer equipped classrooms, led by a research assistant. A
+total of 901 children, of whom 47 per cent were from year 5
+(approximately 11 years of age), and 53 per cent from year 8
+(approximately 14), participated and marked a total of 5211
+meaningful places.
+
+Outcome variables
+
+With each meaningful place marked on the map, the respon-
+dents were asked how they travelled to the location. Independent
+mobility was measured with the question “With whom do you
+travel to this place?” The selectable options were alone, with
+friends, and accompanied by an adult. The answers were recoded
+into a dichotomous variable: coming to the place alone (1) as
+opposed to with friends or adults (0).
+
+A. Broberg et al.
+Fig. 1. Respondents were asked to mark different places that were meaningful to
+The transport mode to the place was measured with the ques-
+tion “How do you get to this place?” The selectable options were
+walking or riding a bike, using public transport, and being driven in
+a car. A dichotomous variable was created: active transport (on foot
+or by bicycle) used to travel to the place (1), and journey made
+inactively, using car or public transportation (0).
+Physical environmental variables
+
+The physical environment of the localisations was studied by
+building a 50-m buffer zone around each meaningful place. This
+buffer size was selected to study the immediate surroundings of the
+places and to allow enough variance in the environmental variables.
+/ Applied Geography 38 (2013) 43e52                                                               45
+them on a map. After each localisation, a set of questions concerning travel to the place were asked.
+The bigger the buffer size is, the more the environmental charac-
+teristics are generalised. A total of 14 GIS-based measures were
+calculated within this buffer and included six land use variables, four
+variables of building or residential density, three traf<U+FB01>c environment
+variables, and one variable concerning the recreational possibilities.
+
+ Land use mix (as de<U+FB01>ned by Frank, Andresen, & Schmid, 2004)
+was calculated as the evenness between proportions of resi-
+dential, commercial, of<U+FB01>ce and institutional land use. Other
+land use-related variables were proportions of <U+FB01>ve different
+land uses within the buffer. The proportions were calculated
+for green areas (i.e. parks and forests), single-family residential
+
+46                                                  A. Broberg et al. /
+areas, semi-detached housing residential areas, apartment
+building residential areas, and traf<U+FB01>c areas.
+ The size of the population within the buffer was calculated as
+well as the number of housing units per hectare in the same
+area. To further analyse the density of the built environment,
+the number of buildings within the buffer was calculated, and
+the <U+FB02>oor area ratio was computed as the gross <U+FB02>oor area within
+the buffer divided by the whole area of the buffer.
+ Traf<U+FB01>c environment was operationalised as the number of
+intersections with three or more road segments (Frank,
+Saelens, Powell, & Chapman, 2007; Leslie et al., 2007) within
+the buffer, excluding motorways and other non-walkable roads
+from the analysis, and as the distance from the place to the
+nearest public transport stop and the number of public trans-
+port stops within the buffer.
+ Lastly, the distance from the place to the nearest recreational
+facility was calculated, as the crow <U+FB02>ies.
+
+These fourteen variables were used in further analysis of the
+physical environment. In addition to the above-mentioned variables,
+the distance (as the crow <U+FB02>ies) from home to the important places
+was calculated, and this distance measure was used in adjusted
+models. The distance of the trip is constantly found to be in inverse
+relationship with children’s active transportation (Pont et al., 2009).
+Rather than treating distance as a measure of physical environment,
+we think it should be seen as a mediating factor between the envi-
+ronment and children’s active or independent transportation.
+
+GIS datasets
+
+Four different geographical datasets were used to analyse the
+physical environment of the meaningful places marked by
+respondents. The information concerning land use was calculated
+from the SLICES dataset. Population and building density-related
+variables were drawn from the building centroid data, and a Digi-
+road dataset was used to analyse intersection density and public
+transportation facilities. Lastly, the distance between a point and its
+nearest recreation facility was measured with the LIPAS dataset.
+SLICES (Separated land use & cover information system) is
+a raster dataset produced by the Finnish National Land Survey. The
+dataset was produced by combining different geographical datasets
+on land use from different organisations, such as the Ministry of
+Agriculture and Forestry, the Ministry of the Environment, the
+National Land Survey, the Finnish Forest Research Institute, Fin-
+land’s environmental administration and the Population Register
+Centre. The dataset offers a hierarchical classi<U+FB01>cation of land use,
+land cover, soil types and special use and restricted areas. The SLI-
+CES dataset covers the whole of Finland with a resolution of 10 m.
+The building centroid dataset for each building in Helsinki,
+containing the information on housing units, <U+FB02>oor areas and pop-
+ulation demographics for the building, was obtained from the city
+
+
+administration.
+Digiroad is a national database which contains precise and
+accurate data on the location of all roads and streets in Finland as
+well as their most important physical features. There are also other
+transport system-related objects, such as public transport stops.
+The Finnish Transport Agency maintains and updates the data in
+the Digiroad system.
+LIPAS is a nationwide geographic information system on sports
+facilities, recreation areas and hiking trails. The Department of
+Sport Science at the University of Jyväskylä is responsible for the
+system and cooperates with the Ministry of Education and Culture,
+the Finnish municipalities, the Finnish Sports Federation and other
+sports organisations in maintaining the information on recreational
+facilities.
+Applied Geography 38 (2013) 43e52
+Analysis
+
+The urban structural variables were extracted from register-
+based geographical data using ESRI ArcMap version 10. The main
+geoprocessing techniques used were buffering the meaningful
+places, and calculating statistics from the building points within
+these buffer polygons. Nearest neighbourhood analysis was used
+between the point datasets containing the meaningful places and
+public transport stops as well as sports facilities. Different raster
+calculation and focal statistical methods were used to calculate
+variables concerning each meaningful place from the land use
+dataset.
+To reduce the number of urban structural variables, a principle
+component analysis with Varimax rotation and Kaiser normal-
+isation (Cervero & Duncan, 2003; Miles & Song, 2009; Song &
+Knaap, 2007; Yan et al., 2010) was performed using IBM’s SPSS
+statistical package, version 20. The principal components discov-
+ered were used to compute principal component scores for every
+meaningful place as if principal components had been observed
+themselves. Thus each meaningful place had several new variables
+representing the loadings for each principal component. These new
+variables were to be used as independent variables in analyses
+explaining the variation of independent access or active transport
+to the meaningful places, instead of using the original urban
+structural variables.
+Simple logistic regression analysis was used to explain travelling
+alone as well as using active transport modes to get to the mean-
+ingful places. We controlled for the age group, whether the family
+owned a car, and the distance of the place from the respondent’s
+home. Because the observed values of dependent variables were
+correlated positively (see Fig. 3), simple logistic regression, which is
+based on the assumption of independent observations, could not
+count for all variations that existed in the population, which means
+there would be overdispersion in the models. In order to verify
+overdispersion in models based on simple logistic regression,
+residuals from models were saved. If models could not account for
+the mentioned “extra” variation caused by positive correlation of
+observations of dependent variables, there would be also positive
+spatial correlation between residuals. In other words, there would
+be unwanted spatial autocorrelation (SAC) between residuals in
+models, which violates the assumption of non-correlated residuals
+in a regression model.
+To study the possibly existing SAC, empirical semivario-
+grams were calculated for model residuals using geoR library
+in statistical program R (Ribeiro & Diggle, 2001). Empirical
+semivariograms simply measure how much the values
+of residuals resemble each other on average at a certain
+distance.
+Empirical semivariogram (a distance h apart):
+1 X            2
+
+gðhÞ ¼              yi  yj                                          (1)
+2m
+
+where m is the number of pairs of residuals at a distance h apart.
+The empirical semivariogram gðhÞ is estimated for all distances of
+same length, i.e. for distances from 0 to 30 m, 30 to 60 m and so on,
+and yi is the value of a measure at the ith location, and yj is that for
+a point at distance g from yi.
+As an example, Fig. 2a represents an empirical semivariogram of
+a model where travelling alone was explained with principal
+component 4 and the control variables. The <U+FB01>gure clearly shows
+how residuals with shorter distances between each other differ less
+from each other than those with longer distances between them.
+The empirical semivariogram reaches a relatively stable level after
+the distance between residuals grows to more than 1000 m, which
+is also the distance after which SAC is near zero.
+
+A. Broberg et al. / Applied Geography 38 (2013) 43e52
+Fig. 2. Empirical semivariograms of residuals from a simple logistic regression model (a, left), and from a logistic regression model where spatial correlation is included
+as random effects of observations (b, right).
+The presence of spatial autocorrelation (SAC) between                                          Equations (2) and (3) represent a simple linear model and
+residuals in a regression model violates the assumption of non-                                 a linear mixed model, respectively. In logistic regression there is
+correlated residuals and in<U+FB02>ates type I errors, which may even                                  additionally the logistic link function between dependent variable
+cause bias in regression coef<U+FB01>cient estimates (see e.g. Dormann                                 Y and the model. In our solution to the overdispersion problem, SAC
+et al., 2007; Kühn, 2007). One statistical solution to overcome                                 is simply taken as random effects of the model, here represented by
+the SAC in regression analysis is the geographically weighted                                   u. It has the dimension of a number of observations. A detailed
+regression (Brunsdon, Fotheringham, & Charlton, 1996; Cardozo,                                  explanation of using GLMM in modelling spatial variation is
+García-Palomares, & Gutiérrez, 2012; Chen & Truong, 2012).                                      provided by Littell, Milliken, Stroup, Wol<U+FB01>nger, and Schabenberger
+Another solution to overcome the overdispersion in models is to                                 (2006). In this way, all “extra” correlation in original models can be
+use techniques based on generalised linear mixed models                                         taken into these models, and the independence of residuals is
+(GLMM). The effectiveness of this solution comes from the fact                                  attained, i.e. SAC between residuals will be zero at all distances. In
+that the positive “extra” correlation or variance is included in                                practice, this was done by using the Glimmix procedure in the SAS
+the model observation-wise (or residual-wise) as random                                         statistical program. The Glimmix procedure is especially designed
+effects.                                                                                        to estimate generalised linear mixed models. In addition, it has
+a feature that allows spatial variability to be modelled as explained.
+Y ¼ Xb þ e                                                                           (2)            Empirical semivariograms were calculated for residuals from
+models estimated by the Glimmix procedure. In Fig. 2b, an empir-
+ical semivariogram is represented as an example for a model in
+Y ¼ X b þ Zu þ e                                                                     (3)        which travelling alone was explained with principal component 4.
+Fig. 3. The independence and activity of transport to meaningful places.
+47
+in the model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48                                                          A. Broberg et al. / Applied
+Here the empirical semivariogram is level at all distances. This
+indicates that SAC between residuals is close to zero and that there
+is no overdispersion. This applied also for the other models rep-
+resented in the result section, so the estimates of coef<U+FB01>cients and
+their standard errors from these models could be trusted. It is
+worth noting here that models including principal component 5
+did not have any unwanted SAC between residuals, so simple
+logistic regression could be used. This also means that principal
+component 5 effectively explained why residuals near to each other
+resembled each other.
+
+Results
+
+Descriptive statistics
+
+The respondents were able to travel to their meaningful places
+fairly independently and actively (see Table 1). With younger chil-
+dren, the proportion of places travelled to in the company of an adult
+was signi<U+FB01>cantly higher than in the older age group, but in all the
+proportions of places that were visited with an adult were as low as
+14 per cent and 10 per cent respectively (c2 ¼ 23.3, df ¼ 2, p ¼ .000).
+Younger children travelled signi<U+FB01>cantly more often to the places on
+foot or by bicycle, while older children used public transport, with
+the proportion of places travelled to by car being the same (8 per
+cent) (c2 ¼ 115.7, df ¼ 2, p ¼ .000). The places marked by the older
+group were also signi<U+FB01>cantly further away from home, on average
+3.5 km from home, than those marked by the younger group, 2.2 km
+respectively (t ¼ 12.5, df ¼ 4771, p ¼ .000). There were no signi<U+FB01>cant
+gender differences in terms of independence or activity in travelling
+to the places. Therefore, regression analyses reported later on are
+adjusted for the age group, but gender is not taken into account.
+The spatial pattern of the meaningful places and with whom
+and how respondents travelled to these places is represented in
+Fig. 3. The urban structure where these places are located is of
+rather low density, even if many of the places are in Helsinki city
+centre. The residential densities were in some cases as high as 450
+housing units per hectare in the densest areas, but still the average
+density was just a little over 27 units/ha. On average, different
+
+
+Table 1
+Descriptive statistics of the variables used in analysis.
+
+Year 5s        Year 8s      Girls          Boys
+Independent mobility
+Alone                           28%            30%          29%            30%
+With friends                    58%            60%          59%            58%
+
+With adults                     14%            10%          12%            12%
+Transport mode
+Walking or cycling              75%            61%          66%            68%
+Public transportation           17%            32%          27%            23%
+Car                              8%             8%           7%             8%
+Mean               Standard
+deviation
+Distance from home (kilometers)                      3.1                3.8
+# Population                                       34.9               64.7
+# Housing units/hectare                            27.3               55.0
+% Land cover apartment build.                      10.1               21.7
+
+# Buildings                                          2.7                3.1
+% Land cover single fam. housing                     9.7              21.3
+% Land cover semi-detached                           4.9              14.3
+% Land cover traf<U+FB01>c areas                          19.2               19.7
+
+# Intersections                                       .4                 .7
+Land use mix                                          .2                 .2
+% Land cover green                                 30.5               37.9
+Dist. to nearest recreation facility                  .17                .21
+Dist. to nearest bus stop                             .20                .25
+Floor area ratio                                      .9                2.0
+# Bus stops                                           .5                1.8
+
+
+Geography 38 (2013) 43e52
+residential land uses account for roughly one-quarter of the land
+cover, traf<U+FB01>c accounting for one-<U+FB01>fth of the land cover and green
+areas approximately 30 per cent (see Table 1). Generally, the
+distances to public transport stops or recreation facilities are short
+from the meaningful places, on average some 200 m to a bus stop
+and 170 m to a recreation facility.
+
+Reducing the fourteen structural variables to <U+FB01>ve principal
+components
+
+In the hope of reducing the number of structural variables from
+the original fourteen to a smaller amount to help with the analysis
+and interpretation of the results, a principal component analysis
+was performed. The analysis produced a solution of <U+FB01>ve principal
+components (see Table 2) with Eigen-values of one or more. These
+components explained 72 per cent of the total variance of the
+original variables.
+High scores in the <U+FB01>rst principal component (PC1) were asso-
+ciated with large populations and high numbers of housing units as
+well as a high proportion of land area covered with apartment
+buildings. Fig. 4 represents the spatial pattern of the meaningful
+places and the loadings for each principal component as derived
+from the built environment surrounding these places. Meaningful
+places that have high loadings on the <U+FB01>rst principal component can
+mainly be found in the densely built-up residential areas of the
+central Helsinki peninsula. The second principal component (PC2)
+was characterised by large numbers of buildings, and high
+proportions of single-family or semi-detached housing as land use.
+On the map representing the second of these components, two
+distinct areas of high loading can be seen on northern single-family
+housing-dominated residential areas. Traf<U+FB01>c-related land uses and
+a large number of intersections were associated with high scores of
+the third principal component (PC3). In addition, greater land use
+mix and a smaller proportion of green areas were associated with
+higher scores. The third map in Fig. 4, depicting the spatial pattern
+of principal component scores for PC3, shows a less clear pattern of
+high loadings, both in Helsinki city centre and along main roads
+throughout the study area.
+High scores on the fourth principal component (PC4) were
+associated only with long distances to the nearest bus stop and
+recreational facility, while the <U+FB01>fth component (PC5) was charac-
+
+terised by high <U+FB02>oor area ratios and the large number of bus stops.
+High loadings on the fourth component are mainly concentrated on
+the remote islands and coastal areas, while low loadings are
+concentrated around sports facilities. The high loadings on the <U+FB01>fth
+
+component are found especially near big shopping centres in the
+
+city centre and the malls along the ring roads, and some transport
+hubs can also be distinguished on the map.
+
+Associations of the urban structure components on independent
+mobility and active transport
+
+The principal components of urban structure had highly
+signi<U+FB01>cant associations with the independent mobility to mean-
+
+
+ingful places, as shown in Table 3 (part a). Higher scores on
+components PC2 and PC4, signifying single-family housing and
+long distances from public transport and sports facilities, increased
+the likelihood of travelling to the place alone. In addition, dense
+
+residential structure (PC1) increased the probability of travelling to
+
+the place alone, but this association was less signi<U+FB01>cant. Compo-
+nent PC5 that had high loadings of <U+FB02>oor area ratio and the number
+of public transport stops had an inverse association with inde-
+pendent mobility. That is, the higher the loading on PC5, the
+
+
+smaller the probability of travelling to the place alone. The
+component associated with traf<U+FB01>c land use and few green areas
+
+A. Broberg et al. / Applied Geography 38 (2013) 43e52                                              49
+Table 2
+Loadings for PCA of variables measuring different aspects of the built environment.
+Variable                                   PC1                        PC2                        PC3                      PC4           PC5
+densely built-up           mainly single              traf<U+FB01>c dominance         remote places big buildings and
+residential areas          family housing                                                    public transport hubs
+# Population                                 .944                       .100                       .095                   .048           .114
+# Housing units/hectare                      .928                       .029                       .072                   .057           .219
+% Land cover apartment build.                .847                     .107                        .112                   .047         .165
+# Buildings                                  .214                       .907                       .146                   .023         .029
+% Land cover single fam. housing           .148                        .843                       .041                      .055       .086
+% Land cover semi-detached                 .030                        .561                      .050                      .073       .050
+% Land cover traf<U+FB01>c areas                  .017                      .030                        .819                   .036           .220
+# Intersections                              .050                     .026                        .793                      .010       .106
+Land use mix                                 .236                       .153                       .557                   .273         .013
+% Land cover green                         .282                      .462                      L.537                    .002         .334
+Dist. to nearest recreation facility       .044                        .190                       .036                      .878       .010
+Dist. to nearest bus stop                  .064                      .044                       .202                      .835       .174
+Floor area ratio                             .287                     .039                       .073                   .118           .795
+# Bus stops                                .129                      .119                        .174                   .062           .767
+Extraction method: principal component analysis. Rotation method: varimax with Kaiser normalisation.
+The bold value signi<U+FB01>es the principal component scores with absolute values over .5.
+(PC3) did not have a signi<U+FB01>cant association with the independence                          travelled to actively, while traf<U+FB01>c domination and a dense resi-
+of mobility to the place.                                                                  dential fabric around the place discouraged active transport. The
+The associations between urban structure and active transport                          probability of travelling to the place using active transport
+to meaningful places were less profound, but still signi<U+FB01>cant in                           decreased as loading of principal component PC5 increased. The
+many cases (Table 3, part b). High loadings on principal compo-                            highest loadings of this component are indeed particularly found in
+nents PC1 and PC3 lessened the likelihood of travelling to the place                       city centre shopping venues and the malls along ring roads, and it is
+on foot or by bicycle, while higher loadings of PC2 increased the                          not surprising that the association with both active transport and
+likelihood. That is, the more single-family dominated the urban                            independent mobility is negative. PC4 did not have statistically
+structure around the place is, the likelier it was that the place was                      signi<U+FB01>cant association with active transportation. Age group was
+Fig. 4. PCA loadings of the <U+FB01>ve components in relation to the meaningful places.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50                                                          A. Broberg et al. / Applied
+Table 3
+Place-based analyses on independent access (a) and active transport (b) to the
+meaningful places in relation to the principal components of urban structure. The
+models have been controlled for age group, car ownership, and distance from home.
+
+
+Odds   95% Con<U+FB01>dence interval           p Value
+
+ratio
+
+(a) Place travelled to alone
+
+PC1 densely built-up            1.156  1.062          1.259                .0009
+residential areas
+PC2 mainly single family        1.271  1.173          1.378             <.0001
+housingb
+PC3 traf<U+FB01>c dominance            1.049    .962         1.144                .2793
+PC4 remote places               1.174  1.088          1.266             <.0001
+PC5 big buildings and            .760    .677           .855            <.0001
+
+public transport hubs
+(b) Place travelled to actively
+PC1 densely built-up             .876    .785           .977               .0176
+residential areasa
+
+PC2 mainly single family        1.163  1.038          1.303                .0096
+housinga
+PC3 traf<U+FB01>c dominancea            .890    .800           .990               .032
+PC4 remote placesa              1.066    .965         1.179                .2081
+PC5 big buildings and            .767    .644           .913               .003
+public transport hubsa
+
+Distance from home signi<U+FB01>cant in all the models.
+a
+Age group signi<U+FB01>cant.
+b
+Car ownership signi<U+FB01>cant.
+
+
+signi<U+FB01>cant in all the models explaining active transport to the
+meaningful places, but not in the models explaining independent
+mobility. The respondent family’s car ownership status was
+signi<U+FB01>cant only in the model looking at associations between PC2
+and independent mobility.
+The most signi<U+FB01>cant urban structural elements promoting
+children’s independent and active mobility seem to be associated
+with a residential urban structure dominated by single-family
+housing. Structure quali<U+FB01>ed by a denser population structure and
+apartment buildings still allows for independent mobility but does
+not promote active transport. Signi<U+FB01>cant negative effects on the
+probability of moving independently and actively are found for
+structures characterised by high <U+FB02>oor area ratios and a large
+number of public transport stops/stations. The urban structures
+determined by remoteness, either to public transport stops/stations
+or recreation facilities, and by intensive traf<U+FB01>c had less clear asso-
+ciations with children’s physical activity.
+
+Discussion and conclusions
+
+While the evidence base on urban structural characteristics
+promoting physical activity and independent mobility is rapidly
+expanding, the focus has often been on the built environment
+surrounding a child’s home, school or on some speci<U+FB01>c structures,
+such as parks. This study is the <U+FB01>rst to our knowledge to study the
+multiple environments where children and young people spend
+their time, and to assess the associations between the urban
+structure around these multiple environments and children’s
+mobility to these places. We let children themselves de<U+FB01>ne their
+important places, and created <U+FB01>ve principal components of the
+urban structural variables surrounding these places. The associa-
+tions between urban structure and independent mobility and
+active transport were multi-faceted. Firstly, we found that struc-
+tures dominated by single-family housing promoted both inde-
+pendent mobility and the use of active transport modes, even when
+the distance to places was controlled for. This <U+FB01>nding is in contrast
+with most of the existing research, where the common conclusion
+has been that the suburban structure hinders active transportation.
+Of course, the Finnish suburban structure differs from the classic
+examples where cul-de-sacs and curved roads without sidewalks
+Geography 38 (2013) 43e52
+are typical. Still, a number of similar <U+FB01>ndings have been made, for
+example Seliske, Pickett, and Janssen (2012) research on Canadian
+
+
+young people, where they reported urban sprawl being associated
+with active transportation and moderate to vigorous physical
+
+activity. However, this research was conducted on a macro level
+
+and analysed Canadian census metropolitan areas rather than the
+
+individual home environments of the young people in question.
+
+Another signi<U+FB01>cant <U+FB01>nding was that dense urban residential
+structures allowed for independent mobility but it did not promote
+active transport. Rather than use bicycles or walk, children used
+public transport in the most densely built-up residential areas. In
+
+
+earlier research concerning Finnish children’s active transport, the
+residential density of the children’s home environment has been
+found to be positively associated with an active school travel mode,
+but this setting was less densely built up and offered fewer public
+
+transport options (Kyttä, Broberg, & Kahila, 2012). The places that
+
+were characterised by large <U+FB02>oor area ratios and a large number of
+public transport stops/stations were less likely to be travelled to
+actively and independently. The highest loadings on this principal
+component could be found on shopping malls, both in the city
+
+centre and on the ring roads. It is no surprise that active transport
+modes are not used when travelling to these places, and it is likely
+
+
+that the adult population would choose to drive to these kinds of
+
+places.
+In general, the study revealed that, as a whole, the Finnish
+children who took part in this study enjoyed widespread possibil-
+ities for active and independent mobility. There were no gender
+differences, but the age of the child was signi<U+FB01>cantly associated
+with independence and activity. One variable that was signi<U+FB01>cant in
+all the models was the distance from home to the place marked on
+the map. Pont et al. (2009) have mentioned in their review that
+distance is the most frequently examined physical environmental
+determinant of children’s active transport, and that there is
+convincing evidence of increasing distance travelled being
+inversely associated with active transport. We argue that distance
+should not be seen as a measure of physical environment, but
+rather as an intervening factor between the environment and
+children’s active or independent transport. We propose that certain
+physical environments might produce trips that are longer than
+trips in other environments. Hence the distance should always be
+taken into account when associations between different urban
+structural variables and transport mode or independence are
+studied.
+It can be argued that these <U+FB01>ndings represent a situation in
+a Nordic city, where the urban structure in general is very suitable
+for active transport, and where parental fears and resulting
+mobility restrictions for children are still very scarce (Kyttä, 2004).
+Hence, the results might have no applicability to other settings.
+Still, some general observations can be made in relation to planning
+practice. A rather low density residential structure dominated by
+single-family housing seems not to be a bad planning solution e at
+least in the form realised in Helsinki. However, the settings studied
+in this project represent suburban areas built in the 1950s and
+1960s that are part of the wider urban structure. When new resi-
+dential areas are being built, it is important to incorporate the links
+to the existing urban structure and to secure the public transport
+options, <U+FB01>rstly to allow for children’s independent mobility, and
+secondly to <U+FB01>ght the increasing traf<U+FB01>c and the need for traf<U+FB01>c land
+use resulting from new residential development. The residential
+density question is not straightforward, because different types of
+urban fabric allow for different types of mobility. In a dense urban
+setting, children did not get to move actively but instead travelled
+by bus, tram, train or metro. The transport mode should not be the
+only consideration when thinking about the possibilities of
+different urban settings to promote activity e children’s
+
+A. Broberg et al. /
+possibilities for moving independently, be it on foot or by public
+transport, should be considered. Independent mobility in a local
+environment is considered to be an essential part of a child’s
+development. By moving independently, children develop an
+understanding of their surrounding environment, build up
+a personal relationship with it and develop mapping and route-
+<U+FB01>nding abilities. Finally, children and young people should be
+considered when designing urban cores. These are important pla-
+ces where children travel to using relatively inactive modes of
+transport, and that don’t generally allow for activities that include
+physical activity, whereas for the use of younger children there are
+
+playgrounds even in the city centre.
+The strengths of this study included the use of a methodology
+that allowed children to de<U+FB01>ne their important places and mobility
+to these places. This allowed us to widen the focus of research from
+
+the built environment around home or the school journey to the
+many settings where children spend their time. Using principal
+component analysis to build composite indices also proved to be
+
+a valuable method for capturing several aspects of the built envi-
+ronment at once (as proposed by Feng et al., 2010). However, some
+limitations arise from the use of the principal component loadings
+
+as the independent urban structural variables. The range of the
+initial variables measuring the physical environment is often
+dictated by the availability of GIS data, which was the case here, too.
+
+One could claim that when studying urban structure associations
+with children’s mobility, the urban structural analyses should
+consider the possibilities for light traf<U+FB01>c and functions of the urban
+
+environment, like shops, restaurants and playgrounds, to name but
+
+a few. Additionally, the principal components used in the analyses
+were derived from the initial data concerning the physical envi-
+ronment of the places, and other PCA solutions might arise in other
+
+settings, where the environment is different. These solutions would
+not be comparable with the principal urban structural components
+derived from this dataset. Data on the socio-economic setting of the
+
+meaningful places was also lacking from our analysis. Children’s
+physical activity is partly affected by the physical structure, but the
+social structure plays a big role. Ideally, some variables concerning
+
+the settings of the meaningful places would have been analysed
+simultaneously, but as these variables are generally available on an
+aggregate level, a multilevel modelling approach (Antipova, Wang,
+
+& Wilmot, 2011) would have been necessary.
+
+De<U+FB01>ning independent mobility as travelling to the place alone
+can also be questioned. Mikkelsen and Christensen (2009)
+
+observed in Danish children that the independence of mobility
+
+was not necessarily moving alone, but moving without adults,
+among peers. Even though we agree on children’s mobility being
+utterly social, in this study we used the narrow de<U+FB01>nition of trav-
+
+elling to the important place alone as a measure of independence.
+This is due to the limited parental attendance that the children
+reported: less than 15 per cent for both age groups. In other, more
+
+restricting mobility contexts, it would be worthwhile to use the
+broader de<U+FB01>nition of independent mobility. Similarly, it can be
+argued that using public transport is at least partly an active mode
+
+of transport, considering the need to walk to a stop or a station.
+The way we analysed the collated softGIS data in this study
+represents a very quantitative way of looking at children’s mean-
+
+ingful places and their mobility to these. The spatial character of the
+data allows zooming in to the actual locations of the meaningful
+places and looking at the environment in a more qualitative way. In
+
+future research, we hope to include children’s perceptions of the
+
+environment as mediators between the objectively measured
+environment and children’s use of the environment e their phys-
+ical activity, active transport and independent mobility in the
+
+environment (as suggested also by van Loon & Frank, 2011). It
+would also be valuable to include the parents in the studies, as
+Applied Geography 38 (2013) 43e52                                                                   51
+children’s mobility is signi<U+FB01>cantly dictated by their parents, the
+social environment and the values of society.
+
+Acknowledgements
+
+We wish to thank the schools that participated, the teachers and
+pupils there, as well as research assistant Sanna Forsell, who
+organised the data collection at the schools. The Ministry of
+Education and Culture funded the research project.
+
+
+References
+
+Antipova, A., Wang, F., & Wilmot, C. (2011). Urban land uses, socio-demographic
+attributes and commuting: a multilevel modeling approach. Applied Geog-
+raphy, 31(3), 1010e1018.
+Boone-Heinonen, J., Guilkey, D. K., Evenson, K. R., & Gordon-Larsen, P. (2010).
+Residential self-selection bias in the estimation of built environment effects on
+physical activity between adolescence and young adulthood. International
+Journal of Behavioral Nutrition and Physical Activity, 7, 70.
+Brown, G. (2012). An empirical evaluation of the spatial accuracy of public partic-
+ipation GIS (PPGIS) data. Applied Geography, 34, 289e294.
+Brunsdon, C., Fotheringham, A. S., & Charlton, M. E. (1996). Geographically weighted
+regression: a method for exploring spatial nonstationarity. Geographical Anal-
+ysis, 28(4), 281e298.
+Buck, C., Pohlabeln, H., Huybrechts, I., De Bourdeaudhuij, I., Pitsiladis, Y., Reisch, L.,
+et al. (2011). Development and application of a moveability index to quantify
+possibilities for physical activity in the built environment of children. Health &
+Place, 17(6), 1191e1201.
+Cardozo, O. D., García-Palomares, J. C., & Gutiérrez, J. (2012). Application of
+geographically weighted regression to the direct forecasting of transit ridership
+at station-level. Applied Geography, 34, 548e558.
+Cervero, R., & Duncan, M. (2003). Walking, bicycling, and urban landscapes:
+
+evidence from the San Francisco Bay area. American Journal of Public Health,
+93(9), 1478e1483.
+Chen, D., & Truong, K. (2012). Using multilevel modeling and geographically
+weighted regression to identify spatial variations in the relationship between
+place-level disadvantages and obesity in Taiwan. Applied Geography, 32(2),
+737e745.
+Ding, D., & Gebel, K. (2012). Built environment, physical activity, and obesity: what
+have we learned from reviewing the literature? Health & Place, 18(1), 100e105.
+Dormann, C. F., McPherson, J. M., Araújo, M. B., Bivand, R., Bolliger, J., Carl, G., et al.
+(2007). Methods to account for spatial autocorrelation in the analysis of species
+distributional data: a review. Ecography, 30(5), 609e628.
+Dunton, G. F., Kaplan, J., Wolch, J., Jerrett, M., & Reynolds, K. D. (2009). Physical
+environmental correlates of childhood obesity: a systematic review. Obesity
+Reviews, 10(4), 393e402.
+Faulkner, G. E. J., Buliung, R. N., Flora, P. K., & Fusco, C. (2009). Active school
+transport, physical activity levels and body weight of children and youth:
+a systematic review. Preventive Medicine, 48(1), 3e8.
+
+Feng, J., Glass, T. A., Curriero, F. C., Stewart, W. F., & Schwartz, B. S. (2010). The built
+environment and obesity: a systematic review of the epidemiologic evidence.
+Health & Place, 16(2), 175e190.
+Finnish Transport Agency. (2012). National Travel Survey 2010e2011. Accessed at.
+
+http://portal.liikennevirasto.<U+FB01>/portal/page/portal/
+BBAA5518B6EE0488E040B40A1A01552B (2.5.2012 version).
+Frank, L. D., Andresen, M. A., & Schmid, T. L. (2004). Obesity relationships with
+community design, physical activity, and time spent in cars. American Journal of
+Preventive Medicine, 27(2), 87e96.
+Frank, L. D., Saelens, B. E., Powell, K. E., & Chapman, J. E. (2007). Stepping towards
+causation: do built environments or neighborhood and travel preferences explain
+physical activity, driving, and obesity? Social Science & Medicine, 65(9),1898e1914.
+Frank, L. D., Sallis, J. F., Conway, T. L., Chapman, J. E., Saelens, B. E., & Bachman, W.
+(2006). Many pathways from land use to health: associations between neigh-
+borhood walkability and active transportation, body mass index, and air quality.
+Journal of the American Planning Association, 72(1), 75e87.
+Hillman, M., Adams, J., & Whitelegg, J. (1990). One false move. A study of children’s
+independent mobility. London: Policy Studies Institute.
+Kahila, M., & Kyttä, M. (2009). SoftGIS as a bridge-builder in collaborative urban
+planning. In S. Geertman, & J. Stillwell (Eds.), Planning support systems best
+practice and new methods (pp. 389e411). Netherlands: Springer.
+Kühn, I. (2007). Incorporating spatial autocorrelation may invert observed patterns.
+Diversity and Distributions, 13(1), 66e69.
+Kyttä, M. (2004). The extent of children’s independent mobility and the number of
+actualized affordances as criteria for child-friendly environments. Journal of
+
+Environmental Psychology, 24(2), 179e198.
+Kyttä, M. (2011). SoftGIS methods in planning evaluation. In A. D. Hull,
+E. R. Alexander, A. Khakee, & J. Woltjer (Eds.), Evaluation for sustainability and
+participation in planning (pp. 334e354). London: Routledge.
+Kyttä, A. M., Broberg, A. K., & Kahila, M. H. (2012). Urban environment and chil-
+dren’s active lifestyle: SoftGIS revealing children’s behavioral patterns and
+meaningful places. American Journal of Health Promotion, 26(5), e137ee148.
