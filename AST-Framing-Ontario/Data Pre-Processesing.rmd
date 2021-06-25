@@ -226,7 +226,7 @@ Many words should be removed while cleaning the corpus to ensure that the analys
 
 Identify relevant stop words to exclude from texts:
 ```{r}
-academic_stopwords <- c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+academic_stopwords <- c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-", "hong", "kong", "united", "states", "new", "zealand")
 ```
 
 Remove stop words and punctuation:
@@ -574,7 +574,7 @@ Remove stop words and punctuation:
 school_corpus <- tm_map(school_corpus, stripWhitespace)
 school_corpus <- tm_map(school_corpus, content_transformer(tolower))
 
-school_corpus <- tm_map(school_corpus, removeWords, Con_stopW)
+school_corpus <- tm_map(school_corpus, removeWords, school_stopwords)
 school_corpus <- tm_map(school_corpus, removeNumbers)
 
 school_corpus <- tm_map(school_corpus, removePunctuation)

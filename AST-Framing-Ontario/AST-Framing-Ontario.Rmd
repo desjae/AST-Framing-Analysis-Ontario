@@ -453,6 +453,46 @@ academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 5)
 academic_vocab
 ```
 
+```{r}
+MunicipalTextDF <- data.frame(text = sapply(municipal_corpus, as.character), stringsAsFactors = FALSE)
+
+M_it_train = itoken(MunicipalTextDF$text, progressbar = FALSE)
+municipal_vocab = create_vocabulary(M_it_train)
+
+municipal_vocab <- prune_vocabulary(municipal_vocab, term_count_min = 5)
+municipal_vocab
+```
+
+```{r}
+ConsortiumTextDF <- data.frame(text = sapply(consortium_corpus, as.character), stringsAsFactors = FALSE)
+
+C_it_train = itoken(ConsortiumTextDF$text, progressbar = FALSE)
+consortium_vocab = create_vocabulary(C_it_train)
+
+consortium_vocab <- prune_vocabulary(consortium_vocab, term_count_min = 5)
+consortium_vocab
+```
+
+```{r}
+SchoolTextDF <- data.frame(text = sapply(school_corpus, as.character), stringsAsFactors = FALSE)
+
+S_it_train = itoken(SchoolTextDF$text, progressbar = FALSE)
+school_vocab = create_vocabulary(S_it_train)
+
+school_vocab <- prune_vocabulary(school_vocab, term_count_min = 5)
+school_vocab
+```
+
+```{r}
+PolicyTextDF <- data.frame(text = sapply(policy_corpus, as.character), stringsAsFactors = FALSE)
+
+P_it_train = itoken(PolicyTextDF$text, progressbar = FALSE)
+policy_vocab = create_vocabulary(P_it_train)
+
+policy_vocab <- prune_vocabulary(policy_vocab, term_count_min = 5)
+policy_vocab
+```
+
 ## 4.1. Word Frequency
 
 ## 4.2. Bigrams and Correlations
