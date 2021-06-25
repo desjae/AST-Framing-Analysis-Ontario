@@ -4,7 +4,8 @@ author: "Jason Lam"
 date: "22/06/2021"
 output: pdf_document
 ---
-# Preliminaries
+
+# 0. Preliminaries
 
 Clear the environment: 
 ```{r}
@@ -33,8 +34,25 @@ library(word2vec)
 library(wordcloud)
 ```
 
-The function below allows you to find and replace certain strings. The main use in this context is to replace encoding errors where specific sequences of character such as "fi" or "fl" are encoded as ligatures in the pdf. During the conversion process those character can be lost and their subsequent words are misintrupted. 
+This notebook outlines the procedure for data pre-processing and cleaning for the manuscript titled _How do school travel planning stakeholders frame active school travel in Ontario, Canada?_. The paper uses data retrieved from policy documents and academic papers on the subject of active school travel to conduct topic modelling and content analysis. 
 
+The following steps can be replicated for other case studies, or to verify the method and results of the paper.
+
+# 1. Document Retrieval
+
+First, assemble a collection of publicly available documents sourced online from the primary school travel planning stakeholder groups: i) English school boards; ii) municipal government; and iii) transportation consortia. Manually download all relevant webpages in PDF. 
+
+Next, conduct a search in the Web of Science database to retrieve academic papers on the topic of active school travel. Manually download all relevant studies in PDF.
+
+# 2. Creating a Corpus
+
+PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from .PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
+
+Create an individual corpus for each of the categories of documents: academic papers, municipal webpages, transportation consortia webpages, and school board webpages.
+
+During the conversion process, some documents will have encoding errors where specific sequences of characters, such as "fi" or "fl", are encoded as ligatures in the PDF. Those characters can be lost and their subsequent words are contain spaces or are not read properly by the code.
+
+This function allows you to find and replace strings:
 ```{r}
 to.plain <- function(s) {
 
@@ -53,33 +71,15 @@ to.plain <- function(s) {
 }
 ```
 
-Stop words 
+## 2.1 Academic Papers 
 
-```{r}
-AP_stopW <- c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+### 2.1.1 Convert single column files
 
-Con_stopW <- c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
-
- Mun_Reg_stopW <- c("york", "lane", "school", "transportation", "region", "halton", "can", "use", "guelph", "kingston", "durham", "get", "uf", "ontario", "contact", "also", "covid", "c", "e", "one", "eg", "-", "please", "canada", "n", "page", "canadian", "email", "o", "peel", "fort", "frances", "phone", "r", "ottawa", "barrie", "km", "next", "per", "thunder", "simcoe", "website", "wellington", "andor", "catholic", "k", "m", "middlesex", "oxford", "perth", "po", "provincial", "tollfree", "toronto", "ufc")
-
-SB_stopW <- c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
-
-Policy_StopW <- union(AP_stopW, Mun_Reg_stopW)
-Policy_StopW <- union(Policy_StopW, SB_stopW)
-
-```
-
-# Creating Academic Corpus 
-
-PDF documents are brought into the corpus directly, however each page of the document is read as an individual document. For our purposes, a conversion from PDF to .txt will allow us to keep all pages in a document together when loading it into the corpus. Make sure you have the directory path to where your documents are stored and re-assign the `pdfLocation` to that corresponding location. R uses '/' as the directory separator. 
-
-
-## Single Column Conversion
-
+Trim and convert all single column formatted papers from PDF to .txt:
 ```{r}
 pdfLocation <- "Texts/Academic Papers Trimmed Single Col"
 
-# Creates folder for .txt files
+# Create a folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }else{
@@ -87,7 +87,7 @@ if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }
 
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
+# Create a complete list of full directory paths and file names (with extension .pdf) from the PDF location as specified above
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -97,10 +97,9 @@ for (address in filePath)
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
 
-
 # `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
 
-# use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
+# Use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 
 write(test, file = newFile)
@@ -109,8 +108,9 @@ n <- n+1
 }
 ```
 
-## Double Column Conversion 
+### 2.1.2 Convert double column files
 
+Trim and convert all double column formatted papers from PDF to .txt:
 ```{r}
 
 trim <- function (x) gsub("^\\s+|\\s+$", "", x)
@@ -170,26 +170,32 @@ write(result, newFile)
 
 ```
 
-## Imports texts that were manually cleaned
+### 2.1.3 Manually clean files
 
+Proceed to manually cleaning the trimmed and converted .txt files by removing any remaining tables, figures, references, headers/footings, and captions that could not be trimmed. Manual corrections may be required for certain pages in academic papers that remained in two-column format after the conversion process. This typically occurs on pages that have a table or figure which disrupted the text. Finally, review all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) can be fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+
+### 2.1.4 Import texts that were manually cleaned
+
+Next, import texts that were manually cleaned:
 ```{r}
-# location of manually cleaned .txt documents
+# Location of manually cleaned .txt documents
 cleantxtLocation <- "Cleaned .txt/Academic Papers"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
 n <- 1 
 for (txt in cleantxtlist) {
 
-# Creates uniquely id text store in 'Environment'
+# Create a uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(txt, file.info(txt)$size))
 n <- n + 1 
 }
 ```
 
-## Creating data frame of texts 
+### 2.1.5 Create a data frame of texts 
 
 Creation of a data frame of texts is required prior to conversion to corpus. The data frame must contain 'doc_id' and 'text'. Additional fields may be included in the data frame, however it will be treated as metadata by the corpus. 
 
+Create data frame:
 ```{r}
 # This loop creates a vector of the texts
 text <- vector()
@@ -201,12 +207,12 @@ for (i in seq(1, n-1, 1))
 text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
-# Turns vector into data frame 
+# Turn vector into data frame 
 textDF <- data.frame(doc_id, text)
 
 ```
 
-## Conversion of data frame to corpus 
+### 2.1.6 Convert data frame to corpus 
 
 Next, convert the data frame to a corpus:
 ```{r}
@@ -214,15 +220,21 @@ df_source <- DataframeSource(textDF)
 academic_corpus <- VCorpus(df_source)
 ```
 
-## Corpus cleaning 
+### 2.1.7 Clean corpus
 
-Many words should be removed while cleaning the corpus to ensure that the analysis does not pick up on common nouns, adjectives, or indefinite articles. Words can be removed manually by creating a vector of strings. The Argument 'AP_stopW' on line 224 accomplishes that. Refer to line 63 for stop words.
+Many words should be removed while cleaning the corpus to ensure that the analysis does not pick up common nouns, adjectives, or indefinite articles. Words can be removed manually by creating a vector of strings.
 
+Identify relevant stop words to exclude from texts:
+```{r}
+academic_stopwords <- c("school", "transportation", "can", "use", "active", "et", "al", "travel", "study", "elsevier", "na", "sciencedirect", "journal", "transport", "mode", "modes", "children", "the", "n", "s", "schools", "also", "p", "b", "used", "number", "data", "research", "variable", "variables", "author", "authors", "researcher", "researchers", "project", "instrument", "may", "model", "studies", "one", "table", "results", "found", "likely", "using", "less", "high", "within", "associated", "however", "among", "two", "km", "eg", "m", "j", "c", "sample", "per", "three", "r", "ie", "across", "around", "well", "a", "example", "although", "t", "fig", "signiufbcant", "1/4", "ats", "d", "literature", "overall", "'", "f", "paper", "e", "therefore", "thus", "methods", "deparmant", "result", "collected", "-")
+```
+
+Remove stop words and punctuation:
 ```{r}
 academic_corpus <- tm_map(academic_corpus, stripWhitespace)
 academic_corpus <- tm_map(academic_corpus, content_transformer(tolower))
 
-academic_corpus <- tm_map(academic_corpus, removeWords, AP_stopW)
+academic_corpus <- tm_map(academic_corpus, removeWords, academic_stopwords)
 academic_corpus <- tm_map(academic_corpus, removeNumbers)
 
 academic_corpus <- tm_map(academic_corpus, removePunctuation)
@@ -230,21 +242,22 @@ academic_corpus <- tm_map(academic_corpus, removeWords, stopwords("english"))
 
 ```
 
-## Cleaning up Environment 
+### 2.1.8 Clean environment 
 
 ```{r}
 rm(list=ls(pattern = "^text"))
 rm(df_source)
 ```
 
-# Creating Municipal Corpus 
+## 2.2 Municipalities 
 
-# Single Column Conversion
+### 2.2.1 Convert single column files
 
+Convert all single column webpages from PDF to .txt:
 ```{r}
 pdfLocation <- "Texts/Municipalities or Regions"
 
-# Creates folder for .txt files
+# Create a folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }else{
@@ -252,7 +265,7 @@ if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }
 
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
+# Create a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -262,10 +275,9 @@ for (address in filePath)
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
 
-
 # `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
 
-# use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
+# Use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 
 write(test, file = newFile)
@@ -274,24 +286,32 @@ n <- n+1
 }
 ```
 
-## Imports texts that were manually cleaned
+### 2.2.2 Manually clean files
 
+Proceed to manually cleaning the trimmed and converted .txt files by removing telephone numbers, website links, hyperlinks, and any other extraneous content that does not relate specifically to active school travel or school travel planning. Finally, review all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) can be fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+
+### 2.2.3 Import texts that were manually cleaned
+
+Next, import texts that were manually cleaned:
 ```{r}
-# location of manually cleaned .txt documents
+# Location of manually cleaned .txt documents
 cleantxtLocation <- "Cleaned .txt/Municipalities or Regions"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
 n <- 1 
 for (txt in cleantxtlist) {
 
-# Creates uniquely id text store in 'Environment'
+# Create a uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(txt, file.info(txt)$size))
 n <- n + 1 
 }
 ```
 
-## Creating data frame of texts 
+### 2.2.4 Create a data frame of texts 
 
+Creation of a data frame of texts is required prior to conversion to corpus. The data frame must contain 'doc_id' and 'text'. Additional fields may be included in the data frame, however it will be treated as metadata by the corpus. 
+
+Create data frame:
 ```{r}
 # This loop creates a vector of the texts
 text <- vector()
@@ -303,12 +323,12 @@ for (i in seq(1, n-1, 1))
 text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
-# Turns vector into data frame 
+# Turn vector into data frame 
 textDF <- data.frame(doc_id, text)
 
 ```
 
-## Conversion of data frame to corpus 
+### 2.2.5 Convert data frame to corpus 
 
 Next, convert the data frame to a corpus:
 ```{r}
@@ -316,13 +336,19 @@ df_source <- DataframeSource(textDF)
 municipal_corpus <- VCorpus(df_source)
 ```
 
-## Corpus cleaning 
+### 2.2.6 Clean corpus
 
+Identify relevant stop words to exclude from texts:
+```{r}
+municipal_stopwords <- c("york", "lane", "school", "transportation", "region", "halton", "can", "use", "guelph", "kingston", "durham", "get", "uf", "ontario", "contact", "also", "covid", "c", "e", "one", "eg", "-", "please", "canada", "n", "page", "canadian", "email", "o", "peel", "fort", "frances", "phone", "r", "ottawa", "barrie", "km", "next", "per", "thunder", "simcoe", "website", "wellington", "andor", "catholic", "k", "m", "middlesex", "oxford", "perth", "po", "provincial", "tollfree", "toronto", "ufc")
+```
+
+Remove stop words and punctuation:
 ```{r}
 municipal_corpus <- tm_map(municipal_corpus, stripWhitespace)
 municipal_corpus <- tm_map(municipal_corpus, content_transformer(tolower))
 
-municipal_corpus <- tm_map(municipal_corpus, removeWords, Mun_Reg_stopW)
+municipal_corpus <- tm_map(municipal_corpus, removeWords, municipal_stopwords)
 municipal_corpus <- tm_map(municipal_corpus, removeNumbers)
 
 municipal_corpus <- tm_map(municipal_corpus, removePunctuation)
@@ -330,21 +356,22 @@ municipal_corpus <- tm_map(municipal_corpus, removeWords, stopwords("english"))
 
 ```
 
-## Cleaning up Environment 
+### 2.2.7 Clean environment 
 
 ```{r}
 rm(list=ls(pattern = "^text"))
 rm(df_source)
 ```
 
-# Creating Consortia Corpus 
+## 2.3 Consortia 
 
-## Single Column Conversion
+### 2.3.1 Convert single column files
 
+Trim and convert all single column files from PDF to .txt:
 ```{r}
 pdfLocation <- "Texts/Consortia"
 
-# Creates folder for .txt files
+# Create a folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }else{
@@ -352,7 +379,7 @@ if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }
 
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
+# Create a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -362,10 +389,9 @@ for (address in filePath)
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
 
-
 # `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
 
-# use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
+# Use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 
 write(test, file = newFile)
@@ -374,24 +400,32 @@ n <- n+1
 }
 ```
 
-## Imports texts that were manually cleaned
+### 2.3.2 Manually clean files
 
+Proceed to manually cleaning the trimmed and converted .txt files by removing telephone numbers, website links, hyperlinks, and any other extraneous content that does not relate specifically to active school travel or school transportation. Finally, review all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) can be fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+
+### 2.3.3 Import texts that were manually cleaned
+
+Next, import texts that were manually cleaned:
 ```{r}
-# location of manually cleaned .txt documents
+# Location of manually cleaned .txt documents
 cleantxtLocation <- "Cleaned .txt/Consortia"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
 n <- 1 
 for (txt in cleantxtlist) {
 
-# Creates uniquely id text store in 'Environment'
+# Create a uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(txt, file.info(txt)$size))
 n <- n + 1 
 }
 ```
 
-## Creating data frame of texts 
+### 2.3.4 Create a data frame of texts 
 
+Creation of a data frame of texts is required prior to conversion to corpus. The data frame must contain 'doc_id' and 'text'. Additional fields may be included in the data frame, however it will be treated as metadata by the corpus. 
+
+Create data frame:
 ```{r}
 # This loop creates a vector of the texts
 text <- vector()
@@ -403,12 +437,12 @@ for (i in seq(1, n-1, 1))
 text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
-# Turns vector into data frame 
+# Turn vector into data frame 
 textDF <- data.frame(doc_id, text)
 
 ```
 
-## Conversion of data frame to corpus 
+### 2.3.5 Conversion of data frame to corpus 
 
 Next, convert the data frame to a corpus:
 ```{r}
@@ -416,13 +450,19 @@ df_source <- DataframeSource(textDF)
 consortium_corpus <- VCorpus(df_source)
 ```
 
-## Corpus cleaning 
+### 2.3.6 Clean corpus
 
+Identify relevant stop words to exclude from texts:
+```{r}
+consortium_stopwords <- c("login", "css", "sir", "waterloo", "niagara", "john", "school", "transportation", "york", "ottawa", "can", "london", "provides", "elgin", "find", "make", "lord", "holy", "toronto", "get", "please", "will", "also", "copyright", "canada", "ontario", "translate", "download", "email", "one", "arthur", "de", "info", "website", "x")
+```
+
+Remove stop words and punctuation:
 ```{r}
 consortium_corpus <- tm_map(consortium_corpus, stripWhitespace)
 consortium_corpus <- tm_map(consortium_corpus, content_transformer(tolower))
 
-consortium_corpus <- tm_map(consortium_corpus, removeWords, Con_stopW)
+consortium_corpus <- tm_map(consortium_corpus, removeWords, consortium_stopwords)
 consortium_corpus <- tm_map(consortium_corpus, removeNumbers)
 
 consortium_corpus <- tm_map(consortium_corpus, removePunctuation)
@@ -430,21 +470,22 @@ consortium_corpus <- tm_map(consortium_corpus, removeWords, stopwords("english")
 
 ```
 
-## Cleaning up Environment 
+### 2.3.7 Clean environment 
 
 ```{r}
 rm(list=ls(pattern = "^text"))
 rm(df_source)
 ```
 
-# Creating School Board Corpus 
+## 2.4 School Boards
 
-## Single Column Conversion
+### 2.4.1 Convert single column files
 
+Trim and convert all single column files from PDF to .txt:
 ```{r}
 pdfLocation <- "Texts/School Boards"
 
-# Creates folder for .txt files
+# Create a folder for .txt files
 if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }else{
@@ -452,7 +493,7 @@ if (file.exists(paste(pdfLocation, "txt"))){
     txtLocation <- paste(pdfLocation, "txt")
   }
 
-# Creates a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
+# Create a complete list of full directory paths and file names (with extension .pdf) from the pdf location as specified above
 fileBaseNames <- list.files(pdfLocation, pattern = "*.pdf", full.names=FALSE)
 filePath <- list.files(pdfLocation, pattern = "*.pdf", full.names=TRUE)
 n <- 1 
@@ -462,10 +503,9 @@ for (address in filePath)
 doc <- readPDF(control = list(text = "-layout"))(elem = list(uri = address), language = "en")
 test <- doc$content
 
-
 # `file_path_sans_ext(basename())` from the tools package strips the base name for the file of interest and removed the extension at the end which as seen below allow for the replacement of .pdf for .txt 
 
-# use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
+# Use of `sep = ""` argument is important to prevent the addition of spaces, which is the default for the paste function 
 newFile <- paste(txtLocation, "/", file_path_sans_ext(basename(address)), ".txt", sep = "")
 
 write(test, file = newFile)
@@ -474,10 +514,15 @@ n <- n+1
 }
 ```
 
-## Imports texts that were manually cleaned
+### 2.4.2 Manually clean files
 
+Proceed to manually cleaning the trimmed and converted .txt files by removing telephone numbers, website links, hyperlinks, and any other extraneous content that does not relate specifically to active school travel or school transportation. Finally, review all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) can be fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+
+### 2.4.3 Import texts that were manually cleaned
+
+Next, import texts that were manually cleaned:
 ```{r}
-# location of manually cleaned .txt documents
+# Location of manually cleaned .txt documents
 cleantxtLocation <- "Cleaned .txt/School Boards"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
@@ -490,8 +535,9 @@ n <- n + 1
 }
 ```
 
-## Creating data frame of texts 
+### 2.4.4 Create a data frame of texts 
 
+Create data frame:
 ```{r}
 # This loop creates a vector of the texts
 text <- vector()
@@ -503,12 +549,12 @@ for (i in seq(1, n-1, 1))
 text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
-# Turns vector into data frame 
+# Turn vector into data frame 
 textDF <- data.frame(doc_id, text)
 
 ```
 
-## Conversion of data frame to corpus 
+### 2.4.5 Convert  data frame to corpus 
 
 Next, convert the data frame to a corpus:
 ```{r}
@@ -516,8 +562,14 @@ df_source <- DataframeSource(textDF)
 school_corpus <- VCorpus(df_source)
 ```
 
-## Corpus cleaning 
+### 2.4.6 Clean corpus 
 
+Identify relevant stop words to exclude from texts:
+```{r}
+school_stopwords <- c("and", "asst", "board", "can", "cancellations", "catholic", "contact", "district", "east", "gta", "https", "login", "may", "or", "please", "school", "schools", "stp", "student", "students", "the", "transportation", "tri", "waterloo", "website", "will", "uf", "ontario", "-", "us", "north", "km", "county", "ottawa", "guelph", "ext", "phone", "e", "ps", "'s", "du", "toronto", "email", "o", "ottschoolbus", "simcoe", "canada", "careers", "covid", "facts", "ufd", "york", "pm", "ufa", "ufe", "wrdsb", "andor", "erin", "kg", "transporta", "cambridge", "httpsvimeocom", "muskoka", "stopr", "ufc", "windsor", "a", "durham", "geoquery", "hamiltonwentworth", "httpswwwwrdsbcaplanningwp", "hwdsb", "ic", "jk", "kawartha", "ng", "northeastern", "sudbury", "timiskaming", "wellingtondu")
+```
+
+Remove stop words and punctuation:
 ```{r}
 school_corpus <- tm_map(school_corpus, stripWhitespace)
 school_corpus <- tm_map(school_corpus, content_transformer(tolower))
@@ -530,32 +582,34 @@ school_corpus <- tm_map(school_corpus, removeWords, stopwords("english"))
 
 ```
 
-## Cleaning up Environment 
+### 2.4.7 Clean environment 
 
 ```{r}
 rm(list=ls(pattern = "^text"))
 rm(df_source)
 ```
 
-# Creating Policy Corpus 
+# 3. Combine Policy Corpora 
 
-## Imports texts that were manually cleaned
+To compare the body of policy documents to the academic paper corpus, combine all of the municipal, consortia, and school board documents in one corpus.
+
+## 3.1 Imports texts that were manually cleaned
 
 ```{r}
-# location of manually cleaned .txt documents
+# Location of manually cleaned .txt documents
 cleantxtLocation <- "Cleaned .txt/Policy"
   
 cleantxtlist <- list.files(cleantxtLocation, pattern = "*.txt", full.names=TRUE)
 n <- 1 
 for (txt in cleantxtlist) {
 
-# Creates uniquely id text store in 'Environment'
+# Create a uniquely id text store in 'Environment'
 assign(paste("text", n, sep = ""), readChar(txt, file.info(txt)$size))
 n <- n + 1 
 }
 ```
 
-## Creating data frame of texts 
+## 3.2 Create a data frame of texts 
 
 ```{r}
 # This loop creates a vector of the texts
@@ -568,12 +622,12 @@ for (i in seq(1, n-1, 1))
 text[i] <- to.plain(eval(parse(text = paste("text", i, sep = ""))))
 }
 
-# Turns vector into data frame 
+# Turn vector into data frame 
 textDF <- data.frame(doc_id, text)
 
 ```
 
-## Conversion of data frame to corpus 
+## 3.3 Convert data frame to corpus 
 
 Next, convert the data frame to a corpus:
 ```{r}
@@ -581,13 +635,20 @@ df_source <- DataframeSource(textDF)
 policy_corpus <- VCorpus(df_source)
 ```
 
-## Corpus cleaning 
+## 3.4. Clean corpus
 
+Identify relevant stop words to exclude from texts, in this all of the stop words previously identified for the other corpora:
+```{r}
+policy_stopwords <- union(consortium_stopwords, municipal_stopwords)
+policy_stopwords <- union(policy_stopwords, school_stopwords)
+```
+
+Remove stop words and punctuation:
 ```{r}
 policy_corpus <- tm_map(policy_corpus, stripWhitespace)
 policy_corpus <- tm_map(policy_corpus, content_transformer(tolower))
 
-policy_corpus <- tm_map(policy_corpus, removeWords,Policy_StopW)
+policy_corpus <- tm_map(policy_corpus, removeWords,policy_stopwords)
 policy_corpus <- tm_map(policy_corpus, removeNumbers)
 
 policy_corpus <- tm_map(policy_corpus, removePunctuation)
@@ -595,7 +656,7 @@ policy_corpus <- tm_map(policy_corpus, removeWords, stopwords("english"))
 
 ```
 
-# Exporting the Corpora 
+# 4. Save and export the corpora 
 
 ```{r}
 save(academic_corpus, file= "Corpus .rda/academic_corpus.rda")
@@ -604,4 +665,3 @@ save(municipal_corpus, file= "Corpus .rda/municipal_corpus.rda")
 save(school_corpus, file= "Corpus .rda/school_corpus.rda")
 save(policy_corpus, file= "Corpus .rda/policy_corpus.rda")
 ```
-
