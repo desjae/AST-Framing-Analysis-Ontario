@@ -574,28 +574,28 @@ ggraph(academic_bigram_graph, layout = "fr") +
 We interpreted the most common bigrams from the policy corpora (see Figure \ref{fig:policy-visual}), which includes all documents from municipalities, transportation consortia, and school boards, as the main ideas that STP stakeholders are focusing on and communicating to the public about AST. We used the `kwic` function from the R _quanteda_ package to identify and better understand identify the context of these key themes.
 
 ```{r policy-concordance, echo=FALSE}
-# Import VCorpus created by tm package
+# Import raw policy VCorpus (not cleaned of stop words or punctuation) created by tm package
 
-policy_quanteda <- tm::VCorpus(tm::VectorSource(policy_corpus))
+policy_quanteda <- tm::VCorpus(tm::VectorSource(raw_policy_corpus))
 policy_quanteda <- corpus(policy_quanteda)
 
 # Extraction of various search terms and the surrounding sentence context
 
-kwic_pol_physical <- kwic(tokens(policy_quanteda), pattern = "physical")
-kwic_pol_mental <- kwic(tokens(policy_quanteda), pattern = "mental")
-kwic_pol_air <- kwic(tokens(policy_quanteda), pattern = "air")
-kwic_pol_traffic <- kwic(tokens(policy_quanteda), pattern = "traffic")
-kwic_pol_safety <- kwic(tokens(policy_quanteda), pattern = "safety")
-kwic_pol_health <- kwic(tokens(policy_quanteda), pattern = "health")
-kwic_pol_emissions <- kwic(tokens(policy_quanteda), pattern = "emissions")
-kwic_pol_routes <- kwic(tokens(policy_quanteda), pattern = "routes")
-kwic_pol_lanes <- kwic(tokens(policy_quanteda), pattern = "lanes")
-kwic_pol_zone <- kwic(tokens(policy_quanteda), pattern = "zone")
-kwic_pol_bus <- kwic(tokens(policy_quanteda), pattern = "bus")
-kwic_pol_comm <- kwic(tokens(policy_quanteda), pattern = "community")
-kwic_pol_ben <- kwic(tokens(policy_quanteda), pattern = "benefit")
-kwic_pol_wea <- kwic(tokens(policy_quanteda), pattern = "weather")
-kwic_pol_lanes <- kwic(tokens(policy_quanteda), pattern = "lanes")
+kwic_pol_physical <- kwic(tokens(policy_quanteda), pattern = "physical", window = 10)
+kwic_pol_mental <- kwic(tokens(policy_quanteda), pattern = "mental", window = 10)
+kwic_pol_air <- kwic(tokens(policy_quanteda), pattern = "air", window = 10)
+kwic_pol_traffic <- kwic(tokens(policy_quanteda), pattern = "traffic", window = 10)
+kwic_pol_safety <- kwic(tokens(policy_quanteda), pattern = "safety", window = 10)
+kwic_pol_health <- kwic(tokens(policy_quanteda), pattern = "health", window = 10)
+kwic_pol_emissions <- kwic(tokens(policy_quanteda), pattern = "emissions", window = 10)
+kwic_pol_routes <- kwic(tokens(policy_quanteda), pattern = "routes", window = 10)
+kwic_pol_lanes <- kwic(tokens(policy_quanteda), pattern = "lanes", window = 10)
+kwic_pol_zone <- kwic(tokens(policy_quanteda), pattern = "zone", window = 10)
+kwic_pol_bus <- kwic(tokens(policy_quanteda), pattern = "bus", window = 10)
+kwic_pol_comm <- kwic(tokens(policy_quanteda), pattern = "community", window = 10)
+kwic_pol_ben <- kwic(tokens(policy_quanteda), pattern = "benefit", window = 10)
+kwic_pol_wea <- kwic(tokens(policy_quanteda), pattern = "weather", window = 10)
+kwic_pol_lanes <- kwic(tokens(policy_quanteda), pattern = "lanes", window = 10)
 ```
 
 ```{r content-table, echo=FALSE}
