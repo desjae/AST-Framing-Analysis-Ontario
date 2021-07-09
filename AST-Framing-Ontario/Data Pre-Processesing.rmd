@@ -635,6 +635,14 @@ df_source <- DataframeSource(textDF)
 policy_corpus <- VCorpus(df_source)
 ```
 
+## 3.4. Create corpus for concordances
+
+Before removing stop words and punctuation, create a corpus to use for identifying keywords in context. 
+
+```{r}
+raw_policy_corpus <- policy_corpus
+```
+
 ## 3.4. Clean corpus
 
 Identify relevant stop words to exclude from texts, in this all of the stop words previously identified for the other corpora:
