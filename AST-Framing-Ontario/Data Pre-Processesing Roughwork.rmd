@@ -688,6 +688,8 @@ senti <- inner_join(bing, vocab, by= "word")
 
 ```
 
+Word Pairs and Correlation 
+
 ```{r}
 library(widyr)
 
@@ -760,6 +762,7 @@ word_cors %>%
 
 
 ```
+
 ```{r}
 word_cors %>%
   filter(item1 %in% c("traffic", "independent", "safety", "urban", "density", "street")) %>%
