@@ -672,4 +672,5 @@ save(consortium_corpus, file= "Corpus .rda/consortium_corpus.rda")
 save(municipal_corpus, file= "Corpus .rda/municipal_corpus.rda")
 save(school_corpus, file= "Corpus .rda/school_corpus.rda")
 save(policy_corpus, file= "Corpus .rda/policy_corpus.rda")
+save(raw_policy_corpus, file= "Corpus .rda/raw_policy_corpus.rda")
 ```
