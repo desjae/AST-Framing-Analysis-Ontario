@@ -85,6 +85,7 @@ load(file= "Corpus .rda/municipal_corpus.rda")
 load(file= "Corpus .rda/consortium_corpus.rda")
 load(file= "Corpus .rda/school_corpus.rda")
 load(file= "Corpus .rda/policy_corpus.rda")
+load(file= "Corpus .rda/raw_policy_corpus.rda")
 ```
 
 ```{r package-bib, include=FALSE}
@@ -177,11 +178,6 @@ In the final step, we removed all blank spaces, punctuation, capitalization, and
 
 ## 3.1. Natural language processing
 
-Natural language processing [see @silgetextmining2021]
-
-Topic modelling
-
-
 ## 3.2. Reproducibility
 
 This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download. 
@@ -238,10 +234,10 @@ academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 100)
 ```
 
 ```{r top-word-frequencies, echo=FALSE}
-municipal_words <- municipal_vocab %>% slice(1939:1915)
-school_words <- school_vocab %>% slice(1861:1837)
+municipal_words <- municipal_vocab %>% slice(1938:1914)
+school_words <- school_vocab %>% slice(1812:1788)
 consortia_words <- consortium_vocab[-c(971),] %>% slice(993:968)
-academic_words <- academic_vocab[-c(1309, 1304),] %>% slice(1311:1285)
+academic_words <- academic_vocab[-c(1302, 1297),] %>% slice(1304:1278)
 ```
 
 ```{r word-table, echo=FALSE}
@@ -629,8 +625,8 @@ academic_dtm <- DocumentTermMatrix(academic_corpus)
 # Select number of topics for each LDA model using `ldatuning` 
 
 municipal_lda_num <- FindTopicsNumber(
-  municipal_dtm, # Check with other DTM
-  topics = seq(from = 5, to = 20, by = 2),
+  municipal_dtm, 
+  topics = seq(from = 1, to = 10, by = 1),
   metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
   method = "Gibbs",
   #control = list(seed = 77),
@@ -639,8 +635,8 @@ municipal_lda_num <- FindTopicsNumber(
 )
 
 school_lda_num <- FindTopicsNumber(
-  school_dtm, # Check with other DTM
-  topics = seq(from = 5, to = 20, by = 2),
+  school_dtm, 
+  topics = seq(from = 1, to = 10, by = 1),
   metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
   method = "Gibbs",
   #control = list(seed = 77),
@@ -649,8 +645,8 @@ school_lda_num <- FindTopicsNumber(
 )
 
 consortia_lda_num <- FindTopicsNumber(
-  consortia_dtm, # Check with other DTM
-  topics = seq(from = 5, to = 20, by = 2),
+  consortia_dtm, 
+  topics = seq(from = 1, to = 10, by = 1),
   metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
   method = "Gibbs",
   #control = list(seed = 77),
@@ -659,17 +655,21 @@ consortia_lda_num <- FindTopicsNumber(
 )
 
 policy_lda_num <- FindTopicsNumber(
-  policy_dtm, # Check with other DTM
-  topics = seq(from = 5, to = 20, by = 2),
+  policy_dtm,
+  topics = seq(from = 1, to = 10, by = 1),
   metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
   method = "Gibbs",
   #control = list(seed = 77),
   #mc.cores = 2L,
   #verbose = TRUE
 )
+```
+
+```{r topics-academic, echo=FALSE, cache=TRUE}
+# DO NOT RUN EVERY TIME - takes approximately 20 minutes
 
 #academic_lda_num <- FindTopicsNumber(
-  #academic_dtm, # Check with other DTM
+  #academic_dtm, 
   #topics = seq(from = 2, to = 50, by = 5),
   #metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
   #method = "Gibbs",
@@ -680,25 +680,29 @@ policy_lda_num <- FindTopicsNumber(
 
 ```{r evaluate-lda, echo=FALSE}
 
-#FindTopicsNumber_plot(municipal_lda_num)
+FindTopicsNumber_plot(municipal_lda_num)
 FindTopicsNumber_plot(school_lda_num)
-#FindTopicsNumber_plot(consortia_lda_num)
-#FindTopicsNumber_plot(policy_lda_num)
-#FindTopicsNumber_plot(academic_lda_num)
+FindTopicsNumber_plot(consortia_lda_num)
+FindTopicsNumber_plot(policy_lda_num)
+#(academic_lda_num)
 
-# The output suggests that there are 9 topics in the municipal corpus
-# The output suggests that there are 9 topics in the school corpus
-# The output suggests that there are 7 topics in the municipal corpus
-# The output suggests that there are 9 topics in the municipal corpus
-# The output suggests that there are ? topics in the municipal corpus
+# The graphs suggest that there are 7 topics for the municipal corpora
+# The graphs suggest that there are 7 topics for the school corpora
+# The graphs suggest that there are 5 topics for the municipal corpora
+# The graphs suggest that there are 5 topics for the policy corpora
+# The graphs suggest that there are 22 topics for the academic corpora
 ```
 
 ```{r corpus-lda-model, echo=FALSE}
-municipal_lda <- LDA(municipal_dtm, k = 9)
-school_lda <- LDA(school_dtm, k = 9)
-consortia_lda <- LDA(consortia_dtm, k = 7)
-policy_lda <- LDA(policy_dtm, k = 9)
-#academic_lda <- LDA(academic_dtm, k = ?)
+municipal_lda <- LDA(municipal_dtm, k = 3, control=list(seed = 1, verbose = 25))
+
+school_lda <- LDA(school_dtm, k = 3, control=list(seed = 1, verbose = 25))
+
+consortia_lda <- LDA(consortia_dtm, k = 3, control=list(seed = 1, verbose = 25))
+
+policy_lda <- LDA(policy_dtm, k = 3, control=list(seed = 1, verbose = 25))
+
+#academic_lda <- LDA(academic_dtm, k = 22, control=list(seed = 1, verbose = 25))
 ```
 
 ```{r municipal-topics, echo=FALSE}
@@ -769,21 +773,21 @@ policy_top_terms %>%
   scale_y_reordered()
 ```
 
-```{r academic-terms, echo=FALSE}
+```{r academic-terms, echo=FALSE, cache=TRUE}
 # Do not run; number of topics is not yet determined
 
-academic_top_terms <- academic_topics %>%
-  group_by(topic) %>%
-  slice_max(beta, n = 10) %>% 
-  ungroup() %>%
-  arrange(topic, -beta)
+#academic_top_terms <- academic_topics %>%
+  #group_by(topic) %>%
+  #slice_max(beta, n = 10) %>% 
+  #ungroup() %>%
+  #arrange(topic, -beta)
 
-academic_top_terms %>%
-  mutate(term = reorder_within(term, beta, topic)) %>%
-  ggplot(aes(beta, term, fill = factor(topic))) +
-  geom_col(show.legend = FALSE) +
-  facet_wrap(~ topic, scales = "free") +
-  scale_y_reordered()
+#academic_top_terms %>%
+  #mutate(term = reorder_within(term, beta, topic)) %>%
+  #ggplot(aes(beta, term, fill = factor(topic))) +
+  #geom_col(show.legend = FALSE) +
+  #facet_wrap(~ topic, scales = "free") +
+  #scale_y_reordered()
 ```
 
 
@@ -803,27 +807,15 @@ municipal_documents <- tidy(municipal_lda, matrix = "gamma")
 school_documents <- tidy(school_lda, matrix = "gamma")
 consortia_documents <- tidy(consortia_lda, matrix = "gamma")
 policy_documents <- tidy(policy_lda, matrix = "gamma")
-academic_documents <- tidy(academic_lda, matrix = "gamma")
+#academic_documents <- tidy(academic_lda, matrix = "gamma")
 ```
 
 5. Discussion
 ===============
 
-## 5.1. Framing of AST in policy documents
+## 5.1. Implications for School Travel Planning
 
-The presence of _travel planning_ among the top pairs of consecutive words for municipalities, school boards, and transportation consortia reflects the priority given to this intervention in Ontario.
-
-## 5.2. Framing of AST in academic papers
-
-Notably absent from the policy corpora is _children's independent mobility_ (CIM). AST is one of the most common opportunities for children to travel without adult supervision on a regular basis, yet STP stakeholders do not discuss this topic. CIM was first described by Hillman et al. [-@hillmanOneFalseMove1990] as the freedom of children to travel and play within their neighborhood and city without the presence of adults. The ability of children to reach destinations such as school or local parks by walking or bicycling on their own is a growing area of research that is related to and often overlaps with the body of literature on AST. 
-
-In a study conducted in multiple Canadian cities, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] found that a range of factors such as child grade, car ownership, and parental perceptions of safety and environment were associated with CIM. Parental perceptions of children's autonomy also influences CIM [@alparoneChildrenIndependentMobility2012]. In addition to independent trips to school, children also travel by walking or bicycling on their own to other non-school destinations such as outdoor spaces (i.e., parks, playgrounds), the homes of family members or friends, shopping places, and libraries, to name a few [@badlandAssessingNeighbourhoodDestination2015; @villanuevaWhereChildrenTravel2013a].
-
-## 5.3. Implications for School Travel Planning
-
-School boards and educators are an influential contributor to AST and STP efforts in Canada.
-
-## 5.4. Limitations
+## 5.2. Limitations
 
 6.1. Conclusion
 ===============
