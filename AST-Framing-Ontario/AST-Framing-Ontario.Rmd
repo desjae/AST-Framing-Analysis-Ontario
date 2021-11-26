@@ -50,6 +50,10 @@ csl: elsevier-harvard.csl
 output: rticles::elsevier_article
 ---
 
+```{r echo=FALSE}
+rm(list = ls())
+```
+
 ```{r load-packages, include=FALSE}
 library(DiagrammeR)
 library(dplyr)
@@ -71,6 +75,8 @@ library(topicmodels)
 library(widyr)
 library(word2vec)
 library(wordcloud)
+library(ldatuning)
+library(quanteda)
 ```
 
 ```{r load-data, include=FALSE}
@@ -79,6 +85,7 @@ load(file= "Corpus .rda/municipal_corpus.rda")
 load(file= "Corpus .rda/consortium_corpus.rda")
 load(file= "Corpus .rda/school_corpus.rda")
 load(file= "Corpus .rda/policy_corpus.rda")
+load(file= "Corpus .rda/raw_policy_corpus.rda")
 ```
 
 ```{r package-bib, include=FALSE}
@@ -96,52 +103,36 @@ knitr::write_bib(file = 'packages.bib')
 1. Introduction
 ===============
 
-## 1.1. School travel planning in Canada
+Walking and bicycling to school, commonly known as active school travel (AST), has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. In response to this trend, school travel planning has become a popular intervention across Canada that has resulted in mixed success with some schools reporting an increase in AST [e.g., @buliungSchoolTravelPlanning2011; @mammenActiveSchoolTravel2014], while others did not observe a change in behaviour [@buttazzoniPromotingActiveSchool2019] or needed more time and resources to be effective [@mammenPuttingSchoolTravel2015]. 
 
-Walking and bicycling to school, commonly known as active school travel or active school transportation (AST), has been declining in Canada and North America for decades [@rothmanDeclineActiveSchool2018], with levels much lower than other developed countries like The Netherlands [@vangoeverdenSchoolTravelBehaviour2013] and Japan [@waygoodChapterSixteenJapan2020]. This trend has prompted a multi-sector response to identify strategies to increase AST, the most popular of which is a growing interest in school travel planning across Canada.
+School travel planning (STP) is a "school-specific" intervention led by a facilitator that brings together a committee of stakeholders from diverse sectors including education, planning, transportation, and public health to develop action plans [@mammenSchoolTravelPlanning2014]. This five-step process involves identifying barriers to AST based on the local context and implementing approaches or activities that alleviate concerns and encourage AST [@faulknerSchoolTravelPlans2018]. STP facilitators and committee members generally intervene at the school through a range of activities such as educational strategies, in-person events or programs, improvements to the school site, and enforcement [@mammenActiveSchoolTravel2014]. 
 
-School travel planning (STP) is a "school-specific" intervention led by a facilitator that brings together a committee of stakeholders from diverse sectors including education, planning, transportation, and public health [@mammenSchoolTravelPlanning2014]. Parents and parent councils also typically have a role in supporting or implementing STP. The intervention encourages participation from the broader community and collaboration between involved stakeholders, who contribute their expertise to remove "school-specific" barriers to AST and to identify strategies for promoting and encouraging AST. STP may also involve other stakeholders including local advocacy groups or environmental organizations who are familiar with the state of AST at the community-level. Buliung et al. [-@buliungSchoolTravelPlanning2011] piloted an STP intervention at 12 schools in 4 Canadian provinces and reported that it increased AST rates and led to a "mobilization of diverse community resources". Since this seminal study, STP interventions have become increasingly popular and common at schools across Canada and have even attracted funding from provincial governments. 
+How STP is framed to a target audience may influence how this intervention is received and whether it encourages the audience to support it or participate. In particular, STP stakeholders make choices about the points of intervention and potential benefits that ought to be communicated to the public to facilitate adoption of AST. Educational strategies, which account for approximately one quarter of STP strategies implemented at Canadian schools [@mammenActiveSchoolTravel2014], need to effectively engage multiple audiences – parents, students, politicians – on the issue, challenges, and benefits of AST. Promotional materials, therefore, should reflect current knowledge from research about school travel and the built environment, as well as local content specific to factors that influence travel decisions for parents, in order to effectively engage the public in advocating for improving AST or to expose parents and the community to essential information that may prompt behaviour change. 
 
-## 1.2. Correlates of active school travel
+On the one hand, parents have been found to express different understandings, nomenclature, and conceptualizations than planners of the factors that influence school travel [@buliungLivingJourneySchool2021]. However, it is unknown to what degree there is concurrence between STP materials presented to the public and the literature on school travel and parental perceptions, and how the complexity of the AST issue is presented to the public.
 
-Factors that influence AST are typically conceptualized according to the socioecological model whereby children's travel behaviour is understood within the context of their household, social, and built environments [see @mitraIndependentMobilityMode2013]. At the individual level, older child age is often associated with AST [@mammenUnderstandingDriveEscort2012; @starkExploringIndependentActive2018; @wilsonUnderstandingChildParent2018]. There is some evidence that gender is a determinant of AST [@babbChildrenActiveTravel2017; @larsenInfluencePhysicalEnvironment2009], although this is not a strong or consistent finding [@rothmanDeclineActiveSchool2018; @schoeppeAssociationsChildrenActive2015]. Distance between home and school is associated with AST [@ikedaAssociationsChildrenActive2018; @mammenUnderstandingDriveEscort2012; @pontEnvironmentalCorrelatesChildren2009; @rothmanDeclineActiveSchool2018] with less AST reported among children who have to travel farther to school. Car ownership is an important household-level influence on AST [@pontEnvironmentalCorrelatesChildren2009; @rothmanDeclineActiveSchool2018; @wilsonUnderstandingChildParent2018], as is household income [@pontEnvironmentalCorrelatesChildren2009]. Parental perceptions of the environment [@demeesterParentalPerceivedNeighborhood2014; @panterAttitudesSocialSupport2010] and children's skills [@ghekiereInsightsChildrenIndependent2017] also influence whether they allow their children to walk or cycle to school. Finally, many studies have found that the quality of the built environment [@ikedaAssociationsChildrenActive2018; @kimBuiltNaturalEnvironmental2020] and active travel infrastructure [@pontEnvironmentalCorrelatesChildren2009] facilitate AST. Concerns about traffic and strangers have been reported by parents who drive their children to school [@mammenUnderstandingDriveEscort2012]. The consensus is that all of these factors are interrelated and that interventions ought to target multiple factors in order to increase walking and bicycling levels to school. 
+The aim of this paper is to fill this research gap by analyzing how AST is framed by STP stakeholders in Ontario, Canada. We used text mining and topic modelling to examine how local policy documents from Ontario municipalities and school boards present and communicate the benefits and barriers of AST and the solutions for improving AST. We compared the findings from these documents to a selection of studies on AST and explored the extent to which there is concurrence between research findings to date and promotional materials shared with the public to increase AST.
 
-## 1.3. Correlates of children's independent mobility
 
-AST is one of the most common opportunities for children to travel without adult supervision on a regular basis. Children's independent mobility (CIM) was first described by Hillman et al. [-@hillmanOneFalseMove1990] as the freedom of children to travel and play within their neighborhood and city without the presence of adults. The ability of children to reach destinations such as school or local parks by walking or bicycling on their own as a growing area of research that is related to the body of literature on AST. Similar to AST, CIM is much less common now than it was for previous generations [@bhosaleIntergenerationalChangeChildren2017], and is influenced by many similar personal and environmental factors as AST [@marziChildrenIndependentMobility2018; @mitraIndependentMobilityMode2013]. In a study conducted in multiple Canadian cities, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] found that a range of factors such as child grade, car ownership, and parental perceptions of safety and environment were associated with CIM. In addition to independent trips to school, children also travel by walking or bicycling on their own to other non-school destinations such as outdoor spaces (i.e., parks, playgrounds), the homes of family members or friends, shopping places, and libraries, to name a few [@badlandAssessingNeighbourhoodDestination2015; @villanuevaWhereChildrenTravel2013a].
+2. Literature Review
+======================
 
-## 1.4. Benefits of AST and CIM
-
-The desire to increase AST is warranted - there is strong evidence that children who walk and bicycle to school accrue physical and mental health benefits. Many studies and reviews have focused on the association between AST or CIM and physical activity [e.g., @faulknerActiveSchoolTransport2009; @mitraChildrenActivitytransportationLifestyles2017; @schoeppeAssociationsChildrenActive2015], with findings consistently demonstrating that children who travel by walking or bicycling to school are more active than their peers who do not use active travel. More recently, researchers have been exploring the link between transport and children's wellbeing [@babbChildrenActiveTravel2017; @waygoodTransportChildrenWellbeing2020], which has relevant applications to the study of school travel and satisfaction [see @vandenbergFactorsAffectingParental2020]. CIM is also important for different domains of children's health and wellbeing [@riaziChildrenIndependentMobility2018]. It offers benefits such as increasing traffic and safety skills, boosting spatial awareness when navigating public spaces, and providing more opportunity for social interaction with peers [@schoeppeAssociationsChildrenIndependent2014].
-
-## 1.5. Encouraging adoption of active school travel
-
-In the case of AST and CIM in Canada, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] state: "it will be vital for interventions to target modifiable factors, including children's and parents' perceptions of their social environment." Parents play the important role of "gatekeeper" by either granting or restricting CIM licenses, meaning whether children can travel alone [@sharminAssociationBuiltEnvironment2017]. For this reason, stakeholders involved in STP produce information targeted for both children and parents, and aim to involve the broader community in their efforts to increase the number of children walking and bicycling to school..
-
-However, the ways in which interventions like STP are framed to their target audience can ultimately influence how they are received and whether they result in behaviour change. The correlates of AST are important knowledge for policymakers because they identify points of intervention and potential benefits that ought to be communicated to the public encourage adoption of AST and to build support for new planning paradigms. What is less clear is how CIM plays into the consideration of policymakers when they act on the objective of increasing AST. 
-
-Any goals for AST, and also CIM, ought to be clearly articulated and reflected in transportation plans and policies to guide initiatives. Presently, however, there has been no study to date that explores how Canadian municipalities and schools frame and discuss AST with the public. Content analysis is one method to analyze how particular issues are framed to groups of people, for instance parents or educators who might be inclined to support AST. It attempts to understand how information presented from a "communicator" leads the "receiver" to a desired response [@reynardGrowthResilienceHow2021]. In a recent paper [@reynardGrowthResilienceHow2021], framing analysis was applied to review municipal policies addressing climate change in four western Canadian cities. Natural language processing (NLP) was used for a similar purpose to examine content in general plans from Californian cities [@brinkleyWhatPlanUsing2021]. The way policy issues are framed is important to understand because it plays a role in either altering or preserving the existing social perceptions. 
-
-## 1.6. Study aim
-
-The aim of this paper is to analyze how AST is framed by STP stakeholders in Ontario, Canada. We used topic modelling and content analysis to examine how the benefits and barriers of AST are presented and which solutions for improving AST are identified in local policy documents from Ontario municipalities and school boards. We compared these documents to a selection of studies on AST and CIM to explore the extent to which research findings have trickled down to inform policy and planning for AST interventions.
-
-2. Data
+3. Data
 ===============
 
-## 2.1. Data retrieval
+## 3.1. Data retrieval
 
-### 2.1.1. Policy documents
+### 3.1.1. Policy documents
 
-To determine which stakeholder groups are typically involved in AST and/or STP initiatives in Ontario, we first conducted a preliminary scan of current and past projects funded by the _Ontario Active School Travel_. We found that projects are often led in collaboration by a school board, the respective municipality or region (i.e., transportation planners, public health professionals, engineers, etc.), and the regional transportation consortia. Non-profit organizations, police services, and advocacy groups are other stakeholders who may play a role in supporting AST and/or STP. 
+We assembled a collection of publicly available documents that were sourced online from the main stakeholder groups involved in STP initiatives in Ontario: i) school boards (public and English-speaking only); ii) municipal governments; and iii) transportation consortia. Non-profit organizations, police services, and advocacy groups are other stakeholders who may play a role in supporting AST and/or STP, but this study does not include any documents from these groups because they are not consistently participating in all initiatives. 
 
-We then assembled a collection of publicly available documents that were sourced online from the main stakeholder groups: i) English school boards; ii) municipal government; and iii) transportation consortia. The search was guided first by a list of all English school boards across Ontario. The websites of each school board were searched for pages related to transportation or school travel. These pages were manually downloaded. Next, we collected documents by searching municipal government and transportation consortia websites. The latter were identified based on geographic area (i.e., the municipalities and/or transportation consortia who are in the same geographic area of each school board). Pages related to active transportation or school travel were manually downloaded. Webpages were included in the corpus if they were easy to find. This primary criteria was important since our analysis pertains to how such issues are framed to the public. Thus, these pages ought to be easy to find, which we defined as requiring no more than 2-4 separate links from the initial Google search.
+The search was guided first by a list of all English public school boards across Ontario. The websites of each school board were manually searched for pages related to school transportation or travel. Any pages relevant to these topics were manually downloaded. Next, we collected documents by searching municipal government and transportation consortia websites. The latter were identified based on geographic area (i.e., the municipalities and/or transportation consortia that are in the same geographic area of each school board). Pages related to active or school travel were manually downloaded. Webpages from STP stakeholder websites were included in our analysis if they were easy to find. This primary criteria was important since our analysis pertains to how such issues are framed to the public. Thus, we included only webpages that were easy to find, which we defined as requiring no more than 2-4 separate links from the initial Google search.
 
-The initial policy corpus included 64 relevant policy documents (i.e., one webpage or more) from all main stakeholder groups. It is important to note that school boards, municipalities, and transportation consortia may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents. Search results are summarized in Table \ref{tab:search-results}.
+The initial corpus of policy documents included 64 relevant webpages (i.e., one page or more) from all STP stakeholder groups. It is important to note that school boards, municipalities, and transportation consortia may or may not publish information about their involvement in AST and STP efforts on their respective websites or in policy documents, which means that some of these groups for particular regions in Ontario are not included in our analysis. Search results are summarized in Table \ref{tab:policy-documents}.
 
 ```{r policy-documents, echo=FALSE}
 data_tbl <- data.frame(
-  Stakeholder = c("English school boards", "Municipalities or regions", "Transportation consortia"),
+  Stakeholder = c("School boards", "Municipalities", "Transportation consortia"),
   Total = c("62", "62", "39"),
   Included = c("31", "25", "8")
 )
@@ -152,42 +143,142 @@ kable(data_tbl,
       caption = "\\label{tab:search-results}Search results from the main STP stakeholder groups.") %>%
   kable_paper(full_width = F) %>%
   column_spec(1, bold = T, border_right = T) %>%
-  column_spec(2, width = "30em") %>%
   column_spec(3, border_left = T) %>%
   kable_styling(latex_options = c("striped", "scale_down"))
 ```
 
-### 2.2.1. Academic papers
+### 3.2.1. Academic papers
 
-## 2.2. Data cleaning
+__To be completed by Dr. Paez__
 
-A multi-step process was conducted to ensure that the analysis captured as much  content as possible from both the policy documents (n = 64) and academic papers (n = 233). We manually removed any extraneous material in the documents that did not pertain to AST specifically. This included footnotes, references, acknowledgments, and conflict of interest statements in the academic papers. We removed all phone numbers, inserted links to other webpages, personal names, and content not to specific to AST from the policy documents that were retrieved from the websites of school boards, municipalities, and transportation consortia.
+## 3.2. Data cleaning
 
-To begin, the webpages, which were manually downloaded in portable document format (PDF), were trimmed so that pages that only consisted of tables, figures, or references were removed. Many academic papers were in a two-column format, which is not ideal for conversion to `txt`. We adapted a procedure (https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r) to read the two-column PDF documents so that they would be converted correctly. Four academic papers did not join sufficiently and were taken out of the corpus due to the substantial time required to manually correct their inconsistencies.
+A multi-step process was conducted to ensure that the analysis captured as much content as possible from both the policy documents (n = 64) and academic papers (n = 233). To begin, the webpages, which were manually downloaded in portable document format (PDF), were trimmed so that pages that only consisted of tables, figures, or references were removed. Many academic papers were in a two-column format, which is not ideal for conversion to `txt`. We adapted a procedure (https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r) to read the two-column PDF documents so that they would be converted correctly. Four academic papers did not join sufficiently and were taken out of the corpus due to the substantial time required to manually correct their inconsistencies.
 
-We then converted the trimmed PDF documents into `txt` files so that they could be imported in `R` for topic modelling. We proceeded to a manual cleaning phase where we removed any remaining tables, figures, references, headers/footings, and captions that could not be trimmed. Manual corrections were also required for certain pages in academic papers that remained in two-column format after the conversion process. This typically occured on pages that had a table or figure which disrupted the text. Finally, we reviewed all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) were fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
+Next, we converted the trimmed PDF documents into `txt` files so that they could be imported in R for analysis. We then proceeded to a manual cleaning phase where we removed any remaining tables, figures, references, headers/footings, and captions that could not be trimmed. Manual corrections were also required for certain pages in academic papers that remained in two-column format after the conversion process. This typically occurred on pages that had a table or figure which disrupted the text. Finally, we reviewed all of the documents to remove hyphenation by line breaks and to keep hyphenated words together on the same line. Any ligatures (e.g., combinations of characters or letters that were not properly detected during the conversion process) were fixed by inserting the unicode sequence of character to replace the missing sequence of characters.
 
-At this point, the documents were imported into the corpus in `R` and added to a data frame for analysis. In the final step before analysis, we removed all blank spaces, punctuation, capitalization, and numbers. English stop words, which are common words such as _and_ or _the_ as identified in a predetermined list by Lewis et al. [@R-tm] and other frequent terms in the documents like places were removed from the corpus.  
+We also manually removed any extraneous material in the academic papers that did not pertain to AST specifically. This included footnotes, references, acknowledgments, and conflict of interest statements in the academic papers. We removed all phone numbers, inserted links to other webpages, personal names, and content not to specific to AST from the policy documents that were retrieved from the websites of school boards, municipalities, and transportation consortia.
 
-3. Methods
+In the final step, we removed all blank spaces, punctuation, capitalization, and numbers. English stop words, which are common words such as _and_ or _the_ as identified in a predetermined list by Lewis et al. [@R-tm] and other frequent terms in the documents like "school" and specific location names, were removed from the corpora.  
+
+4. Methods
 ===============
 
-## 3.1. Case study: Ontario, Canada
+## 4.1. Framing analysis
 
-In 2017, the provincial government of Ontario issued funding to Green Communities Canada (GCC), a non-profit organization, to launch the _Ontario Active School Travel_ (OAST) program. The program provides funding for school and community-based initiatives and supports stakeholders in municipalities across the province to implement STP and other interventions aimed at increasing AST. As of 2021, OAST has funded _X_ projects in Ontario. GCC continues its work by providing resources for interested stakeholders and funding projects across Ontario led by collaborative groups involving school boards, municipal or regional governments, and regional transportation consortia. The latter are dedicated transportation bodies that deliver efficient and effective transportation services, which generally focuses on providing the school busing service to families in their associated region.
+Issues that pertain to public health or wellbeing are often presented to the public through particular frames to influence perceptions or behaviours. Gamson and Modigliani [-@gamsonChangingCulture1987] conceptualize a frame as a “central organizing idea or story line that provides meaning” to a particular phenomenon. A frame can enable individuals "to locate, perceive, identify, and label" information pertaining to various dimensions of an issue [@goffmanFrameAnalysisEssay1974]. Scholars in the field of political communications have proposed that communicators, such as the media or an institution, construct the narrative of a frame for policy positions or public issues in order to activate or restrict a particular response in the intended audience [@panFramingAnalysisApproach1993]. Framing can be used to position existing solutions as suitable to address particular issues [@mahFramecriticalPolicyAnalysis2014], which may prevent the public from being aware of other policy approaches that challenge the status quo to bring about more radical change. The way policy issues are framed is ultimately important to understand because it plays a role in either altering or preserving the existing social perceptions.
 
-## 3.2. Topic modelling
+Framing of issues is an important step in developing health policy. An obvious example over the past decade is the framing of climate change as a public health issue [e.g., @ depouxCommunicatingClimateChange2017; @maibachReframingClimateChange2010; @weathersDevelopmentsFramingClimate2016] to increase public engagement and reception of the issue. Transport planners also use different frames to guide the extent to which transport policies can be adapted to address climate change. In a recent paper [@reynardGrowthResilienceHow2021], framing analysis was applied to review the representation of issues such as mobility and social exclusion in municipal policies from four western Canadian cities under the current circumstances of climate change. The authors found four primary frames: “The Growing City”, “If You Build It, They Will Come”, “Better City for All”, and a “the Resilient City”. Each frame presented the nature, opportunities, and challenges of climate change in different ways which set the stage for the types of mitigation and adaptation strategies that cities were proposing to address this issue.
 
-## 3.3. Summative content analysis
+Given the range of factors at multiple levels of the socioecological model that influence school travel, it is important to understand how walking and bicycling to school are framed to the public. Is active school travel framed as a public health or environmental issue? Is it framed as both? Do proposed solutions to increase AST focus primarily on the intrapersonal and interpersonal factors, meaning that behaviour change must ultimately result from different decisions made by the individual or the household? Or is the decline in AST framed as an issue that must be addressed through changes in the built environment? These are the types of questions that we aim to answer in this paper. To our knowledge, this topic has not be addressed in the school travel literature to date.
 
-## 3.4. Reproducibility
+## 4.2. Topic modelling
 
-This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download.
+The topic modelling analysis was conducted in R. We primarily used the following packages: `topicmodels` [@R-topicmodels], `word2vec` [@R-word2vec], and `wordcloud` [@R-wordcloud] to examine content in the documents that were sourced for this project. These packages have functions for determining the frequency of specific words in each document, relationships (e.g., pairs of adjacent terms) and correlations between words, and estimating Latent Dirichlet allocation (LDA) models to classify documents according to the topics that are contained within them. We describe in the section below how we used these functions to produce our results.
 
-4. Results
+## 4.3. Reproducibility
+
+This paper is an example of open and reproducible research that uses only open software. All data were obtained from publicly available sources and organized in the form of a data package. Following best practices in spatial data science [@brunsdon2020opening], the code and data needed to reproduce or conduct a similar analysis for other regions in North America or elsewhere are available for download. 
+
+5. Results
 ===============
 
-```{r city-bigrams, echo=FALSE}
+## 5.1. Word and document frequency
+
+We analyzed word and document frequency for each corpora. Table \ref{tab:word-table} shows the most frequent terms found in the municipal, transportation consortia, school board, and academic documents. As expected, STP documents and academic papers reference _active travel_, _walking_, _biking_ or _cycling_, and _students_ more than other terms. Each corpora also has _safety_ and _traffic_ as common words which suggests congruence on these key factors between the research literature and how AST is framed to the public. The word _physical_ is present in each corpus which could refer to either _physical activity_, _physical health_, or the _physical environment_. Furthermore, documents from STP stakeholders discuss _resources_, _information_, and _services_ about school travel. In the section below, the context in which these terms appear is explored further through their concordance. Unlike the academic papers, STP stakeholder documents include the words _route_ or _routes_. This could reflect their role in identifying safe routes to school to share with parents or families, as well as the STP emphasis on making the physical environment safer for AST. The academic corpora differs from the policy documents in that _parents_ and _distance_ are the second and third most common terms. In addition, _time_, _factors_, _environment_, and _age_ are also identified in academic papers.  These words are absent from the list of common words in policy documents. Table \ref{tab:word-table} indicates that the research corpora discusses a broader range of determinants of AST than the policy documents. The number of references for each term in the academic papers is also significantly higher due to the inclusion of more documents.
+
+```{r municipal-term-frequency, echo=FALSE}
+# Create new data frame with the cleaned corpus 
+MunicipalTextDF <- data.frame(text = sapply(municipal_corpus, as.character), stringsAsFactors = FALSE)
+
+municipal_it_train = itoken(MunicipalTextDF$text, progressbar = FALSE)
+municipal_vocab = create_vocabulary(municipal_it_train)
+
+# Cut out terms that have a minimum count of 1 
+municipal_vocab <- prune_vocabulary(municipal_vocab, term_count_min = 1)
+```
+
+```{r consortia-term-frequency, echo=FALSE}
+# Create new data frame with the cleaned corpus 
+ConsortiumTextDF <- data.frame(text = sapply(consortium_corpus, as.character), stringsAsFactors = FALSE)
+
+consortium_it_train = itoken(ConsortiumTextDF$text, progressbar = FALSE)
+consortium_vocab = create_vocabulary(consortium_it_train)
+
+# Cut out terms that have a minimum count of 1
+consortium_vocab <- prune_vocabulary(consortium_vocab, term_count_min = 1)
+```
+
+```{r school-term-frequency, echo=FALSE}
+# Create new data frame with the cleaned corpus 
+SchoolTextDF <- data.frame(text = sapply(school_corpus, as.character), stringsAsFactors = FALSE)
+
+school_it_train = itoken(SchoolTextDF$text, progressbar = FALSE)
+school_vocab = create_vocabulary(school_it_train)
+
+# Cut out terms that have a minimum count of 1 
+school_vocab <- prune_vocabulary(school_vocab, term_count_min = 1)
+```
+
+```{r academic-term-frequency, echo=FALSE}
+# Create new data frame with the cleaned corpus 
+AcademicTextDF <- data.frame(text = sapply(academic_corpus, as.character), stringsAsFactors = FALSE)
+
+it_train = itoken(AcademicTextDF$text, progressbar = FALSE)
+academic_vocab = create_vocabulary(it_train)
+
+# Cut out terms that have a minimum count of 100 
+academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 100)
+```
+
+```{r top-word-frequencies, echo=FALSE}
+municipal_words <- municipal_vocab %>% slice(1938:1914)
+school_words <- school_vocab %>% slice(1812:1788)
+consortia_words <- consortium_vocab[-c(971),] %>% slice(993:968)
+academic_words <- academic_vocab[-c(1302, 1297),] %>% slice(1304:1278)
+```
+
+```{r word-table, echo=FALSE}
+top_words <- cbind(
+  municipal_words,
+  school_words,
+  consortia_words,
+  academic_words)
+
+colnames(top_words) <- c("Term", "Count (n)", "Documents (n)", "Term", "Count (n)", "Documents (n)", "Term", "Count (n)", "Documents (n)", "Term", "Count (n)", "Documents (n)")
+
+# add frequency term count / words
+
+kable(top_words,
+      "latex",
+      booktabs = TRUE,
+      col.names = c("Term",
+                    "Count (n)",
+                    "Documents (n)",
+                    "Term",
+                    "Count (n)",
+                    "Documents (n)",
+                    "Term",
+                    "Count (n)", 
+                    "Documents (n)",
+                    "Term",
+                    "Count (n)",
+                    "Documents (n)"),
+      align = c("l", "c", "c", "l", "c", "c", "l", "c", "c", "l", "c", "c"), 
+      caption = "\\label{tab:word-table}Top 25 terms identified in each corpora. Document frequencies are also indicated.") %>%
+  kable_styling(latex_options = c("striped", "scale_down")) %>%
+  add_header_above(c("Municipalities" = 3, "School Boards" = 3, "Transportation Consortia" = 3, "Academic Papers" = 3)) %>%
+  footnote(general = " ",
+           alphabet = c("Count (n) refers to the total number of times the term is found in the corpora", "Documents (n) refers to the total number of documents that feature the term"))
+```
+
+## 5.2. Bigrams and concordances
+
+Bigrams for each policy corpora that occur more than 5 times are shown in Figures \ref{fig:city-visual},  \ref{fig:consortia-visual}, and \ref{fig:school-visual}. These figures help to make further sense of the word frequencies reported above, and highlight the main ideas that are presented to the public in each of the policy corpora. Municipalities primarily discuss _physical activity_ (n = 53) and _public health_ (n = 19) in the context of active travel. In addition, _travel planning_ (n = 19), _bike lanes_ (n = 16), and _safe routes_ (n = 14) are also identified, conceivably as interventions and built environment factors that support AST. Key issues related to transport such as _traffic safety_ (n = 10), _air quality_ (n = 9), and _greenhouse gases_ (n = 9) are conveyed to the public through AST documents. It is not surprising to find this focus in AST documents given that municipalities in Ontario are concerned about climate change and have increasingly looked to active modes of travel to offset transport-related emissions in urban areas. 
+
+Similar word bigrams are found in school board documents: _travel planning_ (n = 33), _safe routes_ (n = 15), _physical activity_ (n = 10), and _public health_ (n = 10) are among the most common bigrams. Both municipalities and school boards in Ontario seem to emphasize what can be or has been done to improve AST (i.e., policy or planning changes), while outlining some of the benefits of AST at the individual- or community-level to potentially encourage behaviour change (i.e., physical activity for children or improved air quality). Unlike other STP stakeholders, school boards also consider _inclement weather_ (n = 24) and _bus cancellations_ (n = 13). This is likely because many students in Ontario travel to school by bus and this information is presented alongside AST options. Finally, transportation consortia documents highlight topics such as _physical activity_ (n = 10), _pedestrian safety_ (n = 8), _crossing guards_ (n = 6), _travel planning_ (n = 6), and _walk zones_ (n = 6). Biking or cycling is notably absent from transportation consortia documents.
+
+```{r city-bigrams, include=FALSE, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_municipal_corpus <- tidy(municipal_corpus)
 
@@ -204,13 +295,9 @@ top_municipal_bigrams <- municipal_bigrams %>%
 
 top_municipal_trigrams <- municipal_trigrams %>% 
   count(trigram, sort = TRUE)
-
-top_municipal_bigrams
-top_municipal_trigrams
 ```
 
-```{r consortia-bigrams, echo=FALSE}
-
+```{r consortia-bigrams, include=FALSE, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_consortium_corpus <- tidy(consortium_corpus)
 
@@ -227,13 +314,9 @@ top_consortium_bigrams <- consortium_bigrams %>%
 
 top_consortium_trigrams <- consortium_trigrams %>% 
   count(trigram, sort = TRUE)
-
-top_consortium_bigrams
-top_consortium_trigrams
 ```
 
-```{r school-bigrams, echo=FALSE}
-
+```{r school-bigrams, include=FALSE, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_school_corpus <- tidy(school_corpus)
 
@@ -250,13 +333,9 @@ top_school_bigrams <- school_bigrams %>%
 
 top_school_trigrams <- school_trigrams %>% 
   count(trigram, sort = TRUE)
-
-top_school_bigrams
-top_school_trigrams
 ```
 
-```{r policy-bigrams, echo=FALSE}
-
+```{r policy-bigrams, include=FALSE, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_policy_corpus <- tidy(policy_corpus)
 
@@ -273,13 +352,9 @@ top_policy_bigrams <- policy_bigrams %>%
 
 top_policy_trigrams <- policy_trigrams %>% 
   count(trigram, sort = TRUE)
-
-top_policy_bigrams
-top_policy_trigrams
 ```
 
-```{r academic-bigrams, echo=FALSE}
-
+```{r academic-bigrams, include=FALSE, echo=FALSE}
 # Converting corpus to tidytext data type 
 td_academic_corpus <- tidy(academic_corpus)
 
@@ -296,18 +371,14 @@ top_academic_bigrams <- academic_bigrams %>%
 
 top_academic_trigrams <- academic_trigrams %>% 
   count(trigram, sort = TRUE)
-
-top_academic_bigrams
-top_academic_trigrams
 ```
 
-```{r city-visual, echo=FALSE}
+```{r, include=FALSE}
 municipal_bigrams_separated <- municipal_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
 municipal_bigram_counts <- municipal_bigrams_separated %>% 
   count(word1, word2, sort = TRUE)
-
 
 # Adjust the parameter below to filter out based on number of occurrence
 
@@ -320,7 +391,49 @@ municipal_bigram_graph <- municipal_bigram_counts %>%
 set.seed(2021)
 
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+```
 
+```{r, include=FALSE}
+MunicipalTextDF <- data.frame(text = sapply(municipal_corpus, as.character), stringsAsFactors = FALSE)
+
+M_it_train = itoken(MunicipalTextDF$text, progressbar = FALSE)
+municipal_vocab = create_vocabulary(M_it_train)
+
+municipal_vocab <- prune_vocabulary(municipal_vocab, term_count_min = 5)
+municipal_vocab
+```
+
+```{r, include=FALSE}
+ConsortiumTextDF <- data.frame(text = sapply(consortium_corpus, as.character), stringsAsFactors = FALSE)
+
+C_it_train = itoken(ConsortiumTextDF$text, progressbar = FALSE)
+consortium_vocab = create_vocabulary(C_it_train)
+
+consortium_vocab <- prune_vocabulary(consortium_vocab, term_count_min = 5)
+consortium_vocab
+```
+
+```{r, include=FALSE}
+SchoolTextDF <- data.frame(text = sapply(school_corpus, as.character), stringsAsFactors = FALSE)
+
+S_it_train = itoken(SchoolTextDF$text, progressbar = FALSE)
+school_vocab = create_vocabulary(S_it_train)
+
+school_vocab <- prune_vocabulary(school_vocab, term_count_min = 5)
+school_vocab
+```
+
+```{r, include=FALSE}
+PolicyTextDF <- data.frame(text = sapply(policy_corpus, as.character), stringsAsFactors = FALSE)
+
+P_it_train = itoken(PolicyTextDF$text, progressbar = FALSE)
+policy_vocab = create_vocabulary(P_it_train)
+
+policy_vocab <- prune_vocabulary(policy_vocab, term_count_min = 5)
+policy_vocab
+```
+
+```{r city-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the municipal or regional government documents."}
 ggraph(municipal_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -329,7 +442,7 @@ ggraph(municipal_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-```{r consortia-visual, echo=FALSE}
+```{r, include=FALSE}
 consortium_bigrams_separated <- consortium_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -348,7 +461,9 @@ consortium_bigram_graph <- consortium_bigram_counts %>%
 set.seed(2021)
 
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
-
+```
+ 
+```{r consortia-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the transportation consortia documents."}
 ggraph(consortium_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -357,7 +472,7 @@ ggraph(consortium_bigram_graph, layout = "fr") +
   theme_void()
 ```
  
-```{r school-visual, echo=FALSE}
+```{r, include=FALSE}
 school_bigrams_separated <- school_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -376,7 +491,9 @@ school_bigram_graph <- school_bigram_counts %>%
 set.seed(2021)
 
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+```
 
+```{r school-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the school board documents."}
 ggraph(school_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -385,7 +502,7 @@ ggraph(school_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-```{r policy-visual, echo=FALSE}
+```{r, include=FALSE}
 policy_bigrams_separated <- policy_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -404,7 +521,9 @@ policy_bigram_graph <- policy_bigram_counts %>%
 set.seed(2021)
 
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+```
 
+```{r policy-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found across all policy documents (i.e., school board, municipality, and transportation consortia combined)."}
 ggraph(policy_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -413,7 +532,11 @@ ggraph(policy_bigram_graph, layout = "fr") +
   theme_void()
 ```
 
-```{r academic-visual, echo=FALSE}
+We then combined all municipality, school board, and transportation consortia documents into one "policy" corpora. This enabled us to examine and visualize the most common bigrams found across all of the STP material in Ontario that was collected for this study. Figure \ref{fig:policy-visual} shows all of the bigrams that occur more than 10 times in the corpora. In addition to the common bigrams already identified above, we also found _mental health_, _walk day_, and _green communities_ as common pairs of consecutive words. Overall, policy documents from STP stakeholders seem to focus on four key areas: i) benefits or impacts of AST; ii) mechanisms of intervention; iii) concerns or considerations; and iv) supports for AST.
+
+We analyzed bigrams in the academic corpora separately to make comparisons with the policy corpora. Figure \ref{fig:academic-visual} indicates that the academic corpora includes several common bigrams that were also found in the policy documents including _physical activity_ (n = 1566), which is the top bigram, _traffic safety_ (n = 308), and _safe routes_ (n = 268). However, many other factors relating to AST are identified in the research literature that are not presented to the public through policy documents. After _physical activity_, _built environment_ (n = 1175), _independent mobility_ (n = 774), and _urban form_ (n = 352) are the most frequent pairs of consecutive words. Academic papers also often discuss _distance home_ (n = 258), _car ownership_ (n = 254), _household income_ (n = 254), and _population density_ (n = 205), which are factors that have been found to influence AST. It is evident that many papers investigate gender differences in AST given that _boys girls_ (n = 211) is another common bigram. Finally, the presence of _statistically significant_ among the top bigrams underscores that researchers aim to identify determinants that are not due to chance but that likely influence AST. The academic corpora focuses on a greater range of topics than found in the STP material.
+
+```{r, include=FALSE}
 academic_bigrams_separated <- academic_bigrams %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 
@@ -425,64 +548,317 @@ academic_bigram_counts <- academic_bigrams_separated %>%
 # Error will occur if n is outside the range of occurrences 
 
 academic_bigram_graph <- academic_bigram_counts %>%
-  filter(n > 150) %>%
+  filter(n > 200) %>%
   graph_from_data_frame()
 
 set.seed(2021)
 
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+```
 
+```{r, academic-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the academic papers.}
 ggraph(academic_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
   geom_node_point(color = "lightgreen", size = 4) +
   geom_node_text(aes(label = name), repel = TRUE) + 
   theme_void()
-
 ```
 
-```{r academic-term-frequency, echo=FALSE}
-# Create new data frame with the cleaned corpus 
-AcademicTextDF <- data.frame(text = sapply(academic_corpus, as.character), stringsAsFactors = FALSE)
+We interpreted the most common bigrams from the policy corpora (see Figure \ref{fig:policy-visual}), which includes all documents from municipalities, transportation consortia, and school boards, as the main ideas that STP stakeholders are focusing on and communicating to the public about AST. We then used the `kwic` function from the R _quanteda_ package to identify and better understand the context of these key themes. Table \ref{tab:policy-concordance} presents examples of the key themes that were extracted from select policy documents to demonstrate how the most common bigrams are communicated to the public.
 
-it_train = itoken(AcademicTextDF$text, progressbar = FALSE)
-academic_vocab = create_vocabulary(it_train)
+```{r policy-concordance, echo=FALSE}
+# Import raw policy VCorpus (not cleaned of stop words or punctuation) created by tm package
 
-# Cut out terms that have a minimum count of 5 
-academic_vocab <- prune_vocabulary(academic_vocab, term_count_min = 5)
-academic_vocab
+policy_quanteda <- tm::VCorpus(tm::VectorSource(raw_policy_corpus))
+policy_quanteda <- corpus(policy_quanteda)
+
+# Extraction of various search terms and the surrounding sentence context
+
+kwic_pol_physical <- kwic(tokens(policy_quanteda), pattern = "physical", window = 10)
+kwic_pol_mental <- kwic(tokens(policy_quanteda), pattern = "mental", window = 10)
+kwic_pol_air <- kwic(tokens(policy_quanteda), pattern = "air", window = 10)
+kwic_pol_traffic <- kwic(tokens(policy_quanteda), pattern = "traffic", window = 10)
+kwic_pol_safety <- kwic(tokens(policy_quanteda), pattern = "safety", window = 10)
+kwic_pol_health <- kwic(tokens(policy_quanteda), pattern = "health", window = 10)
+kwic_pol_emissions <- kwic(tokens(policy_quanteda), pattern = "emissions", window = 10)
+kwic_pol_routes <- kwic(tokens(policy_quanteda), pattern = "routes", window = 10)
+kwic_pol_lanes <- kwic(tokens(policy_quanteda), pattern = "lanes", window = 10)
+kwic_pol_zone <- kwic(tokens(policy_quanteda), pattern = "zone", window = 10)
+kwic_pol_bus <- kwic(tokens(policy_quanteda), pattern = "bus", window = 10)
+kwic_pol_comm <- kwic(tokens(policy_quanteda), pattern = "community", window = 10)
+kwic_pol_ben <- kwic(tokens(policy_quanteda), pattern = "benefit", window = 10)
+kwic_pol_wea <- kwic(tokens(policy_quanteda), pattern = "weather", window = 10)
 ```
 
-## 4.1. Word Frequency
+```{r content-table, echo=FALSE}
+text_tbl <- data.frame(
+  Terms = c("Air Quality", "Benefit", "Bus", "Community", "Emissions", "Health", "Lanes", "Mental Health", "Physical Health"),
+  Stakeholder = c("School Board", "Municipality", "School Board", "School Board", "Consortia", "Municipality", "Municipality", "Municipality", "Municipality"),
+  Context = c(
+    "Active transportation [...] improves air quality.",
+    "Stronger bones and muscles, improved self-esteem and sense of well-being while reducing stress and risk of chronic disease all benefit those who use active transportation.",
+    "While taking part in a walking school bus, your child will enjoy seeing friends on the way to school. They will be active more often. This is also a great opportunity for your child to socialize with school friends in a monitored and safe way where they can practice social distancing, modelled by a leader.",
+    "Engage community stakeholders (school boards, municipalities, police, public health professionals, parents/guardians, administrators, educators and children) to work together to identify and to solve their school travel needs.",
+    "An active school commute also reduces congestion in school zones and contributes to reducing greenhouse gas emissions – it’s a win-win for everyone!",
+    "Active School Travel allows school-aged children the chance to participate in moderate to intense physical activity. This is linked with lower body mass index and improved cardiovascular health.",
+    "We are continuing to build on the cycling and pedestrian network by adding more bike lanes, building multi-use paths and encouraging developments to provide better pedestrian/cycling environments.",
+    "ASST not only improves physical and mental health but contributes to a healthier environment and safer streets.",
+    "Encouraging Active Transportation promotes personal health and recreation, helps manage congestion, reduces emissions and supports municipal objectives for efficient land use.")
+)
 
-## 4.2. Bigrams and Correlations
+kbl(text_tbl) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, bold = T) %>%
+  column_spec(3, width = "30em")
+```
 
-## 4.3. Policy content
+## 5.3. Topic modelling
 
+```{r corpus-dtm, include=FALSE}
+# Create DTM from corpus
 
-5. Discussion
+municipal_dtm <- DocumentTermMatrix(municipal_corpus)
+school_dtm <- DocumentTermMatrix(school_corpus)
+consortia_dtm <- DocumentTermMatrix(consortium_corpus)
+policy_dtm <- DocumentTermMatrix(policy_corpus)
+academic_dtm <- DocumentTermMatrix(academic_corpus)
+```
+
+```{r topics-number, include=FALSE}
+# Select number of topics for each LDA model using `ldatuning` 
+
+municipal_lda_num <- FindTopicsNumber(
+  municipal_dtm, 
+  topics = seq(from = 2, to = 15, by = 1),
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs",
+  #control = list(seed = 77),
+  #mc.cores = 2L,
+  #verbose = TRUE
+)
+
+school_lda_num <- FindTopicsNumber(
+  school_dtm, 
+  topics = seq(from = 2, to = 15, by = 1),
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs",
+  #control = list(seed = 77),
+  #mc.cores = 2L,
+  #verbose = TRUE
+)
+
+consortia_lda_num <- FindTopicsNumber(
+  consortia_dtm, 
+  topics = seq(from = 2, to = 15, by = 1),
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs",
+  #control = list(seed = 77),
+  #mc.cores = 2L,
+  #verbose = TRUE
+)
+
+policy_lda_num <- FindTopicsNumber(
+  policy_dtm,
+  topics = seq(from = 2, to = 15, by = 1),
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs",
+  #control = list(seed = 77),
+  #mc.cores = 2L,
+  #verbose = TRUE
+)
+```
+
+```{r topics-academic, include=FALSE, cache=TRUE}
+# DO NOT RUN EVERY TIME - takes approximately 20 minutes
+
+academic_lda_num <- FindTopicsNumber(
+  academic_dtm, 
+  topics = seq(from = 2, to = 25, by = 1),
+  metrics = c("Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014"),
+  method = "Gibbs")
+  #control = list(seed = 77),
+  #mc.cores = 2L,
+  #verbose = TRUE)
+```
+
+```{r evaluate-lda, echo=FALSE}
+
+FindTopicsNumber_plot(municipal_lda_num)
+FindTopicsNumber_plot(school_lda_num)
+FindTopicsNumber_plot(consortia_lda_num)
+FindTopicsNumber_plot(policy_lda_num)
+FindTopicsNumber_plot(academic_lda_num)
+
+# The graphs suggest that there are 4 topics for the municipal corpora
+# The graphs suggest that there are 4 topics for the school corpora
+# The graphs suggest that there are 4 topics for the municipal corpora
+# The graphs suggest that there are 5 topics for the policy corpora
+# The graphs suggest that there are 17 topics for the academic corpora
+```
+
+```{r corpus-lda-model, include=FALSE}
+municipal_lda <- LDA(municipal_dtm, k = 4, method = "Gibbs", control = NULL, model = NULL)
+
+school_lda <- LDA(school_dtm, k = 4, method = "Gibbs", control = NULL, model = NULL)
+
+consortia_lda <- LDA(consortia_dtm, k = 4, method = "Gibbs", control = NULL, model = NULL)
+
+policy_lda <- LDA(policy_dtm, k = 5, method = "Gibbs", control = NULL, model = NULL)
+
+academic_lda <- LDA(academic_dtm, k = 19, method = "Gibbs", control = NULL, model = NULL)
+```
+
+```{r municipal-topics, include=FALSE}
+municipal_topics <- tidy(municipal_lda, matrix = "beta")
+school_topics <- tidy(school_lda, matrix = "beta")
+consortia_topics <- tidy(consortia_lda, matrix = "beta")
+policy_topics <- tidy(policy_lda, matrix = "beta")
+academic_topics <- tidy(academic_lda, matrix = "beta")
+```
+
+```{r municipal-terms, echo=FALSE}
+municipal_top_terms <- municipal_topics %>%
+  group_by(topic) %>%
+  slice_max(beta, n = 10) %>% 
+  ungroup() %>%
+  arrange(topic, -beta)
+
+municipal_top_terms %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+```{r school-terms, echo=FALSE}
+school_top_terms <- school_topics %>%
+  group_by(topic) %>%
+  slice_max(beta, n = 10) %>% 
+  ungroup() %>%
+  arrange(topic, -beta)
+
+school_top_terms %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+```{r consortia-terms, echo=FALSE}
+consortia_top_terms <- consortia_topics %>%
+  group_by(topic) %>%
+  slice_max(beta, n = 10) %>% 
+  ungroup() %>%
+  arrange(topic, -beta)
+
+consortia_top_terms %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+```{r policy-terms, echo=FALSE}
+policy_top_terms <- policy_topics %>%
+  group_by(topic) %>%
+  slice_max(beta, n = 10) %>% 
+  ungroup() %>%
+  arrange(topic, -beta)
+
+policy_top_terms %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+```{r academic-terms, echo=FALSE, cache=TRUE}
+
+academic_top_terms <- academic_topics %>%
+  group_by(topic) %>%
+  slice_max(beta, n = 10) %>% 
+  ungroup() %>%
+  arrange(topic, -beta)
+
+academic_top_terms %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(beta, term, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  scale_y_reordered()
+```
+
+Finally, we conducted topic modelling to examine the different topics found in the policy and academic corpora. We focused on the policy corpora, instead of individually assessing the municipal, school, and consortia corpus, so that we could report on the primary and secondary frames used across all documents put out by STP stakeholders in Ontario. To determine the number of discrete topics in each corpus, we used the ldatuning package. We then used the `LDA` function from the topicmodels package to estimate an LDA model for each group of documents. The policy corpora, which combined all documents from municipalities, schools, and transportation consortia, had 5 topics. The academic corpora had 17 topics. Figures \ref{fig: policy-terms} and \ref{fig: academic-terms} present the main terms that are associated with the topics found in each corpus. 
+
+In the policy corpus, we identified the following topics: (1) resources for walking, (2) busing information and eligibility; (3) benefits of active travel; (4) bicycling and the environment; and (5) supporting active travel. These findings reveal that STP stakeholders are sending the message that walking and bicycling to school as healthy travel modes for students, particularly as a means to get physical activity. We also found that there is information shared to support parents and students in using active modes to school such as the availability of cycling lanes or route tips for walking. STP stakeholders appear to be communicating that AST is possible and safe as a result of improvements to the built environment and available resources for parents and children. A final focus in the policy documents is on various efforts that are underway to support active travel including route planning. 
+
+We expected to find a higher number of topics in the academic corpus due to the larger number of documents in the corpora and the diversity of content examined in existing literature about school travel. The following topics were identified, which touch upon a broader range of factors that are associated with or related to AST than are found in the policy corpus: (1) __unclear__ (2) AST in Ontario and Canada; (3) __unclear__; (4) children’s independent mobility; (5) safe routes to school programs; (6) commuting and distance; (7) density in the built environment and walking routes; (8) __unclear__; (9) walking interventions; (10) bicycling influences; (11) interpersonal and household influences on trips; (12) behaviours and attitudes; (13) __unclear__; (14) __unclear__; (15) walking distance; (16) __unclear__;  (17) physical activity measures or results; (18) bicycling attitudes; and (19) __unclear__. 
+
+The policy corpus primarily frames AST as a health and environmental issue. Many municipal and school documents position walking, bicycling, or rolling to school as beneficial to individual health, including improvements to physical activity levels or mental health, and to the broader community through a reduction in traffic and vehicle emissions.
+> _If you live in a walk zone, the best way to get to school is by walking or biking. This promotes physical activity, helps the environment and minimizes traffic around schools during busy times._ (City of Barrie)
+
+> _Walking to school is a great way to add physical activity into your child’s busy day._ (Region of Haldimand-Norfolk Region)
+
+> _Active school travel is a great way for children to be physically active, which is associated with improved physical and mental health, while making school zones safer, by reducing traffic volumes at and around schools._(Region of Leeds, Grenville and Lanark)
+
+> _The WCDSB supports active transportation as the preferred method of transportation to school because it is a healthy choice that has proven links to greater student achievement._ (Waterloo Catholic District School Board)
+
+We found that some of these documents make direct references to topics found in research on school travel and the built environment. For example, some policy documents identify programs that have been researched in the literature and found to be effective, such as walking school buses, or explain how an increase in AST will reduce parent safety concerns. 
+> _ For their health, safety, environment and community: Kids learn healthy habits and concentrate better in class; One less car (yours) reduces traffic and parking problems in school zones; Teach your kids about traffic safety; Start a walking school bus; your kids make friends in every grade, and that can prevent bullying._ (City of Guelph)
+
+> _There are lots of benefits in the classroom for children that walk or cycle to school on a regular basis. Some of these benefits include improved concentration and better coping with stress. Being outside helps to prevent feelings of isolation and increases their social interactions. Walking and biking to school can also save you money and lead to fewer cars on the road._ (City of Ottawa)
+
+The secondary frame for AST in municipal documents is the opportunity or prospect of behaviour change. Some cities and schools explain how children and parents can leave the car at home and make the journey to school on foot or by bike by describing efforts to make AST safer. This frame enables the public to evaluate their own travel decisions and to access resources (e.g., walking skills checklist) that will help them make AST a first choice. Some documents communicate what is being done by the municipalities or schools, like school travel planning, while others emphasize the active role of the parent in creating opportunities for AST in their household or neighbourhood. 
+> _School Travel Planning is a community-based approach that aims to increase the number of students and adults choosing active and sustainable travel to get to and from school. This approach addresses concerns about safety, physical activity, and the environment._ (City of Hamilton)
+
+> _A way to make sure your child is safe while walking to school is with a 'walking school bus.' Here are some tips for a walking school bus: Invite families who live nearby to walk; Pick a route and take a test walk; Take side streets and paths that are less busy with traffic; Decide how often the group will walk together; Talk with your boss to adjust your day; Have fun! (City of Ottawa)
+
+> Help your students get started on the right foot -encourage them to walk or bike to school when possible.  Even leaving the car a block or two and walking the rest of the way helps. It’s good for the environment and your health,  and teaches your child independence and community awareness._ (Halton District School Board)
+
+> _Today, as more and more of our neighbourhoods are being retrofitted with new sidewalks and bike lanes, pedestrian crossovers, street lights, reduced speed limits and/or crossing guards, the walk or bike ride to and from school has never been easier, safer or healthier._  (Hamilton-Wentworth District Catholic School Board)
+
+> _Want to boost your child’s mental and physical health? Ottawa Public Health, City of Ottawa, and OSTA have produced a tipsheet for parents about “active transportation” to school – fitting walking and wheeling into your daily routine._ (Ottawa-Carleton District School Board)
+
+Finally, many municipalities, schools, and consortia make no mention of active school travel on their main website pages for active transportation. Nonetheless, some municipalities explain how changes to the built environment are being implemented to facilitate active travel. Schools or consortia that do not refer to AST simply provide information about the busing service available to families in the region. Inclement weather and impacts to busing is a common topic addressed in those documents.
+> _We are continuing to build on the cycling and pedestrian network by adding more bike lanes, building multi-use paths and encouraging developments to provide better pedestrian/cycling environments._ (City of Brantford)
+
+> _The City of Burlington ensures all cyclists, pedestrians and drivers have access to safe and accessible transportation services and programs_ (City of Burlington)
+
+6. Discussion
 ===============
 
-## 5.1. Framing of AST in policy documents
+## 6.1. Framing in STP documents
 
-## 5.2. Framing of AST in academic papers
+We analyzed how AST is framed in documents available to the public on the websites of STP stakeholders in Ontario. We found that AST is primarily framed as beneficial to the health and wellbeing of children and to environmental sustainability. This was confirmed by the most common bigrams identified in the policy corpora, as well as the topics identified by the LDA model. Many studies and reviews have focused on the association between AST and physical activity [e.g., @faulknerActiveSchoolTransport2009; @mitraChildrenActivitytransportationLifestyles2017; @schoeppeAssociationsChildrenActive2015], with findings consistently demonstrating that children who travel by walking or bicycling to school are more active than their peers who do not use active travel. More recently, researchers have been exploring the link between transport and children's wellbeing [@babbChildrenActiveTravel2017; @waygoodTransportChildrenWellbeing2020], which has relevant applications to the study of school travel and satisfaction [see @vandenbergFactorsAffectingParental2020]. We concluded that STP promotional materials have high concurrence with this topic in the research on school travel and the built environment. Framing AST as a health issue is certainly warranted - there is strong evidence that children who walk and bicycle to school accrue physical and mental health benefits. Furthermore, concerns about traffic and strangers have been reported by parents who drive their children to school [@mammenUnderstandingDriveEscort2012]. Parents often have concerns about traffic volume, speed, and congestion around schools [@lingRelationshipMotorVehicle2021; @rothmanSchoolEnvironmentStudent2017], therefore the framing of AST as an environmental issue is in alignment with evidence from existing studies.
 
-## 5.3. Implications for School Travel Planning
+The secondary frame of AST is that it is a behaviour that can and should be adopted by children and parents given the environmental and program supports available in the community. STP stakeholders emphasize that parents can access resources or trips to support their children in commuting by active modes to school. They also share information about interventions such as school travel plans and bicycle lanes to frame AST as safe and practical. However, STP materials neglect to address many intrapersonal and household factors that influence or predict AST. At the individual level, older child age is often associated with AST [@mammenUnderstandingDriveEscort2012; @starkExploringIndependentActive2018; @wilsonUnderstandingChildParent2018], but AST is not framed as an activity for children based on age. STP stakeholders may wish to emphasize to parents that older children have greater traffic safety and cognitive abilities to navigate their own routes to school. There is also some evidence that gender is a determinant of AST [@babbChildrenActiveTravel2017; @larsenInfluencePhysicalEnvironment2009], although this is not a strong or consistent finding [@rothmanDeclineActiveSchool2018; @schoeppeAssociationsChildrenActive2015]. STP materials do not discuss this determinant of AST but it may be helpful to identify strategies or messages that alleviate specific concerns that relate to a child's gender.
 
-School boards and educators are an influential contributor to AST and STP efforts in Canada.
+Furthermore, distance between home and school is the factor most associated with AST in existing research [@ikedaAssociationsChildrenActive2018; @mammenUnderstandingDriveEscort2012; @pontEnvironmentalCorrelatesChildren2009; @rothmanDeclineActiveSchool2018] with less AST reported among children who have to travel farther to school. This topic is not addressed substantively in the policy corpus, perhaps due to the inability of STP stakeholders to directly intervene in residential location. Parental perceptions of the environment [@demeesterParentalPerceivedNeighborhood2014; @panterAttitudesSocialSupport2010] and children's skills [@ghekiereInsightsChildrenIndependent2017] also influence whether they allow their children to walk or cycle to school. STP documents do a sufficiently good job at communicated how an increase in AST could improve traffic safety in school zones and how new infrastructure improvements give children the ability to safely travel. This messaging has high concurrence with studies that have found that the quality of the built environment [@ikedaAssociationsChildrenActive2018; @kimBuiltNaturalEnvironmental2020] and active travel infrastructure [@pontEnvironmentalCorrelatesChildren2009] facilitate AST. 
 
-## 5.4. Limitations
+To increase rates of walking and bicycling independently to school, Riazi et al. [-@riaziCorrelatesChildrenIndependent2019] state: "it will be vital for interventions to target modifiable factors, including children's and parents' perceptions of their social environment." We argue that STP messaging should also target multiple modifiable factors, in addition to the health and environmental benefits. Parents play the important role of "gatekeeper" by either granting or restricting their child's mobility [@sharminAssociationBuiltEnvironment2017]. For this reason, stakeholders involved in STP should produce more information that specifically responds to parents' perceived barriers and challenges. For example, STP materials could explain how known concerns in a particular municipality or school area have been addressed through local solutions.
 
-6.1. Conclusion
+## 6.2. Implications for school travel planning
+
+Many municipalities, schools, and transportation consortia use similar content in their public documents about AST. It would be worthwhile for STP stakeholders to adapt generic content so that it is more specific to factors associated with AST or parental perceptions about barriers to AST in the local context. Rothman et al. [-@rothmanDeclineActiveSchool2018a] note that local solutions to address specific school challenges are worthwhile, and we extend this recommendation to include local context in STP messaging about AST. 
+
+## 6.3. Limitations
+
+7. Conclusion
 ===============
 
-## 6.1. Future research
+## 7.1. Future research
+
+Future studies may investigate how parents and policymakers outside the field of public health respond to the ways in which AST is framed in STP documents. It would be helpful to know which frames would most encourage behaviour change or increase political support for interventions that address barriers to AST. This type of information could ensure that educational strategies and promotional materials increase buy-in for their target audience.
 
 Acknowledgments
 ===================
 
-This research was completed using open software, and the authors wish to acknowledge the developers of the following `R` packages: `dplyr` [@R-dplyr], `ggraph` [@R-ggraph], `ggplot2` [@R-ggplot2], `igraph` [@R-igraph], `pdftools` [@R-pdftools], `readr` [@R-readr], `reshape2` [@R-reshape2], `stringr` [@R-stringr], `text2vec` [@R-text2vec], `textdata` [@R-textdata], `tidyr` [@R-tidyr], `tidytext` [@R-tidytext], `tm` [@R-tm], `tools` [@R-tools], `topicmodels` [@R-topicmodels], `widyr` [@R-widyr],
-`word2vec` [@R-word2vec], `wordcloud` [@R-wordcloud].
+This research was completed using open software, and the authors wish to acknowledge the developers of the following `R` packages: `dplyr` [@R-dplyr], `ggraph` [@R-ggraph], `ggplot2` [@R-ggplot2], `igraph` [@R-igraph], `pdftools` [@R-pdftools], `readr` [@R-readr], `reshape2` [@R-reshape2], `stringr` [@R-stringr], `text2vec` [@R-text2vec], `textdata` [@R-textdata], `tidyr` [@R-tidyr], `tidytext` [@R-tidytext], `tm` [@R-tm], `tools` [@R-tools], `topicmodels` [@R-topicmodels], `widyr` [@R-widyr], `word2vec` [@R-word2vec], `wordcloud` [@R-wordcloud], `DiagrammeR` [@R-diagrammeR], and `kableextra` [@R-kableextra].
 
 References
 ===============
