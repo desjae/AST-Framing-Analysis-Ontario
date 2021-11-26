@@ -460,7 +460,7 @@ policy_vocab <- prune_vocabulary(policy_vocab, term_count_min = 5)
 policy_vocab
 ```
 
-```{r city-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the municipal or regional government documents."}
+```{r city-visual, echo=FALSE, fig.align = 'center', out.width = "1\\linewidth", fig.cap = "\\label{fig:city-visual}Most common bigrams found in the municipal or regional government documents."}
 ggraph(municipal_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -490,7 +490,7 @@ set.seed(2021)
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
 ```
  
-```{r consortia-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the transportation consortia documents."}
+```{r consortia-visual, echo=FALSE, fig.align = 'center', out.width = "1\\linewidth", fig.cap = "\\label{fig:consortia-visual}Most common bigrams found in the transportation consortia documents."}
 ggraph(consortium_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -520,7 +520,7 @@ set.seed(2021)
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
 ```
 
-```{r school-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the school board documents."}
+```{r school-visual, echo=FALSE, fig.align = 'center', out.width = "1\\linewidth", fig.cap = "\\label{fig:school-visual}Most common bigrams found in the school board documents."}
 ggraph(school_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -550,7 +550,7 @@ set.seed(2021)
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
 ```
 
-```{r policy-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found across all policy documents (i.e., school board, municipality, and transportation consortia combined)."}
+```{r policy-visual, echo=FALSE, fig.align = 'center', out.width = "1\\linewidth", fig.cap = "\\label{fig:policy-visual}Most common bigrams found across all policy documents (i.e., school board, municipality, and transportation consortia combined)."}
 ggraph(policy_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -583,7 +583,7 @@ set.seed(2021)
 a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
 ```
 
-```{r, academic-visual, echo=FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Most common bigrams found in the academic papers."}
+```{r, academic-visual, echo=FALSE, fig.align = 'center', out.width = "1\\linewidth", fig.cap = "\\label{fig:academic-visual}Most common bigrams found in the academic papers."}
 ggraph(academic_bigram_graph, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.07, 'inches')) +
@@ -635,10 +635,13 @@ text_tbl <- data.frame(
     "Encouraging Active Transportation promotes personal health and recreation, helps manage congestion, reduces emissions and supports municipal objectives for efficient land use.")
 )
 
-kbl(text_tbl) %>%
+kbl(text_tbl,
+    booktabs = TRUE,
+    caption = "\\label{tab:policy-concordance}CAPTION THIS TABLE") %>%
   kable_paper(full_width = F) %>%
+  kable_styling(latex_options = c("striped")) %>%
   column_spec(1, bold = T) %>%
-  column_spec(3, width = "30em")
+  column_spec(3, width = "20em")
 ```
 
 ## 5.3. Topic modelling
@@ -725,7 +728,7 @@ FindTopicsNumber_plot(policy_lda_num)
 # The graphs suggest that there are 17 topics for the academic corpora
 ```
 
-```{r corpus-lda-model, include=FALSE}
+```{r corpus-lda-model, cache = TRUE, include=FALSE}
 municipal_lda <- LDA(municipal_dtm, k = 4, method = "Gibbs", control = NULL, model = NULL)
 
 school_lda <- LDA(school_dtm, k = 4, method = "Gibbs", control = NULL, model = NULL)
@@ -790,7 +793,7 @@ consortia_top_terms %>%
   scale_y_reordered()
 ```
 
-```{r policy-terms, echo=FALSE}
+```{r policy-terms, echo=FALSE, out.width="1\\linewidth", fig.cap="\\label{fig:policy-terms}CAPTION THIS FIGURE"}
 policy_top_terms <- policy_topics %>%
   group_by(topic) %>%
   slice_max(beta, n = 10) %>% 
@@ -805,7 +808,7 @@ policy_top_terms %>%
   scale_y_reordered()
 ```
 
-```{r academic-terms, echo=FALSE, cache=TRUE}
+```{r academic-terms, echo=FALSE, out.width="1\\linewidth", cache=TRUE, fig.cap="\\label{fig:academic-terms}CAPTION THIS FIGURE"}
 
 academic_top_terms <- academic_topics %>%
   group_by(topic) %>%
@@ -821,7 +824,7 @@ academic_top_terms %>%
   scale_y_reordered()
 ```
 
-Finally, we conduct topic modelling to examine the different topics found in the policy and academic corpora. We focus on the policy corpus, instead of individually assessing the municipal, school, and consortia documents, so that we could report on the various frames used across all documents put out by STP stakeholder groups in Ontario. To determine the number of discrete topics in each corpus, we use the _ldatuning_ package. We then use the `LDA` function from the _topicmodels_ package to estimate an LDA model for each group of documents. The parameters from the _ldatuning_ package suggest that the policy corpus has between 7 and 9 topics and the academic corpus has between 17 and 25 topics. After running the LDA model for the academic corpus, it was too difficult to interpret a minimum of 17 topics based on the clusters of words that were identified. We experimented with the model by adjusting the number of topics and found that there were 9 distinct topics that could be interpreted, after which there was too much overlap. Figures \ref{fig: policy-terms} and \ref{fig: academic-terms} present the main terms that are associated with the topics found in each corpus. 
+Finally, we conduct topic modelling to examine the different topics found in the policy and academic corpora. We focus on the policy corpus, instead of individually assessing the municipal, school, and consortia documents, so that we could report on the various frames used across all documents put out by STP stakeholder groups in Ontario. To determine the number of discrete topics in each corpus, we use the _ldatuning_ package. We then use the `LDA` function from the _topicmodels_ package to estimate an LDA model for each group of documents. The parameters from the _ldatuning_ package suggest that the policy corpus has between 7 and 9 topics and the academic corpus has between 17 and 25 topics. After running the LDA model for the academic corpus, it was too difficult to interpret a minimum of 17 topics based on the clusters of words that were identified. We experimented with the model by adjusting the number of topics and found that there were 9 distinct topics that could be interpreted, after which there was too much overlap. Figures \ref{fig:policy-terms} and \ref{fig:academic-terms} present the main terms that are associated with the topics found in each corpus. 
 
 In the policy corpus, we interpret the following topics based on the cluster of words: (1) resources for walking, (2) busing information and eligibility; (3) benefits of active travel; (4) bicycling and the environment; and (5) supporting active travel. These topics indicate that STP stakeholder groups are sending the message that walking and bicycling to school are healthy travel modes for students, particularly as a means to get physical activity. We also found that there is information shared to support parents and students in using active modes to school such as the availability of cycling lanes or route tips for walking.
 
