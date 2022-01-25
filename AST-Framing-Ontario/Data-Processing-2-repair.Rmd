@@ -1,0 +1,55 @@
+---
+title: "Reproducing-error"
+author: "Antonio"
+date: "12/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load packages:
+```{r load-packages, include=FALSE}
+library(DiagrammeR)
+library(dplyr)
+library(ggraph)
+library(ggplot2)
+library(igraph)
+library(kableExtra)
+library(pdftools)
+library(readr)
+library(reshape2)
+library(stringr)
+#library(text2vec)
+library(textdata)
+library(tidyr)
+library(tidytext)
+library(tm)
+library(tools)
+library(topicmodels)
+library(widyr)
+library(word2vec)
+library(wordcloud)
+library(ldatuning)
+library(quanteda)
+```
+
+Read data files:
+```{r load-data, include=FALSE}
+load(file= "Corpus .rda/academic_corpus.rda")
+```
+
+Remove corrupted items from the academic corpus:
+```{r}
+academic_corpus_repaired <- academic_corpus[c(1:3, 5, 7:225)]
+```
+
+Save to folder:
+```{r}
+save(academic_corpus_repaired,
+     file = "Corpus .rda/academic_corpus_repaired.rda", 
+     compress = "xz")
+```
+
+Read this rda file instead of the original.

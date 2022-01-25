@@ -1,475 +1,565 @@
-                                                         Journal of Transport & Health 12 (2019) 115–129
-                                                            Contents lists available at ScienceDirect
-                                                   Journal of Transport & Health
-                                                 journal homepage: www.elsevier.com/locate/jth
-How are the built environment and household travel characteristics
-                                                                                                                                                  T
-associated with children's active transport in Melbourne, Australia?
-A. Carvera,
-                   <U+204E>,1
-                       , A. Barrb,1, A. Singhb, H. Badlandc, S. Mavoab, R. Bentleyb
-a
-  Mary MacKillop Institute for Health Research, Australian Catholic University, 215 Spring St, Melbourne, Victoria 3000, Australia
-b
-  Melbourne School of Population and Global Health, University of Melbourne, Melbourne, Australia
-c
-  Centre for Urban Research, RMIT University, Melbourne, Australia
-ARTICLE INFO                                               ABSTRACT
-Keywords:                                                  Background: Children's active transport (AT) is a potential source of habitual physical activity with
-Walking                                                    established health benefits. We aimed to examine built environment and household travel character-
-Cycling                                                    istics as predictors of AT to school and total daily duration of physical activity accumulated via AT.
-School                                                     Methods: Cross-sectional household travel survey data from 713 households with children aged
-Neighborhood
-                                                           5–12 years (n = 1024) residing < 2 km from school (i.e. walking distance) across Melbourne,
-Walkability
-Trip chaining
-                                                           Australia (2012–16) were combined with objectively-measured distance to school and walk-
-                                                           ability (based on intersection density, housing density, land use mix) around home and school.
-                                                           Multilevel multivariable modified-Poisson regression analyses examined built environment
-                                                           variables (distance to school, walkability, traffic) and household travel behaviours (children's and
-                                                           adults’ trip chaining, adult accompaniment to school) as predictors of: (1) AT to school; (2) total
-                                                           daily duration of AT of = 20 min; adjusted for spatial clustering (at SA1 level) and household
-                                                           variables (income, employment, cars, bicycles).
-                                                           Results: Most children (80%) had adult accompaniment to school but only 28% walked/cycled
-                                                           with an adult. Overall, 39% of children used AT to school and 24% accrued = 20 min of AT-
-                                                           related physical activity. AT to school was positively associated with higher (rather than lower)
-                                                           walkability around home and school, direct travel (not trip chaining) and residing close to school
-                                                           (< 0.75 km rather than = 1.25 km), and negatively associated with adult accompaniment and
-                                                           longer distance travelled onward in adult trip chains. AT of = 20 min duration daily was posi-
-                                                           tively associated with higher walkability around school, direct travel to/from school; and ne-
-                                                           gatively associated with adult accompaniment to, and distance trip chained onward from, school.
-                                                           Conclusions: To increase AT to school it is worth investing in infrastructure designed to improve
-                                                           walkability around schools, coupled with campaigns that target whole households to promote
-                                                           age-appropriate independent mobility rather than adult accompaniment, which tends to involve
-                                                           children being driven.
-1. Background
-     Regular physical activity during childhood is beneficial for bone mineral density (Christoffersen et al., 2015; Strong et al., 2005),
-as well as reduced prevalence of overweight/obesity and risk factors for cardiovascular disease (Strong et al., 2005; WHO, 2010).
-   <U+204E>
-     Corresponding author.
-     E-mail addresses: Alison.Carver@acu.edu.au (A. Carver), alison.barr@unimelb.edu.au (A. Barr), ankur.singh@unimelb.edu.au (A. Singh),
-hannah.badland@rmit.edu.au (H. Badland), suzanne.mavoa@unimelb.edu.au (S. Mavoa), brj@unimelb.edu.au (R. Bentley).
-   1
-     Equal contribution.
-https://doi.org/10.1016/j.jth.2019.01.003
-Received 3 September 2018; Received in revised form 21 December 2018; Accepted 4 January 2019
-Available online 22 January 2019
-2214-1405/ © 2019 Elsevier Ltd. All rights reserved.
+                                                          Journal of Transport & Health 12 (2019) 115–129
 
-A. Carver et al.                                                                                  Journal of Transport & Health 12 (2019) 115–129
-Consequently, health authorities worldwide recommend that school-aged children engage in at least 60 min of physical activity of
-moderate-to-vigorous intensity per day (Australian Government Department of Health, 2014; WHO, 2010). Children's active trans-
-port (AT) is a potential source of habitual physical activity (PA) (Schoeppe et al., 2013; Tudor-Locke et al., 2001), and a dose-
-response relationship has been demonstrated between frequency of AT to school and time spent overall in moderate-to-vigorous PA
-(Carver et al., 2014b). A systematic review of AT to school and physical fitness reported that walking/cycling to school was associated
-with healthy weight status and cardiovascular fitness (Lubans et al., 2011). In addition, a recent integrative review (Waygood et al.,
-2017) highlights that AT may confer psychological benefits, promotion of social interaction and cognition (e.g. acquiring spatial
-knowledge).
-    Despite the associated benefits, rates of walking and cycling to/from school in some developed nations, such as Australia and UK,
-have declined during recent decades and remain low (Hillman et al., 1990; Salmon et al., 2005; Van der Ploeg et al., 2008). For
-example, between 1985 and 2001 in Australia, rates of walking to school daily declined from 37% to 26%, while rates of cycling to
-school dropped from 20% to 8% (Salmon et al., 2005). More recently, an Australian study (Carver et al., 2014b) of 8–15 year-olds
-reported rates of 25% for walking and 6% for cycling to school, while a US study (Behrens et al., 2017) reported rates of 11% and 2%
-respectively among similar-aged children. Even in other developed countries such as Denmark, Finland and Norway (Fyhri, 2011),
-that typically have high rates of AT (Shaw et al., 2015), increasing trends towards car travel to school have been reported. Reasons for
-these ongoing low rates of active transport are multifaceted but the built environment in which homes and schools are located, and
-the complexity and time pressures of modern family life, may play a role. Built environment characteristics that act as facilitators and
-barriers to AT to school have been identified, including distance between home and school (Carver et al., 2012; Davison et al., 2008;
-Oliver et al., 2014) and walkability of routes to school (Carver et al., 2014a; Villanueva et al., 2013). However, much research on the
-association between built environment and active transport has been based on the home location, giving rise to potential for re-
-sidential effect fallacy, due to possible confounding from other environments visited throughout the day (Chaix et al., 2017). Re-
-search that has investigated activity spaces outside home environments (e.g. work and school neighbourhoods), suggests localities
-outside of the home neighbourhood are important influences on active travel and physical activity (Chaix et al., 2017; Howell et al.,
-2017; Hurvitz et al., 2014).
-    Household level factors are also influential, such as parental restrictions on children's AT due to concerns about road safety and
-perceived risk of harm from strangers (Carver et al., 2008, 2013; Mammen, 2012; O'Connor and Brown, 2013). As a consequence,
-children are frequently accompanied by parents, siblings and friends on their school commute (Carver et al., 2013; Cole et al., 2007).
-Factors associated with parental accompaniment to school include child's sex and age; parent's sex, ethnicity and employment status;
-and there is some evidence of an association with built environment characteristics such as accessibility of employment, population
-density and residential location (Ho and Mulley, 2015b; Hsu and Saphores, 2014; Mammen, 2012; Vovsha and Petersen, 2005; Yoon
-et al., 2011). Other motivations may be to achieve maximum efficiencies from family-level travel resources (e.g. cars) and budgets
-(time; money) through joint travel. The growing complexity of family lifestyles has resulted in some school journeys being combined
-with parental commutes to work, trips to shops (Mitra, 2013) or other structured activities (Pooley et al., 2005). This behaviour is
-described as ‘trip chaining’ where smaller trips are combined into a larger trip chain, commonly ‘anchored’ at either home or work
-(Islam and Nurul Habib, 2012; Primerano et al., 2008). For example, an adult's trip chain may comprise a journey from home to work
-via their younger child's kindergarten and their older child's primary school for drop-off purposes; while a child's trip chain may
-comprise the journey from school to home via a recreation centre or pool for swimming lessons.
-    Although directionality of association is uncertain, decisions on the travel behaviours of mode choice, accompaniment and trip
-chaining are interdependent and are often made at a household level (Islam and Nurul Habib, 2012; Ye et al., 2007). Depending on
-trip type, week day and the spatial dispersion of origins and destinations, as well as their accessibility by public transport systems, car
-travel may be more flexible for complex journeys, and trip chaining complexity is associated with car mode choice, compared to
-walking or cycling, and often public transport (Daisy et al., 2018; Primerano et al., 2008; Xianyu, 2013; Ye et al., 2007). Therefore,
-transport mode choice for accompanied children may depend on parental commuting patterns (McDonald, 2008), with even short,
-potentially walkable journeys often made by car (Carver et al., 2013). The tendency to drive children may be exacerbated where the
-parent's trip chain involves mandatory travel (e.g. home-school-work), rather than a simple home-school-home escort trip (Cole et al.,
-2007), where there may be greater discretion over and flexibility in travel behaviour (Ho and Mulley, 2015b; Primerano et al., 2008;
-Vovsha and Petersen, 2005). Household income, presence of children, vehicle ownership, sex, age, employment, population density,
-land use and transit accessibility are associated with trip chaining decisions (Daisy et al., 2018; Islam and Nurul Habib, 2012;
-Primerano et al., 2008; Xianyu, 2013). Despite increasing carbon emissions, car travel on short trips to school may be normalised due
-to increased car availability, travel complexity, time constraints and perceived convenience (Faulkner et al., 2010; Lang et al., 2011;
-Mackett, 2003; Mitra, 2013; Trapp et al., 2011). As children's mode choice is probably influenced by travel decisions made at a
-household level, more research on how household level travel decisions and behaviour related to the journey to school (e.g. ac-
-companiment, trip chaining) influence children's travel mode choice is needed to combat this trend (Ewing and Cervero, 2001; Ho
-and Mulley, 2015b; Primerano et al., 2008).
-    Household travel surveys that collect self-reported information on travel patterns and modes for all members of randomly-selected
-households over one or more days within a geographical area have traditionally been used for transport planning (Merom et al.,
-2010), with data analysed at the aggregate level, e.g. across a city travel zone. However, public health researchers have identified the
-potential of household travel survey data for exploring AT behaviours (Durand et al., 2016; Ho and Mulley, 2015a; Merom et al.,
-2010), analyzing disaggregate data at an individual or household level to avoid ecologic fallacy (Handy et al., 2002; Merom et al.,
-2010). The potential of intersecting household travel surveys with Geographic Information System (GIS) data to investigate si-
-multaneous individual, household and built environment influences on mode choice is yet to be fully explored, especially how
-                                                                    116
 
-A. Carver et al.                                                                                         Journal of Transport & Health 12 (2019) 115–129
-individual travel behaviours are ‘bundled’ through household accompaniment and trip chaining and facilitated by transport systems
-and built environments (Buliung and Kanaroglou, 2006a; Buliung and Kanaroglou, 2006b). To our knowledge, few if any studies have
-combined these data types to investigate how household travel behaviours and built environment factors are associated with AT to
-school and how this contributes to achieving children's PA guidelines.
-     This study is guided by a socio-ecological framework that assumes there are multiple layers of intrapersonal, social and physical
-environment characteristics that impact an individual's health behaviours (Sallis et al., 2008). Specifically, this study aims to answer
-the following questions:
- 1. Are built environment characteristics, such as distance to school and walkability around school, associated with AT to school and
-    daily duration of AT?
- 2. Are household travel behaviours related to the journey to school, such as children's trip chaining and accompaniment patterns,
-    associated with children's AT to school and daily duration of AT?
- 3. For accompanied children, are adults’ trip chaining characteristics such as the destination and distance of the adult's onward
-    journey, associated with children's AT to school and daily duration of AT?
- 4. Do observed associations between distance to school, walkability around school, children's trip chaining and AT of children vary
-    by adult accompaniment?
-2. Methods
-2.1. Sample
-     The sample was derived from 46,562 people from 18,152 households, who responded in 2012–16 to the Victorian Integrated
-Survey of Travel and Activity (VISTA), a cross-sectional household travel survey of a stratified, clustered random sample of residents
-in private households in Mesh Blocks2 in Greater Melbourne and Geelong, the second largest city (located 75 km from Melbourne) in
-Victoria, Australia, described elsewhere (Transport for Victoria, 2018). VISTA runs continuously throughout the year surveying
-different households each day. Characteristics of all trips undertaken on the survey day by all household members are reported
-including: trip origin and destination; departure and arrival time; main travel mode; destination type; trip distance, duration and
-purpose; and accompaniment. Origins and destinations are geo-coded using GIS and travel data is linked to an individual's demo-
-graphic and socioeconomic data (Ipsos Social Research Institute, 2015; Transport for Victoria, 2018).
-     Among 4490 children of primary school age (5–12 years) in 18,152 households, children were excluded if: surveyed on a weekend
-(n = 1127); they stayed at home on their survey day (n = 496); they did not take a trip to primary school (e.g. were on school
-holidays) or did not travel to school before 10:00 hours AND from school after 14:00 (n = 1052) for the purpose of education; and if
-they did not record a journey to education (n = 7). Distances > 2 km were considered less feasible for AT, particularly walking
-(Carver et al., 2014a), therefore children who resided > 2 km from school (network distance; n = 781) were excluded, as were
-children with missing public transport access data (n = 3). Despite distances of more than 2 km being potentially bikeable for
-children, very few children (3%) in the broader sample (whose survey was on a weekday) cycled to school. The final sample
-comprised 713 households with 1024 children (5–12 years).
-2.2. Exposure variables
-2.2.1. Built environment characteristics
-2.2.1.1. Distance from home to school. For confidentiality, geographic coordinates of respondents’ home addresses were provided
-within a 100 m radius of their home. Distance to school using the shortest street network distance between home and school, was
-measured using ArcGIS 10.4 (ESRI, 2016, Redlands, CA) software.
-2.2.1.2. Walkability around home and school. Walkability around home and school was measured using a Transport Walkability Index
-developed for Melbourne, described elsewhere (Giles-Corti et al., 2014). The index comprises three related characteristics measured
-at a Statistical Area 1 (SA1) level3: residential (dwelling) density; intersection density (3+ way intersections); a land use mix entropy
-measure ranging from 0 (SA1 contains a single land use) to 1 (SA1 contains equal area of five land uses – residential, retail,
-commercial, community and recreation). Residential (dwelling) density is important for walkability because there tends to be greater
-service provision (e.g. shops, medical centres, schools) and thus more potentially walkable destinations in areas where more people
-reside (Giles-Corti et al., 2014). Street connectivity is associated with walking for transport (Talen and Koschinsky, 2013) due to
-availability and choice of direct routes for walking. Land use mix is important for the co-location of homes, businesses and services
-and is thus associated with having walkable destinations (Giles-Corti et al., 2014). Values for these input measures were normalised
-  2
-    Mesh Blocks are the smallest geographical area in the Australian Bureau of Statistics (ABS) Australian Statistical Geography Standard (ASGS), on
-average containing 30–60 dwellings (Australian Bureau of Statistics, 2016).
-  3
-    Statistical Area 1 (SA1) are geographic areas built from whole Mesh Blocks, with a mean population of approximately 400 (range 200–800)
-people ABS, 2016. Australian Statistical Geography Standard (ASGS): Volume 1 – Main Structure and Greater Capital City Statistical Areas. Aus-
-tralian Bureau of Statistics, Canberra.
-                                                                        117
+                                                              Contents lists available at ScienceDirect
 
-A. Carver et al.                                                                                    Journal of Transport & Health 12 (2019) 115–129
-(via z-scores), and centred around a mean of 0, with z-scores of ± 1 representing scores at ± 1 standard deviation. Z-scores for
-dwelling density, street connectivity, and land use mix were summed to give Transport Walkability Index scores, which were
-categorized using a tertile split as: 1 ‘lower’, 2 ‘medium’ and 3 ‘higher’ walkability.
-2.2.1.3. Proportion of low traffic roads around school. Roads in Victoria, Australia, are classified within VicMap Transport data (State
-Government of Victoria and Department of Sustainability and Environment, 2013) using the following hierarchy (which is a proxy for
-decreasing traffic volume and road width): ‘freeway’, ‘highway’, ‘arterial’, ‘sub-arterial’, ‘collector’, ‘local’, ‘2 wheel drive track’, ‘4
-wheel drive track’. The length of low traffic roads (i.e. ‘collector’ or ‘local’) as a proportion (%) of the total length of all roads within a
-2 km network buffer around each school was calculated. This was highly negatively skewed (median 87%, range 74–98%) and
-collapsed into three categories (‘lower’, ‘medium’, ‘higher’) approximating a tertile split.
-2.2.2. Household travel behaviour exposures (i.e. accompaniment and trip chaining)
-2.2.2.1. Adult accompaniment to and from school. Children who were accompanied on trips to and/or from primary school by adult
-household members were identified (VISTA data). Accompaniment by other children in the household was not significantly
-associated with outcomes and, therefore, excluded from analyses, as was accompaniment by non-household members, whose
-demographic information was unavailable.
-2.2.2.2. Child's trip chaining. Children were classified as travelling directly to and from school (i.e. NOT trip chaining) if their home
-was the origin and destination respectively for these trips.
-2.2.2.3. Adults’ trip chaining via primary school. To delineate adults who accompanied a child to primary school during a discretionary
-rather than mandatory trip chain (e.g. journey to work), the follow-on destination of adults travelling FROM primary school before
-10:00 (n = 761) was identified and classified as ‘home’, ‘work’ or ‘other’. The distance to this destination was categorised as: < 2 km;
-2–4.9 km; 5–9.9 km or > 10 km. The first category matches the 2 km cap for distance to school and the other three categories were
-divided according to the distribution in increasing distance in readily recognisable 5 km contours from school.
-2.2.2.4. Public transport accessibility. Accompanying adult's capacity to trip chain from home with a combination of AT and public
-transport was included to see if it explained patterns of active travel to school in accompanied children (i.e. reduced the likelihood of
-them being driven to school en route to another destination). Public transport accessibility from each home was determined using the
-Composite Accessibility Index (CAI, with potential values 0–60), developed for Spatial Network Analysis for Multi-Modal Urban
-Transport Systems (SNAMUTS) (Curtis and Scheurer, 2016). SNAMUTS indices use network analysis to measure city-wide public
-transport accessibility from an origin, based on spatial characteristics, frequency and speed of services across the public transport
-network. Mesh Blocks without a stop with a minimum service frequency level (< 20 min in weekday inter-peak and < 30 min on
-weekends for bus/tram, and < 30 min for rail) within walking distance (400 m for bus/tram, 800 m for train/ferry) from the centroid,
-were used as a reference category. CAI values ranged from 0–24.8, were highly positively skewed and subsequently collapsed into
-four categories: ‘no minimum public transport service’; and ‘low’ (CAI < 10); ‘medium’ (CAI 10–14); and ‘high’ (CAI = 15) public
-transport accessibility.
-2.3. Covariates
-    Several covariates associated previously with exposures and outcomes as described above, and that were derivable from VISTA
-and census data were selected (Hsu and Saphores, 2014). Individual level covariates were child's age-group (5–7, 8–9, 10–12 years)
-and sex. Household level covariates included household type (nuclear (i.e. two-parent family)/other/sole parent), whether an adult
-stayed at home on the survey day (and may have been available to accompany children), or was likely to be home after school hours
-(i.e. employed part-time, casual, homemaker, unemployed or retired); household- size, income, employment status (no adult em-
-ployed full-time/at least one adult employed full-time), ownership of bicycles and cars. Area-level covariates were seasonality and the
-Index of Relative Socio-economic Disadvantage (IRSD) score of the home SA1, a measure of area-level disadvantage in Australia
-(Australian Bureau of Statistics, 2015).
-2.4. Outcome variables
-2.4.1. AT to school
-    The child's main transport mode to school was that recorded for the trip ending at primary school. If using multiple modes, the
-main mode was determined by the following hierarchy: public transport, motorised transport, walking and cycling, other. This was
-dichotomised as ‘motorised transport’ (private vehicle, train, tram, school or public bus) or AT (walking/cycling).
-2.4.2. Accruing 20 min or more of AT on the survey day
-    The duration of: a) walking and cycling trip legs; and b) time spent walking to vehicles in motorised trip legs, reported in minutes
-by survey respondents, were summed to derive total daily duration of AT. The distribution was highly positively skewed: few children
-(n = 11 children; 0.9%) met the PA recommendation (60 min/day) through AT alone, and many (n = 905; 88%) accrued less than
-30 min of PA through AT. Time spent in AT per day was dichotomized as ‘ < 20 min’ or ‘= 20 min’.
-                                                                      118
 
-A. Carver et al.                                                                                Journal of Transport & Health 12 (2019) 115–129
-3. Statistical analysis
-    ArcGIS 10.4 (ESRI, 2016, Redlands, CA) software was used for spatial analysis and STATA 14.2 (StataCorp, 2015, College Station,
-Texas) was used for descriptive and statistical analysis.
-    Descriptive analysis involved tabulation of sample characteristics. Associations between built environment, household travel
-behaviours and the two AT outcomes were tested by fitting multilevel multivariable regression models. Initially, two separate sets of
-models were fitted for each outcome. The first fitted built environment characteristics and the second fitted household travel be-
-haviour characteristics, each adjusted for potential individual-, household-, and area-level confounding factors. Final models included
-both built environment and household travel characteristics (adjusted for covariates), to identify if patterns of association between
-both sets of exposures and the two outcomes remained significant when mutually adjusted for each other. All models were replicated
-for a sub-group of accompanied children (n = 761) where adults travelled onward from primary school before 10:00. Additional
-variables that described the accompanying adult's follow-on destination and distance travelled were included.
-    The choice of regression model was dependent on the distribution of the outcome (binary) and the extent of its clustering at the
-geographic-level of aggregation (SA1s). Odds ratios in logistic regression models do not approximate relative risks when outcomes are
-not rare, as is the case here (39% reported AT to school) (McNutt et al., 2003). Alternative models including log-binomial or
-modified-Poisson regression (Poisson regression with sandwich error term) were considered (Zou, 2004). Multilevel multivariable
-modified-Poisson regression with robust standard errors was used to estimate prevalence ratios, as this class of model allows for
-explicit adjustment for geographic clustering compared with other model choices; noting that the outcome measure is clustered at
-SA1 level (Median Rate Ratio): AT to school 1.55 (accompanied children) and = 20 min of AT 1.44 (full sample) 1.80 (accompanied
-children) (Austin et al., 2018). Multilevel generalized linear models were fitted through the ‘meglm’ command in STATA with family
-Poisson and log link.
-    To address the fourth aim, statistical interactions were tested between accompaniment and distance to school, trip chaining and
-walkability around the child's school, for both AT outcomes. These models adjusted for individual-, household-, and area-level
-confounding factors and for accompaniment, distance to school, trip chaining and walkability. Joint-effects were also modelled for all
-combinations of interacting variables with unaccompanied status, built environment and household travel behaviour variables
-conducive to AT as reference category, as they have the highest likelihood of attaining AT outcomes (Knol and VanderWeele, 2012).
-    Ethics approval was granted by the Melbourne School of Population and Global Health Human Ethics Advisory Group, the
-University of Melbourne (Ethics ID 1442864.1).
-4. Results
-    Descriptive data for all children (N = 1024; 50% male) and their households (n = 713) are presented in Table 1. Most children
-(86%) had at least one adult carrer in full-time employment, 12% lived in households with very low income, 9% in sole parent
-households and 26% in households with one car or less. Overall, 39% of children used AT to school (35% walked, 4% cycled) and
-24% accrued 20 min of PA via AT daily. Few (0.2%) used public transport. Among those who used motorized transport to school, only
-4% accrued 20 min of AT per day (i.e. mainly to other destinations). Although most children (82%) living more than 1.25 km from
-their school were driven to school, 35% of those residing within a short walking distance (0.75 km) of school were also driven. Higher
-proportions of older children, in households with less than two cars and with higher walkability at home and school walked/cycled to
-school and accrued = 20 min of AT, compared with those in reference categories. Most children (80%) had adult accompaniment to
-school, but only 28% of children accompanied by an adult walked/cycled to school, compared with 82% of unaccompanied children.
-Low proportions of children who were accompanied to school by an adult who then travelled to their workplace or to ‘other’
-destinations used AT to school (9%, 11%, respectively), compared to children with an adult travelling home (41%).
-4.1. Separate and fully adjusted regression models
-    Results from separate multilevel multivariable modified-Poisson regression models for: a) built environment; and b) household
-travel characteristics as predictors of AT to school and accruing = 20 min of AT are summarised in Tables 2A, 2B. Table 3 presents
-the results of mutually adjusted models containing built environment and household travel predictors, adjusted for all covariates
-other than non-predictors of either outcome in separate adjusted models (Tables 2A, 2B). Almost all associations that were statis-
-tically significant in the separate models (Tables 2A, 2B) remained so in the fully adjusted model (Table 3) with slightly lower
-Incident Rate Ratios (IRRs). Exceptions were that distance to school of less than 750 m and higher walkability around school were no
-longer associated with children who were accompanied to school spending at least 20 min in AT during the day. However, higher
-walkability in the home area was significantly associated with AT to school for the full sample and sub-sample of accompanied
-children in the fully adjusted model only (Table 3). Compared to null models, lower Deviance Information Criterion (DIC) values
-showed better model fit when both built environment characteristics and household travel behavior exposures were included se-
-parately, and even better fit when they were combined together and mutually adjusted in the final models (results not presented). For
-brevity only the results of fully adjusted models are described below.
-4.1.1. Built environment characteristics
-    The first two columns of Table 3 present findings relevant to research aim 1. The built environment factors of living in close
-proximity (< 750 m) to school (IRR = 2.69, 95%CI 2.02, 3.59) and high walkability around home (IRR = 1.33, 95%CI 1.04, 1.69)
-                                                                   119
+                                                     Journal of Transport & Health
+                                                    journal homepage: www.elsevier.com/locate/jth
 
-A. Carver et al.                                                                                     Journal of Transport & Health 12 (2019) 115–129
-Table 1 (continued)
-                                                    Whole sample N   Main mode to school was active         Active transport for = 20 min on
-                                                    = 1024           transport                              survey day
-                                                    N         Col. % n      Row %     Chi2        p.        n        Row %      Chi2      p.
-  TRAVEL SEASON                  Summer             206       20.1   68     33.0        6.5       0.091     50       24.3         2.0     0.580
-                                 Autumn             282       27.5   123    43.6                            77       27.3
-                                 Winter             230       22.5   85     37.0                            54       23.5
-                                 Spring             306       29.9   125    40.9                            69       22.6
-  SEIFA (IRSED) SCORE OF         T1 (Most           342       33.4   127    37.1        3.3       0.197     76       22.2         2.0     0.372
-      HOME SA1 b                 disadvantaged)
-                                 T2                 343       33.5   128    37.3                            92       26.8
-                                 T3 (Least          339       33.1   146    43.1                            82       24.2
-                                 disadvantaged)
-  LOCATION OF HOUSEHOLD          Inner Melbourne    222       21.7   114    51.4       23.4       0.000     73       32.9       12.0      0.007
-                                 Middle Melbourne   350       34.2   126    36.0                            78       22.3
-                                 Outer Melbourne    401       39.2   135    33.7                            85       21.2
-                                 Geelong c          51         5.0   26     51.0                            14       27.5
-  * Accompanied children only (n = 761); p-value in bold denotes p < 0.05 for Pearson Chi2 test.
-  b
-     Statistical Area 1 (SA1) are geographic areas built from whole Mesh Blocks, with a mean population of approximately 400 (range 200–800)
-people (ABS, 2016).
-  c
-    The second largest city (located 75 km from Melbourne) in Victoria, Australia.
-and school (IRR = 1.38, 95%CI 1.09, 1.75) were positively associated with children's AT to school, when compared with reference
-categories. Among these variables, only walkability of the school environment (IRR = 1.49, 95%CI 1.05, 2.13) was associated with
-accruing = 20 min of AT (Table 3). Residing in an area with a higher (rather than lower) proportion of low traffic roads was not
-associated with either children's AT to school (IRR = 0.82, 0.60, 1.11) or accruing = 20 min of AT (IRR = 0.90, 95%CI = 0.59,
-1.37).
-4.1.2. Household travel behaviour characteristics
-    In relation to research aim 2 (first two columns, Table 3), two household travel behaviours related to travel to school were
-consistently associated with both outcomes. Compared with children who trip chained to/from school, children who travelled there
-directly were more likely to take AT to school (IRR = 1.46, 95%CI 1.09, 1.95) and to accrue = 20 min of AT (IRR = 1.95, 95%CI
-1.29, 2.95) (Table 3). Adult accompaniment was negatively associated with children's AT to school (IRR = 0.42, 95%CI 0.35, 0.50)
-and accruing = 20 min of AT (IRR = 0.53, 95%CI 0.38, 0.74) when compared with non-accompaniment by an adult (Table 3).
-4.1.3. Built environment and household travel behaviours for accompanied children
-    The last two columns of Table 3 present findings from fully adjusted models for the subset of accompanied children (aim 3). Most
-of the positive associations observed between the built environment factors of distance to school, and walkability of the home and
-school environment with children's AT to school were similar for all children and the subset of accompanied children. The association
-between higher walkability around schools and accruing = 20 min of AT approached significance (IRR 1.60, 95%CI 1.00, 2.57).
-    Regarding household travel characteristics, accompanied children's direct travel to and from school did not predict AT to school
-(IRR = 1.31, 95%CI 0.85,2.01) when compared with children who trip chained, although it was positively associated with ac-
-cruing = 20 min of AT (IRR = 1.86, 95%CI 1.05, 3.29). Additionally for accompanied children, the distance that adults were
-travelling onward predicted children's AT. Those children whose accompanying parent's onward journey was less than two kilometres
-were more likely to take AT to school (IRR = 4.27, 95%CI 1.56, 11.68) and to accrue = 20 min of AT on the survey day (IRR = 3.65,
-95%CI 1.33, 10.05) compared with those whose parents travelled = 10 km after school drop-off. Similarly, the parent's destination
-predicted AT in the morning: children whose accompanying parent travelled on to an ‘other’ destination were 52% less likely to
-walk/cycle to school (IRR = 0.48, 95%CI 0.25, 0.93) compared to those whose parent travelled straight home. Access to public
-transport was not significantly associated with either outcome.
-    Regarding aim 4, significant interaction terms showed that associations between exposures of distance from home to school
-(p < 0.001) and both outcomes; children's trip chaining and = 20 min of AT - (p = 0.03); and walkability around school and AT to
-school (p = 0.003) (not reported in tables); varied according to child accompaniment status. As reported in Table 4, compared to the
-unaccompanied children with lowest distance to school, only unaccompanied children with the highest distance to school showed a
-lower likelihood of AT to school (IRR = 0.72, 95%CI 0.51, 1.00). However, with the same reference category, accompanied children
-in all distance categories had a lower likelihood of AT mode to school, and the higher the distance the lower the likelihood of AT.
-Unaccompanied children showed an increased likelihood of attaining = 20 min of AT with increased distance from school
-(0.75–1.24 km: IRR = 1.89, 95%CI 1.14, 3.15; 1.25–1.99 km: IRR = 2.76, 95%CI 1.61, 4.72), while no associations were observed
-among accompanied children (Table 4).
-    Associations between trip chaining and low school walkability and less AT in both outcomes were observed only among ac-
-companied children, compared to unaccompanied children who travelled directly to school, and with high SA1-level school
-                                                                      121
 
-A. Carver et al.                                                                                        Journal of Transport & Health 12 (2019) 115–129
-Table 4
-Interactions between selected built environment and household travel exposures and adult accompaniment.
-  Built environment and family travel           Accompanied by     Took active mode to school in          = 20 min of active transport on survey
-  exposure                                      adult              morning                                day
-                                                                   IRR     p.     Lower        Upper      IRR       p.        Lower        Upper
-                                                                                  95% CI       95% CI                         95% CI       95% CI
-  DISTANCE FROM HOME         < 0.75 km          No                 1.00                                   1.00
-      TO SCHOOL             0.75–1.24 km        No                 0.95    0.597  0.79         1.14       1.89      0.014     1.14         3.15
-                            1.25–1.99 km        No                 0.72    0.048  0.51         1.00       2.76      0.000     1.61         4.72
-                             < 0.75 km          Yes                0.59    0.000  0.48         0.72       1.05      0.872     0.61         1.80
-                            0.75–1.24 km        Yes                0.32    0.000  0.24         0.42       0.91      0.726     0.53         1.55
-                            1.25–1.99 km        Yes                0.15    0.000  0.10         0.22       0.66      0.142     0.38         1.15
-  CHILD'S TRIP              Travelled direct to No                 1.00                                   1.00
-      CHAINING              school
-                            Trip chained        No                 0.80    0.225  0.55         1.15       0.94      0.827     0.54         1.64
-                            Travelled direct to Yes                0.43    0.000  0.35         0.52       0.58      0.002     0.41         0.82
-                            school
-                            Trip chained        Yes                0.27    0.000  0.18         0.40       0.22      0.000     0.12         0.42
-  WALKABILITY OF            Higher walkability  No                 1.00                                   1.00
-      SCHOOL SA1            (Q3)
-                            Q2                  No                 1.08    0.521  0.85         1.37       0.86      0.577     0.51         1.46
-                            Lower walkability   No                 1.05    0.706  0.80         1.39       0.88      0.620     0.53         1.46
-                            (Q1)
-                            Higher walkability  Yes                0.58    0.000  0.46         0.74       0.64      0.022     0.43         0.94
-                            (Q3)
-                            Q2                  Yes                0.38    0.000  0.28         0.50       0.43      0.001     0.27         0.70
-                            Lower walkability   Yes                0.35    0.000  0.25         0.47       0.37      0.000     0.22         0.62
-                            (Q1)
-p-value in bold denotes p < 0.05; p-values for interaction terms between exposures are provided in text.
-Adjusted for interacting variables and additional covariates (distance to school, Walkability Index of home SA1, Walkability Index of school SA1,
-proportion of low traffic roads, accompaniment to school by a child under 10, trip chaining by child to or from school, sex, age group, household
-type, household income, household vehicles, household adult bikes, household with an adult more likely to be home (home duties etc.), travel
-season, SEIFA (IRSD) score of home SA1 and location of household.
-walkability, respectively. The observed associations confirm that poor walkability and trip chaining, when in combination with
-accompaniment, reduced the likelihood of AT.
-5. Discussion
-    This study is, to our knowledge, among the first to investigate, using separate and fully adjusted models, associations of objective
-measures of the built environment around home and school, and self-reported travel behaviour of household members travelling to
-and from school (accompaniment, trip chaining and accessibility of work), with children's AT to school and their accrual of PA via AT
-throughout the day. We found that built environment factors, including distance to and walkability around the school, along with
-household travel behaviours (children's trip chaining and adult accompaniment) were associated with children's AT (to school and/or
-accruing = 20 min ) when mutually adjusted for each other, and for individual, household and area level covariates. Adult ac-
-companiment to school was pervasive (in line with previous Australian research (Carver et al., 2013; Cole et al., 2007)) and con-
-sistently negatively associated with children's AT, with accompanied children half as likely to undertake AT. The distance of ac-
-companying adults’ onward trip chain was also negatively associated with children's AT, but findings on destination type were less
-clear. Adult's trip chaining to ‘other’ (rather than work) destinations were inversely associated with AT, suggesting less habitual
-(rather than non-discretionary) adult trip chaining may be a barrier to children's AT to school, perhaps as more flexible car travel is
-useful for less predictable trips. Finally, we found that observed associations between distance to school, walkability around school,
-children's trip chaining and AT of children varied by adult accompaniment, with associations, less pronounced among un-
-accompanied children suggesting children who travel independently are more resilient to variations in distance and walkability,
-compared with children who are accompanied by adults. Given that built environments do not exist in isolation of household travel
-behaviours (and vice versa), evidence from these analyses on their continued associations with AT when mutually adjusted for each
-other, as well as interactions between them, considerably add to and strengthen the evidence on built environment and household
-level characteristics as predictors of children's AT to school.
-    This study makes several contributions to the evidence base with clear implications for intervention. Firstly, with just over a third
-(39%) of primary school-aged children in this study engaged in AT to school, there is considerable scope to intervene to increase
-children's PA through AT to school. The proportion of children taking AT to school was similar to that identified by other studies
-conducted in Australia (Carver et al., 2012, 2014b; Veitch et al., 2017), lower than that reported in UK (Panter et al., 2010) and in
-Canada (Buliung et al., 2009), but higher than reported in the USA (Behrens et al., 2017; McDonald, 2008). Our findings suggest that
-the school journey is a key opportunity for promoting AT, because if children did not walk or cycle to school, they did not tend to
-                                                                        126
 
-A. Carver et al.                                                                                 Journal of Transport & Health 12 (2019) 115–129
-walk or cycle much to any other destinations. Promoting AT to school is a crucial intervention to help children meet PA guidelines,
-particularly those who are less inclined to participate in organised sport.
-    A second implication of the findings is that although home neighbourhood walkability is important, to increase AT on the school
-journey it may be most strategic (and cost-effective) to invest in the environments surrounding schools, rather than homes. Higher
-levels of walkability around schools was consistently associated with a greater likelihood of AT to school and throughout the day,
-suggesting it facilitates both children's AT to school and to nearby venues (e.g. sport venues, shops) after school. This emphasises that
-street connectivity and land use mix enable children to reach destinations on foot or by bicycle, and supports investment in infra-
-structure designed to improve walkability around schools. Investment in pedestrian infrastructure on local streets (e.g. footpaths,
-pedestrian crossings and bicycle paths) has been associated with increases in parent-reported rates of children's AT to school (Boarnet
-et al., 2005; McDonald et al., 2013) and identified as a promising approach to promoting children's AT in a recent systematic review
-(Smith et al., 2017).
-    Our findings that adult accompaniment to school was both pervasive and negatively associated with children's AT, suggest that
-infrastructure interventions to improve the safety and walkability of the built environment, will be more effective if matched by
-concerted campaigns to reduce adult accompaniment and promote age-appropriate independent mobility among children.
-Interventions that target the travel behaviour of entire households (Sener et al., 2010) are required to assist households to relinquish
-accompaniment and trip chaining, and transition children toward independent mobility. Programs aiming to have children aged 10
-years and older and living within walking distance travelling independently to school may be more effective, as by that age, children
-tend to have requisite road safety and navigational skills (Congiu et al., 2008; Whitebread and Neilson, 2000) and be granted more
-autonomy by parents (Carver et al., 2012).
-    Finally to inform intervention, future research should investigate further the relative influence of, direct and indirect effects of,
-and interactions between, built environment characteristics, accompaniment and trip chaining, on children's travel mode. For ex-
-ample, is there is an association between walkability and being accompanied, and if so, will improved walkability affect children's AT
-more directly (i.e. by making it easier for children to travel the distance between home and school) or indirectly (i.e. through
-facilitating parents’ relinquishment of accompaniment)? There is a need for greater understanding of: (1) how children experience,
-understand and negotiate characteristics of the built environment such as distance and walkability through AT; (2) how accom-
-panying adults also experience these same characteristics and how this in turn influences their understanding of their children's
-readiness for independent travel and their readiness to relinquish accompaniment; (3) how the legibility and navigability of the built
-environment for children is in turn mediated through adult or peer accompaniment; and (4) to what extent degree of choice and
-agency determine children's mode of travel and (5) how all this impacts on children's progress toward independent mobility, at
-different ages and in different built environments.
-5.1. Strengths and limitations
-    A key design strength of this study is the simultaneous investigation of objective built environment characteristics and self-
-reported travel characteristics of children and accompanying household members (accompaniment, trip chaining and accessibility of
-work) in regression models, to provide a fuller picture of their associations with children's AT and physical activity. Other strengths of
-this study include: the measurement of walkability around both home and school to examine built environment influences on
-children's active travel in multiple activity spaces and reduce potential for residential effect fallacy (Chaix et al., 2017); and the
-measurement of both AT to school and daily duration of AT across the day. In addition, the use of household travel survey data
-provided a large, randomly selected sample of children, and relatively detailed and high quality self-reported secondary data for AT
-outcomes, when compared to self-reported physical activity data from other sources used for health research (Lee et al., 2011). Whilst
-all self-reported data may be subject to recall error or social desirability bias, VISTA data are linked to the origin, destination and
-purpose of trips across a single day (which may prompt recall of AT and provides information for objective measurement of trip
-distance), and are validated at point of entry for quality control.
-    Regarding study limitations, this study's cross-sectional design precludes causal inference and the findings may not be gen-
-eralisable to urban settings beyond Australia. Household travel survey data reported on a single day may not reflect habitual travel
-behaviour and are prone to underreporting of short trips, often undertaken by AT. Secondary use of this data meant not all char-
-acteristics of families that we may have ideally explored or adjusted for, such as parental education, were available in the dataset. In
-addition, whilst it is not known how much other PA children did, several studies have identified that children who use AT to school
-tend to be more physically active overall (Carver et al., 2014b; Cooper, 2006; Cooper et al., 2003). A further consideration is that our
-measures of trip chaining and accompaniment were fairly simple; more detailed measures might include home-based tours to various
-destinations.
-6. Conclusions
-    This study provides important evidence for urban planners, policy-makers and health promotion practitioners of how both the
-built environment and travel behaviours of household members are related to children's AT. Our findings demonstrate that in order to
-increase AT to school (and transport-related PA) it is worth investing in infrastructure designed to improve walkability around
-schools. This should be coupled with campaigns that target whole households to promote age-appropriate independent mobility
-rather than adult accompaniment to school, which is more likely to involve children being driven rather than walking or cycling.
-                                                                    127
+
+How are the built environment and household travel characteristics
+                                                                                                                                                  T
+associated with children's active transport in Melbourne, Australia?
+A. Carvera,
+                     <U+204E>,1
+                           , A. Barrb,1, A. Singhb, H. Badlandc, S. Mavoab, R. Bentleyb
+a
+    Mary MacKillop Institute for Health Research, Australian Catholic University, 215 Spring St, Melbourne, Victoria 3000, Australia
+b
+    Melbourne School of Population and Global Health, University of Melbourne, Melbourne, Australia
+c
+    Centre for Urban Research, RMIT University, Melbourne, Australia
+
+
+
+
+ARTICLE INFO                                                 ABSTRACT
+
+Keywords:                                                    Background: Children's active transport (AT) is a potential source of habitual physical activity with
+Walking                                                      established health benefits. We aimed to examine built environment and household travel character-
+Cycling                                                      istics as predictors of AT to school and total daily duration of physical activity accumulated via AT.
+School                                                       Methods: Cross-sectional household travel survey data from 713 households with children aged
+Neighborhood
+                                                             5–12 years (n = 1024) residing < 2 km from school (i.e. walking distance) across Melbourne,
+Walkability
+Trip chaining
+                                                             Australia (2012–16) were combined with objectively-measured distance to school and walk-
+                                                             ability (based on intersection density, housing density, land use mix) around home and school.
+                                                             Multilevel multivariable modified-Poisson regression analyses examined built environment
+                                                             variables (distance to school, walkability, traffic) and household travel behaviours (children's and
+                                                             adults’ trip chaining, adult accompaniment to school) as predictors of: (1) AT to school; (2) total
+                                                             daily duration of AT of = 20 min; adjusted for spatial clustering (at SA1 level) and household
+                                                             variables (income, employment, cars, bicycles).
+                                                             Results: Most children (80%) had adult accompaniment to school but only 28% walked/cycled
+                                                             with an adult. Overall, 39% of children used AT to school and 24% accrued = 20 min of AT-
+                                                             related physical activity. AT to school was positively associated with higher (rather than lower)
+                                                             walkability around home and school, direct travel (not trip chaining) and residing close to school
+                                                             (< 0.75 km rather than = 1.25 km), and negatively associated with adult accompaniment and
+                                                             longer distance travelled onward in adult trip chains. AT of = 20 min duration daily was posi-
+                                                             tively associated with higher walkability around school, direct travel to/from school; and ne-
+                                                             gatively associated with adult accompaniment to, and distance trip chained onward from, school.
+                                                             Conclusions: To increase AT to school it is worth investing in infrastructure designed to improve
+                                                             walkability around schools, coupled with campaigns that target whole households to promote
+                                                             age-appropriate independent mobility rather than adult accompaniment, which tends to involve
+                                                             children being driven.
+
+
+
+
+1. Background
+
+   Regular physical activity during childhood is beneficial for bone mineral density (Christoffersen et al., 2015; Strong et al., 2005),
+as well as reduced prevalence of overweight/obesity and risk factors for cardiovascular disease (Strong et al., 2005; WHO, 2010).
+
+
+    Corresponding author.
+     <U+204E>
+
+    E-mail addresses: Alison.Carver@acu.edu.au (A. Carver), alison.barr@unimelb.edu.au (A. Barr), ankur.singh@unimelb.edu.au (A. Singh),
+hannah.badland@rmit.edu.au (H. Badland), suzanne.mavoa@unimelb.edu.au (S. Mavoa), brj@unimelb.edu.au (R. Bentley).
+  1
+    Equal contribution.
+
+https://doi.org/10.1016/j.jth.2019.01.003
+Received 3 September 2018; Received in revised form 21 December 2018; Accepted 4 January 2019
+Available online 22 January 2019
+2214-1405/ © 2019 Elsevier Ltd. All rights reserved.
+
+A. Carver et al.                                                                                 Journal of Transport & Health 12 (2019) 115–129
+
+
+Consequently, health authorities worldwide recommend that school-aged children engage in at least 60 min of physical activity of
+moderate-to-vigorous intensity per day (Australian Government Department of Health, 2014; WHO, 2010). Children's active trans-
+port (AT) is a potential source of habitual physical activity (PA) (Schoeppe et al., 2013; Tudor-Locke et al., 2001), and a dose-
+response relationship has been demonstrated between frequency of AT to school and time spent overall in moderate-to-vigorous PA
+(Carver et al., 2014b). A systematic review of AT to school and physical fitness reported that walking/cycling to school was associated
+with healthy weight status and cardiovascular fitness (Lubans et al., 2011). In addition, a recent integrative review (Waygood et al.,
+2017) highlights that AT may confer psychological benefits, promotion of social interaction and cognition (e.g. acquiring spatial
+knowledge).
+    Despite the associated benefits, rates of walking and cycling to/from school in some developed nations, such as Australia and UK,
+have declined during recent decades and remain low (Hillman et al., 1990; Salmon et al., 2005; Van der Ploeg et al., 2008). For
+example, between 1985 and 2001 in Australia, rates of walking to school daily declined from 37% to 26%, while rates of cycling to
+school dropped from 20% to 8% (Salmon et al., 2005). More recently, an Australian study (Carver et al., 2014b) of 8–15 year-olds
+reported rates of 25% for walking and 6% for cycling to school, while a US study (Behrens et al., 2017) reported rates of 11% and 2%
+respectively among similar-aged children. Even in other developed countries such as Denmark, Finland and Norway (Fyhri, 2011),
+that typically have high rates of AT (Shaw et al., 2015), increasing trends towards car travel to school have been reported. Reasons for
+these ongoing low rates of active transport are multifaceted but the built environment in which homes and schools are located, and
+the complexity and time pressures of modern family life, may play a role. Built environment characteristics that act as facilitators and
+barriers to AT to school have been identified, including distance between home and school (Carver et al., 2012; Davison et al., 2008;
+Oliver et al., 2014) and walkability of routes to school (Carver et al., 2014a; Villanueva et al., 2013). However, much research on the
+association between built environment and active transport has been based on the home location, giving rise to potential for re-
+sidential effect fallacy, due to possible confounding from other environments visited throughout the day (Chaix et al., 2017). Re-
+search that has investigated activity spaces outside home environments (e.g. work and school neighbourhoods), suggests localities
+outside of the home neighbourhood are important influences on active travel and physical activity (Chaix et al., 2017; Howell et al.,
+2017; Hurvitz et al., 2014).
+    Household level factors are also influential, such as parental restrictions on children's AT due to concerns about road safety and
+perceived risk of harm from strangers (Carver et al., 2008, 2013; Mammen, 2012; O'Connor and Brown, 2013). As a consequence,
+children are frequently accompanied by parents, siblings and friends on their school commute (Carver et al., 2013; Cole et al., 2007).
+Factors associated with parental accompaniment to school include child's sex and age; parent's sex, ethnicity and employment status;
+and there is some evidence of an association with built environment characteristics such as accessibility of employment, population
+density and residential location (Ho and Mulley, 2015b; Hsu and Saphores, 2014; Mammen, 2012; Vovsha and Petersen, 2005; Yoon
+et al., 2011). Other motivations may be to achieve maximum efficiencies from family-level travel resources (e.g. cars) and budgets
+(time; money) through joint travel. The growing complexity of family lifestyles has resulted in some school journeys being combined
+with parental commutes to work, trips to shops (Mitra, 2013) or other structured activities (Pooley et al., 2005). This behaviour is
+described as ‘trip chaining’ where smaller trips are combined into a larger trip chain, commonly ‘anchored’ at either home or work
+(Islam and Nurul Habib, 2012; Primerano et al., 2008). For example, an adult's trip chain may comprise a journey from home to work
+via their younger child's kindergarten and their older child's primary school for drop-off purposes; while a child's trip chain may
+comprise the journey from school to home via a recreation centre or pool for swimming lessons.
+    Although directionality of association is uncertain, decisions on the travel behaviours of mode choice, accompaniment and trip
+chaining are interdependent and are often made at a household level (Islam and Nurul Habib, 2012; Ye et al., 2007). Depending on
+trip type, week day and the spatial dispersion of origins and destinations, as well as their accessibility by public transport systems, car
+travel may be more flexible for complex journeys, and trip chaining complexity is associated with car mode choice, compared to
+walking or cycling, and often public transport (Daisy et al., 2018; Primerano et al., 2008; Xianyu, 2013; Ye et al., 2007). Therefore,
+transport mode choice for accompanied children may depend on parental commuting patterns (McDonald, 2008), with even short,
+potentially walkable journeys often made by car (Carver et al., 2013). The tendency to drive children may be exacerbated where the
+parent's trip chain involves mandatory travel (e.g. home-school-work), rather than a simple home-school-home escort trip (Cole et al.,
+2007), where there may be greater discretion over and flexibility in travel behaviour (Ho and Mulley, 2015b; Primerano et al., 2008;
+Vovsha and Petersen, 2005). Household income, presence of children, vehicle ownership, sex, age, employment, population density,
+land use and transit accessibility are associated with trip chaining decisions (Daisy et al., 2018; Islam and Nurul Habib, 2012;
+Primerano et al., 2008; Xianyu, 2013). Despite increasing carbon emissions, car travel on short trips to school may be normalised due
+to increased car availability, travel complexity, time constraints and perceived convenience (Faulkner et al., 2010; Lang et al., 2011;
+Mackett, 2003; Mitra, 2013; Trapp et al., 2011). As children's mode choice is probably influenced by travel decisions made at a
+household level, more research on how household level travel decisions and behaviour related to the journey to school (e.g. ac-
+companiment, trip chaining) influence children's travel mode choice is needed to combat this trend (Ewing and Cervero, 2001; Ho
+and Mulley, 2015b; Primerano et al., 2008).
+    Household travel surveys that collect self-reported information on travel patterns and modes for all members of randomly-selected
+households over one or more days within a geographical area have traditionally been used for transport planning (Merom et al.,
+2010), with data analysed at the aggregate level, e.g. across a city travel zone. However, public health researchers have identified the
+potential of household travel survey data for exploring AT behaviours (Durand et al., 2016; Ho and Mulley, 2015a; Merom et al.,
+2010), analyzing disaggregate data at an individual or household level to avoid ecologic fallacy (Handy et al., 2002; Merom et al.,
+2010). The potential of intersecting household travel surveys with Geographic Information System (GIS) data to investigate si-
+multaneous individual, household and built environment influences on mode choice is yet to be fully explored, especially how
+
+                                                                   116
+
+A. Carver et al.                                                                                        Journal of Transport & Health 12 (2019) 115–129
+
+
+individual travel behaviours are ‘bundled’ through household accompaniment and trip chaining and facilitated by transport systems
+and built environments (Buliung and Kanaroglou, 2006a; Buliung and Kanaroglou, 2006b). To our knowledge, few if any studies have
+combined these data types to investigate how household travel behaviours and built environment factors are associated with AT to
+school and how this contributes to achieving children's PA guidelines.
+   This study is guided by a socio-ecological framework that assumes there are multiple layers of intrapersonal, social and physical
+environment characteristics that impact an individual's health behaviours (Sallis et al., 2008). Specifically, this study aims to answer
+the following questions:
+
+1. Are built environment characteristics, such as distance to school and walkability around school, associated with AT to school and
+   daily duration of AT?
+2. Are household travel behaviours related to the journey to school, such as children's trip chaining and accompaniment patterns,
+   associated with children's AT to school and daily duration of AT?
+3. For accompanied children, are adults’ trip chaining characteristics such as the destination and distance of the adult's onward
+   journey, associated with children's AT to school and daily duration of AT?
+4. Do observed associations between distance to school, walkability around school, children's trip chaining and AT of children vary
+   by adult accompaniment?
+
+2. Methods
+
+2.1. Sample
+
+    The sample was derived from 46,562 people from 18,152 households, who responded in 2012–16 to the Victorian Integrated
+Survey of Travel and Activity (VISTA), a cross-sectional household travel survey of a stratified, clustered random sample of residents
+in private households in Mesh Blocks2 in Greater Melbourne and Geelong, the second largest city (located 75 km from Melbourne) in
+Victoria, Australia, described elsewhere (Transport for Victoria, 2018). VISTA runs continuously throughout the year surveying
+different households each day. Characteristics of all trips undertaken on the survey day by all household members are reported
+including: trip origin and destination; departure and arrival time; main travel mode; destination type; trip distance, duration and
+purpose; and accompaniment. Origins and destinations are geo-coded using GIS and travel data is linked to an individual's demo-
+graphic and socioeconomic data (Ipsos Social Research Institute, 2015; Transport for Victoria, 2018).
+    Among 4490 children of primary school age (5–12 years) in 18,152 households, children were excluded if: surveyed on a weekend
+(n = 1127); they stayed at home on their survey day (n = 496); they did not take a trip to primary school (e.g. were on school
+holidays) or did not travel to school before 10:00 hours AND from school after 14:00 (n = 1052) for the purpose of education; and if
+they did not record a journey to education (n = 7). Distances > 2 km were considered less feasible for AT, particularly walking
+(Carver et al., 2014a), therefore children who resided > 2 km from school (network distance; n = 781) were excluded, as were
+children with missing public transport access data (n = 3). Despite distances of more than 2 km being potentially bikeable for
+children, very few children (3%) in the broader sample (whose survey was on a weekday) cycled to school. The final sample
+comprised 713 households with 1024 children (5–12 years).
+
+2.2. Exposure variables
+
+2.2.1. Built environment characteristics
+2.2.1.1. Distance from home to school. For confidentiality, geographic coordinates of respondents’ home addresses were provided
+within a 100 m radius of their home. Distance to school using the shortest street network distance between home and school, was
+measured using ArcGIS 10.4 (ESRI, 2016, Redlands, CA) software.
+
+2.2.1.2. Walkability around home and school. Walkability around home and school was measured using a Transport Walkability Index
+developed for Melbourne, described elsewhere (Giles-Corti et al., 2014). The index comprises three related characteristics measured
+at a Statistical Area 1 (SA1) level3: residential (dwelling) density; intersection density (3+ way intersections); a land use mix entropy
+measure ranging from 0 (SA1 contains a single land use) to 1 (SA1 contains equal area of five land uses – residential, retail,
+commercial, community and recreation). Residential (dwelling) density is important for walkability because there tends to be greater
+service provision (e.g. shops, medical centres, schools) and thus more potentially walkable destinations in areas where more people
+reside (Giles-Corti et al., 2014). Street connectivity is associated with walking for transport (Talen and Koschinsky, 2013) due to
+availability and choice of direct routes for walking. Land use mix is important for the co-location of homes, businesses and services
+and is thus associated with having walkable destinations (Giles-Corti et al., 2014). Values for these input measures were normalised
+
+
+  2
+    Mesh Blocks are the smallest geographical area in the Australian Bureau of Statistics (ABS) Australian Statistical Geography Standard (ASGS), on
+average containing 30–60 dwellings (Australian Bureau of Statistics, 2016).
+  3
+    Statistical Area 1 (SA1) are geographic areas built from whole Mesh Blocks, with a mean population of approximately 400 (range 200–800)
+people ABS, 2016. Australian Statistical Geography Standard (ASGS): Volume 1 – Main Structure and Greater Capital City Statistical Areas. Aus-
+tralian Bureau of Statistics, Canberra.
+
+                                                                        117
+
+A. Carver et al.                                                                                    Journal of Transport & Health 12 (2019) 115–129
+
+
+(via z-scores), and centred around a mean of 0, with z-scores of ± 1 representing scores at ± 1 standard deviation. Z-scores for
+dwelling density, street connectivity, and land use mix were summed to give Transport Walkability Index scores, which were
+categorized using a tertile split as: 1 ‘lower’, 2 ‘medium’ and 3 ‘higher’ walkability.
+
+2.2.1.3. Proportion of low traffic roads around school. Roads in Victoria, Australia, are classified within VicMap Transport data (State
+Government of Victoria and Department of Sustainability and Environment, 2013) using the following hierarchy (which is a proxy for
+decreasing traffic volume and road width): ‘freeway’, ‘highway’, ‘arterial’, ‘sub-arterial’, ‘collector’, ‘local’, ‘2 wheel drive track’, ‘4
+wheel drive track’. The length of low traffic roads (i.e. ‘collector’ or ‘local’) as a proportion (%) of the total length of all roads within a
+2 km network buffer around each school was calculated. This was highly negatively skewed (median 87%, range 74–98%) and
+collapsed into three categories (‘lower’, ‘medium’, ‘higher’) approximating a tertile split.
+
+2.2.2. Household travel behaviour exposures (i.e. accompaniment and trip chaining)
+2.2.2.1. Adult accompaniment to and from school. Children who were accompanied on trips to and/or from primary school by adult
+household members were identified (VISTA data). Accompaniment by other children in the household was not significantly
+associated with outcomes and, therefore, excluded from analyses, as was accompaniment by non-household members, whose
+demographic information was unavailable.
+
+2.2.2.2. Child's trip chaining. Children were classified as travelling directly to and from school (i.e. NOT trip chaining) if their home
+was the origin and destination respectively for these trips.
+
+2.2.2.3. Adults’ trip chaining via primary school. To delineate adults who accompanied a child to primary school during a discretionary
+rather than mandatory trip chain (e.g. journey to work), the follow-on destination of adults travelling FROM primary school before
+10:00 (n = 761) was identified and classified as ‘home’, ‘work’ or ‘other’. The distance to this destination was categorised as: < 2 km;
+2–4.9 km; 5–9.9 km or > 10 km. The first category matches the 2 km cap for distance to school and the other three categories were
+divided according to the distribution in increasing distance in readily recognisable 5 km contours from school.
+
+2.2.2.4. Public transport accessibility. Accompanying adult's capacity to trip chain from home with a combination of AT and public
+transport was included to see if it explained patterns of active travel to school in accompanied children (i.e. reduced the likelihood of
+them being driven to school en route to another destination). Public transport accessibility from each home was determined using the
+Composite Accessibility Index (CAI, with potential values 0–60), developed for Spatial Network Analysis for Multi-Modal Urban
+Transport Systems (SNAMUTS) (Curtis and Scheurer, 2016). SNAMUTS indices use network analysis to measure city-wide public
+transport accessibility from an origin, based on spatial characteristics, frequency and speed of services across the public transport
+network. Mesh Blocks without a stop with a minimum service frequency level (< 20 min in weekday inter-peak and < 30 min on
+weekends for bus/tram, and < 30 min for rail) within walking distance (400 m for bus/tram, 800 m for train/ferry) from the centroid,
+were used as a reference category. CAI values ranged from 0–24.8, were highly positively skewed and subsequently collapsed into
+four categories: ‘no minimum public transport service’; and ‘low’ (CAI < 10); ‘medium’ (CAI 10–14); and ‘high’ (CAI = 15) public
+transport accessibility.
+
+2.3. Covariates
+
+    Several covariates associated previously with exposures and outcomes as described above, and that were derivable from VISTA
+and census data were selected (Hsu and Saphores, 2014). Individual level covariates were child's age-group (5–7, 8–9, 10–12 years)
+and sex. Household level covariates included household type (nuclear (i.e. two-parent family)/other/sole parent), whether an adult
+stayed at home on the survey day (and may have been available to accompany children), or was likely to be home after school hours
+(i.e. employed part-time, casual, homemaker, unemployed or retired); household- size, income, employment status (no adult em-
+ployed full-time/at least one adult employed full-time), ownership of bicycles and cars. Area-level covariates were seasonality and the
+Index of Relative Socio-economic Disadvantage (IRSD) score of the home SA1, a measure of area-level disadvantage in Australia
+(Australian Bureau of Statistics, 2015).
+
+2.4. Outcome variables
+
+2.4.1. AT to school
+    The child's main transport mode to school was that recorded for the trip ending at primary school. If using multiple modes, the
+main mode was determined by the following hierarchy: public transport, motorised transport, walking and cycling, other. This was
+dichotomised as ‘motorised transport’ (private vehicle, train, tram, school or public bus) or AT (walking/cycling).
+
+2.4.2. Accruing 20 min or more of AT on the survey day
+    The duration of: a) walking and cycling trip legs; and b) time spent walking to vehicles in motorised trip legs, reported in minutes
+by survey respondents, were summed to derive total daily duration of AT. The distribution was highly positively skewed: few children
+(n = 11 children; 0.9%) met the PA recommendation (60 min/day) through AT alone, and many (n = 905; 88%) accrued less than
+30 min of PA through AT. Time spent in AT per day was dichotomized as ‘ < 20 min’ or ‘= 20 min’.
+
+                                                                     118
+
+A. Carver et al.                                                                              Journal of Transport & Health 12 (2019) 115–129
+
+
+3. Statistical analysis
+
+    ArcGIS 10.4 (ESRI, 2016, Redlands, CA) software was used for spatial analysis and STATA 14.2 (StataCorp, 2015, College Station,
+Texas) was used for descriptive and statistical analysis.
+    Descriptive analysis involved tabulation of sample characteristics. Associations between built environment, household travel
+behaviours and the two AT outcomes were tested by fitting multilevel multivariable regression models. Initially, two separate sets of
+models were fitted for each outcome. The first fitted built environment characteristics and the second fitted household travel be-
+haviour characteristics, each adjusted for potential individual-, household-, and area-level confounding factors. Final models included
+both built environment and household travel characteristics (adjusted for covariates), to identify if patterns of association between
+both sets of exposures and the two outcomes remained significant when mutually adjusted for each other. All models were replicated
+for a sub-group of accompanied children (n = 761) where adults travelled onward from primary school before 10:00. Additional
+variables that described the accompanying adult's follow-on destination and distance travelled were included.
+    The choice of regression model was dependent on the distribution of the outcome (binary) and the extent of its clustering at the
+geographic-level of aggregation (SA1s). Odds ratios in logistic regression models do not approximate relative risks when outcomes are
+not rare, as is the case here (39% reported AT to school) (McNutt et al., 2003). Alternative models including log-binomial or
+modified-Poisson regression (Poisson regression with sandwich error term) were considered (Zou, 2004). Multilevel multivariable
+modified-Poisson regression with robust standard errors was used to estimate prevalence ratios, as this class of model allows for
+explicit adjustment for geographic clustering compared with other model choices; noting that the outcome measure is clustered at
+SA1 level (Median Rate Ratio): AT to school 1.55 (accompanied children) and = 20 min of AT 1.44 (full sample) 1.80 (accompanied
+children) (Austin et al., 2018). Multilevel generalized linear models were fitted through the ‘meglm’ command in STATA with family
+Poisson and log link.
+    To address the fourth aim, statistical interactions were tested between accompaniment and distance to school, trip chaining and
+walkability around the child's school, for both AT outcomes. These models adjusted for individual-, household-, and area-level
+confounding factors and for accompaniment, distance to school, trip chaining and walkability. Joint-effects were also modelled for all
+combinations of interacting variables with unaccompanied status, built environment and household travel behaviour variables
+conducive to AT as reference category, as they have the highest likelihood of attaining AT outcomes (Knol and VanderWeele, 2012).
+    Ethics approval was granted by the Melbourne School of Population and Global Health Human Ethics Advisory Group, the
+University of Melbourne (Ethics ID 1442864.1).
+
+4. Results
+
+    Descriptive data for all children (N = 1024; 50% male) and their households (n = 713) are presented in Table 1. Most children
+(86%) had at least one adult carrer in full-time employment, 12% lived in households with very low income, 9% in sole parent
+households and 26% in households with one car or less. Overall, 39% of children used AT to school (35% walked, 4% cycled) and
+24% accrued 20 min of PA via AT daily. Few (0.2%) used public transport. Among those who used motorized transport to school, only
+4% accrued 20 min of AT per day (i.e. mainly to other destinations). Although most children (82%) living more than 1.25 km from
+their school were driven to school, 35% of those residing within a short walking distance (0.75 km) of school were also driven. Higher
+proportions of older children, in households with less than two cars and with higher walkability at home and school walked/cycled to
+school and accrued = 20 min of AT, compared with those in reference categories. Most children (80%) had adult accompaniment to
+school, but only 28% of children accompanied by an adult walked/cycled to school, compared with 82% of unaccompanied children.
+Low proportions of children who were accompanied to school by an adult who then travelled to their workplace or to ‘other’
+destinations used AT to school (9%, 11%, respectively), compared to children with an adult travelling home (41%).
+
+4.1. Separate and fully adjusted regression models
+
+    Results from separate multilevel multivariable modified-Poisson regression models for: a) built environment; and b) household
+travel characteristics as predictors of AT to school and accruing = 20 min of AT are summarised in Tables 2A, 2B. Table 3 presents
+the results of mutually adjusted models containing built environment and household travel predictors, adjusted for all covariates
+other than non-predictors of either outcome in separate adjusted models (Tables 2A, 2B). Almost all associations that were statis-
+tically significant in the separate models (Tables 2A, 2B) remained so in the fully adjusted model (Table 3) with slightly lower
+Incident Rate Ratios (IRRs). Exceptions were that distance to school of less than 750 m and higher walkability around school were no
+longer associated with children who were accompanied to school spending at least 20 min in AT during the day. However, higher
+walkability in the home area was significantly associated with AT to school for the full sample and sub-sample of accompanied
+children in the fully adjusted model only (Table 3). Compared to null models, lower Deviance Information Criterion (DIC) values
+showed better model fit when both built environment characteristics and household travel behavior exposures were included se-
+parately, and even better fit when they were combined together and mutually adjusted in the final models (results not presented). For
+brevity only the results of fully adjusted models are described below.
+
+4.1.1. Built environment characteristics
+    The first two columns of Table 3 present findings relevant to research aim 1. The built environment factors of living in close
+proximity (< 750 m) to school (IRR = 2.69, 95%CI 2.02, 3.59) and high walkability around home (IRR = 1.33, 95%CI 1.04, 1.69)
+
+                                                                 119
+
+A. Carver et al.                                                                                   Journal of Transport & Health 12 (2019) 115–129
+
+
+Table 1 (continued)
+
+                                                 Whole sample N   Main mode to school was active          Active transport for = 20 min on
+                                                 = 1024           transport                               survey day
+
+                                                 N       Col. %   n      Row %     Chi2       p.          n       Row %      Chi2      p.
+
+  TRAVEL SEASON              Summer              206     20.1     68     33.0        6.5      0.091       50      24.3        2.0      0.580
+                             Autumn              282     27.5     123    43.6                             77      27.3
+                             Winter              230     22.5     85     37.0                             54      23.5
+                             Spring              306     29.9     125    40.9                             69      22.6
+  SEIFA (IRSED) SCORE OF     T1 (Most            342     33.4     127    37.1        3.3      0.197       76      22.2        2.0      0.372
+      HOME SA1 b             disadvantaged)
+                             T2                  343     33.5     128    37.3                             92      26.8
+                             T3 (Least           339     33.1     146    43.1                             82      24.2
+                             disadvantaged)
+  LOCATION OF HOUSEHOLD      Inner Melbourne     222     21.7     114    51.4       23.4      0.000       73      32.9       12.0      0.007
+                             Middle Melbourne    350     34.2     126    36.0                             78      22.3
+                             Outer Melbourne     401     39.2     135    33.7                             85      21.2
+                             Geelong c           51       5.0     26     51.0                             14      27.5
+
+  * Accompanied children only (n = 761); p-value in bold denotes p < 0.05 for Pearson Chi2 test.
+  b
+    Statistical Area 1 (SA1) are geographic areas built from whole Mesh Blocks, with a mean population of approximately 400 (range 200–800)
+people (ABS, 2016).
+  c
+    The second largest city (located 75 km from Melbourne) in Victoria, Australia.
+
+
+
+and school (IRR = 1.38, 95%CI 1.09, 1.75) were positively associated with children's AT to school, when compared with reference
+categories. Among these variables, only walkability of the school environment (IRR = 1.49, 95%CI 1.05, 2.13) was associated with
+accruing = 20 min of AT (Table 3). Residing in an area with a higher (rather than lower) proportion of low traffic roads was not
+associated with either children's AT to school (IRR = 0.82, 0.60, 1.11) or accruing = 20 min of AT (IRR = 0.90, 95%CI = 0.59,
+1.37).
+
+4.1.2. Household travel behaviour characteristics
+    In relation to research aim 2 (first two columns, Table 3), two household travel behaviours related to travel to school were
+consistently associated with both outcomes. Compared with children who trip chained to/from school, children who travelled there
+directly were more likely to take AT to school (IRR = 1.46, 95%CI 1.09, 1.95) and to accrue = 20 min of AT (IRR = 1.95, 95%CI
+1.29, 2.95) (Table 3). Adult accompaniment was negatively associated with children's AT to school (IRR = 0.42, 95%CI 0.35, 0.50)
+and accruing = 20 min of AT (IRR = 0.53, 95%CI 0.38, 0.74) when compared with non-accompaniment by an adult (Table 3).
+
+4.1.3. Built environment and household travel behaviours for accompanied children
+    The last two columns of Table 3 present findings from fully adjusted models for the subset of accompanied children (aim 3). Most
+of the positive associations observed between the built environment factors of distance to school, and walkability of the home and
+school environment with children's AT to school were similar for all children and the subset of accompanied children. The association
+between higher walkability around schools and accruing = 20 min of AT approached significance (IRR 1.60, 95%CI 1.00, 2.57).
+    Regarding household travel characteristics, accompanied children's direct travel to and from school did not predict AT to school
+(IRR = 1.31, 95%CI 0.85,2.01) when compared with children who trip chained, although it was positively associated with ac-
+cruing = 20 min of AT (IRR = 1.86, 95%CI 1.05, 3.29). Additionally for accompanied children, the distance that adults were
+travelling onward predicted children's AT. Those children whose accompanying parent's onward journey was less than two kilometres
+were more likely to take AT to school (IRR = 4.27, 95%CI 1.56, 11.68) and to accrue = 20 min of AT on the survey day (IRR = 3.65,
+95%CI 1.33, 10.05) compared with those whose parents travelled = 10 km after school drop-off. Similarly, the parent's destination
+predicted AT in the morning: children whose accompanying parent travelled on to an ‘other’ destination were 52% less likely to
+walk/cycle to school (IRR = 0.48, 95%CI 0.25, 0.93) compared to those whose parent travelled straight home. Access to public
+transport was not significantly associated with either outcome.
+    Regarding aim 4, significant interaction terms showed that associations between exposures of distance from home to school
+(p < 0.001) and both outcomes; children's trip chaining and = 20 min of AT - (p = 0.03); and walkability around school and AT to
+school (p = 0.003) (not reported in tables); varied according to child accompaniment status. As reported in Table 4, compared to the
+unaccompanied children with lowest distance to school, only unaccompanied children with the highest distance to school showed a
+lower likelihood of AT to school (IRR = 0.72, 95%CI 0.51, 1.00). However, with the same reference category, accompanied children
+in all distance categories had a lower likelihood of AT mode to school, and the higher the distance the lower the likelihood of AT.
+Unaccompanied children showed an increased likelihood of attaining = 20 min of AT with increased distance from school
+(0.75–1.24 km: IRR = 1.89, 95%CI 1.14, 3.15; 1.25–1.99 km: IRR = 2.76, 95%CI 1.61, 4.72), while no associations were observed
+among accompanied children (Table 4).
+    Associations between trip chaining and low school walkability and less AT in both outcomes were observed only among ac-
+companied children, compared to unaccompanied children who travelled directly to school, and with high SA1-level school
+
+                                                                   121
+
+A. Carver et al.                                                                                     Journal of Transport & Health 12 (2019) 115–129
+
+
+Table 4
+Interactions between selected built environment and household travel exposures and adult accompaniment.
+  Built environment and family travel            Accompanied by   Took active mode to school in         = 20 min of active transport on survey
+  exposure                                       adult            morning                               day
+
+                                                                  IRR     p.      Lower     Upper       IRR     p.       Lower        Upper
+                                                                                  95% CI    95% CI                       95% CI       95% CI
+
+  DISTANCE FROM HOME        < 0.75 km            No               1.00                                  1.00
+     TO SCHOOL             0.75–1.24 km          No               0.95    0.597   0.79      1.14        1.89    0.014    1.14         3.15
+                           1.25–1.99 km          No               0.72    0.048   0.51      1.00        2.76    0.000    1.61         4.72
+                            < 0.75 km            Yes              0.59    0.000   0.48      0.72        1.05    0.872    0.61         1.80
+                           0.75–1.24 km          Yes              0.32    0.000   0.24      0.42        0.91    0.726    0.53         1.55
+                           1.25–1.99 km          Yes              0.15    0.000   0.10      0.22        0.66    0.142    0.38         1.15
+  CHILD'S TRIP             Travelled direct to   No               1.00                                  1.00
+     CHAINING              school
+                           Trip chained          No               0.80    0.225   0.55      1.15        0.94    0.827    0.54         1.64
+                           Travelled direct to   Yes              0.43    0.000   0.35      0.52        0.58    0.002    0.41         0.82
+                           school
+                           Trip chained          Yes              0.27    0.000   0.18      0.40        0.22    0.000    0.12         0.42
+  WALKABILITY OF           Higher walkability    No               1.00                                  1.00
+    SCHOOL SA1             (Q3)
+                           Q2                    No               1.08    0.521   0.85      1.37        0.86    0.577    0.51         1.46
+                           Lower walkability     No               1.05    0.706   0.80      1.39        0.88    0.620    0.53         1.46
+                           (Q1)
+                           Higher walkability    Yes              0.58    0.000   0.46      0.74        0.64    0.022    0.43         0.94
+                           (Q3)
+                           Q2                    Yes              0.38    0.000   0.28      0.50        0.43    0.001    0.27         0.70
+                           Lower walkability     Yes              0.35    0.000   0.25      0.47        0.37    0.000    0.22         0.62
+                           (Q1)
+
+p-value in bold denotes p < 0.05; p-values for interaction terms between exposures are provided in text.
+Adjusted for interacting variables and additional covariates (distance to school, Walkability Index of home SA1, Walkability Index of school SA1,
+proportion of low traffic roads, accompaniment to school by a child under 10, trip chaining by child to or from school, sex, age group, household
+type, household income, household vehicles, household adult bikes, household with an adult more likely to be home (home duties etc.), travel
+season, SEIFA (IRSD) score of home SA1 and location of household.
+
+walkability, respectively. The observed associations confirm that poor walkability and trip chaining, when in combination with
+accompaniment, reduced the likelihood of AT.
+
+
+5. Discussion
+
+    This study is, to our knowledge, among the first to investigate, using separate and fully adjusted models, associations of objective
+measures of the built environment around home and school, and self-reported travel behaviour of household members travelling to
+and from school (accompaniment, trip chaining and accessibility of work), with children's AT to school and their accrual of PA via AT
+throughout the day. We found that built environment factors, including distance to and walkability around the school, along with
+household travel behaviours (children's trip chaining and adult accompaniment) were associated with children's AT (to school and/or
+accruing = 20 min ) when mutually adjusted for each other, and for individual, household and area level covariates. Adult ac-
+companiment to school was pervasive (in line with previous Australian research (Carver et al., 2013; Cole et al., 2007)) and con-
+sistently negatively associated with children's AT, with accompanied children half as likely to undertake AT. The distance of ac-
+companying adults’ onward trip chain was also negatively associated with children's AT, but findings on destination type were less
+clear. Adult's trip chaining to ‘other’ (rather than work) destinations were inversely associated with AT, suggesting less habitual
+(rather than non-discretionary) adult trip chaining may be a barrier to children's AT to school, perhaps as more flexible car travel is
+useful for less predictable trips. Finally, we found that observed associations between distance to school, walkability around school,
+children's trip chaining and AT of children varied by adult accompaniment, with associations, less pronounced among un-
+accompanied children suggesting children who travel independently are more resilient to variations in distance and walkability,
+compared with children who are accompanied by adults. Given that built environments do not exist in isolation of household travel
+behaviours (and vice versa), evidence from these analyses on their continued associations with AT when mutually adjusted for each
+other, as well as interactions between them, considerably add to and strengthen the evidence on built environment and household
+level characteristics as predictors of children's AT to school.
+    This study makes several contributions to the evidence base with clear implications for intervention. Firstly, with just over a third
+(39%) of primary school-aged children in this study engaged in AT to school, there is considerable scope to intervene to increase
+children's PA through AT to school. The proportion of children taking AT to school was similar to that identified by other studies
+conducted in Australia (Carver et al., 2012, 2014b; Veitch et al., 2017), lower than that reported in UK (Panter et al., 2010) and in
+Canada (Buliung et al., 2009), but higher than reported in the USA (Behrens et al., 2017; McDonald, 2008). Our findings suggest that
+the school journey is a key opportunity for promoting AT, because if children did not walk or cycle to school, they did not tend to
+
+                                                                         126
+
+A. Carver et al.                                                                                 Journal of Transport & Health 12 (2019) 115–129
+
+
+walk or cycle much to any other destinations. Promoting AT to school is a crucial intervention to help children meet PA guidelines,
+particularly those who are less inclined to participate in organised sport.
+    A second implication of the findings is that although home neighbourhood walkability is important, to increase AT on the school
+journey it may be most strategic (and cost-effective) to invest in the environments surrounding schools, rather than homes. Higher
+levels of walkability around schools was consistently associated with a greater likelihood of AT to school and throughout the day,
+suggesting it facilitates both children's AT to school and to nearby venues (e.g. sport venues, shops) after school. This emphasises that
+street connectivity and land use mix enable children to reach destinations on foot or by bicycle, and supports investment in infra-
+structure designed to improve walkability around schools. Investment in pedestrian infrastructure on local streets (e.g. footpaths,
+pedestrian crossings and bicycle paths) has been associated with increases in parent-reported rates of children's AT to school (Boarnet
+et al., 2005; McDonald et al., 2013) and identified as a promising approach to promoting children's AT in a recent systematic review
+(Smith et al., 2017).
+    Our findings that adult accompaniment to school was both pervasive and negatively associated with children's AT, suggest that
+infrastructure interventions to improve the safety and walkability of the built environment, will be more effective if matched by
+concerted campaigns to reduce adult accompaniment and promote age-appropriate independent mobility among children.
+Interventions that target the travel behaviour of entire households (Sener et al., 2010) are required to assist households to relinquish
+accompaniment and trip chaining, and transition children toward independent mobility. Programs aiming to have children aged 10
+years and older and living within walking distance travelling independently to school may be more effective, as by that age, children
+tend to have requisite road safety and navigational skills (Congiu et al., 2008; Whitebread and Neilson, 2000) and be granted more
+autonomy by parents (Carver et al., 2012).
+    Finally to inform intervention, future research should investigate further the relative influence of, direct and indirect effects of,
+and interactions between, built environment characteristics, accompaniment and trip chaining, on children's travel mode. For ex-
+ample, is there is an association between walkability and being accompanied, and if so, will improved walkability affect children's AT
+more directly (i.e. by making it easier for children to travel the distance between home and school) or indirectly (i.e. through
+facilitating parents’ relinquishment of accompaniment)? There is a need for greater understanding of: (1) how children experience,
+understand and negotiate characteristics of the built environment such as distance and walkability through AT; (2) how accom-
+panying adults also experience these same characteristics and how this in turn influences their understanding of their children's
+readiness for independent travel and their readiness to relinquish accompaniment; (3) how the legibility and navigability of the built
+environment for children is in turn mediated through adult or peer accompaniment; and (4) to what extent degree of choice and
+agency determine children's mode of travel and (5) how all this impacts on children's progress toward independent mobility, at
+different ages and in different built environments.
+
+
+5.1. Strengths and limitations
+
+    A key design strength of this study is the simultaneous investigation of objective built environment characteristics and self-
+reported travel characteristics of children and accompanying household members (accompaniment, trip chaining and accessibility of
+work) in regression models, to provide a fuller picture of their associations with children's AT and physical activity. Other strengths of
+this study include: the measurement of walkability around both home and school to examine built environment influences on
+children's active travel in multiple activity spaces and reduce potential for residential effect fallacy (Chaix et al., 2017); and the
+measurement of both AT to school and daily duration of AT across the day. In addition, the use of household travel survey data
+provided a large, randomly selected sample of children, and relatively detailed and high quality self-reported secondary data for AT
+outcomes, when compared to self-reported physical activity data from other sources used for health research (Lee et al., 2011). Whilst
+all self-reported data may be subject to recall error or social desirability bias, VISTA data are linked to the origin, destination and
+purpose of trips across a single day (which may prompt recall of AT and provides information for objective measurement of trip
+distance), and are validated at point of entry for quality control.
+    Regarding study limitations, this study's cross-sectional design precludes causal inference and the findings may not be gen-
+eralisable to urban settings beyond Australia. Household travel survey data reported on a single day may not reflect habitual travel
+behaviour and are prone to underreporting of short trips, often undertaken by AT. Secondary use of this data meant not all char-
+acteristics of families that we may have ideally explored or adjusted for, such as parental education, were available in the dataset. In
+addition, whilst it is not known how much other PA children did, several studies have identified that children who use AT to school
+tend to be more physically active overall (Carver et al., 2014b; Cooper, 2006; Cooper et al., 2003). A further consideration is that our
+measures of trip chaining and accompaniment were fairly simple; more detailed measures might include home-based tours to various
+destinations.
+
+
+6. Conclusions
+
+    This study provides important evidence for urban planners, policy-makers and health promotion practitioners of how both the
+built environment and travel behaviours of household members are related to children's AT. Our findings demonstrate that in order to
+increase AT to school (and transport-related PA) it is worth investing in infrastructure designed to improve walkability around
+schools. This should be coupled with campaigns that target whole households to promote age-appropriate independent mobility
+rather than adult accompaniment to school, which is more likely to involve children being driven rather than walking or cycling.
+
+                                                                   127
 

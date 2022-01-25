@@ -1,366 +1,448 @@
-                                                            Journal of Transport & Health 6 (2017) 299–305
-                                                            Contents lists available at ScienceDirect
-                                                    Journal of Transport & Health
-                                                   journal homepage: www.elsevier.com/locate/jth
-An examination of how changing patterns of school travel mode                                                                                      MARK
-impact moderate-to-vigorous physical activity among adolescents
-over time
-                         <U+204E>
-Erica Y. Laua, , Guy Faulknera, Negin Riazia, Wei Qianb, Scott T. Leatherdaleb
-a
-  School of Kinesiology, University of British Columbia, Vancouver, BC, Canada V6T 1Z3
-b
-  School of Public Health and Health System, University of Waterloo, Waterloo, ON, Canada N2L 3G1
-AR TI CLE I NF O                                           AB S T R A CT
-Keywords:                                                  Background: This study examined temporal variations in school travel mode and whether these
-Active transportation                                      variations predicted changes in moderate-to-vigorous physical activity (MVPA) among adoles-
-High school students                                       cents (Grades 9 to 12).
-Stability of travel modes                                  Methods: We analyzed data from Years 1, 2 and 3 of the COMPASS study. Students included in
-                                                           the analysis were those who had provided information on sociodemographic factors, MVPA and
-                                                           school travel modes. A <U+FB01>nal longitudinal sample included 19,868 participants for the analyses
-                                                           related to travel mode to school (AM period) and 17,678 for the travel mode from school (PM
-                                                           period). The proportion of participants who changed their school travel modes between years
-                                                           was calculated to determine the stability of school travel mode. Linear-mixed models were used
-                                                           to examine whether changes in mode predicted changes in MVPA one year later. These models
-                                                           adjusted for sociodemographic factors as covariates and accounted for the clustering within
-                                                           schools.
-                                                           Results: Stability in school travel mode was observed for both time periods. Across data collection
-                                                           waves, only 9.3% consistently used an active transportation mode in the AM period and 15.6% in
-                                                           the PM period. Only 2.5% switched from a passive to active mode in the AM period and 3.1% in
-                                                           the PM period, whereas 3.5% switched from an active to passive mode in the AM period and
-                                                           5.2% in the PM period. No signi<U+FB01>cant association was observed for the AM period. For the PM
-                                                           period, the decrease in MVPA was signi<U+FB01>cantly greater in adolescents who switched from an
-                                                           active to a passive transportation mode than those who remained using a passive transportation
-                                                           mode across years.
-                                                           Conclusion: School travel makes a contribution to the amount of MVPA youth accumulate during
-                                                           the school week although evidence for this was restricted to those shifting from active to passive
-                                                           modes in the afternoon period.
-1. Introduction
-     Active school transportation (AST), including modes such as walking or cycling (Faulkner et al., 2009), has long been identi<U+FB01>ed as
-a potential source of habitual physical activity (Tudor-Locke et al., 2001). Additionally, transportation is an integral part of everyday
-life. Through time, active travel practices may develop into an automatic behavior which is easier to sustain in the long term (Lally
-   <U+204E>
-     Correspondence to: Postdoctoral Research Fellow in Physical Activity and Applied Public Health University of British Columbia School of Kinesiology 2146 Health
-Sciences Mall, Room 4604, Vancouver, BC, Canada V6T 1Z3.
-     E-mail address: erica.lau@ubc.ca (E.Y. Lau).
-http://dx.doi.org/10.1016/j.jth.2017.03.011
-Received 12 January 2017; Received in revised form 6 March 2017; Accepted 17 March 2017
-Available online 22 March 2017
-2214-1405/ © 2017 Elsevier Ltd. All rights reserved.
+                                                          Journal of Transport & Health 6 (2017) 299–305
 
-E.Y. Lau et al.                                                                                  Journal of Transport & Health 6 (2017) 299–305
-and Gardner, 2013). In the context of declining levels of physical activity among children and youth (Tremblay et al., 2016), an
-increasing number of studies have focused on the relationship between AST and physical activity, and on interventions to increase
-AST (Chillon et al., 2011).
-    Previous work has shown that AST makes direct contributions to children's overall physical activity. A systematic review has
-reported that accelerometer-measured overall physical activity levels were higher in children who use an active transportation mode
-for trips to/from schools than those who travel by car or public transport, with the di<U+FB00>erences of daily moderate-to-vigorous physical
-activity (MVPA) ranging from 0 to 45 minutes (Larouche et al., 2014). For example, in one recent study, New Zealand adolescent
-active school travellers accumulated 13 and 14 more minutes of MVPA on weekdays and weekend days, respectively (Stewart et al.,
-2016). However, most evidence is based on cross-sectional studies.
-    Another gap in the literature is that previous research has largely focused on elementary school children. This may re<U+FB02>ect the
-typically smaller school catchment areas for elementary school children compared to secondary schools. In turn, this reduces the
-distance between home and school to a distance considered walkable (or feasible (D'Haese et al., 2011)) by parents and children and
-youth. Accordingly, research attention has perhaps concentrated on the elementary setting where potentially greater mode shifts to
-AST may be possible. Studying the e<U+FB00>ects of AST on physical activity among secondary school aged students is crucial because this is
-the time at which independent mobility tends to increase (O'Brien et al., 2000). Adolescents are provided with more autonomy to
-select travel modes to schools and other places, and of course adolescents can obtain a probationary licence to drive (typically at the
-age of 16 in Canada and 14 in the province of Alberta). Also, physical activity appears to track more strongly from adolescence to
-adulthood than from childhood to adulthood. Promoting AST during high school may be more in<U+FB02>uential to active travel practices in
-adulthood, and thus more likely sustained into early adulthood.
-    To date, only two investigations have examined longitudinal associations between AST and physical activity in adolescents
-(Carver et al., 2011; Heelan et al., 2005). These studies demonstrated a positive association between school travel modes and
-temporal changes in physical activity. One limitation is that both studies only used participants’ school travel mode status at a speci<U+FB01>c
-time point to predict prospective physical activity. One Canadian study has reported that adolescents’ engagement in active travel
-modes begins to decline after the age of 11 years (Pabayo et al., 2011). Therefore, it is important to account for this temporal
-variation in school travel modes when estimating the longitudinal associations between school travel modes and physical activity.
-The objectives of the current study are to examine 1) the prevalence and stability of school travel mode over a 1-year period, and 2)
-whether changes in AST status predict changes in physical activity across time.
-2. Methods
-2.1. Sample and population
-    The COMPASS study is an ongoing prospective cohort study (2012–2021) designed to examine longitudinal associations between
-school policies and programs with youth health behaviours (i.e. physical activity, healthy eating, smoking, and alcohol and marijuana
-use) (Leatherdale et al., 2014b). The study collects hierarchical longitudinal data from a convenience sample of secondary schools
-and the grade 9 to 12 students attending these schools. Extensive details on the COMPASS host study, including sampling, data
-collection and linkage process, are available online (www.compass.uwaterloo.ca).
-    The current study utilized linked student-level data from Year 1 (Y1: 2012–2013), Year 2 (Y2:2013-2014) and Year 3 (Y3:2014-
-2015) of the COMPASS host study. In Y1, data were collected from 24,173 students (80.2% response rate) from 43 Ontario schools. In
-Y2 (when COMPASS was expanded), data were collected from 45,298 students (80.1% participation rate) in 79 Ontario and 10
-Alberta secondary schools (all 43 Y1 Ontario schools remained in Y2). In Y3, data were collected from 42,355 students (79.3%
-participation rate) in 78 Ontario and 9 Alberta schools who participated in Y2. All eligible grade 9 to 12 students attending these
-schools were invited to participate in the study and reported data by completing the COMPASS student questionnaire (Cq) annually.
-Missing respondents resulted primarily from scheduled spares or absenteeism at the time of the Cq, and minimally from student or
-parent refusal (< 1% annually). The COMPASS study was approved by the Human Research Ethics Board at the University of
-Waterloo and participating school board committees.
-    As described elsewhere (Qian et al., 2015), unique self-generated identi<U+FB01>cation codes were used to link data sets for three years
-and create longitudinal data across Y1, Y2 and Y3. We considered participants who had completed the Cq for at least 2 consecutive
-years, which resulted in a longitudinal sample of 26,081 participants. Among this group, we further excluded participants who were
-missing data on PA or school transportation modes, or had inconsistent records on sex or ethnicity across years. A <U+FB01>nal longitudinal
-sample of 19,868 was included for the analyses related to transportation mode to school and 17,678 for transportation mode from
-school, respectively.
-2.2. Measures
-2.2.1. Physical activity
-    At each time point, participants were asked to respond to two items on the Cq about how many minutes of vigorous and moderate
-PA they had done on each of the last 7 days. Vigorous PA was de<U+FB01>ned as activities that “increase your heart rate and make you
-breathe hard and sweat,” such as jogging, team sports, fast dancing or jump-rope. Moderate PA was de<U+FB01>ned as “lower intensity
-activities” such as walking, biking to school and recreational swimming. The responses were then used to construct two PA outcomes.
-The <U+FB01>rst was a continuous outcome: the average time spent in MVPA (minutes/day). This outcome was calculated as the total of
-                                                                   300
 
-E.Y. Lau et al.                                                                                   Journal of Transport & Health 6 (2017) 299–305
-combined vigorous and moderate PA time divided by 7 days. The second was a binary outcome: whether the participants met the
-Canadian PA guideline of at least 60 min of MVPA per day. These measures have demonstrated a satisfactory 1-week test-retest
-reliability (intraclass correlation [ICC]=0.75). The measures were also signi<U+FB01>cantly correlated with accelerometer-measured
-behaviours (r=0.31, ICC=0.25). While correlations between self-report and objective measures were low to modest, the results are
-comparable to most other studies using accelerometers to validate self-report PA (Leatherdale et al., 2014a).
-2.2.2. Transportation modes to/from schools
-    At each year, participants reported transportation modes to/from school by responding to two questions: “How do you usually
-travel to school” and “How do you usually travel from school” (If you use two or more modes of travel, choose the one that you spend most
-time doing). The responses options were 1="By car (as a passenger)", 2="By car (as a driver)" 3="By school bus", 4="By public bus,
-subway, or streetcar", 5="By walking", 6="By bicycling", 7="Other", 99="Not Stated". For each year, participants who responded 1, 2,
-3, and 4, were assigned a score of 0 indicating a “passive” school transportation status; those responded 5 and 6 were assigned a score
-of 1 indicating an “active” school transportation status. Participants who responded 7=“Other” or 99= “Not Stated” or had missing
-values were excluded from the analysis. According to students’ response to transportation mode to/from school between two
-consecutive years, we divided them into 4 school travel mode shifting groups. “0-0” represents the group of students remained using a
-passive mode across years, “0–1” for shifting from passive to active, “1-0” for shifting from active to passive, and “1-1” for those
-remained using an active mode across years.
-2.2.3. Sociodemographic variables
-    Students also reported age in years or grade, and ethnicity. Grade at year 1 was measured as a categorical variable with 4
-categories. Ethnicity was a categorical variable with six categories: White, Black, Asian, Aboriginal (First Nations, Métis, Inuit), Latin
-American/Hispanic, and other. Urbanity was also included as one of the covariates as it has been found to be signi<U+FB01>cantly associated
-with school transportation mode. Students were classi<U+FB01>ed as living in rural, small urban, medium urban, and large urban area based
-on their school location. By linking school location to the 2011 Canadian Census data, we classi<U+FB01>ed the participating schools into
-1=rural (with a population of less than 1000 or a density of less than 400 people per square kilometre), 2=small urban (with a
-population of between 1000 and 29,999), 3=medium urban (with a population of between 30,000 and 99,999) and 4=large urban
-(with a population of 100,000 and over).
-2.3. Statistical analysis
-    Descriptive statistics were calculated for all the study variables and the di<U+FB00>erences between participants included and excluded
-were compared. Preliminary analyses were conducted to explore the bivariate relationship between each covariate and the dependent
-variable, and all signi<U+FB01>cant variables (p < .05), were retained for the longitudinal analyses.
-    The proportion of participants in the four mode shifting groups across years was calculated to determine the stability of AST
-status. Linear-mixed models were used to examine whether mode shifting predicted change in MVPA one year later. These models
-were strati<U+FB01>ed by time-period (i.e., morning=AM and afternoon=PM), with a 1-year change in MVPA entered as a dependent
-variable, mode shift group as the independent variable, and sociodemographic variables as covariates (i.e., sex, race/ethnicity and
-urbanity), and accounting for the clustering within schools. To meet the normality assumption, we performed a squared root
-transformation on the average MVPA minutes per day. All analyses were conducted using the statistical software package SAS 9.4
-(Cary, NC). The procedure PROC MIXED was used for the linear mixed-e<U+FB00>ects models. Residual and studentized residual plots were
-used to con<U+FB01>rm model assumptions and <U+FB01>t. Statistical signi<U+FB01>cance was set at p < 0.05 for all analyses.
-3. Results
-    Descriptive statistics of the study variables are presented in Table 1. The included sample is signi<U+FB01>cantly di<U+FB00>erent from the
-excluded sample in terms of age, gender, race/ethnicity, grade, urbanity, MVPA and school travel mode. Changes in travel mode over
-one year are presented in Table 2. Stability in travel mode over time observed for both time periods. Approximately 85% and 77% of
-the participants remained using a passive transportation mode across years in the AM and PM periods, respectively. Approximately
-3% of the participants shifted from a passive to an active transportation mode and 4%-5% switched from an active to a passive
-transportation mode. Sociodemographic characteristics of participants in each group are shown in Table 3. Participants in all four
-groups in the AM period are similar in terms of composition of gender, race/ethnicity and urbanity. In each group, participants were
-more likely to be girls, white, and living in large urban areas. This pattern was consistent in the PM period.
-    Results for the mixed-e<U+FB00>ect models are presented in Table 4. For the AM period, there was no statistically signi<U+FB01>cant association
-between travel mode group and changes in MVPA over a 1-year period after controlling for sociodemographic covariates (i.e., sex,
-race and urbanity). For the PM period, the decrease in MVPA decreased was signi<U+FB01>cantly greater in adolescents who switched from an
-active to a passive transportation mode than those who remained using a passive transportation mode across years. In addition to
-dichotomizing school travel mode into active versus passive, post-hoc analyses were conducted to examine whether participants’
-switching between taking school bus and driving predicts changes in MVPA across time. Results from the post-hoc analyses revealed
-no statistically signi<U+FB01>cant associations (data not presented).
-                                                                   301
 
-E.Y. Lau et al.                                                                                                     Journal of Transport & Health 6 (2017) 299–305
-Table 1
-Di<U+FB00>erences in the year 2 characteristics of the included and excluded participants, COMPASS study 2012/13 to 2014/15, Mean ± SD or n (%).
-  Variable                             AM                                                           PM
-                                                                                               <U+204E>
-                                       Included (n=19,868)      Excluded (n=6213)      p-value      Included (n=17,678)         Excluded (n=8403)       p-value<U+204E>
-  Age, Mean ± SD                       15.40 ± 1.18             15.43 ± 1.12           0.1840       15.40 ± 1.1                 15.45 ± 1.18            0.0002
-  Sexa, n (%)                                                                          < .0001                                                           < .0001
-  Girls                                10,786(54.3)             2905(47.1)                          9766(55.2)                  3925(46.9)
-  Boys                                 9082(45.7)               3268(52.9)                          7912(44.8)                  4438(53.1)
-  Race/Ethnicity, n (%)                                                                < .0001                                                           < .0001
-  White                                15,453(77.8)             4508(72.6)                          13,760(77.8)                6202(73.7)
-  Black                                608(3.1)                 306(4.9)                            497(2.8)                    417(5.0)
-  Asian                                1016(5.1)                335(5.4)                            942(5.3)                    409(4.9)
-  Aboriginal                           483(2.4)                 207(3.3)                            397(2.3)                    293(3.5)
-  L. Am./Hisp.                         360(1.8)                 148(2.4)                            329(1.9)                    179(2.1)
-  Others/Mixed/Missing                 1948(9.8)                708(11.4)                           1753(9.9)                   903(10.8)
-  Grade, n (%)                                                                         < .0001                                                           < .0001
-  9                                    5641(28.4)               1851(29.8)                          5059(28.6)                  2433(29.0)
-  10                                   6246(31.4)               1860(29.9)                          5617(31.8)                  2489(29.6)
-  11                                   5387(27.1)               1548(24.8)                          4756(26.9)                  2179(25.9)
-  12                                   25.94(13.1)              954(15.5)                           2246(12.7)                  1302(15.5)
-  Urbanity                                                                             0.1278                                                           0.0011
-  Large                                10,602(53.4)             3355(54.0)                          9579(54.2)                  4378(52.1)
-  Medium                               3152(15.7)               911(14.7)                           2742(15.5)                  1294(15.4)
-  Small /Rural                         6141(30.9)               1947(31.3)                          5357(30.3)                  2731(32.5)
-  MVPA (min/d), Mean ± SD              59.64 47.0               37.0448.74             < .0001      59.0 ± 46.6                 45.49 ± 50.63            < .0001
-  School travel mode                                                                   < .0001                                                           < .0001
-  AMb, n (%)
-  Passive                              17,352(87.3)             4897(89.7)                          15,294(87.2)                6955(89.3)
-  Active                               2516(12.7)               562(10.3)                           2246(12.8)                  832(10.7)
-  PMc, n (%)                                                                           < .0001                                                           < .0001
-  Passive                              14,760(80.0)             4320(84.4)                          14,092(79.7)                4988(84.6)
-  Active                               3700(20.0)               796(15.6)                           3586(20.3)                  910(15.4)
-Abbreviations: AM=morning period; L. Am./Hisp=Latin American/Hispanic; min/d=minutes per day; MVPA=moderate-to-vigorous physical activity; PA=
-physical activity; PM=afternoon period.
-  a
-    40 students were not included because of missing or inconsistent sex information.
-  b
-    754 students did not have AST-AM information in 2013/2014.
-  c
-    2505 students did not have AST-PM information in 2013/2014
-  <U+204E>
-    p-value < 0.05 indicates the included and excluded participants were signi<U+FB01>cantly di<U+FB00>erent in a given variable.
-4. Discussion
-     As expected in the Canadian context (Barnes et al., 2016), only a minority of youth in the sample engaged in AST to (15%) or from
-school (23%). The prevalence was lower than a 2009 provincially representative survey of 3633 students in grades 7 through 12 in
-Ontario. The corresponding <U+FB01>gures were 23% and 32% for secondary school students (Wong et al., 2011). As a North American
-comparison, these rates of AST are higher than those reported in the United States. McDonald et al. (2011) reported that 7.5% of
-grades 9–12 students walked or biked to school in 2009. Notably, school travel mode was very stable in the current sample suggesting
-school travel mode has been <U+FB01>rmly established by grade 9, and this may have other repercussions for reduced active travel beyond
-the school context (Stewart et al., 2016).
-     Although mode shifting over the year was relatively rare (3–5%), our <U+FB01>ndings contribute to the evidence base that school travel is
-a meaningful source of physical activity. In this case, there was a signi<U+FB01>cant decrease in MVPA among youth who shifted to passive
-modes of school travel in the afternoon period. The <U+FB01>nding that this association was only in the afternoon period is likely related to
-the morning-afternoon mode shift typically seen in the literature where more children and youth use active travel in the afternoon
-period (e.g., Wong et al., 2011). As caregivers may be employed there may be a need to <U+FB01>nd an alternative way to get home with
-      Table 2
-      Distribution of shifts in school travel mode over a 1-year period.
-        School travel mode shifting groups                                                               AM                                       PM
-                                                                                                         n=23180                                  n=20468
-        Passive-Passive                                                  (0-0)                           84.7%                                    76.1%
-        Passive-Active                                                   (0–1)                           2.5%                                     3.1%
-        Active-Active                                                    (1-1)                           9.3%                                     15.6%
-        Active-Passive                                                   (1-0)                           3.5%                                     5.2%
-      Abbreviations: AM=morning period, PM=afternoon period
-                                                                                302
+                                                          Contents lists available at ScienceDirect
 
-E.Y. Lau et al.                                                                                                      Journal of Transport & Health 6 (2017) 299–305
-Table 3
-Distribution of students in gender, urbanity and ethnicity, by school travel mode shifting groups.
-                     AM n (%)                                                                 PM n (%)
-                     0-0 (n=19624)       0–1 (n=576)      1-0 (n=815)      1-1 (n=2165)       0-0 (n=15573)    0–1 (n=624)        1-0 (n=1074)       1-1 (n=3197)
-  Gender
-  Girls              10,950(55.8)        295(51.2)        390(47.9)        1059(48.9)         8892(57.1)       324(51.9)          559(52.1)          1639(51.3)
-  Boys               8674(44.2)          281(48.8)        425(52.1)        1106(51.1)         6681(42.9)       300(48.1)          515(48.0)          1558(48.7)
-  Urbanity
-  Large              10,923(55.7)        319(55.4)        390(47.9)        1190(55)           8751(56.2)       354(56.7)          531(49.4)          1845(57.7)
-  Medium             3043(15.5)          69(12.0)         129(15.8)        280(12.9)          2440(15.7)       69(11.1)           155(14.4)          395(12.4)
-  Small/Rural        5658(28.8)          188(32.6)        296(36.3)        695(32.1)          4382(28.1)       201(32.2)          388(36.1)          957(29.9)
-  Race/Ethnicity
-  White              15,489(78.9)        375(65.1)        595(73.0)        1590(73.4)         12,358(65.9)     411(74.4)          799(74.0)          2366(74.0)
-  Black              538(2.7)            29(5.0)          35(4.3)          101(4.7)           365(3.9)         24(4.1)            44(4.2)            134(4.2)
-  Asian              913(4.7)            58(10.1)         61(7.5)          194(9.0)           716(10.3)        64(6.2)            67(8.9)            285(8.9)
-  Aboriginal         418(2.1)            20(3.5)          29(3.6)          62(2.9)            318(4.0)         25(2.3)            25(2.0)            65(2.0)
-  L.Am./Hisp.        361(1.8)            15(2.6)          14(1.7)          30(1.4)            289(2.7)         17(1.9)            20(1.7)            54(1.7)
-  Others/Mixed       1905(9.7)           79(13.7)         81(9.9)          188(8.7)           1527(13.3)       83(11.1)           119(9.2)           293(9.2)
-Abbreviation: AM=morning period, L. Am./Hisp=Latin American/Hispanic; L. Urban=Large Urban; M. Urban=Medium Urban; S. Urban=Small Urban
-PM=afternoon period;
-Note: School travel mode shifting group: 0-0=Passive-Passive, 0–1=Passive-Active; 1-1=Active-Active; 1-0=Active-Passive
-some children and youth adopting active modes of travel home when the distance is feasible. These factors contribute to an increase
-in AST commonly seen in Ontario of at least 10% as we report and others have found (Wong et al., 2011). When youth shift to passive
-modes, in this case, for unknown reasons, then this source of physical activity is removed from the day, which we speculate is the
-reason for the signi<U+FB01>cant decline in MVPA. More broadly, the present study reinforces the need to consider the temporality of school
-travel, the mode shift, as interventions might be more e<U+FB00>ective when targeting either the morning or afternoon periods.
-     Taken together, our <U+FB01>ndings suggest that there is a missed opportunity in not attempting to intervene at the secondary school
-context. The most recent systematic review of AST interventions identi<U+FB01>ed 14 interventions that all focused on children (from age 5 to
-12 years) and were set in elementary schools (Chillon et al., 2011) although one study also included adolescents from middle school
-to age 15 years (Staunton et al., 2003). Given the spatial, temporal and age-related variations in school travel mode it is unlikely that
-'one size <U+FB01>ts all' interventions will be e<U+FB00>ective in promoting AST in this context (Wong et al., 2011). Rather, the use of school travel
-planning may be appropriate. School travel planning is a multi-disciplinary, multi-sectoral, school-speci<U+FB01>c intervention that engages
-Table 4
-Longitudinal associations between school travel mode shifting group and moderate-to-vigorous physical activity over a 1-year period.
-                                                   AM                                                            PM
-  E<U+FB00>ect                                            Est                   SE                 Pr > |t|             Est                    SE                 Pr > |t|
-  Intercept                                        -0.14                 0.05               0.0099               -0.16                  0.05               0.0049
-  School travel mode shifting group
-  0–1                                              0.24                  0.14               0.0774               0.17                   0.13               0.2021
-  1-0                                              -0.20                 0.12               0.0793               -0.21                  0.10               0.039<U+204E>
-  1-1                                              0.11                  0.07               0.1581               0.08                   0.06               0.2369
-  0-0                                              REF                   –                  –                    REF                    –                  –
-  Sex
-  Girls                                            0.14                  0.04               0.0009               0.11                   0.05               0.013
-  Boys                                             REF                   –                  –                    REF                    –                  –
-  Race/Ethnicity
-  Black                                            -0.27                 0.13               0.0369               -0.24                  0.14               0.0921
-  Asian                                            -0.13                 0.10               0.1847               -0.14                  0.10               0.1727
-  Aboriginal                                       -0.22                 0.15               0.1401               -0.19                  0.16               0.2279
-  L. Am./Hisp                                      -0.17                 0.16               0.2963               -0.15                  0.17               0.3659
-  Others/Mixed                                     0.03                  0.07               0.7217               0.09                   0.08               0.2292
-  White                                            REF                   –                  –                    REF                    –                  –
-  Urbanity
-  Small/Rural                                      0.08                  0.07               0.2434               0.11                   0.07               0.1405
-  Medium                                           0.25                  0.09               0.0048               0.26                   0.09               0.0053
-  Large                                            REF                   –                  –                    REF                    –                  –
-Abbreviation: AM=morning period, L. Am. /Hisp=Latin American/Hispanic; PM=afternoon period
-Note: School travel mode shifting group: 0-0=Passive-Passive, 0–1=Passive-Active; 1-1=Active-Active; 1-0=Active-Passive
-Models adjusted sex, race/ethnicity and urbanity as covariates and accounting for the clustering within schools.
-Bold-faced indicated signi<U+FB01>cantly di<U+FB00>erent from the reference group
-  <U+204E>
-    Statistical signi<U+FB01>cance was set at p < 0.05
-                                                                                 303
 
-E.Y. Lau et al.                                                                                                            Journal of Transport & Health 6 (2017) 299–305
-key stakeholders (e.g., STP facilitator, public health, police o<U+FB03>cials, municipal planners and tra<U+FB03>c engineers, school boards, parents,
-youth, school administrators and teachers) in the survey, implementation and evaluation of school travel issues (Green Committee
-Canada, 2007). Such an approach has been successfully implemented in elementary schools in Canada (Mammen et al., 2014a;
-Mammen et al., 2014b), and has been piloted in 7 secondary schools in Ottawa, Canada (Green Communities Canada, 2012). Given
-the greater distances between home and school for secondary students (e.g., average distance of 3.6 miles for elementary children and
-5.5 miles for high school students in the United States (McDonald et al., 2011)), it is likely that such plans will need to incorporate
-transit-related activity (Durand et al., 2016; Voss et al., 2015) and approaches to encourage and support safe cycling (Yang et al.,
-2010).
-     There are a number of limitations to the study. First, dichotomizing mode share into active and passive is a limitation as the
-determinants and consequences of di<U+FB00>erent modes (e.g., walking versus cycling; taking public transit versus being driven) are
-important. For example, it is likely that the use of public transit is associated with similar levels of activity accrued through just
-walking trips (Voss et al., 2015). In our post-hoc analyses, we investigated whether participants’ switching between taking school bus
-and driving predicts changes in MVPA across time, but no statistically signi<U+FB01>cant association was found. Second, the study was
-limited in that all measures were self-reported and physical activity assessment is particularly prone to reporting error. These
-limitations should be considered in light of the strengths of the study. With a longitudinal study design, any potential reporting bias is
-expected to be consistent between waves, so we should still be able to make valid conclusions. The large sample size of this study
-increased the precision of population parameter estimations, which is important for informing public health policies.
-     School travel makes a contribution to the amount of MVPA youth accumulate during the school week although evidence for this
-was restricted to those shifting from active to passive modes in the afternoon period. Surprisingly little research has addressed how
-high school students get to and from school nor implemented and evaluated interventions to promote AST. This is an important policy
-and practice gap that needs closer attention in supporting more active and sustainable transport choices that could carry on into early
-adulthood.
-Acknowledgements
-     The COMPASS study was supported by a bridge grant from the Canadian Institutes of Health Research (CIHR) Institute of
-Nutrition, Metabolism and Diabetes (INMD) through the “Obesity—Interventions to Prevent or Treat” priority funding awards [OOP-
-110788; grant awarded to S. T. Leatherdale] and an operating grant from the CIHR Institute of Population and Public Health (IPPH)
-[MOP-114875; grant awarded to S. T. Leatherdale]. Drs. Faulkner (grant no. APHC 201405CPP-329463-CPP-CEAA-138759) and
-Leatherdale (grant no. APHC-201405CPP-329323-116339) are Chairs in Applied Public Health Research funded by the Public Health
-Agency of Canada in partnership with CIHR.
-References
-Barnes, J.D., Cameron, C., Carson, V., Chaput, J.P., Faulkner, G.E., Janson, K., Janssen, I., Kramers, R., LeBlanc, A.G., Spence, J.C., Tremblay, M.S., 2016. Results from
-    Canada's 2016 ParticipACTION report card on physical activity for children and youth. J. Phys. Act. Health 13, S110–S116.
-Green Committee Canada, 2007. Active and Safe Route to School: School Travel Planning Toolkit.
-Carver, A., Timperio, A.F., Hesketh, K.D., Ridgers, N.D., Salmon, J.L., Crawford, D.A., 2011. How is active transport associated with children's and adolescents' physical
-    activity over time? Int. J. Behav. Nutr. Phys. Act. 8, 126.
-Chillon, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
-    Act. 8, 10.
-D'Haese, S., De Meester, F., De Bourdeaudhuij, I., Deforche, B., Cardon, G., 2011. Criterion distances and environmental correlates of active commuting to school in
-    children. Int. J. Behav. Nutr. Phys. Act. 8, 88.
-Durand, C.P., Pettee Gabriel, K.K., Hoelscher, D.M., Kohl 3rd, H.W., 2016. Transit use by children and adolescents: an overlooked source of and opportunity for
-    physical activity? J. Phys. Act. Health. 13, 861–866.
-Faulkner, G.E., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active school transport, physical activity levels and body weight of children and youth: a systematic review.
-    Prev. Med. 48, 3–8.
-Green Communities Canada, 2012. High School Pilot Project.
-Heelan, K.A., Donnelly, J.E., Jacobsen, D.J., Mayo, M.S., Washburn, R., Greene, L., 2005. Active commuting to and from school and BMI in elementary school children-
-    preliminary data. Child Care Health Dev. 31, 341–349.
-Lally, P., Gardner, B., 2013. Promoting habit formation. Health Psychol. Rev. 7, S137–S158.
-Larouche, R., Saunders, T.J., Faulkner, G., Colley, R., Tremblay, M., 2014. Associations between active school transport and physical activity, body composition, and
-    cardiovascular <U+FB01>tness: a systematic review of 68 studies. J. Phys. Act. Health. 11, 206–227.
-Leatherdale, S., Laxer, R., Faulkner, G., 2014a. Reliability and validity of physical activity and sedentary behavior measures in the COMPASS study, COMPASS
-    Technical Report Series. Waterloo, ON.
-Leatherdale, S.T., Brown, K.S., Carson, V., Childs, R.A., Dubin, J.A., Elliott, S.J., Faulkner, G., Hammond, D., Manske, S., Sabiston, C.M., Laxer, R.E., Bredin, C.,
-    Thompson-Haile, A., 2014b. The COMPASS study: a longitudinal hierarchical research platform for evaluating natural experiments related to changes in school-
-    level programs, policies and built environment resources. BMC Public Health 14, 331.
-Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2014a. School travel planning in Canada: identifying child, family, and school-level characteristics associated with
-    travel mode shift from driving to active school travel. J. Transp. Health 1, 288–294.
-Mammen, G., Stone, M.R., Faulkner, G., Ramanathan, S., Buliung, R., O'Brien, C., Kennedy, J., 2014b. Active school travel: an evaluation of the Canadian school travel
-    planning intervention. Prev. Med. 60, 55–59.
-McDonald, N.C., Brown, A.L., Marchetti, L.M., Pedroso, M.S., 2011. U.S. school travel, 2009 an assessment of trends. Am. J. Prev. Med. 41, 146–151.
-O'Brien, M., Jones, D., Sloan, D., Rustin, M., 2000. Children's independent spatial mobility in the urban public realm. Childhood 7, 257–277.
-Pabayo, R., Gauvin, L., Barnett, T.A., 2011. Longitudinal changes in active transportation to school in canadian youth aged 6 through 16 years. Pediatrics 128,
-    e404–e413.
-Qian, W., Battista, K., Bredin, C., Brown, K.S., Leatherdale, S.T., 2015. Assessing longitudinal data linkage results in the COMPASS study, COMPASS Technical Report
-    Series. University of Waterloo, Waterloo, Ontario.
-Staunton, C.E., Hubsmith, D., Kallins, W., 2003. Promoting safe walking and biking to school: the Marin County success story. Am. J. Public Health. 93, 1431–1434.
-                                                                                     304
+                                                  Journal of Transport & Health
+                                                 journal homepage: www.elsevier.com/locate/jth
+
+
+
+
+An examination of how changing patterns of school travel mode                                                                                    MARK
+impact moderate-to-vigorous physical activity among adolescents
+over time
+                        <U+204E>
+Erica Y. Laua, , Guy Faulknera, Negin Riazia, Wei Qianb, Scott T. Leatherdaleb
+a
+    School of Kinesiology, University of British Columbia, Vancouver, BC, Canada V6T 1Z3
+b
+    School of Public Health and Health System, University of Waterloo, Waterloo, ON, Canada N2L 3G1
+
+
+
+
+AR TI CLE I NF O                                         AB S T R A CT
+
+Keywords:                                                Background: This study examined temporal variations in school travel mode and whether these
+Active transportation                                    variations predicted changes in moderate-to-vigorous physical activity (MVPA) among adoles-
+High school students                                     cents (Grades 9 to 12).
+Stability of travel modes                                Methods: We analyzed data from Years 1, 2 and 3 of the COMPASS study. Students included in
+                                                         the analysis were those who had provided information on sociodemographic factors, MVPA and
+                                                         school travel modes. A <U+FB01>nal longitudinal sample included 19,868 participants for the analyses
+                                                         related to travel mode to school (AM period) and 17,678 for the travel mode from school (PM
+                                                         period). The proportion of participants who changed their school travel modes between years
+                                                         was calculated to determine the stability of school travel mode. Linear-mixed models were used
+                                                         to examine whether changes in mode predicted changes in MVPA one year later. These models
+                                                         adjusted for sociodemographic factors as covariates and accounted for the clustering within
+                                                         schools.
+                                                         Results: Stability in school travel mode was observed for both time periods. Across data collection
+                                                         waves, only 9.3% consistently used an active transportation mode in the AM period and 15.6% in
+                                                         the PM period. Only 2.5% switched from a passive to active mode in the AM period and 3.1% in
+                                                         the PM period, whereas 3.5% switched from an active to passive mode in the AM period and
+                                                         5.2% in the PM period. No signi<U+FB01>cant association was observed for the AM period. For the PM
+                                                         period, the decrease in MVPA was signi<U+FB01>cantly greater in adolescents who switched from an
+                                                         active to a passive transportation mode than those who remained using a passive transportation
+                                                         mode across years.
+                                                         Conclusion: School travel makes a contribution to the amount of MVPA youth accumulate during
+                                                         the school week although evidence for this was restricted to those shifting from active to passive
+                                                         modes in the afternoon period.
+
+
+
+
+1. Introduction
+
+     Active school transportation (AST), including modes such as walking or cycling (Faulkner et al., 2009), has long been identi<U+FB01>ed as
+a potential source of habitual physical activity (Tudor-Locke et al., 2001). Additionally, transportation is an integral part of everyday
+life. Through time, active travel practices may develop into an automatic behavior which is easier to sustain in the long term (Lally
+
+
+  <U+204E>
+    Correspondence to: Postdoctoral Research Fellow in Physical Activity and Applied Public Health University of British Columbia School of Kinesiology 2146 Health
+Sciences Mall, Room 4604, Vancouver, BC, Canada V6T 1Z3.
+    E-mail address: erica.lau@ubc.ca (E.Y. Lau).
+
+http://dx.doi.org/10.1016/j.jth.2017.03.011
+Received 12 January 2017; Received in revised form 6 March 2017; Accepted 17 March 2017
+Available online 22 March 2017
+2214-1405/ © 2017 Elsevier Ltd. All rights reserved.
+
+E.Y. Lau et al.                                                                                  Journal of Transport & Health 6 (2017) 299–305
+
+
+and Gardner, 2013). In the context of declining levels of physical activity among children and youth (Tremblay et al., 2016), an
+increasing number of studies have focused on the relationship between AST and physical activity, and on interventions to increase
+AST (Chillon et al., 2011).
+    Previous work has shown that AST makes direct contributions to children's overall physical activity. A systematic review has
+reported that accelerometer-measured overall physical activity levels were higher in children who use an active transportation mode
+for trips to/from schools than those who travel by car or public transport, with the di<U+FB00>erences of daily moderate-to-vigorous physical
+activity (MVPA) ranging from 0 to 45 minutes (Larouche et al., 2014). For example, in one recent study, New Zealand adolescent
+active school travellers accumulated 13 and 14 more minutes of MVPA on weekdays and weekend days, respectively (Stewart et al.,
+2016). However, most evidence is based on cross-sectional studies.
+    Another gap in the literature is that previous research has largely focused on elementary school children. This may re<U+FB02>ect the
+typically smaller school catchment areas for elementary school children compared to secondary schools. In turn, this reduces the
+distance between home and school to a distance considered walkable (or feasible (D'Haese et al., 2011)) by parents and children and
+youth. Accordingly, research attention has perhaps concentrated on the elementary setting where potentially greater mode shifts to
+AST may be possible. Studying the e<U+FB00>ects of AST on physical activity among secondary school aged students is crucial because this is
+the time at which independent mobility tends to increase (O'Brien et al., 2000). Adolescents are provided with more autonomy to
+select travel modes to schools and other places, and of course adolescents can obtain a probationary licence to drive (typically at the
+age of 16 in Canada and 14 in the province of Alberta). Also, physical activity appears to track more strongly from adolescence to
+adulthood than from childhood to adulthood. Promoting AST during high school may be more in<U+FB02>uential to active travel practices in
+adulthood, and thus more likely sustained into early adulthood.
+    To date, only two investigations have examined longitudinal associations between AST and physical activity in adolescents
+(Carver et al., 2011; Heelan et al., 2005). These studies demonstrated a positive association between school travel modes and
+temporal changes in physical activity. One limitation is that both studies only used participants’ school travel mode status at a speci<U+FB01>c
+time point to predict prospective physical activity. One Canadian study has reported that adolescents’ engagement in active travel
+modes begins to decline after the age of 11 years (Pabayo et al., 2011). Therefore, it is important to account for this temporal
+variation in school travel modes when estimating the longitudinal associations between school travel modes and physical activity.
+The objectives of the current study are to examine 1) the prevalence and stability of school travel mode over a 1-year period, and 2)
+whether changes in AST status predict changes in physical activity across time.
+
+2. Methods
+
+2.1. Sample and population
+
+    The COMPASS study is an ongoing prospective cohort study (2012–2021) designed to examine longitudinal associations between
+school policies and programs with youth health behaviours (i.e. physical activity, healthy eating, smoking, and alcohol and marijuana
+use) (Leatherdale et al., 2014b). The study collects hierarchical longitudinal data from a convenience sample of secondary schools
+and the grade 9 to 12 students attending these schools. Extensive details on the COMPASS host study, including sampling, data
+collection and linkage process, are available online (www.compass.uwaterloo.ca).
+    The current study utilized linked student-level data from Year 1 (Y1: 2012–2013), Year 2 (Y2:2013-2014) and Year 3 (Y3:2014-
+2015) of the COMPASS host study. In Y1, data were collected from 24,173 students (80.2% response rate) from 43 Ontario schools. In
+Y2 (when COMPASS was expanded), data were collected from 45,298 students (80.1% participation rate) in 79 Ontario and 10
+Alberta secondary schools (all 43 Y1 Ontario schools remained in Y2). In Y3, data were collected from 42,355 students (79.3%
+participation rate) in 78 Ontario and 9 Alberta schools who participated in Y2. All eligible grade 9 to 12 students attending these
+schools were invited to participate in the study and reported data by completing the COMPASS student questionnaire (Cq) annually.
+Missing respondents resulted primarily from scheduled spares or absenteeism at the time of the Cq, and minimally from student or
+parent refusal (< 1% annually). The COMPASS study was approved by the Human Research Ethics Board at the University of
+Waterloo and participating school board committees.
+    As described elsewhere (Qian et al., 2015), unique self-generated identi<U+FB01>cation codes were used to link data sets for three years
+and create longitudinal data across Y1, Y2 and Y3. We considered participants who had completed the Cq for at least 2 consecutive
+years, which resulted in a longitudinal sample of 26,081 participants. Among this group, we further excluded participants who were
+missing data on PA or school transportation modes, or had inconsistent records on sex or ethnicity across years. A <U+FB01>nal longitudinal
+sample of 19,868 was included for the analyses related to transportation mode to school and 17,678 for transportation mode from
+school, respectively.
+
+2.2. Measures
+
+2.2.1. Physical activity
+    At each time point, participants were asked to respond to two items on the Cq about how many minutes of vigorous and moderate
+PA they had done on each of the last 7 days. Vigorous PA was de<U+FB01>ned as activities that “increase your heart rate and make you
+breathe hard and sweat,” such as jogging, team sports, fast dancing or jump-rope. Moderate PA was de<U+FB01>ned as “lower intensity
+activities” such as walking, biking to school and recreational swimming. The responses were then used to construct two PA outcomes.
+The <U+FB01>rst was a continuous outcome: the average time spent in MVPA (minutes/day). This outcome was calculated as the total of
+
+                                                                  300
+
+E.Y. Lau et al.                                                                                   Journal of Transport & Health 6 (2017) 299–305
+
+
+combined vigorous and moderate PA time divided by 7 days. The second was a binary outcome: whether the participants met the
+Canadian PA guideline of at least 60 min of MVPA per day. These measures have demonstrated a satisfactory 1-week test-retest
+reliability (intraclass correlation [ICC]=0.75). The measures were also signi<U+FB01>cantly correlated with accelerometer-measured
+behaviours (r=0.31, ICC=0.25). While correlations between self-report and objective measures were low to modest, the results are
+comparable to most other studies using accelerometers to validate self-report PA (Leatherdale et al., 2014a).
+
+
+2.2.2. Transportation modes to/from schools
+    At each year, participants reported transportation modes to/from school by responding to two questions: “How do you usually
+travel to school” and “How do you usually travel from school” (If you use two or more modes of travel, choose the one that you spend most
+time doing). The responses options were 1="By car (as a passenger)", 2="By car (as a driver)" 3="By school bus", 4="By public bus,
+subway, or streetcar", 5="By walking", 6="By bicycling", 7="Other", 99="Not Stated". For each year, participants who responded 1, 2,
+3, and 4, were assigned a score of 0 indicating a “passive” school transportation status; those responded 5 and 6 were assigned a score
+of 1 indicating an “active” school transportation status. Participants who responded 7=“Other” or 99= “Not Stated” or had missing
+values were excluded from the analysis. According to students’ response to transportation mode to/from school between two
+consecutive years, we divided them into 4 school travel mode shifting groups. “0-0” represents the group of students remained using a
+passive mode across years, “0–1” for shifting from passive to active, “1-0” for shifting from active to passive, and “1-1” for those
+remained using an active mode across years.
+
+
+2.2.3. Sociodemographic variables
+    Students also reported age in years or grade, and ethnicity. Grade at year 1 was measured as a categorical variable with 4
+categories. Ethnicity was a categorical variable with six categories: White, Black, Asian, Aboriginal (First Nations, Métis, Inuit), Latin
+American/Hispanic, and other. Urbanity was also included as one of the covariates as it has been found to be signi<U+FB01>cantly associated
+with school transportation mode. Students were classi<U+FB01>ed as living in rural, small urban, medium urban, and large urban area based
+on their school location. By linking school location to the 2011 Canadian Census data, we classi<U+FB01>ed the participating schools into
+1=rural (with a population of less than 1000 or a density of less than 400 people per square kilometre), 2=small urban (with a
+population of between 1000 and 29,999), 3=medium urban (with a population of between 30,000 and 99,999) and 4=large urban
+(with a population of 100,000 and over).
+
+
+2.3. Statistical analysis
+
+    Descriptive statistics were calculated for all the study variables and the di<U+FB00>erences between participants included and excluded
+were compared. Preliminary analyses were conducted to explore the bivariate relationship between each covariate and the dependent
+variable, and all signi<U+FB01>cant variables (p < .05), were retained for the longitudinal analyses.
+    The proportion of participants in the four mode shifting groups across years was calculated to determine the stability of AST
+status. Linear-mixed models were used to examine whether mode shifting predicted change in MVPA one year later. These models
+were strati<U+FB01>ed by time-period (i.e., morning=AM and afternoon=PM), with a 1-year change in MVPA entered as a dependent
+variable, mode shift group as the independent variable, and sociodemographic variables as covariates (i.e., sex, race/ethnicity and
+urbanity), and accounting for the clustering within schools. To meet the normality assumption, we performed a squared root
+transformation on the average MVPA minutes per day. All analyses were conducted using the statistical software package SAS 9.4
+(Cary, NC). The procedure PROC MIXED was used for the linear mixed-e<U+FB00>ects models. Residual and studentized residual plots were
+used to con<U+FB01>rm model assumptions and <U+FB01>t. Statistical signi<U+FB01>cance was set at p < 0.05 for all analyses.
+
+
+3. Results
+
+    Descriptive statistics of the study variables are presented in Table 1. The included sample is signi<U+FB01>cantly di<U+FB00>erent from the
+excluded sample in terms of age, gender, race/ethnicity, grade, urbanity, MVPA and school travel mode. Changes in travel mode over
+one year are presented in Table 2. Stability in travel mode over time observed for both time periods. Approximately 85% and 77% of
+the participants remained using a passive transportation mode across years in the AM and PM periods, respectively. Approximately
+3% of the participants shifted from a passive to an active transportation mode and 4%-5% switched from an active to a passive
+transportation mode. Sociodemographic characteristics of participants in each group are shown in Table 3. Participants in all four
+groups in the AM period are similar in terms of composition of gender, race/ethnicity and urbanity. In each group, participants were
+more likely to be girls, white, and living in large urban areas. This pattern was consistent in the PM period.
+    Results for the mixed-e<U+FB00>ect models are presented in Table 4. For the AM period, there was no statistically signi<U+FB01>cant association
+between travel mode group and changes in MVPA over a 1-year period after controlling for sociodemographic covariates (i.e., sex,
+race and urbanity). For the PM period, the decrease in MVPA decreased was signi<U+FB01>cantly greater in adolescents who switched from an
+active to a passive transportation mode than those who remained using a passive transportation mode across years. In addition to
+dichotomizing school travel mode into active versus passive, post-hoc analyses were conducted to examine whether participants’
+switching between taking school bus and driving predicts changes in MVPA across time. Results from the post-hoc analyses revealed
+no statistically signi<U+FB01>cant associations (data not presented).
+
+                                                                   301
+
+E.Y. Lau et al.                                                                                                       Journal of Transport & Health 6 (2017) 299–305
+
+
+Table 1
+Di<U+FB00>erences in the year 2 characteristics of the included and excluded participants, COMPASS study 2012/13 to 2014/15, Mean ± SD or n (%).
+
+  Variable                           AM                                                                PM
+
+                                                                                                   <U+204E>
+                                     Included (n=19,868)        Excluded (n=6213)        p-value       Included (n=17,678)       Excluded (n=8403)        p-value<U+204E>
+
+  Age, Mean ± SD                     15.40 ± 1.18               15.43 ± 1.12             0.1840        15.40 ± 1.1               15.45 ± 1.18             0.0002
+  Sexa, n (%)                                                                            < .0001                                                          < .0001
+  Girls                              10,786(54.3)               2905(47.1)                             9766(55.2)                3925(46.9)
+  Boys                               9082(45.7)                 3268(52.9)                             7912(44.8)                4438(53.1)
+  Race/Ethnicity, n (%)                                                                  < .0001                                                          < .0001
+  White                              15,453(77.8)               4508(72.6)                             13,760(77.8)              6202(73.7)
+  Black                              608(3.1)                   306(4.9)                               497(2.8)                  417(5.0)
+  Asian                              1016(5.1)                  335(5.4)                               942(5.3)                  409(4.9)
+  Aboriginal                         483(2.4)                   207(3.3)                               397(2.3)                  293(3.5)
+  L. Am./Hisp.                       360(1.8)                   148(2.4)                               329(1.9)                  179(2.1)
+  Others/Mixed/Missing               1948(9.8)                  708(11.4)                              1753(9.9)                 903(10.8)
+  Grade, n (%)                                                                           < .0001                                                          < .0001
+  9                                  5641(28.4)                 1851(29.8)                             5059(28.6)                2433(29.0)
+  10                                 6246(31.4)                 1860(29.9)                             5617(31.8)                2489(29.6)
+  11                                 5387(27.1)                 1548(24.8)                             4756(26.9)                2179(25.9)
+  12                                 25.94(13.1)                954(15.5)                              2246(12.7)                1302(15.5)
+  Urbanity                                                                               0.1278                                                           0.0011
+  Large                              10,602(53.4)               3355(54.0)                             9579(54.2)                4378(52.1)
+  Medium                             3152(15.7)                 911(14.7)                              2742(15.5)                1294(15.4)
+  Small /Rural                       6141(30.9)                 1947(31.3)                             5357(30.3)                2731(32.5)
+  MVPA (min/d), Mean ± SD            59.64 47.0                 37.0448.74               < .0001       59.0 ± 46.6               45.49 ± 50.63            < .0001
+  School travel mode                                                                     < .0001                                                          < .0001
+  AMb, n (%)
+  Passive                            17,352(87.3)               4897(89.7)                             15,294(87.2)              6955(89.3)
+  Active                             2516(12.7)                 562(10.3)                              2246(12.8)                832(10.7)
+  PMc, n (%)                                                                             < .0001                                                          < .0001
+  Passive                            14,760(80.0)               4320(84.4)                             14,092(79.7)              4988(84.6)
+  Active                             3700(20.0)                 796(15.6)                              3586(20.3)                910(15.4)
+
+Abbreviations: AM=morning period; L. Am./Hisp=Latin American/Hispanic; min/d=minutes per day; MVPA=moderate-to-vigorous physical activity; PA=
+physical activity; PM=afternoon period.
+  a
+    40 students were not included because of missing or inconsistent sex information.
+  b
+    754 students did not have AST-AM information in 2013/2014.
+  c
+    2505 students did not have AST-PM information in 2013/2014
+  <U+204E>
+    p-value < 0.05 indicates the included and excluded participants were signi<U+FB01>cantly di<U+FB00>erent in a given variable.
+
+
+4. Discussion
+
+   As expected in the Canadian context (Barnes et al., 2016), only a minority of youth in the sample engaged in AST to (15%) or from
+school (23%). The prevalence was lower than a 2009 provincially representative survey of 3633 students in grades 7 through 12 in
+Ontario. The corresponding <U+FB01>gures were 23% and 32% for secondary school students (Wong et al., 2011). As a North American
+comparison, these rates of AST are higher than those reported in the United States. McDonald et al. (2011) reported that 7.5% of
+grades 9–12 students walked or biked to school in 2009. Notably, school travel mode was very stable in the current sample suggesting
+school travel mode has been <U+FB01>rmly established by grade 9, and this may have other repercussions for reduced active travel beyond
+the school context (Stewart et al., 2016).
+   Although mode shifting over the year was relatively rare (3–5%), our <U+FB01>ndings contribute to the evidence base that school travel is
+a meaningful source of physical activity. In this case, there was a signi<U+FB01>cant decrease in MVPA among youth who shifted to passive
+modes of school travel in the afternoon period. The <U+FB01>nding that this association was only in the afternoon period is likely related to
+the morning-afternoon mode shift typically seen in the literature where more children and youth use active travel in the afternoon
+period (e.g., Wong et al., 2011). As caregivers may be employed there may be a need to <U+FB01>nd an alternative way to get home with
+
+
+      Table 2
+      Distribution of shifts in school travel mode over a 1-year period.
+
+        School travel mode shifting groups                                                                  AM                                    PM
+                                                                                                            n=23180                               n=20468
+
+        Passive-Passive                                                    (0-0)                            84.7%                                 76.1%
+        Passive-Active                                                     (0–1)                            2.5%                                  3.1%
+        Active-Active                                                      (1-1)                            9.3%                                  15.6%
+        Active-Passive                                                     (1-0)                            3.5%                                  5.2%
+
+      Abbreviations: AM=morning period, PM=afternoon period
+
+
+                                                                                   302
+
+E.Y. Lau et al.                                                                                                   Journal of Transport & Health 6 (2017) 299–305
+
+
+Table 3
+Distribution of students in gender, urbanity and ethnicity, by school travel mode shifting groups.
+
+                    AM n (%)                                                                PM n (%)
+
+                    0-0 (n=19624)      0–1 (n=576)        1-0 (n=815)     1-1 (n=2165)      0-0 (n=15573)     0–1 (n=624)      1-0 (n=1074)     1-1 (n=3197)
+
+  Gender
+  Girls             10,950(55.8)       295(51.2)          390(47.9)       1059(48.9)        8892(57.1)        324(51.9)        559(52.1)        1639(51.3)
+  Boys              8674(44.2)         281(48.8)          425(52.1)       1106(51.1)        6681(42.9)        300(48.1)        515(48.0)        1558(48.7)
+  Urbanity
+  Large             10,923(55.7)       319(55.4)          390(47.9)       1190(55)          8751(56.2)        354(56.7)        531(49.4)        1845(57.7)
+  Medium            3043(15.5)         69(12.0)           129(15.8)       280(12.9)         2440(15.7)        69(11.1)         155(14.4)        395(12.4)
+  Small/Rural       5658(28.8)         188(32.6)          296(36.3)       695(32.1)         4382(28.1)        201(32.2)        388(36.1)        957(29.9)
+  Race/Ethnicity
+  White             15,489(78.9)       375(65.1)          595(73.0)       1590(73.4)        12,358(65.9)      411(74.4)        799(74.0)        2366(74.0)
+  Black             538(2.7)           29(5.0)            35(4.3)         101(4.7)          365(3.9)          24(4.1)          44(4.2)          134(4.2)
+  Asian             913(4.7)           58(10.1)           61(7.5)         194(9.0)          716(10.3)         64(6.2)          67(8.9)          285(8.9)
+  Aboriginal        418(2.1)           20(3.5)            29(3.6)         62(2.9)           318(4.0)          25(2.3)          25(2.0)          65(2.0)
+  L.Am./Hisp.       361(1.8)           15(2.6)            14(1.7)         30(1.4)           289(2.7)          17(1.9)          20(1.7)          54(1.7)
+  Others/Mixed      1905(9.7)          79(13.7)           81(9.9)         188(8.7)          1527(13.3)        83(11.1)         119(9.2)         293(9.2)
+
+Abbreviation: AM=morning period, L. Am./Hisp=Latin American/Hispanic; L. Urban=Large Urban; M. Urban=Medium Urban; S. Urban=Small Urban
+PM=afternoon period;
+Note: School travel mode shifting group: 0-0=Passive-Passive, 0–1=Passive-Active; 1-1=Active-Active; 1-0=Active-Passive
+
+
+some children and youth adopting active modes of travel home when the distance is feasible. These factors contribute to an increase
+in AST commonly seen in Ontario of at least 10% as we report and others have found (Wong et al., 2011). When youth shift to passive
+modes, in this case, for unknown reasons, then this source of physical activity is removed from the day, which we speculate is the
+reason for the signi<U+FB01>cant decline in MVPA. More broadly, the present study reinforces the need to consider the temporality of school
+travel, the mode shift, as interventions might be more e<U+FB00>ective when targeting either the morning or afternoon periods.
+    Taken together, our <U+FB01>ndings suggest that there is a missed opportunity in not attempting to intervene at the secondary school
+context. The most recent systematic review of AST interventions identi<U+FB01>ed 14 interventions that all focused on children (from age 5 to
+12 years) and were set in elementary schools (Chillon et al., 2011) although one study also included adolescents from middle school
+to age 15 years (Staunton et al., 2003). Given the spatial, temporal and age-related variations in school travel mode it is unlikely that
+'one size <U+FB01>ts all' interventions will be e<U+FB00>ective in promoting AST in this context (Wong et al., 2011). Rather, the use of school travel
+planning may be appropriate. School travel planning is a multi-disciplinary, multi-sectoral, school-speci<U+FB01>c intervention that engages
+
+
+Table 4
+Longitudinal associations between school travel mode shifting group and moderate-to-vigorous physical activity over a 1-year period.
+
+                                                   AM                                                          PM
+
+  E<U+FB00>ect                                            Est                  SE                 Pr > |t|            Est                     SE             Pr > |t|
+  Intercept                                        -0.14                0.05               0.0099              -0.16                   0.05           0.0049
+  School travel mode shifting group
+  0–1                                              0.24                 0.14               0.0774              0.17                    0.13           0.2021
+  1-0                                              -0.20                0.12               0.0793              -0.21                   0.10           0.039<U+204E>
+  1-1                                              0.11                 0.07               0.1581              0.08                    0.06           0.2369
+  0-0                                              REF                  –                  –                   REF                     –              –
+  Sex
+  Girls                                            0.14                 0.04               0.0009              0.11                    0.05           0.013
+  Boys                                             REF                  –                  –                   REF                     –              –
+  Race/Ethnicity
+  Black                                            -0.27                0.13               0.0369              -0.24                   0.14           0.0921
+  Asian                                            -0.13                0.10               0.1847              -0.14                   0.10           0.1727
+  Aboriginal                                       -0.22                0.15               0.1401              -0.19                   0.16           0.2279
+  L. Am./Hisp                                      -0.17                0.16               0.2963              -0.15                   0.17           0.3659
+  Others/Mixed                                     0.03                 0.07               0.7217              0.09                    0.08           0.2292
+  White                                            REF                  –                  –                   REF                     –              –
+  Urbanity
+  Small/Rural                                      0.08                 0.07               0.2434              0.11                    0.07           0.1405
+  Medium                                           0.25                 0.09               0.0048              0.26                    0.09           0.0053
+  Large                                            REF                  –                  –                   REF                     –              –
+
+Abbreviation: AM=morning period, L. Am. /Hisp=Latin American/Hispanic; PM=afternoon period
+Note: School travel mode shifting group: 0-0=Passive-Passive, 0–1=Passive-Active; 1-1=Active-Active; 1-0=Active-Passive
+Models adjusted sex, race/ethnicity and urbanity as covariates and accounting for the clustering within schools.
+Bold-faced indicated signi<U+FB01>cantly di<U+FB00>erent from the reference group
+  <U+204E>
+    Statistical signi<U+FB01>cance was set at p < 0.05
+
+
+                                                                                303
+
+E.Y. Lau et al.                                                                                                         Journal of Transport & Health 6 (2017) 299–305
+
+
+key stakeholders (e.g., STP facilitator, public health, police o<U+FB03>cials, municipal planners and tra<U+FB03>c engineers, school boards, parents,
+youth, school administrators and teachers) in the survey, implementation and evaluation of school travel issues (Green Committee
+Canada, 2007). Such an approach has been successfully implemented in elementary schools in Canada (Mammen et al., 2014a;
+Mammen et al., 2014b), and has been piloted in 7 secondary schools in Ottawa, Canada (Green Communities Canada, 2012). Given
+the greater distances between home and school for secondary students (e.g., average distance of 3.6 miles for elementary children and
+5.5 miles for high school students in the United States (McDonald et al., 2011)), it is likely that such plans will need to incorporate
+transit-related activity (Durand et al., 2016; Voss et al., 2015) and approaches to encourage and support safe cycling (Yang et al.,
+2010).
+    There are a number of limitations to the study. First, dichotomizing mode share into active and passive is a limitation as the
+determinants and consequences of di<U+FB00>erent modes (e.g., walking versus cycling; taking public transit versus being driven) are
+important. For example, it is likely that the use of public transit is associated with similar levels of activity accrued through just
+walking trips (Voss et al., 2015). In our post-hoc analyses, we investigated whether participants’ switching between taking school bus
+and driving predicts changes in MVPA across time, but no statistically signi<U+FB01>cant association was found. Second, the study was
+limited in that all measures were self-reported and physical activity assessment is particularly prone to reporting error. These
+limitations should be considered in light of the strengths of the study. With a longitudinal study design, any potential reporting bias is
+expected to be consistent between waves, so we should still be able to make valid conclusions. The large sample size of this study
+increased the precision of population parameter estimations, which is important for informing public health policies.
+    School travel makes a contribution to the amount of MVPA youth accumulate during the school week although evidence for this
+was restricted to those shifting from active to passive modes in the afternoon period. Surprisingly little research has addressed how
+high school students get to and from school nor implemented and evaluated interventions to promote AST. This is an important policy
+and practice gap that needs closer attention in supporting more active and sustainable transport choices that could carry on into early
+adulthood.
+
+Acknowledgements
+
+   The COMPASS study was supported by a bridge grant from the Canadian Institutes of Health Research (CIHR) Institute of
+Nutrition, Metabolism and Diabetes (INMD) through the “Obesity—Interventions to Prevent or Treat” priority funding awards [OOP-
+110788; grant awarded to S. T. Leatherdale] and an operating grant from the CIHR Institute of Population and Public Health (IPPH)
+[MOP-114875; grant awarded to S. T. Leatherdale]. Drs. Faulkner (grant no. APHC 201405CPP-329463-CPP-CEAA-138759) and
+Leatherdale (grant no. APHC-201405CPP-329323-116339) are Chairs in Applied Public Health Research funded by the Public Health
+Agency of Canada in partnership with CIHR.
+
+References
+
+Barnes, J.D., Cameron, C., Carson, V., Chaput, J.P., Faulkner, G.E., Janson, K., Janssen, I., Kramers, R., LeBlanc, A.G., Spence, J.C., Tremblay, M.S., 2016. Results from
+    Canada's 2016 ParticipACTION report card on physical activity for children and youth. J. Phys. Act. Health 13, S110–S116.
+Green Committee Canada, 2007. Active and Safe Route to School: School Travel Planning Toolkit.
+Carver, A., Timperio, A.F., Hesketh, K.D., Ridgers, N.D., Salmon, J.L., Crawford, D.A., 2011. How is active transport associated with children's and adolescents' physical
+    activity over time? Int. J. Behav. Nutr. Phys. Act. 8, 126.
+Chillon, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
+    Act. 8, 10.
+D'Haese, S., De Meester, F., De Bourdeaudhuij, I., Deforche, B., Cardon, G., 2011. Criterion distances and environmental correlates of active commuting to school in
+    children. Int. J. Behav. Nutr. Phys. Act. 8, 88.
+Durand, C.P., Pettee Gabriel, K.K., Hoelscher, D.M., Kohl 3rd, H.W., 2016. Transit use by children and adolescents: an overlooked source of and opportunity for
+    physical activity? J. Phys. Act. Health. 13, 861–866.
+Faulkner, G.E., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active school transport, physical activity levels and body weight of children and youth: a systematic review.
+    Prev. Med. 48, 3–8.
+Green Communities Canada, 2012. High School Pilot Project.
+Heelan, K.A., Donnelly, J.E., Jacobsen, D.J., Mayo, M.S., Washburn, R., Greene, L., 2005. Active commuting to and from school and BMI in elementary school children-
+    preliminary data. Child Care Health Dev. 31, 341–349.
+Lally, P., Gardner, B., 2013. Promoting habit formation. Health Psychol. Rev. 7, S137–S158.
+Larouche, R., Saunders, T.J., Faulkner, G., Colley, R., Tremblay, M., 2014. Associations between active school transport and physical activity, body composition, and
+    cardiovascular <U+FB01>tness: a systematic review of 68 studies. J. Phys. Act. Health. 11, 206–227.
+Leatherdale, S., Laxer, R., Faulkner, G., 2014a. Reliability and validity of physical activity and sedentary behavior measures in the COMPASS study, COMPASS
+    Technical Report Series. Waterloo, ON.
+Leatherdale, S.T., Brown, K.S., Carson, V., Childs, R.A., Dubin, J.A., Elliott, S.J., Faulkner, G., Hammond, D., Manske, S., Sabiston, C.M., Laxer, R.E., Bredin, C.,
+    Thompson-Haile, A., 2014b. The COMPASS study: a longitudinal hierarchical research platform for evaluating natural experiments related to changes in school-
+    level programs, policies and built environment resources. BMC Public Health 14, 331.
+Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2014a. School travel planning in Canada: identifying child, family, and school-level characteristics associated with
+    travel mode shift from driving to active school travel. J. Transp. Health 1, 288–294.
+Mammen, G., Stone, M.R., Faulkner, G., Ramanathan, S., Buliung, R., O'Brien, C., Kennedy, J., 2014b. Active school travel: an evaluation of the Canadian school travel
+    planning intervention. Prev. Med. 60, 55–59.
+McDonald, N.C., Brown, A.L., Marchetti, L.M., Pedroso, M.S., 2011. U.S. school travel, 2009 an assessment of trends. Am. J. Prev. Med. 41, 146–151.
+O'Brien, M., Jones, D., Sloan, D., Rustin, M., 2000. Children's independent spatial mobility in the urban public realm. Childhood 7, 257–277.
+Pabayo, R., Gauvin, L., Barnett, T.A., 2011. Longitudinal changes in active transportation to school in canadian youth aged 6 through 16 years. Pediatrics 128,
+    e404–e413.
+Qian, W., Battista, K., Bredin, C., Brown, K.S., Leatherdale, S.T., 2015. Assessing longitudinal data linkage results in the COMPASS study, COMPASS Technical Report
+    Series. University of Waterloo, Waterloo, Ontario.
+Staunton, C.E., Hubsmith, D., Kallins, W., 2003. Promoting safe walking and biking to school: the Marin County success story. Am. J. Public Health. 93, 1431–1434.
+
+
+                                                                                   304
 

@@ -4,6 +4,7 @@ Modeling Frequency and Duration of
 Out-of-Home Participation in Physical
 Activity by School-Age Children
 Muhammad Ahsanul Habib and Naznin Sultana Daisy
+
 This paper investigates the frequency and the duration of participation
 in physical activity by children who go to school in the city of Dhaka,
 Bangladesh. The study uses data from a 2012 activity-based travel diary
@@ -44,7 +45,7 @@ levels of participation in physical activity (2, 3).
 The focus of analysis in existing activity-based research has
 predominantly been on the activity–travel patterns of adults (4).
 
-Dalhousie Transportation Collaboratory, School of Planning, and Department of Ci
+Dalhousie Transportation Collaboratory, School of Planning, and Department of Civil
 and Resource Engineering, Dalhousie University, P.O. Box 15000, Halifax, Nova
 Scotia B3H 4R2, Canada. Corresponding author: M. A. Habib, ahsan.habib@dal.ca.
 Transportation Research Record: Journal of the Transportation Research Board,
@@ -52,6 +53,9 @@ No. 2357, Transportation Research Board of the National Academies, Washington,
 
 D.C., 2013, pp. 116–124.
 DOI: 10.3141/2357-14
+
+
+
 
 
 
@@ -97,7 +101,7 @@ an overview of the data that form the basis of the subsequent estima-
 tion of a model. This is followed by a discussion of the empirical
 results. Finally, the paper concludes with a summary of the study’s
 contributions.
-vil
+
 
 Literature Review
 
@@ -105,9 +109,13 @@ Literature Review
 The physical and psychosocial well-being of children is challenged
 by the decline in children’s involvement in physical activities in
 recent years (6). Since the 1970s, the percentage of children who
+
+
 116
 
 Habib and Daisy
+
+
 are overweight has more than doubled, and the rates among adoles-
 cents have more than tripled in the United States (7). The American
 Academy of Pediatrics recommends that children be physically
@@ -170,6 +178,8 @@ drive and do not put extra cars in the transportation network; it may
 be presumed, therefore, that less attention is given to the modeling
 of children’s participation in activity and travel patterns.
 117
+
+
 Several recent studies have contributed to the analysis of chil-
 dren’s activity patterns and have included analyses of children’s
 participation in leisure activities (23), weekend physical activities
@@ -233,6 +243,8 @@ examines a parametric accelerated failure-time hazard model. Appli-
 cations of such models are still limited in transportation and related
 
 118
+
+
 fields, specifically, in the modeling of the amount of time that children
 
 spend on physical activity. The next section sets out the methodology
@@ -240,6 +252,7 @@ used in this paper.
 
 
 Methodology
+
 Zero-Inflated Poisson Regression Model
 In the modeling of the frequency of children’s participation in physi-
 cal activity in Dhaka, this study estimates a ZIP regression model.
@@ -263,7 +276,7 @@ and µi is the expected value of yi, E(yi), which can be represented as
 
 
 
-E ( yi ) = µ i = exp (ßX i )                                              (2)
+E ( yi ) = µ i = exp (ßX i )                                             (2)
 
 
 where ß represents a vector of regression parameters to be estimated,
@@ -317,18 +330,21 @@ zero will be observed, P(Yi = 0), and the probability that any particular
 nonzero count will be observed, P(Yi = yi), can be written by the
 following two equations:
 
-P (Yi = 0 ) = <U+03C8>i + (1 - <U+03C8>i ) exp-µi                                       (3)
+P (Yi = 0 ) = <U+03C8>i + (1 - <U+03C8>i ) exp-µi                                      (3)
 Transportation Research Record 2357
+
+
 µ iyi exp-µi
-P (Yi = yi ) = (1 - <U+03C8>i )                                                    (4)
+P (Yi = yi ) = (1 - <U+03C8>i )                                                (4)
 yi !
 
 where 0 < <U+03C8> < 1 so that it incorporates more zeros than the Poisson
 model allows (i.e., Equation 1). The conditional expectation and
 variance of Yi [E(yi) and V(yi), respectively] are given as
-E (Yi ) = (1 - <U+03C8>i ) µ i                                                     (5)
 
-V (Yi ) = (1 - <U+03C8>i ) µ i (1 + <U+03C8>i µ i )                                       (6)
+E (Yi ) = (1 - <U+03C8>i ) µ i                                                 (5)
+
+V (Yi ) = (1 - <U+03C8>i ) µ i (1 + <U+03C8>i µ i )                                   (6)
 
 where V(Yi) > E(Yi) for <U+03C8>i > 0, unlike the Poisson model (in Equation 1),
 in which the expected value equals the variance.
@@ -342,10 +358,10 @@ from the relationships in Equations 3 and 4:
 <U+F8F9>
 
 n
-<U+F8EF>                                                 <U+F8FA>
-L = <U+2211><U+F8EF>                        <U+F8EB>               µ iyi exp-µi <U+F8F6> <U+F8FA>
+<U+F8EF>                                              <U+F8FA>
+L = <U+2211><U+F8EF>                      <U+F8EB>            µ iyi exp-µi <U+F8F6> <U+F8FA>
 i =1 <U+F8EF> + K y > 0 log e (1 - <U+03C8>i ) +
-<U+F8EC><U+F8ED>                             <U+F8FA>
+<U+F8EC><U+F8ED>                          <U+F8FA>
 <U+F8F0>
 i
 yi ! <U+F8F7><U+F8F8> <U+F8FB>
@@ -353,15 +369,15 @@ N
 = <U+2211> K yi = 0 loge ( <U+03C8>i + (1 - <U+03C8>i ) exp-µi )
 i =1
 
-+ K yi >0 ( loge (1 - <U+03C8>i ) + yi loge µ i - µ i - loge yi !)           (7)
++ K yi >0 ( loge (1 - <U+03C8>i ) + yi loge µ i - µ i - loge yi !)        (7)
 
 where K is an indicator function for the given event. The parameters
 µi and <U+03C8>i can be obtained via the following link functions:
 
-loge (µ i ) = ßX i                                                          (8)
+loge (µ i ) = ßX i                                                      (8)
 
 <U+F8EB> <U+03C8>i <U+F8F6>
-loge <U+F8EC>                 = <U+03C9>Z i                                               (9)
+loge <U+F8EC>           = <U+03C9>Z i                                                 (9)
 <U+F8ED> 1 - <U+03C8>i <U+F8F7><U+F8F8>
 
 
@@ -406,18 +422,20 @@ activity is measured on the basis of the amount of time spent from the
 initiation of an activity. The key principles and statistical properties of
 
 Habib and Daisy
+
+
 the hazard-based duration models have been discussed by Hougaard
 (38). Let T be a continuous, nonnegatively valued random variable
 representing time until the termination of a physical activity of a
 given child. If the probability that the child will terminate the event
-within a short interval, <U+0394>t, at or after t is P(t = T < t + <U+0394>t | T = t),
+within a short interval, <U+0394>t, at or after t is P(t = T < t + <U+0394>t | T = t), then
 the hazard function, <U+03BB>(t), which is the instantaneous rate of failure
 at t, can be written as
 
 
 P ( t = T < t + <U+2206>t T = t )      f (t )   f (t )
-<U+03BB> ( t ) = lim                                =           =
-<U+2206>t <U+2192> 0               <U+2206>t             1 - F (t ) S (t )
+<U+03BB> ( t ) = lim                                 =           =             (10)
+<U+2206>t <U+2192> 0               <U+2206>t               1 - F (t ) S (t )
 
 where f(t) represents the probability density function. The cumulative
 distribution function is F(t) = P(T = t), and the survival function is
@@ -427,7 +445,8 @@ types of model structures, including semiparametric and parametric
 models. In semiparametric models, the baseline hazard function
 [<U+03BB>0 (t)] is assumed to be parametrically unspecified. The most widely
 used semiparametric model, introduced by Cox (39), is given by
-<U+03BB> ( t , x ) = <U+03BB> 0 ( t ) exp ( x ( t ))
+
+<U+03BB> ( t , x ) = <U+03BB> 0 ( t ) exp ( x ( t ))                                  (11)
 
 where x(t) is the vector of observed covariates and <U+03BB>0(t) is the baseline
 hazard, which is not parametrically specified.
@@ -444,12 +463,13 @@ distributions, respectively, are given as follows:
 
 <U+03BB> ( t ) = <U+03D5>p (<U+03D5>t )
 p -1
-
+(12)
 
 
 <U+03D5>p (<U+03D5>t )
 p -1
-<U+03BB>(t ) =
+
+<U+03BB>(t ) =                                                                 (13)
 (1 + (<U+03D5>t )p )
 
 where f is a positive scale parameter and p is the shape parameter.
@@ -467,22 +487,24 @@ tion. Now, by specification of the scale parameter f = exp(-ß'x) for
 the Weibull and log logistic models, the model can be expressed as a
 log-linear model of duration (T):
 
-loge (T ) = ß'x + e
+loge (T ) = ß'x + e                                                     (14)
 
 where ß' is a vector of parameters for the external covariates x, and
 e is a stochastic error term with a Type I extreme value distribution.
 119
+
+
 The parameters of the parametric hazard models are estimated by
 the use of full information maximum likelihood estimation proce-
 dures, unlike the partial likelihood estimation procedures used in
 semiparametric models (38). The likelihood function of the model
-then  can be written as
+can be written as
 
-N               N
-L = <U+220F> f ( ti , xi ) = <U+220F> [ <U+03BB> ( ti , xi )][ S ( ti , xi )]             (15)
-i =1            i =1
+N                  N
+L = <U+220F> f ( ti , xi ) = <U+220F> [ <U+03BB> ( ti , xi )][ S ( ti , xi )]            (15)
+i =1               i =1
 
-(10)
+
 where N represents the number of observations, and ti is the activity
 duration for the ith activity. xi represents external covariates.
 The corresponding hazard and survival functions for the Weibull
@@ -493,7 +515,8 @@ nal covariates and the shape parameter (p) for the baseline hazard
 functions. The final model is selected on the basis of the Akaike
 information criterion (AIC). The lower that the AIC value is, the
 better is the model.
-(11)
+
+
 Data Used for Empirical Application
 
 Activity-Based Travel Survey
@@ -510,12 +533,13 @@ the students. Then, the participants were recruited with the help of the
 teachers.
 
 
-(12)     Students completed an activity-based travel diary, mainly report-
+Students completed an activity-based travel diary, mainly report-
 ing various types of structured and nonstructured in-home and out-
 of-home activities for the given weekday. The structured activities
 
 
-(13)  involved those in which they regularly participated, such as extra-
+
+involved those in which they regularly participated, such as extra-
 curricular pursuits, lessons, enrichment activities, scouting, clubs, and
 organized games and meets. In contrast, the nonstructured activities
 included unorganized hobbies and sports, outings, playing, tele­vision
@@ -533,133 +557,149 @@ lected through this survey included the age of the parent, household
 income, car ownership, tenure type, household size, employment
 status, number of children, and their associated travel arrangements.
 Because geographic information system-based detailed data on
-(14)  the built environment are currently unavailable for Dhaka, parents
+the built environment are currently unavailable for Dhaka, parents
 were also asked to report certain attributes of the built environment
 around their homes, such as the presence of sidewalks and the presence
 of traffic intersections nearby. In total, 510 surveys were distributed;
 
-120
-however, only 276 complete responses were obtained. After the
-responses were cleaned for missing information, responses from
+120                                                                                                              Transportation Research Record 2357
+
+
+however, only 276 complete responses were obtained. After the                       acteristics, and other relevant attributes were merged for hypothesis
+responses were cleaned for missing information, responses from                      testing during the modeling process.
 245 participants were found to be usable for further analysis.
-
+Summary Statistics
 Data Preparation
-
-Paper-based surveys were coded in SPSS. Data preparation for this
-study involved several stages: data entry and validation, preparation of
-the database (i.e., data tables and relationships), preparation of a code
-book, and running of queries to generate data sets for modeling. The
-activities reported by the students were initially recoded on the basis
-of the activity typology used by Bhat and Lockwood (40).
-Structured query language-based data queries were applied to
-identify out-of-home nonschool activities (sports, playing at a park
-or playfield, social activity, extracurricular activity, etc). In this study,
-participation in physical activities included engagement in activities
-in which the child was physically active as well as the use of active
-transportation, such as walking. Because mode choice was identified
-separately in the survey (i.e., the information was not included in
-the chronological reporting of activities), queries were used to identify
-and merge attributes required for this type of physical activity within
-the data set. Reported travel time was considered the duration of the
+The descriptive analysis revealed that among the 245 respondents,
+Paper-based surveys were coded in SPSS. Data preparation for this                   about 57% engaged in at least one physical activity. The average count
+study involved several stages: data entry and validation, preparation of            of physical activity was approximately 1.41, with a standard deviation
+the database (i.e., data tables and relationships), preparation of a code           of 1.45 (minimum = 0 and maximum = 6). The average (total) dura-
+book, and running of queries to generate data sets for modeling. The                tion of activity of the surveyed children was 33.69 min on a given day,
+activities reported by the students were initially recoded on the basis             which is below the level recommended by the American Academy of
+of the activity typology used by Bhat and Lockwood (40).                            Pediatrics. In total, 356 continuous episodes of physical activity were
+Structured query language-based data queries were applied to                     reported. The average continuous length of physical activity in the
+identify out-of-home nonschool activities (sports, playing at a park                sample was 23.18 min, with a standard deviation of 24.92 min and a
+or playfield, social activity, extracurricular activity, etc). In this study,       maximum of 150 min. These continuous episodes (sometimes referred
+participation in physical activities included engagement in activities              to as a “spell” or a “bout” in the literature) were used as the dependent
+in which the child was physically active as well as the use of active               variable in the modeling of the duration of physical activity.
+transportation, such as walking. Because mode choice was identified                    Table 1 shows the summary statistics of the dependent variables
+separately in the survey (i.e., the information was not included in                 considered in the ZIP model and the duration model and the inde-
+the chronological reporting of activities), queries were used to identify           pendent variables (such as children’s personal attributes, household
+and merge attributes required for this type of physical activity within             socioeconomic characteristics, built environment, escort arrangement,
+the data set. Reported travel time was considered the duration of the               and activity attributes) retained in the final model specification.
 physical activity if active transportation was used to reach any type
-of out-of-home activities. For other structured and nonstructured
+of out-of-home activities. For other structured and nonstructured                   Discussion of Models
 activities, the duration was calculated on the basis of the start time
-and the end time of the reported activities. Finally, an activity-based
+and the end time of the reported activities. Finally, an activity-based             Modeling Process
 data set was generated for modeling of duration. A person-based data
-set that identified total counts of participation in physical activity by
-each student on a given weekday was generated for ZIP modeling.
-In both cases, children’s personal characteristics, household char-
+set that identified total counts of participation in physical activity by           Before the modeling was performed, tests for correlations between all
+each student on a given weekday was generated for ZIP modeling.                     pairs of explanatory variables were performed. Variables that exhib-
+In both cases, children’s personal characteristics, household char-                 ited low correlations (<0.4) among pairs of independent variables
+
+
 TABLE 1   Summary Statistics of Variables Used in Models
-Variable
+
+Variable                                                                                                 Mean or Percentage      SD           Min.     Max.
+
 Dependent Variables
-Physical activity count
-Duration of physical activity (min)
+Physical activity count                                                                                           1.41             1.45          0         6
+Duration of physical activity (min)                                                                              23.18            24.92          5       150
 Independent Variables
 Person and household attributes
-Age of children (years)
-Number of children in household
-Age of parents
-Monthly household income (2012 US$)
-Total household size
-Home ownership (dummy, 1 if the household is a homeowner; 0 otherwise)
-Car ownership (dummy, 1 if the household owns at least one car; 0 otherwise)
+Age of children (years)                                                                                       14.13              1.154       11         16
+Number of children in household                                                                                1.83              0.77         1          4
+Age of parents                                                                                                42.54              5.19        25         58
+Monthly household income (2012 US$)                                                                          331.39            284.14       150      2,800
+Total household size                                                                                           4.33              0.86         3          7
+Home ownership (dummy, 1 if the household is a homeowner; 0 otherwise)                                        29.5%                 na       na         na
+Car ownership (dummy, 1 if the household owns at least one car; 0 otherwise)                                  11.2%                 na       na         na
 Built environment
-Presence of sidewalk around home (dummy, 1 if sidewalk exists adjacent to the
-Presence of intersection nearby home (dummy, 1 if any intersection exists near
+Presence of sidewalk around home (dummy, 1 if sidewalk exists adjacent to the home; 0 otherwise)               43.7%                 na      na         na
+Presence of intersection nearby home (dummy, 1 if any intersection exists near home; 0 otherwise)              41.6%                 na      na         na
 Activity attributes
-Parental escort (dummy, 1 if the child is accompanied by a parent; 0 otherwise
-Accompanied by friends (dummy, 1 if the child is accompanied by friends; 0 oth
-Activity performed in playfield or park location (dummy, 1 if the activity is
+Parental escort (dummy, 1 if the child is accompanied by a parent; 0 otherwise)                                40.2%                 na      na         na
+Accompanied by friends (dummy, 1 if the child is accompanied by friends; 0 otherwise)                          49.4%                 na      na         na
+Activity performed in playfield or park location (dummy, 1 if the activity is performed in playfield           12.9%                 na      na         na
 or park location; 0 otherwise)
-Total travel time to school (min)
-Total travel time to tutoring (min)
-Duration of mandatory activity (min)
-Duration of homework (min)
-Duration of tutoring (taking lessons from a tutor outside school in a fixed ti
-Number of out-of-home out-of-school activities (passive)
-Note: SD = standard deviation; min. = minimum; max. = maximum; na = not applicabl
-Transportation Research Record 2357
-acteristics, and other relevant attributes were merged for hypothesis
-testing during the modeling process.
+Total travel time to school (min)                                                                             48.30             29.69         5        150
+Total travel time to tutoring (min)                                                                           17.37             19.24         5         85
+Duration of mandatory activity (min)                                                                         813.37            101.19       480      1,065
+Duration of homework (min)                                                                                   281.97             84.75        15        570
+Duration of tutoring (taking lessons from a tutor outside school in a fixed time and location) (min)         127.62             94.01         0        360
+Number of out-of-home out-of-school activities (passive)                                                       1.61              1.53         0          4
 
-Summary Statistics
-
-The descriptive analysis revealed that among the 245 respondents,
-about 57% engaged in at least one physical activity. The average count
-of physical activity was approximately 1.41, with a standard deviation
-of 1.45 (minimum = 0 and maximum = 6). The average (total) dura-
-tion of activity of the surveyed children was 33.69 min on a given day,
-which is below the level recommended by the American Academy of
-Pediatrics. In total, 356 continuous episodes of physical activity were
-reported. The average continuous length of physical activity in the
-sample was 23.18 min, with a standard deviation of 24.92 min and a
-maximum of 150 min. These continuous episodes (sometimes referred
-to as a “spell” or a “bout” in the literature) were used as the dependent
-variable in the modeling of the duration of physical activity.
-Table 1 shows the summary statistics of the dependent variables
-considered in the ZIP model and the duration model and the inde-
-pendent variables (such as children’s personal attributes, household
-socioeconomic characteristics, built environment, escort arrangement,
-and activity attributes) retained in the final model specification.
-
-Discussion of Models
-
-Modeling Process
-
-Before the modeling was performed, tests for correlations between all
-pairs of explanatory variables were performed. Variables that exhib-
-ited low correlations (<0.4) among pairs of independent variables
-
-Mean or Percentage       SD          Min.    Max.
-
-1.41              1.45         0        6
-23.18              24.92         5      150
+Note: SD = standard deviation; min. = minimum; max. = maximum; na = not applicable.
 
 
-14.13               1.154       11       16
-1.83              0.77         1        4
-42.54               5.19        25       58
-331.39             284.14       150    2,800
-4.33              0.86         3        7
-29.5%                  na       na       na
-11.2%                  na       na       na
 
-home; 0 otherwise)                 43.7%                  na       na       na
-home; 0 otherwise)                41.6%                  na       na       na
 
-)                                  40.2%                  na       na       na
-erwise)                            49.4%                  na       na       na
-performed in playfield             12.9%                  na       na       na
 
-48.30              29.69         5      150
-17.37              19.24         5       85
-813.37             101.19       480    1,065
-281.97              84.75        15      570
-me and location) (min)            127.62              94.01         0      360
-1.61              1.53         0        4
-e.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Habib and Daisy
+
+
 were considered in the final model specification. For example, house-
 hold income was correlated with car and home ownership, but car
 ownership and home ownership were not correlated with each other.
@@ -719,13 +759,13 @@ Model for Frequency of Participation in Physical Activity
 
 ZIP Regression Model
 
-Variable                                         Coefficient       t-Statistic
+Variable                                        Coefficient        t-Statistic
 
 Age of children                                    -0.086            -1.65
-Number of children in household                     0.137              1.73
+Number of children in household                     0.137             1.73
 Age of parents                                     -0.029            -2.92
 Total household monthly income (US$)               -0.001            -1.71
-Presence of sidewalk around home                    0.513              3.61
+Presence of sidewalk around home                    0.513             3.61
 (dummy, 1 if sidewalk exists adjacent
 to the home; 0 otherwise)
 Presence of intersection near home                 -0.454            -2.91
@@ -736,14 +776,16 @@ Duration of tutoring                               -0.002            -2.18
 Duration of homework                               -0.001            -1.81
 Total travel time to school                        -0.008            -2.39
 Total travel time to tutoring                      -0.027            -3.95
-Number of out-of-home out-of-school                 0.552              7.21
+Number of out-of-home out-of-school                 0.552             7.21
 activities
-Constant                                            2.986              3.37
+Constant                                            2.986             3.37
 
 Note: Data are for 245 individuals. Log likelihood of the constant-only
 model = -371.94646; log likelihood of the full model = -276.65103;
 pseudo-rho-square = .256207.
 121
+
+
 Of children’s personal characteristics, age exhibits a negative
 relationship, implying that older children participate in physical
 activity less frequently than younger children. This finding is con-
@@ -829,6 +871,8 @@ the level of education provided in the schools does not match parents’
 expectations. As expected, the total time commitment for tutoring is
 
 122                                                                                                                       Transportation Research Record 2357
+
+
 found to affect negatively the frequency of participation in physi-                      of the constant-only model. The pseudo-rho-square value was 0.256,
 cal activity. Similarly, the total amount of time spent on homework                      which indicates a reasonable model fit.
 (mainly in the home) is found to reduce the amount of time spent on
@@ -874,22 +918,29 @@ lenges. The dummy variable exhibited poor statistical significance,             
 however. The goodness-of-fit statistics of the model were evaluated                         In addition, the parameter of the age of the parent is positive in
 according to the pseudo-rho-squared value, which indicates 1 minus                       the model. This finding implies that children of older parents spend
 the ratio of the log likelihood of the full model to the log likelihood                  more time on an activity episode than those of younger parents.
+
+
+
 TABLE 3   Results of Parametric Hazard Models for Duration of Physical Activity
+
 Log Logistic Duration
-Weibull Duration Model               Model
-Variable                                                                                             Coefficient       t-Statistic        Coefficient       t-Statistic
-Age of children                                                                                         -0.120            -2.42             -0.087             -1.70
-Household size                                                                                           0.099              2.21             0.058              1.17
-Age of parents                                                                                           0.032              3.86             0.024              2.46
-Car ownership (dummy, 1 if the household owns at least one car; 0 otherwise)                             0.363              2.47             0.399              2.62
-Home ownership (dummy, 1 if the household is a homeowner; 0 otherwise)                                  -0.271            -2.39             -0.213             -1.89
-Parental escort (dummy, 1 if the child is accompanied by a parent; 0 otherwise)                          0.218              4.56             0.131              2.59
-Accompanied by friends (dummy, 1 if the child is accompanied by friends; 0 otherwise)                   -0.212            -4.41             -0.124             -2.45
-Duration of mandatory activities (time spent in school and sleeping)                                    -0.004            -8.93             -0.004             -7.41
-Duration of homework                                                                                    -0.004            -5.07             -0.003             -5.34
-Activity performed in a playfield or park location (dummy, 1 if the activity is performed                1.560              6.54             1.746              6.46
+Weibull Duration Model             Model
+
+Variable                                                                                              Coefficient       t-Statistic      Coefficient       t-Statistic
+
+Age of children                                                                                         -0.120             -2.42           -0.087             -1.70
+Household size                                                                                           0.099              2.21            0.058              1.17
+Age of parents                                                                                           0.032              3.86            0.024              2.46
+Car ownership (dummy, 1 if the household owns at least one car; 0 otherwise)                             0.363              2.47            0.399              2.62
+Home ownership (dummy, 1 if the household is a homeowner; 0 otherwise)                                  -0.271             -2.39           -0.213             -1.89
+Parental escort (dummy, 1 if the child is accompanied by a parent; 0 otherwise)                          0.218              4.56            0.131              2.59
+Accompanied by friends (dummy, 1 if the child is accompanied by friends; 0 otherwise)                   -0.212             -4.41           -0.124             -2.45
+Duration of mandatory activities (time spent in school and sleeping)                                    -0.004             -8.93           -0.004             -7.41
+Duration of homework                                                                                    -0.004             -5.07           -0.003             -5.34
+Activity performed in a playfield or park location (dummy, 1 if the activity is performed                1.560              6.54            1.746              6.46
 in playfield or park location; 0 otherwise)
 Constant                                                                                                 6.057              6.79             6.045              6.30
+
 Note: Data are for 356 activities. Shape parameter = 3.353 and 5.019 for Weibull and log logistic duration models, respectively; log likelihood for the constant-only
 model = -109.44 and -82.42 for Weibull and log logistic duration models, respectively; log likelihood for full model = -29.18 and -33.08 for Weibull and
 log logistic duration models, respectively; AIC = 86.36 and 94.16 for Weibull and log logistic duration models, respectively.
@@ -959,7 +1010,18 @@ log logistic duration models, respectively; AIC = 86.36 and 94.16 for Weibull an
 
 
 
+
+
+
+
+
+
+
+
+
 Habib and Daisy
+
+
 The ZIP count model (discussed in earlier) suggests that children of
 older parents have less of a chance to engage in physical activities.
 Collective interpretation of the results of the two models allows the
@@ -1032,6 +1094,8 @@ younger counterparts. However, although children of older parents
 get fewer chances to engage in physical activity, they spend more time
 per activity than children of younger parents.
 123
+
+
 This paper contributes in several ways. Although abundant analy-
 ses of adults’ activity are available, less attention has been given to
 the determination of children’s activity patterns. This study enhances

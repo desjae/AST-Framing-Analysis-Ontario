@@ -1,443 +1,535 @@
-                                                            Journal of Transport & Health 8 (2018) 251–261
-                                                           Contents lists available at ScienceDirect
-                                                   Journal of Transport & Health
-                                                  journal homepage: www.elsevier.com/locate/jth
-Living in school catchment neighborhoods: Perceived built
-                                                                                                                                                   T
-environments and active commuting behaviors of children in China
-                                        <U+204E>
-Guibo Suna, Xili Hanb, , Shaohua Sunb, Nicolas Oreskovicc
-a
-  Faculty of Architecture, The University of Hong Kong, KB821, Pokfulam Road, Hong Kong, China
-b
-  School of Urban Planning and Design, Peking University Shenzhen Graduate School, C318, PKU Campus, 518055 Shenzhen, China
-c
-  Massachusetts General Hospital and Harvard Medical School, 100 Cambridge St,15th Floor - C100, 02114 Boston, USA
-AR TI CLE I NF O                                          AB S T R A CT
-Keywords:                                                 The contribution of the current study to the existing literature of school trips is twofold. First, we
-Attending nearby school                                   estimate the proportion of children living in neighborhoods within walking-distance who actively
-Walking distance                                          commute to school taking into consideration the educational system policy in China of “attending
-Perception                                                nearby school”. Secondly, we identify how and to what extent the neighborhood and individual-level
-Active commuting
-                                                          built environment characteristics a<U+FB00>ect the behaviour of active school traveling. We recruited 1090
-Children
-China
-                                                          children from four primary schools in Shenzhen, China. Multilevel models examined the relationship
-                                                          between built environments and school commuting behavior (that is, mode choice, travel time to and
-                                                          from, and route di<U+FB00>erence to and from school). We found the average distance to school was 575 m
-                                                          [min = 206 m, max = 1303 m]. Three out of four children (N = 805) lived within their school
-                                                          catchment neighborhoods in our study samples, of which 87% were active commuters and 6% arrived
-                                                          in school by their parents’ cars. For children living outside of school catchment areas (N = 285), 22%
-                                                          of them walked or cycled to school and 23% arrived to school by their parents’ cars. Having more
-                                                          gates, measured by density of neighborhood entrances, was positively associated with active mode
-                                                          choice. Route aesthetics greatly impacted the active mode choice. Safety was associated with di<U+FB00>erent
-                                                          route use to and from school. Compared to children who commuted alone, children who traveled with
-                                                          classmates or parents were less likely to use di<U+FB00>erent routes to and from school. This study highlights
-                                                          the importance of considering the local built environment context of school catchment planning in
-                                                          understanding school commuting behaviors in China.
-1. Introduction
-     Physical activity has many known health bene<U+FB01>ts including improvements to cardiovascular health, lung function, bone strength, and
-mental health, and a decreased risk of diabetes, obesity, cancer, and overall mortality (Bauman et al., 2012; Lee et al., 2012). Studies have
-shown that levels of physical activity among children are low. Ninety-three percent of Canadian children ages 5–11 do not meet the
-recommended physical activity guidelines of at least 60 min of daily moderate-to-vigorous-intensity physical activity (Gray et al., 2014). In
-the UK, the proportion of children aged 5 to 15 years meeting recommendations between 2008 and 2012 declined from 28% to 21% (Panter
-et al., 2008; Townsend et al., 2015). In the USA, 42% of children ages 6–11 year obtain the recommended 60 min of physical activity,
-whereas only 8% of adolescents achieve this goal (Troiano et al., 2008). In China, 77% of students in primary and middle schools failed to
-meet the recommendation in the “2010 National Physical Fitness and Health Surveillance” survey (Zhang et al., 2012). Low levels of physical
-activity may predispose children to developing childhood obesity, which has become a global epidemic (Boreham and Riddoch, 2001). The
-   <U+204E>
-     Corresponding author.
-     E-mail addresses: gbsun@hku.hk (G. Sun), hanxl@pkusz.edu.cn (X. Han), sunshaohua6@crland.com.cn (S. Sun), noreskovic@mgh.harvard.edu (N. Oreskovic).
-https://doi.org/10.1016/j.jth.2017.12.009
-Received 19 August 2017; Received in revised form 20 December 2017; Accepted 22 December 2017
-Available online 05 January 2018
-2214-1405/ © 2017 Elsevier Ltd. All rights reserved.
+                                                          Journal of Transport & Health 8 (2018) 251–261
 
-G. Sun et al.                                                                                            Journal of Transport & Health 8 (2018) 251–261
-                                           Fig. 1. Catchment neighborhoods of a primary school in China.
-journey to school is a potentially important opportunity for increasing children's daily physical activity (Fulton et al., 2005; Rowland et al.,
-2003). Encouraging active commuting to school (ACS) can further foster healthy active commuting habits during later adolescence and
-adulthood (Merom et al., 2006; Yang et al., 2014).
-    Studies in Western cities have shown that fewer than a half of all ACS trips are by walking or bicycling mode even for distances
-under one mile (Martin et al., 2007; Rothman et al., 2014b; Salmon et al., 2007). Little is known about the pattern of school
-commuting in mainland China where physical inactivity has increased among children in recent decades (Kerr et al., 2016; Zong and
-Li, 2014). Urban planning guidelines recommend that the service area of a primary school is at around 500 m radius bu<U+FB00>er, and a
-middle school is at 1000 m (Shenzhen Planning and Land Resource Committee, 2017). With the planning guidelines, the “attending
-nearby school” policy restricts primary school admission to children living within a de<U+FB01>ned catchment neighborhoods based on
-parental hukou (household registration) and housing ownership (Feng and Lu, 2013), which ensures that children in mainland China
-live within walking distance of an a<U+FB03>liated primary school. Fig. 1 illustrates an example of the catchment neighborhoods for a
-primary school in Shenzhen, China. Education resource planning in China is strikingly di<U+FB00>erent from many Western countries, where
-parents can often choose which schools their children attend, with often only families with limited resources (e.g., fewer cars)
-sending their children to the local school (Bostock, 2001; Goodman et al., 2012). However, there is limited research assessing the
-proportion of children in China who live within walking distance to school who actively commute.
-    Previous studies have attempted to promote physical activity of children by focusing on time at school or leisure time activities. Research has
-                                                                       252
 
-G. Sun et al.                                                                                              Journal of Transport & Health 8 (2018) 251–261
-shown built environment correlates with physical activity of children. However, links between the built environment and ACS has received less
-attention (D’Haese et al., 2015b; van Goeverden and de Boer, 2013). A few environmental factors associated with ACS have been examined such
-as: distance; connectivity of streets; tra<U+FB03>c calming on streets; path infrastructure; aesthetic qualities; intersection density; safety; and land use
-mix (Curtis et al., 2015; Ewing et al., 2004; Larouche et al., 2015; Larsen et al., 2009; Panter et al., 2008; Pont et al., 2009; Wong et al., 2011).
-Apart from a consistent negative association between distance, <U+FB01>ndings of the built environment indicators associated with children's ACS were
-inconsistent and nuanced (Wong et al., 2011). For example, the relationship between street connectivity and ACS has been positive in some
-studies and negative in others (Carlson et al., 2014; Panter et al., 2010). Some studies reported null association between land use mix and ACS
-(Ewing et al., 2004; Panter et al., 2010), others reported positive relationship (McMillan, 2005; Rosenberg et al., 2009). The inconsistencies
-potentially hinder designing e<U+FB00>ective interventions to promote ACS.
-    Some researchers suggested that objective built environment elements in<U+FB02>uence ACS of children. While the inconsistent use of spatial
-concepts, including bu<U+FB00>er size, objective measures, and quality of pedestrian network datasets, limits the ability to draw conclusions (Pont et al.,
-2009; Wong et al., 2011). Other studies found that parental perceptions are more in<U+FB02>uential (Fyhri and Hjorthol, 2009; Mackett, 2013), which
-have focused predominantly on distance from home to school and safety. Fewer studies have been conducted on children's own experiences of
-the walking environment to school (Fusco et al., 2012). Evenson identi<U+FB01>ed positive associations between knowledge of the number of desti-
-nations in the neighborhood and ACS of girls (Ortega et al., 2006). In another study of Australian girls, no association was found between having
-convenience stores near the home and walking for transport during the week (Carver et al., 2005).
-    Most of the previous ACS studies were conducted in urban areas of the USA, Canada, Australia and Western Europe. In China, less
-is known about the role of physical and perceived built environments on children's ACS. Though some commonalities may exist across
-countries, reviews of the literature suggest that how the environment impacts ACS is not universal (Van Kann et al., 2015). USA,
-Canada, Australia and Western Europe have di<U+FB00>erent urban layouts and walking culture, and most importantly di<U+FB00>erent education
-planning system, compared to China. Studies in Australia indicated that children residing in denser and urban areas are signi<U+FB01>cantly
-associated with more ACS (Curtis et al., 2015). There is a lack of research in urban areas in China, which have much greater density
-than their western counterparts (Sun et al., 2017a).
-    Understanding of the local context through examining both objective and perceived built environment characteristics is essential for
-identifying e<U+FB00>ective intervention strategies to promote ACS (Larouche et al., 2015; Rojas Lopez and Wong, 2017). The investigation of built
-environmental correlates of ACS in a developing country such as China is urgently needed to reverse the rapid trend towards inactivity (Lu
-et al., 2017). The purpose of this paper is to examine this relationship by looking at a range of objective and subjective factors that may
-impact children's multiple aspects of ACS in China, taking into consideration China's “attending nearby school” education system.
-2. Methods
-2.1. Study areas and populations
-    Four primary schools located in di<U+FB00>erent city districts of Shenzhen, a megacity with a population of over 10 million in the south of mainland
-China, were systematically selected for this study. The selection of the schools is based on the criterions of geographic locations of the school
-(city center or fringe), density, greenery diversity, and representative of the built environment. Types of the catchment neighborhoods of each
-school include open and gated communities. The open communities are self-built urban villages and other public housing neighborhoods. The
-gated communities are built for residents from a range of socio-economic backgrounds, which in China are di<U+FB00>erent from in Western countries
-where gated communities are often walled-o<U+FB00> enclaves of houses where more a<U+FB04>uent people live (Sun et al., 2017b).
-    The four primary schools comprise of 28 catchment neighborhoods in total. The students are mostly from those neighborhoods
-according to the “attending nearby school” policy. Study participants were recruited from the school sites instead of neighborhoods.
-Two recruiting methods were applied: i) subjects were intercepted arriving at and leaving school; and ii) in classroom surveys. All
-surveys are interviewer administered. Four trained interviewers administrated the questionnaire, and explained the items if children
-had questions. Data were collected from October to November 2015. All participants and their parents provided informed consent.
-The Ethics Committee of Peking University approved this study.
-2.2. Active commuting behaviors
-    Active commuting behaviors were collected using four measures. Self-reported travel mode was assessed, with response options of
-walking, bicycling, automobile, public transit, and other. Self-reported daily travel time to and from school was assessed, with
-answers categorized as less than 5 min, 5–10 min, 10–15 min, and greater than 15 min. We asked subjects if they had di<U+FB00>erent routes
-to and from school, with response options being exactly the same, totally di<U+FB00>erent, and partially di<U+FB00>erent. Commuting patterns were
-categorized into binary data as active (walking or bicycling) vs. non-active (automobile, transit, other). Travel time was categorized
-as less than 10 min vs. 10 min or more. Route choices were categorized as same vs. di<U+FB00>erent.
-    Age, gender and companionship were collected as covariates. The commuting companionship was measured by an item with
-options of: alone, classmates or friends, parents, and grandparents or nannies.
-2.3. Neighborhood-level environmental measures
-    We measured <U+FB01>ve neighborhood-level built environmental characteristics: i) pedestrian network distance from the neighborhood
-geographic center to the school gate; ii) density of neighborhood entrances, de<U+FB01>ned as the number of entrances in every 1000 m of
-                                                                         253
 
-G. Sun et al.                                                                                             Journal of Transport & Health 8 (2018) 251–261
-neighborhood boundaries. The entrance is where people/children can enter into the neighborhoods. It could be road intersections at
-the boundary of an open community. It could also be the gates of a gated community. iii) sidewalk ratio along motorized roads; iv)
-ratio of tra<U+FB03>c calming roads, de<U+FB01>ned as roads jointly used by pedestrians and cars equipped with tra<U+FB03>c calming techniques (Melia,
-2012); v) permeable pedestrian network ratio, de<U+FB01>ned as the number of small alleys and informal paths that are routes not o<U+FB03>cial or
-legally sanctioned but frequently used by local residents and children.
-    These measures were calculated using a detailed pedestrian network we constructed using high resolution aerial photographs,
-street views, and <U+FB01>eld visits with GPS ground truthing techniques, to avoid the missing pedestrian network issue of urban road
-networks that has previously been shown to confound built environment and active travel studies (Chin et al., 2008; Iacono et al.,
-2010; Sun et al., 2015; Tal and Handy, 2012). We identi<U+FB01>ed gate access points – locations that allow a pedestrian free access to the
-school catchment neighborhood – by <U+FB01>eld observation, as enclosure of gated communities has been reported but does not appear in
-o<U+FB03>cial records (Webster et al., 2017). All measures were calculated using geographic information systems (ArcGIS 10.3.1, Esri, USA).
-2.4. Perceived environmental measures
-    Perceptions of the route environments were assessed using a 24-item questionnaire. The questionnaire was based on a review of studies
-assessing the relationship between environmental attributes and ACS behaviors. We adapted items from the validated Neighborhood
-Environmental Walkability Scale for Youth (Rosenberg et al., 2009). This questionnaire was used for 11- to 12-year old children in a previous
-study in Taiwan, who share the same culture and language with our study samples (Sheu-jen et al., 2010). It also has been applied in children
-in Belgium (D’Haese et al., 2015a). We adjusted items for di<U+FB00>erences from Western countries to better re<U+FB02>ect China's physical environment
-(Day, 2016; Day et al., 2013; Sun et al., 2017a). We conducted pilot validation using three waves of focus group studies on 21 children. The
-researchers discussed with respondents what they believed the questions were asking, if there were any vocabularies they did not understand.
-The questionnaire was revised until no ambiguities remained. Items, using a four-point Likert-scale ranging from the most negative to the
-most positive result for that situation, were constructed by semantic di<U+FB00>erential principles.
-    Principal component analysis using varimax rotation was applied to identify the groups of related environmental attributes. Five
-factors, accounting for 52% of the variance, were identi<U+FB01>ed from the analysis. Six items were excluded from further analysis because
-they cross-loaded across several of the factors or did not <U+FB01>t with the interpretation of the factors. Loadings ranged from 0.46 to 0.76
-across the <U+FB01>ve factors. Five dimensional factors were obtained for the perceived environment characteristics: permeability, route
-across public open space, route across points of interest (e.g., stationers, snack shops), route aesthetics, and safety. Appendix A is a
-full list of study items, factor groupings, and response options.
-    Items in each factor were summed to provide a total score for each category of perceived environmental attribute. These summed scores
-were then divided by the number of items in each category. This facilitates comparisons across the categories, with all having a <U+FB01>nal score out of
-four. The scores of permeability, route across public open space, route across points of interest, route aesthetics and safety were transformed into
-categorical variables with three levels: low (a less positive perception of the environment); moderate; or high (a highly positive perception of the
-environment). The cut-o<U+FB00> points used for these levels were those that most closely approximated the tertiles of the distributions.
-2.5. Statistical analysis: Multilevel modeling
-    Multilevel binary logistic regression models were used to examine the associations of the neighborhood-level environmental
-characteristics and individual-level perceived environmental factors with the four ACS behaviors. All models were adjusted for age,
-gender and companionship. We standardized the neighborhood-level variables. All analyses were conducted in R (Version 3.4.2).
-3. Results
-3.1. Descriptive analysis
-    The distribution of school commuting mode, travel times, and route di<U+FB00>erences to and from school are shown in Table 1. A
-neighborhood group-based descriptive analysis of the neighborhood-level environmental measures, the individual-level perceived
-factors, and covariates are shown in Appendix B.
-    The average network distance for the 28 neighborhoods was 575 m from the geographic centre of catchment neighborhood to
-school [SD = 267; min = 206 m, max = 1303 m]. Descriptive statistics of the neighborhood-level variables include: ‘density of
-entrances of the neighborhood’ [mean = 4.1, SD = 3.4], ‘ratio of sidewalk along motorized road’ [mean = 0.7, SD = 0.3], ‘ratio of
-tra<U+FB03>c calming road’ [mean = 0.5, SD = 0.3], and ‘ratio of permeable pedestrian network’ [mean = 0.2, SD = 0.3].
-    We recruited 1,090 children, of which 805 (74%) lived within the school catchment neighborhoods and were included in data
-analyses. Participants were 48% female, with a mean age of 11 years (SD = 1.2, range 9–14), with most children between the ages of
-10 to 12 years (78%). Thirty-nine percent used di<U+FB00>erent routes for commuting to and from school. Thirty-eight percent of participants
-commuted to school alone, 49% commuted with classmates, and 13% commuted with parents or grandparents.
-    There were stark di<U+FB00>erences in commuting patterns between children who lived within and outside of school catchment
-neighborhoods. For children living within school catchment neighborhoods (N = 765, after deleting missing values), the majority
-(87%) walked or cycled to school, while few (6%) arrived to school by their parents’ cars. For children living outside of school
-catchment neighborhoods (N = 285), 22.4% walked or cycled to school with 23% arriving by car. Fifty-one percent of children
-commuted to school by bus or metro.
-                                                                          254
+                                                          Contents lists available at ScienceDirect
 
-G. Sun et al.                                                                                                  Journal of Transport & Health 8 (2018) 251–261
-                                   Table 1
-                                   Descriptive statistics of school commuting behaviors (N=764, after deleting missing
-                                   values).
-                                                                                                            Percent
-                                     Commuting mode
-                                     Walking                                                                82.8
-                                     Cycling                                                                3.8
-                                     Automobile                                                             6.3
-                                     Transit                                                                3.9
-                                     Others                                                                 3.3
-                                     Travel time from home to school (H2S)
-                                     Less than 5 min                                                        26.8
-                                     6–10 min                                                               40.2
-                                     11–15 min                                                              21.7
-                                     Greater than 15 min                                                    11.4
-                                     Travel time from school to home (S2H)
-                                     Less than 5 min                                                        22.9
-                                     6–10 min                                                               36.6
-                                     11–15 min                                                              24.4
-                                     Greater than 15 min                                                    16.2
-                                     Route di<U+FB00>erence between H2S and S2H
-                                     Same                                                                   61.5
-                                     Di<U+FB00>erent                                                               38.5
-3.2. Multilevel models
-    Intra-class correlation (ICC1) is used to assess the reliability of individual data aggregated at neighborhood group level in the
-hierarchical models. Table 2 shows the multilevel binary logistic regression modeling of the built environment correlates of ACS
-behaviors of children living in Shenzhen, China.
-3.2.1. Active commuting
-    Neighborhood di<U+FB00>erences accounted for 17% of the variance in explaining school commute mode choice. Distance to school was in-
-versely associated with active mode choice [OR = 0.33, CI = 0.20–0.56]. Neighborhoods with greater density of entrances were associated
-with a greater likelihood of active mode choice [OR = 3.13, CI = 1.21–8.11]. Several perceived characteristics of the built environment
-were associated with active commuting. A moderate number of points of interest along the commuting route predicted active commuting to
-school [OR = 5.64, CI = 2.79–11.38]. A greater route aesthetics was also associated with a greater likelihood for active travel. Perceived
-safety was signi<U+FB01>cantly correlated with active commuting. Having a high degree of perceived open space along the route was negatively
-associated with active commuting [OR = 0.32, CI = 0.15–0.69]. Female students were less likely to actively commute to school.
-    The companionship in<U+FB02>uenced the active mode choice. Compared with students who traveled alone, those who traveled with parents
-[OR = 0.03, CI = 0.01–0.09] or with grandparents/nannies [OR = 0.12, CI = 0.03–0.48] were less likely to actively commute.
-3.2.2. Travel time
-    Neighborhood di<U+FB00>erences accounted for 5–6% of the variance in predicted travel times to and from school. A longer distance
-predicted a longer commuting time. A denser permeable pedestrian network did not reduce travel time to and from school. Ratio of
-tra<U+FB03>c calming road was positively related to travel time from home to school [OR = 1.43, CI = 1.06–1.91]. Females had shorter
-travel times from school to home [OR = 0.70, CI = 0.51–0.98].
-3.2.3. Route di<U+FB00>erence between to and from school
-    Neighborhood di<U+FB00>erences accounted for 4% of the variance in predicted route di<U+FB00>erences. Having a high degree of perceived
-permeability was negatively associated with using di<U+FB00>erent routes for commuting between to and from school [OR = 0.55, CI =
-0.34–0.89]. A moderate number of perceived points of interest along the commuting route positively associated with di<U+FB00>erent route
-choices [OR = 1.60, CI = 1.14–2.25]. The safety is related to whether children want to explore the environment by di<U+FB00>erent routes.
-A high degree of perceived safety was associated with a high likelihood of using di<U+FB00>erent routes to and from school [OR = 1.55, CI =
-1.06–2.28]. Compared to independent commuters, children traveling with classmates and friends [OR = 0.57, CI = 0.41–0.81] or
-parents [OR = 0.55, CI = 0.21–0.99] were less likely to use di<U+FB00>erent routes to and from school.
-    In summary, distance was shown to be consistently negatively associated with active commuting to school and with longer travel
-times to and from school. A higher ratio of permeable pedestrian network did not yield a shorter travel time, and perceived high
-permeability was unlikely to encourage children to use di<U+FB00>erent routes to and from school. Perceived routes aesthetics greatly
-impacted active commuting, having the largest odds ratio for predicting active commuting in the model. A higher degree of perceived
-safety encouraged students to use active modes of travel. Perceived safety also can encourage students to choose di<U+FB00>erent routes to
-and from school to explore the environment. Independent travelers were more likely to be active commuters and choose di<U+FB00>erent
-routes to and from school, compared to those travelling with companions.
-                                                                            255
 
-G. Sun et al.                                                                                                     Journal of Transport & Health 8 (2018) 251–261
-Table 2
-Environmental correlates of active commuting to school behaviors for children living in Shenzhen, China (N = 764).
-                                      Active commuting mode           Travel time from home to      Travel time from school to     Route di<U+FB00>erence between
-                                      choice                          school(H2S)                   home (S2H)                     H2S and S2H
-                                      OR (CI)                         OR (CI)                       OR (CI)                        OR (CI)
-  Neighbourhood Level
-                                                       ***                              ***                          ***
-  Distance to school                  0.33 (0.20–0.56)                2.65 (2.00–3.50)              2.38 (1.80–3.16)               0.99 (0.76–1.28)
-                                                       *
-  Density of entrances of the         3.13 (1.21–8.11)                0.72 (0.46–1.12)              0.77 (0.50–1.19)               0.70 (0.48–1.04)
-       neighborhood
-  Ratio of sidewalk along motorized   0.79 (0.47–1.32)                1.03 (0.79–1.33)              1.01 (0.78–1.32)               1.05 (0.83–1.34)
-       road
-                                                                                        *
-  Ratio of tra<U+FB03>c calming road         0.77 (0.45–1.33)                1.43 (1.06–1.91)              1.33 (0.99–1.79)               1.11 (0.84–1.46)
-                                                                                        *                            *
-  Ratio of permeable pedestrian       0.50 (0.20–1.23)                1.68 (1.07–2.63)              1.59 (1.01–2.49)               1.19 (0.80–1.78)
-       network
-  Individual level
-  Permeability
-  Low                                 1.00                            1.00                          1.00                           1.00
-  Moderate                            0.74 (0.36–1.49)                1.08 (0.73–1.58)              0.80 (0.55–1.14)               0.72 (0.51–1.03)
-                                                                                                                                                     *
-  High                                1.12 (0.39–3.20)                1.04 (0.62–1.75)              0.63 (0.38–1.05)               0.55 (0.34–0.89)
-  Route across open space
-  Low                                 1.00                            1.00                          1.00                           1.00
-  Moderate                            0.63 (0.28–1.42)                0.92 (0.59–1.44)              0.90 (0.59–1.37)               0.79 (0.53–1.19)
-                                                       **
-  High                                0.32 (0.15–0.69)                0.92 (0.60–1.40)              0.89 (0.60–1.33)               0.71 (0.48–1.04)
-  Route across points of interest
-  Low                                 1.00                            1.00                          1.00                           1.00
-                                                         ***                                                                                         **
-  Moderate                            5.64 (2.79–11.38)               1.01 (0.70–1.46)              0.99 (0.70–1.41)               1.60 (1.14–2.25)
-  High                                0.08 (0.00–1.84)                3.09 (0.45–21.10)             1.53 (0.27–8.79)               0.69 (0.11–4.23)
-  Route aesthetics
-  Low                                 1.00                            1.00                          1.00                           1.00
-  Moderate                            6.14 (3.00–12.55) ***           1.31 (0.89–1.92)              1.15 (0.80–1.65)               1.24 (0.87–1.76)
-                                                              **
-  High                                633.03 (9.46–42370.52)          0.36 (0.05–2.51)              0.61 (0.10–3.53)               6.18 (0.83–46.06)
-  Safety
-  Low                                 1.00                            1.00                          1.00                           1.00
-                                                         ***
-  Moderate                            4.54 (2.00–10.31)               1.33 (0.87–2.01)              0.90 (0.61–1.35)               1.14 (0.78–1.67)
-                                                         ***                                                                                         *
-  High                                4.83 (2.05–11.38)               0.84 (0.55–1.28)              0.73 (0.49–1.09)               1.55 (1.06–2.28)
-  Companionship
-  Travel alone                        1.00                            1.00                          1.00                           1.00
-                                                                                                                                                     **
-  With classmates or friends          0.91 (0.43–1.92)                1.31 (0.90–1.90)              1.20 (0.85–1.71)               0.57 (0.41–0.81)
-                                                       ***                                                                                           *
-  With parents                        0.03 (0.01–0.09)                1.07 (0.56–2.07)              0.89 (0.48–1.65)               0.55 (0.31–0.99)
-                                                       **
-  With grandparents or nannies        0.12 (0.03–0.48)                1.43 (0.59–3.46)              1.07 (0.46–2.50)               1.16 (0.49–2.74)
-                                                       *                                                             *
-  Female                              0.51 (0.27–0.98)                0.81 (0.57–1.15)              0.70 (0.51–0.98)               1.01 (0.74–1.39)
-  Age                                 1.21 (0.93–1.57)                0.96 (0.83–1.11)              0.97 (0.84–1.12)               0.91 (0.80–1.04)
-  Random parts
-  N: Neighbourhood                    28                              28                            28                             28
-  ICC1: Neighbourhood                 0.171                           0.05                          0.056                          0.043
-  Observations                        764                             764                           764                            764
-  AIC                                 348.797                         883.09                        958.546                        1007.246
-Notes: OR= Odd Ratio; CI= the 95% con<U+FB01>dence interval;
-  * p < 0.05.
-  ** p < 0.01.
-  *** p < 0.001.
-4. Discussion
-    Living within walking distance from school is a government-led planning policy initiative for school-age children in mainland
-China. In this study, we investigated the school commuting pattern of children living in Shenzhen, and examined the perceived built
-environmental characteristics associated with active commuting behaviors. We found objective built environment characteristics at
-the neighborhood level and perceived built environment attributes at the individual level are associated with active commuting to
-school in children who living within walking-distance neighborhoods. This study highlights the importance of considering the local
-context of school catchment planning in understanding ACS in mainland China.
-    We found that nearly three quarters of children live within a half a kilometre from school, indicating that the “attending nearby
-school” policy has resulted in most students living within walking distance to school. The vast majority (87%) of children who lived
-within walking distance to school actively commuted to school (either by foot or bicycle), and only 6% arrived by car. On the
-contrary, the ratio of walking and cycling was considerably lower (22%) among children who lived outside the school catchment
-neighborhoods, while the ratio of children arriving by car was greater (23%). Previous studies have found ACS rates of 50–55% in
-Canada (Buliung et al., 2009), and 48% in the United States among children who live within walking distance to school (Martin et al.,
-2007; Salmon et al., 2007). In a study of Australian children, even when using a broad de<U+FB01>nition of active commuting to include any
-                                                                              256
+                                                  Journal of Transport & Health
+                                                journal homepage: www.elsevier.com/locate/jth
 
-G. Sun et al.                                                                                        Journal of Transport & Health 8 (2018) 251–261
-leg of a trip to or from school that includes walking or cycling, only one third of children were found to be active commuters (Merom
-et al., 2006). It is reasonable to infer that the high ACS rate in our study suggests the ‘attending nearby school’ policy has been
-successful at promoting active commuting, and that the local context of school catchment planning is leading to very di<U+FB00>erent
-commuting patterns than observed in many Western communities.
-    Perceived built environment characteristics were associated with active commuting to school. Interestingly, routes that were
-perceived to be more aesthetically pleasing were positively associated with active commuting modes, and having the most impact on
-active mode choice among environmental factors. This <U+FB01>nding is di<U+FB00>erent from a literature review <U+FB01>nding that environment aes-
-thetics were unimportant in children's decisions surrounding commuting to school (D’Haese et al., 2015b). This di<U+FB00>erence might be
-due to Shenzhen city context, with its subtropical climate and dominant concrete high-rises, o<U+FB00>ering a recognizable building
-landscape with a tree canopy that provides shade that might greatly encourage ACS.
-    Routes across open spaces were inversely associated with active travel modes. Previous studies that have examined the relationship
-between open spaces and ACS have found mixed results. Parks and recreation facilities were not found to be associated with observed
-walking, but were associated with increased reported walking (Kerr et al., 2007; Rothman et al., 2014b; Zhu et al., 2011). The neighborhoods
-represented in this study include several gated communities. In China, contemporary gated communities are usually large in size, involving
-hundreds of acres and thousands of residents. The built forms within these communities tend to be high-rise arrangements with much of the
-ground area devoted to open space (Miao, 2003), but spatially segregated from the surrounding areas. In contrast, open communities in
-China have better pedestrian accessibility but lack open spaces. The perception of the presence of open spaces might therefore be a less
-important factor than the spatial segregation of the gated communities in determining children's school commuting behaviors. This may also
-be partially con<U+FB01>rmed by the <U+FB01>ndings that at a higher density of neighbourhood entrances – indicating a lesser spatial segregation of the
-community – was positively associated with the activity commuting.
-    Safety was another concern identi<U+FB01>ed in this study. We found that children who reported higher perceived safety were more likely
-to use alternate routes to and from school. This suggests that perceived safety of the environment may encourage children to actively
-explore their environment. General safety and tra<U+FB03>c safety have been found to be associated with ACS in North America and
-Australia but not in Europe (D’Haese et al., 2015b). This might be due in part to the increased dangers of walking and cycling to
-school in the US and Australia, due to substantial urban sprawl (Pucher and Dijkstra, 2000; Rothman et al., 2015, 2014a).
-    We found that neighborhood level built environment characteristics were associated with ACS. Distance was consistently in-
-versely correlated with ACS. Having more neighborhood entrances was associated with active mode choice. However, a higher ratio
-of permeable routes did not appear to translate into shorter travel times for school commuting. Permeable routes are more prevalent
-in open communities than gated communities. In both focus group and survey discussions, children reported the lack of light in
-permeable routes as a deterrent to using those routes. Furthermore, there are many e-bikes using these narrow routes which was also
-cited as a tra<U+FB03>c safety concern (potential collisions).
-    Using multilevel models, we found that neighborhood di<U+FB00>erences explained di<U+FB00>erences in active commuting behaviors.
-Speci<U+FB01>cally, neighborhood level built environment characteristic accounted for variations in ACS. These important <U+FB01>ndings, in this
-study involving a simultaneous analysis of neighborhoods and children provide support for the notion that the built environment
-should be taken into consideration when planning and promoting active commuting to school policies in China.
-4.1. Implications
-    This study revealed that various physical and perceived built environment characteristics e<U+FB00>ect active commuting to school in
-China. These <U+FB01>ndings could assist urban/transport planners, public health practitioners and school planners to improve ACS in China.
-    Aesthetic and safety features in the school neighborhood environment were correlated with ACS among children. Increasing ratio of
-permeable routes alone might be not able to promote children's ACS. More attentions are needed to improve the quality of the routes. Urban
-designer could enhance lighting in and around such street to improve the use of permeable routes. In addition, we found route aesthetics can
-encourage children's ACS. Practitioners can intervene aesthetics by increasing street greenery and tree shading. The attractiveness of the
-routes will get enhanced by tree shading, especially in the subtropical Shenzhen city where the weather is hot.
-    Permeable routes may also limit car tra<U+FB03>c and increase safety. In our study areas, however, many e-bikes were observed on
-permeable streets, increasing the collision risk for children. Tra<U+FB03>c safety such as tra<U+FB03>c volume and speed have also been identi<U+FB01>ed
-as factor that in<U+FB02>uences school travel mode decisions. Designers can employ tra<U+FB03>c calming measures including, using devices (e.g.,
-piles, speed bumps) to restrict e-bikes activity in permeable alleys, lower speeds in motorized roads by curving the street, and pushing
-tra<U+FB03>c out of collector routes in school catchment areas (Brown et al., 2017). Streets and permeable routes may then o<U+FB00>er greater
-opportunities for both active transport and leisure-time physical activity of children.
-    We found that children who are active commuters tended to explore spaces when they traveled independently. Studies on independent
-mobility suggested that children who have the freedom to play outdoors and travel actively without adult supervision accumulate more physical
-activity than those who do not (Schoeppe et al., 2013). One example of a policy proposal could be for school planners in China to recommend
-that children actively commute to school for one week of every semester, and use di<U+FB00>erent routes during ACS to explore the environment of
-their neighborhoods. This ACS week activity should ideally be done by children independently, without companionship of parents, provided the
-children are age appropriate, and chaperoned by an adult (parents or teachers) at major road intersections.
-4.2. Limitations and strengths
-    This study has several limitations. The study was restricted to a single geographical area, the city of Shenzhen, a subtropical
-                                                                     257
 
-G. Sun et al.                                                                                  Journal of Transport & Health 8 (2018) 251–261
-megacity in China with a high population density, and these results may only be generalizable to similar city contexts. The cross-
-sectional study design makes it impossible to draw conclusions about causal relationships of the “attending nearby school” policy and
-ACS patterns. Nevertheless, the strikingly di<U+FB00>erence in ACS patterns between children who live within and outside of school
-catchment neighborhoods suggests that there may be a signi<U+FB01>cant impact of the policy on active travel in China. Our active com-
-muting behaviors are based on self-report which may be subject to recall bias and may not capture all domains of this activity. We
-aimed to assess similar themes of the perceived individual level and objective neighborhood level measures of the built environment,
-however our measures do not match perfectly (Lin and Moudon, 2010). Detailed streets audits (Cerin et al., 2011; Sun et al., 2017a)
-might help relate perceived measures to their objective counterparts and help optimize the use of these <U+FB01>ndings in formulating
-planning recommendations.
-    This study has several strengths, including sample size, novelty, and the use of multilevel statistical methods. The study's large
-sample allows for a representative description of children's perceptions on route preferences and the perceived import of built
-environment attributes. We provide, to our knowledge, the <U+FB01>rst description of children's commuting behaviors under the unique
-school catchment planning system in mainland China. This information is especially important as there are currently few such studies
-in Asia. We used multilevel modelling to control for neighborhood level environmental characteristics as a way to better understand
-Chinese children's perceptions of their built environment and their school commuting behaviors.
-5. Conclusion
-    Living within a designated school catchment neighborhood in mainland China was associated with active commuting to school.
-This study reports on the active commuting patterns of children in China and o<U+FB00>ers an important addition to the literature, providing
-the Chinese context for school commuting patterns, which represents an important juxtaposition to Western studies. In Asia, none of
-the physical environment attributes previously studied in the international literature have been su<U+FB03>ciently investigated to draw
-conclusions with regards to active commuting to school (D’Haese et al., 2015b). Our <U+FB01>ndings may support urban planners and health
-practitioners to intervene the built environment to promote ACS for children living in Shenzhen and other similar cities.
-Acknowledgements
-    This research is supported by NSFC 41471119. Guibo Sun is supported by NSFC 41561035 and HKU 35th round of the PDF/RAP
-Fellowship. The authors gratefully acknowledge the editor and reviewers whose comments helped improve and clarify the manu-
-script substantially.
-Appendix A. Perceived environmental attributes measured in the study, factor groupings, and response options
- 1.  Your commuting route includes short cut.
- 2.  You have multiple commuting route choices thus do not have to use same route.
- 3.  You can avoid large arterials.
- 4.  The distance is usually short between road intersections.
- 5.  You can use alleys which don’t not along the commuting route.
- 6.  Your commuting route is across playgrounds.
- 7.  Your commuting route is across open space with excises facilities.
- 8.  Your commuting route is across small greenery.
- 9.  Your commuting route is across large greenery.
-10.  Your commuting routes is across stationers.
-11.  Your commuting route is across snack shops or convenient stores.
-12.  Your commuting route has tree shading.
-13.  Your commuting route has beautiful urban landscape.
-14.  Your commuting route have many tra<U+FB03>c noise.
-15.  The cars usually drive very fast along your commuting route.
-16.  There are many unfriendly strangers along your commuting routes.
-17.  Your commuting route has fresh airs.
-18.  Your commuting route has bird songs.
-    Note: Factor groupings—Permeability 1,2,3,4,5; Cross public open space 6,7,8,9; Cross stationers and stores 10, 11; Commuting
-route Aesthetics 12, 13, 17,18; Safety 14,15,16.
-    * Items in safety dimension is reversed coding.
-    Reponses options- each item is measured in four-level Likert scale: strongly disagree, disagree, agree, strongly agree.
-                                                                  258
+
+
+Living in school catchment neighborhoods: Perceived built
+                                                                                                                                               T
+environments and active commuting behaviors of children in China
+                                      <U+204E>
+Guibo Suna, Xili Hanb, , Shaohua Sunb, Nicolas Oreskovicc
+a
+    Faculty of Architecture, The University of Hong Kong, KB821, Pokfulam Road, Hong Kong, China
+b
+    School of Urban Planning and Design, Peking University Shenzhen Graduate School, C318, PKU Campus, 518055 Shenzhen, China
+c
+    Massachusetts General Hospital and Harvard Medical School, 100 Cambridge St,15th Floor - C100, 02114 Boston, USA
+
+
+
+
+AR TI CLE I NF O                                         AB S T R A CT
+
+Keywords:                                                The contribution of the current study to the existing literature of school trips is twofold. First, we
+Attending nearby school                                  estimate the proportion of children living in neighborhoods within walking-distance who actively
+Walking distance                                         commute to school taking into consideration the educational system policy in China of “attending
+Perception                                               nearby school”. Secondly, we identify how and to what extent the neighborhood and individual-level
+Active commuting
+                                                         built environment characteristics a<U+FB00>ect the behaviour of active school traveling. We recruited 1090
+Children
+China
+                                                         children from four primary schools in Shenzhen, China. Multilevel models examined the relationship
+                                                         between built environments and school commuting behavior (that is, mode choice, travel time to and
+                                                         from, and route di<U+FB00>erence to and from school). We found the average distance to school was 575 m
+                                                         [min = 206 m, max = 1303 m]. Three out of four children (N = 805) lived within their school
+                                                         catchment neighborhoods in our study samples, of which 87% were active commuters and 6% arrived
+                                                         in school by their parents’ cars. For children living outside of school catchment areas (N = 285), 22%
+                                                         of them walked or cycled to school and 23% arrived to school by their parents’ cars. Having more
+                                                         gates, measured by density of neighborhood entrances, was positively associated with active mode
+                                                         choice. Route aesthetics greatly impacted the active mode choice. Safety was associated with di<U+FB00>erent
+                                                         route use to and from school. Compared to children who commuted alone, children who traveled with
+                                                         classmates or parents were less likely to use di<U+FB00>erent routes to and from school. This study highlights
+                                                         the importance of considering the local built environment context of school catchment planning in
+                                                         understanding school commuting behaviors in China.
+
+
+
+
+1. Introduction
+
+    Physical activity has many known health bene<U+FB01>ts including improvements to cardiovascular health, lung function, bone strength, and
+mental health, and a decreased risk of diabetes, obesity, cancer, and overall mortality (Bauman et al., 2012; Lee et al., 2012). Studies have
+shown that levels of physical activity among children are low. Ninety-three percent of Canadian children ages 5–11 do not meet the
+recommended physical activity guidelines of at least 60 min of daily moderate-to-vigorous-intensity physical activity (Gray et al., 2014). In
+the UK, the proportion of children aged 5 to 15 years meeting recommendations between 2008 and 2012 declined from 28% to 21% (Panter
+et al., 2008; Townsend et al., 2015). In the USA, 42% of children ages 6–11 year obtain the recommended 60 min of physical activity,
+whereas only 8% of adolescents achieve this goal (Troiano et al., 2008). In China, 77% of students in primary and middle schools failed to
+meet the recommendation in the “2010 National Physical Fitness and Health Surveillance” survey (Zhang et al., 2012). Low levels of physical
+activity may predispose children to developing childhood obesity, which has become a global epidemic (Boreham and Riddoch, 2001). The
+
+
+    <U+204E>
+        Corresponding author.
+        E-mail addresses: gbsun@hku.hk (G. Sun), hanxl@pkusz.edu.cn (X. Han), sunshaohua6@crland.com.cn (S. Sun), noreskovic@mgh.harvard.edu (N. Oreskovic).
+
+https://doi.org/10.1016/j.jth.2017.12.009
+Received 19 August 2017; Received in revised form 20 December 2017; Accepted 22 December 2017
+Available online 05 January 2018
+2214-1405/ © 2017 Elsevier Ltd. All rights reserved.
+
+G. Sun et al.                                                                                               Journal of Transport & Health 8 (2018) 251–261
+
+
+
+
+                                            Fig. 1. Catchment neighborhoods of a primary school in China.
+
+
+
+journey to school is a potentially important opportunity for increasing children's daily physical activity (Fulton et al., 2005; Rowland et al.,
+2003). Encouraging active commuting to school (ACS) can further foster healthy active commuting habits during later adolescence and
+adulthood (Merom et al., 2006; Yang et al., 2014).
+    Studies in Western cities have shown that fewer than a half of all ACS trips are by walking or bicycling mode even for distances
+under one mile (Martin et al., 2007; Rothman et al., 2014b; Salmon et al., 2007). Little is known about the pattern of school
+commuting in mainland China where physical inactivity has increased among children in recent decades (Kerr et al., 2016; Zong and
+Li, 2014). Urban planning guidelines recommend that the service area of a primary school is at around 500 m radius bu<U+FB00>er, and a
+middle school is at 1000 m (Shenzhen Planning and Land Resource Committee, 2017). With the planning guidelines, the “attending
+nearby school” policy restricts primary school admission to children living within a de<U+FB01>ned catchment neighborhoods based on
+parental hukou (household registration) and housing ownership (Feng and Lu, 2013), which ensures that children in mainland China
+live within walking distance of an a<U+FB03>liated primary school. Fig. 1 illustrates an example of the catchment neighborhoods for a
+primary school in Shenzhen, China. Education resource planning in China is strikingly di<U+FB00>erent from many Western countries, where
+parents can often choose which schools their children attend, with often only families with limited resources (e.g., fewer cars)
+sending their children to the local school (Bostock, 2001; Goodman et al., 2012). However, there is limited research assessing the
+proportion of children in China who live within walking distance to school who actively commute.
+    Previous studies have attempted to promote physical activity of children by focusing on time at school or leisure time activities. Research has
+
+                                                                        252
+
+G. Sun et al.                                                                                            Journal of Transport & Health 8 (2018) 251–261
+
+
+shown built environment correlates with physical activity of children. However, links between the built environment and ACS has received less
+attention (D’Haese et al., 2015b; van Goeverden and de Boer, 2013). A few environmental factors associated with ACS have been examined such
+as: distance; connectivity of streets; tra<U+FB03>c calming on streets; path infrastructure; aesthetic qualities; intersection density; safety; and land use
+mix (Curtis et al., 2015; Ewing et al., 2004; Larouche et al., 2015; Larsen et al., 2009; Panter et al., 2008; Pont et al., 2009; Wong et al., 2011).
+Apart from a consistent negative association between distance, <U+FB01>ndings of the built environment indicators associated with children's ACS were
+inconsistent and nuanced (Wong et al., 2011). For example, the relationship between street connectivity and ACS has been positive in some
+studies and negative in others (Carlson et al., 2014; Panter et al., 2010). Some studies reported null association between land use mix and ACS
+(Ewing et al., 2004; Panter et al., 2010), others reported positive relationship (McMillan, 2005; Rosenberg et al., 2009). The inconsistencies
+potentially hinder designing e<U+FB00>ective interventions to promote ACS.
+    Some researchers suggested that objective built environment elements in<U+FB02>uence ACS of children. While the inconsistent use of spatial
+concepts, including bu<U+FB00>er size, objective measures, and quality of pedestrian network datasets, limits the ability to draw conclusions (Pont et al.,
+2009; Wong et al., 2011). Other studies found that parental perceptions are more in<U+FB02>uential (Fyhri and Hjorthol, 2009; Mackett, 2013), which
+have focused predominantly on distance from home to school and safety. Fewer studies have been conducted on children's own experiences of
+the walking environment to school (Fusco et al., 2012). Evenson identi<U+FB01>ed positive associations between knowledge of the number of desti-
+nations in the neighborhood and ACS of girls (Ortega et al., 2006). In another study of Australian girls, no association was found between having
+convenience stores near the home and walking for transport during the week (Carver et al., 2005).
+    Most of the previous ACS studies were conducted in urban areas of the USA, Canada, Australia and Western Europe. In China, less
+is known about the role of physical and perceived built environments on children's ACS. Though some commonalities may exist across
+countries, reviews of the literature suggest that how the environment impacts ACS is not universal (Van Kann et al., 2015). USA,
+Canada, Australia and Western Europe have di<U+FB00>erent urban layouts and walking culture, and most importantly di<U+FB00>erent education
+planning system, compared to China. Studies in Australia indicated that children residing in denser and urban areas are signi<U+FB01>cantly
+associated with more ACS (Curtis et al., 2015). There is a lack of research in urban areas in China, which have much greater density
+than their western counterparts (Sun et al., 2017a).
+    Understanding of the local context through examining both objective and perceived built environment characteristics is essential for
+identifying e<U+FB00>ective intervention strategies to promote ACS (Larouche et al., 2015; Rojas Lopez and Wong, 2017). The investigation of built
+environmental correlates of ACS in a developing country such as China is urgently needed to reverse the rapid trend towards inactivity (Lu
+et al., 2017). The purpose of this paper is to examine this relationship by looking at a range of objective and subjective factors that may
+impact children's multiple aspects of ACS in China, taking into consideration China's “attending nearby school” education system.
+
+2. Methods
+
+2.1. Study areas and populations
+
+    Four primary schools located in di<U+FB00>erent city districts of Shenzhen, a megacity with a population of over 10 million in the south of mainland
+China, were systematically selected for this study. The selection of the schools is based on the criterions of geographic locations of the school
+(city center or fringe), density, greenery diversity, and representative of the built environment. Types of the catchment neighborhoods of each
+school include open and gated communities. The open communities are self-built urban villages and other public housing neighborhoods. The
+gated communities are built for residents from a range of socio-economic backgrounds, which in China are di<U+FB00>erent from in Western countries
+where gated communities are often walled-o<U+FB00> enclaves of houses where more a<U+FB04>uent people live (Sun et al., 2017b).
+    The four primary schools comprise of 28 catchment neighborhoods in total. The students are mostly from those neighborhoods
+according to the “attending nearby school” policy. Study participants were recruited from the school sites instead of neighborhoods.
+Two recruiting methods were applied: i) subjects were intercepted arriving at and leaving school; and ii) in classroom surveys. All
+surveys are interviewer administered. Four trained interviewers administrated the questionnaire, and explained the items if children
+had questions. Data were collected from October to November 2015. All participants and their parents provided informed consent.
+The Ethics Committee of Peking University approved this study.
+
+2.2. Active commuting behaviors
+
+    Active commuting behaviors were collected using four measures. Self-reported travel mode was assessed, with response options of
+walking, bicycling, automobile, public transit, and other. Self-reported daily travel time to and from school was assessed, with
+answers categorized as less than 5 min, 5–10 min, 10–15 min, and greater than 15 min. We asked subjects if they had di<U+FB00>erent routes
+to and from school, with response options being exactly the same, totally di<U+FB00>erent, and partially di<U+FB00>erent. Commuting patterns were
+categorized into binary data as active (walking or bicycling) vs. non-active (automobile, transit, other). Travel time was categorized
+as less than 10 min vs. 10 min or more. Route choices were categorized as same vs. di<U+FB00>erent.
+    Age, gender and companionship were collected as covariates. The commuting companionship was measured by an item with
+options of: alone, classmates or friends, parents, and grandparents or nannies.
+
+2.3. Neighborhood-level environmental measures
+
+   We measured <U+FB01>ve neighborhood-level built environmental characteristics: i) pedestrian network distance from the neighborhood
+geographic center to the school gate; ii) density of neighborhood entrances, de<U+FB01>ned as the number of entrances in every 1000 m of
+
+                                                                        253
+
+G. Sun et al.                                                                                            Journal of Transport & Health 8 (2018) 251–261
+
+
+neighborhood boundaries. The entrance is where people/children can enter into the neighborhoods. It could be road intersections at
+the boundary of an open community. It could also be the gates of a gated community. iii) sidewalk ratio along motorized roads; iv)
+ratio of tra<U+FB03>c calming roads, de<U+FB01>ned as roads jointly used by pedestrians and cars equipped with tra<U+FB03>c calming techniques (Melia,
+2012); v) permeable pedestrian network ratio, de<U+FB01>ned as the number of small alleys and informal paths that are routes not o<U+FB03>cial or
+legally sanctioned but frequently used by local residents and children.
+    These measures were calculated using a detailed pedestrian network we constructed using high resolution aerial photographs,
+street views, and <U+FB01>eld visits with GPS ground truthing techniques, to avoid the missing pedestrian network issue of urban road
+networks that has previously been shown to confound built environment and active travel studies (Chin et al., 2008; Iacono et al.,
+2010; Sun et al., 2015; Tal and Handy, 2012). We identi<U+FB01>ed gate access points – locations that allow a pedestrian free access to the
+school catchment neighborhood – by <U+FB01>eld observation, as enclosure of gated communities has been reported but does not appear in
+o<U+FB03>cial records (Webster et al., 2017). All measures were calculated using geographic information systems (ArcGIS 10.3.1, Esri, USA).
+
+2.4. Perceived environmental measures
+
+    Perceptions of the route environments were assessed using a 24-item questionnaire. The questionnaire was based on a review of studies
+assessing the relationship between environmental attributes and ACS behaviors. We adapted items from the validated Neighborhood
+Environmental Walkability Scale for Youth (Rosenberg et al., 2009). This questionnaire was used for 11- to 12-year old children in a previous
+study in Taiwan, who share the same culture and language with our study samples (Sheu-jen et al., 2010). It also has been applied in children
+in Belgium (D’Haese et al., 2015a). We adjusted items for di<U+FB00>erences from Western countries to better re<U+FB02>ect China's physical environment
+(Day, 2016; Day et al., 2013; Sun et al., 2017a). We conducted pilot validation using three waves of focus group studies on 21 children. The
+researchers discussed with respondents what they believed the questions were asking, if there were any vocabularies they did not understand.
+The questionnaire was revised until no ambiguities remained. Items, using a four-point Likert-scale ranging from the most negative to the
+most positive result for that situation, were constructed by semantic di<U+FB00>erential principles.
+    Principal component analysis using varimax rotation was applied to identify the groups of related environmental attributes. Five
+factors, accounting for 52% of the variance, were identi<U+FB01>ed from the analysis. Six items were excluded from further analysis because
+they cross-loaded across several of the factors or did not <U+FB01>t with the interpretation of the factors. Loadings ranged from 0.46 to 0.76
+across the <U+FB01>ve factors. Five dimensional factors were obtained for the perceived environment characteristics: permeability, route
+across public open space, route across points of interest (e.g., stationers, snack shops), route aesthetics, and safety. Appendix A is a
+full list of study items, factor groupings, and response options.
+    Items in each factor were summed to provide a total score for each category of perceived environmental attribute. These summed scores
+were then divided by the number of items in each category. This facilitates comparisons across the categories, with all having a <U+FB01>nal score out of
+four. The scores of permeability, route across public open space, route across points of interest, route aesthetics and safety were transformed into
+categorical variables with three levels: low (a less positive perception of the environment); moderate; or high (a highly positive perception of the
+environment). The cut-o<U+FB00> points used for these levels were those that most closely approximated the tertiles of the distributions.
+
+2.5. Statistical analysis: Multilevel modeling
+
+   Multilevel binary logistic regression models were used to examine the associations of the neighborhood-level environmental
+characteristics and individual-level perceived environmental factors with the four ACS behaviors. All models were adjusted for age,
+gender and companionship. We standardized the neighborhood-level variables. All analyses were conducted in R (Version 3.4.2).
+
+3. Results
+
+3.1. Descriptive analysis
+
+    The distribution of school commuting mode, travel times, and route di<U+FB00>erences to and from school are shown in Table 1. A
+neighborhood group-based descriptive analysis of the neighborhood-level environmental measures, the individual-level perceived
+factors, and covariates are shown in Appendix B.
+    The average network distance for the 28 neighborhoods was 575 m from the geographic centre of catchment neighborhood to
+school [SD = 267; min = 206 m, max = 1303 m]. Descriptive statistics of the neighborhood-level variables include: ‘density of
+entrances of the neighborhood’ [mean = 4.1, SD = 3.4], ‘ratio of sidewalk along motorized road’ [mean = 0.7, SD = 0.3], ‘ratio of
+tra<U+FB03>c calming road’ [mean = 0.5, SD = 0.3], and ‘ratio of permeable pedestrian network’ [mean = 0.2, SD = 0.3].
+    We recruited 1,090 children, of which 805 (74%) lived within the school catchment neighborhoods and were included in data
+analyses. Participants were 48% female, with a mean age of 11 years (SD = 1.2, range 9–14), with most children between the ages of
+10 to 12 years (78%). Thirty-nine percent used di<U+FB00>erent routes for commuting to and from school. Thirty-eight percent of participants
+commuted to school alone, 49% commuted with classmates, and 13% commuted with parents or grandparents.
+    There were stark di<U+FB00>erences in commuting patterns between children who lived within and outside of school catchment
+neighborhoods. For children living within school catchment neighborhoods (N = 765, after deleting missing values), the majority
+(87%) walked or cycled to school, while few (6%) arrived to school by their parents’ cars. For children living outside of school
+catchment neighborhoods (N = 285), 22.4% walked or cycled to school with 23% arriving by car. Fifty-one percent of children
+commuted to school by bus or metro.
+
+                                                                        254
+
+G. Sun et al.                                                                                               Journal of Transport & Health 8 (2018) 251–261
+
+
+                                 Table 1
+                                 Descriptive statistics of school commuting behaviors (N=764, after deleting missing
+                                 values).
+
+                                                                                                         Percent
+
+                                   Commuting mode
+                                   Walking                                                               82.8
+                                   Cycling                                                               3.8
+                                   Automobile                                                            6.3
+                                   Transit                                                               3.9
+                                   Others                                                                3.3
+                                   Travel time from home to school (H2S)
+                                   Less than 5 min                                                       26.8
+                                   6–10 min                                                              40.2
+                                   11–15 min                                                             21.7
+                                   Greater than 15 min                                                   11.4
+                                   Travel time from school to home (S2H)
+                                   Less than 5 min                                                       22.9
+                                   6–10 min                                                              36.6
+                                   11–15 min                                                             24.4
+                                   Greater than 15 min                                                   16.2
+                                   Route di<U+FB00>erence between H2S and S2H
+                                   Same                                                                  61.5
+                                   Di<U+FB00>erent                                                              38.5
+
+
+
+3.2. Multilevel models
+
+   Intra-class correlation (ICC1) is used to assess the reliability of individual data aggregated at neighborhood group level in the
+hierarchical models. Table 2 shows the multilevel binary logistic regression modeling of the built environment correlates of ACS
+behaviors of children living in Shenzhen, China.
+
+3.2.1. Active commuting
+    Neighborhood di<U+FB00>erences accounted for 17% of the variance in explaining school commute mode choice. Distance to school was in-
+versely associated with active mode choice [OR = 0.33, CI = 0.20–0.56]. Neighborhoods with greater density of entrances were associated
+with a greater likelihood of active mode choice [OR = 3.13, CI = 1.21–8.11]. Several perceived characteristics of the built environment
+were associated with active commuting. A moderate number of points of interest along the commuting route predicted active commuting to
+school [OR = 5.64, CI = 2.79–11.38]. A greater route aesthetics was also associated with a greater likelihood for active travel. Perceived
+safety was signi<U+FB01>cantly correlated with active commuting. Having a high degree of perceived open space along the route was negatively
+associated with active commuting [OR = 0.32, CI = 0.15–0.69]. Female students were less likely to actively commute to school.
+    The companionship in<U+FB02>uenced the active mode choice. Compared with students who traveled alone, those who traveled with parents
+[OR = 0.03, CI = 0.01–0.09] or with grandparents/nannies [OR = 0.12, CI = 0.03–0.48] were less likely to actively commute.
+
+3.2.2. Travel time
+    Neighborhood di<U+FB00>erences accounted for 5–6% of the variance in predicted travel times to and from school. A longer distance
+predicted a longer commuting time. A denser permeable pedestrian network did not reduce travel time to and from school. Ratio of
+tra<U+FB03>c calming road was positively related to travel time from home to school [OR = 1.43, CI = 1.06–1.91]. Females had shorter
+travel times from school to home [OR = 0.70, CI = 0.51–0.98].
+
+3.2.3. Route di<U+FB00>erence between to and from school
+    Neighborhood di<U+FB00>erences accounted for 4% of the variance in predicted route di<U+FB00>erences. Having a high degree of perceived
+permeability was negatively associated with using di<U+FB00>erent routes for commuting between to and from school [OR = 0.55, CI =
+0.34–0.89]. A moderate number of perceived points of interest along the commuting route positively associated with di<U+FB00>erent route
+choices [OR = 1.60, CI = 1.14–2.25]. The safety is related to whether children want to explore the environment by di<U+FB00>erent routes.
+A high degree of perceived safety was associated with a high likelihood of using di<U+FB00>erent routes to and from school [OR = 1.55, CI =
+1.06–2.28]. Compared to independent commuters, children traveling with classmates and friends [OR = 0.57, CI = 0.41–0.81] or
+parents [OR = 0.55, CI = 0.21–0.99] were less likely to use di<U+FB00>erent routes to and from school.
+    In summary, distance was shown to be consistently negatively associated with active commuting to school and with longer travel
+times to and from school. A higher ratio of permeable pedestrian network did not yield a shorter travel time, and perceived high
+permeability was unlikely to encourage children to use di<U+FB00>erent routes to and from school. Perceived routes aesthetics greatly
+impacted active commuting, having the largest odds ratio for predicting active commuting in the model. A higher degree of perceived
+safety encouraged students to use active modes of travel. Perceived safety also can encourage students to choose di<U+FB00>erent routes to
+and from school to explore the environment. Independent travelers were more likely to be active commuters and choose di<U+FB00>erent
+routes to and from school, compared to those travelling with companions.
+
+                                                                        255
+
+G. Sun et al.                                                                                                       Journal of Transport & Health 8 (2018) 251–261
+
+
+Table 2
+Environmental correlates of active commuting to school behaviors for children living in Shenzhen, China (N = 764).
+
+                                      Active commuting mode               Travel time from home to   Travel time from school to     Route di<U+FB00>erence between
+                                      choice                              school(H2S)                home (S2H)                     H2S and S2H
+                                      OR (CI)                             OR (CI)                    OR (CI)                        OR (CI)
+
+  Neighbourhood Level
+                                                           ***                                 ***                        ***
+  Distance to school                  0.33 (0.20–0.56)                    2.65 (2.00–3.50)           2.38 (1.80–3.16)               0.99 (0.76–1.28)
+                                                           *
+  Density of entrances of the         3.13 (1.21–8.11)                    0.72 (0.46–1.12)           0.77 (0.50–1.19)               0.70 (0.48–1.04)
+      neighborhood
+  Ratio of sidewalk along motorized   0.79 (0.47–1.32)                    1.03 (0.79–1.33)           1.01 (0.78–1.32)               1.05 (0.83–1.34)
+      road
+                                                                                               *
+  Ratio of tra<U+FB03>c calming road         0.77 (0.45–1.33)                    1.43 (1.06–1.91)           1.33 (0.99–1.79)               1.11 (0.84–1.46)
+                                                                                               *                          *
+  Ratio of permeable pedestrian       0.50 (0.20–1.23)                    1.68 (1.07–2.63)           1.59 (1.01–2.49)               1.19 (0.80–1.78)
+      network
+  Individual level
+  Permeability
+  Low                                 1.00                                1.00                       1.00                           1.00
+  Moderate                            0.74 (0.36–1.49)                    1.08 (0.73–1.58)           0.80 (0.55–1.14)               0.72 (0.51–1.03)
+                                                                                                                                                         *
+  High                                1.12 (0.39–3.20)                    1.04 (0.62–1.75)           0.63 (0.38–1.05)               0.55 (0.34–0.89)
+  Route across open space
+  Low                                 1.00                                1.00                       1.00                           1.00
+  Moderate                            0.63 (0.28–1.42)                    0.92 (0.59–1.44)           0.90 (0.59–1.37)               0.79 (0.53–1.19)
+                                                           **
+  High                                0.32 (0.15–0.69)                    0.92 (0.60–1.40)           0.89 (0.60–1.33)               0.71 (0.48–1.04)
+  Route across points of interest
+  Low                                 1.00                                1.00                       1.00                           1.00
+                                                               ***                                                                                       **
+  Moderate                            5.64 (2.79–11.38)                   1.01 (0.70–1.46)           0.99 (0.70–1.41)               1.60 (1.14–2.25)
+  High                                0.08 (0.00–1.84)                    3.09 (0.45–21.10)          1.53 (0.27–8.79)               0.69 (0.11–4.23)
+  Route aesthetics
+  Low                                 1.00                                1.00                       1.00                           1.00
+  Moderate                            6.14 (3.00–12.55) ***               1.31 (0.89–1.92)           1.15 (0.80–1.65)               1.24 (0.87–1.76)
+                                                                     **
+  High                                633.03 (9.46–42370.52)              0.36 (0.05–2.51)           0.61 (0.10–3.53)               6.18 (0.83–46.06)
+  Safety
+  Low                                 1.00                                1.00                       1.00                           1.00
+                                                               ***
+  Moderate                            4.54 (2.00–10.31)                   1.33 (0.87–2.01)           0.90 (0.61–1.35)               1.14 (0.78–1.67)
+                                                               ***                                                                                       *
+  High                                4.83 (2.05–11.38)                   0.84 (0.55–1.28)           0.73 (0.49–1.09)               1.55 (1.06–2.28)
+  Companionship
+  Travel alone                        1.00                                1.00                       1.00                           1.00
+                                                                                                                                                         **
+  With classmates or friends          0.91   (0.43–1.92)                  1.31   (0.90–1.90)         1.20   (0.85–1.71)             0.57   (0.41–0.81)
+                                                           ***                                                                                           *
+  With parents                        0.03   (0.01–0.09)                  1.07   (0.56–2.07)         0.89   (0.48–1.65)             0.55   (0.31–0.99)
+                                                           **
+  With grandparents or nannies        0.12   (0.03–0.48)                  1.43   (0.59–3.46)         1.07   (0.46–2.50)             1.16   (0.49–2.74)
+                                                           *                                                              *
+  Female                              0.51   (0.27–0.98)                  0.81   (0.57–1.15)         0.70   (0.51–0.98)             1.01   (0.74–1.39)
+  Age                                 1.21   (0.93–1.57)                  0.96   (0.83–1.11)         0.97   (0.84–1.12)             0.91   (0.80–1.04)
+  Random parts
+  N: Neighbourhood                    28                                  28                         28                             28
+  ICC1: Neighbourhood                 0.171                               0.05                       0.056                          0.043
+  Observations                        764                                 764                        764                            764
+  AIC                                 348.797                             883.09                     958.546                        1007.246
+
+Notes: OR= Odd Ratio; CI= the 95% con<U+FB01>dence interval;
+  * p < 0.05.
+  ** p < 0.01.
+  *** p < 0.001.
+
+
+4. Discussion
+
+   Living within walking distance from school is a government-led planning policy initiative for school-age children in mainland
+China. In this study, we investigated the school commuting pattern of children living in Shenzhen, and examined the perceived built
+environmental characteristics associated with active commuting behaviors. We found objective built environment characteristics at
+the neighborhood level and perceived built environment attributes at the individual level are associated with active commuting to
+school in children who living within walking-distance neighborhoods. This study highlights the importance of considering the local
+context of school catchment planning in understanding ACS in mainland China.
+   We found that nearly three quarters of children live within a half a kilometre from school, indicating that the “attending nearby
+school” policy has resulted in most students living within walking distance to school. The vast majority (87%) of children who lived
+within walking distance to school actively commuted to school (either by foot or bicycle), and only 6% arrived by car. On the
+contrary, the ratio of walking and cycling was considerably lower (22%) among children who lived outside the school catchment
+neighborhoods, while the ratio of children arriving by car was greater (23%). Previous studies have found ACS rates of 50–55% in
+Canada (Buliung et al., 2009), and 48% in the United States among children who live within walking distance to school (Martin et al.,
+2007; Salmon et al., 2007). In a study of Australian children, even when using a broad de<U+FB01>nition of active commuting to include any
+
+
+                                                                                   256
+
+G. Sun et al.                                                                                       Journal of Transport & Health 8 (2018) 251–261
+
+
+leg of a trip to or from school that includes walking or cycling, only one third of children were found to be active commuters (Merom
+et al., 2006). It is reasonable to infer that the high ACS rate in our study suggests the ‘attending nearby school’ policy has been
+successful at promoting active commuting, and that the local context of school catchment planning is leading to very di<U+FB00>erent
+commuting patterns than observed in many Western communities.
+    Perceived built environment characteristics were associated with active commuting to school. Interestingly, routes that were
+perceived to be more aesthetically pleasing were positively associated with active commuting modes, and having the most impact on
+active mode choice among environmental factors. This <U+FB01>nding is di<U+FB00>erent from a literature review <U+FB01>nding that environment aes-
+thetics were unimportant in children's decisions surrounding commuting to school (D’Haese et al., 2015b). This di<U+FB00>erence might be
+due to Shenzhen city context, with its subtropical climate and dominant concrete high-rises, o<U+FB00>ering a recognizable building
+landscape with a tree canopy that provides shade that might greatly encourage ACS.
+    Routes across open spaces were inversely associated with active travel modes. Previous studies that have examined the relationship
+between open spaces and ACS have found mixed results. Parks and recreation facilities were not found to be associated with observed
+walking, but were associated with increased reported walking (Kerr et al., 2007; Rothman et al., 2014b; Zhu et al., 2011). The neighborhoods
+represented in this study include several gated communities. In China, contemporary gated communities are usually large in size, involving
+hundreds of acres and thousands of residents. The built forms within these communities tend to be high-rise arrangements with much of the
+ground area devoted to open space (Miao, 2003), but spatially segregated from the surrounding areas. In contrast, open communities in
+China have better pedestrian accessibility but lack open spaces. The perception of the presence of open spaces might therefore be a less
+important factor than the spatial segregation of the gated communities in determining children's school commuting behaviors. This may also
+be partially con<U+FB01>rmed by the <U+FB01>ndings that at a higher density of neighbourhood entrances – indicating a lesser spatial segregation of the
+community – was positively associated with the activity commuting.
+    Safety was another concern identi<U+FB01>ed in this study. We found that children who reported higher perceived safety were more likely
+to use alternate routes to and from school. This suggests that perceived safety of the environment may encourage children to actively
+explore their environment. General safety and tra<U+FB03>c safety have been found to be associated with ACS in North America and
+Australia but not in Europe (D’Haese et al., 2015b). This might be due in part to the increased dangers of walking and cycling to
+school in the US and Australia, due to substantial urban sprawl (Pucher and Dijkstra, 2000; Rothman et al., 2015, 2014a).
+    We found that neighborhood level built environment characteristics were associated with ACS. Distance was consistently in-
+versely correlated with ACS. Having more neighborhood entrances was associated with active mode choice. However, a higher ratio
+of permeable routes did not appear to translate into shorter travel times for school commuting. Permeable routes are more prevalent
+in open communities than gated communities. In both focus group and survey discussions, children reported the lack of light in
+permeable routes as a deterrent to using those routes. Furthermore, there are many e-bikes using these narrow routes which was also
+cited as a tra<U+FB03>c safety concern (potential collisions).
+    Using multilevel models, we found that neighborhood di<U+FB00>erences explained di<U+FB00>erences in active commuting behaviors.
+Speci<U+FB01>cally, neighborhood level built environment characteristic accounted for variations in ACS. These important <U+FB01>ndings, in this
+study involving a simultaneous analysis of neighborhoods and children provide support for the notion that the built environment
+should be taken into consideration when planning and promoting active commuting to school policies in China.
+
+4.1. Implications
+
+    This study revealed that various physical and perceived built environment characteristics e<U+FB00>ect active commuting to school in
+China. These <U+FB01>ndings could assist urban/transport planners, public health practitioners and school planners to improve ACS in China.
+    Aesthetic and safety features in the school neighborhood environment were correlated with ACS among children. Increasing ratio of
+permeable routes alone might be not able to promote children's ACS. More attentions are needed to improve the quality of the routes. Urban
+designer could enhance lighting in and around such street to improve the use of permeable routes. In addition, we found route aesthetics can
+encourage children's ACS. Practitioners can intervene aesthetics by increasing street greenery and tree shading. The attractiveness of the
+routes will get enhanced by tree shading, especially in the subtropical Shenzhen city where the weather is hot.
+    Permeable routes may also limit car tra<U+FB03>c and increase safety. In our study areas, however, many e-bikes were observed on
+permeable streets, increasing the collision risk for children. Tra<U+FB03>c safety such as tra<U+FB03>c volume and speed have also been identi<U+FB01>ed
+as factor that in<U+FB02>uences school travel mode decisions. Designers can employ tra<U+FB03>c calming measures including, using devices (e.g.,
+piles, speed bumps) to restrict e-bikes activity in permeable alleys, lower speeds in motorized roads by curving the street, and pushing
+tra<U+FB03>c out of collector routes in school catchment areas (Brown et al., 2017). Streets and permeable routes may then o<U+FB00>er greater
+opportunities for both active transport and leisure-time physical activity of children.
+    We found that children who are active commuters tended to explore spaces when they traveled independently. Studies on independent
+mobility suggested that children who have the freedom to play outdoors and travel actively without adult supervision accumulate more physical
+activity than those who do not (Schoeppe et al., 2013). One example of a policy proposal could be for school planners in China to recommend
+that children actively commute to school for one week of every semester, and use di<U+FB00>erent routes during ACS to explore the environment of
+their neighborhoods. This ACS week activity should ideally be done by children independently, without companionship of parents, provided the
+children are age appropriate, and chaperoned by an adult (parents or teachers) at major road intersections.
+
+4.2. Limitations and strengths
+
+    This study has several limitations. The study was restricted to a single geographical area, the city of Shenzhen, a subtropical
+
+                                                                    257
+
+G. Sun et al.                                                                                  Journal of Transport & Health 8 (2018) 251–261
+
+
+megacity in China with a high population density, and these results may only be generalizable to similar city contexts. The cross-
+sectional study design makes it impossible to draw conclusions about causal relationships of the “attending nearby school” policy and
+ACS patterns. Nevertheless, the strikingly di<U+FB00>erence in ACS patterns between children who live within and outside of school
+catchment neighborhoods suggests that there may be a signi<U+FB01>cant impact of the policy on active travel in China. Our active com-
+muting behaviors are based on self-report which may be subject to recall bias and may not capture all domains of this activity. We
+aimed to assess similar themes of the perceived individual level and objective neighborhood level measures of the built environment,
+however our measures do not match perfectly (Lin and Moudon, 2010). Detailed streets audits (Cerin et al., 2011; Sun et al., 2017a)
+might help relate perceived measures to their objective counterparts and help optimize the use of these <U+FB01>ndings in formulating
+planning recommendations.
+    This study has several strengths, including sample size, novelty, and the use of multilevel statistical methods. The study's large
+sample allows for a representative description of children's perceptions on route preferences and the perceived import of built
+environment attributes. We provide, to our knowledge, the <U+FB01>rst description of children's commuting behaviors under the unique
+school catchment planning system in mainland China. This information is especially important as there are currently few such studies
+in Asia. We used multilevel modelling to control for neighborhood level environmental characteristics as a way to better understand
+Chinese children's perceptions of their built environment and their school commuting behaviors.
+
+5. Conclusion
+
+    Living within a designated school catchment neighborhood in mainland China was associated with active commuting to school.
+This study reports on the active commuting patterns of children in China and o<U+FB00>ers an important addition to the literature, providing
+the Chinese context for school commuting patterns, which represents an important juxtaposition to Western studies. In Asia, none of
+the physical environment attributes previously studied in the international literature have been su<U+FB03>ciently investigated to draw
+conclusions with regards to active commuting to school (D’Haese et al., 2015b). Our <U+FB01>ndings may support urban planners and health
+practitioners to intervene the built environment to promote ACS for children living in Shenzhen and other similar cities.
+
+Acknowledgements
+
+    This research is supported by NSFC 41471119. Guibo Sun is supported by NSFC 41561035 and HKU 35th round of the PDF/RAP
+Fellowship. The authors gratefully acknowledge the editor and reviewers whose comments helped improve and clarify the manu-
+script substantially.
+
+Appendix A. Perceived environmental attributes measured in the study, factor groupings, and response options
+
+ 1.   Your commuting route includes short cut.
+ 2.   You have multiple commuting route choices thus do not have to use same route.
+ 3.   You can avoid large arterials.
+ 4.   The distance is usually short between road intersections.
+ 5.   You can use alleys which don’t not along the commuting route.
+ 6.   Your commuting route is across playgrounds.
+ 7.   Your commuting route is across open space with excises facilities.
+ 8.   Your commuting route is across small greenery.
+ 9.   Your commuting route is across large greenery.
+10.   Your commuting routes is across stationers.
+11.   Your commuting route is across snack shops or convenient stores.
+12.   Your commuting route has tree shading.
+13.   Your commuting route has beautiful urban landscape.
+14.   Your commuting route have many tra<U+FB03>c noise.
+15.   The cars usually drive very fast along your commuting route.
+16.   There are many unfriendly strangers along your commuting routes.
+17.   Your commuting route has fresh airs.
+18.   Your commuting route has bird songs.
+
+   Note: Factor groupings—Permeability 1,2,3,4,5; Cross public open space 6,7,8,9; Cross stationers and stores 10, 11; Commuting
+route Aesthetics 12, 13, 17,18; Safety 14,15,16.
+   * Items in safety dimension is reversed coding.
+   Reponses options- each item is measured in four-level Likert scale: strongly disagree, disagree, agree, strongly agree.
+
+
+
+
+                                                                 258
 

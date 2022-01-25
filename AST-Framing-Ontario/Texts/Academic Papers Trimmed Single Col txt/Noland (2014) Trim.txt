@@ -1,654 +1,813 @@
-<U+F774><U+F768><U+F765> <U+F76A><U+F76F><U+F775><U+F772><U+F76E><U+F761><U+F76C> <U+F76F><U+F766> <U+F774><U+F772><U+F761><U+F76E><U+F773><U+F770><U+F76F><U+F772><U+F774> <U+F761><U+F76E><U+F764> <U+F76C><U+F761><U+F76E><U+F764> <U+F775><U+F773><U+F765> http://jtlu.org
-<U+F776><U+F76F><U+F76C>. 7 <U+F76E><U+F76F>. 2 [2014] pp. 111–133 http://dx.doi.org/10.5198/jtlu.v7i2.444
-A mode choice analysis of school trips in New Jersey
-Robert B. Noland                Hyunsoo Park                      Leigh Ann Von Hagen                  Daniel G. Chatman
-                          a
-Rutgers University              Rutgers University                Rutgers University                   University of California, Berkeley
-Abstract: This paper examines the mode choice behavior of children’s travel to school based on surveys conducted at a sample of schools in
-New Jersey. The main focus is on a variety of network design, land use, and infrastructure variables that have typically been associated with
-walking activity. Using a mixed logit model, it is found that good connectivity, more intense residential land use, and better sidewalk infra-
-structure are associated with increased walking to school. The use of a mixed logit model allows the examination of individual heterogeneity.
-Results indicate substantial heterogeneity in behavior associated with built environment variables.
-Keywords: Safe routes to school, walking trips, mixed logit
-                 1          Introduction
-                 Over the last few decades, the rate at which children walk to school has dropped precipitously. While in
-                 1969 about 40 percent of school trips in the United States were by walking, in 2001 this had dropped
-                 to about 13 percent (McDonald 2008, 23-35). Similar reductions in walking to school have been
-                 found in other countries (Sirard and Slater 2008, 372). Based on an analysis of the 2001 US National
-                 Household Transportation Survey, about half of all students are now driven to school by their parents,
-                 even for short distances of under a mile (McDonald 2007, 509–516). Policymakers have recognized
-                 that walking to school can account for a significant portion of the physical activity that children engage
-                 in over the course of a day and that reduced walking to school may be a cause of high obesity levels in
-                 children (McMillan 2005, 440–456). Early travel activity may also be linked to habit formation, affect-
-                 ing how children make travel decisions as adults (McMillan 2005, 440–456), with consequent impacts
-                 on the environment. For these reasons, among others, policymakers set a goal of increasing walking
-                 trips to school, and in 2005 the reauthorization of federal transportation legislation in the US created
-                 the Safe Routes to School program to fund programs run by state transportation departments.
-                       Research in recent years has identified some of the factors associated with walking. These include
-                 measures of urban form (such as density of development), land use mix, and urban design (such as the
-                 presence of sidewalks) encompassing elements of density, diversity, and design as elucidated by Cervero
-                 and Kockelman (1997, 199–219). Recent work has analyzed these factors specifically for school trips.
-                 In general, distance or travel time is found to be a critical determinant (McDonald 2008, 23–35; Ew-
-                 ing and Cervero 2001, 87–114; Ewing, Schroeer, and Greene 2004, 55–63; Schlossberg et al. 2006,
-                 337–346; Sidhartan et al. 2011, 78–86; Mitra 2012, 1–23), and this is partly due to newer schools
-                 being built at greater distances from where students live. Schools are also built on roads that may not
-                 be amenable to walking, and studies have found that measures to represent walkability also affect the
-a
-  rnoland@rutgers.edu
-Copyright 2014 rnoland@rutgers.edu
-Licensed under the Creative Commons Attribution – NonCommercial License 3.0.
-                                                              This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                      All use subject to https://about.jstor.org/terms
+<U+F774><U+F768><U+F765> <U+F76A><U+F76F><U+F775><U+F772><U+F76E><U+F761><U+F76C> <U+F76F><U+F766> <U+F774><U+F772><U+F761><U+F76E><U+F773><U+F770><U+F76F><U+F772><U+F774> <U+F761><U+F76E><U+F764> <U+F76C><U+F761><U+F76E><U+F764> <U+F775><U+F773><U+F765> http://jtlu.org
+<U+F776><U+F76F><U+F76C>. 7 <U+F76E><U+F76F>. 2 [2014] pp. 111–133 http://dx.doi.org/10.5198/jtlu.v7i2.444
 
-112                                                                                        JOURNAL OF TRANSPORT AND LAND USE 7.2
-    propensity to walk to school (Ewing and Cervero 2001, 87–114; Ewing, Schroeer, and Greene 2004,
-    55–63; Schlossberg et al. 2006, 337–346; McMillan 2007, 69–79; Boarnet et al. 2005, 134–140). An
-    analysis of school trips in Toronto, however, found that a walkable built environment around the home
-    had a larger effect than a walkable environment immediately around the school (Mitra, Buliung, and
-    Roorda 2010, 150–159). A recent review documents studies that show both positive and negative cor-
-    relations of network features (Mitra 2012, 1–23). A study of school travel in Taiwan specified a nested
-    logit model; this model examined whether children traveled independently or were escorted to school
-    (Lin and Chang 2010, 867). Results were broadly similar to other studies in terms of factors that lead to
-    more walking trips or those that discourage walking. Studies have also found that parental concerns, and
-    travel patterns such as driving to work, can influence the decision to drive children to school (McDonald
-    2008, 324–331; Kerr et al. 2006, 787–794).
-          A stream of research in urban design has sought to devise indexes for characterizing the beneficial
-    features associated with walking (Frank et al. 2006, 75–87; Frank et al. 2005, 117–125; Frank et al.
-    2010, 924–933; Saelens and Sallis 2007, 387–395; Manaugh and El-Geneidy 2011, 309–315). Alter-
-    natively, design variables that are correlated can also be combined via a principal components analysis
-    (Pinjari et al. 2008, 17–26). Manaugh and El-Geneidy (2011, 309–315) also examined school trips
-    and found that associations with walking were stronger when walkability indexes were composed of
-    network variables rather than those with land use and commercial activities. This latter study points to
-    the difficulties associated with using indexes; namely, it is not possible to separate out the specific built
-    environment feature that most influences walking. Of course, any model that includes highly correlated
-    measures makes inference impossible; thus, the approach we take here is to estimate separate models to
-    isolate specific features associated with walking to school.
-          Most research on the relationship between urban form and travel to school does not address the
-    taste heterogeneity of decision makers. For example, even if the walking environment is highly con-
-    ducive to children walking to school, individual preferences (of parents) might lead to some children
-    not walking to school. Using repeated choices—in our case, daily travel reported over a one-week pe-
-    riod—and mixed logit estimation allows the estimation of both mean parameter estimates and their
-    standard deviation, thus providing information on individual heterogeneity as well as controlling for
-    it, as opposed to maximum likelihood estimates that provide only a mean parameter estimate for the
-    sample. Mixed logit estimation also avoids problems of the independence of irrelevant alternatives of
-    multinomial logit models.
-          Our data is derived from 19 schools in New Jersey that comprise a variety of urban and suburban
-    school districts with a wide variation in ethnicity and income. Urban form and walkability around each
-    school also vary, providing a rich data set for analysis. Student travel data was collected via a parental
-    survey, similar to the work of Schlossberg et al. (2006, 337–346) and McMillan (2007, 69–79). Our
-    objective is to estimate models that control for individual heterogeneity in the choice of mode used
-    for school travel. Our results, based on mixed logit estimations, find associations with socioeconomic
-    variables and with some of the urban form and walkability variables commonly found in other studies,
-    providing additional evidence of the importance of good walking environments for encouraging chil-
-    dren to walk to school.
-    2         Hypotheses
-    We examined several hypotheses concerning the mode chosen for traveling to school. We modeled
-    mode choice in a utility-maximizing framework of a discrete choice model, implying that the agent
-    making the choice is rational and seeks to maximize utility. In fact, children may or may not have much
-                                                  This content downloaded from
-                                130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                          All use subject to https://about.jstor.org/terms
 
-A mode choice analysis of school trips in New Jersey                                                                        113
-               influence over the choice; in most cases decision making is likely joint with, or dominated by, their
-               parents (McMillan 2005, 440–456).
-                     Alfonzo (2005, 808–836) defines a hierarchical framework for how individuals determine whether
-               they will walk to a destination. The first level is determining the feasibility of walking, which can be
-               linked to time constraints and household characteristics that affect time constraints. Second, are acces-
-               sibility factors—basically, the distance of activities and the infrastructure—available for walking? Third
-               are safety considerations, mainly perceptions of crime and danger, which can be influenced by neighbor-
-               hood characteristics. Fourth is how various urban design features, from traffic calming to street furni-
-               ture, make walking more comfortable. Finally, the pleasurability of walking is influenced by aesthetics,
-               diversity of surroundings, public spaces, and activity. It is likely that many of these considerations are
-               correlated and overlap—for example, urban design features affect aesthetics and might make an area
-               seem safer. Time spent walking in a more attractive area may be perceived as less cumbersome.
-                     Considering this framework, the results of other empirical work, and the constraints of our data,
-               hypotheses can be formulated using several key attributes. First, the travel time or distance from home
-               to school likely affects walking more than driving or taking the bus; thus, those who have shorter travel
-               times are more likely to walk. The age of children may also affect their mode choice; older children may
-               be more independent and parents will be less concerned with them walking to school alone. We do not
-               have data on the age of children but instead use their grade level (ranging from pre-kindergarten to 8th
-               grade) and hypothesize that those in higher grades are more likely to walk to school.
-                     We also controlled for parental perceptions of whether walking to school is encouraged by the
-               school. We expect programs that encourage children to walk may result in higher rates of nonmotorized
-               travel; however, this may also be endogenous, as those schools that actively encourage children to walk
-               may also be in an environment where it is more feasible to walk or bicycle.
-                     We also expect household sociodemographic characteristics to affect children’s travel behavior. Eth-
-               nic groups generally reflect socioeconomic characteristics and their living places—urban or suburban.
-               African American or Hispanic children usually live in urban areas, and their household median incomes
-               are lower than those of white or Asian children. Therefore, we hypothesize that African American or
-               Latino children are more likely to walk to school than other ethnic groups. Data on household income
-               was incomplete and was not used in our analysis.
-                     The relative walkability of the environment around the school is a critical factor that others have
-               found to be associated with increased walking (although less so for bicycling) (Sirard and Slater 2008,
-               372; McMillan 2005, 440–456). Many of the variables that make an area more walkable tend to make
-               walking more convenient, pleasant, and safer. We specifically look at land-use patterns, sidewalk con-
-               nectivity and width, traffic speeds, and off-street parking capacity, with the expectation that these will
-               be associated with walking choice. These design variables are the focus of various Safe Route to School
-               infrastructure interventions, so understanding their role is of particular interest. However, we also expect
-               that although these design factors affect mode choice, there is taste variation based on the preferences of
-               parents in how their children travel to school.
-               2.1        Survey development and administration
-               The survey was developed and managed by staff from the New Jersey Safe Routes to School Resource
-               Center. The goal of the survey was to learn how students travel to school and to gain an understanding
-               of any issues or concerns parents have with allowing their child to walk or bicycle to school. Local com-
-               munities selected to receive federal funding from the New Jersey Safe Routes to School (SRTS) program
-               are required to collect data on the modes used for getting to school. Of note for our analysis, the survey
-               was not developed with the express goal of performing a mode choice analysis; thus, the analysis is op-
-               portunistic in taking advantage of a dataset collected for other purposes. Some of the shortcomings of
-                                                              This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                      All use subject to https://about.jstor.org/terms
 
-114                                                                                          JOURNAL OF TRANSPORT AND LAND USE 7.2
-    the data are discussed further below.
-          The survey was based partly on an instrument developed by the National Center for Safe Routes
-    to School,1 as well as a survey developed by the SRTS program in Georgia. In June 2007, the survey
-    was pre-tested with a sample group of parents. The pre-test explored question wording and interpreta-
-    tion, desired outcomes, survey distribution timing and collection methods, possible incentive schemes,
-    noncompliance issues, administration issues, and results reporting.2
-          The participation of schools in the survey was voluntary, as was participation by parents; however,
-    school participation was encouraged as part of a statewide evaluation effort. Schools and municipalities
-    that seek federal SRTS funds are asked to provide data on the level of walking and bicycling to school
-    as part of the SRTS funding application process. There is no consistency among school districts or
-    individual school policy on walking and bicycling in New Jersey, and clearly there could be some bias
-    in those that seek SRTS funds. Despite this, some schools in our sample actually prohibit bicycling,
-    ostensibly for safety reasons.
-          We had data from 19 schools in 10 school districts. These are shown in Table 1 along with the
-    method in which the school distributed the survey, which varied somewhat between school districts. In
-    most cases, English and Spanish versions of the survey were made available.
-          Figure 1 provides a map of New Jersey showing the spatial distribution of where the schools in our
-    analysis were located.
-          There was substantial variation in the response rates achieved at each school. This was largely associ-
-    ated with the efforts put in by individual coordinators at each school. Initial contact with the district-
-    level coordinator of the SRTS program was usually done; in many cases the coordinator was a volunteer.
-    Direct contact with individual school coordinators was not always allowed, and thus the ability to influ-
-    ence response rates was constrained. In one case—at Dunn Middle School in Trenton—there was the
-    opportunity to hand out questionnaires directly to parents at a parent-teacher conference, and nearly
-    every parent in attendance completed a survey; however, because of low parental turnout, only 43 sur-
-    veys were completed out of a student population of 696.
-    1
-      The survey developed by the National Center for Safe Routes to School is available at http://www.saferoutesinfo.org/re-
-    sources/evaluation_parent-survey.cfm, accessed June 2013.
-    2
-      A copy of our survey instrument, including a Spanish translation, is available from the authors or at http://www.state.nj.us/
-    transportation/community/srts/pdf/needs_assess.pdf, accessed June 2013.
-                                                    This content downloaded from
-                                 130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                            All use subject to https://about.jstor.org/terms
 
-A mode choice analysis of school trips in New Jersey                                                                                         117
-               3           Data collection and processing
-               From the 19 schools for which we had data, a total of 2118 surveys were received. The key ques-
-               tion asked of survey respondents was how their child traveled to school on each day of the week
-               (Monday through Friday). These choices included walk, bicycle, car, carpool, school bus, and
-               other motorized and nonmotorized options. We use the repeated choices reported for each day of
-               the week in our mixed logit model. Two schools in our sample, Milltown and Netcong, do not
-               provide school bus service except in the case of disability. At the time of the survey Netcong also
-               did not allow bicycles to be used to get to school, nor did Midstreams School in Brick Township.
-               In estimating our mode choice model we excluded school bus from the choice set for children at
-               these schools, and we do not include the choice of bicycling in our analysis given the small num-
-               ber of students who used the bicycle mode. In total we are left with 1571 cases (after geo-coding
-               of our sample, discussed below) and 7767 repeated-choice observations. Summary statistics for
-               the variables used in our analysis are listed in Table 2. These include the attributes associated with
-               unchosen alternatives (e.g., we don’t expect a child to walk the maximum time listed in the table).
-               Many of these are based on our geo-coding of the data, which we discuss below.
-               3.1         Travel-time estimation of motorized and nonmotorized modes
-               We did not ask for household address because of privacy considerations as well as the risk of losing
-               respondents who would not fill out this information, but we did ask for the intersection nearest
-               to their residence. This was subsequently geo-coded, allowing us to estimate travel distance to the
-               school using network distances in ArcGIS. We successfully geo-coded 1769 of our 2118 survey
-               respondents, providing us with travel distances for 83.5 percent of our sample. For some of our
-               respondents we did not have an intersection, but merely one street name. For these we geo-coded
-               the midpoint of the street, as most were short local streets. For these streets we cross-checked the
-               distance against the responses given in the questionnaire on distance to the school; when these
-               were within one-quarter mile of the calculated distance we used the calculated distance.3 This
-               provided an additional 135 observations for our data.
-                      We then estimated travel times for each mode in order to estimate alternative-specific travel
-               times in our mode choice model. Stated categorical responses on the travel time by mode for the
-               trip to school (except for school buses) were collected. The categories included 5 minutes or less,
-               6–9 minutes, 10–14 minutes, 15–20 minutes, and more than 20 minutes. Using the midpoints
-               of these ranges, we regressed these travel times against the estimated distance measures; in the case
-               of walking we held the constant at zero, as there should be no fixed time penalty associated with
-               walking.4 The estimated speed results are reasonable for driving but are a bit high for walking and
-               bicycling, as shown in Table 3: Regressions of travel time versus distance with calculated speed.3.
-               As we do not use bicycle choice in our model we disregard this result5; for walking speed we use
-               2.68 mph as suggested by McDonald (2008, 23–35) in the estimates that follow.6
-               3
-                 Although we had self-reported estimates of travel distance to the school, these were in coarse categories; we believe that
-               geo-coding provides more accurate estimates.
-               4
-                 Alternatively, cars and bicycles involve some initial start time that involves parking and both accessing and egressing the
-               mode that are captured in the constant.
-               5
-                 There were only 32 cases where bicycle was chosen in our data; thus, we excluded this mode from our analysis.
-               6
-                 We also estimated models with the faster walk speed of 3.68 mph and found only small differences in parameter values
-               and no differences in statistical significance of estimates.
-                                                                   This content downloaded from
-                                                130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                           All use subject to https://about.jstor.org/terms
+A mode choice analysis of school trips in New Jersey
 
-A mode choice analysis of school trips in New Jersey                                                                                     119
-               Table 3: Regressions of travel time versus distance with calculated speed.
-                                        Driving time              Walking time                 Bicycling time
-                                        (mins)                    (mins)                       (mins)
-                 Constant               2.637 (18.54)                                          3.519 (10.17)
-                 Distance               3.269 (21.44)             16.303 (59.13)               7.165 (16.79)
-                 (miles)
-                 Adj. R2                0.233                     0.760                        0.435
-                 Speed (mph)            18.35 mph                 3.68 mph                     17.05 mph
-               Coefficient estimates are in minutes/mile; speed is the reciprocal of this multiplied by 60 min/hour.
-               3.2        Urban form and design data
-               In addition to student-specific data from parents, we also developed urban form and design measures
-               around each school location. Data were collected via visual observation using both Google StreetView
-               and Bing Maps Bird’s Eye; an example is shown for one school in Figure 2. Research by Rundle et al.
-               (2011, 94–100) has found this to be a valid method of collecting data on urban design features. From
-               these images and those of surrounding areas we were able to discern substantial detail on both walkabil-
-               ity and design features and land use around the school.7 These included estimates of housing density and
-                                                                                     8
-               the types of housing units around the school, whether the school was situated in a rural area or within a
-               residential area. Connectivity of the sidewalk network near the school was also assessed and categorized.
-               Sidewalk widths were also assessed and roughly categorized, as was the presence of planting strips and
-               trees, all of which have been associated with walkability (Lin and Chang 2010, 867). Speed limits on
-               the primary road were also extracted from Google Street View and Bing Maps Bird’s Eye, as well as an
-               estimate of off-street parking capacity in the area around the school.
-               3.3        Land-use patterns
-               Land-use patterns near the school were also identified by visual observation; these data are classified as
-               Rural (Farm, Forest, Rural Residential), Residential Sprawl (<1 unit/acre), Residential Moderate (2–4
-               units/acre), Residential Dense (>5 units/acre), Traditional Downtown/Mixed Use, Commercial–Strip
-               Malls, Office Park, and Warehouse/Industrial areas. These are based on whether they are in the imme-
-               diate vicinity of the school. Generally, urban density is considered a key factor that can increase both
-               walking and bicycling. The mix of uses has generally not been found to be important for school trips, as
-               opposed to other walk trips (Ewing, Schroeer, and Greene 2004, 55–63). Because of correlations in the
-               land-use data, we only use data on estimated residential density.
-               8
-                 By “around the school” we mean in the immediate vicinity of the school. This was generally a few blocks surrounding the
-               school and sufficient to characterize the walking environment, but had no set distance.
-                                                                 This content downloaded from
-                                              130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                         All use subject to https://about.jstor.org/terms
+Robert B. Noland                 Hyunsoo Park                     Leigh Ann Von Hagen                   Daniel G. Chatman
+                          a
+Rutgers University               Rutgers University               Rutgers University                    University of California, Berkeley
 
-120                                                                                       JOURNAL OF TRANSPORT AND LAND USE 7.2
-    Figure 2: Stony Brook Elementary, 20 Stephenson Road, Pennington, NJ. Bird’s Eye View from Bing.com.
-    3.4       Connectivity
-    Connectivity is another important factor in nonmotorized mode choice (McMillan 2005, 440–456;
-    Cervero and Kockelman 1997, 199–219; Ewing, Schroeer, and Greene 2004, 55–63; McMillan 2007,
-    69–79; Kitamura, Mokhtarian, and Laidet 1997, 125–158; Moudon et al. 1997, 48–55; Zhu and Lee
-    2008, 282–290). We have detail on the built environment surrounding each school and in our models
-    we use variables that define the presence of a grid network, sidewalks, and block size when these features
-    are adjacent to the school. Looking at the image in Figure 2, we see that Stony Brook Elementary school
-    is poorly connected with nearby residential areas, separated by a large road in the front and a forested
-    area in the rear, with sidewalks typically on only one side of each residential street with no buffer space
-    from traffic.
-    3.5       Urban infrastructure
-    We include variables associated with the road infrastructure in the vicinity of the school. These are side-
-    walk width, speed limits, and off-street parking capacity. Sidewalk width is categorized into four groups:
-    > 12 feet, 6–12 feet, 3–6 feet, and none. While the complete lack of a sidewalk clearly makes walking
-    unlikely for children, we also examine the size of the sidewalk. We categorize speed limits based on “less
-    than or equal to 25 mph” and “equal to or greater than 35 mph.” Off-street parking is also measured as a
-    categorical variable with small (<25 vehicles) versus larger lots; the latter would tend to make walking to
-    a school more difficult. There are other traffic facilities, such as marked crosswalks, the presence of traffic
-    signals (including pedestrian signals), street width, medians in the street, and on-street parking. Many
-    of these characteristics were correlated with various other connectivity elements; thus, we excluded them
-    from our statistical analysis.
-                                                 This content downloaded from
-                              130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                         All use subject to https://about.jstor.org/terms
 
-A mode choice analysis of school trips in New Jersey                                                                           121
-               3.6        Other survey questions
-               The survey also asked parents if the school encouraged walking or bicycling to get their children to
-               school. Other questions included various socioeconomic variables about the household as well as a list
-               of factors that affect the decision on how the child travels to school.
-               4          Modeling method
-               We estimate a mixed logit model with error components and with random coefficients to test the hy-
-               potheses discussed above on factors associated with the choice of mode used to travel to school (Train
-               2003). According to Train, random coefficients are more suitable for evaluating patterns of choice, while
-               error components are more suitable for predictive purposes. Our goal is to examine patterns of choice,
-               but we present both models; as will be seen, results are similar in terms of direction and significance.
-                     The choice of children’s travel to school is determined by the characteristics of the decision-makers’
-               alternatives as well as their attributes; in this case, we assume that parents are the decision makers, al-
-               though children may play some role in this choice based on their age. As previously mentioned, we have
-               data on the stated choice of travel over one week; in the mixed logit estimates we use the full information
-               of repeated choices for the week.
-                     Using a mixed logit model with error components, we estimate the parameters n associated with
-               decision-maker n, representing the tastes of the decision maker. These tastes vary over the decision mak-
-               ers. Since the random taste variation (the unobserved portion of utility) induces correlation between
-               alternatives, this relaxes the restriction of Independence from Irrelevant Alternatives (IIA). The utility can
-               be specified as follows (Coleman et al. 2008, 309–312):
-                     The utility, U, of individual, n, for choice, i, is determined by the attributes, xni ,with the parameter
-               estimate, . The latter two terms represent unobserved utility and serve as the error component that is
-               correlated between alternatives.
-                          For random coefficients, and with panel data, the utility is specified as follows:
-                     In this case, the parameter, , varies for each individual, n, and t represents repeated choices over
-               time (in our case, over the course of one week). This variation is based on a density function; in this case
-               we assume a normal distribution. From this we can derive a mean coefficient and a standard deviation
-               around that coefficient value.
-                     Given that we are estimating repeated choices over five days, the probability that decision-maker n
-               chooses alternative i among j alternatives in the tth choice situation is
-                     Where ( b,W) is the normal density of random coefficient , which has mean b and covariance
-               W, and where xnit is an explanatory variable for the alternative i that the decision maker n faces in period
-               t. Mean b and covariance W represent random taste variation in the population and are derived in our
-                                                              This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                      All use subject to https://about.jstor.org/terms
 
-122                                                                                         JOURNAL OF TRANSPORT AND LAND USE 7.2
-    estimation results. The model estimated assumes that the random coefficients are normally distributed,
-    as we have no a priori reason to assume another pattern of variation among our decision makers.
-          Our choice set includes walk, car (family vehicle), carpool, and school bus. We found that estimates
-    did not always converge when the bicycle choice was included; therefore, we omit bicycling from the
-    mode choice model (only 32 students use bicycles as their primary mode). The survey data also include
-    transit and other motorized modes, but as the number of observations for these is small, we also exclude
-    them from our analysis. Two schools do not provide school bus service and for these we constrain the
-    choice set to only three modes. We did not have information on car ownership, so could not constrain
-    the choice of car mode if no car was owned by the household. Table 4 shows the distribution of the
-    modes chosen in our sample. Car is chosen most frequently, followed by walking.
-          Our travel-time variable is specified as an alternative-specific variable for two of our travel modes,
-    car and walking, calculated from the network distance and our estimates of travel speed by mode. We
-    do not have information on the travel time for carpooling and school buses. School bus availability is
-    included as specific to the school bus mode, since obviously the option of choosing to use a school bus
-    can only be made when school bus service is provided.
-    Table 4: Distribution of modes chosen.
-     Model                                             Case with mode                  Frequency       Percent
-                               Mode
-                                                       in choice set                   selected        selected
-                               Car                     7,767                           3,890           50.08
-     Mixed logit               Carpool                 7,767                           626             8.06
-     (repeated mode
-     choice)                   School bus              1,358                           596             7.67
-                               Walk                    7,767                           2,665           34.18
-          We specify the grade the child is in as a walk-mode alternative-specific variable. The parental deci-
-    sion to allow a child to walk to school is partly determined by the age of the child (we do not have child
-    age as a variable, so the grade level proxies for this).
-          We use the walking encouragement question as an alternative-specific variable for walking. While
-    it is clear that many parents were unaware of whether there was any encouragement, there are clearly
-    schools that appear to encourage walking, such as George Washington Middle School and Henrietta
-    Hawes Elementary School in Ridgewood, compared to others where the affirmative response is low,
-    such as Dunn Middle School in Trenton and Netcong Elementary in Netcong.
-          We specify household ethnic groups as case-specific and categorize this into four groups—White,
-    African-American, Hispanic/Latino, Other races (usually Asian)/Prefer not to answer (with the latter
-    acting as the reference group in our regressions). We expect children’s travel mode to school will differ
-    by ethnic groups, with White being more likely to use cars and minority groups more likely to walk.
-          We analyzed three different models, including various sets of variables independently. This was
-    done since many of our independent variables were correlated making interpretation of a full model
-    problematic; convergence in mixed logit models can also be difficult when too many independent vari-
-    ables are specified. Thus, we classified variables based on land use, network characteristics, and road
-    and pedestrian infrastructure. We keep mode-specific and socioeconomic variables constant across all
-    specifications. The model results are discussed in the next section.
-          We estimate mixed logit models using BIOGEME (Bierlaire 2003; Bierlaire 2008). We estimate
-    an error components mixed logit model and a random coefficients model. The latter provides estimates
-    of the heterogeneity of some of the variables—that is, a variance in the parameter estimates for the deci-
-                                                   This content downloaded from
-                                130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                           All use subject to https://about.jstor.org/terms
+Abstract: This paper examines the mode choice behavior of children’s travel to school based on surveys conducted at a sample of schools in
+New Jersey. The main focus is on a variety of network design, land use, and infrastructure variables that have typically been associated with
+walking activity. Using a mixed logit model, it is found that good connectivity, more intense residential land use, and better sidewalk infra-
+structure are associated with increased walking to school. The use of a mixed logit model allows the examination of individual heterogeneity.
+Results indicate substantial heterogeneity in behavior associated with built environment variables.
 
-A mode choice analysis of school trips in New Jersey                                                                                    123
-               sion makers mode choice. The logit formula, Lni( ), is evaluated at different values (weights) of that
-               is drawn from the density f( ), and this process is repeated for a large number of draws (Train 2003).
-               The choice probability is derived based on the mean value of the draws. If the number of weights drawn
-               from the density increases, estimating random coefficients will be more accurate but the computation
-               time will increase. In estimating the model, we calculated 1000 draws from the density on the basis of
-               Halton sequences (Train 2003; Bierlaire 2009). The calculated gradient vector never reaches zero (Train
-               2003). We use a maximum gradient of 0.0001 to determine convergence for the model (Bierlaire 2009).
-               Robust standard errors are derived from the mixed logit model; this is needed because of the use of
-               repeated choices and the clustering of the data around schools. We report the robust t-statistics for the
-               mixed logit model.
-               5          Results and discussion
-               Model results are displayed in Table 5, for models with land-use variables, Table 6 for models with
-               road-connectivity variables, and Table 7 for models with various road-infrastructure variables. The first
-               column displays the error components model and the second column shows results for the random
-               coefficients model. We note any differences in terms of statistical significance between these models.
-               As we are using these models to test hypotheses and not to make predictions, we are less concerned
-               about minor differences in estimated coefficient values. The random coefficients models have higher
-               log-likelihoods for the models in Table 6 and Table 7, suggesting a superior model fit. The difference in
-               log-likelihood is barely distinguishable for the model in Table 5.
-                     In all our models we find that travel time is negative and statistically significant (at a 99 percent con-
-               fidence level) for both the car and walk modes (we did not have information on travel times for carpools
-               and school buses). We would expect the magnitude of the parameter estimate to be larger for walking,
-               representing some unmeasured factor that makes walking more onerous, but in almost all cases, we find
-               that the parameter estimate is smaller, suggesting that the time devoted to walking is less onerous for the
-               decision maker compared to driving. This result differs from McDonald (2008, 23–35) and Sidhartan
-               et al. (2011, 78–86), both who found a larger (negative) coefficient on time spent walking. Both studies
-               used National Household Travel Survey (NHTS) data, with the latter study using the oversample for
-               the Los Angeles region. McDonald (2008, 23–35) did not include any detail on urban form and design
-               characteristics at the school, while Sidhartan et al. (2011, 78–86) included an accessibility measure for
-               retail employment. While the length of the trip will clearly influence the trade-off of whether to walk or
-               drive, our result is enlightening and may be due to the different travel-time constraints associated with
-               school trips. The time spent walking is the child’s time (unless accompanied by a caregiver), while the
-               time spent driving affects the caregiver and may be part of a more complex time-constrained trip.
-                     We also find that our parameter for the child’s grade is positive and statistically significant, im-
-               plying that older children are more likely to walk to school, as expected and as found in other studies
-               (McDonald 2008, 23–35; Sidhartan et al. 2011, 78–86; Mitra, Buliung, and Roorda 2010, 150–159;
-               McDonald 2008, 324–331). We also find that those parents who believe the school encourages walk-
-               ing are more likely to have children who walk to school. This is a potentially endogenous variable, as it
-               may be that those parents who allow their children to walk are most aware that the school encourages
-               walking, so it is not possible to conclude whether this is a policy variable that can influence behavior.
-                     Each model includes control variables for household ethnicity. Our reference variable for these is
-               “other races/Asian” and those who did not answer (the latter is 5.2 percent of our sample).89 Results tend
-               to vary slightly between the three models. Hispanics appear to not drive their children to school, or if
-               they do, they carpool.
-               9
-                 About 16 percent of the sample were Asian. We grouped these with those who did not report their ethnicity, as the mode
-               choice proportions were similar. This avoided our having to drop about 5 percent of the sample because of missing data.
-                                                                This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                        All use subject to https://about.jstor.org/terms
+Keywords: Safe routes to school, walking trips, mixed logit
 
-124                                                                                       JOURNAL OF TRANSPORT AND LAND USE 7.2
-          In some models, Whites also have a slightly higher propensity to carpool relative to driving, while
-    African-Americans have a positive coefficient for walking and for school bus use, and less for driving
-    and carpooling. In general, this result suggests an income effect, as minority populations in the schools
-    surveyed tended to have lower incomes. Results in other studies also tend to be inconclusive; McDonald
-    (2008, 324–331) found Latinos more likely to walk in one analysis, but not in another, using NHTS
-    data for both (McDonald 2008, 23–35). We suspect that the lack of consistent results for these control
-    variables across studies may be due to correlations between the different land use and urban design vari-
-    ables included or excluded in each model; that is, within our sample there are clearly different propor-
-    tions of each ethnic group living in each school area.
-          Our key variables of interest are those that measure various land use, urban form, and design fea-
-    tures near each school. The discussion that follows focuses on each model in turn; we emphasize the
-    benefits of the mixed logit model estimates on the heterogeneity of the sample and how this provides
-    additional behavioral information. There are some minor differences between the error components and
-    random coefficients models, and we discuss the likely reasons for this.
-          Table 5 includes categorical variables for residential density near the school, proxying for land use.
-    These include two levels of residential density, all relative to low density—generally rural land use. The
-    random coefficients model estimates demonstrate the heterogeneity in our sample. The parameters for
-    residential density (2–4 units/acre) imply that 43.6 percent of decision makers are not always influenced
-    by density in their choice to walk; the mean value for this parameter is not distinguishable from zero,
-    and the impact is likely cancelled out by the large taste variation. However, for residential density greater
-    than 5 units/acre, the coefficient is significant, with the standard deviation not being significant, suggest-
-    ing a threshold effect associated with density and walking to school.
-          There is similar random taste variation in the parental choice with respect to a child’s travel to
-    school by carpool. This may be related to parental preference for carpooling independent of urban den-
-    sity and walking-friendly environments.
-          One variable differs in the error components version of this model. The bus-specific variable for
-    residential density between 2–4 units/acre is negative and statistically significant, as opposed to a lower
-    level of significance in the random coefficients model. The carpool and walk coefficients for this vari-
-    able are not statistically significant while they show a significant standard deviation in the random
-    coefficients model, suggesting a distinct pattern of heterogeneity among respondents. This shows the
-    additional information the random coefficients model provides.
-          We examine various measures of connectivity with a dummy variable representing whether there
-    is a traditional or modified grid (relative to no grid), which we expect to be associated with walking. A
-    variable for block sizes of less than 500 ft. versus those greater than 500 ft. is included; smaller block
-    sizes are assumed to increase walking. For sidewalks, our dummy variable represents whether they are
-    everywhere and on both sides of the street. These variables are measured based on their adjacency to the
-    school (as opposed to within the immediate neighborhood). Results are shown in Table 6.
-          We find that a grid network is associated with a decrease in driving to school; other work that
-    evaluates associations of street connectivity with travel behavior generally finds that a grid network
-    encourages walking and discourages driving (Cervero and Kockelman 1997, 199–219). Walking is
-    found to be more likely, as is using a school bus or carpooling. The school bus coefficient has the larg-
-    est effect. This result suggests that schools situated in a grid network reduce the likelihood that parents
-    drive their children alone to school. While we can only speculate, this may be due to slower travel speeds
-    in traditional grid networks, making the school bus more attractive relative to being driven. In all cases
-    the standard deviation of the parameter is not statistically significant, suggesting little heterogeneity and
-    taste variation with respect to this variable (the error components model shows a similar result). This is a
-                                                 This content downloaded from
-                               130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                         All use subject to https://about.jstor.org/terms
 
-A mode choice analysis of school trips in New Jersey                                                                                         125
-               useful finding and demonstrates that the street layout is an important consideration for reduced driving.
-                      Smaller block sizes adjacent to the school have an association with walking and actually have a
-               negative association with school bus use (relative to driving). This suggests that larger block sizes increase
-               driving to school, perhaps making it easier to quickly drop off students near the school; also, large block
-               sizes may make it easier for school buses to access the school, perhaps leading school districts to supply
-               more service. For carpools, however, only the standard deviation is significant in the random coefficients
-               model, while the parameter is positive in the error components model. This suggests that some fraction
-               of parents will carpool children to school most of the time.
-                      Sidewalks near the school are also strongly associated with walking, relative to driving. Sidewalks
-               near the school appear to have a negative association with school bus use; again, this may be because
-               when sidewalks are not present, better school bus service is supplied. Carpool usage again shows sub-
-               stantial taste heterogeneity; the parameter estimate is significant in the error components model while
-               the standard deviation in the random coefficients model is significant. Probably the key conclusion from
-               this is that lack of sidewalks is associated with more driving to school.
-                      Our final model examines the association with various road infrastructure facilities that can either
-               benefit or hinder pedestrians (Table 7). Those schools with larger sidewalk widths in their immediate
-               vicinity are associated with more children walking to school relative to both driving and other modes
-               of travel (carpools show a negative effect relative to driving). First, the magnitude of the coefficient for
-               the walk mode increases as sidewalk width increases, suggesting that the size of the sidewalk makes a
-               difference in the choice to walk; the standard deviation of the coefficient also increases, suggesting some
-               heterogeneity in how this variable affects behavior. The model shows that 17.1 percent and 17.6 percent
-               of decision makers are not affected by sidewalks in their choice of walking mode for sidewalks 12 feet in
-               width and 6–12 feet in width, respectively. This implies that a certain proportion of parents decide upon
-               their child’s travel mode independent of the sidewalk width. The error components model also is statis-
-               tically significant and the parameter increases as the sidewalk width increases. Therefore, this provides
-               evidence that sidewalks perceived as safer (i.e., wider) can influence the choice of walking for children’s
-               travel to school; a fraction of parents, however, choose their child’s travel mode based on unmeasured
-               preferences rather than this design factor. Carpool and bus coefficients are negative and also show some
-               heterogeneity.
-                      We find that speed limits of 25 mph on the streets near the school have a negative association with
-               walking, albeit only statistically significant in the error components model. School bus and carpool
-               usage also have a negative association with 25 mph streets relative to streets of 35 mph and above (the
-               reference case); coefficients are larger than for the walking mode. This may imply that driving is more
-               efficient when speed limits are higher. One school in our dataset is near a road with a 40 mph speed
-               limit (Park Avenue Elementary School in Freehold); most of the Hispanic students in our sample from
-               this school walk, while the white students are driven or take a school bus. This may be influencing the
-               result on speed limits and suggests that more detail may be needed on how different ethnic groups are
-               constrained in how their children travel to school.109
-                      We also include a measure of off-street parking around the school, as large amounts of parking
-               would likely be a deterrent to walking. Relative to larger amounts of off-street parking, we find that a
-               parking capacity of less than about 25 vehicles is positively associated with walking and school bus use
-               relative to driving. On the other hand, carpool use is greater, perhaps reflecting that a large parking lot
-               makes it easier to drop students off; this variable was not significant in the error components model. We
-               also tested various other infrastructure features, such as the presence of traffic signals, crosswalks, and
-               medians, and found no statistically significant associations; these results were not included in the final
-               10
-                  For example, we did not have information on whether a car was available for the trip to school and could not constrain the
-               choice set accordingly.
-                                                              This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                      All use subject to https://about.jstor.org/terms
 
-126                                                                                             JOURNAL OF TRANSPORT AND LAND USE 7.2
-    model.
-              For the most part, these results support the hypothesis that various network connectivity and urban street
-    design components have an association with parents allowing their children to walk to school. Our strongest results
-    are for our network connectivity variable, which is associated with both walking, carpooling, and school bus use.
-    Land-use patterns (proxied by residential density) appear to also exhibit the hypothesized effect of increasing residen-
-    tial density having an association with increased walking. Of the infrastructure variables, wider sidewalks also have a
-    strong association with walking to school. Other variables included in our models— travel time, grade of child, and
-    walking encouragement by the school—have the expected relationships. Our household ethnicity controls do not
-    show consistent results, perhaps due to the distribution of different groups between schools and interactions with the
-    urban design features around each school.
-                                                       This content downloaded from
-                                     130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                               All use subject to https://about.jstor.org/terms
 
-130                                                                                                JOURNAL OF TRANSPORT AND LAND USE 7.2
-                                                                                          Mixed Logit                  Mixed Logit
-                                                                                          (error components)           (random coefficients)
-     Variables (Alternatives)
-                                                                                          Coefficient    Robust t-test Coefficient       Robust t-test
-     Error components (Bus/Car)                            Mean                           0              -
-                                                           Std. Dev.                      0.221*         -1.79
-     Error components (Carpool/Car)                        Mean                           0              -
-                                                           Std. Dev.                      0.020          -0.11
-     Error components (Walk/Car)                           Mean                           0              -
-                                                           Std. Dev.                      1.510***       4.12
-     Number of observations                                                                              7,767                           7,767
-     Number of individuals                                                                               1,571                           1,571
-     Final log-likelihood                                                                           -5,840.43                           -5,808.08
-     Likelihood ratio test                                                                            6,166.33                           6,231.04
-     Rho-squared                                                                                         0.346                           0.349
-     Adjusted rho-squared                                                                                0.342                           0.344
-            Base alternative (car); reference for household ethnic group: other races, Asian, and prefer not to answer; references for
-            infrastructure: no sidewalk, 35 mph speed limits, parking capacity >25.
-    6             Conclusions
-    We have presented results from a mode choice analysis of how children travel to a sample of schools in
-    New Jersey. Our basic results suggest that various network design, infrastructure, and land-use features
-    that result in what are considered more walkable features have an association with walking. The existence
-    of a sidewalk network, the size of the sidewalks, and the existence of grid networks in particular tend to
-    be associated with less driving and more walking. Much of the research in this area has found the same
-    result, although Mitra (2012, 1–23) reports some inconsistencies between study results.
-           One contribution of our work beyond that of other school trip studies is the use of a mixed logit
-    model. This allows us to examine the heterogeneity in the sample. Our results clearly show that there
-    is random taste variation in the sample that has not been controlled for in previous studies. Some fixed
-    proportion of the decision makers in our sample are not affected by pedestrian-friendly design and in-
-    frastructure in making the decision to allow their children to walk to school. A better understanding of
-    parental attitudes and methods to measure those attitudes might provide a means to fully understand
-    these effects. The framework suggested by Mitra (2012, 1–23) includes attitudes of households that
-    should be controlled for in future studies.
-           Our study suffers from some limitations. First, our results are associative. We cannot provide strong
-    conclusions as to whether infrastructure interventions will increase walking activity. While our results
-    are theoretically consistent with how we expect decision makers to react, our methods are not adequate
-    for drawing causal interpretations. Another issue is that we cannot deal with the endogeneity of school
-    choice—that is, parents who want their children to walk to school chose to live near schools their chil-
-    dren can walk to. This would require detailed information on residential location choice, which is not
-    available. An additional limitation is that the sampling strategy has not resulted in a random sample,
-    either of schools or parents in each school. While some individual schools achieved adequate response
-    rates, we would expect those parents that are more involved with the school and more active in their
-    children’s education to be more likely to respond. We were unable to have any follow up to increase the
-    sampling rate. Likewise, the schools self-selected into the sample, either because they were seeking state
-    funding or had an active Safe Routes to School program; despite this, some of the schools do not have
-                                                        This content downloaded from
-                                     130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                All use subject to https://about.jstor.org/terms
+                1             Introduction
 
-A mode choice analysis of school trips in New Jersey                                                                        131
-               proactive policies to increase active commuting to school (e.g., some schools did not allow bicycling).
-               Difficulties with gaining access to school samples suggest that randomized sampling focused on specific
-               neighborhoods might be needed, although this will capture many residents with no children attending
-               school, and thus is a costly approach.
-                     Future research in this area will need to investigate actual interventions at a random sample of
-               schools. These interventions can include educational efforts to increase walking as well as infrastructure
-               changes to increase the safety of walking. A difficulty with any study of this type is accessing the sample
-               of children and satisfying any privacy concerns of parents. These issues are, however, critical in seeking
-               not only to increase the activity of children to tackle obesity, but also to reduce driving and its environ-
-               mental impacts.
-               Acknowledgements
-               This research was funded by the New Jersey Department of Transportation Safe Routes to School Pro-
-               gram. The authors accept all responsibility for the content of this paper, and the views expressed herein
-               are in no way the views or policy of the New Jersey Department of Transportation. The authors thank
-               Jennifer Rovito, Sean Meehan, and Andrew Besold for research assistance.
-               References
-               Alfonzo, M. A. 2005. To walk or not to walk? The hierarchy of walking needs. Environment and Behav-
-                   ior 37(6): 808–836. http://dx.doi.org/10.1177/0013916504274016.
-               Bierlaire, M. 2003. BIOGEME: A free package for the estimation of discrete choice models. Proceedings
-                   of the 3rd Swiss Transportation Research Conference, Ascona, Switzerland.
-               ———. 2008. An Introduction to BIOGEME. Version 1.6 ed. biogeme.epfl.ch.
-               ———. Estimation of Discrete Choice Models with BIOGEME 1.8. Ecole Polytechnique Federale de
-                   Lausanne, Lausanne, Switzerland.
-               Boarnet, M. G., C. L. Anderson, K. Day, T. E. McMillan, and M. Alfonzo. 2005. Evaluation of the
-                   California Safe Routes to School legislation: Urban form change and children’s active tranportation
-                   to school. American Journal of Preventive Medicine 28(2S2): 134–140. http://dx.doi.org/10.1016/j.
-                   amepre.2004.10.026.
-               Cervero, R. and K. Kockelman. 1997. Travel demand and the 3Ds: Density, diversity, and design. Trans-
-                   portation Research D 2(3): 199–219. http://dx.doi.org/10.1016/S1361-9209(97)00009-6.
-               Coleman, K. J., D. E. Rosenberg, T. L. Conway, J. F. Sallis, B. E. Saelens, L. D. Frank, and K. Cain.
-                   2008. Physical activity, weight status, and neighborhood characteristics of dog walkers. Preventive
-                   Medicine 47(3): 309–312. http://dx.doi.org/10.1016/j.ypmed.2008.05.007.
-               Ewing, R. and R. Cervero. 2001. Travel and the built environment: A synthesis. Transportation Research
-                   Record 1780(1): 87–114. http://dx.doi.org/10.3141/1780-10.
-               Ewing, R., W. Schroeer, and W. Greene. 2004. School location and student travel analysis of factors
-                   affecting mode choice. Transportation Research Record: Journal of the Transportation Research Board
-                   1895: 55–63. http://dx.doi.org/10.3141/1895-08.
-               Frank, L. D., T. L. Schmid, J. F. Sallis, J. Chapman, and B. E. Saelens. 2005. Linking objectively mea-
-                   sured physical activity with objectively measured urban form: Findings from SMARTRAQ. American
-                   Journal of Preventive Medicine 28(2): 117–125. http://dx.doi.org/10.1016/j.amepre.2004.11.001.
-               Frank, L. D., J. F. Sallis, B. E. Saelens, L. Leary, K. Cain, T. L. Conway, and P. M. Hess. 2010. The devel-
-                                                              This content downloaded from
-                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
-                                                      All use subject to https://about.jstor.org/terms
+                Over the last few decades, the rate at which children walk to school has dropped precipitously. While in
+                1969 about 40 percent of school trips in the United States were by walking, in 2001 this had dropped
+                to about 13 percent (McDonald 2008, 23-35). Similar reductions in walking to school have been
+                found in other countries (Sirard and Slater 2008, 372). Based on an analysis of the 2001 US National
+                Household Transportation Survey, about half of all students are now driven to school by their parents,
+                even for short distances of under a mile (McDonald 2007, 509–516). Policymakers have recognized
+                that walking to school can account for a significant portion of the physical activity that children engage
+                in over the course of a day and that reduced walking to school may be a cause of high obesity levels in
+                children (McMillan 2005, 440–456). Early travel activity may also be linked to habit formation, affect-
+                ing how children make travel decisions as adults (McMillan 2005, 440–456), with consequent impacts
+                on the environment. For these reasons, among others, policymakers set a goal of increasing walking
+                trips to school, and in 2005 the reauthorization of federal transportation legislation in the US created
+                the Safe Routes to School program to fund programs run by state transportation departments.
+                      Research in recent years has identified some of the factors associated with walking. These include
+                measures of urban form (such as density of development), land use mix, and urban design (such as the
+                presence of sidewalks) encompassing elements of density, diversity, and design as elucidated by Cervero
+                and Kockelman (1997, 199–219). Recent work has analyzed these factors specifically for school trips.
+                In general, distance or travel time is found to be a critical determinant (McDonald 2008, 23–35; Ew-
+                ing and Cervero 2001, 87–114; Ewing, Schroeer, and Greene 2004, 55–63; Schlossberg et al. 2006,
+                337–346; Sidhartan et al. 2011, 78–86; Mitra 2012, 1–23), and this is partly due to newer schools
+                being built at greater distances from where students live. Schools are also built on roads that may not
+                be amenable to walking, and studies have found that measures to represent walkability also affect the
+
+
+a
+    rnoland@rutgers.edu
+Copyright 2014 rnoland@rutgers.edu
+Licensed under the Creative Commons Attribution – NonCommercial License 3.0.
+
+
+
+                                                             This content downloaded from
+                                           130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                     All use subject to https://about.jstor.org/terms
+
+112                                                                                         JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+      propensity to walk to school (Ewing and Cervero 2001, 87–114; Ewing, Schroeer, and Greene 2004,
+      55–63; Schlossberg et al. 2006, 337–346; McMillan 2007, 69–79; Boarnet et al. 2005, 134–140). An
+      analysis of school trips in Toronto, however, found that a walkable built environment around the home
+      had a larger effect than a walkable environment immediately around the school (Mitra, Buliung, and
+      Roorda 2010, 150–159). A recent review documents studies that show both positive and negative cor-
+      relations of network features (Mitra 2012, 1–23). A study of school travel in Taiwan specified a nested
+      logit model; this model examined whether children traveled independently or were escorted to school
+      (Lin and Chang 2010, 867). Results were broadly similar to other studies in terms of factors that lead to
+      more walking trips or those that discourage walking. Studies have also found that parental concerns, and
+      travel patterns such as driving to work, can influence the decision to drive children to school (McDonald
+      2008, 324–331; Kerr et al. 2006, 787–794).
+            A stream of research in urban design has sought to devise indexes for characterizing the beneficial
+      features associated with walking (Frank et al. 2006, 75–87; Frank et al. 2005, 117–125; Frank et al.
+      2010, 924–933; Saelens and Sallis 2007, 387–395; Manaugh and El-Geneidy 2011, 309–315). Alter-
+      natively, design variables that are correlated can also be combined via a principal components analysis
+      (Pinjari et al. 2008, 17–26). Manaugh and El-Geneidy (2011, 309–315) also examined school trips
+      and found that associations with walking were stronger when walkability indexes were composed of
+      network variables rather than those with land use and commercial activities. This latter study points to
+      the difficulties associated with using indexes; namely, it is not possible to separate out the specific built
+      environment feature that most influences walking. Of course, any model that includes highly correlated
+      measures makes inference impossible; thus, the approach we take here is to estimate separate models to
+      isolate specific features associated with walking to school.
+            Most research on the relationship between urban form and travel to school does not address the
+      taste heterogeneity of decision makers. For example, even if the walking environment is highly con-
+      ducive to children walking to school, individual preferences (of parents) might lead to some children
+      not walking to school. Using repeated choices—in our case, daily travel reported over a one-week pe-
+      riod—and mixed logit estimation allows the estimation of both mean parameter estimates and their
+      standard deviation, thus providing information on individual heterogeneity as well as controlling for
+      it, as opposed to maximum likelihood estimates that provide only a mean parameter estimate for the
+      sample. Mixed logit estimation also avoids problems of the independence of irrelevant alternatives of
+      multinomial logit models.
+            Our data is derived from 19 schools in New Jersey that comprise a variety of urban and suburban
+      school districts with a wide variation in ethnicity and income. Urban form and walkability around each
+      school also vary, providing a rich data set for analysis. Student travel data was collected via a parental
+      survey, similar to the work of Schlossberg et al. (2006, 337–346) and McMillan (2007, 69–79). Our
+      objective is to estimate models that control for individual heterogeneity in the choice of mode used
+      for school travel. Our results, based on mixed logit estimations, find associations with socioeconomic
+      variables and with some of the urban form and walkability variables commonly found in other studies,
+      providing additional evidence of the importance of good walking environments for encouraging chil-
+      dren to walk to school.
+
+
+      2        Hypotheses
+
+      We examined several hypotheses concerning the mode chosen for traveling to school. We modeled
+      mode choice in a utility-maximizing framework of a discrete choice model, implying that the agent
+      making the choice is rational and seeks to maximize utility. In fact, children may or may not have much
+
+
+
+
+                                                 This content downloaded from
+                               130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                         All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                           113
+
+                influence over the choice; in most cases decision making is likely joint with, or dominated by, their
+                parents (McMillan 2005, 440–456).
+                      Alfonzo (2005, 808–836) defines a hierarchical framework for how individuals determine whether
+                they will walk to a destination. The first level is determining the feasibility of walking, which can be
+                linked to time constraints and household characteristics that affect time constraints. Second, are acces-
+                sibility factors—basically, the distance of activities and the infrastructure—available for walking? Third
+                are safety considerations, mainly perceptions of crime and danger, which can be influenced by neighbor-
+                hood characteristics. Fourth is how various urban design features, from traffic calming to street furni-
+                ture, make walking more comfortable. Finally, the pleasurability of walking is influenced by aesthetics,
+                diversity of surroundings, public spaces, and activity. It is likely that many of these considerations are
+                correlated and overlap—for example, urban design features affect aesthetics and might make an area
+                seem safer. Time spent walking in a more attractive area may be perceived as less cumbersome.
+                      Considering this framework, the results of other empirical work, and the constraints of our data,
+                hypotheses can be formulated using several key attributes. First, the travel time or distance from home
+                to school likely affects walking more than driving or taking the bus; thus, those who have shorter travel
+                times are more likely to walk. The age of children may also affect their mode choice; older children may
+                be more independent and parents will be less concerned with them walking to school alone. We do not
+                have data on the age of children but instead use their grade level (ranging from pre-kindergarten to 8th
+                grade) and hypothesize that those in higher grades are more likely to walk to school.
+                      We also controlled for parental perceptions of whether walking to school is encouraged by the
+                school. We expect programs that encourage children to walk may result in higher rates of nonmotorized
+                travel; however, this may also be endogenous, as those schools that actively encourage children to walk
+                may also be in an environment where it is more feasible to walk or bicycle.
+                      We also expect household sociodemographic characteristics to affect children’s travel behavior. Eth-
+                nic groups generally reflect socioeconomic characteristics and their living places—urban or suburban.
+                African American or Hispanic children usually live in urban areas, and their household median incomes
+                are lower than those of white or Asian children. Therefore, we hypothesize that African American or
+                Latino children are more likely to walk to school than other ethnic groups. Data on household income
+                was incomplete and was not used in our analysis.
+                      The relative walkability of the environment around the school is a critical factor that others have
+                found to be associated with increased walking (although less so for bicycling) (Sirard and Slater 2008,
+                372; McMillan 2005, 440–456). Many of the variables that make an area more walkable tend to make
+                walking more convenient, pleasant, and safer. We specifically look at land-use patterns, sidewalk con-
+                nectivity and width, traffic speeds, and off-street parking capacity, with the expectation that these will
+                be associated with walking choice. These design variables are the focus of various Safe Route to School
+                infrastructure interventions, so understanding their role is of particular interest. However, we also expect
+                that although these design factors affect mode choice, there is taste variation based on the preferences of
+                parents in how their children travel to school.
+
+                2.1       Survey development and administration
+
+                The survey was developed and managed by staff from the New Jersey Safe Routes to School Resource
+                Center. The goal of the survey was to learn how students travel to school and to gain an understanding
+                of any issues or concerns parents have with allowing their child to walk or bicycle to school. Local com-
+                munities selected to receive federal funding from the New Jersey Safe Routes to School (SRTS) program
+                are required to collect data on the modes used for getting to school. Of note for our analysis, the survey
+                was not developed with the express goal of performing a mode choice analysis; thus, the analysis is op-
+                portunistic in taking advantage of a dataset collected for other purposes. Some of the shortcomings of
+
+
+
+                                                              This content downloaded from
+                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                      All use subject to https://about.jstor.org/terms
+
+114                                                                                                JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+      the data are discussed further below.
+            The survey was based partly on an instrument developed by the National Center for Safe Routes
+      to School,1 as well as a survey developed by the SRTS program in Georgia. In June 2007, the survey
+      was pre-tested with a sample group of parents. The pre-test explored question wording and interpreta-
+      tion, desired outcomes, survey distribution timing and collection methods, possible incentive schemes,
+      noncompliance issues, administration issues, and results reporting.2
+            The participation of schools in the survey was voluntary, as was participation by parents; however,
+      school participation was encouraged as part of a statewide evaluation effort. Schools and municipalities
+      that seek federal SRTS funds are asked to provide data on the level of walking and bicycling to school
+      as part of the SRTS funding application process. There is no consistency among school districts or
+      individual school policy on walking and bicycling in New Jersey, and clearly there could be some bias
+      in those that seek SRTS funds. Despite this, some schools in our sample actually prohibit bicycling,
+      ostensibly for safety reasons.
+            We had data from 19 schools in 10 school districts. These are shown in Table 1 along with the
+      method in which the school distributed the survey, which varied somewhat between school districts. In
+      most cases, English and Spanish versions of the survey were made available.
+            Figure 1 provides a map of New Jersey showing the spatial distribution of where the schools in our
+      analysis were located.
+            There was substantial variation in the response rates achieved at each school. This was largely associ-
+      ated with the efforts put in by individual coordinators at each school. Initial contact with the district-
+      level coordinator of the SRTS program was usually done; in many cases the coordinator was a volunteer.
+      Direct contact with individual school coordinators was not always allowed, and thus the ability to influ-
+      ence response rates was constrained. In one case—at Dunn Middle School in Trenton—there was the
+      opportunity to hand out questionnaires directly to parents at a parent-teacher conference, and nearly
+      every parent in attendance completed a survey; however, because of low parental turnout, only 43 sur-
+      veys were completed out of a student population of 696.
+
+
+
+
+      1
+          The survey developed by the National Center for Safe Routes to School is available at http://www.saferoutesinfo.org/re-
+      sources/evaluation_parent-survey.cfm, accessed June 2013.
+      2
+          A copy of our survey instrument, including a Spanish translation, is available from the authors or at http://www.state.nj.us/
+      transportation/community/srts/pdf/needs_assess.pdf, accessed June 2013.
+
+
+                                                        This content downloaded from
+                                      130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                                              117
+
+                3             Data collection and processing
+
+                From the 19 schools for which we had data, a total of 2118 surveys were received. The key ques-
+                tion asked of survey respondents was how their child traveled to school on each day of the week
+                (Monday through Friday). These choices included walk, bicycle, car, carpool, school bus, and
+                other motorized and nonmotorized options. We use the repeated choices reported for each day of
+                the week in our mixed logit model. Two schools in our sample, Milltown and Netcong, do not
+                provide school bus service except in the case of disability. At the time of the survey Netcong also
+                did not allow bicycles to be used to get to school, nor did Midstreams School in Brick Township.
+                In estimating our mode choice model we excluded school bus from the choice set for children at
+                these schools, and we do not include the choice of bicycling in our analysis given the small num-
+                ber of students who used the bicycle mode. In total we are left with 1571 cases (after geo-coding
+                of our sample, discussed below) and 7767 repeated-choice observations. Summary statistics for
+                the variables used in our analysis are listed in Table 2. These include the attributes associated with
+                unchosen alternatives (e.g., we don’t expect a child to walk the maximum time listed in the table).
+                Many of these are based on our geo-coding of the data, which we discuss below.
+
+                3.1           Travel-time estimation of motorized and nonmotorized modes
+
+                We did not ask for household address because of privacy considerations as well as the risk of losing
+                respondents who would not fill out this information, but we did ask for the intersection nearest
+                to their residence. This was subsequently geo-coded, allowing us to estimate travel distance to the
+                school using network distances in ArcGIS. We successfully geo-coded 1769 of our 2118 survey
+                respondents, providing us with travel distances for 83.5 percent of our sample. For some of our
+                respondents we did not have an intersection, but merely one street name. For these we geo-coded
+                the midpoint of the street, as most were short local streets. For these streets we cross-checked the
+                distance against the responses given in the questionnaire on distance to the school; when these
+                were within one-quarter mile of the calculated distance we used the calculated distance.3 This
+                provided an additional 135 observations for our data.
+                      We then estimated travel times for each mode in order to estimate alternative-specific travel
+                times in our mode choice model. Stated categorical responses on the travel time by mode for the
+                trip to school (except for school buses) were collected. The categories included 5 minutes or less,
+                6–9 minutes, 10–14 minutes, 15–20 minutes, and more than 20 minutes. Using the midpoints
+                of these ranges, we regressed these travel times against the estimated distance measures; in the case
+                of walking we held the constant at zero, as there should be no fixed time penalty associated with
+                walking.4 The estimated speed results are reasonable for driving but are a bit high for walking and
+                bicycling, as shown in Table 3: Regressions of travel time versus distance with calculated speed.3.
+                As we do not use bicycle choice in our model we disregard this result5; for walking speed we use
+                2.68 mph as suggested by McDonald (2008, 23–35) in the estimates that follow.6
+
+
+
+
+                3
+                    Although we had self-reported estimates of travel distance to the school, these were in coarse categories; we believe that
+                geo-coding provides more accurate estimates.
+                4
+                    Alternatively, cars and bicycles involve some initial start time that involves parking and both accessing and egressing the
+                mode that are captured in the constant.
+                5
+                    There were only 32 cases where bicycle was chosen in our data; thus, we excluded this mode from our analysis.
+                6
+                    We also estimated models with the faster walk speed of 3.68 mph and found only small differences in parameter values
+                and no differences in statistical significance of estimates.
+
+
+                                                                    This content downloaded from
+                                                  130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                            All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                                          119
+
+                Table 3: Regressions of travel time versus distance with calculated speed.
+                                         Driving time              Walking time               Bicycling time
+                                         (mins)                    (mins)                     (mins)
+                    Constant             2.637 (18.54)                                        3.519 (10.17)
+                    Distance             3.269 (21.44)             16.303 (59.13)             7.165 (16.79)
+                    (miles)
+                    Adj. R2              0.233                     0.760                      0.435
+                    Speed (mph)          18.35 mph                 3.68 mph                   17.05 mph
+                Coefficient estimates are in minutes/mile; speed is the reciprocal of this multiplied by 60 min/hour.
+
+                3.2           Urban form and design data
+
+                In addition to student-specific data from parents, we also developed urban form and design measures
+                around each school location. Data were collected via visual observation using both Google StreetView
+                and Bing Maps Bird’s Eye; an example is shown for one school in Figure 2. Research by Rundle et al.
+                (2011, 94–100) has found this to be a valid method of collecting data on urban design features. From
+                these images and those of surrounding areas we were able to discern substantial detail on both walkabil-
+                ity and design features and land use around the school.7 These included estimates of housing density and
+                                                                        8
+                the types of housing units around the school, whether the school was situated in a rural area or within a
+                residential area. Connectivity of the sidewalk network near the school was also assessed and categorized.
+                Sidewalk widths were also assessed and roughly categorized, as was the presence of planting strips and
+                trees, all of which have been associated with walkability (Lin and Chang 2010, 867). Speed limits on
+                the primary road were also extracted from Google Street View and Bing Maps Bird’s Eye, as well as an
+                estimate of off-street parking capacity in the area around the school.
+
+                3.3           Land-use patterns
+
+                Land-use patterns near the school were also identified by visual observation; these data are classified as
+                Rural (Farm, Forest, Rural Residential), Residential Sprawl (<1 unit/acre), Residential Moderate (2–4
+                units/acre), Residential Dense (>5 units/acre), Traditional Downtown/Mixed Use, Commercial–Strip
+                Malls, Office Park, and Warehouse/Industrial areas. These are based on whether they are in the imme-
+                diate vicinity of the school. Generally, urban density is considered a key factor that can increase both
+                walking and bicycling. The mix of uses has generally not been found to be important for school trips, as
+                opposed to other walk trips (Ewing, Schroeer, and Greene 2004, 55–63). Because of correlations in the
+                land-use data, we only use data on estimated residential density.
+
+
+
+
+                8
+                    By “around the school” we mean in the immediate vicinity of the school. This was generally a few blocks surrounding the
+                school and sufficient to characterize the walking environment, but had no set distance.
+
+
+                                                                 This content downloaded from
+                                               130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                         All use subject to https://about.jstor.org/terms
+
+120                                                                                           JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+
+
+
+      Figure 2: Stony Brook Elementary, 20 Stephenson Road, Pennington, NJ. Bird’s Eye View from Bing.com.
+
+      3.4       Connectivity
+
+      Connectivity is another important factor in nonmotorized mode choice (McMillan 2005, 440–456;
+      Cervero and Kockelman 1997, 199–219; Ewing, Schroeer, and Greene 2004, 55–63; McMillan 2007,
+      69–79; Kitamura, Mokhtarian, and Laidet 1997, 125–158; Moudon et al. 1997, 48–55; Zhu and Lee
+      2008, 282–290). We have detail on the built environment surrounding each school and in our models
+      we use variables that define the presence of a grid network, sidewalks, and block size when these features
+      are adjacent to the school. Looking at the image in Figure 2, we see that Stony Brook Elementary school
+      is poorly connected with nearby residential areas, separated by a large road in the front and a forested
+      area in the rear, with sidewalks typically on only one side of each residential street with no buffer space
+      from traffic.
+
+      3.5       Urban infrastructure
+
+      We include variables associated with the road infrastructure in the vicinity of the school. These are side-
+      walk width, speed limits, and off-street parking capacity. Sidewalk width is categorized into four groups:
+      > 12 feet, 6–12 feet, 3–6 feet, and none. While the complete lack of a sidewalk clearly makes walking
+      unlikely for children, we also examine the size of the sidewalk. We categorize speed limits based on “less
+      than or equal to 25 mph” and “equal to or greater than 35 mph.” Off-street parking is also measured as a
+      categorical variable with small (<25 vehicles) versus larger lots; the latter would tend to make walking to
+      a school more difficult. There are other traffic facilities, such as marked crosswalks, the presence of traffic
+      signals (including pedestrian signals), street width, medians in the street, and on-street parking. Many
+      of these characteristics were correlated with various other connectivity elements; thus, we excluded them
+      from our statistical analysis.
+
+
+
+
+                                                   This content downloaded from
+                                 130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                           All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                             121
+
+                3.6       Other survey questions
+
+                The survey also asked parents if the school encouraged walking or bicycling to get their children to
+                school. Other questions included various socioeconomic variables about the household as well as a list
+                of factors that affect the decision on how the child travels to school.
+
+
+                4         Modeling method
+
+                We estimate a mixed logit model with error components and with random coefficients to test the hy-
+                potheses discussed above on factors associated with the choice of mode used to travel to school (Train
+                2003). According to Train, random coefficients are more suitable for evaluating patterns of choice, while
+                error components are more suitable for predictive purposes. Our goal is to examine patterns of choice,
+                but we present both models; as will be seen, results are similar in terms of direction and significance.
+                      The choice of children’s travel to school is determined by the characteristics of the decision-makers’
+                alternatives as well as their attributes; in this case, we assume that parents are the decision makers, al-
+                though children may play some role in this choice based on their age. As previously mentioned, we have
+                data on the stated choice of travel over one week; in the mixed logit estimates we use the full information
+                of repeated choices for the week.
+                      Using a mixed logit model with error components, we estimate the parameters n associated with
+                decision-maker n, representing the tastes of the decision maker. These tastes vary over the decision mak-
+                ers. Since the random taste variation (the unobserved portion of utility) induces correlation between
+                alternatives, this relaxes the restriction of Independence from Irrelevant Alternatives (IIA). The utility can
+                be specified as follows (Coleman et al. 2008, 309–312):
+
+
+
+
+                     The utility, U, of individual, n, for choice, i, is determined by the attributes, xni ,with the parameter
+                estimate, . The latter two terms represent unobserved utility and serve as the error component that is
+                correlated between alternatives.
+                         For random coefficients, and with panel data, the utility is specified as follows:
+
+
+
+
+                     In this case, the parameter, , varies for each individual, n, and t represents repeated choices over
+                time (in our case, over the course of one week). This variation is based on a density function; in this case
+                we assume a normal distribution. From this we can derive a mean coefficient and a standard deviation
+                around that coefficient value.
+                     Given that we are estimating repeated choices over five days, the probability that decision-maker n
+                chooses alternative i among j alternatives in the tth choice situation is
+
+
+
+
+                     Where ( b,W) is the normal density of random coefficient , which has mean b and covariance
+                W, and where xnit is an explanatory variable for the alternative i that the decision maker n faces in period
+                t. Mean b and covariance W represent random taste variation in the population and are derived in our
+
+
+
+
+                                                              This content downloaded from
+                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                      All use subject to https://about.jstor.org/terms
+
+122                                                                                            JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+      estimation results. The model estimated assumes that the random coefficients are normally distributed,
+      as we have no a priori reason to assume another pattern of variation among our decision makers.
+           Our choice set includes walk, car (family vehicle), carpool, and school bus. We found that estimates
+      did not always converge when the bicycle choice was included; therefore, we omit bicycling from the
+      mode choice model (only 32 students use bicycles as their primary mode). The survey data also include
+      transit and other motorized modes, but as the number of observations for these is small, we also exclude
+      them from our analysis. Two schools do not provide school bus service and for these we constrain the
+      choice set to only three modes. We did not have information on car ownership, so could not constrain
+      the choice of car mode if no car was owned by the household. Table 4 shows the distribution of the
+      modes chosen in our sample. Car is chosen most frequently, followed by walking.
+           Our travel-time variable is specified as an alternative-specific variable for two of our travel modes,
+      car and walking, calculated from the network distance and our estimates of travel speed by mode. We
+      do not have information on the travel time for carpooling and school buses. School bus availability is
+      included as specific to the school bus mode, since obviously the option of choosing to use a school bus
+      can only be made when school bus service is provided.
+
+      Table 4: Distribution of modes chosen.
+
+       Model                                             Case with mode                Frequency         Percent
+                                 Mode
+                                                         in choice set                 selected          selected
+
+                                 Car                     7,767                         3,890             50.08
+       Mixed logit               Carpool                 7,767                         626               8.06
+       (repeated mode
+       choice)                   School bus              1,358                         596               7.67
+                                 Walk                    7,767                         2,665             34.18
+
+            We specify the grade the child is in as a walk-mode alternative-specific variable. The parental deci-
+      sion to allow a child to walk to school is partly determined by the age of the child (we do not have child
+      age as a variable, so the grade level proxies for this).
+            We use the walking encouragement question as an alternative-specific variable for walking. While
+      it is clear that many parents were unaware of whether there was any encouragement, there are clearly
+      schools that appear to encourage walking, such as George Washington Middle School and Henrietta
+      Hawes Elementary School in Ridgewood, compared to others where the affirmative response is low,
+      such as Dunn Middle School in Trenton and Netcong Elementary in Netcong.
+            We specify household ethnic groups as case-specific and categorize this into four groups—White,
+      African-American, Hispanic/Latino, Other races (usually Asian)/Prefer not to answer (with the latter
+      acting as the reference group in our regressions). We expect children’s travel mode to school will differ
+      by ethnic groups, with White being more likely to use cars and minority groups more likely to walk.
+            We analyzed three different models, including various sets of variables independently. This was
+      done since many of our independent variables were correlated making interpretation of a full model
+      problematic; convergence in mixed logit models can also be difficult when too many independent vari-
+      ables are specified. Thus, we classified variables based on land use, network characteristics, and road
+      and pedestrian infrastructure. We keep mode-specific and socioeconomic variables constant across all
+      specifications. The model results are discussed in the next section.
+            We estimate mixed logit models using BIOGEME (Bierlaire 2003; Bierlaire 2008). We estimate
+      an error components mixed logit model and a random coefficients model. The latter provides estimates
+      of the heterogeneity of some of the variables—that is, a variance in the parameter estimates for the deci-
+
+
+
+
+                                                    This content downloaded from
+                                  130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                            All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                                         123
+
+                sion makers mode choice. The logit formula, Lni( ), is evaluated at different values (weights) of that
+                is drawn from the density f( ), and this process is repeated for a large number of draws (Train 2003).
+                The choice probability is derived based on the mean value of the draws. If the number of weights drawn
+                from the density increases, estimating random coefficients will be more accurate but the computation
+                time will increase. In estimating the model, we calculated 1000 draws from the density on the basis of
+                Halton sequences (Train 2003; Bierlaire 2009). The calculated gradient vector never reaches zero (Train
+                2003). We use a maximum gradient of 0.0001 to determine convergence for the model (Bierlaire 2009).
+                Robust standard errors are derived from the mixed logit model; this is needed because of the use of
+                repeated choices and the clustering of the data around schools. We report the robust t-statistics for the
+                mixed logit model.
+
+
+                5           Results and discussion
+
+                Model results are displayed in Table 5, for models with land-use variables, Table 6 for models with
+                road-connectivity variables, and Table 7 for models with various road-infrastructure variables. The first
+                column displays the error components model and the second column shows results for the random
+                coefficients model. We note any differences in terms of statistical significance between these models.
+                As we are using these models to test hypotheses and not to make predictions, we are less concerned
+                about minor differences in estimated coefficient values. The random coefficients models have higher
+                log-likelihoods for the models in Table 6 and Table 7, suggesting a superior model fit. The difference in
+                log-likelihood is barely distinguishable for the model in Table 5.
+                      In all our models we find that travel time is negative and statistically significant (at a 99 percent con-
+                fidence level) for both the car and walk modes (we did not have information on travel times for carpools
+                and school buses). We would expect the magnitude of the parameter estimate to be larger for walking,
+                representing some unmeasured factor that makes walking more onerous, but in almost all cases, we find
+                that the parameter estimate is smaller, suggesting that the time devoted to walking is less onerous for the
+                decision maker compared to driving. This result differs from McDonald (2008, 23–35) and Sidhartan
+                et al. (2011, 78–86), both who found a larger (negative) coefficient on time spent walking. Both studies
+                used National Household Travel Survey (NHTS) data, with the latter study using the oversample for
+                the Los Angeles region. McDonald (2008, 23–35) did not include any detail on urban form and design
+                characteristics at the school, while Sidhartan et al. (2011, 78–86) included an accessibility measure for
+                retail employment. While the length of the trip will clearly influence the trade-off of whether to walk or
+                drive, our result is enlightening and may be due to the different travel-time constraints associated with
+                school trips. The time spent walking is the child’s time (unless accompanied by a caregiver), while the
+                time spent driving affects the caregiver and may be part of a more complex time-constrained trip.
+                      We also find that our parameter for the child’s grade is positive and statistically significant, im-
+                plying that older children are more likely to walk to school, as expected and as found in other studies
+                (McDonald 2008, 23–35; Sidhartan et al. 2011, 78–86; Mitra, Buliung, and Roorda 2010, 150–159;
+                McDonald 2008, 324–331). We also find that those parents who believe the school encourages walk-
+                ing are more likely to have children who walk to school. This is a potentially endogenous variable, as it
+                may be that those parents who allow their children to walk are most aware that the school encourages
+                walking, so it is not possible to conclude whether this is a policy variable that can influence behavior.
+                      Each model includes control variables for household ethnicity. Our reference variable for these is
+                “other races/Asian” and those who did not answer (the latter is 5.2 percent of our sample).89 Results tend
+                to vary slightly between the three models. Hispanics appear to not drive their children to school, or if
+                they do, they carpool.
+                9
+                    About 16 percent of the sample were Asian. We grouped these with those who did not report their ethnicity, as the mode
+                choice proportions were similar. This avoided our having to drop about 5 percent of the sample because of missing data.
+
+
+                                                                This content downloaded from
+                                              130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                        All use subject to https://about.jstor.org/terms
+
+124                                                                                          JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+
+
+            In some models, Whites also have a slightly higher propensity to carpool relative to driving, while
+      African-Americans have a positive coefficient for walking and for school bus use, and less for driving
+      and carpooling. In general, this result suggests an income effect, as minority populations in the schools
+      surveyed tended to have lower incomes. Results in other studies also tend to be inconclusive; McDonald
+      (2008, 324–331) found Latinos more likely to walk in one analysis, but not in another, using NHTS
+      data for both (McDonald 2008, 23–35). We suspect that the lack of consistent results for these control
+      variables across studies may be due to correlations between the different land use and urban design vari-
+      ables included or excluded in each model; that is, within our sample there are clearly different propor-
+      tions of each ethnic group living in each school area.
+            Our key variables of interest are those that measure various land use, urban form, and design fea-
+      tures near each school. The discussion that follows focuses on each model in turn; we emphasize the
+      benefits of the mixed logit model estimates on the heterogeneity of the sample and how this provides
+      additional behavioral information. There are some minor differences between the error components and
+      random coefficients models, and we discuss the likely reasons for this.
+            Table 5 includes categorical variables for residential density near the school, proxying for land use.
+      These include two levels of residential density, all relative to low density—generally rural land use. The
+      random coefficients model estimates demonstrate the heterogeneity in our sample. The parameters for
+      residential density (2–4 units/acre) imply that 43.6 percent of decision makers are not always influenced
+      by density in their choice to walk; the mean value for this parameter is not distinguishable from zero,
+      and the impact is likely cancelled out by the large taste variation. However, for residential density greater
+      than 5 units/acre, the coefficient is significant, with the standard deviation not being significant, suggest-
+      ing a threshold effect associated with density and walking to school.
+            There is similar random taste variation in the parental choice with respect to a child’s travel to
+      school by carpool. This may be related to parental preference for carpooling independent of urban den-
+      sity and walking-friendly environments.
+            One variable differs in the error components version of this model. The bus-specific variable for
+      residential density between 2–4 units/acre is negative and statistically significant, as opposed to a lower
+      level of significance in the random coefficients model. The carpool and walk coefficients for this vari-
+      able are not statistically significant while they show a significant standard deviation in the random
+      coefficients model, suggesting a distinct pattern of heterogeneity among respondents. This shows the
+      additional information the random coefficients model provides.
+            We examine various measures of connectivity with a dummy variable representing whether there
+      is a traditional or modified grid (relative to no grid), which we expect to be associated with walking. A
+      variable for block sizes of less than 500 ft. versus those greater than 500 ft. is included; smaller block
+      sizes are assumed to increase walking. For sidewalks, our dummy variable represents whether they are
+      everywhere and on both sides of the street. These variables are measured based on their adjacency to the
+      school (as opposed to within the immediate neighborhood). Results are shown in Table 6.
+            We find that a grid network is associated with a decrease in driving to school; other work that
+      evaluates associations of street connectivity with travel behavior generally finds that a grid network
+      encourages walking and discourages driving (Cervero and Kockelman 1997, 199–219). Walking is
+      found to be more likely, as is using a school bus or carpooling. The school bus coefficient has the larg-
+      est effect. This result suggests that schools situated in a grid network reduce the likelihood that parents
+      drive their children alone to school. While we can only speculate, this may be due to slower travel speeds
+      in traditional grid networks, making the school bus more attractive relative to being driven. In all cases
+      the standard deviation of the parameter is not statistically significant, suggesting little heterogeneity and
+      taste variation with respect to this variable (the error components model shows a similar result). This is a
+
+
+
+
+                                                  This content downloaded from
+                                130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                          All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                                              125
+
+                useful finding and demonstrates that the street layout is an important consideration for reduced driving.
+                      Smaller block sizes adjacent to the school have an association with walking and actually have a
+                negative association with school bus use (relative to driving). This suggests that larger block sizes increase
+                driving to school, perhaps making it easier to quickly drop off students near the school; also, large block
+                sizes may make it easier for school buses to access the school, perhaps leading school districts to supply
+                more service. For carpools, however, only the standard deviation is significant in the random coefficients
+                model, while the parameter is positive in the error components model. This suggests that some fraction
+                of parents will carpool children to school most of the time.
+                      Sidewalks near the school are also strongly associated with walking, relative to driving. Sidewalks
+                near the school appear to have a negative association with school bus use; again, this may be because
+                when sidewalks are not present, better school bus service is supplied. Carpool usage again shows sub-
+                stantial taste heterogeneity; the parameter estimate is significant in the error components model while
+                the standard deviation in the random coefficients model is significant. Probably the key conclusion from
+                this is that lack of sidewalks is associated with more driving to school.
+                      Our final model examines the association with various road infrastructure facilities that can either
+                benefit or hinder pedestrians (Table 7). Those schools with larger sidewalk widths in their immediate
+                vicinity are associated with more children walking to school relative to both driving and other modes
+                of travel (carpools show a negative effect relative to driving). First, the magnitude of the coefficient for
+                the walk mode increases as sidewalk width increases, suggesting that the size of the sidewalk makes a
+                difference in the choice to walk; the standard deviation of the coefficient also increases, suggesting some
+                heterogeneity in how this variable affects behavior. The model shows that 17.1 percent and 17.6 percent
+                of decision makers are not affected by sidewalks in their choice of walking mode for sidewalks 12 feet in
+                width and 6–12 feet in width, respectively. This implies that a certain proportion of parents decide upon
+                their child’s travel mode independent of the sidewalk width. The error components model also is statis-
+                tically significant and the parameter increases as the sidewalk width increases. Therefore, this provides
+                evidence that sidewalks perceived as safer (i.e., wider) can influence the choice of walking for children’s
+                travel to school; a fraction of parents, however, choose their child’s travel mode based on unmeasured
+                preferences rather than this design factor. Carpool and bus coefficients are negative and also show some
+                heterogeneity.
+                      We find that speed limits of 25 mph on the streets near the school have a negative association with
+                walking, albeit only statistically significant in the error components model. School bus and carpool
+                usage also have a negative association with 25 mph streets relative to streets of 35 mph and above (the
+                reference case); coefficients are larger than for the walking mode. This may imply that driving is more
+                efficient when speed limits are higher. One school in our dataset is near a road with a 40 mph speed
+                limit (Park Avenue Elementary School in Freehold); most of the Hispanic students in our sample from
+                this school walk, while the white students are driven or take a school bus. This may be influencing the
+                result on speed limits and suggests that more detail may be needed on how different ethnic groups are
+                constrained in how their children travel to school.109
+                      We also include a measure of off-street parking around the school, as large amounts of parking
+                would likely be a deterrent to walking. Relative to larger amounts of off-street parking, we find that a
+                parking capacity of less than about 25 vehicles is positively associated with walking and school bus use
+                relative to driving. On the other hand, carpool use is greater, perhaps reflecting that a large parking lot
+                makes it easier to drop students off; this variable was not significant in the error components model. We
+                also tested various other infrastructure features, such as the presence of traffic signals, crosswalks, and
+                medians, and found no statistically significant associations; these results were not included in the final
+
+                10
+                     For example, we did not have information on whether a car was available for the trip to school and could not constrain the
+                choice set accordingly.
+
+
+
+
+                                                                  This content downloaded from
+                                                130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                          All use subject to https://about.jstor.org/terms
+
+126                                                                                               JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+      model.
+                For the most part, these results support the hypothesis that various network connectivity and urban street
+      design components have an association with parents allowing their children to walk to school. Our strongest results
+      are for our network connectivity variable, which is associated with both walking, carpooling, and school bus use.
+      Land-use patterns (proxied by residential density) appear to also exhibit the hypothesized effect of increasing residen-
+      tial density having an association with increased walking. Of the infrastructure variables, wider sidewalks also have a
+      strong association with walking to school. Other variables included in our models— travel time, grade of child, and
+      walking encouragement by the school—have the expected relationships. Our household ethnicity controls do not
+      show consistent results, perhaps due to the distribution of different groups between schools and interactions with the
+      urban design features around each school.
+
+
+
+
+                                                       This content downloaded from
+                                     130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                               All use subject to https://about.jstor.org/terms
+
+130                                                                                                   JOURNAL OF TRANSPORT AND LAND USE 7.2
+
+                                                                                           Mixed Logit                     Mixed Logit
+                                                                                           (error components)              (random coefficients)
+       Variables (Alternatives)
+                                                                                           Coefficient     Robust t-test   Coefficient      Robust t-test
+       Error components (Bus/Car)                             Mean                         0               -
+
+                                                              Std. Dev.                    0.221*          -1.79
+
+       Error components (Carpool/Car)                         Mean                         0               -
+
+                                                              Std. Dev.                    0.020           -0.11
+
+       Error components (Walk/Car)                            Mean                         0               -
+
+                                                              Std. Dev.                    1.510***        4.12
+
+       Number of observations                                                                              7,767                            7,767
+
+       Number of individuals                                                                               1,571                            1,571
+
+       Final log-likelihood                                                                            -5,840.43                           -5,808.08
+
+       Likelihood ratio test                                                                             6,166.33                           6,231.04
+
+       Rho-squared                                                                                         0.346                            0.349
+
+       Adjusted rho-squared                                                                                0.342                            0.344
+
+             Base alternative (car); reference for household ethnic group: other races, Asian, and prefer not to answer; references for
+             infrastructure: no sidewalk, 35 mph speed limits, parking capacity >25.
+
+
+
+      6            Conclusions
+
+      We have presented results from a mode choice analysis of how children travel to a sample of schools in
+      New Jersey. Our basic results suggest that various network design, infrastructure, and land-use features
+      that result in what are considered more walkable features have an association with walking. The existence
+      of a sidewalk network, the size of the sidewalks, and the existence of grid networks in particular tend to
+      be associated with less driving and more walking. Much of the research in this area has found the same
+      result, although Mitra (2012, 1–23) reports some inconsistencies between study results.
+            One contribution of our work beyond that of other school trip studies is the use of a mixed logit
+      model. This allows us to examine the heterogeneity in the sample. Our results clearly show that there
+      is random taste variation in the sample that has not been controlled for in previous studies. Some fixed
+      proportion of the decision makers in our sample are not affected by pedestrian-friendly design and in-
+      frastructure in making the decision to allow their children to walk to school. A better understanding of
+      parental attitudes and methods to measure those attitudes might provide a means to fully understand
+      these effects. The framework suggested by Mitra (2012, 1–23) includes attitudes of households that
+      should be controlled for in future studies.
+            Our study suffers from some limitations. First, our results are associative. We cannot provide strong
+      conclusions as to whether infrastructure interventions will increase walking activity. While our results
+      are theoretically consistent with how we expect decision makers to react, our methods are not adequate
+      for drawing causal interpretations. Another issue is that we cannot deal with the endogeneity of school
+      choice—that is, parents who want their children to walk to school chose to live near schools their chil-
+      dren can walk to. This would require detailed information on residential location choice, which is not
+      available. An additional limitation is that the sampling strategy has not resulted in a random sample,
+      either of schools or parents in each school. While some individual schools achieved adequate response
+      rates, we would expect those parents that are more involved with the school and more active in their
+      children’s education to be more likely to respond. We were unable to have any follow up to increase the
+      sampling rate. Likewise, the schools self-selected into the sample, either because they were seeking state
+      funding or had an active Safe Routes to School program; despite this, some of the schools do not have
+
+
+
+
+                                                          This content downloaded from
+                                        130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                  All use subject to https://about.jstor.org/terms
+
+A mode choice analysis of school trips in New Jersey                                                                           131
+
+                proactive policies to increase active commuting to school (e.g., some schools did not allow bicycling).
+                Difficulties with gaining access to school samples suggest that randomized sampling focused on specific
+                neighborhoods might be needed, although this will capture many residents with no children attending
+                school, and thus is a costly approach.
+                     Future research in this area will need to investigate actual interventions at a random sample of
+                schools. These interventions can include educational efforts to increase walking as well as infrastructure
+                changes to increase the safety of walking. A difficulty with any study of this type is accessing the sample
+                of children and satisfying any privacy concerns of parents. These issues are, however, critical in seeking
+                not only to increase the activity of children to tackle obesity, but also to reduce driving and its environ-
+                mental impacts.
+
+
+                Acknowledgements
+
+                This research was funded by the New Jersey Department of Transportation Safe Routes to School Pro-
+                gram. The authors accept all responsibility for the content of this paper, and the views expressed herein
+                are in no way the views or policy of the New Jersey Department of Transportation. The authors thank
+                Jennifer Rovito, Sean Meehan, and Andrew Besold for research assistance.
+
+
+                References
+
+                Alfonzo, M. A. 2005. To walk or not to walk? The hierarchy of walking needs. Environment and Behav-
+                   ior 37(6): 808–836. http://dx.doi.org/10.1177/0013916504274016.
+                Bierlaire, M. 2003. BIOGEME: A free package for the estimation of discrete choice models. Proceedings
+                   of the 3rd Swiss Transportation Research Conference, Ascona, Switzerland.
+                ———. 2008. An Introduction to BIOGEME. Version 1.6 ed. biogeme.epfl.ch.
+                ———. Estimation of Discrete Choice Models with BIOGEME 1.8. Ecole Polytechnique Federale de
+                   Lausanne, Lausanne, Switzerland.
+                Boarnet, M. G., C. L. Anderson, K. Day, T. E. McMillan, and M. Alfonzo. 2005. Evaluation of the
+                   California Safe Routes to School legislation: Urban form change and children’s active tranportation
+                   to school. American Journal of Preventive Medicine 28(2S2): 134–140. http://dx.doi.org/10.1016/j.
+                   amepre.2004.10.026.
+                Cervero, R. and K. Kockelman. 1997. Travel demand and the 3Ds: Density, diversity, and design. Trans-
+                   portation Research D 2(3): 199–219. http://dx.doi.org/10.1016/S1361-9209(97)00009-6.
+                Coleman, K. J., D. E. Rosenberg, T. L. Conway, J. F. Sallis, B. E. Saelens, L. D. Frank, and K. Cain.
+                   2008. Physical activity, weight status, and neighborhood characteristics of dog walkers. Preventive
+                   Medicine 47(3): 309–312. http://dx.doi.org/10.1016/j.ypmed.2008.05.007.
+                Ewing, R. and R. Cervero. 2001. Travel and the built environment: A synthesis. Transportation Research
+                   Record 1780(1): 87–114. http://dx.doi.org/10.3141/1780-10.
+                Ewing, R., W. Schroeer, and W. Greene. 2004. School location and student travel analysis of factors
+                   affecting mode choice. Transportation Research Record: Journal of the Transportation Research Board
+                   1895: 55–63. http://dx.doi.org/10.3141/1895-08.
+                Frank, L. D., T. L. Schmid, J. F. Sallis, J. Chapman, and B. E. Saelens. 2005. Linking objectively mea-
+                   sured physical activity with objectively measured urban form: Findings from SMARTRAQ. American
+                   Journal of Preventive Medicine 28(2): 117–125. http://dx.doi.org/10.1016/j.amepre.2004.11.001.
+                Frank, L. D., J. F. Sallis, B. E. Saelens, L. Leary, K. Cain, T. L. Conway, and P. M. Hess. 2010. The devel-
+
+
+
+
+                                                              This content downloaded from
+                                            130.113.111.210 on Wed, 07 Apr 2021 20:56:20 UTC
+                                                      All use subject to https://about.jstor.org/terms
 

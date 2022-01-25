@@ -32,7 +32,6 @@
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 \bibliographystyle{elsarticle-harv}
-\usepackage{graphicx}
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
@@ -137,7 +136,7 @@ AST initiatives. Green Communities Canada runs the program, called
 \emph{Ontario Active School Travel}, and determines the projects that
 will be funded with their support (Canada, 2020a). As of December 2021,
 OAST has awarded over 2 million Canadian dollars and provided resources
-for over 25 projects across Ontario. Many communities implemented school
+to over 25 projects across Ontario. Many communities implemented school
 travel planning (STP), along with encouragement activities like walking
 school buses or developed resources for schools and parents, among other
 actions (see Canada, 2020b). In this context, STP is a popular
@@ -177,17 +176,17 @@ result from the individual or household making different travel
 decisions? Or is AST framed as an issue that must be addressed through
 changes in the built environment or at the policy level?
 
-In this paper, we use text mining and topic modelling to examine how
-three STP stakeholder groups in Ontario (i.e., municipalities, school
-boards, and transportation consortia) frame the issue of AST. We
-assembled a corpus of texts from webpages that can be considered an
-important source of information for the general public or parents who
-are interested in AST. We examine word frequency, bigrams, and
-concordances in these selected documents, and also identify key topics
-presented by each stakeholder group. We then compare the findings from
-these documents to a selection of studies on AST and explore the extent
-to which there is concordance between the literature on AST and
-materials shared with the public.
+In this paper, we use natural language processing to examine how three
+STP stakeholder groups in Ontario (i.e., municipalities, school boards,
+and transportation consortia) frame the issue of AST. We assembled a
+corpus of texts from webpages that can be considered an important source
+of information for the general public or parents who are interested in
+AST. We examine word frequency, bigrams, and concordances in these
+selected documents, and also identify key topics presented by each
+stakeholder group. We then compare the findings from these documents to
+a selection of studies on AST and explore the extent to which there is
+concordance between the literature on AST and materials shared with the
+public.
 
 \hypertarget{literature-review}{%
 \section{2. Literature Review}\label{literature-review}}
@@ -246,10 +245,10 @@ literature is that various factors are interrelated and that
 interventions should target multiple levels in order to increase levels
 of healthy and physically active modes of travel to school (Mitra,
 2013). Rather than describing an extensive list of factors that
-influence AST and mode choice in Canada, which has been covered
-elsewhere (e.g., Mammen et al., 2012; Mitra, 2013; Rothman et al., 2018;
-Wilson et al., 2018), we briefly discuss a few potentially modifiable
-determinants that may be targeted for change through STP.
+influence AST and mode choice in Canada (e.g., Mammen et al., 2012;
+Mitra, 2013; Rothman et al., 2018; Wilson et al., 2018), we discuss a
+few potentially modifiable determinants that may be targeted for change
+through STP.
 
 At the individual level, older child age is often associated with AST
 (Mammen et al., 2012; Stark et al., 2018; Wilson et al., 2018) as
@@ -331,10 +330,10 @@ agendas over this time as evidenced by the financial contribution from
 the provincial government. The support from a range of municipal
 representatives (see Buttazzoni et al., 2018; Mammen et al., 2015)
 demonstrates that the ``policy stream'' (see Kingdon, 1984) has been
-well engaged. It is unknown to what degree the general public (i.e.,
-local residents) has been exposed to messaging about AST, which could
-affect their participation in the STP process as desired by STP
-facilitators (Buttazzoni et al., 2018).
+well engaged. However, it is unknown to what degree the general public
+(i.e., local residents) has been exposed to messaging about AST, or how
+they view the AST issue, which could affect their participation in the
+STP process as desired by STP facilitators (Buttazzoni et al., 2018).
 
 The success of STP interventions would likely depend on parental
 judgments of factors that are related to school travel, as well as
@@ -343,9 +342,9 @@ view mixed land use as conducive for driving, despite transport planners
 viewing neighbourhoods with mixed uses as key for encouraging more
 active travel (Buliung et al., 2021). Therefore, stakeholder groups
 involved in STP must make important choices about the proposed solutions
-and potential benefits that ought to be communicated to parents and the
-general public about AST to convey its importance as a policy issue and
-to facilitate adoption of AST. Publicly available content about AST,
+and potential benefits of AST that ought to be communicated to parents
+and the general public to convey its importance as a policy issue and to
+facilitate adoption of AST. Publicly available content about AST,
 therefore, needs to effectively engage multiple audiences on this policy
 issue including parents, children, politicians, and school
 representatives. This information should reflect current knowledge from
@@ -615,35 +614,35 @@ more documents.
 \cmidrule(l{3pt}r{3pt}){1-3} \cmidrule(l{3pt}r{3pt}){4-6} \cmidrule(l{3pt}r{3pt}){7-9} \cmidrule(l{3pt}r{3pt}){10-12}
 Term & Count (n) & Documents (n) & Term & Count (n) & Documents (n) & Term & Count (n) & Documents (n) & Term & Count (n) & Documents (n)\\
 \midrule
-\cellcolor{gray!6}{active} & \cellcolor{gray!6}{248} & \cellcolor{gray!6}{26} & \cellcolor{gray!6}{active} & \cellcolor{gray!6}{124} & \cellcolor{gray!6}{13} & \cellcolor{gray!6}{active} & \cellcolor{gray!6}{67} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{walking} & \cellcolor{gray!6}{5137} & \cellcolor{gray!6}{222}\\
-travel & 126 & 20 & bus & 120 & 20 & walking & 55 & 8 & parents & 3946 & 211\\
-\cellcolor{gray!6}{walking} & \cellcolor{gray!6}{90} & \cellcolor{gray!6}{25} & \cellcolor{gray!6}{travel} & \cellcolor{gray!6}{103} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{walk} & \cellcolor{gray!6}{49} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{distance} & \cellcolor{gray!6}{3271} & \cellcolor{gray!6}{205}\\
-bike & 87 & 15 & information & 65 & 21 & travel & 41 & 8 & students & 2960 & 173\\
-\cellcolor{gray!6}{cycling} & \cellcolor{gray!6}{78} & \cellcolor{gray!6}{22} & \cellcolor{gray!6}{walking} & \cellcolor{gray!6}{57} & \cellcolor{gray!6}{17} & \cellcolor{gray!6}{students} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{9} & \cellcolor{gray!6}{cycling} & \cellcolor{gray!6}{2753} & \cellcolor{gray!6}{171}\\
+\cellcolor{gray!6}{active} & \cellcolor{gray!6}{248} & \cellcolor{gray!6}{26} & \cellcolor{gray!6}{active} & \cellcolor{gray!6}{124} & \cellcolor{gray!6}{13} & \cellcolor{gray!6}{active} & \cellcolor{gray!6}{67} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{walking} & \cellcolor{gray!6}{5059} & \cellcolor{gray!6}{220}\\
+travel & 126 & 20 & bus & 120 & 20 & walking & 55 & 8 & parents & 3927 & 209\\
+\cellcolor{gray!6}{walking} & \cellcolor{gray!6}{90} & \cellcolor{gray!6}{25} & \cellcolor{gray!6}{travel} & \cellcolor{gray!6}{103} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{walk} & \cellcolor{gray!6}{49} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{distance} & \cellcolor{gray!6}{3252} & \cellcolor{gray!6}{203}\\
+bike & 87 & 15 & information & 65 & 21 & travel & 41 & 8 & students & 2956 & 171\\
+\cellcolor{gray!6}{cycling} & \cellcolor{gray!6}{78} & \cellcolor{gray!6}{22} & \cellcolor{gray!6}{walking} & \cellcolor{gray!6}{57} & \cellcolor{gray!6}{17} & \cellcolor{gray!6}{students} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{9} & \cellcolor{gray!6}{cycling} & \cellcolor{gray!6}{2739} & \cellcolor{gray!6}{170}\\
 \addlinespace
-safety & 71 & 21 & walk & 53 & 13 & safety & 32 & 6 & environment & 2631 & 202\\
-\cellcolor{gray!6}{health} & \cellcolor{gray!6}{65} & \cellcolor{gray!6}{21} & \cellcolor{gray!6}{weather} & \cellcolor{gray!6}{40} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{help} & \cellcolor{gray!6}{29} & \cellcolor{gray!6}{9} & \cellcolor{gray!6}{activity} & \cellcolor{gray!6}{2371} & \cellcolor{gray!6}{209}\\
-physical & 63 & 18 & safety & 40 & 19 & schools & 25 & 9 & traffic & 2353 & 208\\
-\cellcolor{gray!6}{traffic} & \cellcolor{gray!6}{59} & \cellcolor{gray!6}{20} & \cellcolor{gray!6}{safe} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{19} & \cellcolor{gray!6}{children} & \cellcolor{gray!6}{25} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{choice} & \cellcolor{gray!6}{2299} & \cellcolor{gray!6}{169}\\
-road & 56 & 13 & services & 37 & 17 & community & 24 & 7 & physical & 2256 & 215\\
+safety & 71 & 21 & walk & 53 & 13 & safety & 32 & 6 & environment & 2585 & 200\\
+\cellcolor{gray!6}{health} & \cellcolor{gray!6}{65} & \cellcolor{gray!6}{21} & \cellcolor{gray!6}{weather} & \cellcolor{gray!6}{40} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{help} & \cellcolor{gray!6}{29} & \cellcolor{gray!6}{9} & \cellcolor{gray!6}{traffic} & \cellcolor{gray!6}{2334} & \cellcolor{gray!6}{206}\\
+physical & 63 & 18 & safety & 40 & 19 & schools & 25 & 9 & choice & 2295 & 167\\
+\cellcolor{gray!6}{traffic} & \cellcolor{gray!6}{59} & \cellcolor{gray!6}{20} & \cellcolor{gray!6}{safe} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{19} & \cellcolor{gray!6}{children} & \cellcolor{gray!6}{25} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{activity} & \cellcolor{gray!6}{2265} & \cellcolor{gray!6}{207}\\
+road & 56 & 13 & services & 37 & 17 & community & 24 & 7 & physical & 2238 & 213\\
 \addlinespace
-\cellcolor{gray!6}{activity} & \cellcolor{gray!6}{55} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{planning} & \cellcolor{gray!6}{37} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{bus} & \cellcolor{gray!6}{18} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{trips} & \cellcolor{gray!6}{2194} & \cellcolor{gray!6}{170}\\
-schools & 52 & 14 & parents & 32 & 17 & route & 17 & 5 & car & 2148 & 195\\
-\cellcolor{gray!6}{children} & \cellcolor{gray!6}{47} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{sustainable} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{zone} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{safety} & \cellcolor{gray!6}{2140} & \cellcolor{gray!6}{204}\\
-plan & 45 & 16 & children & 31 & 14 & resources & 16 & 6 & time & 2101 & 218\\
-\cellcolor{gray!6}{students} & \cellcolor{gray!6}{44} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{child} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{day} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{factors} & \cellcolor{gray!6}{2101} & \cellcolor{gray!6}{216}\\
+\cellcolor{gray!6}{activity} & \cellcolor{gray!6}{55} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{planning} & \cellcolor{gray!6}{37} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{bus} & \cellcolor{gray!6}{18} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{trips} & \cellcolor{gray!6}{2164} & \cellcolor{gray!6}{168}\\
+schools & 52 & 14 & parents & 32 & 17 & route & 17 & 5 & car & 2140 & 193\\
+\cellcolor{gray!6}{children} & \cellcolor{gray!6}{47} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{sustainable} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{zone} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{safety} & \cellcolor{gray!6}{2111} & \cellcolor{gray!6}{202}\\
+plan & 45 & 16 & children & 31 & 14 & resources & 16 & 6 & time & 2091 & 216\\
+\cellcolor{gray!6}{students} & \cellcolor{gray!6}{44} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{child} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{day} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{factors} & \cellcolor{gray!6}{2083} & \cellcolor{gray!6}{214}\\
 \addlinespace
-walk & 43 & 18 & day & 29 & 13 & safe & 15 & 5 & child & 2085 & 187\\
-\cellcolor{gray!6}{public} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{routes} & \cellcolor{gray!6}{28} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{planning} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{walk} & \cellcolor{gray!6}{2008} & \cellcolor{gray!6}{200}\\
-community & 37 & 19 & physical & 28 & 11 & physical & 15 & 7 & public & 1983 & 208\\
-\cellcolor{gray!6}{safe} & \cellcolor{gray!6}{34} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{health} & \cellcolor{gray!6}{28} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{healthy} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{age} & \cellcolor{gray!6}{1783} & \cellcolor{gray!6}{211}\\
-benefits & 32 & 17 & inclement & 25 & 11 & traffic & 13 & 6 & urban & 1768 & 200\\
+walk & 43 & 18 & day & 29 & 13 & safe & 15 & 5 & child & 2060 & 185\\
+\cellcolor{gray!6}{public} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{routes} & \cellcolor{gray!6}{28} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{planning} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{walk} & \cellcolor{gray!6}{1985} & \cellcolor{gray!6}{198}\\
+community & 37 & 19 & physical & 28 & 11 & physical & 15 & 7 & public & 1973 & 206\\
+\cellcolor{gray!6}{safe} & \cellcolor{gray!6}{34} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{health} & \cellcolor{gray!6}{28} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{healthy} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{age} & \cellcolor{gray!6}{1774} & \cellcolor{gray!6}{209}\\
+benefits & 32 & 17 & inclement & 25 & 11 & traffic & 13 & 6 & urban & 1749 & 198\\
 \addlinespace
-\cellcolor{gray!6}{play} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{eligibility} & \cellcolor{gray!6}{24} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{support} & \cellcolor{gray!6}{13} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{home} & \cellcolor{gray!6}{1715} & \cellcolor{gray!6}{199}\\
-resources & 30 & 13 & consortium & 24 & 9 & families & 13 & 5 & social & 1713 & 191\\
-\cellcolor{gray!6}{healthy} & \cellcolor{gray!6}{29} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{region} & \cellcolor{gray!6}{23} & \cellcolor{gray!6}{10} & \cellcolor{gray!6}{way} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{different} & \cellcolor{gray!6}{1713} & \cellcolor{gray!6}{215}\\
-routes & 27 & 13 & service & 22 & 11 & student & 12 & 5 & mobility & 1659 & 138\\
-\cellcolor{gray!6}{lanes} & \cellcolor{gray!6}{26} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{•} & \cellcolor{gray!6}{21} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{region} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{significant} & \cellcolor{gray!6}{1650} & \cellcolor{gray!6}{208}\\
+\cellcolor{gray!6}{play} & \cellcolor{gray!6}{31} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{eligibility} & \cellcolor{gray!6}{24} & \cellcolor{gray!6}{11} & \cellcolor{gray!6}{support} & \cellcolor{gray!6}{13} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{different} & \cellcolor{gray!6}{1695} & \cellcolor{gray!6}{213}\\
+resources & 30 & 13 & consortium & 24 & 9 & families & 13 & 5 & home & 1691 & 197\\
+\cellcolor{gray!6}{healthy} & \cellcolor{gray!6}{29} & \cellcolor{gray!6}{16} & \cellcolor{gray!6}{region} & \cellcolor{gray!6}{23} & \cellcolor{gray!6}{10} & \cellcolor{gray!6}{way} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{social} & \cellcolor{gray!6}{1672} & \cellcolor{gray!6}{189}\\
+routes & 27 & 13 & service & 22 & 11 & student & 12 & 5 & significant & 1644 & 206\\
+\cellcolor{gray!6}{lanes} & \cellcolor{gray!6}{26} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{•} & \cellcolor{gray!6}{21} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{region} & \cellcolor{gray!6}{12} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{mobility} & \cellcolor{gray!6}{1634} & \cellcolor{gray!6}{136}\\
 \bottomrule
 \multicolumn{12}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{12}{l}{\rule{0pt}{1em} }\\
@@ -812,41 +811,6 @@ Terms & Stakeholder & Context\\
 
 \hypertarget{topic-modelling-1}{%
 \subsection{5.3. Topic modelling}\label{topic-modelling-1}}
-
-\begin{verbatim}
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-\end{verbatim}
-
-\includegraphics{AST-Framing-Ontario_files/figure-latex/evaluate-lda-1.pdf}
-
-\begin{verbatim}
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-\end{verbatim}
-
-\includegraphics{AST-Framing-Ontario_files/figure-latex/evaluate-lda-2.pdf}
-
-\begin{verbatim}
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-\end{verbatim}
-
-\includegraphics{AST-Framing-Ontario_files/figure-latex/evaluate-lda-3.pdf}
-
-\begin{verbatim}
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-\end{verbatim}
-
-\includegraphics{AST-Framing-Ontario_files/figure-latex/evaluate-lda-4.pdf}
-
-\begin{verbatim}
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-\end{verbatim}
-
-\includegraphics{AST-Framing-Ontario_files/figure-latex/evaluate-lda-5.pdf}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{AST-Framing-Ontario_files/figure-latex/policy-terms-1} \caption{\label{fig:policy-terms}Topics identified in the policy corpus according to clusters of words.}\label{fig:policy-terms}
@@ -1037,35 +1001,35 @@ bike ride to and from school has never been easier, safer or healthier.}
 \subsection{6.1. Framing in STP
 documents}\label{framing-in-stp-documents}}
 
-Using topic modelling, we analyzed how AST is framed in documents
-available to the general public on the websites of STP stakeholder
-groups in Ontario. We found that AST is primarily framed to parents as
-beneficial to the health and wellbeing of children and to environmental
-sustainability. This was confirmed by the most common bigrams identified
-in the policy corpus, as well as the topics identified by the LDA model.
-The policy documents adequately reflect the evidence that AST
-contributes positively to children's physical health (see Faulkner et
-al., 2009; Schoeppe et al., 2015), although the statements regarding the
-benefits of AST to children's school performance and cognitive
-development need to be studied further to produce stronger evidence
-({\textbf{???}}). STP stakeholder groups also communicate that
-increasing AST may reduce traffic near and around schools. This
-presumably is communicated to alleviate parental concerns about traffic
-and safety (Evers et al., 2014; Mammen et al., 2012; Rothman et al.,
-2015; Wilson et al., 2018) or reduce the frequency of risky behaviours
-from drivers around schools (Rothman et al., 2017). However, the
-documents do not explain why declining rates of AST are a problem for
-the particular community or convey any urgency to this issue so that it
-attracts the attention of parents, the general public, or policy makers.
-Communicating the potential outcomes of increased AST may be persuasive
-arguments to motivate behaviour change, but these documents do not
-appear to encourage parents or the general public to view their
-behaviour as problematic or unhealthy for their children's development.
-For example, Canadian parents who escort their children to school have
-reported concerns about traffic volume around schools (Mammen et al.,
-2012), but may not recognize that their own behaviour contributes to the
-problem that is perceived to prevent their child from safely walking or
-bicycling to school (Collins and Kearns, 2001).
+Using natural language processing techniques, we analyzed how AST is
+framed in documents available to the general public on the websites of
+STP stakeholder groups in Ontario. We found that AST is primarily framed
+to parents as beneficial to the health and wellbeing of children and to
+environmental sustainability. This was confirmed by the most common
+bigrams identified in the policy corpus, as well as the topics
+identified by the LDA model. The policy documents adequately reflect the
+evidence that AST contributes positively to children's physical health
+(see Faulkner et al., 2009; Schoeppe et al., 2015), although the
+statements regarding the benefits of AST to children's school
+performance and cognitive development need to be studied further to
+produce stronger evidence ({\textbf{???}}). STP stakeholder groups also
+communicate that increasing AST may reduce traffic near and around
+schools. This presumably is communicated to alleviate parental concerns
+about traffic and safety (Evers et al., 2014; Mammen et al., 2012;
+Rothman et al., 2015; Wilson et al., 2018) or reduce the frequency of
+risky behaviours from drivers around schools (Rothman et al., 2017).
+However, the documents do not explain why declining rates of AST are a
+problem for the particular community or convey any urgency to this issue
+so that it attracts the attention of parents, the general public, or
+policy makers. Communicating the potential outcomes of increased AST may
+be persuasive arguments to motivate behaviour change, but these
+documents do not appear to encourage parents or the general public to
+view their behaviour as problematic or unhealthy for their children's
+development. For example, parents who escort their children to school
+have reported concerns about traffic volume around schools (Mammen et
+al., 2012), but may not recognize that their own behaviour contributes
+to the problem that is perceived to prevent their child from safely
+walking or bicycling to school (Collins and Kearns, 2001).
 
 The secondary frame of AST that we interpreted based on the LDA model is
 the opportunity or prospect of behaviour change. STP stakeholder groups
@@ -1111,8 +1075,8 @@ that barriers to AST as perceived by parents are addressed. It could be
 that STP stakeholder groups perceive to have more control over
 micro-scale elements of the built environment, like traffic calming
 measures or speed limits, rather ``non-modifiable'' factors like street
-density or land use mix. It would certainly be much more difficult for
-STP stakeholder groups to influence the number of trips to different
+density or land use mix. It would also certainly be much more difficult
+for STP stakeholder groups to influence the number of trips to different
 destinations that households need to make or to intervene in residential
 location, which affects distance to school. A focus on changing parental
 perceptions is recommended by many scholars since parents are the
@@ -1124,7 +1088,7 @@ factors that influence AST.
 \subsection{6.2. Implications for school travel
 planning}\label{implications-for-school-travel-planning}}
 
-There is also a noticeable lack of focus on individual and interpersonal
+There is a noticeable lack of focus on individual and interpersonal
 determinants of AST in the policy documents. For example, the role of
 convenience and inclement weather in shaping household travel decisions
 (Buliung et al., 2011) or the age at which children become allowed to
@@ -1171,12 +1135,12 @@ in Ontario communities, it could be that the decline of AST has not been
 sufficiently framed as ``problematic'' to warrant more widespread
 awareness or solutions. If Canadian STP stakeholder groups wish to
 involve more local residents in their efforts (Buttazzoni et al., 2018),
-it would also be worthwhile for them to produce different material that
-communicates why this issue is important to the general public,
+it would also be worthwhile for them to produce different materials that
+communicate why this issue is important to the general public,
 regardless of whether they currently have children commuting to/from
-school. The ``political steam'' could also be further engaged by working
-with advocacy groups who could attract more support from a broader
-coalition of individuals.
+school. The ``political stream'' could also be further engaged by
+working with advocacy groups who could attract more support from a
+broader coalition of individuals.
 
 Finally, Rothman et al.~(2018) note that local solutions to address
 specific school challenges are needed, and we extend this recommendation
@@ -1201,20 +1165,37 @@ the local barriers to AST.
 \hypertarget{conclusion}{%
 \section{7. Conclusion}\label{conclusion}}
 
-We used text mining and topic modelling to examine how different school
-travel planning stakeholder (STP) groups in Ontario frame the issue of
-AST. STP stakeholder groups frame AST as a health and environmental
-issue that can be addressed through household behaviour change and
-engineering solutions. Policy documents reveal that STP stakeholder
-groups are focusing on ``modifiable factors'' such as parental
-perceptions or micro-scale elements in the built environment to increase
-rates of AST. However, AST may not be framed sufficiently as a
+We used natural language processing techniques to examine how different
+school travel planning stakeholder (STP) groups in Ontario frame the
+issue of AST. STP stakeholder groups frame AST as a health and
+environmental issue that can be addressed through household behaviour
+change and engineering solutions. Policy documents reveal that STP
+stakeholder groups are focusing on ``modifiable factors'' such as
+parental perceptions or micro-scale elements in the built environment to
+increase rates of AST. However, AST may not be framed sufficiently as a
 ``problem'' that requires urgent intervention, which may impact how
 parents respond to behaviour change initiatives and limit awareness in
 the general public. In their public materials about AST, STP stakeholder
 groups should present solutions for a broader range of factors that
 influence AST and emphasize why AST rates should increase in local
 communities.
+
+\hypertarget{acknowledgments}{%
+\section{Acknowledgments}\label{acknowledgments}}
+
+This research was completed using open software, and the authors wish to
+acknowledge the developers of the following \texttt{R} packages:
+\texttt{dplyr} ({\textbf{???}}), \texttt{ggraph} ({\textbf{???}}),
+\texttt{ggplot2} ({\textbf{???}}), \texttt{igraph} ({\textbf{???}}),
+\texttt{pdftools} ({\textbf{???}}), \texttt{readr} ({\textbf{???}}),
+\texttt{reshape2} ({\textbf{???}}), \texttt{stringr} ({\textbf{???}}),
+\texttt{text2vec} ({\textbf{???}}), \texttt{textdata} ({\textbf{???}}),
+\texttt{tidyr} ({\textbf{???}}), \texttt{tidytext} ({\textbf{???}}),
+\texttt{tm} ({\textbf{???}}), \texttt{tools} ({\textbf{???}}),
+\texttt{topicmodels} ({\textbf{???}}), \texttt{widyr} ({\textbf{???}}),
+\texttt{word2vec} ({\textbf{???}}), \texttt{wordcloud} ({\textbf{???}}),
+\texttt{DiagrammeR} ({\textbf{???}}), and \texttt{kableextra}
+({\textbf{???}}).
 
 \hypertarget{references}{%
 \section*{References}\label{references}}
@@ -1463,7 +1444,7 @@ Research and Public Health 16.
 doi:\href{https://doi.org/10.3390/ijerph16162862}{10.3390/ijerph16162862}
 
 \leavevmode\hypertarget{ref-romeroChildrenExperiencesEnjoyment2015}{}%
-Romero, V., 2015. Children׳s experiences: Enjoyment and fun as
+Romero, V., 2015. Children's experiences: Enjoyment and fun as
 additional encouragement for walking to school. Journal of Transport \&
 Health 2, 230--237.
 doi:\href{https://doi.org/10.1016/j.jth.2015.01.002}{10.1016/j.jth.2015.01.002}
@@ -1476,7 +1457,7 @@ doi:\href{https://doi.org/10.1016/j.tbs.2017.03.001}{10.1016/j.tbs.2017.03.001}
 
 \leavevmode\hypertarget{ref-rothmanAssociationsParentsPerception2015}{}%
 Rothman, L., Buliung, R., To, T., Macarthur, C., Macpherson, A., Howard,
-A., 2015. Associations between parents׳ perception of traffic danger,
+A., 2015. Associations between parents' perception of traffic danger,
 the built environment and walking to school. Journal of Transport \&
 Health 2, 327--335.
 doi:\href{https://doi.org/10.1016/j.jth.2015.05.004}{10.1016/j.jth.2015.05.004}
@@ -1499,7 +1480,7 @@ doi:\href{https://doi.org/10.1016/j.ypmed.2017.11.018}{10.1016/j.ypmed.2017.11.0
 
 \leavevmode\hypertarget{ref-schoeppeAssociationsChildrenActive2015}{}%
 Schoeppe, S., Duncan, M.J., Badland, H.M., Oliver, M., Browne, M., 2015.
-Associations between children׳s active travel and levels of physical
+Associations between children's active travel and levels of physical
 activity and sedentary behavior. Journal of Transport \& Health 2,
 336--342.
 doi:\href{https://doi.org/10.1016/j.jth.2015.05.001}{10.1016/j.jth.2015.05.001}

@@ -39,6 +39,13 @@ R
 
 
 
+
+
+
+
+
+
+
 oute-Based Analysis to Capture the Environmental
 Influences on a Child’s Mode of Travel between
 Home and School
@@ -47,6 +54,7 @@ Kristian Larsen,* Jason Gilliland,† and Paul M. Hess*
 Department of Geography and Planning, University of Toronto
 †
 Department of Geography, The University of Western Ontario
+
 This study examined environmental influences on a child’s mode of travel between home and school. Grade 7 and
 8 students (n = 614) from twenty-one schools throughout London, Ontario, participated in a school-based travel
 mode survey. Geographic information systems (GIS) were employed to examine environmental characteristics
@@ -64,6 +72,10 @@ findings of this research give evidence that active travel is associated with th
 of walking routes. This information should be considered for urban planning and school planning purposes to
 improve children’s walking environments. Key Words: active travel, built environment, children’s health, GIS,
 walkability.
+
+
+
+
 En este estudio se examinan las influencias ambientales sobre el modo de desplazarse de un nin~o de la casa
 a la escuela. Los estudiantes de los niveles 7 y 8 (n=614) de veintiuna escuelas dispersas a trave´s de London,
 Ontario, participaron en un reconocimiento sobre el modo de viaje a partir de la escuela. Se emplearon sistemas
@@ -75,11 +87,14 @@ caminaban o iban en cicla a la casa desde la escuela. El conmutar activamente a 
 asociado con viajes ma´s cortos, siendo en este caso la distancia el factor de correlacio´n ma´s importante. Los
 nin~os eran significativamente ma´s propensos a usar modos activos de viaje que las nin~as. El alto volumen de
 tra´fico a lo largo de la ruta esta´ negativamente asociado con las tasas de viaje activo y los nin~os de vecindarios
+
+
 Annals of the Association of American Geographers, 102(6) 2012, pp. 1348–1365  C 2012 by Association of American Geographers
 Initial submission, August 2010; revised submissions, January and May 2011; final acceptance, May 2011
 Published by Taylor & Francis, LLC.
 
-Route-Based Analysis of Influences on a Child’s Travel between Home and School                           1349
+Route-Based Analysis of Influences on a Child’s Travel between Home and School                               134
+
 de mayores ingresos son menos propensos al viaje activo que aquellos de vecindarios de ingresos ma´s bajos. En
 cuanto a caracteri´sticas ambientales se refiere, la existencia de a´rboles en la calle esta´ positivamente asociada
 en tanto que una mayor densidad residencial y usos del suelo mixtos se asocian negativamente con el viaje
@@ -89,47 +104,52 @@ investigacio´n proveen evidencia de que el viaje activo esta´ asociado con las c
 rutas peatonales. Esta informacio´n debe tenerse en cuenta para los propo´sitos de planificacio´n urbana y escolar
 para mejorar los entornos peatonales de los nin~os. Palabras clave: viaje activo, medio ambiente construido, salud
 infantil, SIG, transitabilidad peatonal.
+
+
+
+
 I
-n recent years, an enormous research effort has fo-             people of all ages is walking (Saelens, Sallis, and Frank
-cused on understanding relationships between the                2003), and for children and youth, the journey to school
-built environment and public health, especially                 represents an important opportunity to potentially
-how rising rates of obesity and physical inactivity might            increase daily levels of physical activity by using active
-be tied to sprawling, automobile-orientated forms of de-             travel modes, such as walking and biking, as part of
-velopment (e.g., Ewing et al. 2003; Northridge, Sclar,               their normal routine (Tudor-Locke et al. 2002; Cooper
-and Biswas 2003; C. Lee and Moudon 2004; Frank, Sae-                 et al. 2003; Cooper et al. 2005; Kerr et al. 2006). This
-lens, et al. 2007; Saelens and Handy 2008; Gilliland                 makes increased understandings of the determinants
-2010). In parallel, designers and planners have been                 of children walking to school salient to public health
-working to create environments that encourage reduced                research and public policy decisions. With rates of
-rates of automobile use and increased rates of walk-                 active travel to school decreasing in recent decades
-ing by creating more mixed-use, compact, and better                  (McDonald 2007; Ham, Martin, and Kohl 2008;
-connected neighborhoods (Saelens, Sallis, and Frank                  Buliung, Mitra, and Faulkner 2009), this is particularly
-2003; Southworth 2005; Frank et al. 2006; C. Lee and                 important if policy responses are to successfully reverse
-Moudon 2006).                                                        current trends.
+n recent years, an enormous research effort has fo-            people of all ages is walking (Saelens, Sallis, and Frank
+cused on understanding relationships between the               2003), and for children and youth, the journey to school
+built environment and public health, especially                represents an important opportunity to potentially
+how rising rates of obesity and physical inactivity might           increase daily levels of physical activity by using active
+be tied to sprawling, automobile-orientated forms of de-            travel modes, such as walking and biking, as part of
+velopment (e.g., Ewing et al. 2003; Northridge, Sclar,              their normal routine (Tudor-Locke et al. 2002; Cooper
+and Biswas 2003; C. Lee and Moudon 2004; Frank, Sae-                et al. 2003; Cooper et al. 2005; Kerr et al. 2006). This
+lens, et al. 2007; Saelens and Handy 2008; Gilliland                makes increased understandings of the determinants
+2010). In parallel, designers and planners have been                of children walking to school salient to public health
+working to create environments that encourage reduced               research and public policy decisions. With rates of
+rates of automobile use and increased rates of walk-                active travel to school decreasing in recent decades
+ing by creating more mixed-use, compact, and better                 (McDonald 2007; Ham, Martin, and Kohl 2008;
+connected neighborhoods (Saelens, Sallis, and Frank                 Buliung, Mitra, and Faulkner 2009), this is particularly
+2003; Southworth 2005; Frank et al. 2006; C. Lee and                important if policy responses are to successfully reverse
+Moudon 2006).                                                       current trends.
 The interest in encouraging active lifestyles includ-
 ing walking and cycling as a normal part of children’s
-travel routines is clear. Rising rates of childhood                  Rates of Active Travel to and from School
+travel routines is clear. Rising rates of childhood                 Rates of Active Travel to and from School
 obesity, diabetes, and asthma are well documented in
-most developed countries, with Canada and the United                     Studies on children’s travel to date have found a
-States, in particular, showing alarming rates of increase            wide range in the rates of using active travel modes
-(Mannino et al. 1998; Ludwig and Ebbeling 2001;                      for the trip to and from school, although comparisons
-Ogden et al. 2002; Be´langer-Ducharme and Tremblay                   are difficult because of large differences in study settings
-2005). As with adults, increasing rates of childhood obe-            and methodologies. Still, rates are instructive as general
-sity are hypothesized to be related to decreasing levels of          context. For instance, a study of fifty-one schools in
-physical activity and have been linked to environments               south and central England found that 67 percent of
-that encourage sedentary behaviors such as automobile                students walked to school, 32 percent used motorized
-usage (Goran 1997; Weinsier et al. 1998; French, Story,              travel, and only 1 percent of students rode a bicycle
-and Jeffery 2001; Catford 2003; Epstein et al. 2008).                (Black, Collins, and Snell 2000). Total rates of active
-This is worrisome, as regular physical activity lowers the           travel in Odense, Denmark, were found to be similar,
-risk of obesity, coronary heart disease, and a variety of            accounting for 63 percent of school trips, but bicycling,
-other diseases, including hypertension, Type 2 diabetes,             at 39 percent of the total, was the most utilized mode
-and socio-psychological problems such as depression                  (Cooper et al. 2005). A study of Australian children
-(Figueroa-Colon et al. 1997; Fagot-Campagna et al.                   found substantially lower rates, with only one third of
-2000; Figueroa-Munoz, Chinn, and Rona 2001; Janssen                  students (33 percent) in West Sydney using an active
-and LeBlanc 2010). Increasing levels of physical activ-              travel mode on the journey to or from school at least
-ity at a young age is extremely important, as physically             five times per week (Wen et al. 2008). Rates for active
-active children are more likely to remain active as adults           school travel in China are quite high, as 88 percent
-(Vanreusel et al. 1997; Conroy et al. 2005; Telama et al.            of children were found to actively travel to school in
-2005). The most common form of physical activity for                 Jiangsu Province and 84 percent at the nationwide level
+most developed countries, with Canada and the United                   Studies on children’s travel to date have found a
+States, in particular, showing alarming rates of increase           wide range in the rates of using active travel modes
+(Mannino et al. 1998; Ludwig and Ebbeling 2001;                     for the trip to and from school, although comparisons
+Ogden et al. 2002; Be´langer-Ducharme and Tremblay                  are difficult because of large differences in study settings
+2005). As with adults, increasing rates of childhood obe-           and methodologies. Still, rates are instructive as general
+sity are hypothesized to be related to decreasing levels of         context. For instance, a study of fifty-one schools in
+physical activity and have been linked to environments              south and central England found that 67 percent of
+that encourage sedentary behaviors such as automobile               students walked to school, 32 percent used motorized
+usage (Goran 1997; Weinsier et al. 1998; French, Story,             travel, and only 1 percent of students rode a bicycle
+and Jeffery 2001; Catford 2003; Epstein et al. 2008).               (Black, Collins, and Snell 2000). Total rates of active
+This is worrisome, as regular physical activity lowers the          travel in Odense, Denmark, were found to be similar,
+risk of obesity, coronary heart disease, and a variety of           accounting for 63 percent of school trips, but bicycling,
+other diseases, including hypertension, Type 2 diabetes,            at 39 percent of the total, was the most utilized mode
+and socio-psychological problems such as depression                 (Cooper et al. 2005). A study of Australian children
+(Figueroa-Colon et al. 1997; Fagot-Campagna et al.                  found substantially lower rates, with only one third of
+2000; Figueroa-Munoz, Chinn, and Rona 2001; Janssen                 students (33 percent) in West Sydney using an active
+and LeBlanc 2010). Increasing levels of physical activ-             travel mode on the journey to or from school at least
+ity at a young age is extremely important, as physically            five times per week (Wen et al. 2008). Rates for active
+active children are more likely to remain active as adults          school travel in China are quite high, as 88 percent
+(Vanreusel et al. 1997; Conroy et al. 2005; Telama et al.           of children were found to actively travel to school in
+2005). The most common form of physical activity for                Jiangsu Province and 84 percent at the nationwide level
+9
 
 
 
@@ -182,7 +202,12 @@ active children are more likely to remain active as adults           school trav
 
 
 
-1350                                          Larsen, Gillil
+
+
+
+
+1350                                           Larsen, Gilli
+
 (Tudor-Locke, Ainsworth, Adair, Du, et al. 2003; Shi
 et al. 2006). Rates might not be this high for all of Asia,
 as only 41 percent of Filipino youth actively commuted
@@ -234,7 +259,8 @@ ment; people might be living in more suburban areas far-
 ther from their schools or no longer attending the local
 neighborhood school. These changes can influence the
 distance one must travel, which is the largest contribu-
-and, and Hess
+land, and Hess
+
 tor in determining travel mode (Timperio et al. 2004;
 Ziviani, Scott, and Wadley 2004; Merom et al. 2006;
 Schlossberg et al. 2006; McDonald 2007).
@@ -287,7 +313,8 @@ mode of travel: As distance increases, the probability
 of active commuting decreases (Timperio et al. 2004;
 Ziviani, Scott, and Wadley 2004; Merom et al. 2006;
 
-Route-Based Analysis of Influences on a C
+Route-Based Analysis of Influences on a Chi
+
 Schlossberg et al. 2006; McDonald 2007). Other char-
 acteristics of the built environment also play impor-
 tant roles in determining commuting modes, however.
@@ -338,7 +365,8 @@ sonal crime or motor vehicle collision statistics) and as
 perceived by children or parents, incorporates aspects
 of both the social environment (as an issue of personal
 security) and the physical environment (as an issue of
-hild’s Travel between Home and School                 1351
+ld’s Travel between Home and School                  1351
+
 traffic safety; DiGuiseppi et al. 1998; Bradshaw 2001;
 Collins and Kearns 2001; Ziviani, Scott, and Wadley
 2004; Boarnet, Anderson, et al. 2005; McMillan 2005).
@@ -390,7 +418,8 @@ children who had better access to greenspace are more
 physically active and have a lower BMIs (Bell, Wilson,
 and Liu 2008; Wolch et al. 2010).
 
-1352                                           Larsen, Gill
+1352                                          Larsen, Gilli
+
 Sociodemographic Variables
 
 Personal and social characteristics can also be re-
@@ -443,7 +472,8 @@ ley 2004; Kerr et al. 2006; Frank, Saelens, et al. 2007;
 McMillan 2007; Larsen et al. 2009) or a network ser-
 vice area (Kerr et al. 2006; Frank, Saelens, et al. 2007).
 A network service area is computed based on a set dis-
-iland, and Hess
+land, and Hess
+
 tance someone can travel in any direction along the
 actual street network, creating a nonsymmetrical, more
 spatially accurate neighborhood. The latter method still
@@ -498,6 +528,10 @@ the method of travel for both the to-school and from-
 school trip, gender, home postal code, neighborhood
 
 Route-Based Analysis of Influences on a
+
+
+
+
 Figure 1. Proportion of students using
 active travel to school, median house-
 hold income by census tract, and ur-
@@ -506,6 +540,10 @@ Sources: School survey, 2006–2007;
 Statistics Canada (2001); City of Lon-
 don (2007). (Color figure available
 online.)
+
+
+
+
 characteristics, and behavioral, dietary, and environ-
 mental questions. Parental surveys were also sent
 out with the children’s permission forms to obtain
@@ -532,7 +570,15 @@ travel environments. Following Schlossberg et al.
 travel corridors based on the shortest route between
 a participant’s home address and school. The home
 location was geocoded as the geographic center of the
-Child’s Travel between Home and School                  1353
+Child’s Travel between Home and School                1353
+
+
+
+
+
+
+
+
 
 
 
@@ -569,6 +615,7 @@ at intersections. The street tree data were derived from
 an inventory conducted by the City’s Forestry Group in
 
 1354                                            Larsen, Gilliland, and Hess
+
 2002. It is based on field surveys and is updated regularly.
 All data for this study were updated in autumn of 2006.
 Finally, data on crime were based on reported residential
@@ -667,11 +714,13 @@ ciated with network connectivity. Because the role of           City of London (
 
 
 
+
 jour-
 
 
 
 Route-Based Analysis of Influences on a Chi
+
 route-directness on children’s travel is not clear, route-
 directness was calculated separately as the distance be-
 tween the child’s residence and school measured as a
@@ -722,7 +771,8 @@ where u is the land use classification, <U+03C1> is the proportion
 of land area dedicated to a particular land use, and n
 is the total number of land use classifications. Scores
 range from zero to one, with zero representing all land
-ld’s Travel between Home and School                     1355
+ld’s Travel between Home and School                       1355
+
 in a corridor as in a single land use (e.g., all residential)
 and one representing an even distribution of all five
 land use classifications.
@@ -774,11 +824,13 @@ the proportion of variance explained by logistic regres-
 sion (Nagelkerke 1991); in the model for the journey
 to school, a value of 0.355 was found, which would
 
-1356                                          Larsen, Gilli
+1356                                         Larsen, Gilli
+
 predict 36 percent of the cases. For the trip home from
 school, the Nagelkerke R-square value was even higher,
 
 at 0.454 or 45 percent of cases.
+
 
 Results
 
@@ -834,40 +886,42 @@ driven home from school almost 10 percent lower than
 those driven to school. Survey results found that almost
 60 percent of students reported that the driver of their
 land, and Hess
+
 Table 1. Travel mode to and from school
 
-Total      Boys        Girls
-n (%)      n (%)       n (%)
-Respondents                 614        273         314
-Mode of travel to school
-Walk (alone)           177 (28.8)  90 (33.3)  79 (25.2)
-Walk (with friend      183 (29.8)  68 (25.2) 101 (32.3)
-or parent)
-Bike or scooter         17 (2.8)   15 (5.6)     2 (0.6)
-Skateboard or            5 (0.8)    5 (1.9)     0 (0.0)
-rollerblade
-Active travel total    382 (62.2) 178 (66.0) 182 (58.1)
+Total         Boys         Girls
+n (%)         n (%)        n (%)
 
-School bus              95 (15.5)  44 (16.3)  49 (15.7)
-City bus                 3 (0.5)    2 (0.7)     1 (0.3)
-Driven in an           134 (21.8)  46 (17.0)  81 (25.9)
+Respondents                 614          273          314
+Mode of travel to school
+Walk (alone)           177 (28.8)    90 (33.3)    79 (25.2)
+Walk (with friend      183 (29.8)    68 (25.2)   101 (32.3)
+or parent)
+Bike or scooter         17 (2.8)     15 (5.6)      2 (0.6)
+Skateboard or            5 (0.8)      5 (1.9)      0 (0.0)
+rollerblade
+Active travel total    382 (62.2)   178 (66.0)   182 (58.1)
+
+School bus              95 (15.5)    44 (16.3)    49 (15.7)
+City bus                 3 (0.5)      2 (0.7)      1 (0.3)
+Driven in an           134 (21.8)    46 (17.0)    81 (25.9)
 automobile
-Motorized travel       232 (37.8)  92 (34.0) 131 (41.9)
+Motorized travel       232 (37.8)    92 (34.0)   131 (41.9)
 total
 Mode of travel from school
-Walk (alone)           135 (22.0)  58 (21.3)  71 (22.7)
-Walk (with             278 (45.3) 120 (44.1) 143 (45.7)
+Walk (alone)           135 (22.0)    58 (21.3)    71 (22.7)
+Walk (with             278 (45.3)   120 (44.1)   143 (45.7)
 friend/parent)
-Bike or scooter         19 (3.1)   16 (5.9)     2 (0.6)
-Skateboard or           10 (1.6)    7 (2.6)     2 (0.6)
+Bike or scooter         19 (3.1)     16 (5.9)      2 (0.6)
+Skateboard or           10 (1.6)      7 (2.6)      2 (0.6)
 rollerblade
 
-Active travel total    442 (72.0) 201 (73.9) 218 (69.6)
-School bus              96 (15.6)  44 (16.2)  49 (15.7)
-City bus                 3 (0.5)    2 (0.7)     1 (0.3)
-Driven in an            73 (11.9)  25 (9.2)   45 (14.4)
+Active travel total    442 (72.0)   201 (73.9)   218 (69.6)
+School bus              96 (15.6)    44 (16.2)    49 (15.7)
+City bus                 3 (0.5)      2 (0.7)      1 (0.3)
+Driven in an            73 (11.9)    25 (9.2)     45 (14.4)
 automobile
-Motorized travel       172 (28.0)  71 (26.1)  95 (30.4)
+Motorized travel       172 (28.0)    71 (26.1)    95 (30.4)
 total
 
 
@@ -893,49 +947,56 @@ to school, 59 percent, than reported that this was their
 preferred mode of travel, only 44 percent. For other
 active modes, however, many more students reported
 
-Route-Based Analysis of Influences on a Child’s Travel between Home and School                                      1357
-using these modes than actually did so. For bicycling                                do exist, however, when looking at individual modes.
-and scooters, the difference is dramatic, with 22 percent                            Walking was more preferred by girls, and other ac-
-reporting these as a preferred mode but only 3 percent                               tive modes such as bicycles, skateboards, scooters, and
-actually using them to get to school. Similarly, only 1                              rollerblades were more preferred by boys. Still, a sub-
-percent of students used a skateboard or inline skates                               stantial percentage of girls reported preferring modes
-(i.e., rollerblades), although as many as 10 percent favor                           that almost no girls actually use, with bicycling, pre-
-this method of travel. For motorized modes, including                                ferred by 18 percent, standing out in particular. Overall,
-being driven in a private vehicle or school bus, actual                              preferences for motorized modes of transportation were
-rates are higher than stated preferences. Whereas 22                                 very similar for both girls and boys, with nearly one in
-percent of students were driven to school in a private                               four preferring to be driven to school.
+Route-Based Analysis of Influences on a Child’s Travel between
+
+using these modes than actually did so. For bicycling
+and scooters, the difference is dramatic, with 22 percent
+reporting these as a preferred mode but only 3 percent
+actually using them to get to school. Similarly, only 1
+percent of students used a skateboard or inline skates
+(i.e., rollerblades), although as many as 10 percent favor
+this method of travel. For motorized modes, including
+being driven in a private vehicle or school bus, actual
+rates are higher than stated preferences. Whereas 22
+percent of students were driven to school in a private
 vehicle and another 16 percent in a school bus, only
-16 percent of students wanted to be driven to school                                 Modeled Analyses
+16 percent of students wanted to be driven to school
 in a vehicle and 7 percent preferred the school bus,
-a combined decrease of 15 percent from actual modes                                     Consistent with previous studies, model results for
-of travel. In total, 76 percent of students would rather                             the to-school trip show that the distance between the
-travel using a physically active mode; however, nearly                               residence and school is the most important predictor
-12 percent fewer students actually do so.                                            in determining a child’s travel mode (Table 2). As
-An examination of preferences by gender reveals that                             the distance increases, the likelihood of a child using
-when looking across active modes, boys’ and girls’ pref-                             a form of active travel significantly decreases. Figure
-erences are fairly similar, with about 79 percent of boys                            3 visualizes relationships between the residence loca-
-preferring to travel by an active mode and 74 percent                                tion and distance between home and school and, as ex-
-of girls reporting this preference. Important differences                            pected, schools with sampled students clustered in close
-Table 2. Correlates of active travel
-95% CI
-Coefficient           SE            Wald       p Value     Odds ratio     Lower      Upper
+a combined decrease of 15 percent from actual modes
+of travel. In total, 76 percent of students would rather
+travel using a physically active mode; however, nearly
+12 percent fewer students actually do so.
+An examination of preferences by gender reveals that
+when looking across active modes, boys’ and girls’ pref-
+erences are fairly similar, with about 79 percent of boys
+preferring to travel by an active mode and 74 percent
+of girls reporting this preference. Important differences
+
+
+Table 2. Correlates of activ
+
+
+
+Coefficient            SE
+
 To school
-Distance to school (km)a                           –1.768           0.196          81.721      <0.001          0.171      0.116       0.250
-Maximum traffic in bufferb                         –0.031           0.011           8.356        0.004         0.969      0.949       0.990
-Genderc                                             0.552           0.204           7.329        0.007         1.737      1.165       2.591
-Percentage single detached homesd                  –1.500           0.653           5.275        0.022         0.223      0.062       0.802
-Land use mix                                       –1.360           0.615           4.892        0.027         0.257      0.077       0.857
-Density of street treese                            0.005           0.002           3.980        0.046         1.005      1.000       1.009
-Median household incomef                           –0.015           0.008           3.204        0.073         0.985      0.970       1.001
-Constant                                            4.354           0.721          36.430      <0.001         77.784
+Distance to school (km)a                           –1.768            0.196
+Maximum traffic in bufferb                         –0.031            0.011
+Genderc                                             0.552            0.204
+Percentage single detached homesd                  –1.500            0.653
+Land use mix                                       –1.360            0.615
+Density of street treese                            0.005            0.002
+Median household incomef                           –0.015            0.008
+Constant                                            4.354            0.721
 Home from school
-Distance to school (km)a                           –2.081           0.219          89.988      <0.001          0.125      0.081       0.192
-Median household incomef                           –0.034           0.009          13.728      <0.001          0.966      0.949       0.984
-Maximum traffic in bufferb                         –0.037           0.011          10.519        0.001         0.964      0.942       0.985
-Major streets crossedg                             –0.422           0.179           5.542        0.019         0.656      0.462       0.932
-Intersection densityh                               0.009           0.005           3.633        0.057         1.009      1.000       1.018
-Genderc                                             0.425           0.238           3.199        0.074         1.530      0.960       2.439
-Constant                                            5.733           0.781          53.834      <0.001       308.857
+Distance to school (km)a                           –2.081            0.219
+Median household incomef                           –0.034            0.009
+Maximum traffic in bufferb                         –0.037            0.011
+Major streets crossedg                             –0.422            0.179
+Intersection densityh                               0.009            0.005
+Genderc                                             0.425            0.238
+Constant                                            5.733            0.781
+
 Note: Active travel as dependent variable, only significant variables are displayed.
 aShortest path from home postal code to school.
 bRoad segment with highest traffic volume in buffer.
@@ -945,6 +1006,55 @@ eNumber of street trees within 5 m of road edge in groups of 10 per square km.
 fIn $1,000s.
 gNumber of major streets crossed on route to school.
 hNumber of intersections in buffer per square km.
+Home and School                                        1357
+
+do exist, however, when looking at individual modes.
+Walking was more preferred by girls, and other ac-
+tive modes such as bicycles, skateboards, scooters, and
+rollerblades were more preferred by boys. Still, a sub-
+stantial percentage of girls reported preferring modes
+that almost no girls actually use, with bicycling, pre-
+ferred by 18 percent, standing out in particular. Overall,
+preferences for motorized modes of transportation were
+very similar for both girls and boys, with nearly one in
+four preferring to be driven to school.
+
+Modeled Analyses
+
+Consistent with previous studies, model results for
+the to-school trip show that the distance between the
+residence and school is the most important predictor
+in determining a child’s travel mode (Table 2). As
+the distance increases, the likelihood of a child using
+a form of active travel significantly decreases. Figure
+3 visualizes relationships between the residence loca-
+tion and distance between home and school and, as ex-
+pected, schools with sampled students clustered in close
+
+
+e travel
+
+95% CI
+
+Wald       p Value      Odds ratio    Lower       Upper
+
+
+81.721      <0.001          0.171       0.116        0.250
+8.356       0.004          0.969       0.949        0.990
+7.329       0.007          1.737       1.165        2.591
+5.275       0.022          0.223       0.062        0.802
+4.892       0.027          0.257       0.077        0.857
+3.980       0.046          1.005       1.000        1.009
+3.204       0.073          0.985       0.970        1.001
+36.430      <0.001         77.784
+
+89.988      <0.001          0.125       0.081        0.192
+13.728      <0.001          0.966       0.949        0.984
+10.519       0.001          0.964       0.942        0.985
+5.542       0.019          0.656       0.462        0.932
+3.633       0.057          1.009       1.000        1.018
+3.199       0.074          1.530       0.960        2.439
+53.834      <0.001        308.857
 
 
 
@@ -956,120 +1066,95 @@ hNumber of intersections in buffer per square km.
 
 
 
+1358                                            Larsen, Gilliland, and Hess
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1358                                            Larsen, Gilli
-
-
-
-
-
-
-
-proximity clearly show larger percentages of active
-travel than schools with more spatially dispersed
-students.
-As in previous research, median household income
-also decreases the odds of children walking or biking to
-school. The level of vehicular traffic, measured as the
-highest volume along any network link in the modeled
-travel route, is a negative factor for the use of active
-travel modes, with more traffic associated with a de-
-crease in the probability of a child walking or biking to
-school. A child’s gender is also a statistically significant
-factor in modal choice, with boys 1.7 times more likely
-to walk to school in the morning than girls.
-In terms of land use variables for the to-school trip,
-the percentage of single detached homes and land use
-
-mix in the travel corridor are both statistically sig-
-nificant in the model. Higher percentages of single
-detached dwellings as well as more mixed land uses
-decrease the odds of a student actively commuting to
-school. Finally, as the density of street trees increases
-in the travel corridor, so do the odds of a child using
-active travel on the journey to school.
-The model for journey home from school shows sim-
-ilar results. Distance to school, median household in-
-come, and maximum traffic in the buffer were again
-related to decreased odds of using active travel modes,
-land, and Hess
 Figure 3. Proportion of students us-
-ing active travel to school, location of
+ing active travel to school, location
 students’ home postal code, and mode
 of travel to school. Sources: School
 survey, 2006–2007; Statistics Canada
 (2001); City of London (2007). (Color
 figure available online.)
-and males were 1.5 times as likely to walk or bike home
-from school (Table 2). A few differences were found
-between the two models, as the percentage of single de-
-tached homes, land use mix, and density of street trees
-were not statistically significant in the school to resi-
-dence model. Additionally, crossing major streets and
-increased connectivity also appear as significant char-
-acteristics in the school-to-home, but not the home-
-to-school model. Crossing major streets decreased the
-odds of using active modes to get home from school, and
-intersection density increased the likelihood of walking
-or biking home from school.
 
 
 
+
+proximity clearly show larger percentages of active             and males were 1.5 times as likely to walk or bike home
+travel than schools with more spatially dispersed               from school (Table 2). A few differences were found
+students.                                                       between the two models, as the percentage of single de-
+As in previous research, median household income             tached homes, land use mix, and density of street trees
+also decreases the odds of children walking or biking to        were not statistically significant in the school to resi-
+school. The level of vehicular traffic, measured as the         dence model. Additionally, crossing major streets and
+highest volume along any network link in the modeled            increased connectivity also appear as significant char-
+travel route, is a negative factor for the use of active        acteristics in the school-to-home, but not the home-
+travel modes, with more traffic associated with a de-           to-school model. Crossing major streets decreased the
+crease in the probability of a child walking or biking to       odds of using active modes to get home from school, and
+school. A child’s gender is also a statistically significant    intersection density increased the likelihood of walking
+factor in modal choice, with boys 1.7 times more likely         or biking home from school.
+to walk to school in the morning than girls.
+In terms of land use variables for the to-school trip,
+the percentage of single detached homes and land use
 Discussion
+mix in the travel corridor are both statistically sig-
+nificant in the model. Higher percentages of single                As expected, distance between home and school was
+detached dwellings as well as more mixed land uses              the most important variable in models predicting the
+decrease the odds of a student actively commuting to            mode of travel for the journey to and from school. Sim-
+school. Finally, as the density of street trees increases       ply put, children will not use active travel modes, even
+in the travel corridor, so do the odds of a child using         in supportive environments, if distances are too long. In
+active travel on the journey to school.                         recognition of this fact, the local school boards provide
+The model for journey home from school shows sim-            bus service for students who live beyond 1.6 kilometers
+ilar results. Distance to school, median household in-          (1 mile) from school. On the other hand, if the resi-
+come, and maximum traffic in the buffer were again              dence and school are close enough, most children will
+related to decreased odds of using active travel modes,         use active travel modes, even in environments that are
 
-As expected, distance between home and school was
-the most important variable in models predicting the
-mode of travel for the journey to and from school. Sim-
-ply put, children will not use active travel modes, even
-in supportive environments, if distances are too long. In
-recognition of this fact, the local school boards provide
-bus service for students who live beyond 1.6 kilometers
-(1 mile) from school. On the other hand, if the resi-
-dence and school are close enough, most children will
-use active travel modes, even in environments that are
 
-Route-Based Analysis of Influences on a Ch
+
+
+
+
+of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route-Based Analysis of Influences on a Chi
+
 otherwise unsupportive of walking or cycling (e.g., 94
 percent of children living within 400 meters of school
 use an active mode of travel home from school). It is
@@ -1121,7 +1206,8 @@ and high volumes of vehicular traffic. More recent retail
 developments commonly include large parking lots de-
 signed for automobile travel, which can create parental
 traffic safety concerns. Likewise, industrial areas, recre-
-ild’s Travel between Home and School                   1359
+ld’s Travel between Home and School                     1359
+
 ational areas, and retail uses would also be expected to
 have different effects on the travel decisions made by or
 for children. Few measures of use mixture have explored
@@ -1175,6 +1261,7 @@ are minor streets, are not problematic for pedestrians, it
 is not clear why the models show this to be significant
 
 1360                                           Larsen, Gilli
+
 in one direction only. The study does show that parents
 are more likely to accompany children to school than
 home and that more children actively travel on the re-
@@ -1226,6 +1313,7 @@ for boys and girls (Evenson et al. 2003; Fulton et al.
 2008). Furthermore, the differences could relate to the
 concept of gendered spaces and how environments can
 land, and Hess
+
 influence boys and girls differently (Clampet-Lundquist
 et al. 2006).
 
@@ -1277,7 +1365,8 @@ low for this study.
 This study aims to make advancements within the
 literature through the use of route-based analysis,
 
-Route-Based Analysis of Influences on a Ch
+Route-Based Analysis of Influences on a Chi
+
 thus improving the modeling of the environmental
 characteristics to which children are potentially
 exposed. Using a corridor-based measure to examine
@@ -1332,7 +1421,8 @@ street crossings. Land use mix, presence of street trees or
 sidewalks, traffic volume, crime, and the percentage of
 single detached homes were all examined at the route
 level.
-ild’s Travel between Home and School                      1361
+ld’s Travel between Home and School                       1361
+
 In conclusion, distance between home and school
 was the most important determinant, but factors of the
 built and social environment did play a role. School

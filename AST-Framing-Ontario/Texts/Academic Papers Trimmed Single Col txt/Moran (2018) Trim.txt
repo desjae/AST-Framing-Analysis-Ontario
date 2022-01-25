@@ -1,583 +1,730 @@
-                                                        Transportation Research Part D 65 (2018) 63–81
-                                                           Contents lists available at ScienceDirect
-                                                 Transportation Research Part D
-                                                journal homepage: www.elsevier.com/locate/trd
-Examining the role of trip destination and neighborhood attributes
-                                                                                                                                               T
-in shaping environmental in<U+FB02>uences on children’s route choice
-                             <U+204E>
-Mika R. Morana, , Daniel A. Rodríguezb, Jason Corburnb
-a
-  Faculty of Architecture and Town Planning, Technion – Israel Institute of Technology, Technion City, Haifa 3200003, Israel
-b
-  Department of City and Regional Planning, University of California Berkeley, Berkeley, CA 94720, USA
-A R T IC LE I N F O                                       ABS TRA CT
-Keywords:                                                 Routes are a common way through which child pedestrians experience the built environment.
-Route choice                                              However, empirical evidence on route-scale environmental in<U+FB02>uences on children's walking are
-Walkability                                               scarce and mainly concern home-school itineraries. To address this gap, this study aims to
-Children                                                  identify environmental in<U+FB02>uences on children’s route choice, and to explore how these may vary
-Walking for transport
-                                                          by trip destination and neighborhood type. One hundred and seven children (10–12 year old)
-                                                          living in inner-city and clustered suburban neighborhoods in Rishon LeZion, Israel participated in
-                                                          the study. Participants were instructed to draw the routes along which they regularly walk from
-                                                          their home to four destinations: School, public facility, retail and park. We then compared the
-                                                          attributes of the built environment for the walking trips reported, relative to the trips that would
-                                                          have taken the shortest path along the street, path, and alley network for each origin-destination
-                                                          pair using conditional logistic regression, while adjusting for the correlation across choices, route
-                                                          length, and individual characteristics. Comparisons of chosen and non-chosen routes suggest that
-                                                          routes with fewer intersections are more likely to be selected, if they have fewer intersections but
-                                                          more compact urban form along the route. The ratio of built-to-lot area and distance remained
-                                                          signi<U+FB01>cant, but residential land uses and the walkability index were di<U+FB00>erentially associated with
-                                                          route choice when analyses were strati<U+FB01>ed by destination and neighborhood type. Being the <U+FB01>rst
-                                                          study to explore route choice by both location and destination and given that environmental
-                                                          in<U+FB02>uences on walking are context speci<U+FB01>c, this study provides valuable insights on environment-
-                                                          behavior interactions.
-1. Introduction
-     In recent decades, the adverse health e<U+FB00>ects of sedentary life-style (Biswas et al., 2015) along with the negative environmental
-impact of increasing car use (Frank et al., 2003) has led to intensive investment in active mobility as part of a wider urban health
-agenda (Corburn et al., 2004). Amongst the various types of active mobility, walking may be the easiest to adopt and adhere to, as it
-has zero cost and requires no special skills or equipment. Walking for transport has positive health impacts throughout the lifespan
-(Scheepers et al., 2014) and especially during childhood, given the high and rising prevalence of childhood overweight and obesity
-worldwide (Gupta et al., 2012; Lobstein et al., 2004). Replacing car-trips with walking is highly bene<U+FB01>cial for children because it
-decreases car-pedestrian con<U+FB02>icts (Lyon and Persaud, 2002) as well as tra<U+FB03>c-related pollution, to which children are highly sensitive
-(Jerrett et al., 2008; Schwartz, 2004). Furthermore, children’s walking contributes to their socio-emotional development by positively
-   <U+204E>
-     Corresponding author at: The Faculty of Architecture and Town Planning, Technion – Israel Institute of Technology, Haifa 32000, Israel.
-     E-mail addresses: moran.mika@gmail.com (M.R. Moran), danrod@berkeley.edu (D.A. Rodríguez), jcorburn@berkeley.edu (J. Corburn).
-https://doi.org/10.1016/j.trd.2018.08.001
-Available online 16 August 2018
-1361-9209/ © 2018 Published by Elsevier Ltd.
+                                                          Transportation Research Part D 65 (2018) 63–81
 
-M.R. Moran et al.                                                                                  Transportation Research Part D 65 (2018) 63–81
-a<U+FB00>ecting their independence and improving self-image and social ties (Kingham and Ussher, 2007).
-    Despite its clear bene<U+FB01>ts, children’s active mobility and walking for transport has been decreasing over the years throughout the
-world. In the USA between 1969 and 2009, the percent of children walking or biking to school dropped from 40.7% to 12.7%
-(McDonald et al., 2011). In Australia, the percent of children who walked to school dropped from 57.7% in 1971 to 25.5% in
-1999–2003 (Van der Ploeg et al., 2008). These trends have been attributed to various factors, such as: increased car reliance, low
-access to schools, and low-density suburban development (Frank et al., 2003).
-    Neighborhood characteristics play an important role in enhancing active mobility. Accumulating empirical evidence supports the
-role of the physical environment in enhancing active mobility and transportation walking in particular (Saelens and Handy, 2008;
-Sallis et al., 2012). Walking was found to be more common in inner-cities compared to suburban neighborhoods (Khattak and
-Rodríguez, 2005). Among general populations as well as among children, walking has been linked to high walkability (Owen et al.,
-2007) and other walkability-related characteristics, such as street connectivity (Giles-Corti et al., 2011; Sugiyama et al., 2012),
-residential density (Carlson et al., 2014), land-use mix/access to destinations (Koohsari et al., 2014; Lee and Moudon, 2006) and
-sidewalks (Boarnet et al., 2005; Sugiyama et al., 2012).
-    In addition to neighborhood characteristics, routes attributes play an important role in shaping pedestrians’ experience. However,
-to date, most of studies have focused on neighborhood in<U+FB02>uences on walking (whether by using external aerial units or home-based
-bu<U+FB00>ers) and only recently studies have begun to focus on more micro-scale environmental in<U+FB02>uences. Amongst these, some studies
-focused on the actual routes taken by individuals (henceforth: chosen routes) by employing quantitative (Millward et al., 2013),
-qualitative (Carroll et al., 2015; Van Cauwenberg et al., 2012) or mixed methodologies (Moran et al., 2017). Other studies relied on
-proxy measures of journeys, consisting of modelled routes that represent the shortest/most direct street-network itinerary between
-predetermined destinations (e.g., Dalton et al., 2015; Karusisi et al., 2014). While modelled routes were found to be reliable proxy
-measures (Duncan and Mummery, 2007), the study of chosen routes is essential to the understanding of environment-behavior
-associations. Ultimately, comparing chosen and non-chosen routes provides valuable insights on environment-behavior interactions
-and route-choice considerations. This type of comparison has been increasingly used in route choice modelling studies (e.g., Buliung
-et al., 2013; Harrison et al., 2014; Rodríguez et al., 2015; Tribby et al., 2017; Winter et al., 2010) not only because of its potential to
-partially overcome concerns about self-selection, but also because of its intuitive appeal, as routes are the way through which
-pedestrians’ experience and relate to the built environment.
-    Results of studies on route decisions support and further extend previous work by that was largely done at the neighborhood level.
-Speci<U+FB01>cally, routes were found more likely to be used if the environment along them was characterized by high levels of density
-(Dalton et al., 2015; Larsen et al., 2012), access to destinations (Gallimore et al., 2011; Rodríguez et al., 2015) and aesthetics (Dessing
-et al., 2016). However, route-level studies have also revealed new environmental features related to walking that were less reported
-at the neighborhood level, such as urban waterscape (Dessing et al., 2016; Moran et al., 2017), openness of streetscapes (Van
-Cauwenberg et al., 2012), and tra<U+FB03>c control features (Rodríguez et al., 2015).
-    To summarize, attributes of the built environment measured at the neighborhood and route levels have been associated with
-walking behaviors. However, the vast majority of previous studies have focused on either neighborhoods or routes but haven’t
-examined the synergistic e<U+FB00>ect between both. Walkable routes in a sea of suburbs are likely to in<U+FB02>uence behaviors di<U+FB00>erently than
-similar routes in a similarly walkable environment. These interactions are important, as they provide cues to pedestrians about the
-feasibility of reaching other potential destinations through trip chaining, and of using di<U+FB00>erent routes to reach desired destinations.
-Furthermore, most studies examining route choices have focused on trips to prominent destinations (e.g., home to work, or for
-children, home to school trips), even though these remain a minority of trips undertaken during a given day and thus fail to represent
-other routine/discretionary trips that may occur. Given the expectations and emerging evidence that environmental in<U+FB02>uences on
-physical activity are likely to be context-speci<U+FB01>c (Saelens and Handy, 2008; Giled Corti et al., 2005), it is reasonable to expect that
-route-choice considerations may also vary by context (trips location and purpose). The current study <U+FB01>lls this gap in the literature by
-investigating associations between the built environment and children’s route choices, while addressing di<U+FB00>erences in location and
-neighborhood characteristics (inner-city vs clustered suburban neighborhoods) and destinations (school, public facility, park, retail).
-The main questions posed in this research are: What are the associations between route-level environmental attributes and children’s
-route choice? and - Do these associations vary by the journey’s destination and general location?
-2. Methodology
-2.1. Study area and participants
-    The study was conducted in the city of Rishon LeZion, the fourth largest city in Israel (243,323 inhabitants), located along the
-central Israeli Coastline plain, 12 km south of Tel Aviv. Two distinct urban areas were selected, broadly characterized by high built
-footprint, land-use mix and grid street network (henceforth: Inner-city), and by the presence of high rises with undeveloped and
-parking spaces surrounding them, resulting in a low built footprint, segregated land uses and limited street connectivity (henceforth:
-Suburban). The two areas were also chosen so as to have similar socio-economic indicators. For sampling purposes, <U+FB01>ve neighbor-
-hoods were chosen, of which two neighborhoods were located in the inner-city and three were located in the suburban area. A <U+FB01>gure
-ground map of the study area (Fig. 1) shows di<U+FB00>erences between the inner-city and suburban areas. These di<U+FB00>erences can also be seen
-                                                                     64
 
-M.R. Moran et al.                                                                                 Transportation Research Part D 65 (2018) 63–81
-                                                 Fig. 1. Figure-ground map of the study area
-in the street realm, with the inner city having narrower streets, lower building setbacks, and continuous building fronts compared to
-the suburban area (Fig. 2)
-    Israel o<U+FB00>ers a unique and intriguing setting for this study. First, in Israel, as in many other countries, recent decades have been
-characterized by high and rising prevalence of physical inactivity, overweight and obesity among children and adults (Gross et al.,
-2009; Lissau et al., 2004; She<U+FB00>er and Calderon-Margalit, 2007). These changes were accompanied by increased car-reliance and
-suburban sprawl development (Frenkel, 2004; Tzafrir-Reoven, 2006), which are particularly challenging in Israel due to its increasing
-population con<U+FB01>ned to the country’s limited land availability. Correspondingly, while the common form of housing in north-
-American and Australian suburbs is single detached houses, the Israeli suburb is likely to include high-rise residential buildings
-nested within a conventional suburban layout. This enables Israel suburbs to accommodate high densities, despite their suburban
-layout, consisting of land use segregation and low built-footprint and street connectivity. Such high-density suburbs are also illu-
-strated in our study area as presented in Table 1. For example, the two suburban neighborhoods “Neot Ashalim” and “Neot Shikma”
-have relatively low intersection densities alongside with high residential densities (nearly as high as in the inner-city).
-    In addition to the built environment variables, Table 1 presents socioeconomic indicators at the neighborhood level, indicating
-that residents of both neighborhood types share similar socioeconomic characteristics, except for household car ownership which was
-slightly higher in suburban neighborhoods. This highlights another unique aspect of this study setting - the upper-middle class
-characteristics of inner-city residents, which is less common in other areas around the world, and especially in the USA, where inner-
-city is often associated with poverty.
-                                                                      65
+                                                             Contents lists available at ScienceDirect
 
-M.R. Moran et al.                                                                                Transportation Research Part D 65 (2018) 63–81
-2.2. Identifying routes walked
-    Data collection took place in school days during May-June 2011, and included participants’ documentation of routes along which
-they regularly walk from their home to four common destinations – schools, public facilities (e.g., libraries, community centers),
-retail and park destinations.
-    A total of eleven schools were identi<U+FB01>ed within the study area. Among these, <U+FB01>ve were selected to participate (one school per
-neighborhood) based on their enrollment zone and on the principals’ agreement to participate. Within each school, 5th and 6th
-graders were recruited to participate in a route mapping exercise. Participants were provided with a street map of their neighborhood
-(photocopied in black and white on a letter-sized sheet of paper), upon which they were brie<U+FB02>y instructed to mark their home, four
-di<U+FB00>erent destinations to which they regularly walk, and the routes that they most frequently use when walking to those destinations.
-The four destinations included the school they attend and three types of local destinations that participants regularly walked to on
-weekdays during the afternoon, including retail destinations (e.g., grocery stores, shops, shopping centers), green open space (e.g.,
-parks, playgrounds) and public facilities (i.e., community centers, libraries). No further instructions were given, except for clar-
-i<U+FB01>cations as needed. These simple instructions, followed by minimal communication between the researcher and the participants,
-served to ensure that the route drawing task will be done as authentically as possible and to avoid potential biases that may otherwise
-be introduced. The route drawing activity lasted approximately 30 min, occurred during school hours in small groups of up to seven
-children and was facilitated by the <U+FB01>rst author. Although this activity was conducted in small groups, each participant completed the
-procedure individually. To avoid interactions and mutual in<U+FB02>uences among participants, it was clearly stated that this was an
-individual activity that each participant needs to complete on his/her own.
-    Prior to data collection, school principals and teachers were provided with information regarding the study, and consent forms
-were delivered to the children’s parents through the school. Children participated in this study only after providing a signed informed
-consent from their parents. Ethics approval for this study was received from the Technion Ethics Committee and from the Israeli
-ministry of Education.
-2.3. Preparation of geographic data
-2.3.1. Route identi<U+FB01>cation
-    The routes drawn on paper were digitized into GIS. First, the origins (participants’ homes) and destinations (school, public
-facility, retail, and green open space) were geocoded to create a GIS point shape<U+FB01>le. An aerial photo was used to adjust the desti-
-nations’ locations to the main entrance from which the participants walked. These point shape<U+FB01>les were then used to create polyline
-shape<U+FB01>les of the routes. Reported routes were manually digitized into GIS based on the drawn maps, the point shape<U+FB01>les, the street
-network layer and an aerial photo.
-    Alternative routes were generated using the Network Analyst tool included in ArcGIS 10.1, using the point shape<U+FB01>le and city’s
-street network layer to calculate the shortest route between each pair of origin and destination based on the street and alley network
-available from the Municipality of Rishon LeZion. Although this approach aimed at identifying the shortest path, it is possible that
-some routes chosen by participants were even shorter than the routes identi<U+FB01>ed here. This occurred when the chosen route cut
-through areas with large lots (parking lots, parks, schools). Given the importance of distance in determining route choices, it is not
-surprising to <U+FB01>nd considerable overlap between the route chosen and the modelled routes. To further characterize the distance
-di<U+FB00>erences between the routes, we used the overlap measure suggested by Harrison et al. (2014) by calculating both the percentage
-of the modelled route that fell within a 25-m bu<U+FB00>er of the chosen routes and the percentage of the chosen route that fell within a 25-m
-bu<U+FB00>er of the modelled route. Because the two were highly correlated (r = 0.97, p < .0001), we used the latter in the current
-analysis. To illustrate, the overlap variable used in this study represents the percentage of the chosen route that falls within 25 m of
-the modelled route. For example, a value of 0% is indicates that there is no overlap between the chosen route and the modelled route,
-50% indicates that half of the chosen route falls within 25 m of the modelled route, and 100% indicates that all of the chosen route
-“falls” within 25 m of the modelled route.
-2.3.2. Built environment characteristics of the routes
-    We calculated measures of the built environment within a 25-meter bu<U+FB00>er area along each route (chosen or modelled). This bu<U+FB00>er
-size was found to provide a good representation of en-route pedestrian exposure, as it contained similar proportions of street in-
-frastructure (roads and sidewalks) and other adjacent land uses (e.g., buildings, setbacks, parks). On average, route bu<U+FB00>ers of 25 m
-included 37% street infrastructure (roads and sidewalks), compared to 15- and 50-m routes bu<U+FB00>ers that included 49% and 26% roads,
-respectively. No di<U+FB00>erences were observed between the two neighborhood types and the four trip destinations.
-    GIS data was provided by the Municipality of Rishon LeZion. Several built environment variables were calculated proportionally
-to the route’s bu<U+FB00>er area as follows:
-    Urban form variables: (1) Intersection density – the ratio of the number of intersections to the routes’ length; (2) Average re-
-sidential density – the average number of households per residential building along the route; (3) Average building height – the
-                                                                    67
 
-M.R. Moran et al.                                                                                  Transportation Research Part D 65 (2018) 63–81
-average height (in meters) of buildings along the route; (4) Average lot coverage – the average ratio of buildings’ footprint area to the
-buildings’ lot area; (5) Floor area ratio (FAR) – the average ratio between the gross <U+FB02>oor area of buildings to the total area of the
-buildings’ lot regardless of the land use.
-    Land use variables: Four land use variables were calculated, consisting of the proportion (in percentages) of land area within the
-bu<U+FB00>er area dedicated to each of the following uses (1) residential; (2) retail (malls, stores, and mixed use buildings including retail
-located below residential units); (3) public facilities (e.g., community centers, libraries, museums, health services, and mixed use
-buildings including public facilities located below residential units); and (4) green open spaces (e.g., parks, playgrounds, trails, green
-open areas).
-    Walkability index: Walkability is de<U+FB01>ned as overall support for pedestrian travel and has been measured at both neighborhood and
-route scales by using di<U+FB00>erent approaches. At the neighborhood scale, high walkability is often marked by high levels of density, land
-used mixed and interconnected street networks (Owen et al., 2007), while at the route scale, walkability has been measured by
-sidewalk quality, safety and legibility (Brook<U+FB01>eld and Tilley, 2016). In this study, as well as in a preceding study (Moran et al.,
-2017b), we adopt the neighborhood approach to de<U+FB01>ne route level walkability by using the walkability index developed by Frank
-et al. (2010), which is calculated based upon indicators of land-use mix, residential density and intersection density.
-2.4. Data analysis
-    Data analysis was performed with SPSS (version 21), EXCEL and GIS (ESRI ArcGIS 9.3). Descriptive statistics for chosen and
-modelled routes overall, by neighborhood type and by trip destination were calculated. Statistical signi<U+FB01>cance of comparisons across
-neighborhood type was determined using t-tests. Descriptive statistics of the route characteristics are provided in Appendix A.
-    Preliminary analysis to determine the overlap between chosen and modelled routes was performed using the aforementioned (in
-Section 2.3.1) overlap variable developed by Harrison et al. (2014). The overlap variable was then used to compute a path size
-variable, which was added to regression models as described below.
-    To answer the research questions, we used conditional logistic regression, which enables predicting route choice by comparing
-one-to-one matched pairs of chosen and modelled routes. These models estimate the chances of taking the chosen route (versus the
-modelled one) based on the values of independent variables (the built environment along both routes). First, the association of each
-environmental attribute and route choice was examined separately, while adjusting only for distance and the degree of commonality
-among routes as calculated by a path size variable following the speci<U+FB01>cation suggested by Bovy et al. (2008). This resulted in
-adjusted bivariate associations, which were calculated for the pooled sample, by neighborhood type and by trip destinations. Second,
-based on these bivariate results, variables were selected for multivariate models that were also adjusted for participants’ age and
-gender. The multivariate models included environmental attributes that were most strongly associated with route choice (p-
-value < .05) in the bivariate analysis, and that were not highly collinear (VIF < 2.5). Pairs of chosen and modelled routes that
-coincide were eliminated from the sample as they do not re<U+FB02>ect route choice. To ease interpretation, the variables for lot coverage,
-FAR and all land use variables were re-scaled by multiplying their original values by 100. Finally, to determine strength of asso-
-ciation, all independent variables were standardized (mean zero and standard deviation one) and the <U+FB01>nal models re-estimated.
-Conventional level of p = .05 was taken to represent statistical signi<U+FB01>cance when interpreting model results.
-3. Results
-3.1. Participants and route characteristics
-    Participants were evenly distributed across gender, age (grade) and neighborhood type. A total of 107 children were recruited, of
-which <U+FB01>fty lived in inner-city and <U+FB01>fty-seven lived in suburban neighborhoods. A similar number of boys and girls participated in the
-    Table 2
-    Route sample characteristics (n, %).
-                                                Inner-city area                      Suburban area                             Total sample
-      Home-school                               27                                   40                                        67
-                                                40%                                  60%                                       100%
-      Home-public facility                      46                                   47                                        93
-                                                50%                                  50%                                       100%
-      Home-store                                49                                   45                                        94
-                                                52%                                  48%                                       100%
-      Home-park                                 48                                   46                                        94
-                                                51%                                  49%                                       100%
-      Total                                     170                                  178                                       348
-                                                49%                                  51%                                       100%
-                                                                    68
+                                                    Transportation Research Part D
+                                                   journal homepage: www.elsevier.com/locate/trd
 
-M.R. Moran et al.                                                                               Transportation Research Part D 65 (2018) 63–81
-study (50 and 57, respectively). Fifty-nine children were 5th graders, and the remaining forty-eight were 6th graders. All of the route
-destinations were within the participants’ home neighborhood, and participants lived in a variety of di<U+FB00>erent locations within the
-schools’ catchment areas, which covered about a half of the neighborhood area.
-    Across all participants 348 routes were reported. While participants were instructed to describe routes to four destinations, the
-number of routes per participant ranged from one to seven. The number and proportion of participants who described more than four
-routes was signi<U+FB01>cantly higher in inner-city compared to suburban neighborhoods (24% vs 14%). Overall, most of the routes were
-evenly distributed across neighborhoods and destinations (Table 2), as well as by gender and grade (results not reported). It should be
-noted that prior to the analysis, 119 pairs of chosen-modelled routes were excluded, in which the participants chose the modelled
-routes (in those cases the value of the overlap variable was 1.00, re<U+FB02>ecting an overlap of 100% between the routes).
-    Appendix A contains descriptive statistics of all environmental variables along both chosen and modelled routes. The average
-length of chosen routes in the pooled sample was 525.32 m, with the routes to public facilities being the longest (601.88 m), followed
-by routes to parks (544.85 m), to school (497.75 m), and to retail (449.85 m). While route length did not di<U+FB00>er by neighborhood type
-in the pooled sample, routes to school were signi<U+FB01>cantly longer in suburban compared to inner-city neighborhoods (562.31 vs.
-402.11, p = .023). Chosen (as well as modelled) routes seem to be accurate re<U+FB02>ections of the built environments in which they are
-located, and thus highlight di<U+FB00>erences between the two neighborhood types (Appendix A). Compared to those in suburban neigh-
-borhoods, chosen routes in the inner-city had attributes associate with a more compact urban form, such as higher residential density
-(M = 561.97 vs M = 182.54, t = 19.91, p < .0001), building height (M = 4.95 vs M = 2.07, t = 20.38, p < .0001), built footprint
-(M = 35.09 vs M = 16.97, t = 19.67, p = .0001), FAR (M = 136.99 vs M = 89.32, t = 20.38, p < .0001) and a walkability index
-(M = 0.12 vs M = -0.56, t = 5.27, p < .0001). Inner-city chosen routes also had more residential (M = 68.87 vs M = 56.82,
-t = 6.34, p < .0001) and retail land uses (M = 11.33 vs M = 5.77, t = 4.27, p < .0001), but less green open spaces along the route
-(M = 5.27 vs M = 20.71, t = -11.86, p < .0001). Similar di<U+FB00>erences were observed for modelled routes in inner-city and suburban
-neighborhoods (results not shown).
-3.2. Comparability between chosen and modelled routes
-    Appendix B presents descriptive statistics of the overlap measure in the pooled route sample (median, IQR, mean, SD). On
-average, chosen and modelled routes overlapped by 64% in the pooled sample, indicating that on average 64% of chosen routes fell
-within 25 m of their alternative modelled route and the remaining 36% fell elsewhere. This average overlap was slightly, but not
-signi<U+FB01>cantly, higher in inner-city compared to suburban neighborhoods (67% vs 61%). These di<U+FB00>erences increased and turned
-signi<U+FB01>cant when looking at routes to schools (77% vs 55%, t = 2.78, p = .006) and to public facilities (and 68% vs 52%, t = -2.22,
-p = .029). Although the overlap did not vary signi<U+FB01>cantly by the route’s destination, descriptive comparisons across the four des-
-tinations yielded di<U+FB00>erent results for the two neighborhood types. In the inner-city, the average overlap was greatest in routes to
-school (77%), followed by routes to public facilities (68%), retail (66%) and parks (63%). However, this was not the case in suburban
-neighborhoods, where the average overlap was greatest in routes to parks (69%), followed by routes to retail (66%), schools (55%),
-and public facilities (52%).
-    Chosen routes were consistently longer than those modelled (Appendix A). In the pooled sample chosen routes were 8.5% longer
-than those modelled in GIS. This gap was slightly greater in inner-city compared to suburban neighborhoods (9.84% vs 7.33%). The
-average length gap between chosen and modelled routes was greatest in routes to parks (9.6%), followed by routes to public facilities
-(8.9%), to retail (8.5%) and to school (6.3%).
-    It should be noted that 18% of the chosen routes (n = 63) were shorter than their modelled alternative. These routes passed
-through areas not included in the city’s street network layer, such as: parking lots (n = 40), parks and private area (n = 11), trails
-(n = 6) and schools (n = 6). Interestingly, some of these (supposedly) short-cuts varied by neighborhood type, as cutting through
-parking lots was more common in suburban neighborhoods (33 vs 7), while cutting through school parcels was mostly common in
-inner-city neighborhoods (5 vs 1).
-3.3. Route choice as a function of route environmental attributes
-    Tables 3–5 show the adjusted-bivariate and multivariate associations between route choice and route characteristics in the pooled
-sample, by neighborhood type, and by trip destination, respectively.
-3.3.1. Bivariate associations
-    According to the adjusted-bivariate analysis in the pooled sample (Table 3), participants chose routes with lower intersection
-density (OR = 0.83, CI = 0.77–0.89), but higher values of the other urban form measures, including: Building height (OR = 3.48,
-CI = 2.36–5.13), lot coverage (OR = 1.13, CI = 1.08–1.19), FAR (OR = 1.04, CI = 1.03–1.05) and residential density (OR = 1.01,
-CI = 1.007–1.014). Compared to modelled routes, routes chosen by participants contained more retail and residential land uses
-(OR = 1.06, CI = 1.02–1.10 and OR = 1.02, CI = 1.001–1.1034, respectively), but fewer public facilities (OR = 0.96,
-CI = 0.93–0.98) and green open spaces (OR = 0.97, CI = 0.95–0.99). No signi<U+FB01>cant di<U+FB00>erences were observed between chosen and
-                                                                    69
 
-M.R. Moran et al.                                                                                         Transportation Research Part D 65 (2018) 63–81
-Table 3
-Associations between walking route choice and built environment attributes, 5th and 6th graders, 2011 (n = 348).
-                                    Adjusted bivariate*                      p-value            Multivariate**                                p-value
-                                    OR (CI)                B (SE)                               OR (CI)                    B (SE)
-  Length of route (meter)           1.012                  3.94               < .0001           1.012                      3.73                < .0001
-                                    (1.008–1.016)          (0.71)                               (1.007–1.016)              (0.77)
-  Urban form
-  Intersection Density              0.83                   -1.10              < .0001           0.87                       -0.83               < .0001
-                                    (0.77–0.89)            (0.21)                               (0.81–0.94)                (0.23)
-  Residential Density               1.01                   2.67               < .0001           –                          –                  –
-                                    (1.007–1.014)          (0.48)
-  Building height                   3.48                   2.45               < .0001           –                          –                  –
-                                    (2.36–5.13)            (0.39)
-  Lot coverage                      1.13                   1.61               < .0001           –                          –                  –
-                                    (1.08–1.19)            (0.28)
-  FAR                               1.042                  2.30               < .0001           1.042                      2.36                < .0001
-                                    (1.03–1.05)            (0.30)                               (1.03–1.06)                (0.34)
-  Land uses
-  % Residential                     1.02                   0.34              .04                –                          –                  –
-                                    (1.001–1.034)          (0.16)
-  % Retail                          1.06                   0.67              .001               1.03                       0.41               .285
-                                    (1.02–1.10)            (0.21)                               (0.98–1.08)                (0.26)
-  % Public facility                 0.96                   -0.62             .001               1.02                       0.41               .0.96
-                                    (0.93–0.98)            (0.18)                               (0.99–1.05)                (0.25)
-  % Green open space                0.97                   -0.43             .029               –                          –                  –
-                                    (0.95-0.99)            (0.20)
-  Composite measures
-  Walkability index                 0.81                   -0.25             .17                –                          –                  –
-                                    (0.60–1.09)            (018)
-  Pseudo R2                                                                                     61%
-Bold values indicate statistical signi<U+FB01>cance.
-  * Adjusting for path size and route length.
-  ** Adjusting for path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
-modelled routes in terms of the composite measure of walkability.
-    Consistent with the results from the pooled sample, the adjusted-bivariate analysis by neighborhood type shows that com-
-pared to those modelled, chosen routes had lower intersection density, but were longer and had more compact urban form en-
-route, i.e., higher values of residential density, building height, lot coverage and FAR (Table 4). Interestingly, the walkability
-index and residential land use variables were associated with route choice in opposite directions in the two neighborhood types.
-To illustrate, inner-city participants chose routes that passed through areas with higher walkability (OR = 1.76, CI = 1.04–2.98)
-and fewer residential land uses (OR = 0.97, CI = 0.94–0.99), while suburban participants chose routes that were less walkable
-(OR = 0.51, CI = 0.33–0.78) and passed through more residential areas (OR = 1.06, CI = 1.03–1.08). Additionally,
-some exposures di<U+FB00>ered signi<U+FB01>cantly between chosen and modelled routes only in suburban neighborhoods (residential
-density, public facility uses en-route), while other exposure di<U+FB00>ered signi<U+FB01>cantly only in inner-city neighborhoods (retail uses
-en-route).
-    Table 5 shows the same associations but by destination. Bivariate <U+FB01>ndings suggest that for nearly all destinations, chosen (versus
-modelled) routes had lower intersection density and higher values of residential density, building height, lot coverage and FAR.
-While these <U+FB01>ndings are in line with those in the pooled sample and the neighborhood analysis (Tables 3 and 4, respectively), the
-results for other attributes were less consistent across destinations. For example, compared to modelled routes, residential land uses
-were more common along chosen routes to schools and to public facilities (OR = 1.11, CI = 1.04–1.86 and OR = 1.04,
-CI = 1.004–1.08, respectively), but less common along chosen routes to retail (OR = 0.94, CI = 0.91–0.98). Also, some attributes
-were found to be associated with route choice to certain, but not all destinations. For example, trips to retail were signi<U+FB01>cantly
-positively related to the percent of retail area en-route (OR = 1.24, CI = 1.10–1.40), and trips to school and to public facilities were
-signi<U+FB01>cantly negatively related to the walkability index en-route (OR = 0.21, CI = 0.07–0.61 and OR = 0.52, CI = 0.29–0.94, re-
-spectively). While the <U+FB01>rst <U+FB01>nding regarding retail is tautological, the latter <U+FB01>ndings are worthy of notice. Overall, these <U+FB01>ndings
-                                                                         70
 
-M.R. Moran et al.                                                                                             Transportation Research Part D 65 (2018) 63–81
-Table 4
-Associations between walking route choice and built environment attributes, 5th and 6th graders by neighborhood type, 2011.
-                          Inner-city area (n = 170)                                   Suburban area (n = 178)
-                          Adjusted bivariatea           Multivariateb                 Adjusted bivariateb                       Multivariateb
-                          OR (CI)             B (SE)    OR (CI)           B (SE)      OR (CI)             B (SE)                OR (CI)            B (SE)
-                                ‡                  ‡          ‡                ‡            ‡                  ‡                     ‡
-  Length                  1.014               4.68      1.017             5.44        1.011               2.61                  1.02               5.17‡
-                          (1.007–1.022)       (1.24)    (1.008–1.026)     (1.51)      (1.006–1.016)       (0.90)                (1.007–1.024)      (1.41)
-  Urban form
-  Intersection density    0.773†              -1.52†    0.77†             -1.51‡      0.853‡              -0.93‡                0.90*              -0.70*
-                          (0.67–0.90)         (0.45)    (0.66–0.90)       (0.47)      (0.79–0.92)         (0.24)                (0.81–0.99)        (0.29)
-  Residential density     1.003               0.86      –                 –           1.045‡              11.71‡                –                  –
-                          (1.000–1.007)       (0.46)                                  (1.03–1.06)         (2.04)
-  Building height         1.88**              1.24**    0.94              -0.15       13.36‡              5.09‡                 10.80‡             4.85‡
-                          (1.21–2.93)         (0.44)    (0.50–1.78)       (0.65)      (5.18–34.51)        (0.95)                (3.62–32.25)       (1.10)
-  Lot coverage            1.12‡               1.39‡     –                 –           1.16‡               1.80‡                 1.04               0.51
-                          (1.06–1.19)         (0.35)                                  (1.07–1.25)         (0.49)                (0.96–1.14)        (0.54)
-  FAR                     1.03‡               1.57‡     –                 –           1.07‡               3.23‡                 –                  –
-                          (1.02–1.04)         (0.37)                                  (1.04–1.09)         (0.60)
-  Land uses
-  % Residential           0.97*               -0.63*    0.97              -0.63       1.06‡               1.06‡                 0.98               -0.47
-                          (0.94–0.99)         (0.28)    (0.93–1.009)      (0.40)      (1.03–1.08)         (0.26)                (0.93–1.03)        (0.51)
-  % Retail                1.16‡               1.58‡     1.12*             1.26*       1.02                0.20                  –                  –
-                          (1.08–1.24)         (0.39)    (1.02–1.22)       (0.52)      (0.98–1.06)         (0.22)
-  % Public facility       1.03                0.43      –                 –           0.87‡               -1.88‡                0.92*              -1.33*
-                          (0.99–1.07)         (0.27)                                  (0.83–0.92)         (0.35)                (0.86–0.98)        (0.47)
-  % Green open space      0.95                -0.73     –                 –           0.98                -0.29                 –                  –
-                          (0.90–1.002)        (0.22)                                  (0.95–1.01)         (0.22)
-  Composite variables
-  Walkability index       1.76*               0.68*     –                 –           0.51**              -0.82** (0.27)        –                  –
-                          (1.004–2.98)        (0.32)                                  (0.33–0.78)
-  Psudo R2                NA                            62%                           NA                                        50%
-Bold values indicate statistical signi<U+FB01>cance as follows: * = < .05; ** = < .01; † = < .001; ‡ = < .0001.
-  a
-     Adjusted for: path size, route length.
-  b
-     Adjusted for: path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
-suggest that in addition to route-level environmental attributes, destinations may also exert an in<U+FB02>uence on whether route attributes
-impact route decisions.
-3.3.2. Multivariate associations between route choice and route environmental attributes
-    Results for the pooled sample (Table 3) suggest that route choice was most strongly predicted by intersection density (OR = 0.87,
-CI = 0.81–0.94), followed by FAR (OR = 1.044, CI = 1.03–1.06) and the route length (OR = 1.012, CI = 1.007–1.017). Land uses
-en-route were no longer signi<U+FB01>cantly related to route choice in the pooled sample. It should be noted that the route’s length and
-intersection density remained signi<U+FB01>cant predictors of route choice in both neighborhood types, as well as in most of the destinations.
-    Route choices in inner city trips were associated with intersection density (OR = 0.68, CI = 0.57–0.83), % retail (OR = 1.14,
-CI = 1.03–1.26) and route length (OR = 1.017, CI = 1.007–1.026), while in suburban neighborhoods, route choice was associated
-with building height (OR = 8.78, CI = 2.92–26.43), intersection density (OR = 0.86, CI = 0.81–0.99), % public facility (OR = 0.93,
-CI = 0.87–0.99) and route length (OR = 1.02, CI = 1.007–1.024).
-    By destination, route choice for trips to retail was associated with % retail (OR = 1.17, CI = 1.007–1.351) and the route’s length
-(OR = 1.015, CI = 1.004–1.026). Route choice for trips to public facilities was associated with intersection density (OR = 0.82,
-CI = 0.70–0.96), FAR (OR = 1.057, CI = 1.026–1.088) and the route length (OR = 1.014, CI = 1.002–1.026), with length having
-the strongest e<U+FB00>ect on route choice, followed by FAR and intersection density (results not shown). For trips to school and to parks,
-route choice was associated with FAR (OR = 1.14, CI = 1.04–1.25 and OR = 1.04, CI = 1.02–1.07, respectively) and route length
-(OR = 1.03, CI = 1.005–1.058 and OR = 1.011, CI = 1.002–1.021, respectively).
-                                                                          71
 
-M.R. Moran et al.                                                                                           Transportation Research Part D 65 (2018) 63–81
-Table 5
-Adjusted uni- and multivariate conditional logistic regression to predict route choice by environmental exposure en-route across di<U+FB00>erent route
-destinations.
-                   Home-school (n = 67)             Home-public facility (n = 93)    Home-store (n = 94)                Home-park (n = 94)
-                                                 b                                 b                               b
-                   Adjusted         Multivariate    Adjusted          Multivariate   Adjusted         Multivariate      Adjusted           Multivariateb
-                   Univariatea                      Univariatea                      Univariatea                        Univariatea
-  Length           1.017**          1.03*           1.012**           1.014*         1.01*            1.015**           1.011**            1.012*
-                   (1.005–1.029)    (1.005–1.058)   (1.004–1.021)     (1.002–1.026)  (1.002–1.018)    (1.004–1.026)     (1.004–1.018)      (1.002–1.021)
-  Urban form
-  Intersection     0.76**           0.64            0.83**            0.82*          0.77**           0.80*             0.91               –
-      density      (0.62–0.93)      (0.401–1.029)   (0.72–0.95)       (0.70–0.96)    (0.66–0.89)      (0.61–0.99)       (0.80–1.03)
-  Residential      1.02**           –               1.009**           –              1.006            –                 1.01**             –
-      density      (1.008–1.033)                    (1.002–1.015)                    (1.000–1.012)                      (1.004–1.018)
-  Building         3.01**           –               2.60**            –              4.18†            –                 4.77†              –
-      height       (1.33–6.84)                      (1.32–5.10)                      (1.89–9.24)                        (2.02–11.28)
-  Lot coverage     1.44**           –               1.20**            –              1.11**           –                 1.08**             –
-                   (1.17–1.77)                      (1.06–1.35)                      (1.03–1.20)                        (1.02–1.15)
-  FAR              1.10**           1.14**          1.06†             1.057†         1.02**           1.013             1.04†              1.045†
-                   (1.04–1.6)       (1.04–1.25)     (1.03–1.09)       (1.026–1.088)  (1.005–1.034)    (0.99–1.033)      (1.02–1.07)        (1.021–1.071)
-  Land uses
-  % Residential    1.11**           1.03            1.04*             0.99           0.94**           0.93*             1.01               –
-                   (1.04–1.86)      (0.84–1.27)     (1.004–1.08)      (0.94–1.048)   (0.91–0.98)      (086–1.00)        (0.98–1.05
-  % Retail         0.93             –               0.96              –              1.24†            1.17*             1.01               –
-                   (0.77–1.13)                      (0.88–1.05)                      (1.10–1.40)      (1.007–1.351)     (0.94–1.09)
-  % Public         0.89**           1.03            0.96              –              0.98             –                 0.99               –
-      facility     (0.83–0.96)      (0.78–1.36)     (0.92–1.005)                     (0.92–1.05)                        (0.94–1.04)
-  % Green open     0.94             –               0.97              –              0.98             –                 0.98               –
-      space        (0.87–1.021)                     (0.91–1.034)                     (0.92–1.037)                       (0.94–0.127)
-  Composite measures
-  Walkability      0.21**           –               0.52*             –              1.91             –                 1.42               –
-      index        (0.07–0.61)                      (0.29–0.94)                      (0.97–3.75)                        (0.77–2.64)
-  Pseudo R2                         31%                               55%                             54%                                  47%
-Bold values indicate statistical signi<U+FB01>cance as follows: * = < .05; ** = < .01; † = < .0001.
-  a
-     Partially adjusted for: path size, route length.
-  b
-     Adjusted for: path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
-4. Discussion
-    Examining the environment along walking routes has been identi<U+FB01>ed as a promising approach to explore environmental in<U+FB02>u-
-ences on walking behavior. While the literature of children’s route choice has largely focused on routes to school, in this study, we
-investigate children’s walking route choices across di<U+FB00>erent locations (inner-city vs suburban areas) and trip destinations (school,
-public facility, park, retail) in the context of a medium-sized Israeli city. By doing this, the current study extends existing literature
-and allows a more nuanced and contextualized understanding of children’s route choice.
-    Results regarding length appeared initially surprising given prior evidence suggesting that pedestrians are highly sensitive to
-distance (Yang et al., 2012; Rodríguez and Joo, 2004). We found that as the length of a route increased, the odds of selecting it
-increased. This can be explained by the way that the route choice set was constructed in this study. Cases in which participants took
-the modelled path were excluded because we could not identify a comparison, non-taken route. Individuals who took a longer route
-than the one modelled were included in the sample. Also included were a few participants (18%) who picked a route that was shorter
-than the shortest route because they took shortcuts through parking lots, trails etc. This is re<U+FB02>ected in the fact that the average length
-of routes selected was greater than the length of the non-taken shortest path (Appendix A). Hence, this result has to do more with how
-the comparison routes were constructed than with children actively going out of their way to walk longer distances. The fact that
-taking shortcuts through parking lots, was relatively common in suburban neighborhoods raises intriguing questions about pedestrian
-safety because of the high injury risk that pedestrians face in those locations (Brison et al., 1988). The <U+FB01>ndings merit consideration of
-interventions in parking lots where pedestrian exposure is high, for example by providing alternative paths adjacent to parking lots,
-providing better marked paths, and improving visibility.
-    Our <U+FB01>ndings suggest that some environmental attributes are consistently associated with route choice, while others have varying
-and opposite e<U+FB00>ects on route choices across di<U+FB00>erent destinations and locations. In the majority of locations and destinations,
-children chose routes with signi<U+FB01>cantly lower intersection density, but more compact urban form (as represented by higher values of
-FAR and building height). These <U+FB01>ndings are in line with and further extend previous studies by showing that urban form is not only
-                                                                             72
+Examining the role of trip destination and neighborhood attributes
+                                                                                                                                                T
+in shaping environmental in<U+FB02>uences on children’s route choice
+                              <U+204E>
+Mika R. Morana, , Daniel A. Rodríguezb, Jason Corburnb
+a
+    Faculty of Architecture and Town Planning, Technion – Israel Institute of Technology, Technion City, Haifa 3200003, Israel
+b
+    Department of City and Regional Planning, University of California Berkeley, Berkeley, CA 94720, USA
 
-M.R. Moran et al.                                                                                 Transportation Research Part D 65 (2018) 63–81
-associated with walking (Giles-Corti et al., 2011; Carlson et al., 2014; Lee and Moudon, 2006), but also with the choice of walking
-route. From a more practical perspective, these <U+FB01>ndings pose a challenge for planners and developers as the aforementioned variables
-tend to coexist with high rather than low intersection density. A possible strategy to overcome this challenge is to make intersections
-safer for pedestrians, for example by adding tra<U+FB03>c lights, elevated and well painted crossing, railing etc.
-    Our <U+FB01>ndings regarding intersection density run counter to previous studies associating high intersection density with children’s
-walking behavior (e.g., Giles-Corti et al., 2011; Koohsari et al., 2014), other studies suggesting fewer intersections may be safer (Yu,
-2015), and even to studies derived from a similar study population and setting (Moran et al., 2016). However, while these studies
-focused on walking behavior as a mode choice (e.g., Khattak and Rodríguez, 2005; Schlossberg et al., 2006), the current study focuses
-on pedestrians’ route choice. A possible explanation may be related to safety and/or way<U+FB01>nding considerations. It may be that
-children choose routes with less intersections in order to avoid car-pedestrian encounters. Rodríguez et al. (2015) found that routes
-that had more tra<U+FB03>c control devices, less tra<U+FB03>c, and more pedestrian safety amenities were preferred by adolescent girls that walk.
-From a way<U+FB01>nding perspective, routes with less intersections may be more easily planned, learned and memorized. It is also very
-likely that the di<U+FB00>erent scales used across studies may also explain the di<U+FB00>ering results regarding intersection density. To date, the
-majority of evidence suggesting positive associations between intersection density and walking behaviors have used area-based
-metrics (Frank et al., 2005, 2008; Koohsari et al., 2014; Owen et al., 2007). These <U+FB01>ndings conform with theoretical expectations that
-connectivity decreases distance and provides variety of choices. However, like the current study, other studies focused at the route
-level (e.g., Buliung et al., 2013) also have found opposite results. This discrepancy may be pointing to an ecological paradox: At the
-level of an area (like a neighborhood) connectivity is positively associated with walking, but at the individual level, as individuals
-seek to choose routes to complete a walking trip, connectivity detracts from walking. These di<U+FB00>erent speculative explanations are not
-mutual exclusive and could be fruitfully explored in future research in di<U+FB00>erent settings and populations.
-    Unlike intersection density and the other urban form variables, land use variables had fewer, weaker and less consistent asso-
-ciations with route choice in multivariate analysis across the majority of destinations and locations. These <U+FB01>ndings complement
-previously published data from the same study area (Moran et al., 2016), suggesting that children’s self-reported walking for
-transportation was found to be more strongly associated with objectively measured urban form than it was with land use variables.
-The current study supports and further extends these <U+FB01>ndings by suggesting that, compared to land uses, compact urban form is more
-strongly associated not only with whether and/or how frequently children walk, but rather also with where children choose to walk.
-    A similar pattern emerged in our results concerning green open space. In the current study, route choice was not associated with
-green open space along the route, regardless of the route’s destination and/or location. These <U+FB01>ndings are consistent with, and add to,
-previous <U+FB01>ndings from this setting pointing at null associations between green open space and children’s reported walking (Moran
-et al., 2017b). However, they do di<U+FB00>er with <U+FB01>ndings for adolescent girls, who were more likely to select walking routes with parks
-(Rodríguez et al., 2015). Given that these <U+FB01>ndings are all from limited settings, future research in di<U+FB00>erent settings is needed in order
-to decide whether these <U+FB01>ndings are generalizable, or simply re<U+FB02>ect unique local conditions. Either way, the current and previous
-<U+FB01>ndings suggest further investigation regarding the well-established role of green open space in enhancing walking (Larsen et al.,
-2012; Sugiyama et al., 2009), and in pedestrian route choice (Moran et al., 2017; Rodríguez et al., 2015; Van Cauwenberg et al.,
-2012).
-    A few di<U+FB00>erences emerged across the di<U+FB00>erent multivariate models, suggesting that intersection density was the strongest pre-
-dictor of route choice in inner-city neighborhoods, building height was the strongest predictor in suburban neighborhoods, FAR in
-routes to school, public facilities and parks (in both neighborhood types) and % retail in routes to retail (in both neighborhood types).
-While the latter is likely tautological (i.e., trips to retail are likely to pass through retail uses), the rest of the <U+FB01>ndings suggest
-relevance of location and destination in children’s route choice. The similarity of results for multivariate models estimated for the
-four trip destinations is fairly remarkable, with FAR and length consistently associated with route choice. These results suggest that
-higher intensity of development along a route was favored, regardless of the type of destination being accessed. Future research may
-bene<U+FB01>t from further exploring this using di<U+FB00>erent populations and setting, which may enable comparing <U+FB01>ner sub-groups de<U+FB01>ned by
-both destination and location (e.g., suburban/route to school, inner-city/route to school, suburban/route to park, inner-city/route to
-park, etc.).
-    Our comparison between the modelled and the chosen paths also provide useful evidence for future studies aiming to use
-modelled paths as surrogates for the actual paths chosen. Our <U+FB01>ndings were similar to those observed in studies that were conducted
-among children in di<U+FB00>erent settings, such as the Netherlands (Dessing et al., 2016), the UK (Harrison et al., 2014), and Canada
-(Buliung et al., 2013). Our <U+FB01>ndings suggest that modelled routes to school can serve as a surrogate to those chosen in more compact
-environments, like inner-cities, but less so in suburban neighborhoods. By exploring additional destinations other than schools, the
-current study further extends these insights by suggesting that the modelled route method may be a reliable surrogate for actual
-routes in inner-cities when examining trips to school and to public facilities, and in suburban neighborhoods when concerning routes
-to parks or to stores.
-    This study is innovative in that it examines routes, which precisely show how pedestrians experience the built environment, as
-opposed to points (origins, destinations) or polygons (neighborhoods). This is particularly important for children, as early exposure to
-walking in these environments may have lifelong consequences. Also innovative is that we examine associations by neighborhood
-(inner-city and clustered suburb). While such comparisons have been recently conducted by Buliung et al. (2013) and Harrison et al.
-(2014), their studies focused solely on routes to school and less is known on routes to non-school destinations in these aspects.
-Therefore, the current study <U+FB01>lls this gap in knowledge by including of di<U+FB00>erent types of daily destinations, other than school. The
-                                                                     73
 
-M.R. Moran et al.                                                                                    Transportation Research Part D 65 (2018) 63–81
-study setting is also unique, as it does not represent the traditional city-suburb dichotomy. Instead, it represents the town center vs.
-peripheral dense housing contrast, which is more relevant to European, Asian, and Latin American contexts. These comparisons are
-valuable as environmental in<U+FB02>uences on walking and route choice are known to be context-sensitive.
-    Despite its strengths, the study also has some limitations. First, the lack of objective route tracking and the reliance on self-reports
-is biased as participants may have reported routes that they did not use. To prevent this bias, data was collect in small groups in the
-presence of the <U+FB01>rst author. Overall, such false reports of routes are unlikely given that participants were highly invested in the
-mapping activity (i.e., orienting their street maps, identifying landmarks, and memorizing their routes). Although a fair number and
-variety of environmental exposures were included, other potentially relevant exposures were not included, such as aesthetics, tra<U+FB03>c-
-and crime-related safety. Similarly, individual variables included only gender and age, and thus, other potential in<U+FB02>uences could have
-not been identi<U+FB01>ed, such as: Household income, number of cars per household, number of siblings and order among siblings. While
-some socioeconomic indicators were available at the neighborhood level (e.g., household car ownership, academic education), other
-relevant indicators were not (e.g., household income), and thus some of the variables that are associated with SES or income may be
-biased. This study included a socioeconomically homogenous population in a restricted geographical study area, which served to
-minimize potential intervening e<U+FB00>ects. However, the combination of the limited geographical setting, sample size and narrow age
-group reduces the generalizability of our <U+FB01>ndings. Future research should endeavor upon this limitation by using a sampling model
-based on combinations of neighborhood and socioeconomic characteristics (e.g., inner-city/high-income, inner-city/low-income,
-suburban high-income, suburban/low-income). Perhaps the most important limitation is that the comparison of routes taken and
-routes not taken teaches us about where children walk or avoid walking but fall short in explaining why they do so. It also falls short
-in providing causal estimates, as routes may have certain attributes precisely because pedestrians walk there. These questions are
-essential to the understanding of the environment-behavior nexus, and thus should be addressed in future studies.
-5. Conclusions
-    This study examines children’s route choices in two distinct neighborhood settings and for various trip destinations in a medium-
-sized city in Israel, a geographical area less studied in this <U+FB01>eld.
-    Urban form and intersection density were found to have con<U+FB02>icting in<U+FB02>uences on children’s route choice. We found that routes
-were more likely to be selected if they had fewer intersections, but a more compact urban form along the route. The results con<U+FB01>rm
-the general importance of particular built environment attributes, and of speci<U+FB01>c urban form attributes that appear to in<U+FB02>uence the
-street-level experience of pedestrians.
-    Taken together, the <U+FB01>ndings highlight the challenge that planners and developers frequently face: Create environments that are
-walkable and pedestrian-friendly, while attempting to minimize con<U+FB02>icts between pedestrians and motor vehicles. Slowing down
-tra<U+FB03>c and providing amenities to decrease the negative impact of street crossings on routing decisions, are likely to be strategies that
-are successful for improving walkability. Furthermore, given children’s vulnerability as road users, it is highly important for planners
-to invest in safe infrastructure, especially in compact urban areas with potential daily destinations of children (e.g., residential areas,
-schools, public facilities, parks).
-    We also found di<U+FB00>erences in associations across neighborhood settings and destination types. To understand these <U+FB01>ndings, we
-emphasize the role played by neighborhood and destination characteristics in shaping children’s route choices and raise the need for
-more contextualized planning recommendations by tailoring them to speci<U+FB01>c scenarios (e.g., routes to stores in inner-cities, routes to
-parks in suburbs). Finally, the results of the current study suggest that regardless of land uses, compact urban form is positively
-related to children’s route choice; this complements prior research showing that similar attributes also increased overall walking in
-children.
-Acknowledgments
-    We wish to thank with gratitude the sta<U+FB00> of Rishon-LeZion municipality for their continuous help—Arch. Haim Leshem, Mr.
-Efrayim Jian, and Lawyer Liel Even-Zohar. We also wish to thank the School’s principals for their collaboration during data
-collection—Mrs. Michal Sarusi, Mrs. Maayan Ben-Atiya, Mrs. Dorit Karadi, Mrs. Dalia Cohen, Mrs. Ronit Angister. We also wish to
-thank Mrs. Lihi Golan and Mr. Or Caspi for their diligent and skillful contribution to building the database. Last but not least, we wish
-to acknowledge with gratitude the study participants who voluntarily participated in the study and thereby provided us with im-
-portant insights on the topic being studied.
-Funding
-    This study was supported by the Foundation for collaborative research between the Technion and the University of Haifa.
-                                                                     74
+
+
+A R T IC LE I N F O                                         ABS TRA CT
+
+Keywords:                                                   Routes are a common way through which child pedestrians experience the built environment.
+Route choice                                                However, empirical evidence on route-scale environmental in<U+FB02>uences on children's walking are
+Walkability                                                 scarce and mainly concern home-school itineraries. To address this gap, this study aims to
+Children                                                    identify environmental in<U+FB02>uences on children’s route choice, and to explore how these may vary
+Walking for transport
+                                                            by trip destination and neighborhood type. One hundred and seven children (10–12 year old)
+                                                            living in inner-city and clustered suburban neighborhoods in Rishon LeZion, Israel participated in
+                                                            the study. Participants were instructed to draw the routes along which they regularly walk from
+                                                            their home to four destinations: School, public facility, retail and park. We then compared the
+                                                            attributes of the built environment for the walking trips reported, relative to the trips that would
+                                                            have taken the shortest path along the street, path, and alley network for each origin-destination
+                                                            pair using conditional logistic regression, while adjusting for the correlation across choices, route
+                                                            length, and individual characteristics. Comparisons of chosen and non-chosen routes suggest that
+                                                            routes with fewer intersections are more likely to be selected, if they have fewer intersections but
+                                                            more compact urban form along the route. The ratio of built-to-lot area and distance remained
+                                                            signi<U+FB01>cant, but residential land uses and the walkability index were di<U+FB00>erentially associated with
+                                                            route choice when analyses were strati<U+FB01>ed by destination and neighborhood type. Being the <U+FB01>rst
+                                                            study to explore route choice by both location and destination and given that environmental
+                                                            in<U+FB02>uences on walking are context speci<U+FB01>c, this study provides valuable insights on environment-
+                                                            behavior interactions.
+
+
+
+
+1. Introduction
+
+    In recent decades, the adverse health e<U+FB00>ects of sedentary life-style (Biswas et al., 2015) along with the negative environmental
+impact of increasing car use (Frank et al., 2003) has led to intensive investment in active mobility as part of a wider urban health
+agenda (Corburn et al., 2004). Amongst the various types of active mobility, walking may be the easiest to adopt and adhere to, as it
+has zero cost and requires no special skills or equipment. Walking for transport has positive health impacts throughout the lifespan
+(Scheepers et al., 2014) and especially during childhood, given the high and rising prevalence of childhood overweight and obesity
+worldwide (Gupta et al., 2012; Lobstein et al., 2004). Replacing car-trips with walking is highly bene<U+FB01>cial for children because it
+decreases car-pedestrian con<U+FB02>icts (Lyon and Persaud, 2002) as well as tra<U+FB03>c-related pollution, to which children are highly sensitive
+(Jerrett et al., 2008; Schwartz, 2004). Furthermore, children’s walking contributes to their socio-emotional development by positively
+
+
+
+    <U+204E>
+        Corresponding author at: The Faculty of Architecture and Town Planning, Technion – Israel Institute of Technology, Haifa 32000, Israel.
+        E-mail addresses: moran.mika@gmail.com (M.R. Moran), danrod@berkeley.edu (D.A. Rodríguez), jcorburn@berkeley.edu (J. Corburn).
+
+https://doi.org/10.1016/j.trd.2018.08.001
+
+Available online 16 August 2018
+1361-9209/ © 2018 Published by Elsevier Ltd.
+
+M.R. Moran et al.                                                                                 Transportation Research Part D 65 (2018) 63–81
+
+
+a<U+FB00>ecting their independence and improving self-image and social ties (Kingham and Ussher, 2007).
+    Despite its clear bene<U+FB01>ts, children’s active mobility and walking for transport has been decreasing over the years throughout the
+world. In the USA between 1969 and 2009, the percent of children walking or biking to school dropped from 40.7% to 12.7%
+(McDonald et al., 2011). In Australia, the percent of children who walked to school dropped from 57.7% in 1971 to 25.5% in
+1999–2003 (Van der Ploeg et al., 2008). These trends have been attributed to various factors, such as: increased car reliance, low
+access to schools, and low-density suburban development (Frank et al., 2003).
+    Neighborhood characteristics play an important role in enhancing active mobility. Accumulating empirical evidence supports the
+role of the physical environment in enhancing active mobility and transportation walking in particular (Saelens and Handy, 2008;
+Sallis et al., 2012). Walking was found to be more common in inner-cities compared to suburban neighborhoods (Khattak and
+Rodríguez, 2005). Among general populations as well as among children, walking has been linked to high walkability (Owen et al.,
+2007) and other walkability-related characteristics, such as street connectivity (Giles-Corti et al., 2011; Sugiyama et al., 2012),
+residential density (Carlson et al., 2014), land-use mix/access to destinations (Koohsari et al., 2014; Lee and Moudon, 2006) and
+sidewalks (Boarnet et al., 2005; Sugiyama et al., 2012).
+    In addition to neighborhood characteristics, routes attributes play an important role in shaping pedestrians’ experience. However,
+to date, most of studies have focused on neighborhood in<U+FB02>uences on walking (whether by using external aerial units or home-based
+bu<U+FB00>ers) and only recently studies have begun to focus on more micro-scale environmental in<U+FB02>uences. Amongst these, some studies
+focused on the actual routes taken by individuals (henceforth: chosen routes) by employing quantitative (Millward et al., 2013),
+qualitative (Carroll et al., 2015; Van Cauwenberg et al., 2012) or mixed methodologies (Moran et al., 2017). Other studies relied on
+proxy measures of journeys, consisting of modelled routes that represent the shortest/most direct street-network itinerary between
+predetermined destinations (e.g., Dalton et al., 2015; Karusisi et al., 2014). While modelled routes were found to be reliable proxy
+measures (Duncan and Mummery, 2007), the study of chosen routes is essential to the understanding of environment-behavior
+associations. Ultimately, comparing chosen and non-chosen routes provides valuable insights on environment-behavior interactions
+and route-choice considerations. This type of comparison has been increasingly used in route choice modelling studies (e.g., Buliung
+et al., 2013; Harrison et al., 2014; Rodríguez et al., 2015; Tribby et al., 2017; Winter et al., 2010) not only because of its potential to
+partially overcome concerns about self-selection, but also because of its intuitive appeal, as routes are the way through which
+pedestrians’ experience and relate to the built environment.
+    Results of studies on route decisions support and further extend previous work by that was largely done at the neighborhood level.
+Speci<U+FB01>cally, routes were found more likely to be used if the environment along them was characterized by high levels of density
+(Dalton et al., 2015; Larsen et al., 2012), access to destinations (Gallimore et al., 2011; Rodríguez et al., 2015) and aesthetics (Dessing
+et al., 2016). However, route-level studies have also revealed new environmental features related to walking that were less reported
+at the neighborhood level, such as urban waterscape (Dessing et al., 2016; Moran et al., 2017), openness of streetscapes (Van
+Cauwenberg et al., 2012), and tra<U+FB03>c control features (Rodríguez et al., 2015).
+    To summarize, attributes of the built environment measured at the neighborhood and route levels have been associated with
+walking behaviors. However, the vast majority of previous studies have focused on either neighborhoods or routes but haven’t
+examined the synergistic e<U+FB00>ect between both. Walkable routes in a sea of suburbs are likely to in<U+FB02>uence behaviors di<U+FB00>erently than
+similar routes in a similarly walkable environment. These interactions are important, as they provide cues to pedestrians about the
+feasibility of reaching other potential destinations through trip chaining, and of using di<U+FB00>erent routes to reach desired destinations.
+Furthermore, most studies examining route choices have focused on trips to prominent destinations (e.g., home to work, or for
+children, home to school trips), even though these remain a minority of trips undertaken during a given day and thus fail to represent
+other routine/discretionary trips that may occur. Given the expectations and emerging evidence that environmental in<U+FB02>uences on
+physical activity are likely to be context-speci<U+FB01>c (Saelens and Handy, 2008; Giled Corti et al., 2005), it is reasonable to expect that
+route-choice considerations may also vary by context (trips location and purpose). The current study <U+FB01>lls this gap in the literature by
+investigating associations between the built environment and children’s route choices, while addressing di<U+FB00>erences in location and
+neighborhood characteristics (inner-city vs clustered suburban neighborhoods) and destinations (school, public facility, park, retail).
+The main questions posed in this research are: What are the associations between route-level environmental attributes and children’s
+route choice? and - Do these associations vary by the journey’s destination and general location?
+
+2. Methodology
+
+2.1. Study area and participants
+
+   The study was conducted in the city of Rishon LeZion, the fourth largest city in Israel (243,323 inhabitants), located along the
+central Israeli Coastline plain, 12 km south of Tel Aviv. Two distinct urban areas were selected, broadly characterized by high built
+footprint, land-use mix and grid street network (henceforth: Inner-city), and by the presence of high rises with undeveloped and
+parking spaces surrounding them, resulting in a low built footprint, segregated land uses and limited street connectivity (henceforth:
+Suburban). The two areas were also chosen so as to have similar socio-economic indicators. For sampling purposes, <U+FB01>ve neighbor-
+hoods were chosen, of which two neighborhoods were located in the inner-city and three were located in the suburban area. A <U+FB01>gure
+ground map of the study area (Fig. 1) shows di<U+FB00>erences between the inner-city and suburban areas. These di<U+FB00>erences can also be seen
+
+
+
+
+                                                                    64
+
+M.R. Moran et al.                                                                               Transportation Research Part D 65 (2018) 63–81
+
+
+
+
+                                              Fig. 1. Figure-ground map of the study area
+
+
+
+
+in the street realm, with the inner city having narrower streets, lower building setbacks, and continuous building fronts compared to
+the suburban area (Fig. 2)
+    Israel o<U+FB00>ers a unique and intriguing setting for this study. First, in Israel, as in many other countries, recent decades have been
+characterized by high and rising prevalence of physical inactivity, overweight and obesity among children and adults (Gross et al.,
+2009; Lissau et al., 2004; She<U+FB00>er and Calderon-Margalit, 2007). These changes were accompanied by increased car-reliance and
+suburban sprawl development (Frenkel, 2004; Tzafrir-Reoven, 2006), which are particularly challenging in Israel due to its increasing
+population con<U+FB01>ned to the country’s limited land availability. Correspondingly, while the common form of housing in north-
+American and Australian suburbs is single detached houses, the Israeli suburb is likely to include high-rise residential buildings
+nested within a conventional suburban layout. This enables Israel suburbs to accommodate high densities, despite their suburban
+layout, consisting of land use segregation and low built-footprint and street connectivity. Such high-density suburbs are also illu-
+strated in our study area as presented in Table 1. For example, the two suburban neighborhoods “Neot Ashalim” and “Neot Shikma”
+have relatively low intersection densities alongside with high residential densities (nearly as high as in the inner-city).
+    In addition to the built environment variables, Table 1 presents socioeconomic indicators at the neighborhood level, indicating
+that residents of both neighborhood types share similar socioeconomic characteristics, except for household car ownership which was
+slightly higher in suburban neighborhoods. This highlights another unique aspect of this study setting - the upper-middle class
+characteristics of inner-city residents, which is less common in other areas around the world, and especially in the USA, where inner-
+city is often associated with poverty.
+
+
+
+
+                                                                  65
+
+M.R. Moran et al.                                                                               Transportation Research Part D 65 (2018) 63–81
+
+
+2.2. Identifying routes walked
+
+    Data collection took place in school days during May-June 2011, and included participants’ documentation of routes along which
+they regularly walk from their home to four common destinations – schools, public facilities (e.g., libraries, community centers),
+retail and park destinations.
+    A total of eleven schools were identi<U+FB01>ed within the study area. Among these, <U+FB01>ve were selected to participate (one school per
+neighborhood) based on their enrollment zone and on the principals’ agreement to participate. Within each school, 5th and 6th
+graders were recruited to participate in a route mapping exercise. Participants were provided with a street map of their neighborhood
+(photocopied in black and white on a letter-sized sheet of paper), upon which they were brie<U+FB02>y instructed to mark their home, four
+di<U+FB00>erent destinations to which they regularly walk, and the routes that they most frequently use when walking to those destinations.
+The four destinations included the school they attend and three types of local destinations that participants regularly walked to on
+weekdays during the afternoon, including retail destinations (e.g., grocery stores, shops, shopping centers), green open space (e.g.,
+parks, playgrounds) and public facilities (i.e., community centers, libraries). No further instructions were given, except for clar-
+i<U+FB01>cations as needed. These simple instructions, followed by minimal communication between the researcher and the participants,
+served to ensure that the route drawing task will be done as authentically as possible and to avoid potential biases that may otherwise
+be introduced. The route drawing activity lasted approximately 30 min, occurred during school hours in small groups of up to seven
+children and was facilitated by the <U+FB01>rst author. Although this activity was conducted in small groups, each participant completed the
+procedure individually. To avoid interactions and mutual in<U+FB02>uences among participants, it was clearly stated that this was an
+individual activity that each participant needs to complete on his/her own.
+    Prior to data collection, school principals and teachers were provided with information regarding the study, and consent forms
+were delivered to the children’s parents through the school. Children participated in this study only after providing a signed informed
+consent from their parents. Ethics approval for this study was received from the Technion Ethics Committee and from the Israeli
+ministry of Education.
+
+2.3. Preparation of geographic data
+
+2.3.1. Route identi<U+FB01>cation
+    The routes drawn on paper were digitized into GIS. First, the origins (participants’ homes) and destinations (school, public
+facility, retail, and green open space) were geocoded to create a GIS point shape<U+FB01>le. An aerial photo was used to adjust the desti-
+nations’ locations to the main entrance from which the participants walked. These point shape<U+FB01>les were then used to create polyline
+shape<U+FB01>les of the routes. Reported routes were manually digitized into GIS based on the drawn maps, the point shape<U+FB01>les, the street
+network layer and an aerial photo.
+    Alternative routes were generated using the Network Analyst tool included in ArcGIS 10.1, using the point shape<U+FB01>le and city’s
+street network layer to calculate the shortest route between each pair of origin and destination based on the street and alley network
+available from the Municipality of Rishon LeZion. Although this approach aimed at identifying the shortest path, it is possible that
+some routes chosen by participants were even shorter than the routes identi<U+FB01>ed here. This occurred when the chosen route cut
+through areas with large lots (parking lots, parks, schools). Given the importance of distance in determining route choices, it is not
+surprising to <U+FB01>nd considerable overlap between the route chosen and the modelled routes. To further characterize the distance
+di<U+FB00>erences between the routes, we used the overlap measure suggested by Harrison et al. (2014) by calculating both the percentage
+of the modelled route that fell within a 25-m bu<U+FB00>er of the chosen routes and the percentage of the chosen route that fell within a 25-m
+bu<U+FB00>er of the modelled route. Because the two were highly correlated (r = 0.97, p < .0001), we used the latter in the current
+analysis. To illustrate, the overlap variable used in this study represents the percentage of the chosen route that falls within 25 m of
+the modelled route. For example, a value of 0% is indicates that there is no overlap between the chosen route and the modelled route,
+50% indicates that half of the chosen route falls within 25 m of the modelled route, and 100% indicates that all of the chosen route
+“falls” within 25 m of the modelled route.
+
+2.3.2. Built environment characteristics of the routes
+    We calculated measures of the built environment within a 25-meter bu<U+FB00>er area along each route (chosen or modelled). This bu<U+FB00>er
+size was found to provide a good representation of en-route pedestrian exposure, as it contained similar proportions of street in-
+frastructure (roads and sidewalks) and other adjacent land uses (e.g., buildings, setbacks, parks). On average, route bu<U+FB00>ers of 25 m
+included 37% street infrastructure (roads and sidewalks), compared to 15- and 50-m routes bu<U+FB00>ers that included 49% and 26% roads,
+respectively. No di<U+FB00>erences were observed between the two neighborhood types and the four trip destinations.
+    GIS data was provided by the Municipality of Rishon LeZion. Several built environment variables were calculated proportionally
+to the route’s bu<U+FB00>er area as follows:
+    Urban form variables: (1) Intersection density – the ratio of the number of intersections to the routes’ length; (2) Average re-
+sidential density – the average number of households per residential building along the route; (3) Average building height – the
+
+
+
+
+                                                                  67
+
+M.R. Moran et al.                                                                                   Transportation Research Part D 65 (2018) 63–81
+
+
+average height (in meters) of buildings along the route; (4) Average lot coverage – the average ratio of buildings’ footprint area to the
+buildings’ lot area; (5) Floor area ratio (FAR) – the average ratio between the gross <U+FB02>oor area of buildings to the total area of the
+buildings’ lot regardless of the land use.
+    Land use variables: Four land use variables were calculated, consisting of the proportion (in percentages) of land area within the
+bu<U+FB00>er area dedicated to each of the following uses (1) residential; (2) retail (malls, stores, and mixed use buildings including retail
+located below residential units); (3) public facilities (e.g., community centers, libraries, museums, health services, and mixed use
+buildings including public facilities located below residential units); and (4) green open spaces (e.g., parks, playgrounds, trails, green
+open areas).
+    Walkability index: Walkability is de<U+FB01>ned as overall support for pedestrian travel and has been measured at both neighborhood and
+route scales by using di<U+FB00>erent approaches. At the neighborhood scale, high walkability is often marked by high levels of density, land
+used mixed and interconnected street networks (Owen et al., 2007), while at the route scale, walkability has been measured by
+sidewalk quality, safety and legibility (Brook<U+FB01>eld and Tilley, 2016). In this study, as well as in a preceding study (Moran et al.,
+2017b), we adopt the neighborhood approach to de<U+FB01>ne route level walkability by using the walkability index developed by Frank
+et al. (2010), which is calculated based upon indicators of land-use mix, residential density and intersection density.
+
+2.4. Data analysis
+
+    Data analysis was performed with SPSS (version 21), EXCEL and GIS (ESRI ArcGIS 9.3). Descriptive statistics for chosen and
+modelled routes overall, by neighborhood type and by trip destination were calculated. Statistical signi<U+FB01>cance of comparisons across
+neighborhood type was determined using t-tests. Descriptive statistics of the route characteristics are provided in Appendix A.
+    Preliminary analysis to determine the overlap between chosen and modelled routes was performed using the aforementioned (in
+Section 2.3.1) overlap variable developed by Harrison et al. (2014). The overlap variable was then used to compute a path size
+variable, which was added to regression models as described below.
+    To answer the research questions, we used conditional logistic regression, which enables predicting route choice by comparing
+one-to-one matched pairs of chosen and modelled routes. These models estimate the chances of taking the chosen route (versus the
+modelled one) based on the values of independent variables (the built environment along both routes). First, the association of each
+environmental attribute and route choice was examined separately, while adjusting only for distance and the degree of commonality
+among routes as calculated by a path size variable following the speci<U+FB01>cation suggested by Bovy et al. (2008). This resulted in
+adjusted bivariate associations, which were calculated for the pooled sample, by neighborhood type and by trip destinations. Second,
+based on these bivariate results, variables were selected for multivariate models that were also adjusted for participants’ age and
+gender. The multivariate models included environmental attributes that were most strongly associated with route choice (p-
+value < .05) in the bivariate analysis, and that were not highly collinear (VIF < 2.5). Pairs of chosen and modelled routes that
+coincide were eliminated from the sample as they do not re<U+FB02>ect route choice. To ease interpretation, the variables for lot coverage,
+FAR and all land use variables were re-scaled by multiplying their original values by 100. Finally, to determine strength of asso-
+ciation, all independent variables were standardized (mean zero and standard deviation one) and the <U+FB01>nal models re-estimated.
+Conventional level of p = .05 was taken to represent statistical signi<U+FB01>cance when interpreting model results.
+
+3. Results
+
+3.1. Participants and route characteristics
+
+   Participants were evenly distributed across gender, age (grade) and neighborhood type. A total of 107 children were recruited, of
+which <U+FB01>fty lived in inner-city and <U+FB01>fty-seven lived in suburban neighborhoods. A similar number of boys and girls participated in the
+
+
+    Table 2
+    Route sample characteristics (n, %).
+                                               Inner-city area                      Suburban area                              Total sample
+
+      Home-school                              27                                   40                                         67
+                                               40%                                  60%                                        100%
+      Home-public facility                     46                                   47                                         93
+                                               50%                                  50%                                        100%
+      Home-store                               49                                   45                                         94
+                                               52%                                  48%                                        100%
+      Home-park                                48                                   46                                         94
+                                               51%                                  49%                                        100%
+      Total                                    170                                  178                                        348
+                                               49%                                  51%                                        100%
+
+
+
+
+                                                                   68
+
+M.R. Moran et al.                                                                               Transportation Research Part D 65 (2018) 63–81
+
+
+study (50 and 57, respectively). Fifty-nine children were 5th graders, and the remaining forty-eight were 6th graders. All of the route
+destinations were within the participants’ home neighborhood, and participants lived in a variety of di<U+FB00>erent locations within the
+schools’ catchment areas, which covered about a half of the neighborhood area.
+    Across all participants 348 routes were reported. While participants were instructed to describe routes to four destinations, the
+number of routes per participant ranged from one to seven. The number and proportion of participants who described more than four
+routes was signi<U+FB01>cantly higher in inner-city compared to suburban neighborhoods (24% vs 14%). Overall, most of the routes were
+evenly distributed across neighborhoods and destinations (Table 2), as well as by gender and grade (results not reported). It should be
+noted that prior to the analysis, 119 pairs of chosen-modelled routes were excluded, in which the participants chose the modelled
+routes (in those cases the value of the overlap variable was 1.00, re<U+FB02>ecting an overlap of 100% between the routes).
+    Appendix A contains descriptive statistics of all environmental variables along both chosen and modelled routes. The average
+length of chosen routes in the pooled sample was 525.32 m, with the routes to public facilities being the longest (601.88 m), followed
+by routes to parks (544.85 m), to school (497.75 m), and to retail (449.85 m). While route length did not di<U+FB00>er by neighborhood type
+in the pooled sample, routes to school were signi<U+FB01>cantly longer in suburban compared to inner-city neighborhoods (562.31 vs.
+402.11, p = .023). Chosen (as well as modelled) routes seem to be accurate re<U+FB02>ections of the built environments in which they are
+located, and thus highlight di<U+FB00>erences between the two neighborhood types (Appendix A). Compared to those in suburban neigh-
+borhoods, chosen routes in the inner-city had attributes associate with a more compact urban form, such as higher residential density
+(M = 561.97 vs M = 182.54, t = 19.91, p < .0001), building height (M = 4.95 vs M = 2.07, t = 20.38, p < .0001), built footprint
+(M = 35.09 vs M = 16.97, t = 19.67, p = .0001), FAR (M = 136.99 vs M = 89.32, t = 20.38, p < .0001) and a walkability index
+(M = 0.12 vs M = -0.56, t = 5.27, p < .0001). Inner-city chosen routes also had more residential (M = 68.87 vs M = 56.82,
+t = 6.34, p < .0001) and retail land uses (M = 11.33 vs M = 5.77, t = 4.27, p < .0001), but less green open spaces along the route
+(M = 5.27 vs M = 20.71, t = -11.86, p < .0001). Similar di<U+FB00>erences were observed for modelled routes in inner-city and suburban
+neighborhoods (results not shown).
+
+3.2. Comparability between chosen and modelled routes
+
+    Appendix B presents descriptive statistics of the overlap measure in the pooled route sample (median, IQR, mean, SD). On
+average, chosen and modelled routes overlapped by 64% in the pooled sample, indicating that on average 64% of chosen routes fell
+within 25 m of their alternative modelled route and the remaining 36% fell elsewhere. This average overlap was slightly, but not
+signi<U+FB01>cantly, higher in inner-city compared to suburban neighborhoods (67% vs 61%). These di<U+FB00>erences increased and turned
+signi<U+FB01>cant when looking at routes to schools (77% vs 55%, t = 2.78, p = .006) and to public facilities (and 68% vs 52%, t = -2.22,
+p = .029). Although the overlap did not vary signi<U+FB01>cantly by the route’s destination, descriptive comparisons across the four des-
+tinations yielded di<U+FB00>erent results for the two neighborhood types. In the inner-city, the average overlap was greatest in routes to
+school (77%), followed by routes to public facilities (68%), retail (66%) and parks (63%). However, this was not the case in suburban
+neighborhoods, where the average overlap was greatest in routes to parks (69%), followed by routes to retail (66%), schools (55%),
+and public facilities (52%).
+    Chosen routes were consistently longer than those modelled (Appendix A). In the pooled sample chosen routes were 8.5% longer
+than those modelled in GIS. This gap was slightly greater in inner-city compared to suburban neighborhoods (9.84% vs 7.33%). The
+average length gap between chosen and modelled routes was greatest in routes to parks (9.6%), followed by routes to public facilities
+(8.9%), to retail (8.5%) and to school (6.3%).
+    It should be noted that 18% of the chosen routes (n = 63) were shorter than their modelled alternative. These routes passed
+through areas not included in the city’s street network layer, such as: parking lots (n = 40), parks and private area (n = 11), trails
+(n = 6) and schools (n = 6). Interestingly, some of these (supposedly) short-cuts varied by neighborhood type, as cutting through
+parking lots was more common in suburban neighborhoods (33 vs 7), while cutting through school parcels was mostly common in
+inner-city neighborhoods (5 vs 1).
+
+3.3. Route choice as a function of route environmental attributes
+
+   Tables 3–5 show the adjusted-bivariate and multivariate associations between route choice and route characteristics in the pooled
+sample, by neighborhood type, and by trip destination, respectively.
+
+3.3.1. Bivariate associations
+    According to the adjusted-bivariate analysis in the pooled sample (Table 3), participants chose routes with lower intersection
+density (OR = 0.83, CI = 0.77–0.89), but higher values of the other urban form measures, including: Building height (OR = 3.48,
+CI = 2.36–5.13), lot coverage (OR = 1.13, CI = 1.08–1.19), FAR (OR = 1.04, CI = 1.03–1.05) and residential density (OR = 1.01,
+CI = 1.007–1.014). Compared to modelled routes, routes chosen by participants contained more retail and residential land uses
+(OR = 1.06, CI = 1.02–1.10 and OR = 1.02, CI = 1.001–1.1034, respectively), but fewer public facilities (OR = 0.96,
+CI = 0.93–0.98) and green open spaces (OR = 0.97, CI = 0.95–0.99). No signi<U+FB01>cant di<U+FB00>erences were observed between chosen and
+
+
+
+
+                                                                    69
+
+M.R. Moran et al.                                                                                         Transportation Research Part D 65 (2018) 63–81
+
+
+Table 3
+Associations between walking route choice and built environment attributes, 5th and 6th graders, 2011 (n = 348).
+                                  Adjusted bivariate*                         p-value           Multivariate**                               p-value
+
+                                  OR (CI)                  B (SE)                               OR (CI)                   B (SE)
+
+  Length of route (meter)         1.012                    3.94               < .0001           1.012                     3.73               < .0001
+                                  (1.008–1.016)            (0.71)                               (1.007–1.016)             (0.77)
+
+  Urban form
+  Intersection Density            0.83                     -1.10              < .0001           0.87                      -0.83              < .0001
+                                  (0.77–0.89)              (0.21)                               (0.81–0.94)               (0.23)
+  Residential Density             1.01                     2.67               < .0001           –                         –                  –
+                                  (1.007–1.014)            (0.48)
+  Building height                 3.48                     2.45               < .0001           –                         –                  –
+                                  (2.36–5.13)              (0.39)
+  Lot coverage                    1.13                     1.61               < .0001           –                         –                  –
+                                  (1.08–1.19)              (0.28)
+  FAR                             1.042                    2.30               < .0001           1.042                     2.36               < .0001
+                                  (1.03–1.05)              (0.30)                               (1.03–1.06)               (0.34)
+
+  Land uses
+  % Residential                   1.02                     0.34               .04               –                         –                  –
+                                  (1.001–1.034)            (0.16)
+  % Retail                        1.06                     0.67               .001              1.03                      0.41               .285
+                                  (1.02–1.10)              (0.21)                               (0.98–1.08)               (0.26)
+  % Public facility               0.96                     -0.62              .001              1.02                      0.41               .0.96
+                                  (0.93–0.98)              (0.18)                               (0.99–1.05)               (0.25)
+  % Green open space              0.97                     -0.43              .029              –                         –                  –
+                                  (0.95-0.99)              (0.20)
+
+  Composite measures
+  Walkability index               0.81                     -0.25              .17               –                         –                  –
+                                  (0.60–1.09)              (018)
+
+  Pseudo R2                                                                                     61%
+
+Bold values indicate statistical signi<U+FB01>cance.
+  * Adjusting for path size and route length.
+  ** Adjusting for path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
+
+
+
+modelled routes in terms of the composite measure of walkability.
+    Consistent with the results from the pooled sample, the adjusted-bivariate analysis by neighborhood type shows that com-
+pared to those modelled, chosen routes had lower intersection density, but were longer and had more compact urban form en-
+route, i.e., higher values of residential density, building height, lot coverage and FAR (Table 4). Interestingly, the walkability
+index and residential land use variables were associated with route choice in opposite directions in the two neighborhood types.
+To illustrate, inner-city participants chose routes that passed through areas with higher walkability (OR = 1.76, CI = 1.04–2.98)
+and fewer residential land uses (OR = 0.97, CI = 0.94–0.99), while suburban participants chose routes that were less walkable
+(OR = 0.51, CI = 0.33–0.78) and passed through more residential areas (OR = 1.06, CI = 1.03–1.08). Additionally,
+some exposures di<U+FB00>ered signi<U+FB01>cantly between chosen and modelled routes only in suburban neighborhoods (residential
+density, public facility uses en-route), while other exposure di<U+FB00>ered signi<U+FB01>cantly only in inner-city neighborhoods (retail uses
+en-route).
+    Table 5 shows the same associations but by destination. Bivariate <U+FB01>ndings suggest that for nearly all destinations, chosen (versus
+modelled) routes had lower intersection density and higher values of residential density, building height, lot coverage and FAR.
+While these <U+FB01>ndings are in line with those in the pooled sample and the neighborhood analysis (Tables 3 and 4, respectively), the
+results for other attributes were less consistent across destinations. For example, compared to modelled routes, residential land uses
+were more common along chosen routes to schools and to public facilities (OR = 1.11, CI = 1.04–1.86 and OR = 1.04,
+CI = 1.004–1.08, respectively), but less common along chosen routes to retail (OR = 0.94, CI = 0.91–0.98). Also, some attributes
+were found to be associated with route choice to certain, but not all destinations. For example, trips to retail were signi<U+FB01>cantly
+positively related to the percent of retail area en-route (OR = 1.24, CI = 1.10–1.40), and trips to school and to public facilities were
+signi<U+FB01>cantly negatively related to the walkability index en-route (OR = 0.21, CI = 0.07–0.61 and OR = 0.52, CI = 0.29–0.94, re-
+spectively). While the <U+FB01>rst <U+FB01>nding regarding retail is tautological, the latter <U+FB01>ndings are worthy of notice. Overall, these <U+FB01>ndings
+
+
+
+
+                                                                         70
+
+M.R. Moran et al.                                                                                            Transportation Research Part D 65 (2018) 63–81
+
+
+Table 4
+Associations between walking route choice and built environment attributes, 5th and 6th graders by neighborhood type, 2011.
+                         Inner-city area (n = 170)                                  Suburban area (n = 178)
+
+                         Adjusted bivariatea            Multivariateb               Adjusted bivariateb                      Multivariateb
+
+                         OR (CI)               B (SE)   OR (CI)         B (SE)      OR (CI)               B (SE)              OR (CI)            B (SE)
+
+                              ‡                    ‡          ‡               ‡          ‡                    ‡                     ‡
+  Length                 1.014                 4.68     1.017           5.44        1.011                 2.61               1.02                5.17‡
+                         (1.007–1.022)         (1.24)   (1.008–1.026)   (1.51)      (1.006–1.016)         (0.90)             (1.007–1.024)       (1.41)
+
+  Urban form
+  Intersection density   0.773†                -1.52†   0.77†           -1.51‡      0.853‡                -0.93‡             0.90*               -0.70*
+                         (0.67–0.90)           (0.45)   (0.66–0.90)     (0.47)      (0.79–0.92)           (0.24)             (0.81–0.99)         (0.29)
+  Residential density    1.003                 0.86     –               –           1.045‡                11.71‡             –                   –
+                         (1.000–1.007)         (0.46)                               (1.03–1.06)           (2.04)
+  Building height        1.88**                1.24**   0.94            -0.15       13.36‡                5.09‡              10.80‡              4.85‡
+                         (1.21–2.93)           (0.44)   (0.50–1.78)     (0.65)      (5.18–34.51)          (0.95)             (3.62–32.25)        (1.10)
+  Lot coverage           1.12‡                 1.39‡    –               –           1.16‡                 1.80‡              1.04                0.51
+                         (1.06–1.19)           (0.35)                               (1.07–1.25)           (0.49)             (0.96–1.14)         (0.54)
+  FAR                    1.03‡                 1.57‡    –               –           1.07‡                 3.23‡              –                   –
+                         (1.02–1.04)           (0.37)                               (1.04–1.09)           (0.60)
+
+  Land uses
+  % Residential          0.97*                 -0.63*   0.97            -0.63       1.06‡                 1.06‡              0.98                -0.47
+                         (0.94–0.99)           (0.28)   (0.93–1.009)    (0.40)      (1.03–1.08)           (0.26)             (0.93–1.03)         (0.51)
+  % Retail               1.16‡                 1.58‡    1.12*           1.26*       1.02                  0.20               –                   –
+                         (1.08–1.24)           (0.39)   (1.02–1.22)     (0.52)      (0.98–1.06)           (0.22)
+  % Public facility      1.03                  0.43     –               –           0.87‡                 -1.88‡             0.92*               -1.33*
+                         (0.99–1.07)           (0.27)                               (0.83–0.92)           (0.35)             (0.86–0.98)         (0.47)
+  % Green open space     0.95                  -0.73    –               –           0.98                  -0.29              –                   –
+                         (0.90–1.002)          (0.22)                               (0.95–1.01)           (0.22)
+
+  Composite variables
+  Walkability index      1.76*                 0.68*    –               –           0.51**                -0.82** (0.27)     –                   –
+                         (1.004–2.98)          (0.32)                               (0.33–0.78)
+  Psudo R2               NA                             62%                         NA                                        50%
+
+Bold values indicate statistical signi<U+FB01>cance as follows: * = < .05; ** = < .01; † = < .001; ‡ = < .0001.
+  a
+    Adjusted for: path size, route length.
+  b
+    Adjusted for: path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
+
+
+
+suggest that in addition to route-level environmental attributes, destinations may also exert an in<U+FB02>uence on whether route attributes
+impact route decisions.
+
+
+3.3.2. Multivariate associations between route choice and route environmental attributes
+    Results for the pooled sample (Table 3) suggest that route choice was most strongly predicted by intersection density (OR = 0.87,
+CI = 0.81–0.94), followed by FAR (OR = 1.044, CI = 1.03–1.06) and the route length (OR = 1.012, CI = 1.007–1.017). Land uses
+en-route were no longer signi<U+FB01>cantly related to route choice in the pooled sample. It should be noted that the route’s length and
+intersection density remained signi<U+FB01>cant predictors of route choice in both neighborhood types, as well as in most of the destinations.
+    Route choices in inner city trips were associated with intersection density (OR = 0.68, CI = 0.57–0.83), % retail (OR = 1.14,
+CI = 1.03–1.26) and route length (OR = 1.017, CI = 1.007–1.026), while in suburban neighborhoods, route choice was associated
+with building height (OR = 8.78, CI = 2.92–26.43), intersection density (OR = 0.86, CI = 0.81–0.99), % public facility (OR = 0.93,
+CI = 0.87–0.99) and route length (OR = 1.02, CI = 1.007–1.024).
+    By destination, route choice for trips to retail was associated with % retail (OR = 1.17, CI = 1.007–1.351) and the route’s length
+(OR = 1.015, CI = 1.004–1.026). Route choice for trips to public facilities was associated with intersection density (OR = 0.82,
+CI = 0.70–0.96), FAR (OR = 1.057, CI = 1.026–1.088) and the route length (OR = 1.014, CI = 1.002–1.026), with length having
+the strongest e<U+FB00>ect on route choice, followed by FAR and intersection density (results not shown). For trips to school and to parks,
+route choice was associated with FAR (OR = 1.14, CI = 1.04–1.25 and OR = 1.04, CI = 1.02–1.07, respectively) and route length
+(OR = 1.03, CI = 1.005–1.058 and OR = 1.011, CI = 1.002–1.021, respectively).
+
+
+
+
+                                                                         71
+
+M.R. Moran et al.                                                                                                  Transportation Research Part D 65 (2018) 63–81
+
+
+Table 5
+Adjusted uni- and multivariate conditional logistic regression to predict route choice by environmental exposure en-route across di<U+FB00>erent route
+destinations.
+                    Home-school (n = 67)               Home-public facility (n = 93)        Home-store (n = 94)                 Home-park (n = 94)
+
+                                                   b                                    b                                   b
+                    Adjusted        Multivariate       Adjusted          Multivariate       Adjusted         Multivariate       Adjusted        Multivariateb
+                    Univariatea                        Univariatea                          Univariatea                         Univariatea
+
+  Length            1.017**         1.03*              1.012**           1.014*             1.01*            1.015**            1.011**         1.012*
+                    (1.005–1.029)   (1.005–1.058)      (1.004–1.021)     (1.002–1.026)      (1.002–1.018)    (1.004–1.026)      (1.004–1.018)   (1.002–1.021)
+
+  Urban form
+  Intersection      0.76**          0.64               0.83**            0.82*              0.77**           0.80*              0.91            –
+      density       (0.62–0.93)     (0.401–1.029)      (0.72–0.95)       (0.70–0.96)        (0.66–0.89)      (0.61–0.99)        (0.80–1.03)
+  Residential       1.02**          –                  1.009**           –                  1.006            –                  1.01**          –
+      density       (1.008–1.033)                      (1.002–1.015)                        (1.000–1.012)                       (1.004–1.018)
+  Building          3.01**          –                  2.60**            –                  4.18†            –                  4.77†           –
+      height        (1.33–6.84)                        (1.32–5.10)                          (1.89–9.24)                         (2.02–11.28)
+  Lot coverage      1.44**          –                  1.20**            –                  1.11**           –                  1.08**          –
+                    (1.17–1.77)                        (1.06–1.35)                          (1.03–1.20)                         (1.02–1.15)
+  FAR               1.10**          1.14**             1.06†             1.057†             1.02**           1.013              1.04†           1.045†
+                    (1.04–1.6)      (1.04–1.25)        (1.03–1.09)       (1.026–1.088)      (1.005–1.034)    (0.99–1.033)       (1.02–1.07)     (1.021–1.071)
+
+  Land uses
+  % Residential     1.11**          1.03               1.04*             0.99               0.94**           0.93*              1.01            –
+                    (1.04–1.86)     (0.84–1.27)        (1.004–1.08)      (0.94–1.048)       (0.91–0.98)      (086–1.00)         (0.98–1.05
+  % Retail          0.93            –                  0.96              –                  1.24†            1.17*              1.01            –
+                    (0.77–1.13)                        (0.88–1.05)                          (1.10–1.40)      (1.007–1.351)      (0.94–1.09)
+  % Public          0.89**          1.03               0.96              –                  0.98             –                  0.99            –
+     facility       (0.83–0.96)     (0.78–1.36)        (0.92–1.005)                         (0.92–1.05)                         (0.94–1.04)
+  % Green open      0.94            –                  0.97              –                  0.98             –                  0.98            –
+     space          (0.87–1.021)                       (0.91–1.034)                         (0.92–1.037)                        (0.94–0.127)
+
+  Composite measures
+  Walkability    0.21**             –                  0.52*             –                  1.91             –                  1.42            –
+      index      (0.07–0.61)                           (0.29–0.94)                          (0.97–3.75)                         (0.77–2.64)
+  Pseudo R2                         31%                                  55%                                 54%                                47%
+
+Bold values indicate statistical signi<U+FB01>cance as follows: * = < .05; ** = < .01; † = < .0001.
+  a
+    Partially adjusted for: path size, route length.
+  b
+    Adjusted for: path size, route length, gender, class (5th or 6th grade) and all covariates in the table.
+
+
+
+4. Discussion
+
+    Examining the environment along walking routes has been identi<U+FB01>ed as a promising approach to explore environmental in<U+FB02>u-
+ences on walking behavior. While the literature of children’s route choice has largely focused on routes to school, in this study, we
+investigate children’s walking route choices across di<U+FB00>erent locations (inner-city vs suburban areas) and trip destinations (school,
+public facility, park, retail) in the context of a medium-sized Israeli city. By doing this, the current study extends existing literature
+and allows a more nuanced and contextualized understanding of children’s route choice.
+    Results regarding length appeared initially surprising given prior evidence suggesting that pedestrians are highly sensitive to
+distance (Yang et al., 2012; Rodríguez and Joo, 2004). We found that as the length of a route increased, the odds of selecting it
+increased. This can be explained by the way that the route choice set was constructed in this study. Cases in which participants took
+the modelled path were excluded because we could not identify a comparison, non-taken route. Individuals who took a longer route
+than the one modelled were included in the sample. Also included were a few participants (18%) who picked a route that was shorter
+than the shortest route because they took shortcuts through parking lots, trails etc. This is re<U+FB02>ected in the fact that the average length
+of routes selected was greater than the length of the non-taken shortest path (Appendix A). Hence, this result has to do more with how
+the comparison routes were constructed than with children actively going out of their way to walk longer distances. The fact that
+taking shortcuts through parking lots, was relatively common in suburban neighborhoods raises intriguing questions about pedestrian
+safety because of the high injury risk that pedestrians face in those locations (Brison et al., 1988). The <U+FB01>ndings merit consideration of
+interventions in parking lots where pedestrian exposure is high, for example by providing alternative paths adjacent to parking lots,
+providing better marked paths, and improving visibility.
+    Our <U+FB01>ndings suggest that some environmental attributes are consistently associated with route choice, while others have varying
+and opposite e<U+FB00>ects on route choices across di<U+FB00>erent destinations and locations. In the majority of locations and destinations,
+children chose routes with signi<U+FB01>cantly lower intersection density, but more compact urban form (as represented by higher values of
+FAR and building height). These <U+FB01>ndings are in line with and further extend previous studies by showing that urban form is not only
+
+
+
+
+                                                                               72
+
+M.R. Moran et al.                                                                                Transportation Research Part D 65 (2018) 63–81
+
+
+associated with walking (Giles-Corti et al., 2011; Carlson et al., 2014; Lee and Moudon, 2006), but also with the choice of walking
+route. From a more practical perspective, these <U+FB01>ndings pose a challenge for planners and developers as the aforementioned variables
+tend to coexist with high rather than low intersection density. A possible strategy to overcome this challenge is to make intersections
+safer for pedestrians, for example by adding tra<U+FB03>c lights, elevated and well painted crossing, railing etc.
+    Our <U+FB01>ndings regarding intersection density run counter to previous studies associating high intersection density with children’s
+walking behavior (e.g., Giles-Corti et al., 2011; Koohsari et al., 2014), other studies suggesting fewer intersections may be safer (Yu,
+2015), and even to studies derived from a similar study population and setting (Moran et al., 2016). However, while these studies
+focused on walking behavior as a mode choice (e.g., Khattak and Rodríguez, 2005; Schlossberg et al., 2006), the current study focuses
+on pedestrians’ route choice. A possible explanation may be related to safety and/or way<U+FB01>nding considerations. It may be that
+children choose routes with less intersections in order to avoid car-pedestrian encounters. Rodríguez et al. (2015) found that routes
+that had more tra<U+FB03>c control devices, less tra<U+FB03>c, and more pedestrian safety amenities were preferred by adolescent girls that walk.
+From a way<U+FB01>nding perspective, routes with less intersections may be more easily planned, learned and memorized. It is also very
+likely that the di<U+FB00>erent scales used across studies may also explain the di<U+FB00>ering results regarding intersection density. To date, the
+majority of evidence suggesting positive associations between intersection density and walking behaviors have used area-based
+metrics (Frank et al., 2005, 2008; Koohsari et al., 2014; Owen et al., 2007). These <U+FB01>ndings conform with theoretical expectations that
+connectivity decreases distance and provides variety of choices. However, like the current study, other studies focused at the route
+level (e.g., Buliung et al., 2013) also have found opposite results. This discrepancy may be pointing to an ecological paradox: At the
+level of an area (like a neighborhood) connectivity is positively associated with walking, but at the individual level, as individuals
+seek to choose routes to complete a walking trip, connectivity detracts from walking. These di<U+FB00>erent speculative explanations are not
+mutual exclusive and could be fruitfully explored in future research in di<U+FB00>erent settings and populations.
+    Unlike intersection density and the other urban form variables, land use variables had fewer, weaker and less consistent asso-
+ciations with route choice in multivariate analysis across the majority of destinations and locations. These <U+FB01>ndings complement
+previously published data from the same study area (Moran et al., 2016), suggesting that children’s self-reported walking for
+transportation was found to be more strongly associated with objectively measured urban form than it was with land use variables.
+The current study supports and further extends these <U+FB01>ndings by suggesting that, compared to land uses, compact urban form is more
+strongly associated not only with whether and/or how frequently children walk, but rather also with where children choose to walk.
+    A similar pattern emerged in our results concerning green open space. In the current study, route choice was not associated with
+green open space along the route, regardless of the route’s destination and/or location. These <U+FB01>ndings are consistent with, and add to,
+previous <U+FB01>ndings from this setting pointing at null associations between green open space and children’s reported walking (Moran
+et al., 2017b). However, they do di<U+FB00>er with <U+FB01>ndings for adolescent girls, who were more likely to select walking routes with parks
+(Rodríguez et al., 2015). Given that these <U+FB01>ndings are all from limited settings, future research in di<U+FB00>erent settings is needed in order
+to decide whether these <U+FB01>ndings are generalizable, or simply re<U+FB02>ect unique local conditions. Either way, the current and previous
+<U+FB01>ndings suggest further investigation regarding the well-established role of green open space in enhancing walking (Larsen et al.,
+2012; Sugiyama et al., 2009), and in pedestrian route choice (Moran et al., 2017; Rodríguez et al., 2015; Van Cauwenberg et al.,
+2012).
+    A few di<U+FB00>erences emerged across the di<U+FB00>erent multivariate models, suggesting that intersection density was the strongest pre-
+dictor of route choice in inner-city neighborhoods, building height was the strongest predictor in suburban neighborhoods, FAR in
+routes to school, public facilities and parks (in both neighborhood types) and % retail in routes to retail (in both neighborhood types).
+While the latter is likely tautological (i.e., trips to retail are likely to pass through retail uses), the rest of the <U+FB01>ndings suggest
+relevance of location and destination in children’s route choice. The similarity of results for multivariate models estimated for the
+four trip destinations is fairly remarkable, with FAR and length consistently associated with route choice. These results suggest that
+higher intensity of development along a route was favored, regardless of the type of destination being accessed. Future research may
+bene<U+FB01>t from further exploring this using di<U+FB00>erent populations and setting, which may enable comparing <U+FB01>ner sub-groups de<U+FB01>ned by
+both destination and location (e.g., suburban/route to school, inner-city/route to school, suburban/route to park, inner-city/route to
+park, etc.).
+    Our comparison between the modelled and the chosen paths also provide useful evidence for future studies aiming to use
+modelled paths as surrogates for the actual paths chosen. Our <U+FB01>ndings were similar to those observed in studies that were conducted
+among children in di<U+FB00>erent settings, such as the Netherlands (Dessing et al., 2016), the UK (Harrison et al., 2014), and Canada
+(Buliung et al., 2013). Our <U+FB01>ndings suggest that modelled routes to school can serve as a surrogate to those chosen in more compact
+environments, like inner-cities, but less so in suburban neighborhoods. By exploring additional destinations other than schools, the
+current study further extends these insights by suggesting that the modelled route method may be a reliable surrogate for actual
+routes in inner-cities when examining trips to school and to public facilities, and in suburban neighborhoods when concerning routes
+to parks or to stores.
+    This study is innovative in that it examines routes, which precisely show how pedestrians experience the built environment, as
+opposed to points (origins, destinations) or polygons (neighborhoods). This is particularly important for children, as early exposure to
+walking in these environments may have lifelong consequences. Also innovative is that we examine associations by neighborhood
+(inner-city and clustered suburb). While such comparisons have been recently conducted by Buliung et al. (2013) and Harrison et al.
+(2014), their studies focused solely on routes to school and less is known on routes to non-school destinations in these aspects.
+Therefore, the current study <U+FB01>lls this gap in knowledge by including of di<U+FB00>erent types of daily destinations, other than school. The
+
+
+
+
+                                                                   73
+
+M.R. Moran et al.                                                                                  Transportation Research Part D 65 (2018) 63–81
+
+
+study setting is also unique, as it does not represent the traditional city-suburb dichotomy. Instead, it represents the town center vs.
+peripheral dense housing contrast, which is more relevant to European, Asian, and Latin American contexts. These comparisons are
+valuable as environmental in<U+FB02>uences on walking and route choice are known to be context-sensitive.
+    Despite its strengths, the study also has some limitations. First, the lack of objective route tracking and the reliance on self-reports
+is biased as participants may have reported routes that they did not use. To prevent this bias, data was collect in small groups in the
+presence of the <U+FB01>rst author. Overall, such false reports of routes are unlikely given that participants were highly invested in the
+mapping activity (i.e., orienting their street maps, identifying landmarks, and memorizing their routes). Although a fair number and
+variety of environmental exposures were included, other potentially relevant exposures were not included, such as aesthetics, tra<U+FB03>c-
+and crime-related safety. Similarly, individual variables included only gender and age, and thus, other potential in<U+FB02>uences could have
+not been identi<U+FB01>ed, such as: Household income, number of cars per household, number of siblings and order among siblings. While
+some socioeconomic indicators were available at the neighborhood level (e.g., household car ownership, academic education), other
+relevant indicators were not (e.g., household income), and thus some of the variables that are associated with SES or income may be
+biased. This study included a socioeconomically homogenous population in a restricted geographical study area, which served to
+minimize potential intervening e<U+FB00>ects. However, the combination of the limited geographical setting, sample size and narrow age
+group reduces the generalizability of our <U+FB01>ndings. Future research should endeavor upon this limitation by using a sampling model
+based on combinations of neighborhood and socioeconomic characteristics (e.g., inner-city/high-income, inner-city/low-income,
+suburban high-income, suburban/low-income). Perhaps the most important limitation is that the comparison of routes taken and
+routes not taken teaches us about where children walk or avoid walking but fall short in explaining why they do so. It also falls short
+in providing causal estimates, as routes may have certain attributes precisely because pedestrians walk there. These questions are
+essential to the understanding of the environment-behavior nexus, and thus should be addressed in future studies.
+
+5. Conclusions
+
+    This study examines children’s route choices in two distinct neighborhood settings and for various trip destinations in a medium-
+sized city in Israel, a geographical area less studied in this <U+FB01>eld.
+    Urban form and intersection density were found to have con<U+FB02>icting in<U+FB02>uences on children’s route choice. We found that routes
+were more likely to be selected if they had fewer intersections, but a more compact urban form along the route. The results con<U+FB01>rm
+the general importance of particular built environment attributes, and of speci<U+FB01>c urban form attributes that appear to in<U+FB02>uence the
+street-level experience of pedestrians.
+    Taken together, the <U+FB01>ndings highlight the challenge that planners and developers frequently face: Create environments that are
+walkable and pedestrian-friendly, while attempting to minimize con<U+FB02>icts between pedestrians and motor vehicles. Slowing down
+tra<U+FB03>c and providing amenities to decrease the negative impact of street crossings on routing decisions, are likely to be strategies that
+are successful for improving walkability. Furthermore, given children’s vulnerability as road users, it is highly important for planners
+to invest in safe infrastructure, especially in compact urban areas with potential daily destinations of children (e.g., residential areas,
+schools, public facilities, parks).
+    We also found di<U+FB00>erences in associations across neighborhood settings and destination types. To understand these <U+FB01>ndings, we
+emphasize the role played by neighborhood and destination characteristics in shaping children’s route choices and raise the need for
+more contextualized planning recommendations by tailoring them to speci<U+FB01>c scenarios (e.g., routes to stores in inner-cities, routes to
+parks in suburbs). Finally, the results of the current study suggest that regardless of land uses, compact urban form is positively
+related to children’s route choice; this complements prior research showing that similar attributes also increased overall walking in
+children.
+
+Acknowledgments
+
+    We wish to thank with gratitude the sta<U+FB00> of Rishon-LeZion municipality for their continuous help—Arch. Haim Leshem, Mr.
+Efrayim Jian, and Lawyer Liel Even-Zohar. We also wish to thank the School’s principals for their collaboration during data
+collection—Mrs. Michal Sarusi, Mrs. Maayan Ben-Atiya, Mrs. Dorit Karadi, Mrs. Dalia Cohen, Mrs. Ronit Angister. We also wish to
+thank Mrs. Lihi Golan and Mr. Or Caspi for their diligent and skillful contribution to building the database. Last but not least, we wish
+to acknowledge with gratitude the study participants who voluntarily participated in the study and thereby provided us with im-
+portant insights on the topic being studied.
+
+Funding
+
+    This study was supported by the Foundation for collaborative research between the Technion and the University of Haifa.
+
+
+
+
+                                                                    74
 
