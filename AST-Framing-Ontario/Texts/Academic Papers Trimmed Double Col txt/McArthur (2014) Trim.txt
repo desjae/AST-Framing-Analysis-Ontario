@@ -4,7 +4,9 @@ Spatial Analysis of Child Pedestrian
 and Bicycle Crashes
 Development of Safety Performance Function
 for Areas Adjacent to Schools
+
 Adam McArthur, Peter T. Savolainen, and Timothy J. Gates
+
 Pedestrian and bicycle safety for school-aged children is a particular
 concern as traffic crashes continue to be a leading cause of death for
 children 5 to 14 years old. For this concern to be addressed, Safe Routes
@@ -58,6 +60,10 @@ DOI: 10.3141/2465-08
 
 
 
+
+
+
+
 periods that also tend to coincide with high levels of traffic volume,
 increasing the potential risk for child pedestrian crashes (3).
 Safety concerns present one of several factors that explain the rela-
@@ -105,9 +111,13 @@ cation is somewhat limited because of the relative infrequency of
 
 child pedestrian and bicycle crashes near schools and the inherent
 subjectivity involved in the more qualitative assessments.
+
+
 57
 
 58
+
+
 The objective of this research was to develop a safety performance
 function (SPF) for K–8 schools that could be used as part of a data-
 driven approach to assist communities in identifying or prioritizing
@@ -152,7 +162,7 @@ were estimated to examine crash frequency and severity. The results
 showed that both measures tended to decrease at locations where
 driveways or turning bays were present near the school entrance.
 Conversely, both frequency and severity increased when recreational
-facilities were present on the site. Each of these factors is likely to
+facilities were present on the site. Each of these factors is likely to be
 capturing the effects of varying exposure, as are several of the other
 significant variables identified in the study, which included transit
 access, commercial access, and population density.
@@ -174,6 +184,8 @@ been considerable recent research to assess the crash risks of pedes-
 trians and bicyclists. A study in Hamilton, Ontario, Canada, mapped
 commuter cyclist collision risk per distance traveled (21). The authors
 Transportation Research Record 2465
+
+
 recommended this method be used as a basis for transportation
 policy as opposed to more traditional analyses focused on rates
 per capita.
@@ -218,7 +230,7 @@ the approach, several common factors emerge as important, par-
 ticularly information about the transportation infrastructure, as
 well as socioeconomic and demographic characteristics.
 
-be
+
 Methodology
 
 Available safety resources are optimally invested at those locations
@@ -270,6 +282,17 @@ Michigan SRTS program.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 P
 
 
@@ -283,7 +306,27 @@ P
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 McArthur, Savolainen, and Gates                                                                                                              59
+
+
 Data Collection and Summary                                                 approximated by a Poisson or negative binomial distribution, with
 roughly 50% of the schools experiencing zero crashes during the
 To develop the SPFs, details of those schools eligible for SRTS fund-       analysis period.
@@ -309,43 +352,79 @@ over the 5-year analysis period. Figure 1 provides both a probabil-         Stat
 ity density function and cumulative distribution function, which
 illustrate the percentage of schools that experienced specific crash        Once the analysis data set was created, an SPF was estimated to
 frequencies during the analysis period. The data appear to be well          examine the relationships between the factors listed in Table 1 and
+
+
+
 100
+
+
 90
+
+
 80
+
+
 70
 ercentage of Schools
+
+
+
+
 60
+
+
 50
+
+
 40
+
+
 30
+
+
 20
+
+
 10
+
+
 0
 0             5                               10                                15                               20
 Number of Child Pedestrian and Bicyclist Involved Crashes, 2007 to 2011
+
 Probability Density Function             Cumulative Distribution Function
+
 FIGURE 1   Probability density and cumulative distribution functions of crashes involving child pedestrian and bicyclist within 1 mi of a school,
 2007 to 2011.
 
 60
+
+
 TABLE 1   Summary Statistics
-Variable                              Mean
+
+Variable                                Mean
+
 Child pedestrian–bicycle crash data
-   Crashes from 2007 to 2011                1.31
+   Crashes from 2007 to 2011                   1.31
 Census data
-   Average family size                      3.05
-   Children ages 5 to 14              10,543
-   Average parents per household            1.72
-   Median family income ($)           54,626
-   Population density (1,000 per mi2)       1.60
-   Proportion of nonwhite households        0.19
+   Average family size                       3.05
+   Children ages 5 to 14                10,543
+   Average parents per household             1.72
+   Median family income ($)             54,626
+   Population density (1,000 per mi2)        1.60
+   Proportion of nonwhite households         0.19
 Roadway functional class
-   Local roads (proportion)                 0.51
-  Collectors (proportion)                   0.23
-   Arterials (proportion)                   0.26
+   Local roads (proportion)                    0.51
+  Collectors (proportion)                      0.23
+   Arterials (proportion)                      0.26
 School data
   Students enrolled                       397
+
 Note: SD = standard deviation.
+
+
+
+
 the frequency of child pedestrian and bicycle crashes near each
 school during the 5-year analysis period.
 Consistent with contemporary research (32) and the recommended
@@ -355,6 +434,7 @@ mial specification provides the probability P(ni) of school i experi-
 encing a total of ni child pedestrian- or bicycle-involved crashes over
 
 the 5-year analysis period:
+
 G (<U+03B8> + ni ) <U+03B8>
 P (ni ) =              ui (1 - ui ) i
 n
@@ -363,14 +443,14 @@ G (<U+03B8>) ni!
 
 
 where
-ui = <U+03B8>/(<U+03B8> + <U+03BB>i),
-<U+03B8>  = 1/a,
-G(•)  = gamma function, and
-<U+03BB>i  = mean number of crashes at given location.
+ui   =   <U+03B8>/(<U+03B8> + <U+03BB>i),
+<U+03B8>    =   1/a,
+G(•)   =   gamma function, and
+<U+03BB>i    =   mean number of crashes at given location.
 
 The variable <U+03BB>i is a linear function of covariates:
 
-<U+03BB> i = exp (ßX i + ei )                                                (2)
+<U+03BB> i = exp (ßX i + ei )                                                  (2)
 
 where
 
@@ -382,7 +462,7 @@ exp(ei) =	gamma-distributed error term with mean one and
 variance a.
 The resultant mean variance relationship is given by
 
-var [ ni ] = E ( ni )[1 + aE ( ni )]                                   (3)
+var [ ni ] = E ( ni )[1 + aE ( ni )]                                    (3)
 
 If a is significantly different from zero, the data are overdispersed
 or underdispersed. If a is equal to zero, then the negative binomial
@@ -390,22 +470,31 @@ reduces to the Poisson distribution. Estimation of <U+03BB>i can be conducted
 through standard maximum likelihood procedures (32).
 Transportation Research Record 2465
 
-SD                 Maximum        Minimum
 
-2.17             0               18
 
-0.18             2.34             3.98
-23,349                25          102,261
-0.13             1.25             1.89
-19,420             9,906          163,366
-1.86             0.002           10.76
-0.23             0.02             0.97
 
-0.50             0                1
-0.42             0                1
-0.44             0                1
+SD                   Maximum          Minimum
 
-203               10            1,298
+
+2.17             0                18
+
+0.18                2.34               3.98
+23,349                  25            102,261
+0.13                1.25               1.89
+19,420               9,906            163,366
+1.86                0.002             10.76
+0.23                0.02               0.97
+
+0.50             0                 1
+0.42             0                 1
+0.44             0                 1
+
+203                  10             1,298
+
+
+
+
+
 
 Given the nature by which crashes occur, as well as the available
 data, it is reasonable to expect unobserved heterogeneity because
@@ -414,7 +503,8 @@ volumes, detailed roadway geometry, etc.). For this heterogeneity to
 be accounted for, the constant term is allowed to vary as
 
 
-ßi = ß + <U+03C9> i                                                        (4)
+ßi = ß + <U+03C9> i                                                           (4)
+
 
 where <U+03C9>i is a randomly distributed term. For the constant, this term
 
@@ -438,7 +528,7 @@ independent variable. Marginal effects are calculated as follows:
 
 
 <U+2202><U+03BB> i
-ME <U+03BB>xiki =       = ß k exp (ßX i )                                  (5)
+ME <U+03BB>xiki =         = ß k exp (ßX i )                                   (5)
 <U+2202> xik
 
 where
@@ -451,9 +541,13 @@ In examining the model results, they are generally found to be
 consistent with a priori expectations. First, the standard deviation of
 
 McArthur, Savolainen, and Gates
+
+
 TABLE 2   Random Effects Negative Binomial
 
+
 Parameter
+
 Constant
   Standard deviation
 Log (child population ages 5–14)
@@ -465,7 +559,12 @@ Median family income ($1,000)
 Average parents per household
 Proportion of nonwhite households
 a (overdispersion parameter)
+
 Note: na = not applicable; K = kindergarten
+
+
+
+
 the constant term was found to be significantly different from zero,
 which is evidence of unobserved heterogeneity (and random effects)
 that is attributable to some important factors for which data were not
@@ -507,21 +606,30 @@ sizes. Children in larger households may be more apt to walk or bike
 to school because of limitations in the number of available vehicles.
 Similar dynamics may explain why crashes decrease in areas with
 61
+
+
 Model Results
+
 Standard                    Marginal
-Estimate       Error          P-Value      Effect
-0.933         0.654           .153            na
-0.635         0.021         <.001             na
-0.228         0.020         <.001          0.168
-0.066         0.014         <.001          0.049
-0.172         0.038         <.001          0.126
-0.326         0.127           .010         0.239
-0.292         0.013         <.001          0.215
--0.017          0.001         <.001        -0.012
--2.214          0.403         <.001        -1.630
--1.644          0.217         <.001        -1.210
-20.183         7.365           .006            na
+Estimate         Error         P-Value       Effect
+
+0.933          0.654          .153             na
+0.635          0.021         <.001             na
+0.228          0.020         <.001          0.168
+0.066          0.014         <.001          0.049
+0.172          0.038         <.001          0.126
+0.326          0.127          .010          0.239
+0.292             0.013         <.001         0.215
+-0.017             0.001         <.001        -0.012
+-2.214             0.403         <.001        -1.630
+-1.644             0.217         <.001        -1.210
+20.183             7.365          .006            na
+
 .
+
+
+
+
 more two-parent households. Two-parent households are more eas-
 ily able to facilitate automobile transportation for children as shown
 by previous studies (8, 12). A two-parent household would also
@@ -564,6 +672,8 @@ cle crashes than expected may be indicative of underlying safety
 issues. Alternatively, schools that have experienced fewer crashes
 
 62
+
+
 than expected may reflect either safe campuses or luck because of
 the random and rare nature of crashes.
 
@@ -637,6 +747,8 @@ nal of the Transportation Research Board, No. 2327, Transportation
 Research Board of the National Academies, Washington, D.C., 2013,
 pp. 1–8.
 Transportation Research Record 2465
+
+
 6. Yang, Y., and E. Markowitz. Integrating Parental Attitudes in Research
 on Children’s Active School Commuting: Evidence from Community
 School Travel Survey. In Transportation Research Record: Journal

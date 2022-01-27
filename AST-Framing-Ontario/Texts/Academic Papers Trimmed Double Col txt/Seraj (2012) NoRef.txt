@@ -3,8 +3,10 @@
 Parental Attitudes Toward Children
 Walking and Bicycling to School
 Multivariate Ordered Response Analysis
+
 Saamiya Seraj, Raghuprasad Sidharthan, Chandra R. Bhat,
 Ram M. Pendyala, and Konstadinos G. Goulias
+
 Recent research suggests that, besides traditional sociodemographic and
 built environment attributes, the attitudes and perceptions of parents
 toward walking and bicycling play a crucial role in deciding which travel
@@ -61,6 +63,10 @@ DOI: 10.3141/2323-06
 
 
 
+
+
+
+
 school, these modes have experienced a dramatic decline in modal
 share over the past 40 years. Whereas in 1969 nearly one-half of all
 school trips were made by walking or bicycling, by 2009 that share
@@ -111,9 +117,13 @@ did not walk or bicycle to school.
 Despite studies that show the clear importance of parental attitudes
 and perceptions toward bicycling and walking in the choice of mode
 for school travel, there is a dearth of research on identifying and
+
+
 46
 
 Seraj, Sidharthan, Bhat, Pendyala, and Goulias
+
+
 quantifying the influence of various factors on these attitudes and
 perceptions. In the case of school-going children, parents are likely
 to play a strong decision-making role when it comes to modal choice
@@ -175,6 +185,8 @@ bicycle to school.
 The remainder of this paper is organized as follows. The second
 section presents the modeling methodology adopted in this paper.
 47
+
+
 The third section describes the data used in this study and presents
 descriptive statistics of the sample. The fourth section presents model
 estimation results. The final section offers conclusions and a discussion
@@ -217,7 +229,7 @@ related to the observed ordered outcome (yqi) through threshold
 bounds (21, 22):
 
 
-y*qi = ß'i x qi + e qi , yqi = k if <U+03B8>ik -1 < y*qi < <U+03B8>ik                   (1)
+y*qi = ß'i x qi + e qi , yqi = k   if <U+03B8>ik -1 < y*qi < <U+03B8>ik                (1)
 
 where
 
@@ -237,36 +249,52 @@ allows correlation in the eqi terms across attitudinal variables i for each
 individual q. If eq = (eq1, eq2, eq3, . . . , eqI)', then eq is multivariate
 
 48
+
+
 normally distributed (N) with a mean vector of zeros and a correlation
+
 matrix (S) as follows:
 
-<U+F8EE><U+F8EB> 0<U+F8F6> <U+F8EB> 1                    <U+03C1>12 <U+03C1>13  <U+03C1>1I <U+F8F6> <U+F8F9>
+
+
+<U+F8EE><U+F8EB> 0<U+F8F6> <U+F8EB> 1                        <U+03C1>12 <U+03C1>13  <U+03C1>1I <U+F8F6> <U+F8F9>
 
 
 
 <U+F8EF><U+F8EC> <U+F8F7> <U+F8EC>
-<U+F8EF><U+F8EC> 0 <U+F8F7> <U+F8EC> <U+03C1>21                   1 <U+03C1>23  <U+03C1>2 I <U+F8F7> <U+F8FA>
+<U+F8EF><U+F8EC> 0 <U+F8F7> <U+F8EC> <U+03C1>21
 <U+F8F7><U+F8FA>
+1 <U+03C1>23  <U+03C1>2 I <U+F8F7> <U+F8FA>
+
 
 
 
 
 e q ~ N <U+F8EF><U+F8EC> <U+F8F7> , <U+F8EC>
-<U+F8EF><U+F8EC>  <U+F8F7> <U+F8EC>                                     <U+F8F7><U+F8FA>
+<U+F8EF><U+F8EC>  <U+F8F7> <U+F8EC>                                <U+F8F7><U+F8FA>
 <U+F8F7><U+F8FA>
 
 
 
 <U+F8EF><U+F8EC> <U+F8F7> <U+F8EC>
-<U+F8EF><U+F8F0><U+F8ED> 0 <U+F8F8> <U+F8ED> <U+03C1>I 1               <U+03C1>I 2 <U+03C1>I 3  1 <U+F8F8> <U+F8FA><U+F8FB>
+<U+F8EF><U+F8F0><U+F8ED> 0 <U+F8F8> <U+F8ED> <U+03C1>I 1
 <U+F8F7><U+F8FA>
+<U+03C1>I 2 <U+03C1>I 3  1 <U+F8F8> <U+F8FA><U+F8FB>
+
+
+
+
 
 
 
 
 or
 
+
 e q ~ N [ 0, S ]
+
+
+
 The off-diagonal terms of S capture the error covariance across
 the underlying latent continuous variables of the different attitudinal
 variables. In other words, the off-diagonal terms of S capture the
@@ -280,6 +308,7 @@ variable as an issue. As a special case, if all the correlation parameters
 are zero, the model system in Equation 1 collapses to a set of
 independent ordered response probit models.
 The parameter vector of the multivariate ordered probit model is
+
 d = (ß1' , ß'2 , . . . , ß'I ; <U+03B8>1' , <U+03B8>'2 , . . . , <U+03B8>'I ; <U+2126>' )'
 
 
@@ -292,20 +321,23 @@ Lq ( d ) = Pr ( yq1 = mq1 , yq 2 = mq 2 , . . . yqI = mqI )
 
 In other words
 
+mq1 - ß1' xq 1
 <U+03B8>1
-mq1 - ß1' xq 1          m - ß 2' xq 2
-<U+03B8>2 q2                      <U+03B8>I
+m - ß 2' xq 2
+<U+03B8>2 q2
 mqI - ß I' xqI
-Lq ( d ) =            <U+222B>                       <U+222B>            ...           <U+222B>
+<U+03B8>I
+
+Lq ( d ) =              <U+222B>                         <U+222B>            ...             <U+222B>
 mq1 -1
 v1 = <U+03B8>1
 m -1
 -ß1' x q1 v2 = <U+03B8>2 q2 -ß '2 x q 2
 mqI -1
-vI = <U+03B8>I        -ß 'I x
+vI = <U+03B8>I       -ß 'I x qI
 
 
-f I ( v1 , v2 , . . . , vI <U+2126> )dv1
+f I ( v1 , v2 , . . . , vI <U+2126> )dv1 , dv2
 
 where Pr denotes probability and <U+03D5>I is a probability density function
 of an I-dimensional multivariate normal distribution.
@@ -322,36 +354,52 @@ et al. (20) for the use of the pairwise likelihood approach]. The pair-
 wise marginal likelihood function (L) for individual q may be written
 as follows:
 Transportation Research Record 2323
+
+
 I -1    I
+
 LCML,q ( d ) = <U+220F> <U+220F> Pr ( yqi = mqi , yqg = mqg )
 i =1 g = i +1
 
+
+
 <U+F8EF>
 (
-<U+F8EE> F 2 <U+03B8>imqi +1 - ß'i x qi , <U+03B8>mg qg +1 - ß'g x qg , <U+03C1>ig  ) <U+F8F9><U+F8FA>
+<U+F8EE> F 2 <U+03B8>imqi +1 - ß'i x qi , <U+03B8>mg qg +1 - ß'g x qg , <U+03C1>ig ) <U+F8F9><U+F8FA>
+
+
 
 
 I -1
 = <U+220F><U+220F><U+F8EF>
 I
-(  mqi +1                mqg
-<U+F8EF> - F 2 <U+03B8>i - ß'i x qi , <U+03B8> g - ß'g x qg , <U+03C1>ig             )<U+F8FA>  (4)
+(mqi +1                mqg
+<U+F8EF> - F 2 <U+03B8>i - ß'i x qi , <U+03B8> g - ß'g x qg , <U+03C1>ig            )<U+F8FA>    (4)
 
 
-(  mqi
+(mqi
 i =1 g = i +1 <U+F8EF> - F 2 <U+03B8> i - ß'i x qi , <U+03B8> g
 mqg +1
-- ß'g x qg , <U+03C1>ig  ) <U+F8FA><U+F8FA>
+- ß'g x qg , <U+03C1>ig ) <U+F8FA><U+F8FA>
+
+
 
 
 (
 <U+F8EF> + F <U+03B8>mqi - ß'x , <U+03B8>mqg - ß' x , <U+03C1>
-<U+F8F0>      2    i       i qi       g        g qg       ig )    <U+F8FA>
+<U+F8F0>     2     i       i qi       g        g qg       )
+ig
+<U+F8FA>
 <U+F8FB>
+
 and
+
 
 LCML( d ) = <U+220F> LCML,q ( d )
 (2)                q
+
+
+
 where CML denotes composite marginal likelihood and F2 () is
 the cumulative distribution function of a standard bivariate normal
 distribution.
@@ -365,6 +413,7 @@ in Bhat et al. (20).
 
 
 Data Description
+
 In this study, the Southern California portion of the California
 add-on sample from the 2009 National Household Travel Survey
 was used. This particular sample was used because the California
@@ -380,6 +429,9 @@ Descriptive statistics for the sample used in the analysis of this
 
 
 
+
+
+
 paper are presented in Tables 1 to 4. After extensive data clean-
 ing and filtering, the final sample available for analysis included
 
@@ -387,10 +439,10 @@ ing and filtering, the final sample available for analysis included
 
 
 
-qI
+
 1,000 respondents. Only one parent in each household answered these
 attitudinal questions for one randomly chosen school-aged child.
-, dv2 , . . . , dvI (3) The availability of automobiles was high, with only 2% of households
+, . . . , dvI   (3)   The availability of automobiles was high, with only 2% of households
 indicating zero-car ownership. Nearly one-half of the households
 fell into the highest income category (of the three categories used in
 this paper) of $80,000 and above, thereby suggesting that the sample
@@ -408,39 +460,43 @@ more than 2 mi from school. The former group was a candidate for
 walking and bicycling to school; the use of such modes was likely to
 
 Seraj, Sidharthan, Bhat, Pendyala, and Goulias
+
+
 TABLE 1   Sample Data for Parental Attitudes
-Characteristic                Number of Responses
+
+Characteristic                  Number of Responses
+
 Crime
-   Not an issue                         437
-   Little bit of an issue               178
-   Somewhat of an issue                 154
+   Not an issue                          437
+   Little bit of an issue                178
+   Somewhat of an issue                  154
    Very much an issue                     87
-   A serious issue                      144
+   A serious issue                       144
 Weather
-   Not an issue                         592
-   Little bit of an issue               183
-   Somewhat of an issue                 141
+   Not an issue                          592
+   Little bit of an issue                183
+   Somewhat of an issue                  141
    Very much an issue                     43
    A serious issue                        41
 Speed of traffic
-   Not an issue                         180
-   Little bit of an issue               115
-   Somewhat of an issue                 223
+   Not an issue                          180
+   Little bit of an issue                115
+   Somewhat of an issue                  223
 
-   Very much an issue                   179
-   A serious issue                      303
+   Very much an issue                    179
+   A serious issue                       303
 Volume of traffic
-   Not an issue                         175
-   Little bit of an issue               125
-   Somewhat of an issue                 199
-   Very much an issue                   188
-   A serious issue                      313
+   Not an issue                          175
+   Little bit of an issue                125
+   Somewhat of an issue                  199
+   Very much an issue                    188
+   A serious issue                       313
 Distance to school
-   Not an issue                         285
-   Little bit of an issue               126
-   Somewhat of an issue                 135
-   Very much an issue                   156
-   A serious issue                      298
+   Not an issue                          285
+   Little bit of an issue                126
+   Somewhat of an issue                  135
+   Very much an issue                    156
+   A serious issue                       298
 
 Note: Sample size = 1,000.
 
@@ -458,35 +514,41 @@ working full time. It is likely that these latter households, in par-
 
 TABLE 2   Sample Data for Household Characteristics
 
-Characteristic        Percentage      Characteristic          Percentage
-Household size                        Race
-  2                        2.3          Caucasian                59.9
-  3                       19.9          Hispanic                 19.7
-  4                       43            Asian                     9.6
-   5 and above            34.8          African-American          4.6
-Vehicles                                Other                     6.2
-  0                        2.1        Location
-  1                       14            Urban area               95
-  2                       47.7          Nonurban area             5
-  =3                      36.2
+Characteristic       Percentage         Characteristic           Percentage
+
+Household size                          Race
+  2                      2.3              Caucasian                 59.9
+  3                     19.9              Hispanic                  19.7
+  4                     43                Asian                      9.6
+   5 and above          34.8              African-American           4.6
+Vehicles                                  Other                      6.2
+  0                      2.1            Location
+  1                     14                Urban area                95
+  2                     47.7              Nonurban area              5
+  =3                    36.2
 Income
-  Low                     22.8
-  Medium                  29
-  High                    48.2
+  Low                   22.8
+  Medium                29
+  High                  48.2
+
 Note: Sample size = 1,000.
 49
+
+
 TABLE 3   Sample Data for School Characteristics
-Characteristic          Percentage       Characteristic         Percentage
-Mode to school                           Distance to school
-  Car                      68.7            <1 mi                   38.4
-  Bus                        9.4           1–2 mi                  22.9
-   Walk or bike            20.7            >2 mi                   38.7
-  Other                      1.2         Type
-Mode from school                           Public school           85
-  Car                      63.2            Private school          15
-  Bus                      11
-   Walk or bike            24.9
-  Other                      0.9
+
+Characteristic         Percentage      Characteristic          Percentage
+
+Mode to school                         Distance to school
+  Car                        68.7        <1 mi                   38.4
+  Bus                         9.4        1–2 mi                  22.9
+   Walk or bike              20.7        >2 mi                   38.7
+  Other                       1.2      Type
+Mode from school                         Public school           85
+  Car                        63.2        Private school          15
+  Bus                        11
+   Walk or bike              24.9
+  Other                       0.9
 
 Note: Sample size = 1,000.
 
@@ -507,11 +569,11 @@ each of the following items was an issue in the context of their children
 bicycling or walking to school:
 
 
-•  Distance between home and school,
-•  Violence or crime along the route to school,
-•  Speed of traffic along the route to school,
-•  Amount of traffic along the route to school, and
-•  Poor weather or climate in the area.
+•   Distance between home and school,
+•   Violence or crime along the route to school,
+•   Speed of traffic along the route to school,
+•   Amount of traffic along the route to school, and
+•   Poor weather or climate in the area.
 
 The response scale ranged from one to five, with a response of one
 indicating that the item was not considered an issue and a response of
@@ -527,9 +589,10 @@ acted as deterrents to their children walking and bicycling to school.
 About 60% of the parents considered weather not to be an issue,
 
 
+
 TABLE 4   Sample Data for Parental Characteristics
 
-Characteristic                             Percentage
+Characteristic                           Percentage
 
 Father
   Worker                                      87.3
@@ -540,9 +603,12 @@ Mother
 Both parents
    Both parents are workers                   54.5
    Both parents are full-time workers         30
+
 Note: Sample size = 1,000.
 
 50
+
+
 generally reflecting the favorable weather conditions in the Southern
 California region. About 44% of the parents considered crime not
 to be an issue. This statistic may be reflective of the larger share of
@@ -605,6 +671,8 @@ un­weighted survey sample. Given the nature of the model form
 and specification, the relationships found in this analysis may be
 considered representative of the nature of the influences of various
 Transportation Research Record 2323
+
+
 attributes on parental attitudes. Most of the model coefficients were
 statistically significant at the .05 level (these are the estimates in
 Table 5 with no superscript identifiers). A few variables were, how-
@@ -668,6 +736,8 @@ Parents of boys were less likely to be concerned about crime,
 the speed of traffic, and the distance to school. It appears that parents
 
 52
+
+
 consider boys to be less vulnerable to crime and better able to handle
 longer distances and higher-speed traffic environments. In general,
 this finding is consistent with expectation, and there is evidence in
@@ -738,6 +808,8 @@ sociodemographic and cultural differences across racial groups that
 affect parental attitudes toward bicycling and walking. As noted by
 McDonald, it is possible that the racial differences are attributable
 Transportation Research Record 2323
+
+
 to other underlying reasons, and the race variables themselves are
 simply proxies in capturing such effects (11).
 As the number of workers in a household increased, parents tended
@@ -809,6 +881,8 @@ to emergency situations in a timely manner. In addition, parents who
 have flexible work arrangements and schedules are more likely to be
 
 Seraj, Sidharthan, Bhat, Pendyala, and Goulias
+
+
 able to walk or cycle with their children to and from school, thus low-
 ering concerns about personal safety, distance, and traffic conditions.
 However, parents who have rigid work schedules are more likely to
@@ -871,6 +945,8 @@ in this paper. Information about correlations across error terms
 provides valuable insights on how different attitudinal variables are
 related to one another and how policies that address one attitudinal
 53
+
+
 measure might have an impact on other attitudinal measures. The
 estimated error correlations are shown in Table 5.
 As expected, the unobserved error terms associated with attitudes
@@ -934,6 +1010,8 @@ using a multivariate model system in the empirical context considered
 in this paper.
 
 54
+
+
 It was found that a host of variables affect parental attitudes toward
 children walking or bicycling to school. These results have impor-
 tant policy implications. First, proximity of schools to residential
@@ -1008,6 +1086,8 @@ tistics, traffic patterns, and street connectivity would prove useful in
 better understanding how these factors affect attitudes. In addition,
 further research needs to be conducted to understand better the direc-
 Transportation Research Record 2323
+
+
 tion of relationships between attitudes, contextual attributes, and
 choices. Future efforts should also attempt to control for the effects of
 self-selection that may be at play because people are inclined to locate

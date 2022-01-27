@@ -1,459 +1,561 @@
-                                                        Journal of Transport & Health 18 (2020) 100866
-                                                             Contents lists available at ScienceDirect
-                                                    Journal of Transport & Health
-                                                  journal homepage: http://www.elsevier.com/locate/jth
-No association between Safe Routes to school programs and
-school-age pedestrian or bicyclist collisions in New York State
-Bumjoon Kang a, *, Chihuangji Wang b, So-Ra Baek c
-a
-  College of Architecture, Myongji University, 116 Myongji-ro, Cheoin-gu, Yongin-si, Gyeonggi-do, 17058, South Korea
-b
-  Department of Urban and Regional Planning, University at Buffalo, The State University of New York, United states
-c
-  Department of Urban and Regional Planning, California State Polytechnic University, Pomona, United states
-A R T I C L E I N F O                                      A B S T R A C T
-Keywords:                                                  Introduction: Safe Routes to School (SRTS) programs aim to promote children’s active school
-Traffic safety                                             commuting and to improve traffic safety around schools. Evaluation studies mostly have focused
-Crash                                                      on travel modal shift to active modes. However, traffic safety improvement has been less studied,
-Accident
-                                                           although it was one of the most important program goals and it could be equally important to
-Child
-School
-                                                           policy makers and practitioners. We aim to evaluate whether schools participating in a SRTS
-Walking                                                    program have safety improvement.
-                                                           Methods: Using a two-group (case-control) pretest-posttest study design, we analyzed SRTS
-                                                           funding in 2008 and 2013 in New York State. Analysis of Covariance models were established to
-                                                           examine if SRTS funding was associated with changes in collision outcomes with adjusting school
-                                                           demographics, area-based socioeconomic characteristics, and built environments around schools.
-                                                           Collision outcomes were vehicle collision count and risk (count adjusted by traffic volume)
-                                                           around school before and after SRTS funding.
-                                                           Results: In total, 2363 schools were examined. We found that the 2013 SRTS programs were not
-                                                           significantly associated with a decrease in collision involving school-age pedestrians or bicyclists
-                                                           occurring within a 0.5-mile distance from schools during school hours.
-                                                           Conclusions: The 2013 SRTS funding was not associated with collision reduction, suggesting no
-                                                           evident effect of SRTS on collision reduction among school-age pedestrians and bicyclists.
-1. Introduction
-    In the United States, pedestrian and bicyclist fatalities have increased since 2008. In 2017, there were 5977 pedestrian deaths, of
-which nearly 19% were children aged 14 or younger. Pedestrian deaths accounted for 16% of all traffic fatalities in 2017, increasing
-from 12% in 2008 (National Highway Traffic Safety Administration, 2019). A Canadian study found that about 50% of child pedestrian
-collisions occurred during school commuting times around schools (Warsh et al., 2009). The number of bicyclist deaths also increased
-from 708 in 2008 to 840 in 2016. Poorly designed streets may produce preventable pedestrian and bicyclist collisions (National
-Highway Traffic Safety Administration, 2018). Safe street environments for all modes and all street users are especially important for
-vulnerable populations including children. School-age children are less likely to walk or bike in their neighborhoods if there are many
-collisions (Liu and Mendoza, 2014). Traffic safety concern is one of the main reasons for parents not allowing their children to walk or
-  * Corresponding author.
-    E-mail addresses: bumjoon@mju.ac.kr (B. Kang), chihuang@buffalo.edu (C. Wang), sbaek@cpp.edu (S.-R. Baek).
-https://doi.org/10.1016/j.jth.2020.100866
-Received 31 October 2019; Received in revised form 9 March 2020; Accepted 21 April 2020
-Available online 1 July 2020
-2214-1405/© 2020 Elsevier Ltd. All rights reserved.
+                                                          Journal of Transport & Health 18 (2020) 100866
 
-B. Kang et al.                                                                                    Journal of Transport & Health 18 (2020) 100866
-bike to/from schools (McDonald and Aalborg, 2009).
-    For safer walking and bicycling and more appealing school commuting modes, a federal program, the Safe Routes to School (SRTS)
-program was initiated by the US Congress with the 2005 federal transportation bill (Fischer, 2005). Between 2005 and 2012, a total of
-$1.2 billion was budgeted for the SRTS program including infrastructure enhancement (e.g., sidewalk improvement and pedestrian
-safety countermeasures) and non-infrastructure interventions (e.g., education, enforcement) (McDonald et al., 2014). The SRTS
-program initially allocated funding to State transportation departments (DOTs). In 2012, 2015, new transportation bills were passed to
-combine the existing stand-alone SRTS funding into general walking and bicycling transportation program funding streams. Under the
-old funding stream, most SRTS funding was awarded in 2008 and 2013. Afterwards, the DOT has had no dedicated funding specifically
-for SRTS. The SRTS program must compete against other transportation projects (The Safe Routes Partnership, n.d.). Consequently, it
-is necessary and critical to evaluate whether the SRTS program (when it was a stand-alone program with dedicated funding) had
-significant impacts and intended outcomes using a pretest-posttest design with longitudinal collision, demographic and built envi­
-ronment data.
-    Previous studies aiming to evaluate the impacts of SRTS have mostly focused on students’ travel mode change (changes in walking
-and biking rates to/from school). They showed that SRTS slightly increased children’s walking or bicycling. According to a national
-SRTS survey report, 5227 schools participating in SRTS in 2007–2013 had a 3% increase in walking and bicycling (National Center for
-Safe Routes to School, 2015). Some studies found a moderate increase in walking (from 9.8% to 14.2%) among 53 SRTS schools in four
-states (Stewart et al., 2014) and a 5–20% increase in walking or biking to/from 14 schools in Oregon after SRTS interventions
-(McDonald et al., 2013). A systematic review paper summarized that SRTS interventions had a small impact on travel mode change
-(Cohen’s d < 0.33) (Chill<U+FFFD>  on et al., 2011).
-    Another important outcome that needs to be evaluated as part of SRTS impacts is the improvement in traffic safety. However, there
-are only very few studies that examined longitudinal changes in pedestrian or bicyclist injury associated with SRTS programs, mostly
-published by the same research group (Dumbaugh and Frank, 2007). DiMaggio and Li (2013) found that the rate of pedestrian injury
-decreased by 44% for youth aged 5 to 19 in census tracts with SRTS treatments in New York City, while rates were unchanged for
-census tracts without SRTS (DiMaggio and Li, 2013). Another study analyzed quarterly traffic crash data in Texas to assess the effect of
-the SRTS program on school-age pedestrian and bicyclist injuries and found that the rates of pedestrian and bicyclist injuries between
-pre- and post-SRTS periods declined 42.5% (DiMaggio et al., 2015). A recent study found that SRTS intervention was associated with a
-23% reduction in pedestrian and bicyclist injuries (DiMaggio et al., 2016). To our knowledge, these are the only published academic
-papers on SRTS evaluation that specifically focuses on the change in pedestrian or bicyclist safety improvement, even though it was
-one of the SRTS goals. Other than them, the association between SRTS and collision reduction was rarely tested. Another research gap
-is that traffic volume, an important and accurate measure of exposure when studying collisions, was not accounted for when pedestrian
-or bicyclist collision risks were analyzed (Srinivasan et al., 2016; Stewart, 2011).
-    This study aims to examine whether school-age pedestrian or bicyclist collisions (with traffic volume adjusted) were reduced
-around schools after SRTS funding, using SRTS eligible schools for 2008 and 2013 SRTS funding in New York State and using a two-
-group (case-control) pretest-posttest study design.
-2. Methods
-2.1. School dataset
-    We identified all public and non-public, K-12 (kindergarten through 12th grade) schools eligible for SRTS funding in New York
-State with the directory downloaded from the New York State Education Department (NYSED) website (New York State Education
-Department, 2016). Schools under the categories of ‘elementary’, ‘middle school’, ‘junior-senior school’, and ‘K-12 school’ were
-considered eligible for SRTS funding. We excluded schools in New York City because their urban environments, neighborhood-level
-social and economic characteristics, and traffic volumes are incompatible with those in other parts of New York State. For example, the
-population density of Buffalo, the second largest city in the state, was 6471 people per square mile, about a quarter of that of New York
-City’s 27,013 people per square mile, according to the 2010 US Census. School density in New York City was 4.49 schools (per square
-mile), while only 0.07 schools (per square mile) in New York State.
-    Schools in the NYSED directory constituted the study population. We identified schools’ SRTS funding and project information
-using data from the National Center for SRTS, the official SRTS data clearing house, retrieved in 2018 (National Center for Safe Routes
-to School, 2018). Data included funding award ID, award amount, SRTS intervention type (infrastructure, non-infrastructure, or
-combined/both), funding year, and project summary. All SRTS funding awards were announced in either 2008 or 2013. We reviewed
-SRTS project information and determined not to use the information because sub-type information was unstandardized and insuffi­
-cient. We reported common intervention types to show details of the SRTS interventions studied in this study. We reviewed the
-awardee schools and manually matched SRTS information with the NYSED school directory. The funding year was considered as the
-treatment year when the planned interventions were initiated and occurred.
-    In this study, we developed two datasets for analyses. The 2008 dataset consisted of schools with 2008 SRTS funding (cases) and all
-other schools (controls). In the 2013 dataset, we excluded all 2008 SRTS schools and their nearby schools within a 2-mile distance, to
-avoid potential spatial contamination. If a school was spatially affected by a 2008 SRTS project, it should be excluded from 2013
-analysis. The 2-mile distance was determined to make sure that no schools in the 2013 analysis had the spatial contamination issue.
-Thus, the 2013 dataset consisted of schools with new SRTS funding in 2013 (cases) and schools with no SRTS funding history (con­
-trols). Schools receiving SRTS funding in multiple years were excluded in the 2013 dataset, because it is difficult to isolate the effects of
-                                                                      2
 
-B. Kang et al.                                                                                            Journal of Transport & Health 18 (2020) 100866
-multiple funding years.
-2.2. School demographics
-    We obtained the schools’ demographic characteristics (enrollment, percent of students in free or reduced lunch, and race/ethnicity
-composition) from the NYSED’s official administrative data, called ‘report card’ data, originally collected by local school districts. We
-obtained 2007, 2012, and 2016 report card data (New York State Education Department, n.d.). The time points represent pre-test (1
-year before funding) or post-test periods (3–4 years after funding) of the two funding years. Schools were geocoded as points using the
-New York State Address Geocoder from NYS GIS Clearinghouse.
-2.3. Collision data
-    We used point-level collision data received from the Accident Location Information System (ALIS) in the Safety Program Man­
-agement and Coordination Bureau, NYS DOT, on January 4, 2019. The data included all vehicle collisions reported by the police and
-Department of Motor Vehicles offices, from January 2000 to June 2018 (New York State Department of Transportation, 2019). We
-selected vehicle-to-pedestrian or -bicyclist collisions that involved a pedestrian or a bicyclist, who was aged 5–17 at the time of
-collision, and defined them as collisions of interest in this study (hereafter, “collisions”).
-2.3.1. Collision count
-    For each school, we calculated average collision counts per year, occurred during school commuting hours, for the pre-project and
-the post-project periods, respectively. School commuting hours were defined as 7 a.m.–9 a.m. or 2 p.m.–4 p.m. on Monday through
-Friday between September 1 and June 30 (DiMaggio and Li, 2013). Next, collisions occurring within a 0.5-mile distance from a school
-were selected and considered to be associated with the school. We assumed that the 0.5-mile distance is a feasible walking distance for
-children (Panter et al., 2010; Yu, 2015) and collisions occurred within a 0.5-mile distance from a school are associated with commuting
-to the school (Abdel-Aty et al., 2007). For the i-th school, the average collision counts per year is defined as
-                      1X
-        Cði; s; tÞ ¼         Nði; yÞ                                                                                                                 (1)
-                      4 y
-where s is the SRTS dataset year (either 2008 or 2013), t is the time window (either pre- or post-project) explained below, and N (i, y) is
-the number of collisions in an observation year y 2 Ys;t . For the 2008 and 2013 datasets, 4-year pre- and post-project time windows
-were determined as
-         Y2008;pre project ¼ f2004; …; 2007g
-         Y2008;post project ¼ f2009; …; 2012g
-                                                                                                                                                     (2)
-         Y2013;pre project ¼ f2009; …; 2012g; and
-         Y2013;post project ¼ f2014; …; 2017g
-    We determined the year time window length as 4 years, the duration gap between 2008 and 2013 SRTS funding announcements.
-Pre-project periods are 4 years prior to the funding and post-project periods are 4 years subsequent to the funding announcement year.
-Fig. 1 illustrates the calculation of collisions around schools.
-Fig. 1. Calculating collision counts around schools: (a) 1 pre-project collision count per year and 0.5 post-project collision count per year; and (2)
-0.5 pre-project collision count per year and 1 post-project collision count per year. The counts are averages over a corresponding 4-year period.
-                                                                           3
+                                                             Contents lists available at ScienceDirect
 
-B. Kang et al.                                                                                   Journal of Transport & Health 18 (2020) 100866
-2.3.2. Collision risk
-    We calculated collision risk by adjusting yearly collision counts with yearly traffic volume as exposure at each school location.
-Traffic volume at the i-th school location, given year y and V(i, y), was estimated from nearby locations’ traffic count index, Annual
-Average Daily Traffic (AADT), and retrieved from the New York State’s Open Data Website (New York Open Data, 2019). We used a
-universal kriging with exponential semi-variogram functions of a straight-line distance between AADT points over school locations,
-which were adopted from a previous study (Selby and Kockelman, 2013). Traffic volume-adjusted collision risk was defined as
-                     1 X Nði; yÞ
-        Rði; s; tÞ ¼             <U+FFFD> 1000                                                                                                     (3)
-                     4 y Vði; yÞ
-2.4. Area-based socioeconomic status and built environment
-    Area-based socioeconomic status (SES) and built environment characteristics were measured around schools, and the variables
-were selected based on prior studies (DiMaggio et al., 2015; DiMaggio and Li, 2013; Kerr et al., 2006; Stewart, 2011). They were
-calculated with area-weighted mean metrics over portions of an available geographic unit (i.e., census tract) within a 1-mile distance
-from each school, assuming that a school’s characteristics are well represented by areas around a 1-mile distance from the school. The
-number of total population and school-age population, the number of all commuters and active commuters among workers, and the
-median household income were measured using American Community Survey (ACS) 5-year estimates, which represents an average
-across the prior 5-year period. We used 2009, 2013, and 2016 5-year ACS data to capture pre- and post-project periods of the 2008 and
-2013 datasets. The number of employments was measured using Longitudinal Employer-Household Dynamics Origin-Destination
-Employment Statistics in the best available datasets for the years of 2009, 2013, and 2015.
-    Street connectivity was defined as the number of intersections within a 1-mile buffer of each school using OpenStreetMap and
-OSMnx v0.8.1 (Boeing, 2017). The total length of all roads and the total length of non-highway roads (identified with Arterial
-Classification Codes) were also calculated within 1-mile school buffers. Street connectivity and road lengths were assumed not to
-change during the study period.
-2.5. Analysis
-    We first conducted univariate analyses to understand longitudinal changes in potential predictors and outcome variables between
-pre- and post-project periods, using paired t-tests and Cohen’s d tests. Next, we conducted multivariate analysis to examine if SRTS
-funding was associated with pre-post changes in collision outcomes, after controlling covariates. Selected covariates were related with
-school commuting behaviors or children’s traffic safety, including physical and socioeconomic characteristics of school neighborhoods
-(McDonald et al., 2010; McDonald et al., 2014; Stewart, 2011). First, pre-project measures that described baseline conditions of the
-schools and surrounding neighborhood environments were included in the models as covariate candidates. When there were signif­
-icant changes (p < 0.05) and the effect sizes (|d|) were <U+FFFD>0.1 between pre- and post-project measures, the difference in measures (e.g.,
-change in total enrollment between pre- and post-project periods) was also counted as the candidates.
-    In order to address potential multicollinearity issues, any pairs of covariate candidates that were correlated with each other
-(<U+03C1> > 0.75), were dropped from the final models. Selected variables include (i) pre-project area-based measures (population density, job
-density and total road length), and (ii) pre-project school demographics and school demographic change between pre- and post-project
-measures (percentage of free lunch and total enrollment).
-    To address the possible regression-to-the-mean (RTM) problem, we employed an analysis of covariance (ANCOVA) model approach
-(Barnett et al., 2004; Chen et al., 2013; Sterne et al., 2016). Models were established to explain pretest-posttest changes in collision
-outcomes, with dichotomized SRTS participation as the predictor of interest and pre-project collision status for the RTM problem
-adjustment. The changes in collision count and collision risk were modeled separately (Model 1 and Model 2).
-    The significance level was set at p ¼ 0.05. Cohen’s d thresholds were determined as small (<0.2), medium (0.5), and large (0.8). All
-data processing and analyses were conducted using R 3.4.1 (R Core Team, Vienna, Austria) and ArcGIS 10.5 (ESRI, Redland, CA).
-3. Results
-    The NYSED directory included 3723 public and non-public K-12 grade schools. We excluded 1360 schools in New York City and
-determined 2363 schools eligible for SRTS funding in this study. The National Center for SRTS listed 55 projects that impacted 125
-schools in 2008 and 57 projects that impacted 277 schools in 2013. The 2008 dataset includes 125 case schools and 2238 control
-schools. After excluding the schools that received 2008 funding and their nearby schools located within 2 miles (n ¼ 387), the 2013
-dataset had a total of 1976 schools consisting of 215 cases and 1761 controls. SRTS project intervention information was described in
-the National Center for SRTS report (National Center for Safe Routes to School, 2018). Common infrastructure intervention types
-include safety improvements, sidewalks improvement (e.g., installation or replacement), crosswalk improvements, ADA ramps,
-intersection improvement, sign installations (e.g. speed limit signs, school zone signs), multi-use path and guiderail improvements,
-driver speed feedback trailer deployment. Non-infrastructure types usually include speed data collection study, speed enforcement,
-and safety education; and there are also a combination type including both infrastructure and non-infrastructure interventions. Fig. 2
-shows the locations of schools in two datasets.
-    From the ALIS database, we identified 82,556 collisions involving a pedestrian or a bicyclist within the study periods of 2004–07,
-                                                                     5
 
-B. Kang et al.                                                                                        Journal of Transport & Health 18 (2020) 100866
-2009–12, and 2014-17 in the study area (New York State, excluding New York City). Out of them, 2191 occurred with a pedestrian or a
-bicyclist aged 5–17, within a 0.5-mile distance from the studied schools and were assumed as associated with commuting to/from these
-schools in the study. Among the studied 2363 schools, 1796 schools (76%) had one collision or more within a 0.5-mile distance from
-school.
-    Table 1 shows pre-post comparisons of school characteristics. For both 2008 and 2013 datasets, the p-values for paired t-tests
-indicate statistical significance for all characteristics. For the 2008 dataset, most of the school characteristics changed significantly
-over time. However, their effect sizes were negligible or small (|d| < 0.2), except for the percentage of students with a free lunch (þ)
-and area-based median household income ( ). From the 2013 dataset, the percentage of students with a free lunch increased
-significantly over time and the effect size was not negligible (|d| ¼ 0.40).
-    Table 2 shows changes in collision outcomes before and after the SRTS intervention, separated by funding year (2008 vs. 2013
-datasets) and funding status (case vs. control). Among the 2008 dataset, case schools had on average 0.21 collisions per year while
-control schools had 0.17 collisions per year before SRTS intervention. After the intervention, contrary to the expectation, there were no
-significant changes in both collision count and risk. The effective sizes were all negligible or small (|d| < 0.2).
-    Among the 2013 dataset, case schools had on average 0.21 collisions per year while control schools had 0.14 collisions per year
-before SRTS intervention. After the intervention, case schools had an average change in collision count ( 0.04), which is a larger
-decrease than that of controls ( 0.01). However, they were not statistically significant. On average, collision risk of case and control
-schools all decreased and the control’s decrease was statistically significant. The effect sizes were all negligible or small (|d| < 0.2).
-    We determined to conduct multivariate analysis with the 2013 dataset only. In the 2008 dataset, cases did not have significant
-differences from controls in terms of the pattern of the change in collision outcomes after controlling for covariates (data not shown). In
-addition to the main predictor variable (SRTS intervention), we selected covariate variables from school characteristics in Table 1.
-Selected are shown in Table 4. Percentages of students with limited English proficiency and being White were dropped due to their
-high correlation with another covariate variable (percentage of students getting a free lunch).
-    Among the 2013 dataset, we compared case and control schools in terms of pre-project characteristics. As shown in Table 3, cases
-had higher percentage of students getting free lunch and lower percentage of White students and were located in neighborhoods with
-lower income and higher job density than controls. There were no significant differences in other characteristics.
-Table 1
-Pre-post project comparison of school characteristics.
-  2008 School Dataset (N ¼ 2363)
-                                       Pre-project                Post-project             Change         (% of              Cohen’s d     P-
-                                                                                                          change)                          value
-                                       Mean          (SD)         Mean         (SD)
-  School-level demographics
-  % Students w/free lunch              23.88         (22.39)      29.29        (23.79)     þ4.95          (þ21)              0.21          <0.001
-  % Students w/limited English         3.77          (7.78)       4.25         (8.03)      þ0.43          (þ11)              0.05          <0.001
-      proficiency
-  % White                              75.79         (28.64)      70.97        (29.47)       4.28         (-6)                 0.15        <0.001
-  Total enrollment [person]            449.85        (279.93)     444.46       (260.60)      11.76        (-3)                 0.04        <0.001
-  Area-based SES
-  Population [person]                  8688.22       (10,063.99)  8793.10      (10,088.44) 104.88         (þ1)               0.01          <0.001
-  Median household income [USD]        93,935.46     (115,580.90) 70,820.42    (30,004.23)   23,115.03    (-25)                0.25        <0.001
-  School-age population [person]       2099.83       (5732.51)    2036.45      (5419.52)     63.38        (-3)                 0.03        <0.001
-  Job [number]                         3872.90       (2591.60)    3781.28      (2486.26)     91.62        (-2)                 0.02        <0.001
-  Built environment
-  Street connectivity [count]          695           –            –            –           –              –                  –             –
-  Length of all roads [mi]             39.71         (22.23)      –            –           –              –                  –             –
-  Length of non-highway roads [mi]     38.86         (21.93)      –            –           –              –                  –             –
-  2013 SRTS Dataset (N¼1976)
-                                       Pre-project                Post-project             Change         (% of              Cohen’s d     P-
-                                       Mean          (SD)         Mean         (SD)                       change)                          value
-  School-level demographics
-  % Students w/free lunch              27.50         (21.70)      36.36        (22.14)     þ8.86          (þ32)              0.40          <0.001
-  % Students w/limited English         3.81          (7.27)       4.43         (7.92)      þ0.62          (þ16)              0.08          <0.001
-      proficiency
-  % Race/ethnicity: White              74.15         (26.95)      69.21        (27.79)       4.95         (-7)                 0.17        <0.001
-  Total enrollment                     443.10        (250.35)     480.42       (237.08)    þ37.32         (þ8)               0.16          <0.001
-  Area-based SES
-  Population [person]                  7763.28       (9351.87)    7791.53      (9386.76)   þ28.25         (þ1)               0.00          <0.001
-  Median household income [USD]        71,914.68     (29,668.49)  74,121.35    (31,052.21) þ2206.67       (þ3)               0.07          <0.001
-  School-age population [person]       3289.49       (4948.71)    3358.26      (5188.55)   þ68.77         (þ2)               0.01          <0.001
-  Job [number]                         1781.31       (2275.35)    1729.95      (2204.55)     51.36        (-3)                 0.02        <0.001
-  Built environment
-  Street connectivity [count]          697           –            –            –           –              –                  –             –
-  Length of all roads [mi]             37.42         (21.85)      –            –           –              –                  –             –
-  Length of non-highway roads [mi]     36.64         (21.59)      –            –           –              –                  –             –
-                                                                       6
+                                                    Journal of Transport & Health
+                                                  journal homepage: http://www.elsevier.com/locate/jth
 
-B. Kang et al.                                                                                        Journal of Transport & Health 18 (2020) 100866
-Table 2
-Pre-Post Project Comparison and Case-Control Comparison of Outcome Variables (Collision count and risk).
-                                             Pre- project                    Post- project           Diff.              Pa               Cohen’s d
-                                             Mean             SD             Mean            SD
-  2008 SRTS Dataset (N ¼ 2363)
-  Case (N ¼ 125)                  Countb     0.212            0.460          0.208           0.392     0.004            0.882              0.009
-                                  Riskc      0.220            0.795          0.267           0.712   þ0.046             0.426            0.061
-  Control (N ¼ 2238)              Countb     0.177            0.382          0.170           0.356     0.007            0.298              0.193
-                                  Riskc      0.142            0.502          0.149           0.541   þ0.006             0.553            0.012
-  2013 SRTS Dataset (N ¼ 2176)
-  Case (N ¼ 215)                  Countb     0.208            0.345          0.170           0.250     0.038            0.076              0.040
-                                  Riskc      0.171            0.545          0.169           0.599     0.002            0.933              0.062
-  Control (N ¼ 1961)              Countb     0.143            0.328          0.129           0.352     0.014            0.056              0.124
-                                  Riskc      0.136            0.545          0.104           0.481     0.032            0.002              0.004
-  a
-    Paired t-test.
-  b
-    Collision count per year within 0.5 mile from school.
-  c
-    Collision count divided by AADT per year within 0.5 mile from school (per 1000).
-Table 3
-Case-control comparison of pre-project variables (2013 SRTS dataset).
-                                                Mean (Case Schools)         Mean (Control Schools) Diff.                 Cohen’s d          P-value
-  School-level demographics
-  % Students w/free lunch                       37.42                       26.29                  11.13                 0.52               <0.001
-  % Students w/limited English proficiency      4.52                        3.73                   0.79                  0.11               0.22
-  % Race/ethnicity: White                       69.28                       74.75                    5.47                  0.20             0.01
-  Total enrollment                              447.92                      442.51                 5.40                  0.02               0.74
-  Area-based SES
-  Population [person]                           8793.10                     8688.22                28.30                 0.00               0.96
-  Median household income [USD]                 70,820.42                   93,935.46                17,431.59             0.60             <0.001
-  School-age population [person]                3781.28                     3872.90                  61.05                 0.03             0.67
-  Job [number]                                  2036.45                     2099.83                1084.27               0.22               0.03
-  Built environment
-  Length of all roads [mi]                      38.61                       37.28                  1.33                  0.06               0.37
-  Length of non-highway roads [mi]              37.53                       36.53                  1.00                  0.05               0.49
-Table 4
-Multivariate regression model results (2013 dataset only).
-  Outcome Variable                                     Model 1                                           Model 2
-                                                       Y ¼ Change in Collision Count                     Y ¼ Change in Collision Risk
-  Predictor Variables                                  Coeff.                   S.E.                     Coeff.                    S.E.
-  (Intercept)                                          0.0278                   0.0199                   0.0142                    0.0297
-  Population, pre-project (per 1000 people)            0.0223                   0.0012 *                 0.0124                    0.0018 *
-  Job, pre-project (per 1000 jobs)                     0.0046                   0.0016 *                   0.0003                  0.0024
-  Students w/free lunch, pre-project [%]               0.0011                   0.0003 *                   0.0001                  0.0004
-  Change between pre- and post-project                 0.0019                   0.0006 *                 0.0010                    0.0009
-  Total enrolment, pre-project                         0.0000                   0.0000                   0.0000                    0.0000
-  Total road length                                       0.0052                0.0005 *                   0.0028                  0.0008 *
-  SRTS intervention                                    0.0096                   0.0184                   0.0532                    0.0275
-  Pre-project collision level (baseline)
-  Collision count                                         0.6204                0.0210 *
-  Collision risk                                                                                           0.4261                  0.0160 *
-  Adjusted R2                                          0.34                                              0.27
-* Significance level p-value ¼ 0.05.
-    Table 4 shows the ANCOVA model results. In both models, pre-project collision level was statistically significant. However, SRTS
-intervention was not significantly associated with change in collision outcomes. In terms of the goodness of fit, Model 1 had a high
-adjusted R2 value (0.34) and Model 2 also had a high value (0.27), showing that the change in collision outcomes were relatively well
-explained in these models. Pre-project population density and total road length were consistently associated with collision reduction in
-both models.
-                                                                           7
 
-B. Kang et al.                                                                                      Journal of Transport & Health 18 (2020) 100866
-4. Discussion
-    In this study, we attempted to assess the SRTS effectiveness using all SRTS eligible schools within New York State (except New York
-City). Collision counts and risk associated with school commuting were longitudinally examined. According to our data, schools with
-2013 funding had no changes in collision count or in collision risk after SRTS interventions. This is inconsistent with previous studies
-showing that SRTS interventions were associated with a decrease in pedestrian or bicyclist injury rate by 23%–44% (DiMaggio et al.,
-2015, 2016; DiMaggio and Li, 2013). Based on our findings, we conclude that SRTS interventions had no effects on collision reduction
-around schools.
-    It is noteworthy that pre-project (baseline) collision level was significant in both models, suggesting that the RTM phenomenon
-may present in our data. When we did not adjust for the potential RTM phenomenon, using a general regression model, not an
-ANCOVA model, SRTS intervention was significantly associated with collision reduction (data not shown). However, adding the factor
-of pre-project collision levels as a baseline condition, the significant associations of SRTS intervention disappeared. Studies on traffic
-safety pointed out that failing to address this issue may lead to overestimation of treatment effects because the effects may not be
-resulted from the treatment but from the RTM phenomenon (Barnett et al., 2004; Retting et al., 2003). However, many SRTS studies do
-not consider pre-project or existing collision levels, which may yield treatment effect overestimation.
-    Our findings, no effects of SRTS on collision reduction, suggest changing future directions of SRTS projects. Promoting stakeholder
-partnership and engagement has been reported to be a key strategy in successful SRTS programs (Macridis and Garcia Bengoechea,
-2015). However, under limited budget, it may be difficult to have active community engagement which requires substantial time and
-cost. A SRTS evaluation study recommended that successful SRTS programs should have funding to provide on-site, paid staff dedi­
-cated to a project because it is difficult to recruit community volunteers (Cooper and McMillan, 2010). Another SRTS study reported
-difficulties of parents’ and other stakeholders’ engagement in developing social SRTS programs, although they may be more effective
-than conventional infrastructure-type interventions (Kang and Diao, 2018). A recent SRTS study found that adding a citizen science
-engagement model to a SRTS project doubled engagement events and was more effective in increasing children’s active transportation
-than a SRTS project alone (Rodriguez et al., 2019). Technology may be useful to encourage engagement. For example, a research team
-developed a smartphone app to help parent volunteers organizing a Walking School Bus SRTS program (Ferron et al., 2019).
-    We focused on collision reduction to evaluate SRTS program’s effectiveness. The outcome measures used in this study may be useful
-for systematic program evaluation and monitoring processes. For example, SRTS program managers may create a logic model that
-strategically evaluates SRTS activities and their intended results (WK Kellogg Foundation, 2004). Measures like collision reduction are
-easy to understand and are perhaps more important for program stakeholders including school administrators, police, and children’s
-caregivers. A logic model provides stakeholders with a program’s road map describing the sequence from activities to the program’s
-desired results. Because collision outcome measures are objective, easily understood and meaningful, they may serve as a good per­
-formance measure when examining effectiveness of SRTS programs.
-    The presence and quality of infrastructure at baseline may affect collision outcome changes over the study period (e.g., existing
-sidewalk quality and configuration). However, such detailed data were not available over the entire state in a consistent manner. We
-instead used urbanization factors (population density, job density, and total road length) as proxy variables. Some of the factors were
-significant in the regression models, suggesting that it is necessary to include them to explain collision outcome changes. Micro-scale
-studies are needed to examine qualitative aspects of built environment and their impact on traffic safety.
-    In the multivariate analysis, we controlled for socioeconomic characteristics of school neighborhoods (the percentage of students
-with free lunch) because they may affect the relationships between SRTS intervention and street safety (Cooper and McMillan, 2010).
-The percentage of students with free lunch was significant in the association with collision count while it was not with collision risk,
-after the traffic volume adjustment. In addition, our ANCOVA models controlled for baseline (pre-project) collision levels which may
-deal with some uncertainties not explained by existing covariates.
-    The current study has a two-group pretest-posttest design with defining cases as SRTS schools and controls as non-SRTS schools.
-Among cases, some SRTS intervention types may have bigger safety effects than others (Stewart, 2011). The report published by the
-National Center for SRTS provides some details on each project’s intervention types (National Center for Safe Routes to School, 2018).
-However, intervention type information was not standardized across projects. For example, a project had “crosswalk improvement”
-and another had “crosswalk markings”. A project was simply labelled as “safety education” while another was explained with
-descriptive details as “bike and pedestrian safety awareness campaigns”. In our state-scale analysis, we decided to use SRTS inter­
-vention as one factor (a dichotomous variable) without further classifying SRTS into sub-types as infrastructure (or engineering) or
-different kinds of non-infrastructure interventions (education, enforcement, encouragement, or evaluation). As micro-scale study
-found that different traffic calming countermeasures had different safety effects (e.g., curb extensions, pedestrian refuge islands, raised
-medians) (Kang, 2019; King et al., 2003), future SRTS studies are needed to focus on detailed intervention types.
-    In our models, we controlled pre-project built environments (population and job densities and total road length) which may work as
-proxies of infrastructure qualities at baseline. Pre-project infrastructure qualities (e.g., sidewalk coverage) may affect the association
-with collision outcomes (Stewart, 2011). In our data, school neighborhood with lower road density was associated with a decrease in
-collision (Models 1 and 2). Such neighborhoods with low road densities may have poor sidewalk coverage. It is possible that even a
-small SRTS project may have bigger effect in such neighborhoods.
-    When assessing collision risk, we did not account for the amount of school-age pedestrians or bicyclists, which could affect collision
-exposure and consequently collision risk, with two reasons. First, there is no longitudinal standardized data available to estimate the
-number of school-age pedestrians and bicyclists around studied schools. Second, more importantly, the relationship between collision
-risk and amount of children’s walking and bicycling is not clear. When more children walk, collision risk could increase because more
-                                                                      8
 
-B. Kang et al.                                                                                                          Journal of Transport & Health 18 (2020) 100866
-children are exposed to car traffic. Or, it could decrease if drivers become more cautious with the increased presence of pedestrians
-(safety-in-numbers phenomenon) (Jacobsen, 2015). In fact, a study found that the association between the amount of walking and
-school-age collision was not significant (Rothman et al., 2014). Because of this possible data unavailability and non-linearity or un­
-clarity, we decided not to adjust the amount of walking and bicycling in assessing collision risk.
-    Our analysis covered the New York State, aiming to offer some policy guidance and implications for state-run funding and pro­
-grams. We excluded New York City schools from our dataset because it has the built environment incomparable to other parts of the
-state and because the city has its own DOT. In our study area, we did not stratify urban and rural areas because more than 90% of
-schools were located in the US Census-defined urban areas and because an urban-rural dummy variable did not improve our models
-which already include more detailed built environment factors (e.g., population density). Further studies are needed to focus on
-specific location and school types.
-    We used a 0.5-mile airline buffer in counting collisions around each school. A half mile was assumed as a walkable distance for
-school commuting (McDonald and Aalborg, 2009) and collisions occurred within the distance from a school were spatially associated
-with the school (Abdel-Aty et al., 2007; Panter et al., 2010; Yu, 2015). In fact, there is no standard buffering distance for SRTS studies
-(Stewart, 2011). We tested different buffer sizes (e.g., 1 mile and 2 miles) and selected 0.5 miles which may reduce potential spatial
-mis-association to nearby schools. As for the buffering shapes, we used airline buffers for several reasons. First, studies found that there
-were no significant differences across buffering methods when explaining the relationship between environments and walking be­
-haviors (Frank et al., 2017; James et al., 2014). Second, because our study covered a large area of the entire state, using a simple
-method may produce consistency if street network data had varying accuracies and resolutions over the area.
-    The current study has limitations. First, this study is an observational before-and-after study, not a natural experiment with random
-assignment. We attempted to adjust the RTM phenomenon or potential selection bias with using ANCOVA models and a relatively long-
-term statistics based on 4-year time window (Barnett et al., 2004; Chen et al., 2013; Sharma and Datta, 2007). Second, there were no
-data available on school-level funding allocation when an award has impacted multiple schools. In this case, we assumed that each
-SRTS-funded school has equally benefitted from the award. Third, we assumed the funding announcement year as treatment year
-(2008 and 2013) and defined the pre- and post-project period 4 years before and after the treatment year for our study design
-(2004–2007, 2009–2012, and 2014–2017). However, the completion of the intervention, particularly for infrastructure type with any
-engineering changes might have been completed a few years after the funding was announced. In addition, some of the datasets from
-which we calculated the variables were not aligned perfectly with our study design. For example, ACS 5-year estimates are only
-available from 2005 until 2016 (at the time of submitting the manuscript) and we used the most recent, available dataset. Fifth, we
-used NYS DOT’s official collision data from ALIS, which may have under-reporting issues or misclassification of
-pedestrian/bicyclist-related collisions with other types of collisions (Noland et al., 2017). Lastly, other qualitative factors that might
-better explain the reasons for collision or the impact of collisions (e.g., injury severity, contributing factors, and other contextual
-information) were not considered.
-    Despite the limitations, our study is a first attempt to examine safety impact of SRTS using longitudinal data and control group
-study design.
-5. Conclusions
-    Our study found that the SRTS projects in New York State were not associated with the reduction of collisions involving school-age
-pedestrians or bicyclists occurring school commuting time around schools.
-Author statement
-    B. Kang designed the study, conducted analyses, drafted the article, and was responsible for all aspects of the study. S. Back
-designed the study and contributed substantively to interpretation and article revision. C. Wang processed and prepared the data for
-analysis and contributed substantively to interpretation and article revision.
-Acknowledgements
-    This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korean government (MSIT) (No.
-2020R1C1C1013021).
-References
-Abdel-Aty, M., Chundi, S.S., Lee, C., 2007. Geo-spatial and log-linear analysis of pedestrian and bicyclist crashes involving school-aged children. J. Saf. Res. 38 (5),
-    571–579.
-Barnett, A.G., Van Der Pols, J.C., Dobson, A.J., 2004. Regression to the mean: what it is and how to deal with it. Int. J. Epidemiol. 34 (1), 215–220.
-Boeing, G., 2017. OSMnx: new methods for acquiring, constructing, analyzing, and visualizing complex street networks. Comput. Environ. Urban Syst. 65, 126–139.
-Chen, L., Chen, C., Ewing, R., McKnight, C.E., Srinivasan, R., Roe, M., 2013. Safety countermeasures and crash reduction in New York City—experience and lessons
-    learned. Accid. Anal. Prev. 50, 312–322. https://doi.org/10.1016/j.aap.2012.05.009.
-     on, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
-Chill<U+FFFD>
-    Activ. 8 (1), 10.
-Cooper, J.F., McMillan, T., 2010. Safe Routes to School Local School Project: A Health Evaluation at 10 Low-income Schools. Retrieved from. https://escholarship.
-    org/uc/item/37m6x95t.
-                                                                                   9
+
+No association between Safe Routes to school programs and
+school-age pedestrian or bicyclist collisions in New York State
+Bumjoon Kang a, *, Chihuangji Wang b, So-Ra Baek c
+a
+    College of Architecture, Myongji University, 116 Myongji-ro, Cheoin-gu, Yongin-si, Gyeonggi-do, 17058, South Korea
+b
+    Department of Urban and Regional Planning, University at Buffalo, The State University of New York, United states
+c
+    Department of Urban and Regional Planning, California State Polytechnic University, Pomona, United states
+
+
+
+
+A R T I C L E I N F O                                      A B S T R A C T
+
+Keywords:                                                  Introduction: Safe Routes to School (SRTS) programs aim to promote children’s active school
+Traffic safety                                             commuting and to improve traffic safety around schools. Evaluation studies mostly have focused
+Crash                                                      on travel modal shift to active modes. However, traffic safety improvement has been less studied,
+Accident
+                                                           although it was one of the most important program goals and it could be equally important to
+Child
+School
+                                                           policy makers and practitioners. We aim to evaluate whether schools participating in a SRTS
+Walking                                                    program have safety improvement.
+                                                           Methods: Using a two-group (case-control) pretest-posttest study design, we analyzed SRTS
+                                                           funding in 2008 and 2013 in New York State. Analysis of Covariance models were established to
+                                                           examine if SRTS funding was associated with changes in collision outcomes with adjusting school
+                                                           demographics, area-based socioeconomic characteristics, and built environments around schools.
+                                                           Collision outcomes were vehicle collision count and risk (count adjusted by traffic volume)
+                                                           around school before and after SRTS funding.
+                                                           Results: In total, 2363 schools were examined. We found that the 2013 SRTS programs were not
+                                                           significantly associated with a decrease in collision involving school-age pedestrians or bicyclists
+                                                           occurring within a 0.5-mile distance from schools during school hours.
+                                                           Conclusions: The 2013 SRTS funding was not associated with collision reduction, suggesting no
+                                                           evident effect of SRTS on collision reduction among school-age pedestrians and bicyclists.
+
+
+
+
+1. Introduction
+
+    In the United States, pedestrian and bicyclist fatalities have increased since 2008. In 2017, there were 5977 pedestrian deaths, of
+which nearly 19% were children aged 14 or younger. Pedestrian deaths accounted for 16% of all traffic fatalities in 2017, increasing
+from 12% in 2008 (National Highway Traffic Safety Administration, 2019). A Canadian study found that about 50% of child pedestrian
+collisions occurred during school commuting times around schools (Warsh et al., 2009). The number of bicyclist deaths also increased
+from 708 in 2008 to 840 in 2016. Poorly designed streets may produce preventable pedestrian and bicyclist collisions (National
+Highway Traffic Safety Administration, 2018). Safe street environments for all modes and all street users are especially important for
+vulnerable populations including children. School-age children are less likely to walk or bike in their neighborhoods if there are many
+collisions (Liu and Mendoza, 2014). Traffic safety concern is one of the main reasons for parents not allowing their children to walk or
+
+
+
+    * Corresponding author.
+      E-mail addresses: bumjoon@mju.ac.kr (B. Kang), chihuang@buffalo.edu (C. Wang), sbaek@cpp.edu (S.-R. Baek).
+
+https://doi.org/10.1016/j.jth.2020.100866
+Received 31 October 2019; Received in revised form 9 March 2020; Accepted 21 April 2020
+Available online 1 July 2020
+2214-1405/© 2020 Elsevier Ltd. All rights reserved.
+
+B. Kang et al.                                                                                      Journal of Transport & Health 18 (2020) 100866
+
+
+bike to/from schools (McDonald and Aalborg, 2009).
+    For safer walking and bicycling and more appealing school commuting modes, a federal program, the Safe Routes to School (SRTS)
+program was initiated by the US Congress with the 2005 federal transportation bill (Fischer, 2005). Between 2005 and 2012, a total of
+$1.2 billion was budgeted for the SRTS program including infrastructure enhancement (e.g., sidewalk improvement and pedestrian
+safety countermeasures) and non-infrastructure interventions (e.g., education, enforcement) (McDonald et al., 2014). The SRTS
+program initially allocated funding to State transportation departments (DOTs). In 2012, 2015, new transportation bills were passed to
+combine the existing stand-alone SRTS funding into general walking and bicycling transportation program funding streams. Under the
+old funding stream, most SRTS funding was awarded in 2008 and 2013. Afterwards, the DOT has had no dedicated funding specifically
+for SRTS. The SRTS program must compete against other transportation projects (The Safe Routes Partnership, n.d.). Consequently, it
+is necessary and critical to evaluate whether the SRTS program (when it was a stand-alone program with dedicated funding) had
+significant impacts and intended outcomes using a pretest-posttest design with longitudinal collision, demographic and built envi­
+ronment data.
+    Previous studies aiming to evaluate the impacts of SRTS have mostly focused on students’ travel mode change (changes in walking
+and biking rates to/from school). They showed that SRTS slightly increased children’s walking or bicycling. According to a national
+SRTS survey report, 5227 schools participating in SRTS in 2007–2013 had a 3% increase in walking and bicycling (National Center for
+Safe Routes to School, 2015). Some studies found a moderate increase in walking (from 9.8% to 14.2%) among 53 SRTS schools in four
+states (Stewart et al., 2014) and a 5–20% increase in walking or biking to/from 14 schools in Oregon after SRTS interventions
+(McDonald et al., 2013). A systematic review paper summarized that SRTS interventions had a small impact on travel mode change
+(Cohen’s d < 0.33) (Chill<U+FFFD>  on et al., 2011).
+    Another important outcome that needs to be evaluated as part of SRTS impacts is the improvement in traffic safety. However, there
+are only very few studies that examined longitudinal changes in pedestrian or bicyclist injury associated with SRTS programs, mostly
+published by the same research group (Dumbaugh and Frank, 2007). DiMaggio and Li (2013) found that the rate of pedestrian injury
+decreased by 44% for youth aged 5 to 19 in census tracts with SRTS treatments in New York City, while rates were unchanged for
+census tracts without SRTS (DiMaggio and Li, 2013). Another study analyzed quarterly traffic crash data in Texas to assess the effect of
+the SRTS program on school-age pedestrian and bicyclist injuries and found that the rates of pedestrian and bicyclist injuries between
+pre- and post-SRTS periods declined 42.5% (DiMaggio et al., 2015). A recent study found that SRTS intervention was associated with a
+23% reduction in pedestrian and bicyclist injuries (DiMaggio et al., 2016). To our knowledge, these are the only published academic
+papers on SRTS evaluation that specifically focuses on the change in pedestrian or bicyclist safety improvement, even though it was
+one of the SRTS goals. Other than them, the association between SRTS and collision reduction was rarely tested. Another research gap
+is that traffic volume, an important and accurate measure of exposure when studying collisions, was not accounted for when pedestrian
+or bicyclist collision risks were analyzed (Srinivasan et al., 2016; Stewart, 2011).
+    This study aims to examine whether school-age pedestrian or bicyclist collisions (with traffic volume adjusted) were reduced
+around schools after SRTS funding, using SRTS eligible schools for 2008 and 2013 SRTS funding in New York State and using a two-
+group (case-control) pretest-posttest study design.
+
+2. Methods
+
+2.1. School dataset
+
+    We identified all public and non-public, K-12 (kindergarten through 12th grade) schools eligible for SRTS funding in New York
+State with the directory downloaded from the New York State Education Department (NYSED) website (New York State Education
+Department, 2016). Schools under the categories of ‘elementary’, ‘middle school’, ‘junior-senior school’, and ‘K-12 school’ were
+considered eligible for SRTS funding. We excluded schools in New York City because their urban environments, neighborhood-level
+social and economic characteristics, and traffic volumes are incompatible with those in other parts of New York State. For example, the
+population density of Buffalo, the second largest city in the state, was 6471 people per square mile, about a quarter of that of New York
+City’s 27,013 people per square mile, according to the 2010 US Census. School density in New York City was 4.49 schools (per square
+mile), while only 0.07 schools (per square mile) in New York State.
+    Schools in the NYSED directory constituted the study population. We identified schools’ SRTS funding and project information
+using data from the National Center for SRTS, the official SRTS data clearing house, retrieved in 2018 (National Center for Safe Routes
+to School, 2018). Data included funding award ID, award amount, SRTS intervention type (infrastructure, non-infrastructure, or
+combined/both), funding year, and project summary. All SRTS funding awards were announced in either 2008 or 2013. We reviewed
+SRTS project information and determined not to use the information because sub-type information was unstandardized and insuffi­
+cient. We reported common intervention types to show details of the SRTS interventions studied in this study. We reviewed the
+awardee schools and manually matched SRTS information with the NYSED school directory. The funding year was considered as the
+treatment year when the planned interventions were initiated and occurred.
+    In this study, we developed two datasets for analyses. The 2008 dataset consisted of schools with 2008 SRTS funding (cases) and all
+other schools (controls). In the 2013 dataset, we excluded all 2008 SRTS schools and their nearby schools within a 2-mile distance, to
+avoid potential spatial contamination. If a school was spatially affected by a 2008 SRTS project, it should be excluded from 2013
+analysis. The 2-mile distance was determined to make sure that no schools in the 2013 analysis had the spatial contamination issue.
+Thus, the 2013 dataset consisted of schools with new SRTS funding in 2013 (cases) and schools with no SRTS funding history (con­
+trols). Schools receiving SRTS funding in multiple years were excluded in the 2013 dataset, because it is difficult to isolate the effects of
+
+                                                                     2
+
+B. Kang et al.                                                                                             Journal of Transport & Health 18 (2020) 100866
+
+
+multiple funding years.
+
+
+2.2. School demographics
+
+   We obtained the schools’ demographic characteristics (enrollment, percent of students in free or reduced lunch, and race/ethnicity
+composition) from the NYSED’s official administrative data, called ‘report card’ data, originally collected by local school districts. We
+obtained 2007, 2012, and 2016 report card data (New York State Education Department, n.d.). The time points represent pre-test (1
+year before funding) or post-test periods (3–4 years after funding) of the two funding years. Schools were geocoded as points using the
+New York State Address Geocoder from NYS GIS Clearinghouse.
+
+
+2.3. Collision data
+
+    We used point-level collision data received from the Accident Location Information System (ALIS) in the Safety Program Man­
+agement and Coordination Bureau, NYS DOT, on January 4, 2019. The data included all vehicle collisions reported by the police and
+Department of Motor Vehicles offices, from January 2000 to June 2018 (New York State Department of Transportation, 2019). We
+selected vehicle-to-pedestrian or -bicyclist collisions that involved a pedestrian or a bicyclist, who was aged 5–17 at the time of
+collision, and defined them as collisions of interest in this study (hereafter, “collisions”).
+
+2.3.1. Collision count
+    For each school, we calculated average collision counts per year, occurred during school commuting hours, for the pre-project and
+the post-project periods, respectively. School commuting hours were defined as 7 a.m.–9 a.m. or 2 p.m.–4 p.m. on Monday through
+Friday between September 1 and June 30 (DiMaggio and Li, 2013). Next, collisions occurring within a 0.5-mile distance from a school
+were selected and considered to be associated with the school. We assumed that the 0.5-mile distance is a feasible walking distance for
+children (Panter et al., 2010; Yu, 2015) and collisions occurred within a 0.5-mile distance from a school are associated with commuting
+to the school (Abdel-Aty et al., 2007). For the i-th school, the average collision counts per year is defined as
+                        1X
+         Cði; s; tÞ ¼       Nði; yÞ                                                                                                                 (1)
+                        4 y
+
+where s is the SRTS dataset year (either 2008 or 2013), t is the time window (either pre- or post-project) explained below, and N (i, y) is
+the number of collisions in an observation year y 2 Ys;t . For the 2008 and 2013 datasets, 4-year pre- and post-project time windows
+were determined as
+         Y2008;pre project ¼ f2004; …; 2007g
+         Y2008;post project ¼ f2009; …; 2012g
+                                                                                                                                                    (2)
+         Y2013;pre project ¼ f2009; …; 2012g; and
+         Y2013;post project ¼ f2014; …; 2017g
+
+   We determined the year time window length as 4 years, the duration gap between 2008 and 2013 SRTS funding announcements.
+Pre-project periods are 4 years prior to the funding and post-project periods are 4 years subsequent to the funding announcement year.
+Fig. 1 illustrates the calculation of collisions around schools.
+
+
+
+
+Fig. 1. Calculating collision counts around schools: (a) 1 pre-project collision count per year and 0.5 post-project collision count per year; and (2)
+0.5 pre-project collision count per year and 1 post-project collision count per year. The counts are averages over a corresponding 4-year period.
+
+                                                                          3
+
+B. Kang et al.                                                                                   Journal of Transport & Health 18 (2020) 100866
+
+
+2.3.2. Collision risk
+   We calculated collision risk by adjusting yearly collision counts with yearly traffic volume as exposure at each school location.
+Traffic volume at the i-th school location, given year y and V(i, y), was estimated from nearby locations’ traffic count index, Annual
+Average Daily Traffic (AADT), and retrieved from the New York State’s Open Data Website (New York Open Data, 2019). We used a
+universal kriging with exponential semi-variogram functions of a straight-line distance between AADT points over school locations,
+which were adopted from a previous study (Selby and Kockelman, 2013). Traffic volume-adjusted collision risk was defined as
+                        1 X Nði; yÞ
+         Rði; s; tÞ ¼               <U+FFFD> 1000                                                                                                (3)
+                        4 y Vði; yÞ
+
+
+2.4. Area-based socioeconomic status and built environment
+
+   Area-based socioeconomic status (SES) and built environment characteristics were measured around schools, and the variables
+were selected based on prior studies (DiMaggio et al., 2015; DiMaggio and Li, 2013; Kerr et al., 2006; Stewart, 2011). They were
+calculated with area-weighted mean metrics over portions of an available geographic unit (i.e., census tract) within a 1-mile distance
+from each school, assuming that a school’s characteristics are well represented by areas around a 1-mile distance from the school. The
+number of total population and school-age population, the number of all commuters and active commuters among workers, and the
+median household income were measured using American Community Survey (ACS) 5-year estimates, which represents an average
+across the prior 5-year period. We used 2009, 2013, and 2016 5-year ACS data to capture pre- and post-project periods of the 2008 and
+2013 datasets. The number of employments was measured using Longitudinal Employer-Household Dynamics Origin-Destination
+Employment Statistics in the best available datasets for the years of 2009, 2013, and 2015.
+   Street connectivity was defined as the number of intersections within a 1-mile buffer of each school using OpenStreetMap and
+OSMnx v0.8.1 (Boeing, 2017). The total length of all roads and the total length of non-highway roads (identified with Arterial
+Classification Codes) were also calculated within 1-mile school buffers. Street connectivity and road lengths were assumed not to
+change during the study period.
+
+2.5. Analysis
+
+    We first conducted univariate analyses to understand longitudinal changes in potential predictors and outcome variables between
+pre- and post-project periods, using paired t-tests and Cohen’s d tests. Next, we conducted multivariate analysis to examine if SRTS
+funding was associated with pre-post changes in collision outcomes, after controlling covariates. Selected covariates were related with
+school commuting behaviors or children’s traffic safety, including physical and socioeconomic characteristics of school neighborhoods
+(McDonald et al., 2010; McDonald et al., 2014; Stewart, 2011). First, pre-project measures that described baseline conditions of the
+schools and surrounding neighborhood environments were included in the models as covariate candidates. When there were signif­
+icant changes (p < 0.05) and the effect sizes (|d|) were <U+FFFD>0.1 between pre- and post-project measures, the difference in measures (e.g.,
+change in total enrollment between pre- and post-project periods) was also counted as the candidates.
+    In order to address potential multicollinearity issues, any pairs of covariate candidates that were correlated with each other
+(<U+03C1> > 0.75), were dropped from the final models. Selected variables include (i) pre-project area-based measures (population density, job
+density and total road length), and (ii) pre-project school demographics and school demographic change between pre- and post-project
+measures (percentage of free lunch and total enrollment).
+    To address the possible regression-to-the-mean (RTM) problem, we employed an analysis of covariance (ANCOVA) model approach
+(Barnett et al., 2004; Chen et al., 2013; Sterne et al., 2016). Models were established to explain pretest-posttest changes in collision
+outcomes, with dichotomized SRTS participation as the predictor of interest and pre-project collision status for the RTM problem
+adjustment. The changes in collision count and collision risk were modeled separately (Model 1 and Model 2).
+    The significance level was set at p ¼ 0.05. Cohen’s d thresholds were determined as small (<0.2), medium (0.5), and large (0.8). All
+data processing and analyses were conducted using R 3.4.1 (R Core Team, Vienna, Austria) and ArcGIS 10.5 (ESRI, Redland, CA).
+
+3. Results
+
+    The NYSED directory included 3723 public and non-public K-12 grade schools. We excluded 1360 schools in New York City and
+determined 2363 schools eligible for SRTS funding in this study. The National Center for SRTS listed 55 projects that impacted 125
+schools in 2008 and 57 projects that impacted 277 schools in 2013. The 2008 dataset includes 125 case schools and 2238 control
+schools. After excluding the schools that received 2008 funding and their nearby schools located within 2 miles (n ¼ 387), the 2013
+dataset had a total of 1976 schools consisting of 215 cases and 1761 controls. SRTS project intervention information was described in
+the National Center for SRTS report (National Center for Safe Routes to School, 2018). Common infrastructure intervention types
+include safety improvements, sidewalks improvement (e.g., installation or replacement), crosswalk improvements, ADA ramps,
+intersection improvement, sign installations (e.g. speed limit signs, school zone signs), multi-use path and guiderail improvements,
+driver speed feedback trailer deployment. Non-infrastructure types usually include speed data collection study, speed enforcement,
+and safety education; and there are also a combination type including both infrastructure and non-infrastructure interventions. Fig. 2
+shows the locations of schools in two datasets.
+    From the ALIS database, we identified 82,556 collisions involving a pedestrian or a bicyclist within the study periods of 2004–07,
+
+                                                                   5
+
+B. Kang et al.                                                                                                Journal of Transport & Health 18 (2020) 100866
+
+
+2009–12, and 2014-17 in the study area (New York State, excluding New York City). Out of them, 2191 occurred with a pedestrian or a
+bicyclist aged 5–17, within a 0.5-mile distance from the studied schools and were assumed as associated with commuting to/from these
+schools in the study. Among the studied 2363 schools, 1796 schools (76%) had one collision or more within a 0.5-mile distance from
+school.
+    Table 1 shows pre-post comparisons of school characteristics. For both 2008 and 2013 datasets, the p-values for paired t-tests
+indicate statistical significance for all characteristics. For the 2008 dataset, most of the school characteristics changed significantly
+over time. However, their effect sizes were negligible or small (|d| < 0.2), except for the percentage of students with a free lunch (þ)
+and area-based median household income ( ). From the 2013 dataset, the percentage of students with a free lunch increased
+significantly over time and the effect size was not negligible (|d| ¼ 0.40).
+    Table 2 shows changes in collision outcomes before and after the SRTS intervention, separated by funding year (2008 vs. 2013
+datasets) and funding status (case vs. control). Among the 2008 dataset, case schools had on average 0.21 collisions per year while
+control schools had 0.17 collisions per year before SRTS intervention. After the intervention, contrary to the expectation, there were no
+significant changes in both collision count and risk. The effective sizes were all negligible or small (|d| < 0.2).
+    Among the 2013 dataset, case schools had on average 0.21 collisions per year while control schools had 0.14 collisions per year
+before SRTS intervention. After the intervention, case schools had an average change in collision count ( 0.04), which is a larger
+decrease than that of controls ( 0.01). However, they were not statistically significant. On average, collision risk of case and control
+schools all decreased and the control’s decrease was statistically significant. The effect sizes were all negligible or small (|d| < 0.2).
+    We determined to conduct multivariate analysis with the 2013 dataset only. In the 2008 dataset, cases did not have significant
+differences from controls in terms of the pattern of the change in collision outcomes after controlling for covariates (data not shown). In
+addition to the main predictor variable (SRTS intervention), we selected covariate variables from school characteristics in Table 1.
+Selected are shown in Table 4. Percentages of students with limited English proficiency and being White were dropped due to their
+high correlation with another covariate variable (percentage of students getting a free lunch).
+    Among the 2013 dataset, we compared case and control schools in terms of pre-project characteristics. As shown in Table 3, cases
+had higher percentage of students getting free lunch and lower percentage of White students and were located in neighborhoods with
+lower income and higher job density than controls. There were no significant differences in other characteristics.
+
+
+Table 1
+Pre-post project comparison of school characteristics.
+  2008 School Dataset (N ¼ 2363)
+
+                                        Pre-project                  Post-project                 Change          (% of            Cohen’s d     P-
+                                                                                                                  change)                        value
+                                        Mean          (SD)           Mean           (SD)
+
+  School-level demographics
+  % Students w/free lunch               23.88         (22.39)        29.29          (23.79)       þ4.95           (þ21)            0.21          <0.001
+  % Students w/limited English          3.77          (7.78)         4.25           (8.03)        þ0.43           (þ11)            0.05          <0.001
+      proficiency
+  % White                               75.79         (28.64)        70.97          (29.47)           4.28        (-6)                 0.15      <0.001
+  Total enrollment [person]             449.85        (279.93)       444.46         (260.60)          11.76       (-3)                 0.04      <0.001
+  Area-based SES
+  Population [person]                   8688.22       (10,063.99)    8793.10        (10,088.44)   104.88          (þ1)             0.01          <0.001
+  Median household income [USD]         93,935.46     (115,580.90)   70,820.42      (30,004.23)    23,115.03      (-25)              0.25        <0.001
+  School-age population [person]        2099.83       (5732.51)      2036.45        (5419.52)      63.38          (-3)               0.03        <0.001
+  Job [number]                          3872.90       (2591.60)      3781.28        (2486.26)      91.62          (-2)               0.02        <0.001
+  Built environment
+  Street connectivity [count]           695           –              –              –             –               –                –             –
+  Length of all roads [mi]              39.71         (22.23)        –              –             –               –                –             –
+  Length of non-highway roads [mi]      38.86         (21.93)        –              –             –               –                –             –
+
+  2013 SRTS Dataset (N¼1976)
+                                        Pre-project                  Post-project                 Change          (% of            Cohen’s d     P-
+                                        Mean          (SD)           Mean         (SD)                            change)                        value
+
+  School-level demographics
+  % Students w/free lunch               27.50         (21.70)        36.36          (22.14)       þ8.86           (þ32)            0.40          <0.001
+  % Students w/limited English          3.81          (7.27)         4.43           (7.92)        þ0.62           (þ16)            0.08          <0.001
+      proficiency
+  % Race/ethnicity: White               74.15         (26.95)        69.21          (27.79)        4.95           (-7)               0.17        <0.001
+  Total enrollment                      443.10        (250.35)       480.42         (237.08)      þ37.32          (þ8)             0.16          <0.001
+  Area-based SES
+  Population [person]                   7763.28       (9351.87)      7791.53        (9386.76)     þ28.25          (þ1)             0.00          <0.001
+  Median household income [USD]         71,914.68     (29,668.49)    74,121.35      (31,052.21)   þ2206.67        (þ3)             0.07          <0.001
+  School-age population [person]        3289.49       (4948.71)      3358.26        (5188.55)     þ68.77          (þ2)             0.01          <0.001
+  Job [number]                          1781.31       (2275.35)      1729.95        (2204.55)      51.36          (-3)               0.02        <0.001
+  Built environment
+  Street connectivity [count]           697           –              –              –             –               –                –             –
+  Length of all roads [mi]              37.42         (21.85)        –              –             –               –                –             –
+  Length of non-highway roads [mi]      36.64         (21.59)        –              –             –               –                –             –
+
+
+                                                                          6
+
+B. Kang et al.                                                                                            Journal of Transport & Health 18 (2020) 100866
+
+
+Table 2
+Pre-Post Project Comparison and Case-Control Comparison of Outcome Variables (Collision count and risk).
+                                              Pre- project                      Post- project             Diff.               Pa                 Cohen’s d
+
+                                              Mean                SD            Mean            SD
+
+  2008 SRTS Dataset (N ¼ 2363)
+  Case (N ¼ 125)             Countb           0.212               0.460         0.208           0.392      0.004              0.882                0.009
+                             Riskc            0.220               0.795         0.267           0.712     þ0.046              0.426              0.061
+  Control (N ¼ 2238)         Countb           0.177               0.382         0.170           0.356      0.007              0.298                0.193
+                             Riskc            0.142               0.502         0.149           0.541     þ0.006              0.553              0.012
+  2013 SRTS Dataset (N ¼ 2176)
+  Case (N ¼ 215)             Countb           0.208               0.345         0.170           0.250       0.038             0.076               0.040
+                             Riskc            0.171               0.545         0.169           0.599       0.002             0.933               0.062
+  Control (N ¼ 1961)         Countb           0.143               0.328         0.129           0.352       0.014             0.056               0.124
+                             Riskc            0.136               0.545         0.104           0.481       0.032             0.002               0.004
+  a
+      Paired t-test.
+  b
+      Collision count per year within 0.5 mile from school.
+  c
+      Collision count divided by AADT per year within 0.5 mile from school (per 1000).
+
+
+
+Table 3
+Case-control comparison of pre-project variables (2013 SRTS dataset).
+                                                Mean (Case Schools)          Mean (Control Schools)     Diff.                 Cohen’s d            P-value
+
+  School-level demographics
+  % Students w/free lunch                       37.42                        26.29                      11.13                 0.52                 <0.001
+  % Students w/limited English proficiency      4.52                         3.73                       0.79                  0.11                 0.22
+  % Race/ethnicity: White                       69.28                        74.75                        5.47                  0.20               0.01
+  Total enrollment                              447.92                       442.51                     5.40                  0.02                 0.74
+  Area-based SES
+  Population [person]                           8793.10                      8688.22                    28.30                 0.00                 0.96
+  Median household income [USD]                 70,820.42                    93,935.46                   17,431.59              0.60               <0.001
+  School-age population [person]                3781.28                      3872.90                     61.05                  0.03               0.67
+  Job [number]                                  2036.45                      2099.83                    1084.27               0.22                 0.03
+  Built environment
+  Length of all roads [mi]                      38.61                        37.28                      1.33                  0.06                 0.37
+  Length of non-highway roads [mi]              37.53                        36.53                      1.00                  0.05                 0.49
+
+
+
+
+Table 4
+Multivariate regression model results (2013 dataset only).
+  Outcome Variable                                       Model 1                                                Model 2
+
+                                                         Y ¼ Change in Collision Count                          Y ¼ Change in Collision Risk
+
+  Predictor Variables                                    Coeff.                   S.E.                          Coeff.                    S.E.
+
+  (Intercept)                                            0.0278                   0.0199                        0.0142                    0.0297
+  Population, pre-project (per 1000 people)              0.0223                   0.0012   *                    0.0124                    0.0018 *
+  Job, pre-project (per 1000 jobs)                       0.0046                   0.0016   *                      0.0003                  0.0024
+  Students w/free lunch, pre-project [%]                 0.0011                   0.0003   *                      0.0001                  0.0004
+  Change between pre- and post-project                   0.0019                   0.0006   *                    0.0010                    0.0009
+  Total enrolment, pre-project                           0.0000                   0.0000                        0.0000                    0.0000
+  Total road length                                        0.0052                 0.0005   *                      0.0028                  0.0008 *
+  SRTS intervention                                      0.0096                   0.0184                        0.0532                    0.0275
+  Pre-project collision level (baseline)
+  Collision count                                            0.6204               0.0210 *
+  Collision risk                                                                                                  0.4261                  0.0160 *
+  Adjusted R2                                            0.34                                                   0.27
+
+* Significance level p-value ¼ 0.05.
+
+
+    Table 4 shows the ANCOVA model results. In both models, pre-project collision level was statistically significant. However, SRTS
+intervention was not significantly associated with change in collision outcomes. In terms of the goodness of fit, Model 1 had a high
+adjusted R2 value (0.34) and Model 2 also had a high value (0.27), showing that the change in collision outcomes were relatively well
+explained in these models. Pre-project population density and total road length were consistently associated with collision reduction in
+both models.
+
+
+
+
+                                                                            7
+
+B. Kang et al.                                                                                     Journal of Transport & Health 18 (2020) 100866
+
+
+4. Discussion
+
+    In this study, we attempted to assess the SRTS effectiveness using all SRTS eligible schools within New York State (except New York
+City). Collision counts and risk associated with school commuting were longitudinally examined. According to our data, schools with
+2013 funding had no changes in collision count or in collision risk after SRTS interventions. This is inconsistent with previous studies
+showing that SRTS interventions were associated with a decrease in pedestrian or bicyclist injury rate by 23%–44% (DiMaggio et al.,
+2015, 2016; DiMaggio and Li, 2013). Based on our findings, we conclude that SRTS interventions had no effects on collision reduction
+around schools.
+    It is noteworthy that pre-project (baseline) collision level was significant in both models, suggesting that the RTM phenomenon
+may present in our data. When we did not adjust for the potential RTM phenomenon, using a general regression model, not an
+ANCOVA model, SRTS intervention was significantly associated with collision reduction (data not shown). However, adding the factor
+of pre-project collision levels as a baseline condition, the significant associations of SRTS intervention disappeared. Studies on traffic
+safety pointed out that failing to address this issue may lead to overestimation of treatment effects because the effects may not be
+resulted from the treatment but from the RTM phenomenon (Barnett et al., 2004; Retting et al., 2003). However, many SRTS studies do
+not consider pre-project or existing collision levels, which may yield treatment effect overestimation.
+    Our findings, no effects of SRTS on collision reduction, suggest changing future directions of SRTS projects. Promoting stakeholder
+partnership and engagement has been reported to be a key strategy in successful SRTS programs (Macridis and Garcia Bengoechea,
+2015). However, under limited budget, it may be difficult to have active community engagement which requires substantial time and
+cost. A SRTS evaluation study recommended that successful SRTS programs should have funding to provide on-site, paid staff dedi­
+cated to a project because it is difficult to recruit community volunteers (Cooper and McMillan, 2010). Another SRTS study reported
+difficulties of parents’ and other stakeholders’ engagement in developing social SRTS programs, although they may be more effective
+than conventional infrastructure-type interventions (Kang and Diao, 2018). A recent SRTS study found that adding a citizen science
+engagement model to a SRTS project doubled engagement events and was more effective in increasing children’s active transportation
+than a SRTS project alone (Rodriguez et al., 2019). Technology may be useful to encourage engagement. For example, a research team
+developed a smartphone app to help parent volunteers organizing a Walking School Bus SRTS program (Ferron et al., 2019).
+    We focused on collision reduction to evaluate SRTS program’s effectiveness. The outcome measures used in this study may be useful
+for systematic program evaluation and monitoring processes. For example, SRTS program managers may create a logic model that
+strategically evaluates SRTS activities and their intended results (WK Kellogg Foundation, 2004). Measures like collision reduction are
+easy to understand and are perhaps more important for program stakeholders including school administrators, police, and children’s
+caregivers. A logic model provides stakeholders with a program’s road map describing the sequence from activities to the program’s
+desired results. Because collision outcome measures are objective, easily understood and meaningful, they may serve as a good per­
+formance measure when examining effectiveness of SRTS programs.
+    The presence and quality of infrastructure at baseline may affect collision outcome changes over the study period (e.g., existing
+sidewalk quality and configuration). However, such detailed data were not available over the entire state in a consistent manner. We
+instead used urbanization factors (population density, job density, and total road length) as proxy variables. Some of the factors were
+significant in the regression models, suggesting that it is necessary to include them to explain collision outcome changes. Micro-scale
+studies are needed to examine qualitative aspects of built environment and their impact on traffic safety.
+    In the multivariate analysis, we controlled for socioeconomic characteristics of school neighborhoods (the percentage of students
+with free lunch) because they may affect the relationships between SRTS intervention and street safety (Cooper and McMillan, 2010).
+The percentage of students with free lunch was significant in the association with collision count while it was not with collision risk,
+after the traffic volume adjustment. In addition, our ANCOVA models controlled for baseline (pre-project) collision levels which may
+deal with some uncertainties not explained by existing covariates.
+    The current study has a two-group pretest-posttest design with defining cases as SRTS schools and controls as non-SRTS schools.
+Among cases, some SRTS intervention types may have bigger safety effects than others (Stewart, 2011). The report published by the
+National Center for SRTS provides some details on each project’s intervention types (National Center for Safe Routes to School, 2018).
+However, intervention type information was not standardized across projects. For example, a project had “crosswalk improvement”
+and another had “crosswalk markings”. A project was simply labelled as “safety education” while another was explained with
+descriptive details as “bike and pedestrian safety awareness campaigns”. In our state-scale analysis, we decided to use SRTS inter­
+vention as one factor (a dichotomous variable) without further classifying SRTS into sub-types as infrastructure (or engineering) or
+different kinds of non-infrastructure interventions (education, enforcement, encouragement, or evaluation). As micro-scale study
+found that different traffic calming countermeasures had different safety effects (e.g., curb extensions, pedestrian refuge islands, raised
+medians) (Kang, 2019; King et al., 2003), future SRTS studies are needed to focus on detailed intervention types.
+    In our models, we controlled pre-project built environments (population and job densities and total road length) which may work as
+proxies of infrastructure qualities at baseline. Pre-project infrastructure qualities (e.g., sidewalk coverage) may affect the association
+with collision outcomes (Stewart, 2011). In our data, school neighborhood with lower road density was associated with a decrease in
+collision (Models 1 and 2). Such neighborhoods with low road densities may have poor sidewalk coverage. It is possible that even a
+small SRTS project may have bigger effect in such neighborhoods.
+    When assessing collision risk, we did not account for the amount of school-age pedestrians or bicyclists, which could affect collision
+exposure and consequently collision risk, with two reasons. First, there is no longitudinal standardized data available to estimate the
+number of school-age pedestrians and bicyclists around studied schools. Second, more importantly, the relationship between collision
+risk and amount of children’s walking and bicycling is not clear. When more children walk, collision risk could increase because more
+
+                                                                    8
+
+B. Kang et al.                                                                                                          Journal of Transport & Health 18 (2020) 100866
+
+
+children are exposed to car traffic. Or, it could decrease if drivers become more cautious with the increased presence of pedestrians
+(safety-in-numbers phenomenon) (Jacobsen, 2015). In fact, a study found that the association between the amount of walking and
+school-age collision was not significant (Rothman et al., 2014). Because of this possible data unavailability and non-linearity or un­
+clarity, we decided not to adjust the amount of walking and bicycling in assessing collision risk.
+    Our analysis covered the New York State, aiming to offer some policy guidance and implications for state-run funding and pro­
+grams. We excluded New York City schools from our dataset because it has the built environment incomparable to other parts of the
+state and because the city has its own DOT. In our study area, we did not stratify urban and rural areas because more than 90% of
+schools were located in the US Census-defined urban areas and because an urban-rural dummy variable did not improve our models
+which already include more detailed built environment factors (e.g., population density). Further studies are needed to focus on
+specific location and school types.
+    We used a 0.5-mile airline buffer in counting collisions around each school. A half mile was assumed as a walkable distance for
+school commuting (McDonald and Aalborg, 2009) and collisions occurred within the distance from a school were spatially associated
+with the school (Abdel-Aty et al., 2007; Panter et al., 2010; Yu, 2015). In fact, there is no standard buffering distance for SRTS studies
+(Stewart, 2011). We tested different buffer sizes (e.g., 1 mile and 2 miles) and selected 0.5 miles which may reduce potential spatial
+mis-association to nearby schools. As for the buffering shapes, we used airline buffers for several reasons. First, studies found that there
+were no significant differences across buffering methods when explaining the relationship between environments and walking be­
+haviors (Frank et al., 2017; James et al., 2014). Second, because our study covered a large area of the entire state, using a simple
+method may produce consistency if street network data had varying accuracies and resolutions over the area.
+    The current study has limitations. First, this study is an observational before-and-after study, not a natural experiment with random
+assignment. We attempted to adjust the RTM phenomenon or potential selection bias with using ANCOVA models and a relatively long-
+term statistics based on 4-year time window (Barnett et al., 2004; Chen et al., 2013; Sharma and Datta, 2007). Second, there were no
+data available on school-level funding allocation when an award has impacted multiple schools. In this case, we assumed that each
+SRTS-funded school has equally benefitted from the award. Third, we assumed the funding announcement year as treatment year
+(2008 and 2013) and defined the pre- and post-project period 4 years before and after the treatment year for our study design
+(2004–2007, 2009–2012, and 2014–2017). However, the completion of the intervention, particularly for infrastructure type with any
+engineering changes might have been completed a few years after the funding was announced. In addition, some of the datasets from
+which we calculated the variables were not aligned perfectly with our study design. For example, ACS 5-year estimates are only
+available from 2005 until 2016 (at the time of submitting the manuscript) and we used the most recent, available dataset. Fifth, we
+used NYS DOT’s official collision data from ALIS, which may have under-reporting issues or misclassification of
+pedestrian/bicyclist-related collisions with other types of collisions (Noland et al., 2017). Lastly, other qualitative factors that might
+better explain the reasons for collision or the impact of collisions (e.g., injury severity, contributing factors, and other contextual
+information) were not considered.
+    Despite the limitations, our study is a first attempt to examine safety impact of SRTS using longitudinal data and control group
+study design.
+
+5. Conclusions
+
+   Our study found that the SRTS projects in New York State were not associated with the reduction of collisions involving school-age
+pedestrians or bicyclists occurring school commuting time around schools.
+
+Author statement
+
+   B. Kang designed the study, conducted analyses, drafted the article, and was responsible for all aspects of the study. S. Back
+designed the study and contributed substantively to interpretation and article revision. C. Wang processed and prepared the data for
+analysis and contributed substantively to interpretation and article revision.
+
+Acknowledgements
+
+   This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korean government (MSIT) (No.
+2020R1C1C1013021).
+
+References
+
+Abdel-Aty, M., Chundi, S.S., Lee, C., 2007. Geo-spatial and log-linear analysis of pedestrian and bicyclist crashes involving school-aged children. J. Saf. Res. 38 (5),
+    571–579.
+Barnett, A.G., Van Der Pols, J.C., Dobson, A.J., 2004. Regression to the mean: what it is and how to deal with it. Int. J. Epidemiol. 34 (1), 215–220.
+Boeing, G., 2017. OSMnx: new methods for acquiring, constructing, analyzing, and visualizing complex street networks. Comput. Environ. Urban Syst. 65, 126–139.
+Chen, L., Chen, C., Ewing, R., McKnight, C.E., Srinivasan, R., Roe, M., 2013. Safety countermeasures and crash reduction in New York City—experience and lessons
+    learned. Accid. Anal. Prev. 50, 312–322. https://doi.org/10.1016/j.aap.2012.05.009.
+     on, P., Evenson, K.R., Vaughn, A., Ward, D.S., 2011. A systematic review of interventions for promoting active transportation to school. Int. J. Behav. Nutr. Phys.
+Chill<U+FFFD>
+    Activ. 8 (1), 10.
+Cooper, J.F., McMillan, T., 2010. Safe Routes to School Local School Project: A Health Evaluation at 10 Low-income Schools. Retrieved from. https://escholarship.
+    org/uc/item/37m6x95t.
+
+
+                                                                                   9
 

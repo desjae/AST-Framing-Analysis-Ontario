@@ -3,7 +3,9 @@
 Examining Long-Term Impact of
 California Safe Routes to School Program
 Ten Years Later
+
 David R. Ragland, Swati Pande, John Bigham, and Jill F. Cooper
+
 California was the first state to legislate a Safe Routes to School (SR2S)
 program under Assembly Bill 1475 (1999). SR2S funds construction
 projects that make it safer for children to walk or bicycle to school and
@@ -64,6 +66,10 @@ DOI: 10.3141/2464-11
 
 
 
+
+
+
+
 Engineering-related factors that increase pedestrian and bicycle
 safety may also influence walking and bicycling to school. Separa-
 tion of pedestrians, bicyclists, and motor vehicles onto different ele-
@@ -119,9 +125,13 @@ ipality is required to provide a minimum of 10% in local matching
 funds. From its inception in 1999 to the end of 2006, the California
 SRTS program funded 570 projects with a total cost of more than
 $190 million. The projects were equitably distributed across the
+
+
 86
 
 Ragland, Pande, Bigham, and Cooper
+
+
 state, with proportional representation achieved geographically and
 by population (20). The California legislature has reauthorized the
 program three times over the past decade.
@@ -160,6 +170,8 @@ a decreased rate of injury and a net benefit in terms of safety for the
 affected students. Other reported safety benefits included reductions
 in near misses, increased perceptions of safety, less vehicle traffic,
 and improved driver and pedestrian behavior (20).
+
+
 Evaluation Methodology
 and Major Findings
 
@@ -185,6 +197,8 @@ used provided a model for future evaluation research. The method-
 ology and major findings are described separately below for safety
 and mobility.
 87
+
+
 Safety Study
 
 Methodology
@@ -223,6 +237,8 @@ on each school on enrollment, grade level, opening dates, latitude
 and longitude coordinates, and other factors. Each school is assigned
 a County-District-School code, which was used as a unique identifier
 to match all schools used in the analysis.
+
+
 Countermeasure Data
 
 A funded project at a school site can list zero, one, or multiple
@@ -248,166 +264,182 @@ surement (23, 24). It was determined that collisions within 250 ft of
 a countermeasure could reasonably be expected to be affected by
 the countermeasure.
 
-88                                                                                                     Transportation Research Record 2464
-When available, the expected effectiveness of SRTS infrastruc-         1998, through December 31, 2009. Pedestrian- or bicycle-involved
-ture improvements was gauged by consulting the FHWA guide for             collisions occurring between 6 a.m. and 6 p.m. from September
-crash reduction factors (CRFs). Table 1 summarizes the CRFs for           through May were selected for the analysis.
+88
+
+
+When available, the expected effectiveness of SRTS infrastruc-
+ture improvements was gauged by consulting the FHWA guide for
+crash reduction factors (CRFs). Table 1 summarizes the CRFs for
 the countermeasures in the final data set. The CRF is a number giv-
 ing the expected percentage reduction in collisions for a particular
-countermeasure. For example, among the set of infrastructure              Data Set of Localized Collisions
+countermeasure. For example, among the set of infrastructure
 countermeasures identified in this study, the countermeasure with
-Collisions occurring within 250-ft countermeasure buffer zones
+
 the highest CRF was to install sidewalk (to avoid walking along
-(program areas) or quarter-mile school buffer zones (control areas)
+
 roadway), with CRF = 74 (Table 1). CRF = 74 means that there
-were selected for the statistical analysis. A binary variable was cre-
+
 is a 74% expected reduction in pedestrian-involved collisions for that
-ated that described location: either within the improvement zone
+
 countermeasure. It was expected that countermeasures with high CRFs
-(program area) or outside the improvement zone (control area).
+
 would yield a safety benefit. With this evaluation, the purpose of apply-
-A numeric code (1 through 75) was used to stratify the sample
+
 ing CRFs was to determine whether, a priori, the installed infrastructure
-by school. The code represented 150 program and control areas
+
 improvements had a demonstrated effectiveness based on previous sys-
-around 75 constructed countermeasures. Of the countermeasures,
+
 tematic studies. The data set of geocoded countermeasure buffer zones
-32 were intersection based and 15 were corridor based. The counter­
+
 included 25 corridors and 50 intersections.
-measures were localized to 47 schools; the breakdown of schools
-within the sample is presented in Table 2. A school could appear
-Preconstruction and Postconstruction Dates                                multiple times in the data set if multiple countermeasures were
-constructed around it.
+
+
+Preconstruction and Postconstruction Dates
+
 Each program area was assigned a preconstruction period and a post-
 construction period. The assignment was based on the construction
-start and end dates provided by the agencies. The preconstruction         Analysis
+start and end dates provided by the agencies. The preconstruction
 start date was designated as the later date of the date the school
-Random-intercept Poisson and random-intercept negative bino-
+
 opened or 48 months before the end date. The preconstruction end
-mial regression models were applied to the data, with the methods
+
 date was the reported date that construction started. The start date
-discussed in Diggle et al. (27), Rabe-Hesketh and Skrondal (28),
+
 for the postconstruction period was the reported date of construction
-and Rothman et al. (29). The Stata statistical software package
+
 completion. The end date was selected as the earliest of 48 months
-was used for all data management and analysis procedures and the
+
 after the start date, the date the school closed, or December 31, 2009.
-generalized linear latent and mixed models procedure was used to
-implement the models (30). A Huber-White sandwich estimator of
-Collision Data                                                            the variance-covariance matrix was specified to protect against vio-
-lations of distributional assumptions. Overdispersion is a common
-Collision data were obtained from the California Statewide Integrated     problem with Poisson regression. The random intercept and the
-Traffic Records System (SWITRS) (25). SWITRS is a database of             robust variance estimator were used to address the overdispersion.
+
+
+Collision Data
+
+Collision data were obtained from the California Statewide Integrated
+Traffic Records System (SWITRS) (25). SWITRS is a database of
 police-reported collisions maintained by the California Highway
 Patrol. The collisions were subsequently geocoded and then made
-accessible to researchers through the Transportation Injury Mapping       Major Findings
+accessible to researchers through the Transportation Injury Mapping
 System (26). SWITRS injury and fatality data were obtained from
-Mapping the locations made the following points clear: (a) on aver-
+
 Transportation Injury Mapping System for the period from January 1,
+
+
+
+
+TABLE 1   Countermeasures and Crash Reduction Factors
+in Data Set
+
+Countermeasure                                           Count      CRF
+
+Install sidewalk (to avoid walking along roadway)         25         74
+Install traffic signal                                    11         38
+Install dynamic advance intersection warning system        2         70
+
+Install flashing beacons as advance warning                1         30
+
+Replace existing “Walk–Don’t Walk” signals with            2         52
+pedestrian countdown signal heads
+Install speed humps                                         3        50
+Install changeable speed warning signs for individual       4        46
+drivers
+Improve superelevation (for drainage)                      7         45
+Total countermeasures                                     55         na
+
+Note: na = not applicable.
+Transportation Research Record 2464
+
+
+1998, through December 31, 2009. Pedestrian- or bicycle-involved
+collisions occurring between 6 a.m. and 6 p.m. from September
+through May were selected for the analysis.
+
+
+Data Set of Localized Collisions
+
+Collisions occurring within 250-ft countermeasure buffer zones
+
+(program areas) or quarter-mile school buffer zones (control areas)
+
+were selected for the statistical analysis. A binary variable was cre-
+
+ated that described location: either within the improvement zone
+
+(program area) or outside the improvement zone (control area).
+
+A numeric code (1 through 75) was used to stratify the sample
+
+by school. The code represented 150 program and control areas
+
+around 75 constructed countermeasures. Of the countermeasures,
+
+32 were intersection based and 15 were corridor based. The counter­
+
+measures were localized to 47 schools; the breakdown of schools
+within the sample is presented in Table 2. A school could appear
+multiple times in the data set if multiple countermeasures were
+constructed around it.
+
+
+Analysis
+
+Random-intercept Poisson and random-intercept negative bino-
+
+mial regression models were applied to the data, with the methods
+
+discussed in Diggle et al. (27), Rabe-Hesketh and Skrondal (28),
+
+and Rothman et al. (29). The Stata statistical software package
+
+was used for all data management and analysis procedures and the
+
+generalized linear latent and mixed models procedure was used to
+implement the models (30). A Huber-White sandwich estimator of
+the variance-covariance matrix was specified to protect against vio-
+lations of distributional assumptions. Overdispersion is a common
+problem with Poisson regression. The random intercept and the
+robust variance estimator were used to address the overdispersion.
+
+
+Major Findings
+
+Mapping the locations made the following points clear: (a) on aver-
+
 age, the intersections were within 0.23 mi (0.37 km) of the nearest
 school and (b) collisions were often situated in locations that were
 unlikely to be affected by the SRTS infrastructure improvements
 (Figure 1).
-TABLE 1   Countermeasures and Crash Reduction Factors
-in Data Set
-Countermeasure                                            Count      CRF
+
+
+
+
 TABLE 2   Schools in Data Set
-Install sidewalk (to avoid walking along roadway)          25         74
-Install traffic signal                                     11         38               Grade Served              Number of Schools
-Install dynamic advance intersection warning system         2         70
-Kindergarten–Grade 4                1
-Install flashing beacons as advance warning                 1         30
-Kindergarten–Grade 5               24
-Replace existing “Walk–Don’t Walk” signals with             2         52
-pedestrian countdown signal heads                                                   Kindergarten–Grade 6               11
-Install speed humps                                         3         50               Kindergarten–Grade 7                1
-Install changeable speed warning signs for individual       4         46               Kindergarten–Grade 8                2
-drivers                                                                             6–8                                 4
-Improve superelevation (for drainage)                       7         45               6–9                                 1
-Total countermeasures                                      55         na               9–12                                3
-Total                              47
-Note: na = not applicable.
 
+Grade Served               Number of Schools
 
+Kindergarten–Grade 4               1
 
+Kindergarten–Grade 5              24
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Kindergarten–Grade 6              11
+Kindergarten–Grade 7               1
+Kindergarten–Grade 8               2
+6–8                                4
+6–9                                1
+9–12                               3
+Total                             47
 
 
 Ragland, Pande, Bigham, and Cooper
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -464,22 +496,32 @@ bicyclists of all ages (Table 4). The analysis found an IRR of 0.26,
 corresponding to a collision reduction of about 75%. This result was
 statistically significant (p = .003). The pattern was similar for most
 
-of the collision subcategories, such as fatalities, serious injuries, an
+of the collision subcategories, such as fatalities, serious injuries, and
 89
+
+
 TABLE 3   IRRs for Program Effect, Analysis 1
+
 95%
 Confidence
 Level
-Collision Characteristic      IRR         LL       UL    p
-Total                         0.47        0.20     1.12  .09
-Fatal or severe injury        0.35        0.03     3.63  .38
-Minor injury                  0.68        0.34     1.39  .29
-Morning (6–9 a.m.)            0.59        0.17     2.10  .42
-Afternoon (3–6 p.m.)          0.45        0.10     2.00  .30
-Elementary                    0.44        0.14     1.39  .16
-Middle                        0.93        0.23     3.70  .91
-High school                   0.15        0.01     1.84  .14
+
+Collision Characteristic      IRR           LL      UL     p
+
+Total                         0.47          0.20    1.12   .09
+Fatal or severe injury        0.35          0.03    3.63   .38
+Minor injury                  0.68          0.34    1.39   .29
+Morning (6–9 a.m.)            0.59          0.17    2.10   .42
+Afternoon (3–6 p.m.)          0.45          0.10    2.00   .30
+Elementary                    0.44          0.14    1.39   .16
+Middle                        0.93          0.23    3.70   .91
+High school                   0.15          0.01    1.84   .14
+
 Note: LL = lower limit; UL = upper limit.
+
+
+
+
 minor injuries. Although the primary rationale for the SRTS program
 is to increase safety for students on their way to and from school,
 countermeasures for increasing safety for students also improve
@@ -511,20 +553,22 @@ TABLE 4   IRRs for Program Effect, Analysis 2
 Confidence
 Level
 
-Collision Characteristic      IRR        LL        UL    p
+Collision Characteristic      IRR        LL          UL     p
 
-Total                         0.26       0.11      0.63  .003
-Fatal or severe injury        0.15       0.01      1.85  .14
-Minor injury                  0.27       0.12      0.63  .003
-Morning (6–9 a.m.)            0.56       0.17      1.87  .34
-Afternoon (3–6 p.m.)           0.09       0.02      0.45  .004
-Elementary                     0.36       0.13      1.09  .05
-Middle                         0.15       0.02      1.42  .10
+Total                         0.26       0.11        0.63   .003
+Fatal or severe injury        0.15       0.01        1.85   .14
+Minor injury                  0.27       0.12        0.63   .003
+Morning (6–9 a.m.)            0.56       0.17        1.87   .34
+Afternoon (3–6 p.m.)          0.09       0.02        0.45   .004
+Elementary                    0.36       0.13        1.09   .05
+Middle                        0.15       0.02        1.42   .10
 
-High school                    0.12       0.02      0.76  .02
-d
+High school                   0.12       0.02        0.76   .02
+
 
 90
+
+
 Center for Safe Routes to School was used to collect data on mobility
 and determine reported barriers to walking to school (31). The sur-
 vey was administered at eight of the original 16 schools that partici-
@@ -543,6 +587,7 @@ farther than 250 ft but less than a quarter mile from the school. The
 analysis found that living within 250 ft of an SR2S project increased
 the probability that a child walked to school (coefficient = 0.82,
 Z-statistic = 2).
+
 
 Parents’ Perceptions of Safety
 of Walking and Bicycling
@@ -586,6 +631,8 @@ the hours of 6 a.m. and 6 p.m. from September through May. Counter­
 measures would be expected to have a positive impact beyond this
 time frame.
 Transportation Research Record 2464
+
+
 Age Range of Observations  The original analyses of mode shift
 were limited to pedestrians and bicyclists ages 6 to 18 years; how-
 ever, countermeasures would be expected to have a positive impact
@@ -604,6 +651,7 @@ effects.
 Limitations
 
 The project encountered four major challenges:
+
 1. In the case of the mobility analysis, despite a $1,000 incen-
 tive to the school and repeated attempts to contact administrators,
 only eight schools that fit the criteria for use in the analyses partici-
@@ -648,6 +696,8 @@ Further, the schools and improvements for which there were
 available data may not have been representative of the entire pro-
 
 Ragland, Pande, Bigham, and Cooper
+
+
 gram. Another weakness, explored in further detail below, is the
 possibility of a regression to the mean phenomenon influencing
 the findings. Insofar as infrastructure locations are influenced by
@@ -724,6 +774,8 @@ Johnson Foundation’s Active Living Research Program. Thomas
 Rice provided key statistical modeling as part of the SafeTREC
 team. Partners in this research were Tracy McMillan and Marlon
 91
+
+
 Boarnet. The authors greatly appreciate their contributions to this
 research.
 

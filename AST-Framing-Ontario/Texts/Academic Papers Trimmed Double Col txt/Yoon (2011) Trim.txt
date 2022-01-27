@@ -3,6 +3,7 @@
 Spatial Analysis of Propensity to Escort
 Children to School in Southern California
 Seo Youn Yoon, Marjorie Doudnikoff, and Konstadinos G. Goulias
+
 The spatial distribution of children’s school commute behavior is ana-
 lyzed from three perspectives: commuting to school independently of
 parents, commuting to school by active modes, and allocation of escort-
@@ -60,6 +61,8 @@ DOI: 10.3141/2230-15
 
 
 
+
+
 much smaller proportion (24.7%). This asymmetric allocation of
 parental duties results in different levels of constraints and has dif-
 ferent impacts for certain arrangements in households on parents’
@@ -113,11 +116,15 @@ only in relation to spatial characteristics of the school location(s).
 Specific aspects of the dependence of children on their parents in
 commuting behavior that are listed above are evaluated, and binary
 logit models for the behavioral patterns of children’s commute to
+
 132
 
 Yoon, Doudnikoff, and Goulias
+
+
 school are used. Finally, the results are displayed as spatial patterns
 by use of geographic information system (GIS) maps.
+
 
 
 DATA USED
@@ -158,24 +165,24 @@ Age (years)
 
 11–15                                       1,371          39.4
 Parents’ employment status
-Both parents full-time workers                875          25.1
-Father full-time, mother part-time            299           8.6
-Father full-time, mother not employed         917          26.3
-Employed single father                        172           4.9
-Not employed single father                     28           0.8
-Employed single mother                        457          13.1
-Not employed single mother                    242           6.9
-Other                                         493          14.1
+Both parents full-time workers               875           25.1
+Father full-time, mother part-time           299            8.6
+Father full-time, mother not employed        917           26.3
+Employed single father                       172            4.9
+Not employed single father                    28            0.8
+Employed single mother                       457           13.1
+Not employed single mother                   242            6.9
+Other                                        493           14.1
 Household income ($)
-Less than 10,000                              188           5.4
-10,000–24,999                                 645          18.5
-25,000–34,999                                 468          13.4
-35,000–49,999                                 424          12.2
-50,000–74,999                                 670          19.2
-75,000–99,999                                 418          12.0
-100,000–149,000                               265           7.6
-150,000 or more                               186           5.3
-Unknown                                       219           6.3
+Less than 10,000                             188            5.4
+10,000–24,999                                645           18.5
+25,000–34,999                                468           13.4
+35,000–49,999                                424           12.2
+50,000–74,999                                670           19.2
+75,000–99,999                                418           12.0
+100,000–149,000                              265            7.6
+150,000 or more                              186            5.3
+Unknown                                      219            6.3
 Child’s ethnicity
 White, not Hispanic                         1,285          36.9
 Hispanic                                    1,377          39.5
@@ -184,17 +191,20 @@ Asian, Pacific Islander                        92           2.6
 Other                                         198           5.7
 Unknown                                       328           9.4
 133
+
+
 TABLE 2     Children’s Travel Mode to School
 
-Travel Mode to School              Frequency       Percent
-Walk                                    741           21.3
+Travel Mode to School              Frequency         Percent
 
-Bicycle                                  63            1.8
-Passenger in car, truck, van          2,197           63.1
-School bus                              364           10.5
-Transit                                  29             .8
-Other or unknown                         89            2.6
-Total                                 3,483         100.0
+Walk                                     741             21.3
+
+Bicycle                                   63              1.8
+Passenger in car, truck, van           2,197             63.1
+School bus                               364             10.5
+Transit                                   29               .8
+Other or unknown                          89              2.6
+Total                                  3,483            100.0
 
 
 
@@ -236,23 +246,25 @@ TABLE 3 Allocation of Escort Between Father and
 Mother by Household Type
 
 Total
-Household Type by Parents             Escort by      Escort by    Number of
-Composition                           Father         Mother       Children
+Household Type by Parents               Escort by       Escort by    Number of
+Composition                             Father          Mother       Children
 
-Both parents full-time workers            151            373          875
-Father full-time, mother part-time         41            152          299
+Both parents full-time workers            151              373            875
+Father full-time, mother part-time         41              152            299
 
-Father full-time, mother not              106            374          917
+Father full-time, mother not              106              374            917
 employed
-Father and mother with other               96            157          493
+Father and mother with other               96              157            493
 employment combination
-Single father                              49              0          200
-Employed single mother                       0           204          457
+Single father                              49                0             200
+Employed single mother                      0              204             457
 
-Not employed single mother                   0            91          242
-Total                                     443          1,351        3,483
+Not employed single mother                  0               91             242
+Total                                     443            1,351           3,483
 
 134
+
+
 groups outside the region that are accessible from the origin block
 group are also included. Each block group was treated as a traffic
 analysis zone, and each block group centroid was attached to the
@@ -277,6 +289,7 @@ represents the approximate catchment area of each school.
 Accessibility measures for each buffer area were then computed by
 summing the accessibility indicators of the block groups that belong
 to a buffer area. The accessibility measures considered here are
+
 • Number of retail employees within a travel time of 20 min and
 • Total number of segment kilometers by the following network
 types within a travel time of 20 min:
@@ -314,6 +327,8 @@ a mode-specific travel time and network with a finer spatial resolu-
 tion on the basis of the alternatives available for each individual. All
 these are left as future tasks.
 Transportation Research Record 2230
+
+
 MODELS AND RESULTS
 
 General Description of Models
@@ -338,6 +353,7 @@ the value of 1 if the child goes to school with the father and 0 if the
 child goes to school with the mother. This model is estimated only
 for children who are from households headed by a couple and who
 went to school with their parents.
+
 The model INDEPENDENT uses two sets of explanatory vari-
 ables, as explained above, to test if any sociodemographic groups
 are significantly more or less likely to let children travel indepen-
@@ -376,6 +392,8 @@ the behavioral patterns of interest in this paper. To overcome this
 distributional heterogeneity, each of the accessibility measures and
 
 Yoon, Doudnikoff, and Goulias
+
+
 the population density, which are either a continuous variable (total
 segment length by network type and population density) or a count
 variable (number of employees), are reclassified into a discrete vari-
@@ -438,6 +456,8 @@ by active modes, as expected. The gender of the child was signifi-
 cant in the model ACTIVE and marginally significant in the model
 INDEPENDENT, which means that girls are less likely than boys
 135
+
+
 to go to school independently of their parents and to use active
 modes when parents do not escort them to school. Ethnicity has a
 significant impact on both traveling independently of parents and
@@ -501,19 +521,28 @@ the baseline to take children to school when they and their wives are
 employed full-time (0.542 time the baseline). Fathers’ long work
 
 Yoon, Doudnikoff, and Goulias
+
+
 TABLE 4     Goodness of Fit
+
 Contribution of Set
-Degrees
+
+Degrees of
 Variable Set            Chi-Square       Freedom
+
 Model INDEPENDENT
-Sociodemographic          602.824            50
-Spatial                    76.031            45
+Sociodemographic          602.824             50
+Spatial                    76.031             45
 Model ACTIVE
-Sociodemographic          435.717            50
-Spatial                   157.632            45
+Sociodemographic          435.717             50
+Spatial                   157.632             45
 Model FATHER’S ESCORT
-Sociodemographic          119.652            46
-Spatial                    90.922            45
+Sociodemographic          119.652             46
+Spatial                    90.922             45
+
+
+
+
 hours (41 to 60 hours per week) have a negative impact on their
 propensity to take children to school, and mothers’ long work hours
 (41 to 50 hours per week) have a positive impact on fathers’ propen-
@@ -558,18 +587,27 @@ The three maps in Figure 2 show the total impact of the spatial
 variables in each model. A GIS layer was created for each set of
 137
 
+
+
+
 Cumulative Models
-of                    Degrees of
-Chi-Square        Freedom         Nagelkerke R2
 
-602.824             50               .212
-677.856             95               .236
+Degrees of
+Chi-Square      Freedom         Nagelkerke R2
 
-435.717             50               .178
-593.349             95               .237
 
-119.652             46               .127
-210.574             91               .217
+602.824            50               .212
+677.856            95               .236
+
+435.717            50               .178
+593.349            95               .237
+
+119.652            46               .127
+210.574            91               .217
+
+
+
+
 dummies in a model assigning the significant coefficients to corre-
 sponding block groups. The layers were then summed into one map.
 The gray shades show the composite impacts of the spatial variables.
@@ -614,9 +652,14 @@ Angeles, as is the highest propensity to commute independently.
 The discontinuity in the spatial distribution of the propensity to
 
 140
-TABLE 5 (continued)      Estimated Coefficients of Children’s Commuting Be
+
+
+TABLE 5 (continued)      Estimated Coefficients of Children’s Commuting Beh
+
 INDEPENDENT
-Variable                                                     B       Sig.
+
+Variable                                                     B        Sig.
+
 Total length of vehicular trail within 20 min travel
 (percentile)
 <10
@@ -628,8 +671,13 @@ Base: 40th
 60th
 70th
 80th
-90th                                                      -0.401  .077
+90th                                                       -0.401   .077
+
 NOTE: Sig. = significance; B = ß coefficient; Exp(B) = odds ratio.
+
+
+
+
 commute independently, possibly because of the Kenneth Hahn
 State Recreational Area, appears in the spatial distribution of the
 propensity to commute by active modes as well. These agreements
@@ -678,12 +726,17 @@ the propensity of each behavior and intrahousehold interaction pat-
 terns. The results of each model, presented as maps combining the
 impact of all the significant spatial variables, are informative. These
 Transportation Research Record 2230
-havior Models
-ACTIVE                             FATHER’S ESCORT
-Exp(B)       B           Sig.      Exp(B)       B          Sig.       Exp(B)
 
 
-0.849     .016       2.336
+avior Models
+
+ACTIVE                            FATHER’S ESCORT
+
+Exp(B)     B           Sig.      Exp(B)      B            Sig.     Exp(B)
+
+
+
+0.849      .016      2.336
 
 
 
@@ -693,6 +746,11 @@ Exp(B)       B           Sig.      Exp(B)       B          Sig.       Exp(B)
 -0.719      .012       0.487
 
 0.670
+
+
+
+
+
 
 types of maps can be useful for decision makers and planners trying
 to identify specific locations where certain types of investments in
@@ -743,6 +801,8 @@ for future development of this methodology. This is particularly
 important for the newly designed California statewide as well as
 
 142
+
+
 SCAG household travel and add-on surveys that are going to be con-
 ducted in 2011 to 2012 and for related accessibility measures that
 
@@ -812,6 +872,8 @@ pp. 69–79.
 School Travel in Taipai: Independence and Travel Mode. Urban Studies,
 Vol. 47, No. 4, 2010, pp. 867–889.
 Transportation Research Record 2230
+
+
 8. Yarlagadda, A. K., and S. Srinivasan. Modeling Children’s School Travel
 Mode and Parental Escort Decisions. Transportation, Vol. 35, No. 2,
 2008, pp. 201–218.

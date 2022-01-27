@@ -1,15 +1,23 @@
 
 
 Research Article
+
 Transportation Research Record
 2020, Vol. 2674(4) 101–113
 Ó National Academy of Sciences:
-Statewide Analysis of Individuals’                                                                      Transportation Research Board 2020
+Statewide Analysis of Individuals’                                                                    Transportation Research Board 202
 Article reuse guidelines:
-Exposure to Business Establishments and                                                                 sagepub.com/journals-permissions
+Exposure to Business Establishments and                                                               sagepub.com/journals-permissions
 DOI: 10.1177/0361198120912241
-Active Travel Behavior                                                                                  journals.sagepub.com/home/trr
+
+Active Travel Behavior                                                                                journals.sagepub.com/home/trr
+
+
+
+
 Yicong Yang1 and Carolyn McAndrews1
+
+
 Abstract
 This study analyzes the association between exposure to various economic establishments, such as retail stores and schools,
 and walking and cycling at the individual level. Instead of using a land use mix indicator applied in many previous studies, 17
@@ -23,31 +31,45 @@ leverage the potential for schools and local government offices to serve as anch
 behavior. In addition to strategies for the built environment, the research also suggests that physical activity encouragement
 could target individuals, such as workers, who probably have exposure to establishments with a negative association with
 active travel, such as in the finance and insurance sector.
-National public health policies throughout the world               agencies to prioritize health in their transportation
-emphasize the importance of adequate physical activity,            improvement programs.
-which decreases the risks of mortality, being overweight,              This study contributes to understanding policies that
-obesity, and chronic diseases (1–3). People can meet               support active travel through built environments, with a
-these national guidelines by walking, cycling, and riding          specific focus on business environments such as retail,
-transit for everyday needs, not only through leisure and           educational, recreational, and industrial places. Previous
-exercise (4, 5). In addition, experts in health behavior           research has shown that an area’s land use mix, presence
-have found that people with lower levels of fitness can            of retail, and the density of activities—in combination
-more easily participate in walking and cycling, which              with infrastructure and transportation system design—
-makes these modes especially important for health pro-             influence walking and cycling (10–12). For instance, auto
-motion. Compared to vigorous exercise, adopting mod-               repair shops and auto dealerships deter walking, and
-erate physical activity is easier to achieve and maintain,         parks generate walk trips (13, 14).
-and it generates the greatest relative health improvement              Although these built environment conditions describe
-for sedentary people (6–8). Therefore, promoting physi-            urban or metropolitan walkability, they may not be key
-cally active travel, especially walking and cycling, has           factors for rural or exurban locations or populations
-become a key public health strategy.                               (15). Therefore, in this study the scale of analysis is chan-
-One policy approach has focused on removing envi-              ged to include urban and rural places and examine how
-ronmental barriers to physical activity by investing in            exposure to the business establishments influences
+
+
+
+National public health policies throughout the world             agencies to prioritize health in their transportation
+emphasize the importance of adequate physical activity,          improvement programs.
+which decreases the risks of mortality, being overweight,           This study contributes to understanding policies that
+obesity, and chronic diseases (1–3). People can meet             support active travel through built environments, with a
+these national guidelines by walking, cycling, and riding        specific focus on business environments such as retail,
+transit for everyday needs, not only through leisure and         educational, recreational, and industrial places. Previous
+exercise (4, 5). In addition, experts in health behavior         research has shown that an area’s land use mix, presence
+have found that people with lower levels of fitness can          of retail, and the density of activities—in combination
+more easily participate in walking and cycling, which            with infrastructure and transportation system design—
+makes these modes especially important for health pro-           influence walking and cycling (10–12). For instance, auto
+motion. Compared to vigorous exercise, adopting mod-             repair shops and auto dealerships deter walking, and
+erate physical activity is easier to achieve and maintain,       parks generate walk trips (13, 14).
+and it generates the greatest relative health improvement           Although these built environment conditions describe
+for sedentary people (6–8). Therefore, promoting physi-          urban or metropolitan walkability, they may not be key
+cally active travel, especially walking and cycling, has         factors for rural or exurban locations or populations
+become a key public health strategy.                             (15). Therefore, in this study the scale of analysis is chan-
+One policy approach has focused on removing envi-             ged to include urban and rural places and examine how
+ronmental barriers to physical activity by investing in          exposure to the business establishments influences
 built environments that encourage people to incorporate
-active travel into their daily routine (9). Plenty of inter-       1
-ventions from transportation, planning, and urban                   Department of Planning and Landscape Architecture, University of
+active travel into their daily routine (9). Plenty of inter-     1
+ventions from transportation, planning, and urban                Department of Planning and Landscape Architecture, University of
 Wisconsin–Madison, Madison, WI
 design are relevant to this approach, such as complete
-streets policies, safe routes to school polices, and methods       Corresponding Author:
-for metropolitan planning organizations and other                  Yicong Yang, yicong.yang@wisc.edu
+streets policies, safe routes to school polices, and methods     Corresponding Author:
+for metropolitan planning organizations and other                Yicong Yang, yicong.yang@wisc.edu
+
+
+
+
+
+0
+
+
+
+
+
 
 
 
@@ -98,6 +120,8 @@ for metropolitan planning organizations and other                  Yicong Yang, 
 
 
 102
+
+
 walking and cycling for a representative sample for the
 state of Wisconsin in the United States. Moreover,
 the analysis aligns individual-level exposures and
@@ -162,6 +186,8 @@ Representing Exposure to Built Environments
 Most studies of active travel and built environments rely
 on two types of aggregated data: 1) representing places
 Transportation Research Record 2674(4)
+
+
 by their neighborhood boundaries, census tracts, block
 groups, ZIP codes, or traffic analysis zones; and 2) repre-
 senting populations by their aggregate travel outcomes
@@ -227,6 +253,8 @@ tial data also include geocoded location information for
 57,040 homes, workplaces, schools, and other travel
 
 Yang and McAndrews
+
+
 destinations. The activity space construction for this
 study was based on these geocoded locations.
 
@@ -252,8 +280,14 @@ required detailed route trajectories were not pursued.
 The time-weighted SDE and CH measures generally
 result in an activity space larger than observed route-
 based activity spaces (42). Nevertheless, these larger
+
+
+
+
 Figure 1. Illustration of activity space measurements for an
 103
+
+
 areas capture places that an individual might not have
 interacted with but would potentially encounter when
 carrying out everyday activities.
@@ -279,9 +313,15 @@ features or too few vertices to create a valid geometry
 and were excluded from this step. Among these 9,579
 excluded cases, 7,819 contained only two points, which
 indicates that the person had only been at two places on
+
+
+
+
 individual’s travel survey day.
 
 104
+
+
 the travel day. The other 1,760 cases contained missing
 values for duration, which were time-weighted as zeros,
 resulting in missing vertices.
@@ -339,6 +379,8 @@ derived from the NHTS data set. The outcome
 variable—active travel behavior—is defined as the
 self-reported number of walking plus cycling trips for all
 Transportation Research Record 2674(4)
+
+
 purposes in the past 7 days for an individual, ranging
 from 0 to 149 with a mean of 6.0 and standard deviation
 of 8.7. These walk or bike trips include all purposes of
@@ -396,66 +438,99 @@ For each individual i,
 
 mi = expðbXi + ei Þ                  ð1Þ
 
-106                                                                                                         Transportation Research Record 2674(4)
+106                                                                                                          Transportation Research Record 2674(4)
+
+
 Table 2. Results for Negative Binomial Models for SDE and CH Measurements
-SDEs (N = 6,286)                                        CHs (N = 6,286)
-Standard        95% Confidence                         Standard           95% Confidence
-Variable                                          Estimate       error             interval             Estimate        error                  interval
-(Intercept)                                        1.5348       0.1259        1.2930        1.7828        1.6859       0.1273           1.4480         1.9306
-44–45 Retail trade                                 0.0001       0.0007     20.0014          0.0016     20.00004        0.0012         20.0023          0.0024
-81 Other personal services                         0.0008       0.0010     20.0012          0.0029     20.0010         0.0020         20.0051          0.0031
-23 Construction                                    0.0023       0.0014     20.0002          0.0048        0.0005       0.0033         20.0056          0.0065
-52 Finance and insurance                         20.0046        0.0013     20.0071        20.0020      20.0054         0.0020         20.0092       20.0015
-62 Health care and social assistance               0.0001       0.0008     20.0012          0.0017        0.0021       0.0013         20.0004          0.0049
-72 Accommodation and food services                 0.0008       0.0012     20.0015          0.0033     20.0007         0.0019         20.0043          0.0031
-54 Professional, scientific, and technical         0.0011       0.0011     20.0012          0.0037        0.0046       0.0017           0.0013        0.0081
-92 Public administration                           0.0021       0.0007        0.0006        0.0037        0.0025       0.0011           0.0003        0.0046
-53 Real estate                                     0.0028       0.0023     20.0018          0.0075        0.0097       0.0037           0.0022        0.0174
-31–33 Manufacturing                               20.0048       0.0028     20.0099          0.0006     20.0096         0.0055         20.0196          0.0006
-42 Wholesale trade                                 0.0019       0.0034     20.0042          0.0084     20.0048         0.0071         20.0180          0.0085
-56 Waste management                               20.0035       0.0029     20.0085          0.0020     20.0107         0.0054         20.0209       20.0005
-61 Educational services                            0.0116       0.0019        0.0075        0.0160        0.0076       0.0036           0.0007        0.0148
-48–49 Transportation                             20.0184        0.0057     20.0287        20.0078      20.0145         0.0100         20.0330          0.0042
+
+SDEs (N = 6,286)                                       CHs (N = 6,286)
+Standard        95% Confidence                         Standard        95% Confidence
+Variable                                          Estimate        error            interval              Estimate        error            interval
+
+(Intercept)                                        1.5348       0.1259        1.2930        1.7828        1.6859        0.1273       1.4480        1.9306
+44–45 Retail trade                                 0.0001       0.0007       20.0014        0.0016       20.00004       0.0012      20.0023        0.0024
+81 Other personal services                         0.0008       0.0010       20.0012        0.0029       20.0010        0.0020      20.0051        0.0031
+23 Construction                                    0.0023       0.0014       20.0002        0.0048        0.0005        0.0033      20.0056        0.0065
+52 Finance and insurance                          20.0046       0.0013       20.0071       20.0020       20.0054        0.0020      20.0092       20.0015
+62 Health care and social assistance               0.0001       0.0008       20.0012        0.0017        0.0021        0.0013      20.0004        0.0049
+72 Accommodation and food services                 0.0008       0.0012       20.0015        0.0033       20.0007        0.0019      20.0043        0.0031
+54 Professional, scientific, and technical         0.0011       0.0011       20.0012        0.0037        0.0046        0.0017       0.0013        0.0081
+92 Public administration                           0.0021       0.0007        0.0006        0.0037        0.0025        0.0011       0.0003        0.0046
+53 Real estate                                     0.0028       0.0023       20.0018        0.0075        0.0097        0.0037       0.0022        0.0174
+31–33 Manufacturing                               20.0048       0.0028       20.0099        0.0006       20.0096        0.0055      20.0196        0.0006
+42 Wholesale trade                                 0.0019       0.0034       20.0042        0.0084       20.0048        0.0071      20.0180        0.0085
+56 Waste management                               20.0035       0.0029       20.0085        0.0020       20.0107        0.0054      20.0209       20.0005
+61 Educational services                            0.0116       0.0019        0.0075        0.0160        0.0076        0.0036       0.0007        0.0148
+48–49 Transportation                              20.0184       0.0057       20.0287       20.0078       20.0145        0.0100      20.0330        0.0042
 and warehousing
-71 Arts, entertainment,                            0.0010       0.0023     20.0027          0.0058        0.0048       0.0066         20.0075          0.0181
+71 Arts, entertainment,                             0.0010      0.0023       20.0027         0.0058        0.0048       0.0066      20.0075          0.018
 and recreation
-51 Information                                   20.0092        0.0038     20.0172        20.0010      20.0023         0.0058         20.0145          0.0101
-11 Agriculture                                    20.0066       0.0132     20.0304          0.0229     20.0161         0.0281         20.0654          0.0355
-Age                                                0.0001       0.0008     20.0014          0.0016     20.0002         0.0008         20.0017          0.0013
-Sex (reference group: male)                      20.0940        0.0301     20.1532        20.0349      20.0869         0.0300         20.1461       20.0278
-Vigorous physical activity                         1.1538       0.0711        1.0118        1.2935        1.1533       0.0712           1.0118        1.2925
+51 Information                                    20.0092       0.0038       20.0172       20.0010       20.0023        0.0058      20.0145        0.0101
+11 Agriculture                                    20.0066       0.0132       20.0304        0.0229       20.0161        0.0281      20.0654        0.0355
+Age                                                0.0001       0.0008       20.0014        0.0016       20.0002        0.0008      20.0017        0.0013
+Sex (reference group: male)                       20.0940       0.0301       20.1532       20.0349       20.0869        0.0300      20.1461       20.0278
+Vigorous physical activity                         1.1538       0.0711        1.0118        1.2935        1.1533        0.0712       1.0118        1.2925
 (reference group:
 rare physical activity)
-Intersection density                              20.0006       0.0005     20.0015          0.0003     20.0012         0.0006         20.0024       20.0001
-Proximity to transit stops                        20.0319       0.0349     20.1013          0.0376     20.0466         0.0342         20.1141          0.0211
-Household income                                 20.5011        0.1044     20.7150        20.2950      20.5850         0.1048         20.7980       20.3799
+Intersection density                              20.0006       0.0005       20.0015        0.0003       20.0012        0.0006      20.0024       20.0001
+Proximity to transit stops                        20.0319       0.0349       20.1013        0.0376       20.0466        0.0342      20.1141        0.0211
+Household income                                  20.5011       0.1044       20.7150       20.2950       20.5850        0.1048      20.7980       20.3799
 35,000–50,000
 (reference group: \10,000)
-Household income                                 20.5874        0.1059     20.8034        20.3791      20.6742         0.1064         20.8892       20.4667
+Household income                                  20.5874       0.1059       20.8034       20.3791       20.6742        0.1064      20.8892       20.4667
 100,000–125,000
-Household income .200,000                        20.6181        0.1183 20.8564            20.3848      20.7089         0.1188 20.9463               20.4764
-Alpha                                                                  1.1993                                                  1.1983
-AIC                                                                    35,571                                                  35,566
-23log likelihood                                                      –35,501                                                 –35,496
+Household income .200,000                         20.6181       0.1183 20.8564             20.3848       20.7089        0.1188 20.9463            20.4764
+Alpha                                                                 1.1993                                                  1.1983
+AIC                                                                   35,571                                                  35,566
+23log likelihood                                                     –35,501                                                 –35,496
+
 Note: SDEs = standard deviational ellipses; CHs = convex hulls; AIC = Akaike information criterion. Bold font indicates statistical significance. NAICS
 prefaces the numbers in column 1. All household income categories are significant, only three categories are reported in this table.
-where                                                                           where yi is the count of walk plus bike trips within a
-the parameter mi = the expected number of walk plus                             week for each individual, and GðÞ is a gamma function.
-bike trips within a week,                                                       The Maximum Likelihood Estimation function of the
-b = a vector of estimable regression coefficients,                              model, L(), is
-Xi = a matrix of values of independent variables, and                                                                                a1               yi
-expðei Þ = the error term which follows a gamma distri-                                             Gðyi + a1 Þ               1                  ami
+
+
+where                                                                            where yi is the count of walk plus bike trips within a
+the parameter mi = the expected number of walk plus                              week for each individual, and GðÞ is a gamma function.
+bike trips within a week,                                                        The Maximum Likelihood Estimation function of the
+b = a vector of estimable regression coefficients,                               model, L(), is
+Xi = a matrix of values of independent variables, and                                                                  a1          yi
+expðei Þ = the error term which follows a gamma distri-                                          Gðyi + a1 Þ      1             ami
 Lðmi Þ = P i
-bution with mean 1 and variance a.                                                               Gða1 ÞGðyi + 1Þ 1 + ami                       1 + ami
-In a negative binomial model, a is referred to as the overdis-                                                                                             ð3Þ
+bution with mean 1 and variance a.                                                             Gða1 ÞGðyi + 1Þ 1 + ami        1 + ami
+In a negative binomial model, a is referred to as the overdis-
 persion parameter, which allows the variance to differ from
 the mean. The negative binomial distribution has the form
 Results
 PrðY = yi jmi , aÞ
-              a1            yi               Economic Exposures
-Gðyi + a1 Þ              1               ami             ð2Þ
+        a1          yi                              Economic Exposures
+Gðyi + a1 Þ      1             ami                          ð2Þ
 =                                                                          Table 2 presents the negative binomial model estimation
-Gða1 ÞGðyi + 1Þ 1 + ami                   1 + ami                     results. Variable inflation factor (VIF) was applied to
+Gða1 ÞGðyi + 1Þ 1 + ami        1 + ami                                  results. Variable inflation factor (VIF) was applied to
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
 
 
 
@@ -488,26 +563,7 @@ Gða1 ÞGðyi + 1Þ 1 + ami                   1 + ami                     results. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ð3Þ
 
 
 
@@ -518,6 +574,8 @@ Gða1 ÞGðyi + 1Þ 1 + ami                   1 + ami                     results. 
 
 
 Yang and McAndrews
+
+
 assess multicollinearity. VIFs are less than 2.4 and 2.7
 for all predictors in SDE and CH measurements, respec-
 tively. This suggests low multicollinearity for both activ-
@@ -573,6 +631,8 @@ tors constant. On average, increasing walking or bicy-
 cling trips in a week from six to seven times would
 require the expected density of finance and insurance
 107
+
+
 establishment change by lnð7=6Þ=lnð0:9946Þ =  28:50.
 Figure 2 visualizes the effects of all statistically signifi-
 cant exposures on active travel measured by both SDEs
@@ -629,7 +689,14 @@ mainly executive, legislative, and other general govern-
 ment support activities, which account for 58.2% of
 
 108
-Figure 2. Visualization of statistically significant effects
+
+
+
+
+Figure 2. Visualization of statistically significant effects.
+
+
+
 sites. Most finance and insurance establishments are
 depository credit intermediation establishments, that is,
 branch banks.
@@ -640,7 +707,14 @@ The statistical analysis indicates that active travel beha-
 vior for individuals is associated with a higher exposure
 to educational services and public administration and a
 Transportation Research Record 2674(4)
-.
+
+
+
+
+
+
+
+
 lower exposure to finance and insurance establishments.
 These establishment types may be closely related to
 walkability. Most educational services in the analysis are
@@ -651,90 +725,120 @@ been enhanced by programs such as the Safe Routes to
 School, which encourages children from kindergarten to
 eighth grade to walk and bike to school. The presence of
 
-Yang and McAndrews
-Figure 3. Densities of educational services, public administration, and finance and insurance.
-Table 3. Count of Educational Services, Public Administration, and Finance and Insurance by Four-Digit NAICS
+Yang and McAndrews                                                                                                                               10
 
-Four-digit NAICS                                                Description
+
+
+
+Figure 3. Densities of educational services, public administration, and finance and insurance.
+
+
+
+
+Table 3. Count of Educational Services, Public Administration, and Finance and Insurance by Four-Digit NAICS Codes
+
+Count (%)    Count (%)
+Four-digit NAICS                                             Description                                                  in SDEs      in CHs
+
 Sector 61: Educational services (NSDEs = 5,612, NCHs = 5,577)
-6111                 Elementary and secondary schools
-6112                 Junior colleges
-6113                 Colleges, universities, and professional schools
-6114                 Business schools and computer and management training
-6115                 Technical and trade schools
-6116                 Other schools and instruction
+6111               Elementary and secondary schools                                                                3,371 (60.1)    3,355 (60.2)
+6112               Junior colleges                                                                                 1 (0.0)         1 (0.0)
+6113               Colleges, universities, and professional schools                                                484 (8.6)       481 (8.6)
+6114               Business schools and computer and management training                                           77 (1.4)        75 (1.3)
+6115               Technical and trade schools                                                                     167 (3.0)       164 (2.9)
+6116               Other schools and instruction                                                                   1,262 (22.5)    1,253 (22.6)
 (e.g., fine arts schools, sports and recreation instruction, language schools,
 exam preparation and tutoring, automobile driving schools)
-6117                 Educational support services
+6117               Educational support services                                                                    250 (4.5)       248 (4.4)
 Sector 92: Public administration (NSDEs = 11,105, NCHs = 11,077)
-9211                 Executive, legislative, and other general government support
-9221                 Justice, public order, and safety activities
-9231                 Administration of human resource programs
-9241                 Administration of environmental quality programs
-9251                 Administration of housing programs, urban planning, and community development
-9261                 Administration of economic programs
-9271                 Space research and technology
-9281                 National security and international affairs
+9211               Executive, legislative, and other general government support                                    6,460 (58.2)    6,442 (58.2)
+9221               Justice, public order, and safety activities                                                    2,442 (22.0)    2,434 (22.0)
+9231               Administration of human resource programs                                                       619 (5.6)       621 (5.6)
+9241               Administration of environmental quality programs                                                383 (3.4)       373 (3.4)
+9251               Administration of housing programs, urban planning, and community development                   158 (1.4)       160 (1.4)
+9261               Administration of economic programs                                                             699 (6.3)       694 (6.3)
+9271               Space research and technology                                                                   0               0
+9281               National security and international affairs                                                     344 (3.1)       353 (3.2)
 Sector 52: Finance and insurance (NSDEs = 20,307, NCHs = 20,332)
-5211                 Monetary authorities—central bank
-5221                 Depository credit intermediation
-5222                 Nondepository credit intermediation
-5223                 Activities related to credit intermediation
-5231                 Securities and commodity contracts intermediation and brokerage
-5232                 Securities and commodity exchanges
-5239                 Other financial investment activities
-5241                 Insurance carriers
-5242                 Agencies, brokerages, and other insurance related activities
-5251                 Insurance and employee benefit funds
-5259                 Other investment pools and funds
-Note: SDEs = standard deviational ellipses; CHs = convex hulls; NAICS = North American Industry Classificatio
-safe and comfortable walking and bicycling routes                             campuses can be large employmen
-around schools could benefit schoolchildren, as well as                       dential campuses, they are the
-their communities more broadly. In Wisconsin, higher                          ing. These physical and social
-education may also play a role. University and college                        generate a higher frequency of
-109
+5211               Monetary authorities—central bank                                                               0 (0.0)         0 (0.0)
+5221               Depository credit intermediation                                                                11,305 (55.7)   11,339 (55.8)
+5222               Nondepository credit intermediation                                                             1,266 (6.2)     1,262 (6.2)
+5223               Activities related to credit intermediation                                                     102 (0.5)       103 (0.5)
+5231               Securities and commodity contracts intermediation and brokerage                                 255 (1.3)       251 (1.2)
+5232               Securities and commodity exchanges                                                              4 (0.0)         4 (0.0)
+5239               Other financial investment activities                                                           2,361 (11.6)    2,343 (11.5)
+5241               Insurance carriers                                                                              83 (0.4)        83 (0.4)
+5242               Agencies, brokerages, and other insurance related activities                                    4,865 (24.0)    4,882 (24.0)
+5251               Insurance and employee benefit funds                                                            54 (0.2)        53 (0.3)
+5259               Other investment pools and funds                                                                12 (0.1)        12 (0.1)
 
-Codes
-Count (%)     Count (%)
-in SDEs       in CHs
-
-3,371 (60.1)  3,355 (60.2)
-1 (0.0)       1 (0.0)
-484 (8.6)     481 (8.6)
-77 (1.4)      75 (1.3)
-167 (3.0)     164 (2.9)
-1,262 (22.5)  1,253 (22.6)
+Note: SDEs = standard deviational ellipses; CHs = convex hulls; NAICS = North American Industry Classification System.
 
 
-250 (4.5)     248 (4.4)
 
-6,460 (58.2)  6,442 (58.2)
-2,442 (22.0)  2,434 (22.0)
-619 (5.6)     621 (5.6)
-383 (3.4)     373 (3.4)
-158 (1.4)     160 (1.4)
-699 (6.3)     694 (6.3)
-0             0
-344 (3.1)     353 (3.2)
+safe and comfortable walking and bicycling routes                             campuses can be large employment centers, and for resi-
+around schools could benefit schoolchildren, as well as                       dential campuses, they are the location of student hous-
+their communities more broadly. In Wisconsin, higher                          ing. These physical and social environments may
+education may also play a role. University and college                        generate a higher frequency of walking and cycling.
+9
 
-0 (0.0)       0 (0.0)
-11,305 (55.7) 11,339 (55.8)
-1,266 (6.2)   1,262 (6.2)
-102 (0.5)     103 (0.5)
-255 (1.3)     251 (1.2)
-4 (0.0)       4 (0.0)
-2,361 (11.6)  2,343 (11.5)
-83 (0.4)      83 (0.4)
-4,865 (24.0)  4,882 (24.0)
-54 (0.2)      53 (0.3)
-12 (0.1)      12 (0.1)
-n System.
-t centers, and for resi-
-location of student hous-
-environments may
-walking and cycling.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 110
+
+
 Explanations for the other two significant factors
 agreed on by both activity space measurements are less
 intuitive than educational services. Establishments in the
@@ -790,6 +894,8 @@ offices solely for the purpose of promoting more walking
 or bicycling trips. Nevertheless, schools, government
 buildings, and other ‘‘anchor institutions’’ can influence
 Transportation Research Record 2674(4)
+
+
 larger populations, not just their users. The built envir-
 onments around these anchor institutions could be prior-
 itized when making decisions about investment in
@@ -846,6 +952,8 @@ active transportation at the population level.
 Communities may take advantage of educational services
 
 Yang and McAndrews
+
+
 to develop more pedestrian-oriented infrastructures or
 introduce more health-promoting programs to the sur-
 rounding communities.
@@ -908,6 +1016,8 @@ availability of these data, which were used under license for the
 study. Esri Business Analyst Desktop is available from https://
 desktop.arcgis.com/en/arcmap/10.3/guide-books/extensions/busi
 111
+
+
 ness-analyst/installing-esri-business-analyst-data.htm. Esri, Ó
 (2020). All rights reserved.
 The urban form data supporting the results reported in the

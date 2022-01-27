@@ -1,346 +1,424 @@
-                                                                     Journal of Transport & Health 3 (2016) 457–466
-                                                                  Contents lists available at ScienceDirect
-                                                         Journal of Transport & Health
-                                                        journal homepage: www.elsevier.com/locate/jth
-Traf<U+FB01>c stress and bicycling to elementary and junior high school:
-Evidence from Davis, California
-Dillon T. Fitch a,n, Calvin G. Thigpen a, Susan L. Handy b
-a
-  Institute of Transportation Studies, 1 Shields Avenue, University of California at Davis, Davis, CA 95616, USA
-b
-  Department of Environmental Science and Policy, 1 Shields Avenue, University of California at Davis, Davis, CA 95616, USA
-art ic l e i nf o                                         a b s t r a c t
-Article history:                                          The purpose of this study is to examine the in<U+FB02>uence of stress stemming from proximity to automobile
-Received 1 July 2015                                      traf<U+FB01>c on bicycling to elementary and junior high school. A growing body of evidence shows that stu-
-Received in revised form                                  dents who walk or bike to school have higher levels of overall physical activity. Turning around the
-4 January 2016
-                                                          decline in active travel to school in the U.S. could thus produce improvements in the health and well-
-Accepted 31 January 2016
-Available online 19 February 2016
-                                                          being of students. Despite considerable research on the in<U+FB02>uence of the urban environment on walking
-                                                          to school, a better understanding of the factors speci<U+FB01>c to bicycling to school is needed. We conducted a
-Keywords:                                                 study of bicycling to school in Davis, California using data from repeated observations of bike rack counts
-School travel                                             at 11 neighborhood schools. We adopt the bicycle level of traf<U+FB01>c stress (BLTS) methodology for estimating
-Bicycling
-                                                          traf<U+FB01>c stress from roadway characteristics as an inverse measure of bicycling comfort. We use Bayesian
-Traf<U+FB01>c stress
-                                                          binomial multi-level regression models to analyze the in<U+FB02>uence of traf<U+FB01>c stress and other covariates on
-Bicycling comfort
-Built environment                                         bike rack counts. Results suggest that changing the street environment to reduce traf<U+FB01>c stress (according
-Bayesian models                                           to BLTS categorization) along routes to school in concert with encouraging shorter travel distances to
-                                                          school will increase the number of students bicycling and thereby increase student health.
-                                                                                                                             & 2016 Elsevier Ltd. All rights reserved.
-1. Introduction
-     A growing body of evidence shows that students who walk or bike to school have higher levels of overall physical activity (Alexander et
-al., 2005; Cooper et al., 2005; Faulkner et al., 2009; Tudor-Locke et al., 2010). In turn, greater physical activity is associated with lower
-incidence of chronic disease and better physical and psychological wellbeing (Humphreys et al., 2013; Martin et al., 2014). This association
-is especially important considering the increasing prevalence of obesity-related diseases (e.g. type II diabetes, cardiovascular disease), and
-the tracking of health from childhood to adulthood (Biddle et al., 2004; Telama et al., 2014). Although the direct relationship between
-active travel to school and general measures of health is uncertain (Davison et al., 2008; Heelan et al., 2005; Lubans et al., 2011; Rosenberg
-et al., 2006; Tudor-Locke et al., 2010), it is reasonable to expect mostly positive effects. Indeed, at least one study has documented a
-relationship between bicycling to school and cardiorespiratory <U+FB01>tness (Cooper et al., 2006).
-     The Netherlands and Denmark stand out as the two countries with high bicycling to school rates, on the order of 45–60% (Jensen, 2008;
-Kemperman and Timmermans, 2014). In Scandinavia, active travel rates (combined walking and bicycling) are also high (45–68%)
-(Johansson et al., 2012). All of these countries have well established policies promoting bicycling to school which include education and
-road improvements. These programs are also set within the broader contexts of major national investments for bicycling and substantial
-national bicycling cultures (Jensen, 2008; Pucher and Dijkstra, 2003). Besides these success stories, active travel to school rates are par-
-ticularly low in many comparable Western countries. In Australia, active travel to school rates have declined from 37% in 1985 to 26% in
-2001 (Hume et al., 2009); in Canada, active travel rates are moderate (  30–44% from 1996–2001) (Pabayo et al., 2011); and in the US, the
-percentage of active travel to school declined from 41% in 1969 to 13% in 2009 (McDonald, 2007; McDonald et al., 2011). Considering
-bicycling is just a fraction of the overall active travel to school rates in these countries (McDonald et al., 2011; Salmon et al., 2005), the
-opportunity to improve student health by increasing the percentage of bicycling to school is substantial.
-   n
-     Corresponding author.
-     E-mail addresses: dt<U+FB01>tch@ucdavis.edu (D.T. Fitch), cgthigpen@ucdavis.edu (C.G. Thigpen), slhandy@ucdavis.edu (S.L. Handy).
-http://dx.doi.org/10.1016/j.jth.2016.01.007
-2214-1405/& 2016 Elsevier Ltd. All rights reserved.
+                                                                   Journal of Transport & Health 3 (2016) 457–466
 
-458                                                  D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
-     In the US, safe routes to school (SRTS) programs, <U+FB01>rst established in the 1990s, have been the primary mechanism for encouraging
-active travel to school. The bene<U+FB01>ts of SRTS could go far beyond improvements in student health, as improvements on schools’ routes
-contribute to an improved environment for active travel throughout the community (Watson and Dannenberg, 2008) and because
-increasing bicycling among children now has the potential to instill behaviors that will last into adulthood (Johansson, 2005). Despite the
-loss of dedicated federal funding for such programs with the passage of the current transportation bill (MAP-21), it is clear that the legacy
-of SRTS has continued, helped along by the continuation of a national SRTS partnership (Safe Routes to School National Partnership, 2005).
-As of Summer 2015, federal SRTS programs have channeled over $1 billion of funding toward active travel to school (National Center for
-Safe Routes to School, 2015), with the majority of the funding going toward physical improvements to the road environment (Cradock et
-al., 2012). However, the most common investment has been directed toward walking (i.e. sidewalk improvements) rather than bicycling
-(National Center for Safe Routes to School, 2011). Two circumstances may explain the limited attention to bicycling in SRTS programs: the
-very low share of bicycling in most US communities among children as well as adults, and a limited understanding on the part of
-transportation planners of the most effective strategies for encouraging bicycling to school.
-     The choice to bike to school has been conceptualized as a joint choice between the student and caregiver, with greater student
-in<U+FB02>uence on the joint choice with increasing student age (McMillan, 2005; Mitra, 2013). The Previous research shows that bicycling to
-school depends on access to bicycles, distance/time from home to school, parent work schedules, and weather (Emond and Handy, 2012;
-McMillan, 2007, 2005; Mitra, 2013; Schlossberg et al., 2006). Attitudes and perceptions about bicycling on the part of both students and
-parents are also important, and re<U+FB02>ecting this, widely reported barriers to bicycling to school are neighborhood and traf<U+FB01>c safety (Hume et
-al., 2009; McMillan, 2005). However, the in<U+FB02>uence of the street environment (e.g. cycle paths, bike lanes, traf<U+FB01>c speed, etc.) on bicycling to
-school is not well studied, and current evidence is inconsistent across cities and countries (Boarnet et al., 2005; Carver et al., 2014; Ewing
-et al., 2004; Jensen, 2008; McMillan, 2007; Panter et al., 2010). Research into the relationship between the street environment and the
-decision to bicycle to school using novel measures that more directly re<U+FB02>ect bicycling barriers could provide better guidance to planners
-on promoting bicycling to school as one part of a large portfolio of programs and policies promoting bicycling in general (Pucher et al.,
-2010).
-     This paper focuses on how traf<U+FB01>c safety, measured using a method of categorizing roadways and intersections based on their theo-
-retical “traf<U+FB01>c stress” on a bicyclist, in<U+FB02>uences bicycling to school. While there are numerous methods for classifying roadways based on
-suitability for bicycling (e.g. bicycle level of service (Landis et al., 1997), bicycle compatibility index (Harkey et al., 1998)), we used the
-bicycle level of traf<U+FB01>c stress (BLTS)1 method (Furth and Mekuria, 2013) because (a) it is relatively easy to apply over entire urban areas,
-(b) takes into account characteristics speci<U+FB01>cally focused on traf<U+FB01>c safety, and (c) uses descriptive language geared toward young bicyclists.
-In this paper we address two questions: (1) to what extent is there a relationship between traf<U+FB01>c stress on routes to school and bike rack
-counts at elementary and junior high schools? (2) how effective might road improvements that reduce traf<U+FB01>c stress be in increasing the
-number of students bicycling to school?
-2. Methods
-2.1. Setting and data collection
-     In this study we examine bicycling to elementary and junior high school in Davis, California, well known for having among the highest
-levels of bicycling in the US. We use data from repeated observations of bike rack counts at 11 neighborhood schools in Davis over the
-course of 2½ school years (2012–2015), with a range from 11 to 30 mornings counted for each school, resulting in a total of 214 morning
-observations (see Table 1). This method of estimating bike mode share to school is easy to implement and very cost effective, therefore it
-can be applied in any school setting that has observable bike parking. In order to preserve sample size, bike rack counts are our unit of
-analysis, but we often present aggregated results as bike mode share (calculated as bike rack count divided by enrollment). The key
-explanatory variables considered in this study are measures of distance and BLTS (i.e. the likely stress imposed on a bicyclist by automobile
-traf<U+FB01>c). This methodology assigns traf<U+FB01>c stress for each segment of a network (See Table 2 for a description of each class). For ease of
-discussion, we use the term “comfortable” to refer to low traf<U+FB01>c stress routes in discussing model results.
-     Through semi-automated and manual construction of a Geographic Information System (GIS) network, each link in the network was
-classi<U+FB01>ed by traf<U+FB01>c stress from level 1 (low stress) to level 4 (high stress) based on street width, presence of bicycle lanes, bicycle lane
-barriers, presence of parking lanes, speed limit, and intersection con<U+FB01>gurations. This network was subdivided into four sub-networks:
-BLTS 1 (all links classi<U+FB01>ed as stress level 1), BLTS 2 (all links classi<U+FB01>ed as level 1 or 2 with none at 3 or 4), BLTS 3 (all links classi<U+FB01>ed as level
-1, 2, or 3 with none at 4), and BLTS 4 (all links (i.e. the entire network)). We obtained anonymous student home locations during February
-2013 from the City of Davis, and used these as the distribution of home locations for each school for all study years. We then calculated the
-shortest path from each home location to that student’s school on each of the sub-networks, and then summarized those individual
-distances to school by school using two approaches: (1) <U+FB01>nding the percentage of students with access to school on each BLTS sub-
-network regardless of distance, and 2. determining the percentage of students with access to school on each BLTS sub-network within ¼
-mile distance bins. After visual inspection of this data (presented in Section 3.1), we generated six comfort variables for use in the statistical
-models:
-1.  %  of students  with   access   on   BLTS  1
-2.  %  of students  with   access   on   BLTS  2
-3.  %  of students  with   access   on   BLTS  1 within 1 mile for elementary schools
-4.  %  of students  with   access   on   BLTS  2 within 2.5 miles for junior high schools
-5.  %  of students  with   access   on   BLTS  2 within 1 mile for elementary schools
-     1
-       We add the “B” to the original LTS acronym to be clear that this method only describes the theoretical traf<U+FB01>c stress on bicyclists.
 
-                                                          D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466                                                   459
-Table 1
-Summary statistics for Davis schools.
-  School                       # Days    Bike rack count         Mean # enrolled                Mean distance           Comfort variables (percentages of students)
-                                                                 students                       (miles)
-                                                                                                                        1        2         3         4          5        6
-                                         Mean        S.D.                                                               BLTS access
-                                                                                                                        1        2         1         2          2        3
-                                                                                                                        Distance band (miles)
-                                                                                                                        –        –         1         2.5        1        2.5
-  Emerson/DaVinci Jr High         12        194         65                     731                        1.9             33%       86%       –        57%         –       67%
-  Harper Jr High                  18        205         63                     653                        1.7             39%       71%       –        58%         –       61%
-  Holmes Jr High                  12        320        106                     723                        1.8             44%       90%       –        65%         –       74%
-  Birch Lane                      21        163         40                     606                        1.0             67%       88%      44%         –        45%        –
-  Cesar Chavez                    22         97         47                     629                        2.2             17%       90%      11%         –        13%        –
-  Korematsu                       22        119         46                     527                        0.7             83%       91%      72%         –        81%        –
-  Montgomery                      30         49         18                     420                        1.2             56%       80%      25%         –        40%        –
-  North Davis                     25        147         55                     587                        1.2             46%       89%      26%         –        38%        –
-  Patwin                          23         93         53                     413                        1.0             37%       94%      36%         –        66%        –
-  Pioneer                         11         62         40                     521                        1.4             22%       25%      22%         –        25%        –
-  Willett                         18        117         45                     525                        1.3             45%       82%      39%         –        45%        –
-Table 2
-Bicycling level of traf<U+FB01>c stress description.
-  Class    Description
-  BLTS 1 Presenting little traf<U+FB01>c stress and demanding little attention from cyclists, and attractive for a relaxing bike ride. Suitable for almost all cyclists, including
-           children trained to safely cross intersections. On road sections, cyclists are either physically separated from traf<U+FB01>c or are in an exclusive bicycling zone next to a
-           slow traf<U+FB01>c stream with no more than one lane per direction, or are in mixed traf<U+FB01>c with a low speed differential and demanding only occasional interaction with
-           motor vehicles. Next to a parking lane, cyclists have ample operating space outside the zone into which car doors are opened. Intersections are easy to approach
-           and cross.
-  BLTS 2 Presenting little traf<U+FB01>c stress but demanding more attention than might be expected from children. On road sections, cyclists are either physically separated
-           from traf<U+FB01>c or are in an exclusive bicycling zone next to a well-con<U+FB01>ned traf<U+FB01>c stream with adequate clearance from a parking lane, or are on a shared road
-           where they interact with only occasional motor vehicles with a low speed differential. Where a bike lane lies between a through lane and a right-turn lane, it is
-           con<U+FB01>gured to give cyclists unambiguous priority where cars cross the bike lane and to keep car speed in the right-turn lane comparable to bicycling speeds.
-           Crossings are not dif<U+FB01>cult for most adults.
-  BLTS 3 Offering cyclists a mostly exclusive cycling zone (e.g., bike lane) requiring little negotiation with motor traf<U+FB01>c, but in close proximity to moderately high speed
-           traf<U+FB01>c; or mixed traf<U+FB01>c requiring regular negotiation with traf<U+FB01>c with a low speed differential. Crossings may be stressful, but are still considered acceptably safe
-           to most adult pedestrians.
-  BLTS 4 Requiring riding in close proximity to high speed traf<U+FB01>c, or regularly negotiating with moderately high speed traf<U+FB01>c, or making dangerous crossings.
-Furth and Mekuria (2013).
-6. % of students with access on BLTS 3 within 2.5 miles for junior high schools
-    Although we use aggregate data that may not accurately describe individual decision processes (known as the “ecological fallacy”
-(Freedman, 2001)), our repeated measures approach helps to ensure that our conclusions about aggregate bicycling are robust. In addition,
-planners and policy makers often have only aggregate data to make decisions; therefore, this method is valuable for its practicality.
-Another limitation to our approach is that the BLTS methodology has yet to be “validated” across individuals (e.g. related to human
-perceptions or other measures of stress) or across geographies. We see this as an important topic for future research, but argue that
-bicyclist facility preferences generally align with the descriptions for each BLTS class (Tilahun et al., 2007). Finally, a number of socio-
-demographic and travel behavior variables (e.g. parent education, caregiver work schedules) that may be important determinants of
-bicycling to school were unavailable. Future applications of our method would bene<U+FB01>t from incorporating some of these factors when the
-data is available.
-2.2. Model development and analysis
-    We conducted a Bayesian analysis using multilevel binomial regression models to examine the relationship between bike rack counts
-at each school (observed on multiple occasions) and comfort variables. The models are estimated with a varying intercept speci<U+FB01>ed for
-each school; this pools the variance from each school to improve prediction and explanation. The models are aggregate in that the
-dependent variable is the count of bikes at each school on each observation date. In our models, each bike counted is considered a unique
-Bernoulli trial (i.e. each student either bikes or does not bike to school). For example, if a school has 500 enrolled students, then for each
-observation we estimate 500 Bernoulli trials, each with a possible outcome of 1 or 0, and then sum these results to get an estimated count
-of bikes at that school on that observation (see Fitch et al. (in press) for a detailed description of the model structure). Through the R
-statistical packages rethinking and rstan as an interface for the probabilistic statistical programming language Stan, we used the No-U-Turn
-(NUTS) sampler, a form of Hamiltonian Markov chain Monte Carlo (MCMC) (McElreath, 2015; Stan Development Team, 2015a, 2015b). We
-used the widely applicable information criteria (WAIC) (Watanabe, 2010) for comparing out-of-sample prediction of our models (Gelman
-et al., 2013b; Vehtari and Gelman, 2014), and we made inferences about variable effects (and uncertainty) directly from parameter
-posterior distributions as opposed to a classical hypothesis tests of the null (e.g. p-values) (Gelman et al., 2013a, p. 95).
 
-460                                                D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
-    Initial speci<U+FB01>cation of the model of bike rack counts2 included covariates, justi<U+FB01>ed based on past literature and local anecdotal
-observations: day of week, season, Bike to School Day, rain, temperature, race, gender, and share of students qualifying for free or reduced
-cost lunches (results not shown). We then compared four model speci<U+FB01>cations to examine the relationship between BLTS measures and
-rates of bicycling to school. Model A includes mean distance and no comfort variables to provide a baseline against which to assess how
-much the comfort variables in other models add to the prediction of bike rack counts. Model B maintains the mean distance variable and
-adds comfort variables 1 and 2. This model corresponds to our hypothesis that in Davis, where distances to school are generally short, the
-effect of distance and comfortable access may be independent, meaning a greater percentage of students with comfortable access will lead
-to greater biking regardless of distance. Model C drops mean distance and adds comfort variables 3 and 4, which combine comfortable
-access with distance. This model follows the hypothesis that distance moderates the effect of comfortable access, and that comfortable
-access is best described by BLTS 1 and 2 for elementary and junior high students, respectively, based on the assumption that junior high
-students have a greater tolerance for traf<U+FB01>c stress than elementary students. Model D is similar to Model C except that it uses comfort
-variables 5 and 6 in place of 3 and 4. This model follows the same hypothesis of Model C except that it assumes that comfortable access is
-better described by allowing slightly more traf<U+FB01>c stress: BLTS 2 and 3 for elementary and junior high students, respectively (see Table 3 for
-model speci<U+FB01>cation details). In accordance with the Bayesian analysis framework, we speci<U+FB01>ed prior probabilities for all unknown model
-parameters. We speci<U+FB01>ed weakly informative (or regularizing) priors to guard against over<U+FB01>tting (McElreath, 2015).
-3. Results
-3.1. Descriptive results
-    Bicycle rack counts in Davis show that junior high schools have a higher number of students bicycling to school than do elementary
-schools (Table 2). The median proportion of students bicycling to school in Davis ranges from 11% at Pioneer elementary to 47% at Holmes
-Junior High (Fig. 1), all of which are considerably greater than the U.S. average of around 1% (McDonald et al., 2011). Intra-school variability
-is consistently high, especially at elementary schools where bike rack counts have standard deviations of 18 to 55 students. Similarly, inter-
-school variability is large with some schools having twice the bike mode share of others. Distances to school are larger for junior high
-schools (Table 2, Fig. 1) with the exception of Cesar Chavez Elementary (a magnet elementary school that draws students from throughout
-the city).
-    The relationship between student distances to school by BLTS networks and aggregate bike mode shares are presented in Fig. 1 as
-distance histograms. Schools with more students located nearby tend to have higher bike mode shares, but not always. Schools with more
-students living near the school with BLTS1 and BLTS2 access also tend to have greater bike mode shares. The notable exception is Kor-
-ematsu Elementary, where nearly every student has access to school via BLTS 1 or 2 with less than 1.5 miles of riding each way, and yet
-two other elementary schools have consistently greater bike mode shares. Pioneer and Chavez elementary schools are also outliers in that
-Pioneer has a fairly small share of students with comfortable access nearby, and no students with comfortable access beyond approxi-
-mately 1 mile, and Chavez has a nearly uniform distribution of student distances to school from 0 to 5 miles. Looking for a distance
-threshold to test variables that combine distance with comfortable access, we used this visualization to decide on 1 and 2.5 miles for
-elementary and junior high schools, respectively, as cutoffs because they showed good variation between schools and are reasonable
-bicycling distances for students at those grade levels.
-3.2. Model results
-    All model parameters have Gaussian-like posterior densities (besides st. dev. school which is constrained to be positive), and thus we
-summarize the parameters by their mean and standard deviation (Table 3). All models show consistent effects of the covariates pertaining
-to type of day and characteristics of the school demographics. Conditional on the model speci<U+FB01>cations, schools with a high Hispanic
-percentage have more bicycling, while those with a high Black percentage have less bicycling. The effect of percentage male students was
-positive but extremely uncertain, while the percentage of students with access to free or reduced lunches (indicator of low household
-income) was con<U+FB01>dently negative. Low temperatures and presence of rain both have an expected negative effect. The effect of Fridays, on
-which travel may be less habitual due to weekend plans, was also negative on bicycling rates. All of these covariates are stable across all
-four models.
-    In Model A, conditional on all the covariate effects, mean distance has a mean parameter estimate that is small (near 0) with a large
-standard deviation indicating the posterior distribution spans almost equally over the positive and negative range. This indicates that we
-cannot make con<U+FB01>dent conclusions about the effect of distance on bicycling to school. Similarly, Model B shows that the effect of mean
-distance is inconclusive with a slightly more positive but also wider posterior distribution. Model B also suggests that, conditional on the
-covariates, students with access on BLTS levels 1 and 2 may be more likely to bicycle, however a great portion of the posterior distribution
-spans the positive and negative range making these effects inconclusive.
-    Models C and D consider the effect of comfort within distance thresholds. Model C shows that, conditional on all the covariates, percent
-of BLTS 1 access to elementary schools within 1 mile (comfort 3) has a positive in<U+FB02>uence on bicycling, although the magnitude of the
-positive effect still has considerable uncertainty. Similarly, this model shows the same result for percent of BLTS 2 access to junior high
-schools within 2.5 miles (comfort 4), with a somewhat stronger effect. Model D exhibits the same general effects of comfort 5 and 6 for
-elementary and junior high schools, with slightly dampened effects and smaller parameter standard deviations.
-    The models are effectively equivalent in their expected out-of-sample prediction of bike rack counts, as indicated by their effectively
-equivalent WAIC values in Table 3. This is also observed through the relatively equal Akaike weight given to each model (Table 3). Because
-    2
-      "A model’s weight is an estimate of the probability that the model will make the best predictions on new data, conditional on the set of models considered”
-(McElreath, 2015).
+                                                                Contents lists available at ScienceDirect
 
-                                             D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466                           463
-of this, we employed an ensemble technique to average the predictions of all four models using the Akaike weights to conservatively
-evaluate predictions given model uncertainty (McElreath, 2015). Results indicate that the ensemble model predictions of daily bike rack
-counts have considerable uncertainty (not shown), but predictions of median bike rack counts are accurate (as indicated by the overlap in
-the prediction con<U+FB01>dence interval and the observed median in Fig. 2).
-4. Discussion
-    These results demonstrate that the relationship between comfort variables and bike rack counts is positive but uncertain. Results in
-Fig. 1 shows a general correlation between schools with a high share of students having comfortable access and schools with high
-bicycling mode shares (evident from the taller BLTS 1 and 2 bars at shorter distances to school for schools with greater bike mode share).
-However, inter-school variation somewhat obscures this correlation which is why we focus our discussion on our multivariate analysis. In
-our multivariate analysis, our statistical models have equivalent WAIC values suggesting that each model has equivalent predictive power.
-Although we expected WAIC to improve when adding comfort variables, it does not hinder our inferences that comfort variables help
-explain bicycling. We suspect the equivalent WAICs are related to the large measurement error which is added to the comfort variables
-when we aggregate from individuals to schools. We also suspect that there exists an important omitted variable (or variables) because
-after examining daily model residuals (not shown), all of the models have a particularly dif<U+FB01>cult time predicting bicycling on Wednesdays.
-This is likely because elementary schools have shortened school days and junior highs have late starts on Wednesdays. Because of this,
-even though we have a dummy variable for Wednesdays, we argue that we are likely missing a covariate related to <U+FB02>exibility of caregiver
-work schedules. For example, if a caregiver normally accompanies their child to school by bicycling with them, but does not have the time
-given the shortened school day, they might instead resort to driving their child to school. This is a dif<U+FB01>cult variable to estimate in the
-aggregate, and so we let our results stand with this caveat.
-    Model results show that distance and comfortable access, independent of each other, are less associated with bicycling than when
-combined (see comfort variable parameter estimates for Models B, C, and D in Table 3). In addition, BLTS 2 and 3 access (comfort 5 and
-6) were nearly as in<U+FB02>uential as BLTS 1 and 2 access (comfort 3 and 4) which suggests that in Davis, parents and students may be
-accepting of a moderate level of traf<U+FB01>c stress. In this light, these results indicate, at least for Davis, that improving roads from BLTS
-2 to 1 for elementary access and BLTS 3 to 2 for junior high access might have limited effects on bicycling levels. However, care must
-be taken in other communities before making this determination because it is expected that comfortable bicycling environments and
-social cultures of bicycling are reciprocally causal. In Davis, the bicycling culture may increase the perception (and perhaps reality, i.e.
-safety in numbers (Jacobsen, 2003)) that bicycling is safe and comfortable even if each roadway is not completely free of traf<U+FB01>c stress
-(Handy, 2011).
-    A surprising result was the inconclusive evidence for the in<U+FB02>uence of distance, in contrast to other studies of active travel to school
-in the U.S. that have shown distance to be in<U+FB02>uential (Emond and Handy, 2012; Ewing et al., 2004; McDonald, 2008). However,
-considering that the schools in Davis have much shorter network distances to school compared to the national average (mean of
-1.4 miles compared to 4.4 miles nationally (McDonald et al., 2011)), it may be that distance to schools in Davis is less of a constraint
-compared to other cities. Alternatively, it may be that mean distance is too coarse of a metric in Davis, but that when comfort and
-proximity are combined (e.g. Models C and D), distance does matter. In environments where distance to school is short on average ( 
-1 mile in Perth, Western Australia), a small negative effect (odds ratio E 0.8) of distance (km) on biking to school has been reported
-(Trapp et al., 2011). In the aggregate our results are too uncertain to make this claim, but we might expect a similar mean effect in
-Davis had we data on individual mode choice; indeed the effect of distance on mode choice for high school students in Davis is
-similar: Emond and Handy (2012) report a mean coef<U+FB01>cient of  0.242 (distance in miles) which is equivalent to an odds ratio E 0.85
-for distance (km).3
-    To address our second major research question of how effective road improvements aimed at decreasing traf<U+FB01>c stress along routes to
-schools would be at increasing bicycling to school, we generated counterfactual plots for Model C which demonstrate the expected
-bicycling mode share (e.g. bike rack counts/enrollment) given three scenarios of comfort variables 3 and 4: (1) 0% of students have access
-to school on BLTS 1 and 2 for elementary and junior high, respectively, (2) 50% of students have access to school on BLTS 1 and 2 for
-elementary and junior high, respectively, and (3) 100% of students have access to school on BLTS 1 and 2 for elementary and junior high,
-respectively (Fig. 3). We chose Model C because it is slightly more conservative in the estimated effect of traf<U+FB01>c stress compared to Model D.
-Importantly, a policy based on the guidance of Model C would both focus road improvement projects on short routes schools and
-encourage shorter travel distances to school (e.g. through incentives to attend neighborhood schools). Fig. 3 shows the expected rates of
-bicycling to school with varying BLTS 1 and 2 access within the distance thresholds. Model C clearly shows a consistent increase in mean
-bicycling rate with an increased share of students having comfortable access within the distance thresholds. This is especially true for the
-three schools with the lowest bicycling mode shares (Chavez, Montgomery, and Pioneer), suggesting that focusing policies on schools with
-the lowest bicycling rates may have a slightly larger impact than on schools with moderate bicycling rates, although the uncertainty
-around these estimates is large.
-    We offer three possible methodological explanations as to why the in<U+FB02>uence of comfortable access and distance on bicycling rates
-is uncertain. First, we only considered a sample of origins from one school year as representing the origins for all three years of data
-(because of limited data availability). It may be that the variability in origins due to student matriculation over time is the cause for
-the uncertainty in the effects of comfortable access and distance. Second, aggregating individual route information at the school level
-removed all the intra-school variability from the analysis; this intra-school variability may be very important in estimating the effects
-of comfort and distance on aggregated bike rack counts. Third, it is possible that the BLTS classi<U+FB01>cation is not an appropriate measure
-of traf<U+FB01>c stress for young students. Although Fig. 3 exhibits considerable uncertainty in the effect of comfortable access, it is
-important to note that when 0% of students have comfortable access, bike mode shares are considerably lower than they currently are
-    3
-      eð  0:262=1mile0:62 miles=1 kmÞ
 
-464                                                     D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
-Fig. 3. Model C counterfactual plot of 0, 50, and 100% BLTS 1 access within 1 mile of elementary schools (comfort 3), and BLTS 2 access within 2.5 miles of junior high schools
-(comfort 4) (from left to right bars). Dots and bars represent the median bike mode share prediction and 95% con<U+FB01>dence intervals for each of the three BLTS percentages
-while holding constant other covariates. These results represent the expected bike mode share on an average Wednesday in the spring season, with average temperature, no
-rain, and for a year where the racial makeup of each school is average.
-in Davis. This suggests that if students did not have comfortable bicycling access within short distances from their school, bike mode
-shares at all schools would drop. Conversely, it also suggests that even when 0% of students have comfortable access, bike mode
-shares would still stay moderately high (10-15%) suggesting a good portion of students are willing to bike (and their parents are
-willing to let them bike) with added traf<U+FB01>c stress.
-     Future analysis should explore alternative roadway characteristics (other than those in BLTS) that might contribute to a classi<U+FB01>cation
-that has more certain effects on bicycling to school. In particular there is a need to better understand acute stress when bicycling in traf<U+FB01>c
-through surveys, ride along and standard interviews, and possibly psychophysiological measurements. There is also a need to look across
-geographical contexts to explore if and how people adapt to traf<U+FB01>c stress. Because Davis is a unique bicycling environment in the U.S., one
-might argue that our results would not generalize to other environments. We agree that it would be a mistake to expect effects such as
-those from the counterfactual plot (Fig. 3) to directly transfer to other cities, but our method of estimating traf<U+FB01>c stress impacts on bike
-mode share is possible anywhere where bikes can be counted. Although the magnitude of the effects may differ, it is reasonable to expect
-positive effects in most environments. The effects from these types of comfort variables might even be greater in environments that have
-more traf<U+FB01>c stress surrounding schools. Although we focus on evaluating BLTS road metrics for bicycling to school to aid infrastructure
-planning, numerous other programs and policies are likely needed in most communities to increase bicycling to school. Programs such as
-bicycling education and training, social events, and marketing, and policies such as reduced vehicle speed limits, installing guarded bike
-parking, and strict traf<U+FB01>c enforcement have been used around the world (Pucher et al., 2010). In addition, while we use BLTS to aid our
-understanding of bicycling to school, it has the potential to be used for broader purposes; indeed the method was <U+FB01>rst used to evaluate the
-entire citywide connectivity of the bicycling network (i.e. low stress bicycling for all residents) in San Jose, California using aggregate
-origin–destination pairs (Furth and Mekuria, 2013).
-5. Conclusions
-     While traf<U+FB01>c stress is just one of many factors in<U+FB02>uencing bicycling to school, it is likely one of the primary ways in which the
-urban environment in<U+FB02>uences bicycling to school. We <U+FB01>nd evidence from Davis, CA that schools that have a greater number of
-students with access to school by way of relatively comfortable routes (according to BLTS) and within short distances have greater
-bike mode shares, conditional on environmental and socio-demographic covariates. Because bicycling to school varies considerably
-between and within cities, bike rack counts must be observed locally and the model re-estimated for the local setting before
-intervention effects can be reasonably estimated. Nonetheless, the results suggest that changing the street environment to reduce
-BLTS classi<U+FB01>cation along routes to school and encouraging shorter travel distances to school will increase the number of students
-bicycling.
-Acknowledgments
-     This research was supported by fellowships from the UC Davis College of Engineering TOPS (Towards Outstanding post-Graduate
-Students) and the University of California Transportation Center (UCTC). A special thanks to Gil Tal for providing us with GIS data that was
-helpful in implementing the BLTS network classi<U+FB01>cation, and to the parents who volunteered their time to collect the bike rack count data,
-without which this research would not have been possible.
+                                                         Journal of Transport & Health
+                                                       journal homepage: www.elsevier.com/locate/jth
+
+
+
+
+Traf<U+FB01>c stress and bicycling to elementary and junior high school:
+Evidence from Davis, California
+Dillon T. Fitch a,n, Calvin G. Thigpen a, Susan L. Handy b
+a
+    Institute of Transportation Studies, 1 Shields Avenue, University of California at Davis, Davis, CA 95616, USA
+b
+    Department of Environmental Science and Policy, 1 Shields Avenue, University of California at Davis, Davis, CA 95616, USA
+
+
+
+
+art ic l e i nf o                                        a b s t r a c t
+
+Article history:                                         The purpose of this study is to examine the in<U+FB02>uence of stress stemming from proximity to automobile
+Received 1 July 2015                                     traf<U+FB01>c on bicycling to elementary and junior high school. A growing body of evidence shows that stu-
+Received in revised form                                 dents who walk or bike to school have higher levels of overall physical activity. Turning around the
+4 January 2016
+                                                         decline in active travel to school in the U.S. could thus produce improvements in the health and well-
+Accepted 31 January 2016
+Available online 19 February 2016
+                                                         being of students. Despite considerable research on the in<U+FB02>uence of the urban environment on walking
+                                                         to school, a better understanding of the factors speci<U+FB01>c to bicycling to school is needed. We conducted a
+Keywords:                                                study of bicycling to school in Davis, California using data from repeated observations of bike rack counts
+School travel                                            at 11 neighborhood schools. We adopt the bicycle level of traf<U+FB01>c stress (BLTS) methodology for estimating
+Bicycling
+                                                         traf<U+FB01>c stress from roadway characteristics as an inverse measure of bicycling comfort. We use Bayesian
+Traf<U+FB01>c stress
+                                                         binomial multi-level regression models to analyze the in<U+FB02>uence of traf<U+FB01>c stress and other covariates on
+Bicycling comfort
+Built environment                                        bike rack counts. Results suggest that changing the street environment to reduce traf<U+FB01>c stress (according
+Bayesian models                                          to BLTS categorization) along routes to school in concert with encouraging shorter travel distances to
+                                                         school will increase the number of students bicycling and thereby increase student health.
+                                                                                                                            & 2016 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction
+
+     A growing body of evidence shows that students who walk or bike to school have higher levels of overall physical activity (Alexander et
+al., 2005; Cooper et al., 2005; Faulkner et al., 2009; Tudor-Locke et al., 2010). In turn, greater physical activity is associated with lower
+incidence of chronic disease and better physical and psychological wellbeing (Humphreys et al., 2013; Martin et al., 2014). This association
+is especially important considering the increasing prevalence of obesity-related diseases (e.g. type II diabetes, cardiovascular disease), and
+the tracking of health from childhood to adulthood (Biddle et al., 2004; Telama et al., 2014). Although the direct relationship between
+active travel to school and general measures of health is uncertain (Davison et al., 2008; Heelan et al., 2005; Lubans et al., 2011; Rosenberg
+et al., 2006; Tudor-Locke et al., 2010), it is reasonable to expect mostly positive effects. Indeed, at least one study has documented a
+relationship between bicycling to school and cardiorespiratory <U+FB01>tness (Cooper et al., 2006).
+     The Netherlands and Denmark stand out as the two countries with high bicycling to school rates, on the order of 45–60% (Jensen, 2008;
+Kemperman and Timmermans, 2014). In Scandinavia, active travel rates (combined walking and bicycling) are also high (45–68%)
+(Johansson et al., 2012). All of these countries have well established policies promoting bicycling to school which include education and
+road improvements. These programs are also set within the broader contexts of major national investments for bicycling and substantial
+national bicycling cultures (Jensen, 2008; Pucher and Dijkstra, 2003). Besides these success stories, active travel to school rates are par-
+ticularly low in many comparable Western countries. In Australia, active travel to school rates have declined from 37% in 1985 to 26% in
+2001 (Hume et al., 2009); in Canada, active travel rates are moderate (  30–44% from 1996–2001) (Pabayo et al., 2011); and in the US, the
+percentage of active travel to school declined from 41% in 1969 to 13% in 2009 (McDonald, 2007; McDonald et al., 2011). Considering
+bicycling is just a fraction of the overall active travel to school rates in these countries (McDonald et al., 2011; Salmon et al., 2005), the
+opportunity to improve student health by increasing the percentage of bicycling to school is substantial.
+
+    n
+        Corresponding author.
+        E-mail addresses: dt<U+FB01>tch@ucdavis.edu (D.T. Fitch), cgthigpen@ucdavis.edu (C.G. Thigpen), slhandy@ucdavis.edu (S.L. Handy).
+
+http://dx.doi.org/10.1016/j.jth.2016.01.007
+2214-1405/& 2016 Elsevier Ltd. All rights reserved.
+
+458                                                        D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
+
+
+     In the US, safe routes to school (SRTS) programs, <U+FB01>rst established in the 1990s, have been the primary mechanism for encouraging
+active travel to school. The bene<U+FB01>ts of SRTS could go far beyond improvements in student health, as improvements on schools’ routes
+contribute to an improved environment for active travel throughout the community (Watson and Dannenberg, 2008) and because
+increasing bicycling among children now has the potential to instill behaviors that will last into adulthood (Johansson, 2005). Despite the
+loss of dedicated federal funding for such programs with the passage of the current transportation bill (MAP-21), it is clear that the legacy
+of SRTS has continued, helped along by the continuation of a national SRTS partnership (Safe Routes to School National Partnership, 2005).
+As of Summer 2015, federal SRTS programs have channeled over $1 billion of funding toward active travel to school (National Center for
+Safe Routes to School, 2015), with the majority of the funding going toward physical improvements to the road environment (Cradock et
+al., 2012). However, the most common investment has been directed toward walking (i.e. sidewalk improvements) rather than bicycling
+(National Center for Safe Routes to School, 2011). Two circumstances may explain the limited attention to bicycling in SRTS programs: the
+very low share of bicycling in most US communities among children as well as adults, and a limited understanding on the part of
+transportation planners of the most effective strategies for encouraging bicycling to school.
+     The choice to bike to school has been conceptualized as a joint choice between the student and caregiver, with greater student
+in<U+FB02>uence on the joint choice with increasing student age (McMillan, 2005; Mitra, 2013). The Previous research shows that bicycling to
+school depends on access to bicycles, distance/time from home to school, parent work schedules, and weather (Emond and Handy, 2012;
+McMillan, 2007, 2005; Mitra, 2013; Schlossberg et al., 2006). Attitudes and perceptions about bicycling on the part of both students and
+parents are also important, and re<U+FB02>ecting this, widely reported barriers to bicycling to school are neighborhood and traf<U+FB01>c safety (Hume et
+al., 2009; McMillan, 2005). However, the in<U+FB02>uence of the street environment (e.g. cycle paths, bike lanes, traf<U+FB01>c speed, etc.) on bicycling to
+school is not well studied, and current evidence is inconsistent across cities and countries (Boarnet et al., 2005; Carver et al., 2014; Ewing
+et al., 2004; Jensen, 2008; McMillan, 2007; Panter et al., 2010). Research into the relationship between the street environment and the
+decision to bicycle to school using novel measures that more directly re<U+FB02>ect bicycling barriers could provide better guidance to planners
+on promoting bicycling to school as one part of a large portfolio of programs and policies promoting bicycling in general (Pucher et al.,
+2010).
+     This paper focuses on how traf<U+FB01>c safety, measured using a method of categorizing roadways and intersections based on their theo-
+retical “traf<U+FB01>c stress” on a bicyclist, in<U+FB02>uences bicycling to school. While there are numerous methods for classifying roadways based on
+suitability for bicycling (e.g. bicycle level of service (Landis et al., 1997), bicycle compatibility index (Harkey et al., 1998)), we used the
+bicycle level of traf<U+FB01>c stress (BLTS)1 method (Furth and Mekuria, 2013) because (a) it is relatively easy to apply over entire urban areas,
+(b) takes into account characteristics speci<U+FB01>cally focused on traf<U+FB01>c safety, and (c) uses descriptive language geared toward young bicyclists.
+In this paper we address two questions: (1) to what extent is there a relationship between traf<U+FB01>c stress on routes to school and bike rack
+counts at elementary and junior high schools? (2) how effective might road improvements that reduce traf<U+FB01>c stress be in increasing the
+number of students bicycling to school?
+
+
+
+2. Methods
+
+2.1. Setting and data collection
+
+    In this study we examine bicycling to elementary and junior high school in Davis, California, well known for having among the highest
+levels of bicycling in the US. We use data from repeated observations of bike rack counts at 11 neighborhood schools in Davis over the
+course of 2½ school years (2012–2015), with a range from 11 to 30 mornings counted for each school, resulting in a total of 214 morning
+observations (see Table 1). This method of estimating bike mode share to school is easy to implement and very cost effective, therefore it
+can be applied in any school setting that has observable bike parking. In order to preserve sample size, bike rack counts are our unit of
+analysis, but we often present aggregated results as bike mode share (calculated as bike rack count divided by enrollment). The key
+explanatory variables considered in this study are measures of distance and BLTS (i.e. the likely stress imposed on a bicyclist by automobile
+traf<U+FB01>c). This methodology assigns traf<U+FB01>c stress for each segment of a network (See Table 2 for a description of each class). For ease of
+discussion, we use the term “comfortable” to refer to low traf<U+FB01>c stress routes in discussing model results.
+    Through semi-automated and manual construction of a Geographic Information System (GIS) network, each link in the network was
+classi<U+FB01>ed by traf<U+FB01>c stress from level 1 (low stress) to level 4 (high stress) based on street width, presence of bicycle lanes, bicycle lane
+barriers, presence of parking lanes, speed limit, and intersection con<U+FB01>gurations. This network was subdivided into four sub-networks:
+BLTS 1 (all links classi<U+FB01>ed as stress level 1), BLTS 2 (all links classi<U+FB01>ed as level 1 or 2 with none at 3 or 4), BLTS 3 (all links classi<U+FB01>ed as level
+1, 2, or 3 with none at 4), and BLTS 4 (all links (i.e. the entire network)). We obtained anonymous student home locations during February
+2013 from the City of Davis, and used these as the distribution of home locations for each school for all study years. We then calculated the
+shortest path from each home location to that student’s school on each of the sub-networks, and then summarized those individual
+distances to school by school using two approaches: (1) <U+FB01>nding the percentage of students with access to school on each BLTS sub-
+network regardless of distance, and 2. determining the percentage of students with access to school on each BLTS sub-network within ¼
+mile distance bins. After visual inspection of this data (presented in Section 3.1), we generated six comfort variables for use in the statistical
+models:
+
+1.   %    of   students   with   access   on   BLTS   1
+2.   %    of   students   with   access   on   BLTS   2
+3.   %    of   students   with   access   on   BLTS   1 within 1 mile for elementary schools
+4.   %    of   students   with   access   on   BLTS   2 within 2.5 miles for junior high schools
+5.   %    of   students   with   access   on   BLTS   2 within 1 mile for elementary schools
+
+      1
+          We add the “B” to the original LTS acronym to be clear that this method only describes the theoretical traf<U+FB01>c stress on bicyclists.
+
+                                                          D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466                                                   459
+
+
+Table 1
+Summary statistics for Davis schools.
+
+  School                       # Days    Bike rack count       Mean # enrolled               Mean distance             Comfort variables (percentages of students)
+                                                               students                      (miles)
+                                                                                                                       1        2          3         4         5         6
+                                         Mean      S.D.                                                                BLTS access
+
+                                                                                                                       1        2         1          2         2         3
+                                                                                                                       Distance band (miles)
+
+                                                                                                                       –         –         1         2.5       1         2.5
+
+  Emerson/DaVinci Jr High        12        194        65                   731                         1.9                 33%       86%        –        57%        –        67%
+  Harper Jr High                 18        205        63                   653                         1.7                 39%       71%        –        58%        –        61%
+  Holmes Jr High                 12        320       106                   723                         1.8                 44%       90%        –        65%        –        74%
+  Birch Lane                     21        163        40                   606                         1.0                 67%       88%       44%        –        45%        –
+  Cesar Chavez                   22         97        47                   629                         2.2                 17%       90%       11%        –        13%        –
+  Korematsu                      22        119        46                   527                         0.7                 83%       91%       72%        –        81%        –
+  Montgomery                     30        49         18                   420                         1.2                 56%       80%       25%        –        40%        –
+  North Davis                    25        147        55                   587                         1.2                 46%       89%       26%        –        38%        –
+  Patwin                         23         93        53                   413                         1.0                 37%       94%       36%        –        66%        –
+  Pioneer                        11         62        40                   521                         1.4                 22%       25%       22%        –        25%        –
+  Willett                        18        117        45                   525                         1.3                 45%       82%       39%        –        45%        –
+
+
+
+Table 2
+Bicycling level of traf<U+FB01>c stress description.
+
+  Class    Description
+
+  BLTS 1 Presenting little traf<U+FB01>c stress and demanding little attention from cyclists, and attractive for a relaxing bike ride. Suitable for almost all cyclists, including
+         children trained to safely cross intersections. On road sections, cyclists are either physically separated from traf<U+FB01>c or are in an exclusive bicycling zone next to a
+         slow traf<U+FB01>c stream with no more than one lane per direction, or are in mixed traf<U+FB01>c with a low speed differential and demanding only occasional interaction with
+         motor vehicles. Next to a parking lane, cyclists have ample operating space outside the zone into which car doors are opened. Intersections are easy to approach
+         and cross.
+  BLTS 2 Presenting little traf<U+FB01>c stress but demanding more attention than might be expected from children. On road sections, cyclists are either physically separated
+         from traf<U+FB01>c or are in an exclusive bicycling zone next to a well-con<U+FB01>ned traf<U+FB01>c stream with adequate clearance from a parking lane, or are on a shared road
+         where they interact with only occasional motor vehicles with a low speed differential. Where a bike lane lies between a through lane and a right-turn lane, it is
+         con<U+FB01>gured to give cyclists unambiguous priority where cars cross the bike lane and to keep car speed in the right-turn lane comparable to bicycling speeds.
+         Crossings are not dif<U+FB01>cult for most adults.
+  BLTS 3 Offering cyclists a mostly exclusive cycling zone (e.g., bike lane) requiring little negotiation with motor traf<U+FB01>c, but in close proximity to moderately high speed
+         traf<U+FB01>c; or mixed traf<U+FB01>c requiring regular negotiation with traf<U+FB01>c with a low speed differential. Crossings may be stressful, but are still considered acceptably safe
+         to most adult pedestrians.
+  BLTS 4 Requiring riding in close proximity to high speed traf<U+FB01>c, or regularly negotiating with moderately high speed traf<U+FB01>c, or making dangerous crossings.
+
+Furth and Mekuria (2013).
+
+
+6. % of students with access on BLTS 3 within 2.5 miles for junior high schools
+
+   Although we use aggregate data that may not accurately describe individual decision processes (known as the “ecological fallacy”
+(Freedman, 2001)), our repeated measures approach helps to ensure that our conclusions about aggregate bicycling are robust. In addition,
+planners and policy makers often have only aggregate data to make decisions; therefore, this method is valuable for its practicality.
+Another limitation to our approach is that the BLTS methodology has yet to be “validated” across individuals (e.g. related to human
+perceptions or other measures of stress) or across geographies. We see this as an important topic for future research, but argue that
+bicyclist facility preferences generally align with the descriptions for each BLTS class (Tilahun et al., 2007). Finally, a number of socio-
+demographic and travel behavior variables (e.g. parent education, caregiver work schedules) that may be important determinants of
+bicycling to school were unavailable. Future applications of our method would bene<U+FB01>t from incorporating some of these factors when the
+data is available.
+
+2.2. Model development and analysis
+
+   We conducted a Bayesian analysis using multilevel binomial regression models to examine the relationship between bike rack counts
+at each school (observed on multiple occasions) and comfort variables. The models are estimated with a varying intercept speci<U+FB01>ed for
+each school; this pools the variance from each school to improve prediction and explanation. The models are aggregate in that the
+dependent variable is the count of bikes at each school on each observation date. In our models, each bike counted is considered a unique
+Bernoulli trial (i.e. each student either bikes or does not bike to school). For example, if a school has 500 enrolled students, then for each
+observation we estimate 500 Bernoulli trials, each with a possible outcome of 1 or 0, and then sum these results to get an estimated count
+of bikes at that school on that observation (see Fitch et al. (in press) for a detailed description of the model structure). Through the R
+statistical packages rethinking and rstan as an interface for the probabilistic statistical programming language Stan, we used the No-U-Turn
+(NUTS) sampler, a form of Hamiltonian Markov chain Monte Carlo (MCMC) (McElreath, 2015; Stan Development Team, 2015a, 2015b). We
+used the widely applicable information criteria (WAIC) (Watanabe, 2010) for comparing out-of-sample prediction of our models (Gelman
+et al., 2013b; Vehtari and Gelman, 2014), and we made inferences about variable effects (and uncertainty) directly from parameter
+posterior distributions as opposed to a classical hypothesis tests of the null (e.g. p-values) (Gelman et al., 2013a, p. 95).
+
+460                                               D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
+
+
+    Initial speci<U+FB01>cation of the model of bike rack counts2 included covariates, justi<U+FB01>ed based on past literature and local anecdotal
+observations: day of week, season, Bike to School Day, rain, temperature, race, gender, and share of students qualifying for free or reduced
+cost lunches (results not shown). We then compared four model speci<U+FB01>cations to examine the relationship between BLTS measures and
+rates of bicycling to school. Model A includes mean distance and no comfort variables to provide a baseline against which to assess how
+much the comfort variables in other models add to the prediction of bike rack counts. Model B maintains the mean distance variable and
+adds comfort variables 1 and 2. This model corresponds to our hypothesis that in Davis, where distances to school are generally short, the
+effect of distance and comfortable access may be independent, meaning a greater percentage of students with comfortable access will lead
+to greater biking regardless of distance. Model C drops mean distance and adds comfort variables 3 and 4, which combine comfortable
+access with distance. This model follows the hypothesis that distance moderates the effect of comfortable access, and that comfortable
+access is best described by BLTS 1 and 2 for elementary and junior high students, respectively, based on the assumption that junior high
+students have a greater tolerance for traf<U+FB01>c stress than elementary students. Model D is similar to Model C except that it uses comfort
+variables 5 and 6 in place of 3 and 4. This model follows the same hypothesis of Model C except that it assumes that comfortable access is
+better described by allowing slightly more traf<U+FB01>c stress: BLTS 2 and 3 for elementary and junior high students, respectively (see Table 3 for
+model speci<U+FB01>cation details). In accordance with the Bayesian analysis framework, we speci<U+FB01>ed prior probabilities for all unknown model
+parameters. We speci<U+FB01>ed weakly informative (or regularizing) priors to guard against over<U+FB01>tting (McElreath, 2015).
+
+
+
+3. Results
+
+3.1. Descriptive results
+
+    Bicycle rack counts in Davis show that junior high schools have a higher number of students bicycling to school than do elementary
+schools (Table 2). The median proportion of students bicycling to school in Davis ranges from 11% at Pioneer elementary to 47% at Holmes
+Junior High (Fig. 1), all of which are considerably greater than the U.S. average of around 1% (McDonald et al., 2011). Intra-school variability
+is consistently high, especially at elementary schools where bike rack counts have standard deviations of 18 to 55 students. Similarly, inter-
+school variability is large with some schools having twice the bike mode share of others. Distances to school are larger for junior high
+schools (Table 2, Fig. 1) with the exception of Cesar Chavez Elementary (a magnet elementary school that draws students from throughout
+the city).
+    The relationship between student distances to school by BLTS networks and aggregate bike mode shares are presented in Fig. 1 as
+distance histograms. Schools with more students located nearby tend to have higher bike mode shares, but not always. Schools with more
+students living near the school with BLTS1 and BLTS2 access also tend to have greater bike mode shares. The notable exception is Kor-
+ematsu Elementary, where nearly every student has access to school via BLTS 1 or 2 with less than 1.5 miles of riding each way, and yet
+two other elementary schools have consistently greater bike mode shares. Pioneer and Chavez elementary schools are also outliers in that
+Pioneer has a fairly small share of students with comfortable access nearby, and no students with comfortable access beyond approxi-
+mately 1 mile, and Chavez has a nearly uniform distribution of student distances to school from 0 to 5 miles. Looking for a distance
+threshold to test variables that combine distance with comfortable access, we used this visualization to decide on 1 and 2.5 miles for
+elementary and junior high schools, respectively, as cutoffs because they showed good variation between schools and are reasonable
+bicycling distances for students at those grade levels.
+
+3.2. Model results
+
+   All model parameters have Gaussian-like posterior densities (besides st. dev. school which is constrained to be positive), and thus we
+summarize the parameters by their mean and standard deviation (Table 3). All models show consistent effects of the covariates pertaining
+to type of day and characteristics of the school demographics. Conditional on the model speci<U+FB01>cations, schools with a high Hispanic
+percentage have more bicycling, while those with a high Black percentage have less bicycling. The effect of percentage male students was
+positive but extremely uncertain, while the percentage of students with access to free or reduced lunches (indicator of low household
+income) was con<U+FB01>dently negative. Low temperatures and presence of rain both have an expected negative effect. The effect of Fridays, on
+which travel may be less habitual due to weekend plans, was also negative on bicycling rates. All of these covariates are stable across all
+four models.
+   In Model A, conditional on all the covariate effects, mean distance has a mean parameter estimate that is small (near 0) with a large
+standard deviation indicating the posterior distribution spans almost equally over the positive and negative range. This indicates that we
+cannot make con<U+FB01>dent conclusions about the effect of distance on bicycling to school. Similarly, Model B shows that the effect of mean
+distance is inconclusive with a slightly more positive but also wider posterior distribution. Model B also suggests that, conditional on the
+covariates, students with access on BLTS levels 1 and 2 may be more likely to bicycle, however a great portion of the posterior distribution
+spans the positive and negative range making these effects inconclusive.
+   Models C and D consider the effect of comfort within distance thresholds. Model C shows that, conditional on all the covariates, percent
+of BLTS 1 access to elementary schools within 1 mile (comfort 3) has a positive in<U+FB02>uence on bicycling, although the magnitude of the
+positive effect still has considerable uncertainty. Similarly, this model shows the same result for percent of BLTS 2 access to junior high
+schools within 2.5 miles (comfort 4), with a somewhat stronger effect. Model D exhibits the same general effects of comfort 5 and 6 for
+elementary and junior high schools, with slightly dampened effects and smaller parameter standard deviations.
+   The models are effectively equivalent in their expected out-of-sample prediction of bike rack counts, as indicated by their effectively
+equivalent WAIC values in Table 3. This is also observed through the relatively equal Akaike weight given to each model (Table 3). Because
+
+   2
+     "A model’s weight is an estimate of the probability that the model will make the best predictions on new data, conditional on the set of models considered”
+(McElreath, 2015).
+
+                                            D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466                            463
+
+
+of this, we employed an ensemble technique to average the predictions of all four models using the Akaike weights to conservatively
+evaluate predictions given model uncertainty (McElreath, 2015). Results indicate that the ensemble model predictions of daily bike rack
+counts have considerable uncertainty (not shown), but predictions of median bike rack counts are accurate (as indicated by the overlap in
+the prediction con<U+FB01>dence interval and the observed median in Fig. 2).
+
+
+
+4. Discussion
+
+    These results demonstrate that the relationship between comfort variables and bike rack counts is positive but uncertain. Results in
+Fig. 1 shows a general correlation between schools with a high share of students having comfortable access and schools with high
+bicycling mode shares (evident from the taller BLTS 1 and 2 bars at shorter distances to school for schools with greater bike mode share).
+However, inter-school variation somewhat obscures this correlation which is why we focus our discussion on our multivariate analysis. In
+our multivariate analysis, our statistical models have equivalent WAIC values suggesting that each model has equivalent predictive power.
+Although we expected WAIC to improve when adding comfort variables, it does not hinder our inferences that comfort variables help
+explain bicycling. We suspect the equivalent WAICs are related to the large measurement error which is added to the comfort variables
+when we aggregate from individuals to schools. We also suspect that there exists an important omitted variable (or variables) because
+after examining daily model residuals (not shown), all of the models have a particularly dif<U+FB01>cult time predicting bicycling on Wednesdays.
+This is likely because elementary schools have shortened school days and junior highs have late starts on Wednesdays. Because of this,
+even though we have a dummy variable for Wednesdays, we argue that we are likely missing a covariate related to <U+FB02>exibility of caregiver
+work schedules. For example, if a caregiver normally accompanies their child to school by bicycling with them, but does not have the time
+given the shortened school day, they might instead resort to driving their child to school. This is a dif<U+FB01>cult variable to estimate in the
+aggregate, and so we let our results stand with this caveat.
+    Model results show that distance and comfortable access, independent of each other, are less associated with bicycling than when
+combined (see comfort variable parameter estimates for Models B, C, and D in Table 3). In addition, BLTS 2 and 3 access (comfort 5 and
+6) were nearly as in<U+FB02>uential as BLTS 1 and 2 access (comfort 3 and 4) which suggests that in Davis, parents and students may be
+accepting of a moderate level of traf<U+FB01>c stress. In this light, these results indicate, at least for Davis, that improving roads from BLTS
+2 to 1 for elementary access and BLTS 3 to 2 for junior high access might have limited effects on bicycling levels. However, care must
+be taken in other communities before making this determination because it is expected that comfortable bicycling environments and
+social cultures of bicycling are reciprocally causal. In Davis, the bicycling culture may increase the perception (and perhaps reality, i.e.
+safety in numbers (Jacobsen, 2003)) that bicycling is safe and comfortable even if each roadway is not completely free of traf<U+FB01>c stress
+(Handy, 2011).
+    A surprising result was the inconclusive evidence for the in<U+FB02>uence of distance, in contrast to other studies of active travel to school
+in the U.S. that have shown distance to be in<U+FB02>uential (Emond and Handy, 2012; Ewing et al., 2004; McDonald, 2008). However,
+considering that the schools in Davis have much shorter network distances to school compared to the national average (mean of
+1.4 miles compared to 4.4 miles nationally (McDonald et al., 2011)), it may be that distance to schools in Davis is less of a constraint
+compared to other cities. Alternatively, it may be that mean distance is too coarse of a metric in Davis, but that when comfort and
+proximity are combined (e.g. Models C and D), distance does matter. In environments where distance to school is short on average ( 
+1 mile in Perth, Western Australia), a small negative effect (odds ratio E 0.8) of distance (km) on biking to school has been reported
+(Trapp et al., 2011). In the aggregate our results are too uncertain to make this claim, but we might expect a similar mean effect in
+Davis had we data on individual mode choice; indeed the effect of distance on mode choice for high school students in Davis is
+similar: Emond and Handy (2012) report a mean coef<U+FB01>cient of  0.242 (distance in miles) which is equivalent to an odds ratio E 0.85
+for distance (km).3
+    To address our second major research question of how effective road improvements aimed at decreasing traf<U+FB01>c stress along routes to
+schools would be at increasing bicycling to school, we generated counterfactual plots for Model C which demonstrate the expected
+bicycling mode share (e.g. bike rack counts/enrollment) given three scenarios of comfort variables 3 and 4: (1) 0% of students have access
+to school on BLTS 1 and 2 for elementary and junior high, respectively, (2) 50% of students have access to school on BLTS 1 and 2 for
+elementary and junior high, respectively, and (3) 100% of students have access to school on BLTS 1 and 2 for elementary and junior high,
+respectively (Fig. 3). We chose Model C because it is slightly more conservative in the estimated effect of traf<U+FB01>c stress compared to Model D.
+Importantly, a policy based on the guidance of Model C would both focus road improvement projects on short routes schools and
+encourage shorter travel distances to school (e.g. through incentives to attend neighborhood schools). Fig. 3 shows the expected rates of
+bicycling to school with varying BLTS 1 and 2 access within the distance thresholds. Model C clearly shows a consistent increase in mean
+bicycling rate with an increased share of students having comfortable access within the distance thresholds. This is especially true for the
+three schools with the lowest bicycling mode shares (Chavez, Montgomery, and Pioneer), suggesting that focusing policies on schools with
+the lowest bicycling rates may have a slightly larger impact than on schools with moderate bicycling rates, although the uncertainty
+around these estimates is large.
+    We offer three possible methodological explanations as to why the in<U+FB02>uence of comfortable access and distance on bicycling rates
+is uncertain. First, we only considered a sample of origins from one school year as representing the origins for all three years of data
+(because of limited data availability). It may be that the variability in origins due to student matriculation over time is the cause for
+the uncertainty in the effects of comfortable access and distance. Second, aggregating individual route information at the school level
+removed all the intra-school variability from the analysis; this intra-school variability may be very important in estimating the effects
+of comfort and distance on aggregated bike rack counts. Third, it is possible that the BLTS classi<U+FB01>cation is not an appropriate measure
+of traf<U+FB01>c stress for young students. Although Fig. 3 exhibits considerable uncertainty in the effect of comfortable access, it is
+important to note that when 0% of students have comfortable access, bike mode shares are considerably lower than they currently are
+
+   3
+       eð  0:262=1mile0:62 miles=1 kmÞ
+
+464                                                    D.T. Fitch et al. / Journal of Transport & Health 3 (2016) 457–466
+
+
+
+
+Fig. 3. Model C counterfactual plot of 0, 50, and 100% BLTS 1 access within 1 mile of elementary schools (comfort 3), and BLTS 2 access within 2.5 miles of junior high schools
+(comfort 4) (from left to right bars). Dots and bars represent the median bike mode share prediction and 95% con<U+FB01>dence intervals for each of the three BLTS percentages
+while holding constant other covariates. These results represent the expected bike mode share on an average Wednesday in the spring season, with average temperature, no
+rain, and for a year where the racial makeup of each school is average.
+
+
+in Davis. This suggests that if students did not have comfortable bicycling access within short distances from their school, bike mode
+shares at all schools would drop. Conversely, it also suggests that even when 0% of students have comfortable access, bike mode
+shares would still stay moderately high (10-15%) suggesting a good portion of students are willing to bike (and their parents are
+willing to let them bike) with added traf<U+FB01>c stress.
+   Future analysis should explore alternative roadway characteristics (other than those in BLTS) that might contribute to a classi<U+FB01>cation
+that has more certain effects on bicycling to school. In particular there is a need to better understand acute stress when bicycling in traf<U+FB01>c
+through surveys, ride along and standard interviews, and possibly psychophysiological measurements. There is also a need to look across
+geographical contexts to explore if and how people adapt to traf<U+FB01>c stress. Because Davis is a unique bicycling environment in the U.S., one
+might argue that our results would not generalize to other environments. We agree that it would be a mistake to expect effects such as
+those from the counterfactual plot (Fig. 3) to directly transfer to other cities, but our method of estimating traf<U+FB01>c stress impacts on bike
+mode share is possible anywhere where bikes can be counted. Although the magnitude of the effects may differ, it is reasonable to expect
+positive effects in most environments. The effects from these types of comfort variables might even be greater in environments that have
+more traf<U+FB01>c stress surrounding schools. Although we focus on evaluating BLTS road metrics for bicycling to school to aid infrastructure
+planning, numerous other programs and policies are likely needed in most communities to increase bicycling to school. Programs such as
+bicycling education and training, social events, and marketing, and policies such as reduced vehicle speed limits, installing guarded bike
+parking, and strict traf<U+FB01>c enforcement have been used around the world (Pucher et al., 2010). In addition, while we use BLTS to aid our
+understanding of bicycling to school, it has the potential to be used for broader purposes; indeed the method was <U+FB01>rst used to evaluate the
+entire citywide connectivity of the bicycling network (i.e. low stress bicycling for all residents) in San Jose, California using aggregate
+origin–destination pairs (Furth and Mekuria, 2013).
+
+
+
+
+5. Conclusions
+
+   While traf<U+FB01>c stress is just one of many factors in<U+FB02>uencing bicycling to school, it is likely one of the primary ways in which the
+urban environment in<U+FB02>uences bicycling to school. We <U+FB01>nd evidence from Davis, CA that schools that have a greater number of
+students with access to school by way of relatively comfortable routes (according to BLTS) and within short distances have greater
+bike mode shares, conditional on environmental and socio-demographic covariates. Because bicycling to school varies considerably
+between and within cities, bike rack counts must be observed locally and the model re-estimated for the local setting before
+intervention effects can be reasonably estimated. Nonetheless, the results suggest that changing the street environment to reduce
+BLTS classi<U+FB01>cation along routes to school and encouraging shorter travel distances to school will increase the number of students
+bicycling.
+
+
+Acknowledgments
+
+   This research was supported by fellowships from the UC Davis College of Engineering TOPS (Towards Outstanding post-Graduate
+Students) and the University of California Transportation Center (UCTC). A special thanks to Gil Tal for providing us with GIS data that was
+helpful in implementing the BLTS network classi<U+FB01>cation, and to the parents who volunteered their time to collect the bike rack count data,
+without which this research would not have been possible.
 

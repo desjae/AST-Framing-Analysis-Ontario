@@ -1,9 +1,18 @@
 
 
 Journal of Transport Geography 20 (2012) 51–61
+
+
+
 Contents lists available at ScienceDirect
+
+
 Journal of Transport Geography
 journal homepage: www.elsevier.com/locate/jtrangeo
+
+
+
+
 Built environment correlates of active school transportation: neighborhood
 and the modi<U+FB01>able areal unit problem
 Raktim Mitra a,<U+21D1>, Ron N. Buliung b
@@ -11,11 +20,15 @@ a
 Program in Planning, Department of Geography, University of Toronto, 100 St. George Street, Toronto, Ontario, Canada M5S 3G3
 b
 Department of Geography, University of Toronto Mississauga, 3359 Mississauga Road N, Mississauga, Ontario, Canada L5L 1C6
-a r t i c l e          i n f o                         a b s t r a c t
-Keywords:                                              Researchers, practitioners and community-based organizations have emphasized built environment
-Children                                               interventions to encourage active school transportation, a practice that can contribute to the overall
-Physical activity                                      physical activity needs of children. This paper examines the potential in<U+FB02>uence of the modi<U+FB01>able areal
-Neighborhood                                           unit problem (MAUP) on statistical modeling of the relationship between the built environment and
+
+
+
+a r t i c l e           i n f o                          a b s t r a c t
+
+Keywords:                                                Researchers, practitioners and community-based organizations have emphasized built environment
+Children                                                 interventions to encourage active school transportation, a practice that can contribute to the overall
+Physical activity                                        physical activity needs of children. This paper examines the potential in<U+FB02>uence of the modi<U+FB01>able areal
+Neighborhood                                             unit problem (MAUP) on statistical modeling of the relationship between the built environment and
 MAUP
 walking/cycling to school. Binomial logistic regressions of school travel mode choice for children aged
 Scale effect
@@ -26,35 +39,40 @@ graphical units. Travel distance, block density, signalized intersections, walki
 low-income neighborhoods were associated with active travel. This research improves understanding
 of the sensitivity of school travel behavior analyses to the spatial representation of the neighborhood
 construct.
-Ó 2011 Elsevier Ltd. All rights reser
-1. Introduction                                                                            living in neighborhoods with higher residential density (Kerr
+Ó 2011 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction                                                                             living in neighborhoods with higher residential density (Kerr
 et al., 2006; Lin and Chang, 2010; McDonald, 2008a) and mixed land
-An emerging literature in the past decade has explored chil-                          use (Lin and Chang, 2010; Larsen et al., 2009; McMillan, 2007) were
-dren’s school travel behavior (Pont et al., 2009; Sirard and Slater,                       more likely to walk for school travel purposes, while in other stud-
-2008). This research is matched with a policy concern about                                ies the opposite effect has been reported (Ewing et al., 2004; Mitra
-declining levels of physical activity among children and youth                             et al., 2010; Yarlagadda and Srinivasan, 2008). With regard to trans-
-(Faulkner et al., 2009; Frumkin et al., 2004; US Department of                             portation infrastructure, some researchers have found that higher
-Health and Human Services, 1996). Walking or cycling for school                            street density associates with walking among children (Panter
-transportation, a behavior that is also known as active school                             et al., 2010); others have reported a negative association between
-transportation (AST), has been identi<U+FB01>ed as a potential opportunity                        street intersection density and walking (Schlossberg et al., 2006).
-for the accumulation of moderate to vigorous physical activity                             Positive correlations have been reported between the presence
-among children and youth. Researchers, professionals and commu-                            and density of sidewalks and AST (Boarnet et al., 2005; Ewing
-nity-based organizations have emphasized built environment                                 et al., 2004; Lin and Chang, 2010); in other studies no statistical
-interventions at the neighborhood level as one approach to facili-                         association was found between sidewalk density and mode choice
-tate AST (McMillan, 2007; National Center for Safe Routes to                               (Panter et al., 2010).
-School, 2007; Ontario Professional Planners Institute, 2009; US                                The effect of the neighborhood built environment has been ex-
-Department of Health and Human Services, 2009).                                            plored using different spatial units in different studies. For exam-
-Studies of adult travel behavior have demonstrated that the built                     ple, in some studies, the built environment was measured within
-environment, including land use distribution within a neighbor-                            a 400 m (Mitra et al., 2010; Schlossberg et al., 2006), 800 m (Larsen
-hood, transportation infrastructure, and urban design characteris-                         et al., 2009; Panter et al., 2010) or 1 km (Kerr et al., 2006) straight
-tics, may encourage active transportation, particularly walking                            line buffer distance of a child’s home or school location; census
-(Ewing and Cervero, 2010; Transportation Research Board, 2005).                            boundaries have been used to represent the neighborhood con-
-Empirical <U+FB01>ndings on children’s school travel outcomes, however,                           struct in some other studies (Ewing et al., 2004; McDonald,
-remain less conclusive. Some studies have reported that children                           2008b). The main hypothesis of this paper is that some of the
+An emerging literature in the past decade has explored chil-                            use (Lin and Chang, 2010; Larsen et al., 2009; McMillan, 2007) were
+dren’s school travel behavior (Pont et al., 2009; Sirard and Slater,                        more likely to walk for school travel purposes, while in other stud-
+2008). This research is matched with a policy concern about                                 ies the opposite effect has been reported (Ewing et al., 2004; Mitra
+declining levels of physical activity among children and youth                              et al., 2010; Yarlagadda and Srinivasan, 2008). With regard to trans-
+(Faulkner et al., 2009; Frumkin et al., 2004; US Department of                              portation infrastructure, some researchers have found that higher
+Health and Human Services, 1996). Walking or cycling for school                             street density associates with walking among children (Panter
+transportation, a behavior that is also known as active school                              et al., 2010); others have reported a negative association between
+transportation (AST), has been identi<U+FB01>ed as a potential opportunity                         street intersection density and walking (Schlossberg et al., 2006).
+for the accumulation of moderate to vigorous physical activity                              Positive correlations have been reported between the presence
+among children and youth. Researchers, professionals and commu-                             and density of sidewalks and AST (Boarnet et al., 2005; Ewing
+nity-based organizations have emphasized built environment                                  et al., 2004; Lin and Chang, 2010); in other studies no statistical
+interventions at the neighborhood level as one approach to facili-                          association was found between sidewalk density and mode choice
+tate AST (McMillan, 2007; National Center for Safe Routes to                                (Panter et al., 2010).
+School, 2007; Ontario Professional Planners Institute, 2009; US                                 The effect of the neighborhood built environment has been ex-
+Department of Health and Human Services, 2009).                                             plored using different spatial units in different studies. For exam-
+Studies of adult travel behavior have demonstrated that the built                       ple, in some studies, the built environment was measured within
+environment, including land use distribution within a neighbor-                             a 400 m (Mitra et al., 2010; Schlossberg et al., 2006), 800 m (Larsen
+hood, transportation infrastructure, and urban design characteris-                          et al., 2009; Panter et al., 2010) or 1 km (Kerr et al., 2006) straight
+tics, may encourage active transportation, particularly walking                             line buffer distance of a child’s home or school location; census
+(Ewing and Cervero, 2010; Transportation Research Board, 2005).                             boundaries have been used to represent the neighborhood con-
+Empirical <U+FB01>ndings on children’s school travel outcomes, however,                            struct in some other studies (Ewing et al., 2004; McDonald,
+remain less conclusive. Some studies have reported that children                            2008b). The main hypothesis of this paper is that some of the
 inconsistency in empirical <U+FB01>ndings of this literature may be related
 to the modi<U+FB01>able areal unit problem (MAUP), a measurement issue
-<U+21D1> Corresponding author.                                                                  comprised of scale and zoning effects (Amrhein, 1995; Gehlke and
+<U+21D1> Corresponding author.                                                                 comprised of scale and zoning effects (Amrhein, 1995; Gehlke and
 E-mail address: raktim.mitra@utoronto.ca (R. Mitra).                                  Biehl, 1934; Openshaw, 1984; Openshaw and Alvandies, 1999). In
+
 0966-6923/$ - see front matter Ó 2011 Elsevier Ltd. All rights reserved.
 doi:10.1016/j.jtrangeo.2011.07.009
 
@@ -83,7 +101,6 @@ doi:10.1016/j.jtrangeo.2011.07.009
 
 
 
-ved.
 
 
 
@@ -115,7 +132,28 @@ ved.
 
 
 
-52                                            R. Mitra, R.N. Buliung / Journal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52                                         R. Mitra, R.N. Buliung / Journal
+
+
 the context of school travel behavior research, a scale effect may be
 present when analytical results exhibit sensitivity to the size of
 spatial units used for built environment measurement. For exam-
@@ -176,12 +214,15 @@ parison. The research also improves current knowledge of the envi-
 ronmental correlates of school travel mode choice in a North
 American context.
 
+
 2. Study design
 
 The City of Toronto is the largest city in Canada, with a resident
 population of over 2.5 million (Statistics Canada, 2008). The inner-
 city neighborhoods in Toronto typically conform to what are
 of Transport Geography 20 (2012) 51–61
+
+
 known as main-street neighborhoods (i.e., residential neighbor-
 hoods with employment-related land uses along the main streets)
 in both the academic and popular literatures (Sewell, 1993). The
@@ -242,13 +283,16 @@ private automobile, public transit or school-bus) modes, using
 the proxy reported data on primary mode of travel for school trips.
 
 2.2. Neighborhood and built environment data
+
 The modern conceptualization of the planned neighborhood
 unit emerged in the early 1900s (Banerjee and Baer, 1984; Perry,
 1939). The design principles of a neighborhood unit emphasized
 Modernist concepts of spatial separation between home and work,
 and a hierarchical street system (Banerjee and Baer, 1984; Moudon
 
-R. Mitra, R.N. Buliung
+R. Mitra, R.N. Buliung /
+
+
 et al., 2006). Elementary schools, community centers and other
 smaller urban facilities were planned as central features of a neigh-
 borhood, with surrounding residential development scaled to be
@@ -286,15 +330,29 @@ were de<U+FB01>ned using either the census boundary (dissemination area
 was located. Selection of these spatial units was informed by the
 existing AST literature. The BE–AST associations were examined
 at each level of geography, and were compared across different
+
+
+
+
 1,000 m buffer
+
 800 m buffer
+
 
 400 m buffer
 250 m buffer
 
+
+
 HOME
-Fig. 1. Built environment near a hypothetical household locati
-/ Journal of Transport Geography 20 (2012) 51–61                                        53
+
+
+
+
+Fig. 1. Built environment near a hypothetical household location
+Journal of Transport Geography 20 (2012) 51–61                                        53
+
+
 scales/zoning systems. Environmental characteristics were mea-
 sured at both the residence and school ends of a school trip. The
 individual environmental variables that were analyzed are listed
@@ -330,67 +388,89 @@ Service.
 
 Binomial logistic regression was used to explore the correlates
 of active versus passive mode choice for school trips (Pampel,
-2000). A coef<U+FB01>cient (b    ^i ) from the multivariate logistic regression
+2000). A coef<U+FB01>cient (b^i ) from the multivariate logistic regression
 models in this paper represent the un-confounded (i.e., adjusted)
+
+
+
+
+
 
 
 TAZ boundary
 
+
 DA boundary
+
+
 HOME
 
-on in Toronto, Canada. Note: DA, Census dissemination area; TAZ, Traf<U+FB01>c analysis zone.
 
-54                                                     R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61
+
+
+
+in Toronto, Canada. Note: DA, Census dissemination area; TAZ, Traf<U+FB01>c analysis zone.
+
+54                                                      R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61
+
+
 Table 1
 Spatial unit de<U+FB01>nitions.
-De<U+FB01>nition                              Description
-250 m buffer around home/              The use of a 200 or 250 m buffer is most common in empirical research that measures the built environment around travel routes
-school location                     (Schlossberg et al., 2006). A 250 m distance is roughly equivalent to a 2.5-min walking distance for an average adult.
+
+De<U+FB01>nition                            Description
+250 m buffer around home/            The use of a 200 or 250 m buffer is most common in empirical research that measures the built environment around travel routes
+school location                   (Schlossberg et al., 2006). A 250 m distance is roughly equivalent to a 2.5-min walking distance for an average adult.
 Area: 0.2 sq km
-400 m buffer around home/              400 m is equivalent to a 5-min walking distance for an average child (Mitra et al., 2010). Some researchers have assumed this
-school location                     distance to be a reasonable walking distance for children (McMillan, 2007; Mitra et al., 2010; Yarlagadda and Srinivasan, 2008).
+400 m buffer around home/            400 m is equivalent to a 5-min walking distance for an average child (Mitra et al., 2010). Some researchers have assumed this
+school location                   distance to be a reasonable walking distance for children (McMillan, 2007; Mitra et al., 2010; Yarlagadda and Srinivasan, 2008).
 Area: 0.5 sq km
-800 m buffer around home/              800 m is equivalent to a 10-min walking distance for an average child (Panter et al., 2010).
+800 m buffer around home/            800 m is equivalent to a 10-min walking distance for an average child (Panter et al., 2010).
 school location
 Area: 2.01 sq km
-1000 m buffer around home/             Sometimes used in adult active-travel behavior research (Frank et al., 2007), a 1000 m (i.e., 1 km) distance is roughly equivalent to
-school location                     10-to-12 min walking distance for an average adult. One study on children’s school travel has used this distance to de<U+FB01>ne the
-Area: 3.4 sq km                        neighborhood of residence (Kerr et al., 2006).
-DA of home/school location             Smallest geographical unit for which public census data (i.e., data from Statistics Canada) is available in Canada. Some researchers
-Area: Mean 0.18 sq km. (sd             in the US have measured built environment at the block group level to explore school travel, and have cited a similar reason for
-0.39 sq km.)                        their choice of geography (McDonald, 2008b).
-TAZ of home/school location            Small geographical areas de<U+FB01>ned for transportation research purposes. Used mostly to explore work-travel behavior. Some
-Area: Mean 1.31 sq km. (sd             researchers have measured TAZ-level built environment to explore school travel behavior (Ewing et al., 2004).
+1000 m buffer around home/           Sometimes used in adult active-travel behavior research (Frank et al., 2007), a 1000 m (i.e., 1 km) distance is roughly equivalent to
+school location                   10-to-12 min walking distance for an average adult. One study on children’s school travel has used this distance to de<U+FB01>ne the
+Area: 3.4 sq km                      neighborhood of residence (Kerr et al., 2006).
+DA of home/school location           Smallest geographical unit for which public census data (i.e., data from Statistics Canada) is available in Canada. Some researchers
+Area: Mean 0.18 sq km. (sd           in the US have measured built environment at the block group level to explore school travel, and have cited a similar reason for
+0.39 sq km.)                      their choice of geography (McDonald, 2008b).
+TAZ of home/school location          Small geographical areas de<U+FB01>ned for transportation research purposes. Used mostly to explore work-travel behavior. Some
+Area: Mean 1.31 sq km. (sd           researchers have measured TAZ-level built environment to explore school travel behavior (Ewing et al., 2004).
 0.94 sq km.)
+
 Note: sd, standard deviation; DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone.
+
+
+
+
 Table 2
 Independent variables and their hypothesized associations with active school transportation.
-Variable                                                                                                                                                Hypothesized
+
+Variable                                                                                                                                              Hypothesized
 relationship
 Socio-demographics
-MALE: The child was a male (reference: female)                                                                                                          +
-CHILD: Number of school-age children below driving age (4–15 years) in the household                                                                    +/
-VEH_LIC: Number of vehicles in the household per licensed driver                                                                                        
-FUL_EMP: Number of full-time employees per adult household member (ages 18 to 65 years)                                                                 
-UNEMP: There was unemployed adult(s) in the household (reference: no unemployed adult)                                                                  +
+MALE: The child was a male (reference: female)                                                                                                        +
+CHILD: Number of school-age children below driving age (4–15 years) in the household                                                                  +/
+VEH_LIC: Number of vehicles in the household per licensed driver                                                                                      
+FUL_EMP: Number of full-time employees per adult household member (ages 18 to 65 years)                                                               
+UNEMP: There was unemployed adult(s) in the household (reference: no unemployed adult)                                                                +
 Built environment
-DISTANCE: Minimum travel distance (i.e., shortest path using a street network) between the home and school (km)                                         
-EMP_POP: The ratio of employment to the population in a TAZ                                                                                             
+DISTANCE: Minimum travel distance (i.e., shortest path using a street network) between the home and school (km)                                       
+EMP_POP: The ratio of employment to the population in a TAZ                                                                                           
 Low (<U+FB01>rst tertile); Medium (second tertile- reference); High (third tertile)
-WALK_DSTY: Walking density – total work and school related walking trips produced by residents of a TAZ, normalized by per sq km of area                +
+WALK_DSTY: Walking density – total work and school related walking trips produced by residents of a TAZ, normalized by per sq km of area              +
 Low (<U+FB01>rst tertile – reference); Medium (second tertile); High (third tertile)
-BLOCK_DTYa: Number of street-blocks, normalized by per sq km of area                                                                                    +
-FOURWAY_DTYa: Proportion of 4-way street intersections – the ratio of 4-way intersections to total number of street intersections                       +/
-DEADEND_DTYa: Proportion of dead ends and cul-de-sacs - the ratio of dead-ends plus cul-de-sacs to total number of street intersections                 
-LIGHT_DTYa: Proportion of intersections with street lights- the ratio of signalized intersections to total number of street intersections               +
-LOCAL_RD_DTYa: Length of local roads (km), normalized by per sq km of area                                                                              +
-MAJOR_RD_DTYa: Length of major roads (km), normalized by per sq km of area. Major roads include expressways, arterials and collector roads              
-COLLISIONa: The number of pedestrian and cyclist collisions (fatal and non-fatal) per sq km of area per year, averaged based on the total number of     
+BLOCK_DTYa: Number of street-blocks, normalized by per sq km of area                                                                                  +
+FOURWAY_DTYa: Proportion of 4-way street intersections – the ratio of 4-way intersections to total number of street intersections                     +/
+DEADEND_DTYa: Proportion of dead ends and cul-de-sacs - the ratio of dead-ends plus cul-de-sacs to total number of street intersections               
+LIGHT_DTYa: Proportion of intersections with street lights- the ratio of signalized intersections to total number of street intersections             +
+LOCAL_RD_DTYa: Length of local roads (km), normalized by per sq km of area                                                                            +
+MAJOR_RD_DTYa: Length of major roads (km), normalized by per sq km of area. Major roads include expressways, arterials and collector roads            
+COLLISIONa: The number of pedestrian and cyclist collisions (fatal and non-fatal) per sq km of area per year, averaged based on the total number of   
 collisions reported to the police between 2002 and 2006
-LOWINCOMEa,b: The child’s residence/school neighborhood was a low-income neighborhood, i.e., median household income was <CAD 39,400.                   +
+LOWINCOMEa,b: The child’s residence/school neighborhood was a low-income neighborhood, i.e., median household income was <CAD 39,400.                 +
 Median household income was estimated by taking a median of the DA-level median household incomes at a child’s residence/school
 location
+
 Note: DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone.
 Each built environment variable has been estimated separately for the home, and the school location.
 Variables in italics were excluded from the multivariate logistic regression speci<U+FB01>cations.
@@ -401,17 +481,25 @@ b
 Individual household income data was not available. Median household income was calculated using 2006 population census data by Statistics Canada. Average
 household size for the sample was 4.3 (sd = 1.28). In a large metropolitan area such as Toronto (i.e., population > 500,000), the low income cut-off, de<U+FB01>ned by Statistics
 Canada, was CAD 39,399 for a four-member household (Statistics Canada, 2010).
-correlation between an individual built environment metric and                                  2008a). For this reason, only children living within 5 km (shortest
-the log-odds of walking/cycling to school. The odds ratio or OR                                 path network distance) from their schools were considered for
-(i.e., expb  ^i ), thus, demonstrates the relationship between a variable                       modeling purposes (92% of all school trips by this age group).
-i and the odds of active travel (i.e., the change in the odds of an ac-                         Adjusting for missing data and outliers, the <U+FB01>nal dataset included
-tive mode choice in response to a unit change in the value of var-                              2190 home-to-school trips.
-iable i). Separate binomial logistic regression models were                                         For each school trip, <U+FB01>ve socio-demographic variables, and ten
-speci<U+FB01>ed with built environment variables and neighborhood in-                                  neighborhood characteristics, in addition to the shortest path net-
-come measured within each of the six spatial units outlined in Ta-                              work distance between home and school locations, were initially
-ble 1. Researchers have argued that beyond a distance of 5 km (i.e.,                            measured (Table 2). Prior to the multivariate (i.e., adjusted) logistic
-a 1-h walk for a child), the choice set may become restricted to                                regression estimation, a set of unadjusted logistic regressions (i.e.,
-motorized alternatives only (Ewing et al., 2004; McDonald,                                      one model per correlate) were estimated to <U+FB01>lter the initial set of
+
+
+
+
+correlation between an individual built environment metric and                                2008a). For this reason, only children living within 5 km (shortest
+the log-odds of walking/cycling to school. The odds ratio or OR                               path network distance) from their schools were considered for
+^i ), thus, demonstrates the relationship between a variable
+(i.e., expb                                                                                   modeling purposes (92% of all school trips by this age group).
+i and the odds of active travel (i.e., the change in the odds of an ac-                       Adjusting for missing data and outliers, the <U+FB01>nal dataset included
+tive mode choice in response to a unit change in the value of var-                            2190 home-to-school trips.
+iable i). Separate binomial logistic regression models were                                      For each school trip, <U+FB01>ve socio-demographic variables, and ten
+speci<U+FB01>ed with built environment variables and neighborhood in-                                neighborhood characteristics, in addition to the shortest path net-
+come measured within each of the six spatial units outlined in Ta-                            work distance between home and school locations, were initially
+ble 1. Researchers have argued that beyond a distance of 5 km (i.e.,                          measured (Table 2). Prior to the multivariate (i.e., adjusted) logistic
+a 1-h walk for a child), the choice set may become restricted to                              regression estimation, a set of unadjusted logistic regressions (i.e.,
+motorized alternatives only (Ewing et al., 2004; McDonald,                                    one model per correlate) were estimated to <U+FB01>lter the initial set of
+
+
+
 
 
 
@@ -484,213 +572,271 @@ a
 
 
 
-R. Mitra, R.N. Buliu
-independent variables down to only those variables holding a sta-
 
-tistical signi<U+FB01>cance at p 6 0.05.
 
+
+
+
+
+
+
+
+
+
+
+R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61                                          5
+
+
+independent variables down to only those variables holding a sta-                                      ^i  b
+b    ^j
+tistical signi<U+FB01>cance at p 6 0.05.                                                            t¼                                                                      ð1Þ
+^j j
+^i  b
+SEjb
 The degree of multi-collinearity across the built environment
-variables was also examined, for each level of spatial aggregation
-(Lee and Moudon, 2006; Mitra et al., 2010). The correlation be-
+variables was also examined, for each level of spatial aggregation                           where b ^i = estimated coef<U+FB01>cient of a built environment variable i;
+(Lee and Moudon, 2006; Mitra et al., 2010). The correlation be-                              SE = Standard error (Fotheringham and Wong, 1991).
 tween variables increased with the scale of spatial analysis. When
 two variables were correlated (i.e., DEADEND_DTY and FOUR-
-WAY_DTY; BLOCK_DTY and LOCAL_RD_DTY), those two were en-
+WAY_DTY; BLOCK_DTY and LOCAL_RD_DTY), those two were en-                                     3. Results
 tered into the multivariate (i.e., adjusted) model one at a time,
-and the one with a weaker association (i.e., DEADEND_DTY; LO-
-CAL_RD_DTY) was excluded from the <U+FB01>nal model speci<U+FB01>cation.
-The built environment variables around the residence and near
-the school were also highly correlated. To overcome this collinear-
-ity problem, two sets of multivariate regression models were spec-
-i<U+FB01>ed and estimated for each spatial unit, one for built environment
-measures near the residence, and the other for the built environ-
-ment near the school. A total of 12 multivariate logistic regression
-models of active travel to school were estimated. Statistical analy-
-ses were performed with RÓ version 2.9.0 (The R Foundation for
-Statistical Computing).
+and the one with a weaker association (i.e., DEADEND_DTY; LO-                                    Home-to-school trips by 11–12 year old children (n = 2190),
+CAL_RD_DTY) was excluded from the <U+FB01>nal model speci<U+FB01>cation.                                   and the associated socio-demographic and environmental attri-
+The built environment variables around the residence and near                                butes, were analyzed. Table 3 describes these attributes; summary
+the school were also highly correlated. To overcome this collinear-                          of the built environment measures are presented for each of the six
+ity problem, two sets of multivariate regression models were spec-                           geographical units, around home and school locations, of all 11–
+i<U+FB01>ed and estimated for each spatial unit, one for built environment                          12 year old children. Results from the multivariate logistic regres-
+measures near the residence, and the other for the built environ-                            sion models are presented in Tables 4 and 5. Most children used an
+ment near the school. A total of 12 multivariate logistic regression                         active mode for school transportation (58%); only 42% traveled to
+models of active travel to school were estimated. Statistical analy-                         school using passive modes (Table 3). The average school travel
+ses were performed with RÓ version 2.9.0 (The R Foundation for                               distance (shortest path network distance) for these students was
+Statistical Computing).                                                                      1.25 km.
 The presence of scale effects was examined by observing
-whether or not the coef<U+FB01>cient of a variable remained statistically
+whether or not the coef<U+FB01>cient of a variable remained statistically                           3.1. Scale effect
 signi<U+FB01>cant across different scales of aggregation, and to a lesser ex-
-tent, by assessing changes in the size and sign of the coef<U+FB01>cient val-
-ues across different scales of spatial aggregation, within each
-aggregation scheme (i.e., buffers or zones). The presence of poten-
-tial zoning effects was examined by using the method suggested by
-Fotheringham and Wong (1991) and Zhang and Kukadia (2005),
-which involved an assessment of the built environment coef<U+FB01>-
-cients across two spatial units at a comparable scale, between
-the two zoning schemes (i.e., 250 m buffer versus DA, and 800 m
-buffer versus TAZ). The standard-difference-of-means test [1]
-was used to test the statistical difference in the estimated coef<U+FB01>-
-cients obtained from the logistic regression models:
+tent, by assessing changes in the size and sign of the coef<U+FB01>cient val-                          Table 3 suggested that the variance (square of the standard
+ues across different scales of spatial aggregation, within each                              deviation) of these environmental variables typically decreased
+aggregation scheme (i.e., buffers or zones). The presence of poten-                          with an increase in neighborhood size. This type of ‘‘data smooth-
+tial zoning effects was examined by using the method suggested by                            ing’’ at larger geographies is not unexpected (Zhang and Kukadia,
+Fotheringham and Wong (1991) and Zhang and Kukadia (2005),                                   2005), and adds empirical evidence in support of the hypothesis
+which involved an assessment of the built environment coef<U+FB01>-                                 of decreasing sample variance with an increase in the scale of anal-
+cients across two spatial units at a comparable scale, between                               ysis, as previously mentioned in the introduction (Section 1). Scale
+the two zoning schemes (i.e., 250 m buffer versus DA, and 800 m                              effects were explored further using the results from the adjusted
+buffer versus TAZ). The standard-difference-of-means test [1]                                logistic regression models, presented in Tables 4 and 5.
+was used to test the statistical difference in the estimated coef<U+FB01>-                             The goodness of <U+FB01>t for the estimated models was very similar
+cients obtained from the logistic regression models:                                         across all six speci<U+FB01>cations (although a general trend of a weaker
+
 Table 3
 Descriptive statistics (n = 2190 students).
 
-Travel mode
-Active
-Passive
-MALE
-VEH_LIC
-DISTANCE (km)
-250 m buffer
-Home
-Mean (sd)             %
-BLOCK_DTY (blocks/km2)              25.58 (15.10)
-FOURWAY_DTY (prop.)                 0.21 (0.19)
-LIGHT_DTY (prop.)                   0.12 (0.14)
-MAJOR_RD_DTY (km/km2)               3.32 (3.85)
-LOWINCOME                                                 28.54
-800 m buffer
-BLOCK_DTY (blocks/km2)              23.51 (11.82)
-FOURWAY_DTY (prop.)                 0.19 (0.10)
-LIGHT_DTY (prop.)                   0.10 (0.05)
-MAJOR_RD_DTY (km/km2)               2.55 (1.71)
-LOWINCOME                                                 7.44
-DA
-BLOCK_DTY (blocks/km2)              27.60 (20.74)
-FOURWAY_DTY (prop.)                 0.20 (0.25)
-LIGHT_DTY (prop.)                   0.11 (0.18)
-MAJOR_RD_DTY (km/km2)               3.56 (4.81)
-LOWINCOME                                                 22.10
-Note: sd, standard deviation; DA, census dissemination area; TAZ, traf<U+FB01>c
-The variables that were measured only at the TAZ level (WALK_DSTY and EMP
-groups.
-ng / Journal of Transport Geography 20 (2012) 51–61                                          55
-^i  b
-b     ^j
-t¼                                                                    ð1Þ
-SEjb^i  b^j j
-
-where b   ^i = estimated coef<U+FB01>cient of a built environment variable i;
-SE = Standard error (Fotheringham and Wong, 1991).
-
-
-3. Results
-
-Home-to-school trips by 11–12 year old children (n = 2190),
-and the associated socio-demographic and environmental attri-
-butes, were analyzed. Table 3 describes these attributes; summary
-of the built environment measures are presented for each of the six
-geographical units, around home and school locations, of all 11–
-12 year old children. Results from the multivariate logistic regres-
-sion models are presented in Tables 4 and 5. Most children used an
-active mode for school transportation (58%); only 42% traveled to
-school using passive modes (Table 3). The average school travel
-distance (shortest path network distance) for these students was
-1.25 km.
-
-3.1. Scale effect
-
-Table 3 suggested that the variance (square of the standard
-deviation) of these environmental variables typically decreased
-with an increase in neighborhood size. This type of ‘‘data smooth-
-ing’’ at larger geographies is not unexpected (Zhang and Kukadia,
-2005), and adds empirical evidence in support of the hypothesis
-of decreasing sample variance with an increase in the scale of anal-
-ysis, as previously mentioned in the introduction (Section 1). Scale
-effects were explored further using the results from the adjusted
-logistic regression models, presented in Tables 4 and 5.
-The goodness of <U+FB01>t for the estimated models was very similar
-across all six speci<U+FB01>cations (although a general trend of a weaker
-
-
 Mean (sd)                                                            %
+Travel mode
+Active                                                                                                                                                     58.40
+Passive                                                                                                                                                    41.60
+MALE                                                                                                                                                         52.15
+VEH_LIC                                                                                 0.72 (0.42)
+DISTANCE (km)                                                                           1.25 (1.00)
+250 m buffer                                                              400 m buffer
+Home                                 School                               Home                      School
+Mean (sd)              %             Mean (sd)              %             Mean (sd)       %         Mean (sd)             %
+BLOCK_DTY (blocks/km2)               25.58 (15.10)                        25.33 (14.90)                        25.19 (13.62)             26.64 (12.83)
+FOURWAY_DTY (prop.)                  0.21 (0.19)                          0.21 (0.20)                          0.20 (0.14)               0.21 (0.15)
+LIGHT_DTY (prop.)                    0.12 (0.14)                          0.11 (0.13)                          0.11 (0.09)               0.10 (0.08)
+MAJOR_RD_DTY (km/km2)                3.32 (3.85)                          2.39 (3.04)                          2.99 (2.79)               2.36 (2.44)
+LOWINCOME                                                   28.54                                20.41                         17.17                           7.53
+800 m buffer                                                              1000 m buffer
+BLOCK_DTY (blocks/km2)               23.51 (11.82)                        24.56 (11.32)                        21.27 (10.34)             22.08 (10.14)
+FOURWAY_DTY (prop.)                  0.19 (0.10)                          0.20 (0.10)                          0.19 (0.09)               0.20 (0.10)
+LIGHT_DTY (prop.)                    0.10 (0.05)                          0.10 (0.05)                          0.10 (0.05)               0.09 (0.05)
+MAJOR_RD_DTY (km/km2)                2.55 (1.71)                          2.36 (1.53)                          2.28 (1.34)               2.16 (1.20)
+LOWINCOME                                                   7.44                                 3.52                          4.22                            3.70
+DA                                                                        TAZ
+BLOCK_DTY (blocks/km2)               27.60 (20.74)                        22.83 (17.04)                        23.70 (12.80)             24.46 (12.47)
+FOURWAY_DTY (prop.)                  0.20 (0.25)                          0.21 (0.24)                          0.20 (0.12)               0.20 (0.12)
+LIGHT_DTY (prop.)                    0.11 (0.18)                          0.12 (0.20)                          0.10 (0.09)               0.14 (0.07)
+MAJOR_RD_DTY (km/km2)                3.56 (4.81)                          2.30 (2.91)                          2.87 (1.88)               2.74 (1.75)
+LOWINCOME                                                   22.10                                15.94                         10.27                           6.53
 
-58.40
-41.60
-52.15
-0.72 (0.42)
-1.25 (1.00)
-400 m buffer
-School                               Home                        School
-Mean (sd)              %             Mean (sd)       %           Mean (sd)          %
-25.33 (14.90)                        25.19 (13.62)               26.64 (12.83)
-0.21 (0.20)                          0.20 (0.14)                 0.21 (0.15)
-0.11 (0.13)                          0.11 (0.09)                 0.10 (0.08)
-2.39 (3.04)                          2.99 (2.79)                 2.36 (2.44)
-20.41                         17.17                          7.53
-1000 m buffer
-24.56 (11.32)                        21.27 (10.34)               22.08 (10.14)
-0.20 (0.10)                          0.19 (0.09)                 0.20 (0.10)
-0.10 (0.05)                          0.10 (0.05)                 0.09 (0.05)
-2.36 (1.53)                          2.28 (1.34)                 2.16 (1.20)
-3.52                          4.22                           3.70
-TAZ
-22.83 (17.04)                        23.70 (12.80)               24.46 (12.47)
-0.21 (0.24)                          0.20 (0.12)                 0.20 (0.12)
-0.12 (0.20)                          0.10 (0.09)                 0.14 (0.07)
-2.30 (2.91)                          2.87 (1.88)                 2.74 (1.75)
-15.94                         10.27                          6.53
-analysis zone.
-_POP) are not shown in this table. Values for these variables were categorized into three equal
+Note: sd, standard deviation; DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone.
+The variables that were measured only at the TAZ level (WALK_DSTY and EMP_POP) are not shown in this table. Values for these variables were categorized into three equal
+groups.
+5
 
 
-R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61                                            57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61
+
+
 Table 5
 AST–built environment relationship within the DA and TAZ of home and school (n = 2190 students).
+
 DA                                                                        TAZ
-Home                                School                                Home                                School
-Coef. (S.E.)          OR            Coef. (S.E.)            OR            Coef. (S.E.)           OR           Coef. (S.E.)  OR
-MALE (ref = FEMALE)               0.32 (0.11)           1.37          0.29 (0.11)             1.34          0.32 (0.11)            1.37         0.30 (0.11)   1.34
-VEH_LIC                           0.45 (0.13)          0.64          0.43 (0.13)            0.65          0.40 (0.13)           0.67         0.40 (0.13)  0.67
-DISTANCE                          1.84 (0.09)          0.16          1.85 (0.09)            0.16          1.84 (0.09)           0.67         1.83 (0.16)  0.16
+Home                                 School                               Home                        School
+Coef. (S.E.)           OR            Coef. (S.E.)          OR             Coef. (S.E.)    OR          Coef. (S.E.)
+MALE (ref = FEMALE)               0.32 (0.11)            1.37          0.29 (0.11)           1.34           0.32 (0.11)     1.37        0.30 (0.11)
+VEH_LIC                           0.45 (0.13)           0.64          0.43 (0.13)          0.65           0.40 (0.13)    0.67        0.40 (0.13)
+DISTANCE                          1.84 (0.09)           0.16          1.85 (0.09)          0.16           1.84 (0.09)    0.67        1.83 (0.16)
 WALK_DSTY (ref = Low)
-Medium                          0.40 (0.13)           1.49          0.44 (0.13)             1.55          0.38 (0.13)            1.46         0.48 (0.13)   1.61
-High                            0.85 (0.14)           2.34          0.86 (0.15)             2.37          0.78 (0.16)            2.17         0.75 (0.16)   2.13
+Medium                          0.40 (0.13)            1.49          0.44 (0.13)           1.55           0.38 (0.13)     1.46        0.48 (0.13)
+High                            0.85 (0.14)            2.34          0.86 (0.15)           2.37           0.78 (0.16)     2.17        0.75 (0.16)
 EMP_POP (Ref = Medium)
-Low                             0.09 (0.13)           1.10          0.03 (0.13)             1.03          0.05 (0.14)            1.05         0.00 (0.13)   1.00
-High                            0.11 (0.14)           1.11          0.11 (0.14)             1.12          0.13 (0.14)            1.14         0.13 (0.14)   1.14
-BLOCK_DTYa                        0.01 (0.00)           1.01          0.01 (0.00)             1.01          0.01 (0.01)            1.01         0.00 (0.01)   1.00
-FOURWAY_DTYa                      0.40 (0.24)          0.67          0.25 (0.27)             1.29          0.57 (0.56)           0.56         0.23 (0.62)   1.25
-LIGHT_DTY a                       0.54 (0.36)           1.72          0.20 (0.82)            0.82          0.48 (0.77)            1.62         1.95 (0.89)   7.02
-MAJOR_RD_DTY a                    0.00 (0.01)          1.00          0.02 (0.02)            0.98          0.03 (0.03)            1.03         0.06 (0.03)   1.06
-LOWINCOME (ref = No) a            0.16 (0.14)          0.85          0.32 (0.16)             1.38          0.19 (0.21)            1.21         0.31 (0.27)   1.36
-Intercept                         2.14 (0.21)           8.49          2.40 (0.22)             10.98         2.04 (0.24)            7.68         1.75 (0.31)   5.73
+Low                             0.09 (0.13)            1.10          0.03 (0.13)           1.03           0.05 (0.14)     1.05        0.00 (0.13)
+High                            0.11 (0.14)            1.11          0.11 (0.14)           1.12           0.13 (0.14)     1.14        0.13 (0.14)
+BLOCK_DTYa                        0.01 (0.00)            1.01          0.01 (0.00)           1.01           0.01 (0.01)     1.01        0.00 (0.01)
+FOURWAY_DTYa                      0.40 (0.24)           0.67          0.25 (0.27)           1.29           0.57 (0.56)    0.56        0.23 (0.62)
+LIGHT_DTY a                       0.54 (0.36)            1.72          0.20 (0.82)          0.82           0.48 (0.77)     1.62        1.95 (0.89)
+MAJOR_RD_DTY a                    0.00 (0.01)           1.00          0.02 (0.02)          0.98           0.03 (0.03)     1.03        0.06 (0.03)
+LOWINCOME (ref = No) a            0.16 (0.14)           0.85          0.32 (0.16)           1.38           0.19 (0.21)     1.21        0.31 (0.27)
+Intercept                         2.14 (0.21)            8.49          2.40 (0.22)           10.98          2.04 (0.24)     7.68        1.75 (0.31)
 Summary Statistics
-2 [L(0)  L(B)]                  899.4                               893.2                                 896.2                               891.2
-AIC                               2100.5                              2106.7                                2103.7                              2108.7
-McFadden’s q2 (adj.)              0.302 (0.298)                       0.300 (0.296)                         0.301 (0.297)                       0.300 (0.295)
+2 [L(0)  L(B)]                  899.4                                893.2                                896.2                       891.2
+AIC                               2100.5                               2106.7                               2103.7                      2108.7
+McFadden’s q2 (adj.)              0.302 (0.298)                        0.300 (0.296)                        0.301 (0.297)               0.300 (0.295)
+
 Note: AST, active school transportation; DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone; OR, Odds-ratio; AIC, Akaike information criterion.
 Coef<U+FB01>cients in bold are signi<U+FB01>cant at p 6 0.01, coef<U+FB01>cients in bold italics are signi<U+FB01>cant at p 6 0.05; coef<U+FB01>cients in italics are signi<U+FB01>cant at p 6 0.10.
 a
-Variables were calculated separately for each neighborhood de<U+FB01>nition (i.e., 250 m buffer, 400 m buffer, 800 m buffer, 1000 m buffer). Other environmental data were
+Variables were calculated separately for each neighborhood de<U+FB01>nition (i.e., 250 m buffer, 400 m buffer, 800 m buffer, 1000 m buffer). Other environmental da
 available only at the TAZ level.
-model <U+FB01>t with increased neighborhood size is noticeable), but the                            cally signi<U+FB01>cant in both 250 m and 400 m models. No other built
-individual coef<U+FB01>cients related to the neighborhood environment                               environment measures were signi<U+FB01>cant (or not-signi<U+FB01>cant) at
-characteristics were inconsistent. The signs of observed associa-                            p 6 0.05 consistently across all scales of geographical aggregation,
-tions changed for some variables across spatial unit speci<U+FB01>cations.                          within each zoning scheme. In addition, the coef<U+FB01>cient values
-For example, for the models estimated with the environmental                                 clearly changed between geographical units of analysis. The <U+FB01>gure
-variables measured within a 250 m buffer of residence and school                             also demonstrated that there was no obvious trend in how the
-locations (hereafter called the 250 m models), both MA-                                      coef<U+FB01>cient values changed with geographical scale.
+
+
+
+
+model <U+FB01>t with increased neighborhood size is noticeable), but the                         cally signi<U+FB01>cant in both 250 m and 400 m models. No other built
+individual coef<U+FB01>cients related to the neighborhood environment                            environment measures were signi<U+FB01>cant (or not-signi<U+FB01>cant) at
+characteristics were inconsistent. The signs of observed associa-                         p 6 0.05 consistently across all scales of geographical aggregation,
+tions changed for some variables across spatial unit speci<U+FB01>cations.                       within each zoning scheme. In addition, the coef<U+FB01>cient values
+For example, for the models estimated with the environmental                              clearly changed between geographical units of analysis. The <U+FB01>gure
+variables measured within a 250 m buffer of residence and school                          also demonstrated that there was no obvious trend in how the
+locations (hereafter called the 250 m models), both MA-                                   coef<U+FB01>cient values changed with geographical scale.
 JOR_RD_DTY and LOWINCOME near the home location were nega-
-tively associated with AST. But, when these measures were                                    3.2. Zoning effect
+tively associated with AST. But, when these measures were                                 3.2. Zoning effect
 aggregated at the scale of a 400 m buffer (i.e., 400 m models), po-
-sitive correlations were observed for both variables. However,                                   The spatial data aggregation methods tested in this study dem-
-signs of the statistically signi<U+FB01>cant environmental variables re-                            onstrated some zoning effects. Both the statistical signi<U+FB01>cance and
-mained largely unchanged by adjustments in the scale of geo-                                 size of the built environment variables changed, somewhat incon-
-graphic aggregation. In contrast, the statistical signi<U+FB01>cance and                            sistently, across different zoning schemes at a comparable scale
-the size of the coef<U+FB01>cients varied noticeably across different scales                        (e.g., 250 m buffer versus DA) (Tables 4 and 5). In order to examine
-of analysis (Tables 4 and 5). In other words, the impact of each var-                        the potential zoning effects in further detail, the built environment
-iable on AST odds was inconsistent across scales of analysis. The                            coef<U+FB01>cients across spatial units at a similar scale were compared
-largest number of environmental associations with active travel                              using the standard-difference-in-means test [1]. The estimated
-mode choice (3 coef<U+FB01>cients at p 6 0.05; combined from home-                                  coef<U+FB01>cients from the 250 m models were compared with the coef-
-end and school-end models) was found for the 400 m models                                    <U+FB01>cients from the DA models, and the coef<U+FB01>cient values from the
-and the DA models. At larger scales (i.e., 800 m models, 1000 m                              800 m models were compared with the values obtained from the
-models, TAZ models), fewer environmental characteristics were                                TAZ models. The results are presented in Table 6. The estimated
-shown to associate with the odds of taking active transportation.                            coef<U+FB01>cients of half of the built environment variables statistically
-Fig. 2 summarizes the variation in the statistically signi<U+FB01>cant                         varied between the two aggregation schemes. No particular pat-
-built environment coef<U+FB01>cient values across different neighborhood                            tern, however, was present in the observed variation in coef<U+FB01>cient
-de<U+FB01>nitions. The purpose of this <U+FB01>gure was to examine the differ-                             estimates. The statistical signi<U+FB01>cance, size and direction of the BE–
-ence in the coef<U+FB01>cient size of a variable, across the scales of mea-                         AST association varied inconsistently between the buffers and cen-
-surement. Although LOWINCOME was conceptualized in this                                      sus boundaries at different scales.
+sitive correlations were observed for both variables. However,                                The spatial data aggregation methods tested in this study dem-
+signs of the statistically signi<U+FB01>cant environmental variables re-                         onstrated some zoning effects. Both the statistical signi<U+FB01>cance and
+mained largely unchanged by adjustments in the scale of geo-                              size of the built environment variables changed, somewhat incon-
+graphic aggregation. In contrast, the statistical signi<U+FB01>cance and                         sistently, across different zoning schemes at a comparable scale
+the size of the coef<U+FB01>cients varied noticeably across different scales                     (e.g., 250 m buffer versus DA) (Tables 4 and 5). In order to examine
+of analysis (Tables 4 and 5). In other words, the impact of each var-                     the potential zoning effects in further detail, the built environment
+iable on AST odds was inconsistent across scales of analysis. The                         coef<U+FB01>cients across spatial units at a similar scale were compared
+largest number of environmental associations with active travel                           using the standard-difference-in-means test [1]. The estimated
+mode choice (3 coef<U+FB01>cients at p 6 0.05; combined from home-                               coef<U+FB01>cients from the 250 m models were compared with the coef-
+end and school-end models) was found for the 400 m models                                 <U+FB01>cients from the DA models, and the coef<U+FB01>cient values from the
+and the DA models. At larger scales (i.e., 800 m models, 1000 m                           800 m models were compared with the values obtained from the
+models, TAZ models), fewer environmental characteristics were                             TAZ models. The results are presented in Table 6. The estimated
+shown to associate with the odds of taking active transportation.                         coef<U+FB01>cients of half of the built environment variables statistically
+Fig. 2 summarizes the variation in the statistically signi<U+FB01>cant                       varied between the two aggregation schemes. No particular pat-
+built environment coef<U+FB01>cient values across different neighborhood                         tern, however, was present in the observed variation in coef<U+FB01>cient
+de<U+FB01>nitions. The purpose of this <U+FB01>gure was to examine the differ-                          estimates. The statistical signi<U+FB01>cance, size and direction of the BE–
+ence in the coef<U+FB01>cient size of a variable, across the scales of mea-                      AST association varied inconsistently between the buffers and cen-
+surement. Although LOWINCOME was conceptualized in this                                   sus boundaries at different scales.
 study as a neighborhood attribute, Fig. 2 focuses speci<U+FB01>cally on
-neighborhood design characteristics, and compares estimated                                  3.3. Correlates of AST
+neighborhood design characteristics, and compares estimated                               3.3. Correlates of AST
 coef<U+FB01>cients for four built environment measures only. None of
-the built environment variables were associated (at p 6 0.05) with                               All estimated models included the same variables, but the envi-
-AST at the scales of 800 m and 1000 m; these two spatial units                               ronmental measures were aggregated based on a different neigh-
-were therefore not included in this <U+FB01>gure. Fig. 2 indicated the pres-                        borhood construct for each set of models. Tables 4 and 5
-ence of scale effects in all built environment measures except MA-                           indicated that male students were more likely to use an active tra-
-JOR_RD_DTY, which was not a statistically signi<U+FB01>cant predictor of                            vel mode for trips to school. A household’s access to private auto-
-AST at any scale/zone system. Among the three other variables,                               mobiles was negatively associated with AST. Children were also
-only FOURWAY_DTY near the school location remained statisti-                                 more likely to walk/cycle to school if they lived close to their
+the built environment variables were associated (at p 6 0.05) with                           All estimated models included the same variables, but the envi-
+AST at the scales of 800 m and 1000 m; these two spatial units                            ronmental measures were aggregated based on a different neigh-
+were therefore not included in this <U+FB01>gure. Fig. 2 indicated the pres-                     borhood construct for each set of models. Tables 4 and 5
+ence of scale effects in all built environment measures except MA-                        indicated that male students were more likely to use an active tra-
+JOR_RD_DTY, which was not a statistically signi<U+FB01>cant predictor of                         vel mode for trips to school. A household’s access to private auto-
+AST at any scale/zone system. Among the three other variables,                            mobiles was negatively associated with AST. Children were also
+only FOURWAY_DTY near the school location remained statisti-                              more likely to walk/cycle to school if they lived close to their
+57
+
+
+
+
+
+
+
+OR
+1.34
+0.67
+0.16
+
+1.61
+2.13
+
+1.00
+1.14
+1.00
+1.25
+7.02
+1.06
+1.36
+5.73
 
 
 
@@ -699,23 +845,7 @@ only FOURWAY_DTY near the school location remained statisti-                    
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ta were
 
 
 
@@ -761,25 +891,89 @@ only FOURWAY_DTY near the school location remained statisti-                    
 
 
 58                                                  R. Mitra, R.N. Buliung / Journal of Transport Geography 20 (2012) 51–61
+
+
 250m Buffer                                          400m Buffer
-1.0                                                  1.0
+
+
+
+
+1.0
+
+
+
+
+1.0
 BLOCK_DTY
 FOURWAY_DTY
-0.5                                                  0.5                         LIGHT_DTY
+
+
+
+
+0.5
+
+
+
+
+0.5
+LIGHT_DTY
 MAJOR_RD_DTY
-0.0                                                  0.0
--1.0 -0.5                                            -1.0 -0.5
+
+0.0
+
+
+
+
+0.0
+-1.0 -0.5
+
+
+
+
+-1.0 -0.5
 Home_BE            School_BE                         Home_BE          School_BE
+
+
+
 DA                                                 TAZ
-1.0                                                 1.0
-0.5                                                 0.5
-0.0                                                 0.0
--1.0 -0.5                                           -1.0 -0.5
+1.0
+
+
+
+
+1.0
+0.5
+
+
+
+
+0.5
+0.0
+
+
+
+
+0.0
+-1.0 -0.5
+
+
+
+
+-1.0 -0.5
+
+
+
+
 Home_BE            School_BE                         Home_BE          School_BE
-Fig. 2. Coef<U+FB01>cient values for statistically signi<U+FB01>cant built environment variables. Note: Home_BE, built environment near home location; School_BE, built environment nea
+
+Fig. 2. Coef<U+FB01>cient values for statistically signi<U+FB01>cant built environment variables. Note: Home_BE, built environment near home location; School_BE, built environment ne
 school location; DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone. Y-axis values represent the size of the estimated built environment coef<U+FB01>cients.
+
+
+
 Table 6
 Standard-difference-in-means test of zoning effects in the built environment measures.
+
 250 m buffer                DA                                               800 m buffer           TAZ
 Coef. (S.E.)                Coef. (S.E.)                t-diff.              Coef. (S.E.)           Coef. (S.E.)               t-diff.
 Home model
@@ -792,8 +986,12 @@ BLOCK_DTY                   0.03 (0.02)                 0.01 (0.00)             
 FOURWAY_DTY                 0.65 (0.31)                0.25 (0.27)                 21.116              0.23 (0.75)           0.23   (0.62)              3.496
 LIGHT_DTY                   0.20 (0.55)                0.20 (0.82)                0.004                1.08 (1.36)            1.95   (0.89)              1.831
 MAJOR_RD_DTY                0.04 (0.02)                0.02 (0.02)                17.000              0.01 (0.04)            0.06   (0.03)              5.875
+
 Note: DA, census dissemination area; TAZ, traf<U+FB01>c analysis zone.
 Coef<U+FB01>cients in bold are signi<U+FB01>cant at p 6 0.01, coef<U+FB01>cients in bold italics are signi<U+FB01>cant at p 6 0.05.
+
+
+
 schools. The density of walking trips near both home and school                               within the DA of a school) were more likely to actively travel to
 locations were associated with AST; a child was more likely to                                school than others; socio-economic status of the home neighbor-
 walk/cycle to school in places where other people also walked.                                hood was not statistically associated with walking/cycling. Land
@@ -825,7 +1023,75 @@ neighborhoods (measured using a 400 m or 1000 m buffer, and                     
 
 
 
-r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ar
+
+
+
+
+
+
+
+
 
 
 
@@ -860,6 +1126,8 @@ r
 
 
 R. Mitra, R.N. Buliung / Journal
+
+
 were estimated for six different spatial units and entered into six
 sets of logistic regression models of school travel mode choice
 for trips to school. Only small variation in model <U+FB01>t was observed
@@ -926,7 +1194,9 @@ neighborhood elementary schools are closing and certainly there
 has been an emerging conversation within school boards to con-
 sider closure of neighborhood schools in favor of larger ‘‘economi-
 cally ef<U+FB01>cient’’ alternatives. These larger schools will accommodate
-of Transport Geography 20 (2012) 51–61                                     59
+of Transport Geography 20 (2012) 51–61                                 59
+
+
 more students, from a larger area, potentially leading to increased
 use of the automobile and other passive (or perhaps, less active)
 modes such as school buses. The effect of this economic rationali-
@@ -994,7 +1264,9 @@ gories. Recent empirical research has emphasized differences in
 behavioral processes across individual travel modes, such as be-
 tween driving, using transit, cycling and walking (Ewing et al.,
 
-60                                                  R. Mitra, R.N. Buliung / Journal
+60                                               R. Mitra, R.N. Buliung / Journal
+
+
 2004; Lin and Chang, 2010; Yarlagadda and Srinivasan, 2008).
 
 While these potential differences are acknowledged, the purpose
@@ -1087,6 +1359,8 @@ Longman, Essex, UK.
 Banerjee, T., Baer, W.C., 1984. Beyond the Neighborhood Unit: Residential
 Environment and Public Policy. Plenum Press, New York.
 of Transport Geography 20 (2012) 51–61
+
+
 Basu, R., 2007. Negotiating acts of citizenship in an era of Neoliberal reform: the
 game of school closures. International Journal of Urban and Regional Research
 

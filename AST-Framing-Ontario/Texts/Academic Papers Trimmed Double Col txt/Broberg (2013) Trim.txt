@@ -1,9 +1,18 @@
 
 
 Applied Geography 38 (2013) 43e52
+
+
+
 Contents lists available at SciVerse ScienceDirect
+
+
 Applied Geography
 journal homepage: www.elsevier.com/locate/apgeog
+
+
+
+
 Physical environmental characteristics promoting independent and active
 transport to children’s meaningful places
 Anna Broberg a, *, Samuli Salminen b, Marketta Kyttä a
@@ -11,47 +20,56 @@ a
 Department of Surveying and Planning, Aalto University, P.O. Box 12200, FI-00076 Aalto, Finland
 b
 Department of Mathematics and Statistics, University of Helsinki, P.O. Box 68, FI-00014 University of Helsinki, Finland
+
+
+
+
 a b s t r a c t
-Keywords:                                               Research on urban structural characteristics promoting physical activity is often focussing on just few of
-Urban structure                                         the settings where children and youth spend their time. To overcome this, we used mapping method-
+Keywords:                                                  Research on urban structural characteristics promoting physical activity is often focussing on just few of
+Urban structure                                            the settings where children and youth spend their time. To overcome this, we used mapping method-
 GIS
 ology where children themselves de<U+FB01>ned their important places. Then, the associations between the
 Principal component analysis
 Independent mobility
 urban structure and children’s active transport and independent mobility were studied. Principal
-Physical activity                                       component analysis was used to compose multivariate pro<U+FB01>les of physical environment around mean-
-Children                                                ingful places. We found that structure dominated by single family housing promoted both independent
+Physical activity                                          component analysis was used to compose multivariate pro<U+FB01>les of physical environment around mean-
+Children                                                   ingful places. We found that structure dominated by single family housing promoted both independent
 mobility and use of active transport modes. Dense urban residential structure allowed for independent
 mobility but did not promote active transport.
-Ó 2012 Elsevier Ltd. All rights reserv
-Introduction                                                                                    Rather than narrowing the scope of our research to a few
+Ó 2012 Elsevier Ltd. All rights reserved.
+
+
+
+
+Introduction                                                                                       Rather than narrowing the scope of our research to a few
 locations and trips, the focus should be on the multiple environ-
-Children’s physical activity and active transportation (van Loon                        ments where children and young people spend their time. Indeed,
-& Frank, 2011; Mikkelsen & Christensen, 2009; Pont, Ziviani,                                only a third of the daily trips Finnish children make are to and from
-Wadley, Bennett, & Abbott, 2009) and related obesity (Dunton,                               school, while 52 per cent of the trips are made due to leisure
-Kaplan, Wolch, Jerrett, & Reynolds, 2009) in different physical                             activities and the remaining 15 per cent due to shopping and other
-environments are themes that have been widely researched in                                 errands (Finnish Transport Agency, 2012). Moreover, concentrating
-recent years. Commonly, this body of research hopes to discover                             on some speci<U+FB01>c locations, such as parks, and researching their role
-which elements of the physical environment could promote                                    in promoting physical activity, is problematic. While green envi-
-physical activity in children and young people, who are becoming                            ronments as settings for physical activity are widely studied,
-increasingly overweight and are getting less and less exercise.                             a recent study (Wheeler, Cooper, Page, & Jago, 2010) found that as
-The research on environments promoting physical activity has                            little as 7e9 per cent of daily physical activity happened in parks.
-often concentrated on some speci<U+FB01>c locations or trips, when in fact                             Physical activity can be measured quantitatively using acceler-
-children’s physical activity takes place in a variety of places (van                        ometers or heart rate monitoring. When a global positioning
-Loon & Frank, 2011). The focus has too often been on the built                              system (GPS) is added to the equipment, information on the loca-
-environment surrounding a child’s home, school or on some                                   tion of the activity becomes available, allowing the physical envi-
-speci<U+FB01>c structures, such as parks. In addition, much of the research                        ronment to be analysed (see e.g. Rainham et al., 2012; Rodríguez
-has concentrated on mobility on trips to school (e.g. Spinney &                             et al., 2012). Technical solutions are not the only way of
-Millward, 2011). In their study on London children, Steinbach,                              measuring physical activity, but the qualitative aspects of children’s
-Green, and Edwards (2012) found no signi<U+FB01>cant environmental                                 physical activity can also be successfully studied. Namely, inde-
-correlates of walking on the school journey, but several that were                          pendent mobility e the possibility to travel to places alone e or
-associated with walking outside the school commute and at                                   activity of transport mode can be used as qualitative proxies for
-weekends or during holidays. The writers hypothesise that the                               physical activity. Page, Cooper, Griew, Davis, and Hillsdon (2009)
-walking environment plays a bigger role in the travel mode choice                           have shown that self-reported independent mobility (to eleven
-for the optional trips.                                                                     queried destinations) is related to objectively measured weekday
+Children’s physical activity and active transportation (van Loon                           ments where children and young people spend their time. Indeed,
+& Frank, 2011; Mikkelsen & Christensen, 2009; Pont, Ziviani,                                   only a third of the daily trips Finnish children make are to and from
+Wadley, Bennett, & Abbott, 2009) and related obesity (Dunton,                                  school, while 52 per cent of the trips are made due to leisure
+Kaplan, Wolch, Jerrett, & Reynolds, 2009) in different physical                                activities and the remaining 15 per cent due to shopping and other
+environments are themes that have been widely researched in                                    errands (Finnish Transport Agency, 2012). Moreover, concentrating
+recent years. Commonly, this body of research hopes to discover                                on some speci<U+FB01>c locations, such as parks, and researching their role
+which elements of the physical environment could promote                                       in promoting physical activity, is problematic. While green envi-
+physical activity in children and young people, who are becoming                               ronments as settings for physical activity are widely studied,
+increasingly overweight and are getting less and less exercise.                                a recent study (Wheeler, Cooper, Page, & Jago, 2010) found that as
+The research on environments promoting physical activity has                               little as 7e9 per cent of daily physical activity happened in parks.
+often concentrated on some speci<U+FB01>c locations or trips, when in fact                                Physical activity can be measured quantitatively using acceler-
+children’s physical activity takes place in a variety of places (van                           ometers or heart rate monitoring. When a global positioning
+Loon & Frank, 2011). The focus has too often been on the built                                 system (GPS) is added to the equipment, information on the loca-
+environment surrounding a child’s home, school or on some                                      tion of the activity becomes available, allowing the physical envi-
+speci<U+FB01>c structures, such as parks. In addition, much of the research                           ronment to be analysed (see e.g. Rainham et al., 2012; Rodríguez
+has concentrated on mobility on trips to school (e.g. Spinney &                                et al., 2012). Technical solutions are not the only way of
+Millward, 2011). In their study on London children, Steinbach,                                 measuring physical activity, but the qualitative aspects of children’s
+Green, and Edwards (2012) found no signi<U+FB01>cant environmental                                    physical activity can also be successfully studied. Namely, inde-
+correlates of walking on the school journey, but several that were                             pendent mobility e the possibility to travel to places alone e or
+associated with walking outside the school commute and at                                      activity of transport mode can be used as qualitative proxies for
+weekends or during holidays. The writers hypothesise that the                                  physical activity. Page, Cooper, Griew, Davis, and Hillsdon (2009)
+walking environment plays a bigger role in the travel mode choice                              have shown that self-reported independent mobility (to eleven
+for the optional trips.                                                                        queried destinations) is related to objectively measured weekday
 physical activity in children aged 10e11 years. It has also been
-* Corresponding author. Tel.: þ358 50 512 4554.                                           reliably shown that children who report active commute modes,
-E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                      walking or cycling on their school journey accumulate signi<U+FB01>cantly
+* Corresponding author. Tel.: þ358 50 512 4554.                                            reliably shown that children who report active commute modes,
+E-mail address: anna.broberg@aalto.<U+FB01> (A. Broberg).                                       walking or cycling on their school journey accumulate signi<U+FB01>cantly
+
 0143-6228/$ e see front matter Ó 2012 Elsevier Ltd. All rights reserved.
 http://dx.doi.org/10.1016/j.apgeog.2012.11.014
 
@@ -77,7 +95,6 @@ http://dx.doi.org/10.1016/j.apgeog.2012.11.014
 
 
 
-ed.
 
 
 
@@ -109,7 +126,28 @@ ed.
 
 
 
-44                                                 A. Broberg et al. /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44                                                A. Broberg et al. / Applied
+
+
 more objectively measured physical activity (Faulkner, Buliung,
 Flora, & Fusco, 2009).
 Research methods used for studying the physical environment
@@ -175,7 +213,9 @@ dential density and land use mix, after which they made these nine
 variables comparable and calculated a moveability index.
 In this study, we use principal component analysis to compose
 multivariate pro<U+FB01>les of the physical environment around
-Applied Geography 38 (2013) 43e52
+Geography 38 (2013) 43e52
+
+
 meaningful places that children have marked on maps. We further
 analyse whether some environments, as de<U+FB01>ned by these multi-
 variate pro<U+FB01>les, promote children’s active transport and indepen-
@@ -242,27 +282,43 @@ friends, and accompanied by an adult. The answers were recoded
 into a dichotomous variable: coming to the place alone (1) as
 opposed to with friends or adults (0).
 
-A. Broberg et al.
-Fig. 1. Respondents were asked to mark different places that were meaningful to
+A. Broberg et
+
+
+
+
+Fig. 1. Respondents were asked to mark different places that were meaningful
+
+
+
 The transport mode to the place was measured with the ques-
 tion “How do you get to this place?” The selectable options were
 walking or riding a bike, using public transport, and being driven in
 a car. A dichotomous variable was created: active transport (on foot
 or by bicycle) used to travel to the place (1), and journey made
 inactively, using car or public transportation (0).
+
 Physical environmental variables
 
 The physical environment of the localisations was studied by
 building a 50-m buffer zone around each meaningful place. This
 buffer size was selected to study the immediate surroundings of the
 places and to allow enough variance in the environmental variables.
-/ Applied Geography 38 (2013) 43e52                                                               45
-them on a map. After each localisation, a set of questions concerning travel to the place were asked.
+al. / Applied Geography 38 (2013) 43e52                                                              45
+
+
+
+
+to them on a map. After each localisation, a set of questions concerning travel to the place were asked.
+
+
+
 The bigger the buffer size is, the more the environmental charac-
 teristics are generalised. A total of 14 GIS-based measures were
 calculated within this buffer and included six land use variables, four
 variables of building or residential density, three traf<U+FB01>c environment
 variables, and one variable concerning the recreational possibilities.
+
 
  Land use mix (as de<U+FB01>ned by Frank, Andresen, & Schmid, 2004)
 was calculated as the evenness between proportions of resi-
@@ -271,7 +327,9 @@ land use-related variables were proportions of <U+FB01>ve different
 land uses within the buffer. The proportions were calculated
 for green areas (i.e. parks and forests), single-family residential
 
-46                                                  A. Broberg et al. /
+46                                                 A. Broberg et al. / Applied
+
+
 areas, semi-detached housing residential areas, apartment
 building residential areas, and traf<U+FB01>c areas.
  The size of the population within the buffer was calculated as
@@ -339,7 +397,9 @@ system and cooperates with the Ministry of Education and Culture,
 the Finnish municipalities, the Finnish Sports Federation and other
 sports organisations in maintaining the information on recreational
 facilities.
-Applied Geography 38 (2013) 43e52
+Geography 38 (2013) 43e52
+
+
 Analysis
 
 The urban structural variables were extracted from register-
@@ -389,9 +449,9 @@ semivariograms simply measure how much the values
 of residuals resemble each other on average at a certain
 distance.
 Empirical semivariogram (a distance h apart):
-1 X            2
+1 X         2
 
-gðhÞ ¼              yi  yj                                          (1)
+gðhÞ ¼           yi  yj                                            (1)
 2m
 
 where m is the number of pairs of residuals at a distance h apart.
@@ -409,29 +469,43 @@ the distance between residuals grows to more than 1000 m, which
 is also the distance after which SAC is near zero.
 
 A. Broberg et al. / Applied Geography 38 (2013) 43e52
+
+
+
+
 Fig. 2. Empirical semivariograms of residuals from a simple logistic regression model (a, left), and from a logistic regression model where spatial correlation is included
 as random effects of observations (b, right).
-The presence of spatial autocorrelation (SAC) between                                          Equations (2) and (3) represent a simple linear model and
-residuals in a regression model violates the assumption of non-                                 a linear mixed model, respectively. In logistic regression there is
-correlated residuals and in<U+FB02>ates type I errors, which may even                                  additionally the logistic link function between dependent variable
-cause bias in regression coef<U+FB01>cient estimates (see e.g. Dormann                                 Y and the model. In our solution to the overdispersion problem, SAC
-et al., 2007; Kühn, 2007). One statistical solution to overcome                                 is simply taken as random effects of the model, here represented by
-the SAC in regression analysis is the geographically weighted                                   u. It has the dimension of a number of observations. A detailed
-regression (Brunsdon, Fotheringham, & Charlton, 1996; Cardozo,                                  explanation of using GLMM in modelling spatial variation is
-García-Palomares, & Gutiérrez, 2012; Chen & Truong, 2012).                                      provided by Littell, Milliken, Stroup, Wol<U+FB01>nger, and Schabenberger
-Another solution to overcome the overdispersion in models is to                                 (2006). In this way, all “extra” correlation in original models can be
-use techniques based on generalised linear mixed models                                         taken into these models, and the independence of residuals is
-(GLMM). The effectiveness of this solution comes from the fact                                  attained, i.e. SAC between residuals will be zero at all distances. In
-that the positive “extra” correlation or variance is included in                                practice, this was done by using the Glimmix procedure in the SAS
-the model observation-wise (or residual-wise) as random                                         statistical program. The Glimmix procedure is especially designed
-effects.                                                                                        to estimate generalised linear mixed models. In addition, it has
+
+
+The presence of spatial autocorrelation (SAC) between                                           Equations (2) and (3) represent a simple linear model and
+residuals in a regression model violates the assumption of non-                                a linear mixed model, respectively. In logistic regression there is
+correlated residuals and in<U+FB02>ates type I errors, which may even                                 additionally the logistic link function between dependent variable
+cause bias in regression coef<U+FB01>cient estimates (see e.g. Dormann                                Y and the model. In our solution to the overdispersion problem, SAC
+et al., 2007; Kühn, 2007). One statistical solution to overcome                                is simply taken as random effects of the model, here represented by
+the SAC in regression analysis is the geographically weighted                                  u. It has the dimension of a number of observations. A detailed
+regression (Brunsdon, Fotheringham, & Charlton, 1996; Cardozo,                                 explanation of using GLMM in modelling spatial variation is
+García-Palomares, & Gutiérrez, 2012; Chen & Truong, 2012).                                     provided by Littell, Milliken, Stroup, Wol<U+FB01>nger, and Schabenberger
+Another solution to overcome the overdispersion in models is to                                (2006). In this way, all “extra” correlation in original models can be
+use techniques based on generalised linear mixed models                                        taken into these models, and the independence of residuals is
+(GLMM). The effectiveness of this solution comes from the fact                                 attained, i.e. SAC between residuals will be zero at all distances. In
+that the positive “extra” correlation or variance is included in                               practice, this was done by using the Glimmix procedure in the SAS
+the model observation-wise (or residual-wise) as random                                        statistical program. The Glimmix procedure is especially designed
+effects.                                                                                       to estimate generalised linear mixed models. In addition, it has
 a feature that allows spatial variability to be modelled as explained.
-Y ¼ Xb þ e                                                                           (2)            Empirical semivariograms were calculated for residuals from
+Y ¼ Xb þ e                                                                          (2)            Empirical semivariograms were calculated for residuals from
 models estimated by the Glimmix procedure. In Fig. 2b, an empir-
 ical semivariogram is represented as an example for a model in
-Y ¼ X b þ Zu þ e                                                                     (3)        which travelling alone was explained with principal component 4.
+Y ¼ X b þ Zu þ e                                                                    (3)        which travelling alone was explained with principal component 4.
+
+
+
+
 Fig. 3. The independence and activity of transport to meaningful places.
 47
+
+
+
+
 in the model
 
 
@@ -455,7 +529,15 @@ in the model
 
 
 
-48                                                          A. Broberg et al. / Applied
+
+
+
+
+
+
+48                                                           A. Broberg
+
+
 Here the empirical semivariogram is level at all distances. This
 indicates that SAC between residuals is close to zero and that there
 is no overdispersion. This applied also for the other models rep-
@@ -499,38 +581,40 @@ density was just a little over 27 units/ha. On average, different
 Table 1
 Descriptive statistics of the variables used in analysis.
 
-Year 5s        Year 8s      Girls          Boys
+Year 5s         Year 8s      Girls
 Independent mobility
-Alone                           28%            30%          29%            30%
-With friends                    58%            60%          59%            58%
+Alone                          28%             30%          29%
+With friends                   58%             60%          59%
 
-With adults                     14%            10%          12%            12%
+With adults                    14%             10%          12%
 Transport mode
-Walking or cycling              75%            61%          66%            68%
-Public transportation           17%            32%          27%            23%
-Car                              8%             8%           7%             8%
-Mean               Standard
-deviation
-Distance from home (kilometers)                      3.1                3.8
-# Population                                       34.9               64.7
-# Housing units/hectare                            27.3               55.0
-% Land cover apartment build.                      10.1               21.7
+Walking or cycling             75%             61%          66%
+Public transportation          17%             32%          27%
+Car                             8%              8%           7%
+Mean
 
-# Buildings                                          2.7                3.1
-% Land cover single fam. housing                     9.7              21.3
-% Land cover semi-detached                           4.9              14.3
-% Land cover traf<U+FB01>c areas                          19.2               19.7
+Distance from home (kilometers)                     3.1
+# Population                                       34.9
+# Housing units/hectare                            27.3
+% Land cover apartment build.                      10.1
 
-# Intersections                                       .4                 .7
-Land use mix                                          .2                 .2
-% Land cover green                                 30.5               37.9
-Dist. to nearest recreation facility                  .17                .21
-Dist. to nearest bus stop                             .20                .25
-Floor area ratio                                      .9                2.0
-# Bus stops                                           .5                1.8
+# Buildings                                         2.7
+% Land cover single fam. housing                    9.7
+% Land cover semi-detached                          4.9
+% Land cover traf<U+FB01>c areas                          19.2
+
+# Intersections                                      .4
+Land use mix                                         .2
+% Land cover green                                 30.5
+Dist. to nearest recreation facility                 .17
+Dist. to nearest bus stop                            .20
+Floor area ratio                                     .9
+# Bus stops                                          .5
 
 
-Geography 38 (2013) 43e52
+et al. / Applied Geography 38 (2013) 43e52
+
+
 residential land uses account for roughly one-quarter of the land
 cover, traf<U+FB01>c accounting for one-<U+FB01>fth of the land cover and green
 areas approximately 30 per cent (see Table 1). Generally, the
@@ -574,70 +658,90 @@ associated only with long distances to the nearest bus stop and
 recreational facility, while the <U+FB01>fth component (PC5) was charac-
 
 terised by high <U+FB02>oor area ratios and the large number of bus stops.
-High loadings on the fourth component are mainly concentrated on
+Boys         High loadings on the fourth component are mainly concentrated on
 the remote islands and coastal areas, while low loadings are
-concentrated around sports facilities. The high loadings on the <U+FB01>fth
-
+30%          concentrated around sports facilities. The high loadings on the <U+FB01>fth
+58%
 component are found especially near big shopping centres in the
-
+12%
 city centre and the malls along the ring roads, and some transport
-hubs can also be distinguished on the map.
-
-Associations of the urban structure components on independent
-mobility and active transport
-
-The principal components of urban structure had highly
-signi<U+FB01>cant associations with the independent mobility to mean-
-
-
+68%          hubs can also be distinguished on the map.
+23%
+8%          Associations of the urban structure components on independent
+Standard          mobility and active transport
+deviation
+3.8                 The principal components of urban structure had highly
+64.7              signi<U+FB01>cant associations with the independent mobility to mean-
+55.0
+21.7
 ingful places, as shown in Table 3 (part a). Higher scores on
-components PC2 and PC4, signifying single-family housing and
-long distances from public transport and sports facilities, increased
-the likelihood of travelling to the place alone. In addition, dense
-
+3.1              components PC2 and PC4, signifying single-family housing and
+21.3              long distances from public transport and sports facilities, increased
+14.3              the likelihood of travelling to the place alone. In addition, dense
+19.7
 residential structure (PC1) increased the probability of travelling to
-
-the place alone, but this association was less signi<U+FB01>cant. Compo-
-nent PC5 that had high loadings of <U+FB02>oor area ratio and the number
-of public transport stops had an inverse association with inde-
-pendent mobility. That is, the higher the loading on PC5, the
-
-
+.7
+.2              the place alone, but this association was less signi<U+FB01>cant. Compo-
+37.9              nent PC5 that had high loadings of <U+FB02>oor area ratio and the number
+.21             of public transport stops had an inverse association with inde-
+.25             pendent mobility. That is, the higher the loading on PC5, the
+2.0
+1.8
 smaller the probability of travelling to the place alone. The
 component associated with traf<U+FB01>c land use and few green areas
 
-A. Broberg et al. / Applied Geography 38 (2013) 43e52                                              49
+A. Broberg et al. / Applied Geography 38 (2013) 43e52
+
 Table 2
 Loadings for PCA of variables measuring different aspects of the built environment.
-Variable                                   PC1                        PC2                        PC3                      PC4           PC5
-densely built-up           mainly single              traf<U+FB01>c dominance         remote places big buildings and
-residential areas          family housing                                                    public transport hubs
-# Population                                 .944                       .100                       .095                   .048           .114
-# Housing units/hectare                      .928                       .029                       .072                   .057           .219
-% Land cover apartment build.                .847                     .107                        .112                   .047         .165
-# Buildings                                  .214                       .907                       .146                   .023         .029
-% Land cover single fam. housing           .148                        .843                       .041                      .055       .086
-% Land cover semi-detached                 .030                        .561                      .050                      .073       .050
-% Land cover traf<U+FB01>c areas                  .017                      .030                        .819                   .036           .220
-# Intersections                              .050                     .026                        .793                      .010       .106
-Land use mix                                 .236                       .153                       .557                   .273         .013
-% Land cover green                         .282                      .462                      L.537                    .002         .334
-Dist. to nearest recreation facility       .044                        .190                       .036                      .878       .010
-Dist. to nearest bus stop                  .064                      .044                       .202                      .835       .174
-Floor area ratio                             .287                     .039                       .073                   .118           .795
-# Bus stops                                .129                      .119                        .174                   .062           .767
+
+Variable                                    PC1                       PC2                       PC3                        PC4             PC5
+densely built-up          mainly single             traf<U+FB01>c dominance           remote places   big buildings and
+residential areas         family housing                                                       public transport hu
+# Population                                 .944                      .100                      .095                      .048            .114
+# Housing units/hectare                      .928                      .029                      .072                      .057            .219
+% Land cover apartment build.                .847                     .107                      .112                      .047           .165
+# Buildings                                  .214                      .907                      .146                      .023           .029
+% Land cover single fam. housing            .148                      .843                      .041                       .055           .086
+% Land cover semi-detached                  .030                      .561                     .050                       .073           .050
+% Land cover traf<U+FB01>c areas                   .017                     .030                      .819                      .036            .220
+# Intersections                              .050                     .026                      .793                       .010           .106
+Land use mix                                 .236                      .153                      .557                      .273           .013
+% Land cover green                          .282                     .462                     L.537                      .002           .334
+Dist. to nearest recreation facility        .044                      .190                      .036                       .878           .010
+Dist. to nearest bus stop                   .064                     .044                     .202                       .835           .174
+Floor area ratio                             .287                     .039                     .073                      .118            .795
+# Bus stops                                 .129                     .119                      .174                      .062            .767
+
 Extraction method: principal component analysis. Rotation method: varimax with Kaiser normalisation.
 The bold value signi<U+FB01>es the principal component scores with absolute values over .5.
-(PC3) did not have a signi<U+FB01>cant association with the independence                          travelled to actively, while traf<U+FB01>c domination and a dense resi-
-of mobility to the place.                                                                  dential fabric around the place discouraged active transport. The
-The associations between urban structure and active transport                          probability of travelling to the place using active transport
-to meaningful places were less profound, but still signi<U+FB01>cant in                           decreased as loading of principal component PC5 increased. The
-many cases (Table 3, part b). High loadings on principal compo-                            highest loadings of this component are indeed particularly found in
-nents PC1 and PC3 lessened the likelihood of travelling to the place                       city centre shopping venues and the malls along ring roads, and it is
-on foot or by bicycle, while higher loadings of PC2 increased the                          not surprising that the association with both active transport and
-likelihood. That is, the more single-family dominated the urban                            independent mobility is negative. PC4 did not have statistically
-structure around the place is, the likelier it was that the place was                      signi<U+FB01>cant association with active transportation. Age group was
+
+
+
+(PC3) did not have a signi<U+FB01>cant association with the independence                        travelled to actively, while traf<U+FB01>c domination and a dense resi-
+of mobility to the place.                                                                dential fabric around the place discouraged active transport. The
+The associations between urban structure and active transport                        probability of travelling to the place using active transport
+to meaningful places were less profound, but still signi<U+FB01>cant in                         decreased as loading of principal component PC5 increased. The
+many cases (Table 3, part b). High loadings on principal compo-                          highest loadings of this component are indeed particularly found in
+nents PC1 and PC3 lessened the likelihood of travelling to the place                     city centre shopping venues and the malls along ring roads, and it is
+on foot or by bicycle, while higher loadings of PC2 increased the                        not surprising that the association with both active transport and
+likelihood. That is, the more single-family dominated the urban                          independent mobility is negative. PC4 did not have statistically
+structure around the place is, the likelier it was that the place was                    signi<U+FB01>cant association with active transportation. Age group was
+
+
+
+
 Fig. 4. PCA loadings of the <U+FB01>ve components in relation to the meaningful places.
+49
+
+
+
+
+
+
+bs
+
+
 
 
 
@@ -672,36 +776,37 @@ Fig. 4. PCA loadings of the <U+FB01>ve components in relation to the meaningful 
 
 
 50                                                          A. Broberg et al. / Applied
+
 Table 3
 Place-based analyses on independent access (a) and active transport (b) to the
 meaningful places in relation to the principal components of urban structure. The
 models have been controlled for age group, car ownership, and distance from home.
 
 
-Odds   95% Con<U+FB01>dence interval           p Value
+Odds    95% Con<U+FB01>dence interval        p Value
 
 ratio
 
 (a) Place travelled to alone
 
-PC1 densely built-up            1.156  1.062          1.259                .0009
+PC1 densely built-up              1.156   1.062         1.259             .0009
 residential areas
-PC2 mainly single family        1.271  1.173          1.378             <.0001
+PC2 mainly single family          1.271   1.173         1.378           <.0001
 housingb
-PC3 traf<U+FB01>c dominance            1.049    .962         1.144                .2793
-PC4 remote places               1.174  1.088          1.266             <.0001
-PC5 big buildings and            .760    .677           .855            <.0001
+PC3 traf<U+FB01>c dominance              1.049    .962         1.144            .2793
+PC4 remote places                 1.174   1.088         1.266           <.0001
+PC5 big buildings and              .760    .677          .855           <.0001
 
 public transport hubs
 (b) Place travelled to actively
-PC1 densely built-up             .876    .785           .977               .0176
+PC1 densely built-up               .876    .785          .977             .0176
 residential areasa
 
-PC2 mainly single family        1.163  1.038          1.303                .0096
+PC2 mainly single family          1.163   1.038         1.303             .0096
 housinga
-PC3 traf<U+FB01>c dominancea            .890    .800           .990               .032
-PC4 remote placesa              1.066    .965         1.179                .2081
-PC5 big buildings and            .767    .644           .913               .003
+PC3 traf<U+FB01>c dominancea              .890    .800          .990             .032
+PC4 remote placesa                1.066    .965         1.179             .2081
+PC5 big buildings and              .767    .644          .913             .003
 public transport hubsa
 
 Distance from home signi<U+FB01>cant in all the models.
@@ -752,6 +857,7 @@ has been that the suburban structure hinders active transportation.
 Of course, the Finnish suburban structure differs from the classic
 examples where cul-de-sacs and curved roads without sidewalks
 Geography 38 (2013) 43e52
+
 are typical. Still, a number of similar <U+FB01>ndings have been made, for
 example Seliske, Pickett, and Janssen (2012) research on Canadian
 
@@ -832,7 +938,9 @@ by bus, tram, train or metro. The transport mode should not be the
 only consideration when thinking about the possibilities of
 different urban settings to promote activity e children’s
 
-A. Broberg et al. /
+A. Broberg et al. / Applied
+
+
 possibilities for moving independently, be it on foot or by public
 transport, should be considered. Independent mobility in a local
 environment is considered to be an essential part of a child’s
@@ -919,7 +1027,9 @@ ical activity, active transport and independent mobility in the
 
 environment (as suggested also by van Loon & Frank, 2011). It
 would also be valuable to include the parents in the studies, as
-Applied Geography 38 (2013) 43e52                                                                   51
+Geography 38 (2013) 43e52                                                                 51
+
+
 children’s mobility is signi<U+FB01>cantly dictated by their parents, the
 social environment and the values of society.
 

@@ -1,10 +1,18 @@
 
 
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 Contents lists available at ScienceDirect
+
+
 Travel Behaviour and Society
 journal homepage: www.elsevier.com/locate/tbs
-Children's mode choice for trips to primary school: a case study in German                                                                                    T
+
+
+
+
+Children's mode choice for trips to primary school: a case study in German                                                                                 T
 suburbia
 <U+204E>
 Joachim Scheinera, , Oliver Hubera, Stefan Lohmüllerb
@@ -12,11 +20,16 @@ a
 Technische Universität Dortmund, Faculty of Spatial Planning, Department of Transport Planning, 44227 Dortmund, Germany
 b
 SSR – Schulten Stadt- und Raumentwicklung, Kaiserstr. 22, 44135 Dortmund, Germany
-A R T I C LE I N FO                                          A B S T R A C T
-Keywords:                                                    Research on children's school travel behaviour has grown tremendously in the past decade, although Germany
-Mode choice                                                  has remained amazingly silent. At the same time the interplay between various factors that a<U+FB00>ect child travel is
-Child mobility                                               not yet fully understood. The paper reports results from a survey in the medium-sized suburban town of Lünen,
-School trip                                                  Germany. Mode choice of children to and from primary school is studied using multinomial logistic regression.
+
+
+
+
+A R T I C LE I N FO                                         A B S T R A C T
+
+Keywords:                                                   Research on children's school travel behaviour has grown tremendously in the past decade, although Germany
+Mode choice                                                 has remained amazingly silent. At the same time the interplay between various factors that a<U+FB00>ect child travel is
+Child mobility                                              not yet fully understood. The paper reports results from a survey in the medium-sized suburban town of Lünen,
+School trip                                                 Germany. Mode choice of children to and from primary school is studied using multinomial logistic regression.
 School travel
 The models include a large variety of variables that capture child and household sociodemographics, parents'
 Built environment
@@ -27,31 +40,38 @@ choice. Concerning the role of the transport environment, we want to highlight t
 pavements along the route increase the odds of being driven rather than walking. Secondly, tra<U+FB03>c calming is
 associated with higher odds of cycling against walking. Parental attitudes and concerns also play a signi<U+FB01>cant
 role in child mode choice.
-1. Introduction                                                                                       Children's travel has substantially changed over the past decades,
+
+
+
+
+1. Introduction                                                                                     Children's travel has substantially changed over the past decades,
 the most striking changes being probably the shift from active modes,
-Children's travel to and from school has been the subject of research                        especially walking, to being driven by car, and the associated decline in
-since the 1970s (Rigby, 1979, see for a comprehensive review of early                             independent travel (McDonald, 2007, for the US; Shaw et al., 2013 for
-studies EPPI, 2001). But the past decade has seen a tremendous increase                           the UK and Germany; Kyttä et al., 2015, for Finland; Schoeppe et al.,
-in research on children's trips (see Helbich, 2017; Moran et al., 2016;                           2016, for Australia; Mitra et al., 2016, for Toronto).
-Race et al., 2017; Sharmin and Kamruzzaman, 2017; Leung and Loo,                                      Research on children's travel has become a wide arena that includes
-2017; Buliung et al., 2017, for recent studies). This is paralleled by                            multiple perspectives in terms of motivation, scope, methododology,
-increasing debate in the general media about problems associated with                             and target variables. Two basic distinctions can be made. Firstly, a large
-driving to school and tra<U+FB03>c at school sites (Vollmuth 2017; Prengel,                              number of studies inquire into characteristics of trips made by children
-2018), and the autonomous mobility of children in a wider sense                                   and, hence, employ a ‘child travel’ perspective, while other studies look
-(Batthyany, 2016). This growing interest is motivated by a number of                              at trips made by parents to accompany their children. These latter
-concerns (see Waygood et al., 2017). Child obesity, de<U+FB01>cits in motor                              studies often take a gender perspective and consider child escorting as
-skills, a lack of physical activity (Lau et al., 2017; Race et al., 2017) and                     an integral part of intra-household or intra-family worksharing.
-issues with cognitive development (Appleyard, 2017) have been asso-                                   Secondly, while the majority of studies – especially in the transport
-ciated with a lack of independent mobility and active travel (walking                             realm – use standardised data to study either children's mode choice or
-and cycling); children's decreased independence and knowledge about                               independent mobility (without being accompanied by parents or other
-their environment have both been linked to children being increasingly                            adults), or in some cases other measures of travel such as trip distances
-driven by their parents (Fang and Lin, 2017), while attention has also                            (e.g., Andersson et al., 2012; van Goeverden and de Boer, 2013), a
-been paid to the negative environmental, social and <U+FB01>nancial e<U+FB00>ects of                            smaller but notable number use qualitative methods to better under-
-driving to school (Lu et al., 2017; Rothman et al., 2017; He and                                  stand children's or/and parents' subjective mobility experiences, mo-
-Giuliano, in print).                                                                              tives and rationales (e.g., Ahern et al., 2016; Race et al., 2017). These
+Children's travel to and from school has been the subject of research                       especially walking, to being driven by car, and the associated decline in
+since the 1970s (Rigby, 1979, see for a comprehensive review of early                           independent travel (McDonald, 2007, for the US; Shaw et al., 2013 for
+studies EPPI, 2001). But the past decade has seen a tremendous increase                         the UK and Germany; Kyttä et al., 2015, for Finland; Schoeppe et al.,
+in research on children's trips (see Helbich, 2017; Moran et al., 2016;                         2016, for Australia; Mitra et al., 2016, for Toronto).
+Race et al., 2017; Sharmin and Kamruzzaman, 2017; Leung and Loo,                                    Research on children's travel has become a wide arena that includes
+2017; Buliung et al., 2017, for recent studies). This is paralleled by                          multiple perspectives in terms of motivation, scope, methododology,
+increasing debate in the general media about problems associated with                           and target variables. Two basic distinctions can be made. Firstly, a large
+driving to school and tra<U+FB03>c at school sites (Vollmuth 2017; Prengel,                            number of studies inquire into characteristics of trips made by children
+2018), and the autonomous mobility of children in a wider sense                                 and, hence, employ a ‘child travel’ perspective, while other studies look
+(Batthyany, 2016). This growing interest is motivated by a number of                            at trips made by parents to accompany their children. These latter
+concerns (see Waygood et al., 2017). Child obesity, de<U+FB01>cits in motor                            studies often take a gender perspective and consider child escorting as
+skills, a lack of physical activity (Lau et al., 2017; Race et al., 2017) and                   an integral part of intra-household or intra-family worksharing.
+issues with cognitive development (Appleyard, 2017) have been asso-                                 Secondly, while the majority of studies – especially in the transport
+ciated with a lack of independent mobility and active travel (walking                           realm – use standardised data to study either children's mode choice or
+and cycling); children's decreased independence and knowledge about                             independent mobility (without being accompanied by parents or other
+their environment have both been linked to children being increasingly                          adults), or in some cases other measures of travel such as trip distances
+driven by their parents (Fang and Lin, 2017), while attention has also                          (e.g., Andersson et al., 2012; van Goeverden and de Boer, 2013), a
+been paid to the negative environmental, social and <U+FB01>nancial e<U+FB00>ects of                          smaller but notable number use qualitative methods to better under-
+driving to school (Lu et al., 2017; Rothman et al., 2017; He and                                stand children's or/and parents' subjective mobility experiences, mo-
+Giuliano, in print).                                                                            tives and rationales (e.g., Ahern et al., 2016; Race et al., 2017). These
+
+
 <U+204E>
 Corresponding author.
 E-mail addresses: joachim.scheiner@tu-dortmund.de (J. Scheiner), oliver.huber@tu-dortmund.de (O. Huber), stefan.lohmueller@tu-dortmund.de (S. Lohmüller).
+
 https://doi.org/10.1016/j.tbs.2018.09.006
 Received 4 July 2018; Received in revised form 25 September 2018; Accepted 30 September 2018
 Available online 19 November 2018
@@ -62,129 +82,6 @@ Available online 19 November 2018
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-J. Scheiner et al.                                                                                                  Travel Behaviour and Society 15 (2019)
-Table 1                                                                        there is less research on other trip purposes (see for a comparison be-
-Examples of studies in the <U+FB01>eld.                                               tween the two, Stark et al., 2018).
-Quantitative       Qualitative        Mixed method         One needs to point out that children's mode use is not necessarily a
-preferential choice as it is for adults. Children, particularly at younger
-Focus on children    Buliung et al.     Race et al. (2017) Romero,          ages, are largely dependent on their parents' choices though they de-
-(2017)                                (2015)
-velop strategies to resist and strive for autonomy (Barron, 2014).
-Focus on parental    Manz et al. (2015) Ahern et al.       Kramer (2009)
-escort                              (2016)
-Hence, their travel is constrained by parental considerations, daily
-needs, resources, attitudes and fears. Generally, children's mode use
-may be understood in the context of seven dimensions that can be
-studies often have their roots in cultural sciences.                           modelled using a large number of variables: (1) trip characteristics, (2)
-Neither of these two distinctions is a subgroup of the other.             child characteristics, (3) the household context, (4) subjective concerns,
-Qualitative as well as quantitative studies may pay attention to parents'      attitudes and perceptions, (5) the transport environment, (6) the built
-and/or children's travel. Nor is either of the two distinctions exclusive;     environment and (7) the social environment.
-rather there is overlap to some extent, although the majority of studies
-can still be clearly located in one <U+FB01>eld. Table 1 gives some examples.         2.1. Trip characteristics
-This paper uses standardised data collected in 2017 in a ques-
-tionnaire survey in the mid-sized suburban town of Lünen, Germany. It              Studies consistently report that longer distances to school are as-
-studies children's mode use on the trip to primary school and back             sociated with less active (non-motorised) travel (Wilson et al., 2010;
-home. Hence, the paper can be <U+FB01>led in the upper left-hand <U+FB01>eld of the          Hsu and Saphores, 2014; all for the US; Mitra and Buliung, 2012; Mitra
-table. The study was motivated by the observation that there is a              and Faulkner, 2012; Stone et al., 2014; Rothman et al., 2015; Guliani
-striking lack of research on the topic in Germany. This is despite the         et al., 2015; Mitra et al., 2016; and Larsen et al., 2016, for Toronto,
-early contribution of Germany to research about child mobility                 Canada; Clark et al., 2016; and Ahern et al. 2016 for the UK;
-(Hillman et al., 1990). More speci<U+FB01>cally, to the best of our knowledge         Hatamzadeh et al., 2017, for Iran; Zhang et al., 2017; and Jing et al.,
-this is the <U+FB01>rst study from Germany that investigates child mode use           2017, for China; Helbich, 2017, for the Netherlands; Mehdizadeh et al.,
-using multivariate methods to simultaneously include multiple factors          2017, for Iran; van Goeverden and de Boer, 2013, for the Netherlands
-(see Scheiner, 2016, for a study on children's independent travel).            and Flanders; Easton and Ferrari, 2015, for She<U+FB03>eld, UK; Waygood and
-Hence, this paper asks for sociodemographic, attitudinal and environ-          Susilo, 2015, for Scotland; Moran et al., 2016, for Israel; Stark et al.,
-mental factors that may a<U+FB00>ect children's trips to school in Germany.           2018, for Austria). Thresholds for the acceptance of active travel may
-The next section provides a brief overview of literature on children's    vary with cultural norms or constraints set by the environment (see
-mode use. Section 3 introduces data and methods, and Section 4 pre-            Waygood and Susilo, 2011, for a comparison between Japan and the
-sents the results. The paper concludes with a summary and draws                UK; van Goeverden and de Boer, 2013, for the Netherlands and Flan-
-conclusions for policy and research.                                           ders). In Germany, two thresholds can be identi<U+FB01>ed. The share of pri-
-mary school children walking drops from 85% to about 60% when the
-distance to school is longer than 600 m, and to 34% at a distance of
-2. Background – children's mode use                                            1.2 km. The share of the bicycle has its maximum in the range from 1.2
-to 2.0 km (14%) (Mobilität in Deutschland, own analysis, unpublished).
-Research on child travel has matured to the extent that literature            Over and above distance, mode choice is a<U+FB00>ected by topography
-reviews have been conducted for various sub-<U+FB01>elds including children's         (slope) along the route (Lin and Chang, 2010, for independent travel)
-mode use (Rojas Lopez and Wong, 2017; Rothman et al., in print), in-           and climatic or (more short-term) weather variations (van Goeverden
-dependent mobility (Sharmin and Kamruzzaman, 2017), environmental              and de Boer, 2013; Oxford and Pollock, 2015; Kamargianni et al.,
-factors that a<U+FB00>ect the use of active modes (Pont et al, 2009; D'Haese          2015). Mitra and Faulkner (2012) do not <U+FB01>nd signi<U+FB01>cant e<U+FB00>ects of
-et al., 2015), interventions to promote active travel (Smith et al., 2015;     (weekly) weather conditions on mode choice.
-Pang et al., 2017; Larouche et al., 2018), associations between child              The homebound trip from school is more often conducted in-
-travel and child health status (Schoeppe et al., 2013), methods of             dependently of parents than the morning trip to school, and this is as-
-capturing children's independent mobility (Bates and Stone, 2015), and         sociated with less car travel (Lin and Chang 2010, for Taiwan;
-children's mobility/school travel in general (McDonald, 2005;                  Schlossberg et al., 2006; Wilson et al., 2010; and McDonald and
-McMillan, 2005; Curtis et al., 2015). This also includes multiple review       Aalborg, 2009, for the US). This may re<U+FB02>ect parental work schedules
-sections in empirical studies on mode use (Wilson et al., 2010; Zhang          and safety considerations which preclude parents from letting their
-et al., 2017; Hatamzadeh et al., 2017) or independent mobility (Shaw           children walk in the rush hour or on dark winter mornings.
-et al., 2013; Kyttä et al., 2015; Buliung et al., 2017).
-Hence, this section focuses – though not exclusively – on studies of      2.2. Child characteristics
-mode use employing standardised data that have been published in the
-past few years. There is, however, much overlap between studies of                 Children become more independent as they grow up. Hence, age has
-mode use and studies of independent mobility. In strongly car-based            been found to be one of the most important factors to explain children's
-environments independent mobility coincides largely, though not                mode use, as can also be seen in e<U+FB00>ects of school stages that re<U+FB02>ect age
-strictly, with the use of active modes (Carver et al., 2014, for Australia;    (Zhang et al., 2017). The probability of walking or cycling to school
-Hsu and Saphores, 2014, 550 for California), while in less car-based           increases with age (Wilson et al., 2010; Yoon et al., 2011; Helbich,
-environments parents may accompany their children on foot or by bi-            2017), and the same has been found to be true for using public trans-
-cycle (Scheiner, 2016, for Germany; Buliung et al., 2017, for Toronto).        port (Wilson et al., 2010), while the probability of being driven de-
-The literature on children's independent mobility is somewhat di<U+FB00>erent         creases (Wilson et al., 2010; van Goeverden and de Boer, 2013; see He
-from the mode use literature as the latter tends to use measures of            and Giuliano, 2017, for a joint mode and escort model). Conversely,
-realised travel, while the former is often based on surveys asking for         Easton and Ferrari (2015) <U+FB01>nd that teenagers are less likely to walk to
-‘mobility licences’, i.e. parental allowances for travelling or being          school than younger children, once distance is taken into account, and
-outside without supervision (Hillman et al., 1990; see Kyttä et al., 2015,     rather use motorised modes. Pabayo et al. (2011) and Manz et al.
-and Schoeppe et al., 2016 for the use of both types of measures). Fur-         (2015) also <U+FB01>nd that from the age of ten walking decreases and, hence,
-ther, it should be noted that most studies focus on school travel, while       forms a bell-shaped age curve.
-16
-15–27
 
 
 
@@ -257,6 +154,157 @@ ther, it should be noted that most studies focus on school travel, while       f
 
 
 J. Scheiner et al.
+
+
+Table 1
+Examples of studies in the <U+FB01>eld.
+Quantitative         Qualitative          Mixed method
+
+Focus on children     Buliung et al.       Race et al. (2017)   Romero,
+(2017)                                    (2015)
+
+Focus on parental     Manz et al. (2015)   Ahern et al.         Kramer (2009)
+escort                                 (2016)
+
+
+
+studies often have their roots in cultural sciences.
+Neither of these two distinctions is a subgroup of the other.
+Qualitative as well as quantitative studies may pay attention to parents'
+and/or children's travel. Nor is either of the two distinctions exclusive;
+rather there is overlap to some extent, although the majority of studies
+can still be clearly located in one <U+FB01>eld. Table 1 gives some examples.
+This paper uses standardised data collected in 2017 in a ques-
+tionnaire survey in the mid-sized suburban town of Lünen, Germany. It
+studies children's mode use on the trip to primary school and back
+home. Hence, the paper can be <U+FB01>led in the upper left-hand <U+FB01>eld of the
+table. The study was motivated by the observation that there is a
+striking lack of research on the topic in Germany. This is despite the
+early contribution of Germany to research about child mobility
+(Hillman et al., 1990). More speci<U+FB01>cally, to the best of our knowledge
+this is the <U+FB01>rst study from Germany that investigates child mode use
+using multivariate methods to simultaneously include multiple factors
+(see Scheiner, 2016, for a study on children's independent travel).
+Hence, this paper asks for sociodemographic, attitudinal and environ-
+mental factors that may a<U+FB00>ect children's trips to school in Germany.
+The next section provides a brief overview of literature on children's
+mode use. Section 3 introduces data and methods, and Section 4 pre-
+sents the results. The paper concludes with a summary and draws
+conclusions for policy and research.
+
+
+2. Background – children's mode use
+
+Research on child travel has matured to the extent that literature
+reviews have been conducted for various sub-<U+FB01>elds including children's
+mode use (Rojas Lopez and Wong, 2017; Rothman et al., in print), in-
+dependent mobility (Sharmin and Kamruzzaman, 2017), environmental
+factors that a<U+FB00>ect the use of active modes (Pont et al, 2009; D'Haese
+et al., 2015), interventions to promote active travel (Smith et al., 2015;
+Pang et al., 2017; Larouche et al., 2018), associations between child
+travel and child health status (Schoeppe et al., 2013), methods of
+capturing children's independent mobility (Bates and Stone, 2015), and
+children's mobility/school travel in general (McDonald, 2005;
+McMillan, 2005; Curtis et al., 2015). This also includes multiple review
+sections in empirical studies on mode use (Wilson et al., 2010; Zhang
+et al., 2017; Hatamzadeh et al., 2017) or independent mobility (Shaw
+et al., 2013; Kyttä et al., 2015; Buliung et al., 2017).
+Hence, this section focuses – though not exclusively – on studies of
+mode use employing standardised data that have been published in the
+past few years. There is, however, much overlap between studies of
+mode use and studies of independent mobility. In strongly car-based
+environments independent mobility coincides largely, though not
+strictly, with the use of active modes (Carver et al., 2014, for Australia;
+Hsu and Saphores, 2014, 550 for California), while in less car-based
+environments parents may accompany their children on foot or by bi-
+cycle (Scheiner, 2016, for Germany; Buliung et al., 2017, for Toronto).
+The literature on children's independent mobility is somewhat di<U+FB00>erent
+from the mode use literature as the latter tends to use measures of
+realised travel, while the former is often based on surveys asking for
+‘mobility licences’, i.e. parental allowances for travelling or being
+outside without supervision (Hillman et al., 1990; see Kyttä et al., 2015,
+and Schoeppe et al., 2016 for the use of both types of measures). Fur-
+ther, it should be noted that most studies focus on school travel, while
+
+
+Travel Behaviour and Society 15 (2019) 15–27
+
+
+there is less research on other trip purposes (see for a comparison be-
+tween the two, Stark et al., 2018).
+One needs to point out that children's mode use is not necessarily a
+preferential choice as it is for adults. Children, particularly at younger
+ages, are largely dependent on their parents' choices though they de-
+
+velop strategies to resist and strive for autonomy (Barron, 2014).
+
+
+Hence, their travel is constrained by parental considerations, daily
+needs, resources, attitudes and fears. Generally, children's mode use
+may be understood in the context of seven dimensions that can be
+modelled using a large number of variables: (1) trip characteristics, (2)
+child characteristics, (3) the household context, (4) subjective concerns,
+attitudes and perceptions, (5) the transport environment, (6) the built
+environment and (7) the social environment.
+
+2.1. Trip characteristics
+
+Studies consistently report that longer distances to school are as-
+sociated with less active (non-motorised) travel (Wilson et al., 2010;
+Hsu and Saphores, 2014; all for the US; Mitra and Buliung, 2012; Mitra
+and Faulkner, 2012; Stone et al., 2014; Rothman et al., 2015; Guliani
+et al., 2015; Mitra et al., 2016; and Larsen et al., 2016, for Toronto,
+Canada; Clark et al., 2016; and Ahern et al. 2016 for the UK;
+Hatamzadeh et al., 2017, for Iran; Zhang et al., 2017; and Jing et al.,
+2017, for China; Helbich, 2017, for the Netherlands; Mehdizadeh et al.,
+2017, for Iran; van Goeverden and de Boer, 2013, for the Netherlands
+and Flanders; Easton and Ferrari, 2015, for She<U+FB03>eld, UK; Waygood and
+Susilo, 2015, for Scotland; Moran et al., 2016, for Israel; Stark et al.,
+2018, for Austria). Thresholds for the acceptance of active travel may
+vary with cultural norms or constraints set by the environment (see
+Waygood and Susilo, 2011, for a comparison between Japan and the
+UK; van Goeverden and de Boer, 2013, for the Netherlands and Flan-
+ders). In Germany, two thresholds can be identi<U+FB01>ed. The share of pri-
+mary school children walking drops from 85% to about 60% when the
+distance to school is longer than 600 m, and to 34% at a distance of
+1.2 km. The share of the bicycle has its maximum in the range from 1.2
+to 2.0 km (14%) (Mobilität in Deutschland, own analysis, unpublished).
+Over and above distance, mode choice is a<U+FB00>ected by topography
+(slope) along the route (Lin and Chang, 2010, for independent travel)
+and climatic or (more short-term) weather variations (van Goeverden
+and de Boer, 2013; Oxford and Pollock, 2015; Kamargianni et al.,
+2015). Mitra and Faulkner (2012) do not <U+FB01>nd signi<U+FB01>cant e<U+FB00>ects of
+(weekly) weather conditions on mode choice.
+The homebound trip from school is more often conducted in-
+dependently of parents than the morning trip to school, and this is as-
+sociated with less car travel (Lin and Chang 2010, for Taiwan;
+Schlossberg et al., 2006; Wilson et al., 2010; and McDonald and
+Aalborg, 2009, for the US). This may re<U+FB02>ect parental work schedules
+and safety considerations which preclude parents from letting their
+children walk in the rush hour or on dark winter mornings.
+
+2.2. Child characteristics
+
+Children become more independent as they grow up. Hence, age has
+been found to be one of the most important factors to explain children's
+mode use, as can also be seen in e<U+FB00>ects of school stages that re<U+FB02>ect age
+(Zhang et al., 2017). The probability of walking or cycling to school
+increases with age (Wilson et al., 2010; Yoon et al., 2011; Helbich,
+2017), and the same has been found to be true for using public trans-
+port (Wilson et al., 2010), while the probability of being driven de-
+creases (Wilson et al., 2010; van Goeverden and de Boer, 2013; see He
+and Giuliano, 2017, for a joint mode and escort model). Conversely,
+Easton and Ferrari (2015) <U+FB01>nd that teenagers are less likely to walk to
+school than younger children, once distance is taken into account, and
+rather use motorised modes. Pabayo et al. (2011) and Manz et al.
+(2015) also <U+FB01>nd that from the age of ten walking decreases and, hence,
+forms a bell-shaped age curve.
+
+16
+
+J. Scheiner et al.
+
+
 Environmental conditions may mediate age e<U+FB00>ects. Lopes et al.
 (2014) <U+FB01>nd that children in highly urbanised environments in Portugal
 are allowed to be independently mobile only at a greater age than those
@@ -324,7 +372,10 @@ found to increase the chance of being driven (van Goeverden and de
 Boer, 2013; Zhang et al., 2017) at the expense of active modes (Mitra
 and Faulkner, 2012, Guliani et al., 2015; Rothman et al., 2015;
 
+
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 Waygood and Susilo, 2015; Mitra et al., 2016; Moran et al., 2016;
 Mehdizadeh et al., 2017; Stark et al., 2018).
 Household composition may be important in various ways. Single
@@ -391,9 +442,12 @@ tra<U+FB03>c safety and mode choice to school in the Netherlands, which may
 be due to the omnipresence of bike lanes and pavements.
 It is often di<U+FB03>cult to draw consistent conclusions from the multi-
 tude of attributes of the transport network and their possible e<U+FB00>ects. For
+
 17
 
 J. Scheiner et al.
+
+
 instance, Guliani et al. (2015) <U+FB01>nd that the need to cross major roads
 increases the likelihood of walking. This sounds counterintuitive as the
 need to cross intersections should increase parental safety concerns
@@ -403,6 +457,7 @@ which may in turn increase active and independent travel (similarly:
 Schlossberg et al., 2006).
 
 2.6. The built environment
+
 More general measures of urbanity, such as population density,
 land-use diversity, city population size and a generally urban (as op-
 posed to suburban or rural) location encourage active and independent
@@ -460,7 +515,10 @@ percent resulted in n = 1064 completed questionnaires. This unusually
 large response rate testi<U+FB01>es to the strong motivation of schools and
 parents to support studies of school trips (as can also be seen from
 
+
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 parental comments written on the questionnaires).
 Lünen is a medium-sized town located at the border between the
 metropolitan Ruhr area and the more rural Münsterland. It has a dis-
@@ -470,28 +528,29 @@ middle-class regions.
 The weather at the time of survey was cool but sunny and dry (no
 snow), with daytime temperatures slightly exceeding the freezing point.
 The following information was collected:
+
 • the child's trip to and from school: usual mode in the week prior to
 the survey and in summertime, accompanying persons (separate for
 outward and return trip, respectively), reasons for accompaniment,
 distance to school
-• child sociodemographics: age, gender, school form
-• household sociodemographics: household type, age of other chil-
+•   child sociodemographics: age, gender, school form
+•   household sociodemographics: household type, age of other chil-
 dren in the household, household income, the respondent's and his/
 her partner's age, gender, nationality, education level (school and
 job training), employment situation
-• travel behaviour of the responding parent and her/his partner: li-
+•   travel behaviour of the responding parent and her/his partner: li-
 cense possession, number of cars, mode choice to work (or educa-
 tion, if applicable),
-• the responding parent's attitudes and concerns about safety, se-
+•   the responding parent's attitudes and concerns about safety, se-
 curity, the social environment, and the transport environment on
 the trip to school. This included 20 items that captured the level of
 trust in other tra<U+FB03>c participants, neighbourhood trust, trust into the
 capabilities of the child, fears related to the child when (s)he is
 outside, and seven items related to perceived transport infra-
 structure design and tra<U+FB03>c dangers on the route to school
-• the responding parent's attitudes about gender role worksharing in
+•   the responding parent's attitudes about gender role worksharing in
 the household (four items)
-• the household residential address.
+•   the household residential address.
 
 Privacy concerns led to a questionnaire instruction explicitly stating
 that information on the home address and household income was not
@@ -526,9 +585,12 @@ working hours. Still, the variables may include arbitrary information.
 This vast amount of information was used in two di<U+FB00>erent ways.
 Most research in the <U+FB01>eld relies heavily on 'variable approaches', i.e. the
 e<U+FB00>ects of a number of separate variables on child travel are estimated
+
 18
 
 J. Scheiner et al.
+
+
 simultaneously. As many geographical variables correlate with each
 other, this procedure may mask interactions between the variables, i.e.
 it does not provide a holistic picture of a route. On the other hand,
@@ -579,6 +641,7 @@ crossed, and length of road sections with narrow pavements (< 1 m).
 These two variables are used for analysis. Interestingly, the length of
 road sections with no pavement did not show any e<U+FB00>ect, probably be-
 cause these mainly refer to tracks at a distance from roads.
+
 3.2.3. Other built environment variables
 A total of 31 variables (excluding tra<U+FB03>c safety and the need to cross
 roads or use narrow pavements) were inspected with regard to bivariate
@@ -595,7 +658,10 @@ various measures of land-use in child mode choice models, and achieves
 the best explanation of variance with the use of principal components,
 as compared to individual variables or composite measures.
 
+
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 The <U+FB01>rst factor may require some explanation. The term ‘general
 residential area’ is a formal term taken from German land-use planning.
 It refers to a residential area with some limited non-residential use, such
@@ -646,6 +712,7 @@ Further, we use child age and gender, mother's age (that was con-
 sistently signi<U+FB01>cant), presence of a sibling of primary-school age, and
 parental car use for the commute (that may to some extent capture
 employment e<U+FB00>ects).
+
 3.5. Trip distance
 
 Trip distance is known to be among the strongest determinants of
@@ -661,182 +728,198 @@ in the questionnaire: the outward trip and the return trip in the week
 prior to the survey (January), and the school trip in summertime.
 Respondents could state more than one mode for each of the trips. This
 would typically refer to short-term variations in mode use but may
+
 19
 
-J. Scheiner et al.
+J. Scheiner et al.                                                                                                                  Travel Behaviour and Society 15 (2019)
+
+
 Table 2
 Built environment. Principal component analysis results.
-General residential Centre area
-area
-1                   2
-Housing dominates (1, 3)                 0.88                -0.02
-Kerb-side parking (2)                    0.83                0.29
-Speed limit 30 km/h (1)                  0.78                -0.14
-Parking on pavement (2)                  0.76                0.29
-Well-lit (1)                             0.71                0.28
-Cross parking (2)                        0.69                -0.01
-Right of way reg.: Yield sign (2)        0.66                0.44
-Shopping (minor) (1, 3)                  0.66                0.14
-Parking on carriageway (2)               0.65                -0.05
-Right of way reg.: Priority to the right 0.64                -0.22
+General residential   Centre area   Industry and trade   Major road with    Woodland   Play street   Tra<U+FB03>c         High speed
+area                                area                 restrict-ed view                            calming       road
+1                     2             3                    4                  5          6             7             8
+
+Housing dominates (1, 3)                   0.88                  -0.02         0.07                 0.05               -0.08      0.19          0.23          -0.07
+Kerb-side parking (2)                      0.83                  0.29          0.01                 0.15               0.04       0.15          0.21          -0.08
+Speed limit 30 km/h (1)                    0.78                  -0.14         0.19                 0.24               0.16       0.26          0.16          -0.12
+Parking on pavement (2)                    0.76                  0.29          0.03                 -0.11              0.04       -0.05         -0.11         0.04
+Well-lit (1)                               0.71                  0.28          0.14                 0.10               0.23       0.21          0.45          0.16
+Cross parking (2)                          0.69                  -0.01         -0.02                0.10               0.08       -0.20         0.00          0.08
+Right of way reg.: Yield sign (2)          0.66                  0.44          0.15                 -0.16              0.00       0.17          0.24          0.23
+Shopping (minor) (1, 3)                    0.66                  0.14          0.31                 -0.02              -0.14      -0.08         0.19          0.36
+Parking on carriageway (2)                 0.65                  -0.05         0.11                 0.36               0.02       0.17          -0.22         -0.01
+Right of way reg.: Priority to the right   0.64                  -0.22         -0.05                0.40               0.12       0.11          0.37          -0.10
 (2)
-Pavement width < 1.5 m, side 1 (1)       0.64                -0.04
-Shopping dominates (1, 3)                0.01                0.86
-Angle parking (2)                        0.10                0.80
-Right of way reg.: Light signal (2)      0.26                0.72
-Route crosses industrial area (1)        0.05                0.00
-Route crosses trade/retail area (1)      0.08                -0.04
-Trade and industry dominates (1, 3)      -0.01               0.11
-Trade and industry (minor) (1, 3)        0.36                0.00
-Restricted view (number)                 0.13                0.31
-Major road (1)                           0.13                0.31
-Pavement width < 1,5m, side 2 (1)        0.31                -0.09
-Woodland dominates (1, 3)                0.00                0.10
-Track separate from road (1)             0.08                0.00
-Route crosses woodland (1)               0.03                -0.03
-Green area dominates (1, 3)              0.18                0.09
-No pavement, side 2 (1)                  0.09                -0.12
-Speed limit 10 km/h (1)                  0.06                0.17
-No pavement, side 1 (1)                  0.35                -0.10
-No parking (2)                           0.32                0.02
-Right of way reg.: roundabout (2)        0.02                -0.05
-Speed limit > 50 km/h (1)                -0.06               0.12
-R2                                       75.1
+Pavement width < 1.5 m, side 1 (1)         0.64                  -0.04         0.04                 0.34               0.01       0.03          -0.35         -0.17
+Shopping dominates (1, 3)                  0.01                  0.86          0.05                 0.08               0.02       0.01          -0.01         0.04
+Angle parking (2)                          0.10                  0.80          -0.09                0.33               -0.01      0.04          0.02          -0.11
+Right of way reg.: Light signal (2)        0.26                  0.72          0.05                 0.05               0.16       -0.04         -0.10         0.39
+Route crosses industrial area (1)          0.05                  0.00          0.80                 0.07               0.31       0.02          -0.06         -0.18
+Route crosses trade/retail area (1)        0.08                  -0.04         0.71                 0.17               -0.07      0.02          -0.02         0.26
+Trade and industry dominates (1, 3)        -0.01                 0.11          0.68                 -0.01              0.12       -0.06         0.13          -0.31
+Trade and industry (minor) (1, 3)          0.36                  0.00          0.62                 0.01               0.05       0.15          0.11          0.24
+Restricted view (number)                   0.13                  0.31          0.15                 0.86               -0.07      0.19          0.01          0.06
+Major road (1)                             0.13                  0.31          0.15                 0.86               -0.07      0.19          0.01          0.06
+Pavement width < 1,5m, side 2 (1)          0.31                  -0.09         -0.02                0.65               0.27       -0.30         0.02          -0.07
+Woodland dominates (1, 3)                  0.00                  0.10          0.00                 -0.08              0.84       0.02          0.08          0.05
+Track separate from road (1)               0.08                  0.00          0.18                 0.08               0.72       0.45          0.06          0.09
+Route crosses woodland (1)                 0.03                  -0.03         0.54                 0.09               0.67       0.08          -0.04         0.13
+Green area dominates (1, 3)                0.18                  0.09          0.19                 0.06               0.61       0.48          0.28          0.28
+No pavement, side 2 (1)                    0.09                  -0.12         -0.07                0.07               0.11       0.82          0.00          0.09
+Speed limit 10 km/h (1)                    0.06                  0.17          0.05                 0.05               0.14       0.76          -0.02         -0.06
+No pavement, side 1 (1)                    0.35                  -0.10         0.28                 0.15               0.31       0.45          0.37          0.10
+No parking (2)                             0.32                  0.02          -0.07                -0.04              0.20       0.23          0.81          0.14
+Right of way reg.: roundabout (2)          0.02                  -0.05         0.10                 0.02               0.00       -0.12         0.77          -0.13
+Speed limit > 50 km/h (1)                  -0.06                 0.12          -0.01                0.02               0.25       0.07          -0.02         0.79
+R2                                         75.1
+
 (1) measured in meters along the route.
 (2) number of intersections where this is the case.
-(3) Land-use functions were manually surveyed in addition to using the local
-between dominant and minor (additional) land uses in a road section linking
+(3) Land-use functions were manually surveyed in addition to using the local land-use plan, as a manual inspection provides more detail. A distinction was made
+between dominant and minor (additional) land uses in a road section linking two junctions. The dominant or minor character was rated by trained student sta<U+FB00> and
 con<U+FB01>rmed by a second person. Loadings exceeding |0.3| shown in bold.
-involve intermodal trips. We separately model the morning and after-
-noon trip, as is frequently done in related studies (see discussion in
-Buliung et al., 2017). We omit mode choice in summertime. We con-
-sider this information less reliable, as the respondents refer to their
-child being either half a year younger or older than (s)he is at the time
+
+involve intermodal trips. We separately model the morning and after-                            child would obviously be permitted to cycle or use the scooter, which is
+noon trip, as is frequently done in related studies (see discussion in                          more critical from a parental perspective than walking (as re<U+FB02>ected in
+Buliung et al., 2017). We omit mode choice in summertime. We con-                               the higher ages of children cycling or using scooters). Hence, we <U+FB01>nally
+sider this information less reliable, as the respondents refer to their                         consider <U+FB01>ve alternatives: walking, other active mode, car, public
+child being either half a year younger or older than (s)he is at the time                       transport, car and active mode.
 of survey, which can be quite a di<U+FB00>erence, given the young age.
 The application of a choice model requires a full set of relevant
-alternatives. Distinguishing between walking, bicycle, scooter, school
+alternatives. Distinguishing between walking, bicycle, scooter, school                          3.7. Analysis method
 bus, other bus, and car passenger, plus combinations of any two would
-result in <U+FB01>fteen alternatives of any two, of which most are very rare.
-The use of three di<U+FB00>erent modes is even rarer. A descriptive inspection
-suggests that only two combinations occur to some relevant extent:
-walking and another active mode, and walking and the car.
-Many child mode choice studies merge walking and cycling into one
-category, but there is no reason to assume that the two are a<U+FB00>ected by
-the same variables. This was re<U+FB02>ected in the considerable loss in ex-
-plained variance, when we tentatively merged walking and cycling into
-one mode. Hence, we consider walking and other active modes to be
-di<U+FB00>erent choices, but we merge cycling and the use of scooters into one
-mode. Both have similar speeds, and their use has similar age dis-
-tributions. Hence, bicycles and scooters appear to ful<U+FB01>l similar func-
-tions. We consider multiple choices of the car and any active mode as a
-separate category, but make no distinction here between the type of
-active mode due to limited sample size.
-Another decision had to be made in cases of walking plus cycling or
-use of a kick scooter. These cases were coded as ‘cycling/scooter’ as the
-
-
-Travel Behaviour and Society 15 (2019) 15–27
-
-
-Industry and trade  Major road with      Woodland  Play street  Tra<U+FB03>c            High speed
-area                restrict-ed view                            calming          road
-3                   4                    5         6            7                8
-0.07                0.05                 -0.08     0.19         0.23             -0.07
-0.01                0.15                 0.04      0.15         0.21             -0.08
-0.19                0.24                 0.16      0.26         0.16             -0.12
-0.03                -0.11                0.04      -0.05        -0.11            0.04
-0.14                0.10                 0.23      0.21         0.45             0.16
--0.02               0.10                 0.08      -0.20        0.00             0.08
-0.15                -0.16                0.00      0.17         0.24             0.23
-0.31                -0.02                -0.14     -0.08        0.19             0.36
-0.11                0.36                 0.02      0.17         -0.22            -0.01
--0.05               0.40                 0.12      0.11         0.37             -0.10
-
-0.04                0.34                 0.01      0.03         -0.35            -0.17
-0.05                0.08                 0.02      0.01         -0.01            0.04
--0.09               0.33                 -0.01     0.04         0.02             -0.11
-0.05                0.05                 0.16      -0.04        -0.10            0.39
-0.80                0.07                 0.31      0.02         -0.06            -0.18
-0.71                0.17                 -0.07     0.02         -0.02            0.26
-0.68                -0.01                0.12      -0.06        0.13             -0.31
-0.62                0.01                 0.05      0.15         0.11             0.24
-0.15                0.86                 -0.07     0.19         0.01             0.06
-0.15                0.86                 -0.07     0.19         0.01             0.06
--0.02               0.65                 0.27      -0.30        0.02             -0.07
-0.00                -0.08                0.84      0.02         0.08             0.05
-0.18                0.08                 0.72      0.45         0.06             0.09
-0.54                0.09                 0.67      0.08         -0.04            0.13
-0.19                0.06                 0.61      0.48         0.28             0.28
--0.07               0.07                 0.11      0.82         0.00             0.09
-0.05                0.05                 0.14      0.76         -0.02            -0.06
-0.28                0.15                 0.31      0.45         0.37             0.10
--0.07               -0.04                0.20      0.23         0.81             0.14
-0.10                0.02                 0.00      -0.12        0.77             -0.13
--0.01               0.02                 0.25      0.07         -0.02            0.79
-
-
-
-land-use plan, as a manual inspection provides more detail. A distinction was made
-two junctions. The dominant or minor character was rated by trained student sta<U+FB00> and
-
-child would obviously be permitted to cycle or use the scooter, which is
-more critical from a parental perspective than walking (as re<U+FB02>ected in
-the higher ages of children cycling or using scooters). Hence, we <U+FB01>nally
-consider <U+FB01>ve alternatives: walking, other active mode, car, public
-transport, car and active mode.
-
-
-3.7. Analysis method
-
-Various methods have been used to study children's mode use, in-
-cluding standard percentage and mean value comparisons, binary lo-
-gistic regression (Henne et al., 2014; Stone et al., 2014; Waygood and
-Susilo, 2015; Larsen et al., 2016; Hatamzadeh et al., 2017; Mehdizadeh
-et al., 2017), multinomial logit regression (van Goeverden and de Boer,
-2013; Helbich, 2017; Zhang et al., 2017, with decision trees before-
-hand, see He and Giuliano, 2017, for a joint mode and escort model-
-ling), mixed logit regression that accounts for repeated choices (Noland
-et al., 2012), and structural equation modelling (Guliani et al., 2015;
-Susilo and Liu, 2016; Stark et al., 2018). The most common method is
-binary or multinomial logistic regression that accounts for the catego-
-rical nature of mode choice information.
-This paper also uses multinomial logistic regression. Perceptions
-and attitudes towards the transport environment may be endogenous to
-sociodemographics and especially the objective environment itself. This
-may lead to biased coe<U+FB03>cient estimations. Hence, we enter socio-
-demographics and built environment variables in a <U+FB01>rst model. In a
+result in <U+FB01>fteen alternatives of any two, of which most are very rare.                              Various methods have been used to study children's mode use, in-
+The use of three di<U+FB00>erent modes is even rarer. A descriptive inspection                         cluding standard percentage and mean value comparisons, binary lo-
+suggests that only two combinations occur to some relevant extent:                              gistic regression (Henne et al., 2014; Stone et al., 2014; Waygood and
+walking and another active mode, and walking and the car.                                       Susilo, 2015; Larsen et al., 2016; Hatamzadeh et al., 2017; Mehdizadeh
+Many child mode choice studies merge walking and cycling into one                           et al., 2017), multinomial logit regression (van Goeverden and de Boer,
+category, but there is no reason to assume that the two are a<U+FB00>ected by                          2013; Helbich, 2017; Zhang et al., 2017, with decision trees before-
+the same variables. This was re<U+FB02>ected in the considerable loss in ex-                           hand, see He and Giuliano, 2017, for a joint mode and escort model-
+plained variance, when we tentatively merged walking and cycling into                           ling), mixed logit regression that accounts for repeated choices (Noland
+one mode. Hence, we consider walking and other active modes to be                               et al., 2012), and structural equation modelling (Guliani et al., 2015;
+di<U+FB00>erent choices, but we merge cycling and the use of scooters into one                         Susilo and Liu, 2016; Stark et al., 2018). The most common method is
+mode. Both have similar speeds, and their use has similar age dis-                              binary or multinomial logistic regression that accounts for the catego-
+tributions. Hence, bicycles and scooters appear to ful<U+FB01>l similar func-                          rical nature of mode choice information.
+tions. We consider multiple choices of the car and any active mode as a                             This paper also uses multinomial logistic regression. Perceptions
+separate category, but make no distinction here between the type of                             and attitudes towards the transport environment may be endogenous to
+active mode due to limited sample size.                                                         sociodemographics and especially the objective environment itself. This
+Another decision had to be made in cases of walking plus cycling or                         may lead to biased coe<U+FB03>cient estimations. Hence, we enter socio-
+use of a kick scooter. These cases were coded as ‘cycling/scooter’ as the                       demographics and built environment variables in a <U+FB01>rst model. In a
 second model we include attitudinal variables and check the
+
 20
+15–27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 J. Scheiner et al.
+
+
 Table 4
 Categorical variables used in regression: descriptive statistics.
-Morning trip     Return trip    Trip in
-(January)        (January)      summertime
-Travel mode        On foot          38.0             38.7           37.9
-Bicycle,         11.9             11.8           27.4
+Morning trip        Return trip     Trip in
+(January)           (January)       summertime
+
+Travel mode        On foot         38.0                38.7            37.9
+Bicycle,        11.9                11.8            27.4
 scooter
-Bus              10.0             8.0            9.1
+Bus             10.0                8.0             9.1
 
-Car passenger    31.7             31.6           20.7
-Car and          8.4              9.9            4.8
+Car passenger   31.7                31.6            20.7
+Car and         8.4                 9.9             4.8
 active
-Child gender       Male                              50.6%
-Female                            49.4%
-Primary-school-aged (6–10 years) sibling             28.4%
+Child gender       Male                                50.6%
+Female                              49.4%
+Primary-school-aged (6–10 years) sibling               28.4%
 
-Mother drives to work                                63.5%
-Father drives to work                                69.0%
-Accident hot spot on the route to school             54.6%
+Mother drives to work                                  63.5%
+Father drives to work                                  69.0%
+Accident hot spot on the route to school               54.6%
 (pedestrian or non-adult non-motorised
 victim)
-Mother: full-time employed                           15.6%
-Mother: part-time, side job,                         61.6%
+Mother: full-time employed                             15.6%
+Mother: part-time, side job,                           61.6%
 
 training
-Mother: not employed or no mother in household       22.7%
-Father: full-time employed                           78.0%
-Father: not full-time employed or not in             22.0%
+Mother: not employed or no mother in household         22.7%
+Father: full-time employed                             78.0%
+Father: not full-time employed or not in               22.0%
 
 household
 
@@ -846,31 +929,32 @@ coded as yes = 1, no = 0.
 Table 5
 Continuous variables used in regression: descriptive statistics.
 
-Min       Max      Mean    Std deviation
+Min         Max     Mean     Std deviation
 
-Distance (km)                               0.01      11       1.7     1.4
-Distance (km), squared                      0.0001    121      4.8     10.6
-Child's age                                 6         11       7.9     1.3
+Distance (km)                               0.01        11      1.7      1.4
+Distance (km), squared                      0.0001      121     4.8      10.6
+Child's age                                 6           11      7.9      1.3
 
-Mother's age                                24        63       38.6    5.4
+Mother's age                                24          63      38.6     5.4
 Built and transport environment
-Factor 1 – general residential area         -1.63     3.46     0.0     1.0
-Factor 3 – industry and trade area          -1.53     3.69     0.0     0.6
-Factor 4 – major road with restricted       -2.62     5.31     0.0     1.0
+Factor 1 – general residential area         -1.63       3.46    0.0      1.0
+Factor 3 – industry and trade area          -1.53       3.69    0.0      0.6
+Factor 4 – major road with restricted       -2.62       5.31    0.0      1.0
 view
-Factor 7 – tra<U+FB03>c calming                    -2.06     5.78     0.0     1.0
+Factor 7 – tra<U+FB03>c calming                    -2.06       5.78    0.0      1.0
 
-Route to school along a road with           0         0.978    0.1     0.2
+Route to school along a road with           0           0.978   0.1      0.2
 narrow pavement (< 1 m) (km)
-Zebra crossings that need to be crossed     0         4        0.6     0.9
+Zebra crossings that need to be crossed     0           4       0.6      0.9
 (number)
 
 Concerns, attitudes, perceptions
-Factor 3 – di<U+FB00>use fear                      1         5        3.9     0.8
-Factor 5 – pavements and lighting in        1         5        3.2     1.0
+Factor 3 – di<U+FB00>use fear                      1           5       3.9      0.8
+Factor 5 – pavements and lighting in        1           5       3.2      1.0
 good condition
-Factor 8 – child is competent               1.67      5        3.8     0.7
+Factor 8 – child is competent               1.67        5       3.8      0.7
 n                                           581
+
 
 
 
@@ -878,21 +962,30 @@ n                                           581
 
 Table 6
 Mode use for the morning trip by school.
-Gottfried school    Kardinal-von-Galen school    Leo school
-Walking                   26.7                55.4                         28.7
-Bicycle, scooter          17.1                9.8                          12.4
-Bus                       18.5                3.1                          7.9
-Car passenger             33.6                23.3                         41.0
-Car + active              4.1                 8.3                          10.1
-Trip distance (mean)      1.83                1.37                         2.13
-Distance (median)         1.5                 1.1                          2.0
-n                         146                 193                          178
+Gottfried school       Kardinal-von-Galen school      Leo school
+
+Walking                  26.7                   55.4                           28.7
+Bicycle, scooter         17.1                   9.8                            12.4
+Bus                      18.5                   3.1                            7.9
+Car passenger            33.6                   23.3                           41.0
+Car + active             4.1                    8.3                            10.1
+
+Trip distance (mean)     1.83                   1.37                           2.13
+Distance (median)        1.5                    1.1                            2.0
+
+n                        146                    193                            178
+
+
+
 
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 estimations for stability.
 
 
 4. Findings
+
 4.1. Descriptives
 
 
@@ -958,68 +1051,87 @@ share of cycling is above average. Students in this school also travel
 short distances on average. Virtually all students live in Brambauer, the
 
 
-Matthias-Claudius school  Heiken-berg school    Lüserbach school     Elisabeth school
-28.6                      36.1                  40.4                 36.5
-8.9                       13.1                  5.9                  17.4
-31.3                      13.9                  4.3                  0.9
-27.7                      31.1                  40.4                 35.7
-3.6                       5.7                   9.0                  9.6
-2.01                      2.11                  1.91                 1.50
-1.8                       1.5                   1.0                  1.2
-112                       122                   188                  115
+
+Matthias-Claudius school   Heiken-berg school   Lüserbach school     Elisabeth school
+
+28.6                       36.1                 40.4                 36.5
+8.9                        13.1                 5.9                  17.4
+31.3                       13.9                 4.3                  0.9
+27.7                       31.1                 40.4                 35.7
+3.6                        5.7                  9.0                  9.6
+
+2.01                       2.11                 1.91                 1.50
+1.8                        1.5                  1.0                  1.2
+
+112                        122                  188                  115
+
+
+
 22
 
 J. Scheiner et al.
+
+
 Table 7
 Multinomial regression analysis of mode use: morning trip.
 Bicycle, scooter
-B             OR    p
-Constant                                    -2.81
-Child age                                   0.43          1.53  **
 
-Child gender female                         -0.79         0.45  **
+B            OR      p
 
-Primary school age sibling                  -0.09         0.91
-Mother's age                                -0.09         0.91  **
+Constant                                      -2.81
+Child age                                     0.43         1.53    **
+
+Child gender female                           -0.79        0.45    **
+
+Primary school age sibling                    -0.09        0.91
+Mother's age                                  -0.09        0.91    **
 
 
-Mother commutes by car                      -0.11         0.89
 
-Father commutes by car                      -0.03         0.97
+Mother commutes by car                        -0.11        0.89
+
+Father commutes by car                        -0.03        0.97
+
 Attitudes, concerns
-Di<U+FB00>use fear                                 -0.09         0.91
+Di<U+FB00>use fear                                   -0.09        0.91
 
-Pavements and lighting in good condition    -0.35         0.71  *
+Pavements and lighting in good condition      -0.35        0.71    *
 
-Child is competent                          0.34          1.41
+Child is competent                            0.34         1.41
 
 *
-Trip distance (km)                          1.27          3.57
-Trip distance, squared                      -0.17         0.85
+Trip distance (km)                            1.27         3.57
+Trip distance, squared                        -0.17        0.85
+
+
 
 
 Environment (factors)
 
-General residential area                    0.36          1.44
-Industry and trade                          -0.08         0.93
+General residential area                      0.36         1.44
+Industry and trade                            -0.08        0.93
 
-Main road with restricted view              0.24          1.27
-Tra<U+FB03>c calming                               0.62          1.87  *
+Main road with restricted view                0.24         1.27
+Tra<U+FB03>c calming                                 0.62         1.87    *
 
 
 **
-Narrow pavement (< 1m, length)              2.93          18.73
-Zebra-crossings (number)                    -0.29         0.75
+Narrow pavement (< 1m, length)                2.93         18.73
+Zebra-crossings (number)                      -0.29        0.75
 
-Accident hot spot (pedestrians or children) -0.54         0.58
 
-Pseudo R2 Cox & Snell                       0.62
-Pseudo R2 Nagelkerke                        0.65
-Pseudo R2 McFadden                          0.34
-n                                           581
+Accident hot spot (pedestrians or children)   -0.54        0.58
+
+
+Pseudo R2 Cox & Snell                         0.62
+Pseudo R2 Nagelkerke                          0.65
+Pseudo R2 McFadden                            0.34
+n                                             581
+
 
 All binary variables are coded as yes = 1, no = 0. Reference mode is walki
 signi<U+FB01>cance (p = 0.05–0.07)
+
 neighbourhood that hosts the school in its periphery. This location
 contributes both to not using the bus and to cycling.
 The Gottfried school has high shares of cycling and bus use, while
@@ -1056,56 +1168,69 @@ cycle as opposed to walking (e<U+FB00>ect is insigni<U+FB01>cant in the afternoo
 model). Having a sibling of primary school age (who may possibly at-
 tend the same school, although we cannot conclusively determine this)
 
+
 Travel Behaviour and Society 15 (2019) 15–27
 
 
-Bus                            Car passenger                    Car and active
-B          OR           p      B           OR          p        B            OR        p
--2.04                          -1.24                            -2.79
 
-0.02       1.02                0.00        1.00                 -0.02        0.98
 
--0.16      0.86                -0.16       0.85                 -0.60        0.55
-0.33       1.39                -0.58       0.56                 -0.28        0.76
+Bus                              Car passenger                      Car and active
 
--0.08      0.93         (*)    -0.06       0.94        *
+B             OR          p      B             OR          p        B            OR        p
+
+-2.04                            -1.24                              -2.79
+
+0.02          1.02               0.00          1.00                 -0.02        0.98
+
+-0.16         0.86               -0.16         0.85                 -0.60        0.55
+0.33          1.39               -0.58         0.56                 -0.28        0.76
+
+-0.08         0.93        (*)    -0.06         0.94        *
 -0.02        0.98
-0.61       1.83                1.61        5.01        **
-0.72         2.06      (*)
--0.32      0.72                0.26        1.30                 0.48         1.62
 
--0.34      0.71                0.47        1.61        *
+0.61          1.83               1.61          5.01        **
+0.72         2.06      (*)
+-0.32         0.72               0.26          1.30                 0.48         1.62
+
+
+-0.34         0.71               0.47          1.61        *
 0.12         1.13
 
--0.15      0.86                -0.20       0.82                 -0.08        0.93
--0.51      0.60                -0.44       0.64        *
+-0.15         0.86               -0.20         0.82                 -0.08        0.93
+-0.51         0.60               -0.44         0.64        *
 0.00         1.00
-**                             **                              **
-4.97       144.15              2.66        14.36                1.70         5.48
--0.55      0.58         **
--0.20       0.82        **
+**                               **                              **
+4.97          144.15             2.66          14.36                1.70         5.48
+-0.55         0.58        **
+-0.20         0.82        **
 -0.13        0.88      *
 
-**                             *
-0.69       1.98                0.41        1.51                 0.25         1.28
--1.00      0.37         **
--0.13       0.87                 -0.25        0.77
-0.11       1.12                0.31        1.37        (*)      0.05         1.05
 
-1.10       3.01         **
-0.23        1.26                 -0.09        0.91
+
+**                               *
+0.69          1.98               0.41          1.51                 0.25         1.28
+-1.00         0.37        **
+-0.13         0.87                 -0.25        0.77
+0.11          1.12               0.31          1.37        (*)      0.05         1.05
+
+1.10          3.01        **
+0.23          1.26                 -0.09        0.91
 *
-1.80       6.03                2.35        10.47                0.91         2.48
--0.17      0.84                0.59        1.81        *
+1.80          6.03               2.35          10.47                0.91         2.48
+-0.17         0.84               0.59          1.81        *
 0.57         1.76      *
--1.44      0.24         **
--0.44       0.64                 0.54         1.72
+
+-1.44         0.24        **
+-0.44         0.64                 0.54         1.72
+
+
 
 
 
 
 **
-ng. OR: odds ratio. Signi<U+FB01>cance levels:    p < 0.01; *p < 0.05, (*) just fails to reach
+ng. OR: odds ratio. Signi<U+FB01>cance levels:        p < 0.01; *p < 0.05, (*) just fails to reach
+
 
 reduces the odds of being driven home from school.
 Interestingly, having an older mother reduces the odds of cycling or
@@ -1142,154 +1267,184 @@ pavements (sidewalks) and lighting on the school route to be in good
 condition, the more likely it is that their child may cycle to school,
 rather than walk. On the afternoon trip, this perception is also sig-
 ni<U+FB01>cantly associated with lower odds of car use. Thirdly, the more a
+
 23
 
-J. Scheiner et al.                                                                                                      Travel Behaviour and Society 15 (2019)
+J. Scheiner et al.
+
+
 Table 8
 Multinomial regression analysis of mode use: afternoon trip.
-Bicycle, Scooter           Bus                          Car passenger                   Car and active
-B                         B                           B
-B            e      p      B           e         p      B           e           p       B            eB
-Constant                                      -3.68                      -7.69                 *
--1.65                           -4.11
-Child age                                     0.48         1.61   **
-0.30        1.35             -0.17       0.84                0.05         1.05
-Child gender female                           -0.37        0.69          -0.09       0.91             -0.05       0.95                -0.36        0.70
-Primary-school-age sibling                    -0.29        0.75          0.83        2.30             -0.78       0.46        *
--0.53        0.59
-Mother's age                                  -0.07        0.93   *
--0.04       0.96             -0.01       0.99                0.01         1.01
+Bicycle, Scooter           Bus
+
+B
+B            e       p     B
+
+Constant                                        -3.68                      -7.69
+
+Child age                                       0.48         1.61    **
+0.30
+Child gender female                             -0.37        0.69          -0.09
+Primary-school-age sibling                      -0.29        0.75          0.83
+
+Mother's age                                    -0.07        0.93    *
+-0.04
+
 Employment (ref. full-time)
-Mother: part time/side job/training           -0.07        0.94          -1.15       0.32      (*)    -0.07       0.93                0.59         1.80
-Mother: not employed                          -0.94        0.39          -1.76       0.17      *
--0.93       0.39        (*)     -0.72        0.49
-Father: not full-time                         -0.34        0.71          -0.31       0.73             -0.10       0.91                -0.11        0.89
-Mother commutes by car                        -0.26        0.77          0.22        1.25             1.36        3.88        **
-0.58         1.79
-Father commutes by car                        -0.32        0.73          -0.98       0.38             -0.24       0.79                0.54         1.71
+Mother: part time/side job/training             -0.07        0.94          -1.15
+Mother: not employed                            -0.94        0.39          -1.76
+
+Father: not full-time                           -0.34        0.71          -0.31
+
+Mother commutes by car                          -0.26        0.77          0.22
+
+Father commutes by car                          -0.32        0.73          -0.98
+
 Attitudes, concerns
-Di<U+FB00>use fear                                   -0.02        0.98          -0.32       0.73             0.52        1.68        **
-0.43         1.54
-Pavements and lighting in good condition      -0.44        0.65   *
-0.12        1.13             -0.38       0.68        **
--0.07        0.93
-Child is competent                            0.10         1.10          -0.87       0.42      *
--0.48       0.62        *
--0.40        0.67
-Trip distance (km)                            1.09         2.99   (*)    5.39        218.92    **
-2.33        10.28       **
-1.45         4.25
-Trip distance, squared                        -0.14        0.87          -0.56       0.57      **
--0.17       0.84        **
--0.11        0.90
+Di<U+FB00>use fear                                     -0.02        0.98          -0.32
+
+Pavements and lighting in good condition        -0.44        0.65    *
+0.12
+
+Child is competent                              0.10         1.10          -0.87
+
+
+
+Trip distance (km)                              1.09         2.99    (*)   5.39
+
+
+
+Trip distance, squared                          -0.14        0.87          -0.56
+
+
+
+
 Environment (factors)
-*                                                           **
-General residential area                      0.49         1.63          0.46        1.58             0.61        1.84                0.22         1.24
-Industry and trade                            -0.09        0.92          -0.96       0.38      **
--0.13       0.88                -0.13        0.88
-Main road with restricted view                0.18         1.20          0.08        1.08             0.19        1.21                -0.09        0.92
-*                            **                             *
-Tra<U+FB03>c calming                                 0.59         1.81          1.42        4.14             0.49        1.63                0.38         1.47
 *
-Narrow pavement (< 1m, length)                2.48         11.93         0.53        1.70             1.12        3.07                1.08         2.94
-Zebra-crossings (number)                      -0.32        0.73          -0.95       0.39      **
-0.25        1.28                0.14         1.15
-Accident hot spot (pedestrians oder children) -0.23        0.80          -0.52       0.60             0.04        1.04                0.38         1.47
-Pseudo R2 Cox & Snell                         0.61
-Pseudo R2 Nagelkerke                          0.65
-Pseudo R2 McFadden                            0.33
-n                                             576
+General residential area                        0.49         1.63          0.46
+Industry and trade                              -0.09        0.92          -0.96
+
+Main road with restricted view                  0.18         1.20          0.08
+*
+Tra<U+FB03>c calming                                   0.59         1.81          1.42
+*
+Narrow pavement (< 1m, length)                  2.48         11.93         0.53
+Zebra-crossings (number)                        -0.32        0.73          -0.95
+
+Accident hot spot (pedestrians oder children)   -0.23        0.80          -0.52
+
+Pseudo R2 Cox & Snell                           0.61
+Pseudo R2 Nagelkerke                            0.65
+Pseudo R2 McFadden                              0.33
+
+n                                               576
+
 All binary variables are coded as yes = 1, no = 0. Reference mode is walking.
-parent considers the child competent, the less likely it is that the child is     close to the Kardinal-von-Galen school (low level of bus use) on the one
-driven to school, rather than being allowed to walk. On the afternoon             hand, and the Gottfried and Matthias-Claudius schools on the other
-trip, this attitude is also signi<U+FB01>cantly associated with lower odds of bus        hand. Both schools are located in a somewhat remote residential area
-use.                                                                              (i.e. very low values of industrial land use), and characterised by high
-Attitudes and concerns may be endogeneous to sociodemographics               shares of bus use.
-and the built environment. Additional models were estimated excluding                 Thirdly, routes along main roads with a restricted view may be
-attitudes (available from the authors upon request). These largely                associated with higher odds of car use (but note that the e<U+FB00>ect just fails
-con<U+FB01>rm the results of the models presented here and, thus, there do not           to reach signi<U+FB01>cance, and is clearly insigni<U+FB01>cant in the afternoon
-seem to be notable biases in estimations.                                         model). Fourthly, areas with tra<U+FB03>c calming are associated with higher
-odds of cycling, but also bus use and, in the afternoon, car use.
-4.2.4. Trip distance                                                              Neighbourhoods with high values on this dimension are Nordlünen and
-Trip distance has a non-linear relationship with mode use, as ex-            Lünen-South. In Lünen-South children typically attend either the Leo or
-pressed in signi<U+FB01>cant quadratic functions. The e<U+FB00>ects of distance and             Lüserbach school, which may explain the positive e<U+FB00>ect on car use. The
-squared distance need to be considered in tandem. They suggest that               Lüserbach school is located somewhat remote in a low-density area,
-the odds for any mode against walking increase with distance, but the             where driving is more common, while the Leo school – as pointed out
-slopes decrease. The maximum increase for car passenger and, even                 above – has a large catchment area due to its attractiveness, which
-more so, for bus travel, is at a lower distance than for cycling. The             results in long distances travelled. In Nordlünen things are somewhat
-bicycle reaches its maximum odds against walking at a distance of                 more mixed. Children mostly attend the Kardinal-von-Galen school or
-about four kilometres.                                                            Gottfried school. The Gottfried school is located in a somewhat remote
-area, and it scores high on the tra<U+FB03>c calming factor. It has the lowest
-share of walking in all schools, but high shares of cycling and bus use.
+
+parent considers the child competent, the less likely it is that the child is
+driven to school, rather than being allowed to walk. On the afternoon
+trip, this attitude is also signi<U+FB01>cantly associated with lower odds of bus
+use.
+Attitudes and concerns may be endogeneous to sociodemographics
+and the built environment. Additional models were estimated excluding
+attitudes (available from the authors upon request). These largely
+con<U+FB01>rm the results of the models presented here and, thus, there do not
+seem to be notable biases in estimations.
+
+4.2.4. Trip distance
+Trip distance has a non-linear relationship with mode use, as ex-
+pressed in signi<U+FB01>cant quadratic functions. The e<U+FB00>ects of distance and
+squared distance need to be considered in tandem. They suggest that
+the odds for any mode against walking increase with distance, but the
+slopes decrease. The maximum increase for car passenger and, even
+more so, for bus travel, is at a lower distance than for cycling. The
+bicycle reaches its maximum odds against walking at a distance of
+about four kilometres.
+
+
 4.2.5. Built environment
-The Matthias-Claudius school is located at the same site, and has the
+
 Four general factors describing the built environment along the
-strongest bus use among all schools, which also contributes to the po-
+
 route a<U+FB00>ect child mode use. Firstly, routes along ‘general residential
-sitive bus e<U+FB00>ect. The Kardinal-von-Galen school is centrally located and
+
 areas’ are associated with higher odds of bus and car use against
-scores very low on tra<U+FB03>c calming, while many children walk. All these
+
 walking. Bus use is insigni<U+FB01>cant in the afternoon model. On the other
-local circumstances may contribute to the association between tra<U+FB03>c
+
 hand, the afternoon model suggests higher odds of cycling in general
-calming and mode use.
+
 residential areas. These associations can be linked to the remote loca-
-Over and above these broad factors, three more speci<U+FB01>c variables
+
 tion of the residential areas that score high on this factor.
-exhibit signi<U+FB01>cant e<U+FB00>ects. Firstly, route length along roads with narrow
+
 Secondly, routes in areas characterised by industrial land uses are
-pavements is associated with higher odds of cycling and car use. The
+
 associated with lower odds of bus use. This relates to an industrial area
+
 24
-15–27
+Travel Behaviour and Society 15 (2019) 15–27
 
 
 
 
-p
+Car passenger                   Car and active
+
+B                         B
+e          p      B          e            p       B            eB        p
+
+*
+-1.65                           -4.11
+
+1.35              -0.17      0.84                 0.05         1.05
+0.91              -0.05      0.95                 -0.36        0.70
+2.30              -0.78      0.46         *
+-0.53        0.59
+
+0.96              -0.01      0.99                 0.01         1.01
 
 
+0.32       (*)    -0.07      0.93                 0.59         1.80
+0.17       *
+-0.93      0.39         (*)     -0.72        0.49
+0.73              -0.10      0.91                 -0.11        0.89
+
+1.25              1.36       3.88         **
+0.58         1.79
+0.38              -0.24      0.79                 0.54         1.71
 
 
+0.73              0.52       1.68         **
+0.43         1.54      (*)
 
+1.13              -0.38      0.68         **
+-0.07        0.93
+0.42       *
+-0.48      0.62         *
+-0.40        0.67
 
+218.92     **
+2.33       10.28        **
+1.45         4.25      **
 
-
-
-
-
-
-
-
-
-
-
-
-
-(*)
-
-
-
-
-
+0.57       **
+-0.17      0.84         **
+-0.11        0.90      *
 
 
 
 **
+1.58              0.61       1.84                 0.22         1.24
+0.38       **
+-0.13      0.88                 -0.13        0.88
+1.08              0.19       1.21                 -0.09        0.92
+**                             *
+4.14              0.49       1.63                 0.38         1.47
 
-
-*
-
-
-
-
-
-
-
-
-
-
-
+1.70              1.12       3.07                 1.08         2.94
+0.39       **
+0.25       1.28                 0.14         1.15
+0.60              0.04       1.04                 0.38         1.47
 
 
 
@@ -1299,47 +1454,52 @@ p
 
 
 
+close to the Kardinal-von-Galen school (low level of bus use) on the one
+hand, and the Gottfried and Matthias-Claudius schools on the other
+hand. Both schools are located in a somewhat remote residential area
+(i.e. very low values of industrial land use), and characterised by high
+shares of bus use.
+Thirdly, routes along main roads with a restricted view may be
+associated with higher odds of car use (but note that the e<U+FB00>ect just fails
+to reach signi<U+FB01>cance, and is clearly insigni<U+FB01>cant in the afternoon
+model). Fourthly, areas with tra<U+FB03>c calming are associated with higher
+odds of cycling, but also bus use and, in the afternoon, car use.
+Neighbourhoods with high values on this dimension are Nordlünen and
+Lünen-South. In Lünen-South children typically attend either the Leo or
+Lüserbach school, which may explain the positive e<U+FB00>ect on car use. The
+Lüserbach school is located somewhat remote in a low-density area,
+where driving is more common, while the Leo school – as pointed out
+above – has a large catchment area due to its attractiveness, which
+results in long distances travelled. In Nordlünen things are somewhat
+more mixed. Children mostly attend the Kardinal-von-Galen school or
+Gottfried school. The Gottfried school is located in a somewhat remote
+area, and it scores high on the tra<U+FB03>c calming factor. It has the lowest
+share of walking in all schools, but high shares of cycling and bus use.
 
+The Matthias-Claudius school is located at the same site, and has the
 
+strongest bus use among all schools, which also contributes to the po-
 
+sitive bus e<U+FB00>ect. The Kardinal-von-Galen school is centrally located and
 
+scores very low on tra<U+FB03>c calming, while many children walk. All these
 
+local circumstances may contribute to the association between tra<U+FB03>c
 
+calming and mode use.
 
+Over and above these broad factors, three more speci<U+FB01>c variables
 
+exhibit signi<U+FB01>cant e<U+FB00>ects. Firstly, route length along roads with narrow
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pavements is associated with higher odds of cycling and car use. The
 
 
 
 
 J. Scheiner et al.
+
+
 latter e<U+FB00>ect is insigni<U+FB01>cant in the afternoon model. While the e<U+FB00>ect on
 car use is in line with expectations, the cycling e<U+FB00>ect may again be due
 to local circumstances. Two residential neighbourhoods score low on
@@ -1407,7 +1567,10 @@ refer to a psychographic attribute of the responding parent, the second
 may well refer to inter-individual di<U+FB00>erences between children over
 and above ‘naturally’ increasing competence emerging with age. Both
 
+
 Travel Behaviour and Society 15 (2019) 15–27
+
+
 associations, however, do not necessarily preclude policy interventions,
 as the concerns expressed may well be addressed by interactive con-
 cepts.
@@ -1474,4 +1637,5 @@ gra<U+FB01>scher und erreichbarkeitsbezogener Schlüsselereignisse' (HO
 3262/8-1). We are also grateful to the Departments of Urban Planning
 and Land Survey of the City of Lünen as well as the SPD group in the
 municipal council for providing various materials on land-use,
+
 25

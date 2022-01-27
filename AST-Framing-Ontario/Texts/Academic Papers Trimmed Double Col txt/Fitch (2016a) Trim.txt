@@ -3,6 +3,7 @@
 Modeling Bicycling to Elementary and
 Junior High Schools with Bike Rack Counts
 Dillon T. Fitch, Calvin G. Thigpen, and Susan L. Handy
+
 The decline in active travel to school and the concomitant rise in numbers
 of children being driven to school in the United States over recent decades
 have affected the health of school-age children and contributed to envi-
@@ -58,6 +59,9 @@ DOI: 10.3141/2587-09
 
 
 
+
+
+
 decline in active travel to school is not solely a function of increased
 distances: even when distances are short (<1 mi), most students still
 get to school by car (6). Bicycling to school is particularly unpopular,
@@ -109,9 +113,13 @@ decision to bicycle to school also has been correlated with age, gender,
 neighborhood population density, school size, and grade level (9, 15).
 Distance (or time) is a major constraint on school mode choice,
 just as it is in mode choice with respect to other activities (4). One study
+
+
 68
 
 Fitch, Thigpen, and Handy
+
+
 suggested that increased distances to school might have accounted for
 about 50% of the decline in active travel (2). This estimate was con-
 sistent with results from a national survey, which showed that roughly
@@ -148,33 +156,39 @@ vide a useful indicator of bicycling comfort. Only simple measures
 of BLTS are provided in this present study. For a detailed investiga-
 tion of the relationship between traffic stress and bicycling to school,
 see Fitch et al. (21).
+
+
 TABLE 1   Summary Statistics for Davis Schools
-Bike Rack         Mean
-Count             Number of        Mean
+
+Bike Rack          Mean
+Count              Number of        Mean
 Number                          Enrolled         Distance
-School                   of Days       Mean      SD      Students         (mi)
-Emerson–DaVinci             12          194       65         731             1.9
+School                    of Days      Mean       SD      Students         (mi)
+
+Emerson–DaVinci              12         194        65         731             1.9
 Junior High
-Harper Junior High          18          205       63         653             1.7
-Holmes Junior High          12          320      106         723             1.8
-Birch Lane                  21          163       40         606             1.0
+Harper Junior High           18         205        63         653             1.7
+Holmes Junior High           12         320       106         723             1.8
+Birch Lane                   21         163        40         606             1.0
 Elementary
-Cesar Chavez                22           97       47         629             2.2
+Cesar Chavez                 22           97       47         629             2.2
 Elementary
-Korematsu                   22          119       46         527             0.7
+Korematsu                    22         119        46         527             0.7
 Elementary
-Montgomery                  30           49       18         420             1.2
+Montgomery                   30           49       18         420             1.2
 Elementary
-North Davis                 25          147       55         587             1.2
+North Davis                  25         147        55         587             1.2
 Elementary
-Patwin Elementary           23           93       53         413             1.0
-Pioneer Elementary          11           62       40         521             1.4
-Willett Elementary          18          117       45         525             1.3
+Patwin Elementary            23          93        53         413             1.0
+Pioneer Elementary           11          62        40         521             1.4
+Willett Elementary           18         117        45         525             1.3
 a
 BLTS 1 = students who could bike to the school on a network with all links classified
 b
 BLTS 2 = students who could bike to the school on a network with all links classified
 69
+
+
 Methods
 
 In most U.S. communities, bicycling represents a small share of school
@@ -212,33 +226,39 @@ bicycles parked at school racks in the morning several times over
 occasions at each school between October 2012 and February 2015
 and resulted in 214 observation day–locations, 20 of which occurred
 
+
+
+
 Percentage by
 Network                  Percentage by Demographic Group
 
-BLTS 1a       BLTS 2b    White     Hispanic     Asian     African-American
-33            86        66         15          9               3
+BLTS 1a       BLTS 2b    White   Hispanic     Asian    African-American
 
-39            71        50         21         18               3
-44            90        59         13         19               3
-67            88        62         14         11               3
+33           86       66         15          9              3
 
-17            90        58         26          5               2
+39           71       50         21         18              3
+44           90       59         13         19              3
+67           88       62         14         11              3
 
-83            91        47         17         24               3
+17           90       58         26          5              2
 
-56            80        32         54          7               2
+83           91       47         17         24              3
 
-46            89        52         16         23               3
+56           80       32         54          7              2
 
-37            94        58         20         13               5
-22            25        57         13         19               3
-45            82        53         11         24               3
+46           89       52         16         23              3
+
+37           94       58         20         13              5
+22           25       57         13         19              3
+45           82       53         11         24              3
 
 as Stress Level 1.
 
 as Stress Level 1 or 2.
 
 70
+
+
 during a bike-to-school day event. Bike rack counts were validated
 with a single-day in-class travel survey, which produced consistent
 results (22). Additional data collected or compiled for this study came
@@ -301,6 +321,8 @@ the number of lanes, on-street parking, speed limit, bike-lane width,
 lane blockage, and presence of a centerline or a raised median through
 the use of an automated routine;
 Transportation Research Record 2587
+
+
 6. Assign each intersection to one of the four BLTS classes on the
 basis of right-hand turn lane length, abruptness, and average speed
 with an automated routine; and
@@ -363,36 +385,45 @@ only differences were the addition of predictor variables). For
 illustration, one of the models including all of the variable groups
 (Full) is as follows:
 
-Fitch, Thigpen, and Handy                                                                                                                                         71
+Fitch, Thigpen, and Handy                                                                                                                                  71
+
+
 TABLE 2   Model Specifications and Information Criteria
-Model Name            Model Specification                                                   WAIC             pWAIC         Weight
-Intercept             na                                                                    125,756.8          11.0         0.00
-Day                   f (season, temperature, day of week, bike-to-school day)              121,969.9          20.0         0.00
-School                f (season, temperature, day of week, bike-to-school day,              121,932.6          23.7         0.50
+
+Model Name           Model Specification                                               WAIC            pWAIC         Weight
+
+Intercept            na                                                                125,756.8         11.0          0.00
+Day                  f (season, temperature, day of week, bike-to-school day)          121,969.9         20.0          0.00
+School               f (season, temperature, day of week, bike-to-school day,          121,932.6         23.7          0.50
 free lunch, race or ethnicity, distance)
-Full                  f (season, temperature, day of week, bike-to-school day,              121,932.6          23.8         0.50
+Full                 f (season, temperature, day of week, bike-to-school day,          121,932.6         23.8          0.50
 free lunch, race or ethnicity, distance, BLTS 1, BLTS 2)
+
 Note: pWAIC = effective number of parameters in the model due to shrinkage (29); weight = Akaike weight of the model in
 this set of four; na = not applicable. A model’s weight is an estimate of the probability that the model will make the best
 predictions on new data, conditional on the set of models considered, according to McElreath (29).
-nbike,ij ~ binomial (ek , pij )                                                                 maleper and freeredper =	percentages of males and students
+
+
+
+nbike,ij ~ binomial (ek , pij )                                                             maleper and freeredper =	percentages of males and students
 eligible for free or reduced lunches,
-pij                                                                                                                     respectively;
-log           = a + a j + ß day  day ij + ß temp  tempij + ß rain  rain ij                              meandistance =	     mean shortest network distance to
+pij                                                                                                          respectively;
+log           = a + a j + ß day  day ij + ß temp  tempij + ß rain  rain ij                       meandistance =	mean shortest network distance to
 1 - pij
-+ ß season  seasonij + ß bike  bike ij + ß hisp  hispij                                                      school (mi); and
++ ß season  seasonij + ß bike  bike ij + ß hisp  hispij                                          school (mi); and
 BLTS 1 and BLTS 2 =	percentages of students with access
-+ ß black  black ij + ß Asian  Asian ij + ß male  maleperij                                                  to school on each of those networks,
++ ß black  black ij + ß Asian  Asian ij + ß male  maleperij                                      to school on each of those networks,
 respectively.
 + ß freeRed  freeredperij + ß dist  meandistance ij
 Although differences were expected in the factors that affected
-+ ß blts1  BLTS1ij + ß blts2  BLTS 2ij                                     bicycling to elementary and junior high schools, the commonali-
++ ß blts1  BLTS1ij + ß blts2  BLTS 2ij                                 bicycling to elementary and junior high schools, the commonali-
 ties were likely to outweigh the differences (i.e., to know something
-priors:                                                                                      about bicycling to elementary school helps to understand bicycling
+priors:                                                                                  about bicycling to elementary school helps to understand bicycling
 to junior high school, and vice versa). Thus bicycling to elementary
 a j ~ normal ( 0, s )
 schools and bicycling to junior high schools were modeled jointly,
-a ~ normal ( 0, 10 )                                                                         and the varying intercepts were used to pool within school variability.
+a ~ normal ( 0, 10 )                                                                     and the varying intercepts were used to pool within school variability.
+
 all ß 's ~ normal ( 0, 10 )
 Results
 s ~ Cauchy ( 0, 1)
@@ -403,17 +434,17 @@ nbike =	number of bikes counted on observa-
 higher proportion of students who bicycled to school than did elemen-
 tion i at school j;
 tary schools (34% and 20%, respectively). The median proportion of
-e =	school enrollment, assumed to be the                   students who bicycled to school in Davis ranged from 11% at Pioneer
+e =	school enrollment, assumed to be the                    students who bicycled to school in Davis ranged from 11% at Pioneer
 same for each observation at school j                  Elementary to 47% at Holmes Junior High (Figure 1). Intraschool
 (i.e., number of trials considered for                 variability was consistently high, especially at elementary schools
 each within-school observation is the                  (Figure 1). All elementary schools recorded their highest proportion
 same) but varies by year (subscript k);                of bicycling on a bike-to-school day; for some schools, proportions
-p =	probability of an enrolled student bi-                 on these days were more than double their medians. The spatial dis-
+p =	probability of an enrolled student bi-                  on these days were more than double their medians. The spatial dis-
 cycling to school (i.e., that a particular             tribution of safe bike access around the schools, as indicated by the
 trial was a success), modeled through                  BLTS classification, did not seem to correspond with proportions of
 the logit link function;                               bicycling to school (Figure 2). For example, Montgomery and Pioneer
-a = mean intercept;                                         Schools had similarly low rates of bicycling to school. A high share
-aj = intercept for school j;                                 of students around Montgomery had BLTS 1 access, while students at
+a = mean intercept;                                          Schools had similarly low rates of bicycling to school. A high share
+aj = intercept for school j;                                  of students around Montgomery had BLTS 1 access, while students at
 each ß = parameter for each predictor variable;                    Pioneer did not. (Contact the authors for additional information and
 day =	series of dummy variables for day of the                interpretation of colors used in Figure 2.)
 week;                                                     The variation in the proportion of bicycling between schools
@@ -422,7 +453,7 @@ season =	series of dummy variables for fall,                      of Interstate
 winter, and spring;                                    Montgomery), while centrally located schools had higher propor-
 bike =	dummy variable for presence of bike-                    tions (e.g., Holmes, North Davis, and Birch Lane). Although the
 to-school day event;                                   spatial distribution of those who biked to school was not the focus of
-hisp, black, and Asian =	      percentages of Hispanic, African-                      this study, the findings here might offer a new explanation for the
+hisp, black, and Asian =	  percentages of Hispanic, African-                      this study, the findings here might offer a new explanation for the
 American, and Asian students, respec­-                 relatively low rates of south Davis students who bicycled to high
 tively;                                                school, namely, experience in bicycling to school (16).
 
@@ -488,11 +519,32 @@ tively;                                                school, namely, experienc
 
 
 
+
+
+
+
+
+
+
+
+
 72
+
+
+
+
 Bike Mode Share (rack count/enrollment)
+
+
+
+
+
 
 FIGURE 1   Box plots of proportion of bicycling to schools
 triangles 5 heavy rain).
+
+
+
 Model Results
 
 The intercept model, which was the first model, included only a mean
@@ -514,8 +566,20 @@ parameter intervals closely centered around 0, which indicated that
 they might not have influenced bicycling. The exception was Friday,
 Transportation Research Record 2587
 
+
+
+
+
+
+
+
+
 School
+
 in Davis (filled dots 5 bike-to-school days;
+
+
+
 
 with a posterior density almost entirely in the negative range, which
 indicated less bicycling on Fridays (Figure 3). Higher morning tem-
@@ -538,7 +602,9 @@ of students with access to school on BLTS 1 and BLTS 2 networks.
 Results indicated that BLTS 1 had an uncertain effect on bicycling to
 
 74
-Parameter             Model
+
+
+Parameter               Model
 Intercept SD
 Full
 School
@@ -616,9 +682,16 @@ Full
 School
 Day
 
+
+
+
+
 FIGURE 3   Parameter mean estimates (circle) and 90% highest
 models (day, school, and full). Full intervals are not displa
 (free or red lunch 5 free or reduced-price lunches).
+
+
+
 school. Similarly, BLTS 2 had an uncertain effect, albeit a predomi-
 nant one (as indicated by its posterior distribution), on bicycling to
 school (Figure 3). These results showed that aggregate measures of
@@ -709,9 +782,18 @@ Transportation Research Record 2587
 
 
 
+
+
+
+
+
 Estimate
+
 posterior density intervals (bars) for three
 yed for parameters with exceptionally large uncertainty
+
+
+
 
 vidual schools. Many observations had a residual variance that was
 greater than 20% (Figure 4). Future research should attempt to address
@@ -727,11 +809,23 @@ lected on rain-free mornings. The findings suggested that, for a large
 group of students, bicycling to school was not a 5-day-a-week routine
 
 Fitch, Thigpen, and Handy
+
+
+
+
 Predicted Bike Mode Share
+
+
+
+
 Observed Bike
+
 FIGURE 4   Observed bike mode share versus ensemble model
 (points 5 mean daily estimates; bars 5 simulated 90% pred
 within é20% of observed daily mode share).
+
+
+
 but an option among alternatives, which was chosen on some days
 but not on others.
 This analysis did not reflect the various bike promotional programs
@@ -754,9 +848,21 @@ to the BLTS variables once they were aggregated from individuals
 to schools.
 75
 
+
+
+
+
+
+
+
+
 Mode Share
+
 predicted bike mode share for each observation
 iction interval; all predictions in shaded region are
+
+
+
 
 The most striking result from the model parameters was how
 uncertain the effects were of comfortable access on bicycling-to-
@@ -780,6 +886,8 @@ to school. This problem stems from the fact that, because the study
 modeled bicycling to school in the aggregate, it was necessary to
 
 76
+
+
 aggregate individual measures of distance to school. Related to this
 problem were the limited data on student origins. Because data on
 origins were available only at one time period (February 2013), the
@@ -851,6 +959,8 @@ The implication was that there might be unobserved variables (e.g.,
 parental work status) whose addition would improve Wednesday
 travel predictions.
 Transportation Research Record 2587
+
+
 Conclusions
 
 New evidence is presented on variables that influence bicycling to
