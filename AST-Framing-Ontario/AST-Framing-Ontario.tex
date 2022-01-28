@@ -6,8 +6,6 @@
 
 
 \usepackage{lineno} % add
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \usepackage{graphicx}
 %%%%%%%%%%%%%%%% end my additions to header
@@ -42,7 +40,7 @@
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={},
-            pdftitle={The framing of active school travel in Ontario, Canada as a health and built environment issue},
+            pdftitle={The framing of active school travel in Ontario, Canada, as a health and built environment issue},
             colorlinks=false,
             urlcolor=blue,
             linkcolor=magenta,
@@ -53,9 +51,42 @@
 % Pandoc toggle for numbering sections (defaults to be off)
 \setcounter{secnumdepth}{0}
 
-% Pandoc citation processing
 
-% Pandoc header
+% tightlist command for lists without linebreak
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+% Pandoc citation processing
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+% for Pandoc 2.8 to 2.10.1
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+% For Pandoc 2.11+
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -74,10 +105,12 @@
 
 
 \begin{document}
+
+
 \begin{frontmatter}
 
-  \title{The framing of active school travel in Ontario, Canada as a health and
-built environment issue}
+  \title{The framing of active school travel in Ontario, Canada, as a
+health and built environment issue}
     \author[Some Department]{Author 1\corref{1}}
    \ead{author1@example.com} 
     \author[Some Department]{Author 2}
@@ -90,16 +123,19 @@ built environment issue}
    \ead{author5@example.com} 
     \author[Some Department]{Author 6}
    \ead{author6@example.com} 
-      \address[Some Department]{Department, Street, City, Province, Postal Code}
-    \address[Another University]{Department, Street, City, Province, Postal Code}
+      \address[Some Department]{Department, Street, City, Province,
+Postal Code}
+    \address[Another University]{Department, Street, City, Province,
+Postal Code}
     \address[Some Institute]{Street, City, Province, Postal Code}
-    \address[Some University]{Department, Street, City, Province, Postal Code}
+    \address[Some University]{Department, Street, City, Province, Postal
+Code}
       \cortext[1]{Corresponding Author}
     \cortext[2]{Equal contribution}
   
   \begin{abstract}
   This is the abstract.
-  
+
   It consists of two paragraphs.
   \end{abstract}
   
@@ -116,77 +152,67 @@ built environment issue}
 
 Rates of walking and bicycling to school, commonly known as active
 school travel (AST), have been declining in Canada and the United States
-for decades (Rothman et al., 2018), with levels much lower than other
-developed countries like The Netherlands (van Goeverden and de Boer,
-2013), Denmark (Jensen, 2008), and Japan (Waygood and Taniguchi, 2020).
-However, the appetite for AST may be high in many Canadian communities.
-For instance, 40\% of children in a study conducted in Toronto, Ontario
-who are driven to school would like to travel by bicycle instead
-(Larouche et al., 2016). But the study reported that less than 3\%
-actually do, despite the vast majority having access to a bicycle and
-living within a short and bikeable distance to school. Another study
-based in London, Ontario reported similar findings with respect to
-children's preference for active travel (Larsen et al., 2012). From a
-public health perspective, this represents a huge opportunity to improve
-health and wellbeing if more children could use active modes to school.
+for decades (Rothman et al., 2018). However, the appetite for AST may be
+high in many Canadian communities. For instance, in a study conducted in
+Toronto, Ontario, 40\% of children who are driven to school would like
+to travel by bicycle instead (Larouche et al., 2016). The study also
+reported that less than 3\% of respondents actually cycled, despite the
+vast majority having access to a bicycle and living within a short and
+bikeable distance to school. Another study based in London, Ontario,
+reported similar findings with respect to children's preference for
+active travel (Larsen et al., 2012). From a public health perspective,
+increasing the use of active modes to school represents a major
+opportunity to improve children's health and wellbeing.
 
-In response to this trend, the Government of Ontario, in Canada, created
-a fund in 2017 to support communities across the province in developing
-AST initiatives. Green Communities Canada runs the program, called
-\emph{Ontario Active School Travel}, and determines the projects that
-will be funded with their support (Canada, 2020a). As of December 2021,
-OAST has awarded over 2 million Canadian dollars and provided resources
-to over 25 projects across Ontario. Many communities implemented school
-travel planning (STP), along with encouragement activities like walking
-school buses or developed resources for schools and parents, among other
-actions (see Canada, 2020b). In this context, STP is a popular
-``school-specific'' intervention led by a facilitator that brings
-together a committee of stakeholders from diverse sectors including
-education, planning, transportation, and public health to develop action
-plans (Buliung et al., 2011; Mammen, M. R. Stone, Ron Buliung, et al.,
-2014). The five-step process involves identifying barriers to AST based
-on the local context and implementing approaches or activities following
-the 5 E's that alleviate concerns about AST and make AST safer and more
-convenient (Buliung et al., 2011; Lang et al., 2011).
+The Government of Ontario, in Canada, has striven to promote this trend,
+and created a fund in 2017 to support communities across the province to
+develop AST initiatives. Green Communities Canada runs the program,
+called \emph{Ontario Active School Travel} (Canada, 2020a). As of
+December 2021, OAST has awarded over CAD 2 million and provided
+resources to over 25 projects across Ontario. Many communities
+implemented school travel planning (STP), along with encouraging
+activities like walking school buses and developed resources for schools
+and parents, among other actions (see Canada, 2020b). In this context,
+STP is a popular ``school-specific'' intervention led by a facilitator
+who brings together a committee of stakeholders from diverse sectors
+including education, planning, transportation, and public health to
+develop action plans (Buliung et al., 2011; Mammen et al., 2014a). The
+five-step process involves identifying barriers to AST based on the
+local context and implementing approaches or activities following the
+4E's that make AST safer and more convenient: 1) setup of the program;
+2) data collection and problem identification; 3) action planning; 4)
+implementation; 5) monitoring and evaluation (Buliung et al., 2011; Lang
+et al., 2011).
 
 How AST is framed by STP stakeholders to a target audience, like parents
-or the general public, may raise awareness about the issue and influence
+or the general public, may raise awareness of the issue and influence
 how walking and bicycling to school are perceived. Gamson and Modigliani
 (1987) define a frame as a ``central organizing idea or story line that
 provides meaning'' to a particular phenomenon. A frame can enable
 individuals ``to locate, perceive, identify, and label'' information
 pertaining to various dimensions of an issue (Goffman, 1974). Therefore,
-stakeholder groups involved in STP efforts can play a role in shaping
-public perception about AST in such a way that it attracts greater
-attention and becomes a ``problem'' that needs to be addressed through
-behaviour change or by new policies. We also contend that the ways in
-which the AST issue is framed can affect the policy process, as outlined
-in Kingdon's (1984) Multiple Streams Framework (MSF), through all three
-streams (i.e., problem, policy, and politics). This framing can
-ultimately impact financial contributions and potential solutions to
-address the decline of AST in Canada.
+stakeholders involved in STP efforts can play a role in shaping public
+perception about AST in such a way that it attracts greater attention
+and is recognized as a ``problem'' that needs to be addressed through
+behaviour change or new policies.
 
 After significant investment of human and financial resources to boost
-rates of AST in Ontario over the past few years, we ask the following
-questions: How is AST framed? What benefits of AST are communicated to
-the public? What solutions are proposed to increase rates of AST? Do
-proposed solutions focus primarily on the intrapersonal and
-interpersonal factors, meaning that behaviour change must ultimately
-result from the individual or household making different travel
-decisions? Or is AST framed as an issue that must be addressed through
-changes in the built environment or at the policy level?
+rates of AST in Ontario over the past few years, we ask this central
+question: How is AST framed to the public? The following questions are
+subsidiary and help us address this main question: What benefits of AST
+are communicated to the public? What solutions are proposed to increase
+rates of AST?
 
 In this paper, we use natural language processing to examine how three
-STP stakeholder groups in Ontario (i.e., municipalities, school boards,
-and transportation consortia) frame the issue of AST. We assembled a
-corpus of texts from webpages that can be considered an important source
-of information for the general public or parents who are interested in
-AST. We examine word frequency, bigrams, and concordances in these
-selected documents, and also identify key topics presented by each
-stakeholder group. We then compare the findings from these documents to
-a selection of studies on AST and explore the extent to which there is
-concordance between the literature on AST and materials shared with the
-public.
+STP stakeholder groups in Ontario (municipalities, school boards, and
+transportation consortia) frame the issue of AST. We assembled a corpus
+of texts from public sources that present information for the general
+public or parents who are interested in AST. We examine word frequency,
+bigrams, and concordances in these selected documents, and also identify
+key topics presented by each stakeholder group. We then compare the
+findings from these documents to a selection of studies on AST and
+explore the extent to which there is concordance between the literature
+on AST and materials shared with the public.
 
 \hypertarget{literature-review}{%
 \section{2. Literature Review}\label{literature-review}}
@@ -195,37 +221,38 @@ public.
 \subsection{2.1. Benefits of active school
 travel}\label{benefits-of-active-school-travel}}
 
-The benefits of AST are valuable information to communicate to the
-public in order to convey the importance of this issue. The desire to
-increase AST in Canada is certainly warranted - there is compelling
-evidence that children who actively commute to school earn physical and
-mental health benefits. Faulkner et al.~(2009) concluded from their
-systematic review that children who travel on foot or by bicycle to
-school generally have higher levels of physical activity than their
-peers who are driven to school. However, Schoeppe et al.~(2015) reported
-no association between AST and physical activity. This relationship
-could be dose-dependent, meaning that children would have to travel
-longer distances to accumulate physical activity. A walking distance of
-1000-1600 metres to school has been found to contribute to overall
-levels of physical activity for boys (Faulkner et al., 2013). The daily
-routine of travelling to school can be a good opportunity for children
-to regularly build physical activity into their schedule (Mitra, 2013).
-Research has also shown that using active modes to school contributes to
-improvements in cardiovascular fitness (Børrestad et al., 2012).
+There is value in communicating the benefits of AST to the public in
+order to convey the importance of this issue. The desire to increase AST
+in Canada is certainly warranted - there is compelling evidence of the
+physical and mental health benefits that children who actively commute
+to school attain. Faulkner et al. (2009) concluded from their systematic
+review that children who travel on foot or by bicycle to school
+generally have higher levels of physical activity than their peers who
+are driven to school. However, Schoeppe et al. (2015) reported no
+association between AST and physical activity in their cross-sectional
+study. This relationship could be dose-dependent, meaning that children
+would have to travel longer distances to accumulate physical activity. A
+walking distance of 1000-1600 metres to school has been found to
+contribute to overall levels of physical activity for boys (Faulkner et
+al., 2013). The daily routine of travelling to school can be a good
+opportunity for children to regularly build physical activity into their
+schedule (Mitra, 2013). Research has also shown that using active modes
+to school contributes to improve cardiovascular fitness (Børrestad et
+al., 2012).
 
-More recently, there has been literature exploring the link between
-transport and children's wellbeing (Waygood et al., 2020), with relevant
+More recently, the literature has explored the link between transport
+and children's wellbeing (Waygood et al., 2020), with relevant
 applications to the study of travel satisfaction (van den Berg et al.,
-2020; Westman, Olsson, et al., 2017). Being driven to school reduces
-community interactions for children which may impact their social
-wellbeing (Waygood and Friman, 2015), whereas walking and bicycling give
-children opportunities to socialize with friends or siblings (Michail et
-al., 2021). This is something that children highly value about travel
-(Zwerts et al., 2010) and indicates that social connections through
-travel are important for their wellbeing. AST also provides
-opportunities for children to engage with the natural environment (Fusco
-et al., 2012; Romero, 2015) which can improve their mental or emotional
-wellbeing.
+2020; Westman et al., 2017b). Being driven to school reduces community
+interactions for children, which may negatively impact their social
+wellbeing (Waygood and Friman, 2015). In contrast, walking and cycling
+give children opportunities to socialize with friends or siblings
+(Michail et al., 2021). This is something that children seem to value
+(Zwerts et al., 2010) and that tracks with findings among university
+students (Paez and Whalen, 2010). More generally, social connections
+through travel appear to be important for wellbeing. Furthermore, AST
+can provide opportunities for children to engage with natural
+environments (Fusco et al., 2012; Romero, 2015).
 
 \hypertarget{factors-that-influence-active-school-travel-and-mode-choice}{%
 \subsection{2.2. Factors that influence active school travel and mode
@@ -234,51 +261,51 @@ choice}\label{factors-that-influence-active-school-travel-and-mode-choice}}
 Factors that influence AST have been presented and organized using a
 socio-ecological model (SEM) (Mitra, 2013) or systems model (Badland et
 al., 2016) whereby children's travel behaviour is understood within the
-context of their household, social, neighbourhood, and policy
-environments. Individual characteristics of the child are also
-determinants. The SEM comes from the field of public health and is a
-useful framework for understanding complex health behaviours, including
-travel habits such as walking or bicycling to school, because it
-identifies multiple determinants that need to be addressed by
-interventions to facilitate behaviour change. The consensus in the
-literature is that various factors are interrelated and that
-interventions should target multiple levels in order to increase levels
-of healthy and physically active modes of travel to school (Mitra,
-2013). Rather than describing an extensive list of factors that
-influence AST and mode choice in Canada (e.g., Mammen et al., 2012;
-Mitra, 2013; Rothman et al., 2018; Wilson et al., 2018), we discuss a
-few potentially modifiable determinants that may be targeted for change
-through STP.
+context of household, social, neighbourhood, and policy environments.
+The SEM comes from the field of public health and is a useful framework
+for understanding complex health behaviours, such as walking and cycling
+habits, This model helps to identify multiple determinants that need to
+be addressed by interventions to facilitate behaviour change. The
+consensus in the literature is that interventions should target multiple
+levels in order to increase levels of healthy and physically active
+modes of travel to school (Mitra, 2013). Rather than describing an
+extensive list of factors that influence AST and mode choice in Canada
+(e.g., Mammen et al., 2012; Mitra, 2013; Rothman et al., 2018; Wilson et
+al., 2018), we discuss a few potentially modifiable determinants that
+may be targeted for change through STP.
 
-At the individual level, older child age is often associated with AST
-(Mammen et al., 2012; Stark et al., 2018; Wilson et al., 2018) as
-parents typically escort younger children. There is evidence that gender
-is a determinant of AST, with boys being more likely to travel using
-active modes than girls, although this is not a strong or consistent
-finding (Rothman et al., 2018; Schoeppe et al., 2015). Children's mode
-choice to school is strongly influenced by their parents' travel
-behaviours and the complexity of their household's travel needs (Buliung
-et al., 2021), which indicates that shifting parental perceptions and
-habits is important. Convenience and inclement weather have been cited
-by parents as barriers to AST (Buliung et al., 2011). Parental
-perceptions of the built or school environment (De Meester et al., 2014;
-Panter et al., 2010) and their children's skills (Mammen et al., 2012)
-also influence whether they allow their children to walk or bicycle to
+At the individual level, age is often positively associated with AST
+(Mammen et al., 2012; Stark et al., 2018; Wilson et al., 2018). There is
+evidence that gender is a determinant of AST, and that boys are more
+likely to travel using active modes than girls, although this is not a
+strong or consistent finding (Rothman et al., 2018; Schoeppe et al.,
+2015). Children's mode choice to school is strongly influenced by their
+parents' travel behaviours and the complexity of their household's
+travel needs (Buliung et al., 2021), as well as the frequency of
+parental support (\textbf{mahDoesParentalSupport2017a?}). This indicates
+that shifting parental perceptions and habits is important. Convenience
+and inclement weather have been cited by parents as barriers to AST
+(Buliung et al., 2011). Parental perceptions of the built or school
+environment (De Meester et al., 2014; Panter et al., 2010) and their
+children's skills (Mammen et al., 2012;
+\textbf{faulknerWhatQuickestEasiest2010?}) also influence mode choice to
 school.
 
 Distance between home and school is most strongly associated with AST
 (Ikeda et al., 2018; Mammen et al., 2012; Pont et al., 2009; Rothman et
 al., 2018) with less AST reported among children who have to travel
-farther to school. Many studies have also found that the quality of the
-built environment along the route to school and around the school site
-(Ikeda et al., 2018; Rothman et al., 2021) and provision of active
-travel infrastructure (Chen et al., 2018; Pont et al., 2009) facilitate
-AST. Canadian youth report that they feel most safe bicycling on streets
-in their neighbourhood or that have low volumes of traffic
-({\textbf{???}}). Finally, concerns about traffic and strangers have
-been reported by parents who drive their children to school (Mammen et
-al., 2012), which highlights that the volume and speed of cars can be a
-concern or deterrent for AST.
+farther to school - low density suburban development tends to increase
+the need for movement, and the reliance on motorized modes (Farber and
+Páez, 2011). Many studies have also found that the quality of the built
+environment along the route to school and around the school site (Ikeda
+et al., 2018; Rothman et al., 2021) and provision of active travel
+infrastructure (Chen et al., 2018; Pont et al., 2009) facilitate AST.
+Canadian youth report that they feel most safe bicycling on streets in
+their neighbourhood or that have low volumes of traffic
+(\textbf{TACbikeinfra2020?}). Finally, concerns about traffic and
+strangers have been reported by parents who drive their children to
+school (Mammen et al., 2012), which highlights that the volume and speed
+of cars can be a concern or deterrent for AST.
 
 \hypertarget{school-travel-planning-in-canada}{%
 \subsection{2.3. School travel planning in
@@ -287,72 +314,71 @@ Canada}\label{school-travel-planning-in-canada}}
 School travel planning (STP) has been implemented in Canada since at
 least the late 2000s. Within the STP process, facilitators generally
 establish multi-sector committees who intervene at the participating
-school through a range of activities related to the 5E's such as
+school through a range of activities related to the 4E's consisting of
 \emph{education} strategies, \emph{encouragement} through in-person
 events or programs, \emph{engineering} improvements to or around the
 school site, and \emph{enforcement} of traffic speeds around schools
-(Lang et al., 2011; Mammen, M. R. Stone, G. Faulkner, et al., 2014). The
-first large-scale evaluation of STP as an intervention in Canada took
-place at twelve schools across the country, including four in Ontario,
-using parental surveys to measure changes in travel behaviour and
-perceptions (Buliung et al., 2011). Since then, there have been other
-assessments of both the efficacy of STP (Buttazzoni et al., 2019;
-Mammen, M. R. Stone, G. Faulkner, et al., 2014) and the process of
-implementing such programs in Ontario (Buttazzoni et al., 2018; Mammen
-et al., 2015). STP facilitators have recommended that additional time
-and resources are needed to improve the efficacy of STP (Mammen et al.,
-2015), which highlights that long-term and sustained efforts driven at
-the policy level are required to address declining rates of AST.
+(Lang et al., 2011; Mammen et al., 2014b). The first large-scale
+evaluation of STP as an intervention in Canada took place at twelve
+schools across the country, including four in Ontario, using parental
+surveys to measure changes in travel behaviour and perceptions (Buliung
+et al., 2011). Assessments of the efficacy of STP (Buttazzoni et al.,
+2019; Mammen et al., 2014b) indicate that it has the potential to
+encourage behaviour change and adoption of AST. STP facilitators have
+recommended that additional time and resources are needed to improve the
+efficacy of STP (Mammen et al., 2015), which highlights that long-term
+and sustained efforts driven at the policy level are required to address
+declining rates of AST.
 
-The ways in which AST is framed seem particularly important to shift
-parental attitudes and perceptions given their reported influence on
-children's travel mode to school. STP activities heavily focus on
-education or encouragement (Buliung et al., 2011; Buttazzoni et al.,
-2018; Mammen, M. R. Stone, G. Faulkner, et al., 2014), but parents may
-not always be receptive to the goals of STP and may be resistant to
-behaviour change (see Buttazzoni et al., 2018). Parents have been found
-to express different understandings, language, and perceptions than
-planners of the built environment determinants that influence school
-travel (Buliung et al., 2021). This is also true when it comes to other
-factors like convenience of different modes to school (Lang et al.,
-2011). STP stakeholder groups must pay special attention to parents'
+How AST is framed seems particularly important to shift parental
+attitudes and perceptions given their reported influence on children's
+travel mode to school. STP activities heavily focus on education or
+encouragement (Buliung et al., 2011; Buttazzoni et al., 2018; Mammen et
+al., 2014b), but parents may not always be receptive to the goals of STP
+and may be resistant to behaviour change (Buttazzoni et al., 2018).
+Parents have been found to express different understandings, language,
+and perceptions than planners of how the built environment can influence
+school travel (Buliung et al., 2021). This is also true when it comes to
+other factors like convenience of different modes to school (Lang et
+al., 2011). STP stakeholders must pay special attention to parents'
 understanding of the decline of AST as a problem, which may affect their
 receptivity to proposed solutions.
 
 The ``central organizing idea or story line'' of AST, to apply the
-definition from Gamson and Modigliani (1987), could also affect broader
-support in the community. Municipal representatives are perceived to be
-instrumental but the involvement of other stakeholder groups (e.g.,
-busing consortium representatives and local residents) can be lacking
-(Buttazzoni et al., 2018). In Ontario, it would be reasonable to say
-that AST has become a policy issue on the education and public health
-agendas over this time as evidenced by the financial contribution from
-the provincial government. The support from a range of municipal
-representatives (see Buttazzoni et al., 2018; Mammen et al., 2015)
-demonstrates that the ``policy stream'' (see Kingdon, 1984) has been
-well engaged. However, it is unknown to what degree the general public
-(i.e., local residents) has been exposed to messaging about AST, or how
-they view the AST issue, which could affect their participation in the
-STP process as desired by STP facilitators (Buttazzoni et al., 2018).
+definition of framing from Gamson and Modigliani (1987), could also
+affect broader support in the community. Municipal representatives are
+perceived to be instrumental but the involvement of other stakeholder
+groups (e.g., busing consortia representatives and local residents) can
+be lacking (Buttazzoni et al., 2018). In Ontario, it is reasonable to
+say that AST has become a policy issue on the education and public
+health agendas, supported, albeit in a modest way, by financial
+contributions from the provincial government\footnote{To put the CAD 2
+  million invested by the province in the Ontario Active School Travel
+  program, a city such as Hamilton budgeted in excess of CAD 91 million
+  on road maintenance and construction in 2016 alone; see:
+  https://www.hamilton.ca/budget-finance/city-budgets/2016-tax-and-rate-budgets}.
+Still, the support from a range of municipal representatives (see
+Buttazzoni et al., 2018; Mammen et al., 2015) demonstrates that the AST
+issue is on the political agenda. However, it is unknown to what degree
+the general public (i.e., local residents) has been exposed to messaging
+about AST.
 
 The success of STP interventions would likely depend on parental
 judgments of factors that are related to school travel, as well as
 support from key policy makers. For example, parents have been found to
 view mixed land use as conducive for driving, despite transport planners
 viewing neighbourhoods with mixed uses as key for encouraging more
-active travel (Buliung et al., 2021). Therefore, stakeholder groups
-involved in STP must make important choices about the proposed solutions
-and potential benefits of AST that ought to be communicated to parents
-and the general public to convey its importance as a policy issue and to
-facilitate adoption of AST. Publicly available content about AST,
-therefore, needs to effectively engage multiple audiences on this policy
-issue including parents, children, politicians, and school
-representatives. This information should reflect current knowledge from
-research on school travel, plus content specific to local factors that
-influence AST, so that the challenges of AST are adequately defined and
-the opportunities or solutions to address the problems are clear.
-However, it is unknown to what degree STP materials presented to the
-general public reflect the scope of evidence from the literature on AST.
+active travel (Buliung et al., 2021). Therefore, stakeholders involved
+in STP must make conscious choices about the proposed solutions and
+potential benefits of AST that are communicated to parents and the
+general public to convey its importance as a policy issue and to
+facilitate adoption of AST. Publicly available content about AST needs
+to effectively engage multiple audiences on this policy issue, including
+parents, children, politicians, and school representatives. This
+information should reflect current knowledge from research on school
+travel, plus content specific to local factors that influence AST, so
+that the challenges of AST are adequately defined and the opportunities
+or solutions to address the problems are clear.
 
 \hypertarget{data}{%
 \section{3. Data}\label{data}}
@@ -369,9 +395,9 @@ initiatives in Ontario: i) school boards (public or Catholic and
 English-speaking only); ii) municipal governments; and iii)
 transportation consortia. The latter are a unique group of entities
 sanctioned by Ontario's Ministry of Education in Ontario 2006. Each
-consortium involves a collaboration between regions and school boards;
-the consortium's objective is to deliver more efficient and timely
-transportation services to schools in each region. Non-profit
+consortium involves a collaboration between municipal regions and school
+boards; the consortium's objective is to deliver more efficient and
+timely transportation services to schools in each region. Non-profit
 organizations, police services, and advocacy groups are other
 stakeholders who often play a role in supporting AST and/or STP, but
 this study does not include any documents from these groups because they
@@ -391,7 +417,7 @@ Webpages from STP stakeholder groups were included in our analysis if
 they were easy to find. This primary criterion was important since our
 analysis pertains to how such issues are framed to the general public.
 Thus, we included only webpages that were readily accessible, which we
-defined as requiring no more than 2-4 separate links from the initial
+defined as requiring no more than 4 separate links from the initial
 Google search.
 
 The initial corpus of documents from STP stakeholder groups included 69
@@ -407,67 +433,70 @@ policy documents. Search results are summarized in Table
 
 \caption{\label{tab:policy-documents}\label{tab:search-results}Search results from the main STP stakeholder groups.}
 \centering
-\resizebox{\linewidth}{!}{
 \begin{tabular}[t]{>{}l|l|>{}l}
 \toprule
-Stakeholder & Total & Included\\
+Stakeholder & Total & Retrieved\\
 \midrule
 \cellcolor{gray!6}{\textbf{School boards}} & \cellcolor{gray!6}{62} & \cellcolor{gray!6}{32}\\
 \textbf{Municipalities} & 62 & 28\\
 \cellcolor{gray!6}{\textbf{Transportation consortia}} & \cellcolor{gray!6}{39} & \cellcolor{gray!6}{9}\\
 \bottomrule
-\end{tabular}}
+\end{tabular}
 \end{table}
 
 \hypertarget{academic-papers}{%
 \subsubsection{3.1.2. Academic papers}\label{academic-papers}}
 
-\textbf{To be completed by Dr.~Paez}
+We conducted a search on Web of Science for scholarly papers on the
+topic of travel to school. We limited our search to the fields of public
+health, transportation, planning, urban studies, and geography. This
+initial corpus was curated by the authors to ensure that all documents
+were relevant; for example, some hits in our search were not full papers
+but conference reports, or they dealt with travel to school only
+peripherally. After this step, we assembled a collection of 227 journal
+articles for analysis.
 
 \hypertarget{data-cleaning}{%
 \subsection{3.2. Data cleaning}\label{data-cleaning}}
 
 A multi-step process was conducted to ensure that the analysis captured
 as much text as possible from both the policy documents (n = 64) and
-academic papers (n = 233). To begin, the webpages, which were manually
+academic papers (n = 227). To begin, the webpages, which were manually
 downloaded in portable document format (PDF), were trimmed so that pages
 that only consisted of tables, figures, or references were removed. Many
 academic papers were in a two-column format, which is not ideal for
-conversion to \texttt{txt}. We adapted a procedure
-(https://stackoverflow.com/questions/42541849/extract-text-from-two-column-pdf-with-r)
-to read the two-column PDF documents so that they would be converted
-correctly. Four academic papers did not join sufficiently and were taken
-out of the corpus due to the substantial time required to manually
-correct their inconsistencies.
+conversion to \texttt{txt}. Two-column PDF documents were processed to
+extract the text in the correct sequence. Four academic papers did not
+join sufficiently and were taken out of the corpus due to the
+substantial time required to manually correct their inconsistencies.
 
 Next, we converted the trimmed PDF documents into \texttt{txt} files so
-that they could be imported in R for analysis. We then proceeded to a
-manual cleaning phase where we removed any remaining tables, figures,
-references, headers/footings, and captions that could not be trimmed.
-Manual corrections were also required for certain pages in academic
-papers that remained in two-column format after the conversion process.
-This typically occurred on pages that had a table or figure which
-disrupted the text. Finally, we reviewed all of the documents to remove
+that they could be imported for analysis in \texttt{R}. The next phase
+was to manually remove any remaining tables, figures, references,
+headers/footings, and captions that could not be trimmed. Manual
+corrections were also required for certain pages in academic papers that
+remained in two-column format after the conversion process. This
+typically occurred on pages that had a table or figure that disrupted
+the text. Finally, we reviewed all of the documents to remove
 hyphenation by line breaks and to keep hyphenated words together on the
 same line. Any ligatures (e.g., combinations of characters or letters
 that were not properly detected during the conversion process) were
-fixed by replacing the unicode sequence of character by inserting the
-missing sequence of characters.
+fixed.
 
 We also manually removed any extraneous material in the academic papers
 that did not pertain to AST specifically. This included footnotes,
 references, acknowledgments, and conflict of interest statements in the
 academic papers. We removed all phone numbers, inserted links to other
-webpages, personal names, and content not to specific to AST from the
+webpages, personal names, and content not specific to AST from the
 policy documents that were retrieved from the websites of school boards,
 municipalities, and transportation consortia.
 
 In the final step, we removed all blank spaces, punctuation,
 capitalization, and numbers. English stop words, which are common words
 such as \emph{and} or \emph{the} as identified in a predetermined list
-by Lewis et al.~({\textbf{???}}) and other frequent terms in the
-documents like ``school'' and specific location names, were removed from
-the corpora.
+by Lewis et al. (Feinerer and Hornik, 2020) and other frequent terms in
+the documents like ``school'' and specific location names, were removed
+from the corpora.
 
 \hypertarget{methods}{%
 \section{4. Methods}\label{methods}}
@@ -481,7 +510,7 @@ behaviours. As previously mentioned, a frame is a ``central organizing
 idea or story line that provides meaning'' to a public issue or
 phenomenon (Gamson and Modigliani, 1987). Scholars in the field of
 political communications have proposed that communicators, such as the
-media or an institution, construct the narrative of a frame for policy
+media or institutions, construct the narrative of a frame for policy
 positions or public issues in order to activate or restrict a particular
 response in the intended audience (Pan and Kosicki, 1993). Organized
 groups of stakeholders can employ similar methods to attract attention
@@ -490,9 +519,12 @@ as suitable to address particular issues (Mah et al., 2014), which may
 prevent the public from being aware of other policy approaches that
 challenge the status quo. The way policy issues are framed is ultimately
 important to understand because it plays a role in either altering or
-preserving the existing social perceptions. This, in turn, can affect
-whether issues are put on the agenda of policy makers and can determine
-which solutions are proposed to address the problem (Kingdon, 1984).
+preserving the existing social perceptions. Finally, the ideas that are
+communicated by a particular frame can be either positive or negative
+(\textbf{waygoodCO2ValenceFraming2018?}). There is evidence that
+negative framing may be more effective at motivating individuals to
+change transport modes to reduce CO2 emissions
+(\textbf{waygoodCO2ValenceFraming2018?}).
 
 Framing of issues is an important step in developing health policy. An
 obvious example over the past decade is the framing of climate change as
@@ -500,70 +532,67 @@ a public health issue (e.g., Depoux et al., 2017; Maibach et al., 2010;
 Weathers and Kendall, 2016) to increase public engagement and awareness
 of the issue. This framing has slowly advanced this issue on public
 policy agendas as public attention puts pressure on the policy stream to
-adopt frameworks for action. For example, transport planners also use
+adopt frameworks for action. For example, transport planners use
 different frames to guide the extent to which transport policies can be
 adapted to address climate change. In a recent paper (Reynard et al.,
 2021), framing analysis was applied to review the representation of
 issues such as mobility and social exclusion in municipal policies from
 four western Canadian cities under the current circumstances of climate
-change. The authors found four primary frames: ``The Growing City'',
-``If You Build It, They Will Come'', ``Better City for All'', and a
+change. The authors found four primary frames: ``The Growing City,''
+``If You Build It, They Will Come,'' ``Better City for All,'' and a
 ``the Resilient City'' (Reynard et al., 2021). Each frame presented the
 nature, opportunities, and challenges of climate change in different
 ways which set the stage for the types of mitigation and adaptation
 strategies that cities were proposing to address this issue.
 
 In a similar way, we hypothesize that STP stakeholder groups in Ontario
-have framed AST in particular ways to effectively engage multiple
-audiences on this policy issue including parents, local residents,
-school representatives, and municipal representatives. These groups are
-likely identifying points of intervention and potential opportunities to
-build support for and encourage AST.
+have framed AST in particular ways to engage multiple audiences on this
+policy issue including parents, local residents, school representatives,
+and municipal representatives. These groups are likely identifying
+points of intervention and potential opportunities to build support for
+and encourage AST.
 
-\hypertarget{topic-modelling}{%
-\subsection{4.2. Topic modelling}\label{topic-modelling}}
+\hypertarget{process}{%
+\subsection{4.2. Process}\label{process}}
 
-We use topic modelling in R to conduct the framing analysis. Topic
-modelling is a machine learning technique that can identify what
-language and concepts are being communicated by analyzing text. This
-method is more practical for researchers working with large amounts of
-text because it replaces the manual coding of topics that would normally
-take place to analyze or summarize textual data (Jacobi et al., 2016).
-In the data pre-processing phase, we tokenize the text in the documents
-and create a document-term matrix so that it is in the correct format
-for analysis. We primarily use the following packages: \texttt{tidytext}
-({\textbf{???}}), \texttt{topicmodels} ({\textbf{???}}),
-\texttt{word2vec} ({\textbf{???}}), and \texttt{wordcloud}
-({\textbf{???}}) to examine text in the documents that were sourced for
-this project. These packages have functions for determining the
-frequency of specific words in each document or relationships (e.g.,
-pairs of adjacent terms called bigrams) and correlations between words.
-These methods can reveal what language and concepts are being
-communicated to the general public. Topic modelling is a popular method
-for analyzing text from social media platforms (Albalawi et al., 2020)
-or news articles (Jacobi et al., 2016). We estimate latent Dirichlet
-allocation (LDA) models to classify both the STP and documents according
-to the topics that are contained within them. This method ``treats each
-document as a mixture of topics, and each topic as a mixture of words''
-(Silge and Robinson, 2021). The model's output is ``a set of topics
-consisting of clusters of words that co-occur in these documents
-according to certain patterns'' (Jacobi et al., 2016). Researchers must
-then interpret the identified topics, as done after other methods of
-manual coding. We also compare the topics between the policy documents
-and the academic papers, and use our interpretation to answer the
-questions outlined above that guide this paper. This methodology is not
-familiar to many, so we describe in more detail below how we used
-specific functions and code in R to produce our results.
+We use topic modelling in \texttt{R} to conduct the framing analysis.
+Topic modelling is a machine learning technique used to analyze text to
+identify the language and concepts being communicated. This method is
+practical for researchers working with large amounts of text because it
+replaces the manual coding of topics that would normally take place to
+analyze or summarize textual data (Jacobi et al., 2016). In the data
+pre-processing phase, we tokenize the text in the documents and create a
+document-term matrix so that it is in the correct format for analysis.
+We primarily use the following packages: \texttt{tidytext} (Robinson and
+Silge, 2021), \texttt{topicmodels} (Grün and Hornik, 2021),
+\texttt{word2vec} (Wijffels, 2021), and \texttt{wordcloud} (Fellows,
+2018) to examine text in the documents that were sourced for this
+project. These packages have functions for determining the frequency of
+specific words in each document or relationships (e.g., pairs of
+adjacent terms called bigrams) and correlations between words. Topic
+modelling is a popular method for analyzing text from social media
+platforms (Albalawi et al., 2020) and news articles (Jacobi et al.,
+2016). We estimate latent Dirichlet allocation (LDA) models to classify
+both the STP and academic documents according to the topics that are
+contained within them. This method ``treats each document as a mixture
+of topics, and each topic as a mixture of words'' (Silge and Robinson,
+2021). The model's output is ``a set of topics consisting of clusters of
+words that co-occur in these documents according to certain patterns''
+(Jacobi et al., 2016). Researchers must then interpret the identified
+topics, as done after other methods of manual coding. We also compare
+the topics between the policy documents and the academic papers, and use
+our interpretation to answer our research question. We describe in more
+detail the functions and code in \texttt{R} that we used.
 
 \hypertarget{reproducibility}{%
 \subsection{4.3. Reproducibility}\label{reproducibility}}
 
 This paper is an example of open and reproducible research that uses
-only open software. All data were obtained from publicly available
-sources and organized in the form of a data package. Following best
-practices in spatial data science ({\textbf{???}}), the code and data
-needed to reproduce or conduct a similar analysis for other regions in
-North America or elsewhere are available for download.
+only open software. All data are organized in the form of an open data
+product (Arribas-Bel et al., 2021). Following best practices in spatial
+data science (\textbf{brunsdon2020opening?}), the code and data needed
+to reproduce our research or conduct a similar analysis for other
+regions are available for download.
 
 \hypertarget{results}{%
 \section{5. Results}\label{results}}
@@ -572,36 +601,37 @@ North America or elsewhere are available for download.
 \subsection{5.1. Word and document
 frequency}\label{word-and-document-frequency}}
 
-We analyzed word and document frequency for each set of documents (i.e.,
-corpus). Table \ref{tab:word-table} shows the most frequent terms found
-in the municipal, transportation consortia, school board, and academic
-documents. As expected, policy documents and academic papers reference
-\emph{active travel}, \emph{walking}, \emph{biking} or \emph{cycling},
-and \emph{students} more than other terms. Each corpus also has
-\emph{safety} and \emph{traffic} as common words which suggests
-congruence on these key factors between the research literature and how
-AST is framed to the public. The word \emph{physical} is present in each
-corpus, but it's not clear what this refers to (e.g, \emph{physical
-activity}, \emph{physical health}, or the \emph{physical environment}).
+We analyzed word and document frequency for each corpus of text. Table
+\ref{tab:word-table} shows the most frequent terms found in the
+municipal, transportation consortia, school board, and academic
+documents. Policy documents and academic papers reference \emph{active},
+\emph{travel}, \emph{walking}, \emph{biking} or \emph{cycling}, and
+\emph{students} more than other terms. Each corpus also has
+\emph{safety} and \emph{traffic} as common words which suggests that
+such concerns are a common reason given for parents driving their
+children to school. The word \emph{physical} is present in each corpus,
+but it's not clear what this refers to (e.g, \emph{physical activity},
+\emph{physical health}, or the \emph{physical environment}).
 Furthermore, documents from STP stakeholder groups discuss
 \emph{resources}, \emph{information}, and \emph{services} about school
-travel. In the section below, the context in which these terms are
-discussed is explored further.
+travel. Unlike the academic papers, policy documents include the words
+\emph{route} or \emph{routes} as frequent terms. This could indicate the
+presence of ``safe routes to school'' in the policy corpus, as well as
+the role of STP stakeholder groups in identifying safe routes to school
+to share with parents or families. In the section below, the context in
+which these terms are used is explored further.
 
-Unlike the academic papers, policy documents include the words
-\emph{route} or \emph{routes} as frequent terms. This could reflect the
-role of STP stakeholder groups in identifying safe routes to school to
-share with parents or families, as well as the STP emphasis on making
-the physical environment safer for AST. The academic corpus differs from
-the policy documents in that \emph{parents} and \emph{distance} are the
-second and third most common terms. In addition, \emph{time},
-\emph{factors}, \emph{environment}, and \emph{age} are also identified
-in the academic papers. These words are absent from the list of common
-words in policy documents. Table \ref{tab:word-table} indicates that the
-academic corpus discusses a broader range of determinants of AST than
-the policy documents. The number of references for each term in the
-academic papers is also significantly higher due to the inclusion of
-more documents.
+The academic corpus differs from the policy documents in that
+\emph{parents} and \emph{distance} are the second and third most common
+terms. In addition, \emph{time}, \emph{factors}, \emph{environment}, and
+\emph{age} are also identified in the academic papers. The prevalence of
+these terms is consistent with an academic focus on exploring the
+variables that influence mode choice. These words are absent from the
+list of common words in policy documents. Table \ref{tab:word-table}
+indicates that the academic corpus discusses a broader range of
+determinants of AST than the policy documents. The number of references
+for each term in the academic papers is also substantially higher due to
+the inclusion of more documents.
 
 \begin{table}
 
@@ -651,48 +681,65 @@ routes & 27 & 13 & service & 22 & 11 & student & 12 & 5 & significant & 1644 & 2
 \end{tabular}}
 \end{table}
 
+Examination of document frequency reveals terms that are not present in
+all policy documents. This suggests that although documents pertain to
+the subject of school travel, not all stakeholders across Ontario are
+disseminating information about AST. For example, a document may discuss
+active travel but not to school. Some documents present school travel
+options by bus but not by active modes. We manually searched the policy
+corpus and found that 48\% of documents mention AST and 16\% mention
+STP. This confirms that many municipalities, school boards, and
+transportation consortia do not promote AST through their webpages or
+indicate their involvement in the STP process. Instead, inclement
+weather and its impacts on busing is a common topic addressed in school
+board and transportation consortia documents.
+
 \hypertarget{bigrams-and-concordances}{%
 \subsection{5.2. Bigrams and
 concordances}\label{bigrams-and-concordances}}
 
-Bigrams refer to a pair of consecutive words. We use the
-\texttt{unnest\_tokens} function from the \emph{tidytext} package to
-determine the bigrams. Figures \ref{fig:city-visual},
-\ref{fig:consortia-visual}, and \ref{fig:school-visual} show the bigrams
-that occur more than 5 times for each set of policy documents. These
-figures help to make further sense of the word frequencies reported
-above, and highlight the main ideas that are presented to the public in
-each of the policy corpora. Municipalities primarily discuss
-\emph{physical activity} (n = 53) and \emph{public health} (n = 19) in
-the context of AST. In addition, \emph{travel planning} (n = 19),
-\emph{bike lanes} (n = 16), and \emph{safe routes} (n = 14) are also
-identified, conceivably as either proposed solutions or built
-environment factors that support AST. Key issues related to transport
-such as \emph{traffic safety} (n = 10), \emph{air quality} (n = 9), and
-\emph{greenhouse gases} (n = 9) are conveyed to the public through these
-policy documents. It is not surprising to find this focus given that
-municipalities in Ontario are concerned about climate change and have
-increasingly looked to active modes of travel to offset
-transport-related emissions in urban areas.
+Bigrams refer to a pair of consecutive words. Figures
+\ref{fig:city-visual}, \ref{fig:consortia-visual}, and
+\ref{fig:school-visual} show the bigrams that occur more than 5 times
+for each set of policy documents. These figures help to make further
+sense of the word frequencies reported above, and highlight the main
+ideas that are presented to the public in each of the policy corpora.
+The directional arrows indicate the arrangement of the words (e.g.,
+active travel and not travel active) and the colour gradient of the
+arrows corresponds to the most frequently mentioned pairs (e.g., bigrams
+with darker arrows are found more often).
 
-Similar word bigrams are found in school board documents: \emph{travel
+Municipalities primarily discuss \emph{physical activity} (n = 53) and
+\emph{public health} (n = 19) in the context of AST. In addition,
+\emph{travel planning} (n = 19), \emph{bike lanes} (n = 16), and
+\emph{safe routes} (n = 14) are also identified, conceivably as either
+proposed solutions or built environment factors that support AST. Key
+issues related to transport such as \emph{traffic safety} (n = 10),
+\emph{air quality} (n = 9), and \emph{greenhouse gases} (n = 9) are
+conveyed to the public through these policy documents. It is not
+surprising to find this focus given that municipalities in Ontario are
+concerned about climate change and have increasingly looked to active
+travel to offset transport-related emissions in urban areas.
+
+Similar bigrams are found in school board documents: \emph{travel
 planning} (n = 33), \emph{safe routes} (n = 15), \emph{physical
 activity} (n = 10), and \emph{public health} (n = 10) are among the most
-common bigrams. Both municipalities and school boards in Ontario seem to
+common. Both municipalities and school boards in Ontario seem to
 emphasize what can be or has been done to improve AST (i.e., policy or
 planning changes), while outlining some of the benefits of AST at the
 individual- or community-level to potentially encourage behaviour change
 (i.e., physical activity for children or improved air quality). Unlike
 other STP stakeholders, school boards also consider \emph{inclement
-weather} (n = 24) and \emph{bus cancellations} (n = 13). This is likely
-because many students in Ontario travel to school by bus and this
-information is presented alongside AST options. Finally, transportation
-consortia documents highlight topics such as \emph{physical activity} (n
-= 10), \emph{pedestrian safety} (n = 8), \emph{crossing guards} (n = 6),
-\emph{travel planning} (n = 6), and \emph{walk zones} (n = 6). Biking or
-cycling is notably absent from transportation consortia documents.
-Overall, the policy documents There appears convey an emphasis on the
-built environment, rather than household decision-making.
+weather} (n = 24) and \emph{bus cancellations} (n = 13). Most likely
+this is because school boards are mandated to provide transportation to
+school in Ontario (typically by bus) and this information is presented
+alongside AST options. Finally, transportation consortia documents
+highlight topics such as \emph{physical activity} (n = 10),
+\emph{pedestrian safety} (n = 8), \emph{crossing guards} (n = 6),
+\emph{travel planning} (n = 6), and \emph{walk zones} (n = 6). Biking
+and cycling are notably absent from transportation consortia documents.
+Overall, the policy documents appear to convey an emphasis on the built
+environment, rather than household decision-making.
 
 \begin{figure}
 
@@ -700,7 +747,7 @@ built environment, rather than household decision-making.
 
 }
 
-\caption{\label{fig:city-visual}Most common bigrams found in the municipal or regional government documents.}\label{fig:city-visual}
+\caption{\label{fig:city-visual}Most common bigrams found in the municipal and regional government documents.}\label{fig:city-visual}
 \end{figure}
 
 \begin{figure}
@@ -730,43 +777,44 @@ built environment, rather than household decision-making.
 \caption{\label{fig:policy-visual}Most common bigrams found across all policy documents (i.e., school board, municipality, and transportation consortia combined).}\label{fig:policy-visual}
 \end{figure}
 
-We then combine all municipality, school board, and transportation
-consortia documents into one ``policy'' corpus. This enabled us to
-examine and visualize the most common bigrams found across all of the
+We then combined all municipality, school board, and transportation
+consortia documents into one ``policy+practice'' corpus. This enabled us
+to examine and visualize the most common bigrams found across all of the
 material in Ontario that was collected for this study. Figure
 \ref{fig:policy-visual} shows all of the bigrams that occur more than 10
-times in the policy corpus. In addition to the bigrams already
+times in the policy+practice corpus. In addition to the bigrams already
 identified above, we also found \emph{mental health}, \emph{walk day},
-and \emph{green communities} as common pairs of consecutive words. The
-latter terms represent the significant involvement of the non-profit
-organization in supporting AST initiatives through the Ontario Active
-School Travel program. Overall, the policy documents from STP
-stakeholder groups seem to focus on four key areas: i) benefits or
-impacts of AST; ii) mechanisms of intervention; iii) concerns or
+and \emph{green communities} as common pairs of consecutive words.
+\emph{Green Communities Canada} is a non-profit organization that has
+significantly supported AST initiatives through the Ontario Active
+School Travel program so the high frequency of this term in the
+policy+practice corpus is not surprising. Overall, the policy documents
+from STP stakeholder groups seem to focus on four key areas: i) benefits
+or impacts of AST; ii) mechanisms of intervention; iii) concerns or
 considerations; and iv) supports for AST. This interpretation indicates
 that the general public accessing information about AST in Ontario is
-informed about an adequate range of content related to this issue.
+informed about a wide range of content related to this issue.
 
-Next, we analyze bigrams in the academic corpus separately to make
-comparisons with the policy corpus. Figure \ref{fig:academic-visual}
-indicates that academic papers include several common bigrams that were
-also found in the policy documents including \emph{physical activity} (n
-= 1566), which is the top bigram, \emph{traffic safety} (n = 308), and
-\emph{safe routes} (n = 268). However, many other factors are identified
-in the research literature that are not presented to the general public
-through policy documents. After \emph{physical activity}, \emph{built
-environment} (n = 1175), \emph{independent mobility} (n = 774), and
-\emph{urban form} (n = 352) are the most frequent pairs of consecutive
-words. Academic papers also often discuss \emph{distance home} (n =
-258), \emph{car ownership} (n = 254), \emph{household income} (n = 254),
-and \emph{population density} (n = 205), which are factors that have
-been found to influence AST. It is evident that many papers investigate
-gender differences in AST given that \emph{boys girls} (n = 211) is
-another common bigram. Finally, the presence of \emph{statistically
-significant} among the top bigrams underscores that some researchers aim
-to identify determinants using statistical measures. We find that the
-academic corpus focuses on a greater range of topics than found in the
-policy documents.
+Next, we analyzed bigrams in the academic corpus separately to make
+comparisons with the policy+practice corpus. Figure
+\ref{fig:academic-visual} indicates that academic papers include several
+common bigrams that were also found in the policy documents including
+\emph{physical activity} (n = 1566), which is the top bigram,
+\emph{traffic safety} (n = 308), and \emph{safe routes} (n = 268).
+However, many other factors are identified in the research literature
+that are not presented to the general public through policy documents.
+After \emph{physical activity}, \emph{built environment} (n = 1175),
+\emph{independent mobility} (n = 774), and \emph{urban form} (n = 352)
+are the most frequent pairs of consecutive words. Academic papers also
+often discuss \emph{distance home} (n = 258), \emph{car ownership} (n =
+254), \emph{household income} (n = 254), and \emph{population density}
+(n = 205), which are factors that have been found to influence AST. Many
+papers also investigate gender differences in AST given that \emph{boys
+girls} (n = 211) is another common bigram. Finally, the presence of
+\emph{statistically significant} among the top bigrams underscores that
+researchers often aim to identify associations using statistical
+measures. We found that the academic corpus focuses on a greater range
+of topics than found in the policy documents.
 
 \begin{figure}
 
@@ -777,15 +825,14 @@ policy documents.
 \caption{\label{fig:academic-visual}Most common bigrams found in the academic papers.}\label{fig:academic-visual}
 \end{figure}
 
-We interpret the most common bigrams from the policy corpus (see Figure
-\ref{fig:policy-visual}), which includes all documents from
+We interpreted the most common bigrams from the policy+practice corpus
+(see Figure \ref{fig:policy-visual}), which includes all documents from
 municipalities, transportation consortia, and school boards, as the main
-ideas that STP stakeholder groups are focusing on and communicating to
-the public about AST. We then use the \texttt{kwic} function from the
-\emph{quanteda} package to better understand the context of these key
-ideas. Table \ref{tab:policy-concordance} presents some examples of the
-context that was extracted from select policy documents to demonstrate
-how the most common bigrams are communicated to the public.
+ideas that STP stakeholder groups focus on and communicate to the public
+about AST. We then examined the context of these key ideas by extracting
+words-in-context from the corpora. Table \ref{tab:policy-concordance}
+presents some examples from select policy documents that illustrate how
+the most common bigrams are communicated to the public.
 
 \begin{table}
 
@@ -803,14 +850,14 @@ Terms & Stakeholder & Context\\
 \addlinespace
 \textbf{Health} & Municipality & Active School Travel allows school-aged children the chance to participate in moderate to intense physical activity. This is linked with lower body mass index and improved cardiovascular health.\\
 \textbf{\cellcolor{gray!6}{Lanes}} & \cellcolor{gray!6}{Municipality} & \cellcolor{gray!6}{We are continuing to build on the cycling and pedestrian network by adding more bike lanes, building multi-use paths and encouraging developments to provide better pedestrian/cycling environments.}\\
-\textbf{Mental Health} & Municipality & ASST not only improves physical and mental health but contributes to a healthier environment and safer streets.\\
+\textbf{Mental Health} & Municipality & Active and Sustainable School Travel (ASST) not only improves physical and mental health but contributes to a healthier environment and safer streets.\\
 \textbf{\cellcolor{gray!6}{Physical Health}} & \cellcolor{gray!6}{Municipality} & \cellcolor{gray!6}{Encouraging Active Transportation promotes personal health and recreation, helps manage congestion, reduces emissions and supports municipal objectives for efficient land use.}\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\hypertarget{topic-modelling-1}{%
-\subsection{5.3. Topic modelling}\label{topic-modelling-1}}
+\hypertarget{topic-modelling}{%
+\subsection{5.3. Topic modelling}\label{topic-modelling}}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{AST-Framing-Ontario_files/figure-latex/policy-terms-1} \caption{\label{fig:policy-terms}Topics identified in the policy corpus according to clusters of words.}\label{fig:policy-terms}
@@ -820,67 +867,61 @@ Terms & Stakeholder & Context\\
 \includegraphics[width=1\linewidth]{AST-Framing-Ontario_files/figure-latex/academic-terms-1} \caption{\label{fig:academic-terms}Topics identified in the academic corpus according to clusters of words.}\label{fig:academic-terms}
 \end{figure}
 
-Finally, we conduct topic modelling to examine the different topics
-found in the policy and academic corpora. We focus on the policy corpus,
-instead of individually assessing the municipal, school, and consortia
-documents, so that we could report on the various frames used across all
-documents put out by STP stakeholder groups in Ontario. To determine the
-number of discrete topics in each corpus, we use the \emph{ldatuning}
-package. We then use the \texttt{LDA} function from the
-\emph{topicmodels} package to estimate an LDA model for each group of
-documents. The parameters from the \emph{ldatuning} package suggest that
-the policy corpus has between 7 and 9 topics and the academic corpus has
-between 17 and 25 topics. After running the LDA model for the academic
-corpus, it was too difficult to interpret a minimum of 17 topics based
-on the clusters of words that were identified. We experimented with the
-model by adjusting and evaluating the number of topics and found that
-there were 9 distinct topics that could be interpreted, after which
-there was too much overlap. Figures \ref{fig:policy-terms} and
+For the final part of our analysis, we conducted topic modelling to
+examine the different topics found in the policy and academic corpora.
+We focused on the policy+practice corpus, instead of assessing the
+municipal, school, and consortia documents separately, so that we could
+report on the various frames used across all documents put out by STP
+stakeholder groups in Ontario. We then estimated Latent Dirillecth
+Allocation (LDA) models for each corpus. Parameter tuning suggests that
+the policy+practice corpus has between 7 and 9 topics and the academic
+corpus has between 17 and 25 topics. After running the LDA model for the
+academic corpus, we realized the difficulty of interpreting a minimum of
+17 topics based on the clusters of words that were identified. We
+experimented with the model by adjusting and evaluating the number of
+topics and found that there were 9 distinct topics that could be
+interpreted, after which there was too much overlap for the clusters to
+be meaningfully interpreted. Figures \ref{fig:policy-terms} and
 \ref{fig:academic-terms} present the main terms that are associated with
 the topics found in each corpus.
 
-In the policy corpus, we interpret the following topics based on the
-cluster of words: (1) resources for walking; (2) walking; (3) supporting
-active travel; (4) bicycling and the environment; (5) benefits of active
-travel; (6) safety; and (7) busing information and eligibility. These
-topics indicate that STP stakeholder groups are sending the message that
-walking and bicycling to school are healthy travel modes for students,
-particularly as a means to get physical activity. We also found that
-there is information shared to support parents and students in using
-active modes to school such as the availability of cycling lanes or
-route tips for walking. STP stakeholder groups are appear to be
-addressing the issue of safety.
+In the policy+practice corpus, we identified the following topics based
+on the cluster of words: (1) resources for walking; (2) walking; (3)
+support for active travel; (4) bicycling and the environment; (5)
+benefits of active travel; (6) safety; and (7) busing information and
+eligibility. These topics indicate that STP stakeholder groups are
+sending the message that walking and bicycling to school are healthy
+travel modes for students, particularly in terms of physical activity.
+We also found that information is shared to support parents and students
+in using active modes to school, for example regarding the availability
+of cycling lanes and tips for route choice for walking.
 
 The academic corpus has a higher number of topics likely due to the
-volume of papers that were sourced. The following topics were identified
-based on the clusters of words: (1) built environment (2) walking
-distance; (3) AST interventions; (4) parental barriers to walking; (5)
-behaviours and attitudes; (6) bicycling; (7) social environment; (8)
-children's independent mobility; (9) modeling trip choice; (10)
-adolescents and physical activity; and (11) safe routes to school
-programs. This corpus reflects a broader range of topics than the policy
-corpus.
+volume of papers included. The following topics were identified based on
+the clusters of words: (1) built environment (2) walking distance; (3)
+AST interventions; (4) parental barriers to walking; (5) behaviours and
+attitudes; (6) bicycling; (7) social environment; (8) children's
+independent mobility; (9) modeling trip choice; (10) adolescents and
+physical activity; and (11) safe routes to school programs. This corpus
+reflects a broader range of topics than the policy+practice corpus.
 
-We conclude that the policy corpus primarily frames AST as a health and
-environmental issue. Policy documents do not reflect the diversity of
-content found in the academic papers and instead focus on a few factors.
-STP stakeholder groups appear to position walking, bicycling, or rolling
-to school as beneficial to individual health, as an opportunity for
-physical activity or to improve mental health, and to the broader
+\hypertarget{frames}{%
+\subsection{5.4. Frames}\label{frames}}
+
+Based on the identified bigrams and topics, we determined that the
+policy+practice corpus primarily frames AST as a health and
+environmental issue. STP stakeholder groups appear to position walking,
+bicycling, or rolling to school as beneficial to individual health, via
+physical activity and improved mental health, and to the broader
 community through a reduction in traffic and vehicle emissions. Here, we
-present some examples from the policy documents to illustrate how the
-health and environmental frames are communicated:
+present some examples from the policy documents that illustrate how the
+health and environmental frame is communicated:
 
 \begin{quote}
 \emph{If you live in a walk zone, the best way to get to school is by
 walking or biking. This promotes physical activity, helps the
 environment and minimizes traffic around schools during busy times.}
 (City of Barrie)
-\end{quote}
-
-\begin{quote}
-\emph{Walking to school is a great way to add physical activity into
-your child's busy day.} (Region of Haldimand-Norfolk Region)
 \end{quote}
 
 \begin{quote}
@@ -897,32 +938,16 @@ proven links to greater student achievement.} (Waterloo Catholic
 District School Board)
 \end{quote}
 
-However by examining document frequency (see Section 5.1), we found that
-some terms are not present in all policy documents. This suggests that
-although documents pertain to the subject of active travel or school
-travel, some stakeholders across Ontario are not disseminating
-information about AST. For example, a document may discuss active travel
-but not to school or school travel but only by bus and not by active
-modes. We manually searched the policy corpus and found that 48\% of
-documents mention AST and 16\% mention STP. This confirms that many
-municipalities, school boards, and transportation consortia are not
-promoting AST through their webpages or indicating their involvement in
-the STP process. Instead, inclement weather and impacts to busing is a
-common topic addressed in school board and transportation consortia
-documents.
-
-Furthermore, we found that some policy documents make direct reference
-to topics found in the academic papers. For example, some policy
-documents encourage AST programs that have been researched and evaluated
-in the literature, such as walking school buses, or explain how an
-increase in AST will reduce parent safety concerns.
+Furthermore, we found that policy documents make claims about the
+benefits of AST that are consistent with the findings of academic
+research and evaluation.
 
 \begin{quote}
-\_ For their health, safety, environment and community: Kids learn
+\emph{For their health, safety, environment and community: Kids learn
 healthy habits and concentrate better in class; One less car (yours)
 reduces traffic and parking problems in school zones; Teach your kids
 about traffic safety; Start a walking school bus; your kids make friends
-in every grade, and that can prevent bullying.\_ (City of Guelph)
+in every grade, and that can prevent bullying.} (City of Guelph)
 \end{quote}
 
 \begin{quote}
@@ -934,25 +959,22 @@ interactions. Walking and biking to school can also save you money and
 lead to fewer cars on the road.} (City of Ottawa)
 \end{quote}
 
-The secondary frame for AST in policy documents is the opportunity or
-prospect of behaviour change. Some cities and schools explain how
-children and parents can leave the car at home and make the journey to
-school on foot or by bike by describing efforts to make AST safer. This
-frame encourages the public to evaluate their own travel decisions and
-to access resources (e.g., walking skills checklist) that will help them
-make AST a first choice. Some documents emphasize the role of the parent
-in creating opportunities for AST in their household or neighbourhood,
-however few documents address the main barriers as perceived by parents
-(e.g., distance, travel arrangements for multiple people, or
-convenience). Examples of this secondary frame include:
+The secondary frame in policy documents is that AST is accessible and
+feasible for children and parents. The documents indicate that there is
+an opportunity for or prospect of behaviour change. Some cities and
+schools explain how children and parents can leave the car at home and
+make the journey to school on foot or by bike. This frame encourages the
+public to evaluate their own travel decisions and to access resources
+(e.g., walking skills checklist) that will help them make AST a first
+choice. Examples of this secondary frame include:
 
 \begin{quote}
-\_A way to make sure your child is safe while walking to school is with
-a `walking school bus.' Here are some tips for a walking school bus:
-Invite families who live nearby to walk; Pick a route and take a test
-walk; Take side streets and paths that are less busy with traffic;
+\emph{A way to make sure your child is safe while walking to school is
+with a `walking school bus.' Here are some tips for a walking school
+bus: Invite families who live nearby to walk; Pick a route and take a
+test walk; Take side streets and paths that are less busy with traffic;
 Decide how often the group will walk together; Talk with your boss to
-adjust your day; Have fun! (City of Ottawa)
+adjust your day; Have fun!} (City of Ottawa)
 \end{quote}
 
 \begin{quote}
@@ -971,12 +993,12 @@ wheeling into your daily routine.} (Ottawa-Carleton District School
 Board)
 \end{quote}
 
-Finally, the policy documents discuss proposed solutions to encourage
-AST. STP stakeholder groups seem to be communicating that AST is
-possible and safe as a result of improvements to the built environment
-and available resources for parents and children. A final focus in the
-policy documents is on various efforts that are underway to support AST
-including route planning. A few examples include:
+Finally, both AST frames present solutions to encourage AST. STP
+stakeholder groups seem to be communicating that AST is a healthy and
+easy option as a result of policy changes (e.g., available resources for
+parents and children) and improvements to the built environment. This
+could include examples of various efforts that are underway to support
+AST including route planning.
 
 \begin{quote}
 \emph{School Travel Planning is a community-based approach that aims to
@@ -997,565 +1019,607 @@ bike ride to and from school has never been easier, safer or healthier.}
 \hypertarget{discussion}{%
 \section{6. Discussion}\label{discussion}}
 
-\hypertarget{framing-in-stp-documents}{%
-\subsection{6.1. Framing in STP
-documents}\label{framing-in-stp-documents}}
+\hypertarget{current-ast-frames-in-ontario}{%
+\subsection{6.1. Current AST frames in
+Ontario}\label{current-ast-frames-in-ontario}}
 
 Using natural language processing techniques, we analyzed how AST is
-framed in documents available to the general public on the websites of
-STP stakeholder groups in Ontario. We found that AST is primarily framed
-to parents as beneficial to the health and wellbeing of children and to
-environmental sustainability. This was confirmed by the most common
-bigrams identified in the policy corpus, as well as the topics
-identified by the LDA model. The policy documents adequately reflect the
-evidence that AST contributes positively to children's physical health
-(see Faulkner et al., 2009; Schoeppe et al., 2015), although the
-statements regarding the benefits of AST to children's school
-performance and cognitive development need to be studied further to
-produce stronger evidence ({\textbf{???}}). STP stakeholder groups also
-communicate that increasing AST may reduce traffic near and around
-schools. This presumably is communicated to alleviate parental concerns
-about traffic and safety (Evers et al., 2014; Mammen et al., 2012;
-Rothman et al., 2015; Wilson et al., 2018) or reduce the frequency of
-risky behaviours from drivers around schools (Rothman et al., 2017).
-However, the documents do not explain why declining rates of AST are a
-problem for the particular community or convey any urgency to this issue
-so that it attracts the attention of parents, the general public, or
-policy makers. Communicating the potential outcomes of increased AST may
-be persuasive arguments to motivate behaviour change, but these
-documents do not appear to encourage parents or the general public to
-view their behaviour as problematic or unhealthy for their children's
-development. For example, parents who escort their children to school
-have reported concerns about traffic volume around schools (Mammen et
-al., 2012), but may not recognize that their own behaviour contributes
-to the problem that is perceived to prevent their child from safely
-walking or bicycling to school (Collins and Kearns, 2001).
+framed in 69 documents available to the public on the websites of STP
+stakeholder groups in Ontario. Two main frames in the policy+practice
+corpus were identified based on the most common bigrams and topics from
+the LDA model.
 
-The secondary frame of AST that we interpreted based on the LDA model is
-the opportunity or prospect of behaviour change. STP stakeholder groups
+We found that AST is primarily framed to parents as beneficial to the
+health and wellbeing of children and to environmental sustainability.
+The policy documents reflect the evidence that AST contributes
+positively to children's physical health (see Faulkner et al., 2009;
+Schoeppe et al., 2015), although the statements regarding the benefits
+of AST to children's school performance are less well-supported in the
+extant literature (\textbf{westmanChapterThreeTravel2020?}). STP
+stakeholder groups also communicate that increasing AST may reduce
+traffic near and around schools. This is conveyed presumably to
+alleviate parental concerns about traffic and safety (Evers et al.,
+2014; Mammen et al., 2012; Rothman et al., 2015; Wilson et al., 2018) or
+to reduce the frequency of risky behaviours from drivers around schools
+(Rothman et al., 2017).
+
+In the secondary frame, AST is presented as an accessible and feasible
+way for children to travel to and from school. Children and parents are
+encouraged to adopt new travel behaviours. STP stakeholder groups
 identified different ways that parents could encourage or support their
-child(ren) to commute to school by using active modes. Some school
-boards and municipalities also shared resources such as walking tip
-sheets and guidance for starting a walking school bus. Other advice
-included dropping children off one or two blocks away from school so
-that they could walk or bike part of the trip. The general emphasis is
-communicating information that could change parental perceptions about
-the ease of their children using active modes to school, which may be
-seen by STP stakeholder groups as a ``modifiable'' factor (see Riazi et
-al., 2019). In turn, this could encourage parents to modify their
+children to commute to school by using active modes. Some school boards
+and municipalities also shared resources such as walking tip sheets and
+guidance for starting a walking school bus. Other advice included
+dropping children off one or two blocks away from school so that they
+could walk or bike part of the trip. The general emphasis of this frame
+is communicating information that could change parental perceptions
+about the ease of their children using active modes to school, which may
+be seen by STP stakeholder groups as a ``modifiable'' factor (see Riazi
+et al., 2019). In turn, this could encourage parents to modify their
 routines and incorporate opportunities for their children to use active
 modes to school.
 
-We found that interpersonal behaviour changes achieved through
-educational strategies and engineering changes (e.g., traffic calming
-measures, reduced speed limits, etc.) are communicated to the general
-public as potential solutions to address the decline of AST. This
-reflects findings from the AST literature (Panter et al., 2010), but
-these solutions have to sufficiently address real and perceived barriers
-from parents about the household environment and the built environment
-(see Section 2.2). In most documents, STP stakeholder groups provide
-parents with resources that help them switch modes for the school
-commute and/or on reassure them that the built environment has become
-safer and friendlier to active travelers as a result of infrastructure
-or policy improvements. As previously noted, the documents do not appear
-to present a strong ``call to action'' that urges behaviour change for
-parents or the general public, which may affect the success of STP
-interventions. On the other hand, the emphasis on engineering changes
-may reflect the strong engagement of the ``policy stream'' (Kingdon,
-1984) and the feasible options to address the problem, since engineering
-staff and municipal representatives are common STP stakeholders
-(Buttazzoni et al., 2018; Mammen et al., 2015).
+Both frames present the AST issue in a positive light. Neither frame
+appears to explain why declining rates of AST are a problem or convey
+any urgency to this issue so that it attracts the attention of parents,
+the general public, or policy makers. Communicating the potential
+outcomes of increased AST may be persuasive arguments to motivate
+behaviour change, but these frames do not seem to encourage parents or
+the general public to view their current behaviour as problematic or
+unhealthy for their children's development and their community. Thus,
+behaviour change is presented as an option for some but not an
+imperative for all. For example, parents who drive their children to
+school have reported concerns about traffic volume around schools
+(Mammen et al., 2012), but may not recognize that their own behaviour
+contributes to the problem that is perceived to prevent their child from
+safely walking or bicycling to school (Collins and Kearns, 2001).
+Reynard et al. (2021) similarly found in their analysis of Canadian
+municipal documents that one of the dominant frames presented the
+adoption of behaviours to help mitigate the climate crisis as a choice
+but not ``the expected norm.''
 
-Given the range of factors that influence AST in a Canadian setting
-(\emph{inter alia}, see Mammen et al., 2012; Mitra, 2013; Rothman et
-al., 2018; Wilson et al., 2018), STP stakeholder groups must decide
-which points of intervention that they can reasonably have some
-influence towards. This would also depend on the local context to ensure
-that barriers to AST as perceived by parents are addressed. It could be
-that STP stakeholder groups perceive to have more control over
-micro-scale elements of the built environment, like traffic calming
-measures or speed limits, rather ``non-modifiable'' factors like street
-density or land use mix. It would also certainly be much more difficult
-for STP stakeholder groups to influence the number of trips to different
-destinations that households need to make or to intervene in residential
-location, which affects distance to school. A focus on changing parental
-perceptions is recommended by many scholars since parents are the
-``gatekeeper'' for children's mobility, but the information communicated
-by STP stakeholder groups in Ontario should reflect a broader range of
-factors that influence AST.
+We found that the proposed solutions in the secondary frame to increase
+AST align with different levels of the socioecological model: 1)
+behaviour change from individuals or households making different travel
+decisions; 2) policies like STP that create resources for AST; and 3)
+engineering solutions like bicycle lanes. This reflects findings from
+the AST literature that a range of solutions are needed to address
+different factors that influence AST (\emph{inter alia, see} Mitra,
+2013; Panter et al., 2010). The recognition of engineering changes may
+reflect the strong engagement of the ``policy stream'' (Kingdon, 1984)
+since engineering staff and municipal representatives are common STP
+stakeholders in Canada (Buttazzoni et al., 2018; Mammen et al., 2015),
+as well as the evidence that the built environment influences mode
+choice to school. Although it is beyond the scope of this paper to
+assess whether the proposed solutions are perceived to be sufficient by
+parents for increasing AST.
 
 \hypertarget{implications-for-school-travel-planning}{%
 \subsection{6.2. Implications for school travel
 planning}\label{implications-for-school-travel-planning}}
 
-There is a noticeable lack of focus on individual and interpersonal
-determinants of AST in the policy documents. For example, the role of
-convenience and inclement weather in shaping household travel decisions
-(Buliung et al., 2011) or the age at which children become allowed to
-travel by active modes or independently (Mammen et al., 2012) were not
-discussed. The desire to escort children to school, which has been noted
-by parents as a reason to continue driving (Westman, Friman, et al.,
-2017), is also not adequately addressed by STP stakeholder groups. The
-complexity of travel arrangements that must be coordinated by households
-(see Buliung et al., 2021) and the dominant parenting culture to protect
-children from risk ({\textbf{???}}) are likewise overlooked. STP
-stakeholders may wish to emphasize to parents that older children have
-greater traffic safety and cognitive abilities to navigate their own
-routes to school, which could encourage parents to develop their
-child(ren)'s travel skills over time. Additional attention should be
-paid to the reasons why parents perceive driving to be more convenient.
+STP stakeholders should problematize the significant decline in AST that
+has occurred over recent decades in Canada and emphasize that this issue
+merits urgent behaviour change. A study investigating the influence of
+different valence framings of CO2 emissions on transport mode shift
+found that positive framing can be less effective than negative framing
+(\textbf{waygoodCO2ValenceFraming2018?}). Policy documents should make
+it clear that continued use of nonactive modes to school can deprive
+children of opportunities to increase physical activity and to gain
+health and social benefits.
 
-Coming back to Kingdon's Multiple Streams Framework (1984), we posited
-that STP stakeholder groups need to raise awareness about the AST issue
-among parents and the general public through the problem stream. This
-could influence perceptions about the issue and encourage behaviour
-change. Based on the policy documents, it is not obvious that AST has
-declined significantly over the past few decades in Canada or that this
-issue merits urgent attention. Many municipalities, schools, and
-transportation consortia in Ontario use similar content in their public
-documents about AST. It would be worthwhile for STP stakeholder groups
-to frame the decline of AST as a ``problem'' worth addressing with
-information specific to each local context. STP stakeholders also need
-to ensure that their communication accounts for the ways in which
-Canadian parents perceive the built environment in different ways than
-planners (see Buliung et al., 2021). If there is ``conceptual
-asymmetry'' as Buliung et al.~(2021) identified, the materials
-disseminated by STP stakeholders may not resonate or reach parents.
-Future research or STP activities should investigate how parents or the
-general public respond to messages or information that encourages the
-adoption of AST and evaluate how effective they are to motivate
-behaviour change. It would be helpful to know which frames would most
+There is a noticeable lack of focus on certain household determinants of
+AST in the two frames that needs to be addressed. For example, the role
+of convenience and inclement weather in shaping household travel
+decisions (Buliung et al., 2011) and the complexity of travel
+arrangements that must be coordinated by households (see Buliung et al.,
+2021) were not found to be discussed. The desire to escort children to
+school, which has been noted by parents as a reason to continue driving
+(Westman et al., 2017a), is also not adequately addressed by STP
+stakeholders. Parental assessment of a child's ability to handle the
+journey to school was likewise overlooked despite its role in decision
+making for mode choice to school
+(\textbf{faulknerWhatQuickestEasiest2010?}). Framing AST as a
+developmental opportunity or a rite of passage that children have been
+denied could challenge the prevailing culture of risk which discourages
+parents from letting their children use active modes to school. In
+communities with low AST uptake, STP stakeholders may wish to emphasize
+the negative effects of parents continuing to drive children to and from
+school. A negative framing that challenges the social norm of driving
+could be more motivational to shift modes, which would be consistent
+with other findings (\textbf{waygoodCO2ValenceFraming2018?}).
+
+Future research and evaluation by STP stakeholders should investigate
+how parents or the general public respond to messages or information
+that encourages the adoption of AST and evaluate which are most
+effective. It would be helpful to understand which frames would most
 encourage behaviour change or increase political support for
 interventions that address barriers to AST. This type of information
 could ensure that educational strategies and promotional materials
-increase buy-in for their target audience.
-
-Although the ``policy stream'' appears to have been adequately engaged
-in Ontario communities, it could be that the decline of AST has not been
-sufficiently framed as ``problematic'' to warrant more widespread
-awareness or solutions. If Canadian STP stakeholder groups wish to
-involve more local residents in their efforts (Buttazzoni et al., 2018),
-it would also be worthwhile for them to produce different materials that
-communicate why this issue is important to the general public,
-regardless of whether they currently have children commuting to/from
-school. The ``political stream'' could also be further engaged by
-working with advocacy groups who could attract more support from a
+increase buy-in for their target audience. If Canadian STP stakeholders
+wish to involve more local residents in their efforts (Buttazzoni et
+al., 2018), it would also be worthwhile for them to produce different
+materials that communicate why this issue is important to the general
+public, regardless of whether they currently have children commuting
+to/from school. The ``political stream'' could also be further engaged
+by working with advocacy groups who could attract more support from a
 broader coalition of individuals.
 
-Finally, Rothman et al.~(2018) note that local solutions to address
-specific school challenges are needed, and we extend this recommendation
-to include local context in STP messaging about AST. Instead of generic
-content about AST, stakeholders involved in STP should produce more
-information that specifically responds to parents' perceived barriers
-and challenges that were identified in that local context. For example,
-STP materials could explain how known concerns in a particular
-municipality or school area have been addressed through local solutions.
-This could reflect that solutions have been identified based on what was
-heard from the community.
+We also contend that the ways in which the AST issue is framed can
+affect the policy process, as outlined in Kingdon's (1984) Multiple
+Streams Framework (MSF), through all three streams (i.e., problem,
+policy, and politics). This framing can ultimately impact the timing and
+success of a ``window of opportunity'' to enact policy changes that
+address the decline of AST in Canada.
 
 \hypertarget{limitations}{%
 \subsection{6.3. Limitations}\label{limitations}}
 
 A limitation of this study is that we only analyzed texts that were
 easily accessible to the general public on the websites of STP
-stakeholder groups in Ontario. Parents likely receive information about
-AST directly from schools, which may contain more content that reflects
-the local barriers to AST.
+stakeholders in Ontario. Parents likely receive information about AST
+directly from schools, which may contain more content that reflects the
+local barriers to AST.
 
 \hypertarget{conclusion}{%
 \section{7. Conclusion}\label{conclusion}}
 
 We used natural language processing techniques to examine how different
-school travel planning stakeholder (STP) groups in Ontario frame the
-issue of AST. STP stakeholder groups frame AST as a health and
-environmental issue that can be addressed through household behaviour
-change and engineering solutions. Policy documents reveal that STP
-stakeholder groups are focusing on ``modifiable factors'' such as
-parental perceptions or micro-scale elements in the built environment to
-increase rates of AST. However, AST may not be framed sufficiently as a
-``problem'' that requires urgent intervention, which may impact how
-parents respond to behaviour change initiatives and limit awareness in
-the general public. In their public materials about AST, STP stakeholder
-groups should present solutions for a broader range of factors that
-influence AST and emphasize why AST rates should increase in local
-communities.
+school travel planning (STP) stakeholders in Ontario frame the issue of
+AST. STP stakeholders frame AST as an accessible and feasible way to
+travel to school that is valuable to children's health and to the
+environment. STP stakeholders are communicating that this issue can be
+addressed through household behaviour change and policy solutions.
+Policy documents reveal that STP stakeholders are focusing on
+``modifiable factors'' such as parental perceptions or micro-scale
+elements in the built environment to increase rates of AST. However, AST
+may not be framed sufficiently as a ``problem'' that requires urgent
+intervention, which may impact how parents respond to behaviour change
+initiatives and limit awareness in the general public. In their public
+materials about AST, STP stakeholders emphasize why AST rates should
+increase in local communities and how the negative effects of nonactive
+modes to school may impact children's health and wellbeing.
 
 \hypertarget{acknowledgments}{%
 \section{Acknowledgments}\label{acknowledgments}}
 
 This research was completed using open software, and the authors wish to
 acknowledge the developers of the following \texttt{R} packages:
-\texttt{dplyr} ({\textbf{???}}), \texttt{ggraph} ({\textbf{???}}),
-\texttt{ggplot2} ({\textbf{???}}), \texttt{igraph} ({\textbf{???}}),
-\texttt{pdftools} ({\textbf{???}}), \texttt{readr} ({\textbf{???}}),
-\texttt{reshape2} ({\textbf{???}}), \texttt{stringr} ({\textbf{???}}),
-\texttt{text2vec} ({\textbf{???}}), \texttt{textdata} ({\textbf{???}}),
-\texttt{tidyr} ({\textbf{???}}), \texttt{tidytext} ({\textbf{???}}),
-\texttt{tm} ({\textbf{???}}), \texttt{tools} ({\textbf{???}}),
-\texttt{topicmodels} ({\textbf{???}}), \texttt{widyr} ({\textbf{???}}),
-\texttt{word2vec} ({\textbf{???}}), \texttt{wordcloud} ({\textbf{???}}),
-\texttt{DiagrammeR} ({\textbf{???}}), and \texttt{kableextra}
-({\textbf{???}}).
+\texttt{dplyr} (Wickham et al., 2021b), \texttt{ggraph} (Pedersen,
+2021), \texttt{ggplot2} (Wickham et al., 2021a), \texttt{igraph} (file.,
+2021), \texttt{pdftools} (Ooms, 2021), \texttt{readr} (Wickham et al.,
+2021c), \texttt{reshape2} (Wickham, 2020), \texttt{stringr} (Wickham,
+2019), \texttt{text2vec} (Selivanov et al., 2020), \texttt{textdata}
+(Hvitfeldt, 2020), \texttt{tidyr} (Wickham, 2021), \texttt{tidytext}
+(Robinson and Silge, 2021), \texttt{tm} (Feinerer and Hornik, 2020),
+\texttt{tools} (\textbf{R-tools?}), \texttt{topicmodels} (Grün and
+Hornik, 2021), \texttt{widyr} (Robinson, 2021), \texttt{word2vec}
+(Wijffels, 2021), \texttt{wordcloud} (Fellows, 2018),
+\texttt{DiagrammeR} (\textbf{R-diagrammeR?}), and \texttt{kableextra}
+(\textbf{R-kableextra?}).
 
 \hypertarget{references}{%
 \section*{References}\label{references}}
 \addcontentsline{toc}{section}{References}
 
 \hypertarget{refs}{}
-\leavevmode\hypertarget{ref-albalawiUsingTopicModeling2020}{}%
-Albalawi, R., Yeap, T.H., Benyoucef, M., 2020. Using Topic Modeling
-Methods for Short-Text Data: A Comparative Analysis. Frontiers in
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-albalawiUsingTopicModeling2020}{}}%
+Albalawi, R., Yeap, T.H., Benyoucef, M., 2020. Using {Topic Modeling
+Methods} for {Short}-{Text Data}: A {Comparative Analysis}. Frontiers in
 Artificial Intelligence 3, 42.
 doi:\href{https://doi.org/10.3389/frai.2020.00042}{10.3389/frai.2020.00042}
 
-\leavevmode\hypertarget{ref-badlandDevelopmentSystemsModel2016}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-arribasOpen2021}{}}%
+Arribas-Bel, D., Green, M., Rowe, F., Singleton, A., 2021. Open data
+products-a framework for creating valuable analysis ready data. Journal
+of Geographical Systems 23, 497--514.
+doi:\href{https://doi.org/10.1007/s10109-021-00363-5}{10.1007/s10109-021-00363-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-badlandDevelopmentSystemsModel2016}{}}%
 Badland, H., Kearns, R., Carroll, P., Oliver, M., Mavoa, S., Donovan,
 P., Parker, K., Chaudhury, M., Lin, E.-Y., Witten, K., 2016. Development
 of a systems model to visualise the complexity of children's independent
 mobility. Children's Geographies 14, 91--100.
 doi:\href{https://doi.org/10.1080/14733285.2015.1021240}{10.1080/14733285.2015.1021240}
 
-\leavevmode\hypertarget{ref-buliungSchoolTravelPlanning2011}{}%
-Buliung, R., Faulkner, G., Beesley, T., Kennedy, J., 2011. School Travel
-Planning: Mobilizing School and Community Resources to Encourage Active
-School Transportation. Journal of School Health 81, 704--712.
-doi:\href{https://doi.org/10.1111/j.1746-1561.2011.00647.x}{10.1111/j.1746-1561.2011.00647.x}
-
-\leavevmode\hypertarget{ref-buliungLivingJourneySchool2021}{}%
-Buliung, R., Hess, P., Flowers, L., Moola, F.J., Faulkner, G., 2021.
-Living the journey to school: Conceptual asymmetry between parents and
-planners on the journey to school. Social Science \& Medicine 284,
-114237.
-doi:\href{https://doi.org/10.1016/j.socscimed.2021.114237}{10.1016/j.socscimed.2021.114237}
-
-\leavevmode\hypertarget{ref-buttazzoniPromotingActiveSchool2019}{}%
-Buttazzoni, A.N., Clark, A.F., Seabrook, J.A., Gilliland, J.A., 2019.
-Promoting active school travel in elementary schools: A regional case
-study of the school travel planning intervention. Journal of Transport
-\& Health 12, 206--219.
-doi:\href{https://doi.org/10.1016/j.jth.2019.01.007}{10.1016/j.jth.2019.01.007}
-
-\leavevmode\hypertarget{ref-buttazzoniSupportingActiveSchool2018}{}%
-Buttazzoni, A.N., Coen, S.E., Gilliland, J.A., 2018. Supporting active
-school travel: A qualitative analysis of implementing a regional safe
-routes to school program. Social Science \& Medicine 212, 181--190.
-doi:\href{https://doi.org/10.1016/j.socscimed.2018.07.032}{10.1016/j.socscimed.2018.07.032}
-
-\leavevmode\hypertarget{ref-borrestadExperiencesRandomisedControlled2012}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-borrestadExperiencesRandomisedControlled2012}{}}%
 Børrestad, L.A.B., Østergaard, L., Andersen, L.B., Bere, E., 2012.
 Experiences from a randomised, controlled trial on cycling to school:
 Does cycling increase cardiorespiratory fitness? Scandinavian Journal of
 Public Health 40, 245--252.
 doi:\href{https://doi.org/10.1177/1403494812443606}{10.1177/1403494812443606}
 
-\leavevmode\hypertarget{ref-GreenCommunities2016}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-buliungSchoolTravelPlanning2011}{}}%
+Buliung, R., Faulkner, G., Beesley, T., Kennedy, J., 2011. School
+{Travel Planning}: Mobilizing {School} and {Community Resources} to
+{Encourage Active School Transportation}. Journal of School Health 81,
+704--712.
+doi:\href{https://doi.org/10.1111/j.1746-1561.2011.00647.x}{10.1111/j.1746-1561.2011.00647.x}
+
+\leavevmode\vadjust pre{\hypertarget{ref-buliungLivingJourneySchool2021}{}}%
+Buliung, R., Hess, P., Flowers, L., Moola, F.J., Faulkner, G., 2021.
+Living the journey to school: Conceptual asymmetry between parents and
+planners on the journey to school. Social Science \& Medicine 284,
+114237.
+doi:\href{https://doi.org/10.1016/j.socscimed.2021.114237}{10.1016/j.socscimed.2021.114237}
+
+\leavevmode\vadjust pre{\hypertarget{ref-buttazzoniPromotingActiveSchool2019}{}}%
+Buttazzoni, A.N., Clark, A.F., Seabrook, J.A., Gilliland, J.A., 2019.
+Promoting active school travel in elementary schools: A regional case
+study of the school travel planning intervention. Journal of Transport
+\& Health 12, 206--219.
+doi:\href{https://doi.org/10.1016/j.jth.2019.01.007}{10.1016/j.jth.2019.01.007}
+
+\leavevmode\vadjust pre{\hypertarget{ref-buttazzoniSupportingActiveSchool2018}{}}%
+Buttazzoni, A.N., Coen, S.E., Gilliland, J.A., 2018. Supporting active
+school travel: A qualitative analysis of implementing a regional safe
+routes to school program. Social Science \& Medicine 212, 181--190.
+doi:\href{https://doi.org/10.1016/j.socscimed.2018.07.032}{10.1016/j.socscimed.2018.07.032}
+
+\leavevmode\vadjust pre{\hypertarget{ref-GreenCommunities2016}{}}%
 Canada, G.C., 2020a. Ontario active school travel fund {[}WWW
 Document{]}. URL
 \url{https://ontarioactiveschooltravel.ca/ontario-active-school-travel-fund/}
 
-\leavevmode\hypertarget{ref-GreenCommunitiesProjects}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-GreenCommunitiesProjects}{}}%
 Canada, G.C., 2020b. OAST fund project directory {[}WWW Document{]}. URL
 \url{https://ontarioactiveschooltravel.ca/wp-content/uploads/2020/10/OAST-Fund-Matrix-Directory.pdf}
 
-\leavevmode\hypertarget{ref-chenPromotingActiveStudent2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-chenPromotingActiveStudent2018}{}}%
 Chen, P., Jiao, J., Xu, M., Gao, X., Bischak, C., 2018. Promoting active
 student travel: A longitudinal study. Journal of Transport Geography 70,
 265--274.
 doi:\href{https://doi.org/10.1016/j.jtrangeo.2018.06.015}{10.1016/j.jtrangeo.2018.06.015}
 
-\leavevmode\hypertarget{ref-collinsSafeJourneysEnterprising2001}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-collinsSafeJourneysEnterprising2001}{}}%
 Collins, D.C.A., Kearns, R.A., 2001. The safe journeys of an
 enterprising school: Negotiating landscapes of opportunity and risk.
 Health \& Place 7, 293--306.
 doi:\href{https://doi.org/10.1016/S1353-8292(01)00021-1}{10.1016/S1353-8292(01)00021-1}
 
-\leavevmode\hypertarget{ref-demeesterParentalPerceivedNeighborhood2014}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-demeesterParentalPerceivedNeighborhood2014}{}}%
 De Meester, F., Van Dyck, D., De Bourdeaudhuij, I., Cardon, G., 2014.
 Parental perceived neighborhood attributes: Associations with active
 transport and physical activity among 10-12 year old children and the
 mediating role of independent mobility. BMC public health 14, 631.
 doi:\href{https://doi.org/10.1186/1471-2458-14-631}{10.1186/1471-2458-14-631}
 
-\leavevmode\hypertarget{ref-depouxCommunicatingClimateChange2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-depouxCommunicatingClimateChange2017}{}}%
 Depoux, A., Hémono, M., Puig-Malet, S., Pédron, R., Flahault, A., 2017.
 Communicating climate change and health in the media. Public Health
 Reviews 38, 7.
 doi:\href{https://doi.org/10.1186/s40985-016-0044-1}{10.1186/s40985-016-0044-1}
 
-\leavevmode\hypertarget{ref-eversParentSafetyPerceptions2014}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-eversParentSafetyPerceptions2014}{}}%
 Evers, C., Boles, S., Johnson-Shelton, D., Schlossberg, M., Richey, D.,
 2014. Parent safety perceptions of child walking routes. Journal of
 Transport \& Health 1, 108--115.
 doi:\href{https://doi.org/10.1016/j.jth.2014.03.003}{10.1016/j.jth.2014.03.003}
 
-\leavevmode\hypertarget{ref-faulknerActiveSchoolTransport2009}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-farberRunning2011}{}}%
+Farber, S., Páez, A., 2011. Running to stay in place: The time-use
+implications of automobile oriented land-use and travel. Journal of
+Transport Geography 19, 782--793.
+doi:\href{https://doi.org/10.1016/j.jtrangeo.2010.09.008}{10.1016/j.jtrangeo.2010.09.008}
+
+\leavevmode\vadjust pre{\hypertarget{ref-faulknerActiveSchoolTransport2009}{}}%
 Faulkner, G.E.J., Buliung, R.N., Flora, P.K., Fusco, C., 2009. Active
 school transport, physical activity levels and body weight of children
 and youth: A systematic review. Preventive Medicine 48, 3--8.
 doi:\href{https://doi.org/10.1016/j.ypmed.2008.10.017}{10.1016/j.ypmed.2008.10.017}
 
-\leavevmode\hypertarget{ref-faulknerSchoolTravelChildren2013}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-faulknerSchoolTravelChildren2013}{}}%
 Faulkner, G., Stone, M., Buliung, R., Wong, B., Mitra, R., 2013. School
 travel and children's physical activity: A cross-sectional study
 examining the influence of distance. BMC public health 13, 1166.
 doi:\href{https://doi.org/10.1186/1471-2458-13-1166}{10.1186/1471-2458-13-1166}
 
-\leavevmode\hypertarget{ref-fuscoUnderstandingChildrenPerceptions2012}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-R-tm}{}}%
+Feinerer, I., Hornik, K., 2020. Tm: Text mining package.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-wordcloud}{}}%
+Fellows, I., 2018. Wordcloud: Word clouds.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-igraph}{}}%
+file., S.A., 2021. Igraph: Network analysis and visualization.
+
+\leavevmode\vadjust pre{\hypertarget{ref-fuscoUnderstandingChildrenPerceptions2012}{}}%
 Fusco, C., Moola, F., Faulkner, G., Buliung, R., Richichi, V., 2012.
 Toward an understanding of children's perceptions of their transport
-geographies: (Non)Active school travel and visual representations of the
-built environment. Journal of Transport Geography, Special Section On
-Child \& Youth Mobility 20, 62--70.
+geographies: (Non)active school travel and visual representations of the
+built environment. Journal of Transport Geography, Special {section On
+Child} \& {Youth Mobility} 20, 62--70.
 doi:\href{https://doi.org/10.1016/j.jtrangeo.2011.07.001}{10.1016/j.jtrangeo.2011.07.001}
 
-\leavevmode\hypertarget{ref-gamsonChangingCulture1987}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-gamsonChangingCulture1987}{}}%
 Gamson, W.A., Modigliani, A., 1987. The changing culture of affirmative
 action. JAI Press.
 
-\leavevmode\hypertarget{ref-goffmanFrameAnalysisEssay1974}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-goffmanFrameAnalysisEssay1974}{}}%
 Goffman, E., 1974. Frame analysis: An essay on the organization of
 experience, Frame analysis: An essay on the organization of experience.
-Harvard University Press, Cambridge, MA, US.
+{Harvard University Press}, {Cambridge, MA, US}.
 
-\leavevmode\hypertarget{ref-ikedaAssociationsChildrenActive2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-R-topicmodels}{}}%
+Grün, B., Hornik, K., 2021. Topicmodels: Topic models.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-textdata}{}}%
+Hvitfeldt, E., 2020. Textdata: Download and load various text datasets.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ikedaAssociationsChildrenActive2018}{}}%
 Ikeda, E., Hinckson, E., Witten, K., Smith, M., 2018. Associations of
 children's active school travel with perceptions of the physical
 environment and characteristics of the social environment: A systematic
 review. Health \& Place 54, 118--131.
 doi:\href{https://doi.org/10.1016/j.healthplace.2018.09.009}{10.1016/j.healthplace.2018.09.009}
 
-\leavevmode\hypertarget{ref-jacobiQuantitativeAnalysisLarge2016}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-jacobiQuantitativeAnalysisLarge2016}{}}%
 Jacobi, C., van Atteveldt, W., Welbers, K., 2016. Quantitative analysis
 of large amounts of journalistic texts using topic modelling. Digital
 Journalism 4, 89--106.
 doi:\href{https://doi.org/10.1080/21670811.2015.1093271}{10.1080/21670811.2015.1093271}
 
-\leavevmode\hypertarget{ref-jensenHowObtainHealthy2008}{}%
-Jensen, S.U., 2008. How to obtain a healthy journey to school.
-Transportation Research Part A: Policy and Practice 42, 475--486.
-doi:\href{https://doi.org/10.1016/j.tra.2007.12.001}{10.1016/j.tra.2007.12.001}
-
-\leavevmode\hypertarget{ref-kingdonAgendasAlternativesPublic1984}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-kingdonAgendasAlternativesPublic1984}{}}%
 Kingdon, J.W. (Ed.), 1984. Agendas, alternatives and public policies.
 Pearson.
 
-\leavevmode\hypertarget{ref-langUnderstandingModalChoice2011}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-langUnderstandingModalChoice2011}{}}%
 Lang, D., Collins, D., Kearns, R., 2011. Understanding modal choice for
 the trip to school. Journal of Transport Geography 19, 509--514.
 doi:\href{https://doi.org/10.1016/j.jtrangeo.2010.05.005}{10.1016/j.jtrangeo.2010.05.005}
 
-\leavevmode\hypertarget{ref-laroucheRatherBikeSchool2016}{}%
-Larouche, R., Stone, M., Buliung, R.N., Faulkner, G., 2016. ''I'd rather
-bike to school!'': Profiling children who would prefer to cycle to
-school. Journal of Transport \& Health 3, 377--385.
+\leavevmode\vadjust pre{\hypertarget{ref-laroucheRatherBikeSchool2016}{}}%
+Larouche, R., Stone, M., Buliung, R.N., Faulkner, G., 2016. ''{I}'d
+rather bike to school!'': Profiling children who would prefer to cycle
+to school. Journal of Transport \& Health 3, 377--385.
 doi:\href{https://doi.org/10.1016/j.jth.2016.06.010}{10.1016/j.jth.2016.06.010}
 
-\leavevmode\hypertarget{ref-larsenRouteBasedAnalysisCapture2012}{}%
-Larsen, K., Gilliland, J., Hess, P.M., 2012. Route-Based Analysis to
-Capture the Environmental Influences on a Child's Mode of Travel between
-Home and School. Annals of the Association of American Geographers 102,
-1348--1365.
+\leavevmode\vadjust pre{\hypertarget{ref-larsenRouteBasedAnalysisCapture2012}{}}%
+Larsen, K., Gilliland, J., Hess, P.M., 2012. Route-{Based Analysis} to
+{Capture} the {Environmental Influences} on a {Child}'s {Mode} of
+{Travel} between {Home} and {School}. Annals of the Association of
+American Geographers 102, 1348--1365.
 doi:\href{https://doi.org/10.1080/00045608.2011.627059}{10.1080/00045608.2011.627059}
 
-\leavevmode\hypertarget{ref-mahFramecriticalPolicyAnalysis2014}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mahFramecriticalPolicyAnalysis2014}{}}%
 Mah, C.L., Hamill, C., Rondeau, K., McIntyre, L., 2014. A frame-critical
-policy analysis of Canada's response to the World Food Summit 19982008.
-Archives of Public Health 72, 41.
+policy analysis of {Canada}'s response to the {World Food Summit}
+1998\textendash 2008. Archives of Public Health 72, 41.
 doi:\href{https://doi.org/10.1186/2049-3258-72-41}{10.1186/2049-3258-72-41}
 
-\leavevmode\hypertarget{ref-maibachReframingClimateChange2010}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-maibachReframingClimateChange2010}{}}%
 Maibach, E.W., Nisbet, M., Baldwin, P., Akerlof, K., Diao, G., 2010.
 Reframing climate change as a public health issue: An exploratory study
 of public reactions. BMC Public Health 10, 1--11.
 doi:\href{https://doi.org/10.1186/1471-2458-10-299}{10.1186/1471-2458-10-299}
 
-\leavevmode\hypertarget{ref-mammenUnderstandingDriveEscort2012}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mammenUnderstandingDriveEscort2012}{}}%
 Mammen, G., Faulkner, G., Buliung, R., Lay, J., 2012. Understanding the
 drive to escort: A cross-sectional analysis examining parental attitudes
 towards children's school travel and independent mobility. BMC public
 health 12, 862.
 doi:\href{https://doi.org/10.1186/1471-2458-12-862}{10.1186/1471-2458-12-862}
 
-\leavevmode\hypertarget{ref-mammenSchoolTravelPlanning2014}{}%
-Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2014. School travel
-planning in Canada: Identifying child, family, and school-level
+\leavevmode\vadjust pre{\hypertarget{ref-mammenSchoolTravelPlanning2014}{}}%
+Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2014a. School travel
+planning in {Canada}: Identifying child, family, and school-level
 characteristics associated with travel mode shift from driving to active
-school travel. Journal of Transport \& Health, Walking \& Cycling: The
+school travel. Journal of Transport \& Health, Walking \& {Cycling}: The
 contributions of health and transport geography 1, 288--294.
 doi:\href{https://doi.org/10.1016/j.jth.2014.09.004}{10.1016/j.jth.2014.09.004}
 
-\leavevmode\hypertarget{ref-mammenPuttingSchoolTravel2015}{}%
-Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2015. ''Putting
+\leavevmode\vadjust pre{\hypertarget{ref-mammenPuttingSchoolTravel2015}{}}%
+Mammen, G., Stone, M.R., Buliung, R., Faulkner, G., 2015. ''{Putting}
 school travel on the map'': Facilitators and barriers to implementing
-school travel planning in Canada. Journal of Transport \& Health 2,
+school travel planning in {Canada}. Journal of Transport \& Health 2,
 318--326.
 doi:\href{https://doi.org/10.1016/j.jth.2015.05.003}{10.1016/j.jth.2015.05.003}
 
-\leavevmode\hypertarget{ref-mammenActiveSchoolTravel2014}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mammenActiveSchoolTravel2014}{}}%
 Mammen, G., Stone, M.R., Faulkner, G., Ramanathan, S., Buliung, R.,
-O'Brien, C., Kennedy, J., 2014. Active school travel: An evaluation of
-the Canadian school travel planning intervention. Preventive Medicine
+O'Brien, C., Kennedy, J., 2014b. Active school travel: An evaluation of
+the {Canadian} school travel planning intervention. Preventive Medicine
 60, 55--59.
 doi:\href{https://doi.org/10.1016/j.ypmed.2013.12.008}{10.1016/j.ypmed.2013.12.008}
 
-\leavevmode\hypertarget{ref-michailChildrenExperiencesTheir2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-michailChildrenExperiencesTheir2021}{}}%
 Michail, N., Ozbil, A., Parnell, R., Wilkie, S., 2021. Children's
-Experiences of Their Journey to School: Integrating Behaviour Change
-Frameworks to Inform the Role of the Built Environment in Active School
-Travel Promotion. International Journal of Environmental Research and
-Public Health 18, 4992.
+{Experiences} of {Their Journey} to {School}: Integrating {Behaviour
+Change Frameworks} to {Inform} the {Role} of the {Built Environment} in
+{Active School Travel Promotion}. International Journal of Environmental
+Research and Public Health 18, 4992.
 doi:\href{https://doi.org/10.3390/ijerph18094992}{10.3390/ijerph18094992}
 
-\leavevmode\hypertarget{ref-mitraIndependentMobilityMode2013}{}%
-Mitra, R., 2013. Independent Mobility and Mode Choice for School
-Transportation: A Review and Framework for Future Research. Transport
-Reviews 33, 21--43.
+\leavevmode\vadjust pre{\hypertarget{ref-mitraIndependentMobilityMode2013}{}}%
+Mitra, R., 2013. Independent {Mobility} and {Mode Choice} for {School
+Transportation}: A {Review} and {Framework} for {Future Research}.
+Transport Reviews 33, 21--43.
 doi:\href{https://doi.org/10.1080/01441647.2012.743490}{10.1080/01441647.2012.743490}
 
-\leavevmode\hypertarget{ref-panFramingAnalysisApproach1993}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-R-pdftools}{}}%
+Ooms, J., 2021. Pdftools: Text extraction, rendering and converting of
+PDF documents.
+
+\leavevmode\vadjust pre{\hypertarget{ref-paezEnjoyment2010}{}}%
+Paez, A., Whalen, K., 2010. Enjoyment of commute: A comparison of
+different transportation modes. Transportation Research Part a-Policy
+and Practice 44, 537--549.
+doi:\href{https://doi.org/10.1016/j.tra.2010.04.003}{10.1016/j.tra.2010.04.003}
+
+\leavevmode\vadjust pre{\hypertarget{ref-panFramingAnalysisApproach1993}{}}%
 Pan, Z., Kosicki, G.M., 1993. Framing analysis: An approach to news
 discourse. Political Communication 10, 55--75.
 doi:\href{https://doi.org/10.1080/10584609.1993.9962963}{10.1080/10584609.1993.9962963}
 
-\leavevmode\hypertarget{ref-panterAttitudesSocialSupport2010}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-panterAttitudesSocialSupport2010}{}}%
 Panter, J.R., Jones, A.P., Sluijs, E.M.F. van, Griffin, S.J., 2010.
 Attitudes, social support and environmental perceptions as predictors of
 active commuting behaviour in school children. Journal of Epidemiology
 \& Community Health 64, 41--48.
 doi:\href{https://doi.org/10.1136/jech.2009.086918}{10.1136/jech.2009.086918}
 
-\leavevmode\hypertarget{ref-pontEnvironmentalCorrelatesChildren2009}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-R-ggraph}{}}%
+Pedersen, T.L., 2021. Ggraph: An implementation of grammar of graphics
+for graphs and networks.
+
+\leavevmode\vadjust pre{\hypertarget{ref-pontEnvironmentalCorrelatesChildren2009}{}}%
 Pont, K., Ziviani, J., Wadley, D., Bennett, S., Abbott, R., 2009.
 Environmental correlates of children's active transportation: A
 systematic literature review. Health \& Place 15, 849--862.
 doi:\href{https://doi.org/10.1016/j.healthplace.2009.02.002}{10.1016/j.healthplace.2009.02.002}
 
-\leavevmode\hypertarget{ref-reynardGrowthResilienceHow2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-reynardGrowthResilienceHow2021}{}}%
 Reynard, D., Collins, D., Shirgaokar, M., 2021. Growth over resilience:
-How Canadian municipalities frame the challenge of reducing carbon
+How {Canadian} municipalities frame the challenge of reducing carbon
 emissions. Local Environment 0, 1--13.
 doi:\href{https://doi.org/10.1080/13549839.2021.1892046}{10.1080/13549839.2021.1892046}
 
-\leavevmode\hypertarget{ref-riaziCorrelatesChildrenIndependent2019}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-riaziCorrelatesChildrenIndependent2019}{}}%
 Riazi, N.A., Blanchette, S., Trudeau, F., Larouche, R., Tremblay, M.S.,
-Faulkner, G., 2019. Correlates of Children's Independent Mobility in
-Canada: A Multi-Site Study. International Journal of Environmental
+Faulkner, G., 2019. Correlates of {Children}'s {Independent Mobility} in
+{Canada}: A {Multi}-{Site Study}. International Journal of Environmental
 Research and Public Health 16.
 doi:\href{https://doi.org/10.3390/ijerph16162862}{10.3390/ijerph16162862}
 
-\leavevmode\hypertarget{ref-romeroChildrenExperiencesEnjoyment2015}{}%
-Romero, V., 2015. Children's experiences: Enjoyment and fun as
+\leavevmode\vadjust pre{\hypertarget{ref-R-widyr}{}}%
+Robinson, D., 2021. Widyr: Widen, process, then re-tidy data.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-tidytext}{}}%
+Robinson, D., Silge, J., 2021. Tidytext: Text mining using dplyr,
+ggplot2, and other tidy tools.
+
+\leavevmode\vadjust pre{\hypertarget{ref-romeroChildrenExperiencesEnjoyment2015}{}}%
+Romero, V., 2015. {Children}'s experiences: Enjoyment and fun as
 additional encouragement for walking to school. Journal of Transport \&
 Health 2, 230--237.
 doi:\href{https://doi.org/10.1016/j.jth.2015.01.002}{10.1016/j.jth.2015.01.002}
 
-\leavevmode\hypertarget{ref-rothmanSchoolEnvironmentStudent2017}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rothmanSchoolEnvironmentStudent2017}{}}%
 Rothman, L., Buliung, R., Howard, A., Macarthur, C., Macpherson, A.,
 2017. The school environment and student car drop-off at elementary
 schools. Travel Behaviour and Society 9, 50--57.
 doi:\href{https://doi.org/10.1016/j.tbs.2017.03.001}{10.1016/j.tbs.2017.03.001}
 
-\leavevmode\hypertarget{ref-rothmanAssociationsParentsPerception2015}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rothmanAssociationsParentsPerception2015}{}}%
 Rothman, L., Buliung, R., To, T., Macarthur, C., Macpherson, A., Howard,
 A., 2015. Associations between parents' perception of traffic danger,
 the built environment and walking to school. Journal of Transport \&
 Health 2, 327--335.
 doi:\href{https://doi.org/10.1016/j.jth.2015.05.004}{10.1016/j.jth.2015.05.004}
 
-\leavevmode\hypertarget{ref-rothmanActiveSchoolTransportation2021}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rothmanActiveSchoolTransportation2021}{}}%
 Rothman, L., Hagel, B., Howard, A., Cloutier, M.S., Macpherson, A.,
 Aguirre, A.N., McCormack, G.R., Fuselli, P., Buliung, R., HubkaRao, T.,
 Ling, R., Zanotto, M., Rancourt, M., Winters, M., 2021. Active school
-transportation and the built environment across Canadian cities:
+transportation and the built environment across {Canadian} cities:
 Findings from the child active transportation safety and the environment
-(CHASE) study. Preventive Medicine 146, 106470.
+({CHASE}) study. Preventive Medicine 146, 106470.
 doi:\href{https://doi.org/10.1016/j.ypmed.2021.106470}{10.1016/j.ypmed.2021.106470}
 
-\leavevmode\hypertarget{ref-rothmanDeclineActiveSchool2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-rothmanDeclineActiveSchool2018}{}}%
 Rothman, L., Macpherson, A.K., Ross, T., Buliung, R.N., 2018. The
-decline in active school transportation (AST): A systematic review of
-the factors related to AST and changes in school transport over time in
-North America. Preventive Medicine 111, 314--322.
+decline in active school transportation ({AST}): A systematic review of
+the factors related to {AST} and changes in school transport over time
+in {North America}. Preventive Medicine 111, 314--322.
 doi:\href{https://doi.org/10.1016/j.ypmed.2017.11.018}{10.1016/j.ypmed.2017.11.018}
 
-\leavevmode\hypertarget{ref-schoeppeAssociationsChildrenActive2015}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-schoeppeAssociationsChildrenActive2015}{}}%
 Schoeppe, S., Duncan, M.J., Badland, H.M., Oliver, M., Browne, M., 2015.
 Associations between children's active travel and levels of physical
 activity and sedentary behavior. Journal of Transport \& Health 2,
 336--342.
 doi:\href{https://doi.org/10.1016/j.jth.2015.05.001}{10.1016/j.jth.2015.05.001}
 
-\leavevmode\hypertarget{ref-silgeTextMining2021}{}%
-Silge, J., Robinson, D., 2021. Text Mining with R.
+\leavevmode\vadjust pre{\hypertarget{ref-R-text2vec}{}}%
+Selivanov, D., Bickel, M., Wang, Q., 2020. text2vec: Modern text mining
+framework for r.
 
-\leavevmode\hypertarget{ref-starkExploringIndependentActive2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-silgeTextMining2021}{}}%
+Silge, J., Robinson, D., 2021. Text {Mining} with {R}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-starkExploringIndependentActive2018}{}}%
 Stark, J., Frühwirth, J., Aschauer, F., 2018. Exploring independent and
-active mobility in primary school children in Vienna. Journal of
+active mobility in primary school children in {Vienna}. Journal of
 Transport Geography 68, 31--41.
 doi:\href{https://doi.org/10.1016/j.jtrangeo.2018.02.007}{10.1016/j.jtrangeo.2018.02.007}
 
-\leavevmode\hypertarget{ref-vandenbergFactorsAffectingParental2020}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-vandenbergFactorsAffectingParental2020}{}}%
 van den Berg, P., Waygood, E.O.D., van de Craats, I., Kemperman, A.,
 2020. Factors affecting parental safety perception, satisfaction with
-school travel and mood in primary school children in the Netherlands.
+school travel and mood in primary school children in the {Netherlands}.
 Journal of Transport \& Health 16, 100837.
 doi:\href{https://doi.org/10.1016/j.jth.2020.100837}{10.1016/j.jth.2020.100837}
 
-\leavevmode\hypertarget{ref-vangoeverdenSchoolTravelBehaviour2013}{}%
-van Goeverden, C.D., de Boer, E., 2013. School travel behaviour in the
-Netherlands and Flanders. Transport Policy, ''Understanding behavioural
-change: An international perspective on sustainable travel behaviours
-and their motivations'': Selected Papers from the 12th World Conference
-on Transportation Research 26, 73--84.
-doi:\href{https://doi.org/10.1016/j.tranpol.2013.01.004}{10.1016/j.tranpol.2013.01.004}
-
-\leavevmode\hypertarget{ref-waygoodChildrenTravelIncidental2015}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-waygoodChildrenTravelIncidental2015}{}}%
 Waygood, E.O.D., Friman, M., 2015. Children's travel and incidental
 community connections. Travel Behaviour and Society 2, 174--181.
 doi:\href{https://doi.org/10.1016/j.tbs.2015.03.003}{10.1016/j.tbs.2015.03.003}
 
-\leavevmode\hypertarget{ref-waygoodTransportChildrenWellbeing2020}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-waygoodTransportChildrenWellbeing2020}{}}%
 Waygood, E.O.D., Friman, M., Olsson, L.E., Mitra, R. (Eds.), 2020.
-Transport and Children's Wellbeing, in: Transport and Children's
-Wellbeing. Elsevier, pp. i--ii.
+Transport and {Children}'s {Wellbeing}, in: Transport and {Children}'s
+{Wellbeing}. {Elsevier}, pp. i--ii.
 doi:\href{https://doi.org/10.1016/B978-0-12-814694-1.09993-0}{10.1016/B978-0-12-814694-1.09993-0}
 
-\leavevmode\hypertarget{ref-waygoodJapanMaintainingHigh2020}{}%
-Waygood, E.O.D., Taniguchi, A., 2020. Japan: Maintaining high levels of
-walking, in: Waygood, E.O.D., Friman, M., Olsson, L.E., Mitra, R.
-(Eds.), Transport and Children's Wellbeing. Elsevier, pp. 297--316.
-doi:\href{https://doi.org/10.1016/B978-0-12-814694-1.00016-6}{10.1016/B978-0-12-814694-1.00016-6}
-
-\leavevmode\hypertarget{ref-weathersDevelopmentsFramingClimate2016}{}%
-Weathers, M.R., Kendall, B.E., 2016. Developments in the Framing of
-Climate Change as a Public Health Issue in US Newspapers. Environmental
-Communication 10, 593--611.
+\leavevmode\vadjust pre{\hypertarget{ref-weathersDevelopmentsFramingClimate2016}{}}%
+Weathers, M.R., Kendall, B.E., 2016. Developments in the {Framing} of
+{Climate Change} as a {Public Health Issue} in {US Newspapers}.
+Environmental Communication 10, 593--611.
 doi:\href{https://doi.org/10.1080/17524032.2015.1050436}{10.1080/17524032.2015.1050436}
 
-\leavevmode\hypertarget{ref-westmanWhatDrivesThem2017}{}%
-Westman, J., Friman, M., Olsson, L.E., 2017. What Drives Them to
-Drive?Parents' Reasons for Choosing the Car to Take Their Children to
-School. Frontiers in Psychology 8.
+\leavevmode\vadjust pre{\hypertarget{ref-westmanWhatDrivesThem2017}{}}%
+Westman, J., Friman, M., Olsson, L.E., 2017a. What {Drives Them} to
+{Drive}?\textemdash{{Parents}}' {Reasons} for {Choosing} the {Car} to
+{Take Their Children} to {School}. Frontiers in Psychology 8.
 doi:\href{https://doi.org/10.3389/fpsyg.2017.01970}{10.3389/fpsyg.2017.01970}
 
-\leavevmode\hypertarget{ref-westmanChildrenTravelSchool2017}{}%
-Westman, J., Olsson, L.E., Gärling, T., Friman, M., 2017. Children's
+\leavevmode\vadjust pre{\hypertarget{ref-westmanChildrenTravelSchool2017}{}}%
+Westman, J., Olsson, L.E., Gärling, T., Friman, M., 2017b. Children's
 travel to school: Satisfaction, current mood, and cognitive performance.
 Transportation 44, 1365--1382.
 doi:\href{https://doi.org/10.1007/s11116-016-9705-7}{10.1007/s11116-016-9705-7}
 
-\leavevmode\hypertarget{ref-wilsonUnderstandingChildParent2018}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-R-stringr}{}}%
+Wickham, H., 2019. Stringr: Simple, consistent wrappers for common
+string operations.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-reshape2}{}}%
+Wickham, H., 2020. reshape2: Flexibly reshape data: A reboot of the
+reshape package.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-tidyr}{}}%
+Wickham, H., 2021. Tidyr: Tidy messy data.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-ggplot2}{}}%
+Wickham, H., Chang, W., Henry, L., Pedersen, T.L., Takahashi, K., Wilke,
+C., Woo, K., Yutani, H., Dunnington, D., 2021a. ggplot2: Create elegant
+data visualisations using the grammar of graphics.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-dplyr}{}}%
+Wickham, H., François, R., Henry, L., Müller, K., 2021b. Dplyr: A
+grammar of data manipulation.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-readr}{}}%
+Wickham, H., Hester, J., Bryan, J., 2021c. Readr: Read rectangular text
+data.
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-word2vec}{}}%
+Wijffels, J., 2021. word2vec: Distributed representations of words.
+
+\leavevmode\vadjust pre{\hypertarget{ref-wilsonUnderstandingChildParent2018}{}}%
 Wilson, K., Clark, A.F., Gilliland, J.A., 2018. Understanding child and
 parent perceptions of barriers influencing children's active school
 travel. BMC public health 18, 1053.
 doi:\href{https://doi.org/10.1186/s12889-018-5874-y}{10.1186/s12889-018-5874-y}
 
-\leavevmode\hypertarget{ref-zwertsHowChildrenView2010}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-zwertsHowChildrenView2010}{}}%
 Zwerts, E., Allaert, G., Janssens, D., Wets, G., Witlox, F., 2010. How
-children view their travel behaviour: A case study from Flanders
-(Belgium). Journal of Transport Geography 18, 702--710.
+children view their travel behaviour: A case study from {Flanders}
+({Belgium}). Journal of Transport Geography 18, 702--710.
 doi:\href{https://doi.org/10.1016/j.jtrangeo.2009.10.002}{10.1016/j.jtrangeo.2009.10.002}
+
+\end{CSLReferences}
 
 
 \end{document}
-
