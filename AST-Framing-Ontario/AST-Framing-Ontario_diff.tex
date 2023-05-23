@@ -1,4 +1,7 @@
 \documentclass[preprint, 3p,
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL AST-Framing-Ontario_v0.tex   Tue May 23 19:38:42 2023
+%DIF ADD AST-Framing-Ontario.tex      Tue May 23 19:36:46 2023
 authoryear]{elsarticle} %review=doublespace preprint=single 5p=2 column
 %%% Begin My package additions %%%%%%%%%%%%%%%%%%%
 
@@ -7,15 +10,21 @@ authoryear]{elsarticle} %review=doublespace preprint=single 5p=2 column
   \journal{Transportation Research Part A: Policy and
 Practice} % Sets Journal name
 
+%DIF 10-11d10
+%DIF < \usepackage{lineno} % add
+%DIF < 
+%DIF -------
 \usepackage{graphicx}
 %%%%%%%%%%%%%%%% end my additions to header
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
-% TODO: Currently lineno needs to be loaded after amsmath because of conflict
-% https://github.com/latex-lineno/lineno/issues/5
-\usepackage{lineno} % add
+%DIF 18a16-18
+% TODO: Currently lineno needs to be loaded after amsmath because of conflict %DIF > 
+% https://github.com/latex-lineno/lineno/issues/5 %DIF > 
+\usepackage{lineno} % add %DIF > 
+%DIF -------
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 % use upquote if available, for straight quotes in verbatim environments
@@ -45,7 +54,11 @@ Practice} % Sets Journal name
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={},
-            pdftitle={Framing active school travel in Ontario: , or how spinach is good for you},
+%DIF 47c48
+%DIF <             pdftitle={How is active school travel framed in Ontario, Canada?},
+%DIF -------
+            pdftitle={Framing active school travel in Ontario: , or how spinach is good for you}, %DIF > 
+%DIF -------
             colorlinks=false,
             urlcolor=blue,
             linkcolor=magenta,
@@ -58,7 +71,9 @@ Practice} % Sets Journal name
 % tightlist command for lists without linebreak
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
+%DIF 60a61
+ %DIF > 
+%DIF -------
 
 
 
@@ -76,16 +91,95 @@ Practice} % Sets Journal name
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
 \usepackage{xcolor}
-
-
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
 
 \begin{frontmatter}
 
-  \title{Framing active school travel in Ontario: , or how spinach is
-good for you}
+  \title{\DIFdelbegin \DIFdel{How is }\DIFdelend \DIFaddbegin \DIFadd{Framing }\DIFaddend active school travel \DIFdelbegin \DIFdel{framed }\DIFdelend in Ontario\DIFaddbegin \DIFadd{: }\DIFaddend , \DIFdelbegin \DIFdel{Canada?}\DIFdelend \DIFaddbegin \DIFadd{or how spinach is
+good for you}\DIFaddend }
     \author[McMaster University]{Elise Desjardins%
   %
   }
@@ -120,11 +214,16 @@ and Mining Engineering, 2500, chemin de Polytechnique Montreal,
 Montreal, Quebec, Canada H3T 1J4}
     \cortext[cor1]{Corresponding author}
     \fntext[1]{Corresponding author.}
-  
+
   \begin{abstract}
-  Active school travel (AST) is a relevant policy issue in Ontario,
-  Canada, as reflected in provincial support for school travel planning
-  (STP) efforts. Two pillars of school travel plans are education and
+  Active school travel (AST) \DIFdelbegin \DIFdel{has been increasingly encouraged by various
+  stakeholders }\DIFdelend \DIFaddbegin \DIFadd{is a relevant policy issue }\DIFaddend in Ontario,
+  Canada\DIFdelbegin \DIFdel{through efforts such as }\DIFdelend \DIFaddbegin \DIFadd{, as reflected in provincial support for }\DIFaddend school travel planning
+  \DIFdelbegin \DIFdel{. Education strategies like workshops or resources that
+  promote AST are commonly implemented. The framing of AST through such
+  strategies may influence how walking and bicycling to school are perceived by parents. It may also draw attention to AST as an issue
+  affecting children's health which could motivate behaviour change. We
+  used }\DIFdelend \DIFaddbegin \DIFadd{(STP) efforts. Two pillars of school travel plans are education and
   encouragement. For these pillars to stand, all relevant stakeholders
   must be cognizant of and understand well the issues and stakes. For
   this reason, how AST is communicated to them is essential. In this
@@ -135,10 +234,23 @@ Montreal, Quebec, Canada H3T 1J4}
   conversations about policy. In the case of AST, framing can influence
   what policy alternatives are perceived as available by children,
   parents, and their wider communities. To investigate framing of AST in
-  Ontario we use natural language processing techniques to analyze
-  publicly available documents from Ontario stakeholders involved in
+  Ontario we use }\DIFaddend natural language processing \DIFdelbegin \DIFdel{, including topic modelling, to examine how AST is framed in }\DIFdelend \DIFaddbegin \DIFadd{techniques to analyze
+  }\DIFaddend publicly available documents from Ontario stakeholders involved in
   school travel planning. We then compared the findings from these
-  documents to a selection of academic studies on AST. We conclude that
+  documents to a selection of \DIFaddbegin \DIFadd{academic }\DIFaddend studies on AST\DIFdelbegin \DIFdel{and
+  explored similarities between the two. We found that
+  AST is framed in two ways: i) as a health and
+  environmental issue; and ii) as an
+  accessible and feasible transport option for children and parents. The
+  frames encourage children and parents to adopt AST given its health
+  and environmental benefits by providing resources to support behaviour
+  change. The benefits of AST and strategies to support AST that are
+  communicated by stakeholders are consistent with the evidence from
+  academic research . While these frames present ASTin a positive light,
+  they may not encourage parents to view current household travel
+  behaviours as unhealthy for their children or their community.
+  Stakeholders promoting AST in Ontario should further problematize the decline of AST and challenge the
+  norm of driving children to school}\DIFdelend . \DIFaddbegin \DIFadd{We conclude that
   framing of AST in Ontario is mostly empirical-scientific in style, and
   largely in agreement with academic research on AST. On the other hand,
   it it does not appeal to moral reasons for change, and is therefore
@@ -146,13 +258,13 @@ Montreal, Quebec, Canada H3T 1J4}
   download responsibility for change to households, which limits the
   scope of policy alternatives by keeping collective action out of the
   frame.
-  \end{abstract}
+  }\DIFaddend \end{abstract}
     \begin{keyword}
     active school travel \sep school travel planning \sep natural
 language processing \sep 
     framing analysis
   \end{keyword}
-  
+
  \end{frontmatter}
 
 \newpage
@@ -169,18 +281,24 @@ to school would like to travel by bicycle instead
 \citep{laroucheRatherBikeSchool2016}. Another study in London, Ontario,
 reported similar findings with respect to children's preference for
 active travel \citep{larsenRouteBasedAnalysisCapture2012}. From a public
-policy perspective, increasing active travel to school represents a
+\DIFdelbegin \DIFdel{health }\DIFdelend \DIFaddbegin \DIFadd{policy }\DIFaddend perspective, increasing active travel to school represents a
 major opportunity to improve children's health and wellbeing
-\citep{faulknerActiveSchoolTransport2009}, to mitigate traffic and
+\DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{faulknerActiveSchoolTransport2009}}\hspace{0pt}%DIFAUXCMD
+, to mitigate traffic and
 improve perceptions of safety
-\citep{rothmanAssociationsParentsPerception2015}, as well as to reduce
+\mbox{%DIFAUXCMD
+\citep{rothmanAssociationsParentsPerception2015}}\hspace{0pt}%DIFAUXCMD
+, as well as to reduce
 carbon and other noxious emissions
-\citep{bearman2014modelling, goodman2019scenarios}.
+\mbox{%DIFAUXCMD
+\citep{bearman2014modelling, goodman2019scenarios}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
 
 To promote this trend, in 2017 the Government of Ontario began to
 support communities develop AST initiatives through a program called
 \emph{Ontario Active School Travel} (OAST). By 2021, the program, run by
-\emph{Green Communities Canada} had awarded over CAD 2 million and
+\DIFdelbegin \DIFdel{Green Communities Canada }\DIFdelend \DIFaddbegin \emph{\DIFadd{Green Communities Canada}} \DIFaddend had awarded over CAD 2 million and
 provided resources to over 25 projects across Ontario
 \citep{GreenCommunities2016}. A popular intervention in many communities
 is school travel planning (STP) \citep[see][]{GreenCommunitiesProjects}.
@@ -196,37 +314,51 @@ identification; 3) action planning; 4) implementation; 5) monitoring and
 evaluation
 \citep{buliungSchoolTravelPlanning2011, langUnderstandingModalChoice2011}.
 
-How AST is presented to a target audience (e.g., parents or the general
-public) is essential to define the parameters of what is possible
+\DIFdelbegin \DIFdel{Framing AST by STP stakeholders }\DIFdelend \DIFaddbegin \DIFadd{How AST is presented }\DIFaddend to a target audience (e.g., parents or the general
+public) \DIFdelbegin \DIFdel{can raise awareness of the relevant issues and
+influence how active travel to school is perceived}\DIFdelend \DIFaddbegin \DIFadd{is essential to define the parameters of what is possible
 policy-wise. Drawing from concepts in communication studies, the
-objective of this paper is to investigate how AST is framed in Ontario.
+objective of this paper is to investigate how AST is framed in Ontario}\DIFaddend .
 Gamson and Modigliani \citeyearpar{gamsonChangingCulture1987} define a
 frame as a ``central organizing idea or story line that provides
 meaning'' to a particular phenomenon. A frame can enable individuals
 ``to locate, perceive, identify, and label'' information pertaining to
 various dimensions of an issue \citep{goffmanFrameAnalysisEssay1974}.
-From this perspective, stakeholders involved in STP efforts play an
-important role in shaping public perception about AST by generating
-frames that create meaning, thus influencing the degree of attention and
-recognition of a ``problem'' that needs to be addressed through
+\DIFdelbegin \DIFdel{Therefore}\DIFdelend \DIFaddbegin \DIFadd{From this perspective}\DIFaddend , stakeholders involved in STP efforts \DIFdelbegin \DIFdel{can play a }\DIFdelend \DIFaddbegin \DIFadd{play an
+important }\DIFaddend role in shaping public perception about AST \DIFdelbegin \DIFdel{to attract greater }\DIFdelend \DIFaddbegin \DIFadd{by generating
+frames that create meaning, thus influencing the degree of }\DIFaddend attention and
+recognition \DIFdelbegin \DIFdel{as }\DIFdelend \DIFaddbegin \DIFadd{of }\DIFaddend a ``problem'' that needs to be addressed through
 behaviour change or new policies.
 
-Our research is supported by natural language processing techniques,
-applied to the analysis of documents produced by three STP stakeholder
+\DIFdelbegin \DIFdel{After significant investment of human and financial resources to boost
+rates of AST in Ontario over the past few years, in this paper we ask
+this central question: How is AST framed to the public in Ontario? The
+following questions are subsidiary and help us address this main
+question: What benefits of AST are communicated to the public? What
+solutions are proposed to increase AST?
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{We approach this question by means of }\DIFdelend \DIFaddbegin \DIFadd{Our research is supported by }\DIFaddend natural language processing \DIFdelbegin \DIFdel{, and
+examine how }\DIFdelend \DIFaddbegin \DIFadd{techniques,
+applied to the analysis of documents produced by }\DIFaddend three STP stakeholder
 groups in Ontario (municipalities, school boards, and transportation
-consortia). We assemble a corpus of texts from public sources that
+consortia)\DIFdelbegin \DIFdel{frame AST}\DIFdelend . We assemble a corpus of texts from public sources that
 present information for the general public or parents who are interested
-in AST and examine word frequency, bigrams, and concordances in these
-selected documents. Furthermore, we use topic analysis to identify
-themes presented by each stakeholder group. We then compare the findings
+in AST \DIFdelbegin \DIFdel{. We }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend examine word frequency, bigrams, and concordances in these
+selected documents\DIFdelbegin \DIFdel{, and
+also identify
+key topics }\DIFdelend \DIFaddbegin \DIFadd{. Furthermore, we use topic analysis to identify
+themes }\DIFaddend presented by each stakeholder group. We then compare the findings
 from these documents to a selection of studies on AST and explore the
 extent to which there is concordance between the scholarly literature on
-AST and materials shared with the public. The results of this analysis,
+AST and materials shared with the public. \DIFaddbegin \DIFadd{The results of this analysis,
 along with spot checks of the corpus by the authors, lead us to conclude
 that AST if framed as a matter of individual choices instead of
 collective action. The message is reasonable but anodyne, and it fails
 to communicate a sense of urgency about health and environmental issues,
 which may help to explain the limited success of policy.
+}\DIFaddend 
 
 \hypertarget{literature-review-ast}{%
 \section{Literature Review: AST}\label{literature-review-ast}}
@@ -258,28 +390,62 @@ seem to value \citep{zwertsHowChildrenView2010}. AST can also provide
 opportunities for children to engage with natural environments
 \citep{fuscoUnderstandingChildrenPerceptions2012, romeroChildrenExperiencesEnjoyment2015}.
 
-Rather than describing an extensive list of factors that influence AST
-and mode choice for travel to school in Canada
+\DIFdelbegin \DIFdel{Factors that influence AST have been presented and organized using a
+socio-ecological model (SEM) \mbox{%DIFAUXCMD
+\citep{mitraIndependentMobilityMode2013} }\hspace{0pt}%DIFAUXCMD
+or
+systems model \mbox{%DIFAUXCMD
+\citep{badlandDevelopmentSystemsModel2016} }\hspace{0pt}%DIFAUXCMD
+whereby
+children's travel behaviour is understood within the context of
+household, social, neighbourhood, and policy environments. The SEM helps
+to identify multiple determinants that need to be addressed by
+school-based interventions to increase AST, with the consensus being
+that interventions should target multiple levels
+\mbox{%DIFAUXCMD
+\citep{mitraIndependentMobilityMode2013}}\hspace{0pt}%DIFAUXCMD
+. }\DIFdelend Rather than describing an extensive list of factors that influence AST
+and mode choice \DIFaddbegin \DIFadd{for travel to school }\DIFaddend in Canada
 \citep[e.g.,][]{mammenUnderstandingDriveEscort2012, mitraIndependentMobilityMode2013, rothmanDeclineActiveSchool2018, wilsonUnderstandingChildParent2018},
-we focus on two key aspects that may be targeted from a policy
+we \DIFdelbegin \DIFdel{discuss a few potentially modifiable determinants }\DIFdelend \DIFaddbegin \DIFadd{focus on two key aspects }\DIFaddend that may be targeted \DIFdelbegin \DIFdel{for change through STP}\DIFdelend \DIFaddbegin \DIFadd{from a policy
 perspective: perceptions and behaviors by parents and built
-environmental factors.
+environmental factors}\DIFaddend .
 
-First, research has found that parents are key decision-makers with
+\DIFdelbegin \DIFdel{Children's }\DIFdelend \DIFaddbegin \DIFadd{First, research has found that parents are key decision-makers with
 respect to children's form of travel to school
-\citep{rothmanAssociationsParentsPerception2015}. Particularly, parental
+\mbox{%DIFAUXCMD
+\citep{rothmanAssociationsParentsPerception2015}}\hspace{0pt}%DIFAUXCMD
+. Particularly, parental
 perceptions of the built or school environment
+\mbox{%DIFAUXCMD
 \citep{demeesterParentalPerceivedNeighborhood2014, panterAttitudesSocialSupport2010, mandic2020differences}
+}\hspace{0pt}%DIFAUXCMD
 and their children's skills
+\mbox{%DIFAUXCMD
 \citep{mammenUnderstandingDriveEscort2012, faulknerWhatQuickestEasiest2010}
-tend to influence mode choice to school. Furthermore, children's mode
-choice to school is strongly influenced by their parents' travel
-behaviours, the complexity of their household's travel needs
+}\hspace{0pt}%DIFAUXCMD
+tend to influence }\DIFaddend mode choice to school\DIFaddbegin \DIFadd{. Furthermore, children's mode
+choice to school }\DIFaddend is strongly influenced by their parents' travel
+behaviours\DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{, }\DIFaddend the complexity of their household's travel needs
 \citep{buliungLivingJourneySchool2021}, as well as daily parental
-support \citep{mahDoesParentalSupport2017a}. This suggests that shifting
+support \citep{mahDoesParentalSupport2017a}. This \DIFdelbegin \DIFdel{indicates
+}\DIFdelend \DIFaddbegin \DIFadd{suggests }\DIFaddend that shifting
 parental perceptions and habits is important.
+\DIFdelbegin \DIFdel{Convenience
+and inclement weather have been cited by parents as barriers to AST
+\mbox{%DIFAUXCMD
+\citep{buliungSchoolTravelPlanning2011}}\hspace{0pt}%DIFAUXCMD
+. Parental perceptions of the built or school environment\mbox{%DIFAUXCMD
+\citep{demeesterParentalPerceivedNeighborhood2014, panterAttitudesSocialSupport2010}
+}\hspace{0pt}%DIFAUXCMD
+and their children's skills
+\mbox{%DIFAUXCMD
+\citep{mammenUnderstandingDriveEscort2012, faulknerWhatQuickestEasiest2010}
+}\hspace{0pt}%DIFAUXCMD
+also influence mode choice to school.
+}\DIFdelend 
 
-With respect to the built environment, distance between home and school
+\DIFdelbegin \DIFdel{Distance }\DIFdelend \DIFaddbegin \DIFadd{With respect to the built environment, distance }\DIFaddend between home and school
 is most negatively associated with AST
 \citep{ikedaAssociationsChildrenActive2018, mammenUnderstandingDriveEscort2012, pontEnvironmentalCorrelatesChildren2009, rothmanDeclineActiveSchool2018}
 with less AST reported among children who have to travel farther to
@@ -292,20 +458,29 @@ facilitate AST. Canadian youth report that they feel most safe bicycling
 on streets in their neighbourhood or that have low volumes of traffic
 \citep{TACbikeinfra2020}. Finally, concerns about traffic and strangers
 have been reported by parents who drive their children to school
-\citep{mammenUnderstandingDriveEscort2012}: ironically, concerns about
+\citep{mammenUnderstandingDriveEscort2012}\DIFdelbegin \DIFdel{, which highlights that the volume and speed of cars can be a concern or deterrent for AST .
+}\DIFdelend \DIFaddbegin \DIFadd{: ironically, concerns about
 traffic become a self-fulfilling prophecy.
+}\DIFaddend 
 
-\hypertarget{stp-frames}{%
+\DIFdelbegin %DIFDELCMD < \hypertarget{school-travel-planning-in-canada-and-relevance-of-framing-analysis}{%
+%DIFDELCMD < \section{School travel planning in Canada and relevance of framing
+%DIFDELCMD < analysis}\label{school-travel-planning-in-canada-and-relevance-of-framing-analysis}}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \hypertarget{stp-frames}{%
 \section{School travel planning in Canada and relevance of
 frames}\label{stp-frames}}
+\DIFaddend 
 
-AST has become a policy issue on the education and public health agendas
+\DIFdelbegin \DIFdel{School }\DIFdelend \DIFaddbegin \DIFadd{AST has become a policy issue on the education and public health agendas
 in Ontario, supported, albeit in a modest way, by financial
 contributions from the provincial government. Still, the support from a
 range of municipal representatives
+\mbox{%DIFAUXCMD
 \citep[see][]{buttazzoniSupportingActiveSchool2018, mammenPuttingSchoolTravel2015}
+}\hspace{0pt}%DIFAUXCMD
 demonstrates that the AST issue is on the political agenda. One of the
-main vehicles to promote AST is school travel planning (STP), which has
+main vehicles to promote AST is school }\DIFaddend travel planning (STP)\DIFaddbegin \DIFadd{, which }\DIFaddend has
 been implemented in Canada since at least the late 2000s. Within the STP
 process, facilitators establish multi-sector committees which intervene
 at the participating school through a range of activities consisting of
@@ -323,63 +498,133 @@ STP
 indicate its potential to encourage behaviour change and adoption of
 AST.
 
-The relevance of policy frames is highlighted by
-\citet{beland2014developing}, who remarks ``framing processes as public
+\DIFdelbegin \DIFdel{By providing a ``central organizing idea or story line''
+\mbox{%DIFAUXCMD
+\citep{gamsonChangingCulture1987} }\hspace{0pt}%DIFAUXCMD
+framing of AST seems particularly
+important to shift parental attitudes and perceptions }\DIFdelend \DIFaddbegin \DIFadd{The relevance of policy frames is highlighted by
+\mbox{%DIFAUXCMD
+\citet{beland2014developing}}\hspace{0pt}%DIFAUXCMD
+, who remarks ``framing processes as public
 relations are central to policy issues related to sustainable
 transportation''. Seeing how highly influential parental perceptions are
-to AST, it is important to understand AST-related communications, since
-the construction of frames for policy positions or public issues can
-activate or restrict a particular response in the intended audience
-\citep{panFramingAnalysisApproach1993}. Besides parents and children,
-framing can also affect broader policy support for AST in the community.
+to AST, it is important to understand AST-related communications}\DIFaddend , \DIFdelbegin \DIFdel{given their
+reported influence on children's travel mode to school. Scholars in the
+field of political communicationshave proposed that communicators, such
+as the media or institutions, construct the narrative of a frame }\DIFdelend \DIFaddbegin \DIFadd{since
+the construction of frames }\DIFaddend for policy positions or public issues \DIFdelbegin \DIFdel{in order to }\DIFdelend \DIFaddbegin \DIFadd{can
+}\DIFaddend activate or restrict a particular response in the intended audience
+\citep{panFramingAnalysisApproach1993}. \DIFdelbegin \DIFdel{Organized groups of stakeholders
+can employ similar methods to attract attention to particular issues.
+Framing can be used to position existing solutions as suitable to
+address particular issues \mbox{%DIFAUXCMD
+\citep{mahFramecriticalPolicyAnalysis2014}}\hspace{0pt}%DIFAUXCMD
+,
+which may prevent the public from being aware of other policy approaches
+that challenge the status quo. The way policy issues are framed is
+ultimately important to understand because it plays a role in either
+altering or preserving the existing social perceptions. Finally, the
+ideas that are communicated by a particular frame can be either positive
+or negative \mbox{%DIFAUXCMD
+\citep{waygoodCO2ValenceFraming2018}}\hspace{0pt}%DIFAUXCMD
+. There is evidence that
+negative framing may be more effective at motivating individuals, for
+example, to change transport modes to reduce CO2 emissions
+\mbox{%DIFAUXCMD
+\citep{waygoodCO2ValenceFraming2018}}\hspace{0pt}%DIFAUXCMD
+.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Framing of AST could }\DIFdelend \DIFaddbegin \DIFadd{Besides parents and children,
+framing can }\DIFaddend also affect broader \DIFdelbegin \DIFdel{support }\DIFdelend \DIFaddbegin \DIFadd{policy support for AST }\DIFaddend in the community.
 Municipal representatives are perceived to be instrumental but the
 involvement of other stakeholder groups (e.g., busing consortia
 representatives and local residents) can be lacking
-\citep{buttazzoniSupportingActiveSchool2018}. In this sense, framing can
+\citep{buttazzoniSupportingActiveSchool2018}. In \DIFdelbegin \DIFdel{Ontario, it is
+reasonable to say that AST has become a policy issue on the
+education
+and public health agendas, supported, albeit in a modest way, by
+financial contributions from the provincial government. Still, the
+support from a range of municipal representatives
+\mbox{%DIFAUXCMD
+\citep[see][]{buttazzoniSupportingActiveSchool2018, mammenPuttingSchoolTravel2015}
+}\hspace{0pt}%DIFAUXCMD
+demonstrates that the AST issue is on the political agenda}\DIFdelend \DIFaddbegin \DIFadd{this sense, framing can
 be used to position existing solutions as suitable to address particular
-issues \citep{mahFramecriticalPolicyAnalysis2014}, which may prevent the
+issues \mbox{%DIFAUXCMD
+\citep{mahFramecriticalPolicyAnalysis2014}}\hspace{0pt}%DIFAUXCMD
+, which may prevent the
 public from being aware of other policy approaches that challenge the
 status quo. Contrariwise, framing can be instrumental to revealing more
 diverse policy options than more diverse policy options than
-conventional wisdom would have \citep{bosomworth2015climate}.
+conventional wisdom would have \mbox{%DIFAUXCMD
+\citep{bosomworth2015climate}}\hspace{0pt}%DIFAUXCMD
+.
 Ultimately, it is important to understand framing of policy issues
 because creating meaning through frames contributes to the constant
 process of shaping of our collective identities, uncovering what we
-collectively find (un)acceptable and why \citep{beland2014developing}.
+collectively find (un)acceptable and why \mbox{%DIFAUXCMD
+\citep{beland2014developing}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
 
-Given the heavy focus of STP activities on education or encouragement
+\DIFdelbegin \DIFdel{Since STP activities heavily focus }\DIFdelend \DIFaddbegin \DIFadd{Given the heavy focus of STP activities }\DIFaddend on education or encouragement
 \citep{buliungSchoolTravelPlanning2011, mammenActiveSchoolTravel2014, buttazzoniSupportingActiveSchool2018},
-it is important for the issues to be effectively framed. In the past,
-parents have been found to express different understandings, language,
+it is important \DIFdelbegin \DIFdel{that parents and communities are receptive to the goals
+of STP \mbox{%DIFAUXCMD
+\citep{buttazzoniSupportingActiveSchool2018}}\hspace{0pt}%DIFAUXCMD
+. Parents }\DIFdelend \DIFaddbegin \DIFadd{for the issues to be effectively framed. In the past,
+parents }\DIFaddend have been found to express different understandings, language,
 and perceptions than planners of how the built environment can influence
-school travel: while parents tend to view mixed land use as conducive
+school travel\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{buliungLivingJourneySchool2021}}\hspace{0pt}%DIFAUXCMD
+. This is also true when it comes
+to other factors
+like }\DIFdelend \DIFaddbegin \DIFadd{: while parents tend to view mixed land use as conducive
 for driving, transport planners see mixed uses as a key for encouraging
-more active travel \citep{buliungLivingJourneySchool2021}. Similarly
+more active travel \mbox{%DIFAUXCMD
+\citep{buliungLivingJourneySchool2021}}\hspace{0pt}%DIFAUXCMD
+. Similarly
 mismatched understandings have been detected with respect to factors
-like the convenience of different modes to school
-\citep{langUnderstandingModalChoice2011}. As a consequence, STP
-stakeholders must pay special attention to parents' and communities'
-understanding of the decline of AST as a problem, which may affect their
+like the }\DIFaddend convenience of different modes to school
+\citep{langUnderstandingModalChoice2011}. \DIFaddbegin \DIFadd{As a consequence, }\DIFaddend STP
+stakeholders must pay special attention to parents' \DIFaddbegin \DIFadd{and communities'
+}\DIFaddend understanding of the decline of AST as a problem, which may affect their
 receptivity to proposed solutions
-\citep{buttazzoniSupportingActiveSchool2018}.
+\DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{buttazzoniSupportingActiveSchool2018}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
 
-So framing is important, but not all frames are equally effective.
+\DIFdelbegin \DIFdel{The success of STP interventions would likely depend on parental
+judgments of factors that are related to school travel, as well as
+support from key policy makers}\DIFdelend \DIFaddbegin \DIFadd{So framing is important, but not all frames are equally effective.
 Frames can appeal to economic reasons, to science and logic, or to moral
-obligation. For example, \citet{severson2015moral} report that overall
+obligation}\DIFaddend . For example, \DIFdelbegin \DIFdel{parents have been found to view mixed land use as conducive for driving, despite transport planners
+viewing neighbourhoods with mixed uses as key for encouraging more
+active travel \mbox{%DIFAUXCMD
+\citep{buliungLivingJourneySchool2021}}\hspace{0pt}%DIFAUXCMD
+. Therefore}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{severson2015moral} }\hspace{0pt}%DIFAUXCMD
+report that overall
 support for climate change policy is increased more when scientific
 frames, secular moral frames, and economic equity frames are used,
 compared to economic efficiency or religious moral frames. Frames can
 also be positive or negative, and there is evidence that negative
 framing may be more effective at motivating individuals, for example, to
 change transport modes to reduce CO2 emissions
-\citep{waygoodCO2ValenceFraming2018}. As well, the effectiveness of the
+\mbox{%DIFAUXCMD
+\citep{waygoodCO2ValenceFraming2018}}\hspace{0pt}%DIFAUXCMD
+. As well, the effectiveness of the
 framing depends on the psychological distance to the relevant issues:
 how socially, temporally, geographically, or hypothetically close an
 individual perceives themselves to the issues can affect their support
-for various policies \citep{maiella2020psychological}. For this reason,
-stakeholders involved in STP must make conscious choices about how
+for various policies \mbox{%DIFAUXCMD
+\citep{maiella2020psychological}}\hspace{0pt}%DIFAUXCMD
+. For this reason}\DIFaddend ,
+stakeholders involved in STP must make conscious choices about \DIFdelbegin \DIFdel{the
+proposed solutions and potential benefits of AST that are communicated to parents and the general public through publicly available content to convey its importance as a policy issue and to facilitate adoption of AST }\DIFdelend \DIFaddbegin \DIFadd{how
 issues surrounding AST are communicated if the goal is to increase
-support for and buy-in of AST policies.
+support for and buy-in of AST policies}\DIFaddend .
 
 \hypertarget{data}{%
 \section{Data}\label{data}}
@@ -394,9 +639,9 @@ We assembled a collection of publicly available documents that were
 sourced online from the main stakeholder groups involved in STP
 initiatives in Ontario: i) school boards (public or Catholic and
 English-speaking only); ii) municipal governments; and iii)
-transportation consortia. The latter involve collaborations between
+transportation consortia. The latter involve \DIFdelbegin \DIFdel{a collaboration }\DIFdelend \DIFaddbegin \DIFadd{collaborations }\DIFaddend between
 municipal regions and school boards to deliver more efficient and timely
-regional transportation services to schools. Non-profit organizations,
+\DIFaddbegin \DIFadd{regional }\DIFaddend transportation services to schools\DIFdelbegin \DIFdel{in each region}\DIFdelend . Non-profit organizations,
 police services, and advocacy groups are other stakeholders who often
 play a role in supporting AST and/or STP, but this study does not
 include any documents from these groups because they do not consistently
@@ -412,7 +657,7 @@ active transport or school travel were downloaded.
 
 Webpages from STP stakeholder groups were included in our analysis if
 they were findable. This primary criterion was important since our
-analysis pertains communication of issues to the general public. Thus,
+analysis pertains \DIFdelbegin \DIFdel{to how such issues are framed }\DIFdelend \DIFaddbegin \DIFadd{communication of issues }\DIFaddend to the general public. Thus,
 we included only webpages that were readily accessible, which we defined
 as requiring no more than four links from the initial Google search to
 reach.
@@ -444,24 +689,30 @@ Stakeholder & Total & Retrieved\\
 \subsubsection{Academic papers}\label{academic-papers}}
 
 We conducted a search on Web of Science for scholarly papers on the
-topic of school travel using Web of Science's Core Collection. The
+topic of school travel \DIFdelbegin \DIFdel{. We limited our search to }\DIFdelend \DIFaddbegin \DIFadd{using Web of Science's Core Collection. The
 search was conducted in the Winter of 2021 and the parameters used were
 \{active OR walk* or cycl* or bicycl*\} AND \{``school travel''\}.
 Initially, we found 322 papers, which we reduced to 250 after selecting
-only papers in the fields of transportation, planning, urban studies,
-geography, and public health. These fields were chosen because they had
+only papers in }\DIFaddend the fields of \DIFdelbegin \DIFdel{public
+health, }\DIFdelend transportation, planning, urban studies,
+\DIFdelbegin \DIFdel{and geography. This
+initial corpus was }\DIFdelend \DIFaddbegin \DIFadd{geography, and public health. These fields were chosen because they had
 the greatest volume of documents and/or were of disciplinary interest to
-the authors. This list with 250 documents was then manually curated by
-the authors to ensure that all documents were relevant. This was done by
+the authors. This list with 250 documents was then manually }\DIFaddend curated by
+the authors to ensure that all documents were relevant. \DIFdelbegin \DIFdel{After this step, }\DIFdelend \DIFaddbegin \DIFadd{This was done by
 checking the title and reading the abstract of the papers. For example,
 a paper with the title ``Impact of automated photo enforcement of
-vehicle speed in school zones'' \citep{quistberg2019impact} was excluded
+vehicle speed in school zones'' \mbox{%DIFAUXCMD
+\citep{quistberg2019impact} }\hspace{0pt}%DIFAUXCMD
+was excluded
 as being tangential to our research; the abstract of another paper
 revealed that it was mainly concerned with survey methods: ``Common
 methods for measuring mode share include Hands Up surveys and family
 surveys, but these require teacher and parental involvement.''
-\citep{sersli2019getting}. After this process, our academic corpus
-comprised 227 journal articles that were readied for analysis.
+\mbox{%DIFAUXCMD
+\citep{sersli2019getting}}\hspace{0pt}%DIFAUXCMD
+. After this process, our academic corpus
+comprised }\DIFaddend 227 journal articles \DIFaddbegin \DIFadd{that }\DIFaddend were readied for analysis.
 
 \hypertarget{data-cleaning}{%
 \subsection{Data cleaning}\label{data-cleaning}}
@@ -488,17 +739,34 @@ removed from the corpora.
 \subsection{Process of Framing
 Analysis}\label{process-of-framing-analysis}}
 
-Topic modelling was used to analyze the documents retrieved. This is a
+\DIFdelbegin \DIFdel{We use topic modelling }\DIFdelend \DIFaddbegin \DIFadd{Topic modelling was used }\DIFaddend to analyze the documents retrieved. \DIFdelbegin \DIFdel{Topic
+modelling }\DIFdelend \DIFaddbegin \DIFadd{This }\DIFaddend is a
 natural language processing technique used to analyze text to identify
 the language and concepts being communicated. This method is practical
-for researchers working with large amounts of text because it can assist
-and complement the manual coding of topics that would normally take
+for researchers working with large amounts of text because it \DIFdelbegin \DIFdel{replaces }\DIFdelend \DIFaddbegin \DIFadd{can assist
+and complement }\DIFaddend the manual coding of topics that would normally take
 place to analyze or summarize textual data
 \citep{jacobiQuantitativeAnalysisLarge2016}. We primarily use the
-following \texttt{R} packages: \texttt{tidytext}
-\citep{silge2016tidytext}, \texttt{topicmodels} \citep{grun2011topic},
-\texttt{word2vec} \citep{wijffels2021word2vec}, and \texttt{wordcloud}
-\citep{fellows2018wordloud}.
+following \DIFdelbegin \DIFdel{software}\DIFdelend \DIFaddbegin \texttt{\DIFadd{R}} \DIFadd{packages}\DIFaddend : \texttt{tidytext}
+\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{R-tidytext}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{silge2016tidytext}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend , \texttt{topicmodels} \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{R-topicmodels}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{grun2011topic}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend ,
+\texttt{word2vec} \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{R-word2vec}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{wijffels2021word2vec}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend , and \texttt{wordcloud}
+\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{R-wordcloud}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{fellows2018wordloud}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
 
 We estimate latent Dirichlet allocation (LDA) models to identify topics
 contained in both the STP and academic documents. The model's output is
@@ -512,11 +780,11 @@ coding.
 \subsection{Reproducibility}\label{reproducibility}}
 
 This paper is an example of open and reproducible research that uses
-only open software. The source document is an R markdown document.
-Following best practices in spatial data science
+only open software. \DIFaddbegin \DIFadd{The source document is an R markdown document.
+}\DIFaddend Following best practices in spatial data science
 \citep{brunsdon2020opening}, the code and data needed to reproduce our
 research or conduct a similar analysis for other regions are available
-in a publicly available repository\footnote{\url{https://github.com/desjae/AST-Framing-Analysis-Ontario}}.
+\DIFdelbegin \DIFdel{for download upon request}\DIFdelend \DIFaddbegin \DIFadd{in a publicly available repository}\footnote{\url{https://github.com/desjae/AST-Framing-Analysis-Ontario}}\DIFaddend .
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
@@ -533,12 +801,13 @@ documents. Policy documents and academic papers reference \emph{active},
 \emph{students} more than other terms. Each corpus also has
 \emph{safety} and \emph{traffic} as common words which suggests that
 these are common concerns for parents. The word \emph{physical} is
-present in each corpus, but this could refers to \emph{physical
-activity} or the \emph{physical environment}. Furthermore, documents
+present in each corpus, but \DIFdelbegin \DIFdel{it's not clear what this refers to (e.g,
+}\DIFdelend \DIFaddbegin \DIFadd{this could refers to }\DIFaddend \emph{physical
+activity} \DIFdelbegin \DIFdel{, }\DIFdelend or the \emph{physical environment}\DIFdelbegin \DIFdel{)}\DIFdelend . Furthermore, documents
 from STP stakeholder groups discuss \emph{resources},
 \emph{information}, and \emph{services} about school travel. Unlike the
-academic papers, policy+practice documents frequently include the words
-\emph{route} or \emph{routes}. This could indicate the role of STP
+academic papers, policy+practice documents \DIFaddbegin \DIFadd{frequently }\DIFaddend include the words
+\emph{route} or \emph{routes}\DIFdelbegin \DIFdel{as frequent terms}\DIFdelend . This could indicate the role of STP
 stakeholder groups in identifying safe routes to school to share with
 parents or families. In the section below, the context in which these
 terms are used is explored further.
@@ -548,7 +817,7 @@ The academic corpus differs from the policy documents in that
 terms. In addition, \emph{time}, \emph{factors}, \emph{environment}, and
 \emph{age} are also identified in the academic papers. The prevalence of
 these terms is consistent with an academic focus on exploring the
-variables that influence travel to school. These words are absent from
+variables that influence \DIFdelbegin \DIFdel{mode choice}\DIFdelend \DIFaddbegin \DIFadd{travel to school}\DIFaddend . These words are absent from
 the list of common words in policy+practice documents. Table
 \ref{tab:word-table} indicates that the academic corpus discusses a
 broader range of determinants of AST than the policy documents. The
@@ -605,7 +874,7 @@ routes & 27 & 13 & service & 22 & 11 & student & 12 & 5 & significant & 1644 & 2
 
 Examination of document frequency reveals terms that are not present in
 all policy documents. This suggests that although documents pertain to
-school travel, not all stakeholders across Ontario disseminate
+\DIFdelbegin \DIFdel{the subject of }\DIFdelend school travel, not all stakeholders across Ontario disseminate
 information about AST. We manually searched the policy+practice corpus
 and found that 48\% of documents mention AST and 16\% mention STP. In
 contrast, inclement weather and its impacts on busing is a common topic
@@ -625,8 +894,8 @@ addressed in school board and transportation consortia documents.
 
 Bigrams refer to a pair of consecutive words. We combined all
 municipality, school board, and transportation consortia documents into
-the policy+practice corpus. Figure \ref{fig:policy-visual} shows all of
-the bigrams that occur more than 10 times in this corpus. This figure
+the policy+practice \DIFaddbegin \DIFadd{corpus}\DIFaddend . Figure \ref{fig:policy-visual} shows all of
+the bigrams that occur more than 10 times in \DIFdelbegin \DIFdel{the policy+practice }\DIFdelend \DIFaddbegin \DIFadd{this }\DIFaddend corpus. This figure
 highlights the main ideas that are presented to the public in each of
 the policy corpora. The directional arrows indicate the arrangement of
 the words (e.g., active travel and not travel active) and the colour
@@ -645,8 +914,11 @@ this focus given that municipalities in Ontario are concerned about
 climate change and have increasingly looked to active travel to offset
 transport-related emissions in urban areas. We also found \emph{mental
 health}, \emph{walk zone}, and \emph{green communities} as common pairs
-of consecutive words. Their presence makes sense given the involvment of
-\emph{Green Communities Canada} in AST initiatives in Ontario. Overall,
+of consecutive words. \DIFaddbegin \DIFadd{Their presence makes sense given the involvment of
+}\DIFaddend \emph{Green Communities Canada} \DIFdelbegin \DIFdel{is a non-profit
+organization that has significantly supported AST initiatives through
+the Ontario Active School Travel program so the high frequency of this
+term in the policy+practice corpus is not surprising}\DIFdelend \DIFaddbegin \DIFadd{in AST initiatives in Ontario}\DIFaddend . Overall,
 the policy documents from STP stakeholder groups seem to focus on four
 key areas: i) benefits or impacts of AST; ii) mechanisms of
 intervention; iii) concerns or barriers; and iv) supports for AST. This
@@ -654,13 +926,14 @@ interpretation indicates that the general public accessing information
 about AST in Ontario is informed about a wide range of content related
 to this issue.
 
-Next, we analyzed bigrams in the academic corpus separately to comparE
-with the policy+practice corpus. Figure \ref{fig:academic-visual}
+Next, we analyzed bigrams in the academic corpus separately to \DIFdelbegin \DIFdel{make
+comparisons }\DIFdelend \DIFaddbegin \DIFadd{comparE
+}\DIFaddend with the policy+practice corpus. Figure \ref{fig:academic-visual}
 indicates that academic papers include several common bigrams that were
 also found in the policy documents including \emph{physical activity},
-which is the top bigram, as well as \emph{traffic safety} and \emph{safe
-routes}. However, many other factors are identified in the academic
-corpus that are not presented to the general public through policy
+which is the top bigram, \DIFaddbegin \DIFadd{as well as }\DIFaddend \emph{traffic safety} \DIFdelbegin \DIFdel{, }\DIFdelend and \emph{safe
+routes}. However, many other factors are identified in the \DIFdelbegin \DIFdel{research literature }\DIFdelend \DIFaddbegin \DIFadd{academic
+corpus }\DIFaddend that are not presented to the general public through policy
 documents. Terms like \emph{built environment}, \emph{independent
 mobility}, and \emph{urban form} are other frequent pairs of consecutive
 words. Academic papers also often discuss \emph{distance home},
@@ -732,9 +1005,9 @@ experimented with the model by adjusting the number of topics and
 evaluating the output of terms in each topic. We found that there were 9
 distinct topics that could be interpreted in the policy+practice corpus
 and 11 topics in the academic corpus, after which there was too much
-overlap for the clusters to be meaningfully distinguished. Figures
+overlap for the clusters to be meaningfully \DIFdelbegin \DIFdel{interpreted}\DIFdelend \DIFaddbegin \DIFadd{distinguished}\DIFaddend . Figures
 \ref{fig:policy-terms} and \ref{fig:academic-terms} present the main
-terms associated with the topics found in each corpus.
+terms \DIFdelbegin \DIFdel{that are }\DIFdelend associated with the topics found in each corpus.
 
 In the policy+practice corpus, we identified the following topics based
 on the cluster of words: (1) safety; (2) weather and busing; (3) active
@@ -806,9 +1079,10 @@ and your health, and teaches your child independence and community
 awareness.} (Halton District School Board)
 \end{quote}
 
-Finally, both AST frames present the benefits of AST. STP stakeholder
-groups seem to be communicating that AST is a healthy and accessible
-option as a result of school travel plans and improvements to the built
+Finally, both AST frames present \DIFdelbegin \DIFdel{solutions to encourage }\DIFdelend \DIFaddbegin \DIFadd{the benefits of }\DIFaddend AST. STP stakeholder
+groups seem to be communicating that AST is a healthy and \DIFdelbegin \DIFdel{easy }\DIFdelend \DIFaddbegin \DIFadd{accessible
+}\DIFaddend option as a result of \DIFdelbegin \DIFdel{policy changes (e.g., available resources for
+parents and children) and }\DIFdelend \DIFaddbegin \DIFadd{school travel plans and }\DIFaddend improvements to the built
 environment. This could include examples of various efforts that are
 underway to support AST including route planning.
 
@@ -820,17 +1094,18 @@ concerns about safety, physical activity, and the environment.} (City of
 Hamilton)
 \end{quote}
 
-Beyond supporting communities to develop STPs, these frames tend to
+\DIFaddbegin \DIFadd{Beyond supporting communities to develop STPs, these frames tend to
 place responsibility for change squarely on the members of the
 community:
+}
 
 \begin{quote}
-\_\_A way to make sure your child is safe while walking to school is
+\DIFadd{\_\_A way to make sure your child is safe while walking to school is
 with a `walking school bus.' Here are some tips for a walking
-schoolbus\ldots{[}tips{]}\ldots Have fun!\_ (City of Ottawa)
-\end{quote}
+schoolbus\ldots{[}tips}{]}\DIFadd{\ldots Have fun!\_ (City of Ottawa)
+}\end{quote}
 
-\hypertarget{discussion}{%
+\DIFaddend \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 
 \hypertarget{current-ast-frames-in-ontario}{%
@@ -838,11 +1113,13 @@ schoolbus\ldots{[}tips{]}\ldots Have fun!\_ (City of Ottawa)
 Ontario}\label{current-ast-frames-in-ontario}}
 
 Interpretation of the text assisted by natural language processing
-reveals that AST in Ontario is not always communicated to members of the
+reveals that AST in Ontario is \DIFdelbegin \DIFdel{primarily framed }\DIFdelend \DIFaddbegin \DIFadd{not always communicated to members of the
 public. As noted above, less than 50\% of documents from municipalities,
 school boards, and transportation consortia discuss AST. In the rest of
 the documents, the primary way AST is framed tends to emphasize the
-benefits to the health and wellbeing of children and to the environment.
+benefits }\DIFaddend to \DIFdelbegin \DIFdel{parents as beneficial
+to }\DIFdelend the health and wellbeing of children and to \DIFdelbegin \DIFdel{environmental
+sustainability}\DIFdelend \DIFaddbegin \DIFadd{the environment}\DIFaddend .
 The policy documents reflect the evidence that AST contributes
 positively to children's physical health
 \citep[see][]{faulknerActiveSchoolTransport2009, schoeppeAssociationsChildrenActive2015},
@@ -872,29 +1149,45 @@ opportunities for their children to use active modes to school.
 Both frames present the AST issue in a positive light. Neither frame
 appears to explain why declining rates of AST are a problem or convey
 any urgency to this issue so that it attracts the attention of parents,
-the general public, or policy makers. For example, parents who drive
+the general public, or policy makers. \DIFaddbegin \DIFadd{For example, parents who drive
 their children to school have reported concerns about traffic volume
-around schools \citep{mammenUnderstandingDriveEscort2012}, but may not
+around schools \mbox{%DIFAUXCMD
+\citep{mammenUnderstandingDriveEscort2012}}\hspace{0pt}%DIFAUXCMD
+, but may not
 recognize that their own behaviour contributes to the problem that is
 perceived to prevent their child from safely walking or bicycling to
-school \citep{collinsSafeJourneysEnterprising2001}. Communicating the
-potential outcomes of increased AST present the issues in a positive
-light, but these frames do not seem to encourage parents or the general
+school \mbox{%DIFAUXCMD
+\citep{collinsSafeJourneysEnterprising2001}}\hspace{0pt}%DIFAUXCMD
+. }\DIFaddend Communicating the
+potential outcomes of increased AST \DIFdelbegin \DIFdel{may be persuasive arguments to motivate
+behaviour change}\DIFdelend \DIFaddbegin \DIFadd{present the issues in a positive
+light}\DIFaddend , but these frames do not seem to encourage parents or the general
 public to view their current behaviour as problematic or unhealthy for
-their children and the environment. Further, behaviour change is mainly
-presented as an option for some but not an imperative for all, which
+their children \DIFdelbegin \DIFdel{'s development and their community. Thus}\DIFdelend \DIFaddbegin \DIFadd{and the environment. Further}\DIFaddend , behaviour change is \DIFaddbegin \DIFadd{mainly
+}\DIFaddend presented as an option for some but not an imperative for all\DIFdelbegin \DIFdel{. For example, parents who drive their children to
+school have reported concerns about traffic volume around schools
+\mbox{%DIFAUXCMD
+\citep{mammenUnderstandingDriveEscort2012}}\hspace{0pt}%DIFAUXCMD
+, but may not recognize that
+their own behaviour contributes to the problem that is perceived to
+prevent their child from safely walking or bicycling to school
+\mbox{%DIFAUXCMD
+\citep{collinsSafeJourneysEnterprising2001}}\hspace{0pt}%DIFAUXCMD
+.
+}\DIFdelend \DIFaddbegin \DIFadd{, which
 keeps collective action through government entities out of the frame.
-This echoes the findings of Reynard et al.
-\citeyearpar{reynardGrowthResilienceHow2021}, who found in their
+This echoes the findings of }\DIFaddend Reynard et al.
+\citeyearpar{reynardGrowthResilienceHow2021}\DIFdelbegin \DIFdel{similarly }\DIFdelend \DIFaddbegin \DIFadd{, who }\DIFaddend found in their
 analysis of Canadian municipal documents that one of the dominant frames
-was to present behaviours that help mitigate the climate crisis as an
-individual choice but not ``the expected norm''.
+\DIFdelbegin \DIFdel{presented the adoption of behaviours to }\DIFdelend \DIFaddbegin \DIFadd{was to present behaviours that }\DIFaddend help mitigate the climate crisis as \DIFdelbegin \DIFdel{a }\DIFdelend \DIFaddbegin \DIFadd{an
+individual }\DIFaddend choice but not ``the expected norm''.
 
-Overall, we find that the proposed solutions in the secondary frame
-reinforce some of the same ideas: 1) behaviour change from households
-making different travel decisions (individual responsibility); 2)
-policies that create resources for AST (mainly through education and
-plannning); and 3) engineering solutions like bicycle lanes. This
+\DIFdelbegin \DIFdel{We found }\DIFdelend \DIFaddbegin \DIFadd{Overall, we find }\DIFaddend that the proposed solutions in the secondary frame
+\DIFdelbegin \DIFdel{to increase
+AST align with different levels of the SEM}\DIFdelend \DIFaddbegin \DIFadd{reinforce some of the same ideas}\DIFaddend : 1) behaviour change from households
+making different travel decisions \DIFaddbegin \DIFadd{(individual responsibility)}\DIFaddend ; 2)
+policies that create resources for AST \DIFaddbegin \DIFadd{(mainly through education and
+plannning)}\DIFaddend ; and 3) engineering solutions like bicycle lanes. This
 reflects findings from the AST literature that a range of solutions are
 needed to address different factors that influence AST
 \citep[\emph{inter alia,
@@ -905,22 +1198,39 @@ process
 \citep{buttazzoniSupportingActiveSchool2018, mammenPuttingSchoolTravel2015},
 as well as the evidence that the built environment influences mode
 choice to school.
+\DIFdelbegin \DIFdel{However}\DIFdelend \DIFaddbegin 
 
-As well as what is \emph{in} the frame, it is also interesting to look
-for what is \emph{not}. As noted, a call for collective action tends to
+\DIFadd{As well as what is }\emph{\DIFadd{in}} \DIFadd{the frame}\DIFaddend , it is \DIFdelbegin \DIFdel{beyond the scope of this paper to assess whether the proposed solutions are perceived to
+be sufficient by
+parents for increasing AST. }\DIFdelend \DIFaddbegin \DIFadd{also interesting to look
+for what is }\emph{\DIFadd{not}}\DIFadd{. As noted, a call for collective action tends to
 be missing, whereas the positive tone does not convey urgency about some
 critical stakes, including for instance climate change. By presenting
 the issues in an empirical-scientific way no moral imperative is
-mobilized to encourage change \citep{severson2015moral}.
+mobilized to encourage change \mbox{%DIFAUXCMD
+\citep{severson2015moral}}\hspace{0pt}%DIFAUXCMD
+.
+}\DIFaddend 
 
 \hypertarget{implications-for-school-travel-planning}{%
 \subsection{Implications for school travel
 planning}\label{implications-for-school-travel-planning}}
 
-As we noted in Section \ref{stp-frames} above, STP in Ontario relies
+\DIFdelbegin \DIFdel{STP stakeholders should problematize the significant decline in AST that
+has occurred over recent decades in Canada and emphasize that this issue
+merits urgent behaviour change. A negative framing that challenges the social norm of
+driving could be more motivational to
+shift transport
+modes, which would be consistent with other findings
+\mbox{%DIFAUXCMD
+\citep[see][]{waygoodCO2ValenceFraming2018}}\hspace{0pt}%DIFAUXCMD
+.Policy documents should
+make it clear that }\DIFdelend \DIFaddbegin \DIFadd{As we noted in Section \ref{stp-frames} above, STP in Ontario relies
 heavily on education and encouragement. From the get-go, these are two
 of the weakest tools in the arsenal of government actions
-\citep{ohare1989typology}. For this reason, it is important that both
+\mbox{%DIFAUXCMD
+\citep{ohare1989typology}}\hspace{0pt}%DIFAUXCMD
+. For this reason, it is important that both
 are used effectively. Our analysis leads us to question the efficacy of
 the frames currently used for talking about AST in Ontario. If we had to
 paraphrase the way AST is framed, it would be like this: ``eating
@@ -929,16 +1239,21 @@ spinach.'' The issues are presented as a matter of personal choice,
 purely optional, and without a sense of urgency. While emphasizing the
 risks may seem counterproductive, this approach has been found to be
 effective at motivating change
-\citep[e.g.,][]{lawlor2018risk, waygoodCO2ValenceFraming2018}.
+\mbox{%DIFAUXCMD
+\citep[e.g.,][]{lawlor2018risk, waygoodCO2ValenceFraming2018}}\hspace{0pt}%DIFAUXCMD
+.
 Accordingly, communications with the public could emphasize the risks
-associated with continued use of nonactive modes to school.
+associated with }\DIFaddend continued use of nonactive modes to school\DIFdelbegin \DIFdel{can
+deprive children of opportunities to increase physical activity and to
+gain health and social benefits}\DIFdelend .
 
-In addition to privileging choice, the frames tend to leave out a number
-of household determinants of AST. For example, there was no discussion
-about the role of convenience and inclement weather in shaping household
+\DIFdelbegin \DIFdel{There is a noticeable lack of focus on certain }\DIFdelend \DIFaddbegin \DIFadd{In addition to privileging choice, the frames tend to leave out a number
+of }\DIFaddend household determinants of AST\DIFdelbegin \DIFdel{in the two frames that needs to be addressed}\DIFdelend . For example, \DIFaddbegin \DIFadd{there was no discussion
+about }\DIFaddend the role of convenience and inclement weather in shaping household
 travel decisions \citep{buliungSchoolTravelPlanning2011} and the
 complexity of travel arrangements that must be coordinated by households
-\citep[see][]{buliungLivingJourneySchool2021}. The desire to escort
+\citep[see][]{buliungLivingJourneySchool2021}\DIFdelbegin \DIFdel{were not found to be
+discussed}\DIFdelend . The desire to escort
 children to school, which has been noted by parents as a reason to
 continue driving \citep{westmanWhatDrivesThem2017}, is also not
 adequately addressed by STP stakeholders. Parental assessment of a
@@ -949,7 +1264,25 @@ opportunity or a rite of passage that children have been denied could
 challenge the prevailing culture of risk avoidance which discourages
 parents from letting their children use active modes to school.
 
-\hypertarget{limitations}{%
+\DIFdelbegin \DIFdel{Future research and evaluation by STP stakeholders should investigate
+how parents or the general public respond to messages or information
+that encourages the adoption of AST and evaluate which are most
+effective. It would be helpful to understand which frames would most
+encourage behaviour change or increase political support for
+interventions that address barriers to AST. This type of information
+could ensure that educational strategies and promotional materials
+increase buy-in for their target audience. If Canadian STP stakeholders
+wish to involve more local residents in their efforts
+\mbox{%DIFAUXCMD
+\citep{buttazzoniSupportingActiveSchool2018}}\hspace{0pt}%DIFAUXCMD
+, it would also be
+worthwhile for them to produce different materials that communicate why
+this issue is important to the general public, regardless of whether
+they currently have children commuting to/from school.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \hypertarget{limitations}{%
 \subsection{Limitations}\label{limitations}}
 
 A limitation of this study is that we only analyzed English-language
@@ -978,9 +1311,10 @@ intervention, which may impact how parents respond to behaviour change
 initiatives and limit awareness in the general public. In their public
 materials about AST, STP stakeholders should emphasize why AST rates
 should increase in local communities and how the negative effects of
-nonactive modes to school may impact children's health and wellbeing.
+nonactive modes to school may impact children's health and wellbeing\DIFaddbegin \DIFadd{.
+}
 
-In terms of future research, we suggest the need for further
+\DIFadd{In terms of future research, we suggest the need for further
 investigation into how parents or the general public respond to messages
 or information that encourages the adoption of AST and evaluate which
 are most effective. It would be helpful to understand which frames would
@@ -989,12 +1323,15 @@ interventions that address barriers to AST. This type of information
 could ensure that educational strategies and promotional materials
 increase buy-in for their target audience. If Canadian STP stakeholders
 wish to involve more local residents in their efforts
-\citep{buttazzoniSupportingActiveSchool2018}, it would also be
+\mbox{%DIFAUXCMD
+\citep{buttazzoniSupportingActiveSchool2018}}\hspace{0pt}%DIFAUXCMD
+, it would also be
 worthwhile for them to produce different materials that communicate why
 this issue is important to the general public, regardless of whether
 they currently have children commuting to/from school.
+}
 
-Finally, we would like to close with a brief note on the methodology.
+\DIFadd{Finally, we would like to close with a brief note on the methodology.
 Natural language processing and analysis of frames are still not widely
 adopted in transportation research. Based on our experience, we tend to
 see computer-assisted text analysis as a complement rather than a
@@ -1007,7 +1344,7 @@ frames may differ by expert; in this research we aimed to develop a
 consensus interpretation by involving all authors in the discussion of
 the results. Furthermore, since the research is an open, reproducible
 project, all our assumptions are open to scrutiny and use the data to
-check and/or expand the analysis presented here.
+check and/or expand the analysis presented here}\DIFaddend .
 
 \renewcommand\refname{References}
 \bibliography{bibliography.bib}

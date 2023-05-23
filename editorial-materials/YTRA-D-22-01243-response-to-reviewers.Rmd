@@ -1,0 +1,102 @@
+---
+title: "How is active school travel framed in Ontario, Canada?"
+output: pdf_document
+link-citations: yes
+linkcolor: blue
+bibliography: 
+  - '`r system("kpsewhich ../AST-Framing-Ontario/bibliography.bib", intern=TRUE)`'
+---
+
+# Responses to reviewers
+
+We wish to thank both reviewers for their constructive feedback. We feel that the paper has been much improved as a result of responding to their comments.
+
+## Reviewer 1
+
+### Comment 1 {#r1-comment-1}
+
+> The authors have used topic modelling to study policy centred and academic writing about active transportation to school in Ontario, Canada. I was quite fascinated by the approach - the paper presents a new way of looking at a vast grey and peer reviewed literature on school travel that has developed over several decades. 
+
+Thank you for your kind comments and generous feedback.
+
+### Comment 2 {#r1-comment-2}
+
+> I think the authors should offer more detail on their search strategy beyond, in section 4.1.2, simply saying - we conducted a search using Web of Science. Digging into and report search method - and why/how such decisions are made is an important piece of work like this. Why did you limit your search to the fields indicated? How did you arrive at your search strings/keywords? Having some reporting here, similar to what one would find in a review paper (systematic, scoping, or narrative for that matter) would be useful. 
+
+Thank you for this comment. We were too terse with our reporting of the search protocol in the earlier version of the paper. This has been rectified in the current version, where we add relevant details, as follows.
+
+The search was conducted using Web of Science's Core Collection. This was done in the Winter of 2021 and the parameters we used were {active OR walk* or cycl* or bicycl*} AND {"school travel"}. Initially, we found 322 papers, which we reduced to 250 after selecting only papers in the fields of transportation, planning, urban studies, geography, and public health. These fields were chosen because they had the greatest volume of documents and/or were of disciplinary interest to the authors. This list with 250 documents was then manually curated by the authors to ensure that all documents were relevant. This was done by checking the title and reading the abstract of the papers. For example, a paper with the title "Impact of automated photo enforcement of vehicle speed in school zones" [@quistberg2019impact] was excluded as being tangential to our research; the abstract of another paper revealed that it was mainly concerned with survey methods: "Common methods for measuring mode share include Hands Up surveys and family surveys, but these require teacher and parental involvement." [@sersli2019getting]. After this process, our academic corpus comprised 227 journal articles that were readied for analysis.
+
+### Comment 3 {#r1-comment-3}
+
+> I think section 5, and the paper overall, could be strengthened by writing a bit more on the relationship between this automated topic modelling approach, and traditional forms of qualitative thematic analysis - some reflection on the possibility of generating similar or different results, using either approach - would be quite fascinating and helpful. I couldn't help but wonder if the authors considered this approach to be a replace for .... or in addition too, traditional - less automated approaches. Certainly one advantage is just being able to handle the volume of data. 
+
+Thank you for this comment. We have added the following to the concluding section:
+
+Finally, we would like to close with a brief note on the methodology. Natural language processing and analysis of frames are still not widely adopted in transportation research. Based on our experience, we tend to see computer-assisted text analysis as a complement rather than a substitute to expert reading of the documents. We would not recommend to proceed to interpretation without reading the documents, but the supervised automation helps to detect patterns that can be validated by an expert based on spot checks or more in-depth reading of the original sources. Like with any qualitative research, interpretation of the frames may differ by expert; in this research we aimed to develop a consensus interpretation by involving all authors in the discussion of the results. Furthermore, the research was conducted as an open, reproducible project: all code and data are available in a public repository^[\url{https://github.com/desjae/AST-Framing-Analysis-Ontario}], which means that all our assumptions are open to scrutiny. Moreover, other researchers can refer to the repository to expand or challenge our conclusions.
+
+### Comment 4 {#r1-comment-4}
+
+> This brings me to my primary concern - I couldn't help but wonder if this piece might be a better fit to TR-B or C - given the emphasis on demonstrating method/tools - and the production of conclusions that are rather unsurprising - the last sentence of the paper alone is something that has been the focus of much work, in practice, for decades.
+
+Thank you for sharing this concern. The methods are not really new outside of their application to this research. Natural language processing is a field mature enough to have its own textbooks; framing analysis is also widespread, although its use in transportation research remains limited. We do not think of either method as emerging technologies or sufficiently innovative to make this a "methodologica" paper. Instead, what we think is new is the ability of these methods to reveal something interesting about the effectiveness of transportation policy.
+
+The last sentence in the original paper reads "STP stakeholders should emphasize why AST rates should increase in local communities and how the negative effects of nonactive modes to school may impact children's health and wellbeing". It is true that there is abundant research about the negative effects of nonactive modes, and most experts would agree that those negative effects explain why active travel rates should increase. What is new is what you astutely note in the following comment: despite all this wealth of knowledge, we don't seem to be further along in terms of convincing the public of buying into active travel policies. Research into how active travel is framed can help us understand what needs to be done to craft more effective communications and shared meanings of the relevant issues.
+
+### Comment 5 {#r1-comment-5}
+
+> The same can be said of the first sentence of section 7.2 - i.e, the problem is the car, and so we need to make cars seem less helpful to the cause. At the same time, the wide ranging scope of the analysis somewhat interestingly tells us that despite all of this research and policy work - we are somehow no further along (overall) than perhaps we were at the very beginning.
+
+This is a very shrewd comment that in our opinion bangs the nail right on the head: the problem is not so much that we don't know that the problem is the car. The problem is that we don't know how to effectively communicate that knowledge to a variety of stakeholders for the purpose of creating shared meanings that can support policy development and implementation. By examining the case of AST in Ontario we find that the framing of transportation in communities is reasonable but anodyne. It downloads responsibility for change to individuals and does not make an effective call for collective action. The tone is positive and does not convey urgency about some critical stakes (e.g., climate change). In essence, the framing can be likened to "eating spinach is good for you; if you decide to eat spinach we can tell you where to buy some". We cannot imagine anyone arguing that eating spinach is bad, but it is questionable how effective this message would be to persuade people to eat spinach.
+
+We tried to capture these ideas in the rewritten abstract of the paper:
+
+Active school travel (AST) is a relevant policy issue in Ontario, Canada, as reflected in provincial support for school travel planning (STP) efforts. Two pillars of school travel plans are education and encouragement. For these pillars to stand, all relevant stakeholders must be cognizant of and understand well the issues and stakes. For this reason, how AST is communicated to them is essential. In this research we adopt frame analysis to investigate the way various organizations communicate around AST to the public. A frame is a central organizing idea or story line that provides meaning to a particular phenomenon, and helps to set the parameters for conversations about policy. In the case of AST, framing can influence what policy alternatives are perceived as available by children, parents, and their wider communities. To investigate framing of AST in Ontario we use natural language processing techniques to analyze publicly available documents from Ontario stakeholders involved in school travel planning. We then compared the findings from these documents to a selection of academic studies on AST. We conclude that framing of AST in Ontario is mostly empirical-scientific and largely in agreement with academic research on AST. On the other hand, it it does not appeal to moral reasons for change, and is therefore oddly soothing and lacking in urgency. Furthermore, the frames used download responsibility for change to households, which limits the scope of policy alternatives by keeping collective action out of the frame.
+
+\newpage
+
+## Reviewer 2
+
+### Comment 1 {#r2-comment-1}
+
+> This paper is well written and the analysis is conducted rigorously and it is interesting. 
+
+We are grateful for your comments and feedback. 
+
+### Comment 2 {#r2-comment-2}
+
+> However in my opinion is not within the scope of Transportation Research Part A. I did not understand the link with the policy and practice. 
+
+We wish to reiterate our response to [Reviewer 1](#r1-comment-4). We part from the working hypothesis that if the Editor, having perused the paper, decided to send it out for peer-review, they must have decided that the paper is within the scope of the journal.
+
+Having said that, we made a renewed effort to clarify the link of our research to policy and practice. In particular, we think Reviewer 1 right on target with their [comment](#r1-comment-5): despite the mass of academic research in transportation, we do not seem to be further along in effectively communicating with the public the ever higher stakes of our ongoing love affair with the car. The problem does not seem to be the lack of policies, but awareness and buy-in by the public. Why is this the case when it comes to active school travel?
+
+The paper has been reworked to (hopefully) improve the link between framing and policy. The argument goes as follows:
+
+1. "Public policies are directly tied to the constant shaping of collective identities" [@beland2014developing, p. 551; also see beland2008nationalism; @akerlof2010identity]
+
+2. Collective identities (and therefore policy) are shaped by frames: frames can activate or restrict particular responses in the intended audience [@panFramingAnalysisApproach1993]. They do this by position existing solutions as suitable to issues, which limits awareness of other policy approaches [@mahFramecriticalPolicyAnalysis2014] or, contrariwise, by revealing more diverse policy options than conventional wisdom would have [@bosomworth2015climate].
+
+3. Content analysis of documents in the case of Ontario uncovers some reasons why AST, despite being a policy issue, has struggled to reverse motorization trends.
+
+4. Active school travel is framed in Ontario in such a way that it downloads the responsibility for action to individuals; it does not make a convincing call for collective action. It is also fairly neutral at a time when some stakes (e.g., climate change) are extremely high. By adopting an empirical-scientific approach, it does not appeal to moral reasons for change. And it ends up being lukewarm and anodyne. 
+
+We tried to capture these ideas in the rewritten abstract of the paper:
+
+Active school travel (AST) is a relevant policy issue in Ontario, Canada, as reflected in provincial support for school travel planning (STP) efforts. Two pillars of school travel plans are education and encouragement. For these pillars to stand, all relevant stakeholders must be cognizant of and understand well the issues and stakes. For this reason, how AST is communicated to them is essential. In this research we adopt frame analysis to investigate the way various organizations communicate around AST to the public. A frame is a central organizing idea or story line that provides meaning to a particular phenomenon, and helps to set the parameters for conversations about policy. In the case of AST, framing can influence what policy alternatives are perceived as available by children, parents, and their wider communities. To investigate framing of AST in Ontario we use natural language processing techniques to analyze publicly available documents from Ontario stakeholders involved in school travel planning. We then compared the findings from these documents to a selection of academic studies on AST. We conclude that framing of AST in Ontario is mostly empirical-scientific and largely in agreement with academic research on AST. On the other hand, it it does not appeal to moral reasons for change, and is therefore oddly soothing and lacking in urgency. Furthermore, the frames used download responsibility for change to households, which limits the scope of policy alternatives by keeping collective action out of the frame.
+
+### Comment 3 {#r2-comment-3}
+
+> The research finds that a specific policy is not working as intended and it seems to be very expensive. How can this result be generalised and used to say if any policy is "good value for money"? The authors need to convince me about the practical application of their method. Can you identify clear policy recommendations that can be used in practice?
+
+Point 4 [above](#r2-comment-2) highlights some things that we learn from this research, and suggests some ways to change the way AST is framed to make them more efficient.
+
+### Comment 4 {#r2-comment-4}
+
+> Otherwise the paper, even if interesting, is only methodological and would fit better some journals that focuses on text analysis.
+
+Thank you for your opinion. We will defer to the editor on the matter of scope of the journal.
+
+\newpage
+
+## References
