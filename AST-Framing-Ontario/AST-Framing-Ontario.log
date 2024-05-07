@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  7 MAY 2024 07:40
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.18)  10 JAN 2024 14:09
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **AST-Framing-Ontario.tex
 (./AST-Framing-Ontario.tex
+<<<<<<< HEAD
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (./elsarticle.cls
@@ -19,6 +24,23 @@ Package: xparse 2024-03-14 L3 Experimental document command parser
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count190
+=======
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+(./elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-12-11 L3 programming layer (loader) 
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count187
+\l__pdf_internal_box=\box51
+)) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count188
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 )
 \@bls=\dimen140
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -26,6 +48,7 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
+<<<<<<< HEAD
 \c@part=\count191
 \c@section=\count192
 \c@subsection=\count193
@@ -34,6 +57,16 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count196
 \c@figure=\count197
 \c@table=\count198
+=======
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen141
@@ -56,6 +89,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
 )
+<<<<<<< HEAD
 \c@tnote=\count199
 \c@fnote=\count266
 \c@cnote=\count267
@@ -63,6 +97,15 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \c@author=\count269
 \@eadauthor=\toks18
 \c@affn=\count270
+=======
+\c@tnote=\count197
+\c@fnote=\count198
+\c@cnote=\count199
+\c@ead=\count266
+\c@author=\count267
+\@eadauthor=\toks18
+\c@affn=\count268
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \absbox=\box52
 \elsarticlehighlightsbox=\box53
 \elsarticlegrabsbox=\box54
@@ -80,7 +123,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
+<<<<<<< HEAD
 \c@NAT@ctr=\count271
+=======
+\c@NAT@ctr=\count269
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 )
 \splwrite=\write3
 \openout3 = `AST-Framing-Ontario.spl'.
@@ -92,9 +139,15 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
+<<<<<<< HEAD
 \Gm@cnth=\count272
 \Gm@cntv=\count273
 \c@Gm@tempcnt=\count274
+=======
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \Gm@bindingoffset=\dimen147
 \Gm@wd@mp=\dimen148
 \Gm@odd@mp=\dimen149
@@ -171,6 +224,7 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
+<<<<<<< HEAD
 \inf@bad=\count275
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count276
@@ -179,6 +233,16 @@ LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count278
 \DOTSCASE@=\count279
+=======
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count276
+\DOTSCASE@=\count277
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -191,12 +255,17 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen158
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+<<<<<<< HEAD
 \macc@depth=\count280
+=======
+\macc@depth=\count278
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
+<<<<<<< HEAD
 \c@MaxMatrixCols=\count281
 \dotsspace@=\muskip17
 \c@parentequation=\count282
@@ -205,6 +274,16 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \row@=\count284
 \column@=\count285
 \maxfields@=\count286
+=======
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks23
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \andhelp@=\toks24
 \eqnshift@=\dimen159
 \alignsep@=\dimen160
@@ -227,6 +306,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
+<<<<<<< HEAD
 \linenopenalty=\count287
 \output=\toks27
 \linenoprevgraf=\count288
@@ -237,11 +317,27 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \c@LN@truepage=\count291
 \c@internallinenumber=\count292
 \c@internallinenumbers=\count293
+=======
+\linenopenalty=\count285
+\output=\toks27
+\linenoprevgraf=\count286
+\linenumbersep=\dimen165
+\linenumberwidth=\dimen166
+\c@linenumber=\count287
+\c@pagewiselinenumber=\count288
+\c@LN@truepage=\count289
+\c@internallinenumber=\count290
+\c@internallinenumbers=\count291
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \quotelinenumbersep=\dimen167
 \bframerule=\dimen168
 \bframesep=\dimen169
 \bframebox=\box60
+<<<<<<< HEAD
 \linenoamsmath@ams@eqpen=\count294
+=======
+\linenoamsmath@ams@eqpen=\count292
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 LaTeX Info: Redefining \\ on input line 3180.
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -265,6 +361,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+<<<<<<< HEAD
 Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
 \MT@toks=\toks30
 \MT@tempbox=\box61
@@ -277,6 +374,20 @@ LaTeX Info: Redefining \textls on input line 1392.
 \MT@outer@kern=\dimen170
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
 \MT@listname@count=\count296
+=======
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks30
+\MT@tempbox=\box61
+\MT@count=\count293
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks31
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen170
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count294
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 902.
@@ -287,6 +398,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
 )) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+<<<<<<< HEAD
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -297,6 +409,17 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
+=======
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -311,6 +434,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
+<<<<<<< HEAD
 \c@section@level=\count297
 )
 \@linkdim=\dimen171
@@ -318,11 +442,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@pagecounter=\count299
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+=======
+\c@section@level=\count295
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
+<<<<<<< HEAD
 \Hy@SavedSpaceFactor=\count300
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -339,12 +473,31 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count301
 LaTeX Info: Redefining \url on input line 4784.
+=======
+\Hy@SavedSpaceFactor=\count298
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count299
+LaTeX Info: Redefining \url on input line 4786.
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \XeTeXLinkMargin=\dimen172
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
+<<<<<<< HEAD
 \Fld@menulength=\count302
 \Field@Width=\dimen173
 \Fld@charsize=\dimen174
@@ -355,10 +508,23 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
+=======
+\Fld@menulength=\count300
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
+<<<<<<< HEAD
 \Hy@abspage=\count303
 \c@Item=\count304
 \c@Hfootnote=\count305
@@ -366,12 +532,26 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hpdftex.
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+=======
+\Hy@abspage=\count301
+\c@Item=\count302
+\c@Hfootnote=\count303
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
+<<<<<<< HEAD
 \Fld@listcount=\count306
 \c@bookmark@seq@number=\count307
+=======
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -399,12 +579,21 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen182
 \cmidrulekern=\dimen183
 \defaultaddspace=\dimen184
+<<<<<<< HEAD
 \@cmidla=\count308
 \@cmidlb=\count309
 \@aboverulesep=\dimen185
 \@belowrulesep=\dimen186
 \@thisruleclass=\count310
 \@lastruleclass=\count311
+=======
+\@cmidla=\count306
+\@cmidlb=\count307
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count308
+\@lastruleclass=\count309
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \@thisrulewidth=\dimen187
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
@@ -412,17 +601,28 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip60
 \LTpre=\skip61
 \LTpost=\skip62
+<<<<<<< HEAD
 \LTchunksize=\count312
+=======
+\LTchunksize=\count310
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \LTcapwidth=\dimen188
 \LT@head=\box62
 \LT@firsthead=\box63
 \LT@foot=\box64
 \LT@lastfoot=\box65
 \LT@gbox=\box66
+<<<<<<< HEAD
 \LT@cols=\count313
 \LT@rows=\count314
 \c@LT@tables=\count315
 \c@LT@chunks=\count316
+=======
+\LT@cols=\count311
+\LT@rows=\count312
+\c@LT@tables=\count313
+\c@LT@chunks=\count314
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \LT@p@ftn=\toks32
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
@@ -436,19 +636,31 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip65
+<<<<<<< HEAD
 \multirow@cntb=\count317
+=======
+\multirow@cntb=\count315
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \multirow@dima=\skip66
 \bigstrutjot=\dimen191
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen192
 \WF@size=\dimen193
+<<<<<<< HEAD
 \c@WF@wrappedlines=\count318
+=======
+\c@WF@wrappedlines=\count316
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \WF@box=\box69
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
+<<<<<<< HEAD
 \c@float@type=\count319
+=======
+\c@float@type=\count317
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \float@exts=\toks35
 \float@box=\box70
 \@float@everytoks=\toks36
@@ -464,7 +676,11 @@ Package color Info: Driver file: pdftex.def on input line 149.
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 \everycr=\toks37
 \minrowclearance=\skip67
+<<<<<<< HEAD
 \rownum=\count320
+=======
+\rownum=\count318
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
@@ -478,6 +694,7 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box72
+<<<<<<< HEAD
 \sift@deathcycles=\count321
 \@vwid@loff=\dimen194
 \@vwid@roff=\dimen195
@@ -488,6 +705,18 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@Xcol=\count325
 \tabu@alloc=\count326
 \tabu@nested=\count327
+=======
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen194
+\@vwid@roff=\dimen195
+)
+\c@taburow=\count320
+\tabu@nbcols=\count321
+\tabu@cnt=\count322
+\tabu@Xcol=\count323
+\tabu@alloc=\count324
+\tabu@nested=\count325
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \tabu@target=\dimen196
 \tabu@spreadtarget=\dimen197
 \tabu@naturalX=\dimen198
@@ -521,7 +750,11 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \UL@skip=\skip70
 \UL@hook=\toks40
 \UL@height=\dimen261
+<<<<<<< HEAD
 \UL@pe=\count328
+=======
+\UL@pe=\count326
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \UL@pixel=\dimen262
 \ULC@box=\box80
 Package: ulem 2019/11/18
@@ -529,7 +762,11 @@ Package: ulem 2019/11/18
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen264
+<<<<<<< HEAD
 \c@nlinenum=\count329
+=======
+\c@nlinenum=\count327
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 \TeXr@lab=\toks41
 ) (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -754,7 +991,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 60
 (c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf, id=352, 469.755pt x 325.215pt>
+<AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf, id=353, 469.755pt x 325.215pt>
 File: AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf Graphic file (type pdf)
 <use AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf>
 Package pdftex.def Info: AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf  used on input line 618.
@@ -765,17 +1002,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.656 N
        ext, we analyzed bigrams in the academic corpus separately to compare <./AST-Framing-Ontario_files/figure-latex/policy-visual-1.pdf>]
-<AST-Framing-Ontario_files/figure-latex/academic-visual-1.pdf, id=414, 469.755pt x 325.215pt>
+<AST-Framing-Ontario_files/figure-latex/academic-visual-1.pdf, id=415, 469.755pt x 325.215pt>
 File: AST-Framing-Ontario_files/figure-latex/academic-visual-1.pdf Graphic file (type pdf)
 <use AST-Framing-Ontario_files/figure-latex/academic-visual-1.pdf>
 Package pdftex.def Info: AST-Framing-Ontario_files/figure-latex/academic-visual-1.pdf  used on input line 675.
 (pdftex.def)             Requested size: 468.0pt x 323.99841pt.
-<AST-Framing-Ontario_files/figure-latex/policy-terms-1.pdf, id=417, 469.755pt x 325.215pt>
+<AST-Framing-Ontario_files/figure-latex/policy-terms-1.pdf, id=418, 469.755pt x 325.215pt>
 File: AST-Framing-Ontario_files/figure-latex/policy-terms-1.pdf Graphic file (type pdf)
 <use AST-Framing-Ontario_files/figure-latex/policy-terms-1.pdf>
 Package pdftex.def Info: AST-Framing-Ontario_files/figure-latex/policy-terms-1.pdf  used on input line 716.
 (pdftex.def)             Requested size: 468.0pt x 323.99841pt.
-<AST-Framing-Ontario_files/figure-latex/academic-terms-1.pdf, id=418, 469.755pt x 325.215pt>
+<AST-Framing-Ontario_files/figure-latex/academic-terms-1.pdf, id=419, 469.755pt x 325.215pt>
 File: AST-Framing-Ontario_files/figure-latex/academic-terms-1.pdf Graphic file (type pdf)
 <use AST-Framing-Ontario_files/figure-latex/academic-terms-1.pdf>
 Package pdftex.def Info: AST-Framing-Ontario_files/figure-latex/academic-terms-1.pdf  used on input line 720.
@@ -811,16 +1048,22 @@ Package natbib Warning: There were undefined citations.
 
 [19] (./AST-Framing-Ontario.aux)
  ***********
+<<<<<<< HEAD
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
+=======
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
  ***********
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `AST-Framing-Ontario.out' has not changed.
-(rerunfilecheck)             Checksum: 2AF82085ECD70848CACEF31C1A4CFE7B;2992.
+(rerunfilecheck)             Checksum: 7F87D3D727D6C1F150AF285FF56E68A8;2883.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  16161 strings out of 475948
  264553 string characters out of 5787674
  1986754 words of memory out of 5000000
@@ -830,9 +1073,20 @@ Here is how much of TeX's memory you used:
  72i,14n,79p,1016b,734s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
 Output written on AST-Framing-Ontario.pdf (19 pages, 436924 bytes).
+=======
+ 16205 strings out of 476114
+ 265697 string characters out of 5792255
+ 1985460 words of memory out of 5000000
+ 37572 multiletter control sequences out of 15000+600000
+ 622802 words of font info for 200 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 72i,14n,79p,1016b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/paezha/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
+Output written on AST-Framing-Ontario.pdf (19 pages, 439075 bytes).
+>>>>>>> ce0ab8ba43ac2984ede8962e666f8ef754dd5d88
 PDF statistics:
- 716 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 728 PDF objects out of 1000 (max. 8388607)
+ 665 compressed objects within 7 object streams
+ 146 named destinations out of 1000 (max. 500000)
  31925 words of extra memory for PDF output out of 35830 (max. 10000000)
 
