@@ -58,28 +58,28 @@ rm(list = ls())
 ```
 
 ```{r load-packages, include=FALSE}
-library(DiagrammeR)
-library(dplyr)
-library(ggraph)
-library(ggplot2)
-library(igraph)
-library(kableExtra)
-library(pdftools)
-library(readr)
-library(reshape2)
-library(stringr)
-library(text2vec)
-library(textdata)
-library(tidyr)
-library(tidytext)
-library(tm) 
-library(tools)
-library(topicmodels)
-library(widyr)
-library(word2vec)
-library(wordcloud)
-library(ldatuning)
-library(quanteda)
+library(DiagrammeR) # Graph/Network Visualization
+library(dplyr) # A Grammar of Data Manipulation
+library(ggraph) # An Implementation of Grammar of Graphics for Graphs and Networks
+library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(igraph) # Network Analysis and Visualization
+library(kableExtra) # Construct Complex Table with 'kable' and Pipe Syntax
+library(pdftools) # Text Extraction, Rendering and Converting of PDF Documents
+library(readr) # Read Rectangular Text Data
+library(reshape2) # Flexibly Reshape Data: A Reboot of the Reshape Package
+library(stringr) # Simple, Consistent Wrappers for Common String Operations
+library(text2vec) # Modern Text Mining Framework for R
+library(textdata) # Download and Load Various Text Datasets
+library(tidyr) # Tidy Messy Data
+library(tidytext) # Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools
+library(tm) # Text Mining Package 
+library(tools) # Tools for Package Development
+library(topicmodels) # Topic Models
+library(widyr) # Widen, Process, then Re-Tidy Data
+library(word2vec) # Distributed Representations of Words
+library(wordcloud) # Word Clouds
+library(ldatuning) # Tuning of the Latent Dirichlet Allocation Models Parameters
+library(quanteda) # Quantitative Analysis of Textual Data
 ```
 
 ```{r load-data, include=FALSE}
@@ -913,3 +913,4 @@ Finally, we would like to close with a brief note on the methodology. Natural la
 
 References
 ===============
+
